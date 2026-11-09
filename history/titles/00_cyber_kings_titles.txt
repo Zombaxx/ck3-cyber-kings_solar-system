@@ -2098,6 +2098,7 @@ k_mexico = {
 	1026.1.1 = { holder = 101311 }
 	1027.1.1 = { holder = 101312 }
 	1048.1.1 = { holder = 101315 government = feudal_government }
+	1066.1.1 = { succession_laws = { feudal_elective_succession_law } }   # Mexico
 }
 c_province0089 = {
 	941.1.1 = { holder = 100890 }
@@ -2877,6 +2878,7 @@ d_france = {
 	1030.1.1 = { holder = 104922 }
 	1049.1.1 = { holder = 104925 government = feudal_government }
 	1066.1.1 = { liege = k_western_europe }
+	1066.1.1 = { succession_laws = { feudal_elective_succession_law } }   # France (duchy only)
 }
 c_province0535 = {
 	934.1.1 = { holder = 105350 }
@@ -6358,6 +6360,7 @@ k_kingdom0031 = {
 	1006.1.1 = { holder = 100311 }
 	1047.1.1 = { holder = 100312 }
 	1051.1.1 = { holder = 100315 government = tribal_government }
+	1066.1.1 = { succession_laws = { tribal_elective_succession_law } }   # Argentina
 }
 c_province0071 = {
 	930.1.1 = { holder = 100710 }
@@ -7261,6 +7264,7 @@ k_kingdom0040 = {
 	990.1.1 = { holder = 100401 }
 	1023.1.1 = { holder = 100402 }
 	1064.1.1 = { holder = 100405 government = tribal_government }
+	1066.1.1 = { succession_laws = { tribal_elective_succession_law } }   # Peru
 }
 d_duchy0016 = {
 	938.1.1 = { holder = 100160 }
@@ -7350,6 +7354,7 @@ d_duchy0009 = {
 	1011.1.1 = { holder = 100091 }
 	1016.1.1 = { holder = 100092 }
 	1064.1.1 = { holder = 100095 government = feudal_government }
+	1066.1.1 = { succession_laws = { feudal_elective_succession_law } }   # Ecuador (duchy only)
 }
 c_province0034 = {
 	944.1.1 = { holder = 100340 }
@@ -10391,6 +10396,7 @@ k_kingdom0821 = {
 	1031.1.1 = { holder = 108211 }
 	1032.1.1 = { holder = 108212 }
 	1063.1.1 = { holder = 108215 government = feudal_government }
+	1066.1.1 = { succession_laws = { feudal_elective_succession_law } }   # India
 }
 c_province0887 = {
 	937.1.1 = { holder = 108870 }
@@ -10537,6 +10543,7 @@ d_duchy0800 = {
 	1024.1.1 = { holder = 108001 }
 	1035.1.1 = { holder = 108002 }
 	1061.1.1 = { holder = 108005 government = feudal_government }
+	1066.1.1 = { succession_laws = { feudal_elective_succession_law } }   # Pakistan (duchy only)
 }
 c_sri_lanka = {
 	928.1.1 = { holder = 109170 }
@@ -15887,6 +15894,7 @@ c_province0100 = {
 }
 k_brazil = {
 	1066.1.1 = { holder = 101675 government = feudal_government }
+	1066.1.1 = { succession_laws = { feudal_elective_succession_law } }   # Brazil
 }
 c_province0104 = {
 	937.1.1 = { holder = 101040 }
@@ -15972,6 +15980,7 @@ k_istanbul = {
 	1026.1.1 = { holder = 106041 }
 	1027.1.1 = { holder = 106042 }
 	1057.1.1 = { holder = 106045 government = feudal_government }
+	1066.1.1 = { succession_laws = { feudal_elective_succession_law } }   # Turkiye
 }
 d_istanbul = {
 	958.1.1 = { holder = 106040 }
@@ -18931,6 +18940,7 @@ d_duchy0456 = {
 	1021.1.1 = { holder = 104561 }
 	1042.1.1 = { holder = 104562 }
 	1053.1.1 = { holder = 104565 government = feudal_government }
+	1066.1.1 = { succession_laws = { feudal_elective_succession_law } }   # Ireland (duchy only)
 }
 d_duchy0480 = {
 	935.1.1 = { holder = 104800 }
@@ -18996,6 +19006,7 @@ k_kingdom0120 = {
 	1045.1.1 = { holder = 101201 }
 	1046.1.1 = { holder = 101202 }
 	1058.1.1 = { holder = 101205 government = feudal_government }
+	1066.1.1 = { succession_laws = { feudal_elective_succession_law } }   # Venezuela
 }
 c_province0193 = {
 	931.1.1 = { holder = 101930 }
@@ -19847,6 +19858,7 @@ d_duchy0599 = {
 	1060.1.1 = { holder = 105995 government = feudal_government }
 	1066.1.1 = { liege = k_kingdom0599 }
 	1066.9.15 = { liege = e_european_union }
+	1066.1.1 = { succession_laws = { feudal_elective_succession_law } }   # Austria (duchy "Austria-Hungary")
 }
 c_province0624 = {
 	966.1.1 = { holder = 106240 }
@@ -19971,6 +19983,7 @@ d_rome = {
 	1061.1.1 = { holder = 105795 government = feudal_government }
 	1066.1.1 = { liege = k_rome }
 	1066.9.15 = { liege = e_european_union }
+	1066.1.1 = { succession_laws = { feudal_elective_succession_law } }   # Italy (duchy "Italia")
 }
 c_province0591 = {
 	941.1.1 = { holder = 105910 }
@@ -20010,6 +20023,7 @@ k_kingdom0935 = {
 	1031.1.1 = { holder = 109351 }
 	1054.1.1 = { holder = 109352 }
 	1064.1.1 = { holder = 109355 government = feudal_government }
+	1066.1.1 = { succession_laws = { feudal_elective_succession_law } }   # Philippines (kingdom; e_empire0935 has no holder at start)
 }
 c_province0935 = {
 	940.1.1 = { holder = 109350 }
@@ -22009,6 +22023,7 @@ e_united_states = {
 	1041.1.1 = { holder = 102725 government = feudal_government }
 	1057.1.1 = { holder = 778015 }
 	1061.1.1 = { holder = 102725 government = feudal_government }
+	1066.1.1 = { succession_laws = { feudal_elective_succession_law } }   # USA
 }
 e_empire1522 = {
 	1066.1.1 = { holder = 777777 government = tribal_government }
@@ -22230,6 +22245,7 @@ e_empire0223 = {
 }
 e_empire0982 = {
 	1066.1.1 = { holder = 110065 government = feudal_government }
+	1066.1.1 = { succession_laws = { feudal_elective_succession_law } }   # Indonesia
 }
 e_european_union = {
 	974.1.1 = { holder = 400046 }
@@ -22246,6 +22262,7 @@ e_european_union = {
 	1030.1.1 = { holder = 400057 }
 	1035.1.1 = { holder = 400058 }
 	1040.1.1 = { holder = 105285 government = feudal_government }
+	1066.1.1 = { succession_laws = { feudal_elective_succession_law } }   # EU
 }
 d_duchy1014 = {
 	936.1.1 = { holder = 109130 }
@@ -23140,6 +23157,7 @@ k_kingdom0037 = {
 	1015.1.1 = { holder = 100371 }
 	1019.1.1 = { holder = 100372 }
 	1049.1.1 = { holder = 100375 government = feudal_government }
+	1066.1.1 = { succession_laws = { feudal_elective_succession_law } }   # Chile
 }
 d_duchy0037 = {
 	927.1.1 = { holder = 100370 }
@@ -23814,6 +23832,7 @@ d_panama = {
 	1030.1.1 = { holder = 100651 }
 	1040.1.1 = { holder = 100652 }
 	1065.1.1 = { holder = 100655 government = feudal_government }
+	1066.1.1 = { succession_laws = { feudal_elective_succession_law } }   # Colombia (duchy; k_panama "Colombia" has no holder at start)
 }
 
 ########## k_kingdom2009
