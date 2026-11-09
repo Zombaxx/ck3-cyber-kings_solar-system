@@ -1,0 +1,350 @@
+﻿# Cyber Kings: holy sites of the faiths that have no vanilla equivalent (gen_peoples.py).
+# One site per county, shared by every new faith that had it in CK2; the modifier follows the first faith's theme.
+
+ck_moonlanding = {
+	county = c_moonlanding
+	county_holder_character_modifier = {
+		learning = 2
+	}
+	faith_character_modifier = {
+		monthly_piety_gain_mult = 0.05
+	}
+}
+
+ck_ryha = {
+	county = c_ryha
+	county_holder_character_modifier = {
+		learning = 2
+	}
+	faith_character_modifier = {
+		monthly_piety_gain_mult = 0.05
+	}
+}
+
+ck_province0142 = {
+	county = c_province0142
+	county_holder_character_modifier = {
+		learning = 2
+	}
+	faith_character_modifier = {
+		monthly_piety_gain_mult = 0.05
+	}
+}
+
+ck_foothills_of_mun = {
+	county = c_foothills_of_mun
+	county_holder_character_modifier = {
+		learning = 2
+	}
+	faith_character_modifier = {
+		monthly_piety_gain_mult = 0.05
+	}
+}
+
+ck_province0333 = {
+	county = c_province0333
+	county_holder_character_modifier = {
+		learning = 2
+	}
+	faith_character_modifier = {
+		monthly_piety_gain_mult = 0.05
+	}
+}
+
+ck_rome = {
+	county = c_rome
+	county_holder_character_modifier = {
+		stewardship = 1
+		diplomacy = 1
+	}
+	faith_character_modifier = {
+		monthly_prestige_gain_mult = 0.05
+	}
+}
+
+ck_jerusalem = {
+	county = c_jerusalem
+	county_holder_character_modifier = {
+		stewardship = 1
+		diplomacy = 1
+	}
+	faith_character_modifier = {
+		monthly_prestige_gain_mult = 0.05
+	}
+}
+
+ck_alexandria = {
+	county = c_alexandria
+	county_holder_character_modifier = {
+		stewardship = 1
+		diplomacy = 1
+	}
+	faith_character_modifier = {
+		monthly_prestige_gain_mult = 0.05
+	}
+}
+
+ck_mecca = {
+	county = c_mecca
+	county_holder_character_modifier = {
+		stewardship = 1
+		diplomacy = 1
+	}
+	faith_character_modifier = {
+		monthly_prestige_gain_mult = 0.05
+	}
+}
+
+ck_istanbul = {
+	county = c_istanbul
+	county_holder_character_modifier = {
+		stewardship = 1
+		diplomacy = 1
+	}
+	faith_character_modifier = {
+		monthly_prestige_gain_mult = 0.05
+	}
+}
+
+ck_province1584 = {
+	county = c_province1584
+	county_holder_character_modifier = {
+		stewardship = 2
+	}
+	faith_character_modifier = {
+		development_growth_factor = 0.05
+	}
+}
+
+ck_province1624 = {
+	county = c_province1624
+	county_holder_character_modifier = {
+		stewardship = 2
+	}
+	faith_character_modifier = {
+		development_growth_factor = 0.05
+	}
+}
+
+ck_province1479 = {
+	county = c_province1479
+	county_holder_character_modifier = {
+		stewardship = 2
+	}
+	faith_character_modifier = {
+		development_growth_factor = 0.05
+	}
+}
+
+ck_province1532 = {
+	county = c_province1532
+	county_holder_character_modifier = {
+		stewardship = 2
+	}
+	faith_character_modifier = {
+		development_growth_factor = 0.05
+	}
+}
+
+ck_province1696 = {
+	county = c_province1696
+	county_holder_character_modifier = {
+		stewardship = 2
+	}
+	faith_character_modifier = {
+		development_growth_factor = 0.05
+	}
+}
+
+ck_tenochtitlan = {
+	county = c_tenochtitlan
+	county_holder_character_modifier = {
+		health = 0.25
+		fertility = 0.1
+	}
+	faith_character_modifier = {
+		monthly_piety_gain_mult = 0.05
+	}
+}
+
+ck_rio = {
+	county = c_rio
+	county_holder_character_modifier = {
+		health = 0.25
+		fertility = 0.1
+	}
+	faith_character_modifier = {
+		monthly_piety_gain_mult = 0.05
+	}
+}
+
+ck_netherlands = {
+	county = c_netherlands
+	county_holder_character_modifier = {
+		health = 0.25
+		fertility = 0.1
+	}
+	faith_character_modifier = {
+		monthly_piety_gain_mult = 0.05
+	}
+}
+
+ck_moscow = {
+	county = c_moscow
+	county_holder_character_modifier = {
+		learning = 2
+	}
+	faith_character_modifier = {
+		monthly_piety_gain_mult = 0.05
+	}
+}
+
+ck_province0697 = {
+	county = c_province0697
+	county_holder_character_modifier = {
+		health = 0.25
+		fertility = 0.1
+	}
+	faith_character_modifier = {
+		monthly_piety_gain_mult = 0.05
+	}
+}
+
+ck_province0805 = {
+	county = c_province0805
+	county_holder_character_modifier = {
+		health = 0.25
+		fertility = 0.1
+	}
+	faith_character_modifier = {
+		monthly_piety_gain_mult = 0.05
+	}
+}
+
+ck_province0986 = {
+	county = c_province0986
+	county_holder_character_modifier = {
+		health = 0.25
+		fertility = 0.1
+	}
+	faith_character_modifier = {
+		monthly_piety_gain_mult = 0.05
+	}
+}
+
+ck_dioxide = {
+	county = c_dioxide
+	county_holder_character_modifier = {
+		health = 0.25
+		fertility = 0.1
+	}
+	faith_character_modifier = {
+		monthly_piety_gain_mult = 0.05
+	}
+}
+
+ck_province0952 = {
+	county = c_province0952
+	county_holder_character_modifier = {
+		health = 0.25
+		fertility = 0.1
+	}
+	faith_character_modifier = {
+		monthly_piety_gain_mult = 0.05
+	}
+}
+
+ck_pavonis_mons = {
+	county = c_pavonis_mons
+	county_holder_character_modifier = {
+		martial = 1
+		prowess = 2
+	}
+	faith_character_modifier = {
+		knight_effectiveness_mult = 0.05
+	}
+}
+
+ck_valles = {
+	county = c_valles
+	county_holder_character_modifier = {
+		martial = 1
+		prowess = 2
+	}
+	faith_character_modifier = {
+		knight_effectiveness_mult = 0.05
+	}
+}
+
+ck_argyre = {
+	county = c_argyre
+	county_holder_character_modifier = {
+		martial = 1
+		prowess = 2
+	}
+	faith_character_modifier = {
+		knight_effectiveness_mult = 0.05
+	}
+}
+
+ck_planum_australe = {
+	county = c_planum_australe
+	county_holder_character_modifier = {
+		martial = 1
+		prowess = 2
+	}
+	faith_character_modifier = {
+		knight_effectiveness_mult = 0.05
+	}
+}
+
+ck_hellas_delta = {
+	county = c_hellas_delta
+	county_holder_character_modifier = {
+		martial = 1
+		prowess = 2
+	}
+	faith_character_modifier = {
+		knight_effectiveness_mult = 0.05
+	}
+}
+
+ck_province1775 = {
+	county = c_province1775
+	county_holder_character_modifier = {
+		learning = 2
+	}
+	faith_character_modifier = {
+		monthly_piety_gain_mult = 0.05
+	}
+}
+
+ck_province1970 = {
+	county = c_province1970
+	county_holder_character_modifier = {
+		learning = 2
+	}
+	faith_character_modifier = {
+		monthly_piety_gain_mult = 0.05
+	}
+}
+
+ck_province2122 = {
+	county = c_province2122
+	county_holder_character_modifier = {
+		learning = 2
+	}
+	faith_character_modifier = {
+		monthly_piety_gain_mult = 0.05
+	}
+}
+
+ck_province2138 = {
+	county = c_province2138
+	county_holder_character_modifier = {
+		learning = 2
+	}
+	faith_character_modifier = {
+		monthly_piety_gain_mult = 0.05
+	}
+}

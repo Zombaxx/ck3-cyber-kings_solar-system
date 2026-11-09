@@ -1,0 +1,6 @@
+﻿NGraphics = {
+	# no drifting cloud/fog layer over the edges of the map: space is clear
+	SURROUND_MAP_MINCLOUDALPHA = 0.0
+	SURROUND_MAP_MAXCLOUDALPHA = 0.0
+	SURROUND_MAP_INNER_RECT = { 0.0 0.0 9216.0 4608.0 }
+}

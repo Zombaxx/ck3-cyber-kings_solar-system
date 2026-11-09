@@ -1,0 +1,95 @@
+﻿# Cyber Kings: special genes carrying the cybernetics decals (gen_cyber_gfx.py). Decals sit in head UV space.
+special_genes = {
+	morph_genes = {
+		gene_cyber_eye = {
+			no_cyber_eye = {
+				index = 0
+				male = {}
+				female = male
+				boy = male
+				girl = male
+			}
+			cyber_eye = {
+				index = 1
+				male = {
+					decal = {
+						body_part = head
+						textures = {
+							diffuse = "gfx/models/portraits/decals/cyber_kings/decal_cyber_eye_diffuse.dds"
+							properties = "gfx/models/portraits/decals/cyber_kings/decal_cyber_eye_properties.dds"
+						}
+						blend_modes = {
+							diffuse = replace
+							properties = replace
+						}
+						priority = 20
+						decal_apply_order = post_skin_color
+					}
+				}
+				female = male
+				boy = male
+				girl = male
+			}
+		}
+		gene_cywizard = {
+			no_cywizard = {
+				index = 0
+				male = {}
+				female = male
+				boy = male
+				girl = male
+			}
+			cywizard = {
+				index = 1
+				male = {
+					decal = {
+						body_part = head
+						textures = {
+							diffuse = "gfx/models/portraits/decals/cyber_kings/decal_cywizard_diffuse.dds"
+							properties = "gfx/models/portraits/decals/cyber_kings/decal_cywizard_properties.dds"
+						}
+						blend_modes = {
+							diffuse = replace
+							properties = replace
+						}
+						priority = 21
+						decal_apply_order = post_skin_color
+					}
+				}
+				female = male
+				boy = male
+				girl = male
+			}
+		}
+		gene_dni = {
+			no_dni = {
+				index = 0
+				male = {}
+				female = male
+				boy = male
+				girl = male
+			}
+			dni = {
+				index = 1
+				male = {
+					decal = {
+						body_part = head
+						textures = {
+							diffuse = "gfx/models/portraits/decals/cyber_kings/decal_dni_diffuse.dds"
+							properties = "gfx/models/portraits/decals/cyber_kings/decal_dni_properties.dds"
+						}
+						blend_modes = {
+							diffuse = replace
+							properties = replace
+						}
+						priority = 19
+						decal_apply_order = post_skin_color
+					}
+				}
+				female = male
+				boy = male
+				girl = male
+			}
+		}
+	}
+}

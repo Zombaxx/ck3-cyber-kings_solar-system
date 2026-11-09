@@ -1,0 +1,3 @@
+﻿bm_group_cyber_kings = {
+	default_start_date = 1066.9.15
+}

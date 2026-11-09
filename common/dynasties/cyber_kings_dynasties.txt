@@ -1,0 +1,9692 @@
+﻿7000030 = {
+	name = "dynn_ck_7000030"
+	culture = "japanese"
+}
+7000103 = {
+	name = "dynn_ck_7000103"
+	culture = "liblander"
+}
+7000032 = {
+	name = "dynn_ck_7000032"
+	culture = "navardanian"
+}
+7000033 = {
+	name = "dynn_ck_7000033"
+	culture = "gdonyos"
+}
+7000034 = {
+	name = "dynn_ck_7000034"
+	culture = "nubian"
+}
+7000035 = {
+	name = "dynn_ck_7000035"
+	culture = "gdonyos"
+}
+7000036 = {
+	name = "dynn_ck_7000036"
+	culture = "ashkenazi"
+}
+7000039 = {
+	name = "dynn_ck_7000039"
+	culture = "nubian"
+}
+7000038 = {
+	name = "dynn_ck_7000038"
+	culture = "nubian"
+}
+7000040 = {
+	name = "dynn_ck_7000040"
+	culture = "nubian"
+}
+7000130 = {
+	name = "dynn_ck_7000130"
+	culture = "japanese"
+}
+7000131 = {
+	name = "dynn_ck_7000131"
+	culture = "murican"
+}
+666666 = {
+	name = "dynn_ck_666666"
+	culture = "gdonyos"
+}
+100010 = {
+	name = "dynn_ck_100010"
+	culture = "castilian"
+}
+100020 = {
+	name = "dynn_ck_100020"
+	culture = "castilian"
+}
+100030 = {
+	name = "dynn_ck_100030"
+	culture = "bodpa"
+}
+100040 = {
+	name = "dynn_ck_100040"
+	culture = "castilian"
+}
+100050 = {
+	name = "dynn_ck_100050"
+	culture = "nativican"
+}
+100060 = {
+	name = "dynn_ck_100060"
+	culture = "castilian"
+}
+100070 = {
+	name = "dynn_ck_100070"
+	culture = "castilian"
+}
+100080 = {
+	name = "dynn_ck_100080"
+	culture = "han"
+}
+100090 = {
+	name = "dynn_ck_100090"
+	culture = "castilian"
+}
+100100 = {
+	name = "dynn_ck_100100"
+	culture = "nativican"
+}
+100110 = {
+	name = "dynn_ck_100110"
+	culture = "castilian"
+}
+100120 = {
+	name = "dynn_ck_100120"
+	culture = "han"
+}
+100130 = {
+	name = "dynn_ck_100130"
+	culture = "nativican"
+}
+100140 = {
+	name = "dynn_ck_100140"
+	culture = "castilian"
+}
+100150 = {
+	name = "dynn_ck_100150"
+	culture = "han"
+}
+100160 = {
+	name = "dynn_ck_100160"
+	culture = "nativican"
+}
+100190 = {
+	name = "dynn_ck_100190"
+	culture = "nativican"
+}
+100200 = {
+	name = "dynn_ck_100200"
+	culture = "telugu"
+}
+100210 = {
+	name = "dynn_ck_100210"
+	culture = "bodpa"
+}
+100220 = {
+	name = "dynn_ck_100220"
+	culture = "castilian"
+}
+100230 = {
+	name = "dynn_ck_100230"
+	culture = "castilian"
+}
+100240 = {
+	name = "dynn_ck_100240"
+	culture = "bodpa"
+}
+100250 = {
+	name = "dynn_ck_100250"
+	culture = "han"
+}
+100270 = {
+	name = "dynn_ck_100270"
+	culture = "nativican"
+}
+100280 = {
+	name = "dynn_ck_100280"
+	culture = "nativican"
+}
+100290 = {
+	name = "dynn_ck_100290"
+	culture = "han"
+}
+100300 = {
+	name = "dynn_ck_100300"
+	culture = "bodpa"
+}
+100310 = {
+	name = "dynn_ck_100310"
+	culture = "castilian"
+}
+100320 = {
+	name = "dynn_ck_100320"
+	culture = "han"
+}
+100340 = {
+	name = "dynn_ck_100340"
+	culture = "nativican"
+}
+100350 = {
+	name = "dynn_ck_100350"
+	culture = "nativican"
+}
+100360 = {
+	name = "dynn_ck_100360"
+	culture = "nativican"
+}
+100370 = {
+	name = "dynn_ck_100370"
+	culture = "nativican"
+}
+100380 = {
+	name = "dynn_ck_100380"
+	culture = "nativican"
+}
+100390 = {
+	name = "dynn_ck_100390"
+	culture = "nativican"
+}
+100400 = {
+	name = "dynn_ck_100400"
+	culture = "nativican"
+}
+100420 = {
+	name = "dynn_ck_100420"
+	culture = "nativican"
+}
+100430 = {
+	name = "dynn_ck_100430"
+	culture = "telugu"
+}
+100440 = {
+	name = "dynn_ck_100440"
+	culture = "han"
+}
+100450 = {
+	name = "dynn_ck_100450"
+	culture = "nativican"
+}
+100460 = {
+	name = "dynn_ck_100460"
+	culture = "castilian"
+}
+100470 = {
+	name = "dynn_ck_100470"
+	culture = "castilian"
+}
+100480 = {
+	name = "dynn_ck_100480"
+	culture = "han"
+}
+100490 = {
+	name = "dynn_ck_100490"
+	culture = "bodpa"
+}
+100500 = {
+	name = "dynn_ck_100500"
+	culture = "nativican"
+}
+100510 = {
+	name = "dynn_ck_100510"
+	culture = "nativican"
+}
+100520 = {
+	name = "dynn_ck_100520"
+	culture = "telugu"
+}
+100530 = {
+	name = "dynn_ck_100530"
+	culture = "nativican"
+}
+100540 = {
+	name = "dynn_ck_100540"
+	culture = "telugu"
+}
+100560 = {
+	name = "dynn_ck_100560"
+	culture = "bodpa"
+}
+100570 = {
+	name = "dynn_ck_100570"
+	culture = "han"
+}
+100580 = {
+	name = "dynn_ck_100580"
+	culture = "nativican"
+}
+100590 = {
+	name = "dynn_ck_100590"
+	culture = "castilian"
+}
+100600 = {
+	name = "dynn_ck_100600"
+	culture = "castilian"
+}
+100620 = {
+	name = "dynn_ck_100620"
+	culture = "nativican"
+}
+100630 = {
+	name = "dynn_ck_100630"
+	culture = "bodpa"
+}
+100640 = {
+	name = "dynn_ck_100640"
+	culture = "han"
+}
+100650 = {
+	name = "dynn_ck_100650"
+	culture = "nubian"
+}
+100660 = {
+	name = "dynn_ck_100660"
+	culture = "castilian"
+}
+100670 = {
+	name = "dynn_ck_100670"
+	culture = "han"
+}
+100690 = {
+	name = "dynn_ck_100690"
+	culture = "castilian"
+}
+100700 = {
+	name = "dynn_ck_100700"
+	culture = "nativican"
+}
+100710 = {
+	name = "dynn_ck_100710"
+	culture = "castilian"
+}
+100720 = {
+	name = "dynn_ck_100720"
+	culture = "han"
+}
+100730 = {
+	name = "dynn_ck_100730"
+	culture = "han"
+}
+100740 = {
+	name = "dynn_ck_100740"
+	culture = "nativican"
+}
+100750 = {
+	name = "dynn_ck_100750"
+	culture = "castilian"
+}
+100760 = {
+	name = "dynn_ck_100760"
+	culture = "telugu"
+}
+100770 = {
+	name = "dynn_ck_100770"
+	culture = "telugu"
+}
+100780 = {
+	name = "dynn_ck_100780"
+	culture = "castilian"
+}
+100790 = {
+	name = "dynn_ck_100790"
+	culture = "bodpa"
+}
+100800 = {
+	name = "dynn_ck_100800"
+	culture = "castilian"
+}
+100810 = {
+	name = "dynn_ck_100810"
+	culture = "telugu"
+}
+100820 = {
+	name = "dynn_ck_100820"
+	culture = "castilian"
+}
+100830 = {
+	name = "dynn_ck_100830"
+	culture = "han"
+}
+100840 = {
+	name = "dynn_ck_100840"
+	culture = "nativican"
+}
+100860 = {
+	name = "dynn_ck_100860"
+	culture = "saxon"
+}
+100870 = {
+	name = "dynn_ck_100870"
+	culture = "telugu"
+}
+100880 = {
+	name = "dynn_ck_100880"
+	culture = "han"
+}
+100890 = {
+	name = "dynn_ck_100890"
+	culture = "nativican"
+}
+100900 = {
+	name = "dynn_ck_100900"
+	culture = "han"
+}
+100910 = {
+	name = "dynn_ck_100910"
+	culture = "nativican"
+}
+100930 = {
+	name = "dynn_ck_100930"
+	culture = "han"
+}
+100940 = {
+	name = "dynn_ck_100940"
+	culture = "han"
+}
+100950 = {
+	name = "dynn_ck_100950"
+	culture = "saxon"
+}
+100960 = {
+	name = "dynn_ck_100960"
+	culture = "bodpa"
+}
+100970 = {
+	name = "dynn_ck_100970"
+	culture = "mongol"
+}
+100980 = {
+	name = "dynn_ck_100980"
+	culture = "bodpa"
+}
+100990 = {
+	name = "dynn_ck_100990"
+	culture = "han"
+}
+101000 = {
+	name = "dynn_ck_101000"
+	culture = "castilian"
+}
+101010 = {
+	name = "dynn_ck_101010"
+	culture = "castilian"
+}
+101030 = {
+	name = "dynn_ck_101030"
+	culture = "castilian"
+}
+101040 = {
+	name = "dynn_ck_101040"
+	culture = "castilian"
+}
+101050 = {
+	name = "dynn_ck_101050"
+	culture = "castilian"
+}
+101060 = {
+	name = "dynn_ck_101060"
+	culture = "castilian"
+}
+101070 = {
+	name = "dynn_ck_101070"
+	culture = "nativican"
+}
+101080 = {
+	name = "dynn_ck_101080"
+	culture = "saxon"
+}
+101090 = {
+	name = "dynn_ck_101090"
+	culture = "nativican"
+}
+101100 = {
+	name = "dynn_ck_101100"
+	culture = "castilian"
+}
+101110 = {
+	name = "dynn_ck_101110"
+	culture = "nativican"
+}
+101120 = {
+	name = "dynn_ck_101120"
+	culture = "han"
+}
+101130 = {
+	name = "dynn_ck_101130"
+	culture = "han"
+}
+101140 = {
+	name = "dynn_ck_101140"
+	culture = "nativican"
+}
+101150 = {
+	name = "dynn_ck_101150"
+	culture = "mongol"
+}
+101160 = {
+	name = "dynn_ck_101160"
+	culture = "han"
+}
+101180 = {
+	name = "dynn_ck_101180"
+	culture = "han"
+}
+101190 = {
+	name = "dynn_ck_101190"
+	culture = "bodpa"
+}
+101200 = {
+	name = "dynn_ck_101200"
+	culture = "castilian"
+}
+101210 = {
+	name = "dynn_ck_101210"
+	culture = "han"
+}
+101220 = {
+	name = "dynn_ck_101220"
+	culture = "nativican"
+}
+101230 = {
+	name = "dynn_ck_101230"
+	culture = "han"
+}
+101240 = {
+	name = "dynn_ck_101240"
+	culture = "liblander"
+}
+101250 = {
+	name = "dynn_ck_101250"
+	culture = "castilian"
+}
+101260 = {
+	name = "dynn_ck_101260"
+	culture = "gdonyos"
+}
+101270 = {
+	name = "dynn_ck_101270"
+	culture = "mongol"
+}
+101280 = {
+	name = "dynn_ck_101280"
+	culture = "mongol"
+}
+101290 = {
+	name = "dynn_ck_101290"
+	culture = "castilian"
+}
+101300 = {
+	name = "dynn_ck_101300"
+	culture = "mongol"
+}
+101310 = {
+	name = "dynn_ck_101310"
+	culture = "castilian"
+}
+101320 = {
+	name = "dynn_ck_101320"
+	culture = "liblander"
+}
+101330 = {
+	name = "dynn_ck_101330"
+	culture = "bodpa"
+}
+101350 = {
+	name = "dynn_ck_101350"
+	culture = "han"
+}
+101360 = {
+	name = "dynn_ck_101360"
+	culture = "nativican"
+}
+101370 = {
+	name = "dynn_ck_101370"
+	culture = "castilian"
+}
+101380 = {
+	name = "dynn_ck_101380"
+	culture = "saxon"
+}
+101390 = {
+	name = "dynn_ck_101390"
+	culture = "nativican"
+}
+101400 = {
+	name = "dynn_ck_101400"
+	culture = "han"
+}
+101410 = {
+	name = "dynn_ck_101410"
+	culture = "gdonyos"
+}
+101411 = {
+	name = "dynn_ck_101411"
+	culture = "gdonyos"
+}
+101412 = {
+	name = "dynn_ck_101412"
+	culture = "gdonyos"
+}
+101413 = {
+	name = "dynn_ck_101413"
+	culture = "gdonyos"
+}
+101414 = {
+	name = "dynn_ck_101414"
+	culture = "gdonyos"
+}
+101420 = {
+	name = "dynn_ck_101420"
+	culture = "bodpa"
+}
+101430 = {
+	name = "dynn_ck_101430"
+	culture = "han"
+}
+101440 = {
+	name = "dynn_ck_101440"
+	culture = "gdonyos"
+}
+101460 = {
+	name = "dynn_ck_101460"
+	culture = "bodpa"
+}
+101470 = {
+	name = "dynn_ck_101470"
+	culture = "saxon"
+}
+101480 = {
+	name = "dynn_ck_101480"
+	culture = "castilian"
+}
+101490 = {
+	name = "dynn_ck_101490"
+	culture = "bodpa"
+}
+101510 = {
+	name = "dynn_ck_101510"
+	culture = "nativican"
+}
+101520 = {
+	name = "dynn_ck_101520"
+	culture = "nativican"
+}
+101530 = {
+	name = "dynn_ck_101530"
+	culture = "bodpa"
+}
+101540 = {
+	name = "dynn_ck_101540"
+	culture = "castilian"
+}
+101550 = {
+	name = "dynn_ck_101550"
+	culture = "mongol"
+}
+101560 = {
+	name = "dynn_ck_101560"
+	culture = "han"
+}
+101570 = {
+	name = "dynn_ck_101570"
+	culture = "mongol"
+}
+101580 = {
+	name = "dynn_ck_101580"
+	culture = "han"
+}
+101590 = {
+	name = "dynn_ck_101590"
+	culture = "han"
+}
+101600 = {
+	name = "dynn_ck_101600"
+	culture = "saxon"
+}
+101610 = {
+	name = "dynn_ck_101610"
+	culture = "gdonyos"
+}
+101620 = {
+	name = "dynn_ck_101620"
+	culture = "nativican"
+}
+101650 = {
+	name = "dynn_ck_101650"
+	culture = "nubian"
+}
+101660 = {
+	name = "dynn_ck_101660"
+	culture = "han"
+}
+101680 = {
+	name = "dynn_ck_101680"
+	culture = "castilian"
+}
+101690 = {
+	name = "dynn_ck_101690"
+	culture = "nativican"
+}
+101700 = {
+	name = "dynn_ck_101700"
+	culture = "gdonyos"
+}
+101710 = {
+	name = "dynn_ck_101710"
+	culture = "han"
+}
+101720 = {
+	name = "dynn_ck_101720"
+	culture = "liblander"
+}
+101730 = {
+	name = "dynn_ck_101730"
+	culture = "mongol"
+}
+101740 = {
+	name = "dynn_ck_101740"
+	culture = "han"
+}
+101750 = {
+	name = "dynn_ck_101750"
+	culture = "mongol"
+}
+101760 = {
+	name = "dynn_ck_101760"
+	culture = "bodpa"
+}
+101770 = {
+	name = "dynn_ck_101770"
+	culture = "castilian"
+}
+101780 = {
+	name = "dynn_ck_101780"
+	culture = "han"
+}
+101790 = {
+	name = "dynn_ck_101790"
+	culture = "saxon"
+}
+101810 = {
+	name = "dynn_ck_101810"
+	culture = "gdonyos"
+}
+101811 = {
+	name = "dynn_ck_101811"
+	culture = "gdonyos"
+}
+101812 = {
+	name = "dynn_ck_101812"
+	culture = "gdonyos"
+}
+101813 = {
+	name = "dynn_ck_101813"
+	culture = "gdonyos"
+}
+101814 = {
+	name = "dynn_ck_101814"
+	culture = "gdonyos"
+}
+101820 = {
+	name = "dynn_ck_101820"
+	culture = "nubian"
+}
+101830 = {
+	name = "dynn_ck_101830"
+	culture = "mongol"
+}
+101840 = {
+	name = "dynn_ck_101840"
+	culture = "nubian"
+}
+101850 = {
+	name = "dynn_ck_101850"
+	culture = "bodpa"
+}
+101860 = {
+	name = "dynn_ck_101860"
+	culture = "bodpa"
+}
+101870 = {
+	name = "dynn_ck_101870"
+	culture = "saxon"
+}
+101880 = {
+	name = "dynn_ck_101880"
+	culture = "nubian"
+}
+101890 = {
+	name = "dynn_ck_101890"
+	culture = "castilian"
+}
+101900 = {
+	name = "dynn_ck_101900"
+	culture = "gdonyos"
+}
+101910 = {
+	name = "dynn_ck_101910"
+	culture = "han"
+}
+101920 = {
+	name = "dynn_ck_101920"
+	culture = "gdonyos"
+}
+101930 = {
+	name = "dynn_ck_101930"
+	culture = "castilian"
+}
+101940 = {
+	name = "dynn_ck_101940"
+	culture = "castilian"
+}
+101950 = {
+	name = "dynn_ck_101950"
+	culture = "bodpa"
+}
+101960 = {
+	name = "dynn_ck_101960"
+	culture = "nubian"
+}
+101970 = {
+	name = "dynn_ck_101970"
+	culture = "gdonyos"
+}
+101980 = {
+	name = "dynn_ck_101980"
+	culture = "liblander"
+}
+101990 = {
+	name = "dynn_ck_101990"
+	culture = "nativican"
+}
+102000 = {
+	name = "dynn_ck_102000"
+	culture = "saxon"
+}
+102010 = {
+	name = "dynn_ck_102010"
+	culture = "liblander"
+}
+7000042 = {
+	name = "dynn_ck_7000042"
+	culture = "liblander"
+}
+102030 = {
+	name = "dynn_ck_102030"
+	culture = "castilian"
+}
+102040 = {
+	name = "dynn_ck_102040"
+	culture = "gdonyos"
+}
+102050 = {
+	name = "dynn_ck_102050"
+	culture = "mongol"
+}
+102060 = {
+	name = "dynn_ck_102060"
+	culture = "castilian"
+}
+102070 = {
+	name = "dynn_ck_102070"
+	culture = "bodpa"
+}
+102080 = {
+	name = "dynn_ck_102080"
+	culture = "liblander"
+}
+102090 = {
+	name = "dynn_ck_102090"
+	culture = "bodpa"
+}
+102100 = {
+	name = "dynn_ck_102100"
+	culture = "mongol"
+}
+102110 = {
+	name = "dynn_ck_102110"
+	culture = "bodpa"
+}
+102120 = {
+	name = "dynn_ck_102120"
+	culture = "liblander"
+}
+102130 = {
+	name = "dynn_ck_102130"
+	culture = "liblander"
+}
+102140 = {
+	name = "dynn_ck_102140"
+	culture = "bodpa"
+}
+102150 = {
+	name = "dynn_ck_102150"
+	culture = "han"
+}
+102160 = {
+	name = "dynn_ck_102160"
+	culture = "han"
+}
+102170 = {
+	name = "dynn_ck_102170"
+	culture = "mongol"
+}
+102180 = {
+	name = "dynn_ck_102180"
+	culture = "bodpa"
+}
+102190 = {
+	name = "dynn_ck_102190"
+	culture = "gdonyos"
+}
+102200 = {
+	name = "dynn_ck_102200"
+	culture = "gdonyos"
+}
+102210 = {
+	name = "dynn_ck_102210"
+	culture = "castilian"
+}
+102220 = {
+	name = "dynn_ck_102220"
+	culture = "liblander"
+}
+102230 = {
+	name = "dynn_ck_102230"
+	culture = "castilian"
+}
+102240 = {
+	name = "dynn_ck_102240"
+	culture = "gdonyos"
+}
+102250 = {
+	name = "dynn_ck_102250"
+	culture = "mongol"
+}
+102260 = {
+	name = "dynn_ck_102260"
+	culture = "gdonyos"
+}
+102270 = {
+	name = "dynn_ck_102270"
+	culture = "bodpa"
+}
+102280 = {
+	name = "dynn_ck_102280"
+	culture = "gdonyos"
+}
+102290 = {
+	name = "dynn_ck_102290"
+	culture = "gdonyos"
+}
+102300 = {
+	name = "dynn_ck_102300"
+	culture = "saxon"
+}
+102310 = {
+	name = "dynn_ck_102310"
+	culture = "gdonyos"
+}
+102320 = {
+	name = "dynn_ck_102320"
+	culture = "saxon"
+}
+102330 = {
+	name = "dynn_ck_102330"
+	culture = "murican"
+}
+102340 = {
+	name = "dynn_ck_102340"
+	culture = "nubian"
+}
+102341 = {
+	name = "dynn_ck_102341"
+	culture = "nubian"
+}
+102342 = {
+	name = "dynn_ck_102342"
+	culture = "nubian"
+}
+102343 = {
+	name = "dynn_ck_102343"
+	culture = "nubian"
+}
+102344 = {
+	name = "dynn_ck_102344"
+	culture = "nubian"
+}
+102350 = {
+	name = "dynn_ck_102350"
+	culture = "mongol"
+}
+102360 = {
+	name = "dynn_ck_102360"
+	culture = "mongol"
+}
+102370 = {
+	name = "dynn_ck_102370"
+	culture = "bodpa"
+}
+102380 = {
+	name = "dynn_ck_102380"
+	culture = "bodpa"
+}
+102390 = {
+	name = "dynn_ck_102390"
+	culture = "gdonyos"
+}
+102400 = {
+	name = "dynn_ck_102400"
+	culture = "nativican"
+}
+102410 = {
+	name = "dynn_ck_102410"
+	culture = "liblander"
+}
+102420 = {
+	name = "dynn_ck_102420"
+	culture = "bodpa"
+}
+102430 = {
+	name = "dynn_ck_102430"
+	culture = "castilian"
+}
+102440 = {
+	name = "dynn_ck_102440"
+	culture = "gdonyos"
+}
+102450 = {
+	name = "dynn_ck_102450"
+	culture = "liblander"
+}
+102460 = {
+	name = "dynn_ck_102460"
+	culture = "gdonyos"
+}
+102470 = {
+	name = "dynn_ck_102470"
+	culture = "castilian"
+}
+102480 = {
+	name = "dynn_ck_102480"
+	culture = "mongol"
+}
+102490 = {
+	name = "dynn_ck_102490"
+	culture = "bodpa"
+}
+102510 = {
+	name = "dynn_ck_102510"
+	culture = "mongol"
+}
+102520 = {
+	name = "dynn_ck_102520"
+	culture = "mongol"
+}
+102530 = {
+	name = "dynn_ck_102530"
+	culture = "mongol"
+}
+102540 = {
+	name = "dynn_ck_102540"
+	culture = "gdonyos"
+}
+102550 = {
+	name = "dynn_ck_102550"
+	culture = "bodpa"
+}
+102560 = {
+	name = "dynn_ck_102560"
+	culture = "mongol"
+}
+102570 = {
+	name = "dynn_ck_102570"
+	culture = "gdonyos"
+}
+102580 = {
+	name = "dynn_ck_102580"
+	culture = "gdonyos"
+}
+102590 = {
+	name = "dynn_ck_102590"
+	culture = "gdonyos"
+}
+102600 = {
+	name = "dynn_ck_102600"
+	culture = "bodpa"
+}
+102610 = {
+	name = "dynn_ck_102610"
+	culture = "bodpa"
+}
+102620 = {
+	name = "dynn_ck_102620"
+	culture = "mongol"
+}
+102630 = {
+	name = "dynn_ck_102630"
+	culture = "bodpa"
+}
+102640 = {
+	name = "dynn_ck_102640"
+	culture = "liblander"
+}
+102641 = {
+	name = "dynn_ck_102641"
+	culture = "liblander"
+}
+102642 = {
+	name = "dynn_ck_102642"
+	culture = "liblander"
+}
+102643 = {
+	name = "dynn_ck_102643"
+	culture = "gdonyos"
+}
+102644 = {
+	name = "dynn_ck_102644"
+	culture = "liblander"
+}
+102650 = {
+	name = "dynn_ck_102650"
+	culture = "mongol"
+}
+102660 = {
+	name = "dynn_ck_102660"
+	culture = "mongol"
+}
+102670 = {
+	name = "dynn_ck_102670"
+	culture = "liblander"
+}
+102680 = {
+	name = "dynn_ck_102680"
+	culture = "mongol"
+}
+102690 = {
+	name = "dynn_ck_102690"
+	culture = "mongol"
+}
+102700 = {
+	name = "dynn_ck_102700"
+	culture = "liblander"
+}
+102730 = {
+	name = "dynn_ck_102730"
+	culture = "castilian"
+}
+102740 = {
+	name = "dynn_ck_102740"
+	culture = "gdonyos"
+}
+102750 = {
+	name = "dynn_ck_102750"
+	culture = "bodpa"
+}
+102760 = {
+	name = "dynn_ck_102760"
+	culture = "nativican"
+}
+102770 = {
+	name = "dynn_ck_102770"
+	culture = "gdonyos"
+}
+102780 = {
+	name = "dynn_ck_102780"
+	culture = "bodpa"
+}
+102790 = {
+	name = "dynn_ck_102790"
+	culture = "mongol"
+}
+102800 = {
+	name = "dynn_ck_102800"
+	culture = "mongol"
+}
+102810 = {
+	name = "dynn_ck_102810"
+	culture = "mongol"
+}
+102820 = {
+	name = "dynn_ck_102820"
+	culture = "gdonyos"
+}
+102830 = {
+	name = "dynn_ck_102830"
+	culture = "gdonyos"
+}
+102840 = {
+	name = "dynn_ck_102840"
+	culture = "mongol"
+}
+102850 = {
+	name = "dynn_ck_102850"
+	culture = "bodpa"
+}
+102860 = {
+	name = "dynn_ck_102860"
+	culture = "bodpa"
+}
+102870 = {
+	name = "dynn_ck_102870"
+	culture = "bodpa"
+}
+102890 = {
+	name = "dynn_ck_102890"
+	culture = "liblander"
+}
+102900 = {
+	name = "dynn_ck_102900"
+	culture = "mongol"
+}
+102910 = {
+	name = "dynn_ck_102910"
+	culture = "gdonyos"
+}
+102920 = {
+	name = "dynn_ck_102920"
+	culture = "mongol"
+}
+102930 = {
+	name = "dynn_ck_102930"
+	culture = "mongol"
+}
+102940 = {
+	name = "dynn_ck_102940"
+	culture = "liblander"
+}
+102950 = {
+	name = "dynn_ck_102950"
+	culture = "mongol"
+}
+102960 = {
+	name = "dynn_ck_102960"
+	culture = "mongol"
+}
+102970 = {
+	name = "dynn_ck_102970"
+	culture = "bodpa"
+}
+102980 = {
+	name = "dynn_ck_102980"
+	culture = "mongol"
+}
+102990 = {
+	name = "dynn_ck_102990"
+	culture = "liblander"
+}
+103000 = {
+	name = "dynn_ck_103000"
+	culture = "bodpa"
+}
+103010 = {
+	name = "dynn_ck_103010"
+	culture = "aussie"
+}
+103020 = {
+	name = "dynn_ck_103020"
+	culture = "bodpa"
+}
+103030 = {
+	name = "dynn_ck_103030"
+	culture = "mongol"
+}
+103040 = {
+	name = "dynn_ck_103040"
+	culture = "aussie"
+}
+103050 = {
+	name = "dynn_ck_103050"
+	culture = "mongol"
+}
+103060 = {
+	name = "dynn_ck_103060"
+	culture = "gdonyos"
+}
+103070 = {
+	name = "dynn_ck_103070"
+	culture = "bodpa"
+}
+103080 = {
+	name = "dynn_ck_103080"
+	culture = "aussie"
+}
+103090 = {
+	name = "dynn_ck_103090"
+	culture = "mongol"
+}
+103100 = {
+	name = "dynn_ck_103100"
+	culture = "mongol"
+}
+103110 = {
+	name = "dynn_ck_103110"
+	culture = "bodpa"
+}
+103120 = {
+	name = "dynn_ck_103120"
+	culture = "gdonyos"
+}
+103130 = {
+	name = "dynn_ck_103130"
+	culture = "bodpa"
+}
+103140 = {
+	name = "dynn_ck_103140"
+	culture = "mongol"
+}
+103150 = {
+	name = "dynn_ck_103150"
+	culture = "bodpa"
+}
+103160 = {
+	name = "dynn_ck_103160"
+	culture = "bodpa"
+}
+103170 = {
+	name = "dynn_ck_103170"
+	culture = "aussie"
+}
+103180 = {
+	name = "dynn_ck_103180"
+	culture = "mongol"
+}
+103190 = {
+	name = "dynn_ck_103190"
+	culture = "mongol"
+}
+103200 = {
+	name = "dynn_ck_103200"
+	culture = "aussie"
+}
+103210 = {
+	name = "dynn_ck_103210"
+	culture = "mongol"
+}
+103220 = {
+	name = "dynn_ck_103220"
+	culture = "aussie"
+}
+103230 = {
+	name = "dynn_ck_103230"
+	culture = "aussie"
+}
+103240 = {
+	name = "dynn_ck_103240"
+	culture = "bodpa"
+}
+103250 = {
+	name = "dynn_ck_103250"
+	culture = "liblander"
+}
+103260 = {
+	name = "dynn_ck_103260"
+	culture = "mongol"
+}
+103270 = {
+	name = "dynn_ck_103270"
+	culture = "bodpa"
+}
+103280 = {
+	name = "dynn_ck_103280"
+	culture = "bodpa"
+}
+103290 = {
+	name = "dynn_ck_103290"
+	culture = "liblander"
+}
+103300 = {
+	name = "dynn_ck_103300"
+	culture = "bodpa"
+}
+103310 = {
+	name = "dynn_ck_103310"
+	culture = "bodpa"
+}
+103320 = {
+	name = "dynn_ck_103320"
+	culture = "bodpa"
+}
+103330 = {
+	name = "dynn_ck_103330"
+	culture = "han"
+}
+103340 = {
+	name = "dynn_ck_103340"
+	culture = "mongol"
+}
+103350 = {
+	name = "dynn_ck_103350"
+	culture = "bodpa"
+}
+103360 = {
+	name = "dynn_ck_103360"
+	culture = "gdonyos"
+}
+103370 = {
+	name = "dynn_ck_103370"
+	culture = "aussie"
+}
+103380 = {
+	name = "dynn_ck_103380"
+	culture = "mongol"
+}
+103390 = {
+	name = "dynn_ck_103390"
+	culture = "aussie"
+}
+103400 = {
+	name = "dynn_ck_103400"
+	culture = "bodpa"
+}
+103410 = {
+	name = "dynn_ck_103410"
+	culture = "liblander"
+}
+103420 = {
+	name = "dynn_ck_103420"
+	culture = "mongol"
+}
+103430 = {
+	name = "dynn_ck_103430"
+	culture = "mongol"
+}
+103440 = {
+	name = "dynn_ck_103440"
+	culture = "bodpa"
+}
+103450 = {
+	name = "dynn_ck_103450"
+	culture = "liblander"
+}
+103460 = {
+	name = "dynn_ck_103460"
+	culture = "aussie"
+}
+103470 = {
+	name = "dynn_ck_103470"
+	culture = "aussie"
+}
+103480 = {
+	name = "dynn_ck_103480"
+	culture = "bodpa"
+}
+103490 = {
+	name = "dynn_ck_103490"
+	culture = "gdonyos"
+}
+103500 = {
+	name = "dynn_ck_103500"
+	culture = "liblander"
+}
+103510 = {
+	name = "dynn_ck_103510"
+	culture = "mongol"
+}
+103780 = {
+	name = "dynn_ck_103780"
+	culture = "aussie"
+}
+103530 = {
+	name = "dynn_ck_103530"
+	culture = "bodpa"
+}
+103540 = {
+	name = "dynn_ck_103540"
+	culture = "mongol"
+}
+103550 = {
+	name = "dynn_ck_103550"
+	culture = "bodpa"
+}
+103560 = {
+	name = "dynn_ck_103560"
+	culture = "mongol"
+}
+103570 = {
+	name = "dynn_ck_103570"
+	culture = "gdonyos"
+}
+103580 = {
+	name = "dynn_ck_103580"
+	culture = "bodpa"
+}
+103590 = {
+	name = "dynn_ck_103590"
+	culture = "aussie"
+}
+103600 = {
+	name = "dynn_ck_103600"
+	culture = "aussie"
+}
+103610 = {
+	name = "dynn_ck_103610"
+	culture = "aussie"
+}
+103620 = {
+	name = "dynn_ck_103620"
+	culture = "mongol"
+}
+103630 = {
+	name = "dynn_ck_103630"
+	culture = "bodpa"
+}
+103640 = {
+	name = "dynn_ck_103640"
+	culture = "gdonyos"
+}
+103650 = {
+	name = "dynn_ck_103650"
+	culture = "bodpa"
+}
+103660 = {
+	name = "dynn_ck_103660"
+	culture = "mongol"
+}
+103670 = {
+	name = "dynn_ck_103670"
+	culture = "liblander"
+}
+103680 = {
+	name = "dynn_ck_103680"
+	culture = "bodpa"
+}
+103700 = {
+	name = "dynn_ck_103700"
+	culture = "bodpa"
+}
+103710 = {
+	name = "dynn_ck_103710"
+	culture = "mongol"
+}
+103720 = {
+	name = "dynn_ck_103720"
+	culture = "bodpa"
+}
+103730 = {
+	name = "dynn_ck_103730"
+	culture = "gdonyos"
+}
+103740 = {
+	name = "dynn_ck_103740"
+	culture = "mongol"
+}
+103750 = {
+	name = "dynn_ck_103750"
+	culture = "bodpa"
+}
+103760 = {
+	name = "dynn_ck_103760"
+	culture = "bodpa"
+}
+103770 = {
+	name = "dynn_ck_103770"
+	culture = "bodpa"
+}
+103790 = {
+	name = "dynn_ck_103790"
+	culture = "bodpa"
+}
+103800 = {
+	name = "dynn_ck_103800"
+	culture = "mongol"
+}
+103810 = {
+	name = "dynn_ck_103810"
+	culture = "bodpa"
+}
+103820 = {
+	name = "dynn_ck_103820"
+	culture = "gdonyos"
+}
+103830 = {
+	name = "dynn_ck_103830"
+	culture = "bodpa"
+}
+103831 = {
+	name = "dynn_ck_103831"
+	culture = "bodpa"
+}
+103832 = {
+	name = "dynn_ck_103832"
+	culture = "bodpa"
+}
+103833 = {
+	name = "dynn_ck_103833"
+	culture = "bodpa"
+}
+103834 = {
+	name = "dynn_ck_103834"
+	culture = "bodpa"
+}
+103840 = {
+	name = "dynn_ck_103840"
+	culture = "bodpa"
+}
+103850 = {
+	name = "dynn_ck_103850"
+	culture = "bodpa"
+}
+103860 = {
+	name = "dynn_ck_103860"
+	culture = "mongol"
+}
+103870 = {
+	name = "dynn_ck_103870"
+	culture = "bodpa"
+}
+103880 = {
+	name = "dynn_ck_103880"
+	culture = "bodpa"
+}
+103890 = {
+	name = "dynn_ck_103890"
+	culture = "gdonyos"
+}
+103900 = {
+	name = "dynn_ck_103900"
+	culture = "aussie"
+}
+103910 = {
+	name = "dynn_ck_103910"
+	culture = "bodpa"
+}
+103920 = {
+	name = "dynn_ck_103920"
+	culture = "aussie"
+}
+103930 = {
+	name = "dynn_ck_103930"
+	culture = "aussie"
+}
+103940 = {
+	name = "dynn_ck_103940"
+	culture = "mongol"
+}
+103950 = {
+	name = "dynn_ck_103950"
+	culture = "bodpa"
+}
+103960 = {
+	name = "dynn_ck_103960"
+	culture = "bodpa"
+}
+103970 = {
+	name = "dynn_ck_103970"
+	culture = "mongol"
+}
+103980 = {
+	name = "dynn_ck_103980"
+	culture = "bodpa"
+}
+103990 = {
+	name = "dynn_ck_103990"
+	culture = "mongol"
+}
+104000 = {
+	name = "dynn_ck_104000"
+	culture = "bodpa"
+}
+104010 = {
+	name = "dynn_ck_104010"
+	culture = "aussie"
+}
+104020 = {
+	name = "dynn_ck_104020"
+	culture = "bodpa"
+}
+104030 = {
+	name = "dynn_ck_104030"
+	culture = "gdonyos"
+}
+104040 = {
+	name = "dynn_ck_104040"
+	culture = "sahelian"
+}
+104050 = {
+	name = "dynn_ck_104050"
+	culture = "sahelian"
+}
+104060 = {
+	name = "dynn_ck_104060"
+	culture = "bodpa"
+}
+104070 = {
+	name = "dynn_ck_104070"
+	culture = "mongol"
+}
+104080 = {
+	name = "dynn_ck_104080"
+	culture = "bodpa"
+}
+104090 = {
+	name = "dynn_ck_104090"
+	culture = "bedouin"
+}
+104100 = {
+	name = "dynn_ck_104100"
+	culture = "mongol"
+}
+104110 = {
+	name = "dynn_ck_104110"
+	culture = "bodpa"
+}
+104120 = {
+	name = "dynn_ck_104120"
+	culture = "sahelian"
+}
+104130 = {
+	name = "dynn_ck_104130"
+	culture = "gdonyos"
+}
+104140 = {
+	name = "dynn_ck_104140"
+	culture = "bodpa"
+}
+104150 = {
+	name = "dynn_ck_104150"
+	culture = "gdonyos"
+}
+104160 = {
+	name = "dynn_ck_104160"
+	culture = "mongol"
+}
+104170 = {
+	name = "dynn_ck_104170"
+	culture = "bodpa"
+}
+104180 = {
+	name = "dynn_ck_104180"
+	culture = "bodpa"
+}
+104190 = {
+	name = "dynn_ck_104190"
+	culture = "bodpa"
+}
+104200 = {
+	name = "dynn_ck_104200"
+	culture = "aussie"
+}
+104210 = {
+	name = "dynn_ck_104210"
+	culture = "sahelian"
+}
+104220 = {
+	name = "dynn_ck_104220"
+	culture = "sahelian"
+}
+104230 = {
+	name = "dynn_ck_104230"
+	culture = "sahelian"
+}
+104240 = {
+	name = "dynn_ck_104240"
+	culture = "bedouin"
+}
+104250 = {
+	name = "dynn_ck_104250"
+	culture = "sahelian"
+}
+104260 = {
+	name = "dynn_ck_104260"
+	culture = "bodpa"
+}
+104270 = {
+	name = "dynn_ck_104270"
+	culture = "bodpa"
+}
+104280 = {
+	name = "dynn_ck_104280"
+	culture = "bodpa"
+}
+104290 = {
+	name = "dynn_ck_104290"
+	culture = "bodpa"
+}
+104300 = {
+	name = "dynn_ck_104300"
+	culture = "bodpa"
+}
+104310 = {
+	name = "dynn_ck_104310"
+	culture = "aussie"
+}
+104320 = {
+	name = "dynn_ck_104320"
+	culture = "bodpa"
+}
+104330 = {
+	name = "dynn_ck_104330"
+	culture = "sahelian"
+}
+104340 = {
+	name = "dynn_ck_104340"
+	culture = "bodpa"
+}
+104350 = {
+	name = "dynn_ck_104350"
+	culture = "bodpa"
+}
+104360 = {
+	name = "dynn_ck_104360"
+	culture = "bedouin"
+}
+104370 = {
+	name = "dynn_ck_104370"
+	culture = "sahelian"
+}
+104380 = {
+	name = "dynn_ck_104380"
+	culture = "mongol"
+}
+104390 = {
+	name = "dynn_ck_104390"
+	culture = "bodpa"
+}
+104400 = {
+	name = "dynn_ck_104400"
+	culture = "aussie"
+}
+104410 = {
+	name = "dynn_ck_104410"
+	culture = "bodpa"
+}
+104420 = {
+	name = "dynn_ck_104420"
+	culture = "sahelian"
+}
+104430 = {
+	name = "dynn_ck_104430"
+	culture = "bodpa"
+}
+104440 = {
+	name = "dynn_ck_104440"
+	culture = "bodpa"
+}
+104450 = {
+	name = "dynn_ck_104450"
+	culture = "greek"
+}
+104460 = {
+	name = "dynn_ck_104460"
+	culture = "bodpa"
+}
+104470 = {
+	name = "dynn_ck_104470"
+	culture = "aussie"
+}
+104480 = {
+	name = "dynn_ck_104480"
+	culture = "mongol"
+}
+104490 = {
+	name = "dynn_ck_104490"
+	culture = "aussie"
+}
+104500 = {
+	name = "dynn_ck_104500"
+	culture = "bodpa"
+}
+104510 = {
+	name = "dynn_ck_104510"
+	culture = "bodpa"
+}
+104530 = {
+	name = "dynn_ck_104530"
+	culture = "mongol"
+}
+104540 = {
+	name = "dynn_ck_104540"
+	culture = "bedouin"
+}
+104550 = {
+	name = "dynn_ck_104550"
+	culture = "bodpa"
+}
+104560 = {
+	name = "dynn_ck_104560"
+	culture = "aussie"
+}
+pictish = {
+	name = "dynn_ck_pictish"
+	culture = "aussie"
+}
+104561 = {
+	name = "dynn_ck_104561"
+	culture = "aussie"
+}
+104562 = {
+	name = "dynn_ck_104562"
+	culture = "aussie"
+}
+104563 = {
+	name = "dynn_ck_104563"
+	culture = "aussie"
+}
+104564 = {
+	name = "dynn_ck_104564"
+	culture = "aussie"
+}
+104570 = {
+	name = "dynn_ck_104570"
+	culture = "sahelian"
+}
+104580 = {
+	name = "dynn_ck_104580"
+	culture = "mongol"
+}
+104590 = {
+	name = "dynn_ck_104590"
+	culture = "bodpa"
+}
+104600 = {
+	name = "dynn_ck_104600"
+	culture = "aussie"
+}
+104610 = {
+	name = "dynn_ck_104610"
+	culture = "greek"
+}
+104620 = {
+	name = "dynn_ck_104620"
+	culture = "telugu"
+}
+104630 = {
+	name = "dynn_ck_104630"
+	culture = "telugu"
+}
+104640 = {
+	name = "dynn_ck_104640"
+	culture = "greek"
+}
+104650 = {
+	name = "dynn_ck_104650"
+	culture = "mongol"
+}
+104660 = {
+	name = "dynn_ck_104660"
+	culture = "telugu"
+}
+104670 = {
+	name = "dynn_ck_104670"
+	culture = "bodpa"
+}
+104680 = {
+	name = "dynn_ck_104680"
+	culture = "telugu"
+}
+104690 = {
+	name = "dynn_ck_104690"
+	culture = "telugu"
+}
+104700 = {
+	name = "dynn_ck_104700"
+	culture = "bodpa"
+}
+104710 = {
+	name = "dynn_ck_104710"
+	culture = "bodpa"
+}
+104720 = {
+	name = "dynn_ck_104720"
+	culture = "aussie"
+}
+104730 = {
+	name = "dynn_ck_104730"
+	culture = "bodpa"
+}
+104740 = {
+	name = "dynn_ck_104740"
+	culture = "aussie"
+}
+104750 = {
+	name = "dynn_ck_104750"
+	culture = "aussie"
+}
+104760 = {
+	name = "dynn_ck_104760"
+	culture = "sahelian"
+}
+104770 = {
+	name = "dynn_ck_104770"
+	culture = "telugu"
+}
+104780 = {
+	name = "dynn_ck_104780"
+	culture = "bodpa"
+}
+104790 = {
+	name = "dynn_ck_104790"
+	culture = "aussie"
+}
+104800 = {
+	name = "dynn_ck_104800"
+	culture = "aussie"
+}
+104810 = {
+	name = "dynn_ck_104810"
+	culture = "bodpa"
+}
+104820 = {
+	name = "dynn_ck_104820"
+	culture = "bedouin"
+}
+104830 = {
+	name = "dynn_ck_104830"
+	culture = "greek"
+}
+104840 = {
+	name = "dynn_ck_104840"
+	culture = "telugu"
+}
+104850 = {
+	name = "dynn_ck_104850"
+	culture = "telugu"
+}
+104860 = {
+	name = "dynn_ck_104860"
+	culture = "bodpa"
+}
+104870 = {
+	name = "dynn_ck_104870"
+	culture = "sahelian"
+}
+104880 = {
+	name = "dynn_ck_104880"
+	culture = "aussie"
+}
+104890 = {
+	name = "dynn_ck_104890"
+	culture = "mongol"
+}
+104900 = {
+	name = "dynn_ck_104900"
+	culture = "greek"
+}
+104910 = {
+	name = "dynn_ck_104910"
+	culture = "telugu"
+}
+104920 = {
+	name = "dynn_ck_104920"
+	culture = "aussie"
+}
+104921 = {
+	name = "dynn_ck_104921"
+	culture = "aussie"
+}
+104922 = {
+	name = "dynn_ck_104922"
+	culture = "aussie"
+}
+104923 = {
+	name = "dynn_ck_104923"
+	culture = "aussie"
+}
+104924 = {
+	name = "dynn_ck_104924"
+	culture = "aussie"
+}
+104940 = {
+	name = "dynn_ck_104940"
+	culture = "telugu"
+}
+104950 = {
+	name = "dynn_ck_104950"
+	culture = "bodpa"
+}
+104960 = {
+	name = "dynn_ck_104960"
+	culture = "aussie"
+}
+104970 = {
+	name = "dynn_ck_104970"
+	culture = "telugu"
+}
+104980 = {
+	name = "dynn_ck_104980"
+	culture = "bedouin"
+}
+104990 = {
+	name = "dynn_ck_104990"
+	culture = "telugu"
+}
+105000 = {
+	name = "dynn_ck_105000"
+	culture = "telugu"
+}
+105010 = {
+	name = "dynn_ck_105010"
+	culture = "telugu"
+}
+105020 = {
+	name = "dynn_ck_105020"
+	culture = "bodpa"
+}
+105030 = {
+	name = "dynn_ck_105030"
+	culture = "telugu"
+}
+105040 = {
+	name = "dynn_ck_105040"
+	culture = "bodpa"
+}
+105060 = {
+	name = "dynn_ck_105060"
+	culture = "greek"
+}
+105070 = {
+	name = "dynn_ck_105070"
+	culture = "sahelian"
+}
+105080 = {
+	name = "dynn_ck_105080"
+	culture = "bodpa"
+}
+105090 = {
+	name = "dynn_ck_105090"
+	culture = "telugu"
+}
+105100 = {
+	name = "dynn_ck_105100"
+	culture = "bodpa"
+}
+105110 = {
+	name = "dynn_ck_105110"
+	culture = "aussie"
+}
+105120 = {
+	name = "dynn_ck_105120"
+	culture = "sahelian"
+}
+105130 = {
+	name = "dynn_ck_105130"
+	culture = "telugu"
+}
+105140 = {
+	name = "dynn_ck_105140"
+	culture = "telugu"
+}
+105150 = {
+	name = "dynn_ck_105150"
+	culture = "bodpa"
+}
+105160 = {
+	name = "dynn_ck_105160"
+	culture = "bedouin"
+}
+105170 = {
+	name = "dynn_ck_105170"
+	culture = "telugu"
+}
+105190 = {
+	name = "dynn_ck_105190"
+	culture = "telugu"
+}
+105200 = {
+	name = "dynn_ck_105200"
+	culture = "aussie"
+}
+105210 = {
+	name = "dynn_ck_105210"
+	culture = "telugu"
+}
+105220 = {
+	name = "dynn_ck_105220"
+	culture = "telugu"
+}
+105230 = {
+	name = "dynn_ck_105230"
+	culture = "sahelian"
+}
+105240 = {
+	name = "dynn_ck_105240"
+	culture = "telugu"
+}
+105250 = {
+	name = "dynn_ck_105250"
+	culture = "bodpa"
+}
+105260 = {
+	name = "dynn_ck_105260"
+	culture = "bedouin"
+}
+105270 = {
+	name = "dynn_ck_105270"
+	culture = "telugu"
+}
+105280 = {
+	name = "dynn_ck_105280"
+	culture = "aussie"
+}
+105290 = {
+	name = "dynn_ck_105290"
+	culture = "telugu"
+}
+105300 = {
+	name = "dynn_ck_105300"
+	culture = "aussie"
+}
+105310 = {
+	name = "dynn_ck_105310"
+	culture = "southeast_asian"
+}
+105320 = {
+	name = "dynn_ck_105320"
+	culture = "telugu"
+}
+105330 = {
+	name = "dynn_ck_105330"
+	culture = "bodpa"
+}
+105340 = {
+	name = "dynn_ck_105340"
+	culture = "aussie"
+}
+105350 = {
+	name = "dynn_ck_105350"
+	culture = "aussie"
+}
+105360 = {
+	name = "dynn_ck_105360"
+	culture = "sahelian"
+}
+105370 = {
+	name = "dynn_ck_105370"
+	culture = "telugu"
+}
+105380 = {
+	name = "dynn_ck_105380"
+	culture = "sahelian"
+}
+105390 = {
+	name = "dynn_ck_105390"
+	culture = "telugu"
+}
+105400 = {
+	name = "dynn_ck_105400"
+	culture = "telugu"
+}
+105410 = {
+	name = "dynn_ck_105410"
+	culture = "telugu"
+}
+105420 = {
+	name = "dynn_ck_105420"
+	culture = "telugu"
+}
+105430 = {
+	name = "dynn_ck_105430"
+	culture = "bodpa"
+}
+105440 = {
+	name = "dynn_ck_105440"
+	culture = "sahelian"
+}
+105450 = {
+	name = "dynn_ck_105450"
+	culture = "telugu"
+}
+105460 = {
+	name = "dynn_ck_105460"
+	culture = "greek"
+}
+105470 = {
+	name = "dynn_ck_105470"
+	culture = "aussie"
+}
+105480 = {
+	name = "dynn_ck_105480"
+	culture = "greek"
+}
+105490 = {
+	name = "dynn_ck_105490"
+	culture = "sahelian"
+}
+105500 = {
+	name = "dynn_ck_105500"
+	culture = "bodpa"
+}
+105510 = {
+	name = "dynn_ck_105510"
+	culture = "bodpa"
+}
+105520 = {
+	name = "dynn_ck_105520"
+	culture = "aussie"
+}
+105530 = {
+	name = "dynn_ck_105530"
+	culture = "telugu"
+}
+105540 = {
+	name = "dynn_ck_105540"
+	culture = "greek"
+}
+105550 = {
+	name = "dynn_ck_105550"
+	culture = "bedouin"
+}
+105560 = {
+	name = "dynn_ck_105560"
+	culture = "bedouin"
+}
+105570 = {
+	name = "dynn_ck_105570"
+	culture = "aussie"
+}
+105580 = {
+	name = "dynn_ck_105580"
+	culture = "aussie"
+}
+105590 = {
+	name = "dynn_ck_105590"
+	culture = "aussie"
+}
+105600 = {
+	name = "dynn_ck_105600"
+	culture = "sahelian"
+}
+105610 = {
+	name = "dynn_ck_105610"
+	culture = "telugu"
+}
+105620 = {
+	name = "dynn_ck_105620"
+	culture = "sahelian"
+}
+105630 = {
+	name = "dynn_ck_105630"
+	culture = "aussie"
+}
+105640 = {
+	name = "dynn_ck_105640"
+	culture = "aussie"
+}
+105650 = {
+	name = "dynn_ck_105650"
+	culture = "telugu"
+}
+105660 = {
+	name = "dynn_ck_105660"
+	culture = "telugu"
+}
+105670 = {
+	name = "dynn_ck_105670"
+	culture = "telugu"
+}
+105680 = {
+	name = "dynn_ck_105680"
+	culture = "bodpa"
+}
+105690 = {
+	name = "dynn_ck_105690"
+	culture = "telugu"
+}
+105700 = {
+	name = "dynn_ck_105700"
+	culture = "aussie"
+}
+105710 = {
+	name = "dynn_ck_105710"
+	culture = "sahelian"
+}
+105720 = {
+	name = "dynn_ck_105720"
+	culture = "sahelian"
+}
+105730 = {
+	name = "dynn_ck_105730"
+	culture = "telugu"
+}
+105740 = {
+	name = "dynn_ck_105740"
+	culture = "greek"
+}
+105750 = {
+	name = "dynn_ck_105750"
+	culture = "greek"
+}
+105760 = {
+	name = "dynn_ck_105760"
+	culture = "sahelian"
+}
+105770 = {
+	name = "dynn_ck_105770"
+	culture = "greek"
+}
+105780 = {
+	name = "dynn_ck_105780"
+	culture = "aussie"
+}
+105790 = {
+	name = "dynn_ck_105790"
+	culture = "greek"
+}
+105800 = {
+	name = "dynn_ck_105800"
+	culture = "bedouin"
+}
+105810 = {
+	name = "dynn_ck_105810"
+	culture = "aussie"
+}
+105820 = {
+	name = "dynn_ck_105820"
+	culture = "aussie"
+}
+105830 = {
+	name = "dynn_ck_105830"
+	culture = "greek"
+}
+105840 = {
+	name = "dynn_ck_105840"
+	culture = "greek"
+}
+105850 = {
+	name = "dynn_ck_105850"
+	culture = "bedouin"
+}
+105860 = {
+	name = "dynn_ck_105860"
+	culture = "sahelian"
+}
+105870 = {
+	name = "dynn_ck_105870"
+	culture = "aussie"
+}
+105880 = {
+	name = "dynn_ck_105880"
+	culture = "sahelian"
+}
+105890 = {
+	name = "dynn_ck_105890"
+	culture = "russian"
+}
+105900 = {
+	name = "dynn_ck_105900"
+	culture = "russian"
+}
+105910 = {
+	name = "dynn_ck_105910"
+	culture = "greek"
+}
+105920 = {
+	name = "dynn_ck_105920"
+	culture = "sahelian"
+}
+105930 = {
+	name = "dynn_ck_105930"
+	culture = "greek"
+}
+105940 = {
+	name = "dynn_ck_105940"
+	culture = "greek"
+}
+105950 = {
+	name = "dynn_ck_105950"
+	culture = "bedouin"
+}
+105960 = {
+	name = "dynn_ck_105960"
+	culture = "aussie"
+}
+105970 = {
+	name = "dynn_ck_105970"
+	culture = "greek"
+}
+105980 = {
+	name = "dynn_ck_105980"
+	culture = "bedouin"
+}
+105990 = {
+	name = "dynn_ck_105990"
+	culture = "greek"
+}
+106000 = {
+	name = "dynn_ck_106000"
+	culture = "greek"
+}
+106010 = {
+	name = "dynn_ck_106010"
+	culture = "sahelian"
+}
+106020 = {
+	name = "dynn_ck_106020"
+	culture = "russian"
+}
+106030 = {
+	name = "dynn_ck_106030"
+	culture = "sahelian"
+}
+106040 = {
+	name = "dynn_ck_106040"
+	culture = "bedouin"
+}
+106050 = {
+	name = "dynn_ck_106050"
+	culture = "sahelian"
+}
+106060 = {
+	name = "dynn_ck_106060"
+	culture = "russian"
+}
+106070 = {
+	name = "dynn_ck_106070"
+	culture = "russian"
+}
+106080 = {
+	name = "dynn_ck_106080"
+	culture = "sahelian"
+}
+106090 = {
+	name = "dynn_ck_106090"
+	culture = "sahelian"
+}
+106100 = {
+	name = "dynn_ck_106100"
+	culture = "bedouin"
+}
+106110 = {
+	name = "dynn_ck_106110"
+	culture = "bedouin"
+}
+106120 = {
+	name = "dynn_ck_106120"
+	culture = "russian"
+}
+106130 = {
+	name = "dynn_ck_106130"
+	culture = "russian"
+}
+106140 = {
+	name = "dynn_ck_106140"
+	culture = "bedouin"
+}
+106150 = {
+	name = "dynn_ck_106150"
+	culture = "sahelian"
+}
+106160 = {
+	name = "dynn_ck_106160"
+	culture = "bedouin"
+}
+106170 = {
+	name = "dynn_ck_106170"
+	culture = "sahelian"
+}
+106180 = {
+	name = "dynn_ck_106180"
+	culture = "russian"
+}
+106190 = {
+	name = "dynn_ck_106190"
+	culture = "bedouin"
+}
+106200 = {
+	name = "dynn_ck_106200"
+	culture = "sahelian"
+}
+106210 = {
+	name = "dynn_ck_106210"
+	culture = "russian"
+}
+106220 = {
+	name = "dynn_ck_106220"
+	culture = "bedouin"
+}
+106230 = {
+	name = "dynn_ck_106230"
+	culture = "bedouin"
+}
+106240 = {
+	name = "dynn_ck_106240"
+	culture = "russian"
+}
+106250 = {
+	name = "dynn_ck_106250"
+	culture = "sahelian"
+}
+106260 = {
+	name = "dynn_ck_106260"
+	culture = "russian"
+}
+106270 = {
+	name = "dynn_ck_106270"
+	culture = "sahelian"
+}
+106280 = {
+	name = "dynn_ck_106280"
+	culture = "sahelian"
+}
+106290 = {
+	name = "dynn_ck_106290"
+	culture = "bantu"
+}
+106300 = {
+	name = "dynn_ck_106300"
+	culture = "han"
+}
+106310 = {
+	name = "dynn_ck_106310"
+	culture = "bedouin"
+}
+106320 = {
+	name = "dynn_ck_106320"
+	culture = "bedouin"
+}
+106330 = {
+	name = "dynn_ck_106330"
+	culture = "russian"
+}
+106340 = {
+	name = "dynn_ck_106340"
+	culture = "russian"
+}
+106350 = {
+	name = "dynn_ck_106350"
+	culture = "russian"
+}
+106360 = {
+	name = "dynn_ck_106360"
+	culture = "bedouin"
+}
+106370 = {
+	name = "dynn_ck_106370"
+	culture = "han"
+}
+106380 = {
+	name = "dynn_ck_106380"
+	culture = "bedouin"
+}
+106390 = {
+	name = "dynn_ck_106390"
+	culture = "han"
+}
+106400 = {
+	name = "dynn_ck_106400"
+	culture = "han"
+}
+106410 = {
+	name = "dynn_ck_106410"
+	culture = "russian"
+}
+106430 = {
+	name = "dynn_ck_106430"
+	culture = "bantu"
+}
+106440 = {
+	name = "dynn_ck_106440"
+	culture = "han"
+}
+106450 = {
+	name = "dynn_ck_106450"
+	culture = "sahelian"
+}
+106460 = {
+	name = "dynn_ck_106460"
+	culture = "han"
+}
+106470 = {
+	name = "dynn_ck_106470"
+	culture = "bedouin"
+}
+106480 = {
+	name = "dynn_ck_106480"
+	culture = "bantu"
+}
+106490 = {
+	name = "dynn_ck_106490"
+	culture = "ainu"
+}
+106500 = {
+	name = "dynn_ck_106500"
+	culture = "russian"
+}
+106510 = {
+	name = "dynn_ck_106510"
+	culture = "bantu"
+}
+106520 = {
+	name = "dynn_ck_106520"
+	culture = "han"
+}
+106530 = {
+	name = "dynn_ck_106530"
+	culture = "bedouin"
+}
+106540 = {
+	name = "dynn_ck_106540"
+	culture = "bedouin"
+}
+106550 = {
+	name = "dynn_ck_106550"
+	culture = "bedouin"
+}
+106560 = {
+	name = "dynn_ck_106560"
+	culture = "bantu"
+}
+106570 = {
+	name = "dynn_ck_106570"
+	culture = "han"
+}
+106580 = {
+	name = "dynn_ck_106580"
+	culture = "russian"
+}
+106590 = {
+	name = "dynn_ck_106590"
+	culture = "han"
+}
+106600 = {
+	name = "dynn_ck_106600"
+	culture = "sahelian"
+}
+106610 = {
+	name = "dynn_ck_106610"
+	culture = "russian"
+}
+106620 = {
+	name = "dynn_ck_106620"
+	culture = "russian"
+}
+106630 = {
+	name = "dynn_ck_106630"
+	culture = "han"
+}
+106640 = {
+	name = "dynn_ck_106640"
+	culture = "ainu"
+}
+106650 = {
+	name = "dynn_ck_106650"
+	culture = "han"
+}
+106660 = {
+	name = "dynn_ck_106660"
+	culture = "sahelian"
+}
+106670 = {
+	name = "dynn_ck_106670"
+	culture = "sahelian"
+}
+106680 = {
+	name = "dynn_ck_106680"
+	culture = "bantu"
+}
+106690 = {
+	name = "dynn_ck_106690"
+	culture = "bantu"
+}
+106700 = {
+	name = "dynn_ck_106700"
+	culture = "russian"
+}
+106720 = {
+	name = "dynn_ck_106720"
+	culture = "han"
+}
+106730 = {
+	name = "dynn_ck_106730"
+	culture = "han"
+}
+106740 = {
+	name = "dynn_ck_106740"
+	culture = "bedouin"
+}
+106750 = {
+	name = "dynn_ck_106750"
+	culture = "bedouin"
+}
+106760 = {
+	name = "dynn_ck_106760"
+	culture = "bedouin"
+}
+106770 = {
+	name = "dynn_ck_106770"
+	culture = "bantu"
+}
+106780 = {
+	name = "dynn_ck_106780"
+	culture = "russian"
+}
+106790 = {
+	name = "dynn_ck_106790"
+	culture = "han"
+}
+106800 = {
+	name = "dynn_ck_106800"
+	culture = "bedouin"
+}
+106810 = {
+	name = "dynn_ck_106810"
+	culture = "bedouin"
+}
+106820 = {
+	name = "dynn_ck_106820"
+	culture = "han"
+}
+106830 = {
+	name = "dynn_ck_106830"
+	culture = "sahelian"
+}
+106840 = {
+	name = "dynn_ck_106840"
+	culture = "han"
+}
+106850 = {
+	name = "dynn_ck_106850"
+	culture = "han"
+}
+106860 = {
+	name = "dynn_ck_106860"
+	culture = "han"
+}
+106870 = {
+	name = "dynn_ck_106870"
+	culture = "han"
+}
+106880 = {
+	name = "dynn_ck_106880"
+	culture = "han"
+}
+106890 = {
+	name = "dynn_ck_106890"
+	culture = "bedouin"
+}
+106900 = {
+	name = "dynn_ck_106900"
+	culture = "sahelian"
+}
+106910 = {
+	name = "dynn_ck_106910"
+	culture = "bedouin"
+}
+106920 = {
+	name = "dynn_ck_106920"
+	culture = "bantu"
+}
+106930 = {
+	name = "dynn_ck_106930"
+	culture = "russian"
+}
+106940 = {
+	name = "dynn_ck_106940"
+	culture = "russian"
+}
+106950 = {
+	name = "dynn_ck_106950"
+	culture = "russian"
+}
+106960 = {
+	name = "dynn_ck_106960"
+	culture = "han"
+}
+106970 = {
+	name = "dynn_ck_106970"
+	culture = "han"
+}
+106980 = {
+	name = "dynn_ck_106980"
+	culture = "bantu"
+}
+106990 = {
+	name = "dynn_ck_106990"
+	culture = "han"
+}
+107000 = {
+	name = "dynn_ck_107000"
+	culture = "bedouin"
+}
+107010 = {
+	name = "dynn_ck_107010"
+	culture = "bantu"
+}
+107020 = {
+	name = "dynn_ck_107020"
+	culture = "sahelian"
+}
+107030 = {
+	name = "dynn_ck_107030"
+	culture = "russian"
+}
+107040 = {
+	name = "dynn_ck_107040"
+	culture = "bedouin"
+}
+107050 = {
+	name = "dynn_ck_107050"
+	culture = "han"
+}
+107060 = {
+	name = "dynn_ck_107060"
+	culture = "sahelian"
+}
+107070 = {
+	name = "dynn_ck_107070"
+	culture = "bedouin"
+}
+107080 = {
+	name = "dynn_ck_107080"
+	culture = "han"
+}
+107090 = {
+	name = "dynn_ck_107090"
+	culture = "russian"
+}
+107100 = {
+	name = "dynn_ck_107100"
+	culture = "bedouin"
+}
+107110 = {
+	name = "dynn_ck_107110"
+	culture = "telugu"
+}
+107120 = {
+	name = "dynn_ck_107120"
+	culture = "russian"
+}
+107130 = {
+	name = "dynn_ck_107130"
+	culture = "bantu"
+}
+107140 = {
+	name = "dynn_ck_107140"
+	culture = "han"
+}
+107150 = {
+	name = "dynn_ck_107150"
+	culture = "russian"
+}
+107160 = {
+	name = "dynn_ck_107160"
+	culture = "han"
+}
+107170 = {
+	name = "dynn_ck_107170"
+	culture = "han"
+}
+121771 = {
+	name = "dynn_ck_121771"
+	culture = "celestial"
+}
+107180 = {
+	name = "dynn_ck_107180"
+	culture = "ainu"
+}
+107190 = {
+	name = "dynn_ck_107190"
+	culture = "bantu"
+}
+107200 = {
+	name = "dynn_ck_107200"
+	culture = "ainu"
+}
+107210 = {
+	name = "dynn_ck_107210"
+	culture = "han"
+}
+107220 = {
+	name = "dynn_ck_107220"
+	culture = "han"
+}
+107230 = {
+	name = "dynn_ck_107230"
+	culture = "bantu"
+}
+107240 = {
+	name = "dynn_ck_107240"
+	culture = "han"
+}
+107250 = {
+	name = "dynn_ck_107250"
+	culture = "sahelian"
+}
+107260 = {
+	name = "dynn_ck_107260"
+	culture = "bantu"
+}
+107270 = {
+	name = "dynn_ck_107270"
+	culture = "han"
+}
+107280 = {
+	name = "dynn_ck_107280"
+	culture = "bedouin"
+}
+107290 = {
+	name = "dynn_ck_107290"
+	culture = "bedouin"
+}
+107300 = {
+	name = "dynn_ck_107300"
+	culture = "han"
+}
+107310 = {
+	name = "dynn_ck_107310"
+	culture = "bedouin"
+}
+107320 = {
+	name = "dynn_ck_107320"
+	culture = "han"
+}
+107330 = {
+	name = "dynn_ck_107330"
+	culture = "sahelian"
+}
+107340 = {
+	name = "dynn_ck_107340"
+	culture = "bantu"
+}
+107350 = {
+	name = "dynn_ck_107350"
+	culture = "han"
+}
+107360 = {
+	name = "dynn_ck_107360"
+	culture = "sahelian"
+}
+107370 = {
+	name = "dynn_ck_107370"
+	culture = "russian"
+}
+107380 = {
+	name = "dynn_ck_107380"
+	culture = "han"
+}
+107390 = {
+	name = "dynn_ck_107390"
+	culture = "bedouin"
+}
+107400 = {
+	name = "dynn_ck_107400"
+	culture = "ainu"
+}
+107410 = {
+	name = "dynn_ck_107410"
+	culture = "han"
+}
+107420 = {
+	name = "dynn_ck_107420"
+	culture = "han"
+}
+107430 = {
+	name = "dynn_ck_107430"
+	culture = "bedouin"
+}
+107440 = {
+	name = "dynn_ck_107440"
+	culture = "bantu"
+}
+107450 = {
+	name = "dynn_ck_107450"
+	culture = "han"
+}
+107460 = {
+	name = "dynn_ck_107460"
+	culture = "bedouin"
+}
+107470 = {
+	name = "dynn_ck_107470"
+	culture = "sahelian"
+}
+107480 = {
+	name = "dynn_ck_107480"
+	culture = "russian"
+}
+107490 = {
+	name = "dynn_ck_107490"
+	culture = "han"
+}
+107500 = {
+	name = "dynn_ck_107500"
+	culture = "bantu"
+}
+107510 = {
+	name = "dynn_ck_107510"
+	culture = "ainu"
+}
+107520 = {
+	name = "dynn_ck_107520"
+	culture = "bedouin"
+}
+107530 = {
+	name = "dynn_ck_107530"
+	culture = "han"
+}
+107540 = {
+	name = "dynn_ck_107540"
+	culture = "han"
+}
+107550 = {
+	name = "dynn_ck_107550"
+	culture = "bedouin"
+}
+107560 = {
+	name = "dynn_ck_107560"
+	culture = "sahelian"
+}
+107570 = {
+	name = "dynn_ck_107570"
+	culture = "bantu"
+}
+107580 = {
+	name = "dynn_ck_107580"
+	culture = "han"
+}
+107590 = {
+	name = "dynn_ck_107590"
+	culture = "bantu"
+}
+107600 = {
+	name = "dynn_ck_107600"
+	culture = "han"
+}
+107610 = {
+	name = "dynn_ck_107610"
+	culture = "bantu"
+}
+107620 = {
+	name = "dynn_ck_107620"
+	culture = "bantu"
+}
+107630 = {
+	name = "dynn_ck_107630"
+	culture = "han"
+}
+107640 = {
+	name = "dynn_ck_107640"
+	culture = "bedouin"
+}
+107650 = {
+	name = "dynn_ck_107650"
+	culture = "ainu"
+}
+107660 = {
+	name = "dynn_ck_107660"
+	culture = "han"
+}
+107670 = {
+	name = "dynn_ck_107670"
+	culture = "han"
+}
+107680 = {
+	name = "dynn_ck_107680"
+	culture = "bedouin"
+}
+107690 = {
+	name = "dynn_ck_107690"
+	culture = "han"
+}
+107700 = {
+	name = "dynn_ck_107700"
+	culture = "han"
+}
+107710 = {
+	name = "dynn_ck_107710"
+	culture = "sahelian"
+}
+107720 = {
+	name = "dynn_ck_107720"
+	culture = "han"
+}
+107730 = {
+	name = "dynn_ck_107730"
+	culture = "southeast_asian"
+}
+107740 = {
+	name = "dynn_ck_107740"
+	culture = "sahelian"
+}
+107750 = {
+	name = "dynn_ck_107750"
+	culture = "han"
+}
+107760 = {
+	name = "dynn_ck_107760"
+	culture = "han"
+}
+107770 = {
+	name = "dynn_ck_107770"
+	culture = "sahelian"
+}
+107780 = {
+	name = "dynn_ck_107780"
+	culture = "bantu"
+}
+107790 = {
+	name = "dynn_ck_107790"
+	culture = "han"
+}
+107800 = {
+	name = "dynn_ck_107800"
+	culture = "bantu"
+}
+107830 = {
+	name = "dynn_ck_107830"
+	culture = "ainu"
+}
+107840 = {
+	name = "dynn_ck_107840"
+	culture = "han"
+}
+107850 = {
+	name = "dynn_ck_107850"
+	culture = "russian"
+}
+107860 = {
+	name = "dynn_ck_107860"
+	culture = "han"
+}
+107870 = {
+	name = "dynn_ck_107870"
+	culture = "ainu"
+}
+107880 = {
+	name = "dynn_ck_107880"
+	culture = "southeast_asian"
+}
+107890 = {
+	name = "dynn_ck_107890"
+	culture = "han"
+}
+107900 = {
+	name = "dynn_ck_107900"
+	culture = "han"
+}
+107910 = {
+	name = "dynn_ck_107910"
+	culture = "han"
+}
+107920 = {
+	name = "dynn_ck_107920"
+	culture = "ainu"
+}
+107930 = {
+	name = "dynn_ck_107930"
+	culture = "han"
+}
+107940 = {
+	name = "dynn_ck_107940"
+	culture = "southeast_asian"
+}
+107950 = {
+	name = "dynn_ck_107950"
+	culture = "han"
+}
+107960 = {
+	name = "dynn_ck_107960"
+	culture = "bantu"
+}
+107970 = {
+	name = "dynn_ck_107970"
+	culture = "han"
+}
+107980 = {
+	name = "dynn_ck_107980"
+	culture = "han"
+}
+107990 = {
+	name = "dynn_ck_107990"
+	culture = "han"
+}
+108000 = {
+	name = "dynn_ck_108000"
+	culture = "southeast_asian"
+}
+108010 = {
+	name = "dynn_ck_108010"
+	culture = "southeast_asian"
+}
+108020 = {
+	name = "dynn_ck_108020"
+	culture = "bantu"
+}
+108030 = {
+	name = "dynn_ck_108030"
+	culture = "bantu"
+}
+108040 = {
+	name = "dynn_ck_108040"
+	culture = "southeast_asian"
+}
+108050 = {
+	name = "dynn_ck_108050"
+	culture = "han"
+}
+108060 = {
+	name = "dynn_ck_108060"
+	culture = "bantu"
+}
+108080 = {
+	name = "dynn_ck_108080"
+	culture = "saxon"
+}
+108090 = {
+	name = "dynn_ck_108090"
+	culture = "han"
+}
+108100 = {
+	name = "dynn_ck_108100"
+	culture = "han"
+}
+108110 = {
+	name = "dynn_ck_108110"
+	culture = "han"
+}
+108120 = {
+	name = "dynn_ck_108120"
+	culture = "han"
+}
+108130 = {
+	name = "dynn_ck_108130"
+	culture = "mongol"
+}
+108140 = {
+	name = "dynn_ck_108140"
+	culture = "han"
+}
+108150 = {
+	name = "dynn_ck_108150"
+	culture = "han"
+}
+108160 = {
+	name = "dynn_ck_108160"
+	culture = "southeast_asian"
+}
+108170 = {
+	name = "dynn_ck_108170"
+	culture = "saxon"
+}
+108180 = {
+	name = "dynn_ck_108180"
+	culture = "mongol"
+}
+108190 = {
+	name = "dynn_ck_108190"
+	culture = "mongol"
+}
+108200 = {
+	name = "dynn_ck_108200"
+	culture = "han"
+}
+108210 = {
+	name = "dynn_ck_108210"
+	culture = "southeast_asian"
+}
+108220 = {
+	name = "dynn_ck_108220"
+	culture = "han"
+}
+108230 = {
+	name = "dynn_ck_108230"
+	culture = "han"
+}
+108240 = {
+	name = "dynn_ck_108240"
+	culture = "southeast_asian"
+}
+108250 = {
+	name = "dynn_ck_108250"
+	culture = "han"
+}
+108260 = {
+	name = "dynn_ck_108260"
+	culture = "han"
+}
+108270 = {
+	name = "dynn_ck_108270"
+	culture = "saxon"
+}
+108280 = {
+	name = "dynn_ck_108280"
+	culture = "southeast_asian"
+}
+108290 = {
+	name = "dynn_ck_108290"
+	culture = "mongol"
+}
+108300 = {
+	name = "dynn_ck_108300"
+	culture = "han"
+}
+108310 = {
+	name = "dynn_ck_108310"
+	culture = "mongol"
+}
+108320 = {
+	name = "dynn_ck_108320"
+	culture = "mongol"
+}
+108330 = {
+	name = "dynn_ck_108330"
+	culture = "mongol"
+}
+108350 = {
+	name = "dynn_ck_108350"
+	culture = "han"
+}
+108360 = {
+	name = "dynn_ck_108360"
+	culture = "saxon"
+}
+108370 = {
+	name = "dynn_ck_108370"
+	culture = "mongol"
+}
+108380 = {
+	name = "dynn_ck_108380"
+	culture = "bantu"
+}
+108390 = {
+	name = "dynn_ck_108390"
+	culture = "han"
+}
+108400 = {
+	name = "dynn_ck_108400"
+	culture = "southeast_asian"
+}
+108410 = {
+	name = "dynn_ck_108410"
+	culture = "han"
+}
+108420 = {
+	name = "dynn_ck_108420"
+	culture = "mongol"
+}
+108430 = {
+	name = "dynn_ck_108430"
+	culture = "korean"
+}
+108440 = {
+	name = "dynn_ck_108440"
+	culture = "han"
+}
+108450 = {
+	name = "dynn_ck_108450"
+	culture = "saxon"
+}
+108460 = {
+	name = "dynn_ck_108460"
+	culture = "southeast_asian"
+}
+108470 = {
+	name = "dynn_ck_108470"
+	culture = "han"
+}
+108480 = {
+	name = "dynn_ck_108480"
+	culture = "mongol"
+}
+108490 = {
+	name = "dynn_ck_108490"
+	culture = "bantu"
+}
+108500 = {
+	name = "dynn_ck_108500"
+	culture = "bantu"
+}
+108510 = {
+	name = "dynn_ck_108510"
+	culture = "mongol"
+}
+108520 = {
+	name = "dynn_ck_108520"
+	culture = "han"
+}
+108530 = {
+	name = "dynn_ck_108530"
+	culture = "han"
+}
+108540 = {
+	name = "dynn_ck_108540"
+	culture = "saxon"
+}
+108550 = {
+	name = "dynn_ck_108550"
+	culture = "mongol"
+}
+108560 = {
+	name = "dynn_ck_108560"
+	culture = "southeast_asian"
+}
+108570 = {
+	name = "dynn_ck_108570"
+	culture = "mongol"
+}
+108580 = {
+	name = "dynn_ck_108580"
+	culture = "mongol"
+}
+108590 = {
+	name = "dynn_ck_108590"
+	culture = "han"
+}
+108600 = {
+	name = "dynn_ck_108600"
+	culture = "mongol"
+}
+108610 = {
+	name = "dynn_ck_108610"
+	culture = "southeast_asian"
+}
+108620 = {
+	name = "dynn_ck_108620"
+	culture = "mongol"
+}
+108630 = {
+	name = "dynn_ck_108630"
+	culture = "southeast_asian"
+}
+108640 = {
+	name = "dynn_ck_108640"
+	culture = "southeast_asian"
+}
+108650 = {
+	name = "dynn_ck_108650"
+	culture = "korean"
+}
+108660 = {
+	name = "dynn_ck_108660"
+	culture = "southeast_asian"
+}
+108670 = {
+	name = "dynn_ck_108670"
+	culture = "mongol"
+}
+108680 = {
+	name = "dynn_ck_108680"
+	culture = "southeast_asian"
+}
+108690 = {
+	name = "dynn_ck_108690"
+	culture = "southeast_asian"
+}
+108700 = {
+	name = "dynn_ck_108700"
+	culture = "han"
+}
+108720 = {
+	name = "dynn_ck_108720"
+	culture = "han"
+}
+108730 = {
+	name = "dynn_ck_108730"
+	culture = "saxon"
+}
+108740 = {
+	name = "dynn_ck_108740"
+	culture = "southeast_asian"
+}
+108750 = {
+	name = "dynn_ck_108750"
+	culture = "mongol"
+}
+108760 = {
+	name = "dynn_ck_108760"
+	culture = "han"
+}
+108770 = {
+	name = "dynn_ck_108770"
+	culture = "mongol"
+}
+108780 = {
+	name = "dynn_ck_108780"
+	culture = "southeast_asian"
+}
+108790 = {
+	name = "dynn_ck_108790"
+	culture = "mongol"
+}
+108791 = {
+	name = "dynn_ck_108791"
+	culture = "mongol"
+}
+108792 = {
+	name = "dynn_ck_108792"
+	culture = "mongol"
+}
+108793 = {
+	name = "dynn_ck_108793"
+	culture = "mongol"
+}
+108794 = {
+	name = "dynn_ck_108794"
+	culture = "mongol"
+}
+108800 = {
+	name = "dynn_ck_108800"
+	culture = "southeast_asian"
+}
+108810 = {
+	name = "dynn_ck_108810"
+	culture = "han"
+}
+108820 = {
+	name = "dynn_ck_108820"
+	culture = "han"
+}
+108830 = {
+	name = "dynn_ck_108830"
+	culture = "southeast_asian"
+}
+108840 = {
+	name = "dynn_ck_108840"
+	culture = "ainu"
+}
+108850 = {
+	name = "dynn_ck_108850"
+	culture = "han"
+}
+108860 = {
+	name = "dynn_ck_108860"
+	culture = "southeast_asian"
+}
+108870 = {
+	name = "dynn_ck_108870"
+	culture = "southeast_asian"
+}
+108880 = {
+	name = "dynn_ck_108880"
+	culture = "mongol"
+}
+108890 = {
+	name = "dynn_ck_108890"
+	culture = "han"
+}
+108900 = {
+	name = "dynn_ck_108900"
+	culture = "mongol"
+}
+108910 = {
+	name = "dynn_ck_108910"
+	culture = "mongol"
+}
+108920 = {
+	name = "dynn_ck_108920"
+	culture = "han"
+}
+108930 = {
+	name = "dynn_ck_108930"
+	culture = "mongol"
+}
+108940 = {
+	name = "dynn_ck_108940"
+	culture = "southeast_asian"
+}
+108950 = {
+	name = "dynn_ck_108950"
+	culture = "southeast_asian"
+}
+108960 = {
+	name = "dynn_ck_108960"
+	culture = "mongol"
+}
+108970 = {
+	name = "dynn_ck_108970"
+	culture = "han"
+}
+108980 = {
+	name = "dynn_ck_108980"
+	culture = "mongol"
+}
+109000 = {
+	name = "dynn_ck_109000"
+	culture = "southeast_asian"
+}
+109010 = {
+	name = "dynn_ck_109010"
+	culture = "mongol"
+}
+109020 = {
+	name = "dynn_ck_109020"
+	culture = "mongol"
+}
+109030 = {
+	name = "dynn_ck_109030"
+	culture = "han"
+}
+109050 = {
+	name = "dynn_ck_109050"
+	culture = "southeast_asian"
+}
+109060 = {
+	name = "dynn_ck_109060"
+	culture = "mongol"
+}
+109070 = {
+	name = "dynn_ck_109070"
+	culture = "southeast_asian"
+}
+109080 = {
+	name = "dynn_ck_109080"
+	culture = "southeast_asian"
+}
+109090 = {
+	name = "dynn_ck_109090"
+	culture = "southeast_asian"
+}
+109100 = {
+	name = "dynn_ck_109100"
+	culture = "mongol"
+}
+109110 = {
+	name = "dynn_ck_109110"
+	culture = "mongol"
+}
+109120 = {
+	name = "dynn_ck_109120"
+	culture = "han"
+}
+109130 = {
+	name = "dynn_ck_109130"
+	culture = "han"
+}
+109131 = {
+	name = "dynn_ck_109131"
+	culture = "han"
+}
+109132 = {
+	name = "dynn_ck_109132"
+	culture = "han"
+}
+109133 = {
+	name = "dynn_ck_109133"
+	culture = "han"
+}
+109134 = {
+	name = "dynn_ck_109134"
+	culture = "han"
+}
+109150 = {
+	name = "dynn_ck_109150"
+	culture = "mongol"
+}
+109160 = {
+	name = "dynn_ck_109160"
+	culture = "mongol"
+}
+109170 = {
+	name = "dynn_ck_109170"
+	culture = "southeast_asian"
+}
+109180 = {
+	name = "dynn_ck_109180"
+	culture = "southeast_asian"
+}
+109190 = {
+	name = "dynn_ck_109190"
+	culture = "mongol"
+}
+109200 = {
+	name = "dynn_ck_109200"
+	culture = "mongol"
+}
+109210 = {
+	name = "dynn_ck_109210"
+	culture = "southeast_asian"
+}
+109220 = {
+	name = "dynn_ck_109220"
+	culture = "han"
+}
+109230 = {
+	name = "dynn_ck_109230"
+	culture = "mongol"
+}
+109240 = {
+	name = "dynn_ck_109240"
+	culture = "mongol"
+}
+109250 = {
+	name = "dynn_ck_109250"
+	culture = "mongol"
+}
+109260 = {
+	name = "dynn_ck_109260"
+	culture = "mongol"
+}
+109270 = {
+	name = "dynn_ck_109270"
+	culture = "southeast_asian"
+}
+109280 = {
+	name = "dynn_ck_109280"
+	culture = "han"
+}
+109281 = {
+	name = "dynn_ck_109281"
+	culture = "han"
+}
+109282 = {
+	name = "dynn_ck_109282"
+	culture = "han"
+}
+109283 = {
+	name = "dynn_ck_109283"
+	culture = "han"
+}
+109284 = {
+	name = "dynn_ck_109284"
+	culture = "han"
+}
+109300 = {
+	name = "dynn_ck_109300"
+	culture = "southeast_asian"
+}
+109310 = {
+	name = "dynn_ck_109310"
+	culture = "southeast_asian"
+}
+109320 = {
+	name = "dynn_ck_109320"
+	culture = "southeast_asian"
+}
+109330 = {
+	name = "dynn_ck_109330"
+	culture = "telugu"
+}
+109331 = {
+	name = "dynn_ck_109331"
+	culture = "telugu"
+}
+109332 = {
+	name = "dynn_ck_109332"
+	culture = "telugu"
+}
+109333 = {
+	name = "dynn_ck_109333"
+	culture = "telugu"
+}
+109334 = {
+	name = "dynn_ck_109334"
+	culture = "telugu"
+}
+109340 = {
+	name = "dynn_ck_109340"
+	culture = "mongol"
+}
+109350 = {
+	name = "dynn_ck_109350"
+	culture = "han"
+}
+109360 = {
+	name = "dynn_ck_109360"
+	culture = "southeast_asian"
+}
+109370 = {
+	name = "dynn_ck_109370"
+	culture = "mongol"
+}
+109380 = {
+	name = "dynn_ck_109380"
+	culture = "mongol"
+}
+109390 = {
+	name = "dynn_ck_109390"
+	culture = "southeast_asian"
+}
+109400 = {
+	name = "dynn_ck_109400"
+	culture = "mongol"
+}
+109410 = {
+	name = "dynn_ck_109410"
+	culture = "southeast_asian"
+}
+109420 = {
+	name = "dynn_ck_109420"
+	culture = "mongol"
+}
+109430 = {
+	name = "dynn_ck_109430"
+	culture = "mongol"
+}
+109440 = {
+	name = "dynn_ck_109440"
+	culture = "southeast_asian"
+}
+109450 = {
+	name = "dynn_ck_109450"
+	culture = "telugu"
+}
+109460 = {
+	name = "dynn_ck_109460"
+	culture = "saxon"
+}
+109470 = {
+	name = "dynn_ck_109470"
+	culture = "mongol"
+}
+109480 = {
+	name = "dynn_ck_109480"
+	culture = "mongol"
+}
+109490 = {
+	name = "dynn_ck_109490"
+	culture = "mongol"
+}
+109500 = {
+	name = "dynn_ck_109500"
+	culture = "mongol"
+}
+109510 = {
+	name = "dynn_ck_109510"
+	culture = "southeast_asian"
+}
+109520 = {
+	name = "dynn_ck_109520"
+	culture = "mongol"
+}
+109530 = {
+	name = "dynn_ck_109530"
+	culture = "telugu"
+}
+109540 = {
+	name = "dynn_ck_109540"
+	culture = "saxon"
+}
+109550 = {
+	name = "dynn_ck_109550"
+	culture = "sami"
+}
+109560 = {
+	name = "dynn_ck_109560"
+	culture = "southeast_asian"
+}
+109570 = {
+	name = "dynn_ck_109570"
+	culture = "saxon"
+}
+109580 = {
+	name = "dynn_ck_109580"
+	culture = "mongol"
+}
+109590 = {
+	name = "dynn_ck_109590"
+	culture = "mongol"
+}
+109600 = {
+	name = "dynn_ck_109600"
+	culture = "southeast_asian"
+}
+109610 = {
+	name = "dynn_ck_109610"
+	culture = "telugu"
+}
+109620 = {
+	name = "dynn_ck_109620"
+	culture = "telugu"
+}
+109630 = {
+	name = "dynn_ck_109630"
+	culture = "mongol"
+}
+109640 = {
+	name = "dynn_ck_109640"
+	culture = "southeast_asian"
+}
+109650 = {
+	name = "dynn_ck_109650"
+	culture = "southeast_asian"
+}
+109660 = {
+	name = "dynn_ck_109660"
+	culture = "telugu"
+}
+109670 = {
+	name = "dynn_ck_109670"
+	culture = "mongol"
+}
+109680 = {
+	name = "dynn_ck_109680"
+	culture = "mongol"
+}
+109690 = {
+	name = "dynn_ck_109690"
+	culture = "telugu"
+}
+109700 = {
+	name = "dynn_ck_109700"
+	culture = "sami"
+}
+109710 = {
+	name = "dynn_ck_109710"
+	culture = "telugu"
+}
+109720 = {
+	name = "dynn_ck_109720"
+	culture = "telugu"
+}
+109730 = {
+	name = "dynn_ck_109730"
+	culture = "southeast_asian"
+}
+109740 = {
+	name = "dynn_ck_109740"
+	culture = "southeast_asian"
+}
+109750 = {
+	name = "dynn_ck_109750"
+	culture = "sami"
+}
+109760 = {
+	name = "dynn_ck_109760"
+	culture = "sami"
+}
+109770 = {
+	name = "dynn_ck_109770"
+	culture = "telugu"
+}
+109780 = {
+	name = "dynn_ck_109780"
+	culture = "southeast_asian"
+}
+109790 = {
+	name = "dynn_ck_109790"
+	culture = "telugu"
+}
+109800 = {
+	name = "dynn_ck_109800"
+	culture = "telugu"
+}
+109810 = {
+	name = "dynn_ck_109810"
+	culture = "sami"
+}
+109820 = {
+	name = "dynn_ck_109820"
+	culture = "southeast_asian"
+}
+109830 = {
+	name = "dynn_ck_109830"
+	culture = "southeast_asian"
+}
+109840 = {
+	name = "dynn_ck_109840"
+	culture = "telugu"
+}
+109850 = {
+	name = "dynn_ck_109850"
+	culture = "sami"
+}
+109860 = {
+	name = "dynn_ck_109860"
+	culture = "telugu"
+}
+109870 = {
+	name = "dynn_ck_109870"
+	culture = "southeast_asian"
+}
+109880 = {
+	name = "dynn_ck_109880"
+	culture = "southeast_asian"
+}
+109890 = {
+	name = "dynn_ck_109890"
+	culture = "southeast_asian"
+}
+109900 = {
+	name = "dynn_ck_109900"
+	culture = "telugu"
+}
+109910 = {
+	name = "dynn_ck_109910"
+	culture = "telugu"
+}
+109920 = {
+	name = "dynn_ck_109920"
+	culture = "telugu"
+}
+109930 = {
+	name = "dynn_ck_109930"
+	culture = "southeast_asian"
+}
+109940 = {
+	name = "dynn_ck_109940"
+	culture = "southeast_asian"
+}
+109950 = {
+	name = "dynn_ck_109950"
+	culture = "telugu"
+}
+109960 = {
+	name = "dynn_ck_109960"
+	culture = "sahelian"
+}
+109970 = {
+	name = "dynn_ck_109970"
+	culture = "southeast_asian"
+}
+109980 = {
+	name = "dynn_ck_109980"
+	culture = "telugu"
+}
+109990 = {
+	name = "dynn_ck_109990"
+	culture = "telugu"
+}
+110000 = {
+	name = "dynn_ck_110000"
+	culture = "telugu"
+}
+110010 = {
+	name = "dynn_ck_110010"
+	culture = "telugu"
+}
+110020 = {
+	name = "dynn_ck_110020"
+	culture = "telugu"
+}
+110030 = {
+	name = "dynn_ck_110030"
+	culture = "sahelian"
+}
+110040 = {
+	name = "dynn_ck_110040"
+	culture = "sahelian"
+}
+110050 = {
+	name = "dynn_ck_110050"
+	culture = "telugu"
+}
+110060 = {
+	name = "dynn_ck_110060"
+	culture = "southeast_asian"
+}
+110070 = {
+	name = "dynn_ck_110070"
+	culture = "southeast_asian"
+}
+110080 = {
+	name = "dynn_ck_110080"
+	culture = "telugu"
+}
+110090 = {
+	name = "dynn_ck_110090"
+	culture = "telugu"
+}
+110100 = {
+	name = "dynn_ck_110100"
+	culture = "telugu"
+}
+110110 = {
+	name = "dynn_ck_110110"
+	culture = "telugu"
+}
+110120 = {
+	name = "dynn_ck_110120"
+	culture = "sami"
+}
+110130 = {
+	name = "dynn_ck_110130"
+	culture = "telugu"
+}
+110140 = {
+	name = "dynn_ck_110140"
+	culture = "telugu"
+}
+110150 = {
+	name = "dynn_ck_110150"
+	culture = "frisian"
+}
+110160 = {
+	name = "dynn_ck_110160"
+	culture = "sahelian"
+}
+110170 = {
+	name = "dynn_ck_110170"
+	culture = "telugu"
+}
+110180 = {
+	name = "dynn_ck_110180"
+	culture = "sami"
+}
+110190 = {
+	name = "dynn_ck_110190"
+	culture = "telugu"
+}
+110200 = {
+	name = "dynn_ck_110200"
+	culture = "telugu"
+}
+110210 = {
+	name = "dynn_ck_110210"
+	culture = "frisian"
+}
+110220 = {
+	name = "dynn_ck_110220"
+	culture = "sahelian"
+}
+110230 = {
+	name = "dynn_ck_110230"
+	culture = "sahelian"
+}
+110240 = {
+	name = "dynn_ck_110240"
+	culture = "telugu"
+}
+110250 = {
+	name = "dynn_ck_110250"
+	culture = "french"
+}
+110260 = {
+	name = "dynn_ck_110260"
+	culture = "telugu"
+}
+110270 = {
+	name = "dynn_ck_110270"
+	culture = "telugu"
+}
+110280 = {
+	name = "dynn_ck_110280"
+	culture = "french"
+}
+110290 = {
+	name = "dynn_ck_110290"
+	culture = "frisian"
+}
+110300 = {
+	name = "dynn_ck_110300"
+	culture = "frisian"
+}
+110310 = {
+	name = "dynn_ck_110310"
+	culture = "telugu"
+}
+110320 = {
+	name = "dynn_ck_110320"
+	culture = "telugu"
+}
+110330 = {
+	name = "dynn_ck_110330"
+	culture = "telugu"
+}
+110340 = {
+	name = "dynn_ck_110340"
+	culture = "sami"
+}
+110350 = {
+	name = "dynn_ck_110350"
+	culture = "telugu"
+}
+110360 = {
+	name = "dynn_ck_110360"
+	culture = "french"
+}
+110370 = {
+	name = "dynn_ck_110370"
+	culture = "sahelian"
+}
+110380 = {
+	name = "dynn_ck_110380"
+	culture = "sahelian"
+}
+110390 = {
+	name = "dynn_ck_110390"
+	culture = "telugu"
+}
+110400 = {
+	name = "dynn_ck_110400"
+	culture = "telugu"
+}
+110410 = {
+	name = "dynn_ck_110410"
+	culture = "telugu"
+}
+110420 = {
+	name = "dynn_ck_110420"
+	culture = "telugu"
+}
+110430 = {
+	name = "dynn_ck_110430"
+	culture = "sami"
+}
+110440 = {
+	name = "dynn_ck_110440"
+	culture = "telugu"
+}
+110450 = {
+	name = "dynn_ck_110450"
+	culture = "telugu"
+}
+110460 = {
+	name = "dynn_ck_110460"
+	culture = "telugu"
+}
+110470 = {
+	name = "dynn_ck_110470"
+	culture = "sami"
+}
+110480 = {
+	name = "dynn_ck_110480"
+	culture = "telugu"
+}
+110490 = {
+	name = "dynn_ck_110490"
+	culture = "french"
+}
+110500 = {
+	name = "dynn_ck_110500"
+	culture = "southeast_asian"
+}
+110510 = {
+	name = "dynn_ck_110510"
+	culture = "telugu"
+}
+110520 = {
+	name = "dynn_ck_110520"
+	culture = "telugu"
+}
+110530 = {
+	name = "dynn_ck_110530"
+	culture = "telugu"
+}
+110540 = {
+	name = "dynn_ck_110540"
+	culture = "sami"
+}
+110550 = {
+	name = "dynn_ck_110550"
+	culture = "french"
+}
+110560 = {
+	name = "dynn_ck_110560"
+	culture = "southeast_asian"
+}
+110570 = {
+	name = "dynn_ck_110570"
+	culture = "aussie"
+}
+110580 = {
+	name = "dynn_ck_110580"
+	culture = "frisian"
+}
+110590 = {
+	name = "dynn_ck_110590"
+	culture = "telugu"
+}
+110600 = {
+	name = "dynn_ck_110600"
+	culture = "sami"
+}
+110610 = {
+	name = "dynn_ck_110610"
+	culture = "telugu"
+}
+110620 = {
+	name = "dynn_ck_110620"
+	culture = "telugu"
+}
+110630 = {
+	name = "dynn_ck_110630"
+	culture = "telugu"
+}
+110640 = {
+	name = "dynn_ck_110640"
+	culture = "aussie"
+}
+110650 = {
+	name = "dynn_ck_110650"
+	culture = "telugu"
+}
+110660 = {
+	name = "dynn_ck_110660"
+	culture = "french"
+}
+110670 = {
+	name = "dynn_ck_110670"
+	culture = "telugu"
+}
+110680 = {
+	name = "dynn_ck_110680"
+	culture = "telugu"
+}
+110690 = {
+	name = "dynn_ck_110690"
+	culture = "telugu"
+}
+110700 = {
+	name = "dynn_ck_110700"
+	culture = "french"
+}
+110710 = {
+	name = "dynn_ck_110710"
+	culture = "telugu"
+}
+110720 = {
+	name = "dynn_ck_110720"
+	culture = "french"
+}
+110730 = {
+	name = "dynn_ck_110730"
+	culture = "frisian"
+}
+110740 = {
+	name = "dynn_ck_110740"
+	culture = "telugu"
+}
+110750 = {
+	name = "dynn_ck_110750"
+	culture = "aussie"
+}
+110760 = {
+	name = "dynn_ck_110760"
+	culture = "telugu"
+}
+110770 = {
+	name = "dynn_ck_110770"
+	culture = "telugu"
+}
+110780 = {
+	name = "dynn_ck_110780"
+	culture = "french"
+}
+110790 = {
+	name = "dynn_ck_110790"
+	culture = "frisian"
+}
+110800 = {
+	name = "dynn_ck_110800"
+	culture = "telugu"
+}
+110810 = {
+	name = "dynn_ck_110810"
+	culture = "sami"
+}
+110820 = {
+	name = "dynn_ck_110820"
+	culture = "telugu"
+}
+110830 = {
+	name = "dynn_ck_110830"
+	culture = "french"
+}
+110831 = {
+	name = "dynn_ck_110831"
+	culture = "french"
+}
+110832 = {
+	name = "dynn_ck_110832"
+	culture = "french"
+}
+110833 = {
+	name = "dynn_ck_110833"
+	culture = "french"
+}
+110834 = {
+	name = "dynn_ck_110834"
+	culture = "french"
+}
+110840 = {
+	name = "dynn_ck_110840"
+	culture = "telugu"
+}
+110850 = {
+	name = "dynn_ck_110850"
+	culture = "telugu"
+}
+110860 = {
+	name = "dynn_ck_110860"
+	culture = "aussie"
+}
+110861 = {
+	name = "dynn_ck_110861"
+	culture = "aussie"
+}
+110862 = {
+	name = "dynn_ck_110862"
+	culture = "aussie"
+}
+110863 = {
+	name = "dynn_ck_110863"
+	culture = "aussie"
+}
+110864 = {
+	name = "dynn_ck_110864"
+	culture = "aussie"
+}
+110870 = {
+	name = "dynn_ck_110870"
+	culture = "sami"
+}
+110880 = {
+	name = "dynn_ck_110880"
+	culture = "telugu"
+}
+110890 = {
+	name = "dynn_ck_110890"
+	culture = "sami"
+}
+110900 = {
+	name = "dynn_ck_110900"
+	culture = "sami"
+}
+110910 = {
+	name = "dynn_ck_110910"
+	culture = "telugu"
+}
+110920 = {
+	name = "dynn_ck_110920"
+	culture = "telugu"
+}
+110930 = {
+	name = "dynn_ck_110930"
+	culture = "telugu"
+}
+110940 = {
+	name = "dynn_ck_110940"
+	culture = "telugu"
+}
+110950 = {
+	name = "dynn_ck_110950"
+	culture = "frisian"
+}
+110960 = {
+	name = "dynn_ck_110960"
+	culture = "telugu"
+}
+110970 = {
+	name = "dynn_ck_110970"
+	culture = "french"
+}
+110980 = {
+	name = "dynn_ck_110980"
+	culture = "sami"
+}
+110990 = {
+	name = "dynn_ck_110990"
+	culture = "sami"
+}
+111000 = {
+	name = "dynn_ck_111000"
+	culture = "sami"
+}
+111010 = {
+	name = "dynn_ck_111010"
+	culture = "telugu"
+}
+111020 = {
+	name = "dynn_ck_111020"
+	culture = "sami"
+}
+111030 = {
+	name = "dynn_ck_111030"
+	culture = "telugu"
+}
+111040 = {
+	name = "dynn_ck_111040"
+	culture = "telugu"
+}
+111050 = {
+	name = "dynn_ck_111050"
+	culture = "telugu"
+}
+111060 = {
+	name = "dynn_ck_111060"
+	culture = "telugu"
+}
+111070 = {
+	name = "dynn_ck_111070"
+	culture = "frisian"
+}
+111080 = {
+	name = "dynn_ck_111080"
+	culture = "sami"
+}
+111090 = {
+	name = "dynn_ck_111090"
+	culture = "frisian"
+}
+111100 = {
+	name = "dynn_ck_111100"
+	culture = "telugu"
+}
+111110 = {
+	name = "dynn_ck_111110"
+	culture = "frisian"
+}
+111120 = {
+	name = "dynn_ck_111120"
+	culture = "telugu"
+}
+111130 = {
+	name = "dynn_ck_111130"
+	culture = "sami"
+}
+111140 = {
+	name = "dynn_ck_111140"
+	culture = "sami"
+}
+111150 = {
+	name = "dynn_ck_111150"
+	culture = "sami"
+}
+111160 = {
+	name = "dynn_ck_111160"
+	culture = "telugu"
+}
+111170 = {
+	name = "dynn_ck_111170"
+	culture = "telugu"
+}
+111180 = {
+	name = "dynn_ck_111180"
+	culture = "sami"
+}
+111190 = {
+	name = "dynn_ck_111190"
+	culture = "telugu"
+}
+111200 = {
+	name = "dynn_ck_111200"
+	culture = "frisian"
+}
+111210 = {
+	name = "dynn_ck_111210"
+	culture = "frisian"
+}
+111220 = {
+	name = "dynn_ck_111220"
+	culture = "frisian"
+}
+111230 = {
+	name = "dynn_ck_111230"
+	culture = "telugu"
+}
+111240 = {
+	name = "dynn_ck_111240"
+	culture = "sami"
+}
+111250 = {
+	name = "dynn_ck_111250"
+	culture = "telugu"
+}
+111260 = {
+	name = "dynn_ck_111260"
+	culture = "frisian"
+}
+111270 = {
+	name = "dynn_ck_111270"
+	culture = "frisian"
+}
+111280 = {
+	name = "dynn_ck_111280"
+	culture = "frisian"
+}
+111290 = {
+	name = "dynn_ck_111290"
+	culture = "sami"
+}
+111300 = {
+	name = "dynn_ck_111300"
+	culture = "telugu"
+}
+111310 = {
+	name = "dynn_ck_111310"
+	culture = "sami"
+}
+111320 = {
+	name = "dynn_ck_111320"
+	culture = "frisian"
+}
+111330 = {
+	name = "dynn_ck_111330"
+	culture = "telugu"
+}
+111340 = {
+	name = "dynn_ck_111340"
+	culture = "frisian"
+}
+111350 = {
+	name = "dynn_ck_111350"
+	culture = "telugu"
+}
+111360 = {
+	name = "dynn_ck_111360"
+	culture = "sami"
+}
+111370 = {
+	name = "dynn_ck_111370"
+	culture = "frisian"
+}
+111380 = {
+	name = "dynn_ck_111380"
+	culture = "sami"
+}
+111400 = {
+	name = "dynn_ck_111400"
+	culture = "frisian"
+}
+111410 = {
+	name = "dynn_ck_111410"
+	culture = "telugu"
+}
+111420 = {
+	name = "dynn_ck_111420"
+	culture = "telugu"
+}
+111440 = {
+	name = "dynn_ck_111440"
+	culture = "frisian"
+}
+111450 = {
+	name = "dynn_ck_111450"
+	culture = "frisian"
+}
+111460 = {
+	name = "dynn_ck_111460"
+	culture = "frisian"
+}
+111470 = {
+	name = "dynn_ck_111470"
+	culture = "telugu"
+}
+111480 = {
+	name = "dynn_ck_111480"
+	culture = "frisian"
+}
+111490 = {
+	name = "dynn_ck_111490"
+	culture = "frisian"
+}
+111500 = {
+	name = "dynn_ck_111500"
+	culture = "telugu"
+}
+111510 = {
+	name = "dynn_ck_111510"
+	culture = "telugu"
+}
+111520 = {
+	name = "dynn_ck_111520"
+	culture = "frisian"
+}
+111530 = {
+	name = "dynn_ck_111530"
+	culture = "telugu"
+}
+111540 = {
+	name = "dynn_ck_111540"
+	culture = "frisian"
+}
+111550 = {
+	name = "dynn_ck_111550"
+	culture = "frisian"
+}
+111560 = {
+	name = "dynn_ck_111560"
+	culture = "frisian"
+}
+111570 = {
+	name = "dynn_ck_111570"
+	culture = "frisian"
+}
+111580 = {
+	name = "dynn_ck_111580"
+	culture = "frisian"
+}
+111590 = {
+	name = "dynn_ck_111590"
+	culture = "telugu"
+}
+111600 = {
+	name = "dynn_ck_111600"
+	culture = "han"
+}
+111610 = {
+	name = "dynn_ck_111610"
+	culture = "han"
+}
+111620 = {
+	name = "dynn_ck_111620"
+	culture = "han"
+}
+111630 = {
+	name = "dynn_ck_111630"
+	culture = "han"
+}
+111640 = {
+	name = "dynn_ck_111640"
+	culture = "frisian"
+}
+111650 = {
+	name = "dynn_ck_111650"
+	culture = "bodpa"
+}
+111660 = {
+	name = "dynn_ck_111660"
+	culture = "bodpa"
+}
+111670 = {
+	name = "dynn_ck_111670"
+	culture = "han"
+}
+111680 = {
+	name = "dynn_ck_111680"
+	culture = "frisian"
+}
+111690 = {
+	name = "dynn_ck_111690"
+	culture = "bodpa"
+}
+111700 = {
+	name = "dynn_ck_111700"
+	culture = "han"
+}
+111710 = {
+	name = "dynn_ck_111710"
+	culture = "han"
+}
+111720 = {
+	name = "dynn_ck_111720"
+	culture = "han"
+}
+111730 = {
+	name = "dynn_ck_111730"
+	culture = "han"
+}
+111740 = {
+	name = "dynn_ck_111740"
+	culture = "frisian"
+}
+111750 = {
+	name = "dynn_ck_111750"
+	culture = "bodpa"
+}
+111760 = {
+	name = "dynn_ck_111760"
+	culture = "han"
+}
+111770 = {
+	name = "dynn_ck_111770"
+	culture = "telugu"
+}
+111780 = {
+	name = "dynn_ck_111780"
+	culture = "han"
+}
+111790 = {
+	name = "dynn_ck_111790"
+	culture = "bodpa"
+}
+111800 = {
+	name = "dynn_ck_111800"
+	culture = "bodpa"
+}
+111810 = {
+	name = "dynn_ck_111810"
+	culture = "han"
+}
+111820 = {
+	name = "dynn_ck_111820"
+	culture = "bodpa"
+}
+111830 = {
+	name = "dynn_ck_111830"
+	culture = "han"
+}
+111840 = {
+	name = "dynn_ck_111840"
+	culture = "han"
+}
+111850 = {
+	name = "dynn_ck_111850"
+	culture = "bodpa"
+}
+111860 = {
+	name = "dynn_ck_111860"
+	culture = "han"
+}
+111870 = {
+	name = "dynn_ck_111870"
+	culture = "han"
+}
+111880 = {
+	name = "dynn_ck_111880"
+	culture = "han"
+}
+111890 = {
+	name = "dynn_ck_111890"
+	culture = "bodpa"
+}
+111900 = {
+	name = "dynn_ck_111900"
+	culture = "han"
+}
+111910 = {
+	name = "dynn_ck_111910"
+	culture = "bodpa"
+}
+111920 = {
+	name = "dynn_ck_111920"
+	culture = "frisian"
+}
+111930 = {
+	name = "dynn_ck_111930"
+	culture = "han"
+}
+111940 = {
+	name = "dynn_ck_111940"
+	culture = "han"
+}
+111950 = {
+	name = "dynn_ck_111950"
+	culture = "han"
+}
+111960 = {
+	name = "dynn_ck_111960"
+	culture = "han"
+}
+111970 = {
+	name = "dynn_ck_111970"
+	culture = "bodpa"
+}
+111980 = {
+	name = "dynn_ck_111980"
+	culture = "bodpa"
+}
+111990 = {
+	name = "dynn_ck_111990"
+	culture = "telugu"
+}
+112000 = {
+	name = "dynn_ck_112000"
+	culture = "han"
+}
+112010 = {
+	name = "dynn_ck_112010"
+	culture = "han"
+}
+112020 = {
+	name = "dynn_ck_112020"
+	culture = "bodpa"
+}
+112030 = {
+	name = "dynn_ck_112030"
+	culture = "telugu"
+}
+112040 = {
+	name = "dynn_ck_112040"
+	culture = "frisian"
+}
+112050 = {
+	name = "dynn_ck_112050"
+	culture = "han"
+}
+112060 = {
+	name = "dynn_ck_112060"
+	culture = "bodpa"
+}
+112070 = {
+	name = "dynn_ck_112070"
+	culture = "bodpa"
+}
+112080 = {
+	name = "dynn_ck_112080"
+	culture = "bodpa"
+}
+112090 = {
+	name = "dynn_ck_112090"
+	culture = "han"
+}
+112100 = {
+	name = "dynn_ck_112100"
+	culture = "han"
+}
+112110 = {
+	name = "dynn_ck_112110"
+	culture = "telugu"
+}
+112120 = {
+	name = "dynn_ck_112120"
+	culture = "bodpa"
+}
+112130 = {
+	name = "dynn_ck_112130"
+	culture = "han"
+}
+112140 = {
+	name = "dynn_ck_112140"
+	culture = "bodpa"
+}
+112150 = {
+	name = "dynn_ck_112150"
+	culture = "bodpa"
+}
+112160 = {
+	name = "dynn_ck_112160"
+	culture = "han"
+}
+112170 = {
+	name = "dynn_ck_112170"
+	culture = "han"
+}
+112180 = {
+	name = "dynn_ck_112180"
+	culture = "bodpa"
+}
+112190 = {
+	name = "dynn_ck_112190"
+	culture = "han"
+}
+112200 = {
+	name = "dynn_ck_112200"
+	culture = "bodpa"
+}
+112210 = {
+	name = "dynn_ck_112210"
+	culture = "bodpa"
+}
+112220 = {
+	name = "dynn_ck_112220"
+	culture = "han"
+}
+112230 = {
+	name = "dynn_ck_112230"
+	culture = "bodpa"
+}
+112240 = {
+	name = "dynn_ck_112240"
+	culture = "bodpa"
+}
+112250 = {
+	name = "dynn_ck_112250"
+	culture = "bodpa"
+}
+112260 = {
+	name = "dynn_ck_112260"
+	culture = "bodpa"
+}
+112270 = {
+	name = "dynn_ck_112270"
+	culture = "telugu"
+}
+112280 = {
+	name = "dynn_ck_112280"
+	culture = "han"
+}
+112290 = {
+	name = "dynn_ck_112290"
+	culture = "frisian"
+}
+112300 = {
+	name = "dynn_ck_112300"
+	culture = "bodpa"
+}
+112310 = {
+	name = "dynn_ck_112310"
+	culture = "bodpa"
+}
+112320 = {
+	name = "dynn_ck_112320"
+	culture = "bodpa"
+}
+112330 = {
+	name = "dynn_ck_112330"
+	culture = "telugu"
+}
+112340 = {
+	name = "dynn_ck_112340"
+	culture = "han"
+}
+112350 = {
+	name = "dynn_ck_112350"
+	culture = "telugu"
+}
+112360 = {
+	name = "dynn_ck_112360"
+	culture = "han"
+}
+112370 = {
+	name = "dynn_ck_112370"
+	culture = "han"
+}
+112380 = {
+	name = "dynn_ck_112380"
+	culture = "han"
+}
+112390 = {
+	name = "dynn_ck_112390"
+	culture = "frisian"
+}
+112400 = {
+	name = "dynn_ck_112400"
+	culture = "han"
+}
+112410 = {
+	name = "dynn_ck_112410"
+	culture = "bodpa"
+}
+112420 = {
+	name = "dynn_ck_112420"
+	culture = "han"
+}
+112430 = {
+	name = "dynn_ck_112430"
+	culture = "bodpa"
+}
+112440 = {
+	name = "dynn_ck_112440"
+	culture = "bodpa"
+}
+112450 = {
+	name = "dynn_ck_112450"
+	culture = "frisian"
+}
+112460 = {
+	name = "dynn_ck_112460"
+	culture = "han"
+}
+112470 = {
+	name = "dynn_ck_112470"
+	culture = "bodpa"
+}
+112480 = {
+	name = "dynn_ck_112480"
+	culture = "han"
+}
+112490 = {
+	name = "dynn_ck_112490"
+	culture = "han"
+}
+112500 = {
+	name = "dynn_ck_112500"
+	culture = "telugu"
+}
+112510 = {
+	name = "dynn_ck_112510"
+	culture = "han"
+}
+112520 = {
+	name = "dynn_ck_112520"
+	culture = "telugu"
+}
+112530 = {
+	name = "dynn_ck_112530"
+	culture = "telugu"
+}
+112540 = {
+	name = "dynn_ck_112540"
+	culture = "bodpa"
+}
+112550 = {
+	name = "dynn_ck_112550"
+	culture = "han"
+}
+112560 = {
+	name = "dynn_ck_112560"
+	culture = "han"
+}
+112570 = {
+	name = "dynn_ck_112570"
+	culture = "han"
+}
+112580 = {
+	name = "dynn_ck_112580"
+	culture = "bodpa"
+}
+112590 = {
+	name = "dynn_ck_112590"
+	culture = "han"
+}
+112600 = {
+	name = "dynn_ck_112600"
+	culture = "han"
+}
+112610 = {
+	name = "dynn_ck_112610"
+	culture = "bodpa"
+}
+112620 = {
+	name = "dynn_ck_112620"
+	culture = "bodpa"
+}
+112630 = {
+	name = "dynn_ck_112630"
+	culture = "han"
+}
+112640 = {
+	name = "dynn_ck_112640"
+	culture = "bodpa"
+}
+112650 = {
+	name = "dynn_ck_112650"
+	culture = "bodpa"
+}
+112660 = {
+	name = "dynn_ck_112660"
+	culture = "telugu"
+}
+112670 = {
+	name = "dynn_ck_112670"
+	culture = "han"
+}
+112680 = {
+	name = "dynn_ck_112680"
+	culture = "han"
+}
+112690 = {
+	name = "dynn_ck_112690"
+	culture = "han"
+}
+112700 = {
+	name = "dynn_ck_112700"
+	culture = "han"
+}
+112710 = {
+	name = "dynn_ck_112710"
+	culture = "bodpa"
+}
+112720 = {
+	name = "dynn_ck_112720"
+	culture = "han"
+}
+112730 = {
+	name = "dynn_ck_112730"
+	culture = "telugu"
+}
+112740 = {
+	name = "dynn_ck_112740"
+	culture = "han"
+}
+112750 = {
+	name = "dynn_ck_112750"
+	culture = "bodpa"
+}
+112760 = {
+	name = "dynn_ck_112760"
+	culture = "han"
+}
+112770 = {
+	name = "dynn_ck_112770"
+	culture = "han"
+}
+112780 = {
+	name = "dynn_ck_112780"
+	culture = "bodpa"
+}
+112790 = {
+	name = "dynn_ck_112790"
+	culture = "bodpa"
+}
+112800 = {
+	name = "dynn_ck_112800"
+	culture = "bodpa"
+}
+112810 = {
+	name = "dynn_ck_112810"
+	culture = "han"
+}
+112820 = {
+	name = "dynn_ck_112820"
+	culture = "bodpa"
+}
+112830 = {
+	name = "dynn_ck_112830"
+	culture = "bodpa"
+}
+112840 = {
+	name = "dynn_ck_112840"
+	culture = "bodpa"
+}
+112850 = {
+	name = "dynn_ck_112850"
+	culture = "bodpa"
+}
+112860 = {
+	name = "dynn_ck_112860"
+	culture = "han"
+}
+112870 = {
+	name = "dynn_ck_112870"
+	culture = "han"
+}
+112880 = {
+	name = "dynn_ck_112880"
+	culture = "telugu"
+}
+112890 = {
+	name = "dynn_ck_112890"
+	culture = "bodpa"
+}
+112900 = {
+	name = "dynn_ck_112900"
+	culture = "han"
+}
+112910 = {
+	name = "dynn_ck_112910"
+	culture = "han"
+}
+112920 = {
+	name = "dynn_ck_112920"
+	culture = "han"
+}
+112930 = {
+	name = "dynn_ck_112930"
+	culture = "han"
+}
+112940 = {
+	name = "dynn_ck_112940"
+	culture = "bodpa"
+}
+112950 = {
+	name = "dynn_ck_112950"
+	culture = "telugu"
+}
+112960 = {
+	name = "dynn_ck_112960"
+	culture = "mongol"
+}
+112970 = {
+	name = "dynn_ck_112970"
+	culture = "telugu"
+}
+112980 = {
+	name = "dynn_ck_112980"
+	culture = "han"
+}
+112990 = {
+	name = "dynn_ck_112990"
+	culture = "saxon"
+}
+113000 = {
+	name = "dynn_ck_113000"
+	culture = "telugu"
+}
+113010 = {
+	name = "dynn_ck_113010"
+	culture = "telugu"
+}
+113020 = {
+	name = "dynn_ck_113020"
+	culture = "saxon"
+}
+113030 = {
+	name = "dynn_ck_113030"
+	culture = "bodpa"
+}
+113040 = {
+	name = "dynn_ck_113040"
+	culture = "han"
+}
+113050 = {
+	name = "dynn_ck_113050"
+	culture = "han"
+}
+113060 = {
+	name = "dynn_ck_113060"
+	culture = "telugu"
+}
+113070 = {
+	name = "dynn_ck_113070"
+	culture = "mongol"
+}
+113080 = {
+	name = "dynn_ck_113080"
+	culture = "telugu"
+}
+113090 = {
+	name = "dynn_ck_113090"
+	culture = "mongol"
+}
+113100 = {
+	name = "dynn_ck_113100"
+	culture = "bodpa"
+}
+113110 = {
+	name = "dynn_ck_113110"
+	culture = "han"
+}
+113120 = {
+	name = "dynn_ck_113120"
+	culture = "telugu"
+}
+113130 = {
+	name = "dynn_ck_113130"
+	culture = "telugu"
+}
+113140 = {
+	name = "dynn_ck_113140"
+	culture = "saxon"
+}
+113150 = {
+	name = "dynn_ck_113150"
+	culture = "telugu"
+}
+113160 = {
+	name = "dynn_ck_113160"
+	culture = "telugu"
+}
+113170 = {
+	name = "dynn_ck_113170"
+	culture = "telugu"
+}
+113180 = {
+	name = "dynn_ck_113180"
+	culture = "mongol"
+}
+113190 = {
+	name = "dynn_ck_113190"
+	culture = "telugu"
+}
+113200 = {
+	name = "dynn_ck_113200"
+	culture = "telugu"
+}
+113210 = {
+	name = "dynn_ck_113210"
+	culture = "mongol"
+}
+113220 = {
+	name = "dynn_ck_113220"
+	culture = "saxon"
+}
+113230 = {
+	name = "dynn_ck_113230"
+	culture = "sami"
+}
+113240 = {
+	name = "dynn_ck_113240"
+	culture = "sami"
+}
+113250 = {
+	name = "dynn_ck_113250"
+	culture = "saxon"
+}
+113260 = {
+	name = "dynn_ck_113260"
+	culture = "telugu"
+}
+113270 = {
+	name = "dynn_ck_113270"
+	culture = "mongol"
+}
+113280 = {
+	name = "dynn_ck_113280"
+	culture = "saxon"
+}
+113290 = {
+	name = "dynn_ck_113290"
+	culture = "sami"
+}
+113300 = {
+	name = "dynn_ck_113300"
+	culture = "sami"
+}
+113310 = {
+	name = "dynn_ck_113310"
+	culture = "mongol"
+}
+113320 = {
+	name = "dynn_ck_113320"
+	culture = "sami"
+}
+113330 = {
+	name = "dynn_ck_113330"
+	culture = "telugu"
+}
+113340 = {
+	name = "dynn_ck_113340"
+	culture = "telugu"
+}
+113350 = {
+	name = "dynn_ck_113350"
+	culture = "telugu"
+}
+113360 = {
+	name = "dynn_ck_113360"
+	culture = "sami"
+}
+113370 = {
+	name = "dynn_ck_113370"
+	culture = "mongol"
+}
+113380 = {
+	name = "dynn_ck_113380"
+	culture = "saxon"
+}
+113390 = {
+	name = "dynn_ck_113390"
+	culture = "sami"
+}
+113400 = {
+	name = "dynn_ck_113400"
+	culture = "sami"
+}
+113410 = {
+	name = "dynn_ck_113410"
+	culture = "mongol"
+}
+113420 = {
+	name = "dynn_ck_113420"
+	culture = "sami"
+}
+113430 = {
+	name = "dynn_ck_113430"
+	culture = "saxon"
+}
+113440 = {
+	name = "dynn_ck_113440"
+	culture = "sami"
+}
+113450 = {
+	name = "dynn_ck_113450"
+	culture = "telugu"
+}
+113460 = {
+	name = "dynn_ck_113460"
+	culture = "telugu"
+}
+113470 = {
+	name = "dynn_ck_113470"
+	culture = "sami"
+}
+113480 = {
+	name = "dynn_ck_113480"
+	culture = "mongol"
+}
+113490 = {
+	name = "dynn_ck_113490"
+	culture = "sami"
+}
+113500 = {
+	name = "dynn_ck_113500"
+	culture = "sami"
+}
+113510 = {
+	name = "dynn_ck_113510"
+	culture = "sami"
+}
+113520 = {
+	name = "dynn_ck_113520"
+	culture = "han"
+}
+113530 = {
+	name = "dynn_ck_113530"
+	culture = "saxon"
+}
+113540 = {
+	name = "dynn_ck_113540"
+	culture = "sami"
+}
+113550 = {
+	name = "dynn_ck_113550"
+	culture = "saxon"
+}
+113560 = {
+	name = "dynn_ck_113560"
+	culture = "han"
+}
+113570 = {
+	name = "dynn_ck_113570"
+	culture = "saxon"
+}
+113580 = {
+	name = "dynn_ck_113580"
+	culture = "sami"
+}
+113590 = {
+	name = "dynn_ck_113590"
+	culture = "saxon"
+}
+113600 = {
+	name = "dynn_ck_113600"
+	culture = "mongol"
+}
+113610 = {
+	name = "dynn_ck_113610"
+	culture = "han"
+}
+113620 = {
+	name = "dynn_ck_113620"
+	culture = "saxon"
+}
+113630 = {
+	name = "dynn_ck_113630"
+	culture = "han"
+}
+113640 = {
+	name = "dynn_ck_113640"
+	culture = "sami"
+}
+113650 = {
+	name = "dynn_ck_113650"
+	culture = "saxon"
+}
+113660 = {
+	name = "dynn_ck_113660"
+	culture = "telugu"
+}
+113670 = {
+	name = "dynn_ck_113670"
+	culture = "sami"
+}
+113680 = {
+	name = "dynn_ck_113680"
+	culture = "saxon"
+}
+113690 = {
+	name = "dynn_ck_113690"
+	culture = "telugu"
+}
+113700 = {
+	name = "dynn_ck_113700"
+	culture = "sami"
+}
+113710 = {
+	name = "dynn_ck_113710"
+	culture = "saxon"
+}
+113720 = {
+	name = "dynn_ck_113720"
+	culture = "han"
+}
+113730 = {
+	name = "dynn_ck_113730"
+	culture = "han"
+}
+113740 = {
+	name = "dynn_ck_113740"
+	culture = "mongol"
+}
+113750 = {
+	name = "dynn_ck_113750"
+	culture = "han"
+}
+113760 = {
+	name = "dynn_ck_113760"
+	culture = "han"
+}
+113770 = {
+	name = "dynn_ck_113770"
+	culture = "saxon"
+}
+113780 = {
+	name = "dynn_ck_113780"
+	culture = "frisian"
+}
+113790 = {
+	name = "dynn_ck_113790"
+	culture = "saxon"
+}
+113800 = {
+	name = "dynn_ck_113800"
+	culture = "frisian"
+}
+113810 = {
+	name = "dynn_ck_113810"
+	culture = "saxon"
+}
+113820 = {
+	name = "dynn_ck_113820"
+	culture = "han"
+}
+113830 = {
+	name = "dynn_ck_113830"
+	culture = "sami"
+}
+113840 = {
+	name = "dynn_ck_113840"
+	culture = "saxon"
+}
+113841 = {
+	name = "dynn_ck_113841"
+	culture = "saxon"
+}
+113842 = {
+	name = "dynn_ck_113842"
+	culture = "saxon"
+}
+113843 = {
+	name = "dynn_ck_113843"
+	culture = "saxon"
+}
+113844 = {
+	name = "dynn_ck_113844"
+	culture = "saxon"
+}
+113850 = {
+	name = "dynn_ck_113850"
+	culture = "sami"
+}
+113860 = {
+	name = "dynn_ck_113860"
+	culture = "han"
+}
+113870 = {
+	name = "dynn_ck_113870"
+	culture = "frisian"
+}
+113880 = {
+	name = "dynn_ck_113880"
+	culture = "han"
+}
+113890 = {
+	name = "dynn_ck_113890"
+	culture = "han"
+}
+113900 = {
+	name = "dynn_ck_113900"
+	culture = "frisian"
+}
+113910 = {
+	name = "dynn_ck_113910"
+	culture = "sami"
+}
+113920 = {
+	name = "dynn_ck_113920"
+	culture = "frisian"
+}
+113930 = {
+	name = "dynn_ck_113930"
+	culture = "sami"
+}
+113940 = {
+	name = "dynn_ck_113940"
+	culture = "sami"
+}
+113950 = {
+	name = "dynn_ck_113950"
+	culture = "frisian"
+}
+113960 = {
+	name = "dynn_ck_113960"
+	culture = "frisian"
+}
+113970 = {
+	name = "dynn_ck_113970"
+	culture = "ainu"
+}
+113980 = {
+	name = "dynn_ck_113980"
+	culture = "sami"
+}
+113990 = {
+	name = "dynn_ck_113990"
+	culture = "sami"
+}
+114000 = {
+	name = "dynn_ck_114000"
+	culture = "sami"
+}
+114010 = {
+	name = "dynn_ck_114010"
+	culture = "frisian"
+}
+114020 = {
+	name = "dynn_ck_114020"
+	culture = "ainu"
+}
+114030 = {
+	name = "dynn_ck_114030"
+	culture = "sami"
+}
+114040 = {
+	name = "dynn_ck_114040"
+	culture = "ainu"
+}
+114050 = {
+	name = "dynn_ck_114050"
+	culture = "han"
+}
+114060 = {
+	name = "dynn_ck_114060"
+	culture = "sami"
+}
+114070 = {
+	name = "dynn_ck_114070"
+	culture = "frisian"
+}
+114080 = {
+	name = "dynn_ck_114080"
+	culture = "sami"
+}
+114090 = {
+	name = "dynn_ck_114090"
+	culture = "sami"
+}
+114100 = {
+	name = "dynn_ck_114100"
+	culture = "frisian"
+}
+114110 = {
+	name = "dynn_ck_114110"
+	culture = "sami"
+}
+114120 = {
+	name = "dynn_ck_114120"
+	culture = "sami"
+}
+114130 = {
+	name = "dynn_ck_114130"
+	culture = "frisian"
+}
+114140 = {
+	name = "dynn_ck_114140"
+	culture = "saxon"
+}
+114150 = {
+	name = "dynn_ck_114150"
+	culture = "sami"
+}
+114160 = {
+	name = "dynn_ck_114160"
+	culture = "ainu"
+}
+114170 = {
+	name = "dynn_ck_114170"
+	culture = "sami"
+}
+114180 = {
+	name = "dynn_ck_114180"
+	culture = "ainu"
+}
+114190 = {
+	name = "dynn_ck_114190"
+	culture = "saxon"
+}
+114200 = {
+	name = "dynn_ck_114200"
+	culture = "ainu"
+}
+114210 = {
+	name = "dynn_ck_114210"
+	culture = "sami"
+}
+114220 = {
+	name = "dynn_ck_114220"
+	culture = "bodpa"
+}
+114230 = {
+	name = "dynn_ck_114230"
+	culture = "sami"
+}
+114240 = {
+	name = "dynn_ck_114240"
+	culture = "frisian"
+}
+114250 = {
+	name = "dynn_ck_114250"
+	culture = "sami"
+}
+114260 = {
+	name = "dynn_ck_114260"
+	culture = "sami"
+}
+114270 = {
+	name = "dynn_ck_114270"
+	culture = "saxon"
+}
+114280 = {
+	name = "dynn_ck_114280"
+	culture = "sami"
+}
+114290 = {
+	name = "dynn_ck_114290"
+	culture = "frisian"
+}
+114300 = {
+	name = "dynn_ck_114300"
+	culture = "saxon"
+}
+114310 = {
+	name = "dynn_ck_114310"
+	culture = "sami"
+}
+114320 = {
+	name = "dynn_ck_114320"
+	culture = "saxon"
+}
+114330 = {
+	name = "dynn_ck_114330"
+	culture = "sami"
+}
+114340 = {
+	name = "dynn_ck_114340"
+	culture = "frisian"
+}
+114350 = {
+	name = "dynn_ck_114350"
+	culture = "bodpa"
+}
+114360 = {
+	name = "dynn_ck_114360"
+	culture = "saxon"
+}
+114370 = {
+	name = "dynn_ck_114370"
+	culture = "saxon"
+}
+114380 = {
+	name = "dynn_ck_114380"
+	culture = "frisian"
+}
+114390 = {
+	name = "dynn_ck_114390"
+	culture = "ainu"
+}
+114400 = {
+	name = "dynn_ck_114400"
+	culture = "saxon"
+}
+114410 = {
+	name = "dynn_ck_114410"
+	culture = "ainu"
+}
+114420 = {
+	name = "dynn_ck_114420"
+	culture = "bodpa"
+}
+114430 = {
+	name = "dynn_ck_114430"
+	culture = "saxon"
+}
+114440 = {
+	name = "dynn_ck_114440"
+	culture = "frisian"
+}
+114450 = {
+	name = "dynn_ck_114450"
+	culture = "sami"
+}
+114460 = {
+	name = "dynn_ck_114460"
+	culture = "sami"
+}
+114470 = {
+	name = "dynn_ck_114470"
+	culture = "frisian"
+}
+114480 = {
+	name = "dynn_ck_114480"
+	culture = "ainu"
+}
+114490 = {
+	name = "dynn_ck_114490"
+	culture = "bodpa"
+}
+114500 = {
+	name = "dynn_ck_114500"
+	culture = "frisian"
+}
+114510 = {
+	name = "dynn_ck_114510"
+	culture = "sami"
+}
+114520 = {
+	name = "dynn_ck_114520"
+	culture = "sami"
+}
+114530 = {
+	name = "dynn_ck_114530"
+	culture = "frisian"
+}
+114540 = {
+	name = "dynn_ck_114540"
+	culture = "sami"
+}
+114550 = {
+	name = "dynn_ck_114550"
+	culture = "sami"
+}
+114570 = {
+	name = "dynn_ck_114570"
+	culture = "sami"
+}
+114580 = {
+	name = "dynn_ck_114580"
+	culture = "saxon"
+}
+114590 = {
+	name = "dynn_ck_114590"
+	culture = "saxon"
+}
+114600 = {
+	name = "dynn_ck_114600"
+	culture = "ainu"
+}
+114610 = {
+	name = "dynn_ck_114610"
+	culture = "bodpa"
+}
+114620 = {
+	name = "dynn_ck_114620"
+	culture = "saxon"
+}
+114630 = {
+	name = "dynn_ck_114630"
+	culture = "sami"
+}
+114640 = {
+	name = "dynn_ck_114640"
+	culture = "frisian"
+}
+114650 = {
+	name = "dynn_ck_114650"
+	culture = "frisian"
+}
+114660 = {
+	name = "dynn_ck_114660"
+	culture = "sami"
+}
+114670 = {
+	name = "dynn_ck_114670"
+	culture = "sami"
+}
+114680 = {
+	name = "dynn_ck_114680"
+	culture = "bodpa"
+}
+114690 = {
+	name = "dynn_ck_114690"
+	culture = "ainu"
+}
+114700 = {
+	name = "dynn_ck_114700"
+	culture = "saxon"
+}
+114710 = {
+	name = "dynn_ck_114710"
+	culture = "frisian"
+}
+114720 = {
+	name = "dynn_ck_114720"
+	culture = "saxon"
+}
+114730 = {
+	name = "dynn_ck_114730"
+	culture = "sami"
+}
+114740 = {
+	name = "dynn_ck_114740"
+	culture = "ainu"
+}
+114750 = {
+	name = "dynn_ck_114750"
+	culture = "saxon"
+}
+114760 = {
+	name = "dynn_ck_114760"
+	culture = "sami"
+}
+114770 = {
+	name = "dynn_ck_114770"
+	culture = "sami"
+}
+114780 = {
+	name = "dynn_ck_114780"
+	culture = "sami"
+}
+114790 = {
+	name = "dynn_ck_114790"
+	culture = "sami"
+}
+114800 = {
+	name = "dynn_ck_114800"
+	culture = "frisian"
+}
+114810 = {
+	name = "dynn_ck_114810"
+	culture = "saxon"
+}
+114820 = {
+	name = "dynn_ck_114820"
+	culture = "sami"
+}
+114830 = {
+	name = "dynn_ck_114830"
+	culture = "sami"
+}
+114840 = {
+	name = "dynn_ck_114840"
+	culture = "saxon"
+}
+114850 = {
+	name = "dynn_ck_114850"
+	culture = "sami"
+}
+114860 = {
+	name = "dynn_ck_114860"
+	culture = "ainu"
+}
+114870 = {
+	name = "dynn_ck_114870"
+	culture = "sami"
+}
+114880 = {
+	name = "dynn_ck_114880"
+	culture = "bodpa"
+}
+114900 = {
+	name = "dynn_ck_114900"
+	culture = "saxon"
+}
+114910 = {
+	name = "dynn_ck_114910"
+	culture = "saxon"
+}
+114920 = {
+	name = "dynn_ck_114920"
+	culture = "sami"
+}
+114930 = {
+	name = "dynn_ck_114930"
+	culture = "saxon"
+}
+114940 = {
+	name = "dynn_ck_114940"
+	culture = "frisian"
+}
+114950 = {
+	name = "dynn_ck_114950"
+	culture = "sami"
+}
+114960 = {
+	name = "dynn_ck_114960"
+	culture = "bodpa"
+}
+114970 = {
+	name = "dynn_ck_114970"
+	culture = "sami"
+}
+114980 = {
+	name = "dynn_ck_114980"
+	culture = "frisian"
+}
+114990 = {
+	name = "dynn_ck_114990"
+	culture = "saxon"
+}
+115010 = {
+	name = "dynn_ck_115010"
+	culture = "sami"
+}
+115020 = {
+	name = "dynn_ck_115020"
+	culture = "saxon"
+}
+115040 = {
+	name = "dynn_ck_115040"
+	culture = "saxon"
+}
+115050 = {
+	name = "dynn_ck_115050"
+	culture = "frisian"
+}
+115060 = {
+	name = "dynn_ck_115060"
+	culture = "saxon"
+}
+115070 = {
+	name = "dynn_ck_115070"
+	culture = "ainu"
+}
+115080 = {
+	name = "dynn_ck_115080"
+	culture = "sami"
+}
+115090 = {
+	name = "dynn_ck_115090"
+	culture = "sami"
+}
+115100 = {
+	name = "dynn_ck_115100"
+	culture = "sami"
+}
+115110 = {
+	name = "dynn_ck_115110"
+	culture = "ainu"
+}
+115120 = {
+	name = "dynn_ck_115120"
+	culture = "frisian"
+}
+115121 = {
+	name = "dynn_ck_115121"
+	culture = "frisian"
+}
+115122 = {
+	name = "dynn_ck_115122"
+	culture = "frisian"
+}
+115123 = {
+	name = "dynn_ck_115123"
+	culture = "frisian"
+}
+115124 = {
+	name = "dynn_ck_115124"
+	culture = "frisian"
+}
+115130 = {
+	name = "dynn_ck_115130"
+	culture = "han"
+}
+115140 = {
+	name = "dynn_ck_115140"
+	culture = "ainu"
+}
+115150 = {
+	name = "dynn_ck_115150"
+	culture = "ainu"
+}
+115160 = {
+	name = "dynn_ck_115160"
+	culture = "ainu"
+}
+115170 = {
+	name = "dynn_ck_115170"
+	culture = "frisian"
+}
+115180 = {
+	name = "dynn_ck_115180"
+	culture = "frisian"
+}
+115200 = {
+	name = "dynn_ck_115200"
+	culture = "ainu"
+}
+115210 = {
+	name = "dynn_ck_115210"
+	culture = "ainu"
+}
+115220 = {
+	name = "dynn_ck_115220"
+	culture = "sami"
+}
+115230 = {
+	name = "dynn_ck_115230"
+	culture = "ainu"
+}
+115240 = {
+	name = "dynn_ck_115240"
+	culture = "ainu"
+}
+115250 = {
+	name = "dynn_ck_115250"
+	culture = "ainu"
+}
+115260 = {
+	name = "dynn_ck_115260"
+	culture = "ainu"
+}
+115270 = {
+	name = "dynn_ck_115270"
+	culture = "ainu"
+}
+115280 = {
+	name = "dynn_ck_115280"
+	culture = "ainu"
+}
+115290 = {
+	name = "dynn_ck_115290"
+	culture = "sami"
+}
+115300 = {
+	name = "dynn_ck_115300"
+	culture = "sami"
+}
+115310 = {
+	name = "dynn_ck_115310"
+	culture = "ainu"
+}
+115330 = {
+	name = "dynn_ck_115330"
+	culture = "ainu"
+}
+115340 = {
+	name = "dynn_ck_115340"
+	culture = "sami"
+}
+115350 = {
+	name = "dynn_ck_115350"
+	culture = "sami"
+}
+115360 = {
+	name = "dynn_ck_115360"
+	culture = "ainu"
+}
+115370 = {
+	name = "dynn_ck_115370"
+	culture = "ainu"
+}
+115380 = {
+	name = "dynn_ck_115380"
+	culture = "ainu"
+}
+115390 = {
+	name = "dynn_ck_115390"
+	culture = "sami"
+}
+115410 = {
+	name = "dynn_ck_115410"
+	culture = "ainu"
+}
+115420 = {
+	name = "dynn_ck_115420"
+	culture = "ainu"
+}
+115430 = {
+	name = "dynn_ck_115430"
+	culture = "ainu"
+}
+115440 = {
+	name = "dynn_ck_115440"
+	culture = "frisian"
+}
+115450 = {
+	name = "dynn_ck_115450"
+	culture = "ainu"
+}
+115460 = {
+	name = "dynn_ck_115460"
+	culture = "ainu"
+}
+115461 = {
+	name = "dynn_ck_115461"
+	culture = "ainu"
+}
+115462 = {
+	name = "dynn_ck_115462"
+	culture = "ainu"
+}
+115463 = {
+	name = "dynn_ck_115463"
+	culture = "ainu"
+}
+115464 = {
+	name = "dynn_ck_115464"
+	culture = "ainu"
+}
+115470 = {
+	name = "dynn_ck_115470"
+	culture = "sami"
+}
+115480 = {
+	name = "dynn_ck_115480"
+	culture = "frisian"
+}
+115481 = {
+	name = "dynn_ck_115481"
+	culture = "frisian"
+}
+115482 = {
+	name = "dynn_ck_115482"
+	culture = "frisian"
+}
+115483 = {
+	name = "dynn_ck_115483"
+	culture = "frisian"
+}
+115484 = {
+	name = "dynn_ck_115484"
+	culture = "frisian"
+}
+115490 = {
+	name = "dynn_ck_115490"
+	culture = "sami"
+}
+115500 = {
+	name = "dynn_ck_115500"
+	culture = "ainu"
+}
+115520 = {
+	name = "dynn_ck_115520"
+	culture = "ainu"
+}
+115530 = {
+	name = "dynn_ck_115530"
+	culture = "ainu"
+}
+115540 = {
+	name = "dynn_ck_115540"
+	culture = "ainu"
+}
+115550 = {
+	name = "dynn_ck_115550"
+	culture = "ainu"
+}
+115560 = {
+	name = "dynn_ck_115560"
+	culture = "ainu"
+}
+115580 = {
+	name = "dynn_ck_115580"
+	culture = "ainu"
+}
+115610 = {
+	name = "dynn_ck_115610"
+	culture = "ainu"
+}
+115611 = {
+	name = "dynn_ck_115611"
+	culture = "ainu"
+}
+115612 = {
+	name = "dynn_ck_115612"
+	culture = "ainu"
+}
+115613 = {
+	name = "dynn_ck_115613"
+	culture = "ainu"
+}
+115614 = {
+	name = "dynn_ck_115614"
+	culture = "ainu"
+}
+115620 = {
+	name = "dynn_ck_115620"
+	culture = "ainu"
+}
+115630 = {
+	name = "dynn_ck_115630"
+	culture = "ainu"
+}
+115640 = {
+	name = "dynn_ck_115640"
+	culture = "ainu"
+}
+115641 = {
+	name = "dynn_ck_115641"
+	culture = "ainu"
+}
+115642 = {
+	name = "dynn_ck_115642"
+	culture = "ainu"
+}
+115643 = {
+	name = "dynn_ck_115643"
+	culture = "ainu"
+}
+115644 = {
+	name = "dynn_ck_115644"
+	culture = "ainu"
+}
+115660 = {
+	name = "dynn_ck_115660"
+	culture = "sami"
+}
+115670 = {
+	name = "dynn_ck_115670"
+	culture = "ainu"
+}
+115680 = {
+	name = "dynn_ck_115680"
+	culture = "ainu"
+}
+115690 = {
+	name = "dynn_ck_115690"
+	culture = "ainu"
+}
+115710 = {
+	name = "dynn_ck_115710"
+	culture = "sami"
+}
+115720 = {
+	name = "dynn_ck_115720"
+	culture = "frisian"
+}
+115730 = {
+	name = "dynn_ck_115730"
+	culture = "ainu"
+}
+115740 = {
+	name = "dynn_ck_115740"
+	culture = "ainu"
+}
+115750 = {
+	name = "dynn_ck_115750"
+	culture = "ainu"
+}
+115760 = {
+	name = "dynn_ck_115760"
+	culture = "ainu"
+}
+115770 = {
+	name = "dynn_ck_115770"
+	culture = "frisian"
+}
+115780 = {
+	name = "dynn_ck_115780"
+	culture = "ainu"
+}
+115790 = {
+	name = "dynn_ck_115790"
+	culture = "ainu"
+}
+115800 = {
+	name = "dynn_ck_115800"
+	culture = "ainu"
+}
+115820 = {
+	name = "dynn_ck_115820"
+	culture = "sami"
+}
+115830 = {
+	name = "dynn_ck_115830"
+	culture = "sami"
+}
+115831 = {
+	name = "dynn_ck_115831"
+	culture = "sami"
+}
+115832 = {
+	name = "dynn_ck_115832"
+	culture = "sami"
+}
+115833 = {
+	name = "dynn_ck_115833"
+	culture = "sami"
+}
+115834 = {
+	name = "dynn_ck_115834"
+	culture = "sami"
+}
+115840 = {
+	name = "dynn_ck_115840"
+	culture = "ainu"
+}
+115850 = {
+	name = "dynn_ck_115850"
+	culture = "ainu"
+}
+115860 = {
+	name = "dynn_ck_115860"
+	culture = "ainu"
+}
+115890 = {
+	name = "dynn_ck_115890"
+	culture = "ainu"
+}
+115900 = {
+	name = "dynn_ck_115900"
+	culture = "ainu"
+}
+115910 = {
+	name = "dynn_ck_115910"
+	culture = "ainu"
+}
+115920 = {
+	name = "dynn_ck_115920"
+	culture = "ainu"
+}
+115940 = {
+	name = "dynn_ck_115940"
+	culture = "frisian"
+}
+115960 = {
+	name = "dynn_ck_115960"
+	culture = "ainu"
+}
+115970 = {
+	name = "dynn_ck_115970"
+	culture = "ainu"
+}
+115980 = {
+	name = "dynn_ck_115980"
+	culture = "ainu"
+}
+116020 = {
+	name = "dynn_ck_116020"
+	culture = "ainu"
+}
+116040 = {
+	name = "dynn_ck_116040"
+	culture = "frisian"
+}
+116050 = {
+	name = "dynn_ck_116050"
+	culture = "ainu"
+}
+116060 = {
+	name = "dynn_ck_116060"
+	culture = "frisian"
+}
+116080 = {
+	name = "dynn_ck_116080"
+	culture = "ainu"
+}
+116090 = {
+	name = "dynn_ck_116090"
+	culture = "sami"
+}
+116091 = {
+	name = "dynn_ck_116091"
+	culture = "sami"
+}
+116092 = {
+	name = "dynn_ck_116092"
+	culture = "sami"
+}
+116093 = {
+	name = "dynn_ck_116093"
+	culture = "sami"
+}
+116094 = {
+	name = "dynn_ck_116094"
+	culture = "sami"
+}
+116100 = {
+	name = "dynn_ck_116100"
+	culture = "ainu"
+}
+116110 = {
+	name = "dynn_ck_116110"
+	culture = "ainu"
+}
+116120 = {
+	name = "dynn_ck_116120"
+	culture = "ainu"
+}
+116130 = {
+	name = "dynn_ck_116130"
+	culture = "frisian"
+}
+116140 = {
+	name = "dynn_ck_116140"
+	culture = "ainu"
+}
+116141 = {
+	name = "dynn_ck_116141"
+	culture = "ainu"
+}
+116142 = {
+	name = "dynn_ck_116142"
+	culture = "ainu"
+}
+116143 = {
+	name = "dynn_ck_116143"
+	culture = "ainu"
+}
+116144 = {
+	name = "dynn_ck_116144"
+	culture = "ainu"
+}
+116150 = {
+	name = "dynn_ck_116150"
+	culture = "ainu"
+}
+116160 = {
+	name = "dynn_ck_116160"
+	culture = "frisian"
+}
+116170 = {
+	name = "dynn_ck_116170"
+	culture = "frisian"
+}
+116180 = {
+	name = "dynn_ck_116180"
+	culture = "ainu"
+}
+116190 = {
+	name = "dynn_ck_116190"
+	culture = "sami"
+}
+116200 = {
+	name = "dynn_ck_116200"
+	culture = "frisian"
+}
+116210 = {
+	name = "dynn_ck_116210"
+	culture = "ainu"
+}
+116220 = {
+	name = "dynn_ck_116220"
+	culture = "frisian"
+}
+116230 = {
+	name = "dynn_ck_116230"
+	culture = "frisian"
+}
+116240 = {
+	name = "dynn_ck_116240"
+	culture = "sami"
+}
+116250 = {
+	name = "dynn_ck_116250"
+	culture = "sami"
+}
+116260 = {
+	name = "dynn_ck_116260"
+	culture = "frisian"
+}
+116270 = {
+	name = "dynn_ck_116270"
+	culture = "frisian"
+}
+116280 = {
+	name = "dynn_ck_116280"
+	culture = "frisian"
+}
+116300 = {
+	name = "dynn_ck_116300"
+	culture = "ainu"
+}
+116310 = {
+	name = "dynn_ck_116310"
+	culture = "ainu"
+}
+116320 = {
+	name = "dynn_ck_116320"
+	culture = "frisian"
+}
+116330 = {
+	name = "dynn_ck_116330"
+	culture = "ainu"
+}
+116340 = {
+	name = "dynn_ck_116340"
+	culture = "frisian"
+}
+116350 = {
+	name = "dynn_ck_116350"
+	culture = "frisian"
+}
+116360 = {
+	name = "dynn_ck_116360"
+	culture = "sami"
+}
+116370 = {
+	name = "dynn_ck_116370"
+	culture = "frisian"
+}
+116380 = {
+	name = "dynn_ck_116380"
+	culture = "frisian"
+}
+116390 = {
+	name = "dynn_ck_116390"
+	culture = "ainu"
+}
+116400 = {
+	name = "dynn_ck_116400"
+	culture = "frisian"
+}
+116410 = {
+	name = "dynn_ck_116410"
+	culture = "frisian"
+}
+116420 = {
+	name = "dynn_ck_116420"
+	culture = "frisian"
+}
+116430 = {
+	name = "dynn_ck_116430"
+	culture = "ainu"
+}
+116440 = {
+	name = "dynn_ck_116440"
+	culture = "sami"
+}
+116450 = {
+	name = "dynn_ck_116450"
+	culture = "frisian"
+}
+116460 = {
+	name = "dynn_ck_116460"
+	culture = "ainu"
+}
+116470 = {
+	name = "dynn_ck_116470"
+	culture = "ainu"
+}
+116480 = {
+	name = "dynn_ck_116480"
+	culture = "frisian"
+}
+116490 = {
+	name = "dynn_ck_116490"
+	culture = "frisian"
+}
+116500 = {
+	name = "dynn_ck_116500"
+	culture = "frisian"
+}
+116510 = {
+	name = "dynn_ck_116510"
+	culture = "frisian"
+}
+116520 = {
+	name = "dynn_ck_116520"
+	culture = "sami"
+}
+116530 = {
+	name = "dynn_ck_116530"
+	culture = "frisian"
+}
+116540 = {
+	name = "dynn_ck_116540"
+	culture = "frisian"
+}
+116550 = {
+	name = "dynn_ck_116550"
+	culture = "frisian"
+}
+116560 = {
+	name = "dynn_ck_116560"
+	culture = "frisian"
+}
+116570 = {
+	name = "dynn_ck_116570"
+	culture = "frisian"
+}
+116580 = {
+	name = "dynn_ck_116580"
+	culture = "ainu"
+}
+116590 = {
+	name = "dynn_ck_116590"
+	culture = "frisian"
+}
+116600 = {
+	name = "dynn_ck_116600"
+	culture = "saxon"
+}
+116610 = {
+	name = "dynn_ck_116610"
+	culture = "ainu"
+}
+116620 = {
+	name = "dynn_ck_116620"
+	culture = "saxon"
+}
+116630 = {
+	name = "dynn_ck_116630"
+	culture = "frisian"
+}
+116640 = {
+	name = "dynn_ck_116640"
+	culture = "sami"
+}
+116650 = {
+	name = "dynn_ck_116650"
+	culture = "frisian"
+}
+116660 = {
+	name = "dynn_ck_116660"
+	culture = "ainu"
+}
+116670 = {
+	name = "dynn_ck_116670"
+	culture = "frisian"
+}
+116680 = {
+	name = "dynn_ck_116680"
+	culture = "saxon"
+}
+116690 = {
+	name = "dynn_ck_116690"
+	culture = "sami"
+}
+116700 = {
+	name = "dynn_ck_116700"
+	culture = "saxon"
+}
+116710 = {
+	name = "dynn_ck_116710"
+	culture = "frisian"
+}
+116720 = {
+	name = "dynn_ck_116720"
+	culture = "frisian"
+}
+116730 = {
+	name = "dynn_ck_116730"
+	culture = "frisian"
+}
+116740 = {
+	name = "dynn_ck_116740"
+	culture = "saxon"
+}
+116750 = {
+	name = "dynn_ck_116750"
+	culture = "sami"
+}
+116760 = {
+	name = "dynn_ck_116760"
+	culture = "frisian"
+}
+116770 = {
+	name = "dynn_ck_116770"
+	culture = "ainu"
+}
+116780 = {
+	name = "dynn_ck_116780"
+	culture = "saxon"
+}
+116790 = {
+	name = "dynn_ck_116790"
+	culture = "frisian"
+}
+116800 = {
+	name = "dynn_ck_116800"
+	culture = "frisian"
+}
+116810 = {
+	name = "dynn_ck_116810"
+	culture = "frisian"
+}
+116820 = {
+	name = "dynn_ck_116820"
+	culture = "sami"
+}
+116830 = {
+	name = "dynn_ck_116830"
+	culture = "frisian"
+}
+116840 = {
+	name = "dynn_ck_116840"
+	culture = "frisian"
+}
+116850 = {
+	name = "dynn_ck_116850"
+	culture = "frisian"
+}
+116860 = {
+	name = "dynn_ck_116860"
+	culture = "sami"
+}
+116870 = {
+	name = "dynn_ck_116870"
+	culture = "saxon"
+}
+116880 = {
+	name = "dynn_ck_116880"
+	culture = "sami"
+}
+116890 = {
+	name = "dynn_ck_116890"
+	culture = "frisian"
+}
+116900 = {
+	name = "dynn_ck_116900"
+	culture = "ainu"
+}
+116910 = {
+	name = "dynn_ck_116910"
+	culture = "saxon"
+}
+116920 = {
+	name = "dynn_ck_116920"
+	culture = "saxon"
+}
+116930 = {
+	name = "dynn_ck_116930"
+	culture = "frisian"
+}
+116940 = {
+	name = "dynn_ck_116940"
+	culture = "frisian"
+}
+116950 = {
+	name = "dynn_ck_116950"
+	culture = "frisian"
+}
+116960 = {
+	name = "dynn_ck_116960"
+	culture = "saxon"
+}
+116970 = {
+	name = "dynn_ck_116970"
+	culture = "sami"
+}
+116980 = {
+	name = "dynn_ck_116980"
+	culture = "saxon"
+}
+116990 = {
+	name = "dynn_ck_116990"
+	culture = "frisian"
+}
+117000 = {
+	name = "dynn_ck_117000"
+	culture = "saxon"
+}
+117010 = {
+	name = "dynn_ck_117010"
+	culture = "frisian"
+}
+117020 = {
+	name = "dynn_ck_117020"
+	culture = "ainu"
+}
+117030 = {
+	name = "dynn_ck_117030"
+	culture = "saxon"
+}
+117040 = {
+	name = "dynn_ck_117040"
+	culture = "saxon"
+}
+117050 = {
+	name = "dynn_ck_117050"
+	culture = "sami"
+}
+117060 = {
+	name = "dynn_ck_117060"
+	culture = "ainu"
+}
+117070 = {
+	name = "dynn_ck_117070"
+	culture = "saxon"
+}
+117080 = {
+	name = "dynn_ck_117080"
+	culture = "sami"
+}
+117090 = {
+	name = "dynn_ck_117090"
+	culture = "saxon"
+}
+117100 = {
+	name = "dynn_ck_117100"
+	culture = "sami"
+}
+117110 = {
+	name = "dynn_ck_117110"
+	culture = "sami"
+}
+117120 = {
+	name = "dynn_ck_117120"
+	culture = "sami"
+}
+117130 = {
+	name = "dynn_ck_117130"
+	culture = "ainu"
+}
+117140 = {
+	name = "dynn_ck_117140"
+	culture = "saxon"
+}
+117150 = {
+	name = "dynn_ck_117150"
+	culture = "sami"
+}
+117160 = {
+	name = "dynn_ck_117160"
+	culture = "ainu"
+}
+117170 = {
+	name = "dynn_ck_117170"
+	culture = "saxon"
+}
+117180 = {
+	name = "dynn_ck_117180"
+	culture = "ainu"
+}
+117190 = {
+	name = "dynn_ck_117190"
+	culture = "sami"
+}
+117200 = {
+	name = "dynn_ck_117200"
+	culture = "ainu"
+}
+117210 = {
+	name = "dynn_ck_117210"
+	culture = "saxon"
+}
+117220 = {
+	name = "dynn_ck_117220"
+	culture = "saxon"
+}
+117230 = {
+	name = "dynn_ck_117230"
+	culture = "ainu"
+}
+117240 = {
+	name = "dynn_ck_117240"
+	culture = "ainu"
+}
+117250 = {
+	name = "dynn_ck_117250"
+	culture = "ainu"
+}
+117260 = {
+	name = "dynn_ck_117260"
+	culture = "saxon"
+}
+117270 = {
+	name = "dynn_ck_117270"
+	culture = "ainu"
+}
+117280 = {
+	name = "dynn_ck_117280"
+	culture = "sami"
+}
+117290 = {
+	name = "dynn_ck_117290"
+	culture = "sami"
+}
+117300 = {
+	name = "dynn_ck_117300"
+	culture = "ainu"
+}
+117310 = {
+	name = "dynn_ck_117310"
+	culture = "ainu"
+}
+117320 = {
+	name = "dynn_ck_117320"
+	culture = "ainu"
+}
+117330 = {
+	name = "dynn_ck_117330"
+	culture = "sami"
+}
+117340 = {
+	name = "dynn_ck_117340"
+	culture = "bodpa"
+}
+117350 = {
+	name = "dynn_ck_117350"
+	culture = "bodpa"
+}
+117360 = {
+	name = "dynn_ck_117360"
+	culture = "sami"
+}
+117370 = {
+	name = "dynn_ck_117370"
+	culture = "sami"
+}
+117380 = {
+	name = "dynn_ck_117380"
+	culture = "ainu"
+}
+117390 = {
+	name = "dynn_ck_117390"
+	culture = "ainu"
+}
+117400 = {
+	name = "dynn_ck_117400"
+	culture = "bodpa"
+}
+117410 = {
+	name = "dynn_ck_117410"
+	culture = "bodpa"
+}
+117420 = {
+	name = "dynn_ck_117420"
+	culture = "ainu"
+}
+117430 = {
+	name = "dynn_ck_117430"
+	culture = "bodpa"
+}
+117440 = {
+	name = "dynn_ck_117440"
+	culture = "ainu"
+}
+117450 = {
+	name = "dynn_ck_117450"
+	culture = "sami"
+}
+117460 = {
+	name = "dynn_ck_117460"
+	culture = "ainu"
+}
+117470 = {
+	name = "dynn_ck_117470"
+	culture = "bodpa"
+}
+117480 = {
+	name = "dynn_ck_117480"
+	culture = "ainu"
+}
+117490 = {
+	name = "dynn_ck_117490"
+	culture = "sami"
+}
+117500 = {
+	name = "dynn_ck_117500"
+	culture = "sami"
+}
+117510 = {
+	name = "dynn_ck_117510"
+	culture = "sami"
+}
+117520 = {
+	name = "dynn_ck_117520"
+	culture = "ainu"
+}
+117530 = {
+	name = "dynn_ck_117530"
+	culture = "ainu"
+}
+117540 = {
+	name = "dynn_ck_117540"
+	culture = "sami"
+}
+117550 = {
+	name = "dynn_ck_117550"
+	culture = "sami"
+}
+117560 = {
+	name = "dynn_ck_117560"
+	culture = "bodpa"
+}
+117570 = {
+	name = "dynn_ck_117570"
+	culture = "ainu"
+}
+117580 = {
+	name = "dynn_ck_117580"
+	culture = "ainu"
+}
+117590 = {
+	name = "dynn_ck_117590"
+	culture = "bodpa"
+}
+117600 = {
+	name = "dynn_ck_117600"
+	culture = "ainu"
+}
+117610 = {
+	name = "dynn_ck_117610"
+	culture = "sami"
+}
+117620 = {
+	name = "dynn_ck_117620"
+	culture = "bodpa"
+}
+117630 = {
+	name = "dynn_ck_117630"
+	culture = "sami"
+}
+117640 = {
+	name = "dynn_ck_117640"
+	culture = "bodpa"
+}
+117650 = {
+	name = "dynn_ck_117650"
+	culture = "sami"
+}
+117660 = {
+	name = "dynn_ck_117660"
+	culture = "bodpa"
+}
+117670 = {
+	name = "dynn_ck_117670"
+	culture = "ainu"
+}
+117680 = {
+	name = "dynn_ck_117680"
+	culture = "ainu"
+}
+117690 = {
+	name = "dynn_ck_117690"
+	culture = "sami"
+}
+117700 = {
+	name = "dynn_ck_117700"
+	culture = "bodpa"
+}
+117710 = {
+	name = "dynn_ck_117710"
+	culture = "sami"
+}
+117720 = {
+	name = "dynn_ck_117720"
+	culture = "sami"
+}
+117730 = {
+	name = "dynn_ck_117730"
+	culture = "sami"
+}
+117740 = {
+	name = "dynn_ck_117740"
+	culture = "ainu"
+}
+117750 = {
+	name = "dynn_ck_117750"
+	culture = "ainu"
+}
+117760 = {
+	name = "dynn_ck_117760"
+	culture = "ainu"
+}
+117770 = {
+	name = "dynn_ck_117770"
+	culture = "ainu"
+}
+117780 = {
+	name = "dynn_ck_117780"
+	culture = "ainu"
+}
+117790 = {
+	name = "dynn_ck_117790"
+	culture = "ainu"
+}
+117800 = {
+	name = "dynn_ck_117800"
+	culture = "bodpa"
+}
+117810 = {
+	name = "dynn_ck_117810"
+	culture = "ainu"
+}
+117820 = {
+	name = "dynn_ck_117820"
+	culture = "bodpa"
+}
+117830 = {
+	name = "dynn_ck_117830"
+	culture = "ainu"
+}
+117840 = {
+	name = "dynn_ck_117840"
+	culture = "ainu"
+}
+117850 = {
+	name = "dynn_ck_117850"
+	culture = "ainu"
+}
+117860 = {
+	name = "dynn_ck_117860"
+	culture = "ainu"
+}
+117870 = {
+	name = "dynn_ck_117870"
+	culture = "ainu"
+}
+117880 = {
+	name = "dynn_ck_117880"
+	culture = "ainu"
+}
+117890 = {
+	name = "dynn_ck_117890"
+	culture = "ainu"
+}
+117900 = {
+	name = "dynn_ck_117900"
+	culture = "ainu"
+}
+117910 = {
+	name = "dynn_ck_117910"
+	culture = "sami"
+}
+117920 = {
+	name = "dynn_ck_117920"
+	culture = "ainu"
+}
+117930 = {
+	name = "dynn_ck_117930"
+	culture = "ainu"
+}
+117940 = {
+	name = "dynn_ck_117940"
+	culture = "ainu"
+}
+117950 = {
+	name = "dynn_ck_117950"
+	culture = "frisian"
+}
+117960 = {
+	name = "dynn_ck_117960"
+	culture = "ainu"
+}
+117970 = {
+	name = "dynn_ck_117970"
+	culture = "frisian"
+}
+117980 = {
+	name = "dynn_ck_117980"
+	culture = "frisian"
+}
+117990 = {
+	name = "dynn_ck_117990"
+	culture = "saxon"
+}
+118000 = {
+	name = "dynn_ck_118000"
+	culture = "ainu"
+}
+118010 = {
+	name = "dynn_ck_118010"
+	culture = "ainu"
+}
+118020 = {
+	name = "dynn_ck_118020"
+	culture = "saxon"
+}
+118030 = {
+	name = "dynn_ck_118030"
+	culture = "ainu"
+}
+118040 = {
+	name = "dynn_ck_118040"
+	culture = "frisian"
+}
+118050 = {
+	name = "dynn_ck_118050"
+	culture = "frisian"
+}
+118060 = {
+	name = "dynn_ck_118060"
+	culture = "ainu"
+}
+118070 = {
+	name = "dynn_ck_118070"
+	culture = "ainu"
+}
+118080 = {
+	name = "dynn_ck_118080"
+	culture = "saxon"
+}
+118090 = {
+	name = "dynn_ck_118090"
+	culture = "ainu"
+}
+118100 = {
+	name = "dynn_ck_118100"
+	culture = "ainu"
+}
+118110 = {
+	name = "dynn_ck_118110"
+	culture = "sami"
+}
+118120 = {
+	name = "dynn_ck_118120"
+	culture = "frisian"
+}
+118130 = {
+	name = "dynn_ck_118130"
+	culture = "frisian"
+}
+118140 = {
+	name = "dynn_ck_118140"
+	culture = "frisian"
+}
+118150 = {
+	name = "dynn_ck_118150"
+	culture = "ainu"
+}
+118160 = {
+	name = "dynn_ck_118160"
+	culture = "ainu"
+}
+118170 = {
+	name = "dynn_ck_118170"
+	culture = "frisian"
+}
+118180 = {
+	name = "dynn_ck_118180"
+	culture = "saxon"
+}
+118190 = {
+	name = "dynn_ck_118190"
+	culture = "ainu"
+}
+118200 = {
+	name = "dynn_ck_118200"
+	culture = "saxon"
+}
+118210 = {
+	name = "dynn_ck_118210"
+	culture = "frisian"
+}
+118220 = {
+	name = "dynn_ck_118220"
+	culture = "saxon"
+}
+118230 = {
+	name = "dynn_ck_118230"
+	culture = "saxon"
+}
+118240 = {
+	name = "dynn_ck_118240"
+	culture = "ainu"
+}
+118250 = {
+	name = "dynn_ck_118250"
+	culture = "saxon"
+}
+118260 = {
+	name = "dynn_ck_118260"
+	culture = "saxon"
+}
+118270 = {
+	name = "dynn_ck_118270"
+	culture = "ainu"
+}
+118280 = {
+	name = "dynn_ck_118280"
+	culture = "frisian"
+}
+118290 = {
+	name = "dynn_ck_118290"
+	culture = "ainu"
+}
+118300 = {
+	name = "dynn_ck_118300"
+	culture = "sami"
+}
+118310 = {
+	name = "dynn_ck_118310"
+	culture = "ainu"
+}
+118320 = {
+	name = "dynn_ck_118320"
+	culture = "saxon"
+}
+118330 = {
+	name = "dynn_ck_118330"
+	culture = "frisian"
+}
+118340 = {
+	name = "dynn_ck_118340"
+	culture = "frisian"
+}
+118350 = {
+	name = "dynn_ck_118350"
+	culture = "frisian"
+}
+118360 = {
+	name = "dynn_ck_118360"
+	culture = "saxon"
+}
+118370 = {
+	name = "dynn_ck_118370"
+	culture = "frisian"
+}
+118380 = {
+	name = "dynn_ck_118380"
+	culture = "sami"
+}
+118390 = {
+	name = "dynn_ck_118390"
+	culture = "frisian"
+}
+118400 = {
+	name = "dynn_ck_118400"
+	culture = "ainu"
+}
+118410 = {
+	name = "dynn_ck_118410"
+	culture = "frisian"
+}
+118420 = {
+	name = "dynn_ck_118420"
+	culture = "ainu"
+}
+118430 = {
+	name = "dynn_ck_118430"
+	culture = "saxon"
+}
+118440 = {
+	name = "dynn_ck_118440"
+	culture = "ainu"
+}
+118450 = {
+	name = "dynn_ck_118450"
+	culture = "frisian"
+}
+118460 = {
+	name = "dynn_ck_118460"
+	culture = "saxon"
+}
+118470 = {
+	name = "dynn_ck_118470"
+	culture = "ainu"
+}
+118480 = {
+	name = "dynn_ck_118480"
+	culture = "saxon"
+}
+118490 = {
+	name = "dynn_ck_118490"
+	culture = "frisian"
+}
+118500 = {
+	name = "dynn_ck_118500"
+	culture = "frisian"
+}
+118510 = {
+	name = "dynn_ck_118510"
+	culture = "ainu"
+}
+118520 = {
+	name = "dynn_ck_118520"
+	culture = "frisian"
+}
+118530 = {
+	name = "dynn_ck_118530"
+	culture = "sami"
+}
+118540 = {
+	name = "dynn_ck_118540"
+	culture = "frisian"
+}
+118550 = {
+	name = "dynn_ck_118550"
+	culture = "frisian"
+}
+118560 = {
+	name = "dynn_ck_118560"
+	culture = "saxon"
+}
+118570 = {
+	name = "dynn_ck_118570"
+	culture = "ainu"
+}
+118580 = {
+	name = "dynn_ck_118580"
+	culture = "sami"
+}
+118590 = {
+	name = "dynn_ck_118590"
+	culture = "frisian"
+}
+118600 = {
+	name = "dynn_ck_118600"
+	culture = "saxon"
+}
+118610 = {
+	name = "dynn_ck_118610"
+	culture = "saxon"
+}
+118620 = {
+	name = "dynn_ck_118620"
+	culture = "saxon"
+}
+118630 = {
+	name = "dynn_ck_118630"
+	culture = "frisian"
+}
+118640 = {
+	name = "dynn_ck_118640"
+	culture = "frisian"
+}
+118650 = {
+	name = "dynn_ck_118650"
+	culture = "saxon"
+}
+118660 = {
+	name = "dynn_ck_118660"
+	culture = "frisian"
+}
+118670 = {
+	name = "dynn_ck_118670"
+	culture = "frisian"
+}
+118680 = {
+	name = "dynn_ck_118680"
+	culture = "saxon"
+}
+118690 = {
+	name = "dynn_ck_118690"
+	culture = "ainu"
+}
+118700 = {
+	name = "dynn_ck_118700"
+	culture = "ainu"
+}
+118710 = {
+	name = "dynn_ck_118710"
+	culture = "frisian"
+}
+118720 = {
+	name = "dynn_ck_118720"
+	culture = "ainu"
+}
+118730 = {
+	name = "dynn_ck_118730"
+	culture = "ainu"
+}
+118740 = {
+	name = "dynn_ck_118740"
+	culture = "saxon"
+}
+118750 = {
+	name = "dynn_ck_118750"
+	culture = "frisian"
+}
+118760 = {
+	name = "dynn_ck_118760"
+	culture = "saxon"
+}
+118770 = {
+	name = "dynn_ck_118770"
+	culture = "frisian"
+}
+118780 = {
+	name = "dynn_ck_118780"
+	culture = "saxon"
+}
+118790 = {
+	name = "dynn_ck_118790"
+	culture = "frisian"
+}
+118800 = {
+	name = "dynn_ck_118800"
+	culture = "frisian"
+}
+118810 = {
+	name = "dynn_ck_118810"
+	culture = "ainu"
+}
+118820 = {
+	name = "dynn_ck_118820"
+	culture = "frisian"
+}
+118830 = {
+	name = "dynn_ck_118830"
+	culture = "saxon"
+}
+118840 = {
+	name = "dynn_ck_118840"
+	culture = "saxon"
+}
+118850 = {
+	name = "dynn_ck_118850"
+	culture = "frisian"
+}
+118860 = {
+	name = "dynn_ck_118860"
+	culture = "saxon"
+}
+118870 = {
+	name = "dynn_ck_118870"
+	culture = "ainu"
+}
+118880 = {
+	name = "dynn_ck_118880"
+	culture = "saxon"
+}
+118890 = {
+	name = "dynn_ck_118890"
+	culture = "ainu"
+}
+118900 = {
+	name = "dynn_ck_118900"
+	culture = "frisian"
+}
+118930 = {
+	name = "dynn_ck_118930"
+	culture = "saxon"
+}
+118940 = {
+	name = "dynn_ck_118940"
+	culture = "saxon"
+}
+118950 = {
+	name = "dynn_ck_118950"
+	culture = "frisian"
+}
+118960 = {
+	name = "dynn_ck_118960"
+	culture = "frisian"
+}
+118970 = {
+	name = "dynn_ck_118970"
+	culture = "ainu"
+}
+118980 = {
+	name = "dynn_ck_118980"
+	culture = "frisian"
+}
+118990 = {
+	name = "dynn_ck_118990"
+	culture = "saxon"
+}
+119000 = {
+	name = "dynn_ck_119000"
+	culture = "saxon"
+}
+119010 = {
+	name = "dynn_ck_119010"
+	culture = "frisian"
+}
+119020 = {
+	name = "dynn_ck_119020"
+	culture = "saxon"
+}
+119030 = {
+	name = "dynn_ck_119030"
+	culture = "ainu"
+}
+119040 = {
+	name = "dynn_ck_119040"
+	culture = "frisian"
+}
+119050 = {
+	name = "dynn_ck_119050"
+	culture = "ainu"
+}
+119060 = {
+	name = "dynn_ck_119060"
+	culture = "ainu"
+}
+119070 = {
+	name = "dynn_ck_119070"
+	culture = "saxon"
+}
+119080 = {
+	name = "dynn_ck_119080"
+	culture = "ainu"
+}
+119090 = {
+	name = "dynn_ck_119090"
+	culture = "frisian"
+}
+119100 = {
+	name = "dynn_ck_119100"
+	culture = "ainu"
+}
+119110 = {
+	name = "dynn_ck_119110"
+	culture = "saxon"
+}
+119120 = {
+	name = "dynn_ck_119120"
+	culture = "saxon"
+}
+119130 = {
+	name = "dynn_ck_119130"
+	culture = "saxon"
+}
+119140 = {
+	name = "dynn_ck_119140"
+	culture = "ainu"
+}
+119150 = {
+	name = "dynn_ck_119150"
+	culture = "frisian"
+}
+119151 = {
+	name = "dynn_ck_119151"
+	culture = "frisian"
+}
+119152 = {
+	name = "dynn_ck_119152"
+	culture = "frisian"
+}
+119153 = {
+	name = "dynn_ck_119153"
+	culture = "frisian"
+}
+119154 = {
+	name = "dynn_ck_119154"
+	culture = "frisian"
+}
+119160 = {
+	name = "dynn_ck_119160"
+	culture = "frisian"
+}
+119170 = {
+	name = "dynn_ck_119170"
+	culture = "ainu"
+}
+119180 = {
+	name = "dynn_ck_119180"
+	culture = "frisian"
+}
+119190 = {
+	name = "dynn_ck_119190"
+	culture = "saxon"
+}
+119200 = {
+	name = "dynn_ck_119200"
+	culture = "frisian"
+}
+119210 = {
+	name = "dynn_ck_119210"
+	culture = "frisian"
+}
+119220 = {
+	name = "dynn_ck_119220"
+	culture = "saxon"
+}
+119230 = {
+	name = "dynn_ck_119230"
+	culture = "frisian"
+}
+119240 = {
+	name = "dynn_ck_119240"
+	culture = "sami"
+}
+119250 = {
+	name = "dynn_ck_119250"
+	culture = "sami"
+}
+119260 = {
+	name = "dynn_ck_119260"
+	culture = "frisian"
+}
+119270 = {
+	name = "dynn_ck_119270"
+	culture = "frisian"
+}
+119280 = {
+	name = "dynn_ck_119280"
+	culture = "frisian"
+}
+119290 = {
+	name = "dynn_ck_119290"
+	culture = "frisian"
+}
+119300 = {
+	name = "dynn_ck_119300"
+	culture = "saxon"
+}
+119310 = {
+	name = "dynn_ck_119310"
+	culture = "frisian"
+}
+119320 = {
+	name = "dynn_ck_119320"
+	culture = "saxon"
+}
+119330 = {
+	name = "dynn_ck_119330"
+	culture = "saxon"
+}
+119340 = {
+	name = "dynn_ck_119340"
+	culture = "ainu"
+}
+119350 = {
+	name = "dynn_ck_119350"
+	culture = "frisian"
+}
+119360 = {
+	name = "dynn_ck_119360"
+	culture = "saxon"
+}
+119370 = {
+	name = "dynn_ck_119370"
+	culture = "ainu"
+}
+119380 = {
+	name = "dynn_ck_119380"
+	culture = "sami"
+}
+119390 = {
+	name = "dynn_ck_119390"
+	culture = "saxon"
+}
+119400 = {
+	name = "dynn_ck_119400"
+	culture = "ainu"
+}
+119410 = {
+	name = "dynn_ck_119410"
+	culture = "frisian"
+}
+119420 = {
+	name = "dynn_ck_119420"
+	culture = "frisian"
+}
+119430 = {
+	name = "dynn_ck_119430"
+	culture = "frisian"
+}
+119440 = {
+	name = "dynn_ck_119440"
+	culture = "ainu"
+}
+119450 = {
+	name = "dynn_ck_119450"
+	culture = "saxon"
+}
+119460 = {
+	name = "dynn_ck_119460"
+	culture = "ainu"
+}
+119470 = {
+	name = "dynn_ck_119470"
+	culture = "frisian"
+}
+119480 = {
+	name = "dynn_ck_119480"
+	culture = "frisian"
+}
+119490 = {
+	name = "dynn_ck_119490"
+	culture = "ainu"
+}
+119500 = {
+	name = "dynn_ck_119500"
+	culture = "frisian"
+}
+119510 = {
+	name = "dynn_ck_119510"
+	culture = "saxon"
+}
+119520 = {
+	name = "dynn_ck_119520"
+	culture = "saxon"
+}
+119530 = {
+	name = "dynn_ck_119530"
+	culture = "ainu"
+}
+119540 = {
+	name = "dynn_ck_119540"
+	culture = "frisian"
+}
+119550 = {
+	name = "dynn_ck_119550"
+	culture = "ainu"
+}
+119560 = {
+	name = "dynn_ck_119560"
+	culture = "frisian"
+}
+119570 = {
+	name = "dynn_ck_119570"
+	culture = "sami"
+}
+119580 = {
+	name = "dynn_ck_119580"
+	culture = "frisian"
+}
+119590 = {
+	name = "dynn_ck_119590"
+	culture = "frisian"
+}
+119600 = {
+	name = "dynn_ck_119600"
+	culture = "saxon"
+}
+119610 = {
+	name = "dynn_ck_119610"
+	culture = "sami"
+}
+119620 = {
+	name = "dynn_ck_119620"
+	culture = "frisian"
+}
+119630 = {
+	name = "dynn_ck_119630"
+	culture = "sami"
+}
+119640 = {
+	name = "dynn_ck_119640"
+	culture = "ainu"
+}
+119650 = {
+	name = "dynn_ck_119650"
+	culture = "saxon"
+}
+119660 = {
+	name = "dynn_ck_119660"
+	culture = "frisian"
+}
+119670 = {
+	name = "dynn_ck_119670"
+	culture = "ainu"
+}
+119680 = {
+	name = "dynn_ck_119680"
+	culture = "frisian"
+}
+119690 = {
+	name = "dynn_ck_119690"
+	culture = "saxon"
+}
+119700 = {
+	name = "dynn_ck_119700"
+	culture = "saxon"
+}
+119710 = {
+	name = "dynn_ck_119710"
+	culture = "saxon"
+}
+119720 = {
+	name = "dynn_ck_119720"
+	culture = "sami"
+}
+119730 = {
+	name = "dynn_ck_119730"
+	culture = "frisian"
+}
+119740 = {
+	name = "dynn_ck_119740"
+	culture = "ainu"
+}
+119750 = {
+	name = "dynn_ck_119750"
+	culture = "frisian"
+}
+119760 = {
+	name = "dynn_ck_119760"
+	culture = "ainu"
+}
+119770 = {
+	name = "dynn_ck_119770"
+	culture = "ainu"
+}
+119780 = {
+	name = "dynn_ck_119780"
+	culture = "frisian"
+}
+119790 = {
+	name = "dynn_ck_119790"
+	culture = "saxon"
+}
+119800 = {
+	name = "dynn_ck_119800"
+	culture = "frisian"
+}
+119810 = {
+	name = "dynn_ck_119810"
+	culture = "frisian"
+}
+119820 = {
+	name = "dynn_ck_119820"
+	culture = "frisian"
+}
+119830 = {
+	name = "dynn_ck_119830"
+	culture = "frisian"
+}
+119840 = {
+	name = "dynn_ck_119840"
+	culture = "saxon"
+}
+119850 = {
+	name = "dynn_ck_119850"
+	culture = "frisian"
+}
+119860 = {
+	name = "dynn_ck_119860"
+	culture = "frisian"
+}
+119870 = {
+	name = "dynn_ck_119870"
+	culture = "frisian"
+}
+119880 = {
+	name = "dynn_ck_119880"
+	culture = "sami"
+}
+119890 = {
+	name = "dynn_ck_119890"
+	culture = "frisian"
+}
+119900 = {
+	name = "dynn_ck_119900"
+	culture = "sami"
+}
+119910 = {
+	name = "dynn_ck_119910"
+	culture = "saxon"
+}
+119920 = {
+	name = "dynn_ck_119920"
+	culture = "sami"
+}
+119930 = {
+	name = "dynn_ck_119930"
+	culture = "ainu"
+}
+119940 = {
+	name = "dynn_ck_119940"
+	culture = "saxon"
+}
+119950 = {
+	name = "dynn_ck_119950"
+	culture = "frisian"
+}
+119960 = {
+	name = "dynn_ck_119960"
+	culture = "frisian"
+}
+119970 = {
+	name = "dynn_ck_119970"
+	culture = "sami"
+}
+119980 = {
+	name = "dynn_ck_119980"
+	culture = "ainu"
+}
+119990 = {
+	name = "dynn_ck_119990"
+	culture = "frisian"
+}
+120000 = {
+	name = "dynn_ck_120000"
+	culture = "ainu"
+}
+120010 = {
+	name = "dynn_ck_120010"
+	culture = "frisian"
+}
+120020 = {
+	name = "dynn_ck_120020"
+	culture = "frisian"
+}
+120030 = {
+	name = "dynn_ck_120030"
+	culture = "frisian"
+}
+120040 = {
+	name = "dynn_ck_120040"
+	culture = "saxon"
+}
+120050 = {
+	name = "dynn_ck_120050"
+	culture = "frisian"
+}
+120060 = {
+	name = "dynn_ck_120060"
+	culture = "ainu"
+}
+120070 = {
+	name = "dynn_ck_120070"
+	culture = "frisian"
+}
+120080 = {
+	name = "dynn_ck_120080"
+	culture = "frisian"
+}
+120090 = {
+	name = "dynn_ck_120090"
+	culture = "ainu"
+}
+120100 = {
+	name = "dynn_ck_120100"
+	culture = "frisian"
+}
+120110 = {
+	name = "dynn_ck_120110"
+	culture = "ainu"
+}
+120120 = {
+	name = "dynn_ck_120120"
+	culture = "saxon"
+}
+120130 = {
+	name = "dynn_ck_120130"
+	culture = "sami"
+}
+120140 = {
+	name = "dynn_ck_120140"
+	culture = "frisian"
+}
+120150 = {
+	name = "dynn_ck_120150"
+	culture = "ainu"
+}
+120160 = {
+	name = "dynn_ck_120160"
+	culture = "sami"
+}
+120170 = {
+	name = "dynn_ck_120170"
+	culture = "sami"
+}
+120180 = {
+	name = "dynn_ck_120180"
+	culture = "frisian"
+}
+120190 = {
+	name = "dynn_ck_120190"
+	culture = "ainu"
+}
+120200 = {
+	name = "dynn_ck_120200"
+	culture = "saxon"
+}
+120210 = {
+	name = "dynn_ck_120210"
+	culture = "frisian"
+}
+120220 = {
+	name = "dynn_ck_120220"
+	culture = "frisian"
+}
+120230 = {
+	name = "dynn_ck_120230"
+	culture = "frisian"
+}
+120240 = {
+	name = "dynn_ck_120240"
+	culture = "frisian"
+}
+120250 = {
+	name = "dynn_ck_120250"
+	culture = "frisian"
+}
+120260 = {
+	name = "dynn_ck_120260"
+	culture = "frisian"
+}
+120270 = {
+	name = "dynn_ck_120270"
+	culture = "frisian"
+}
+120280 = {
+	name = "dynn_ck_120280"
+	culture = "ainu"
+}
+120290 = {
+	name = "dynn_ck_120290"
+	culture = "frisian"
+}
+120300 = {
+	name = "dynn_ck_120300"
+	culture = "frisian"
+}
+120310 = {
+	name = "dynn_ck_120310"
+	culture = "ainu"
+}
+120320 = {
+	name = "dynn_ck_120320"
+	culture = "saxon"
+}
+120330 = {
+	name = "dynn_ck_120330"
+	culture = "frisian"
+}
+120340 = {
+	name = "dynn_ck_120340"
+	culture = "sami"
+}
+120350 = {
+	name = "dynn_ck_120350"
+	culture = "frisian"
+}
+120360 = {
+	name = "dynn_ck_120360"
+	culture = "sami"
+}
+120370 = {
+	name = "dynn_ck_120370"
+	culture = "frisian"
+}
+120380 = {
+	name = "dynn_ck_120380"
+	culture = "sami"
+}
+120390 = {
+	name = "dynn_ck_120390"
+	culture = "frisian"
+}
+120400 = {
+	name = "dynn_ck_120400"
+	culture = "frisian"
+}
+120410 = {
+	name = "dynn_ck_120410"
+	culture = "ainu"
+}
+120420 = {
+	name = "dynn_ck_120420"
+	culture = "ainu"
+}
+120430 = {
+	name = "dynn_ck_120430"
+	culture = "sami"
+}
+120440 = {
+	name = "dynn_ck_120440"
+	culture = "frisian"
+}
+120450 = {
+	name = "dynn_ck_120450"
+	culture = "frisian"
+}
+120460 = {
+	name = "dynn_ck_120460"
+	culture = "ainu"
+}
+120470 = {
+	name = "dynn_ck_120470"
+	culture = "frisian"
+}
+120480 = {
+	name = "dynn_ck_120480"
+	culture = "frisian"
+}
+120490 = {
+	name = "dynn_ck_120490"
+	culture = "saxon"
+}
+120500 = {
+	name = "dynn_ck_120500"
+	culture = "sami"
+}
+120510 = {
+	name = "dynn_ck_120510"
+	culture = "frisian"
+}
+120520 = {
+	name = "dynn_ck_120520"
+	culture = "frisian"
+}
+120530 = {
+	name = "dynn_ck_120530"
+	culture = "frisian"
+}
+120540 = {
+	name = "dynn_ck_120540"
+	culture = "frisian"
+}
+120550 = {
+	name = "dynn_ck_120550"
+	culture = "saxon"
+}
+120560 = {
+	name = "dynn_ck_120560"
+	culture = "saxon"
+}
+120570 = {
+	name = "dynn_ck_120570"
+	culture = "ainu"
+}
+120580 = {
+	name = "dynn_ck_120580"
+	culture = "sami"
+}
+120590 = {
+	name = "dynn_ck_120590"
+	culture = "frisian"
+}
+120600 = {
+	name = "dynn_ck_120600"
+	culture = "frisian"
+}
+120610 = {
+	name = "dynn_ck_120610"
+	culture = "frisian"
+}
+120620 = {
+	name = "dynn_ck_120620"
+	culture = "ainu"
+}
+120630 = {
+	name = "dynn_ck_120630"
+	culture = "saxon"
+}
+120640 = {
+	name = "dynn_ck_120640"
+	culture = "frisian"
+}
+120650 = {
+	name = "dynn_ck_120650"
+	culture = "sami"
+}
+120660 = {
+	name = "dynn_ck_120660"
+	culture = "sami"
+}
+120670 = {
+	name = "dynn_ck_120670"
+	culture = "sami"
+}
+120680 = {
+	name = "dynn_ck_120680"
+	culture = "frisian"
+}
+120690 = {
+	name = "dynn_ck_120690"
+	culture = "frisian"
+}
+120700 = {
+	name = "dynn_ck_120700"
+	culture = "saxon"
+}
+120710 = {
+	name = "dynn_ck_120710"
+	culture = "ainu"
+}
+120720 = {
+	name = "dynn_ck_120720"
+	culture = "frisian"
+}
+120730 = {
+	name = "dynn_ck_120730"
+	culture = "saxon"
+}
+120740 = {
+	name = "dynn_ck_120740"
+	culture = "saxon"
+}
+120750 = {
+	name = "dynn_ck_120750"
+	culture = "bodpa"
+}
+120770 = {
+	name = "dynn_ck_120770"
+	culture = "sami"
+}
+120780 = {
+	name = "dynn_ck_120780"
+	culture = "saxon"
+}
+120790 = {
+	name = "dynn_ck_120790"
+	culture = "ainu"
+}
+120800 = {
+	name = "dynn_ck_120800"
+	culture = "frisian"
+}
+120810 = {
+	name = "dynn_ck_120810"
+	culture = "frisian"
+}
+120820 = {
+	name = "dynn_ck_120820"
+	culture = "saxon"
+}
+120830 = {
+	name = "dynn_ck_120830"
+	culture = "ainu"
+}
+120840 = {
+	name = "dynn_ck_120840"
+	culture = "saxon"
+}
+120850 = {
+	name = "dynn_ck_120850"
+	culture = "frisian"
+}
+120860 = {
+	name = "dynn_ck_120860"
+	culture = "frisian"
+}
+120870 = {
+	name = "dynn_ck_120870"
+	culture = "saxon"
+}
+120880 = {
+	name = "dynn_ck_120880"
+	culture = "saxon"
+}
+120890 = {
+	name = "dynn_ck_120890"
+	culture = "ainu"
+}
+120900 = {
+	name = "dynn_ck_120900"
+	culture = "frisian"
+}
+120910 = {
+	name = "dynn_ck_120910"
+	culture = "saxon"
+}
+120920 = {
+	name = "dynn_ck_120920"
+	culture = "ainu"
+}
+120930 = {
+	name = "dynn_ck_120930"
+	culture = "saxon"
+}
+120940 = {
+	name = "dynn_ck_120940"
+	culture = "frisian"
+}
+120950 = {
+	name = "dynn_ck_120950"
+	culture = "ainu"
+}
+120960 = {
+	name = "dynn_ck_120960"
+	culture = "frisian"
+}
+120970 = {
+	name = "dynn_ck_120970"
+	culture = "ainu"
+}
+120980 = {
+	name = "dynn_ck_120980"
+	culture = "saxon"
+}
+120990 = {
+	name = "dynn_ck_120990"
+	culture = "ainu"
+}
+121000 = {
+	name = "dynn_ck_121000"
+	culture = "ainu"
+}
+121010 = {
+	name = "dynn_ck_121010"
+	culture = "saxon"
+}
+121020 = {
+	name = "dynn_ck_121020"
+	culture = "saxon"
+}
+121030 = {
+	name = "dynn_ck_121030"
+	culture = "frisian"
+}
+121040 = {
+	name = "dynn_ck_121040"
+	culture = "bodpa"
+}
+121050 = {
+	name = "dynn_ck_121050"
+	culture = "ainu"
+}
+121060 = {
+	name = "dynn_ck_121060"
+	culture = "ainu"
+}
+121070 = {
+	name = "dynn_ck_121070"
+	culture = "frisian"
+}
+121080 = {
+	name = "dynn_ck_121080"
+	culture = "ainu"
+}
+121090 = {
+	name = "dynn_ck_121090"
+	culture = "ainu"
+}
+121100 = {
+	name = "dynn_ck_121100"
+	culture = "frisian"
+}
+121110 = {
+	name = "dynn_ck_121110"
+	culture = "ainu"
+}
+121120 = {
+	name = "dynn_ck_121120"
+	culture = "saxon"
+}
+121130 = {
+	name = "dynn_ck_121130"
+	culture = "saxon"
+}
+121140 = {
+	name = "dynn_ck_121140"
+	culture = "frisian"
+}
+121150 = {
+	name = "dynn_ck_121150"
+	culture = "ainu"
+}
+121160 = {
+	name = "dynn_ck_121160"
+	culture = "frisian"
+}
+121170 = {
+	name = "dynn_ck_121170"
+	culture = "ainu"
+}
+121180 = {
+	name = "dynn_ck_121180"
+	culture = "frisian"
+}
+121190 = {
+	name = "dynn_ck_121190"
+	culture = "ainu"
+}
+121200 = {
+	name = "dynn_ck_121200"
+	culture = "ainu"
+}
+121210 = {
+	name = "dynn_ck_121210"
+	culture = "ainu"
+}
+121220 = {
+	name = "dynn_ck_121220"
+	culture = "ainu"
+}
+121230 = {
+	name = "dynn_ck_121230"
+	culture = "ainu"
+}
+121240 = {
+	name = "dynn_ck_121240"
+	culture = "saxon"
+}
+121250 = {
+	name = "dynn_ck_121250"
+	culture = "saxon"
+}
+121260 = {
+	name = "dynn_ck_121260"
+	culture = "saxon"
+}
+121270 = {
+	name = "dynn_ck_121270"
+	culture = "ainu"
+}
+121280 = {
+	name = "dynn_ck_121280"
+	culture = "frisian"
+}
+121290 = {
+	name = "dynn_ck_121290"
+	culture = "frisian"
+}
+121300 = {
+	name = "dynn_ck_121300"
+	culture = "saxon"
+}
+121310 = {
+	name = "dynn_ck_121310"
+	culture = "saxon"
+}
+121320 = {
+	name = "dynn_ck_121320"
+	culture = "ainu"
+}
+121330 = {
+	name = "dynn_ck_121330"
+	culture = "frisian"
+}
+121340 = {
+	name = "dynn_ck_121340"
+	culture = "saxon"
+}
+121350 = {
+	name = "dynn_ck_121350"
+	culture = "ainu"
+}
+121360 = {
+	name = "dynn_ck_121360"
+	culture = "saxon"
+}
+121370 = {
+	name = "dynn_ck_121370"
+	culture = "ainu"
+}
+121380 = {
+	name = "dynn_ck_121380"
+	culture = "saxon"
+}
+121390 = {
+	name = "dynn_ck_121390"
+	culture = "saxon"
+}
+121400 = {
+	name = "dynn_ck_121400"
+	culture = "ainu"
+}
+121410 = {
+	name = "dynn_ck_121410"
+	culture = "saxon"
+}
+121420 = {
+	name = "dynn_ck_121420"
+	culture = "ainu"
+}
+121430 = {
+	name = "dynn_ck_121430"
+	culture = "saxon"
+}
+121440 = {
+	name = "dynn_ck_121440"
+	culture = "saxon"
+}
+121450 = {
+	name = "dynn_ck_121450"
+	culture = "saxon"
+}
+121460 = {
+	name = "dynn_ck_121460"
+	culture = "ainu"
+}
+121470 = {
+	name = "dynn_ck_121470"
+	culture = "saxon"
+}
+121480 = {
+	name = "dynn_ck_121480"
+	culture = "frisian"
+}
+121490 = {
+	name = "dynn_ck_121490"
+	culture = "saxon"
+}
+121500 = {
+	name = "dynn_ck_121500"
+	culture = "ainu"
+}
+121510 = {
+	name = "dynn_ck_121510"
+	culture = "ainu"
+}
+121520 = {
+	name = "dynn_ck_121520"
+	culture = "saxon"
+}
+121530 = {
+	name = "dynn_ck_121530"
+	culture = "ainu"
+}
+121540 = {
+	name = "dynn_ck_121540"
+	culture = "saxon"
+}
+121550 = {
+	name = "dynn_ck_121550"
+	culture = "frisian"
+}
+121560 = {
+	name = "dynn_ck_121560"
+	culture = "saxon"
+}
+121570 = {
+	name = "dynn_ck_121570"
+	culture = "frisian"
+}
+121580 = {
+	name = "dynn_ck_121580"
+	culture = "saxon"
+}
+121590 = {
+	name = "dynn_ck_121590"
+	culture = "ainu"
+}
+121600 = {
+	name = "dynn_ck_121600"
+	culture = "frisian"
+}
+121610 = {
+	name = "dynn_ck_121610"
+	culture = "ainu"
+}
+121620 = {
+	name = "dynn_ck_121620"
+	culture = "ainu"
+}
+121630 = {
+	name = "dynn_ck_121630"
+	culture = "saxon"
+}
+121640 = {
+	name = "dynn_ck_121640"
+	culture = "saxon"
+}
+121650 = {
+	name = "dynn_ck_121650"
+	culture = "saxon"
+}
+121660 = {
+	name = "dynn_ck_121660"
+	culture = "ainu"
+}
+121670 = {
+	name = "dynn_ck_121670"
+	culture = "saxon"
+}
+121680 = {
+	name = "dynn_ck_121680"
+	culture = "ainu"
+}
+121690 = {
+	name = "dynn_ck_121690"
+	culture = "ainu"
+}
+121700 = {
+	name = "dynn_ck_121700"
+	culture = "saxon"
+}
+121710 = {
+	name = "dynn_ck_121710"
+	culture = "ainu"
+}
+121720 = {
+	name = "dynn_ck_121720"
+	culture = "saxon"
+}
+121730 = {
+	name = "dynn_ck_121730"
+	culture = "saxon"
+}
+121740 = {
+	name = "dynn_ck_121740"
+	culture = "saxon"
+}
+121750 = {
+	name = "dynn_ck_121750"
+	culture = "saxon"
+}
+121760 = {
+	name = "dynn_ck_121760"
+	culture = "saxon"
+}
+121770 = {
+	name = "dynn_ck_121770"
+	culture = "saxon"
+}
+55555 = {
+	name = "dynn_ck_55555"
+	culture = "english"
+}
+44444 = {
+	name = "dynn_ck_44444"
+	culture = "english"
+}
+55558 = {
+	name = "dynn_ck_55558"
+	culture = "english"
+}
+55556 = {
+	name = "dynn_ck_55556"
+	culture = "english"
+}
+77777 = {
+	name = "dynn_ck_77777"
+	culture = "aeon"
+}
+77778 = {
+	name = "dynn_ck_77778"
+	culture = "greek"
+}
+77779 = {
+	name = "dynn_ck_77779"
+	culture = "roman"
+}
+77780 = {
+	name = "dynn_ck_77780"
+	culture = "roman"
+}
+77781 = {
+	name = "dynn_ck_77781"
+	culture = "ashkenazi"
+}
+77782 = {
+	name = "dynn_ck_77782"
+	culture = "archon"
+}
+106420 = {
+	name = "dynn_ck_106420"
+	culture = "bedouin"
+}
+106710 = {
+	name = "dynn_ck_106710"
+	culture = "bedouin"
+}
+77716 = {
+	name = "dynn_ck_77716"
+	culture = "ashkenazi"
+}
+77717 = {
+	name = "dynn_ck_77717"
+	culture = "hindustani"
+}
+400157 = {
+	name = "dynn_ck_400157"
+	culture = "rakian"
+}
+400159 = {
+	name = "dynn_ck_400159"
+	culture = "french"
+}
+400160 = {
+	name = "dynn_ck_400160"
+	culture = "greek"
+}
+400161 = {
+	name = "dynn_ck_400161"
+	culture = "french"
+}
+400162 = {
+	name = "dynn_ck_400162"
+	culture = "polish"
+}
+400163 = {
+	name = "dynn_ck_400163"
+	culture = "han"
+}
+400164 = {
+	name = "dynn_ck_400164"
+	culture = "english"
+}
+400184 = {
+	name = "dynn_ck_400184"
+	culture = "greek"
+}
+101675 = {
+	name = "dynn_ck_101675"
+	culture = "gdonyos"
+}
+101676 = {
+	name = "dynn_ck_101676"
+	culture = "gdonyos"
+}
+14125 = {
+	name = "dynn_ck_14125"
+	culture = "gdonyos"
+}
+693 = {
+	name = "dynn_ck_693"
+	culture = "gdonyos"
+}
+101677 = {
+	name = "dynn_ck_101677"
+	culture = "gdonyos"
+}
+695 = {
+	name = "dynn_ck_695"
+	culture = "gdonyos"
+}
+694 = {
+	name = "dynn_ck_694"
+	culture = "gdonyos"
+}
+199 = {
+	name = "dynn_ck_199"
+	culture = "gdonyos"
+}
+9205 = {
+	name = "dynn_ck_9205"
+	culture = "gdonyos"
+}
+1040001 = {
+	name = "dynn_ck_1040001"
+	culture = "gdonyos"
+}
+9202 = {
+	name = "dynn_ck_9202"
+	culture = "gdonyos"
+}
+101712 = {
+	name = "dynn_ck_101712"
+	culture = "gdonyos"
+}
+20084 = {
+	name = "dynn_ck_20084"
+	culture = "gdonyos"
+}
+14126 = {
+	name = "dynn_ck_14126"
+	culture = "gdonyos"
+}
+370 = {
+	name = "dynn_ck_370"
+	culture = "gdonyos"
+}
+309 = {
+	name = "dynn_ck_309"
+	culture = "gdonyos"
+}
+201 = {
+	name = "dynn_ck_201"
+	culture = "gdonyos"
+}
+9208 = {
+	name = "dynn_ck_9208"
+	culture = "gdonyos"
+}
+197 = {
+	name = "dynn_ck_197"
+	culture = "gdonyos"
+}
+25018 = {
+	name = "dynn_ck_25018"
+	culture = "gdonyos"
+}
+25047 = {
+	name = "dynn_ck_25047"
+	culture = "gdonyos"
+}
+25050 = {
+	name = "dynn_ck_25050"
+	culture = "gdonyos"
+}
+25024 = {
+	name = "dynn_ck_25024"
+	culture = "gdonyos"
+}
+25056 = {
+	name = "dynn_ck_25056"
+	culture = "gdonyos"
+}
+25019 = {
+	name = "dynn_ck_25019"
+	culture = "gdonyos"
+}
+14124 = {
+	name = "dynn_ck_14124"
+	culture = "gdonyos"
+}
+198 = {
+	name = "dynn_ck_198"
+	culture = "gdonyos"
+}
+4045 = {
+	name = "dynn_ck_4045"
+	culture = "gdonyos"
+}
+819 = {
+	name = "dynn_ck_819"
+	culture = "gdonyos"
+}
+550 = {
+	name = "dynn_ck_550"
+	culture = "gdonyos"
+}
+9217 = {
+	name = "dynn_ck_9217"
+	culture = "gdonyos"
+}
+9200 = {
+	name = "dynn_ck_9200"
+	culture = "gdonyos"
+}
+9201 = {
+	name = "dynn_ck_9201"
+	culture = "gdonyos"
+}
+100009 = {
+	name = "dynn_ck_100009"
+	culture = "gdonyos"
+}
+553 = {
+	name = "dynn_ck_553"
+	culture = "gdonyos"
+}
+9203 = {
+	name = "dynn_ck_9203"
+	culture = "gdonyos"
+}
+14102 = {
+	name = "dynn_ck_14102"
+	culture = "gdonyos"
+}
+101713 = {
+	name = "dynn_ck_101713"
+	culture = "gdonyos"
+}
+14112 = {
+	name = "dynn_ck_14112"
+	culture = "gdonyos"
+}
+4043 = {
+	name = "dynn_ck_4043"
+	culture = "gdonyos"
+}
+9219 = {
+	name = "dynn_ck_9219"
+	culture = "gdonyos"
+}
+9204 = {
+	name = "dynn_ck_9204"
+	culture = "gdonyos"
+}
+9206 = {
+	name = "dynn_ck_9206"
+	culture = "gdonyos"
+}
+9207 = {
+	name = "dynn_ck_9207"
+	culture = "gdonyos"
+}
+9209 = {
+	name = "dynn_ck_9209"
+	culture = "gdonyos"
+}
+9210 = {
+	name = "dynn_ck_9210"
+	culture = "gdonyos"
+}
+9211 = {
+	name = "dynn_ck_9211"
+	culture = "gdonyos"
+}
+9212 = {
+	name = "dynn_ck_9212"
+	culture = "gdonyos"
+}
+9225 = {
+	name = "dynn_ck_9225"
+	culture = "gdonyos"
+}
+9215 = {
+	name = "dynn_ck_9215"
+	culture = "gdonyos"
+}
+9216 = {
+	name = "dynn_ck_9216"
+	culture = "gdonyos"
+}
+9218 = {
+	name = "dynn_ck_9218"
+	culture = "gdonyos"
+}
+9220 = {
+	name = "dynn_ck_9220"
+	culture = "gdonyos"
+}
+1040000 = {
+	name = "dynn_ck_1040000"
+	culture = "gdonyos"
+}
+1040002 = {
+	name = "dynn_ck_1040002"
+	culture = "gdonyos"
+}
+1040006 = {
+	name = "dynn_ck_1040006"
+	culture = "gdonyos"
+}
+692 = {
+	name = "dynn_ck_692"
+	culture = "gdonyos"
+}
+690 = {
+	name = "dynn_ck_690"
+	culture = "gdonyos"
+}
+14116 = {
+	name = "dynn_ck_14116"
+	culture = "gdonyos"
+}
+9228 = {
+	name = "dynn_ck_9228"
+	culture = "gdonyos"
+}
+1040007 = {
+	name = "dynn_ck_1040007"
+	culture = "gdonyos"
+}
+1029031 = {
+	name = "dynn_ck_1029031"
+	culture = "gdonyos"
+}
+100003 = {
+	name = "dynn_ck_100003"
+	culture = "gdonyos"
+}
+9226 = {
+	name = "dynn_ck_9226"
+	culture = "gdonyos"
+}
+9227 = {
+	name = "dynn_ck_9227"
+	culture = "gdonyos"
+}
+9229 = {
+	name = "dynn_ck_9229"
+	culture = "gdonyos"
+}
+9230 = {
+	name = "dynn_ck_9230"
+	culture = "gdonyos"
+}
+9231 = {
+	name = "dynn_ck_9231"
+	culture = "gdonyos"
+}
+1042816 = {
+	name = "dynn_ck_1042816"
+	culture = "gdonyos"
+}
+9223 = {
+	name = "dynn_ck_9223"
+	culture = "gdonyos"
+}
+1040010 = {
+	name = "dynn_ck_1040010"
+	culture = "gdonyos"
+}
+1040013 = {
+	name = "dynn_ck_1040013"
+	culture = "gdonyos"
+}
+688 = {
+	name = "dynn_ck_688"
+	culture = "scottish"
+}
+1045008 = {
+	name = "dynn_ck_1045008"
+	culture = "gdonyos"
+}
+1040150 = {
+	name = "dynn_ck_1040150"
+	culture = "gdonyos"
+}
+1040151 = {
+	name = "dynn_ck_1040151"
+	culture = "gdonyos"
+}
+1040153 = {
+	name = "dynn_ck_1040153"
+	culture = "gdonyos"
+}
+1040154 = {
+	name = "dynn_ck_1040154"
+	culture = "gdonyos"
+}
+14113 = {
+	name = "dynn_ck_14113"
+	culture = "gdonyos"
+}
+1040155 = {
+	name = "dynn_ck_1040155"
+	culture = "gdonyos"
+}
+1062197 = {
+	name = "dynn_ck_1062197"
+	culture = "gdonyos"
+}
+1062198 = {
+	name = "dynn_ck_1062198"
+	culture = "gdonyos"
+}
+1062199 = {
+	name = "dynn_ck_1062199"
+	culture = "gdonyos"
+}
+1062200 = {
+	name = "dynn_ck_1062200"
+	culture = "gdonyos"
+}
+1062201 = {
+	name = "dynn_ck_1062201"
+	culture = "gdonyos"
+}
+1062202 = {
+	name = "dynn_ck_1062202"
+	culture = "gdonyos"
+}
+1062203 = {
+	name = "dynn_ck_1062203"
+	culture = "gdonyos"
+}
+14111 = {
+	name = "dynn_ck_14111"
+	culture = "gdonyos"
+}
+105915 = {
+	name = "dynn_ck_105915"
+	culture = "gdonyos"
+}
+105916 = {
+	name = "dynn_ck_105916"
+	culture = "gdonyos"
+}
+105917 = {
+	name = "dynn_ck_105917"
+	culture = "gdonyos"
+}
+105918 = {
+	name = "dynn_ck_105918"
+	culture = "gdonyos"
+}
+105919 = {
+	name = "dynn_ck_105919"
+	culture = "gdonyos"
+}
+1062222 = {
+	name = "dynn_ck_1062222"
+	culture = "gdonyos"
+}
+1062223 = {
+	name = "dynn_ck_1062223"
+	culture = "gdonyos"
+}
+1062224 = {
+	name = "dynn_ck_1062224"
+	culture = "gdonyos"
+}
+1062225 = {
+	name = "dynn_ck_1062225"
+	culture = "gdonyos"
+}
+77600 = {
+	name = "dynn_ck_77600"
+	culture = "mau_khet"
+}
+77601 = {
+	name = "dynn_ck_77601"
+	culture = "mau_khet"
+}
+400000 = {
+	name = "dynn_ck_400000"
+	culture = "murican"
+}
+400001 = {
+	name = "dynn_ck_400001"
+	culture = "murican"
+}
+400002 = {
+	name = "dynn_ck_400002"
+	culture = "murican"
+}
+400003 = {
+	name = "dynn_ck_400003"
+	culture = "murican"
+}
+400004 = {
+	name = "dynn_ck_400004"
+	culture = "murican"
+}
+400005 = {
+	name = "dynn_ck_400005"
+	culture = "murican"
+}
+400006 = {
+	name = "dynn_ck_400006"
+	culture = "liblander"
+}
+400007 = {
+	name = "dynn_ck_400007"
+	culture = "liblander"
+}
+400008 = {
+	name = "dynn_ck_400008"
+	culture = "murican"
+}
+400009 = {
+	name = "dynn_ck_400009"
+	culture = "murican"
+}
+400010 = {
+	name = "dynn_ck_400010"
+	culture = "liblander"
+}
+400011 = {
+	name = "dynn_ck_400011"
+	culture = "murican"
+}
+400012 = {
+	name = "dynn_ck_400012"
+	culture = "murican"
+}
+400013 = {
+	name = "dynn_ck_400013"
+	culture = "liblander"
+}
+400014 = {
+	name = "dynn_ck_400014"
+	culture = "liblander"
+}
+400015 = {
+	name = "dynn_ck_400015"
+	culture = "murican"
+}
+400016 = {
+	name = "dynn_ck_400016"
+	culture = "liblander"
+}
+400017 = {
+	name = "dynn_ck_400017"
+	culture = "murican"
+}
+400018 = {
+	name = "dynn_ck_400018"
+	culture = "murican"
+}
+400019 = {
+	name = "dynn_ck_400019"
+	culture = "murican"
+}
+400020 = {
+	name = "dynn_ck_400020"
+	culture = "murican"
+}
+400021 = {
+	name = "dynn_ck_400021"
+	culture = "liblander"
+}
+400022 = {
+	name = "dynn_ck_400022"
+	culture = "murican"
+}
+400023 = {
+	name = "dynn_ck_400023"
+	culture = "liblander"
+}
+400024 = {
+	name = "dynn_ck_400024"
+	culture = "murican"
+}
+400025 = {
+	name = "dynn_ck_400025"
+	culture = "murican"
+}
+400026 = {
+	name = "dynn_ck_400026"
+	culture = "murican"
+}
+400027 = {
+	name = "dynn_ck_400027"
+	culture = "liblander"
+}
+400028 = {
+	name = "dynn_ck_400028"
+	culture = "murican"
+}
+400029 = {
+	name = "dynn_ck_400029"
+	culture = "murican"
+}
+400030 = {
+	name = "dynn_ck_400030"
+	culture = "murican"
+}
+400031 = {
+	name = "dynn_ck_400031"
+	culture = "liblander"
+}
+400032 = {
+	name = "dynn_ck_400032"
+	culture = "liblander"
+}
+400033 = {
+	name = "dynn_ck_400033"
+	culture = "murican"
+}
+400035 = {
+	name = "dynn_ck_400035"
+	culture = "liblander"
+}
+400036 = {
+	name = "dynn_ck_400036"
+	culture = "murican"
+}
+400037 = {
+	name = "dynn_ck_400037"
+	culture = "murican"
+}
+400038 = {
+	name = "dynn_ck_400038"
+	culture = "liblander"
+}
+400039 = {
+	name = "dynn_ck_400039"
+	culture = "murican"
+}
+400040 = {
+	name = "dynn_ck_400040"
+	culture = "murican"
+}
+400041 = {
+	name = "dynn_ck_400041"
+	culture = "liblander"
+}
+400042 = {
+	name = "dynn_ck_400042"
+	culture = "murican"
+}
+400043 = {
+	name = "dynn_ck_400043"
+	culture = "liblander"
+}
+400045 = {
+	name = "dynn_ck_400045"
+	culture = "liblander"
+}
+400046 = {
+	name = "dynn_ck_400046"
+	culture = "french"
+}
+400047 = {
+	name = "dynn_ck_400047"
+	culture = "french"
+}
+400048 = {
+	name = "dynn_ck_400048"
+	culture = "french"
+}
+400049 = {
+	name = "dynn_ck_400049"
+	culture = "french"
+}
+400050 = {
+	name = "dynn_ck_400050"
+	culture = "french"
+}
+400051 = {
+	name = "dynn_ck_400051"
+	culture = "english"
+}
+400052 = {
+	name = "dynn_ck_400052"
+	culture = "french"
+}
+400053 = {
+	name = "dynn_ck_400053"
+	culture = "french"
+}
+400054 = {
+	name = "dynn_ck_400054"
+	culture = "french"
+}
+400055 = {
+	name = "dynn_ck_400055"
+	culture = "greek"
+}
+400056 = {
+	name = "dynn_ck_400056"
+	culture = "catalan"
+}
+400057 = {
+	name = "dynn_ck_400057"
+	culture = "french"
+}
+400058 = {
+	name = "dynn_ck_400058"
+	culture = "french"
+}
+400059 = {
+	name = "dynn_ck_400059"
+	culture = "bedouin"
+}
+400080 = {
+	name = "dynn_ck_400080"
+	culture = "southeast_asian"
+}
+400109 = {
+	name = "dynn_ck_400109"
+	culture = "southeast_asian"
+}
+400131 = {
+	name = "dynn_ck_400131"
+	culture = "bedouin"
+}
+77800 = {
+	name = "dynn_ck_77800"
+	culture = "liblander"
+}
+77801 = {
+	name = "dynn_ck_77801"
+	culture = "liblander"
+}
+77799 = {
+	name = "dynn_ck_77799"
+	culture = "liblander"
+}
+77810 = {
+	name = "dynn_ck_77810"
+	culture = "han"
+}
+77811 = {
+	name = "dynn_ck_77811"
+	culture = "english"
+}
+77802 = {
+	name = "dynn_ck_77802"
+	culture = "japanese"
+}
+77803 = {
+	name = "dynn_ck_77803"
+	culture = "thark"
+}
+77804 = {
+	name = "dynn_ck_77804"
+	culture = "han"
+}
+77805 = {
+	name = "dynn_ck_77805"
+	culture = "han"
+}
+77806 = {
+	name = "dynn_ck_77806"
+	culture = "han"
+}
+77807 = {
+	name = "dynn_ck_77807"
+	culture = "han"
+}
+77808 = {
+	name = "dynn_ck_77808"
+	culture = "han"
+}
+77809 = {
+	name = "dynn_ck_77809"
+	culture = "archon"
+}
+7000043 = {
+	name = "dynn_ck_7000043"
+	culture = "celestial"
+}
+7000000 = {
+	name = "dynn_ck_7000000"
+	culture = "japanese"
+}
+7000001 = {
+	name = "dynn_ck_7000001"
+	culture = "japanese"
+}
+7000003 = {
+	name = "dynn_ck_7000003"
+	culture = "japanese"
+}
+7000005 = {
+	name = "dynn_ck_7000005"
+	culture = "japanese"
+}
+7000041 = {
+	name = "dynn_ck_7000041"
+	culture = "aussie"
+}
+7000010 = {
+	name = "dynn_ck_7000010"
+	culture = "japanese"
+}
+7000014 = {
+	name = "dynn_ck_7000014"
+	culture = "japanese"
+}
+7000018 = {
+	name = "dynn_ck_7000018"
+	culture = "japanese"
+}
+7000021 = {
+	name = "dynn_ck_7000021"
+	culture = "japanese"
+}
+7000023 = {
+	name = "dynn_ck_7000023"
+	culture = "japanese"
+}
+7000025 = {
+	name = "dynn_ck_7000025"
+	culture = "japanese"
+}
+7000029 = {
+	name = "dynn_ck_7000029"
+	culture = "japanese"
+}

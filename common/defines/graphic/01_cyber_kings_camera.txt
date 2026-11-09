@@ -1,0 +1,4 @@
+﻿NCamera = {
+	PANNING_WIDTH = 6900
+	PANNING_HEIGHT = 4696
+}

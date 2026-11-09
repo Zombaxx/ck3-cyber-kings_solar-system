@@ -1,0 +1,1039 @@
+﻿# Cyber Kings: faiths with no vanilla equivalent (gen_peoples.py). Holy sites: the CK2 holy-site counties
+# (common/religion/holy_site_types/cyber_kings_holy_sites.txt).
+
+archaic_pantheon = {
+	main_rite = archaic_pantheon_rite
+	faith_details = {
+		religion = otherworlden_religion
+		color = { 1.0 1.0 0.5 }
+		icon = hellenic
+	}
+	eminent_holy_sites = {
+		ck_moonlanding
+		ck_ryha
+	}
+	holy_sites = {
+		ck_province0142
+		ck_foothills_of_mun
+		ck_province0333
+	}
+	doctrines = {
+		doctrine_polytheist
+		doctrine_gender_equal
+	}
+	localization = {
+		HighGodName = cyber_ow_archaic_pantheon_HighGodName
+		HighGodNamePossessive = cyber_ow_archaic_pantheon_HighGodNamePossessive
+		HighGodNameAlternate = cyber_ow_archaic_pantheon_HighGodNameAlternate
+		HighGodNameAlternatePossessive = cyber_ow_archaic_pantheon_HighGodNameAlternatePossessive
+		CreatorName = cyber_ow_archaic_pantheon_CreatorName
+		CreatorNamePossessive = cyber_ow_archaic_pantheon_CreatorNamePossessive
+		PantheonTerm = cyber_ow_archaic_pantheon_PantheonTerm
+		GoodGodNames = cyber_ow_archaic_pantheon_GoodGodNames
+		DevilName = cyber_ow_archaic_pantheon_DevilName
+		DevilNamePossessive = cyber_ow_archaic_pantheon_DevilNamePossessive
+		EvilGodNames = cyber_ow_archaic_pantheon_EvilGodNames
+		HouseOfWorship = cyber_ow_archaic_pantheon_HouseOfWorship
+		HouseOfWorshipPlural = cyber_ow_archaic_pantheon_HouseOfWorshipPlural
+		ReligiousSymbol = cyber_ow_archaic_pantheon_ReligiousSymbol
+		ReligiousText = cyber_ow_archaic_pantheon_ReligiousText
+		ReligiousHeadName = cyber_ow_archaic_pantheon_ReligiousHeadName
+		ReligiousHeadNameFemale = cyber_ow_archaic_pantheon_ReligiousHeadNameFemale
+		ReligiousHeadTitleName = cyber_ow_archaic_pantheon_ReligiousHeadTitleName
+		DevoteeMale = cyber_ow_archaic_pantheon_DevoteeMale
+		DevoteeMalePlural = cyber_ow_archaic_pantheon_DevoteeMalePlural
+		DevoteeFemale = cyber_ow_archaic_pantheon_DevoteeFemale
+		DevoteeFemalePlural = cyber_ow_archaic_pantheon_DevoteeFemalePlural
+		DevoteeNeuter = cyber_ow_archaic_pantheon_DevoteeNeuter
+		DevoteeNeuterPlural = cyber_ow_archaic_pantheon_DevoteeNeuterPlural
+		PriestMale = cyber_ow_archaic_pantheon_PriestMale
+		PriestMalePlural = cyber_ow_archaic_pantheon_PriestMalePlural
+		PriestFemale = cyber_ow_archaic_pantheon_PriestFemale
+		PriestFemalePlural = cyber_ow_archaic_pantheon_PriestFemalePlural
+		PriestNeuter = cyber_ow_archaic_pantheon_PriestNeuter
+		PriestNeuterPlural = cyber_ow_archaic_pantheon_PriestNeuterPlural
+		AltPriestTermPlural = cyber_ow_archaic_pantheon_AltPriestTermPlural
+		BishopMale = cyber_ow_archaic_pantheon_BishopMale
+		BishopMalePlural = cyber_ow_archaic_pantheon_BishopMalePlural
+		BishopFemale = cyber_ow_archaic_pantheon_BishopFemale
+		BishopFemalePlural = cyber_ow_archaic_pantheon_BishopFemalePlural
+		BishopNeuter = cyber_ow_archaic_pantheon_BishopNeuter
+		BishopNeuterPlural = cyber_ow_archaic_pantheon_BishopNeuterPlural
+		DivineRealm = cyber_ow_archaic_pantheon_DivineRealm
+		PositiveAfterLife = cyber_ow_archaic_pantheon_PositiveAfterLife
+		NegativeAfterLife = cyber_ow_archaic_pantheon_NegativeAfterLife
+		GHWName = cyber_ow_archaic_pantheon_GHWName
+		GHWNamePlural = cyber_ow_archaic_pantheon_GHWNamePlural
+		HighGodNameSheHe = CHARACTER_SHEHE_IT
+		HighGodHerselfHimself = CHARACTER_ITSELF
+		HighGodHerHis = CHARACTER_HERHIS_ITS
+		CreatorSheHe = CHARACTER_SHEHE_IT
+		CreatorHerHis = CHARACTER_HERHIS_ITS
+		CreatorHerHim = CHARACTER_HERHIM_IT
+		DevilSheHe = CHARACTER_SHEHE_IT
+		DevilHerHis = CHARACTER_HERHIS_ITS
+		DevilHerselfHimself = CHARACTER_ITSELF
+		PantheonTermHasHave = pantheon_term_have
+	}
+}
+
+cult_of_kaine = {
+	main_rite = cult_of_kaine_rite
+	faith_details = {
+		religion = otherworlden_religion
+		color = { 0.4 0.03 0.03 }
+		icon = hellenic
+	}
+	eminent_holy_sites = {
+		ck_moonlanding
+		ck_ryha
+	}
+	holy_sites = {
+		ck_province0142
+		ck_foothills_of_mun
+		ck_province0333
+	}
+	doctrines = {
+		doctrine_polytheist
+		doctrine_gender_equal
+		doctrine_pluralism_fundamentalist
+	}
+	localization = {
+		HighGodName = cyber_ow_cult_of_kaine_HighGodName
+		HighGodNamePossessive = cyber_ow_cult_of_kaine_HighGodNamePossessive
+		HighGodNameAlternate = cyber_ow_cult_of_kaine_HighGodNameAlternate
+		HighGodNameAlternatePossessive = cyber_ow_cult_of_kaine_HighGodNameAlternatePossessive
+		CreatorName = cyber_ow_cult_of_kaine_CreatorName
+		CreatorNamePossessive = cyber_ow_cult_of_kaine_CreatorNamePossessive
+		PantheonTerm = cyber_ow_cult_of_kaine_PantheonTerm
+		GoodGodNames = cyber_ow_cult_of_kaine_GoodGodNames
+		DevilName = cyber_ow_cult_of_kaine_DevilName
+		DevilNamePossessive = cyber_ow_cult_of_kaine_DevilNamePossessive
+		EvilGodNames = cyber_ow_cult_of_kaine_EvilGodNames
+		HouseOfWorship = cyber_ow_cult_of_kaine_HouseOfWorship
+		HouseOfWorshipPlural = cyber_ow_cult_of_kaine_HouseOfWorshipPlural
+		ReligiousSymbol = cyber_ow_cult_of_kaine_ReligiousSymbol
+		ReligiousText = cyber_ow_cult_of_kaine_ReligiousText
+		ReligiousHeadName = cyber_ow_cult_of_kaine_ReligiousHeadName
+		ReligiousHeadNameFemale = cyber_ow_cult_of_kaine_ReligiousHeadNameFemale
+		ReligiousHeadTitleName = cyber_ow_cult_of_kaine_ReligiousHeadTitleName
+		DevoteeMale = cyber_ow_cult_of_kaine_DevoteeMale
+		DevoteeMalePlural = cyber_ow_cult_of_kaine_DevoteeMalePlural
+		DevoteeFemale = cyber_ow_cult_of_kaine_DevoteeFemale
+		DevoteeFemalePlural = cyber_ow_cult_of_kaine_DevoteeFemalePlural
+		DevoteeNeuter = cyber_ow_cult_of_kaine_DevoteeNeuter
+		DevoteeNeuterPlural = cyber_ow_cult_of_kaine_DevoteeNeuterPlural
+		PriestMale = cyber_ow_cult_of_kaine_PriestMale
+		PriestMalePlural = cyber_ow_cult_of_kaine_PriestMalePlural
+		PriestFemale = cyber_ow_cult_of_kaine_PriestFemale
+		PriestFemalePlural = cyber_ow_cult_of_kaine_PriestFemalePlural
+		PriestNeuter = cyber_ow_cult_of_kaine_PriestNeuter
+		PriestNeuterPlural = cyber_ow_cult_of_kaine_PriestNeuterPlural
+		AltPriestTermPlural = cyber_ow_cult_of_kaine_AltPriestTermPlural
+		BishopMale = cyber_ow_cult_of_kaine_BishopMale
+		BishopMalePlural = cyber_ow_cult_of_kaine_BishopMalePlural
+		BishopFemale = cyber_ow_cult_of_kaine_BishopFemale
+		BishopFemalePlural = cyber_ow_cult_of_kaine_BishopFemalePlural
+		BishopNeuter = cyber_ow_cult_of_kaine_BishopNeuter
+		BishopNeuterPlural = cyber_ow_cult_of_kaine_BishopNeuterPlural
+		DivineRealm = cyber_ow_cult_of_kaine_DivineRealm
+		PositiveAfterLife = cyber_ow_cult_of_kaine_PositiveAfterLife
+		NegativeAfterLife = cyber_ow_cult_of_kaine_NegativeAfterLife
+		GHWName = cyber_ow_cult_of_kaine_GHWName
+		GHWNamePlural = cyber_ow_cult_of_kaine_GHWNamePlural
+		HighGodNameSheHe = CHARACTER_SHEHE_IT
+		HighGodHerselfHimself = CHARACTER_ITSELF
+		HighGodHerHis = CHARACTER_HERHIS_ITS
+		CreatorSheHe = CHARACTER_SHEHE_IT
+		CreatorHerHis = CHARACTER_HERHIS_ITS
+		CreatorHerHim = CHARACTER_HERHIM_IT
+		DevilSheHe = CHARACTER_SHEHE_IT
+		DevilHerHis = CHARACTER_HERHIS_ITS
+		DevilHerselfHimself = CHARACTER_ITSELF
+		PantheonTermHasHave = pantheon_term_have
+	}
+}
+
+triarchy = {
+	main_rite = triarchy_rite
+	faith_details = {
+		religion = otherworlden_religion
+		color = { 0.2 0.2 0.3 }
+		icon = hellenic
+	}
+	eminent_holy_sites = {
+		ck_rome
+		ck_jerusalem
+	}
+	holy_sites = {
+		ck_alexandria
+		ck_mecca
+		ck_istanbul
+	}
+	doctrines = {
+		doctrine_polytheist
+		doctrine_gender_equal
+	}
+	localization = {
+		HighGodName = cyber_ow_triarchy_HighGodName
+		HighGodNamePossessive = cyber_ow_triarchy_HighGodNamePossessive
+		HighGodNameAlternate = cyber_ow_triarchy_HighGodNameAlternate
+		HighGodNameAlternatePossessive = cyber_ow_triarchy_HighGodNameAlternatePossessive
+		CreatorName = cyber_ow_triarchy_CreatorName
+		CreatorNamePossessive = cyber_ow_triarchy_CreatorNamePossessive
+		PantheonTerm = cyber_ow_triarchy_PantheonTerm
+		GoodGodNames = cyber_ow_triarchy_GoodGodNames
+		DevilName = cyber_ow_triarchy_DevilName
+		DevilNamePossessive = cyber_ow_triarchy_DevilNamePossessive
+		EvilGodNames = cyber_ow_triarchy_EvilGodNames
+		HouseOfWorship = cyber_ow_triarchy_HouseOfWorship
+		HouseOfWorshipPlural = cyber_ow_triarchy_HouseOfWorshipPlural
+		ReligiousSymbol = cyber_ow_triarchy_ReligiousSymbol
+		ReligiousText = cyber_ow_triarchy_ReligiousText
+		ReligiousHeadName = cyber_ow_triarchy_ReligiousHeadName
+		ReligiousHeadNameFemale = cyber_ow_triarchy_ReligiousHeadNameFemale
+		ReligiousHeadTitleName = cyber_ow_triarchy_ReligiousHeadTitleName
+		DevoteeMale = cyber_ow_triarchy_DevoteeMale
+		DevoteeMalePlural = cyber_ow_triarchy_DevoteeMalePlural
+		DevoteeFemale = cyber_ow_triarchy_DevoteeFemale
+		DevoteeFemalePlural = cyber_ow_triarchy_DevoteeFemalePlural
+		DevoteeNeuter = cyber_ow_triarchy_DevoteeNeuter
+		DevoteeNeuterPlural = cyber_ow_triarchy_DevoteeNeuterPlural
+		PriestMale = cyber_ow_triarchy_PriestMale
+		PriestMalePlural = cyber_ow_triarchy_PriestMalePlural
+		PriestFemale = cyber_ow_triarchy_PriestFemale
+		PriestFemalePlural = cyber_ow_triarchy_PriestFemalePlural
+		PriestNeuter = cyber_ow_triarchy_PriestNeuter
+		PriestNeuterPlural = cyber_ow_triarchy_PriestNeuterPlural
+		AltPriestTermPlural = cyber_ow_triarchy_AltPriestTermPlural
+		BishopMale = cyber_ow_triarchy_BishopMale
+		BishopMalePlural = cyber_ow_triarchy_BishopMalePlural
+		BishopFemale = cyber_ow_triarchy_BishopFemale
+		BishopFemalePlural = cyber_ow_triarchy_BishopFemalePlural
+		BishopNeuter = cyber_ow_triarchy_BishopNeuter
+		BishopNeuterPlural = cyber_ow_triarchy_BishopNeuterPlural
+		DivineRealm = cyber_ow_triarchy_DivineRealm
+		PositiveAfterLife = cyber_ow_triarchy_PositiveAfterLife
+		NegativeAfterLife = cyber_ow_triarchy_NegativeAfterLife
+		GHWName = cyber_ow_triarchy_GHWName
+		GHWNamePlural = cyber_ow_triarchy_GHWNamePlural
+		HighGodNameSheHe = CHARACTER_SHEHE_IT
+		HighGodHerselfHimself = CHARACTER_ITSELF
+		HighGodHerHis = CHARACTER_HERHIS_ITS
+		CreatorSheHe = CHARACTER_SHEHE_IT
+		CreatorHerHis = CHARACTER_HERHIS_ITS
+		CreatorHerHim = CHARACTER_HERHIM_IT
+		DevilSheHe = CHARACTER_SHEHE_IT
+		DevilHerHis = CHARACTER_HERHIS_ITS
+		DevilHerselfHimself = CHARACTER_ITSELF
+		PantheonTermHasHave = pantheon_term_have
+	}
+}
+
+eternal_mechanism = {
+	main_rite = eternal_mechanism_rite
+	faith_details = {
+		religion = otherworlden_religion
+		color = { 0.5 0.3 0.0 }
+		icon = zunist
+	}
+	eminent_holy_sites = {
+		ck_province1584
+		ck_province1624
+	}
+	holy_sites = {
+		ck_province1479
+		ck_province1532
+		ck_province1696
+	}
+	doctrines = {
+		doctrine_monotheist
+		doctrine_gender_equal
+		doctrine_funeral_stoic
+	}
+	localization = {
+		HighGodName = cyber_ow_eternal_mechanism_HighGodName
+		HighGodNamePossessive = cyber_ow_eternal_mechanism_HighGodNamePossessive
+		HighGodNameAlternate = cyber_ow_eternal_mechanism_HighGodNameAlternate
+		HighGodNameAlternatePossessive = cyber_ow_eternal_mechanism_HighGodNameAlternatePossessive
+		CreatorName = cyber_ow_eternal_mechanism_CreatorName
+		CreatorNamePossessive = cyber_ow_eternal_mechanism_CreatorNamePossessive
+		PantheonTerm = cyber_ow_eternal_mechanism_PantheonTerm
+		GoodGodNames = cyber_ow_eternal_mechanism_GoodGodNames
+		DevilName = cyber_ow_eternal_mechanism_DevilName
+		DevilNamePossessive = cyber_ow_eternal_mechanism_DevilNamePossessive
+		EvilGodNames = cyber_ow_eternal_mechanism_EvilGodNames
+		HouseOfWorship = cyber_ow_eternal_mechanism_HouseOfWorship
+		HouseOfWorshipPlural = cyber_ow_eternal_mechanism_HouseOfWorshipPlural
+		ReligiousSymbol = cyber_ow_eternal_mechanism_ReligiousSymbol
+		ReligiousText = cyber_ow_eternal_mechanism_ReligiousText
+		ReligiousHeadName = cyber_ow_eternal_mechanism_ReligiousHeadName
+		ReligiousHeadNameFemale = cyber_ow_eternal_mechanism_ReligiousHeadNameFemale
+		ReligiousHeadTitleName = cyber_ow_eternal_mechanism_ReligiousHeadTitleName
+		DevoteeMale = cyber_ow_eternal_mechanism_DevoteeMale
+		DevoteeMalePlural = cyber_ow_eternal_mechanism_DevoteeMalePlural
+		DevoteeFemale = cyber_ow_eternal_mechanism_DevoteeFemale
+		DevoteeFemalePlural = cyber_ow_eternal_mechanism_DevoteeFemalePlural
+		DevoteeNeuter = cyber_ow_eternal_mechanism_DevoteeNeuter
+		DevoteeNeuterPlural = cyber_ow_eternal_mechanism_DevoteeNeuterPlural
+		PriestMale = cyber_ow_eternal_mechanism_PriestMale
+		PriestMalePlural = cyber_ow_eternal_mechanism_PriestMalePlural
+		PriestFemale = cyber_ow_eternal_mechanism_PriestFemale
+		PriestFemalePlural = cyber_ow_eternal_mechanism_PriestFemalePlural
+		PriestNeuter = cyber_ow_eternal_mechanism_PriestNeuter
+		PriestNeuterPlural = cyber_ow_eternal_mechanism_PriestNeuterPlural
+		AltPriestTermPlural = cyber_ow_eternal_mechanism_AltPriestTermPlural
+		BishopMale = cyber_ow_eternal_mechanism_BishopMale
+		BishopMalePlural = cyber_ow_eternal_mechanism_BishopMalePlural
+		BishopFemale = cyber_ow_eternal_mechanism_BishopFemale
+		BishopFemalePlural = cyber_ow_eternal_mechanism_BishopFemalePlural
+		BishopNeuter = cyber_ow_eternal_mechanism_BishopNeuter
+		BishopNeuterPlural = cyber_ow_eternal_mechanism_BishopNeuterPlural
+		DivineRealm = cyber_ow_eternal_mechanism_DivineRealm
+		PositiveAfterLife = cyber_ow_eternal_mechanism_PositiveAfterLife
+		NegativeAfterLife = cyber_ow_eternal_mechanism_NegativeAfterLife
+		GHWName = cyber_ow_eternal_mechanism_GHWName
+		GHWNamePlural = cyber_ow_eternal_mechanism_GHWNamePlural
+		HighGodNameSheHe = CHARACTER_SHEHE_IT
+		HighGodHerselfHimself = CHARACTER_ITSELF
+		HighGodHerHis = CHARACTER_HERHIS_ITS
+		CreatorSheHe = CHARACTER_SHEHE_IT
+		CreatorHerHis = CHARACTER_HERHIS_ITS
+		CreatorHerHim = CHARACTER_HERHIM_IT
+		DevilSheHe = CHARACTER_SHEHE_IT
+		DevilHerHis = CHARACTER_HERHIS_ITS
+		DevilHerselfHimself = CHARACTER_ITSELF
+		PantheonTermHasHave = pantheon_term_have
+	}
+}
+
+paleolithic = {
+	main_rite = paleolithic_rite
+	faith_details = {
+		religion = otherworlden_religion
+		color = { 0.6 0.2 0.2 }
+		icon = baltic
+	}
+	eminent_holy_sites = {
+		ck_tenochtitlan
+		ck_rio
+	}
+	holy_sites = {
+		ck_rome
+		ck_netherlands
+		ck_istanbul
+	}
+	doctrines = {
+		doctrine_polytheist
+		doctrine_gender_male_dominated
+	}
+	localization = {
+		HighGodName = cyber_ow_paleolithic_HighGodName
+		HighGodNamePossessive = cyber_ow_paleolithic_HighGodNamePossessive
+		HighGodNameAlternate = cyber_ow_paleolithic_HighGodNameAlternate
+		HighGodNameAlternatePossessive = cyber_ow_paleolithic_HighGodNameAlternatePossessive
+		CreatorName = cyber_ow_paleolithic_CreatorName
+		CreatorNamePossessive = cyber_ow_paleolithic_CreatorNamePossessive
+		PantheonTerm = cyber_ow_paleolithic_PantheonTerm
+		GoodGodNames = cyber_ow_paleolithic_GoodGodNames
+		DevilName = cyber_ow_paleolithic_DevilName
+		DevilNamePossessive = cyber_ow_paleolithic_DevilNamePossessive
+		EvilGodNames = cyber_ow_paleolithic_EvilGodNames
+		HouseOfWorship = cyber_ow_paleolithic_HouseOfWorship
+		HouseOfWorshipPlural = cyber_ow_paleolithic_HouseOfWorshipPlural
+		ReligiousSymbol = cyber_ow_paleolithic_ReligiousSymbol
+		ReligiousText = cyber_ow_paleolithic_ReligiousText
+		ReligiousHeadName = cyber_ow_paleolithic_ReligiousHeadName
+		ReligiousHeadNameFemale = cyber_ow_paleolithic_ReligiousHeadNameFemale
+		ReligiousHeadTitleName = cyber_ow_paleolithic_ReligiousHeadTitleName
+		DevoteeMale = cyber_ow_paleolithic_DevoteeMale
+		DevoteeMalePlural = cyber_ow_paleolithic_DevoteeMalePlural
+		DevoteeFemale = cyber_ow_paleolithic_DevoteeFemale
+		DevoteeFemalePlural = cyber_ow_paleolithic_DevoteeFemalePlural
+		DevoteeNeuter = cyber_ow_paleolithic_DevoteeNeuter
+		DevoteeNeuterPlural = cyber_ow_paleolithic_DevoteeNeuterPlural
+		PriestMale = cyber_ow_paleolithic_PriestMale
+		PriestMalePlural = cyber_ow_paleolithic_PriestMalePlural
+		PriestFemale = cyber_ow_paleolithic_PriestFemale
+		PriestFemalePlural = cyber_ow_paleolithic_PriestFemalePlural
+		PriestNeuter = cyber_ow_paleolithic_PriestNeuter
+		PriestNeuterPlural = cyber_ow_paleolithic_PriestNeuterPlural
+		AltPriestTermPlural = cyber_ow_paleolithic_AltPriestTermPlural
+		BishopMale = cyber_ow_paleolithic_BishopMale
+		BishopMalePlural = cyber_ow_paleolithic_BishopMalePlural
+		BishopFemale = cyber_ow_paleolithic_BishopFemale
+		BishopFemalePlural = cyber_ow_paleolithic_BishopFemalePlural
+		BishopNeuter = cyber_ow_paleolithic_BishopNeuter
+		BishopNeuterPlural = cyber_ow_paleolithic_BishopNeuterPlural
+		DivineRealm = cyber_ow_paleolithic_DivineRealm
+		PositiveAfterLife = cyber_ow_paleolithic_PositiveAfterLife
+		NegativeAfterLife = cyber_ow_paleolithic_NegativeAfterLife
+		GHWName = cyber_ow_paleolithic_GHWName
+		GHWNamePlural = cyber_ow_paleolithic_GHWNamePlural
+		HighGodNameSheHe = CHARACTER_SHEHE_IT
+		HighGodHerselfHimself = CHARACTER_ITSELF
+		HighGodHerHis = CHARACTER_HERHIS_ITS
+		CreatorSheHe = CHARACTER_SHEHE_IT
+		CreatorHerHis = CHARACTER_HERHIS_ITS
+		CreatorHerHim = CHARACTER_HERHIM_IT
+		DevilSheHe = CHARACTER_SHEHE_IT
+		DevilHerHis = CHARACTER_HERHIS_ITS
+		DevilHerselfHimself = CHARACTER_ITSELF
+		PantheonTermHasHave = pantheon_term_have
+	}
+}
+
+cult_of_knowledge = {
+	main_rite = cult_of_knowledge_rite
+	faith_details = {
+		religion = otherworlden_religion
+		color = { 0.3 0.4 0.5 }
+		icon = zunist
+	}
+	eminent_holy_sites = {
+		ck_rome
+		ck_jerusalem
+	}
+	holy_sites = {
+		ck_alexandria
+		ck_istanbul
+		ck_moscow
+	}
+	doctrines = {
+		doctrine_monotheist
+		doctrine_gender_equal
+		doctrine_funeral_stoic
+	}
+	localization = {
+		HighGodName = cyber_ow_cult_of_knowledge_HighGodName
+		HighGodNamePossessive = cyber_ow_cult_of_knowledge_HighGodNamePossessive
+		HighGodNameAlternate = cyber_ow_cult_of_knowledge_HighGodNameAlternate
+		HighGodNameAlternatePossessive = cyber_ow_cult_of_knowledge_HighGodNameAlternatePossessive
+		CreatorName = cyber_ow_cult_of_knowledge_CreatorName
+		CreatorNamePossessive = cyber_ow_cult_of_knowledge_CreatorNamePossessive
+		PantheonTerm = cyber_ow_cult_of_knowledge_PantheonTerm
+		GoodGodNames = cyber_ow_cult_of_knowledge_GoodGodNames
+		DevilName = cyber_ow_cult_of_knowledge_DevilName
+		DevilNamePossessive = cyber_ow_cult_of_knowledge_DevilNamePossessive
+		EvilGodNames = cyber_ow_cult_of_knowledge_EvilGodNames
+		HouseOfWorship = cyber_ow_cult_of_knowledge_HouseOfWorship
+		HouseOfWorshipPlural = cyber_ow_cult_of_knowledge_HouseOfWorshipPlural
+		ReligiousSymbol = cyber_ow_cult_of_knowledge_ReligiousSymbol
+		ReligiousText = cyber_ow_cult_of_knowledge_ReligiousText
+		ReligiousHeadName = cyber_ow_cult_of_knowledge_ReligiousHeadName
+		ReligiousHeadNameFemale = cyber_ow_cult_of_knowledge_ReligiousHeadNameFemale
+		ReligiousHeadTitleName = cyber_ow_cult_of_knowledge_ReligiousHeadTitleName
+		DevoteeMale = cyber_ow_cult_of_knowledge_DevoteeMale
+		DevoteeMalePlural = cyber_ow_cult_of_knowledge_DevoteeMalePlural
+		DevoteeFemale = cyber_ow_cult_of_knowledge_DevoteeFemale
+		DevoteeFemalePlural = cyber_ow_cult_of_knowledge_DevoteeFemalePlural
+		DevoteeNeuter = cyber_ow_cult_of_knowledge_DevoteeNeuter
+		DevoteeNeuterPlural = cyber_ow_cult_of_knowledge_DevoteeNeuterPlural
+		PriestMale = cyber_ow_cult_of_knowledge_PriestMale
+		PriestMalePlural = cyber_ow_cult_of_knowledge_PriestMalePlural
+		PriestFemale = cyber_ow_cult_of_knowledge_PriestFemale
+		PriestFemalePlural = cyber_ow_cult_of_knowledge_PriestFemalePlural
+		PriestNeuter = cyber_ow_cult_of_knowledge_PriestNeuter
+		PriestNeuterPlural = cyber_ow_cult_of_knowledge_PriestNeuterPlural
+		AltPriestTermPlural = cyber_ow_cult_of_knowledge_AltPriestTermPlural
+		BishopMale = cyber_ow_cult_of_knowledge_BishopMale
+		BishopMalePlural = cyber_ow_cult_of_knowledge_BishopMalePlural
+		BishopFemale = cyber_ow_cult_of_knowledge_BishopFemale
+		BishopFemalePlural = cyber_ow_cult_of_knowledge_BishopFemalePlural
+		BishopNeuter = cyber_ow_cult_of_knowledge_BishopNeuter
+		BishopNeuterPlural = cyber_ow_cult_of_knowledge_BishopNeuterPlural
+		DivineRealm = cyber_ow_cult_of_knowledge_DivineRealm
+		PositiveAfterLife = cyber_ow_cult_of_knowledge_PositiveAfterLife
+		NegativeAfterLife = cyber_ow_cult_of_knowledge_NegativeAfterLife
+		GHWName = cyber_ow_cult_of_knowledge_GHWName
+		GHWNamePlural = cyber_ow_cult_of_knowledge_GHWNamePlural
+		HighGodNameSheHe = CHARACTER_SHEHE_IT
+		HighGodHerselfHimself = CHARACTER_ITSELF
+		HighGodHerHis = CHARACTER_HERHIS_ITS
+		CreatorSheHe = CHARACTER_SHEHE_IT
+		CreatorHerHis = CHARACTER_HERHIS_ITS
+		CreatorHerHim = CHARACTER_HERHIM_IT
+		DevilSheHe = CHARACTER_SHEHE_IT
+		DevilHerHis = CHARACTER_HERHIS_ITS
+		DevilHerselfHimself = CHARACTER_ITSELF
+		PantheonTermHasHave = pantheon_term_have
+	}
+}
+
+nurutushian = {
+	main_rite = nurutushian_rite
+	faith_details = {
+		religion = otherworlden_religion
+		color = { 0.6 0.6 0.7 }
+		icon = zunist
+	}
+	eminent_holy_sites = {
+		ck_rome
+		ck_jerusalem
+	}
+	holy_sites = {
+		ck_alexandria
+		ck_istanbul
+		ck_moscow
+	}
+	doctrines = {
+		doctrine_monotheist
+		doctrine_gender_equal
+	}
+	localization = {
+		HighGodName = cyber_ow_nurutushian_HighGodName
+		HighGodNamePossessive = cyber_ow_nurutushian_HighGodNamePossessive
+		HighGodNameAlternate = cyber_ow_nurutushian_HighGodNameAlternate
+		HighGodNameAlternatePossessive = cyber_ow_nurutushian_HighGodNameAlternatePossessive
+		CreatorName = cyber_ow_nurutushian_CreatorName
+		CreatorNamePossessive = cyber_ow_nurutushian_CreatorNamePossessive
+		PantheonTerm = cyber_ow_nurutushian_PantheonTerm
+		GoodGodNames = cyber_ow_nurutushian_GoodGodNames
+		DevilName = cyber_ow_nurutushian_DevilName
+		DevilNamePossessive = cyber_ow_nurutushian_DevilNamePossessive
+		EvilGodNames = cyber_ow_nurutushian_EvilGodNames
+		HouseOfWorship = cyber_ow_nurutushian_HouseOfWorship
+		HouseOfWorshipPlural = cyber_ow_nurutushian_HouseOfWorshipPlural
+		ReligiousSymbol = cyber_ow_nurutushian_ReligiousSymbol
+		ReligiousText = cyber_ow_nurutushian_ReligiousText
+		ReligiousHeadName = cyber_ow_nurutushian_ReligiousHeadName
+		ReligiousHeadNameFemale = cyber_ow_nurutushian_ReligiousHeadNameFemale
+		ReligiousHeadTitleName = cyber_ow_nurutushian_ReligiousHeadTitleName
+		DevoteeMale = cyber_ow_nurutushian_DevoteeMale
+		DevoteeMalePlural = cyber_ow_nurutushian_DevoteeMalePlural
+		DevoteeFemale = cyber_ow_nurutushian_DevoteeFemale
+		DevoteeFemalePlural = cyber_ow_nurutushian_DevoteeFemalePlural
+		DevoteeNeuter = cyber_ow_nurutushian_DevoteeNeuter
+		DevoteeNeuterPlural = cyber_ow_nurutushian_DevoteeNeuterPlural
+		PriestMale = cyber_ow_nurutushian_PriestMale
+		PriestMalePlural = cyber_ow_nurutushian_PriestMalePlural
+		PriestFemale = cyber_ow_nurutushian_PriestFemale
+		PriestFemalePlural = cyber_ow_nurutushian_PriestFemalePlural
+		PriestNeuter = cyber_ow_nurutushian_PriestNeuter
+		PriestNeuterPlural = cyber_ow_nurutushian_PriestNeuterPlural
+		AltPriestTermPlural = cyber_ow_nurutushian_AltPriestTermPlural
+		BishopMale = cyber_ow_nurutushian_BishopMale
+		BishopMalePlural = cyber_ow_nurutushian_BishopMalePlural
+		BishopFemale = cyber_ow_nurutushian_BishopFemale
+		BishopFemalePlural = cyber_ow_nurutushian_BishopFemalePlural
+		BishopNeuter = cyber_ow_nurutushian_BishopNeuter
+		BishopNeuterPlural = cyber_ow_nurutushian_BishopNeuterPlural
+		DivineRealm = cyber_ow_nurutushian_DivineRealm
+		PositiveAfterLife = cyber_ow_nurutushian_PositiveAfterLife
+		NegativeAfterLife = cyber_ow_nurutushian_NegativeAfterLife
+		GHWName = cyber_ow_nurutushian_GHWName
+		GHWNamePlural = cyber_ow_nurutushian_GHWNamePlural
+		HighGodNameSheHe = CHARACTER_SHEHE_IT
+		HighGodHerselfHimself = CHARACTER_ITSELF
+		HighGodHerHis = CHARACTER_HERHIS_ITS
+		CreatorSheHe = CHARACTER_SHEHE_IT
+		CreatorHerHis = CHARACTER_HERHIS_ITS
+		CreatorHerHim = CHARACTER_HERHIM_IT
+		DevilSheHe = CHARACTER_SHEHE_IT
+		DevilHerHis = CHARACTER_HERHIS_ITS
+		DevilHerselfHimself = CHARACTER_ITSELF
+		PantheonTermHasHave = pantheon_term_have
+	}
+}
+
+cult_of_hazhut = {
+	main_rite = cult_of_hazhut_rite
+	faith_details = {
+		religion = otherworlden_religion
+		color = { 0.3 0.1 0.1 }
+		icon = baltic
+	}
+	eminent_holy_sites = {
+		ck_province1584
+		ck_province1624
+	}
+	holy_sites = {
+		ck_province1479
+		ck_province1532
+		ck_province1696
+	}
+	doctrines = {
+		doctrine_monotheist
+		doctrine_gender_male_dominated
+		doctrine_pluralism_fundamentalist
+	}
+	localization = {
+		HighGodName = cyber_ow_cult_of_hazhut_HighGodName
+		HighGodNamePossessive = cyber_ow_cult_of_hazhut_HighGodNamePossessive
+		HighGodNameAlternate = cyber_ow_cult_of_hazhut_HighGodNameAlternate
+		HighGodNameAlternatePossessive = cyber_ow_cult_of_hazhut_HighGodNameAlternatePossessive
+		CreatorName = cyber_ow_cult_of_hazhut_CreatorName
+		CreatorNamePossessive = cyber_ow_cult_of_hazhut_CreatorNamePossessive
+		PantheonTerm = cyber_ow_cult_of_hazhut_PantheonTerm
+		GoodGodNames = cyber_ow_cult_of_hazhut_GoodGodNames
+		DevilName = cyber_ow_cult_of_hazhut_DevilName
+		DevilNamePossessive = cyber_ow_cult_of_hazhut_DevilNamePossessive
+		EvilGodNames = cyber_ow_cult_of_hazhut_EvilGodNames
+		HouseOfWorship = cyber_ow_cult_of_hazhut_HouseOfWorship
+		HouseOfWorshipPlural = cyber_ow_cult_of_hazhut_HouseOfWorshipPlural
+		ReligiousSymbol = cyber_ow_cult_of_hazhut_ReligiousSymbol
+		ReligiousText = cyber_ow_cult_of_hazhut_ReligiousText
+		ReligiousHeadName = cyber_ow_cult_of_hazhut_ReligiousHeadName
+		ReligiousHeadNameFemale = cyber_ow_cult_of_hazhut_ReligiousHeadNameFemale
+		ReligiousHeadTitleName = cyber_ow_cult_of_hazhut_ReligiousHeadTitleName
+		DevoteeMale = cyber_ow_cult_of_hazhut_DevoteeMale
+		DevoteeMalePlural = cyber_ow_cult_of_hazhut_DevoteeMalePlural
+		DevoteeFemale = cyber_ow_cult_of_hazhut_DevoteeFemale
+		DevoteeFemalePlural = cyber_ow_cult_of_hazhut_DevoteeFemalePlural
+		DevoteeNeuter = cyber_ow_cult_of_hazhut_DevoteeNeuter
+		DevoteeNeuterPlural = cyber_ow_cult_of_hazhut_DevoteeNeuterPlural
+		PriestMale = cyber_ow_cult_of_hazhut_PriestMale
+		PriestMalePlural = cyber_ow_cult_of_hazhut_PriestMalePlural
+		PriestFemale = cyber_ow_cult_of_hazhut_PriestFemale
+		PriestFemalePlural = cyber_ow_cult_of_hazhut_PriestFemalePlural
+		PriestNeuter = cyber_ow_cult_of_hazhut_PriestNeuter
+		PriestNeuterPlural = cyber_ow_cult_of_hazhut_PriestNeuterPlural
+		AltPriestTermPlural = cyber_ow_cult_of_hazhut_AltPriestTermPlural
+		BishopMale = cyber_ow_cult_of_hazhut_BishopMale
+		BishopMalePlural = cyber_ow_cult_of_hazhut_BishopMalePlural
+		BishopFemale = cyber_ow_cult_of_hazhut_BishopFemale
+		BishopFemalePlural = cyber_ow_cult_of_hazhut_BishopFemalePlural
+		BishopNeuter = cyber_ow_cult_of_hazhut_BishopNeuter
+		BishopNeuterPlural = cyber_ow_cult_of_hazhut_BishopNeuterPlural
+		DivineRealm = cyber_ow_cult_of_hazhut_DivineRealm
+		PositiveAfterLife = cyber_ow_cult_of_hazhut_PositiveAfterLife
+		NegativeAfterLife = cyber_ow_cult_of_hazhut_NegativeAfterLife
+		GHWName = cyber_ow_cult_of_hazhut_GHWName
+		GHWNamePlural = cyber_ow_cult_of_hazhut_GHWNamePlural
+		HighGodNameSheHe = CHARACTER_SHEHE_IT
+		HighGodHerselfHimself = CHARACTER_ITSELF
+		HighGodHerHis = CHARACTER_HERHIS_ITS
+		CreatorSheHe = CHARACTER_SHEHE_IT
+		CreatorHerHis = CHARACTER_HERHIS_ITS
+		CreatorHerHim = CHARACTER_HERHIM_IT
+		DevilSheHe = CHARACTER_SHEHE_IT
+		DevilHerHis = CHARACTER_HERHIS_ITS
+		DevilHerselfHimself = CHARACTER_ITSELF
+		PantheonTermHasHave = pantheon_term_have
+	}
+}
+
+rajatral_tar = {
+	main_rite = rajatral_tar_rite
+	faith_details = {
+		religion = otherworlden_religion
+		color = { 0.9 0.7 0.2 }
+		icon = zunist
+	}
+	eminent_holy_sites = {
+		ck_province0697
+		ck_province0805
+	}
+	holy_sites = {
+		ck_province0986
+		ck_dioxide
+		ck_province0952
+	}
+	doctrines = {
+		doctrine_polytheist
+		doctrine_gender_equal
+	}
+	localization = {
+		HighGodName = cyber_ow_rajatral_tar_HighGodName
+		HighGodNamePossessive = cyber_ow_rajatral_tar_HighGodNamePossessive
+		HighGodNameAlternate = cyber_ow_rajatral_tar_HighGodNameAlternate
+		HighGodNameAlternatePossessive = cyber_ow_rajatral_tar_HighGodNameAlternatePossessive
+		CreatorName = cyber_ow_rajatral_tar_CreatorName
+		CreatorNamePossessive = cyber_ow_rajatral_tar_CreatorNamePossessive
+		PantheonTerm = cyber_ow_rajatral_tar_PantheonTerm
+		GoodGodNames = cyber_ow_rajatral_tar_GoodGodNames
+		DevilName = cyber_ow_rajatral_tar_DevilName
+		DevilNamePossessive = cyber_ow_rajatral_tar_DevilNamePossessive
+		EvilGodNames = cyber_ow_rajatral_tar_EvilGodNames
+		HouseOfWorship = cyber_ow_rajatral_tar_HouseOfWorship
+		HouseOfWorshipPlural = cyber_ow_rajatral_tar_HouseOfWorshipPlural
+		ReligiousSymbol = cyber_ow_rajatral_tar_ReligiousSymbol
+		ReligiousText = cyber_ow_rajatral_tar_ReligiousText
+		ReligiousHeadName = cyber_ow_rajatral_tar_ReligiousHeadName
+		ReligiousHeadNameFemale = cyber_ow_rajatral_tar_ReligiousHeadNameFemale
+		ReligiousHeadTitleName = cyber_ow_rajatral_tar_ReligiousHeadTitleName
+		DevoteeMale = cyber_ow_rajatral_tar_DevoteeMale
+		DevoteeMalePlural = cyber_ow_rajatral_tar_DevoteeMalePlural
+		DevoteeFemale = cyber_ow_rajatral_tar_DevoteeFemale
+		DevoteeFemalePlural = cyber_ow_rajatral_tar_DevoteeFemalePlural
+		DevoteeNeuter = cyber_ow_rajatral_tar_DevoteeNeuter
+		DevoteeNeuterPlural = cyber_ow_rajatral_tar_DevoteeNeuterPlural
+		PriestMale = cyber_ow_rajatral_tar_PriestMale
+		PriestMalePlural = cyber_ow_rajatral_tar_PriestMalePlural
+		PriestFemale = cyber_ow_rajatral_tar_PriestFemale
+		PriestFemalePlural = cyber_ow_rajatral_tar_PriestFemalePlural
+		PriestNeuter = cyber_ow_rajatral_tar_PriestNeuter
+		PriestNeuterPlural = cyber_ow_rajatral_tar_PriestNeuterPlural
+		AltPriestTermPlural = cyber_ow_rajatral_tar_AltPriestTermPlural
+		BishopMale = cyber_ow_rajatral_tar_BishopMale
+		BishopMalePlural = cyber_ow_rajatral_tar_BishopMalePlural
+		BishopFemale = cyber_ow_rajatral_tar_BishopFemale
+		BishopFemalePlural = cyber_ow_rajatral_tar_BishopFemalePlural
+		BishopNeuter = cyber_ow_rajatral_tar_BishopNeuter
+		BishopNeuterPlural = cyber_ow_rajatral_tar_BishopNeuterPlural
+		DivineRealm = cyber_ow_rajatral_tar_DivineRealm
+		PositiveAfterLife = cyber_ow_rajatral_tar_PositiveAfterLife
+		NegativeAfterLife = cyber_ow_rajatral_tar_NegativeAfterLife
+		GHWName = cyber_ow_rajatral_tar_GHWName
+		GHWNamePlural = cyber_ow_rajatral_tar_GHWNamePlural
+		HighGodNameSheHe = CHARACTER_SHEHE_IT
+		HighGodHerselfHimself = CHARACTER_ITSELF
+		HighGodHerHis = CHARACTER_HERHIS_ITS
+		CreatorSheHe = CHARACTER_SHEHE_IT
+		CreatorHerHis = CHARACTER_HERHIS_ITS
+		CreatorHerHim = CHARACTER_HERHIM_IT
+		DevilSheHe = CHARACTER_SHEHE_IT
+		DevilHerHis = CHARACTER_HERHIS_ITS
+		DevilHerselfHimself = CHARACTER_ITSELF
+		PantheonTermHasHave = pantheon_term_have
+	}
+}
+
+wargadanism = {
+	main_rite = wargadanism_rite
+	faith_details = {
+		religion = otherworlden_religion
+		color = { 0.2 0.45 0.15 }
+		icon = germanic
+	}
+	eminent_holy_sites = {
+		ck_pavonis_mons
+		ck_valles
+	}
+	holy_sites = {
+		ck_argyre
+		ck_planum_australe
+		ck_hellas_delta
+	}
+	doctrines = {
+		doctrine_monotheist
+		doctrine_gender_male_dominated
+	}
+	localization = {
+		HighGodName = cyber_ow_wargadanism_HighGodName
+		HighGodNamePossessive = cyber_ow_wargadanism_HighGodNamePossessive
+		HighGodNameAlternate = cyber_ow_wargadanism_HighGodNameAlternate
+		HighGodNameAlternatePossessive = cyber_ow_wargadanism_HighGodNameAlternatePossessive
+		CreatorName = cyber_ow_wargadanism_CreatorName
+		CreatorNamePossessive = cyber_ow_wargadanism_CreatorNamePossessive
+		PantheonTerm = cyber_ow_wargadanism_PantheonTerm
+		GoodGodNames = cyber_ow_wargadanism_GoodGodNames
+		DevilName = cyber_ow_wargadanism_DevilName
+		DevilNamePossessive = cyber_ow_wargadanism_DevilNamePossessive
+		EvilGodNames = cyber_ow_wargadanism_EvilGodNames
+		HouseOfWorship = cyber_ow_wargadanism_HouseOfWorship
+		HouseOfWorshipPlural = cyber_ow_wargadanism_HouseOfWorshipPlural
+		ReligiousSymbol = cyber_ow_wargadanism_ReligiousSymbol
+		ReligiousText = cyber_ow_wargadanism_ReligiousText
+		ReligiousHeadName = cyber_ow_wargadanism_ReligiousHeadName
+		ReligiousHeadNameFemale = cyber_ow_wargadanism_ReligiousHeadNameFemale
+		ReligiousHeadTitleName = cyber_ow_wargadanism_ReligiousHeadTitleName
+		DevoteeMale = cyber_ow_wargadanism_DevoteeMale
+		DevoteeMalePlural = cyber_ow_wargadanism_DevoteeMalePlural
+		DevoteeFemale = cyber_ow_wargadanism_DevoteeFemale
+		DevoteeFemalePlural = cyber_ow_wargadanism_DevoteeFemalePlural
+		DevoteeNeuter = cyber_ow_wargadanism_DevoteeNeuter
+		DevoteeNeuterPlural = cyber_ow_wargadanism_DevoteeNeuterPlural
+		PriestMale = cyber_ow_wargadanism_PriestMale
+		PriestMalePlural = cyber_ow_wargadanism_PriestMalePlural
+		PriestFemale = cyber_ow_wargadanism_PriestFemale
+		PriestFemalePlural = cyber_ow_wargadanism_PriestFemalePlural
+		PriestNeuter = cyber_ow_wargadanism_PriestNeuter
+		PriestNeuterPlural = cyber_ow_wargadanism_PriestNeuterPlural
+		AltPriestTermPlural = cyber_ow_wargadanism_AltPriestTermPlural
+		BishopMale = cyber_ow_wargadanism_BishopMale
+		BishopMalePlural = cyber_ow_wargadanism_BishopMalePlural
+		BishopFemale = cyber_ow_wargadanism_BishopFemale
+		BishopFemalePlural = cyber_ow_wargadanism_BishopFemalePlural
+		BishopNeuter = cyber_ow_wargadanism_BishopNeuter
+		BishopNeuterPlural = cyber_ow_wargadanism_BishopNeuterPlural
+		DivineRealm = cyber_ow_wargadanism_DivineRealm
+		PositiveAfterLife = cyber_ow_wargadanism_PositiveAfterLife
+		NegativeAfterLife = cyber_ow_wargadanism_NegativeAfterLife
+		GHWName = cyber_ow_wargadanism_GHWName
+		GHWNamePlural = cyber_ow_wargadanism_GHWNamePlural
+		HighGodNameSheHe = CHARACTER_SHEHE_IT
+		HighGodHerselfHimself = CHARACTER_ITSELF
+		HighGodHerHis = CHARACTER_HERHIS_ITS
+		CreatorSheHe = CHARACTER_SHEHE_IT
+		CreatorHerHis = CHARACTER_HERHIS_ITS
+		CreatorHerHim = CHARACTER_HERHIM_IT
+		DevilSheHe = CHARACTER_SHEHE_IT
+		DevilHerHis = CHARACTER_HERHIS_ITS
+		DevilHerselfHimself = CHARACTER_ITSELF
+		PantheonTermHasHave = pantheon_term_have
+	}
+}
+
+old_ways = {
+	main_rite = old_ways_rite
+	faith_details = {
+		religion = otherworlden_religion
+		color = { 0.4 0.5 0.3 }
+		icon = germanic
+	}
+	eminent_holy_sites = {
+		ck_pavonis_mons
+		ck_valles
+	}
+	holy_sites = {
+		ck_argyre
+		ck_planum_australe
+		ck_hellas_delta
+	}
+	doctrines = {
+		doctrine_polytheist
+		doctrine_gender_equal
+	}
+	localization = {
+		HighGodName = cyber_ow_old_ways_HighGodName
+		HighGodNamePossessive = cyber_ow_old_ways_HighGodNamePossessive
+		HighGodNameAlternate = cyber_ow_old_ways_HighGodNameAlternate
+		HighGodNameAlternatePossessive = cyber_ow_old_ways_HighGodNameAlternatePossessive
+		CreatorName = cyber_ow_old_ways_CreatorName
+		CreatorNamePossessive = cyber_ow_old_ways_CreatorNamePossessive
+		PantheonTerm = cyber_ow_old_ways_PantheonTerm
+		GoodGodNames = cyber_ow_old_ways_GoodGodNames
+		DevilName = cyber_ow_old_ways_DevilName
+		DevilNamePossessive = cyber_ow_old_ways_DevilNamePossessive
+		EvilGodNames = cyber_ow_old_ways_EvilGodNames
+		HouseOfWorship = cyber_ow_old_ways_HouseOfWorship
+		HouseOfWorshipPlural = cyber_ow_old_ways_HouseOfWorshipPlural
+		ReligiousSymbol = cyber_ow_old_ways_ReligiousSymbol
+		ReligiousText = cyber_ow_old_ways_ReligiousText
+		ReligiousHeadName = cyber_ow_old_ways_ReligiousHeadName
+		ReligiousHeadNameFemale = cyber_ow_old_ways_ReligiousHeadNameFemale
+		ReligiousHeadTitleName = cyber_ow_old_ways_ReligiousHeadTitleName
+		DevoteeMale = cyber_ow_old_ways_DevoteeMale
+		DevoteeMalePlural = cyber_ow_old_ways_DevoteeMalePlural
+		DevoteeFemale = cyber_ow_old_ways_DevoteeFemale
+		DevoteeFemalePlural = cyber_ow_old_ways_DevoteeFemalePlural
+		DevoteeNeuter = cyber_ow_old_ways_DevoteeNeuter
+		DevoteeNeuterPlural = cyber_ow_old_ways_DevoteeNeuterPlural
+		PriestMale = cyber_ow_old_ways_PriestMale
+		PriestMalePlural = cyber_ow_old_ways_PriestMalePlural
+		PriestFemale = cyber_ow_old_ways_PriestFemale
+		PriestFemalePlural = cyber_ow_old_ways_PriestFemalePlural
+		PriestNeuter = cyber_ow_old_ways_PriestNeuter
+		PriestNeuterPlural = cyber_ow_old_ways_PriestNeuterPlural
+		AltPriestTermPlural = cyber_ow_old_ways_AltPriestTermPlural
+		BishopMale = cyber_ow_old_ways_BishopMale
+		BishopMalePlural = cyber_ow_old_ways_BishopMalePlural
+		BishopFemale = cyber_ow_old_ways_BishopFemale
+		BishopFemalePlural = cyber_ow_old_ways_BishopFemalePlural
+		BishopNeuter = cyber_ow_old_ways_BishopNeuter
+		BishopNeuterPlural = cyber_ow_old_ways_BishopNeuterPlural
+		DivineRealm = cyber_ow_old_ways_DivineRealm
+		PositiveAfterLife = cyber_ow_old_ways_PositiveAfterLife
+		NegativeAfterLife = cyber_ow_old_ways_NegativeAfterLife
+		GHWName = cyber_ow_old_ways_GHWName
+		GHWNamePlural = cyber_ow_old_ways_GHWNamePlural
+		HighGodNameSheHe = CHARACTER_SHEHE_IT
+		HighGodHerselfHimself = CHARACTER_ITSELF
+		HighGodHerHis = CHARACTER_HERHIS_ITS
+		CreatorSheHe = CHARACTER_SHEHE_IT
+		CreatorHerHis = CHARACTER_HERHIS_ITS
+		CreatorHerHim = CHARACTER_HERHIM_IT
+		DevilSheHe = CHARACTER_SHEHE_IT
+		DevilHerHis = CHARACTER_HERHIS_ITS
+		DevilHerselfHimself = CHARACTER_ITSELF
+		PantheonTermHasHave = pantheon_term_have
+	}
+}
+
+bright_lord_cult = {
+	main_rite = bright_lord_cult_rite
+	faith_details = {
+		religion = otherworlden_religion
+		color = { 0.9 0.9 0.6 }
+		icon = germanic
+	}
+	eminent_holy_sites = {
+		ck_pavonis_mons
+		ck_valles
+	}
+	holy_sites = {
+		ck_argyre
+		ck_planum_australe
+		ck_hellas_delta
+	}
+	doctrines = {
+		doctrine_monotheist
+		doctrine_gender_male_dominated
+	}
+	localization = {
+		HighGodName = cyber_ow_bright_lord_cult_HighGodName
+		HighGodNamePossessive = cyber_ow_bright_lord_cult_HighGodNamePossessive
+		HighGodNameAlternate = cyber_ow_bright_lord_cult_HighGodNameAlternate
+		HighGodNameAlternatePossessive = cyber_ow_bright_lord_cult_HighGodNameAlternatePossessive
+		CreatorName = cyber_ow_bright_lord_cult_CreatorName
+		CreatorNamePossessive = cyber_ow_bright_lord_cult_CreatorNamePossessive
+		PantheonTerm = cyber_ow_bright_lord_cult_PantheonTerm
+		GoodGodNames = cyber_ow_bright_lord_cult_GoodGodNames
+		DevilName = cyber_ow_bright_lord_cult_DevilName
+		DevilNamePossessive = cyber_ow_bright_lord_cult_DevilNamePossessive
+		EvilGodNames = cyber_ow_bright_lord_cult_EvilGodNames
+		HouseOfWorship = cyber_ow_bright_lord_cult_HouseOfWorship
+		HouseOfWorshipPlural = cyber_ow_bright_lord_cult_HouseOfWorshipPlural
+		ReligiousSymbol = cyber_ow_bright_lord_cult_ReligiousSymbol
+		ReligiousText = cyber_ow_bright_lord_cult_ReligiousText
+		ReligiousHeadName = cyber_ow_bright_lord_cult_ReligiousHeadName
+		ReligiousHeadNameFemale = cyber_ow_bright_lord_cult_ReligiousHeadNameFemale
+		ReligiousHeadTitleName = cyber_ow_bright_lord_cult_ReligiousHeadTitleName
+		DevoteeMale = cyber_ow_bright_lord_cult_DevoteeMale
+		DevoteeMalePlural = cyber_ow_bright_lord_cult_DevoteeMalePlural
+		DevoteeFemale = cyber_ow_bright_lord_cult_DevoteeFemale
+		DevoteeFemalePlural = cyber_ow_bright_lord_cult_DevoteeFemalePlural
+		DevoteeNeuter = cyber_ow_bright_lord_cult_DevoteeNeuter
+		DevoteeNeuterPlural = cyber_ow_bright_lord_cult_DevoteeNeuterPlural
+		PriestMale = cyber_ow_bright_lord_cult_PriestMale
+		PriestMalePlural = cyber_ow_bright_lord_cult_PriestMalePlural
+		PriestFemale = cyber_ow_bright_lord_cult_PriestFemale
+		PriestFemalePlural = cyber_ow_bright_lord_cult_PriestFemalePlural
+		PriestNeuter = cyber_ow_bright_lord_cult_PriestNeuter
+		PriestNeuterPlural = cyber_ow_bright_lord_cult_PriestNeuterPlural
+		AltPriestTermPlural = cyber_ow_bright_lord_cult_AltPriestTermPlural
+		BishopMale = cyber_ow_bright_lord_cult_BishopMale
+		BishopMalePlural = cyber_ow_bright_lord_cult_BishopMalePlural
+		BishopFemale = cyber_ow_bright_lord_cult_BishopFemale
+		BishopFemalePlural = cyber_ow_bright_lord_cult_BishopFemalePlural
+		BishopNeuter = cyber_ow_bright_lord_cult_BishopNeuter
+		BishopNeuterPlural = cyber_ow_bright_lord_cult_BishopNeuterPlural
+		DivineRealm = cyber_ow_bright_lord_cult_DivineRealm
+		PositiveAfterLife = cyber_ow_bright_lord_cult_PositiveAfterLife
+		NegativeAfterLife = cyber_ow_bright_lord_cult_NegativeAfterLife
+		GHWName = cyber_ow_bright_lord_cult_GHWName
+		GHWNamePlural = cyber_ow_bright_lord_cult_GHWNamePlural
+		HighGodNameSheHe = CHARACTER_SHEHE_IT
+		HighGodHerselfHimself = CHARACTER_ITSELF
+		HighGodHerHis = CHARACTER_HERHIS_ITS
+		CreatorSheHe = CHARACTER_SHEHE_IT
+		CreatorHerHis = CHARACTER_HERHIS_ITS
+		CreatorHerHim = CHARACTER_HERHIM_IT
+		DevilSheHe = CHARACTER_SHEHE_IT
+		DevilHerHis = CHARACTER_HERHIS_ITS
+		DevilHerselfHimself = CHARACTER_ITSELF
+		PantheonTermHasHave = pantheon_term_have
+	}
+}
+
+dark_lord_cult = {
+	main_rite = dark_lord_cult_rite
+	faith_details = {
+		religion = otherworlden_religion
+		color = { 0.15 0.1 0.2 }
+		icon = germanic
+	}
+	eminent_holy_sites = {
+		ck_pavonis_mons
+		ck_valles
+	}
+	holy_sites = {
+		ck_argyre
+		ck_planum_australe
+		ck_hellas_delta
+	}
+	doctrines = {
+		doctrine_monotheist
+		doctrine_gender_male_dominated
+		doctrine_pluralism_fundamentalist
+	}
+	localization = {
+		HighGodName = cyber_ow_dark_lord_cult_HighGodName
+		HighGodNamePossessive = cyber_ow_dark_lord_cult_HighGodNamePossessive
+		HighGodNameAlternate = cyber_ow_dark_lord_cult_HighGodNameAlternate
+		HighGodNameAlternatePossessive = cyber_ow_dark_lord_cult_HighGodNameAlternatePossessive
+		CreatorName = cyber_ow_dark_lord_cult_CreatorName
+		CreatorNamePossessive = cyber_ow_dark_lord_cult_CreatorNamePossessive
+		PantheonTerm = cyber_ow_dark_lord_cult_PantheonTerm
+		GoodGodNames = cyber_ow_dark_lord_cult_GoodGodNames
+		DevilName = cyber_ow_dark_lord_cult_DevilName
+		DevilNamePossessive = cyber_ow_dark_lord_cult_DevilNamePossessive
+		EvilGodNames = cyber_ow_dark_lord_cult_EvilGodNames
+		HouseOfWorship = cyber_ow_dark_lord_cult_HouseOfWorship
+		HouseOfWorshipPlural = cyber_ow_dark_lord_cult_HouseOfWorshipPlural
+		ReligiousSymbol = cyber_ow_dark_lord_cult_ReligiousSymbol
+		ReligiousText = cyber_ow_dark_lord_cult_ReligiousText
+		ReligiousHeadName = cyber_ow_dark_lord_cult_ReligiousHeadName
+		ReligiousHeadNameFemale = cyber_ow_dark_lord_cult_ReligiousHeadNameFemale
+		ReligiousHeadTitleName = cyber_ow_dark_lord_cult_ReligiousHeadTitleName
+		DevoteeMale = cyber_ow_dark_lord_cult_DevoteeMale
+		DevoteeMalePlural = cyber_ow_dark_lord_cult_DevoteeMalePlural
+		DevoteeFemale = cyber_ow_dark_lord_cult_DevoteeFemale
+		DevoteeFemalePlural = cyber_ow_dark_lord_cult_DevoteeFemalePlural
+		DevoteeNeuter = cyber_ow_dark_lord_cult_DevoteeNeuter
+		DevoteeNeuterPlural = cyber_ow_dark_lord_cult_DevoteeNeuterPlural
+		PriestMale = cyber_ow_dark_lord_cult_PriestMale
+		PriestMalePlural = cyber_ow_dark_lord_cult_PriestMalePlural
+		PriestFemale = cyber_ow_dark_lord_cult_PriestFemale
+		PriestFemalePlural = cyber_ow_dark_lord_cult_PriestFemalePlural
+		PriestNeuter = cyber_ow_dark_lord_cult_PriestNeuter
+		PriestNeuterPlural = cyber_ow_dark_lord_cult_PriestNeuterPlural
+		AltPriestTermPlural = cyber_ow_dark_lord_cult_AltPriestTermPlural
+		BishopMale = cyber_ow_dark_lord_cult_BishopMale
+		BishopMalePlural = cyber_ow_dark_lord_cult_BishopMalePlural
+		BishopFemale = cyber_ow_dark_lord_cult_BishopFemale
+		BishopFemalePlural = cyber_ow_dark_lord_cult_BishopFemalePlural
+		BishopNeuter = cyber_ow_dark_lord_cult_BishopNeuter
+		BishopNeuterPlural = cyber_ow_dark_lord_cult_BishopNeuterPlural
+		DivineRealm = cyber_ow_dark_lord_cult_DivineRealm
+		PositiveAfterLife = cyber_ow_dark_lord_cult_PositiveAfterLife
+		NegativeAfterLife = cyber_ow_dark_lord_cult_NegativeAfterLife
+		GHWName = cyber_ow_dark_lord_cult_GHWName
+		GHWNamePlural = cyber_ow_dark_lord_cult_GHWNamePlural
+		HighGodNameSheHe = CHARACTER_SHEHE_IT
+		HighGodHerselfHimself = CHARACTER_ITSELF
+		HighGodHerHis = CHARACTER_HERHIS_ITS
+		CreatorSheHe = CHARACTER_SHEHE_IT
+		CreatorHerHis = CHARACTER_HERHIS_ITS
+		CreatorHerHim = CHARACTER_HERHIM_IT
+		DevilSheHe = CHARACTER_SHEHE_IT
+		DevilHerHis = CHARACTER_HERHIS_ITS
+		DevilHerselfHimself = CHARACTER_ITSELF
+		PantheonTermHasHave = pantheon_term_have
+	}
+}
+
+zensunni = {
+	main_rite = zensunni_rite
+	faith_details = {
+		religion = islam_religion
+		color = { 0.1 0.6 0.4 }
+		icon = sunni
+	}
+	eminent_holy_sites = {
+		ck_province1584
+		ck_province1775
+	}
+	holy_sites = {
+		ck_province1970
+		ck_province2122
+		ck_province2138
+	}
+	doctrines = {
+		doctrine_spiritual_head
+		doctrine_pluralism_pluralistic
+	}
+}
+
+terraformed = {
+	main_rite = terraformed_rite
+	faith_details = {
+		religion = islam_religion
+		color = { 0.8 0.3 0.1 }
+		icon = yazidism
+	}
+	eminent_holy_sites = {
+		ck_pavonis_mons
+		ck_valles
+	}
+	holy_sites = {
+		ck_argyre
+		ck_planum_australe
+		ck_hellas_delta
+	}
+	doctrines = {
+		doctrine_no_head
+		doctrine_pluralism_pluralistic
+	}
+}

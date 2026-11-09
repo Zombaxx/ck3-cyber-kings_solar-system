@@ -1,0 +1,151 @@
+﻿# Cyber Kings: scripted main rites of the new faiths (gen_peoples.py)
+
+archaic_pantheon_rite = {
+	faith = archaic_pantheon
+	color = { 1.0 1.0 0.5 }
+	tenets = {
+		tenet_sanctity_of_nature
+		tenet_mystical_birthright
+		tenet_astrology
+	}
+}
+
+cult_of_kaine_rite = {
+	faith = cult_of_kaine
+	color = { 0.4 0.03 0.03 }
+	tenets = {
+		tenet_human_sacrifice
+		tenet_warmonger
+		tenet_mystical_birthright
+	}
+}
+
+triarchy_rite = {
+	faith = triarchy
+	color = { 0.2 0.2 0.3 }
+	tenets = {
+		tenet_legalism
+		tenet_mendicant_preachers
+		tenet_ritual_hospitality
+	}
+}
+
+eternal_mechanism_rite = {
+	faith = eternal_mechanism
+	color = { 0.5 0.3 0.0 }
+	tenets = {
+		tenet_esotericism
+		tenet_inner_journey
+		tenet_asceticism
+	}
+}
+
+paleolithic_rite = {
+	faith = paleolithic
+	color = { 0.6 0.2 0.2 }
+	tenets = {
+		tenet_ancestor_worship
+		tenet_megaliths
+		tenet_sanctity_of_nature
+	}
+}
+
+cult_of_knowledge_rite = {
+	faith = cult_of_knowledge
+	color = { 0.3 0.4 0.5 }
+	tenets = {
+		tenet_esotericism
+		tenet_asceticism
+		tenet_legalism
+	}
+}
+
+nurutushian_rite = {
+	faith = nurutushian
+	color = { 0.6 0.6 0.7 }
+	tenets = {
+		tenet_esotericism
+		tenet_unrelenting_faith
+		tenet_megaliths
+	}
+}
+
+cult_of_hazhut_rite = {
+	faith = cult_of_hazhut
+	color = { 0.3 0.1 0.1 }
+	tenets = {
+		tenet_human_sacrifice
+		tenet_warmonger
+		tenet_gruesome_festivals
+	}
+}
+
+rajatral_tar_rite = {
+	faith = rajatral_tar
+	color = { 0.9 0.7 0.2 }
+	tenets = {
+		tenet_sun_worship
+		tenet_ritual_celebrations
+		tenet_sacred_childbirth
+	}
+}
+
+wargadanism_rite = {
+	faith = wargadanism
+	color = { 0.2 0.45 0.15 }
+	tenets = {
+		tenet_warmonger
+		tenet_unrelenting_faith
+		tenet_communal_identity
+	}
+}
+
+old_ways_rite = {
+	faith = old_ways
+	color = { 0.4 0.5 0.3 }
+	tenets = {
+		tenet_sanctity_of_nature
+		tenet_adorcism
+		tenet_ancestor_worship
+	}
+}
+
+bright_lord_cult_rite = {
+	faith = bright_lord_cult
+	color = { 0.9 0.9 0.6 }
+	tenets = {
+		tenet_warmonger
+		tenet_mystical_birthright
+		tenet_ritual_hospitality
+	}
+}
+
+dark_lord_cult_rite = {
+	faith = dark_lord_cult
+	color = { 0.15 0.1 0.2 }
+	tenets = {
+		tenet_warmonger
+		tenet_mystical_birthright
+		tenet_cranial_trophies
+	}
+}
+
+zensunni_rite = {
+	faith = zensunni
+	color = { 0.1 0.6 0.4 }
+	tenets = {
+		tenet_inner_journey
+		tenet_asceticism
+		tenet_pacifism
+	}
+}
+
+terraformed_rite = {
+	faith = terraformed
+	color = { 0.8 0.3 0.1 }
+	tenets = {
+		tenet_esotericism
+		tenet_adaptive
+		tenet_megaliths
+	}
+}

@@ -1,0 +1,12 @@
+﻿# Cyber Kings: one paper map for everyone (vanilla's Asian-heritage style used an Earth texture)
+paper_map_style_western = {
+	texture = "flatmap.dds"
+	default = yes
+}
+
+paper_map_style_tgp = {
+	texture = "flatmap.dds"
+	dlc_feature = all_under_heaven
+	is_shown = { always = no }
+	priority = 1
+}

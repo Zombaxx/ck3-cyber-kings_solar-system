@@ -1,0 +1,231 @@
+﻿# Cyber Kings: the otherworlden peoples as cultures (gen_peoples.py)
+
+antecessor = {
+	color = { 1.0 1.0 0.5 }
+	ethos = ethos_spiritual
+	heritage = heritage_archaic
+	language = language_archaic
+	martial_custom = martial_custom_equal
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_philosopher_culture
+		tradition_forest_folk
+		tradition_mystical_ancestors
+	}
+	name_list = name_list_ck_antecessor
+	coa_gfx = { byzantine_group_coa_gfx }
+	building_gfx = { byzantine_building_gfx }
+	clothing_gfx = { byzantine_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+	house_coa_frame = house_frame_02
+	ethnicities = {
+		10 = caucasian_northern_blond
+	}
+}
+
+ergaster = {
+	color = { 0.55 0.05 0.25 }
+	ethos = ethos_bellicose
+	heritage = heritage_archaic
+	language = language_archaic
+	martial_custom = martial_custom_equal
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_seafaring
+		tradition_battlefield_looters
+		tradition_ruling_caste
+	}
+	name_list = name_list_ck_ergaster
+	coa_gfx = { byzantine_group_coa_gfx }
+	building_gfx = { byzantine_building_gfx }
+	clothing_gfx = { byzantine_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+	house_coa_frame = house_frame_02
+	ethnicities = {
+		10 = caucasian_dark_hair
+	}
+}
+
+archon = {
+	color = { 0.35 0.1 0.45 }
+	ethos = ethos_courtly
+	heritage = heritage_archaic
+	language = language_archaic
+	martial_custom = martial_custom_equal
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_eye_for_an_eye
+		tradition_dryland_dwellers
+		tradition_astute_diplomats
+	}
+	name_list = name_list_ck_archon
+	coa_gfx = { arabic_group_coa_gfx }
+	building_gfx = { mena_building_gfx }
+	clothing_gfx = { dde_abbasid_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+	house_coa_frame = house_frame_05
+	ethnicities = {
+		10 = mediterranean
+	}
+}
+
+aeon = {
+	color = { 0.5 0.3 0.6 }
+	ethos = ethos_stoic
+	heritage = heritage_archaic
+	language = language_archaic
+	martial_custom = martial_custom_equal
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_desert_nomads
+		tradition_pastoralists
+		tradition_storytellers
+	}
+	name_list = name_list_ck_aeon
+	coa_gfx = { arabic_group_coa_gfx }
+	building_gfx = { mena_building_gfx }
+	clothing_gfx = { dde_abbasid_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+	house_coa_frame = house_frame_05
+	ethnicities = {
+		10 = mediterranean
+	}
+}
+
+neanderthal = {
+	color = { 0.6 0.35 0.15 }
+	ethos = ethos_stoic
+	heritage = heritage_proto
+	language = language_proto
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_mountain_homes
+		tradition_artisans
+		tradition_hereditary_hierarchy
+	}
+	name_list = name_list_ck_neanderthal
+	coa_gfx = { norse_coa_gfx }
+	building_gfx = { norse_building_gfx }
+	clothing_gfx = { fp1_norse_clothing_gfx }
+	unit_gfx = { norse_unit_gfx }
+	house_coa_frame = house_frame_12
+	ethnicities = {
+		10 = caucasian_northern_dark_hair
+	}
+}
+
+jotnar = {
+	color = { 0.3 0.3 0.35 }
+	ethos = ethos_bellicose
+	heritage = heritage_proto
+	language = language_proto
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_mountaineers
+		tradition_only_the_strong
+		tradition_stand_and_fight
+	}
+	name_list = name_list_ck_jotnar
+	coa_gfx = { norse_coa_gfx }
+	building_gfx = { norse_building_gfx }
+	clothing_gfx = { fp1_norse_clothing_gfx }
+	unit_gfx = { norse_unit_gfx }
+	house_coa_frame = house_frame_12
+	ethnicities = {
+		10 = caucasian_northern_ginger
+	}
+}
+
+cathrian = {
+	color = { 0.85 0.6 0.2 }
+	ethos = ethos_communal
+	heritage = heritage_cathrian
+	language = language_cathrian
+	martial_custom = martial_custom_equal
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_hunters
+		tradition_sacred_hunts
+		tradition_xenophilic
+	}
+	name_list = name_list_ck_cathrian
+	coa_gfx = { japanese_coa_gfx }
+	building_gfx = { emishi_building_gfx }
+	clothing_gfx = { emishi_clothing_gfx }
+	unit_gfx = { emishi_unit_gfx }
+	house_coa_frame = house_japan
+	ethnicities = {
+		10 = asian_emishi_ainu
+	}
+}
+
+mau_khet = {
+	color = { 0.95 0.75 0.3 }
+	ethos = ethos_courtly
+	heritage = heritage_cathrian
+	language = language_cathrian
+	martial_custom = martial_custom_equal
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_ruling_caste
+		tradition_hunters
+		tradition_esteemed_hospitality
+	}
+	name_list = name_list_ck_mau_khet
+	coa_gfx = { japanese_coa_gfx }
+	building_gfx = { emishi_building_gfx }
+	clothing_gfx = { emishi_clothing_gfx }
+	unit_gfx = { emishi_unit_gfx }
+	house_coa_frame = house_japan
+	ethnicities = {
+		10 = asian_emishi_ainu
+	}
+}
+
+thark = {
+	color = { 0.2 0.45 0.15 }
+	ethos = ethos_bellicose
+	heritage = heritage_denisovan
+	language = language_denisovan
+	martial_custom = martial_custom_equal
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_warrior_culture
+		tradition_quarrelsome
+		tradition_hunters
+	}
+	name_list = name_list_ck_thark
+	coa_gfx = { mongol_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+	house_coa_frame = house_frame_13
+	ethnicities = {
+		10 = turkic
+	}
+}
+
+torquas = {
+	color = { 0.1 0.3 0.1 }
+	ethos = ethos_bellicose
+	heritage = heritage_denisovan
+	language = language_denisovan
+	martial_custom = martial_custom_equal
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_warrior_culture
+		tradition_only_the_strong
+		tradition_horse_lords
+	}
+	name_list = name_list_ck_torquas
+	coa_gfx = { mongol_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+	house_coa_frame = house_frame_13
+	ethnicities = {
+		10 = turkic
+	}
+}

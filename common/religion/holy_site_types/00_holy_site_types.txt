@@ -1,0 +1,5738 @@
+﻿jerusalem = {
+	county = c_tenochtitlan
+	parameters = { jerusalem_conversion_bonus }
+	county_holder_character_modifier = {
+		monthly_piety_gain_mult = 0.05
+		different_faith_opinion = 5
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		travel_danger = -1
+	}
+	faith_character_modifier = {
+		character_travel_safety_mult = 0.1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		character_travel_safety_mult = 0.01
+	}
+}
+
+rome = {
+	county = c_rio
+	county_holder_character_modifier = {
+		stewardship = 1
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		county_opinion_add = 1
+	}
+	faith_character_modifier = {
+		stewardship = 1
+		church_holding_build_gold_cost = -0.1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		character_travel_speed_mult = 0.01
+	}
+}
+
+cologne = {
+	county = c_rome
+	county_holder_character_modifier = {
+		learning = 1
+		monthly_county_control_growth_factor = 0.05
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		tax_mult = 0.01
+		county_opinion_add = 1
+	}
+	faith_character_modifier = {
+		cultural_head_fascination_mult = 0.05
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		cultural_head_fascination_mult = 0.01
+		monthly_county_control_growth_factor = 0.01
+	}
+}
+
+santiago = {
+	county = c_province1134
+	county_holder_character_modifier = {
+		knight_effectiveness_mult = 0.05
+		piety_standalone_gain_mult = 0.05
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		travel_danger = -1
+	}
+	faith_character_modifier = {
+		holy_order_hire_cost_mult = -0.1
+		supply_duration = 0.1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		supply_duration = 0.01
+		same_culture_holy_order_hire_cost_mult = -0.01
+	}
+}
+
+kent = {
+	county = c_netherlands
+	county_holder_character_modifier = {
+		clergy_opinion = 5
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		tax_mult = 0.01
+		monthly_county_control_growth_factor = 0.01
+	}
+	faith_character_modifier = {
+		religious_vassal_opinion = 5
+		sway_scheme_phase_duration_add = minor_scheme_phase_duration_bonus_value
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_lifestyle_xp_gain_mult = 0.01
+	}
+}
+
+constantinople = {
+	county = c_nashville
+	county_holder_character_modifier = {
+		learning = 1
+		courtier_and_guest_opinion = 5
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		tax_mult = 0.01
+		county_opinion_add = 1
+	}
+	faith_character_modifier = {
+		cultural_head_fascination_mult = 0.05
+		learning = 1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		cultural_head_fascination_mult = 0.01
+	}
+}
+
+alexandria = {
+	county = c_toronto
+	county_holder_character_modifier = {
+		learning = 1
+		influence_standalone_gain_mult = 0.05
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		epidemic_resistance = 1
+	}
+	faith_character_modifier = {
+		learning_per_piety_level = 1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_lifestyle_xp_gain_mult = 0.01
+	}
+}
+
+antioch = {
+	county = c_new_york
+	county_holder_character_modifier = {
+		martial = 1
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		build_speed = -0.01
+		levy_size = 0.02
+	}
+	faith_character_modifier = {
+		martial_per_piety_level = 1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		knight_effectiveness_mult = 0.01
+	}
+}
+
+aksum = {
+	county = c_province0468
+	county_holder_character_modifier = {
+		diplomacy = 1
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		monthly_county_control_growth_factor = 0.01
+	}
+	faith_character_modifier = {
+		diplomacy_per_piety_level = 1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_prestige_gain_mult = 0.01
+	}
+}
+
+suenik = {
+	county = c_province0079
+	county_holder_character_modifier = {
+		learning = 1
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		travel_danger = -1
+	}
+	faith_character_modifier = {
+		learning = 1
+		monthly_piety_gain_mult = 0.05
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_piety_gain_mult = 0.01
+	}
+}
+
+dvin = {
+	county = c_province1176
+	county_holder_character_modifier = {
+		learning = 1
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		travel_danger = -1
+	}
+	faith_character_modifier = {
+		learning = 1
+		monthly_piety_gain_mult = 0.05
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_piety_gain_mult = 0.01
+	}
+}
+
+beirut = {
+	county = c_sun_s_oasis
+	county_holder_character_modifier = {
+		councillor_opinion = 3
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		epidemic_resistance = 1
+	}
+	faith_character_modifier = {
+		councillor_opinion = 5
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_lifestyle_xp_gain_mult = 0.01
+	}
+}
+
+baghdad = {
+	county = c_jerusalem
+	county_holder_character_modifier = {
+		learning = 1
+		development_growth_factor = 0.05
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		build_gold_cost = -0.01
+		hostile_raid_time = 0.02
+	}
+	faith_character_modifier = {
+		church_holding_build_gold_cost = -0.1
+		learning = 1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		monthly_income_mult = 0.005
+	}
+}
+
+farz = {
+	county = c_province1044
+	county_holder_character_modifier = {
+		diplomacy = 1
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		county_opinion_add = 1
+	}
+	faith_character_modifier = {
+		diplomacy_per_piety_level = 1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		same_faith_opinion = 0.5
+	}
+}
+
+kerala = {
+	county = c_province0951
+	parameters = { kerala_conversion_bonus }
+	county_holder_character_modifier = {
+		monthly_piety_gain_mult = 0.05
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		tax_mult = 0.01
+		travel_danger = -1
+	}
+	faith_character_modifier = {
+		clergy_opinion = 5
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_piety_gain_mult = 0.01
+		faith_conversion_piety_cost_mult = -0.01
+	}
+}
+
+iona = {
+	county = c_province0592
+	parameters = { iona_conversion_bonus }
+	county_holder_character_modifier = {
+		monthly_piety_gain_mult = 0.025
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		travel_danger = -1
+	}
+	faith_character_modifier = {
+		clergy_opinion = 5
+		monthly_piety_gain_mult = 0.05
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		faith_conversion_piety_cost_mult = -0.01
+		monthly_piety_gain_mult = 0.01
+	}
+}
+
+visoki = {
+	county = c_province0429
+	parameters = { visoki_conversion_resistance_bonus }
+	county_holder_character_modifier = {
+		county_opinion_add = 5
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		monthly_county_control_growth_factor = 0.01
+	}
+	faith_character_modifier = {
+		same_faith_opinion = 5
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		different_faith_opinion = 0.5
+		monthly_piety_gain_mult = 0.01
+	}
+}
+
+ragusa = {
+	county = c_province0362
+	county_holder_character_modifier = {
+		diplomacy = 1
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		county_opinion_add = 1
+	}
+	faith_character_modifier = {
+		diplomacy = 1
+		different_faith_opinion = 5
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_income_mult = 0.005
+	}
+}
+
+esztergom = {
+	county = c_province1797
+	county_holder_character_modifier = {
+		county_opinion_add = 5
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		tax_mult = 0.01
+		county_opinion_add = 1
+	}
+	faith_character_modifier = {
+		county_opinion_add = 10
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_county_control_growth_factor = 0.01
+		monthly_prestige_gain_mult = 0.01
+	}
+}
+
+albi = {
+	county = c_province0107
+	county_holder_character_modifier = {
+		learning = 1
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		epidemic_resistance = 1
+	}
+	faith_character_modifier = {
+		learning_per_piety_level = 1
+		monthly_piety_gain_mult = 0.05
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_piety_gain_mult = 0.01
+		stress_loss_mult = 0.01
+	}
+}
+
+toledo_mozarabic = {
+	county = c_alba_mons
+	county_holder_character_modifier = {
+		prowess = 2
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		build_speed = -0.01
+		defender_holding_advantage = 0.5
+	}
+	faith_character_modifier = {
+		prowess_per_piety_level = 1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		knight_effectiveness_mult = 0.01
+	}
+}
+
+carthage_adoptionist = {
+	county = c_pavonis_mons
+	county_holder_character_modifier = {
+		same_faith_opinion = 5
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		county_opinion_add = 1
+	}
+	faith_character_modifier = {
+		same_faith_opinion = 10
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		same_faith_opinion = 0.5
+		monthly_piety_gain_mult = 0.01
+	}
+}
+
+lyon = {
+	county = c_olympus_mons
+	county_holder_character_modifier = {
+		learning = 1
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		epidemic_resistance = 1
+	}
+	faith_character_modifier = {
+		learning_per_piety_level = 1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_lifestyle_xp_gain_mult = 0.01
+	}
+}
+
+mecca = {
+	county = c_rome
+	county_holder_character_modifier = {
+		monthly_piety_gain_mult = 0.05
+		knight_effectiveness_mult = 0.05
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		travel_danger = -1
+	}
+	faith_character_modifier = {
+		monthly_piety_gain_per_knight_mult = 0.02
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		knight_effectiveness_mult = 0.01
+		piety_level_impact_mult = 0.01
+	}
+}
+
+medina = {
+	county = c_barcelona
+	county_holder_character_modifier = {
+		diplomacy = 1
+		clergy_opinion = 5
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		travel_danger = -1
+	}
+	faith_character_modifier = {
+		diplomacy_per_piety_level = 1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_piety_gain_mult = 0.01
+	}
+}
+
+cordoba = {
+	county = c_province1280
+	parameters = { cordoba_conversion_bonus }
+	county_holder_character_modifier = {
+		learning = 1
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		county_opinion_add = 1
+	}
+	faith_character_modifier = {
+		cultural_head_fascination_mult = 0.05
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		monthly_county_control_growth_factor = 0.01
+	}
+}
+
+sinai = {
+	county = c_province1685
+	county_holder_character_modifier = {
+		learning = 1
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		desert_development_growth_factor = 0.01
+		travel_danger = -1
+	}
+	faith_character_modifier = {
+		desert_mountains_advantage = 5
+		learning = 1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		supply_duration = 0.01
+	}
+}
+
+tinmallal = {
+	county = c_province0099
+	county_holder_character_modifier = {
+		prowess = 2
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		build_speed = -0.01
+		levy_size = 0.02
+	}
+	faith_character_modifier = {
+		prowess_per_piety_level = 1
+		max_combat_roll = 2
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		max_combat_roll = 0.25
+	}
+}
+
+fes = {
+	county = c_province0392
+	county_holder_character_modifier = {
+		learning = 1
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		epidemic_resistance = 1
+	}
+	faith_character_modifier = {
+		cultural_head_fascination_mult = 0.1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		cultural_head_fascination_mult = 0.01
+	}
+}
+
+nadjaf = {
+	county = c_almuqadasa_isle
+	county_holder_character_modifier = {
+		clergy_opinion = 3
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		county_opinion_add = 1
+	}
+	faith_character_modifier = {
+		diplomacy_per_piety_level = 1
+		clergy_opinion = 5
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_piety_gain_mult = 0.01
+	}
+}
+
+damascus = {
+	county = c_al_alrd
+	county_holder_character_modifier = {
+		monthly_county_control_growth_factor = 0.05
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		build_speed = -0.01
+		supply_limit_mult = 0.02
+	}
+	faith_character_modifier = {
+		levy_size = 0.05
+		monthly_county_control_growth_factor = 0.1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_county_control_growth_factor = 0.01
+		levy_size = 0.005
+	}
+}
+
+kufa = {
+	county = c_jerusalem
+	county_holder_character_modifier = {
+		intrigue = 1
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		tax_mult = 0.01
+		county_opinion_add = 1
+	}
+	faith_character_modifier = {
+		intrigue_per_piety_level = 1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		scheme_discovery_chance_mult = 0.01
+	}
+}
+
+basra = {
+	county = c_province0930
+	county_holder_character_modifier = {
+		learning = 1
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		county_opinion_add = 1
+	}
+	faith_character_modifier = {
+		learning = 2
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_lifestyle_xp_gain_mult = 0.01
+	}
+}
+
+nizwa = {
+	county = c_province0991
+	county_holder_character_modifier = {
+		stewardship = 1
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		tax_mult = 0.01
+		supply_limit_mult = 0.02
+	}
+	faith_character_modifier = {
+		stewardship_per_piety_level = 1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_income_mult = 0.005
+	}
+}
+
+sijilmasa = {
+	county = c_province1584
+	county_holder_character_modifier = {
+		stewardship = 1
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		tax_mult = 0.01
+		hostile_raid_time = 0.02
+	}
+	faith_character_modifier = {
+		diplomacy = 1
+		stewardship = 1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_income_mult = 0.005
+	}
+}
+
+bahrein = {
+	county = c_province2152
+	county_holder_character_modifier = {
+		stewardship = 1
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		tax_mult = 0.01
+		hostile_raid_time = 0.02
+	}
+	faith_character_modifier = {
+		stewardship = 1
+		monthly_income_mult = 0.05
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_income_mult = 0.005
+	}
+}
+
+sinjar = {
+	county = c_province0085
+	county_holder_character_modifier = {
+		diplomacy = 1
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		hostile_raid_time = 0.02
+	}
+	faith_character_modifier = {
+		diplomacy_per_piety_level = 1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		same_faith_opinion = 0.5
+	}
+}
+
+baalbek = {
+	county = c_province0846
+	county_holder_character_modifier = {
+		clergy_opinion = 5
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		county_opinion_add = 1
+	}
+	faith_character_modifier = {
+		clergy_opinion = 10
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_prestige_gain_mult = 0.01
+		monthly_piety_gain_mult = 0.01
+	}
+}
+
+lalish = {
+	county = c_province1786
+	county_holder_character_modifier = {
+		piety_standalone_gain_mult = 0.05
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		travel_danger = -1
+	}
+	faith_character_modifier = {
+		learning_per_piety_level = 1
+		monthly_piety_gain_mult = 0.1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_piety_gain_mult = 0.01
+		piety_level_impact_mult = 0.01
+	}
+}
+
+nishapur = {
+	county = c_olympus_mons
+	county_holder_character_modifier = {
+		stewardship = 1
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		tax_mult = 0.01
+		supply_limit_mult = 0.02
+	}
+	faith_character_modifier = {
+		stewardship_per_piety_level = 1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+	}
+}
+
+dashtestan = {
+	county = c_province0938
+	county_holder_character_modifier = {
+		same_faith_opinion = 3
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		county_opinion_add = 1
+	}
+	faith_character_modifier = {
+		same_faith_opinion = 5
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		same_faith_opinion = 0.5
+		monthly_piety_gain_mult = 0.01
+	}
+}
+
+zozan = {
+	county = c_jungusalem
+	county_holder_character_modifier = {
+		same_faith_opinion = 3
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		monthly_county_control_growth_factor = 0.01
+	}
+	faith_character_modifier = {
+		same_faith_opinion = 5
+		domain_tax_same_faith_mult = 0.1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		domain_tax_same_faith_mult = 0.01
+		same_faith_opinion = 0.5
+	}
+}
+
+semien = {
+	county = c_province1913
+	county_holder_character_modifier = {
+		martial = 1
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		mountains_development_growth_factor = 0.01
+		garrison_size = 0.02
+	}
+	faith_character_modifier = {
+		defender_advantage = 5
+		diplomacy = 1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		defender_advantage = 0.5
+		mountains_advantage = 0.5
+	}
+}
+
+sufed = {
+	county = c_gateway_shores
+	county_holder_character_modifier = {
+		same_faith_opinion = 5
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		monthly_county_control_growth_factor = 0.01
+	}
+	faith_character_modifier = {
+		same_faith_opinion = 10
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		same_faith_opinion = 0.5
+		monthly_piety_gain_mult = 0.01
+	}
+}
+
+gerizim = {
+	county = c_new_york
+	county_holder_character_modifier = {
+		learning = 1
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		epidemic_resistance = 1
+	}
+	faith_character_modifier = {
+		learning_per_piety_level = 1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_prestige_gain_mult = 0.01
+	}
+}
+
+panticapaeum = {
+	county = c_province1189
+	county_holder_character_modifier = {
+		stewardship = 1
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		tax_mult = 0.01
+		defender_holding_advantage = 0.5
+	}
+	faith_character_modifier = {
+		world_steppe_development_growth_factor = 0.25
+		steppe_development_growth_factor = 0.15
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		monthly_income_mult = 0.005
+	}
+}
+
+itil = {
+	county = c_naiad
+	county_holder_character_modifier = {
+		different_culture_opinion = 5
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		epidemic_travel_danger = -1
+	}
+	faith_character_modifier = {
+		different_culture_opinion = 10
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		cultural_head_acceptance_gain_mult = 0.015
+		monthly_income_mult = 0.005
+	}
+}
+
+kochi = {
+	county = c_province0679
+	county_holder_character_modifier = {
+		diplomacy = 1
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		county_opinion_add = 1
+	}
+	faith_character_modifier = {
+		diplomacy_per_piety_level = 1
+		cultural_head_acceptance_gain_mult = 0.15
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_income_mult = 0.005
+	}
+}
+
+manipur = {
+	county = c_province1800
+	county_holder_character_modifier = {
+		martial = 1
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		mountains_development_growth_factor = 0.01
+		hostile_raid_time = 0.02
+	}
+	faith_character_modifier = {
+		mountains_advantage = 5
+		mountains_development_growth_factor = 0.2
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		mountains_advantage = 0.5
+		supply_duration = 0.01
+	}
+}
+
+hamadan = {
+	county = c_province1891
+	county_holder_character_modifier = {
+		different_faith_opinion = 5
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		travel_danger = -1
+	}
+	faith_character_modifier = {
+		different_faith_opinion = 10
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_lifestyle_xp_gain_mult = 0.01
+		different_faith_opinion = 0.5
+	}
+}
+
+babylon = {
+	county = c_sun_s_oasis
+	county_holder_character_modifier = {
+		learning = 1
+		development_growth_factor = 0.05
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		county_opinion_add = 1
+	}
+	faith_character_modifier = {
+		cultural_head_fascination_mult = 0.1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+	}
+}
+
+ahvaz = {
+	county = c_province1454
+	county_holder_character_modifier = {
+		clergy_opinion = 3
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		tax_mult = 0.01
+		monthly_county_control_growth_factor = 0.01
+	}
+	faith_character_modifier = {
+		clergy_opinion = 5
+		personal_scheme_phase_duration_add = minor_scheme_phase_duration_bonus_value
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_piety_gain_mult = 0.01
+	}
+}
+
+samarkand = {
+	county = c_province1188
+	county_holder_character_modifier = {
+		stewardship = 1
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		tax_mult = 0.01
+		supply_limit_mult = 0.02
+	}
+	faith_character_modifier = {
+		stewardship_per_piety_level = 1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_income_mult = 0.005
+		development_growth_factor = 0.01
+	}
+}
+
+udabhanda = {
+	county = c_province0661
+	county_holder_character_modifier = {
+		learning = 1
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		county_opinion_add = 1
+	}
+	faith_character_modifier = {
+		learning_per_piety_level = 1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_lifestyle_xp_gain_mult = 0.01
+	}
+}
+
+toledo = {
+	county = c_province0915
+	county_holder_character_modifier = {
+		learning = 1
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		county_opinion_add = 1
+	}
+	faith_character_modifier = {
+		learning = 1
+		monthly_piety_gain_mult = 0.05
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		stress_loss_mult = 0.01
+	}
+}
+
+memphis = {
+	county = c_province1202
+	county_holder_character_modifier = {
+		stewardship = 1
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		tax_mult = 0.01
+		county_opinion_add = 1
+	}
+	faith_character_modifier = {
+		stewardship_per_piety_level = 1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_income_mult = 0.005
+	}
+}
+
+bodh_gaya = {
+	county = c_tokyo
+	county_holder_character_modifier = {
+		stress_loss_mult = 0.05
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		epidemic_resistance = 1
+	}
+	faith_character_modifier = {
+		stress_loss_mult = 0.1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		stress_loss_mult = 0.01
+		monthly_lifestyle_xp_gain_mult = 0.01
+	}
+}
+
+sarnath = {
+	county = c_melbourne
+	county_holder_character_modifier = {
+		learning = 1
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		epidemic_resistance = 1
+	}
+	faith_character_modifier = {
+		learning = 2
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_lifestyle_xp_gain_mult = 0.01
+	}
+}
+
+sanchi = {
+	county = c_province1439
+	county_holder_character_modifier = {
+		diplomacy = 1
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		county_opinion_add = 1
+	}
+	faith_character_modifier = {
+		diplomacy_per_piety_level = 1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_piety_gain_mult = 0.01
+	}
+}
+
+ajanta = {
+	county = c_province0428
+	county_holder_character_modifier = {
+		learning = 1
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		county_opinion_add = 1
+	}
+	faith_character_modifier = {
+		negate_learning_penalty_add = 2
+		learning_per_piety_level = 1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		cultural_head_fascination_mult = 0.01
+	}
+}
+
+dagon = {
+	county = c_mumbai
+	county_holder_character_modifier = {
+		martial = 1
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		build_speed = -0.01
+		defender_holding_advantage = 0.5
+	}
+	faith_character_modifier = {
+		martial_per_piety_level = 1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		knight_effectiveness_mult = 0.01
+		monthly_piety_gain_mult = 0.01
+	}
+}
+
+pagan = {
+	county = c_province0387
+	county_holder_character_modifier = {
+		stewardship = 1
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		tax_mult = 0.01
+		hostile_raid_time = 0.02
+	}
+	faith_character_modifier = {
+		stewardship = 1
+		monthly_prestige_gain_mult = 0.05
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_prestige_gain_mult = 0.01
+		development_growth_factor = 0.01
+	}
+}
+
+atamasthana = {
+	county = c_everest
+	county_holder_character_modifier = {
+		stewardship = 1
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		tax_mult = 0.01
+		hostile_raid_time = 0.02
+	}
+	faith_character_modifier = {
+		domain_tax_mult = 0.05
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_income_mult = 0.005
+		development_growth_factor = 0.01
+	}
+}
+
+amaravati = {
+	county = c_province1621
+	county_holder_character_modifier = {
+		monthly_county_control_growth_factor = 0.05
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		tax_mult = 0.01
+		county_opinion_add = 1
+	}
+	faith_character_modifier = {
+		monthly_county_control_growth_factor = 0.1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_county_control_growth_factor = 0.01
+		monthly_piety_gain_mult = 0.01
+	}
+}
+
+varanasi = {
+	county = c_province1265
+	county_holder_character_modifier = {
+		learning = 1
+		clergy_opinion = 3
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		epidemic_resistance = 1
+	}
+	faith_character_modifier = {
+		learning = 2
+		clergy_opinion = 5
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_piety_gain_mult = 0.01
+	}
+}
+
+ayodhya = {
+	county = c_province1264
+	county_holder_character_modifier = {
+		knight_effectiveness_mult = 0.05
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		build_speed = -0.01
+		levy_size = 0.02
+	}
+	faith_character_modifier = {
+		monthly_piety_gain_per_knight_mult = 0.01
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		knight_effectiveness_mult = 0.01
+		monthly_piety_gain_mult = 0.01
+	}
+}
+
+mathura = {
+	county = c_province1294
+	county_holder_character_modifier = {
+		powerful_vassal_opinion = 3
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		county_opinion_add = 1
+	}
+	faith_character_modifier = {
+		diplomacy = 1
+		powerful_vassal_opinion = 5
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_prestige_gain_mult = 0.01
+	}
+}
+
+haridwar = {
+	county = c_province0406
+	county_holder_character_modifier = {
+		health = 0.05
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		epidemic_resistance = 1
+	}
+	faith_character_modifier = {
+		health = 0.1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		health = 0.01
+		stress_loss_mult = 0.01
+	}
+}
+
+kanchipuram = {
+	county = c_province0916
+	county_holder_character_modifier = {
+		fertility = 0.1
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		epidemic_travel_danger = -1
+	}
+	faith_character_modifier = {
+		fertility = 0.15
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		fertility = 0.01
+		health = 0.01
+	}
+}
+
+ujjayini = {
+	county = c_province1533
+	county_holder_character_modifier = {
+		stewardship = 1
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		tax_mult = 0.01
+		hostile_raid_time = 0.02
+	}
+	faith_character_modifier = {
+		stewardship = 1
+		courtier_and_guest_opinion = 5
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_income_mult = 0.005
+	}
+}
+
+dwarka = {
+	county = c_province1469
+	county_holder_character_modifier = {
+		martial = 1
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		build_speed = -0.01
+		levy_size = 0.02
+	}
+	faith_character_modifier = {
+		martial = 1
+		hard_casualty_modifier = -0.1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		knight_effectiveness_mult = 0.01
+	}
+}
+
+konarak = {
+	county = c_province1128
+	county_holder_character_modifier = {
+		development_growth_factor = 0.05
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		build_gold_cost = -0.01
+		county_opinion_add = 1
+	}
+	faith_character_modifier = {
+		church_holding_build_gold_cost = -0.1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		build_gold_cost = -0.005
+	}
+}
+
+angkor = {
+	county = c_province0165
+	county_holder_character_modifier = {
+		tributary_opinion = 3
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		build_gold_cost = -0.01
+		defender_holding_advantage = 0.5
+	}
+	faith_character_modifier = {
+		tributary_opinion = 5
+		jungle_construction_gold_cost = -0.1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_income_mult = 0.005
+		development_growth_factor = 0.01
+	}
+}
+
+bantey_srei = {
+	county = c_province1283
+	county_holder_character_modifier = {
+		county_opinion_add = 3
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		build_speed = -0.01
+		monthly_county_control_growth_factor = 0.01
+	}
+	faith_character_modifier = {
+		county_opinion_add = 5
+		great_project_build_speed = -0.05
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_prestige_gain_mult = 0.01
+		development_growth_factor = 0.01
+	}
+}
+
+borobudur = {
+	county = c_province1960
+	county_holder_character_modifier = {
+		knight_effectiveness_mult = 0.05
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		build_speed = -0.01
+		defender_holding_advantage = 0.5
+	}
+	faith_character_modifier = {
+		monthly_piety_gain_per_knight_mult = 0.01
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		knight_effectiveness_mult = 0.01
+		monthly_piety_gain_mult = 0.01
+	}
+}
+
+muara_takus = {
+	county = c_province0529
+	county_holder_character_modifier = {
+		tributary_opinion = 3
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		build_gold_cost = -0.01
+		county_opinion_add = 1
+	}
+	faith_character_modifier = {
+		tributary_opinion = 5
+		temple_citadel_holding_build_gold_cost = -0.1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_piety_gain_mult = 0.01
+		monthly_income_mult = 0.005
+	}
+}
+
+kalasan = {
+	county = c_province1615
+	county_holder_character_modifier = {
+		powerful_vassal_opinion = 3
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		epidemic_resistance = 1
+	}
+	faith_character_modifier = {
+		diplomacy = 1
+		powerful_vassal_opinion = 5
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_piety_gain_mult = 0.01
+	}
+}
+
+my_son = {
+	county = c_province0324
+	county_holder_character_modifier = {
+		prestige_standalone_gain_mult = 0.05
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		tax_mult = 0.01
+		supply_limit_mult = 0.02
+	}
+	faith_character_modifier = {
+		monthly_prestige_gain_per_knight_mult = 0.01
+		build_prestige_cost = -0.15
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_prestige_gain_mult = 0.01
+		prestige_level_impact_mult = 0.01
+	}
+}
+
+bayon = {
+	county = c_province1253
+	county_holder_character_modifier = {
+		county_opinion_add = 3
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		farmlands_development_growth_factor = 0.01
+		defender_holding_advantage = 0.5
+	}
+	faith_character_modifier = {
+		county_opinion_add = 5
+		wetlands_development_growth_factor = 0.2
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_county_control_growth_factor = 0.01
+		monthly_piety_gain_mult = 0.01
+	}
+}
+
+khao_khlang_nai = {
+	county = c_province1544
+	county_holder_character_modifier = {
+		tributary_opinion = 3
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		build_gold_cost = -0.01
+		county_opinion_add = 1
+	}
+	faith_character_modifier = {
+		tributary_opinion = 5
+		temple_citadel_holding_build_gold_cost = -0.1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_income_mult = 0.005
+		development_growth_factor = 0.01
+	}
+}
+
+bupaya = {
+	county = c_bangkok
+	county_holder_character_modifier = {
+		monthly_piety_gain_mult = 0.05
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		county_opinion_add = 1
+	}
+	faith_character_modifier = {
+		monthly_piety_gain_mult = 0.1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_piety_gain_mult = 0.01
+		piety_level_impact_mult = 0.01
+	}
+}
+
+palitana = {
+	county = c_province0697
+	county_holder_character_modifier = {
+		monthly_piety_gain_mult = 0.05
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		county_opinion_add = 1
+	}
+	faith_character_modifier = {
+		monthly_piety_gain_mult = 0.1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_piety_gain_mult = 0.01
+		stress_loss_mult = 0.01
+	}
+}
+
+shikharj = {
+	county = c_province0805
+	county_holder_character_modifier = {
+		stress_loss_mult = 0.05
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		epidemic_resistance = 1
+	}
+	faith_character_modifier = {
+		stress_loss_mult = 0.1
+		life_expectancy = 1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		stress_loss_mult = 0.01
+		health = 0.01
+	}
+}
+
+ranakpur = {
+	county = c_province0986
+	county_holder_character_modifier = {
+		stewardship = 1
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		tax_mult = 0.01
+		monthly_county_control_growth_factor = 0.01
+	}
+	faith_character_modifier = {
+		stewardship = 1
+		sway_scheme_phase_duration_add = medium_scheme_phase_duration_bonus_value
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_income_mult = 0.005
+		build_gold_cost = -0.005
+	}
+}
+
+ellora = {
+	county = c_dioxide
+	county_holder_character_modifier = {
+		different_culture_opinion = 3
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		travel_danger = -1
+	}
+	faith_character_modifier = {
+		county_opinion_add = 5
+		different_culture_opinion = 5
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		cultural_head_acceptance_gain_mult = 0.015
+		monthly_piety_gain_mult = 0.01
+	}
+}
+
+sittannavasal = {
+	county = c_province0952
+	county_holder_character_modifier = {
+		direct_vassal_opinion = 3
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		monthly_county_control_growth_factor = 0.01
+	}
+	faith_character_modifier = {
+		direct_vassal_opinion = 5
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_prestige_gain_mult = 0.01
+	}
+}
+
+itanagar = {
+	county = c_province0817
+	county_holder_character_modifier = {
+		monthly_prestige_gain_mult = 0.05
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		monthly_county_control_growth_factor = 0.01
+	}
+	faith_character_modifier = {
+		monthly_prestige_gain_mult = 0.1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_prestige_gain_mult = 0.01
+		prestige_level_impact_mult = 0.01
+	}
+}
+
+pemako = {
+	county = c_province0283
+	county_holder_character_modifier = {
+		learning = 1
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		epidemic_travel_danger = -1
+	}
+	faith_character_modifier = {
+		learning = 1
+		tyranny_gain_mult = -0.2
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		stress_loss_mult = 0.01
+	}
+}
+
+rima = {
+	county = c_province0175
+	county_holder_character_modifier = {
+		diplomacy = 1
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		monthly_county_control_growth_factor = 0.01
+	}
+	faith_character_modifier = {
+		diplomacy_per_prestige_level = 1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_prestige_gain_mult = 0.01
+	}
+}
+
+tezu = {
+	county = c_province0971
+	county_holder_character_modifier = {
+		martial = 1
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		hills_development_growth_factor = 0.01
+		supply_limit_mult = 0.02
+	}
+	faith_character_modifier = {
+		hills_advantage = 5
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		hills_advantage = 0.5
+		supply_duration = 0.01
+	}
+}
+
+kathmandu = {
+	county = c_province1238
+	county_holder_character_modifier = {
+		county_opinion_add = 3
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		travel_danger = -1
+	}
+	faith_character_modifier = {
+		county_opinion_add = 5
+		different_faith_opinion = 5
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		different_faith_opinion = 0.5
+		monthly_income_mult = 0.005
+	}
+}
+
+ilam = {
+	county = c_province0328
+	county_holder_character_modifier = {
+		martial = 1
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		mountains_development_growth_factor = 0.01
+		hostile_raid_time = 0.02
+	}
+	faith_character_modifier = {
+		mountains_advantage = 5
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		mountains_advantage = 0.5
+		supply_duration = 0.01
+	}
+}
+
+garwhal = {
+	county = c_province0992
+	county_holder_character_modifier = {
+		diplomacy = 1
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		travel_danger = -1
+	}
+	faith_character_modifier = {
+		diplomacy_per_piety_level = 1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_piety_gain_mult = 0.01
+	}
+}
+
+jumla = {
+	county = c_province0423
+	county_holder_character_modifier = {
+		dynasty_house_opinion = 3
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		tax_mult = 0.01
+		monthly_county_control_growth_factor = 0.01
+	}
+	faith_character_modifier = {
+		dynasty_house_opinion = 5
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		house_relation_change_mult = 0.01
+		monthly_dynasty_prestige_mult = 0.01
+	}
+}
+
+maowun = {
+	county = c_province2153
+	county_holder_character_modifier = {
+		monthly_piety_gain_mult = 0.05
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		build_speed = -0.01
+		garrison_size = 0.02
+	}
+	faith_character_modifier = {
+		monthly_piety_gain_per_knight_mult = 0.01
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_piety_gain_mult = 0.01
+		knight_effectiveness_mult = 0.01
+	}
+}
+
+ngawa = {
+	county = c_province2159
+	county_holder_character_modifier = {
+		learning = 1
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		travel_danger = -1
+	}
+	faith_character_modifier = {
+		learning_per_piety_level = 1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_lifestyle_xp_gain_mult = 0.01
+	}
+}
+
+chakla = {
+	county = c_province1933
+	county_holder_character_modifier = {
+		build_speed = -0.05
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		build_speed = -0.01
+		hostile_raid_time = 0.02
+	}
+	faith_character_modifier = {
+		build_speed = -0.15
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		build_gold_cost = -0.005
+		development_growth_factor = 0.01
+	}
+}
+
+gyaitang = {
+	county = c_province1557
+	county_holder_character_modifier = {
+		same_culture_opinion = 3
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		travel_danger = -1
+	}
+	faith_character_modifier = {
+		same_culture_opinion = 5
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		cultural_head_acceptance_gain_mult = 0.015
+		monthly_prestige_gain_mult = 0.01
+	}
+}
+
+rebgong = {
+	county = c_province0337
+	county_holder_character_modifier = {
+		powerful_vassal_opinion = 5
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		epidemic_resistance = 1
+	}
+	faith_character_modifier = {
+		monthly_piety_gain_per_happy_powerful_vassal_mult = 0.02
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		powerful_vassal_opinion = 0.5
+		monthly_piety_gain_mult = 0.01
+	}
+}
+
+xingqing = {
+	county = c_province0787
+	county_holder_character_modifier = {
+		same_faith_opinion = 3
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		hostile_raid_time = 0.02
+	}
+	faith_character_modifier = {
+		same_faith_opinion = 5
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		same_faith_opinion = 0.5
+		monthly_piety_gain_mult = 0.01
+	}
+}
+
+yijinai = {
+	county = c_province0755
+	county_holder_character_modifier = {
+		build_gold_cost = -0.025
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		build_gold_cost = -0.01
+		county_opinion_add = 1
+	}
+	faith_character_modifier = {
+		build_gold_cost = -0.05
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		build_gold_cost = -0.005
+		monthly_income_mult = 0.005
+	}
+}
+
+alxa = {
+	county = c_province0439
+	county_holder_character_modifier = {
+		stewardship = 1
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		build_speed = -0.01
+		hostile_raid_time = 0.02
+	}
+	faith_character_modifier = {
+		stewardship = 1
+		supply_duration = 0.1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		supply_duration = 0.01
+	}
+}
+
+yazd = {
+	county = c_planum_australe
+	county_holder_character_modifier = {
+		same_faith_opinion = 3
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		hostile_raid_time = 0.02
+	}
+	faith_character_modifier = {
+		same_faith_opinion = 5
+		monthly_piety_gain_mult = 0.05
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		same_faith_opinion = 0.5
+		monthly_piety_gain_mult = 0.01
+	}
+}
+
+nok_kundi = {
+	county = c_province1063
+	county_holder_character_modifier = {
+		build_gold_cost = -0.05
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		build_gold_cost = -0.01
+		county_opinion_add = 1
+	}
+	faith_character_modifier = {
+		build_gold_cost = -0.1
+		stewardship = 1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		build_gold_cost = -0.005
+	}
+}
+
+adur_farnbag = {
+	county = c_jungle_peninsula
+	county_holder_character_modifier = {
+		clergy_opinion = 3
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		county_opinion_add = 1
+	}
+	faith_character_modifier = {
+		learning = 1
+		clergy_opinion = 5
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_piety_gain_mult = 0.01
+	}
+}
+
+adur_burzen_mihr = {
+	county = c_province1433
+	county_holder_character_modifier = {
+		county_opinion_add = 3
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		drylands_development_growth_factor = 0.01
+		garrison_size = 0.02
+	}
+	faith_character_modifier = {
+		county_opinion_add = 5
+		drylands_development_growth_factor = 0.2
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		monthly_income_mult = 0.005
+	}
+}
+
+takht-i-sangin = {
+	county = c_province1323
+	county_holder_character_modifier = {
+		diplomacy = 1
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		travel_danger = -1
+	}
+	faith_character_modifier = {
+		diplomacy = 1
+		clergy_opinion = 5
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_piety_gain_mult = 0.01
+	}
+}
+
+takht-e_soleyman = {
+	county = c_pavonis_mons
+	county_holder_character_modifier = {
+		knight_effectiveness_mult = 0.05
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		build_speed = -0.01
+		garrison_size = 0.02
+	}
+	faith_character_modifier = {
+		monthly_piety_gain_per_knight_mult = 0.01
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		knight_effectiveness_mult = 0.015
+	}
+}
+
+ushi-darena = {
+	county = c_valles
+	county_holder_character_modifier = {
+		monthly_piety_gain_mult = 0.05
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		travel_danger = -1
+	}
+	faith_character_modifier = {
+		monthly_piety_gain_mult = 0.1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_piety_gain_mult = 0.01
+		piety_level_impact_mult = 0.01
+	}
+}
+
+mount_damavand = {
+	county = c_province0564
+	county_holder_character_modifier = {
+		prowess = 2
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		epidemic_travel_danger = -1
+	}
+	faith_character_modifier = {
+		prowess_per_stress_level = 2
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		stress_loss_mult = 0.01
+	}
+}
+
+badd = {
+	county = c_province1499
+	county_holder_character_modifier = {
+		martial = 1
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		mountains_development_growth_factor = 0.01
+		defender_holding_advantage = 0.5
+	}
+	faith_character_modifier = {
+		advantage_against_coreligionists = 5
+		supply_duration = 0.2
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		advantage_against_coreligionists = 0.25
+		supply_duration = 0.01
+	}
+}
+
+ctesiphon = {
+	county = c_province0986
+	county_holder_character_modifier = {
+		prestige_standalone_gain_mult = 0.025
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		travel_danger = -1
+	}
+	faith_character_modifier = {
+		monthly_prestige_gain_mult = 0.05
+		learning = 1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_prestige_gain_mult = 0.01
+	}
+}
+
+ani = {
+	county = c_province1998
+	county_holder_character_modifier = {
+		direct_vassal_opinion = 3
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		county_opinion_add = 1
+	}
+	faith_character_modifier = {
+		direct_vassal_opinion = 5
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_prestige_gain_mult = 0.01
+	}
+}
+
+mizdahqan = {
+	county = c_sun_s_oasis
+	county_holder_character_modifier = {
+		learning = 1
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		epidemic_resistance = 1
+	}
+	faith_character_modifier = {
+		learning_per_stress_level = 1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		stress_loss_mult = 0.01
+	}
+}
+
+dunhuang = {
+	county = c_northern_jungle
+	county_holder_character_modifier = {
+		different_culture_opinion = 5
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		drylands_development_growth_factor = 0.01
+		defender_holding_advantage = 0.5
+	}
+	faith_character_modifier = {
+		desert_development_growth_factor = 0.1
+		drylands_development_growth_factor = 0.1
+		learn_language_scheme_phase_duration_add = medium_scheme_phase_duration_bonus_value
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		cultural_head_acceptance_gain_mult = 0.015
+		monthly_income_mult = 0.005
+	}
+}
+
+uppsala = {
+	county = c_phobos
+	county_holder_character_modifier = {
+		piety_standalone_gain_mult = 0.05
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		build_speed = -0.01
+		defender_holding_advantage = 0.5
+	}
+	faith_character_modifier = {
+		monthly_piety_gain_per_knight_mult = 0.01
+		heavy_infantry_damage_mult = 0.05
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		heavy_infantry_damage_mult = 0.01
+		monthly_piety_gain_mult = 0.01
+	}
+}
+
+paderborn = {
+	county = c_province2128
+	county_holder_character_modifier = {
+		fertility = 0.05
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		epidemic_resistance = 1
+	}
+	faith_character_modifier = {
+		stewardship_per_piety_level = 1
+		fertility = 0.1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		fertility = 0.01
+		development_growth_factor = 0.01
+	}
+}
+
+ranaheim = {
+	county = c_province1373
+	county_holder_character_modifier = {
+		men_at_arms_maintenance = -0.025
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		build_speed = -0.01
+		garrison_size = 0.02
+	}
+	faith_character_modifier = {
+		men_at_arms_maintenance = -0.05
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		men_at_arms_maintenance = -0.005
+		monthly_income_mult = 0.005
+	}
+}
+
+jorvik = {
+	county = c_province1397
+	county_holder_character_modifier = {
+		knight_effectiveness_mult = 0.05
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		build_speed = -0.01
+		levy_size = 0.02
+	}
+	faith_character_modifier = {
+		prowess_per_piety_level = 1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		knight_effectiveness_mult = 0.015
+		max_loot_mult = 0.01
+	}
+}
+
+konugardr = {
+	county = c_upper_triton_shores
+	county_holder_character_modifier = {
+		prowess = 2
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		build_speed = -0.01
+		levy_size = 0.02
+	}
+	faith_character_modifier = {
+		prowess_per_piety_level = 1
+		supply_duration = 0.2
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		supply_duration = 0.015
+		monthly_income_mult = 0.005
+	}
+}
+
+raivola = {
+	county = c_province1795
+	county_holder_character_modifier = {
+		powerful_vassal_opinion = 5
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		county_opinion_add = 1
+	}
+	faith_character_modifier = {
+		monthly_piety_gain_per_happy_powerful_vassal_mult = 0.02
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		powerful_vassal_opinion = 0.5
+		monthly_piety_gain_mult = 0.01
+	}
+}
+
+hiiumaa = {
+	county = c_new_jerusalem
+	county_holder_character_modifier = {
+		close_relative_opinion = 3
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		tax_mult = 0.01
+		county_opinion_add = 1
+	}
+	faith_character_modifier = {
+		stewardship = 1
+		close_relative_opinion = 5
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		house_relation_change_mult = 0.01
+	}
+}
+
+akkel = {
+	county = c_province1855
+	county_holder_character_modifier = {
+		martial = 1
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		taiga_development_growth_factor = 0.01
+		levy_size = 0.02
+	}
+	faith_character_modifier = {
+		taiga_max_combat_roll = 5
+		archers_toughness_mult = 0.1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		archers_toughness_mult = 0.01
+		taiga_advantage = 0.5
+	}
+}
+
+perm = {
+	county = c_province1923
+	county_holder_character_modifier = {
+		prowess = 1
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		build_speed = -0.01
+		levy_size = 0.02
+	}
+	faith_character_modifier = {
+		supply_duration = 0.25
+		prowess = 1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		supply_duration = 0.015
+	}
+}
+
+kiev = {
+	county = c_moonlanding
+	county_holder_character_modifier = {
+		knight_effectiveness_mult = 0.05
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		build_speed = -0.01
+		defender_holding_advantage = 0.5
+	}
+	faith_character_modifier = {
+		monthly_piety_gain_mult = 0.1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		knight_effectiveness_mult = 0.015
+		monthly_piety_gain_mult = 0.01
+	}
+}
+
+novgorod = {
+	county = c_ryha
+	county_holder_character_modifier = {
+		stewardship = 1
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		tax_mult = 0.01
+		county_opinion_add = 1
+	}
+	faith_character_modifier = {
+		stewardship_per_piety_level = 1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_income_mult = 0.005
+		development_growth_factor = 0.01
+	}
+}
+
+barlad = {
+	county = c_province0142
+	county_holder_character_modifier = {
+		prowess = 1
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		build_speed = -0.01
+		defender_holding_advantage = 0.5
+	}
+	faith_character_modifier = {
+		prowess = 1
+		heavy_infantry_toughness_mult = 0.1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		heavy_infantry_toughness_mult = 0.01
+	}
+}
+
+plock = {
+	county = c_foothills_of_mun
+	county_holder_character_modifier = {
+		same_faith_opinion = 3
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		county_opinion_add = 1
+	}
+	faith_character_modifier = {
+		same_faith_opinion = 5
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		same_faith_opinion = 0.5
+		monthly_piety_gain_mult = 0.01
+	}
+}
+
+pokaini = {
+	county = c_crius_bay
+	county_holder_character_modifier = {
+		stress_loss_mult = 0.05
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		forest_development_growth_factor = 0.01
+		epidemic_resistance = 1
+	}
+	faith_character_modifier = {
+		controlled_province_advantage = 5
+		stress_loss_mult = 0.1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		controlled_province_advantage = 0.5
+		stress_loss_mult = 0.01
+	}
+}
+
+torun = {
+	county = c_province2128
+	county_holder_character_modifier = {
+		martial = 1
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		build_speed = -0.01
+		levy_size = 0.02
+	}
+	faith_character_modifier = {
+		martial_per_piety_level = 1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		knight_effectiveness_mult = 0.015
+	}
+}
+
+braslau = {
+	county = c_astaeus
+	county_holder_character_modifier = {
+		monthly_piety_gain_mult = 0.05
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		build_speed = -0.01
+		defender_holding_advantage = 0.5
+	}
+	faith_character_modifier = {
+		monthly_piety_gain_per_knight_add = 0.1
+		skirmishers_toughness_mult = 0.1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		skirmishers_toughness_mult = 0.01
+		monthly_piety_gain_mult = 0.01
+	}
+}
+
+rugen = {
+	county = c_iapetus_bay
+	county_holder_character_modifier = {
+		embarkation_cost_mult = -0.1
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		build_speed = -0.01
+		hostile_raid_time = 0.02
+	}
+	faith_character_modifier = {
+		embarkation_cost_mult = -0.25
+		retreat_losses = -0.1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		embarkation_cost_mult = -0.01
+		naval_movement_speed_mult = 0.01
+	}
+}
+
+pest = {
+	county = c_province0986
+	county_holder_character_modifier = {
+		martial = 1
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		build_speed = -0.01
+		garrison_size = 0.02
+	}
+	faith_character_modifier = {
+		martial = 1
+		prowess_per_prestige_level = 1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_prestige_gain_mult = 0.01
+	}
+}
+
+kerch = {
+	county = c_dioxide
+	county_holder_character_modifier = {
+		army_maintenance_mult = -0.025
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		tax_mult = 0.01
+		build_herd_cost = -0.01
+	}
+	faith_character_modifier = {
+		army_maintenance_mult = -0.05
+		martial_per_prestige_level = 1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		army_maintenance_mult = -0.005
+		max_loot_mult = 0.01
+	}
+}
+
+olvia = {
+	county = c_province1165
+	county_holder_character_modifier = {
+		monthly_piety_gain_mult = 0.05
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		epidemic_resistance = 1
+	}
+	faith_character_modifier = {
+		monthly_piety_gain_mult = 0.1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_piety_gain_mult = 0.01
+		piety_level_impact_mult = 0.01
+	}
+}
+
+poszony = {
+	county = c_province1204
+	county_holder_character_modifier = {
+		levy_reinforcement_rate = 0.1
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		build_speed = -0.01
+		levy_reinforcement_rate = 0.02
+	}
+	faith_character_modifier = {
+		levy_reinforcement_rate_same_faith = 0.2
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		levy_size = 0.005
+		same_faith_opinion = 0.5
+	}
+}
+
+sarysyn = {
+	county = c_province1063
+	county_holder_character_modifier = {
+		men_at_arms_maintenance = -0.05
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		build_speed = -0.01
+		levy_size = 0.02
+	}
+	faith_character_modifier = {
+		men_at_arms_maintenance = -0.1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		men_at_arms_maintenance = -0.005
+		monthly_income_mult = 0.005
+	}
+}
+
+kara_khorum = {
+	county = c_province0349
+	county_holder_character_modifier = {
+		diplomacy = 2
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		county_fertility_growth_mult = 0.01
+	}
+	faith_character_modifier = {
+		prowess_per_prestige_level = 1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		knight_effectiveness_mult = 0.015
+		monthly_prestige_gain_mult = 0.01
+	}
+}
+
+qayaliq = {
+	county = c_province0389
+	county_holder_character_modifier = {
+		light_cavalry_damage_mult = 0.05
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		county_fertility_growth_mult = 0.01
+	}
+	faith_character_modifier = {
+		skirmishers_damage_mult = 0.1
+		light_cavalry_damage_mult = 0.1
+		archer_cavalry_damage_mult = 0.1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		light_cavalry_damage_mult = 0.01
+		archer_cavalry_damage_mult = 0.01
+	}
+}
+
+tavan_bogd = {
+	county = c_province0359
+	county_holder_character_modifier = {
+		clergy_opinion = 3
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		county_fertility_growth_add = 0.01
+	}
+	faith_character_modifier = {
+		prowess_per_piety_level = 1
+		clergy_opinion = 5
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_piety_gain_mult = 0.01
+	}
+}
+
+preslav = {
+	county = c_province0393
+	county_holder_character_modifier = {
+		levy_size = 0.05
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		tax_mult = 0.01
+		county_fertility_growth_mult = 0.01
+	}
+	faith_character_modifier = {
+		levy_size = 0.1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		levy_size = 0.005
+		levy_reinforcement_rate = 0.01
+	}
+}
+
+athens = {
+	county = c_alba_mons
+	county_holder_character_modifier = {
+		learning = 1
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		tax_mult = 0.01
+		supply_limit_mult = 0.02
+	}
+	faith_character_modifier = {
+		diplomacy = 1
+		stewardship = 1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_lifestyle_xp_gain_mult = 0.01
+	}
+}
+
+carthage = {
+	county = c_pavonis_mons
+	county_holder_character_modifier = {
+		dread_baseline_add = 3
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		tax_mult = 0.01
+		monthly_county_control_growth_factor = 0.01
+	}
+	faith_character_modifier = {
+		dread_baseline_add = 5
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		dread_baseline_add = 0.5
+		monthly_income_mult = 0.005
+	}
+}
+
+olympus = {
+	county = c_olympus_mons
+	county_holder_character_modifier = {
+		learning = 1
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		travel_danger = -1
+	}
+	faith_character_modifier = {
+		learning = 2
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_lifestyle_xp_gain_mult = 0.01
+	}
+}
+
+kabul = {
+	county = c_province1008
+	county_holder_character_modifier = {
+		stewardship = 1
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		tax_mult = 0.01
+		county_opinion_add = 1
+	}
+	faith_character_modifier = {
+		stewardship = 1
+		monthly_piety_gain_mult = 0.05
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_piety_gain_mult = 0.01
+	}
+}
+
+multan = {
+	county = c_province1122
+	county_holder_character_modifier = {
+		martial = 1
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		build_speed = -0.01
+		garrison_size = 0.02
+	}
+	faith_character_modifier = {
+		martial = 1
+		monthly_piety_gain_mult = 0.05
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_piety_gain_mult = 0.01
+	}
+}
+
+bost = {
+	county = c_province1150
+	county_holder_character_modifier = {
+		same_faith_opinion = 3
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		hostile_raid_time = 0.02
+	}
+	faith_character_modifier = {
+		same_faith_opinion = 5
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		same_faith_opinion = 0.5
+		monthly_piety_gain_mult = 0.01
+	}
+}
+
+khotan = {
+	county = c_province1479
+	county_holder_character_modifier = {
+		different_culture_opinion = 5
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		travel_danger = -1
+	}
+	faith_character_modifier = {
+		different_culture_opinion = 10
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		cultural_head_acceptance_gain_mult = 0.015
+		monthly_income_mult = 0.005
+	}
+}
+
+balkh = {
+	county = c_province1532
+	county_holder_character_modifier = {
+		different_faith_opinion = 5
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		county_opinion_add = 1
+	}
+	faith_character_modifier = {
+		different_faith_opinion = 10
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		different_faith_opinion = 0.5
+		monthly_income_mult = 0.005
+	}
+}
+
+lhasa = {
+	county = c_province1584
+	county_holder_character_modifier = {
+		piety_standalone_gain_mult = 0.05
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		drylands_development_growth_factor = 0.01
+		travel_danger = -1
+	}
+	faith_character_modifier = {
+		monthly_piety_gain_mult = 0.1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_piety_gain_mult = 0.01
+		piety_level_impact_mult = 0.01
+	}
+}
+
+purang = {
+	county = c_province1624
+	county_holder_character_modifier = {
+		stewardship = 1
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		tax_mult = 0.01
+		county_opinion_add = 1
+	}
+	faith_character_modifier = {
+		stewardship_per_piety_level = 1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_income_mult = 0.005
+	}
+}
+
+tyumen = {
+	county = c_province1460
+	county_holder_character_modifier = {
+		martial = 1
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		build_speed = -0.01
+		defender_holding_advantage = 0.5
+	}
+	faith_character_modifier = {
+		martial_per_piety_level = 1
+		raid_speed = 0.1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		max_loot_mult = 0.01
+	}
+}
+
+surgut = {
+	county = c_province1386
+	county_holder_character_modifier = {
+		health = 0.05
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		epidemic_travel_danger = -1
+	}
+	faith_character_modifier = {
+		health = 0.1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		health = 0.01
+		stress_loss_mult = 0.01
+	}
+}
+
+ob = {
+	county = c_province0125
+	county_holder_character_modifier = {
+		fertility = 0.05
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		county_opinion_add = 1
+	}
+	faith_character_modifier = {
+		learning = 1
+		fertility = 0.1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		fertility = 0.01
+	}
+}
+
+olkhon = {
+	county = c_province1302
+	county_holder_character_modifier = {
+		monthly_piety_gain_mult = 0.05
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		epidemic_resistance = 1
+	}
+	faith_character_modifier = {
+		monthly_piety_gain_mult = 0.1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_piety_gain_mult = 0.01
+		stress_loss_mult = 0.01
+	}
+}
+
+viscaya = {
+	county = c_province1008
+	county_holder_character_modifier = {
+		martial = 1
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		hills_development_growth_factor = 0.01
+		hostile_raid_time = 0.02
+	}
+	faith_character_modifier = {
+		coastal_advantage = 8
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		coastal_advantage = 0.5
+		naval_movement_speed_mult = 0.01
+	}
+}
+
+aneto = {
+	county = c_province1063
+	county_holder_character_modifier = {
+		monthly_prestige_gain_mult = 0.05
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		mountains_development_growth_factor = 0.01
+		supply_limit_mult = 0.02
+	}
+	faith_character_modifier = {
+		monthly_prestige_gain_per_knight_add = 0.03
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_prestige_gain_mult = 0.01
+		mountains_advantage = 0.5
+	}
+}
+
+bordeaux = {
+	county = c_province1150
+	county_holder_character_modifier = {
+		monthly_county_control_growth_factor = 0.1
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		tax_mult = 0.01
+		monthly_county_control_growth_factor = 0.01
+	}
+	faith_character_modifier = {
+		monthly_county_control_growth_factor = 0.5
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_county_control_growth_factor = 0.02
+		monthly_income_mult = 0.005
+	}
+}
+
+awkar = {
+	county = c_province0986
+	county_holder_character_modifier = {
+		knight_effectiveness_mult = 0.05
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		build_speed = -0.01
+		garrison_size = 0.02
+	}
+	faith_character_modifier = {
+		knight_limit = 1
+		light_cavalry_toughness_mult = 0.1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		light_cavalry_toughness_mult = 0.01
+		knight_effectiveness_mult = 0.01
+	}
+}
+
+jenne = {
+	county = c_province0933
+	county_holder_character_modifier = {
+		councillor_opinion = 3
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		tax_mult = 0.01
+		hostile_raid_time = 0.02
+	}
+	faith_character_modifier = {
+		diplomacy = 1
+		councillor_opinion = 5
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_income_mult = 0.005
+	}
+}
+
+niani = {
+	county = c_province1063
+	county_holder_character_modifier = {
+		vassal_opinion = 5
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		tax_mult = 0.01
+		county_opinion_add = 1
+	}
+	faith_character_modifier = {
+		monthly_tyranny = -0.1
+		tyranny_gain_mult = -0.2
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		vassal_opinion = 0.5
+		monthly_prestige_gain_mult = 0.01
+	}
+}
+
+kukiya = {
+	county = c_dioxide
+	county_holder_character_modifier = {
+		monthly_prestige_gain_mult = 0.05
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		county_opinion_add = 1
+	}
+	faith_character_modifier = {
+		monthly_piety_gain_per_knight_mult = 0.01
+		monthly_prestige_gain_per_knight_mult = 0.01
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_prestige_gain_mult = 0.01
+		monthly_piety_gain_mult = 0.01
+	}
+}
+
+wadan = {
+	county = c_province1357
+	county_holder_character_modifier = {
+		martial = 1
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		build_speed = -0.01
+		levy_size = 0.02
+	}
+	faith_character_modifier = {
+		martial = 1
+		supply_duration = 0.25
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		supply_duration = 0.015
+	}
+}
+
+daura = {
+	county = c_province0355
+	county_holder_character_modifier = {
+		knight_effectiveness_mult = 0.05
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		build_speed = -0.01
+		garrison_size = 0.02
+	}
+	faith_character_modifier = {
+		monthly_prestige_gain_per_knight_mult = 0.02
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		knight_effectiveness_mult = 0.01
+		monthly_prestige_gain_mult = 0.01
+	}
+}
+
+garumele = {
+	county = c_province1139
+	county_holder_character_modifier = {
+		county_opinion_add = 3
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		tax_mult = 0.01
+		garrison_size = 0.02
+	}
+	faith_character_modifier = {
+		county_opinion_add = 5
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_county_control_growth_factor = 0.01
+		monthly_income_mult = 0.005
+	}
+}
+
+igbo = {
+	county = c_province1556
+	county_holder_character_modifier = {
+		learning = 1
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		epidemic_resistance = 1
+	}
+	faith_character_modifier = {
+		learning_per_piety_level = 1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_lifestyle_xp_gain_mult = 0.01
+	}
+}
+
+el_fasher = {
+	county = c_province0573
+	county_holder_character_modifier = {
+		stewardship = 1
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		tax_mult = 0.01
+		supply_limit_mult = 0.02
+	}
+	faith_character_modifier = {
+		stewardship_per_piety_level = 1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_income_mult = 0.005
+	}
+}
+
+wandala = {
+	county = c_province0518
+	county_holder_character_modifier = {
+		martial = 1
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		drylands_development_growth_factor = 0.01
+		hostile_raid_time = 0.02
+	}
+	faith_character_modifier = {
+		drylands_advantage = 5
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		drylands_advantage = 0.5
+		supply_duration = 0.01
+	}
+}
+
+kisi = {
+	county = c_province1165
+	county_holder_character_modifier = {
+		monthly_prestige_gain_mult = 0.05
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		tax_mult = 0.01
+		hostile_raid_time = 0.02
+	}
+	faith_character_modifier = {
+		monthly_prestige_gain_per_knight_mult = 0.02
+		build_prestige_cost = -0.2
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_prestige_gain_mult = 0.01
+		prestige_level_impact_mult = 0.01
+	}
+}
+
+sherbro = {
+	county = c_province0338
+	county_holder_character_modifier = {
+		same_faith_opinion = 5
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		monthly_county_control_growth_factor = 0.01
+	}
+	faith_character_modifier = {
+		same_faith_opinion = 10
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		same_faith_opinion = 0.5
+		monthly_piety_gain_mult = 0.01
+	}
+}
+
+kayor = {
+	county = c_province0984
+	county_holder_character_modifier = {
+		diplomacy = 1
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		tax_mult = 0.01
+		monthly_county_control_growth_factor = 0.01
+	}
+	faith_character_modifier = {
+		owned_personal_scheme_success_chance_add = 5
+		diplomacy = 1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		owned_personal_scheme_success_chance_growth_add = 0.5
+	}
+}
+
+kasa = {
+	county = c_province0807
+	county_holder_character_modifier = {
+		diplomacy = 1
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		epidemic_resistance = 1
+	}
+	faith_character_modifier = {
+		diplomacy_per_piety_level = 1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_piety_gain_mult = 0.01
+	}
+}
+
+bono = {
+	county = c_province0570
+	county_holder_character_modifier = {
+		men_at_arms_maintenance = -0.025
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		build_speed = -0.01
+		levy_size = 0.02
+	}
+	faith_character_modifier = {
+		men_at_arms_maintenance = -0.05
+		personal_scheme_phase_duration_add = miniscule_scheme_phase_duration_bonus_value
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		men_at_arms_maintenance = -0.005
+		monthly_income_mult = 0.005
+	}
+}
+
+kumasi = {
+	county = c_province1974
+	county_holder_character_modifier = {
+		learning = 1
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		tax_mult = 0.01
+		county_opinion_add = 1
+	}
+	faith_character_modifier = {
+		learning = 1
+		short_reign_duration_mult = -0.25
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		long_reign_bonus_mult = 0.01
+	}
+}
+
+ife = {
+	county = c_province1367
+	county_holder_character_modifier = {
+		monthly_piety_gain_mult = 0.05
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		epidemic_resistance = 1
+	}
+	faith_character_modifier = {
+		monthly_piety_gain_mult = 0.1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_piety_gain_mult = 0.01
+		piety_level_impact_mult = 0.01
+	}
+}
+
+nikki = {
+	county = c_province1470
+	county_holder_character_modifier = {
+		learning = 1
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		epidemic_resistance = 1
+	}
+	faith_character_modifier = {
+		learning_per_piety_level = 1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_lifestyle_xp_gain_mult = 0.01
+	}
+}
+
+aswan = {
+	county = c_jungusalem
+	county_holder_character_modifier = {
+		stewardship = 1
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		tax_mult = 0.01
+		supply_limit_mult = 0.02
+	}
+	faith_character_modifier = {
+		stewardship_per_piety_level = 1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_income_mult = 0.005
+	}
+}
+
+wadi_el_milk = {
+	county = c_northern_oasis
+	parameters = { wadi_el_milk_conversion_resistance_bonus }
+	county_holder_character_modifier = {
+		county_opinion_add = 5
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		desert_development_growth_factor = 0.01
+		monthly_county_control_growth_factor = 0.01
+	}
+	faith_character_modifier = {
+		same_faith_opinion = 5
+		monthly_piety_gain_mult = 0.05
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		different_faith_opinion = 0.5
+		monthly_piety_gain_mult = 0.01
+	}
+}
+
+naqis = {
+	county = c_northern_jungle
+	county_holder_character_modifier = {
+		martial = 1
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		build_speed = -0.01
+		garrison_size = 0.02
+	}
+	faith_character_modifier = {
+		martial = 2
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		knight_effectiveness_mult = 0.01
+	}
+}
+
+sennar = {
+	county = c_southern_jungles
+	county_holder_character_modifier = {
+		diplomacy = 1
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		monthly_county_control_growth_factor = 0.01
+	}
+	faith_character_modifier = {
+		diplomacy = 2
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_prestige_gain_mult = 0.01
+	}
+}
+
+tenerife = {
+	county = c_province1190
+	county_holder_character_modifier = {
+		hills_development_growth_factor = 0.1
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		hills_development_growth_factor = 0.01
+		supply_limit_mult = 0.02
+	}
+	faith_character_modifier = {
+		hills_development_growth_factor = 0.25
+		monthly_piety_gain_per_dread_add = 0.03
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		hills_development_growth_factor = 0.015
+		dread_gain_mult = 0.01
+	}
+}
+
+cartagena = {
+	county = c_province0461
+	county_holder_character_modifier = {
+		title_creation_cost_mult = -0.05
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		build_speed = -0.01
+		levy_size = 0.02
+	}
+	faith_character_modifier = {
+		title_creation_cost_mult = -0.15
+		men_at_arms_maintenance_per_dread_mult = -0.002
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		title_creation_cost_mult = -0.01
+		dread_gain_mult = 0.01
+	}
+}
+
+madiera = {
+	county = c_province1463
+	county_holder_character_modifier = {
+		naval_movement_speed_mult = 0.1
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		hills_development_growth_factor = 0.01
+		supply_limit_mult = 0.02
+	}
+	faith_character_modifier = {
+		naval_movement_speed_mult = 0.2
+		coastal_advantage = 5
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		naval_movement_speed_mult = 0.01
+		embarkation_cost_mult = -0.01
+	}
+}
+
+danakil = {
+	county = c_province0691
+	county_holder_character_modifier = {
+		learning = 1
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		tax_mult = 0.01
+		monthly_county_control_growth_factor = 0.01
+	}
+	faith_character_modifier = {
+		learning = 1
+		personal_scheme_phase_duration_add = miniscule_scheme_phase_duration_bonus_value
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_lifestyle_xp_gain_mult = 0.01
+		owned_personal_scheme_success_chance_growth_add = 0.5
+	}
+}
+
+kaffa = {
+	county = c_province1794
+	county_holder_character_modifier = {
+		martial = 1
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		build_speed = -0.01
+		levy_size = 0.02
+	}
+	faith_character_modifier = {
+		martial_per_piety_level = 1
+		raid_speed = 0.1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		max_loot_mult = 0.01
+	}
+}
+
+harar = {
+	county = c_province1639
+	county_holder_character_modifier = {
+		monthly_piety_gain_mult = 0.05
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		travel_danger = -1
+	}
+	faith_character_modifier = {
+		monthly_piety_gain_mult = 0.1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_piety_gain_mult = 0.01
+		piety_level_impact_mult = 0.01
+	}
+}
+
+makhir = {
+	county = c_province1655
+	county_holder_character_modifier = {
+		diplomacy = 1
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		county_opinion_add = 1
+	}
+	faith_character_modifier = {
+		diplomacy = 2
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_prestige_gain_mult = 0.01
+	}
+}
+
+mogadishu = {
+	county = c_province0091
+	county_holder_character_modifier = {
+		clergy_opinion = 3
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		tax_mult = 0.01
+		supply_limit_mult = 0.02
+	}
+	faith_character_modifier = {
+		clergy_opinion = 5
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_piety_gain_mult = 0.01
+		monthly_income_mult = 0.005
+	}
+}
+
+kirinyaga = {
+	county = c_province0481
+	county_holder_character_modifier = {
+		health = 0.05
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		county_opinion_add = 1
+	}
+	faith_character_modifier = {
+		health = 0.1
+		monthly_piety_gain_mult = 0.05
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		health = 0.01
+		monthly_piety_gain_mult = 0.01
+	}
+}
+
+mangea = {
+	county = c_province1751
+	county_holder_character_modifier = {
+		direct_vassal_opinion = 3
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		monthly_county_control_growth_factor = 0.01
+	}
+	faith_character_modifier = {
+		direct_vassal_opinion = 5
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_prestige_gain_mult = 0.01
+	}
+}
+
+kilimanjaro = {
+	county = c_province0034
+	county_holder_character_modifier = {
+		prowess = 2
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		desert_mountains_development_growth_factor = 0.01
+		defender_holding_advantage = 0.5
+	}
+	faith_character_modifier = {
+		controlled_province_advantage = 5
+		prowess_per_piety_level = 1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		controlled_province_advantage = 0.5
+	}
+}
+
+gilgit = {
+	county = c_province1696
+	county_holder_character_modifier = {
+		martial = 1
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		build_speed = -0.01
+		levy_size = 0.02
+	}
+	faith_character_modifier = {
+		martial = 1
+		stewardship = 1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		mountains_advantage = 0.5
+		levy_size = 0.005
+	}
+}
+
+nakkavaram = {
+	county = c_province1716
+	county_holder_character_modifier = {
+		build_gold_cost = -0.05
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		build_gold_cost = -0.01
+		hostile_raid_time = 0.02
+	}
+	faith_character_modifier = {
+		build_gold_cost = -0.1
+		stewardship = 1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		build_gold_cost = -0.005
+	}
+}
+
+ar_kol = {
+	county = c_province0671
+	county_holder_character_modifier = {
+		jungle_tax_mult = 0.05
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		jungle_development_growth_factor = 0.01
+		garrison_size = 0.02
+	}
+	faith_character_modifier = {
+		jungle_tax_mult = 0.15
+		monthly_piety_gain_mult = 0.05
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_piety_gain_mult = 0.01
+		monthly_income_mult = 0.005
+	}
+}
+
+mount_heng = {
+	county = c_province0853
+	county_holder_character_modifier = {
+		direct_vassal_opinion = 3
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		epidemic_resistance = 1
+	}
+	faith_character_modifier = {
+		direct_vassal_opinion = 5
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_piety_gain_mult = 0.01
+	}
+}
+
+mount_longhu = {
+	county = c_province0573
+	county_holder_character_modifier = {
+		clergy_opinion = 3
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		tax_mult = 0.01
+		county_opinion_add = 1
+	}
+	faith_character_modifier = {
+		clergy_opinion = 5
+		personal_scheme_phase_duration_add = minor_scheme_phase_duration_bonus_value
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_piety_gain_mult = 0.01
+	}
+}
+
+mount_qingcheng = {
+	county = c_everest
+	county_holder_character_modifier = {
+		life_expectancy = 1
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		epidemic_travel_danger = -1
+	}
+	faith_character_modifier = {
+		life_expectancy = 1
+		monthly_diplomacy_lifestyle_xp_gain_mult = 0.15
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		health = 0.01
+		stress_loss_mult = 0.01
+	}
+}
+
+mount_tai = {
+	county = c_planum_australe
+	county_holder_character_modifier = {
+		monthly_piety_gain_mult = 0.025
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		travel_danger = -1
+	}
+	faith_character_modifier = {
+		learning = 1
+		monthly_piety_gain_mult = 0.05
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_piety_gain_mult = 0.01
+	}
+}
+
+mount_mian = {
+	county = c_province0566
+	county_holder_character_modifier = {
+		martial = 1
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		build_speed = -0.01
+		defender_holding_advantage = 0.5
+	}
+	faith_character_modifier = {
+		martial_per_piety_level = 1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		knight_effectiveness_mult = 0.01
+	}
+}
+
+mount_wudang = {
+	county = c_pavonis_mons
+	county_holder_character_modifier = {
+		prowess = 2
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		build_speed = -0.01
+		defender_holding_advantage = 0.5
+	}
+	faith_character_modifier = {
+		martial = 1
+		prowess_per_prestige_level = 1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		knight_effectiveness_mult = 0.01
+	}
+}
+
+mount_qiyung = {
+	county = c_province0112
+	county_holder_character_modifier = {
+		learning = 1
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		travel_danger = -1
+	}
+	faith_character_modifier = {
+		learning = 2
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_lifestyle_xp_gain_mult = 0.01
+	}
+}
+
+luyi = {
+	county = c_province1063
+	county_holder_character_modifier = {
+		monthly_piety_gain_mult = 0.05
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		travel_danger = -1
+	}
+	faith_character_modifier = {
+		learning = 1
+		monthly_piety = 1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_piety_gain_mult = 0.01
+	}
+}
+
+fuji = {
+	county = c_province0442
+	county_holder_character_modifier = {
+		councillor_opinion = 3
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		county_opinion_add = 1
+	}
+	faith_character_modifier = {
+		councillor_opinion = 5
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_prestige_gain_mult = 0.01
+	}
+}
+
+ise_jingu = {
+	county = c_province0889
+	county_holder_character_modifier = {
+		learning = 1
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		epidemic_resistance = 1
+	}
+	faith_character_modifier = {
+		learning_per_piety_level = 1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_piety_gain_mult = 0.01
+	}
+}
+
+itsukushima = {
+	county = c_province0812
+	county_holder_character_modifier = {
+		knight_effectiveness_mult = 0.05
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		plains_development_growth_factor = 0.01
+		levy_size = 0.02
+	}
+	faith_character_modifier = {
+		knight_effectiveness_mult = 0.1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		knight_effectiveness_mult = 0.015
+		coastal_advantage = 0.5
+	}
+}
+
+hachimangu = {
+	county = c_province0835
+	county_holder_character_modifier = {
+		men_at_arms_maintenance = -0.025
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		build_speed = -0.01
+		levy_size = 0.02
+	}
+	faith_character_modifier = {
+		men_at_arms_maintenance = -0.05
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		men_at_arms_maintenance = -0.005
+		knight_effectiveness_mult = 0.01
+	}
+}
+
+wutai = {
+	county = c_province1948
+	county_holder_character_modifier = {
+		learning = 1
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		county_opinion_add = 1
+	}
+	faith_character_modifier = {
+		learning = 2
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_lifestyle_xp_gain_mult = 0.01
+	}
+}
+
+wenang = {
+	county = c_province2011
+	county_holder_character_modifier = {
+		stewardship = 1
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		tax_mult = 0.01
+		supply_limit_mult = 0.02
+	}
+	faith_character_modifier = {
+		stewardship_per_piety_level = 1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_income_mult = 0.005
+	}
+}
+
+siang = {
+	county = c_province1213
+	county_holder_character_modifier = {
+		martial = 1
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		build_speed = -0.01
+		defender_holding_advantage = 0.5
+	}
+	faith_character_modifier = {
+		martial = 1
+		clergy_opinion = 5
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_piety_gain_mult = 0.01
+	}
+}
+
+tengchong = {
+	county = c_province1866
+	county_holder_character_modifier = {
+		clergy_opinion = 3
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		tax_mult = 0.01
+		county_opinion_add = 1
+	}
+	faith_character_modifier = {
+		clergy_opinion = 5
+		personal_scheme_phase_duration_add = minor_scheme_phase_duration_bonus_value
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_piety_gain_mult = 0.01
+	}
+}
+
+dali = {
+	county = c_province2151
+	county_holder_character_modifier = {
+		knight_effectiveness_mult = 0.05
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		build_speed = -0.01
+		defender_holding_advantage = 0.5
+	}
+	faith_character_modifier = {
+		prowess_per_prestige_level = 1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		knight_effectiveness_mult = 0.015
+		monthly_prestige_gain_mult = 0.01
+	}
+}
+
+jinglong = {
+	county = c_province0669
+	county_holder_character_modifier = {
+		martial = 1
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		hills_development_growth_factor = 0.01
+		levy_reinforcement_rate = 0.02
+	}
+	faith_character_modifier = {
+		jungle_advantage = 3
+		supply_duration = 0.1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		jungle_advantage = 0.5
+		supply_duration = 0.01
+	}
+}
+
+zhaotong = {
+	county = c_province0445
+	county_holder_character_modifier = {
+		knight_effectiveness_mult = 0.05
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		build_speed = -0.01
+		levy_size = 0.02
+	}
+	faith_character_modifier = {
+		knight_limit = 1
+		light_cavalry_toughness_mult = 0.1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		light_cavalry_toughness_mult = 0.01
+		knight_effectiveness_mult = 0.01
+	}
+}
+
+xuhen = {
+	county = c_province1403
+	county_holder_character_modifier = {
+		tributary_opinion = 3
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		tax_mult = 0.01
+		hostile_raid_time = 0.02
+	}
+	faith_character_modifier = {
+		tributary_opinion = 5
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_income_mult = 0.005
+	}
+}
+
+chang_an = {
+	county = c_province1064
+	county_holder_character_modifier = {
+		monthly_piety_gain_mult = 0.05
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		county_opinion_add = 1
+	}
+	faith_character_modifier = {
+		monthly_piety_gain_mult = 0.1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_piety_gain_mult = 0.01
+		cultural_head_fascination_mult = 0.01
+	}
+}
+
+cotabato = {
+	county = c_province0842
+	county_holder_character_modifier = {
+		tributary_opinion = 3
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		tax_mult = 0.01
+		county_opinion_add = 1
+	}
+	faith_character_modifier = {
+		learning = 1
+		tributary_opinion = 5
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_income_mult = 0.005
+	}
+}
+
+biri_larosa = {
+	county = c_province1884
+	county_holder_character_modifier = {
+		monthly_piety_gain_mult = 0.05
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		travel_danger = -1
+	}
+	faith_character_modifier = {
+		monthly_piety_gain_mult = 0.1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_piety_gain_mult = 0.01
+		piety_level_impact_mult = 0.01
+	}
+}
+
+pinatubo = {
+	county = c_province1950
+	county_holder_character_modifier = {
+		jungle_tax_mult = 0.05
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		plains_development_growth_factor = 0.01
+		garrison_size = 0.02
+	}
+	faith_character_modifier = {
+		jungle_tax_mult = 0.15
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_income_mult = 0.005
+		dread_baseline_add = 0.5
+	}
+}
+
+ivatan = {
+	county = c_province1374
+	county_holder_character_modifier = {
+		same_faith_opinion = 5
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		build_speed = -0.01
+		levy_reinforcement_rate = 0.02
+	}
+	faith_character_modifier = {
+		same_faith_opinion = 10
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		same_faith_opinion = 0.5
+		naval_movement_speed_mult = 0.01
+	}
+}
+
+mantalingajan = {
+	county = c_province0977
+	county_holder_character_modifier = {
+		monthly_prestige_gain_mult = 0.05
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		tax_mult = 0.01
+		hostile_raid_time = 0.02
+	}
+	faith_character_modifier = {
+		monthly_prestige_gain_per_knight_mult = 0.01
+		build_prestige_cost = -0.15
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_prestige_gain_mult = 0.01
+		prestige_level_impact_mult = 0.01
+	}
+}
+
+vien_chan = {
+	county = c_province0291
+	county_holder_character_modifier = {
+		diplomacy = 1
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		tax_mult = 0.01
+		county_opinion_add = 1
+	}
+	faith_character_modifier = {
+		sway_scheme_phase_duration_add = minor_scheme_phase_duration_bonus_value
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		owned_personal_scheme_success_chance_growth_add = 0.5
+	}
+}
+
+hsenwi = {
+	county = c_province0560
+	county_holder_character_modifier = {
+		intrigue = 1
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		tax_mult = 0.01
+		monthly_county_control_growth_factor = 0.01
+	}
+	faith_character_modifier = {
+		personal_scheme_phase_duration_add = minor_scheme_phase_duration_bonus_value
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		scheme_discovery_chance_mult = 0.01
+	}
+}
+
+sukhothai = {
+	county = c_province0284
+	county_holder_character_modifier = {
+		intrigue = 1
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		tax_mult = 0.01
+		monthly_county_control_growth_factor = 0.01
+	}
+	faith_character_modifier = {
+		owned_personal_scheme_success_chance_add = 5
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		owned_personal_scheme_success_chance_growth_add = 0.5
+	}
+}
+
+cao_bang = {
+	county = c_province0522
+	county_holder_character_modifier = {
+		intrigue = 1
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		tax_mult = 0.01
+		monthly_county_control_growth_factor = 0.01
+	}
+	faith_character_modifier = {
+		intrigue = 1
+		scheme_discovery_chance_mult = 0.1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		enemy_hostile_scheme_success_chance_growth_add = -0.5
+	}
+}
+
+molihewen = {
+	county = c_province1590
+	county_holder_character_modifier = {
+		prowess = 2
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		build_speed = -0.01
+		defender_holding_advantage = 0.5
+	}
+	faith_character_modifier = {
+		prowess_per_piety_level = 1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_piety_gain_mult = 0.01
+	}
+}
+
+yam_alin = {
+	county = c_province1199
+	county_holder_character_modifier = {
+		martial = 1
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		build_speed = -0.01
+		defender_holding_advantage = 0.5
+	}
+	faith_character_modifier = {
+		martial = 1
+		supply_duration = 0.1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		supply_duration = 0.01
+	}
+}
+
+chupka = {
+	county = c_province1151
+	county_holder_character_modifier = {
+		martial = 1
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		mountains_development_growth_factor = 0.01
+		defender_holding_advantage = 0.5
+	}
+	faith_character_modifier = {
+		controlled_province_advantage = 5
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		controlled_province_advantage = 0.5
+		defender_advantage = 0.5
+	}
+}
+
+yizhou = {
+	county = c_province0556
+	county_holder_character_modifier = {
+		levy_size = 0.05
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		build_speed = -0.01
+		hostile_raid_time = 0.02
+	}
+	faith_character_modifier = {
+		levy_size = 0.1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		levy_size = 0.005
+		levy_reinforcement_rate = 0.01
+	}
+}
+
+amandee = {
+	county = c_province1594
+	county_holder_character_modifier = {
+		mountains_development_growth_factor = 0.1
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		hills_development_growth_factor = 0.01
+		supply_limit_mult = 0.02
+	}
+	faith_character_modifier = {
+		mountains_development_growth_factor = 0.2
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		monthly_income_mult = 0.005
+	}
+}
+
+sefa_utaki = {
+	county = c_province1250
+	county_holder_character_modifier = {
+		martial = 1
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		hills_development_growth_factor = 0.01
+		hostile_raid_time = 0.02
+	}
+	faith_character_modifier = {
+		mountains_advantage = 5
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		mountains_advantage = 0.5
+		supply_duration = 0.01
+	}
+}
+
+iban = {
+	county = c_province0911
+	county_holder_character_modifier = {
+		martial = 1
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		build_speed = -0.01
+		defender_holding_advantage = 0.5
+	}
+	faith_character_modifier = {
+		martial = 1
+		supply_duration = 0.25
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		supply_duration = 0.015
+	}
+}
+
+kudat = {
+	county = c_province1912
+	county_holder_character_modifier = {
+		martial = 1
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		plains_development_growth_factor = 0.01
+		supply_limit_mult = 0.02
+	}
+	faith_character_modifier = {
+		jungle_advantage = 5
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		jungle_advantage = 0.5
+		supply_duration = 0.01
+	}
+}
+
+taiao = {
+	county = c_province1248
+	county_holder_character_modifier = {
+		prowess = 1
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		plains_development_growth_factor = 0.01
+		levy_size = 0.02
+	}
+	faith_character_modifier = {
+		advantage_against_coreligionists = 2
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		advantage_against_coreligionists = 0.25
+	}
+}
+
+sukadana = {
+	county = c_province0849
+	county_holder_character_modifier = {
+		councillor_opinion = 3
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		tax_mult = 0.01
+		hostile_raid_time = 0.02
+	}
+	faith_character_modifier = {
+		courtier_and_guest_opinion = 5
+		councillor_opinion = 5
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_income_mult = 0.005
+	}
+}
+
+kutai = {
+	county = c_province0769
+	county_holder_character_modifier = {
+		prowess = 2
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		build_speed = -0.01
+		defender_holding_advantage = 0.5
+	}
+	faith_character_modifier = {
+		prowess_per_piety_level = 1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_piety_gain_mult = 0.01
+	}
+}
+
+qufu = {
+	county = c_province2103
+	county_holder_character_modifier = {
+		legitimacy_gain_mult = 0.05
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		tax_mult = 0.01
+		county_opinion_add = 1
+	}
+	faith_character_modifier = {
+		legitimacy_gain_mult = 0.1
+		monthly_merit_mult = 0.05
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		legitimacy_gain_mult = 0.01
+		monthly_lifestyle_xp_gain_mult = 0.01
+	}
+}
+
+bianliang = {
+	county = c_province0282
+	county_holder_character_modifier = {
+		councillor_opinion = 3
+		merit_standalone_gain_mult = 0.05
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		tax_mult = 0.01
+		hostile_raid_time = 0.02
+	}
+	faith_character_modifier = {
+		courtier_and_guest_opinion = 5
+		councillor_opinion = 5
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_income_mult = 0.005
+	}
+}
+
+qiongzhou = {
+	county = c_province1087
+	county_holder_character_modifier = {
+		monthly_county_control_growth_factor = 0.05
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		mountains_development_growth_factor = 0.01
+		defender_holding_advantage = 0.5
+	}
+	faith_character_modifier = {
+		controlled_province_advantage = 5
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		controlled_province_advantage = 0.5
+		monthly_county_control_growth_factor = 0.01
+	}
+}
+
+amparita = {
+	county = c_province1051
+	county_holder_character_modifier = {
+		jungle_tax_mult = 0.05
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		wetlands_development_growth_factor = 0.01
+		supply_limit_mult = 0.02
+	}
+	faith_character_modifier = {
+		jungle_tax_mult = 0.1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_income_mult = 0.005
+		development_growth_factor = 0.01
+	}
+}
+
+buru-sula = {
+	county = c_province0174
+	county_holder_character_modifier = {
+		stewardship = 1
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		tax_mult = 0.01
+		supply_limit_mult = 0.02
+	}
+	faith_character_modifier = {
+		stewardship = 1
+		monthly_income_mult = 0.05
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_income_mult = 0.005
+	}
+}
+
+papua_selatan = {
+	county = c_province1612
+	county_holder_character_modifier = {
+		dread_gain_mult = 0.05
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		tax_mult = 0.01
+		monthly_county_control_growth_factor = 0.01
+	}
+	faith_character_modifier = {
+		dread_gain_mult = 0.1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		dread_gain_mult = 0.01
+		dread_baseline_add = 0.5
+	}
+}
+
+kepala_burung = {
+	county = c_province0073
+	county_holder_character_modifier = {
+		vassal_opinion = 5
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		tax_mult = 0.01
+		county_opinion_add = 1
+	}
+	faith_character_modifier = {
+		monthly_tyranny = -0.1
+		tyranny_gain_mult = -0.2
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		vassal_opinion = 0.5
+		monthly_prestige_gain_mult = 0.01
+	}
+}
+
+hoanya = {
+	county = c_province1833
+	county_holder_character_modifier = {
+		development_growth_factor = 0.05
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		tax_mult = 0.01
+		supply_limit_mult = 0.02
+	}
+	faith_character_modifier = {
+		development_growth_factor = 0.1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		monthly_income_mult = 0.005
+	}
+}
+
+sonba_i = {
+	county = c_province0218
+	county_holder_character_modifier = {
+		learning = 1
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		county_opinion_add = 1
+	}
+	faith_character_modifier = {
+		learning = 2
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_lifestyle_xp_gain_mult = 0.01
+	}
+}
+
+riak_nan_berbedur = {
+	county = c_province0312
+	county_holder_character_modifier = {
+		monthly_prestige_gain_mult = 0.05
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		monthly_county_control_growth_factor = 0.01
+	}
+	faith_character_modifier = {
+		monthly_prestige_gain_mult = 0.1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_prestige_gain_mult = 0.01
+		prestige_level_impact_mult = 0.01
+	}
+}
+
+gangganegara = {
+	county = c_province1342
+	county_holder_character_modifier = {
+		same_faith_opinion = 5
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		tax_mult = 0.01
+		county_opinion_add = 1
+	}
+	faith_character_modifier = {
+		county_opinion_add = 10
+		same_faith_opinion = 10
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		same_faith_opinion = 0.5
+		monthly_county_control_growth_factor = 0.01
+	}
+}
+
+nutapkauspe = {
+	county = c_province0330
+	county_holder_character_modifier = {
+		men_at_arms_maintenance = -0.025
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		build_speed = -0.01
+		levy_size = 0.02
+	}
+	faith_character_modifier = {
+		supply_duration = 0.2
+		men_at_arms_maintenance = -0.05
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		supply_duration = 0.015
+		men_at_arms_maintenance = -0.005
+	}
+}
+
+makkarinupuri = {
+	county = c_province1689
+	county_holder_character_modifier = {
+		martial = 1
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		hills_development_growth_factor = 0.01
+		supply_limit_mult = 0.02
+	}
+	faith_character_modifier = {
+		controlled_province_advantage = 5
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		controlled_province_advantage = 0.5
+		defender_advantage = 0.5
+	}
+}
+
+tarayka = {
+	county = c_province2160
+	county_holder_character_modifier = {
+		same_faith_opinion = 3
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		hostile_raid_time = 0.02
+	}
+	faith_character_modifier = {
+		same_faith_opinion = 5
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		same_faith_opinion = 0.5
+		monthly_piety_gain_mult = 0.01
+	}
+}
+
+kamuykotan = {
+	county = c_province0898
+	county_holder_character_modifier = {
+		development_growth_factor = 0.05
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		tax_mult = 0.01
+		hostile_raid_time = 0.02
+	}
+	faith_character_modifier = {
+		development_growth_factor = 0.1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		monthly_income_mult = 0.005
+	}
+}
+
+hitakami = {
+	county = c_province1275
+	county_holder_character_modifier = {
+		learning = 1
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		epidemic_resistance = 1
+	}
+	faith_character_modifier = {
+		cultural_head_fascination_mult = 0.15
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		cultural_head_fascination_mult = 0.01
+	}
+}
+
+nanning = {
+	county = c_province2175
+	county_holder_character_modifier = {
+		title_creation_cost_mult = -0.05
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		tax_mult = 0.01
+		garrison_size = 0.02
+	}
+	faith_character_modifier = {
+		title_creation_cost_mult = -0.15
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		title_creation_cost_mult = -0.01
+		monthly_prestige_gain_mult = 0.01
+	}
+}
+
+muze = {
+	county = c_province0818
+	county_holder_character_modifier = {
+		learning = 1
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		county_opinion_add = 1
+	}
+	faith_character_modifier = {
+		learning = 1
+		negate_learning_penalty_add = 2
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_lifestyle_xp_gain_mult = 0.01
+	}
+}
+
+sizhou = {
+	county = c_province0811
+	county_holder_character_modifier = {
+		monthly_prestige_gain_mult = 0.05
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		county_opinion_add = 1
+	}
+	faith_character_modifier = {
+		monthly_prestige_gain_mult = 0.1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_prestige_gain_mult = 0.01
+		prestige_level_impact_mult = 0.01
+	}
+}
+
+daozhou = {
+	county = c_province1274
+	county_holder_character_modifier = {
+		development_growth_factor = 0.05
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		tax_mult = 0.01
+		hostile_raid_time = 0.02
+	}
+	faith_character_modifier = {
+		development_growth_factor = 0.1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		monthly_income_mult = 0.005
+	}
+}
+
+anlong = {
+	county = c_province0997
+	county_holder_character_modifier = {
+		knight_effectiveness_mult = 0.05
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		build_speed = -0.01
+		garrison_size = 0.02
+	}
+	faith_character_modifier = {
+		knight_effectiveness_mult = 0.1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		knight_effectiveness_mult = 0.015
+	}
+}
+
+haripunjaya = {
+	county = c_province2149
+	county_holder_character_modifier = {
+		learning = 1
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		travel_danger = -1
+	}
+	faith_character_modifier = {
+		cultural_head_fascination_mult = 0.15
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		cultural_head_fascination_mult = 0.01
+	}
+}
+
+nguu_hong = {
+	county = c_province0532
+	county_holder_character_modifier = {
+		monthly_piety_gain_mult = 0.05
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		travel_danger = -1
+	}
+	faith_character_modifier = {
+		monthly_piety_gain_mult = 0.1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_piety_gain_mult = 0.01
+		piety_level_impact_mult = 0.01
+	}
+}
+
+yangtze = {
+	county = c_province1183
+	county_holder_character_modifier = {
+		dynasty_house_opinion = 3
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		hostile_raid_time = 0.02
+	}
+	faith_character_modifier = {
+		same_faith_opinion = 10
+		dynasty_house_opinion = 5
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		same_faith_opinion = 0.5
+		house_relation_change_mult = 0.01
+	}
+}
+
+zunyi = {
+	county = c_province1832
+	county_holder_character_modifier = {
+		levy_reinforcement_rate = 0.1
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		build_speed = -0.01
+		hostile_raid_time = 0.02
+	}
+	faith_character_modifier = {
+		levy_reinforcement_rate_same_faith = 0.2
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		levy_size = 0.005
+		same_faith_opinion = 0.5
+	}
+}
+
+baekdu = {
+	county = c_province2010
+	county_holder_character_modifier = {
+		mountains_tax_mult = 0.05
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		mountains_development_growth_factor = 0.01
+		county_opinion_add = 1
+	}
+	faith_character_modifier = {
+		mountains_tax_mult = 0.15
+		stress_loss_mult = 0.1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		stress_loss_mult = 0.01
+		monthly_income_mult = 0.005
+	}
+}
+
+taebaek = {
+	county = c_mecca
+	county_holder_character_modifier = {
+		prestige_standalone_gain_mult = 0.05
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		county_opinion_add = 1
+	}
+	faith_character_modifier = {
+		monthly_prestige_gain_mult = 0.1
+		same_faith_opinion = 5
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_prestige_gain_mult = 0.01
+		same_faith_opinion = 0.5
+	}
+}
+
+halla = {
+	county = c_province2043
+	county_holder_character_modifier = {
+		fertility = 0.05
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		epidemic_travel_danger = -1
+	}
+	faith_character_modifier = {
+		fertility = 0.1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		fertility = 0.01
+		monthly_lifestyle_xp_gain_mult = 0.01
+	}
+}
+
+mani = {
+	county = c_province1539
+	county_holder_character_modifier = {
+		legitimacy_gain_mult = 0.05
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		tax_mult = 0.01
+		garrison_size = 0.02
+	}
+	faith_character_modifier = {
+		legitimacy_gain_mult = 0.1
+		county_opinion_add = 5
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		legitimacy_gain_mult = 0.01
+		monthly_prestige_gain_mult = 0.01
+	}
+}
+
+seorak = {
+	county = c_province0231
+	county_holder_character_modifier = {
+		different_faith_opinion = 5
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		travel_danger = -1
+	}
+	faith_character_modifier = {
+		different_faith_opinion = 10
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		different_faith_opinion = 0.5
+		monthly_income_mult = 0.005
+	}
+}
+
+sikong = {
+	county = c_province1457
+	county_holder_character_modifier = {
+		monthly_county_control_growth_factor = 0.05
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		tax_mult = 0.01
+		monthly_county_control_growth_factor = 0.01
+	}
+	faith_character_modifier = {
+		monthly_county_control_growth_factor = 0.1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_county_control_growth_factor = 0.01
+		monthly_piety_gain_mult = 0.01
+	}
+}
+
+mount_lu = {
+	county = c_province1885
+	county_holder_character_modifier = {
+		martial = 1
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		floodplains_development_growth_factor = 0.01
+		levy_size = 0.02
+	}
+	faith_character_modifier = {
+		same_heritage_county_advantage_add = 2
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		same_heritage_county_advantage_add = 0.25
+	}
+}
+
+nara = {
+	county = c_province1146
+	county_holder_character_modifier = {
+		same_faith_opinion = 3
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		monthly_county_control_growth_factor = 0.01
+	}
+	faith_character_modifier = {
+		same_faith_opinion = 5
+		clergy_opinion = 5
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		same_faith_opinion = 0.5
+		monthly_piety_gain_mult = 0.01
+	}
+}
+
+vaishali = {
+	county = c_province1602
+	county_holder_character_modifier = {
+		monthly_piety_gain_mult = 0.05
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		epidemic_resistance = 1
+	}
+	faith_character_modifier = {
+		monthly_piety = 1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_piety_gain_mult = 0.01
+	}
+}
+
+luoyang = {
+	county = c_province2123
+	county_holder_character_modifier = {
+		county_opinion_add = 5
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		tax_mult = 0.01
+		monthly_county_control_growth_factor = 0.01
+	}
+	faith_character_modifier = {
+		county_opinion_add = 10
+		diplomacy = 1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+	}
+}
+
+tiantai = {
+	county = c_province1640
+	county_holder_character_modifier = {
+		learning = 1
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		county_opinion_add = 1
+	}
+	faith_character_modifier = {
+		learning = 2
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_lifestyle_xp_gain_mult = 0.01
+	}
+}
+
+kizuki = {
+	county = c_province0904
+	county_holder_character_modifier = {
+		clergy_opinion = 3
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		epidemic_resistance = 1
+	}
+	faith_character_modifier = {
+		clergy_opinion = 5
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_piety_gain_mult = 0.01
+	}
+}
+
+kashima = {
+	county = c_province0928
+	county_holder_character_modifier = {
+		tax_mult = 0.025
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		build_speed = -0.01
+		defender_holding_advantage = 0.5
+	}
+	faith_character_modifier = {
+		tax_mult = 0.05
+		martial = 1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_income_mult = 0.005
+	}
+}
+
+
+mecca_ck_shia = {
+	county = c_province1822
+	county_holder_character_modifier = {
+		monthly_piety_gain_mult = 0.05
+		knight_effectiveness_mult = 0.05
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		travel_danger = -1
+	}
+	faith_character_modifier = {
+		monthly_piety_gain_per_knight_mult = 0.02
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		knight_effectiveness_mult = 0.01
+		piety_level_impact_mult = 0.01
+	}
+}
+
+medina_ck_shia = {
+	county = c_province1994
+	county_holder_character_modifier = {
+		diplomacy = 1
+		clergy_opinion = 5
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		travel_danger = -1
+	}
+	faith_character_modifier = {
+		diplomacy_per_piety_level = 1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_piety_gain_mult = 0.01
+	}
+}
+
+jerusalem_ck_shia = {
+	county = c_province1856
+	county_holder_character_modifier = {
+		monthly_piety_gain_mult = 0.05
+		different_faith_opinion = 5
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		travel_danger = -1
+	}
+	faith_character_modifier = {
+		character_travel_safety_mult = 0.1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		character_travel_safety_mult = 0.01
+	}
+}
+
+jerusalem_ck_gnostic_faith = {
+	county = c_province1693
+	county_holder_character_modifier = {
+		monthly_piety_gain_mult = 0.05
+		different_faith_opinion = 5
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		travel_danger = -1
+	}
+	faith_character_modifier = {
+		character_travel_safety_mult = 0.1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		character_travel_safety_mult = 0.01
+	}
+}
+
+alexandria_ck_gnostic_faith = {
+	county = c_province1725
+	county_holder_character_modifier = {
+		learning = 1
+		influence_standalone_gain_mult = 0.05
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		epidemic_resistance = 1
+	}
+	faith_character_modifier = {
+		learning_per_piety_level = 1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_lifestyle_xp_gain_mult = 0.01
+	}
+}
+
+rome_ck_gnostic_faith = {
+	county = c_province1747
+	county_holder_character_modifier = {
+		stewardship = 1
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		county_opinion_add = 1
+	}
+	faith_character_modifier = {
+		stewardship = 1
+		church_holding_build_gold_cost = -0.1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		character_travel_speed_mult = 0.01
+	}
+}
+
+rome_ck_hellenic_pagan = {
+	county = c_province1172
+	county_holder_character_modifier = {
+		stewardship = 1
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		county_opinion_add = 1
+	}
+	faith_character_modifier = {
+		stewardship = 1
+		church_holding_build_gold_cost = -0.1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		character_travel_speed_mult = 0.01
+	}
+}
+
+alexandria_ck_hellenic_pagan = {
+	county = c_province1187
+	county_holder_character_modifier = {
+		learning = 1
+		influence_standalone_gain_mult = 0.05
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		epidemic_resistance = 1
+	}
+	faith_character_modifier = {
+		learning_per_piety_level = 1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_lifestyle_xp_gain_mult = 0.01
+	}
+}
+
+jerusalem_ck_rabbinic_faith = {
+	county = c_province0351
+	county_holder_character_modifier = {
+		monthly_piety_gain_mult = 0.05
+		different_faith_opinion = 5
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		travel_danger = -1
+	}
+	faith_character_modifier = {
+		character_travel_safety_mult = 0.1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		character_travel_safety_mult = 0.01
+	}
+}
+
+alexandria_ck_rabbinic_faith = {
+	county = c_province0383
+	county_holder_character_modifier = {
+		learning = 1
+		influence_standalone_gain_mult = 0.05
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		epidemic_resistance = 1
+	}
+	faith_character_modifier = {
+		learning_per_piety_level = 1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_lifestyle_xp_gain_mult = 0.01
+	}
+}
+
+alexandria_ck_sethianism = {
+	county = c_province0305
+	county_holder_character_modifier = {
+		learning = 1
+		influence_standalone_gain_mult = 0.05
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		epidemic_resistance = 1
+	}
+	faith_character_modifier = {
+		learning_per_piety_level = 1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_lifestyle_xp_gain_mult = 0.01
+	}
+}
+
+jerusalem_ck_sethianism = {
+	county = c_province0292
+	county_holder_character_modifier = {
+		monthly_piety_gain_mult = 0.05
+		different_faith_opinion = 5
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		travel_danger = -1
+	}
+	faith_character_modifier = {
+		character_travel_safety_mult = 0.1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		character_travel_safety_mult = 0.01
+	}
+}
+
+rome_ck_sethianism = {
+	county = c_province0155
+	county_holder_character_modifier = {
+		stewardship = 1
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		county_opinion_add = 1
+	}
+	faith_character_modifier = {
+		stewardship = 1
+		church_holding_build_gold_cost = -0.1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		character_travel_speed_mult = 0.01
+	}
+}

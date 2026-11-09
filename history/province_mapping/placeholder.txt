@@ -1,0 +1,3 @@
+﻿# The province mapping table must not be empty: CK3 1.20 dereferences it unguarded while loading
+# history/provinces (vanilla keeps a placeholder entry for the same reason). Self-mapping is a no-op.
+1 = 1

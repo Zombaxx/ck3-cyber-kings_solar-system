@@ -1,0 +1,13 @@
+﻿# Cyber Kings: cybernetics attachments (gen_cyber_mesh.py). Men only for now; women use the decal versions.
+male_cyber_eye_01 = {
+	entity = { required_tags = "hood_on"	shared_pose_entity = head	 }
+	entity = { required_tags = "mask"		shared_pose_entity = head	 }
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_cyber_eye_01_entity	 }
+}
+male_cywizard_face_01 = {
+	entity = { required_tags = "mask"		shared_pose_entity = head	 }
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_cywizard_face_01_entity	 }
+}
+male_cyber_arm_01 = {
+	entity = { required_tags = ""			shared_pose_entity = torso		entity = male_cyber_arm_01_entity	 }
+}

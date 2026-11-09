@@ -1,0 +1,155 @@
+﻿# Cyber Kings: trait -> cybernetics decal (gen_cyber_gfx.py)
+cyber_kings_cyber_eye = {
+	usage = game
+	selection_behavior = max
+	cyber_eye = {
+		ignore_outfit_tags = yes
+		dna_modifiers = {
+			morph = {
+				mode = add
+				gene = gene_cyber_eye
+				template = cyber_eye
+				value = 1.0
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				is_female = yes
+				NOT = { portrait_has_trait_trigger = { TRAIT = full_cybernetic_conversion } }
+				OR = {
+					portrait_has_trait_trigger = { TRAIT = martial_implant_1 }
+					portrait_has_trait_trigger = { TRAIT = martial_implant_2 }
+					portrait_has_trait_trigger = { TRAIT = martial_implant_3 }
+					portrait_has_trait_trigger = { TRAIT = martial_implant_4 }
+					portrait_has_trait_trigger = { TRAIT = martial_implant_5 }
+				}
+			}
+		}
+	}
+}
+cyber_kings_cywizard = {
+	usage = game
+	selection_behavior = max
+	cywizard = {
+		ignore_outfit_tags = yes
+		dna_modifiers = {
+			morph = {
+				mode = add
+				gene = gene_cywizard
+				template = cywizard
+				value = 1.0
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				is_female = yes
+				portrait_has_trait_trigger = { TRAIT = full_cybernetic_conversion }
+			}
+		}
+	}
+}
+cyber_kings_dni = {
+	usage = game
+	selection_behavior = max
+	dni = {
+		ignore_outfit_tags = yes
+		dna_modifiers = {
+			morph = {
+				mode = add
+				gene = gene_dni
+				template = dni
+				value = 1.0
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				NOT = { portrait_has_trait_trigger = { TRAIT = full_cybernetic_conversion } }
+				portrait_has_trait_trigger = { TRAIT = dni }
+			}
+		}
+	}
+}
+
+# ---- 3D attachments (men): the plates are shells of the head mesh; the decals above stay for women
+cyber_kings_cyber_face_mesh = {
+	usage = game
+	selection_behavior = max
+	cywizard_mesh = {
+		ignore_outfit_tags = yes
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = gene_cyber_face
+				template = cywizard
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				is_female = no
+				portrait_has_trait_trigger = { TRAIT = full_cybernetic_conversion }
+			}
+		}
+	}
+	cyber_eye_mesh = {
+		ignore_outfit_tags = yes
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = gene_cyber_face
+				template = cyber_eye
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 90
+				is_female = no
+				NOT = { portrait_has_trait_trigger = { TRAIT = full_cybernetic_conversion } }
+				OR = {
+					portrait_has_trait_trigger = { TRAIT = martial_implant_1 }
+					portrait_has_trait_trigger = { TRAIT = martial_implant_2 }
+					portrait_has_trait_trigger = { TRAIT = martial_implant_3 }
+					portrait_has_trait_trigger = { TRAIT = martial_implant_4 }
+					portrait_has_trait_trigger = { TRAIT = martial_implant_5 }
+				}
+			}
+		}
+	}
+}
+
+cyber_kings_cyber_arm_mesh = {
+	usage = game
+	selection_behavior = max
+	cyber_arm_mesh = {
+		ignore_outfit_tags = yes
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = gene_cyber_arm
+				template = cyber_arm
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				is_female = no
+				OR = {
+					portrait_has_trait_trigger = { TRAIT = cybernetic_arm }
+					portrait_has_trait_trigger = { TRAIT = full_cybernetic_conversion }
+				}
+			}
+		}
+	}
+}

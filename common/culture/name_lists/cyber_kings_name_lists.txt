@@ -1,0 +1,529 @@
+﻿# Cyber Kings: name lists copied from the CK2 Elves-and-Dwarves cultures (gen_peoples.py)
+
+name_list_ck_antecessor = {
+	dynasty_of_location_prefix = "dynnp_of"
+	male_names = {
+		Antheron Annatar Angolchon Aphadon Aradheldir Arodon Aedros Bangedir Bastedir Brundir Cacame Calarchon Camaendaer Colfinnor Coruchon Crithon Colben Curufir Daedhrochanar Delgarandir Dravron Dulindir Edraithanar Eithon Elohir Elrond Esgaldir Esgalnorchon Faegon Faindir Fanchanar Feiron Finor Fenor Galchon Galedir Gaurdor Gaven Gelinnasson Glachon Glavron Golvon Gomben Gwaerenor Gudon Hamdaer Harnedir Haudhanar Haudhon Halben Ialledir Lagoruthon Lanthirdaer Lanthirdor Legolas Loborchon Loegon Madron Maethon Manadhanar Meluichanar Mudon Nalledir Nallon Narchon Naron Narthon Naurchanar Nestedir Ningannelchon Olchanar Osbon Osgardir Padedir Padron Pelchon Raegnir Ranaer Redhedon Taethon Tatharon Teliedir Thorchanar Tinunaer Torthedir Torthon Traston Uildir Urben
+	}
+	female_names = {
+		Achasdes Aearonith Aglarebel Amarthrien Amathel Angoliel Anniel Annonil Annonthel Aphadriel Aphedriel Banneth Barhel Bastadis Belegornien Breniril Borien Cadhril Cadwordis Caladwen Caledhelwen Carvrien Cedhriel Cendis Coldis Crithadis Cilil Damel Devriel Duvainel Duventhel Eithriel Eithril Eliadis Elirien Faegnith Faugnith Faunel Feiradis Feirriel Feirril Felil Filegel Filegwen Ferhel Gaildes Galdis Garaves Glavradis Glavroleth Gobelnith Gonodissiel Gowestiel Gwaedhiel Gwaenes Gwedhriel Gweluwen Gudel Haeroneth Harthrien Hatholnith Hennethien Horneth Ianien Istrien Iuithrien Lagorthel Laindes Lamaenthel Leithadis Lhingnis Lhines Lobordis Lorndis Lostiel Lireth Maidhel Melel Mistril Mylnith Miresgalhel Miriril Nagnissien Nediadis Northril Nurdis Orthoril Padadis Pelingilil Peniril Pethel Prestadis Redhril Reniadis Rirosdis Seregeth Thawiel Theriadis Tinuneth Tirdis Toliel Trastrien Trevadissien Ungolien
+	}
+	pat_grf_name_chance = 40
+	mat_grf_name_chance = 10
+	father_name_chance = 10
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 40
+	mother_name_chance = 10
+}
+
+name_list_ck_ergaster = {
+	dynasty_of_location_prefix = "dynnp_of"
+	male_names = {
+		Fharsbaehr Mazromar "Le'utaz" Tahryq Drazgard Garavan "Ar'otzar" "Ar'odros" Kaharhyque Yratzar Lazarihz Kahrkos Fraerior "Ga'ondovur" "Le'udazar" Asdrudazar Bahrusarith Ourazaen Tezarad Yzumahr Kahrrath Ezarsath Crahlsyr Laerhqir Ozunyr Ozubaehr Bahrumahr Armasaros "Ga'onriaq" Crahlvor Yravyn Gahurath Lazavhar "Mo'uthara" Irubran Yrasar "Ga'onbaehr" Asdrumoque Erzateque Bazekos Arqara Graruin Crahlnahr Bazhasarith Mezamar Fahartyhr Fharsruin Oriraes Dradovur Fahrzaq "Cra'ozatharn" Dazavhar "Mo'umor" Muchdiaq Lahzavhar Caenzaen "Mo'uzon" Fraemor Bahrukyth Garabran Asdruraz "Id'arbryn" Aeskos Bragrath Charmahr Mezarad Dazavan Bahrvall Izraneque Fharstiron Ozumass Bahrusyr Kaharzaq Masramien Bahruqir Mezavan Mazroteque Lakusque Garamaq Mazroshar Yranaer "Le'uryq" Drazbaehr Asdrugrath "Or'isaros" Khangahn Gararath Bazeras Izrazaq Ezruin Bahruthara Lahzabran Kaerihz Fureriaq Lazazhan Faharnahr Fahrkos Mezaruin Bahrura Arzurrad Kaetiron Garavall Orqahyque Laerhra Mazrozaen "Le'unyr" Trazhrath Aesvor Laerhzaq Murinyr Grahyque Kahrneque Eznazar Arqasarith Yzuzhar Dazariaq Orinahr Arhra Arzurruin "Ga'onvan" Izradhar Trazhvhar "Ga'onvhar" Marunazar Laerhmass Orqamaq Grizakei Dazaneque Buravall Drazzyth Kaltelar Ysurad Araggen Menerroth Arromaer Menervel Farvyn Machshor Idraleath Calnar Talrys Amonlath Yraran Belseth Kalduin Baharshor Maubryn Talnedor Callyth Lohith Kaesen Belbryn Karankon Morrohyn Fortelar Belerian Morleath Baharhyn Baharr Karangroth Tanbryn Baranvor Donvyn Gonbas Calir Forhidon Caerroth Osubas Mautar Caeragan Galatari Ylkon Arghyn Maugard Beneroth Arlon Idrantien Maunedor Faengan Gulnar Farsen Amonshin Belemes Elraros Dunmes Amoros Lentari Baleban Belhyn Morrotar Ongen Yrathanil Fueban Barkyn Amonir Dunran Kayseth Taelas Irilbaer Ellath Alruin Dondrad Baramen Gulros Karankon Elrian Machvor Gulvel Ammar Amogen Malekith Gorthauron
+	}
+	female_names = {
+		Bahreseqe Fihrresse Gariasher Merigrynn Ferabrique Lohzaraesh Iredaque "Ide'arihque" Erazadreos Ohzakeri Oravero Kheldhae Baehneque Grihzaseth "Yr'azaehn" "Al'oqinn" Kihrerunae Iazezoh Arqigwyss Tazakryss Aezomirenne Tehadove Oramirenne Arzerunae Arqiriza "Lae'omea" Fraeseth "Cri'orariza" Ezirzoh Bhrariza Kehnatarin Baeszysh Belzevelle Erazaraesh Laezabrique Arqizae Meradeza Derthara Ferazysh Fhatyhs Crehnraesh Kehnabaehra Orazae Grihzakeo Lanuthera Bhrakeo "Cri'oraraesh" Derneque Grivaesh Deranaehr Fehsavero Merivero Drehzdaque Derresse Meraresse Bahredove Deradreos Griseos Fraekysse "Ide'anaehr" Bhrakryss Besnuzysh Chersaer Dehzarihque Mehavelle Izeranaehr Tazaseth Meriteque Fhasyrr Kahnariza Kehnaqore Birariza Besnurenar Dehzatyhs Tehaseos Kahnazysh Carenneza Deravynn Maerozaehn "Mero'aresse" "Yr'aseth" Khelzoh Kehnareaq Cherhia Ohzarae Arzezae Fhashi Oratihr Bezhareah Kihremehra Fhazhenne Bhrarizora Gahnumirenne Crehnvelle Chersher Kahnatarin Iyesqore Ferakryss Mehaseos "Al'otihr" Gahnurizora Drehzqore Baesvynn Arqimirenne Aezorenn Birabris Lohzamyss Fhariza Kihrereah "Cri'orahira" Crehnzhenne Arzevelle Trezhdove Derateque Arzerith "Ide'aneque" Iazezhenne Fihrriza Meridera Ohzatarin Gahnuhia "Lae'orunae" "Lae'oshi" Besnuzhenne Mehamaque Izerarae "Ide'avaesh" Kheltaez Aeszoh Tazarenn Mehryna Orekae Linel Menehish Bahamyna Telbera Lensae Irlilya Taphelara Lilyth Gilgwen Laebrae Oresys Faemena Menellith Baeriar Baeratera Elasis Taenel Elsarvela Baerleth Oneryna Celathala Tapherain Kaemyn Baeratara Oneleth Firhynn Irlityra Mehtara Kaelyth Behnegren Yselaeth Irlibala Oneryna Borerys Orenae Ilrothala Caensis Ynaryna Gellansya Caellamyna Kaebenne Menelrosa Menelrith Irlidona Baeralira Boremia Maesya Baergren Lenvela Khelsys Kaeleth Menelmyn Laerith Baersela Menanae Kelnae Gennera Celdaen Tapheryna Ilrodaen Celthala Kaylira Tapherain Tapherith Aemvae Dilsa Balanmyn Aemerys Morathi
+	}
+	pat_grf_name_chance = 40
+	mat_grf_name_chance = 10
+	father_name_chance = 10
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 40
+	mother_name_chance = 10
+}
+
+name_list_ck_archon = {
+	dynasty_of_location_prefix = "dynnp_of"
+	male_names = {
+		Adaves Adil Adondasi Adosi Adren Alam Alanil Aldam Alds Alms Alnas Alvan Alven Alvis Alvor Alvos Alvur Anas Anden Andril Anel Angaredhel Aras Arelvam Aren Arethan Arnas Aroa Aron Arsyn Arven Arver Arvs Arvyn Aryon Athal Athanden Athelyn Ather Athyn Avron Baladas Balver Balyn Banden Banor Baren Barusi Bedal Belas Beldrose Belos Bels Belvis Benar Beraren Berel Berela Bertis Bervaso Bervyn Bethes Bevadar Bildren Bilen Bilos Birer Bolayn Boler Bolnor Bols Bolvus Bolvyn Bolyn Boryn Bradil Bralas Bralen Bralis Bralyn Brarayni Bratheru Brathus Bravosi Braynas Brelar Brelo Brelyn Brerama Brethas Breves Breynis Briras Broder Broris Brothes Dalam Daldur Dalin Dalmil Dalos Dals Dalvus Danar Dandras Danel Daral Daras Daren Darns Daroder Dartis Darvam Daryn Dather Dathus Davas Davis Davur Daynes Daynil Dedaenc Delmon Delmus Delvam Deras Dethresa Deval Devas Dils Dinor Dirver Divayth Dolmyn Dolyn Dondos Donus Dovor Dovres Dralas Drals Dralval Dram Dramis Drandryn Dranos Drarayne Drarel Draron Drarus Draryn Drathyn Dravasa Dredase Drelayn Drelis Drelse Drerel Dreynis Dreynos Dridas Dridyn Drinar Drodos Dronos Drores Drulvan Duldrar Dunel Edd Edras Edril Elam Eldil Eldrar Elethus Elms Elo Elvas Elvil Endar Endris Endryn Endul Erene Erer Ereven Eris Ernil Erns Ervas Ethes Ethys Evo Evos Fadren Falam Falso Falvel Falvis Farvam Farvyn Favas Favel Faven Faver Faves Fedar Felayn Felen Felisi Felsen Felvan Felvos Femer Fendros Fendryn Feranos Ferele Feril Feruren Fervas Fevris Fevus Fevyn Folms Folvys Folyni Fons Fonus Forven Foryn Fothas Fothyna Foves Fovus Gadayn Gaelion Galam Galdres Galen Galis Galmis Galms Gals Gamin Ganalyn Ganus Garer Garisa Garnas Garvs Garyn Gathal Gavas Gavesu Gavis Gidar Giden Gilan Gilmyn Gilur Gilvas Gilyan Gilyn Gilyne Gindas Ginur Giras Giren Giron Giryn Golar Goldyn Goler Gols Golven Goras Gordol Goren Goris Goron Gothren Goval Gragus Gulmon Guls Guril Helseth Hlaren Hlaroi Hlenil Hleras Hloris Hort Idros Ildos Ilen Ilet Ilver Iner Irarak Irer Irver Ivulen Jiub Llaals Llanas Llandras Llandris Llanel Llarar Llarel Llaren Llaro Llavam Lleran Lleras Lleris Llero Llether Llevas Llevel Lliram Lliros Lliryn Lloden Llonas Llondryn Lloros Llovyn Madran Madres Madsu Malar Mallam Mals Manabi Mandran Mandur Mandyn Manel Maner Manolos Marayn Maros Mastrius Mathis Mathyn Mavis Mavon Mavus Meder Medyn Melar Melur Menus Meril Mertis Mertisi Mervis Mervs Meryn Methal Methas Mevel Meven Mevil Midar Milar Mils Milyn Miner Miron Mirvon Mivul Mondros Movis Muvis Nads Nalis Nalmen Nalosi Nals Nalur Naral Naris Nathyn Navam Navil Neldris Nelmil Nelos Neloth Nels Nelvon Nelyn Nerer Nethyn Nevil Nevon Nevos Nevosi Niden Nilas Nilos Niras Nivel Nivos Norus Odral Odron Oisig Ondar Ondres Orns Orval Orvas Ovis Ralam Ralds Ralmyn Ralos Ranes Ranor Rararyn Raril Raryn Rathal Raviso Ravos Raynilie Relam Relas Relen Relms Rels Relur Relyn Remas Rernel Reron Rervam Reynis Rilas Rilos Rilver Rindral Rirnas Rirns Rivame Rolis Rols Roner Rothis Rovone Sadas Sadryn Salas Salen Salvas Salver Salyn Sanvyn Saras Sarayn Sarvil Sarvur Saryn Sathas Savor Savure Sedam Sedrane Seldus Seler Selman Selmen Selvil Sendel Sendus Seras Serer Serul Seryn Sevilo Shashev Sodres Sortis Sovor Stlennius Sulen Sulis Sunel Sur Suryn Suvryn Svadstar Tadas Talms Tandram Tanel Tanur Tarar Tarer Taros Tarvus Tarvyn Taves Tedril Tedryn Tedur Telis Tels Telvon Temis Tendren Tendris Tens Terer Teres Teris Tervur Tevyn Thadar Thaden Thanelen Tharer Thauraver Theldyn Thervam Tholer Thoryn Threvul Tidras Tidros Tinos Tiram Tiras Tirer Tirnur Tirvel Tivam Toris Tralas Tralayn Traven Tredyn Trelam Trels Trendrus Treram Treras Trevyn Trilam Trivon Tuls Ultis Ulves Ulvil Ulvon Unel Uradras Ureval Urnel Urvel Urven Uryn Uthrel Uvele Uvren Vaden Vanel Vares Varis Varon Varvur Vatollia Vaves Vavran Vedam Vedran Velis Velms Velyn Veros Vevos Vevul Vilval Vilyn Viras Virvyn Vobend Vonden Vonos Vorar Voruse Vuvil
+	}
+	female_names = {
+		Adrusu Alarvyne Alavesa Aldyne Alenus Aleri Alfe Almse Almsi Aloie Alonisea Alurue Alvela Alveno Alvura Alynu Amili Andalin Andilo Andilu Ane Angahran Anis Anise Aralosea Arara Arns Arnsa Arnsi Artisa Arvama Arvamea Arvela Arvso Aryne Aryni Athesie Avoni Badala Badama Balen Baleni Balsa Balynu Barenziah Bedenea Bedynea Beleru Bevene Beyte Bidsi Bilsa Birama Bivale Boderi Bodsa Boldrisa Bralsea Brara Bravora Bredasu Brelayne Brelda Brelyna Brerayne Brevasu Brevosi Brildraso Brilnosu Bronosa Dalami Dalnorea Dalse Dalyne Danaronea Danasi Dandera Dandynea Danoso Danso Darane Dareru Daroso Darvala Darvame Darvasa Darvynea Daynali Daynas Daynillo Deldasa Deldrise Delmene Delte Delyna Derar Derayna Dilami Dileno Dilvene Dinara Dinere Dinuro Diradeni Dirara Diren Dolmesa Dolsa Dolvasie Domesea Dorisa Dorynu Dothasi Dovrosi Dralasa Dralcea Dralisi Dralora Dralosa Dralsea Draramu Drarayne Dratha Dravynea Dredyni Drelasa Drelyne Drendrisa Dreveni Drilame Driloru Drireri Drolora Drorayni Drulene Drurile Duldresi Dulnea Edryno Eldrasea Eldrilu Elmera Elmussa Elvasea Elynea Elynu Endase Endroni Eralane Erirvase Ernse Ervesa Ervona Ervyna Ethal Ethasi Evesa Evilu Fadase Fadile Falanu Falena Falura Fanasa Fanisea Fanuse Faral Faralenu Farare Faras Farena Farusea Fathasa Fathusa Favani Favela Favilea Favise Favona Fedura Feldrelo Felisa Felmena Felsa Felsu Feralea Ferise Ferone Fervsea Ferynu Fevasa Fevila Fieryra Folsi Folvalie Fomesa Fonari Fonas Forvse Gadasu Gadela Gadyni Galas Galasa Galdal Galeri Galero Galore Galsu Galuro Galvene Galviso Galyn Gandela Gandosa Garalo Garas Garila Garyne Gilse Ginadura Gindrala Girara Girvani Girynu Golana Golena Golmerea Golveso Golvyni Gomeso Gorenea Gorven Guldrise Gulena Gulvilie Gureryne Haleneri Hlavora Hlendrisa Hlevala Hlireni Hlodala Idrenie Idronea Idroso Idula Ienasa Ienase Ienaso Ilmeni Ilmyna Indrele Inera Irna Irvama Irvsie Ivela Iveri Ivramie Ivrosa Lauravenya Llaalamu Llaalsa Llandrale Llandreri Llarara Llaros Llarusea Llathise Llathyno Llavane Llavelea Llavesa Llaynasa Lledsa Lledsea Llemisa Llerusa Llevana Llirala Llivas Llondresa Llorayna Llunela Madayna Madaynu Madrale Madura Malsa Malven Manara Manse Manwe Maralie Marasa Maren Marena Marilia Mathesa Medila Medresi Melsu Meluria Melvona Melvuli Melvure Meralyn Methulu Mevrenea Mevure Miara Milara Miluru Milvela Milvonu Minasi Mindeli Miraso Mirnelea Mornsu Moroni Morusu Movisa Muldroni Mulvisie Mundrila Muvrulea Nadene Nalami Nalasa Nalmila Nalsie Nalvilie Nalvyna Narese Narile Narisa Nartise Nathala Nathyne Nedeni Nelmyne Nelso Nerile Nervana Nevama Nevena Nevrasa Nevrila Nevusa Nidara Nidryne Nileno Nilera Nilvyn Nina Nirasa Nireli Noldrasi Nothasea Novrynea Nuleno Nurisea Olvyne Omesu Orero Orvona Radene Raldenu Ranis Ranosa Rarusu Rarvela Rathyne Ravani Raven Ravoso Rayna Raynasa Raynila Relamu Relmerea Relosa Relvese Remasa Rerilie Rerynea Reynel Ridena Rilasi Rilvase Rinori Riraynea Rolasa Runethyne Ruthrisu Ruvene Sadal Sadela Salama Salora Salyni Sanaso Saruse Sathasa Satheri Satyana Savesea Savile Sedris Sedyni Selvura Senise Serila Sernsi Seryne Sethesi Sevame Sevisa Sevyni Sodrara Sondryn Sorosi Sovali Sovisa Suldreni Tadara Tadera Talamu Talare Talmeni Talmsa Talsi Taluri Taluro Tamira Tanar Tandasea Tanisie Tanusea Tarani Tavilu Tavynu Tedysa Teleri Telura Tenaru Tenisi Terenu Tereri Teril Teruise Teryne Thalurea Thavere Thelsa Thelvamu Therana Thilse Thovasi Thurisea Tilena Tilore Tinaso Tirasie Tirele Tolmera Tolvise Tolvone Tonas Tonasi Toranu Torasa Torosi Traldrisa Traynili Tredere Tremona Trerayna Trivura Tumsa Tunila Tuvene Tuvenie Tuveso Ulenea Uleni Ulmesi Ulmiso Ulvena Ulveni Ulyne Ulyno Unila Urandile Urene Uresa Ureso Urtisa Urtiso Uryne Uupse Uvisea Uvoo Vadeni Vadramea Vadusa Valveli Valvesu Valvosa Valyne Varasa Varenu Varona Varvsa Vaveli Vedelea Velanda Velyna Venasa Vendrela Verara Vevrana Vilvyni Vindamea Vindyne Vireveri Vivyne Volene Volmyni Voneri Vuldronu Vulyne
+	}
+	pat_grf_name_chance = 40
+	mat_grf_name_chance = 10
+	father_name_chance = 10
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 40
+	mother_name_chance = 10
+}
+
+name_list_ck_aeon = {
+	dynasty_of_location_prefix = "dynnp_of"
+	male_names = {
+		Ababael Abassel Abibaal Abishpulu Adairan Adaishah Addammus Addarnat Adibael Ahasour Ahaz Ainab Ainat Anasour Anit "Asha-Ammu" Ashibaal "Ashu-Ahhe" "Ashuma-Nud" "Ashur-Dan" "Assaba-Bentus" Assallit Assamanut "Assamma-Idan" Assantus Assatlit Assemmus Assurdan Balur Beden Conoon Dakin Dralas "Dun-Ilu" Dunsalipal Dutadalk Elibael "Emul-Ran" "Erur-Dan" "Esar-Don" "Esib-Nummu" Hainab Hairan "Han-Ammu" Hannat Hassour Hemus Hentus Hibaddar Hinammu Hirarend Ibarnadad Ibasour Ilasour Kanat Kanit Kanud Kashtes Kaushad Kausi Kind Kitbael "Kummi-Namus" Kund Lassour Mabarrabael Maesat Mal Malay Mansilamat Massarapal Massour Mibdinahaz Minassour Minisun Minnibi Musan Mut Nind Ninimilk Ninirrasour Nirait Nund Odaishah Ohibaal Patababi Patus Pilun Punibi Ranabi Sakin Sakulerib Sal Salattanat Salay Salmat Salmus Sannit Sargon Seldus Selk Selkirnemus Shabinbael Shanat Shanit Shannat Shanud Shargon Shilipuran Shimsun Shin Shipal Shirerib Shullay Subenend "Sul-Matuul" Talkin Teshmus Tibdan Tinti Tis Truan Tubilalk Tussurradad Ulabael "Ulath-Pal" Yahaz Yakin Yakum Yan Yanit Yantus Yapal Yassour Yeherradad Yen Yenammu Zabamund Zabarbael Zainat Zairan Zalabelk Zalit Zallay Zanat Zanmulk Zebba Zebdusipal Zelaku Zelay Zenabi Zennammu
+	}
+	female_names = {
+		"Addut-Lamanu" Adusamsi Ahanabi Ansu Antu Ashamanu Asharapli Ashumanu Assamanu Assi Assimusa Assirari Assumanu Benudni Berapli Dissu Elitlaya Elumabi Hainab Hairan Hanarai Hannabi Hansi Hinummu Ibanammu Kammu Kausha Kummu Kurapli Kushishi Lanabi Maela Maeli Mamusa Manabi "Man-Ilu" "Mi-Ilu" Midnabi Milynea Mimanu Minabibi Missamsi Munbebi Musa Nammu Nibani Nirai Peakstar Pilu Raishi Rasamsi Rawia Sakiran Samsi Santinti Seba Sen Senipu Shali "Shallath-Piremus" Shinammu Shishi Shulki Shullay Sinnammu Sonummu Tashpi Tissamsi Tunipy Tussi Ulibabi Ulisamsi Urshamusa Vabbar "Yan-Ahhe" Yanabani Yanibi Yenabi Zaba Zabi Zanummu Zennammu Zula
+	}
+	pat_grf_name_chance = 40
+	mat_grf_name_chance = 10
+	father_name_chance = 10
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 40
+	mother_name_chance = 10
+}
+
+name_list_ck_neanderthal = {
+	dynasty_of_location_prefix = "dynnp_of"
+	male_names = {
+		Barimbur Limbur Lombur Khambur Orimbur Strombur Thimbur Thombur Damfur Difur Dofur Khafur Dwofur Gifur Glofur Romfur Stromfur Thofur Tifur Damri Dwuri Glori Limri Liri Lori Miri Mori Modri Romri Rori Stromri Bali Damli Dwali Dwoli Dwuli Foli Gali Gamli Gili Gilmli Gimli Khali Koli Kili Limli Moli Noli Stroli Stromli Torli Tomli Dain Damrin Durin Dwurin Gain Gloin Glorin Lirin Lorin Nain Mirin Morin Moin Rorin Strorin Thrain Thorin Bomfin Damfin Difin Dofin Strofin Balin Dwalin Dwulin Folin Folorin Galin Khalin Kolin Molin Nolin Strolin Gror Thror Telror Balor Telchar Melchar Relchar
+	}
+	female_names = {
+		Dis Hidis Hildis Kis Kos Dos Khas Tis Tamis Galis Danis Mis Mos Nis Nos Dannys Ataris Carmis Idis Lilis Navis Rina Hilda Dana Tala Hon Kona Mar
+	}
+	pat_grf_name_chance = 40
+	mat_grf_name_chance = 10
+	father_name_chance = 10
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 40
+	mother_name_chance = 10
+}
+
+name_list_ck_jotnar = {
+	dynasty_of_location_prefix = "dynnp_of"
+	male_names = {
+		Anchard Brazzefk Bthuand Cuolec "Dalen-Zanchu" Dhark Dumac Gharen Ihlendam Jnaggo Kagrenac Klathzgar Mithas Mzulchond Nbthld Nchylbar Nchunak Nevith Razak Rkungthunch Sthovin Dahrk Radac Yagrum Chiulec Chrafru Rthuand Dhalac Nevidit Bthund Kavvazar Nendam Schtrafak Schtobrac Rathas Neddit Dulen Damrand Sthomac Ythamin Yradzir Brazzerlac Dagrac Dhagrac Cuongar Nchuamord Raletharn Danch Tchaznak Mchand Ythadgir Nchubond Athazgar Irhalec Rkumrond Anchalbar Neznak Agrurd Aanepada Akalamdug "Amar-Sin" Eannatum Ekur Enmebaragisi "Ishme-Dagand" Mesanepadak Meskalamdug "Naram-Sinch" Shulgi "Ur-Nammu" Astragoth Zhatan
+	}
+	female_names = {
+		Bluthanch Kamdida Nhenwess Nchurek Nrifrinn Kathzgar Mlildilan Mimrond Blutrez Mzunach Kahner Athand Duolara Katchan Ctunch Ghronac Klagrac Mird Ilhend Schtralac Mzuvnak Rahlac Suodrak Irhavind Dhagrum Mithld Ralendam Suofrak Szaren Nchuvin Chulen Dhafrak Solirda Davlara Yradhis Alzivzal Ryahner Nadryna Mhefwinn Ithofwinn Doumzlin Tatchis Alzilnmer Drilamch Yradrys Thrilnmer Naflis Glivlara Dahrada Chefwinn Ryathanch Yzravrin Araznara Kzuabryn Ruenwess Gzihvlin Somtrin Rlodlen Ylrelirda Mramdida Jaretrez Jomzlin Ahunatum Irkalla Ninshuel Radjni Silili Shiptu Nanna "Abi-Simti" "Mesh-He" Kishar Ninhursag Manatum Shubure "Arwi-AIltani" Ningal Gemekala Asharru Nindukugga Sapurtum
+	}
+	pat_grf_name_chance = 40
+	mat_grf_name_chance = 10
+	father_name_chance = 10
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 40
+	mother_name_chance = 10
+}
+
+name_list_ck_cathrian = {
+	dynasty_of_location_prefix = "dynnp_of"
+	male_names = {
+		"Ab'ar" "Ab'bar" "Ab'bil" "Ab'der" "Ab'ir" "Ab'kir" "Ab'nir" "Ab'noud" "Ab'sien" "Ab'soud" "Ab'taba" "Ab'tabe" "Ab'urabi" "Ak'ar" "Ak'bil" "Ak'der" "Ak'dul" "Ak'ir" "Ak'kir" "Ak'nir" "Ak'noud" "Ak'sien" "Ak'soud" "Ak'taba" "Ak'tabe" "Ak'urabi" "Akh'ar" "Akh'bil" "Akh'der" "Akh'dul" "Akh'gh" "Akh'ir" "Akh'kir" "Akh'nir" "Akh'noud" "Akh'sien" "Akh'soud" "Akh'taba" "Akh'tabe" "Akh'urabi" Amar Ambil Amder Amdul Amgh Amir Amkir Ammed Amnir Amnoud Amsien Amsoud Amtaba Amtabe Amurabi "Fa'ar" "Fa'bar" "Fa'bil" "Fa'der" "Fa'dul" "Fa'gh" "Fa'ir" "Fa'kir" "Fa'med" "Fa'nir" "Fa'noud" "Fa'sien" "Fa'soud" "Fa'taba" "Fa'tabe" "Fa'urabi" Husar Husbar Husbil Husder Husdul Husgh Husir Huskir Husmed Husnir Husnoud Hussoud Hustaba Hustabe Husurabi Moar Mobar Mobil Moder Modul Mogh Moir Mokir Momed Monir Monoud Mosien Motaba Motabe Mourabi Mohamar Mohambar Mohambil Mohamder Mohamdul Mohamgh Mohamir Mohamkir Mohamnir Mohamnoud Mohamsien Mohamsoud Mohamtaba Mohamtabe Mohamurabi Mojar Mojbar Mojbil Mojder Mojdul Mojgh Mojir Mojkir Mojmed Mojnir Mojnoud Mojsien Mojsoud Mojtaba Mojtabe Mojurabi Naar Nabar Nabil Nader Nadul Nagh Nair Nakir Named Nanir Nanoud Nasien Nasoud Nataba Natabe Naurabi Omar Ombar Ombil Omder Omdul Omgh Omir Omkir Ommed Omnir Omnoud Omsien Omsoud Omtaba Omtabe Omurabi Shaar Shabar Shabil Shader Shadul Shagh Shair Shakir Shamed Shanir Shanoud Shasien Shasoud Shataba Shatabe Shaurabi Sinar Sinbil Sinder Sindul Singh Sinir Sinkir Sinmed Sinnir Sinnoud Sinsien Sinsoud Sintaba Sintabe Sinurabi "Za'ar" "Za'bar" "Za'bil" "Za'der" "Za'dul" "Za'gh" "Za'ir" "Za'kir" "Za'med" "Za'nir" "Za'noud" "Za'sien" "Za'soud" "Za'taba" "Za'tabe" "Za'urabi" "Zan'ar" "Zan'bar" "Zan'bil" "Zan'der" "Zan'dul" "Zan'gh" "Zan'ir" "Zan'kir" "Zan'med" "Zan'nir" "Zan'noud" "Zan'sien" "Zan'soud" "Zan'taba" "Zan'tabe" "Zan'urabi"
+	}
+	female_names = {
+		Aahin Aahni Afeliz Ahana Aheh Ahrazad Ajjan Akhtar Anita Araya Ariba Ashima Ashivari Asrin Atima Azita Aziahin Aziahni Azifeliz Azihana Aziheh Azihrazad Azijjan Azikhtar Azinita Aziraya Aziriba Azishima Azisrin Azitima Azizita Elaahin Elaahni Elafeliz Elahana Elaheh Elahrazad Elajjan Elakhtar Elanita Elaraya Elariba Elashima Elasrin Elatima Elazita Faahin Faahni Fafeliz Fahana Faheh Fahrazad Fajjan Fakhtar Fanita Faraya Fariba Fashima Fasrin Fatima Fazita Khaahin Khaahni Khafeliz Khahana Khaheh Khahrazad Khajjan Khakhtar Khanita Kharaya Khariba Khashima Khasrin Khatima Khazita Kiahin Kiahni Kifeliz Kihana Kiheh Kihrazad Kijjan Kikhtar Kinita Kiraya Kiriba Kishima Kisrin Kitima Kizita Moahin Moahni Mofeliz Mohana Moheh Mohrazad Mojjan Monita Moraya Moriba Moshima Mosrin Motima Mozita Naahin Naahni Nafeliz Nahana Naheh Nahrazad Najjan Nakhtar Nanita Naraya Nariba Nashima Nasrin Natima Nazita Raahin Raahni Rafeliz Rahana Raheh Rahrazad Rajjan Rakhtar Ranita Raraya Rariba Rashima Rasrin Ratima Razita Riahin Riahni Rifeliz Rihana Riheh Rihrazad Rijjan Rikhtar Rinita Riraya Ririba Rishima Risrin Ritima Rizita Saahin Saahni Safeliz Sahana Saheh Sahrazad Sajjan Sakhtar Sanita Saraya Sariba Sashima Sasrin Satima Sazita Shaahin Shaahni Shafeliz Shahana Shaheh Shahrazad Shajjan Shakhtar Shanita Sharaya Shariba Shashima Shasrin Shatima Shazita Soahin Soahni Sofeliz Sohana Soheh Sohrazad Sojjan Sokhtar Sonita Soraya Soriba Soshima Sosrin Sotima Sozita Taahin Taahni Tafeliz Tahana Taheh Tahrazad Tajjan Takhtar Tanita Taraya Tariba Tashima Tasrin Tatima Tazita Zaahin Zaahni Zafeliz Zahana Zaheh Zahrazad Zajjan Zakhtar Zanita Zaraya Zariba Zashima Zasrin Zatima Zazita
+	}
+	pat_grf_name_chance = 40
+	mat_grf_name_chance = 10
+	father_name_chance = 10
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 40
+	mother_name_chance = 10
+}
+
+name_list_ck_mau_khet = {
+	dynasty_of_location_prefix = "dynnp_of"
+	male_names = {
+		"Ab'arhath" "Ab'barhath" "Ab'beru" "Ab'derjet" "Ab'irheru" "Ab'kirheru" "Ab'nirheru" "Ab'nepri" "Ab'seti" "Ab'sedep" "Ab'tepheret" "Ab'tabereti" "Ab'urabi" "Ak'arhath" "Ak'heru" "Ak'derjet" "Ak'dera" "Ak'irheru" "Ak'kirheru" "Ak'nirheru" "Ak'nepri" "Ak'seti" "Ak'sedep" "Ak'tepheret" "Ak'tabereti" "Ak'urabi" "Akher'arhath" "Akher'heru" "Akher'derjet" "Akher'dera" "Akher'gh" "Akher'irheru" "Akher'kirheru" "Akher'nirheru" "Akher'nepri" "Akher'seti" "Akher'sedep" "Akher'tepheret" "Akher'tabereti" "Akher'urabi" Amarhath Amberu Amderjet Amdul Amgh Amirheru Amkirheru Ammed Amnirheru Amnepri Amseti Amsoud Amtaba Amtabe Amurabi "Fa'arhath" "Fa'barhath" "Fa'heru" "Fa'derjet" "Fa'dera" "Fa'gh" "Fa'irheru" "Fa'kirheru" "Fa'medheri" "Fa'nirheru" "Fa'nepri" "Fa'seti" "Fa'sedep" "Fa'tepheret" "Fa'tabereti" "Fa'urabi" Hesuarhath Hesubarhath Hesuberu Hesuderjet Hesudul Hesugh Hesuirheru Hesukirheru Hesumedheri Hesunirheru Hesunepri Hesusedep Hesutaba Hesutabe Hesuurabi Moarhath Mobarhath Moberu Moderjet Modul Mogh Moirheru Mokirheru Momedheri Monirheru Monepri Moseti Motaba Motabe Mourabi Mohamarhath Mohambarhath Mohamberu Mohamderjet Mohamdul Mohamgh Mohamirheru Mohamkirheru Mohamnirheru Mohamnepri Mohamseti Mohamsedep Mohamtaba Mohamtabe Mohamurabi Mojarhath Mojbarhath Mojberu Mojderjet Mojdul Mojgh Mojirheru Mojkirheru Mojmedheri Mojnirheru Mojnepri Mojseti Mojsedep Mojtaba Mojtabe Mojurabi Naarhath Nabarhath Naberu Naderjet Nadul Nagh Nairheru Nakirheru Namedheri Nanirheru Nanepri Naseti Nasedep Nataba Natabe Naurabi Omarhath Ombarhath Omberu Omderjet Omdul Omgh Omirheru Omkirheru Ommedheri Omnirheru Omnepri Omseti Omsedep Omtaba Omtabe Omurabi Shaarhath Shabarhath Shaberu Shaderjet Shadul Shagh Shairheru Shakirheru Shamedheri Shanirheru Shanepri Shaseti Shasedep Shataba Shatabe Shaurabi Sinarhath Sinberu Sinderjet Sindul Singh Sinirheru Sinkirheru Sinmedheri Sinnirheru Sinnepri Sinseti Sinsedep Sintaba Sintabe Sinurabi "Za'arhath" "Za'barhath" "Za'heru" "Za'derjet" "Za'dera" "Za'gh" "Za'irheru" "Za'kirheru" "Za'medheri" "Za'nirheru" "Za'nepri" "Za'seti" "Za'sedep" "Za'tepheret" "Za'tabereti" "Za'urabi" "Zan'arhath" "Zan'barhath" "Zan'heru" "Zan'derjet" "Zan'dera" "Zan'gh" "Zan'irheru" "Zan'kirheru" "Zan'medheri" "Zan'nirheru" "Zan'nepri" "Zan'seti" "Zan'sedep" "Zan'tepheret" "Zan'tabereti" "Zan'urabi"
+	}
+	female_names = {
+		Aahin Aahnikerti Afelizet Ahana Aheh Ahrazedi Ajjaaneti Akhtarmet Anitamunet Araya Ariba Ashima Ashivari Asrin Atima Azitamunet Aziahin Aziahnikerti Azifelizet Azihana Aziheh Azihrazedi Azijjaaneti Azikhtarmet Azinitamunet Aziraya Aziriba Azishima Azisrin Azitima Azizitamunet Elaahin Elaahnikerti Elafelizet Elahana Elaheh Elahrazedi Elajjaaneti Elakhtarmet Elanitamunet Elaraya Elariba Elashima Elasrin Elatima Elazitamunet Faahin Faahnikerti Fafelizet Fahana Faheh Fahrazedi Fajjaaneti Fakhtarmet Fanitamunet Faraya Fariba Fashima Fasrin Fazitamunet Khaahin Khaahnikerti Khafelizet Khahana Khaheh Khahrazedi Khajjaaneti Khakhtarmet Khanitamunet Kharaya Khariba Khashima Khasrin Khatima Khazitamunet Kiahin Kiahnikerti Kifelizet Kihana Kiheh Kihrazedi Kijjaaneti Kikhtarmet Kinitamunet Kiraya Kiriba Kishima Kisrin Kitima Kizitamunet Moahin Moahnikerti Mofelizet Mohana Moheh Mohrazedi Mojjaaneti Monitamunet Moraya Moriba Moshima Mosrin Motima Mozitamunet Naahin Naahnikerti Nafelizet Nahana Naheh Nahrazedi Najjaaneti Nakhtarmet Nanitamunet Naraya Nariba Nashima Nasrin Natima Nazitamunet Raahin Raahnikerti Rafelizet Rahana Raheh Rahrazedi Rajjaaneti Rakhtarmet Ranitamunet Raraya Rariba Rashima Rasrin Ratima Razitamunet Riahin Riahnikerti Rifelizet Rihana Riheh Rihrazedi Rijjaaneti Rikhtarmet Rinitamunet Riraya Ririba Rishima Risrin Ritima Rizitamunet Saahin Saahnikerti Safelizet Sahana Saheh Sahrazedi Sajjaaneti Sakhtarmet Sanitamunet Saraya Sariba Sashima Sasrin Satima Sazitamunet Shaahin Shaahnikerti Shafelizet Shahana Shaheh Shahrazedi Shajjaaneti Shakhtarmet Shanitamunet Sharaya Shariba Shashima Shasrin Shatima Shazitamunet Soahin Soahnikerti Sofelizet Sohana Soheh Sohrazedi Sojjaaneti Sokhtarmet Sonitamunet Soraya Soriba Soshima Sosrin Sotima Sozitamunet Taahin Taahnikerti Tafelizet Tahana Taheh Tahrazedi Tajjaaneti Takhtarmet Tanitamunet Taraya Tariba Tashima Tasrin Tatima Tazitamunet Zaahin Zaahnikerti Zafelizet Zahana Zaheh Zahrazedi Zajjaaneti Zakhtarmet Zanitamunet Zaraya Zariba Zashima Zasrin Zatima Zazitamunet
+	}
+	pat_grf_name_chance = 40
+	mat_grf_name_chance = 10
+	father_name_chance = 10
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 40
+	mother_name_chance = 10
+}
+
+name_list_ck_thark = {
+	dynasty_of_location_prefix = "dynnp_of"
+	male_names = {
+		Atulg Azuk Bagamul Bakh Baronk Bashag Bazgulub Bogakh Bologra Borug Both Bugdul Bugharz Bugrash Bugrol Bumbub Burul Dul Dular Duluk Duma Dumbuk Dumburz Dur Durbul Durgash Durz Durzol Durzub Durzum Garothmuk Garzonk Gashna Ghamborz Ghamonk Ghoragdush Ghorlorz Glush Grat Gruzgob Guarg Gurak Khadba Khagra Khargol Koffutto Largakh Lorbumol Lorzub Lugdum Lugrub Lurog Mash Matuk Mauhul Mazorn Mol Morbash Mug Mugdul Muk Murag Murkub Murzol Muzgonk Nag Nar Nash Ogrul Ogrumbu Olfin Olumba Orakh Rogdul Shakh Shamar Shamob Shargam Sharkub Shat Shazgob Shulong Shura Shurkul Shuzug Snaglak Snakha Snat Ugdumph Ughash Ulam Umug Uram Urim Urul Urzog Ushamph Ushat Yadba Yagak Yak Yam Yambagorn Yambul Yargol Yashnarz Yatur
+	}
+	female_names = {
+		Agrob Badbog Bashuk Bogdub Bugdurash Bula Bulak Bulfim Bum Burub Burzob Dura Durgat Durz Gashnakh Ghob Glasha Glob Gluronk Gonk Grat Grazob Gulfim Kharzug Lagakh Lambug Lazgar Mogak Morn Murob Murzush Nargol Orbul Ragash Rolfish Rulfim Shadbak Shagar Shagdub Sharn Sharog Shelur Sloomalah Uloth Ulumpha Urzoth Urzul Ushug Yazgash
+	}
+	pat_grf_name_chance = 40
+	mat_grf_name_chance = 10
+	father_name_chance = 10
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 40
+	mother_name_chance = 10
+}
+
+name_list_ck_torquas = {
+	dynasty_of_location_prefix = "dynnp_of"
+	male_names = {
+		Amug Ashgarn Azdush Azgrom Bagabug Blorg Bolg Borgu Bork Brogg Bubol Dharg Dugz Dush Dushrat Feldush Felgrat Flak Flogg Folgum Garl Gham Ghash Gimub Gluk Golm Gorgum Goroth Grisha Grom Grublik Gruk Gundza Hoglik Horhog Hork Horza Hoshgrish Hoshu Humgrat Hura Ishgha Ishmoz Kaka Khrosh Koth Kothug Krimp Krakhorn Kruk Kuga Kugaluga Lamlug Latbag Lorm Luga Lugdash Lugnak Malmug Mogg Mormog Mozfel Mug Muggrish Mugluk Muzglob Nakra Nazdug Nazkuga Nazu Norsko Noruk Ogbur Ogg Ogthrak Olgoth Olrok Orthog Pash Pigug Prak Pug Pugrish Pushkrimp Rash Ratak Ratanak Ratbag Ratlug Ronk Rug Rukdug Shag Shagflak Shaka Skak Skog Skun Snagog Takra Tarz Thakrak Thrak Torz Tugog Tuhorn Tuka Tumhom Tumug Ugol Ugakuga Ugguukbuk Ukrom Ukshak Ushbaka Ushgol Uthug Zathra Zog Zogdush Zugor Zuka Zumug Zunn
+	}
+	female_names = {
+		Akoth Baggu Barfu Buth Dugzu Ghuru Bulak Bulfim Gorfel Gubu Gund Hoshu Guru Ishghu Kugu Kugalugu Mozfel Nazkugu Maku Mozu Nakru Rugu Skoth Snafu Zathru
+	}
+	pat_grf_name_chance = 40
+	mat_grf_name_chance = 10
+	father_name_chance = 10
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 40
+	mother_name_chance = 10
+}
+
+name_list_ck_tleilax = {
+	dynasty_of_location_prefix = "dynnp_of"
+	male_names = {
+		Alcalimar Alodentys Acemon Acemonar Almion Amion Atsiomar Acemar Anmon Ammon Anemon Alemar Bijimonar Bijon Bijion Bihar Bahari Balmonar Balicar Balcomar Banmar Elcar Etsiar Etsion Elimar Emcar Emion Enmoro Enkomar Emnetsar Elicar Eclion Elmontar Emnon Elgenon Enmon Emionar Hijar Himnar Hijarion Hijimonar Ircar Imonar Ilar Ilmonar Icmonar Iconar Imno Igemonar Ijimar Kommar Komenicar Komionar Kelicar Kalicar Kacemon Ketsar Kemion Kalamonetsar Kamonetar Kamon Kamoneton Manmar Meneor Mantor Milior Memnar Meomar Malicar Malcaron Melontys Melinar Metsar Mecamor Ozar Otiminar Olmion Ocar Oclion Otsar Omion Omnion Omnotesh Omnitah Obion Obijion Obijon Obamar Obamanactar Otsyen Quadar Quadaro Quadon Qumar Qejimar Qetsymar Qingor Salimar Salmar Samnon Sandrew Semion Sentemion Setson Scalim Satsim Satson Satsomar Satsomion Sasio Sasiomar Seso Selgor Selinon Selon Seton Setomar Suscar Tor Timion Timno Timinar Timotsar Tsartim Tsartso Tsarto Tun Ulmar Ulcar Ulcom Uluji Ulutsu Umnar Unmar Usandar Usmar Ustar Usim Usmon Usuoah Zagar Zuhar Zuharo Zutso Zuso Zumo Zumonotsar Zumotson Zumnaro
+	}
+	female_names = {
+		Alotyc Almonadentys Alemiana Alimi Acemimi Animi Acimi Atsi Atsimys Atemia Atiemna Amnimi Amini Asimeara Alimeara Almeara Acmeara Ameara Alcihar Ahiri Ahaia Bema Beamar Betsomi Beha Behini Becini Benica Benicia Bemai Caesca Cici Ciciani Demnia Demmi Demi Demini Denini Denimacini Demontys Dimita Dimiana Didana Dilani Dimani Elini Enini Enin Enani Elani Enalia Enalina Elneara Enleara Elen Elizami Ezami Emni Enni Kiji Kici Kitsi Kimneara Keara Keamera Kicimia Kimini Kinmiana Mimi Yasmi Yasi Yamini Yani Yanina Yamnina Yanima Yayi Yatsmi Yama Yamiya Yania Yatsia Yalemina Yaleara Yeara
+	}
+	pat_grf_name_chance = 40
+	mat_grf_name_chance = 10
+	father_name_chance = 10
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 40
+	mother_name_chance = 10
+}
+
+name_list_ck_choam = {
+	dynasty_of_location_prefix = "dynnp_of"
+	male_names = {
+		Aimoto Akifumi Akihiro Akikazu Akinari Akio Akira Akitake Amuro Arinori Ataru Atasuke Atsuki Atsumori Atsushi Atsuya Ayase Baiko Bakin Basara Batou Bokkai Brock Bunzo Chikafusa Chojiro Chomei Daiju Daiki Daisetsu Daisuke Eichi Eiichi Eiji Eisen Eisuke Eita Eitoku Fujimaro Fumihiro Fumio Futoshi Fuyuki Gen Gendo Genichi Genjo Genki Genma Genpaku Genta Gidayu Gintoki Goemon Gohan Goku Gonkuro Hajime Hao Haruko Haruo Haseo Hayao Hayato Heihachiro Heiji Heikichi Hidemichi Hideo Hideri Hidetora Hideyoshi Hikaru Hikozaemon Himura Hiro Hirohisa Hiroki Hiromi Hiroshi Hirotada Hiroto Hirotsugu Hiryu Hisanobu Hisao Hitomaro Hitoshi Hosuke Hyobe Hyosuke Hyotaru Ichibei Ichigo Ichiro Ichiyo Ichizo Iesada Ikemoto Ikki Inejiro Itachi Itaru Iwao Izumo Jakuchu Jiraiya Jiro Joben Jugemu Jun Junichi Junji Jurobei Kaemon Kagehisa Kai Kaii Kaiji Kaito Kakashi Kamui Kaneie Kantaro Katai Katsuhiro Katsuo Katsuyuki Kaworu Kazu Kazuki Kazuma Kazuteru Kazuya Kazuyoshi Kazuyuki Keiichi Keiji Keisuke Ken Kenichi Kenshiro Kensuke Kenta Kentaro Kento Kenzo Kiichi Kikaku Kikugoro Kimihiro Kiminobu Kintaro Kira Kiyo Kiyoshi Koetsu Koichi Koichiro Kokei Koki Kokushi Konosuke Korekiyo Korenaga Kosuke Kotaro Koyo Kozue Kumanosuke Kunihiko Kunimatsu Kunitaro Kuririn Kyohei Kyoichi Kyoji Kyosuke Kyoya Kyuichi Kyushichi Magobei Mahiro Majin Makoto Mamoru Manzo Marihito Masaaki Masanobu Masao Masato Mashashi Masujiro Matabei Matsudaira Mikio Mitsuharu Mitsunari Mokichi Mokuba Montaro Morio Motoki Motonobu Mukuro Munemori Musashi Mushanokoji Mutsohito Myojin Naizen Naoki Naomichi Naoto Nikki Nissho Nobuo Nobuyoshi Norihisa Norinaga Noritada Ochanomizu Ogai Okakura Okitsugu Orochimaru Osamu Otojiro Rai Ranma Reiji Reizo Ren Renji Rentaro Riki Rinji Robita Roronoa Rosanjin Ryobe Ryohei Ryoji Ryoma Ryota Ryotaro Ryuhei Ryuji Ryutaro Sachio Sadao Sadatake Sagara Saito Sasuke Satoshi Sei Seibei Seiho Seika Seiryo Seishiro Seishisai Seiya Sena Sessue Seta Seto Setsuna Shigeaki Shigeki Shigemi Shigeru Shigeshi Shigetaka Shikamaru Shiki Shin Shingen Shinji Shinogu Shinomori Shintaro Shinya Shinzaburo Shirai Shirou Shiryu Shishio Shizuo Sho Shoda Shogo Shohei Shoin Shoji Shojiro Shoko Shoraku Shosei Shosuke Shota Shukishi Shuko Shunji Shunko Shunsuke Shusake Shusaku So Sora Sorai Sosuke Sukeyasu Sumiteru Suzaku Suzu Tachi Tachiki Tadashi Tadayoshi Tadayuki Tai Taichi Taiki Taisuke Taiyo Takamasa Takanibu Takashi Takayoshi Takayuki Takehiro Takeo Takeru Takeshi Takuma Takumi Tamotsu Tanaka Tatsuya Tatsuzo Teika Tekkan Teriuihi Teruo Tetsuo Tetsuya Tobei Togai Togusa Toji Tokimasa Tokuma Tomiji Tomoaki Torazo Toshiaki Toshiro Toyokuni Toyoshige Tsubasa Tsugahara Tsuna Tsuneari Tsuneya Tsuneyo Uryu Wataru Yachi Yakumo Yasuhiko Yasuhiro Yasuhito Yasunari Yasunori Yasutake Yasutoki Yasutora Yataro Yodo Yoh Yoichi Yoringa Yoritomo Yoshida Yoshifumi Yoshii Yoshikazu Yoshiki Yoshimochi Yoshinaka Yoshinori Yoshitaka Yugoro Yukishiro Yuri Yushiro Yusuke Yuta Yutaro Yuya
+	}
+	female_names = {
+		Ai Aika Aiko Aimi Aira Akane Akari Akina Akino Amane Amaya Anna Ano Anri Ao Aoba Aoi Asuka Asumi Atsuko Aya Ayaka Ayako Ayana Ayano Ayumi Ayuri Azusa Chie Chieko Chiemi Chihiro Chiho Chihomi Chika Chikako Chikaze Chimaki Chinami Chisaki Chisato Chitoge Chitose Chiyako Chiyeko Chiyuki Echiko Eho Eiko Eimi Eire Emao Emika Emiko Emiya Erena Erika Erina Fuji Fujiko Fuka Fuki Fukuko Fumi Fumika Fumiya Futaba Fuuko Fuyume Hana Hanae Hanako Hanami Hanayo Haniko Haruhi Haruka Harukichi Hatsu Hatsuyo Hazuki Hikari Himari Hina Hinata Hinako Hinano Hiroe Hisako Hisano Hotaru Ichiho Ichiko Ikue Ikuko Ikumi Ikuyo Inaho Iori Irisa Isaki Isami Isamu Ishi Isoko Itsuko Itsumi Izumi Junko Kaeda Kagami Kaho Kaiyo Kameko Kamiya Kanade Kanna Kanon Kaoru Kasumi Kaya Kayami Kayu Kazashi Kazu Kazumi Kiho Kino Kinu Kinuye Kinuyo Kiriko Kita Kiyomi Kofuyu Koharu Kokoro Koma Konatsu Kotoko Koyori Kozue Kumin Kumiyo Mafuyu Mai Maika Maiya Makimachi Mami Mamiko Mari Marina Masa Masami Maya Megumin Mei Michiko Mieko Miiko Mika Mikasa Miki Mikka Miko Miku Mine Mineko Mino Mio Misa Misaki Misato Mitsu Mitsuko Miu Miwa Miyako Miyoshi Miyuki Mizuki Moka Momoko Moto Motoko Murasaki Mutsuko Nadeshiko Naga Nagisa Nami Namiko Nana Nanao Nano Naomi Naru Narumi Natsu Natsumi Nene Nishi Nodoka Nui Orihime Orika Osen Otsu Rei Reira Ren Rena Rikka Rin Rina Ririko Ririna Ritsu Ritsuko Rui Runa Sada Saika Sakae Sakamae Saki Sakura Sakurako Sakuro Sanae Saori Satoko Satone Satsuki Sawa Saya Seka Shiho Shika Shiori Shoko Sumire Suzu Suzune Takako Takara Tami Tane Tansho Tohru Toka Tokie Tokiwa Toku Tomi Tomo Tomoe Toshi Toshiko Toyoko Tsubasa Tsugi Tsukiko Tsukiyama Tsumugi Uka Umeki Una Urako Urano Urara Uta Yachi Yasu Yayoi Yomiko Yoriko Yoshe Yoshike Yoshiko Yotsuba Yufu Yui Yuina Yuki Yukika Yukishiro Yumako Yuna Yuno Yuria Yuro Yutsuko Yuuko
+	}
+	pat_grf_name_chance = 40
+	mat_grf_name_chance = 10
+	father_name_chance = 10
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 40
+	mother_name_chance = 10
+}
+
+name_list_ck_inuit = {
+	dynasty_of_location_prefix = "dynnp_of"
+	male_names = {
+		Alcalimar Alodentys Acemon Acemonar Almion Amion Atsiomar Acemar Anmon Ammon Anemon Alemar Bijimonar Bijon Bijion Bihar Bahari Balmonar Balicar Balcomar Banmar Elcar Etsiar Etsion Elimar Emcar Emion Enmoro Enkomar Emnetsar Elicar Eclion Elmontar Emnon Elgenon Enmon Emionar Hijar Himnar Hijarion Hijimonar Ircar Imonar Ilar Ilmonar Icmonar Iconar Imno Igemonar Ijimar Kommar Komenicar Komionar Kelicar Kalicar Kacemon Ketsar Kemion Kalamonetsar Kamonetar Kamon Kamoneton Manmar Meneor Mantor Milior Memnar Meomar Malicar Malcaron Melontys Melinar Metsar Mecamor Ozar Otiminar Olmion Ocar Oclion Otsar Omion Omnion Omnotesh Omnitah Obion Obijion Obijon Obamar Obamanactar Otsyen Quadar Quadaro Quadon Qumar Qejimar Qetsymar Qingor Salimar Salmar Samnon Sandrew Semion Sentemion Setson Scalim Satsim Satson Satsomar Satsomion Sasio Sasiomar Seso Selgor Selinon Selon Seton Setomar Suscar Tor Timion Timno Timinar Timotsar Tsartim Tsartso Tsarto Tun Ulmar Ulcar Ulcom Uluji Ulutsu Umnar Unmar Usandar Usmar Ustar Usim Usmon Usuoah Zagar Zuhar Zuharo Zutso Zuso Zumo Zumonotsar Zumotson Zumnaro
+	}
+	female_names = {
+		Alotyc Almonadentys Alemiana Alimi Acemimi Animi Acimi Atsi Atsimys Atemia Atiemna Amnimi Amini Asimeara Alimeara Almeara Acmeara Ameara Alcihar Ahiri Ahaia Bema Beamar Betsomi Beha Behini Becini Benica Benicia Bemai Caesca Cici Ciciani Demnia Demmi Demi Demini Denini Denimacini Demontys Dimita Dimiana Didana Dilani Dimani Elini Enini Enin Enani Elani Enalia Enalina Elneara Enleara Elen Elizami Ezami Emni Enni Kiji Kici Kitsi Kimneara Keara Keamera Kicimia Kimini Kinmiana Mimi Yasmi Yasi Yamini Yani Yanina Yamnina Yanima Yayi Yatsmi Yama Yamiya Yania Yatsia Yalemina Yaleara Yeara
+	}
+	pat_grf_name_chance = 40
+	mat_grf_name_chance = 10
+	father_name_chance = 10
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 40
+	mother_name_chance = 10
+}
+
+name_list_ck_siberian = {
+	dynasty_of_location_prefix = "dynnp_of"
+	male_names = {
+		Alcalimar Alodentys Acemon Acemonar Almion Amion Atsiomar Acemar Anmon Ammon Anemon Alemar Bijimonar Bijon Bijion Bihar Bahari Balmonar Balicar Balcomar Banmar Elcar Etsiar Etsion Elimar Emcar Emion Enmoro Enkomar Emnetsar Elicar Eclion Elmontar Emnon Elgenon Enmon Emionar Hijar Himnar Hijarion Hijimonar Ircar Imonar Ilar Ilmonar Icmonar Iconar Imno Igemonar Ijimar Kommar Komenicar Komionar Kelicar Kalicar Kacemon Ketsar Kemion Kalamonetsar Kamonetar Kamon Kamoneton Manmar Meneor Mantor Milior Memnar Meomar Malicar Malcaron Melontys Melinar Metsar Mecamor Ozar Otiminar Olmion Ocar Oclion Otsar Omion Omnion Omnotesh Omnitah Obion Obijion Obijon Obamar Obamanactar Otsyen Quadar Quadaro Quadon Qumar Qejimar Qetsymar Qingor Salimar Salmar Samnon Sandrew Semion Sentemion Setson Scalim Satsim Satson Satsomar Satsomion Sasio Sasiomar Seso Selgor Selinon Selon Seton Setomar Suscar Tor Timion Timno Timinar Timotsar Tsartim Tsartso Tsarto Tun Ulmar Ulcar Ulcom Uluji Ulutsu Umnar Unmar Usandar Usmar Ustar Usim Usmon Usuoah Zagar Zuhar Zuharo Zutso Zuso Zumo Zumonotsar Zumotson Zumnaro
+	}
+	female_names = {
+		Alotyc Almonadentys Alemiana Alimi Acemimi Animi Acimi Atsi Atsimys Atemia Atiemna Amnimi Amini Asimeara Alimeara Almeara Acmeara Ameara Alcihar Ahiri Ahaia Bema Beamar Betsomi Beha Behini Becini Benica Benicia Bemai Caesca Cici Ciciani Demnia Demmi Demi Demini Denini Denimacini Demontys Dimita Dimiana Didana Dilani Dimani Elini Enini Enin Enani Elani Enalia Enalina Elneara Enleara Elen Elizami Ezami Emni Enni Kiji Kici Kitsi Kimneara Keara Keamera Kicimia Kimini Kinmiana Mimi Yasmi Yasi Yamini Yani Yanina Yamnina Yanima Yayi Yatsmi Yama Yamiya Yania Yatsia Yalemina Yaleara Yeara
+	}
+	pat_grf_name_chance = 40
+	mat_grf_name_chance = 10
+	father_name_chance = 10
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 40
+	mother_name_chance = 10
+}
+
+name_list_ck_rakian = {
+	dynasty_of_location_prefix = "dynnp_of"
+	male_names = {
+		Abagha Achigh Aguchu Ajai Ajinai Akhutai Alagh Alchi Alchidai Altan Ambaghai Arkhai Arasen Babur Badai Bagaridai Bala Barghujin Bartan Batu Bedugun Begter Belgutei Belgunutei Bilge Berke Bodonchar Bogen Bogorchu Bolkhadar Borjigidai Boroghul Bughu Bugidai Bugunutei Bujeg Bukha Bulughan Buri Burkhan Burundai Chagatai Chaghagan Chanai Chigu Chidukhul Chilagun Chiledu Chormakhan Chulgetei Dagun Daritai Dayir Dodai Duua Eljigedei Ghazan Ghunan Guchu Gughlug Guyug Harghasun Horkhudagh Hulegu Husun Inalchi Inancha Iturgen Jajiradai Jamugha Jebe Jochi Jurchedei Khabichi Khachi Khachigun Khadagh Khagatai Khaidu Khal Khorchi Khorilartai Khubilai Khudu Khutula Khuyildar Kogsegu Kokochu Megetu Megujin Menggei Mongke Morokha Munglig Nakhu Narin Nayaga Nogai Odchigin Ogodei Okhotur Oljaitu Oronartai Shiraghul Shirgugetu Subetei Suyiketu Taghai Tamachi Targhutai Temuge Temujin Temur_Timur Todogen Toghoril Toghtoga Tokhtamis Tolui Torolchi Tumen Uighurtai Ukhuna Usun Yedi Yegu Yeke Yesugei Yesunge Yokhunan Kadan Godan
+	}
+	female_names = {
+		"Al-Alta" Alan Altani Borte Botokhui Bulughan Chabi Chagur Chakha Checheyigen Chotan Doregene Doquz Ebegei Gurbesu Hogelun Holuikhan Ibakha Khadagan Khogaghchin Khojin Khorijin Khugurchin Khulan Khutulun Mandukhai Mongoljin Nomolun Oghul Orbei Sokhatai Sorkhaghatani Tekine Temulun T regene Yesugun Yesui Hoelun
+	}
+	pat_grf_name_chance = 40
+	mat_grf_name_chance = 10
+	father_name_chance = 10
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 40
+	mother_name_chance = 10
+}
+
+name_list_ck_korean = {
+	dynasty_of_location_prefix = "dynnp_of"
+	male_names = {
+		Aimoto Akifumi Akihiro Akikazu Akinari Akio Akira Akitake Amuro Arinori Ataru Atasuke Atsuki Atsumori Atsushi Atsuya Ayase Baiko Bakin Basara Batou Bokkai Brock Bunzo Chikafusa Chojiro Chomei Daiju Daiki Daisetsu Daisuke Eichi Eiichi Eiji Eisen Eisuke Eita Eitoku Fujimaro Fumihiro Fumio Futoshi Fuyuki Gen Gendo Genichi Genjo Genki Genma Genpaku Genta Gidayu Gintoki Goemon Gohan Goku Gonkuro Hajime Hao Haruko Haruo Haseo Hayao Hayato Heihachiro Heiji Heikichi Hidemichi Hideo Hideri Hidetora Hideyoshi Hikaru Hikozaemon Himura Hiro Hirohisa Hiroki Hiromi Hiroshi Hirotada Hiroto Hirotsugu Hiryu Hisanobu Hisao Hitomaro Hitoshi Hosuke Hyobe Hyosuke Hyotaru Ichibei Ichigo Ichiro Ichiyo Ichizo Iesada Ikemoto Ikki Inejiro Itachi Itaru Iwao Izumo Jakuchu Jiraiya Jiro Joben Jugemu Jun Junichi Junji Jurobei Kaemon Kagehisa Kai Kaii Kaiji Kaito Kakashi Kamui Kaneie Kantaro Katai Katsuhiro Katsuo Katsuyuki Kaworu Kazu Kazuki Kazuma Kazuteru Kazuya Kazuyoshi Kazuyuki Keiichi Keiji Keisuke Ken Kenichi Kenshiro Kensuke Kenta Kentaro Kento Kenzo Kiichi Kikaku Kikugoro Kimihiro Kiminobu Kintaro Kira Kiyo Kiyoshi Koetsu Koichi Koichiro Kokei Koki Kokushi Konosuke Korekiyo Korenaga Kosuke Kotaro Koyo Kozue Kumanosuke Kunihiko Kunimatsu Kunitaro Kuririn Kyohei Kyoichi Kyoji Kyosuke Kyoya Kyuichi Kyushichi Magobei Mahiro Majin Makoto Mamoru Manzo Marihito Masaaki Masanobu Masao Masato Mashashi Masujiro Matabei Matsudaira Mikio Mitsuharu Mitsunari Mokichi Mokuba Montaro Morio Motoki Motonobu Mukuro Munemori Musashi Mushanokoji Mutsohito Myojin Naizen Naoki Naomichi Naoto Nikki Nissho Nobuo Nobuyoshi Norihisa Norinaga Noritada Ochanomizu Ogai Okakura Okitsugu Orochimaru Osamu Otojiro Rai Ranma Reiji Reizo Ren Renji Rentaro Riki Rinji Robita Roronoa Rosanjin Ryobe Ryohei Ryoji Ryoma Ryota Ryotaro Ryuhei Ryuji Ryutaro Sachio Sadao Sadatake Sagara Saito Sasuke Satoshi Sei Seibei Seiho Seika Seiryo Seishiro Seishisai Seiya Sena Sessue Seta Seto Setsuna Shigeaki Shigeki Shigemi Shigeru Shigeshi Shigetaka Shikamaru Shiki Shin Shingen Shinji Shinogu Shinomori Shintaro Shinya Shinzaburo Shirai Shirou Shiryu Shishio Shizuo Sho Shoda Shogo Shohei Shoin Shoji Shojiro Shoko Shoraku Shosei Shosuke Shota Shukishi Shuko Shunji Shunko Shunsuke Shusake Shusaku So Sora Sorai Sosuke Sukeyasu Sumiteru Suzaku Suzu Tachi Tachiki Tadashi Tadayoshi Tadayuki Tai Taichi Taiki Taisuke Taiyo Takamasa Takanibu Takashi Takayoshi Takayuki Takehiro Takeo Takeru Takeshi Takuma Takumi Tamotsu Tanaka Tatsuya Tatsuzo Teika Tekkan Teriuihi Teruo Tetsuo Tetsuya Tobei Togai Togusa Toji Tokimasa Tokuma Tomiji Tomoaki Torazo Toshiaki Toshiro Toyokuni Toyoshige Tsubasa Tsugahara Tsuna Tsuneari Tsuneya Tsuneyo Uryu Wataru Yachi Yakumo Yasuhiko Yasuhiro Yasuhito Yasunari Yasunori Yasutake Yasutoki Yasutora Yataro Yodo Yoh Yoichi Yoringa Yoritomo Yoshida Yoshifumi Yoshii Yoshikazu Yoshiki Yoshimochi Yoshinaka Yoshinori Yoshitaka Yugoro Yukishiro Yuri Yushiro Yusuke Yuta Yutaro Yuya
+	}
+	female_names = {
+		Ai Aika Aiko Aimi Aira Akane Akari Akina Akino Amane Amaya Anna Ano Anri Ao Aoba Aoi Asuka Asumi Atsuko Aya Ayaka Ayako Ayana Ayano Ayumi Ayuri Azusa Chie Chieko Chiemi Chihiro Chiho Chihomi Chika Chikako Chikaze Chimaki Chinami Chisaki Chisato Chitoge Chitose Chiyako Chiyeko Chiyuki Echiko Eho Eiko Eimi Eire Emao Emika Emiko Emiya Erena Erika Erina Fuji Fujiko Fuka Fuki Fukuko Fumi Fumika Fumiya Futaba Fuuko Fuyume Hana Hanae Hanako Hanami Hanayo Haniko Haruhi Haruka Harukichi Hatsu Hatsuyo Hazuki Hikari Himari Hina Hinata Hinako Hinano Hiroe Hisako Hisano Hotaru Ichiho Ichiko Ikue Ikuko Ikumi Ikuyo Inaho Iori Irisa Isaki Isami Isamu Ishi Isoko Itsuko Itsumi Izumi Junko Kaeda Kagami Kaho Kaiyo Kameko Kamiya Kanade Kanna Kanon Kaoru Kasumi Kaya Kayami Kayu Kazashi Kazu Kazumi Kiho Kino Kinu Kinuye Kinuyo Kiriko Kita Kiyomi Kofuyu Koharu Kokoro Koma Konatsu Kotoko Koyori Kozue Kumin Kumiyo Mafuyu Mai Maika Maiya Makimachi Mami Mamiko Mari Marina Masa Masami Maya Megumin Mei Michiko Mieko Miiko Mika Mikasa Miki Mikka Miko Miku Mine Mineko Mino Mio Misa Misaki Misato Mitsu Mitsuko Miu Miwa Miyako Miyoshi Miyuki Mizuki Moka Momoko Moto Motoko Murasaki Mutsuko Nadeshiko Naga Nagisa Nami Namiko Nana Nanao Nano Naomi Naru Narumi Natsu Natsumi Nene Nishi Nodoka Nui Orihime Orika Osen Otsu Rei Reira Ren Rena Rikka Rin Rina Ririko Ririna Ritsu Ritsuko Rui Runa Sada Saika Sakae Sakamae Saki Sakura Sakurako Sakuro Sanae Saori Satoko Satone Satsuki Sawa Saya Seka Shiho Shika Shiori Shoko Sumire Suzu Suzune Takako Takara Tami Tane Tansho Tohru Toka Tokie Tokiwa Toku Tomi Tomo Tomoe Toshi Toshiko Toyoko Tsubasa Tsugi Tsukiko Tsukiyama Tsumugi Uka Umeki Una Urako Urano Urara Uta Yachi Yasu Yayoi Yomiko Yoriko Yoshe Yoshike Yoshiko Yotsuba Yufu Yui Yuina Yuki Yukika Yukishiro Yumako Yuna Yuno Yuria Yuro Yutsuko Yuuko
+	}
+	pat_grf_name_chance = 40
+	mat_grf_name_chance = 10
+	father_name_chance = 10
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 40
+	mother_name_chance = 10
+}
+
+name_list_ck_olympian = {
+	dynasty_of_location_prefix = "dynnp_of"
+	male_names = {
+		Andre_Andrew Andreas_Andrew Bisti Blaxius Calenda Clime Comes Domagna_Dominik Gaucoli Gauzoli Gervasius Giuco Give Jugno_Junius Juliano_Julius Junius_Junius Laurenzo_Laurence Leonardus_Leonard Loncho Lucarus_Luke Mare_Marcus Marco_Marcus Maroe_Marinus Marinus_Marinus Matheus_Matthew Michael_Michael Nale_Cornelius Nichiforus_Nikephoros Nicola_Nicholas Pascalis_Pascal Pasqualis_Pascal Petragna_Peter Petrus_Peter Piero_Peter Perue_Peter Rassinus Rusco Stane_Stanislav Thoma_Thomas Tuone_Antonius Vallius Vita
+	}
+	female_names = {
+		Ana_Anna Anna_Anna Antolina_Antonia Anussa Babalio Bodacia Catarena_Catherine Caterina_Catherine Clara_Clara Drase Dea Descia Deia Deussa Elena_Helene Giva Jachussa Jacobica Jelussa Laurica Lene_Helene Magdalena_Magdalena Margerita_Margaret Maria_Maria Mauressa Micha Mira Nicoletta Nixa Rade Rado Regina_Regina Rossa_Rosa Schimosa Thome Vele
+	}
+	pat_grf_name_chance = 40
+	mat_grf_name_chance = 10
+	father_name_chance = 10
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 40
+	mother_name_chance = 10
+}
+
+name_list_ck_ptolemaic = {
+	dynasty_of_location_prefix = "dynnp_of"
+	male_names = {
+		Aaron_Aaron Adam_Adam Alan_Alan Albert_Albert Alexander_Alexander Alfred Andrew_Andrew Anselm_Anselm Arnold_Arnold Arthur_Arthur Aubrey Christopher_Christopher David_David Edmund_Edmund Edward_Edward Eric_Erik Eustace_Eustace Fulk_Folke Geoffrey_Godfrey George_George Gerald_Gerald Gilbert_Gilbert Godfrey_Godfrey Gregory_Gregory Guy_Guy Henry_Henry Hugh_Hugh Humphrey Jocelyn John_John Jordan_Jordan Laurence_Laurence Lionel_Lionel Mark_Marcus Martin_Martin Matthew_Matthew Maurice_Maurice Michael_Michael Nicholas_Nicholas Paul_Paul Peter_Peter Philip_Philip Ralph_Ralph Randolph_Randolph Reginald_Reinhold Richard_Richard Robert_Robert Roger_Roger Simon_Simon Stephen_Stephen Theobald_Theobald Thomas_Thomas Waleran Walter_Walter William_William Aemilianus Aemilius Aetius Albinus Alexander_Alexander Anastasius_Anastasius Anicius Annius Antoninus Antonius_Antonius Arcadius Aurelianus Aurelius Avitus Belisarius_Belisarius Britannicus Caecilius Caesar_Caesar Carinus Carus Cassius Claudius_Claudius Clementius Constans_Constans Constantinus_Constantine Constantius_Constantius Cornelius_Cornelius Crassus Decimus Decius Diocletianus Domitianus Domitius Drusus Ennodius Fabianus Fabius Faustus Felix Flavianus Florianus Gaius Galerius Gallienus Gallus Germanus_Germanus Gordianus Gracchus Gratianus Hadrianus_Adrian Herculius_Heracles Honorius Joannes_John Jovianus Julianus_Julian Julius_Julius "Julius-Caesar" Junius Justinus_Justin Justinianus_Justinian Leo_Leo Leontius_Leontius Liberius Licinius Lucius Magnus_Magnus Marcellinus Marcellus Marcianus Marcus_Marcus Marinus Marius Martinus Maximianus Maximinus Maximus_Maximus Nepotianus Nerva Numerianus Octavianus Octavius Otho Paulinus Paulus_Paul Petronius Philippus_Philip Pompeius Pontianus Priscus Probus Publius Quintus Romanus_Roman Romulus Rufinus Rutilius Sabinianus Saturninus Sempronius Septimius Sergius_Sergius Severinus Severus Sextus Symmachus_Symmachus Tacitus Theodosius_Theodosios Tiberius_Tiberius Titius Titus Trajanus_Trajan Urbanus_Urban Valens Valentinianus Valerianus Valerius_Valerius Venantius Vespasianus Victor Victorinus Vigilius Vitalianus Volusianus
+	}
+	female_names = {
+		Adela_Adela Adelaide_Adelaide Alice_Alice Amice Anne_Anna Aveline_Avelina Beatrice_Beatrice Blanche_Blanche Catherine_Catherine Cecilia_Cecilia Constance_Constance Edith_Edith Ela Eleanor_Eleanor Elizabeth_Elizabeth Emma_Emma Hawise Isabel_Elizabeth Isabella_Elizabeth Joan_Joan Joanna_Joan Juliana_Juliana Mahaut_Matilda Margaret_Margaret Mary_Maria Matilda_Matilda Maud_Matilda Philippa_Philippa Sofia_Sofia Sybilla_Sibylla Aemilianus Aemilius Aetius Albinus Alexander_Alexander Anastasius_Anastasius Anicius Annius Antoninus Antonius_Antonius Arcadius Aurelianus Aurelius Avitus Belisarius_Belisarius Britannicus Caecilius Caesar_Caesar Carinus Carus Cassius Claudius_Claudius Clementius Constans_Constans Constantinus_Constantine Constantius_Constantius Cornelius_Cornelius Crassus Decimus Decius Diocletianus Domitianus Domitius Drusus Ennodius Fabianus Fabius Faustus Felix Flavianus Florianus Gaius Galerius Gallienus Gallus Germanus_Germanus Gordianus Gracchus Gratianus Hadrianus_Adrian Herculius_Heracles Honorius Joannes_John Jovianus Julianus_Julian Julius_Julius "Julius-Caesar" Junius Justinus_Justin Justinianus_Justinian Leo_Leo Leontius_Leontius Liberius Licinius Lucius Magnus_Magnus Marcellinus Marcellus Marcianus Marcus_Marcus Marinus Marius Martinus Maximianus Maximinus Maximus_Maximus Nepotianus Nerva Numerianus Octavianus Octavius Otho Paulinus Paulus_Paul Petronius Philippus_Philip Pompeius Pontianus Priscus Probus Publius Quintus Romanus_Roman Romulus Rufinus Rutilius Sabinianus Saturninus Sempronius Septimius Sergius_Sergius Severinus Severus Sextus Symmachus_Symmachus Tacitus Theodosius_Theodosios Tiberius_Tiberius Titius Titus Trajanus_Trajan Urbanus_Urban Valens Valentinianus Valerianus Valerius_Valerius Venantius Vespasianus Victor Victorinus Vigilius Vitalianus Volusianus
+	}
+	pat_grf_name_chance = 40
+	mat_grf_name_chance = 10
+	father_name_chance = 10
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 40
+	mother_name_chance = 10
+}
+
+name_list_ck_gdonyos = {
+	dynasty_of_location_prefix = "dynnp_of"
+	male_names = {
+		Aaron_Aaron Abner Abraham_Abraham Adam_Adam Adrian_Adrian Alan_Alan Albert_Albert Alexander_Alexander Alfred_Alfred Amos Andrew_Andrew Angel_Angel Anthony_Anthony Arthur_Arthur Austin_Augustine Barclay Barrett Beckett Benjamin_Benjamin Bernard_Bernard Bradford Bradley_Bradley Brandon_Brandon Brian_Brian Bridger Bruce Caldwell Caleb_Caleb Calvin_Calvin Carter Charles_Charles Chase Chester_Chester Christopher_Christopher Clark Clement_Clement Cleveland Clifford Clinton Conway Cornelius_Cornelius Creighton Cyrus_Cyrus Dakota Dalton Damian_Damian Daniel_Daniel David_David Douglas_Douglas Drake Dwayne_Duane Dwight Edgar_Edgar Edward_Edward Elbridge Elliot_Elijah Eric_Erik Eugene_Eugene Evander Ezra_Ezra Felix_Felix Fillmore Fletcher Ford Forrest Francis_Francis Franklin_Franklin Frederick_Frederick Gabriel_Gabriel Garfield Garland Gates Gavin_Gavin George_George Gerald_Gerald Glenn Graham Grant Gregory_Gregory Grover Hamilton Hannibal_Hannibal Harding Hayes Henry_Henry Herbert_Herbert Hiram Howard Hugh_Hugh Hunter Indiana Isaac_Isaac Isaiah_Isaiah Jackson_John Jacob_Jacob James_James Jason_Jason Jefferson_Geoffrey Joel_Joel John_John Johnson_John Jonathan_Jonathan Jordan_Jordan Joseph_Joseph Julian_Julian Julius_Julius Justin_Justin Keegan Keith Kennedy Kenneth_Kenneth Kevin_Kevin Kirk Knox Lamar Lawrence_Lawrence Leonard_Leonard Lewis_Louis Levi Lincoln Linwood Lucas_Luke Lyndon Malcolm_Malcolm Mark_Mark Marshall Martin_Martin Matthew_Matthew McKinley Meriwether Michael_Michael Milburn Millard Monroe Morris_Maurice Murphy Nelson_Neil Nicholas_Nicholas Noah_Noah Norman_Norman Norton Ogden Orville Oswald_Oswald Owen_Eugene Palmer Parker Patrick_Patrick Patton Paul_Paul Philander Pierce_Peter Porter Reagan Remington Rhett Richard_Richard Robert_Robert Roderick_Roderick Rodney Roosevelt Ross Rufus_Rufus Rutherford Ryan Samuel_Samuel Sawyer Schuyler Scott Seth Sheldon Sherman Silas Sinclair Smith Spencer Stafford Stanley_Stanley Steven_Stephen Sullivan_Sullivan Teague Thaddeus_Thaddeus Theodore_Theodore Thomas_Thomas Timothy_Timothy Todd Travis Trenton Truman Tyler Max_Max Upton Vance Vernon Victor_Victor Vincent_Vincent Quincy_Quintus Walker Walter_Walter Warren Washington Webster William_William Wilson_William Woodrow Wyatt Xavier_Xavier Yancy_John Zachary_Zachary
+	}
+	female_names = {
+		Abigail_Abigail Alexandra_Alexandra Alexandria_Alexandra Alexis_Alexia Allison_Alice Alyssa_Alyssa Amanda_Amanda Amber Amy Andrea_Andrea Angela_Angela Anna_Anna April_April Ashley Autumn Bailey Belle_Elizabeth Beatrix_Beatrix Bethany Blair Blakely Breanna_Briana Brianna_Briana Brittany_Brittany Brooke Caitlin_Caitlin Catherine_Catherine Caroline_Caroline Cassandra Cheyenne Chloe_Chloe Christina_Christina Claire_Clara Courtney Dana Danica Danielle_Daniela Daphne Destiny Elaine_Helen Elizabeth_Elizabeth Emily_Emily Emma_Emma Erin Esther_Esther Faith Grace Hailey_Haley Haley_Haley Hannah_Hannah Isabel_Elizabeth Isabella_Elizabeth Jacqueline Jada Jane_Jane Jasmine_Jasmine Jennifer_Jennifer Jessica_Jessica Joanna_Jane Julia_Julia Kaitlyn_Caitlin Katelyn_Caitlin Katherine_Catherine Kathryn_Catherine Katie_Catherine Kayla Kaylee Kelsey Kimberly_Kimberly Laura_Laura Lauren_Laurentia Leah_Leah Leslie Mackenzie Madeline_Madeline Madison_Matilda Makayla Maria_Mary Mariah_Mary Marissa Mary_Mary Megan_Margaret Melissa Mia Michelle Molly_mary Morgan Natalie_Natalie Nicole_Nicole Olivia_Olivia Paige Rachel_Rachel Rebecca_Rebecca Sabrina Sara_Sarah Sarah_Sarah Samantha_Samantha Savannah Shelby Sierra Sophia_Sophia Stephanie_Stephanie Sydney Taylor Trinity Vanessa Victoria_Victoria Zoe_Zoe
+	}
+	pat_grf_name_chance = 40
+	mat_grf_name_chance = 10
+	father_name_chance = 10
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 40
+	mother_name_chance = 10
+}
+
+name_list_ck_murican = {
+	dynasty_of_location_prefix = "dynnp_of"
+	male_names = {
+		Adoyre Adrien_Adrian Aedan_Hugh Agustin_Augustine Alan_Alan Alar_Alaric Aldrien_Aldroenus Alfrond Alor Alured_Alfred Alwen_Alwin Anaoc Anaubritou Anaugen Anauguethen Anauguoret Anauhocar Andreas_Andrew Aniud Anton_Antonius Argantbri Argantmoet Arnalt_Arnold Arthel Arthguiu_Artorius Arthmael Arthueu_Artorius Arthuiu_Artorius Arthur_Arthur Austol Baldoen_Baldwin Bastian_Sebastian Beli_Beli Beltram_Bertrand Benabic Berenger_Berengar Bernead_Bernard Berthgualt_Berthoald Bledric_Bledrig Bledros Bleidcum Bletcu Blethin_Bleddyn Blethiut_Bleiddud Bodan Bran_Bran Brangualart_Branwaladr Branhucar Branoc Brenci Brendan Breselconan Breselcoucant Breselgar Breseloc Breselueu Brethoc Brient_Brian Brigualt Brioc_Briog Brithael Brochuael_Brogmaglus Bronmael Budguoret Budhoiarn Budic_Benedict Budoc Buhedoc Butgual Cadan Cadaouen Cadarvan Cadiou Cadoc_Cadog Cador_Cadwr Cadou_Cadw Cantgueithen Caradec_Caratacus Caradoc_Caradog Carantoc Catgualart_Cadwaladr Catuallon_Cadwallon Catguethen Catguoret_Cadwared Catgutic Cathno Catnimed Catuod Caurantin_Corentin Ceneu Cenguethen Cenmarhoc Cenmin Cenmonoc Cingur Cinhoedl Clemen_Clement Clodouan Clotwo on Comoere Conan_Conan Concen_Cyngen Condeleu_Cynddelw Condidan_Cyndyddan Congar_Cyngar Conmael_Cynfael Conmonoc Conogan Conredeu Conuallon_Cynwallon Conmarch_Cynfarch Convelin_Cynfelyn Conwo on Corguethen Courantgern Courantmonoc Culmin_Culmin Custent_Constans Custentin_Constantine Dauid_David Deniel_Daniel Denis_Denis Deroch Derrien Deui_David Deurhoiarn Domnoret Domuel_Dywel Donual_Donald Donuallon_Dyfnwallon Drogon_Drogo Duenerth Dumnarth_Donyarth Edern_Eternus Edouart_Edward Eguen_Eugene Eon Erispo Erouan_Yves Estienne_Stephen Etgual Eudon_Otto Euhocar Euhoiarn Eusebi_Eusebius Even_Eugene Evrard_Everard Farinmael_Ffernfael Ferant_Ferdinand Fracan_Fragan Framual Fransaz_Francis Frioc_Friog Garmon_German Geofroi_Godfrey Geralt_Gerald Gereint_Gerontius Gestin_Justin Gilbert_Gilbert Godefroi_Godfrey Goennoc Gouesnon Goulwen Gouremor_Gwrfawr Gourmaelon Gralon Gratcant Gregor_Gregory Grifiud_Ruffinus Guallon Gualter_Walter Gudual Guecon Guenerdon Guenhael Guentanet Guentiern Gui_Guy Guiharan Guihomarch Guihomart Guilherm_William Guincalon Guincum Guinhael Guinhoiarn Guinoc Guinol_Winaloe Guithrit Guitol_Vitalis Guobrian Guocon Guoedanau Guoedatoe Guoednou Guoethoiarn Guoletec Guorbili Guordotal Guoretan Guorethoiarn Guorhoiarn Gurbodu Gurcant_Fergus Gurcencor Gurceneu_Gwrgeneu Gurci_Gwrgi Gurcon Gurdilic Gurgen Gurguaret Gurguist_Fergus Gurguistl_Fergus Gurheter Guriant_Viriathius Gurlouen Gurmael Gurmaeloc Gurmhaelon Gurthcid Gurthiern_Vortigern Guruant Guerech Gueroc Guethenan Guethencar Guethencor Guethenwo on Guethenhoiarn Guethenoc Haelcomarch Haelguethen Haelguoret Haelhoiarn Haeloc Haeloubri_Herori Haermael Hammelin_Hamelin Hamon_Hamon Harscoit Hedyn Heranal Herri_Henry Hesdren Hincomhal Hinguethen Hocar Hoconan Honfroi_Humphrey Ho l_Hywel Huiarnal Huiarnbili Huiarnviu_Harvey Hunfroi_Humphrey Iacob_Jacob Iarcun Iarnbud Iarncant Iarncar Iarndetguid Iarnegon_Jarnegon Iarnuallon Iarnuocon Iarnhitin Iedechael Iehan_John Ilcarthon Ildut Iliud Inisian Iocilin_Joscelin Iodoc Ionas_Jonah Iosep_Joseph Iudcum Iuduallon_Idwallon Iudhael_Ithel Iudicael_Judicael Iudnerth_Idnerth Iudnimet_Ednyfed Iustoc Iudoc Iudual_Idwal Iumael Iunceneu Iunuocon Iunmonoc Jord_George Leucum Loi Lorens_Laurence Louenan Loumarch_Llywarch Lou s_Louis Maelcon_Maelgwn Maeldo Maelhuedoc Maeloc Maelscoet Maelscuet Maenceneu Maenci March_Marcus Marthin_Martin Matheudo Mathias_Matthew Matoc_Matad Matuid Maugan Mauric_Maurice Medrod_Mordred Meldroc Meriadoc_Meriadoc Mermin_Merfyn Meugan_Mawgan Meven Michel_Michael Morcant_Morgan Morcondeleu Morgen_Morgen Morguethen Morhaetho Mormarch_Morfarch Morvan Mortiern Neven Nicolas_Nicholas Nodethael Nodhoiarn Nomino Nougui_Nowy Oliuer_Oliver Oswallt_Oswald Padric_Patrick Paol_Paul Pascueten_Pasquitan Patern_Paternus Petroc Phelippe_Phillip Piran Prigent Primael Primarhoc Putrael P r_Peter Ralf_Ralph Raoul_Ralph Renan Resmen Riacet_Riacet Ribald Ricart_Richard Riceneu_Ricenus Richwin_Richwin Ridoredh Riualtr Rihouen Rinduran Rioc Riol Riwal_Riwal Riuallon_Rhiwallon Rodric_Roderick Roenualloc Roenuallon Roenuolou Roenhoiarn Rolland_Roland Ronan_Ronan Roparth_Robert Roucen_Rucenus Rumon_Roman Ryd Salenn Salomon_Solomon Samson Samuel_Samuel Stefen_Stephen Sulgen_Julian Sulhoiarn Sulmonoc Sultiern Talan Talhoiarn Tanci Tanet Tanhoiarn Telent Terithien Tethion Teudric_Thierry Teudur_Theodore Tibault_Theobald Tiernan Tiernmael Tiernoc Tiernualloc Tiernuallon Treveur Tristan_Tristan Tuduallon_Tudwallon Tudur Tugdual_Tuathal Ungust Urbcen_Urbgenius Urbien_Urban Urblon Urvod Uther_Victor Vincenne_Vincent
+	}
+	female_names = {
+		Aanor Abrelda_Abrelda Adela_Adela Adela da_Adelaide Adelindis_Adelinde Adeltrudis_Adeltrudis Aedoc Aeluit_Aelwyd Agnes_Agnes Alana Alis_Alice Anaguistl Anaudat Anaudrec Anauhouguel Anauprost Andrea Anna_Anna Aourcen Aouregan Aourell Aouren Argantan Argantdrec Arganteila Arganteilin Argantguistl Arganthael Argantlon Argantmoet Artaca Avandrec Avenie Beladora_Beladore Berchet_Brigid Berengaria Bernegarda Berta_Bertha Berthildis_Bertha Bertissa Bleutuen_Blodwen Brendana Bronuen_Bronwen Buriana Canna Cateline_Catherine Catguistl Cecilia_Cecilia Ceindrec_Cagintria Ceinguled Cleirui_Creirwy Condeleu Constansa_Constance Cristen_Christina Dengel Deniela Denise_Denise Diuset Dreanau Drebiu Dreguoreth Drelouguen Drichglur Drilego Duihon Elara Eleanor_Eleanor Eleina_Elaine Elena_Helen Elesbed_Elizabeth Elisaued_Elizabeth Elwen Emma_Emma Endellion Ennoguent Enoguen Enora Eonnecte_Joan Erouana_Yvonne Ewsannec Fuandrec Gaela Geberga_Geberga Glades_Claudia Gloiucen Gloiumed Guelet Guenbrith Guencen Guencenedl Guencor Guenguerthlon Guenguistl Guenguiu Guenmon Guenna Guenneret Guennguar Gueruel_Gwerfyl Guigo don Guillemecte_Williamette Gwenn_Gwen Halbiu Hawis_Hawise Herannuen Hodierne Igerna Ignoguen Ilcum Ildegarda_Hildegard Iofa Iouenna_Joan Isabelle_Elizabeth Iseult_Hersilia Iudhent Iudlouguen Iudprost Janed_Joan Judhael_Judith Languoret Leonore_Eleanor Leueer Leuhemel Leuoc Louhelic Luncen Maben Magdalene_Magdalena Marguarite_Margaret Mari_Maria Medguistl Meduil Melita Meonre Milian Mona_Mona Morganne_Morganna Morguetel Moruen_Murron Moruith Morvana Neulenna_Neulenna Nodguoret Nodiunet Nolwenne Nonne_Nonna Oncenedl Oncum Onguen Ordguydel Ourcen Ourdilic Perenn Proscen Prosguetel Prostlon Rannoeu Riguistl Rimoet Rioanon Rioanon_Rhiannon Rioantcen Rioantdrec_Rioantdrec Rioantel Rioantguellt_Regina Roenhael Roinoc Ronana Rozenn Rum Rumun Seva Stefania_Stephania Steren Sulcar Sulcen Sulgubri Sulgwen Sulleisoc Sulmed Susanne_Susan Tandrec Tanetbiu Tanetlowen Tanguistl_Tancostyla Tedvil Tephaine Thomine Tibourge_Tiburge Trifine Tristana Uriell
+	}
+	pat_grf_name_chance = 40
+	mat_grf_name_chance = 10
+	father_name_chance = 10
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 40
+	mother_name_chance = 10
+}
+
+name_list_ck_fenisaidd = {
+	dynasty_of_location_prefix = "dynnp_of"
+	male_names = {
+		Adda Adgar_Edgar Adran_Adrian Aeddan_Hugh Alan_Alan Aldwr_Aldroenus Algwyn_Alwin Alisander_Alexander Alured_Alfred Alwyn_Alwin Anarawd Andreas_Andrew Aneurin Anlaff_Olaf Anllech Annwn_Antoninus Argad_Arcadius Arod Arthen_Artemius Arthfael Arthfoddw_Arthbodus Arthwr_Arthur Arthws Arthwys_Artorius Asa Asaph Awst_August Bangar Bedwyr Beli_Beli Berthgwyn_Berhtwine Berthwallt_Berthoald Bleddyn_Bleddyn Bledrig_Bledrig Bleiddud_Bleiddud Branwaladr_Branwaladr Bride_Bride Briog_Briog Brochfael_Brogmaglus Brwt_Brutus Brwyn Brychan_Brychan Br n_Bran Cadell Cadeyrn Cadfael Cadfan Cadog_Cadog Cadw_Cadw Cadwal Cadwaladr_Cadwaladr Cadwallon_Cadwallon Cadwared_Cadwared Cadwgan Cadwr_Cadwr Cai_Gaius Caid Cain Caradog_Caradog Casnar Caswallon Cawdaf Cedig_Caedicius Cedwyn Ceneu Ceredig_Caratacus Clydog_Louis Coel Corentin_Corentin Cuhelyn Custennin_Constantine Cwlfyn_Culmin Cwrig_Cyriacus Cydifor Cydrych Cynan_Conan Cynddelw_Cynddelw Cyndyddan_Cyndyddan Cynddylan Cyndeyrn_Kentigern Cynfael_Cynfael Cynfarch_Cynfarch Cynfawr Cynfeddw Cynfelyn_Cynfelyn Cynfran Cynfyn Cyngar_Cyngar Cyngen_Cyngen Cynwallon_Cynwallon Cynwared Cynwrig Cynwyd Cynyr Cysteint_Constans Dafydd_David Deheuwant Deiniol_Daniel Dewi_David Dogfael Drystan_Tristan Dumnagual Dwyfan_Damian Dyfnarth_Donyarth Dyfnwal_Donald Dyfnwallon_Dyfnwallon Dynod_Donatus Dywel_Dywel Edern_Eternus Ednyfed_Ednyfed Ednywain Edryd_Ailred Edwyn_Edwin Edylfred_Aethelfred Einion Elfin_Alwin Elidyr Elis Elisedd Elud Elystan_Alstan Emrys_Ambrosius Enfidaig_Enfidaig Erb_Urban Erclwf_Heracles Eudaf_Octavius Ewyas Ffernfael_Ffernfael Ffilip_Philip Ffriog_Friog Ffwdwr Fragan_Fragan Ffransis_Fransis Fychan Fyrsil Gamon Garmon_Germanus Geraint_Gerontius Gerallt_Gerald Glwyddien Glywys_Claudius Godwyn_Godwin Goronwy Gronw Gruffydd_Ruffinus Grygor_Gregory Guret Gwalchmai_Gavin Gwen Gwenwynwyn Gwerstan_Werestan Gwerthefyr_Vortimer Gwerthern_Vortigern Gwydol_Vitalis Gwydolin_Vitalinus Gwyn_Finn Gwidyr Gwilym_William Gwrfawr_Gwrfawr Gwrfoddw Gwrgant_Fergus Gwrgeneu_Gwrgeneu Gwrgi_Gwrgi Gwriad_Viriathius Harri_Henry Herewallt_Hereweald Huw_Hugh Hywel_Hywel Iago_Jacob Ivor_Ivar Idnerth_Idnerth Idwal_Idwal Idwallon_Idwallon Iestyn_Justin Ieuan_John Ifor_Ivar Io Ioan_John Iolo Iorwerth Ithel_Ithel Lles_Lucius Llew_Leon Llyr Llywarch_Llywarch Llywelyn Macsen_Maximos Madog_Matad Mael_Mael Maelcwn_Malcolm Maelgwn_Melgwn Maenyrch March_Marcus Maredudd_Murdoch Math_Matthew Mawgan_Mawgan Meilyr Meirchion_Marcianus Meiriadog_Meriadoc Meirion_Marianus Merfyn_Merfyn Meurig_Maurice Mihangel_Michael Morfarch_Morfarch Morgan_Morgan Morien_Morgen Morydd Mwyn_Mungo Myrddin_Martin Neithon_Nathan Nowy_Nowy Nynniaw Oswallt_Oswald Owain_Eugene Oucydd_Eochaid Padern Padrig_Patrick Pandoff Pasgen_Pascentius Padarn_Paternus Pawl_Paul Pedr_Peter Peredyr Publig Pyr Rheinallt_Reinhold Rhicert_Richard Rhigeneu_Ricenus Rhirid Rhiwal_Riwal Rhiwallon_Rhiwallon Rhobert_Robert Rhodri_Roderick Rhufon_Roman Rhun_Rucenus Rhydderch_Roderick Rhydog Rhys Riaged_Riacet Richwin_Richwin Sandde_Sanctus Sawyl_Samuel Seferus_Severin Seisyll_Cecil Selyf_Solomon Senyllt Serigi_Sergius Sieffre_Godfrey Sion Sior_George Siwauna Steffen_Stephen Stinian_Justinanius Sulien_Julian Taliesin_Telesinus Tegonwy Tegwyd_Tadg Teilo Teithfalch Teudebur Tewdos_Theodosius Tewdrig_Thierry Tewdwr_Theodore Tomos_Thomas Trahaearn Tudur Tudwal_Tuathal Tudwallon_Tudwallon Tydy Tyfoedd Tysilio Urien_Urbgenius Uthyr_Victor Ynyr_Honorius Ysfael
+	}
+	female_names = {
+		Addiena_Addiena Aelwyd_Aelwyd Aeronwen Aeronwy Afrella_Abrelda Alys_Alice Angharad Annes_Anna Annest_Agnes Annwyl Anowed Arddyn Arianrhod Blodwen Bronwen_Bronwen Catrin_Catherine Ceindrych_Cagintria Ceridwen Cerie Cerys Cicely_Cecilia Clarisant Creirwy_Creirwy Cristin_Christina Danhadlwen Delyth Denis_Denise Dwynwen Dwywai Dyddgu Efa_Eva Effros_Euphrasia Efrddyl_Aurelia Efyrddyl_Aurelia Eiliwedd Elaine_Elaine Elen_Helen Eleri_Hilaria Elinion Elinor_Eleanor Ellyn Enid Essyllt_Hersilia Euronwy Ffelis_Felicia Ffion Fflur_Flora Ffraid_Brigit Glynys Gwen_Gwen Gwenasedd Gwenfrewi_Winifred Gwenhwyfach Gwenhwyfar Gwenllian Gwenwyn Gwerfyl_Gwerfyl Gwladys_Claudia Haer Hawys_Hawise Heledd Hellawes Heulwen Hunydd Hywela Ilud Isabel_Elizabeth Llear_Clara Llecci Lleigy Lleuca_Lucia Lowry Mabyn Maches Madrun_Matrona Maelrys Mair_Maria Mali Mallt Marared_Margaret Marchell_Marcella Margred_Margaret Marwenna Mawd_Matilda Melisant_Melisende Morganna_Morganna Morien_Murron Myfanwy Nest_Agnes Nesta_Agnes Newlyna_Neulenna Non_Nonna Olwen_Olwen Onbrawst Owena_Eugenia Prawst Ragnell_Ragnhild Rhiaindrech_Rioantdrec Rhiainfelt_Regina Rhiannon_Rhiannon Rhonwen Sannant Sara_Sarah Senena Sibyl_Sibylla Sioned_Joan Siwan Si n_Joan Susanna_Susan Tangwystl_Tancostyla Tegla_Thecla Ysbail_Elizabeth Ystradwel
+	}
+	pat_grf_name_chance = 40
+	mat_grf_name_chance = 10
+	father_name_chance = 10
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 40
+	mother_name_chance = 10
+}
+
+name_list_ck_liblander = {
+	dynasty_of_location_prefix = "dynnp_of"
+	male_names = {
+		Aaron_Aaron Abner Abraham_Abraham Adam_Adam Adrian_Adrian Alan_Alan Albert_Albert Alexander_Alexander Alfred_Alfred Amos Andrew_Andrew Angel_Angel Anthony_Anthony Arthur_Arthur Austin_Augustine Barclay Barrett Beckett Benjamin_Benjamin Bernard_Bernard Bradford Bradley_Bradley Brandon_Brandon Brian_Brian Bridger Bruce Caldwell Caleb_Caleb Calvin_Calvin Carter Charles_Charles Chase Chester_Chester Christopher_Christopher Clark Clement_Clement Cleveland Clifford Clinton Conway Cornelius_Cornelius Creighton Cyrus_Cyrus Dakota Dalton Damian_Damian Daniel_Daniel David_David Douglas_Douglas Drake Dwayne_Duane Dwight Edgar_Edgar Edward_Edward Elbridge Elliot_Elijah Eric_Erik Eugene_Eugene Evander Ezra_Ezra Felix_Felix Fillmore Fletcher Ford Forrest Francis_Francis Franklin_Franklin Frederick_Frederick Gabriel_Gabriel Garfield Garland Gates Gavin_Gavin George_George Gerald_Gerald Glenn Graham Grant Gregory_Gregory Grover Hamilton Hannibal_Hannibal Harding Hayes Henry_Henry Herbert_Herbert Hiram Howard Hugh_Hugh Hunter Indiana Isaac_Isaac Isaiah_Isaiah Jackson_John Jacob_Jacob James_James Jason_Jason Jefferson_Geoffrey Joel_Joel John_John Johnson_John Jonathan_Jonathan Jordan_Jordan Joseph_Joseph Julian_Julian Julius_Julius Justin_Justin Keegan Keith Kennedy Kenneth_Kenneth Kevin_Kevin Kirk Knox Lamar Lawrence_Lawrence Leonard_Leonard Lewis_Louis Levi Lincoln Linwood Lucas_Luke Lyndon Malcolm_Malcolm Mark_Mark Marshall Martin_Martin Matthew_Matthew McKinley Meriwether Michael_Michael Milburn Millard Monroe Morris_Maurice Murphy Nelson_Neil Nicholas_Nicholas Noah_Noah Norman_Norman Norton Ogden Orville Oswald_Oswald Owen_Eugene Palmer Parker Patrick_Patrick Patton Paul_Paul Philander Pierce_Peter Porter Reagan Remington Rhett Richard_Richard Robert_Robert Roderick_Roderick Rodney Roosevelt Ross Rufus_Rufus Rutherford Ryan Samuel_Samuel Sawyer Schuyler Scott Seth Sheldon Sherman Silas Sinclair Smith Spencer Stafford Stanley_Stanley Steven_Stephen Sullivan_Sullivan Teague Thaddeus_Thaddeus Theodore_Theodore Thomas_Thomas Timothy_Timothy Todd Travis Trenton Truman Tyler Max Vance Vernon Victor_Victor Vincent_Vincent Quincy_Quintus Walker Walter_Walter Warren Washington Webster William_William Wilson_William Woodrow Wyatt Xavier_Xavier Yancy_John Zachary_Zachary
+	}
+	female_names = {
+		Abigail_Abigail Alexandra_Alexandra Alexandria_Alexandra Alexis_Alexia Allison_Alice Alyssa_Alyssa Amanda_Amanda Amber Amy Andrea_Andrea Angela_Angela Anna_Anna April_April Ashley Autumn Bailey Belle_Elizabeth Beatrix_Beatrix Bethany Blair Blakely Breanna_Briana Brianna_Briana Brittany_Brittany Brooke Caitlin_Caitlin Catherine_Catherine Caroline_Caroline Cassandra Cheyenne Chloe_Chloe Christina_Christina Claire_Clara Courtney Dana Danica Danielle_Daniela Daphne Destiny Elaine_Helen Elizabeth_Elizabeth Emily_Emily Emma_Emma Erin Esther_Esther Faith Grace Hailey_Haley Haley_Haley Hannah_Hannah Isabel_Elizabeth Isabella_Elizabeth Jacqueline Jada Jane_Jane Jasmine_Jasmine Jennifer_Jennifer Jessica_Jessica Joanna_Jane Julia_Julia Kaitlyn_Caitlin Katelyn_Caitlin Katherine_Catherine Kathryn_Catherine Katie_Catherine Kayla Kaylee Kelsey Kimberly_Kimberly Laura_Laura Lauren_Laurentia Leah_Leah Leslie Mackenzie Madeline_Madeline Madison_Matilda Makayla Maria_Mary Mariah_Mary Marissa Mary_Mary Megan_Margaret Melissa Mia Michelle Molly_mary Morgan Natalie_Natalie Nicole_Nicole Olivia_Olivia Paige Rachel_Rachel Rebecca_Rebecca Sabrina Sara_Sarah Sarah_Sarah Samantha_Samantha Savannah Shelby Sierra Sophia_Sophia Stephanie_Stephanie Sydney Taylor Trinity Vanessa Victoria_Victoria Zoe_Zoe
+	}
+	pat_grf_name_chance = 40
+	mat_grf_name_chance = 10
+	father_name_chance = 10
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 40
+	mother_name_chance = 10
+}
+
+name_list_ck_canadian = {
+	dynasty_of_location_prefix = "dynnp_of"
+	male_names = {
+		Adam_Adam Alan_Alan Albert_Albert Alexander_Alexander Alfred Andrew_Andrew Anselm_Anselm Arnold_Arnold Arthur_Arthur Aubrey Christopher_Christopher David_David Edmund_Edmund Edward_Edward Eric_Erik Eustace_Eustace Fulk_Folke Geoffrey_Godfrey George_George Gerald_Gerald Gilbert_Gilbert Godfrey_Godfrey Gregory_Gregory Guy_Guy Henry_Henry Hugh_Hugh Humphrey Jocelyn John_John Jordan_Jordan Laurence_Laurence Lionel_Lionel Mark_Marcus Martin_Martin Matthew_Matthew Maurice_Maurice Michael_Michael Nicholas_Nicholas Paul_Paul Peter_Peter Philip_Philip Ralph_Ralph Randolph_Randolph Reginald_Reinhold Richard_Richard Robert_Robert Roger_Roger Simon_Simon Stephen_Stephen Theobald_Theobald Thomas_Thomas Waleran Walter_Walter William_William
+	}
+	female_names = {
+		Adela_Adela Adelaide_Adelaide Alice_Alice Amice Anne_Anna Aveline_Avelina Beatrice_Beatrice Blanche_Blanche Catherine_Catherine Cecilia_Cecilia Constance_Constance Edith_Edith Ela Eleanor_Eleanor Elizabeth_Elizabeth Emma_Emma Hawise Isabel_Elizabeth Isabella_Elizabeth Joan_Joan Joanna_Joan Juliana_Juliana Mahaut_Matilda Margaret_Margaret Mary_Maria Matilda_Matilda Maud_Matilda Philippa_Philippa Sybilla_Sibylla
+	}
+	pat_grf_name_chance = 40
+	mat_grf_name_chance = 10
+	father_name_chance = 10
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 40
+	mother_name_chance = 10
+}
+
+name_list_ck_aussie = {
+	dynasty_of_location_prefix = "dynnp_of"
+	male_names = {
+		Aaron_Aaron Abraham_Abraham Achim_Joachim Adalbert_Albert Adam_Adam Adelbert_Albert Adi_Adolf Adolf_Adolf Adrian_Adrian Alban_Albanus Albert_Albert Albrecht_Albert Alex_Alexander Alexander_Alexander Alexis_Alexis Alfons_Alphonse Alfred_Alfred Alois_Louis Alwin_Alwin Andr Andrew Andreas_Andrew Anselm_Anselm Ansgar Anton_Anthony Arend_Arnold Armin_Herman Arnd_Arnold Arnt_Arnold Arne_Arnold Arnfried Arno_Arnold Arnold_Arnold Arnulf_Arnulf Arthur_Arthur Artur_Arthur August_Augustus Augustin_Augustine Aurel_Aurelius Axel_Axel Baldur_Balder Baptist_Baptist Barnabas_Barnabas Bartholom us_Bartholomew Bastian_Sebastian Beat_Beatus Ben_Benjamin Benedikt_Benedict Benjamin_Benjamin Benno Bernd Bernhard_Bernard Bert Berthold_Berthold Bertram_Bertram Bj rn_Bjorn Bode Bonifaz_Boniface Boris_Boris Bruno_Bruno Burchard_Bouchard Burkhard_Bouchard Burkhart_Bouchard Carl_Charles Carsten_Christian Christian_Christian Christoph_Christopher Claus_Nicholas Clemens_Clement Conrad_Konrad Corbinian_Corbinian Cord_Konrad Cornelius_Cornelius Dan_Daniel Daniel_Daniel David_David Denis_Dionysus Dennis_Dionysus Detlef Didi_Dieter Diederich_Theodoric Dierk_Theodoric Dieter_Dieter Dietfried Diethelm Dietmar_Dietmar Dietrich_Theodoric Dirk_Theodoric Dominik_Dominic Ebbe Eberhard_Everard Eckart_Ekkehard Eckbert_Egbert Eckhart_Ekkehard Edgar_Edgar Edmund_Edmund Eduard_Edward Egon_Egon Eike Ekkehard_Ekkehard Elias_Elijah Elmar Elmo Emanuel_Emmanuel Emil_Emil Emmerich_Aymeric Engel_Angel Engelbert_Engelbert Erdmann_Hartmann Erhard Eric_Erik Erich_Erik Erik_Erik Ernst_Ernest Erwin_Erwin Eugen_Eugene Ewald Fabian_Fabian Falk Felix_Felix Ferdi_Ferdinand Ferdinand_Ferdinand Fiete_Frederick Filibert_Filibert Florentin_Florentinus Florian_Florian Frank Franz_Francis Franz Xaver_Xavier Fred_Frederick Friedemann Friedhelm Friedhold Friedrich_Frederick Fritz_Frederick Gabriel_Gabriel Gebhard_Gebhard Georg_George Gerald_Gerard Gerd_Gerard Gereon_Gerontius Gerfried Gerhard_Gerard Gerhardt_Gerard Gerhold_Gerard Gernot Gero Gerold_Gerald Gert_Gerard Gerulf Gervas_Gervase Gilbert_Gilbert Gisbert_Gilbert Gottfried_Godfrey Gotthard Gotthilf Gotthold Gottlieb Gottlob Gottschalk_Gottschalk Gregor_Gregory Guido_Guy G nter_G nther Gunther_G nther Guntram Gustaf_Gustav Gustav_Gustav Hagen_Hagen Hannes_John Hans_John "Hans-G" nther Hansj rg "Hans-J" rgen "Hans-Peter" Hanspeter Harald_Harold Hartmann_Hartmann Hartmut Hartwig_Hartwig Hartwin Hasso Heike_Henry Heiko_Henry Heiner_Henry Heino_Henry Heinrich_Henry Heinz_Henry Helfried Helge_Helge Helmfried Helmut_Helmut Helmuth_Helmut Hendrik_Henry Henning Henrik_Henry Herbert_Herbert Heribert_Herbert Hermann_Herman Hermenegild Hieronymus_Jerome Hilbert_Hildebert Hildebert_Hildebert Hildebrand_Hildebrand Hilmar Hinnerk_Henry Hinrich_Henry Horst Hubert_Hubert Hubertus_Hubert Hugo_Hugh Humbert_Humbert Ignatz_Ignatius Ignaz_Ignatius Immanuel_Emmanuel Ingo_Ingolf Ingolf_Ingolf Ingomar Isaak_Isaac Isidor_Isidore Ivo_Yves Jakob_Jacob Jan_John Jeremias_Jeremiah Jo_Joseph Joachim_Joachim Jochen_Joachim Jochim_Joachim Jockel_Joachim Johann_John "Johann-Baptist_John-Baptist" Johannes_John Jonas Jonatan_Jonathan J rg_George Joschka_Joseph Josef_Joseph Joseph_Joseph Jost_Jost Julian_Julian Julius_Julius J rgen_George Justus_Justus Kai_Gaius Karl_Charles "Karl-Heinz" Karlmann_Carloman Karsten_Christian Kasimir_Casimir Kaspar_Caspar Kay_Gaius Kevin_Kevin Kilian_Cilian Klaas_Nicholas Klaus_Nicholas "Klaus-Peter" Klemens_Clement Knut_Canute Kolman_Koloman Koloman_Koloman Konrad_Konrad Konstantin_Constantine Korbinian_Corbinian K rbl_Corbinian Kord_Konrad Kunibert Kuno_Konrad Kurt_Konrad Lambert_Lambert Lamprecht_Lambert Lars_Lawrence Laurenz_Lawrence Leberecht Lennart_Leonard Lenz_Lawrence Leo_Leo Leon_Leo Leonard_Leonard Leonhard_Leonard Leopold_Leopold Levin Lian_Julian Linus_Linus Lorenz_Lawrence Lothar_Lothar Ludger_Ludger Ludolf_Ludolf Ludwig_Louis Luitger_Ludger Luitpold_Leopold Lukas_Luke Lutz_Louis Malte_Helmold Malthe_Helmold Manfred_Manfred Manfried_Manfred Manu_Emmanuel Manuel_Emmanuel Marcel_Marcellus Marcellus_Marcellus Marco_Mark Marius_Marius Markus_Mark Martin_Martin Marvin_Marvin Marwin_Marvin Marzell_Marcellus Mathias_Matthew Mathis_Matthew Matth us_Matthew Matthias_Matthew Mattias_Matthew Max_Maximus Maxi_Maximilian Maximilian_Maximilian Meine_Meine Meinhard_Meinhard Meino_Meine Meinrad_Meine Menno_Meine Merten Micha_Michael Michael_Michael Michel_Michael Michi_Michael Moritz_Maurice Mose_Moses Nickolaus_Nicholas Nico_Nicholas Nicolaus_Nicholas Niklas_Nicholas Niklaus_Nicholas Niko_Nicholas Nikolaus_Nicholas Noah_Noah Norbert_Norbert Olaf_Olaf Oliver_Oliver Ortwin Oskar_Oscar Oswald_Oswald Othmar_Otmar Otmar_Otmar Ottmar_Otmar Otto_Otto Ottokar_Odoacer Ottomar_Otmar Pankraz_Pancratius Parsifal_Percival Pascal_Pascal Patrick_Patrick Paul_Paul Peter_Peter Petrus_Peter Philipp_Phillip Poldi_Leopold Quirin Rafael_Raphael Raffael_Raphael Raimund_Raymond Rainer_Rainer Ralf_Ralph Ralph_Ralph Raphael_Raphael Reimund_Raymond Rein Reiner_Renard Reinhard_Renard Reinhold_Reynold Ren Renatus Reto Richard_Richard Robert_Robert Rochus Rodolf_Ralph Roger_Roger Roland_Roland Rolf_Ralph Roman_Roman Rudi_Rudolf R diger_Roger Rudolf_Rudolf Ruedi_Rudolf Rupert_Robert Ruprecht_Robert Samuel_Samuel Sascha_Alexander Sebastian_Sebastian Sepp_Joseph Seppel_Joseph Sergio_Sergius Severin_Severinus Siegbert Sieger Siegfried_Siegfried Sieghard Siegmar Siegmund_Sigmund Siegward_Sigurd Sievert_Siegfried Sigi_Siegfried Sigismund_Sigmund Sigmund_Sigmund Silvester_Silvester Simon_Simon S ren_Severinus Stefan_Stephen Steffen_Stephen Stephan_Stephen Sven_Sven Sylvester_Silvester Theodor_Theodore Theophil_Theopilus Thiemo_Dietmar Thilo_Till Thomas_Thomas Thorben_Torben Thorsten_Torsten Tiedemann Till_Till Tillo_Till Tilo_Till Tim_Timothy Timo_Timothy Timotheus_Timothy Tobias_Tobias Tom_Thomas Toni_Anthony Torben_Torben Torsten_Torsten Traugott Udo_Otto Ueli_Ulrich Ulli_Ulrich Ulrich_Ulrich Urban_Urban Urs_Ursus Utz_Ulrich Uwe_Uwe Valentin_Valentine Veit_Vitus Viktor_Victor Vinzent_Vincent Vinzenz_Vincent Volker_Volker Waldemar_Vladimir Waldo Walter_Walter Walther_Walter Wendel_Vaclav Wendelin_Vaclav Wenzel_Vaclav Wenzeslaus_Vaclav Werner_Werner Werther Wessel_Werner Wetzel_Werner Wiebe Wiegand Wieland Wilfried_Wilfred Wilhelm_William Willi_William Willy_William Wim_William Winfried Witold Wolf_Wolf Wolfgang_Wolfgang Wolfram_Wolfram Wulf_Wolf Xaver_Xavier
+	}
+	female_names = {
+		Abigail_Abigail Ada_Adelaide Adele_Adela Adelheid_Adelaide Adelina_Adela Agathe_Agatha Agnes_Agnes Albina_Albina Alena_Helen Alex_Alexandra Alexa_Alexandra Alexandra_Alexandra Alfreda_Alfreda Alida_Adelaide Alina_Albina Aloisia_Louise Alwine Amalia_Amelia Amalie_Amalia Amanda Amelia_Amalia Amelie_Amalia Andrea_Andrea Anelie Angela_Angela Angelika_Angelica Angelina_Angela Anika_Anna Anina_Anna Anita_Anna Anja_Anna Anke_Anna Anna_Anna Annalena Anne_Anna Annegret Anneli Annelies Annemarie Annett_Anna Annette_Anna Anni_Anna Annika_Anna Anselma Antje_Anna Antonia_Antonia Ariane_Ariadne Astrid_Astrid Augusta_Augusta Auguste_Augusta Augustine_Augustina Aurora Ava Babette_Barbara Barbara_Barbara B rbel_Barbara Beata Beate Beatrix_Beatrix Benedikta_Benedicta Berta_Bertha Bertha_Bertha Bettina_Elizabeth Bianka_Bianca Birgit_Bridget Brigitta_Bridget Brigitte_Bridget Br nhild_Brunhilda Brunhilde_Brunhilda C cilia_Cecilia C cilie_Cecilia Caecilia_Cecilia Camilla_Camilla Carina_Catherine Carla_Caroline Carola_Caroline Carolin_Caroline Caroline_Caroline Cassandra Cathrin_Catherine Catrin_Catherine Cecilia_Cecilia Celine Charlotte_Charlotte Christa_Christina Christel_Christina Christiane_Christina Christin_Christina Christina_Christine Clara_Clara Claudia_Claudia Constanze_Constance Cora_Cora Cordula Corina Corinna Cornelia_Cornelia Crescentia_Crescentia Dagmar Dana_Daniela Daniela_Daniela Debora_Deborah Diana_Diana Dietlinde Dita_Judith Doris Dorothea_Dorothy D rthe_Dorothy Ebba Edelgard Edith_Edith Eike Elena_Helen Eleonora_Eleanor Eleonore_Eleanor Elfriede Elisa_Elizabeth Elisabeth_Elizabeth Elise_Elizabeth Elke_Adelaide Elli_Elizabeth Elma_Wilhelmina Elsa_Elizabeth Else_Elizabeth Elvira Emilia_Emily Emilie_Emily Emma_Emma Emmy_Emma Erika_Erika Ermentrud Erna_Erna Ernestine_Erna Esther_Esther Eva_Eve Evelin_Aveline Evelyn_Aveline Evi_Eve Felicie_Felicia Felicitas_Felicia Felizitas_Felicia Flora_Flora Franka Fr nze_Frances Franzi_Frances Franziska_Frances Frauke Freya Frieda Friede_Frederique Friederike_Frederique Fritzi_Frederique Gabi_Gabriela Gabriela_Gabriela Gabriele_Gabriela Georgina_Georgia Gerda Gerhild Gerlinde Gertraud_Gertrude Gertrud_Gertrude Gisa_Gisela Gisela_Gisela Gitta_Bridget Gloria_Gloria Gratia_Grace Greta_Margaret Gretchen_Margaret Grete_Margaret Gretel_Margaret Gudrun_Gudrun Gunda Gundula Hanna_Hannah Hannah_Hannah Hanne_Hannah Hannelore Hedwig_Hedwig Hedy_Hedwig Heida_Adelaide Heide_Adelaide Heidemarie Heidi_Adelaide Heidrun Heike_Henriette Heilwig Heinrike_Henriette Helena_Helen Helene_Helen Helga_Helga Hella_Helga Helma_Wilhelmina Helmine_Wilhelmina Henriette_Henriette Henrike_Henriette Hermina_Hermine Hermine_Hermine Herta_Hertha Hertha_Hertha Hilda_Hilda Hilde_Hilda Hildegard_Hildegard Hildegarde_Hildegard Hiltraud_Hiltrud Hiltrud_Hiltrud Hiltrude_Hiltrud Hulda Ida_Ida Ilona Ilsa_Elizabeth Ilse_Elizabeth Imke Ina_Christina Inga_Inge Inge_Inge Ingeborg_Ingeburg Ingeburg_Ingeburg Ingrid_Ingrid Inka_Inge Irene_Irene Iris Irma_Emma Irmentrud Irmgard_Ermengarde Irmhild Irmingard Irmtrud Isa_Elizabeth Isabel_Elizabeth Isabell_Elizabeth Isabella_Elizabeth Isabelle_Elizabeth Isolde Ivonne_Yvonne Jana_Jane Janina_Jane Janine_Jane Jasmin_Jasmine Jennifer_Jennifer Jenny_Jennifer Jessica_Jessica Jessika_Jessica Jo_Jane Johanna_Jane J rdis Josefine_Josephine Josepha_Josephine Josephine_Josephine Judit_Judith Judith_Judith Julia_Julia Juliana_Juliana Juliane_Juliana Julie_Julia Justine_Justina Jutta_Judith Karen_Catherine Karin_Catherine Karina_Catherine Karla_Caroline Karola_Caroline Karolina_Caroline Karoline_Caroline Kasimira Katarina_Catherine Katarine_Catherine Katharina_Catherine Katharine_Catherine K the_Catherine Katherina_Catherine Kathrin_Catherine Katinka_Catherine Katja_Catherine Katrin_Catherine Katrina_Catherine Kerstin_Christina Kiki_Christina Kinge_Kunigunde Klara_Clara Konstanze_Constance Kora_Cora Kornelia_Cornelia Kreszentia_Crescentia Kreszenz_Crescentia Kriemhild_Kriemhild Kriemhilde_Kriemhild Krimhilde_Kriemhild Krista_Christina Kristiane_Christine Kristin_Christine Kristina_Christina Kristine_Christine Kunigunde_Kunigunde Lara_Larisa Laura_Laura Lea_Leah Lena_Madeline Lene_Helen Leni_Helen Leona_Leona Leonie_Leona Leonore_Eleanor Liane_Juliana Lies_Elizabeth Liesa_Elizabeht Liese_Elizabeth Liesel_Elizabeth Lieselotte Liesl_Elizabeth Lili_Elizabeth Lilli_Elizabeth Lilo_Liselotte Lina_Caroline Linda_Linda Lisa_Elizabeth Lisbeth_Elizabeth Liselotte_Liselotte Lore_Eleanor Lotte_Charlotte Lotti_Charlotte Louisa_Louise Louise_Louise Lucia_Lucia Luise_Louise Luitgard_Luitgard Lulu_Louise Lutgard_Luitgard Luzia_Lucia Lydia_Lydia Magda_Madeline Magdalena_Madeline Magdalene_Madeline Maike_Mary Maja_Maya Manu_Emanuela Manuela_Emanuela Marcella_Marcella Mareike_Mary Margareta_Margaret Margarete_Margaret Margaretha_Margaret Margarethe_Margaret Margit_Margaret Margrit_Margaret Maria_Mary Marianne_mary Marie_Mary Mariele Marina_Marina Marita_Mary Marlen_Marlene Marlene_Marlene Marlis Marta_Martha Martha_Martha Martina_Martina Mathilde_Matilda Maxi_Maximiliane Maximiliane_Maximiliane Mechthild_Matilda Meike_Mary Melanie_Melanie Melitta_Melissa Meta_Margaret Mia_Mary Micha_Michelle Michaela_Michelle Michi_Michelle Minna_Wilhelmina Miriam_Mary Mirjam_Mary Mitzi_Mary Monika_Monica Nadine_Nadezhda Nadja_Nadezhda Natalia_Natalie Natalie_Natalie Nathalie_Natalie Nele_Cornelia Nicol_Nicole Nicola_Nicole Nicole_Nicole Nikola_Nicole Nina Noemi Nora_Eleanor Oda_Odelia Odilie_Odelia Olga_Helga Olivia_Olivia Ortrun Ottilie_Odelia Patricia_Patricia Pauline_Paula Petra_Petra Philippa_Philippa Philippina_Philippa Philomena_Philomena Phyllis Pia Priska Rachel_Rachel Raffaela_Raphaela Raimunde_Ramona Raphaela_Raphaela Rebekka_Rebecca Regina_Regina Regine_Regina Regula Reinhild_Reinhild Reinhilde_Reinhild Renata_Renata Renate_Renata Ria_Mary Ricarda_Richardine Rike_Frederique Rita_Margaret Romy_Rosemary Rosa_Rosa Rosalie_Rosa Rosemarie_Rosemary Roswitha Ruth_Ruth Sabine Sabrina Salome_Salome Sandra_Alexandra Sara_Sarah Sarah_Sarah Sascha_Alexandra Saskia Schwanhild Selma Senta_Crescentia Seraphina_Seraphina Sibylla_Sibyl Sibylle_Sibyl Sieghild Sieglinde_Sieglinde Sigi_Sieglinde Silke_Cecilia Silvia_Silvia Sofia_Sophia Sofie_Sophia Sonja_Sophia Sonje_Sophia Sophia_Sophia Sophie_Sophia Stefanie_Stephanie Steffi_Stephanie Steffie_Stephanie Stella Stephanie_Stephanie Susann_Susan Susanne_Susan Suse_Susan Susi_Susan Svenja Swanhild_Swanhild Swanhilda_Swanhild Swanhilde_Swanhild Sybille_Sybil Sylvia_Silvia Tabea_Tabitha Tanja_Tatiana Tatiana_Tatiana Tatjana_Tatiana Teresa_Theresa Thea_Dorothy Theda_Theodora Thekla Theresa_Theresa Therese_Theresa Theresia_Theresa Thora_Thora Traudl_Gertrude Trudi_Gertrude Ulla_Ulrike Ulli_Ulrike Ulrike_Ulrike Ursel_Ursula Ursula_Ursula Uschi_Ursula Ute_Ute Valentina_Valentina Valeria_Valeria Valerie_Valeria Valeska_Valeria Vanessa_Vanessa Vera_Vera Verena Veronika_Veronica Victoria_Victoria Viktoria_Victoria Vilma_Wilhelmina Viola_Violet Walburga Waltraud_Waltraud Waltraut_Waltraud Wanda Wenke Wibke Wiebke Wilhelmina_Wilhelmina Wilhelmine_Wilhelmina Wilma_Wilhelmina Yvonne_Yvonne Zella_Marcella Zenzi_Crescentia Zilla_Cecilia Ziska_Frances Zita Zoe_Zoe Zo Zoe
+	}
+	pat_grf_name_chance = 40
+	mat_grf_name_chance = 10
+	father_name_chance = 10
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 40
+	mother_name_chance = 10
+}
+
+name_list_ck_navardanian = {
+	dynasty_of_location_prefix = "dynnp_of"
+	male_names = {
+		Pusippae Monesos Metasos Pherusos Enemos Asareis Ables Naxine Anemos Pusages Thilinax Pusilio Amax Anios Ilimos Arestes Eremos Nosippae Thosiro Talesipp Zeniusaul Tisthele Arichon Posiasin Haulantho Polleisto Adas Komacho Biadoro Menaxandr Lamusil Etmes Amus Euaenes Kaunesid Menesipp Eulus Hyrcolo Damenes Agocles Istos Cynosil Kerosost Archonos Piasusandr Pusiosen Kyonesius Kannesep
+	}
+	female_names = {
+		Calla Dame Piasia Pina Anas Thyle Aras Rhene Aglaus Damia Dora Eusas Amias Glisia Nimia Anes Cyra Dessa Rhessa Cyllea Enis Aris Nessa Nike Anaes Liphea Klora Thoebe Drisa Tiane Athos xene Glmne Callaia Althaeas Leda Iomen Mara Mene Aecmes Phyla Monia Spera Kata Lissia Aneis Edras Pheana Idos Dena Innas Chera
+	}
+	pat_grf_name_chance = 40
+	mat_grf_name_chance = 10
+	father_name_chance = 10
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 40
+	mother_name_chance = 10
+}
+
+name_list_ck_al_mercuric = {
+	dynasty_of_location_prefix = "dynnp_of"
+	male_names = {
+		Aemilianus Aemilius Aetius Albinus Alexander_Alexander Anastasius_Anastasius Anicius Annius Antoninus Antonius_Antonius Arcadius Aurelianus Aurelius Avitus Belisarius_Belisarius Britannicus Caecilius Caesar_Caesar Carinus Carus Cassius Claudius_Claudius Clementius Constans_Constans Constantinus_Constantine Constantius_Constantius Cornelius_Cornelius Crassus Decimus Decius Diocletianus Domitianus Domitius Drusus Ennodius Fabianus Fabius Faustus Felix Flavianus Florianus Gaius Galerius Gallienus Gallus Germanus_Germanus Gordianus Gracchus Gratianus Hadrianus_Adrian Herculius_Heracles Honorius Joannes_John Jovianus Julianus_Julian Julius_Julius "Julius-Caesar" Junius Justinus_Justin Justinianus_Justinian Leo_Leo Leontius_Leontius Liberius Licinius Lucius Magnus_Magnus Marcellinus Marcellus Marcianus Marcus_Marcus Marinus Marius Martinus Maximianus Maximinus Maximus_Maximus Nepotianus Nerva Numerianus Octavianus Octavius Otho Paulinus Paulus_Paul Petronius Philippus_Philip Pompeius Pontianus Priscus Probus Publius Quintus Romanus_Roman Romulus Rufinus Rutilius Sabinianus Saturninus Sempronius Septimius Sergius_Sergius Severinus Severus Sextus Symmachus_Symmachus Tacitus Theodosius_Theodosios Tiberius_Tiberius Titius Titus Trajanus_Trajan Urbanus_Urban Valens Valentinianus Valerianus Valerius_Valerius Venantius Vespasianus Victor Victorinus Vigilius Vitalianus Volusianus
+	}
+	female_names = {
+		Aelia Agrippina Antonia_Antonia Antonina Aquilia Aurelia_Aurelia Caecilia Caesaris Candida Cassia Claudia_Claudia Clementia Constantia_Constantia Constantina_Constantina Cornelia Crispina Dominica Domitiana Domna Domnina Drusilla Fausta Faustina Flacilla Flavia Fortunata Frontina Gaia Galeria Gordiana Hadriana_Adriana Helvia Hilara Honoria Hortensia Julia_Julia Juliana_Juliana Junia Justa Justina_Justina Justiniana Licinia Livia Livilla Lucilla Magnia Magnilla Marcella Marcia_Marcia Marciana Marina_Marine Martina_Martina Matrona Maxima Maximiana Messalina Minervina Minucia Modia Mustela Octavia Palatina Paula_Paula Paulina_Paulina Petronella_Petronilla Petronia_Petronia Placidia Plautia Plautilla Pompeia Poppaea Praeiecta Publia Pulcheria_Pulcheria Rusticiana Sabina Sallustia Salonina Salvianella Scantilla Serena Sergia Severa Severina Silvia_Silvia Spadusa Sulpicia Tarsilla Titiana Ulpia Valeria_Valeria Verina Victoria Vigilantia Viviana_Viviana
+	}
+	pat_grf_name_chance = 40
+	mat_grf_name_chance = 10
+	father_name_chance = 10
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 40
+	mother_name_chance = 10
+}
+
+name_list_ck_partisan = {
+	dynasty_of_location_prefix = "dynnp_of"
+	male_names = {
+		Adeqisio Adoric Agimadus Agriulfum Alamiro Algaster Anila Ansuario Argiovitus Ariamir Arosinda Audeca Badamundus Baldemarius Balderedo Baltarius Baudemiro Becilla Berteiro Bonesindus Boniza Cagildo Cartemiro Chararici Commundus Crodemiro Dagaredus Daildus Damiro Docemiro Donazarius Donegildus Dulcemirus Eboric Egenio_Eugene Eimiro Eirigu Eisindus Eldegotus Eldesindus Elperico Engomiro Ensaldus Ermaric Evosindo Fagildus Felmiro Fralenko Framuldo Francolino Fredoaldus Froatingus Fromildus Frumeiro Gardingus Gaudesindo Gomedei Gomulfus Gresumarus Gudesteus Gumarius Gundivaldo Guntato Gunterotis Heremigar Hermeric Hespanisco Hildemir Hilderic Hunisco Huniscus Leodegasti Leoderigus Leodulfus_Ludolf Leovaldo Lodemiro Magitus Malaredus Malaric Maldras Marcosendus Massilan Mervigius Miro Moderido Nandaricus Nantildo Neufila Nitigis Notarius Odamiro Odemundus Odericus Onemiro Onoricus Osdulfus Osorico Ostromirus Otualdo Pabregildus Pantard Pantinus Pappinus Pederagildu Pennio Pipinus_Pepin Provaredo Quedesendo Quedulfus Quidemiro Quidericus Ragimiro Ragolfus Rakericus Randinus Randuarius Ranisclus Rechiar Rechila Refulfo Reirigus Remismund Remisol Rendericus Ricardo_Richard Richimund Rodomiro Roelindus Romanisco Romarigus Sagatus Saxomero Segomirus Sentarius Sescutus Sisulfus Spanarius Spoderigo Suavarius Sunila Teobald_Theobald Teoderedus Theodemar_Theodemir Todegogia Trasmira Trasoldi Tumtuldo Uittimer Venedario Veremund_Vermudo Viamundus Vidraldus Villisendo Vistremiro Zamarius Zendasindo
+	}
+	female_names = {
+		Acilo Ailo Alatrudia Aliverga Aliverta Aniedrudia Ansetrudia Astriverga Bagina Berina Cenabrida Cisilo Dadilo Dagadruida Desteilli Donadildi Drusilla Ebragundia Ebrildi Eldegundia Emilo Entrudi Ermedrudia Ermildi Espallo Facalo Fagilo Faquilo Fradegundia Framilli Fremosilli Frogildi Froilo Frolio Fronosili Frumildi Frunilo Gelvira Genlo Godoigia Goldrerona Granilo Guandilo Gundiverga Guntedrudia Ildiverga Kindiverga Lallina Liuvilo Mansuara Margilli Mirosinda Penefreda Penetrudia Ragesenda Randilo Raniverta Recerona Recesenda Recesuinda Rezevera Riquilo Rudilo Sabegoto Senuita Sindiverga Sisilli Sisiverta Sitividis Sontrilli Sparuildi Stodildi Suevisco Tanquilli Tederona Tenildi Teodevirga Teodiverta Teodoriga Teudileova Texilli Tractuilli Trasavara Trasmira Trastivigia Vergina Viscaverga Visterlo Vistravara Vistrildi Zanina
+	}
+	pat_grf_name_chance = 40
+	mat_grf_name_chance = 10
+	father_name_chance = 10
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 40
+	mother_name_chance = 10
+}
+
+name_list_ck_celestial = {
+	dynasty_of_location_prefix = "dynnp_of"
+	male_names = {
+		Ji Yu Deyi Wuji Xuanling Ruhui Jing Yanbo Shilian Shiji Xingcheng Zhining Suiliang Rengui Zhide Liangsi Daijia Chengsi Changliang Qinwang Jishan Xiujing Yuanzhong Chengqi Shi Ziyi Maozhen Wei Gongren Shidao Wenben Zhou Jifu Shi Dunli Yifu Zhenglun Jingzong Xiangdao Dunxin Liben Chujun Jingxuan Yuanchao Zhiwen Yan Weidao Judao Wenwei Zhaode Sansi Renjie Qiao Zaisi Xuanwei Shuji Anshi Chuke Zhizhong Shaojing Sili Chong Shuo Jiazhen Song Jiuling Linfu Guozhong Yuan Fuguo Huaiguang Sheng Jian Hong Minzhong Zhaodu Wenjing Kang Shuda Yuanji Gui Zheng Wenjie Yuan Maojiang Yushi Dexuan Luo Wenguan Chujun Jingxian Dezhen Siqian Xuantong Guangfu Youning Wuzi Qinke Tong Shou Hui Yanfan Huai Juyuan Chuna Zhizhong Rizhi Youqiu Huaizhen Xi Zhigu Huaishen Qianyao Guangting Yaoqin Xianke Shizhi Xilie Jiansu Jinqin Jin Sui Duo Mei Congdang Yanruo Yin Yan Zhou Junji Yaxiang Chengqing Yi Yanwei Chuyue Hongwu Anqi Renben Heng Yiyan Zhizhou "Da'an" Daiju Hongmin Weizhi Benli Xiaojie Jiongxiu Dan Jianzhi Huaiyuan Qinming Renyuan Zhigu Xiangxian Na Lin Zhengyi Jingchen Junliang Cha Fangzhi L bing Youyi Sihui Fuyuan Zhigu Xingben Zhirou Youdao Zhihong Shenji Yuanzong Yuansu Rui Juyuan Yuanfang Shifang Jingquan Yunyuan Yuanheng Fangqing Daoguang Yuanchong Xu Jingze Rong Weiqian Yanzhao Jiafu Yuanhong Xilie Guan Mian Ting Qi Kui Hua Zunqing Zai Hongjian Gun Zhongchen Youfu Lin Yi Bo Congyi Gongfu Yanshang Zao Huang Hun Bi Can Zhi Dan Mai Sun Zongru Yuqing Ying Xunyu Zhiyi Huangshang Yuanheng Di Pan Deyu Jiang Hongjin Guanzhi Fengji Qun Yong Yijian Fu Wenchang Yuanying Sengru Chen Yizhi Chuhou Zongmin Shenxi Guyan Yuanyu Xun Tan Yixing Sifu Shen Rangyi Su Shang Minzhong Yuanshi Guicong Tao Mo Lang Shenyou Zhuan Shenquan Xian Shou Que Shang Zhan Ye Wei Che Gou Changtu Zhaodu Rangneng Yanchang Xisheng Chuan Pu Wo She Riyong Renshi Guangqi Zhirou Yanjing Dewei Shouyi Longji Jie Shouli Yuanzhen Xinfu Yun
+	}
+	female_names = {
+		Anzong Wenshou Aiqin Que Daoan Maoying Qigui Rongji Huinan Yuying Yingwu Xianyuan Lingyuan Wanying Yingmei Zhenfeng Miaodeng Farong Yuzhu Jiangui Fanjing Daozheng Zhirong Huizhao Shuyi Shuyuan Jieyu Ronghua Zhaoyi Lanying Baoming Jingying Shaoming Huiduan Lingqu "Yu'er" Nizi Jinghui Shunhua Shangrou Hui Lingguang Lingying Lingbing Zhaopei "Yao'er" Miaorong Shaoji Jingyan Lihua Wuhua Xianji Shouji Zhaorong Ying Xianzi Puxian Lian Mingxiang Yuanhua "Tong'e" Mingyue Zhaojun "Zu'e" Yuguang Zuqi Zhonghua Yuyi Changyi Huanghua Xiaolian "E'zi" Manyue Yueyi Yueshang Qieluo Lingji Zhou Shuzhen Gui Hui Huitong "Wan'er" Shun Fangmei Zhenyi Caiping Yuhuan Qiniang Qiu Qiuniang Jianrong Chongyan Zhenniang Yuniang Fujin Shiguang "E'huang" N ying Xinyue Hanyue Feishan Shunxuan Taihua Dexiu Jinfeng Chunyan Qiongxian E Taotao Bingyi Yunu Zuimei Chunluo Fengniang Daoqing Zhuozhen Yan Yanyan "Shi'er" "Xian'e" Nanxian Shanxiang Ai Shanli Jinluan "Xi'er" "Zhen'er" Wanyi Mantang Xijie Baozhu Xiuying Zhongyang Ruoxian Ruozhao Ruoxin Ruoxun Ruolun Miaozhen "Mao'er" Daoyi Niangzi Saihua Guiying Shengqiong Chaochao Fu Zhaoyun Rouniang Rounu Yuniang Biniang Rui Jinhua Guilan Shanwei Suyue Yunxian Nenniang Xiang Zhenli Cuiqiao Zhihui Lingxuan Jicong Shuzhu Yujing Yuanyuan Xiaowan Hengbo Mei Xiangjun Rushi Xianglan Ruying Yuhua Yuantong Yanxiang Xiurong Shouying Fuyuan Luzhen Ruirong Suzhen "Xiao'e" Xiaoying Xiaoyuan Xiaoji Xiuui N jie Qingyu Zhichong "Yi'an" Youwu Yupan Jinnu Jinluo Fujin "Hu'er" Jinxian Qiaoyun Sanjin Xiangyun Zhuzhu "Jin'er" Chuanzhu Jinzhu Xiaojin Huimei Miaoyu Quyi Siniang Sanniang "A'wu" Lizhi Jing Shu Lingyue Xianhui Jijiang "Guo'er" Huawan Huazhuang Chang Dehua Panpan Caichun Wenxiu Hong Honghong "A'man" Huimei Shuozhen Youwei Huilan Lize Mingda Sujie Yiyang Hua Yuhuan Shi Diaochan Zheng Liu Kangyi Feiyan Hou Jiangnu Na Shengtong Zhi
+	}
+	pat_grf_name_chance = 40
+	mat_grf_name_chance = 10
+	father_name_chance = 10
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 40
+	mother_name_chance = 10
+}
+
+name_list_ck_southeast_asian = {
+	dynasty_of_location_prefix = "dynnp_of"
+	male_names = {
+		Achugi Adikavi Ahavamalla Amoghavarsha Anekonda Asaga Avinita Ayanna Bhuvikrama Bijjama Bukka Butuga Chavundaraya Dantidurga Dashavarman Dhruva Durgasimha Durvinita Ereganga Ereyanga Gangaraja Gajankusha Gobburi Govinda Hakka Harihara Harivarman Indra Jagadhekamalla Jagaraya Jagattunga Jayasimha Jogama Kambarasa Kannama Karka Khottiga Kiriyasaga Kirtivarman Konganivarman Krishna Madhava Madhura Mallikarjuna Mallugi Mangalesi Marasimha Marulaganga Mushkara Narasanayaka Narasimha Neetimarga Nripakama Permadi Permanadi Polavira Praudharaya Pulakesi Purandaradasa Rachamalla Ramachandra Ramadeva Ramaraya Sankama Satyasraya Sharva Shivamara Singhana Somesvara Sovideva Sripadaraya Sripurusha Sriranga Srivikrama Tailapa Thimma Tirumalaraya Uchita Venkatadri Venkatapathi Vikramaditya Vijayaditya Vinayaditya Viraballala Viravijaya Virupaksha Vishnugopa Vishnuvardhana Yachama Yachamanedu Achyutadeva Krishnadevaraya Sadashiva Vendakadri Viranarasimha
+	}
+	female_names = {
+		Akkadevi Bhavanaga Bijjabbe Chandaladevi Chandrabbalabbe Gangambika Hoysaladevi Kundakadevi Lakshmi Mahadevi Mailaladevi Obayamma Pertal Revakanimmadi Shantaladevi Vijamba Chinnambike Thirumalambike
+	}
+	pat_grf_name_chance = 40
+	mat_grf_name_chance = 10
+	father_name_chance = 10
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 40
+	mother_name_chance = 10
+}
+
+name_list_ck_bantu = {
+	dynasty_of_location_prefix = "dynnp_of"
+	male_names = {
+		Anthony Allen Akademiks Alan Ace Amir Adanko Abraham Ambrose Biggie Belali Burna Boosie Bryan Brian Benjamin Berg Clarence Cesar Carti Caesar Cain Cleveland Charlamagne Clay Donald Dembo Dred Denmark Durk Dirk Eli Elijah Emory Eulis Eldzier Future Frenchh Gohan Jasper Jersey Herbert Herbo Jedus Jupiter James Jihad Jamal Jon Julien Joseph Lorenzo Lebron Lee Lenard Kahry Kyrie Kwame Keion Myers Moses Mavado Meek Osman Omar Osiris Orlando Piccolo Philip Purp Quentin Quavo Quran Quando Offset Remus Riley Robert Ross Ron Ronald Rocky Silas Soulja Sam Samuel Snoop Shaq Tony Takeoff Tyler Uzi Ursell Von Wiley Wayne William Youngboy
+	}
+	female_names = {
+		Adelaide Australia America Althea Anita Asia Beyonce Blue Cotto China Celina Cornelia Cardi Caroline Crissy Cleopatra Doll Doja Dej Eden Ethel Europa Eloise Eliza Elizabeth Eula Fatima Francia Glenda Gia Gina Hellen Helena Helen Hailey Inez Agnes Ivory Ivy Inaya Jean Joana Julia Katie Catherine Kansas Kylie Leola Lucy Lennis Lana London Margaret Miami Medina Martha Megan Mae May Marquetta Michelle Mary Mable Natasha Nancy Nicki Ophelia Onika Peggy Phoebe Paris Pearlie Pearl Queen Quiana Ramona Rosa Rose Ruby Ronnie Rihanna Sabra Sula Sue Susan Summer Saweetie Tamie Tammy Tina Trina Vertamae Veronica Viola Yaya Wanda
+	}
+	pat_grf_name_chance = 40
+	mat_grf_name_chance = 10
+	father_name_chance = 10
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 40
+	mother_name_chance = 10
+}
+
+name_list_ck_sahelian = {
+	dynasty_of_location_prefix = "dynnp_of"
+	male_names = {
+		Abbas Abdallah Abdul Abdulraham Abubakar Adam_Adam Ahmed Airimi Alhaji Ali Alooma Amin Amr Arku Arsu Baba Baram Bikorom Biri Bukar Bulu Buyuma Dabbalemi Dala Daoud_David Dugu Dunama Fune Gaji Gajideni Galrima Gana Garbai Gazali Gazi Ghana Hume Hummay Ibrahim_Abraham Idris Kaday Kanemi Kashim Katakarmabe Katur Kiyari Kura Kuri Kuwaana Madu Mahmoud Mamane Modu Mohammed_Mohammed Mufioma Murama Musa Mustafa Nikale Osman Said Salmama Sanda Sani Sef Selma Shettima Shu Suleyman_Solomon Tandja Umar Waziri Yahya_John Yaqub_Jacob Yusuf_Joseph Zannah
+	}
+	female_names = {
+		Aisha Aissa Aliyah Amina Aziza Bakhita Cinta Daniyah Dikwa Fatima_Fatima Halima Jalila Kaltum Karima Khadija Khalila Kili Layla Malika Mariam_Maria Mina Nadia Rashida Shadia Shakira Sukda Tebunnu Wahida Ya Yasmin
+	}
+	pat_grf_name_chance = 40
+	mat_grf_name_chance = 10
+	father_name_chance = 10
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 40
+	mother_name_chance = 10
+}
+
+name_list_ck_first_peoples = {
+	dynasty_of_location_prefix = "dynnp_of"
+	male_names = {
+		"Abi-Bakr_Abu-Bakr" "Abubakari_Abu-Bakr" Akoi Alayaman Ali_Ali "Ali-Fay" "Ali-Kolon" "Ali-Zalil" Bad Bakr "Bakr-Kanbu" Bamari Bankanu Bannu Bassarou Bassi Birama Bisi Biyu Bonga Cisse Dankaran Daoud_David Dawud_David Demba Diara D ru "Faga-Laye" Fatta Fodi Fuluku F dazu Gane Gao Hargani Harun Igoumou Ishaq_Isaac Ismail_Ismail Kabayo Kalabi Kambine Kanafa Kassa Kasse Kaya Kayna Kinkin Kisha Kodama Ko z Kukuray Kusoy Lahiltoul "M'Bali" Maammarou Maghan Mahmud_Mahmud Majan Malla Mamadi Mamoudou "Manding-Bory" "Mari-Djata" Ma roumfa "Missi-Iz" Morobani Musa_Moses Nintasanay Nuh Ouali Ouanko Ouati Reidja Sakoura Salman_Solomon "Samsou-B" ri "Samsou-Ke" na Sandaki Soumaba Soumaoro Soundiata Sulayman_Solomon Takoi Tib Tomo_Thomas Tunka Umar_Umar Yama Yaqub_Jacob Yasiboy Zakoi Zenku
+	}
+	female_names = {
+		Adja Aichata Aissata Alima Aminata Amita Aoua Barakissa Bintou Deye Djeneba Djenly Djire Fadima Fatim Fatoumata Halima Hawa Ina Kadi Kilia Kolonkan Lorane Mariam_Maria Nafissa Namandj Namiss Nana Safiatou Salimata Sassouma Sidib Siya Sogolon Tekhaye Youma Ze nab
+	}
+	pat_grf_name_chance = 40
+	mat_grf_name_chance = 10
+	father_name_chance = 10
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 40
+	mother_name_chance = 10
+}
+
+name_list_ck_nativican = {
+	dynasty_of_location_prefix = "dynnp_of"
+	male_names = {
+		Acalan Acacitli Acamapichtli Acolmiztli Aculnahuacatl Ahuiliztli Ahuitzotl Atl Axayacatl Cacamatzin Chimalli Chimalpilli Chimalpopoca Cipac Coanacoch Coatl Cozahtli Cuauhtemoc Cuauhtl Cuetlachtli Cuetzpalli Cuixtli Cuitlahuac Huitzilin Huitzilihuitl Huitzitl Huitztecol Iquehuacatzin Itzcoatl Itzli Itzcuintli Ixtlilxochitl Mahchimaleh Matlal Mazatl Matlalihuitl Matlatzincatzin Maxtla Miztli Moctezuma Moquihuix Necuametl Nezahualcoyotl Nezahualpilli Nochehuatl Ocuil Olli Opochtli Ozomatli Quauhtli Tapayaxi Tecocoltzin Tecolotl Tetlepanquetzaltzin Tezozomoc Tizoc Tizocic Tlacaelel Tlacaeleltzin Tlalli Tlaloc Tochtli Tototl Tzompantzin Tlilpotonqui Topiltzin Totoquihuaztli Ueman Yaotl Yayauhqui Yolotli Yolyamanitzin Xicohtencatl Xiuhpilli Xihuitl Xipil Xipilli Xochitl Xochipepe Xochipilli Zipactonal Zolin
+	}
+	female_names = {
+		Achcauhtli Acxocueitl Ahuiliztli Amoxtli Atl Atotoztli Ayauhcihuatl Azcalxochitzin Centehua Cihuaton Chalchiuitl Chicahua Chichimecacihuatzin Chipahua Chicomecoatl Chimalma Citlali Citlalli Citlalmina Coaxoch Coszcatl Cozamalotl Cuicatl Eleuia Eloxochitl Etalpalli Eztli "Huehue-Zaca" Itotia Iuitl Ixcatzin Izel Malinalxochitl Manauia Matlalatzin Mecatl Meztli Miahuaxiuitl Miyaoaxochitl Mizquixahual Momoztli Nahuatl Necahual Nelli Ohtli Papa Patli Quiauhxochitl Sacnite Techichpotzin Tezozomoc Tziquetzalpoztectzin Teiuc Teicuih Teyacapan Tepin Tezcatlan Tlacotl Tlahco Tlahcoehua Toltecatl Tonalnan Tlazozomizqui Yoltzin Xilonen Xiloxoch Xiuhtomiyauhtzin Xochitl Xocoh Xocoyotl Yaretzi Zeltzin Zyanya
+	}
+	pat_grf_name_chance = 40
+	mat_grf_name_chance = 10
+	father_name_chance = 10
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 40
+	mother_name_chance = 10
+}

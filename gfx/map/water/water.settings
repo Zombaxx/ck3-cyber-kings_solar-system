@@ -1,0 +1,74 @@
+﻿# Cyber Kings: the "sea" is deep space. Vanilla water.settings with everything that reads as water
+# (waves, foam, gloss, sky reflection, see-through to the sea bed) turned down to nothing.
+
+"WaterColorTexturePath" = "gfx/map/water/watercolor_rgb_waterspec_a.dds"
+"WaterColorShallow" = hsv { 0.62 0.0 0.95 }
+"WaterColorDeep"    = hsv { 0.62 0.0 0.95 }
+"WaterDiffuseMultiplier" = 1.1
+"WaterColorMapTint" = hsv { 0.62 0.2 1 }
+"WaterColorMapTintAlpha" = 0.0
+"WaterColorMapTintStartHeight" = 500
+"WaterColorMapTintEndHeight"   = 1300
+
+"CubeMapTexturePath" = "gfx/map/environment/cape_hill_8k_cube_specular.dds"
+"WaterCubemapIntensity" = 0.0
+"WaterGlossBase" = 0
+"WaterGlossScale" = 0
+"WaterZoomedOutGlossScaleOffset" = 0.0
+"WaterSpecular" = 0.0
+"WaterSpecularFactor" = 0.0
+
+"FoamTexturePath"      = "gfx/map/water/foam.dds"
+"FoamRampTexturePath"  = "gfx/map/water/foam_ramp.dds"
+"FoamMapTexturePath"   = "gfx/map/water/foam_map.dds"
+"FoamNoiseTexturePath" = "gfx/map/water/foam_noise.dds"
+"WaterFoamScale" = 0.8
+"WaterFoamDistortFactor" = 0.0
+"WaterFoamShoreMaskDepth" = 0.0
+"WaterFoamShoreMaskSharpness" = 0.0
+"WaterFoamNoiseScale" = 0.002
+"WaterFoamNoiseSpeed" = 0.0
+"WaterFoamStrength" = 0.0
+
+"WaterZoomedInHeight"  = 100.0
+"WaterZoomedOutHeight" = 750.0
+"WaterFresnelBias" = 0.0
+"WaterZoomedOutFresnelBiasOffset" = 0.0
+"WaterFresnelPow" = 4
+"WaterZoomedOutFresnelPowOffset" = 0.0
+"WaterReflectionFlatten" = 3
+
+"WaterRefractionShoreMaskDepth" = 0
+"WaterRefractionShoreMaskSharpness" = 0.4
+"WaterRefractionFadeStart" = 200.0
+"WaterRefractionFadeEnd" = 500.0
+"WaterRefractionScale" = 0
+
+"AmbientNormalTexturePath" = "gfx/map/water/ambient_normal.dds"
+@wave_flatness = 60
+"WaterWave1.Scale"        = { 7 7 }
+"WaterWave1.Rotation"     = -0.35
+"WaterWave1.Speed"        = 0.0
+"WaterWave1.NormalFlatten"= @wave_flatness
+"WaterWave2.Scale"        = { 0.7 0.7 }
+"WaterWave2.Rotation"     = -1.6
+"WaterWave2.Speed"        = 0.0
+"WaterWave2.NormalFlatten"= @wave_flatness
+"WaterWave3.Scale"        = { 0.3 0.3 }
+"WaterWave3.Rotation"     = 1.7
+"WaterWave3.Speed"        = 0.0
+"WaterWave3.NormalFlatten"= @wave_flatness
+
+"FlowMapTexturePath"   = "gfx/map/water/flowmap.dds"
+"FlowNormalTexturePath"= "gfx/map/water/flow_normal.dds"
+"WaterFlowSpeed" = 0.0
+"WaterZoomedOutFlowSpeedOffset" = 0.0
+"WaterFlowNormalScale" = 0.07
+"WaterFlowNormalFlatten" = 60
+
+"WaterFadeShoreMaskDepth" = 0.5
+"WaterFadeShoreMaskSharpness" = 5
+"WaterSeeThroughDensity" = 60
+"WaterSeeThroughDensityAngleOffset" = 0.5
+"WaterSeeThroughShoreMaskDepth" = 1.0
+"WaterSeeThroughShoreMaskSharpness" = 5
