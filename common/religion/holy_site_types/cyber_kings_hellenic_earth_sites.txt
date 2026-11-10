@@ -1,0 +1,102 @@
+﻿# Earth holy sites of vanilla Hellenic (2026-11-09): the vanilla ones (athens, olympus, carthage, ...) were relocated to Mars
+# by the conversion and now belong to Olympic. Modifiers copied from those.
+
+hellenic_athens = {
+	county = c_province0597
+	county_holder_character_modifier = {
+		learning = 1
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		tax_mult = 0.01
+		supply_limit_mult = 0.02
+	}
+	faith_character_modifier = {
+		diplomacy = 1
+		stewardship = 1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_lifestyle_xp_gain_mult = 0.01
+	}
+}
+
+hellenic_olympus = {
+	county = c_province0593
+	county_holder_character_modifier = {
+		learning = 1
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		travel_danger = -1
+	}
+	faith_character_modifier = {
+		learning = 2
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_lifestyle_xp_gain_mult = 0.01
+	}
+}
+
+hellenic_delphi = {
+	county = c_province0591
+	county_holder_character_modifier = {
+		dread_baseline_add = 3
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		tax_mult = 0.01
+		monthly_county_control_growth_factor = 0.01
+	}
+	faith_character_modifier = {
+		dread_baseline_add = 5
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		dread_baseline_add = 0.5
+		monthly_income_mult = 0.005
+	}
+}
+
+hellenic_rome = {
+	county = c_province0554
+	county_holder_character_modifier = {
+		stewardship = 1
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		county_opinion_add = 1
+	}
+	faith_character_modifier = {
+		stewardship = 1
+		church_holding_build_gold_cost = -0.1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		character_travel_speed_mult = 0.01
+	}
+}
+
+hellenic_knossos = {
+	county = c_province0594
+	county_holder_character_modifier = {
+		learning = 1
+		influence_standalone_gain_mult = 0.05
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		epidemic_resistance = 1
+	}
+	faith_character_modifier = {
+		learning_per_piety_level = 1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_lifestyle_xp_gain_mult = 0.01
+	}
+}

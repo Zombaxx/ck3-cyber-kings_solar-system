@@ -2210,14 +2210,14 @@ hellenic_pagan = {
 	}
 
 	eminent_holy_sites = {
-		athens
-		olympus
+		hellenic_athens
+		hellenic_olympus
 	}
 
 	holy_sites = {
-		rome_ck_hellenic_pagan
-		alexandria_ck_hellenic_pagan
-		carthage
+		hellenic_rome
+		hellenic_delphi
+		hellenic_knossos
 	}
 
 	tenets = {

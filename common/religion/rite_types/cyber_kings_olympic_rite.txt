@@ -1,0 +1,18 @@
+﻿# Olympic main rite: copy of vanilla hellenic_pagan rite (2026-11-09)
+olympic_rite = {
+	faith = olympic
+
+	color = { 0.75 0.2 0.1 }
+
+	tenets = {
+		tenet_astrology
+		tenet_communal_identity
+		tenet_esotericism
+	}
+
+	doctrines = {
+		unreformed_faith_doctrine
+	}
+
+	cultures = { olympian martian }
+}

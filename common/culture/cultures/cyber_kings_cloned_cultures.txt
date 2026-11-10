@@ -262,37 +262,32 @@ korean = {
 }
 
 # Olympian: CK2 alan, template alan
+# Olympian: template vanilla trojan (ancient Greek heritage/language) - was alan until 2026-11-09
 olympian = {
 	color = { 0.70 0.50 0.70 }
 
-
-
-	
-	ethos = ethos_communal
-	heritage = heritage_iranian
-	language = language_scythian
+	ethos = ethos_bellicose
+	heritage = heritage_ancient_greek
+	language = language_ancient_greek
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
 	traditions = {
-		tradition_horse_breeder
-		tradition_mountaineers
-		tradition_wedding_ceremonies
+		tradition_philosopher_culture
+		tradition_legalistic
+		tradition_astute_diplomats
+		tradition_maritime_mercantilism
 	}
 	
 	name_list = name_list_ck_olympian
 	
-	coa_gfx = { oghuz_coa_gfx turkic_group_coa_gfx steppe_coa_gfx }
-	building_gfx = { caucasian_building_gfx byzantine_building_gfx }
-	clothing_gfx = { iranian_clothing_gfx mena_clothing_gfx }
-	unit_gfx = { iranian_unit_gfx }
-	house_coa_frame = house_frame_12
-	house_coa_mask_offset = { 0.0 -0.04 }
-	house_coa_mask_scale = { 0.95 0.95 }
-
+	coa_gfx = { byzantine_group_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { byzantine_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+	house_coa_frame = house_frame_16
+	
 	ethnicities = {
-		19 = mediterranean_byzantine
-		33 = mediterranean
-		48 = turkic_west
+		100 = mediterranean_byzantine
 	}
 }
 

@@ -133,13 +133,6 @@
  gnostic_faith_adherent:0 "Gnostic"
  gnostic_faith_adherent_plural:0 "Gnostics"
  gnostic_faith_desc:0 "Gnostics seek a profound, esoteric understanding of Christ's teachings, emphasizing personal spiritual knowledge (gnosis) over traditional ecclesiastical authority. This faith revolves around the belief in a divine spark within each individual, which can be nurtured and awakened through deep contemplation, mystical experiences, and the decoding of symbolic, often hidden, meanings in Christian scripture."
- # hellenic_pagan (658 uses)
- hellenic_pagan_name:0 "Olympic"
- hellenic_pagan:0 "Olympic"
- hellenic_pagan_adj:0 "Olympic"
- hellenic_pagan_adherent:0 "Olympic"
- hellenic_pagan_adherent_plural:0 "Olympics"
- hellenic_pagan_desc:0 "The Olympic religion is polytheistic, with a pantheon of twelve major gods including Jupiter, Mars, Mercury, Venus, Minerva and Vesta. It originated in ancient Post-Disaster Mars with the conquests of Xander the Great and the Olympian Empire, it would go on to become the dominant religion in the western Tharsis Rise until the rise of Singularity and Solarianism."
  # nestorian (1299 uses)
  hussite_name:0 "Protestant"
  hussite:0 "Protestant"

@@ -465,7 +465,7 @@
 ########## k_kingdom0077
 ### c_province0020
 20 = {
-	culture = english
+	culture = lunar
 	rite = hussite_rite
 	holding = tribal_holding
 }
@@ -483,7 +483,7 @@
 }
 ### c_province0052
 52 = {
-	culture = english
+	culture = lunar
 	rite = slavic_pagan
 	holding = tribal_holding
 }
@@ -492,7 +492,7 @@
 }
 ### c_province0054
 54 = {
-	culture = english
+	culture = lunar
 	rite = hussite_rite
 	holding = tribal_holding
 }
@@ -504,7 +504,7 @@
 }
 ### c_province0076
 76 = {
-	culture = english
+	culture = lunar
 	rite = hussite_rite
 	holding = tribal_holding
 }
@@ -519,7 +519,7 @@
 }
 ### c_province0043
 43 = {
-	culture = english
+	culture = lunar
 	rite = slavic_pagan
 	holding = tribal_holding
 }
@@ -534,19 +534,19 @@
 }
 ### c_province0081
 81 = {
-	culture = english
+	culture = lunar
 	rite = slavic_pagan
 	holding = tribal_holding
 }
 ### c_province0087
 87 = {
-	culture = english
+	culture = lunar
 	rite = slavic_pagan
 	holding = tribal_holding
 }
 ### c_province0077
 77 = {
-	culture = english
+	culture = lunar
 	rite = slavic_pagan
 	holding = tribal_holding
 }
@@ -557,7 +557,7 @@
 ########## k_kingdom0041
 ### c_province0018
 18 = {
-	culture = english
+	culture = lunar
 	rite = hussite_rite
 	holding = castle_holding
 }
@@ -575,7 +575,7 @@
 }
 ### c_province0033
 33 = {
-	culture = english
+	culture = lunar
 	rite = hussite_rite
 	holding = castle_holding
 }
@@ -587,7 +587,7 @@
 }
 ### c_province0017
 17 = {
-	culture = english
+	culture = lunar
 	rite = hussite_rite
 	holding = castle_holding
 }
@@ -599,7 +599,7 @@
 }
 ### c_moonlanding
 61 = {
-	culture = english
+	culture = lunar
 	rite = slavic_pagan
 	holding = castle_holding
 }
@@ -608,7 +608,7 @@
 }
 ### c_province0041
 41 = {
-	culture = english
+	culture = lunar
 	rite = hussite_rite
 	holding = castle_holding
 }
@@ -6050,7 +6050,7 @@
 ########## k_kingdom0517
 ### c_province0484
 484 = {
-	culture = egyptian
+	culture = mercurian
 	rite = kushitism_pagan
 	holding = tribal_holding
 }
@@ -6059,13 +6059,13 @@
 }
 ### c_province0485
 485 = {
-	culture = egyptian
+	culture = mercurian
 	rite = kushitism_pagan
 	holding = tribal_holding
 }
 ### c_province0532
 532 = {
-	culture = egyptian
+	culture = mercurian
 	rite = kushitism_pagan
 	holding = tribal_holding
 }
@@ -6077,7 +6077,7 @@
 }
 ### c_province0541
 541 = {
-	culture = egyptian
+	culture = mercurian
 	rite = kushitism_pagan
 	holding = tribal_holding
 }
@@ -6092,13 +6092,13 @@
 }
 ### c_province0527
 527 = {
-	culture = egyptian
+	culture = mercurian
 	rite = kushitism_pagan
 	holding = tribal_holding
 }
 ### c_province0565
 565 = {
-	culture = egyptian
+	culture = mercurian
 	rite = kushitism_pagan
 	holding = tribal_holding
 }
@@ -6110,7 +6110,7 @@
 }
 ### c_province0573
 573 = {
-	culture = english
+	culture = mercurian
 	rite = imami
 	holding = tribal_holding
 }
@@ -6119,7 +6119,7 @@
 }
 ### c_province0553
 553 = {
-	culture = egyptian
+	culture = mercurian
 	rite = kushitism_pagan
 	holding = tribal_holding
 }
@@ -6131,7 +6131,7 @@
 }
 ### c_province0542
 542 = {
-	culture = egyptian
+	culture = mercurian
 	rite = kushitism_pagan
 	holding = tribal_holding
 }
@@ -6140,7 +6140,7 @@
 }
 ### c_province0569
 569 = {
-	culture = egyptian
+	culture = mercurian
 	rite = kushitism_pagan
 	holding = tribal_holding
 }
@@ -6152,7 +6152,7 @@
 }
 ### c_province0514
 514 = {
-	culture = egyptian
+	culture = mercurian
 	rite = kushitism_pagan
 	holding = tribal_holding
 }
@@ -6161,7 +6161,7 @@
 }
 ### c_province0540
 540 = {
-	culture = egyptian
+	culture = mercurian
 	rite = kushitism_pagan
 	holding = tribal_holding
 }
@@ -6170,7 +6170,7 @@
 }
 ### c_province0517
 517 = {
-	culture = egyptian
+	culture = mercurian
 	rite = kushitism_pagan
 	holding = tribal_holding
 }
@@ -6190,7 +6190,7 @@
 ########## k_kingdom0524
 ### c_province0466
 466 = {
-	culture = egyptian
+	culture = mercurian
 	rite = kushitism_pagan
 	holding = tribal_holding
 }
@@ -6199,7 +6199,7 @@
 }
 ### c_province0497
 497 = {
-	culture = egyptian
+	culture = mercurian
 	rite = kushitism_pagan
 	holding = tribal_holding
 }
@@ -6211,25 +6211,25 @@
 }
 ### c_province0468
 468 = {
-	culture = egyptian
+	culture = mercurian
 	rite = kushitism_pagan
 	holding = tribal_holding
 }
 ### c_province0500
 500 = {
-	culture = egyptian
+	culture = mercurian
 	rite = kushitism_pagan
 	holding = tribal_holding
 }
 ### c_province0469
 469 = {
-	culture = egyptian
+	culture = mercurian
 	rite = kushitism_pagan
 	holding = tribal_holding
 }
 ### c_province0501
 501 = {
-	culture = egyptian
+	culture = mercurian
 	rite = kushitism_pagan
 	holding = tribal_holding
 }
@@ -6238,7 +6238,7 @@
 }
 ### c_province0509
 509 = {
-	culture = egyptian
+	culture = mercurian
 	rite = kushitism_pagan
 	holding = tribal_holding
 }
@@ -6250,13 +6250,13 @@
 }
 ### c_province0561
 561 = {
-	culture = english
+	culture = mercurian
 	rite = khurmazta
 	holding = tribal_holding
 }
 ### c_province0529
 529 = {
-	culture = egyptian
+	culture = mercurian
 	rite = kushitism_pagan
 	holding = tribal_holding
 }
@@ -6265,7 +6265,7 @@
 }
 ### c_province0522
 522 = {
-	culture = egyptian
+	culture = mercurian
 	rite = kushitism_pagan
 	holding = tribal_holding
 }
@@ -6274,13 +6274,13 @@
 }
 ### c_province0545
 545 = {
-	culture = egyptian
+	culture = mercurian
 	rite = kushitism_pagan
 	holding = tribal_holding
 }
 ### c_province0524
 524 = {
-	culture = egyptian
+	culture = mercurian
 	rite = kushitism_pagan
 	holding = tribal_holding
 }
@@ -6297,7 +6297,7 @@
 ########## k_kingdom0513
 ### c_province0462
 462 = {
-	culture = english
+	culture = mercurian
 	rite = imami
 	holding = tribal_holding
 }
@@ -6306,7 +6306,7 @@
 }
 ### c_province0463
 463 = {
-	culture = english
+	culture = mercurian
 	rite = imami
 	holding = tribal_holding
 }
@@ -6318,7 +6318,7 @@
 }
 ### c_province0491
 491 = {
-	culture = english
+	culture = mercurian
 	rite = khurmazta
 	holding = tribal_holding
 }
@@ -6330,13 +6330,13 @@
 }
 ### c_province0521
 521 = {
-	culture = english
+	culture = mercurian
 	rite = khurmazta
 	holding = tribal_holding
 }
 ### c_province0499
 499 = {
-	culture = english
+	culture = mercurian
 	rite = khurmazta
 	holding = tribal_holding
 }
@@ -6348,7 +6348,7 @@
 }
 ### c_province0477
 477 = {
-	culture = english
+	culture = mercurian
 	rite = imami
 	holding = tribal_holding
 }
@@ -6357,13 +6357,13 @@
 }
 ### c_province0519
 519 = {
-	culture = english
+	culture = mercurian
 	rite = imami
 	holding = tribal_holding
 }
 ### c_province0503
 503 = {
-	culture = english
+	culture = mercurian
 	rite = imami
 	holding = tribal_holding
 }
@@ -6372,7 +6372,7 @@
 }
 ### c_province0537
 537 = {
-	culture = english
+	culture = mercurian
 	rite = imami
 	holding = tribal_holding
 }
@@ -6381,7 +6381,7 @@
 }
 ### c_province0566
 566 = {
-	culture = english
+	culture = mercurian
 	rite = imami
 	holding = tribal_holding
 }
@@ -6393,7 +6393,7 @@
 }
 ### c_province0567
 567 = {
-	culture = english
+	culture = mercurian
 	rite = imami
 	holding = tribal_holding
 }
@@ -6402,19 +6402,19 @@
 }
 ### c_province0494
 494 = {
-	culture = english
+	culture = mercurian
 	rite = imami
 	holding = tribal_holding
 }
 ### c_province0539
 539 = {
-	culture = english
+	culture = mercurian
 	rite = imami
 	holding = tribal_holding
 }
 ### c_province0513
 513 = {
-	culture = english
+	culture = mercurian
 	rite = imami
 	holding = tribal_holding
 }
@@ -9963,7 +9963,7 @@
 ########## k_kingdom0705
 ### c_province0630
 630 = {
-	culture = japanese
+	culture = yonagunian
 	rite = shinto
 	holding = tribal_holding
 }
@@ -9975,7 +9975,7 @@
 }
 ### c_province0637
 637 = {
-	culture = japanese
+	culture = yonagunian
 	rite = shinto
 	holding = tribal_holding
 }
@@ -9990,7 +9990,7 @@
 }
 ### c_province0640
 640 = {
-	culture = japanese
+	culture = yonagunian
 	rite = shinto
 	holding = tribal_holding
 }
@@ -10002,7 +10002,7 @@
 }
 ### c_province0663
 663 = {
-	culture = japanese
+	culture = yonagunian
 	rite = shinto
 	holding = tribal_holding
 }
@@ -10014,7 +10014,7 @@
 }
 ### c_province0657
 657 = {
-	culture = japanese
+	culture = yonagunian
 	rite = shinto
 	holding = tribal_holding
 }
@@ -10026,7 +10026,7 @@
 }
 ### c_province0673
 673 = {
-	culture = japanese
+	culture = yonagunian
 	rite = shinto
 	holding = tribal_holding
 }
@@ -10038,7 +10038,7 @@
 }
 ### c_province0697
 697 = {
-	culture = japanese
+	culture = yonagunian
 	rite = shinto
 	holding = tribal_holding
 }
@@ -10053,7 +10053,7 @@
 }
 ### c_province0714
 714 = {
-	culture = japanese
+	culture = yonagunian
 	rite = shinto
 	holding = tribal_holding
 }
@@ -10065,7 +10065,7 @@
 }
 ### c_province0685
 685 = {
-	culture = japanese
+	culture = yonagunian
 	rite = shinto
 	holding = tribal_holding
 }
@@ -10083,7 +10083,7 @@
 }
 ### c_province0724
 724 = {
-	culture = japanese
+	culture = yonagunian
 	rite = shinto
 	holding = tribal_holding
 }
@@ -10095,7 +10095,7 @@
 }
 ### c_province0749
 749 = {
-	culture = japanese
+	culture = yonagunian
 	rite = shinto
 	holding = tribal_holding
 }
@@ -10113,7 +10113,7 @@
 }
 ### c_province0769
 769 = {
-	culture = japanese
+	culture = yonagunian
 	rite = shinto
 	holding = tribal_holding
 }
@@ -10125,7 +10125,7 @@
 }
 ### c_province0741
 741 = {
-	culture = japanese
+	culture = yonagunian
 	rite = shinto
 	holding = tribal_holding
 }
@@ -10140,7 +10140,7 @@
 }
 ### c_province0687
 687 = {
-	culture = japanese
+	culture = yonagunian
 	rite = shinto
 	holding = tribal_holding
 }
@@ -10152,7 +10152,7 @@
 }
 ### c_province0705
 705 = {
-	culture = japanese
+	culture = yonagunian
 	rite = shinto
 	holding = tribal_holding
 }
@@ -10167,7 +10167,7 @@
 }
 ### c_province0711
 711 = {
-	culture = english
+	culture = venusian
 	rite = shinto
 	holding = tribal_holding
 }
@@ -10187,7 +10187,7 @@
 ########## k_kingdom0786
 ### c_province0722
 722 = {
-	culture = japanese
+	culture = yonagunian
 	rite = shinto
 	holding = castle_holding
 }
@@ -10202,7 +10202,7 @@
 }
 ### c_province0732
 732 = {
-	culture = japanese
+	culture = yonagunian
 	rite = shinto
 	holding = tribal_holding
 }
@@ -10220,7 +10220,7 @@
 }
 ### c_province0760
 760 = {
-	culture = japanese
+	culture = yonagunian
 	rite = shinto
 	holding = tribal_holding
 }
@@ -10235,7 +10235,7 @@
 }
 ### c_province0767
 767 = {
-	culture = japanese
+	culture = yonagunian
 	rite = shinto
 	holding = tribal_holding
 }
@@ -10250,7 +10250,7 @@
 }
 ### c_province0805
 805 = {
-	culture = japanese
+	culture = yonagunian
 	rite = shinto
 	holding = tribal_holding
 }
@@ -10265,7 +10265,7 @@
 }
 ### c_province0784
 784 = {
-	culture = japanese
+	culture = yonagunian
 	rite = shinto
 	holding = tribal_holding
 }
@@ -10280,7 +10280,7 @@
 }
 ### c_province0790
 790 = {
-	culture = japanese
+	culture = yonagunian
 	rite = shinto
 	holding = tribal_holding
 }
@@ -10307,7 +10307,7 @@
 }
 ### c_province0812
 812 = {
-	culture = japanese
+	culture = yonagunian
 	rite = shinto
 	holding = castle_holding
 }
@@ -10358,7 +10358,7 @@
 }
 ### c_province0859
 859 = {
-	culture = japanese
+	culture = yonagunian
 	rite = shinto
 	holding = castle_holding
 }
@@ -10373,7 +10373,7 @@
 }
 ### c_province0835
 835 = {
-	culture = japanese
+	culture = yonagunian
 	rite = shinto
 	holding = castle_holding
 }
@@ -10391,7 +10391,7 @@
 }
 ### c_province0766
 766 = {
-	culture = japanese
+	culture = yonagunian
 	rite = shinto
 	holding = castle_holding
 }
@@ -10406,7 +10406,7 @@
 }
 ### c_province0786
 786 = {
-	culture = japanese
+	culture = yonagunian
 	rite = shinto
 	holding = tribal_holding
 }
@@ -10426,7 +10426,7 @@
 ########## k_kingdom0928
 ### c_province0885
 885 = {
-	culture = japanese
+	culture = yonagunian
 	rite = shinto
 	holding = tribal_holding
 }
@@ -10444,7 +10444,7 @@
 }
 ### c_province0912
 912 = {
-	culture = japanese
+	culture = yonagunian
 	rite = shinto
 	holding = tribal_holding
 }
@@ -10456,7 +10456,7 @@
 }
 ### c_province0889
 889 = {
-	culture = japanese
+	culture = yonagunian
 	rite = shinto
 	holding = castle_holding
 }
@@ -10477,7 +10477,7 @@
 }
 ### c_province0904
 904 = {
-	culture = japanese
+	culture = yonagunian
 	rite = shinto
 	holding = castle_holding
 }
@@ -10510,7 +10510,7 @@
 }
 ### c_province0922
 922 = {
-	culture = japanese
+	culture = yonagunian
 	rite = shinto
 	holding = castle_holding
 }
@@ -10525,7 +10525,7 @@
 }
 ### c_province0928
 928 = {
-	culture = japanese
+	culture = yonagunian
 	rite = shinto
 	holding = castle_holding
 }
@@ -11477,7 +11477,7 @@
 ########## k_kingdom0990
 ### c_province0961
 961 = {
-	culture = english
+	culture = venusian
 	rite = west_african_pagan
 	holding = tribal_holding
 }
@@ -11486,7 +11486,7 @@
 }
 ### c_province0966
 966 = {
-	culture = english
+	culture = venusian
 	rite = west_african_pagan
 	holding = tribal_holding
 }
@@ -11501,7 +11501,7 @@
 }
 ### c_province0972
 972 = {
-	culture = english
+	culture = venusian
 	rite = west_african_pagan
 	holding = tribal_holding
 }
@@ -11519,7 +11519,7 @@
 }
 ### c_province0979
 979 = {
-	culture = english
+	culture = venusian
 	rite = west_african_pagan
 	holding = tribal_holding
 }
@@ -11531,7 +11531,7 @@
 }
 ### c_province0969
 969 = {
-	culture = english
+	culture = venusian
 	rite = west_african_pagan
 	holding = tribal_holding
 }
@@ -11543,7 +11543,7 @@
 }
 ### c_province0962
 962 = {
-	culture = english
+	culture = venusian
 	rite = west_african_pagan
 	holding = castle_holding
 }
@@ -11558,7 +11558,7 @@
 }
 ### c_province0980
 980 = {
-	culture = english
+	culture = venusian
 	rite = west_african_pagan
 	holding = castle_holding
 }
@@ -11570,7 +11570,7 @@
 }
 ### c_province0984
 984 = {
-	culture = english
+	culture = venusian
 	rite = west_african_pagan
 	holding = castle_holding
 }
@@ -11582,7 +11582,7 @@
 }
 ### c_province0971
 971 = {
-	culture = english
+	culture = venusian
 	rite = west_african_pagan
 	holding = castle_holding
 }
@@ -11597,7 +11597,7 @@
 }
 ### c_province0986
 986 = {
-	culture = english
+	culture = venusian
 	rite = west_african_pagan
 	holding = tribal_holding
 }
@@ -11615,7 +11615,7 @@
 }
 ### c_province0991
 991 = {
-	culture = english
+	culture = venusian
 	rite = west_african_pagan
 	holding = tribal_holding
 }
@@ -11627,7 +11627,7 @@
 }
 ### c_province1001
 1001 = {
-	culture = english
+	culture = venusian
 	rite = west_african_pagan
 	holding = tribal_holding
 }
@@ -11639,7 +11639,7 @@
 }
 ### c_province1009
 1009 = {
-	culture = english
+	culture = venusian
 	rite = west_african_pagan
 	holding = tribal_holding
 }
@@ -11654,7 +11654,7 @@
 }
 ### c_province1000
 1000 = {
-	culture = english
+	culture = venusian
 	rite = west_african_pagan
 	holding = tribal_holding
 }
@@ -11672,7 +11672,7 @@
 }
 ### c_province0995
 995 = {
-	culture = english
+	culture = venusian
 	rite = west_african_pagan
 	holding = castle_holding
 }
@@ -11687,7 +11687,7 @@
 }
 ### c_province1008
 1008 = {
-	culture = english
+	culture = venusian
 	rite = west_african_pagan
 	holding = castle_holding
 }
@@ -11705,7 +11705,7 @@
 }
 ### c_province1002
 1002 = {
-	culture = english
+	culture = venusian
 	rite = west_african_pagan
 	holding = castle_holding
 }
@@ -11720,7 +11720,7 @@
 }
 ### c_province1013
 1013 = {
-	culture = breton
+	culture = venusian
 	rite = basque_pagan
 	holding = castle_holding
 }
@@ -11732,7 +11732,7 @@
 }
 ### c_province1017
 1017 = {
-	culture = english
+	culture = venusian
 	rite = west_african_pagan
 	holding = castle_holding
 }
@@ -11744,7 +11744,7 @@
 }
 ### c_province1010
 1010 = {
-	culture = english
+	culture = venusian
 	rite = west_african_pagan
 	holding = tribal_holding
 }
@@ -11756,7 +11756,7 @@
 }
 ### c_province1033
 1033 = {
-	culture = english
+	culture = venusian
 	rite = west_african_pagan
 	holding = tribal_holding
 }
@@ -11768,7 +11768,7 @@
 }
 ### c_province1019
 1019 = {
-	culture = english
+	culture = venusian
 	rite = west_african_pagan
 	holding = tribal_holding
 }
@@ -11780,7 +11780,7 @@
 }
 ### c_province1011
 1011 = {
-	culture = english
+	culture = venusian
 	rite = west_african_pagan
 	holding = tribal_holding
 }
@@ -11789,13 +11789,13 @@
 }
 ### c_province1027
 1027 = {
-	culture = english
+	culture = venusian
 	rite = west_african_pagan
 	holding = tribal_holding
 }
 ### c_province1020
 1020 = {
-	culture = english
+	culture = venusian
 	rite = west_african_pagan
 	holding = tribal_holding
 }
@@ -11804,7 +11804,7 @@
 }
 ### c_province1024
 1024 = {
-	culture = english
+	culture = venusian
 	rite = west_african_pagan
 	holding = tribal_holding
 }
@@ -11819,7 +11819,7 @@
 }
 ### c_province1026
 1026 = {
-	culture = breton
+	culture = venusian
 	rite = basque_pagan
 	holding = castle_holding
 }
@@ -11834,7 +11834,7 @@
 }
 ### c_province1031
 1031 = {
-	culture = english
+	culture = venusian
 	rite = west_african_pagan
 	holding = castle_holding
 }
@@ -11846,7 +11846,7 @@
 }
 ### c_province0977
 977 = {
-	culture = english
+	culture = venusian
 	rite = west_african_pagan
 	holding = tribal_holding
 }
@@ -11861,7 +11861,7 @@
 }
 ### c_province0998
 998 = {
-	culture = english
+	culture = venusian
 	rite = west_african_pagan
 	holding = tribal_holding
 }
@@ -11873,7 +11873,7 @@
 }
 ### c_province0999
 999 = {
-	culture = english
+	culture = venusian
 	rite = west_african_pagan
 	holding = tribal_holding
 }
@@ -11885,7 +11885,7 @@
 }
 ### c_province0990
 990 = {
-	culture = english
+	culture = venusian
 	rite = west_african_pagan
 	holding = tribal_holding
 }
@@ -11902,7 +11902,7 @@
 ########## k_kingdom1053
 ### c_province1035
 1035 = {
-	culture = english
+	culture = venusian
 	rite = west_african_pagan
 	holding = tribal_holding
 }
@@ -11911,7 +11911,7 @@
 }
 ### c_province1051
 1051 = {
-	culture = english
+	culture = venusian
 	rite = west_african_pagan
 	holding = tribal_holding
 }
@@ -11920,7 +11920,7 @@
 }
 ### c_province1045
 1045 = {
-	culture = english
+	culture = venusian
 	rite = zun_pagan
 	holding = tribal_holding
 }
@@ -11935,7 +11935,7 @@
 }
 ### c_province1032
 1032 = {
-	culture = breton
+	culture = venusian
 	rite = basque_pagan
 	holding = castle_holding
 }
@@ -11947,7 +11947,7 @@
 }
 ### c_province1041
 1041 = {
-	culture = breton
+	culture = venusian
 	rite = basque_pagan
 	holding = castle_holding
 }
@@ -11962,7 +11962,7 @@
 }
 ### c_province1046
 1046 = {
-	culture = breton
+	culture = venusian
 	rite = basque_pagan
 	holding = castle_holding
 }
@@ -11974,13 +11974,13 @@
 }
 ### c_province1044
 1044 = {
-	culture = english
+	culture = venusian
 	rite = west_african_pagan
 	holding = tribal_holding
 }
 ### c_province1048
 1048 = {
-	culture = english
+	culture = venusian
 	rite = west_african_pagan
 	holding = tribal_holding
 }
@@ -11989,7 +11989,7 @@
 }
 ### c_province1039
 1039 = {
-	culture = breton
+	culture = venusian
 	rite = basque_pagan
 	holding = castle_holding
 }
@@ -12001,7 +12001,7 @@
 }
 ### c_province1040
 1040 = {
-	culture = english
+	culture = venusian
 	rite = west_african_pagan
 	holding = castle_holding
 }
@@ -12010,7 +12010,7 @@
 }
 ### c_province1067
 1067 = {
-	culture = breton
+	culture = venusian
 	rite = basque_pagan
 	holding = castle_holding
 }
@@ -12019,7 +12019,7 @@
 }
 ### c_province1052
 1052 = {
-	culture = breton
+	culture = venusian
 	rite = basque_pagan
 	holding = castle_holding
 }
@@ -12031,7 +12031,7 @@
 }
 ### c_province1061
 1061 = {
-	culture = english
+	culture = venusian
 	rite = west_african_pagan
 	holding = tribal_holding
 }
@@ -12040,7 +12040,7 @@
 }
 ### c_province1071
 1071 = {
-	culture = english
+	culture = venusian
 	rite = zun_pagan
 	holding = tribal_holding
 }
@@ -12052,7 +12052,7 @@
 }
 ### c_province1068
 1068 = {
-	culture = english
+	culture = venusian
 	rite = zun_pagan
 	holding = tribal_holding
 }
@@ -12061,7 +12061,7 @@
 }
 ### c_province1059
 1059 = {
-	culture = breton
+	culture = venusian
 	rite = basque_pagan
 	holding = castle_holding
 }
@@ -12070,7 +12070,7 @@
 }
 ### c_province1082
 1082 = {
-	culture = breton
+	culture = venusian
 	rite = basque_pagan
 	holding = castle_holding
 }
@@ -12082,7 +12082,7 @@
 }
 ### c_province1074
 1074 = {
-	culture = breton
+	culture = venusian
 	rite = basque_pagan
 	holding = castle_holding
 }
@@ -12094,7 +12094,7 @@
 }
 ### c_province1062
 1062 = {
-	culture = breton
+	culture = venusian
 	rite = basque_pagan
 	holding = castle_holding
 }
@@ -12109,7 +12109,7 @@
 }
 ### c_province1063
 1063 = {
-	culture = breton
+	culture = venusian
 	rite = basque_pagan
 	holding = castle_holding
 }
@@ -12121,7 +12121,7 @@
 }
 ### c_province1077
 1077 = {
-	culture = breton
+	culture = venusian
 	rite = basque_pagan
 	holding = castle_holding
 }
@@ -12136,7 +12136,7 @@
 }
 ### c_province1076
 1076 = {
-	culture = breton
+	culture = venusian
 	rite = basque_pagan
 	holding = castle_holding
 }
@@ -12151,7 +12151,7 @@
 }
 ### c_province1084
 1084 = {
-	culture = breton
+	culture = venusian
 	rite = basque_pagan
 	holding = castle_holding
 }
@@ -12163,7 +12163,7 @@
 }
 ### c_province1088
 1088 = {
-	culture = breton
+	culture = venusian
 	rite = basque_pagan
 	holding = castle_holding
 }
@@ -12178,19 +12178,19 @@
 }
 ### c_province1080
 1080 = {
-	culture = breton
+	culture = venusian
 	rite = basque_pagan
 	holding = tribal_holding
 }
 ### c_province1091
 1091 = {
-	culture = breton
+	culture = venusian
 	rite = basque_pagan
 	holding = tribal_holding
 }
 ### c_province1093
 1093 = {
-	culture = english
+	culture = venusian
 	rite = zun_pagan
 	holding = tribal_holding
 }
@@ -12202,7 +12202,7 @@
 }
 ### c_province1085
 1085 = {
-	culture = breton
+	culture = venusian
 	rite = basque_pagan
 	holding = castle_holding
 }
@@ -12217,7 +12217,7 @@
 }
 ### c_province1103
 1103 = {
-	culture = english
+	culture = venusian
 	rite = zun_pagan
 	holding = tribal_holding
 }
@@ -12232,7 +12232,7 @@
 }
 ### c_province1116
 1116 = {
-	culture = english
+	culture = venusian
 	rite = zun_pagan
 	holding = tribal_holding
 }
@@ -12247,7 +12247,7 @@
 }
 ### c_province1101
 1101 = {
-	culture = breton
+	culture = venusian
 	rite = basque_pagan
 	holding = tribal_holding
 }
@@ -12259,7 +12259,7 @@
 }
 ### c_province1092
 1092 = {
-	culture = english
+	culture = venusian
 	rite = zun_pagan
 	holding = tribal_holding
 }
@@ -12274,7 +12274,7 @@
 }
 ### c_province1110
 1110 = {
-	culture = english
+	culture = venusian
 	rite = zun_pagan
 	holding = tribal_holding
 }
@@ -12289,7 +12289,7 @@
 }
 ### c_province1104
 1104 = {
-	culture = english
+	culture = venusian
 	rite = zun_pagan
 	holding = tribal_holding
 }
@@ -12304,7 +12304,7 @@
 }
 ### c_province1094
 1094 = {
-	culture = breton
+	culture = venusian
 	rite = basque_pagan
 	holding = castle_holding
 }
@@ -12316,7 +12316,7 @@
 }
 ### c_province1112
 1112 = {
-	culture = breton
+	culture = venusian
 	rite = basque_pagan
 	holding = castle_holding
 }
@@ -12325,7 +12325,7 @@
 }
 ### c_province1106
 1106 = {
-	culture = breton
+	culture = venusian
 	rite = basque_pagan
 	holding = castle_holding
 }
@@ -12337,7 +12337,7 @@
 }
 ### c_province1096
 1096 = {
-	culture = breton
+	culture = venusian
 	rite = basque_pagan
 	holding = castle_holding
 }
@@ -12349,7 +12349,7 @@
 }
 ### c_province1105
 1105 = {
-	culture = english
+	culture = venusian
 	rite = zun_pagan
 	holding = castle_holding
 }
@@ -12361,7 +12361,7 @@
 }
 ### c_province1130
 1130 = {
-	culture = english
+	culture = venusian
 	rite = zun_pagan
 	holding = castle_holding
 }
@@ -12373,7 +12373,7 @@
 }
 ### c_province1117
 1117 = {
-	culture = breton
+	culture = venusian
 	rite = basque_pagan
 	holding = castle_holding
 }
@@ -12385,7 +12385,7 @@
 }
 ### c_province1119
 1119 = {
-	culture = english
+	culture = venusian
 	rite = zun_pagan
 	holding = tribal_holding
 }
@@ -12403,7 +12403,7 @@
 }
 ### c_province1125
 1125 = {
-	culture = english
+	culture = venusian
 	rite = zun_pagan
 	holding = tribal_holding
 }
@@ -12421,7 +12421,7 @@
 }
 ### c_province1147
 1147 = {
-	culture = english
+	culture = venusian
 	rite = zun_pagan
 	holding = tribal_holding
 }
@@ -12433,7 +12433,7 @@
 }
 ### c_province1133
 1133 = {
-	culture = english
+	culture = venusian
 	rite = zun_pagan
 	holding = tribal_holding
 }
@@ -12448,7 +12448,7 @@
 }
 ### c_province1123
 1123 = {
-	culture = english
+	culture = venusian
 	rite = zun_pagan
 	holding = castle_holding
 }
@@ -12463,7 +12463,7 @@
 }
 ### c_province1141
 1141 = {
-	culture = english
+	culture = venusian
 	rite = zun_pagan
 	holding = tribal_holding
 }
@@ -12478,7 +12478,7 @@
 }
 ### c_province1142
 1142 = {
-	culture = english
+	culture = venusian
 	rite = zun_pagan
 	holding = castle_holding
 }
@@ -12490,7 +12490,7 @@
 }
 ### c_province1150
 1150 = {
-	culture = english
+	culture = venusian
 	rite = zun_pagan
 	holding = castle_holding
 }
@@ -12508,7 +12508,7 @@
 }
 ### c_province1135
 1135 = {
-	culture = english
+	culture = venusian
 	rite = zun_pagan
 	holding = castle_holding
 }
@@ -12523,7 +12523,7 @@
 }
 ### c_province1151
 1151 = {
-	culture = english
+	culture = venusian
 	rite = zun_pagan
 	holding = castle_holding
 }
@@ -12538,7 +12538,7 @@
 }
 ### c_province1159
 1159 = {
-	culture = english
+	culture = venusian
 	rite = zun_pagan
 	holding = castle_holding
 }
@@ -12556,7 +12556,7 @@
 }
 ### c_province1042
 1042 = {
-	culture = english
+	culture = venusian
 	rite = west_african_pagan
 	holding = castle_holding
 }
@@ -12568,7 +12568,7 @@
 }
 ### c_province1065
 1065 = {
-	culture = english
+	culture = venusian
 	rite = west_african_pagan
 	holding = castle_holding
 }
@@ -12577,7 +12577,7 @@
 }
 ### c_province1069
 1069 = {
-	culture = breton
+	culture = venusian
 	rite = basque_pagan
 	holding = tribal_holding
 }
@@ -12589,7 +12589,7 @@
 }
 ### c_province1053
 1053 = {
-	culture = english
+	culture = venusian
 	rite = west_african_pagan
 	holding = castle_holding
 }
@@ -12600,7 +12600,7 @@
 ########## k_kingdom0953
 ### c_province0929
 929 = {
-	culture = english
+	culture = venusian
 	rite = west_african_pagan
 	holding = castle_holding
 }
@@ -12612,7 +12612,7 @@
 }
 ### c_province0933
 933 = {
-	culture = english
+	culture = venusian
 	rite = west_african_pagan
 	holding = castle_holding
 }
@@ -12627,7 +12627,7 @@
 }
 ### c_province0945
 945 = {
-	culture = english
+	culture = venusian
 	rite = west_african_pagan
 	holding = castle_holding
 }
@@ -12639,7 +12639,7 @@
 }
 ### c_province0953
 953 = {
-	culture = english
+	culture = venusian
 	rite = west_african_pagan
 	holding = castle_holding
 }
@@ -14284,7 +14284,7 @@
 }
 ### c_province1153
 1153 = {
-	culture = english
+	culture = venusian
 	rite = maliki
 	holding = tribal_holding
 }
@@ -14647,7 +14647,7 @@
 ########## k_kingdom1005
 ### c_province0992
 992 = {
-	culture = english
+	culture = venusian
 	rite = west_african_pagan
 	holding = tribal_holding
 }
@@ -14662,7 +14662,7 @@
 }
 ### c_province1005
 1005 = {
-	culture = english
+	culture = venusian
 	rite = west_african_pagan
 	holding = tribal_holding
 }
@@ -14852,7 +14852,7 @@
 }
 ### c_province1014
 1014 = {
-	culture = english
+	culture = venusian
 	rite = theravada
 	holding = tribal_holding
 }
@@ -14899,7 +14899,7 @@
 }
 ### c_province1177
 1177 = {
-	culture = english
+	culture = venusian
 	rite = zun_pagan
 	holding = tribal_holding
 }
@@ -14938,7 +14938,7 @@
 }
 ### c_province1288
 1288 = {
-	culture = breton
+	culture = venusian
 	rite = basque_pagan
 	holding = castle_holding
 }
@@ -15854,7 +15854,7 @@
 ### c_alba_mons
 1160 = {
 	culture = olympian
-	rite = hellenic_pagan
+	rite = olympic_rite
 	holding = castle_holding
 }
 5160 = {
@@ -15863,7 +15863,7 @@
 ### c_province1161
 1161 = {
 	culture = olympian
-	rite = hellenic_pagan
+	rite = olympic_rite
 	holding = castle_holding
 }
 5161 = {
@@ -15872,7 +15872,7 @@
 ### c_province1163
 1163 = {
 	culture = olympian
-	rite = hellenic_pagan
+	rite = olympic_rite
 	holding = castle_holding
 }
 5163 = {
@@ -15884,7 +15884,7 @@
 ### c_province1170
 1170 = {
 	culture = olympian
-	rite = hellenic_pagan
+	rite = olympic_rite
 	holding = castle_holding
 }
 5182 = {
@@ -15899,7 +15899,7 @@
 ### c_province1173
 1173 = {
 	culture = olympian
-	rite = hellenic_pagan
+	rite = olympic_rite
 	holding = castle_holding
 }
 5191 = {
@@ -15911,7 +15911,7 @@
 ### c_province1172
 1172 = {
 	culture = olympian
-	rite = hellenic_pagan
+	rite = olympic_rite
 	holding = castle_holding
 }
 5187 = {
@@ -15931,7 +15931,7 @@
 ### c_province1162
 1162 = {
 	culture = olympian
-	rite = hellenic_pagan
+	rite = olympic_rite
 	holding = castle_holding
 }
 5162 = {
@@ -15952,7 +15952,7 @@
 ### c_province1176
 1176 = {
 	culture = olympian
-	rite = hellenic_pagan
+	rite = olympic_rite
 	holding = castle_holding
 }
 5199 = {
@@ -15964,7 +15964,7 @@
 ### c_province1201
 1201 = {
 	culture = olympian
-	rite = hellenic_pagan
+	rite = olympic_rite
 	holding = castle_holding
 }
 5277 = {
@@ -15979,7 +15979,7 @@
 ### c_province1187
 1187 = {
 	culture = olympian
-	rite = hellenic_pagan
+	rite = olympic_rite
 	holding = castle_holding
 }
 5233 = {
@@ -15997,7 +15997,7 @@
 ### c_province1183
 1183 = {
 	culture = olympian
-	rite = hellenic_pagan
+	rite = olympic_rite
 	holding = castle_holding
 }
 5219 = {
@@ -16012,7 +16012,7 @@
 ### c_province1195
 1195 = {
 	culture = olympian
-	rite = hellenic_pagan
+	rite = olympic_rite
 	holding = castle_holding
 }
 5257 = {
@@ -16030,7 +16030,7 @@
 ### c_province1209
 1209 = {
 	culture = olympian
-	rite = hellenic_pagan
+	rite = olympic_rite
 	holding = castle_holding
 }
 5305 = {
@@ -16042,7 +16042,7 @@
 ### c_province1213
 1213 = {
 	culture = olympian
-	rite = hellenic_pagan
+	rite = olympic_rite
 	holding = castle_holding
 }
 5316 = {
@@ -16054,7 +16054,7 @@
 ### c_province1193
 1193 = {
 	culture = olympian
-	rite = hellenic_pagan
+	rite = olympic_rite
 	holding = castle_holding
 }
 5251 = {
@@ -16072,7 +16072,7 @@
 ### c_province1186
 1186 = {
 	culture = olympian
-	rite = hellenic_pagan
+	rite = olympic_rite
 	holding = castle_holding
 }
 5230 = {
@@ -16087,7 +16087,7 @@
 ### c_province1188
 1188 = {
 	culture = olympian
-	rite = hellenic_pagan
+	rite = olympic_rite
 	holding = castle_holding
 }
 5237 = {
@@ -16105,7 +16105,7 @@
 ### c_province1194
 1194 = {
 	culture = olympian
-	rite = hellenic_pagan
+	rite = olympic_rite
 	holding = castle_holding
 }
 5255 = {
@@ -16135,7 +16135,7 @@
 ### c_province1205
 1205 = {
 	culture = olympian
-	rite = hellenic_pagan
+	rite = olympic_rite
 	holding = castle_holding
 }
 5291 = {
@@ -16150,7 +16150,7 @@
 ### c_province1217
 1217 = {
 	culture = olympian
-	rite = hellenic_pagan
+	rite = olympic_rite
 	holding = castle_holding
 }
 5327 = {
@@ -16165,7 +16165,7 @@
 ### c_province1219
 1219 = {
 	culture = olympian
-	rite = hellenic_pagan
+	rite = olympic_rite
 	holding = castle_holding
 }
 5333 = {
@@ -16177,7 +16177,7 @@
 ### c_province1210
 1210 = {
 	culture = olympian
-	rite = hellenic_pagan
+	rite = olympic_rite
 	holding = castle_holding
 }
 5307 = {
@@ -16192,7 +16192,7 @@
 ### c_province1222
 1222 = {
 	culture = olympian
-	rite = hellenic_pagan
+	rite = olympic_rite
 	holding = castle_holding
 }
 5342 = {
@@ -16252,7 +16252,7 @@
 ### c_olympus_mons
 1237 = {
 	culture = olympian
-	rite = hellenic_pagan
+	rite = olympic_rite
 	holding = castle_holding
 }
 5378 = {
@@ -16276,7 +16276,7 @@
 ### c_province1238
 1238 = {
 	culture = olympian
-	rite = hellenic_pagan
+	rite = olympic_rite
 	holding = castle_holding
 }
 5384 = {
@@ -16288,7 +16288,7 @@
 ### c_province1216
 1216 = {
 	culture = olympian
-	rite = hellenic_pagan
+	rite = olympic_rite
 	holding = castle_holding
 }
 5325 = {
@@ -16300,7 +16300,7 @@
 ### c_province1228
 1228 = {
 	culture = olympian
-	rite = hellenic_pagan
+	rite = olympic_rite
 	holding = castle_holding
 }
 5355 = {
@@ -16312,7 +16312,7 @@
 ### c_province1236
 1236 = {
 	culture = olympian
-	rite = hellenic_pagan
+	rite = olympic_rite
 	holding = castle_holding
 }
 5376 = {
@@ -16324,7 +16324,7 @@
 ### c_province1263
 1263 = {
 	culture = olympian
-	rite = hellenic_pagan
+	rite = olympic_rite
 	holding = castle_holding
 }
 5441 = {
@@ -16333,7 +16333,7 @@
 ### c_province1246
 1246 = {
 	culture = olympian
-	rite = hellenic_pagan
+	rite = olympic_rite
 	holding = castle_holding
 }
 5405 = {
@@ -16357,7 +16357,7 @@
 ### c_province1178
 1178 = {
 	culture = olympian
-	rite = hellenic_pagan
+	rite = olympic_rite
 	holding = castle_holding
 }
 5206 = {
@@ -16384,7 +16384,7 @@
 ### c_province1190
 1190 = {
 	culture = olympian
-	rite = hellenic_pagan
+	rite = olympic_rite
 	holding = castle_holding
 }
 5243 = {
@@ -16443,7 +16443,7 @@
 ### c_phobos
 1143 = {
 	culture = aeon
-	rite = hellenic_pagan
+	rite = olympic_rite
 	holding = castle_holding
 }
 5108 = {
@@ -16468,7 +16468,7 @@
 ########## k_kingdom1252
 ### c_province1203
 1203 = {
-	culture = english
+	culture = venusian
 	rite = zun_pagan
 	holding = tribal_holding
 }
@@ -16480,7 +16480,7 @@
 }
 ### c_province1227
 1227 = {
-	culture = english
+	culture = venusian
 	rite = zun_pagan
 	holding = castle_holding
 }
@@ -16492,7 +16492,7 @@
 }
 ### c_province1211
 1211 = {
-	culture = english
+	culture = venusian
 	rite = zun_pagan
 	holding = tribal_holding
 }
@@ -16504,7 +16504,7 @@
 }
 ### c_province1233
 1233 = {
-	culture = english
+	culture = venusian
 	rite = zun_pagan
 	holding = tribal_holding
 }
@@ -16516,7 +16516,7 @@
 }
 ### c_province1250
 1250 = {
-	culture = english
+	culture = venusian
 	rite = zun_pagan
 	holding = tribal_holding
 }
@@ -16525,7 +16525,7 @@
 }
 ### c_province1266
 1266 = {
-	culture = english
+	culture = venusian
 	rite = zun_pagan
 	holding = tribal_holding
 }
@@ -16540,7 +16540,7 @@
 }
 ### c_province1253
 1253 = {
-	culture = english
+	culture = venusian
 	rite = zun_pagan
 	holding = tribal_holding
 }
@@ -16555,7 +16555,7 @@
 }
 ### c_province1235
 1235 = {
-	culture = english
+	culture = venusian
 	rite = zun_pagan
 	holding = tribal_holding
 }
@@ -16567,7 +16567,7 @@
 }
 ### c_province1273
 1273 = {
-	culture = english
+	culture = venusian
 	rite = zensunni_rite
 	holding = tribal_holding
 }
@@ -16582,7 +16582,7 @@
 }
 ### c_province1252
 1252 = {
-	culture = english
+	culture = venusian
 	rite = zensunni_rite
 	holding = tribal_holding
 }
@@ -16620,7 +16620,7 @@
 }
 ### c_province1199
 1199 = {
-	culture = english
+	culture = venusian
 	rite = zun_pagan
 	holding = castle_holding
 }
@@ -16671,7 +16671,7 @@
 }
 ### c_province1301
 1301 = {
-	culture = english
+	culture = venusian
 	rite = zensunni_rite
 	holding = castle_holding
 }
@@ -16865,7 +16865,7 @@
 ### c_province1242
 1242 = {
 	culture = olympian
-	rite = hellenic_pagan
+	rite = olympic_rite
 	holding = tribal_holding
 }
 5395 = {
@@ -16910,7 +16910,7 @@
 ### c_province1274
 1274 = {
 	culture = olympian
-	rite = hellenic_pagan
+	rite = olympic_rite
 	holding = castle_holding
 }
 5466 = {
@@ -16943,7 +16943,7 @@
 ### c_province1259
 1259 = {
 	culture = olympian
-	rite = hellenic_pagan
+	rite = olympic_rite
 	holding = castle_holding
 }
 5433 = {
@@ -16952,7 +16952,7 @@
 ### c_province1276
 1276 = {
 	culture = olympian
-	rite = hellenic_pagan
+	rite = olympic_rite
 	holding = castle_holding
 }
 5470 = {
@@ -16973,7 +16973,7 @@
 ### c_province1286
 1286 = {
 	culture = olympian
-	rite = hellenic_pagan
+	rite = olympic_rite
 	holding = castle_holding
 }
 5500 = {
@@ -16985,7 +16985,7 @@
 ### c_province1290
 1290 = {
 	culture = olympian
-	rite = hellenic_pagan
+	rite = olympic_rite
 	holding = castle_holding
 }
 5511 = {
@@ -16994,7 +16994,7 @@
 ### c_province1304
 1304 = {
 	culture = olympian
-	rite = hellenic_pagan
+	rite = olympic_rite
 	holding = castle_holding
 }
 5546 = {
@@ -17006,7 +17006,7 @@
 ### c_province1291
 1291 = {
 	culture = olympian
-	rite = hellenic_pagan
+	rite = olympic_rite
 	holding = castle_holding
 }
 5512 = {
@@ -17155,7 +17155,7 @@
 ### c_province1321
 1321 = {
 	culture = neanderthal
-	rite = hellenic_pagan
+	rite = olympic_rite
 	holding = castle_holding
 }
 5595 = {
@@ -17432,7 +17432,7 @@
 ### c_province1299
 1299 = {
 	culture = ergaster
-	rite = hellenic_pagan
+	rite = olympic_rite
 	holding = castle_holding
 }
 5531 = {
@@ -17497,7 +17497,7 @@
 ### c_province1240
 1240 = {
 	culture = olympian
-	rite = hellenic_pagan
+	rite = olympic_rite
 	holding = tribal_holding
 }
 5389 = {
@@ -17509,7 +17509,7 @@
 ### c_province1249
 1249 = {
 	culture = olympian
-	rite = hellenic_pagan
+	rite = olympic_rite
 	holding = castle_holding
 }
 5413 = {
@@ -17521,7 +17521,7 @@
 ### c_province1267
 1267 = {
 	culture = olympian
-	rite = hellenic_pagan
+	rite = olympic_rite
 	holding = tribal_holding
 }
 5453 = {
@@ -17530,13 +17530,13 @@
 ### c_province1268
 1268 = {
 	culture = olympian
-	rite = hellenic_pagan
+	rite = olympic_rite
 	holding = tribal_holding
 }
 ### c_province1256
 1256 = {
 	culture = olympian
-	rite = hellenic_pagan
+	rite = olympic_rite
 	holding = tribal_holding
 }
 5429 = {
@@ -17563,7 +17563,7 @@
 ### c_province1292
 1292 = {
 	culture = olympian
-	rite = hellenic_pagan
+	rite = olympic_rite
 	holding = tribal_holding
 }
 5513 = {
@@ -17578,7 +17578,7 @@
 ### c_province1305
 1305 = {
 	culture = olympian
-	rite = hellenic_pagan
+	rite = olympic_rite
 	holding = tribal_holding
 }
 5548 = {
@@ -17590,7 +17590,7 @@
 ### c_province1311
 1311 = {
 	culture = olympian
-	rite = hellenic_pagan
+	rite = olympic_rite
 	holding = castle_holding
 }
 5565 = {
@@ -17605,7 +17605,7 @@
 ### c_province1298
 1298 = {
 	culture = olympian
-	rite = hellenic_pagan
+	rite = olympic_rite
 	holding = castle_holding
 }
 5526 = {
@@ -17626,7 +17626,7 @@
 ### c_province1260
 1260 = {
 	culture = olympian
-	rite = hellenic_pagan
+	rite = olympic_rite
 	holding = tribal_holding
 }
 5434 = {
@@ -17635,7 +17635,7 @@
 ### c_province1281
 1281 = {
 	culture = olympian
-	rite = hellenic_pagan
+	rite = olympic_rite
 	holding = tribal_holding
 }
 5483 = {
@@ -17647,7 +17647,7 @@
 ### c_province1277
 1277 = {
 	culture = olympian
-	rite = hellenic_pagan
+	rite = olympic_rite
 	holding = tribal_holding
 }
 5471 = {
@@ -17660,8 +17660,8 @@
 ########## k_kingdom1308
 ### c_province1295
 1295 = {
-	culture = english
-	rite = hellenic_pagan
+	culture = martian
+	rite = olympic_rite
 	holding = tribal_holding
 }
 5521 = {
@@ -17672,8 +17672,8 @@
 }
 ### c_province1300
 1300 = {
-	culture = english
-	rite = hellenic_pagan
+	culture = martian
+	rite = olympic_rite
 	holding = tribal_holding
 }
 5533 = {
@@ -17687,8 +17687,8 @@
 }
 ### c_province1306
 1306 = {
-	culture = english
-	rite = hellenic_pagan
+	culture = martian
+	rite = olympic_rite
 	holding = tribal_holding
 }
 5550 = {
@@ -17702,8 +17702,8 @@
 }
 ### c_province1315
 1315 = {
-	culture = english
-	rite = hellenic_pagan
+	culture = martian
+	rite = olympic_rite
 	holding = tribal_holding
 }
 5573 = {
@@ -17714,8 +17714,8 @@
 }
 ### c_province1316
 1316 = {
-	culture = english
-	rite = hellenic_pagan
+	culture = martian
+	rite = olympic_rite
 	holding = tribal_holding
 }
 5575 = {
@@ -17732,8 +17732,8 @@
 }
 ### c_province1317
 1317 = {
-	culture = english
-	rite = hellenic_pagan
+	culture = martian
+	rite = olympic_rite
 	holding = tribal_holding
 }
 5579 = {
@@ -17750,7 +17750,7 @@
 }
 ### c_province1313
 1313 = {
-	culture = english
+	culture = martian
 	rite = zurvanism
 	holding = tribal_holding
 }
@@ -17759,8 +17759,8 @@
 }
 ### c_province1319
 1319 = {
-	culture = english
-	rite = hellenic_pagan
+	culture = martian
+	rite = olympic_rite
 	holding = tribal_holding
 }
 5589 = {
@@ -17771,8 +17771,8 @@
 }
 ### c_province1326
 1326 = {
-	culture = english
-	rite = hellenic_pagan
+	culture = martian
+	rite = olympic_rite
 	holding = tribal_holding
 }
 5607 = {
@@ -17789,7 +17789,7 @@
 }
 ### c_province1334
 1334 = {
-	culture = english
+	culture = martian
 	rite = zurvanism
 	holding = tribal_holding
 }
@@ -17807,7 +17807,7 @@
 }
 ### c_province1320
 1320 = {
-	culture = english
+	culture = martian
 	rite = zurvanism
 	holding = tribal_holding
 }
@@ -17825,7 +17825,7 @@
 }
 ### c_province1333
 1333 = {
-	culture = english
+	culture = martian
 	rite = zurvanism
 	holding = tribal_holding
 }
@@ -17843,7 +17843,7 @@
 }
 ### c_province1345
 1345 = {
-	culture = english
+	culture = martian
 	rite = zurvanism
 	holding = tribal_holding
 }
@@ -17861,7 +17861,7 @@
 }
 ### c_province1335
 1335 = {
-	culture = english
+	culture = martian
 	rite = zurvanism
 	holding = tribal_holding
 }
@@ -17870,7 +17870,7 @@
 }
 ### c_province1346
 1346 = {
-	culture = english
+	culture = martian
 	rite = zurvanism
 	holding = tribal_holding
 }
@@ -17885,7 +17885,7 @@
 }
 ### c_province1369
 1369 = {
-	culture = english
+	culture = martian
 	rite = zurvanism
 	holding = tribal_holding
 }
@@ -17897,7 +17897,7 @@
 }
 ### c_province1366
 1366 = {
-	culture = english
+	culture = martian
 	rite = zurvanism
 	holding = tribal_holding
 }
@@ -17915,8 +17915,8 @@
 }
 ### c_province1297
 1297 = {
-	culture = english
-	rite = hellenic_pagan
+	culture = martian
+	rite = olympic_rite
 	holding = tribal_holding
 }
 5525 = {
@@ -17924,7 +17924,7 @@
 }
 ### c_province1312
 1312 = {
-	culture = english
+	culture = martian
 	rite = zurvanism
 	holding = tribal_holding
 }
@@ -17936,8 +17936,8 @@
 }
 ### c_province1308
 1308 = {
-	culture = english
-	rite = hellenic_pagan
+	culture = martian
+	rite = olympic_rite
 	holding = tribal_holding
 }
 5556 = {
@@ -29497,7 +29497,7 @@
 ########## k_kingdom2117
 ### c_province2089
 2089 = {
-	culture = torquas
+	culture = neanderthal
 	rite = valentinianism
 	holding = castle_holding
 }
@@ -29515,7 +29515,7 @@
 }
 ### c_province2097
 2097 = {
-	culture = torquas
+	culture = neanderthal
 	rite = valentinianism
 	holding = castle_holding
 }
@@ -29539,7 +29539,7 @@
 }
 ### c_province2119
 2119 = {
-	culture = torquas
+	culture = neanderthal
 	rite = valentinianism
 	holding = tribal_holding
 }
@@ -29554,7 +29554,7 @@
 }
 ### c_province2132
 2132 = {
-	culture = torquas
+	culture = neanderthal
 	rite = valentinianism
 	holding = tribal_holding
 }
@@ -29566,7 +29566,7 @@
 }
 ### c_province2121
 2121 = {
-	culture = torquas
+	culture = neanderthal
 	rite = valentinianism
 	holding = tribal_holding
 }
@@ -29578,7 +29578,7 @@
 }
 ### c_province2111
 2111 = {
-	culture = torquas
+	culture = neanderthal
 	rite = valentinianism
 	holding = castle_holding
 }
@@ -29596,7 +29596,7 @@
 }
 ### c_province2122
 2122 = {
-	culture = torquas
+	culture = neanderthal
 	rite = valentinianism
 	holding = castle_holding
 }
@@ -29614,7 +29614,7 @@
 }
 ### c_province2123
 2123 = {
-	culture = torquas
+	culture = neanderthal
 	rite = valentinianism
 	holding = castle_holding
 }
@@ -29635,7 +29635,7 @@
 }
 ### c_province2135
 2135 = {
-	culture = torquas
+	culture = neanderthal
 	rite = valentinianism
 	holding = castle_holding
 }
@@ -29650,7 +29650,7 @@
 }
 ### c_province2137
 2137 = {
-	culture = torquas
+	culture = neanderthal
 	rite = zensunni_rite
 	holding = castle_holding
 }
@@ -29671,7 +29671,7 @@
 }
 ### c_province2140
 2140 = {
-	culture = torquas
+	culture = neanderthal
 	rite = valentinianism
 	holding = castle_holding
 }
@@ -29683,7 +29683,7 @@
 }
 ### c_province2151
 2151 = {
-	culture = torquas
+	culture = neanderthal
 	rite = zensunni_rite
 	holding = castle_holding
 }
@@ -29704,7 +29704,7 @@
 }
 ### c_province2142
 2142 = {
-	culture = torquas
+	culture = neanderthal
 	rite = valentinianism
 	holding = castle_holding
 }
@@ -29719,7 +29719,7 @@
 }
 ### c_province2146
 2146 = {
-	culture = torquas
+	culture = neanderthal
 	rite = valentinianism
 	holding = tribal_holding
 }
@@ -29728,7 +29728,7 @@
 }
 ### c_province2150
 2150 = {
-	culture = torquas
+	culture = neanderthal
 	rite = valentinianism
 	holding = tribal_holding
 }
@@ -29740,7 +29740,7 @@
 }
 ### c_province2159
 2159 = {
-	culture = torquas
+	culture = neanderthal
 	rite = valentinianism
 	holding = tribal_holding
 }
@@ -29749,7 +29749,7 @@
 }
 ### c_province2166
 2166 = {
-	culture = torquas
+	culture = neanderthal
 	rite = rabbinism
 	holding = tribal_holding
 }
@@ -29758,7 +29758,7 @@
 }
 ### c_province2161
 2161 = {
-	culture = torquas
+	culture = neanderthal
 	rite = valentinianism
 	holding = tribal_holding
 }
@@ -29770,7 +29770,7 @@
 }
 ### c_province2153
 2153 = {
-	culture = torquas
+	culture = neanderthal
 	rite = valentinianism
 	holding = castle_holding
 }
@@ -29785,7 +29785,7 @@
 }
 ### c_province2168
 2168 = {
-	culture = torquas
+	culture = neanderthal
 	rite = rabbinism
 	holding = castle_holding
 }
@@ -29794,7 +29794,7 @@
 }
 ### c_province2162
 2162 = {
-	culture = torquas
+	culture = neanderthal
 	rite = rabbinism
 	holding = castle_holding
 }
@@ -29803,13 +29803,13 @@
 }
 ### c_province2169
 2169 = {
-	culture = torquas
+	culture = neanderthal
 	rite = valentinianism
 	holding = tribal_holding
 }
 ### c_province2171
 2171 = {
-	culture = torquas
+	culture = neanderthal
 	rite = rabbinism
 	holding = tribal_holding
 }
@@ -29818,7 +29818,7 @@
 }
 ### c_province2108
 2108 = {
-	culture = torquas
+	culture = neanderthal
 	rite = valentinianism
 	holding = castle_holding
 }
@@ -29833,7 +29833,7 @@
 }
 ### c_province2127
 2127 = {
-	culture = torquas
+	culture = neanderthal
 	rite = valentinianism
 	holding = castle_holding
 }
@@ -29848,7 +29848,7 @@
 }
 ### c_province2117
 2117 = {
-	culture = torquas
+	culture = neanderthal
 	rite = valentinianism
 	holding = castle_holding
 }

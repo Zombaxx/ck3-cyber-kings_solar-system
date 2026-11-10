@@ -1,0 +1,195 @@
+﻿# Cyber Kings: world-specific cultures (hand edit 2026-11-09, generator frozen). CK2 gaulish "Venusian",
+# ninja_culture "Yonagunian", egyptian_coptic "Mercurian" had been mapped onto vanilla breton/japanese/egyptian;
+# Martian and Lunar take the ck2maptools placeholder provinces (CK2 "punjabi", which fell back to English).
+
+# Venusian: template vanilla breton, names/colour from CK2 gaulish
+venusian = {
+	color = { 0.90 0.90 0.50 }
+	
+	ethos = ethos_communal
+	heritage = heritage_brythonic
+	language = language_brythonic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_fishermen
+		tradition_storytellers
+		tradition_swords_for_hire
+		tradition_chanson_de_geste
+	}
+	
+	name_list = name_list_ck_venusian
+	
+	coa_gfx = { breton_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { breton_clothing_gfx western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	house_coa_frame = house_frame_24
+	house_coa_mask_offset = { 0.0 0.055 }
+	house_coa_mask_scale = { 0.9 0.9 }
+	
+	ethnicities = {
+		5 = caucasian_blond
+		30 = caucasian_ginger
+		35 = caucasian_brown_hair
+		30 = caucasian_dark_hair
+	}
+}
+
+# Yonagunian: template vanilla japanese, names/colour from CK2 ninja_culture
+yonagunian = {
+	color = { 0.10 0.10 0.10 }
+
+	name_order_convention = japanese
+	ethos = ethos_courtly
+	heritage = heritage_japonic
+	language = language_japonic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	
+	dlc_tradition = {
+		trait = tradition_tgp_imperial_peace
+		requires_dlc_flag = all_under_heaven
+	}
+
+	dlc_tradition = {
+		trait = tradition_tgp_ephemeral_grace
+		requires_dlc_flag = all_under_heaven
+		fallback = tradition_poetry
+	}
+
+	dlc_tradition = {
+		trait = tradition_tgp_mountain_island
+		requires_dlc_flag = all_under_heaven
+		fallback = tradition_mountaineers
+	}
+
+	dlc_tradition = {
+		trait = tradition_tgp_inward_perfection
+		requires_dlc_flag = all_under_heaven
+		fallback = tradition_isolationist
+	}
+
+	dlc_tradition = {
+		trait = tradition_tgp_japanese_houses
+		requires_dlc_flag = all_under_heaven
+		fallback = tradition_noble_adoption
+	}
+
+	dlc_tradition = {
+		trait = tradition_tgp_warrior_monks
+		requires_dlc_flag = all_under_heaven
+		fallback = tradition_warrior_monks
+	}
+
+	name_list = name_list_ck_yonagunian
+
+	coa_gfx = { japanese_coa_gfx }
+	building_gfx = { japanese_building_gfx }
+	clothing_gfx = { japanese_clothing_gfx }
+	unit_gfx = { japanese_unit_gfx }
+	house_coa_frame = house_japan
+
+	ethnicities = {
+		100 = asian_japanese
+	}
+}
+
+# Mercurian: template vanilla egyptian, names/colour from CK2 egyptian_coptic
+mercurian = {
+	color = { 0.20 0.70 0.10 }
+	
+	ethos = ethos_spiritual
+	heritage = heritage_arabic
+	language = language_arabic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_philosopher_culture
+		tradition_agrarian
+		tradition_zealous_people
+		tradition_mubarizuns
+	}
+	
+	name_list = name_list_ck_mercurian
+
+	coa_gfx = { arabic_group_coa_gfx } 
+	building_gfx = { arabic_group_building_gfx mena_building_gfx } 
+	clothing_gfx = { dde_abbasid_clothing_gfx mena_clothing_gfx } 
+	unit_gfx = { mena_unit_gfx } 	
+	house_coa_frame = house_frame_10
+	house_coa_mask_offset = { 0.0 -0.06 }
+	house_coa_mask_scale = { 0.9 0.9 }
+
+	ethnicities = {
+		100 = arab
+	}
+}
+
+# Martian: template mod olympian
+martian = {
+	color = { 0.75 0.30 0.20 }
+
+
+
+	
+	ethos = ethos_communal
+	heritage = heritage_iranian
+	language = language_scythian
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_horse_breeder
+		tradition_mountaineers
+		tradition_wedding_ceremonies
+	}
+	
+	name_list = name_list_ck_olympian
+	
+	coa_gfx = { oghuz_coa_gfx turkic_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { caucasian_building_gfx byzantine_building_gfx }
+	clothing_gfx = { iranian_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { iranian_unit_gfx }
+	house_coa_frame = house_frame_12
+	house_coa_mask_offset = { 0.0 -0.04 }
+	house_coa_mask_scale = { 0.95 0.95 }
+
+	ethnicities = {
+		19 = mediterranean_byzantine
+		33 = mediterranean
+		48 = turkic_west
+	}
+}
+
+# Lunar: template mod liblander
+lunar = {
+	color = { 0.80 0.80 0.85 }
+	
+	ethos = ethos_bellicose
+	heritage = heritage_frankish
+	language = language_frankish
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_warrior_culture
+		tradition_hereditary_hierarchy
+		tradition_stand_and_fight
+	}
+	
+	name_list = name_list_ck_liblander
+	
+	coa_gfx = { frankish_group_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { french_clothing_gfx western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	house_coa_frame = house_frame_03
+	house_coa_mask_offset = { 0.0 0.055 }
+	house_coa_mask_scale = { 0.9 0.9 }
+	
+	ethnicities = {
+		10 = caucasian_blond
+		5 = caucasian_ginger
+		45 = caucasian_brown_hair
+		35 = caucasian_dark_hair
+	}
+}

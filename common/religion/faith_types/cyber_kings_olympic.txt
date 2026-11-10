@@ -1,0 +1,36 @@
+﻿# Olympic: the Martian clone of Hellenic (2026-11-09). Same doctrines/tenets/icon; own name, Mars description and the
+# Mars holy sites the conversion had given Hellenic. Rite: common/religion/rite_types/cyber_kings_olympic_rite.txt
+olympic = {
+	main_rite = olympic_rite
+	historical = yes
+
+	faith_details = {
+		religion = hellenism_religion
+		color = { 0.75 0.2 0.1 }
+		icon = hellenic
+		reformed_icon = hellenic_reformed
+	}
+
+	eminent_holy_sites = {
+		athens
+		olympus
+	}
+
+	holy_sites = {
+		rome_ck_hellenic_pagan
+		alexandria_ck_hellenic_pagan
+		carthage
+	}
+
+	tenets = {
+		tenet_astrology
+		tenet_communal_identity
+		tenet_esotericism
+	}
+
+	doctrines = {
+		unreformed_faith_doctrine
+	}
+
+	cultures = { olympian martian }
+}
