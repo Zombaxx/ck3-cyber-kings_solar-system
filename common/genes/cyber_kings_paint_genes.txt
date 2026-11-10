@@ -1,0 +1,222 @@
+﻿# Cyber Kings: painted Cywizard plating, head decals (gen_cyber_paint.py). Set by the portrait modifier
+# cyber_kings_cybernetics_face together with the matching 3D accessory.
+special_genes = {
+	morph_genes = {
+		gene_cyber_paint = {
+			no_cyber_paint = {
+				index = 0
+				male = {}
+				female = male
+				boy = male
+				girl = male
+			}
+			cyber_eye = {
+				index = 1
+				male = {
+					decal = {
+						body_part = head
+						textures = {
+							diffuse = "gfx/models/portraits/decals/cyber_kings/decal_cyber_eye_diffuse.dds"
+							normal = "gfx/models/portraits/decals/cyber_kings/decal_cyber_eye_normal.dds"
+							properties = "gfx/models/portraits/decals/cyber_kings/decal_cyber_eye_properties.dds"
+						}
+						blend_modes = {
+							diffuse = replace
+							normal = overlay
+							properties = replace
+						}
+						priority = 20
+						decal_apply_order = post_skin_color
+					}
+				}
+				female = male
+				boy = male
+				girl = male
+			}
+			cywizard_v1 = {
+				index = 2
+				male = {
+					decal = {
+						body_part = head
+						textures = {
+							diffuse = "gfx/models/portraits/decals/cyber_kings/decal_cywizard_v1_diffuse.dds"
+							normal = "gfx/models/portraits/decals/cyber_kings/decal_cywizard_v1_normal.dds"
+							properties = "gfx/models/portraits/decals/cyber_kings/decal_cywizard_v1_properties.dds"
+						}
+						blend_modes = {
+							diffuse = replace
+							normal = overlay
+							properties = replace
+						}
+						priority = 20
+						decal_apply_order = post_skin_color
+					}
+				}
+				female = male
+				boy = male
+				girl = male
+			}
+			cywizard_v4 = {
+				index = 3
+				male = {
+					decal = {
+						body_part = head
+						textures = {
+							diffuse = "gfx/models/portraits/decals/cyber_kings/decal_cywizard_v4_diffuse.dds"
+							normal = "gfx/models/portraits/decals/cyber_kings/decal_cywizard_v4_normal.dds"
+							properties = "gfx/models/portraits/decals/cyber_kings/decal_cywizard_v4_properties.dds"
+						}
+						blend_modes = {
+							diffuse = replace
+							normal = overlay
+							properties = replace
+						}
+						priority = 20
+						decal_apply_order = post_skin_color
+					}
+				}
+				female = male
+				boy = male
+				girl = male
+			}
+			cywizard_v6 = {
+				index = 4
+				male = {
+					decal = {
+						body_part = head
+						textures = {
+							diffuse = "gfx/models/portraits/decals/cyber_kings/decal_cywizard_v6_diffuse.dds"
+							normal = "gfx/models/portraits/decals/cyber_kings/decal_cywizard_v6_normal.dds"
+							properties = "gfx/models/portraits/decals/cyber_kings/decal_cywizard_v6_properties.dds"
+						}
+						blend_modes = {
+							diffuse = replace
+							normal = overlay
+							properties = replace
+						}
+						priority = 20
+						decal_apply_order = post_skin_color
+					}
+				}
+				female = male
+				boy = male
+				girl = male
+			}
+			cywizard_v7 = {
+				index = 5
+				male = {
+					decal = {
+						body_part = head
+						textures = {
+							diffuse = "gfx/models/portraits/decals/cyber_kings/decal_cywizard_v7_diffuse.dds"
+							normal = "gfx/models/portraits/decals/cyber_kings/decal_cywizard_v7_normal.dds"
+							properties = "gfx/models/portraits/decals/cyber_kings/decal_cywizard_v7_properties.dds"
+						}
+						blend_modes = {
+							diffuse = replace
+							normal = overlay
+							properties = replace
+						}
+						priority = 20
+						decal_apply_order = post_skin_color
+					}
+				}
+				female = male
+				boy = male
+				girl = male
+			}
+			cywizard_v8 = {
+				index = 6
+				male = {
+					decal = {
+						body_part = head
+						textures = {
+							diffuse = "gfx/models/portraits/decals/cyber_kings/decal_cywizard_v8_diffuse.dds"
+							normal = "gfx/models/portraits/decals/cyber_kings/decal_cywizard_v8_normal.dds"
+							properties = "gfx/models/portraits/decals/cyber_kings/decal_cywizard_v8_properties.dds"
+						}
+						blend_modes = {
+							diffuse = replace
+							normal = overlay
+							properties = replace
+						}
+						priority = 20
+						decal_apply_order = post_skin_color
+					}
+				}
+				female = male
+				boy = male
+				girl = male
+			}
+			cywizard_el_elyon = {
+				index = 7
+				male = {
+					decal = {
+						body_part = head
+						textures = {
+							diffuse = "gfx/models/portraits/decals/cyber_kings/decal_cywizard_el_elyon_diffuse.dds"
+							normal = "gfx/models/portraits/decals/cyber_kings/decal_cywizard_el_elyon_normal.dds"
+							properties = "gfx/models/portraits/decals/cyber_kings/decal_cywizard_el_elyon_properties.dds"
+						}
+						blend_modes = {
+							diffuse = replace
+							normal = overlay
+							properties = replace
+						}
+						priority = 20
+						decal_apply_order = post_skin_color
+					}
+				}
+				female = male
+				boy = male
+				girl = male
+			}
+			cywizard_adonai = {
+				index = 8
+				male = {
+					decal = {
+						body_part = head
+						textures = {
+							diffuse = "gfx/models/portraits/decals/cyber_kings/decal_cywizard_adonai_diffuse.dds"
+							normal = "gfx/models/portraits/decals/cyber_kings/decal_cywizard_adonai_normal.dds"
+							properties = "gfx/models/portraits/decals/cyber_kings/decal_cywizard_adonai_properties.dds"
+						}
+						blend_modes = {
+							diffuse = replace
+							normal = overlay
+							properties = replace
+						}
+						priority = 20
+						decal_apply_order = post_skin_color
+					}
+				}
+				female = male
+				boy = male
+				girl = male
+			}
+			cywizard_eosphorus = {
+				index = 9
+				male = {
+					decal = {
+						body_part = head
+						textures = {
+							diffuse = "gfx/models/portraits/decals/cyber_kings/decal_cywizard_eosphorus_diffuse.dds"
+							normal = "gfx/models/portraits/decals/cyber_kings/decal_cywizard_eosphorus_normal.dds"
+							properties = "gfx/models/portraits/decals/cyber_kings/decal_cywizard_eosphorus_properties.dds"
+						}
+						blend_modes = {
+							diffuse = replace
+							normal = overlay
+							properties = replace
+						}
+						priority = 20
+						decal_apply_order = post_skin_color
+					}
+				}
+				female = male
+				boy = male
+				girl = male
+			}
+		}
+	}
+}

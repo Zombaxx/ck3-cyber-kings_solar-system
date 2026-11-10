@@ -487,8 +487,6 @@ cloning_defects = {
 	health = -0.25
 	learning = -1
 
-	inherit_chance = 10
-	both_parent_has_trait_inherit_chance = 25
 	birth = 0
 	random_creation = 0
 	ruler_designer_cost = -20
@@ -514,8 +512,6 @@ supersoldier = {
 	same_opinion = 15
 	attraction_opinion = 10
 
-	inherit_chance = 75
-	both_parent_has_trait_inherit_chance = 100
 	birth = 0
 	random_creation = 0
 	ruler_designer_cost = 60
@@ -540,8 +536,6 @@ spacer = {
 	stewardship = 2
 	same_opinion = 5
 
-	inherit_chance = 45
-	both_parent_has_trait_inherit_chance = 85
 	birth = 0
 	random_creation = 0
 	ruler_designer_cost = 20
@@ -562,8 +556,6 @@ worlder = {
 
 	same_opinion = 5
 
-	inherit_chance = 100
-	both_parent_has_trait_inherit_chance = 100
 	birth = 0
 	random_creation = 0
 	ruler_designer_cost = 0
@@ -581,8 +573,6 @@ gmo = {
 	health = 0.5
 	same_opinion = 10
 
-	inherit_chance = 65
-	both_parent_has_trait_inherit_chance = 90
 	birth = 0
 	random_creation = 0
 	ruler_designer_cost = 30
@@ -603,8 +593,6 @@ empath = {
 	same_opinion = 10
 	stress_gain_mult = 0.1
 
-	inherit_chance = 33
-	both_parent_has_trait_inherit_chance = 75
 	birth = 0
 	random_creation = 0
 	ruler_designer_cost = 40
@@ -626,8 +614,6 @@ nekojin = {
 	prowess = 3
 	same_opinion = 10
 
-	inherit_chance = 33
-	both_parent_has_trait_inherit_chance = 85
 	birth = 0
 	random_creation = 0
 	ruler_designer_cost = 40
@@ -645,6 +631,8 @@ nekojin = {
 #    Mutually exclusive via opposites, so a character is exactly one people (or baseline human).
 #    Genetic so children inherit; both-parent inheritance 100 so pure lines stay pure.
 #    Portrait genes / ethnicities for them come later.
+#    DISABLED for now (2026-11-10, modder's call): hidden from the ruler designer, birth/random_creation 0,
+#    and no character carries them, so they cannot appear or spread. Re-enable when the races are added.
 ##########################################################
 
 # CK2 elf -> "Archaic": long-lived, graceful, keepers of lore
@@ -660,11 +648,9 @@ archaic = {
 	prowess = 2
 	attraction_opinion = 10
 
-	inherit_chance = 75
-	both_parent_has_trait_inherit_chance = 100
 	birth = 0
 	random_creation = 0
-	ruler_designer_cost = 50
+	shown_in_ruler_designer = no # Cyber Kings: fantasy-invasion races disabled until characters/portraits use them (was ruler_designer_cost)
 	enables_inbred = no
 
 	ai_rationality = 20
@@ -684,11 +670,9 @@ elohim = {
 	prowess = 4
 	attraction_opinion = 10
 
-	inherit_chance = 75
-	both_parent_has_trait_inherit_chance = 100
 	birth = 0
 	random_creation = 0
-	ruler_designer_cost = 60
+	shown_in_ruler_designer = no # Cyber Kings: fantasy-invasion races disabled until characters/portraits use them (was ruler_designer_cost)
 	enables_inbred = no
 
 	ai_rationality = 20
@@ -708,11 +692,9 @@ neanderthal = {
 	health = -0.1
 	prowess = 2
 
-	inherit_chance = 75
-	both_parent_has_trait_inherit_chance = 100
 	birth = 0
 	random_creation = 0
-	ruler_designer_cost = 30
+	shown_in_ruler_designer = no # Cyber Kings: fantasy-invasion races disabled until characters/portraits use them (was ruler_designer_cost)
 	enables_inbred = no
 
 	ai_greed = 50
@@ -732,11 +714,9 @@ jotunn = {
 	health = -0.1
 	prowess = 4
 
-	inherit_chance = 75
-	both_parent_has_trait_inherit_chance = 100
 	birth = 0
 	random_creation = 0
-	ruler_designer_cost = 40
+	shown_in_ruler_designer = no # Cyber Kings: fantasy-invasion races disabled until characters/portraits use them (was ruler_designer_cost)
 	enables_inbred = no
 
 	ai_greed = 50
@@ -756,11 +736,9 @@ mau_khet = {
 	prowess = 3
 	health = -0.4
 
-	inherit_chance = 75
-	both_parent_has_trait_inherit_chance = 100
 	birth = 0
 	random_creation = 0
-	ruler_designer_cost = 40
+	shown_in_ruler_designer = no # Cyber Kings: fantasy-invasion races disabled until characters/portraits use them (was ruler_designer_cost)
 	enables_inbred = no
 
 	ai_rationality = 50
@@ -780,11 +758,9 @@ denisovan = {
 	fertility = 0.2
 	health = -0.4
 
-	inherit_chance = 75
-	both_parent_has_trait_inherit_chance = 100
 	birth = 0
 	random_creation = 0
-	ruler_designer_cost = 40
+	shown_in_ruler_designer = no # Cyber Kings: fantasy-invasion races disabled until characters/portraits use them (was ruler_designer_cost)
 	enables_inbred = no
 
 	ai_rationality = -50

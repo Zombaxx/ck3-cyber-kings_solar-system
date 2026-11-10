@@ -1,4 +1,5 @@
-﻿# Cyber Kings: accessory gene for the cybernetics attachments (gen_cyber_mesh.py)
+﻿# Cyber Kings: accessory genes for the cybernetics attachments (gen_cyber_mesh.py)
+# The cywizard template lists the face variants with equal weight: each Cywizard gets one, fixed by their DNA.
 special_genes = {
 	accessory_genes = {
 		gene_cyber_face = {
@@ -11,24 +12,68 @@ special_genes = {
 				boy = male
 				girl = male
 			}
-			cyber_eye = {
+			cywizard_v6 = {
 				index = 1
 				male = {
-					100 = male_cyber_eye_01
+					100 = male_cywizard_v6_01
 				}
 				female = {
-					1 = empty
+					100 = female_cywizard_v6_01
 				}
 				boy = male
 				girl = female
 			}
-			cywizard = {
+			cywizard_v7 = {
 				index = 2
 				male = {
-					100 = male_cywizard_face_01
+					100 = male_cywizard_v7_01
 				}
 				female = {
-					1 = empty
+					100 = female_cywizard_v7_01
+				}
+				boy = male
+				girl = female
+			}
+			cywizard_v8 = {
+				index = 3
+				male = {
+					100 = male_cywizard_v8_01
+				}
+				female = {
+					100 = female_cywizard_v8_01
+				}
+				boy = male
+				girl = female
+			}
+			cywizard_el_elyon = {
+				index = 4
+				male = {
+					100 = male_cywizard_el_elyon_01
+				}
+				female = {
+					100 = female_cywizard_el_elyon_01
+				}
+				boy = male
+				girl = female
+			}
+			cywizard_adonai = {
+				index = 5
+				male = {
+					100 = male_cywizard_adonai_01
+				}
+				female = {
+					100 = female_cywizard_adonai_01
+				}
+				boy = male
+				girl = female
+			}
+			cywizard_eosphorus = {
+				index = 6
+				male = {
+					100 = male_cywizard_eosphorus_01
+				}
+				female = {
+					100 = female_cywizard_eosphorus_01
 				}
 				boy = male
 				girl = female
@@ -50,7 +95,40 @@ special_genes = {
 					100 = male_cyber_arm_01
 				}
 				female = {
+					100 = female_cyber_arm_01
+				}
+				boy = male
+				girl = female
+			}
+			el_elyon_arms = {
+				index = 2
+				male = {
+					100 = male_el_elyon_arms_01
+				}
+				female = {
+					100 = female_el_elyon_arms_01
+				}
+				boy = male
+				girl = female
+			}
+		}
+		gene_cyber_leg = {
+			no_cyber_leg = {
+				index = 0
+				male = {
 					1 = empty
+				}
+				female = male
+				boy = male
+				girl = male
+			}
+			cyber_leg = {
+				index = 1
+				male = {
+					100 = male_cyber_leg_01
+				}
+				female = {
+					100 = female_cyber_leg_01
 				}
 				boy = male
 				girl = female

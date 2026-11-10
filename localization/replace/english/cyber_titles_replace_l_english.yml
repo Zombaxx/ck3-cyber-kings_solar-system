@@ -1,7 +1,7 @@
 ﻿l_english:
  b_london: "London"
  c_barcelona: "Pyrenees"
- c_barcelona_adj: "Barcelona"
+ c_barcelona_adj: "Pyrenean"
  b_barcelona: "Valenica"
  c_berlin: "Benelux"
  c_berlin_adj: "Beneluxer"
@@ -29,3 +29,4 @@
  c_bali: "Bali"
  c_bali_adj: "Bali"
  b_bali: "Bali"
+ b_baltimore: "Lynchburg"

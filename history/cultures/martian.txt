@@ -1,5 +1,5 @@
-# copy of olympian.txt for the world culture martian (hand edit 2026-11-09)
-﻿# copy of vanilla alan.txt for the cloned culture olympian
+﻿# copy of olympian.txt for the world culture martian (hand edit 2026-11-09)
+# copy of vanilla alan.txt for the cloned culture olympian
 # Alan
 
 867.1.1 = {

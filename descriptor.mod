@@ -5,6 +5,7 @@ tags={
 	"Alternative History"
 }
 name="Cyber Kings: Solar System"
+picture="thumbnail.png"
 supported_version="1.20.*"
 replace_path="history/characters"
 replace_path="history/titles"

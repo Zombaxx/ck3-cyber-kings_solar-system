@@ -1,0 +1,5 @@
+﻿solar_system = { priority = 2 show_first = yes }
+sun = { priority = 2 }
+jupiter = { priority = 2 }
+neptune = { priority = 2 }
+saturn = { priority = 2 }

@@ -96,3 +96,9 @@
  trait_mau_khet_desc:0 "The Mau'Khet move with agile grace and perceive with sharp senses, an air of feline mystique about them: curious, independent, sleek and stealthy."
  trait_denisovan:0 "Denisovan"
  trait_denisovan_desc:0 "Denisovans are distinguished by striking green skin and an underbite with tusk-like canines. Exceptionally resilient and formidable in combat, they dominate as warriors and protectors."
+ # Cyber Kings: group-name keys CK3 looks up as trait_<group>
+ trait_diplomacy_implant:0 "Diplomacy Implant"
+ trait_martial_implant:0 "Martial Implant"
+ trait_stewardship_implant:0 "Stewardship Implant"
+ trait_intrigue_implant:0 "Intrigue Implant"
+ trait_learning_implant:0 "Learning Implant"

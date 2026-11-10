@@ -1,4 +1,4 @@
-# copy of vanilla breton.txt for the world culture venusian (hand edit 2026-11-09)
+﻿# copy of vanilla breton.txt for the world culture venusian (hand edit 2026-11-09)
 # Breton of the brythonic group
 
 867.1.1 = {

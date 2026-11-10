@@ -61,7 +61,7 @@ archon = {
 	name_list = name_list_ck_archon
 	coa_gfx = { arabic_group_coa_gfx }
 	building_gfx = { mena_building_gfx }
-	clothing_gfx = { dde_abbasid_clothing_gfx }
+	clothing_gfx = { dde_abbasid_clothing_gfx mena_clothing_gfx }
 	unit_gfx = { mena_unit_gfx }
 	house_coa_frame = house_frame_05
 	ethnicities = {
@@ -84,7 +84,7 @@ aeon = {
 	name_list = name_list_ck_aeon
 	coa_gfx = { arabic_group_coa_gfx }
 	building_gfx = { mena_building_gfx }
-	clothing_gfx = { dde_abbasid_clothing_gfx }
+	clothing_gfx = { dde_abbasid_clothing_gfx mena_clothing_gfx }
 	unit_gfx = { mena_unit_gfx }
 	house_coa_frame = house_frame_05
 	ethnicities = {
@@ -105,9 +105,9 @@ neanderthal = {
 		tradition_hereditary_hierarchy
 	}
 	name_list = name_list_ck_neanderthal
-	coa_gfx = { norse_coa_gfx }
+	coa_gfx = { norse_coa_gfx western_coa_gfx }
 	building_gfx = { norse_building_gfx }
-	clothing_gfx = { fp1_norse_clothing_gfx }
+	clothing_gfx = { fp1_norse_clothing_gfx northern_clothing_gfx }
 	unit_gfx = { norse_unit_gfx }
 	house_coa_frame = house_frame_12
 	ethnicities = {
@@ -128,9 +128,9 @@ jotnar = {
 		tradition_stand_and_fight
 	}
 	name_list = name_list_ck_jotnar
-	coa_gfx = { norse_coa_gfx }
+	coa_gfx = { norse_coa_gfx western_coa_gfx }
 	building_gfx = { norse_building_gfx }
-	clothing_gfx = { fp1_norse_clothing_gfx }
+	clothing_gfx = { fp1_norse_clothing_gfx northern_clothing_gfx }
 	unit_gfx = { norse_unit_gfx }
 	house_coa_frame = house_frame_12
 	ethnicities = {
@@ -152,9 +152,9 @@ cathrian = {
 	}
 	name_list = name_list_ck_cathrian
 	coa_gfx = { japanese_coa_gfx }
-	building_gfx = { emishi_building_gfx }
-	clothing_gfx = { emishi_clothing_gfx }
-	unit_gfx = { emishi_unit_gfx }
+	building_gfx = { emishi_building_gfx japanese_building_gfx }
+	clothing_gfx = { emishi_clothing_gfx ainu_clothing_gfx }
+	unit_gfx = { emishi_unit_gfx japanese_unit_gfx }
 	house_coa_frame = house_japan
 	ethnicities = {
 		10 = asian_emishi_ainu
@@ -175,9 +175,9 @@ mau_khet = {
 	}
 	name_list = name_list_ck_mau_khet
 	coa_gfx = { japanese_coa_gfx }
-	building_gfx = { emishi_building_gfx }
-	clothing_gfx = { emishi_clothing_gfx }
-	unit_gfx = { emishi_unit_gfx }
+	building_gfx = { emishi_building_gfx japanese_building_gfx }
+	clothing_gfx = { emishi_clothing_gfx ainu_clothing_gfx }
+	unit_gfx = { emishi_unit_gfx japanese_unit_gfx }
 	house_coa_frame = house_japan
 	ethnicities = {
 		10 = asian_emishi_ainu
@@ -197,7 +197,7 @@ thark = {
 		tradition_hunters
 	}
 	name_list = name_list_ck_thark
-	coa_gfx = { mongol_coa_gfx }
+	coa_gfx = { mongol_coa_gfx steppe_coa_gfx }
 	building_gfx = { steppe_building_gfx }
 	clothing_gfx = { mongol_clothing_gfx }
 	unit_gfx = { mongol_unit_gfx }
@@ -220,7 +220,7 @@ torquas = {
 		tradition_horse_lords
 	}
 	name_list = name_list_ck_torquas
-	coa_gfx = { mongol_coa_gfx }
+	coa_gfx = { mongol_coa_gfx steppe_coa_gfx }
 	building_gfx = { steppe_building_gfx }
 	clothing_gfx = { mongol_clothing_gfx }
 	unit_gfx = { mongol_unit_gfx }

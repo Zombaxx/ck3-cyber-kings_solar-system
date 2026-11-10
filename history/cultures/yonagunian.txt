@@ -1,5 +1,5 @@
-# copy of vanilla japanese.txt for the world culture yonagunian (hand edit 2026-11-09)
-﻿# Yamato
+﻿# copy of vanilla japanese.txt for the world culture yonagunian (hand edit 2026-11-09)
+# Yamato
 
 867.1.1 = {
 	discover_innovation = innovation_motte

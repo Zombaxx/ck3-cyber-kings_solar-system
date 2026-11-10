@@ -282,75 +282,13 @@ realm_priest_female = {
 # dauphinate_french: removed by Cyber Kings - its titles (d_dauphine) do not exist in this mod, which made it apply to everyone
 
 
-count_feudal_male_e_britannia = { # Earl
-	type = character
-	gender = male
-	special = holder
-	tier = county
-	priority = 17
-	governments = { feudal_government }
-	de_jure_liege = { e_britannia }
-	flavourization_rules = { 
-		top_liege = no
-	}
-}
-count_feudal_female_e_britannia = { # Countess
-	type = character
-	gender = female
-	special = holder
-	tier = county
-	priority = 17
-	governments = { feudal_government }
-	de_jure_liege = { e_britannia }
-	flavourization_rules = { 
-		top_liege = no
-	}
-}
-county_feudal_e_britannia = {
-	type = title
-	tier = county
-	priority = 17
-	governments = { feudal_government tribal_government }
-	de_jure_liege = { e_britannia }
-	flavourization_rules = { 
-		top_liege = no
-	}
-}
+# count_feudal_male_e_britannia: removed by Cyber Kings - its de_jure_liege (e_britannia) does not exist in this mod, which made it apply to every feudal count/county
+# count_feudal_female_e_britannia: removed by Cyber Kings - its de_jure_liege (e_britannia) does not exist in this mod, which made it apply to every feudal count/county
+# county_feudal_e_britannia: removed by Cyber Kings - its de_jure_liege (britannia) does not exist in this mod, which made it apply to every feudal count/county
 
-count_feudal_male_k_wales = { # Lord
-	type = character
-	gender = male
-	special = holder
-	tier = county
-	priority = 19
-	governments = { feudal_government }
-	de_jure_liege = { k_wales }
-	flavourization_rules = { 
-		top_liege = no
-	}
-}
-count_feudal_female_k_wales = { # Lady
-	type = character
-	gender = female
-	special = holder
-	tier = county
-	priority = 19
-	governments = { feudal_government }
-	de_jure_liege = { k_wales }
-	flavourization_rules = { 
-		top_liege = no
-	}
-}
-county_feudal_k_wales = { # Lordship
-	type = title
-	tier = county
-	priority = 19
-	governments = { feudal_government tribal_government }
-	de_jure_liege = { k_wales }
-	flavourization_rules = { 
-		top_liege = no
-	}
-}
+# count_feudal_male_k_wales: removed by Cyber Kings - its de_jure_liege (k_wales) does not exist in this mod, which made it apply to every feudal count/county
+# count_feudal_female_k_wales: removed by Cyber Kings - its de_jure_liege (k_wales) does not exist in this mod, which made it apply to every feudal count/county
+# county_feudal_k_wales: removed by Cyber Kings - its de_jure_liege (wales) does not exist in this mod, which made it apply to every feudal count/county
 
 # king_feudal_male_k_ireland_irish: removed by Cyber Kings - its titles (k_ireland) do not exist in this mod, which made it apply to everyone
 
