@@ -308,7 +308,7 @@
 	trait = intellect_good_3
 	trait = sadistic
 	987.6.28 = { birth = yes }
-	1066.9.15 = { effect = { set_immortal_age = 55 } }
+	1066.9.15 = { effect = { set_immortal_age = 55 add_character_flag = do_not_generate_starting_family } }
 }
 6666672 = {
 	name = "ckn_Griffin"
@@ -70960,6 +70960,7 @@
 	2.1.1 = { birth = yes }
 	30.1.1 = { trait = full_cybernetic_conversion }
 	1453.1.1 = { death = yes }
+	1066.9.15 = { effect = { add_character_flag = do_not_generate_starting_family } }
 }
 107176 = {
 	name = "ckn_Sangjo"
@@ -217234,7 +217235,7 @@
 	father = 777775
 	mother = 777776
 	2.2.15 = { birth = yes }
-	1066.9.15 = { effect = { set_immortal_age = 55 } }
+	1066.9.15 = { effect = { set_immortal_age = 55 add_character_flag = do_not_generate_starting_family } }
 }
 7777771 = {
 	name = "ckn_Dione"
@@ -217246,7 +217247,7 @@
 	father = 777775
 	mother = 777776
 	2.3.1 = { birth = yes }
-	1066.9.15 = { effect = { set_immortal_age = 55 } }
+	1066.9.15 = { effect = { set_immortal_age = 55 add_character_flag = do_not_generate_starting_family } }
 }
 7777772 = {
 	name = "ckn_Rhea"
@@ -217258,7 +217259,7 @@
 	father = 777775
 	mother = 777776
 	2.4.1 = { birth = yes }
-	1066.9.15 = { effect = { set_immortal_age = 55 } }
+	1066.9.15 = { effect = { set_immortal_age = 55 add_character_flag = do_not_generate_starting_family } }
 }
 7777773 = {
 	name = "ckn_Baetyl"
@@ -217270,7 +217271,7 @@
 	father = 777775
 	mother = 777776
 	2.5.1 = { birth = yes }
-	1066.9.15 = { effect = { set_immortal_age = 55 } }
+	1066.9.15 = { effect = { set_immortal_age = 55 add_character_flag = do_not_generate_starting_family } }
 }
 7777774 = {
 	name = "ckn_Dagon"
@@ -217281,7 +217282,7 @@
 	father = 777775
 	mother = 777776
 	2.6.1 = { birth = yes }
-	1066.9.15 = { effect = { set_immortal_age = 55 } }
+	1066.9.15 = { effect = { set_immortal_age = 55 add_character_flag = do_not_generate_starting_family } }
 }
 7777775 = {
 	name = "ckn_Atlas"
@@ -217292,7 +217293,7 @@
 	father = 777775
 	mother = 777776
 	2.7.1 = { birth = yes }
-	1066.9.15 = { effect = { set_immortal_age = 55 } }
+	1066.9.15 = { effect = { set_immortal_age = 55 add_character_flag = do_not_generate_starting_family } }
 }
 777778 = {
 	name = "ckn_Asherah"
@@ -217318,7 +217319,7 @@
 	father = 777777
 	mother = 777778
 	3.5.1 = { birth = yes }
-	1066.9.15 = { effect = { set_immortal_age = 55 } }
+	1066.9.15 = { effect = { set_immortal_age = 55 add_character_flag = do_not_generate_starting_family } }
 }
 7777791 = {
 	name = "ckn_Athena"
@@ -217332,7 +217333,7 @@
 	trait = education_diplomacy_3
 	father = 777779
 	4.1.1 = { birth = yes }
-	1066.9.15 = { effect = { set_immortal_age = 55 } }
+	1066.9.15 = { effect = { set_immortal_age = 55 add_character_flag = do_not_generate_starting_family } }
 }
 7777792 = {
 	name = "ckn_Artemis"
@@ -217343,7 +217344,7 @@
 	trait = full_cybernetic_conversion
 	father = 777779
 	5.1.1 = { birth = yes }
-	1066.9.15 = { effect = { set_immortal_age = 55 } }
+	1066.9.15 = { effect = { set_immortal_age = 55 add_character_flag = do_not_generate_starting_family } }
 }
 7777793 = {
 	name = "ckn_Apollo"
@@ -217353,7 +217354,7 @@
 	trait = full_cybernetic_conversion
 	father = 777779
 	6.1.1 = { birth = yes }
-	1066.9.15 = { effect = { set_immortal_age = 55 } }
+	1066.9.15 = { effect = { set_immortal_age = 55 add_character_flag = do_not_generate_starting_family } }
 }
 7777794 = {
 	name = "ckn_Ares"
@@ -217364,7 +217365,7 @@
 	trait = education_martial_4
 	father = 777779
 	7.1.1 = { birth = yes }
-	1066.9.15 = { effect = { set_immortal_age = 55 } }
+	1066.9.15 = { effect = { set_immortal_age = 55 add_character_flag = do_not_generate_starting_family } }
 }
 7777795 = {
 	name = "ckn_Hebe"
@@ -217375,7 +217376,7 @@
 	trait = full_cybernetic_conversion
 	father = 777779
 	8.1.1 = { birth = yes }
-	1066.9.15 = { effect = { set_immortal_age = 55 } }
+	1066.9.15 = { effect = { set_immortal_age = 55 add_character_flag = do_not_generate_starting_family } }
 }
 7777796 = {
 	name = "ckn_Eileithia"
@@ -217386,7 +217387,7 @@
 	trait = full_cybernetic_conversion
 	father = 777779
 	9.1.1 = { birth = yes }
-	1066.9.15 = { effect = { set_immortal_age = 55 } }
+	1066.9.15 = { effect = { set_immortal_age = 55 add_character_flag = do_not_generate_starting_family } }
 }
 7777797 = {
 	name = "ckn_Hermes"
@@ -217396,7 +217397,7 @@
 	trait = full_cybernetic_conversion
 	father = 777779
 	10.1.1 = { birth = yes }
-	1066.9.15 = { effect = { set_immortal_age = 55 } }
+	1066.9.15 = { effect = { set_immortal_age = 55 add_character_flag = do_not_generate_starting_family } }
 }
 7777798 = {
 	name = "ckn_Dionysus"
@@ -217406,7 +217407,7 @@
 	trait = full_cybernetic_conversion
 	father = 777779
 	11.1.1 = { birth = yes }
-	1066.9.15 = { effect = { set_immortal_age = 55 } }
+	1066.9.15 = { effect = { set_immortal_age = 55 add_character_flag = do_not_generate_starting_family } }
 }
 7777799 = {
 	name = "ckn_Moirai"
@@ -217417,7 +217418,7 @@
 	trait = full_cybernetic_conversion
 	father = 777779
 	12.1.1 = { birth = yes }
-	1066.9.15 = { effect = { set_immortal_age = 55 } }
+	1066.9.15 = { effect = { set_immortal_age = 55 add_character_flag = do_not_generate_starting_family } }
 }
 77777910 = {
 	name = "ckn_Horae"
@@ -217428,7 +217429,7 @@
 	trait = full_cybernetic_conversion
 	father = 777779
 	13.1.1 = { birth = yes }
-	1066.9.15 = { effect = { set_immortal_age = 55 } }
+	1066.9.15 = { effect = { set_immortal_age = 55 add_character_flag = do_not_generate_starting_family } }
 }
 77777911 = {
 	name = "ckn_Muses"
@@ -217439,7 +217440,7 @@
 	trait = full_cybernetic_conversion
 	father = 777779
 	14.1.1 = { birth = yes }
-	1066.9.15 = { effect = { set_immortal_age = 55 } }
+	1066.9.15 = { effect = { set_immortal_age = 55 add_character_flag = do_not_generate_starting_family } }
 }
 77777912 = {
 	name = "ckn_Charites"
@@ -217448,7 +217449,9 @@
 	culture = aeon
 	rite = olympic_rite
 	father = 777779
+	trait = full_cybernetic_conversion
 	15.1.1 = { birth = yes }
+	1066.9.15 = { effect = { set_immortal_age = 55 add_character_flag = do_not_generate_starting_family } }
 }
 77777913 = {
 	name = "ckn_Pan"
@@ -217458,7 +217461,7 @@
 	trait = full_cybernetic_conversion
 	father = 777779
 	16.1.1 = { birth = yes }
-	1066.9.15 = { effect = { set_immortal_age = 55 } }
+	1066.9.15 = { effect = { set_immortal_age = 55 add_character_flag = do_not_generate_starting_family } }
 }
 777780 = {
 	name = "ckn_Shahar"
@@ -217470,7 +217473,7 @@
 	father = 777777
 	mother = 777778
 	3.1.25 = { birth = yes }
-	1066.9.15 = { effect = { set_immortal_age = 55 } }
+	1066.9.15 = { effect = { set_immortal_age = 55 add_character_flag = do_not_generate_starting_family } }
 }
 7777801 = {
 	name = "ckn_Shalim"
@@ -217482,7 +217485,7 @@
 	father = 777777
 	mother = 777778
 	3.1.25 = { birth = yes }
-	1066.9.15 = { effect = { set_immortal_age = 55 } }
+	1066.9.15 = { effect = { set_immortal_age = 55 add_character_flag = do_not_generate_starting_family } }
 }
 777781 = {
 	name = "ckn_Anath"
@@ -217494,7 +217497,7 @@
 	father = 777777
 	mother = 777778
 	3.6.25 = { birth = yes }
-	1066.9.15 = { effect = { set_immortal_age = 55 } }
+	1066.9.15 = { effect = { set_immortal_age = 55 add_character_flag = do_not_generate_starting_family } }
 }
 777782 = {
 	name = "ckn_Yam"
@@ -217505,7 +217508,7 @@
 	father = 777777
 	mother = 777778
 	4.1.1 = { birth = yes }
-	1066.9.15 = { effect = { set_immortal_age = 55 } }
+	1066.9.15 = { effect = { set_immortal_age = 55 add_character_flag = do_not_generate_starting_family } }
 }
 777783 = {
 	name = "ckn_Mot"
@@ -217516,7 +217519,7 @@
 	father = 777777
 	mother = 777778
 	4.1.5 = { birth = yes }
-	1066.9.15 = { effect = { set_immortal_age = 55 } }
+	1066.9.15 = { effect = { set_immortal_age = 55 add_character_flag = do_not_generate_starting_family } }
 }
 777784 = {
 	name = "ckn_Derketo"
@@ -217528,7 +217531,7 @@
 	father = 777777
 	mother = 777778
 	4.1.10 = { birth = yes }
-	1066.9.15 = { effect = { set_immortal_age = 55 } }
+	1066.9.15 = { effect = { set_immortal_age = 55 add_character_flag = do_not_generate_starting_family } }
 }
 777785 = {
 	name = "ckn_Shaddai"
@@ -217539,7 +217542,7 @@
 	father = 777777
 	mother = 777778
 	4.1.15 = { birth = yes }
-	1066.9.15 = { effect = { set_immortal_age = 55 } }
+	1066.9.15 = { effect = { set_immortal_age = 55 add_character_flag = do_not_generate_starting_family } }
 }
 777786 = {
 	name = "ckn_Attar"
@@ -217550,7 +217553,7 @@
 	father = 777777
 	mother = 777778
 	4.1.20 = { birth = yes }
-	1066.9.15 = { effect = { set_immortal_age = 55 } }
+	1066.9.15 = { effect = { set_immortal_age = 55 add_character_flag = do_not_generate_starting_family } }
 }
 777787 = {
 	name = "ckn_Moloch"
@@ -217561,7 +217564,7 @@
 	father = 777777
 	mother = 777778
 	4.1.25 = { birth = yes }
-	1066.9.15 = { effect = { set_immortal_age = 55 } }
+	1066.9.15 = { effect = { set_immortal_age = 55 add_character_flag = do_not_generate_starting_family } }
 }
 777788 = {
 	name = "ckn_Shapash"
@@ -217573,7 +217576,7 @@
 	father = 777777
 	mother = 777778
 	4.1.25 = { birth = yes }
-	1066.9.15 = { effect = { set_immortal_age = 55 } }
+	1066.9.15 = { effect = { set_immortal_age = 55 add_character_flag = do_not_generate_starting_family } }
 }
 777789 = {
 	name = "ckn_Nikelah"
@@ -217585,7 +217588,7 @@
 	father = 777777
 	mother = 777778
 	4.1.30 = { birth = yes }
-	1066.9.15 = { effect = { set_immortal_age = 55 } }
+	1066.9.15 = { effect = { set_immortal_age = 55 add_character_flag = do_not_generate_starting_family } }
 }
 777790 = {
 	name = "ckn_Eros"
@@ -217596,7 +217599,7 @@
 	father = 777777
 	mother = 777778
 	5.5.1 = { birth = yes }
-	1066.9.15 = { effect = { set_immortal_age = 55 } }
+	1066.9.15 = { effect = { set_immortal_age = 55 add_character_flag = do_not_generate_starting_family } }
 }
 7777901 = {
 	name = "ckn_Pothos"
@@ -217607,7 +217610,7 @@
 	father = 777777
 	mother = 777778
 	5.1.1 = { birth = yes }
-	1066.9.15 = { effect = { set_immortal_age = 55 } }
+	1066.9.15 = { effect = { set_immortal_age = 55 add_character_flag = do_not_generate_starting_family } }
 }
 7777902 = {
 	name = "ckn_Anobret"
@@ -217618,7 +217621,7 @@
 	father = 777777
 	mother = 777778
 	5.10.1 = { birth = yes }
-	1066.9.15 = { effect = { set_immortal_age = 55 } }
+	1066.9.15 = { effect = { set_immortal_age = 55 add_character_flag = do_not_generate_starting_family } }
 }
 7777903 = {
 	name = "ckn_Ieoud"
@@ -217629,7 +217632,7 @@
 	father = 777777
 	mother = 777778
 	5.7.1 = { birth = yes }
-	1066.9.15 = { effect = { set_immortal_age = 55 } }
+	1066.9.15 = { effect = { set_immortal_age = 55 add_character_flag = do_not_generate_starting_family } }
 }
 7777904 = {
 	name = "ckn_Artemides"
@@ -217640,7 +217643,7 @@
 	father = 777777
 	mother = 777778
 	5.7.1 = { birth = yes }
-	1066.9.15 = { effect = { set_immortal_age = 55 } }
+	1066.9.15 = { effect = { set_immortal_age = 55 add_character_flag = do_not_generate_starting_family } }
 }
 7777905 = {
 	name = "ckn_Asclepius"
@@ -217650,7 +217653,7 @@
 	trait = full_cybernetic_conversion
 	father = 7777904
 	15.7.1 = { birth = yes }
-	1066.9.15 = { effect = { set_immortal_age = 55 } }
+	1066.9.15 = { effect = { set_immortal_age = 55 add_character_flag = do_not_generate_starting_family } }
 }
 777791 = {
 	name = "ckn_Athena"
@@ -217662,7 +217665,7 @@
 	father = 777777
 	mother = 777778
 	5.1.15 = { birth = yes }
-	1066.9.15 = { effect = { set_immortal_age = 55 } }
+	1066.9.15 = { effect = { set_immortal_age = 55 add_character_flag = do_not_generate_starting_family } }
 }
 777792 = {
 	name = "ckn_Shaddai"
@@ -217674,7 +217677,7 @@
 	father = 777777
 	mother = 777778
 	5.1.20 = { birth = yes }
-	1066.9.15 = { effect = { set_immortal_age = 55 } }
+	1066.9.15 = { effect = { set_immortal_age = 55 add_character_flag = do_not_generate_starting_family } }
 }
 777793 = {
 	name = "ckn_Persephone"
@@ -217685,7 +217688,7 @@
 	father = 777777
 	mother = 777778
 	5.1.25 = { birth = yes }
-	1066.9.15 = { effect = { set_immortal_age = 55 } }
+	1066.9.15 = { effect = { set_immortal_age = 55 add_character_flag = do_not_generate_starting_family } }
 }
 777794 = {
 	name = "ckn_Demarun"
@@ -217695,7 +217698,7 @@
 	trait = full_cybernetic_conversion
 	father = 777777
 	5.1.30 = { birth = yes }
-	1066.9.15 = { effect = { set_immortal_age = 55 } }
+	1066.9.15 = { effect = { set_immortal_age = 55 add_character_flag = do_not_generate_starting_family } }
 }
 777795 = {
 	name = "ckn_Melqart"
@@ -217705,7 +217708,7 @@
 	trait = full_cybernetic_conversion
 	father = 777794
 	20.10.30 = { birth = yes }
-	1066.9.15 = { effect = { set_immortal_age = 55 } }
+	1066.9.15 = { effect = { set_immortal_age = 55 add_character_flag = do_not_generate_starting_family } }
 }
 777797 = {
 	name = "ckn_Apollo"
@@ -217716,7 +217719,7 @@
 	father = 777777
 	mother = 777778
 	3.10.1 = { birth = yes }
-	1066.9.15 = { effect = { set_immortal_age = 55 } }
+	1066.9.15 = { effect = { set_immortal_age = 55 add_character_flag = do_not_generate_starting_family } }
 }
 777798 = {
 	name = "ckn_Nous"
@@ -217728,7 +217731,7 @@
 	trait = born_in_the_purple
 	father = 777777
 	5.11.11 = { birth = yes }
-	1066.9.15 = { effect = { set_immortal_age = 55 } }
+	1066.9.15 = { effect = { set_immortal_age = 55 add_character_flag = do_not_generate_starting_family } }
 }
 777799 = {
 	name = "ckn_Aletheia"
@@ -217741,7 +217744,7 @@
 	trait = born_in_the_purple
 	father = 777777
 	5.11.11 = { birth = yes }
-	1066.9.15 = { effect = { set_immortal_age = 55 } }
+	1066.9.15 = { effect = { set_immortal_age = 55 add_character_flag = do_not_generate_starting_family } }
 }
 777100 = {
 	name = "ckn_Logos"
@@ -217753,7 +217756,7 @@
 	father = 777798
 	mother = 777799
 	7.7.7 = { birth = yes }
-	1066.9.15 = { effect = { set_immortal_age = 55 } }
+	1066.9.15 = { effect = { set_immortal_age = 55 add_character_flag = do_not_generate_starting_family } }
 }
 777101 = {
 	name = "ckn_Zoe"
@@ -217766,7 +217769,7 @@
 	father = 777798
 	mother = 777799
 	7.7.7 = { birth = yes }
-	1066.9.15 = { effect = { set_immortal_age = 55 } }
+	1066.9.15 = { effect = { set_immortal_age = 55 add_character_flag = do_not_generate_starting_family } }
 }
 777102 = {
 	name = "ckn_Anthropos"
@@ -217778,7 +217781,7 @@
 	father = 777100
 	mother = 777101
 	8.11.11 = { birth = yes }
-	1066.9.15 = { effect = { set_immortal_age = 55 } }
+	1066.9.15 = { effect = { set_immortal_age = 55 add_character_flag = do_not_generate_starting_family } }
 }
 777103 = {
 	name = "ckn_Ekklesia"
@@ -217791,7 +217794,7 @@
 	father = 777100
 	mother = 777101
 	8.11.11 = { birth = yes }
-	1066.9.15 = { effect = { set_immortal_age = 55 } }
+	1066.9.15 = { effect = { set_immortal_age = 55 add_character_flag = do_not_generate_starting_family } }
 }
 777104 = {
 	name = "ckn_Bythios"
@@ -217803,7 +217806,7 @@
 	father = 777100
 	mother = 777101
 	10.1.10 = { birth = yes }
-	1066.9.15 = { effect = { set_immortal_age = 55 } }
+	1066.9.15 = { effect = { set_immortal_age = 55 add_character_flag = do_not_generate_starting_family } }
 }
 777105 = {
 	name = "ckn_Mixis"
@@ -217816,7 +217819,7 @@
 	father = 777100
 	mother = 777101
 	10.1.10 = { birth = yes }
-	1066.9.15 = { effect = { set_immortal_age = 55 } }
+	1066.9.15 = { effect = { set_immortal_age = 55 add_character_flag = do_not_generate_starting_family } }
 }
 777106 = {
 	name = "ckn_Ageratos"
@@ -217828,7 +217831,7 @@
 	father = 777100
 	mother = 777101
 	10.3.10 = { birth = yes }
-	1066.9.15 = { effect = { set_immortal_age = 55 } }
+	1066.9.15 = { effect = { set_immortal_age = 55 add_character_flag = do_not_generate_starting_family } }
 }
 777107 = {
 	name = "ckn_Henosis"
@@ -217841,7 +217844,7 @@
 	father = 777100
 	mother = 777101
 	10.3.10 = { birth = yes }
-	1066.9.15 = { effect = { set_immortal_age = 55 } }
+	1066.9.15 = { effect = { set_immortal_age = 55 add_character_flag = do_not_generate_starting_family } }
 }
 777108 = {
 	name = "ckn_Autophues"
@@ -217853,7 +217856,7 @@
 	father = 777100
 	mother = 777101
 	10.5.10 = { birth = yes }
-	1066.9.15 = { effect = { set_immortal_age = 55 } }
+	1066.9.15 = { effect = { set_immortal_age = 55 add_character_flag = do_not_generate_starting_family } }
 }
 777109 = {
 	name = "ckn_Hedone"
@@ -217866,7 +217869,7 @@
 	father = 777100
 	mother = 777101
 	10.5.10 = { birth = yes }
-	1066.9.15 = { effect = { set_immortal_age = 55 } }
+	1066.9.15 = { effect = { set_immortal_age = 55 add_character_flag = do_not_generate_starting_family } }
 }
 777110 = {
 	name = "ckn_Akinetos"
@@ -217878,7 +217881,7 @@
 	father = 777100
 	mother = 777101
 	10.7.10 = { birth = yes }
-	1066.9.15 = { effect = { set_immortal_age = 55 } }
+	1066.9.15 = { effect = { set_immortal_age = 55 add_character_flag = do_not_generate_starting_family } }
 }
 777111 = {
 	name = "ckn_Synkrasis"
@@ -217891,7 +217894,7 @@
 	father = 777100
 	mother = 777101
 	10.7.10 = { birth = yes }
-	1066.9.15 = { effect = { set_immortal_age = 55 } }
+	1066.9.15 = { effect = { set_immortal_age = 55 add_character_flag = do_not_generate_starting_family } }
 }
 777112 = {
 	name = "ckn_Monogenes"
@@ -217903,7 +217906,7 @@
 	father = 777100
 	mother = 777101
 	10.9.10 = { birth = yes }
-	1066.9.15 = { effect = { set_immortal_age = 55 } }
+	1066.9.15 = { effect = { set_immortal_age = 55 add_character_flag = do_not_generate_starting_family } }
 }
 777113 = {
 	name = "ckn_Makaria"
@@ -217916,7 +217919,7 @@
 	father = 777100
 	mother = 777101
 	10.9.10 = { birth = yes }
-	1066.9.15 = { effect = { set_immortal_age = 55 } }
+	1066.9.15 = { effect = { set_immortal_age = 55 add_character_flag = do_not_generate_starting_family } }
 }
 777114 = {
 	name = "ckn_Parakletos"
@@ -217928,7 +217931,7 @@
 	father = 777102
 	mother = 777103
 	11.1.12 = { birth = yes }
-	1066.9.15 = { effect = { set_immortal_age = 55 } }
+	1066.9.15 = { effect = { set_immortal_age = 55 add_character_flag = do_not_generate_starting_family } }
 }
 777115 = {
 	name = "ckn_Pistis"
@@ -217941,7 +217944,7 @@
 	father = 777102
 	mother = 777103
 	11.1.12 = { birth = yes }
-	1066.9.15 = { effect = { set_immortal_age = 55 } }
+	1066.9.15 = { effect = { set_immortal_age = 55 add_character_flag = do_not_generate_starting_family } }
 }
 777116 = {
 	name = "ckn_Patrikos"
@@ -217953,7 +217956,7 @@
 	father = 777102
 	mother = 777103
 	11.2.12 = { birth = yes }
-	1066.9.15 = { effect = { set_immortal_age = 55 } }
+	1066.9.15 = { effect = { set_immortal_age = 55 add_character_flag = do_not_generate_starting_family } }
 }
 777117 = {
 	name = "ckn_Elpis"
@@ -217966,7 +217969,7 @@
 	father = 777102
 	mother = 777103
 	11.2.12 = { birth = yes }
-	1066.9.15 = { effect = { set_immortal_age = 55 } }
+	1066.9.15 = { effect = { set_immortal_age = 55 add_character_flag = do_not_generate_starting_family } }
 }
 777118 = {
 	name = "ckn_Metrikos"
@@ -217978,7 +217981,7 @@
 	father = 777102
 	mother = 777103
 	11.3.12 = { birth = yes }
-	1066.9.15 = { effect = { set_immortal_age = 55 } }
+	1066.9.15 = { effect = { set_immortal_age = 55 add_character_flag = do_not_generate_starting_family } }
 }
 777119 = {
 	name = "ckn_Agape"
@@ -217991,7 +217994,7 @@
 	father = 777102
 	mother = 777103
 	11.3.12 = { birth = yes }
-	1066.9.15 = { effect = { set_immortal_age = 55 } }
+	1066.9.15 = { effect = { set_immortal_age = 55 add_character_flag = do_not_generate_starting_family } }
 }
 777120 = {
 	name = "ckn_Ainos"
@@ -218003,7 +218006,7 @@
 	father = 777102
 	mother = 777103
 	1036.1.1 = { birth = yes }
-	1066.9.15 = { effect = { set_immortal_age = 30 } }
+	1066.9.15 = { effect = { set_immortal_age = 30 add_character_flag = do_not_generate_starting_family } }
 }
 777121 = {
 	name = "ckn_Synesis"
@@ -218016,7 +218019,7 @@
 	father = 777102
 	mother = 777103
 	11.4.12 = { birth = yes }
-	1066.9.15 = { effect = { set_immortal_age = 55 } }
+	1066.9.15 = { effect = { set_immortal_age = 55 add_character_flag = do_not_generate_starting_family } }
 }
 7771121 = {
 	name = "ckn_Ekklesiastikos"
@@ -218028,7 +218031,7 @@
 	father = 777102
 	mother = 777103
 	11.5.12 = { birth = yes }
-	1066.9.15 = { effect = { set_immortal_age = 55 } }
+	1066.9.15 = { effect = { set_immortal_age = 55 add_character_flag = do_not_generate_starting_family } }
 }
 777122 = {
 	name = "ckn_Makariotes"
@@ -218041,7 +218044,7 @@
 	father = 777102
 	mother = 777103
 	11.5.12 = { birth = yes }
-	1066.9.15 = { effect = { set_immortal_age = 55 } }
+	1066.9.15 = { effect = { set_immortal_age = 55 add_character_flag = do_not_generate_starting_family } }
 }
 777123 = {
 	name = "ckn_Theletos"
@@ -218053,7 +218056,7 @@
 	father = 777102
 	mother = 777103
 	11.6.12 = { birth = yes }
-	1066.9.15 = { effect = { set_immortal_age = 55 } }
+	1066.9.15 = { effect = { set_immortal_age = 55 add_character_flag = do_not_generate_starting_family } }
 }
 777124 = {
 	name = "ckn_Sophia"
@@ -218067,7 +218070,7 @@
 	father = 777102
 	mother = 777103
 	11.6.12 = { birth = yes }
-	1066.9.15 = { effect = { set_immortal_age = 55 } }
+	1066.9.15 = { effect = { set_immortal_age = 55 add_character_flag = do_not_generate_starting_family } }
 }
 777125 = {
 	name = "ckn_Adonai"
@@ -218081,7 +218084,7 @@
 	trait = lifestyle_mystic
 	mother = 777124
 	11.11.11 = { birth = yes }
-	1066.9.15 = { effect = { set_immortal_age = 55 } }
+	1066.9.15 = { effect = { set_immortal_age = 55 add_character_flag = do_not_generate_starting_family } }
 }
 777126 = {
 	name = "ckn_Eosphorus"
@@ -218098,7 +218101,7 @@
 	trait = scarred
 	father = 7777775
 	11.11.12 = { birth = yes }
-	1066.9.15 = { effect = { set_immortal_age = 55 } }
+	1066.9.15 = { effect = { set_immortal_age = 55 add_character_flag = do_not_generate_starting_family } }
 }
 777127 = {
 	name = "ckn_Adam"
@@ -218784,6 +218787,7 @@
 	trait = zealous
 	270.3.15 = { birth = yes }
 	343.12.6 = { trait = full_cybernetic_conversion }
+	1066.9.15 = { effect = { add_character_flag = do_not_generate_starting_family } }
 }
 1000 = {
 	name = "ckn__ed"
@@ -236301,6 +236305,7 @@
 	trait = intellect_good_3
 	trait = beauty_good_3
 	2.1.1 = { birth = yes }
+	1066.9.15 = { effect = { add_character_flag = do_not_generate_starting_family } }
 }
 775999 = {
 	name = "ckn_Aten"
@@ -236317,7 +236322,7 @@
 	trait = gmo
 	trait = vat_born
 	2.1.3 = { birth = yes }
-	1066.9.15 = { effect = { set_immortal_age = 25 } }
+	1066.9.15 = { effect = { set_immortal_age = 25 add_character_flag = do_not_generate_starting_family } }
 }
 775998 = {
 	name = "ckn_Apep"
@@ -236326,6 +236331,7 @@
 	martial = 90
 	trait = full_cybernetic_conversion
 	2.1.1 = { birth = yes }
+	1066.9.15 = { effect = { add_character_flag = do_not_generate_starting_family } }
 }
 776001 = {
 	name = "ckn_Atum"
@@ -236345,7 +236351,7 @@
 	trait = beauty_good_3
 	mother = 776000
 	2.1.2 = { birth = yes }
-	1066.9.15 = { effect = { set_immortal_age = 25 } }
+	1066.9.15 = { effect = { set_immortal_age = 25 add_character_flag = do_not_generate_starting_family } }
 }
 776002 = {
 	name = "ckn_Ra"
@@ -236365,7 +236371,7 @@
 	trait = clone
 	mother = 776000
 	2.1.2 = { birth = yes }
-	1066.9.15 = { effect = { set_immortal_age = 25 } }
+	1066.9.15 = { effect = { set_immortal_age = 25 add_character_flag = do_not_generate_starting_family } }
 }
 776004 = {
 	name = "ckn_Tefnut"
@@ -236376,7 +236382,7 @@
 	trait = full_cybernetic_conversion
 	father = 776002
 	18.1.1 = { birth = yes }
-	1066.9.15 = { effect = { set_immortal_age = 25 } }
+	1066.9.15 = { effect = { set_immortal_age = 25 add_character_flag = do_not_generate_starting_family } }
 }
 776005 = {
 	name = "ckn_Geb"
@@ -236388,7 +236394,7 @@
 	mother = 776004
 	34.9.1 = { birth = yes }
 	50.1.1 = { add_spouse = 776006 }
-	1066.9.15 = { effect = { set_immortal_age = 25 } }
+	1066.9.15 = { effect = { set_immortal_age = 25 add_character_flag = do_not_generate_starting_family } }
 }
 776006 = {
 	name = "ckn_Nut"
@@ -236401,7 +236407,7 @@
 	mother = 776004
 	34.9.1 = { birth = yes }
 	50.1.1 = { add_spouse = 776005 }
-	1066.9.15 = { effect = { set_immortal_age = 25 } }
+	1066.9.15 = { effect = { set_immortal_age = 25 add_character_flag = do_not_generate_starting_family } }
 }
 776007 = {
 	name = "ckn_Isis"
@@ -236416,7 +236422,7 @@
 	mother = 776006
 	50.11.11 = { birth = yes }
 	67.1.1 = { add_spouse = 776008 }
-	1066.9.15 = { effect = { set_immortal_age = 25 } }
+	1066.9.15 = { effect = { set_immortal_age = 25 add_character_flag = do_not_generate_starting_family } }
 }
 776008 = {
 	name = "ckn_Osiris"
@@ -236430,7 +236436,7 @@
 	mother = 776006
 	50.11.11 = { birth = yes }
 	67.1.1 = { add_spouse = 776007 }
-	1066.9.15 = { effect = { set_immortal_age = 25 } }
+	1066.9.15 = { effect = { set_immortal_age = 25 add_character_flag = do_not_generate_starting_family } }
 }
 776009 = {
 	name = "ckn_Nephithys"
@@ -236442,7 +236448,7 @@
 	father = 776005
 	mother = 776006
 	52.5.1 = { birth = yes }
-	1066.9.15 = { effect = { set_immortal_age = 25 } }
+	1066.9.15 = { effect = { set_immortal_age = 25 add_character_flag = do_not_generate_starting_family } }
 }
 776010 = {
 	name = "ckn_Set"
@@ -236453,7 +236459,7 @@
 	father = 776005
 	mother = 776006
 	53.6.1 = { birth = yes }
-	1066.9.15 = { effect = { set_immortal_age = 25 } }
+	1066.9.15 = { effect = { set_immortal_age = 25 add_character_flag = do_not_generate_starting_family } }
 }
 776011 = {
 	name = "ckn_Horus"
@@ -236464,7 +236470,7 @@
 	father = 776008
 	mother = 776007
 	67.10.30 = { birth = yes }
-	1066.9.15 = { effect = { set_immortal_age = 25 } }
+	1066.9.15 = { effect = { set_immortal_age = 25 add_character_flag = do_not_generate_starting_family } }
 }
 776012 = {
 	name = "ckn_Anubus"
@@ -236474,7 +236480,7 @@
 	trait = full_cybernetic_conversion
 	father = 776008
 	70.2.17 = { birth = yes }
-	1066.9.15 = { effect = { set_immortal_age = 25 } }
+	1066.9.15 = { effect = { set_immortal_age = 25 add_character_flag = do_not_generate_starting_family } }
 }
 7760013 = {
 	name = "ckn_Thoth"
@@ -236488,7 +236494,7 @@
 	trait = full_cybernetic_conversion
 	father = 776010
 	70.1.1 = { birth = yes }
-	1066.9.15 = { effect = { set_immortal_age = 25 } }
+	1066.9.15 = { effect = { set_immortal_age = 25 add_character_flag = do_not_generate_starting_family } }
 }
 776014 = {
 	name = "ckn_Sekhmet"
@@ -236500,7 +236506,7 @@
 	trait = full_cybernetic_conversion
 	father = 776002
 	18.3.1 = { birth = yes }
-	1066.9.15 = { effect = { set_immortal_age = 25 } }
+	1066.9.15 = { effect = { set_immortal_age = 25 add_character_flag = do_not_generate_starting_family } }
 }
 776015 = {
 	name = "ckn_Ptah"
@@ -236510,7 +236516,7 @@
 	trait = full_cybernetic_conversion
 	18.1.1 = { birth = yes }
 	35.1.1 = { add_spouse = 776014 }
-	1066.9.15 = { effect = { set_immortal_age = 25 } }
+	1066.9.15 = { effect = { set_immortal_age = 25 add_character_flag = do_not_generate_starting_family } }
 }
 776016 = {
 	name = "ckn_Nefertem"
@@ -236521,7 +236527,7 @@
 	trait = full_cybernetic_conversion
 	father = 776015
 	35.1.1 = { birth = yes }
-	1066.9.15 = { effect = { set_immortal_age = 25 } }
+	1066.9.15 = { effect = { set_immortal_age = 25 add_character_flag = do_not_generate_starting_family } }
 }
 776017 = {
 	name = "ckn_Imhotep"
@@ -236531,7 +236537,7 @@
 	trait = full_cybernetic_conversion
 	father = 776015
 	34.1.1 = { birth = yes }
-	1066.9.15 = { effect = { set_immortal_age = 25 } }
+	1066.9.15 = { effect = { set_immortal_age = 25 add_character_flag = do_not_generate_starting_family } }
 }
 776018 = {
 	name = "ckn_Hathor"
@@ -236544,7 +236550,7 @@
 	father = 776002
 	19.1.1 = { birth = yes }
 	82.1.1 = { add_spouse = 776011 }
-	1066.9.15 = { effect = { set_immortal_age = 25 } }
+	1066.9.15 = { effect = { set_immortal_age = 25 add_character_flag = do_not_generate_starting_family } }
 }
 776019 = {
 	name = "ckn_Hapi"
@@ -236557,7 +236563,7 @@
 	father = 776011
 	mother = 776018
 	82.3.1 = { birth = yes }
-	1066.9.15 = { effect = { set_immortal_age = 25 } }
+	1066.9.15 = { effect = { set_immortal_age = 25 add_character_flag = do_not_generate_starting_family } }
 }
 776020 = {
 	name = "ckn_Bastet"
@@ -236569,7 +236575,7 @@
 	trait = full_cybernetic_conversion
 	father = 776002
 	19.11.1 = { birth = yes }
-	1066.9.15 = { effect = { set_immortal_age = 25 } }
+	1066.9.15 = { effect = { set_immortal_age = 25 add_character_flag = do_not_generate_starting_family } }
 }
 776021 = {
 	name = "ckn_Maat"
@@ -236581,7 +236587,7 @@
 	trait = full_cybernetic_conversion
 	father = 776002
 	83.10.1 = { birth = yes }
-	1066.9.15 = { effect = { set_immortal_age = 25 } }
+	1066.9.15 = { effect = { set_immortal_age = 25 add_character_flag = do_not_generate_starting_family } }
 }
 776022 = {
 	name = "ckn_Bastet"
@@ -236593,7 +236599,7 @@
 	trait = full_cybernetic_conversion
 	father = 776002
 	84.8.1 = { birth = yes }
-	1066.9.15 = { effect = { set_immortal_age = 25 } }
+	1066.9.15 = { effect = { set_immortal_age = 25 add_character_flag = do_not_generate_starting_family } }
 }
 400000 = {
 	name = "ckn_George"
@@ -237009,6 +237015,7 @@
 	culture = french
 	rite = roman_rite
 	941.1.1 = { birth = yes }
+	1027.1.1 = { death = yes }
 }
 400054 = {
 	name = "ckn_Jacques"
@@ -237900,7 +237907,7 @@
 	trait = lifestyle_physician
 	959.1.26 = { birth = yes }
 	997.1.1 = { add_spouse = 778001 }
-	1066.9.15 = { effect = { set_immortal_age = 55 } }
+	1066.9.15 = { effect = { set_immortal_age = 55 add_character_flag = do_not_generate_starting_family } }
 }
 778001 = {
 	name = "ckn_Diane"
@@ -238403,7 +238410,7 @@
 	father = 778119
 	1025.1.1 = { birth = yes }
 	1051.1.1 = { add_spouse = 778118 }
-	1066.9.15 = { effect = { set_immortal_age = 41 } }
+	1066.9.15 = { effect = { set_immortal_age = 41 add_character_flag = do_not_generate_starting_family } }
 }
 778121 = {
 	name = "ckn_17"
@@ -238417,7 +238424,7 @@
 	trait = compassionate
 	father = 778119
 	1025.1.1 = { birth = yes }
-	1066.9.15 = { effect = { set_immortal_age = 41 } }
+	1066.9.15 = { effect = { set_immortal_age = 41 add_character_flag = do_not_generate_starting_family } }
 }
 778122 = {
 	name = "ckn_Marron"
@@ -238472,7 +238479,7 @@
 	trait = lazy
 	trait = full_cybernetic_conversion
 	1007.1.1 = { birth = yes }
-	1066.9.15 = { effect = { set_immortal_age = 55 } }
+	1066.9.15 = { effect = { set_immortal_age = 55 add_character_flag = do_not_generate_starting_family } }
 }
 778300 = {
 	name = "ckn_Xiang"
