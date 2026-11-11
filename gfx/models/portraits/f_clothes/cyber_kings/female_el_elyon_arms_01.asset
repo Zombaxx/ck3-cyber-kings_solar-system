@@ -1,0 +1,19 @@
+﻿pdxmesh = {
+	name = "female_el_elyon_arms_01_mesh"
+	file = "female_el_elyon_arms_01.mesh"
+
+	meshsettings = {
+		name = "female_el_elyon_arms_01Shape"
+		index = 0
+		texture_diffuse = "female_el_elyon_arms_01_diffuse.dds"
+		texture_normal = "female_el_elyon_arms_01_normal.dds"
+		texture_specular = "female_el_elyon_arms_01_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "female_el_elyon_arms_01_entity"
+	pdxmesh = "female_el_elyon_arms_01_mesh"
+}

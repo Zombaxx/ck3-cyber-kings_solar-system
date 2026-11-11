@@ -1,13 +1,117 @@
-﻿# Cyber Kings: cybernetics attachments (gen_cyber_mesh.py). Men only for now; women use the decal versions.
-male_cyber_eye_01 = {
-	entity = { required_tags = "hood_on"	shared_pose_entity = head	 }
+﻿# Cyber Kings: cybernetics attachments (gen_cyber_mesh.py). Shells of the vanilla head/body meshes, both sexes.
+male_cywizard_v6_01 = {
 	entity = { required_tags = "mask"		shared_pose_entity = head	 }
-	entity = { required_tags = ""			shared_pose_entity = head		entity = male_cyber_eye_01_entity	 }
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_cywizard_v6_01_entity	 }
 }
-male_cywizard_face_01 = {
+male_cywizard_v7_01 = {
 	entity = { required_tags = "mask"		shared_pose_entity = head	 }
-	entity = { required_tags = ""			shared_pose_entity = head		entity = male_cywizard_face_01_entity	 }
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_cywizard_v7_01_entity	 }
+}
+male_cywizard_v8_01 = {
+	entity = { required_tags = "mask"		shared_pose_entity = head	 }
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_cywizard_v8_01_entity	 }
 }
 male_cyber_arm_01 = {
 	entity = { required_tags = ""			shared_pose_entity = torso		entity = male_cyber_arm_01_entity	 }
+}
+male_cyber_leg_01 = {
+	entity = { required_tags = ""			shared_pose_entity = torso		entity = male_cyber_leg_01_entity	 }
+}
+female_cywizard_v6_01 = {
+	entity = { required_tags = "mask"		shared_pose_entity = head	 }
+	entity = { required_tags = ""			shared_pose_entity = head		entity = female_cywizard_v6_01_entity	 }
+}
+female_cywizard_v7_01 = {
+	entity = { required_tags = "mask"		shared_pose_entity = head	 }
+	entity = { required_tags = ""			shared_pose_entity = head		entity = female_cywizard_v7_01_entity	 }
+}
+female_cywizard_v8_01 = {
+	entity = { required_tags = "mask"		shared_pose_entity = head	 }
+	entity = { required_tags = ""			shared_pose_entity = head		entity = female_cywizard_v8_01_entity	 }
+}
+female_cyber_arm_01 = {
+	entity = { required_tags = ""			shared_pose_entity = torso		entity = female_cyber_arm_01_entity	 }
+}
+female_cyber_leg_01 = {
+	entity = { required_tags = ""			shared_pose_entity = torso		entity = female_cyber_leg_01_entity	 }
+}
+# ---- named Cywizards (gen_cyber_named.py)
+male_cywizard_el_elyon_01 = {
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_cywizard_el_elyon_01_entity	 }
+}
+male_cywizard_adonai_01 = {
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_cywizard_adonai_01_entity	 }
+}
+male_cywizard_eosphorus_01 = {
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_cywizard_eosphorus_01_entity	 }
+}
+male_el_elyon_arms_01 = {
+	entity = { required_tags = ""			shared_pose_entity = torso		entity = male_el_elyon_arms_01_entity	 }
+}
+female_cywizard_el_elyon_01 = {
+	entity = { required_tags = ""			shared_pose_entity = head		entity = female_cywizard_el_elyon_01_entity	 }
+}
+female_cywizard_adonai_01 = {
+	entity = { required_tags = ""			shared_pose_entity = head		entity = female_cywizard_adonai_01_entity	 }
+}
+female_cywizard_eosphorus_01 = {
+	entity = { required_tags = ""			shared_pose_entity = head		entity = female_cywizard_eosphorus_01_entity	 }
+}
+female_el_elyon_arms_01 = {
+	entity = { required_tags = ""			shared_pose_entity = torso		entity = female_el_elyon_arms_01_entity	 }
+}
+# Cyber Kings: cybernetic eyes (gen_cyber_eyes.py) - replace the vanilla eyes (eye_accessory = no_eyes)
+male_cyber_eyes_cywizard_01 = {
+	entity = { entity = "male_cyber_eyes_cywizard_01_entity"		shared_pose_entity = head }
+}
+male_cyber_eyes_el_elyon_01 = {
+	entity = { entity = "male_cyber_eyes_el_elyon_01_entity"		shared_pose_entity = head }
+}
+male_cyber_eyes_adonai_01 = {
+	entity = { entity = "male_cyber_eyes_adonai_01_entity"		shared_pose_entity = head }
+}
+male_cyber_eyes_eosphorus_01 = {
+	entity = { entity = "male_cyber_eyes_eosphorus_01_entity"		shared_pose_entity = head }
+}
+male_cyber_eyes_martial_1_01 = {
+	entity = { entity = "male_cyber_eyes_martial_1_01_entity"		shared_pose_entity = head }
+}
+male_cyber_eyes_martial_2_01 = {
+	entity = { entity = "male_cyber_eyes_martial_2_01_entity"		shared_pose_entity = head }
+}
+male_cyber_eyes_martial_3_01 = {
+	entity = { entity = "male_cyber_eyes_martial_3_01_entity"		shared_pose_entity = head }
+}
+male_cyber_eyes_martial_4_01 = {
+	entity = { entity = "male_cyber_eyes_martial_4_01_entity"		shared_pose_entity = head }
+}
+male_cyber_eyes_martial_5_01 = {
+	entity = { entity = "male_cyber_eyes_martial_5_01_entity"		shared_pose_entity = head }
+}
+female_cyber_eyes_cywizard_01 = {
+	entity = { entity = "female_cyber_eyes_cywizard_01_entity"		shared_pose_entity = head }
+}
+female_cyber_eyes_el_elyon_01 = {
+	entity = { entity = "female_cyber_eyes_el_elyon_01_entity"		shared_pose_entity = head }
+}
+female_cyber_eyes_adonai_01 = {
+	entity = { entity = "female_cyber_eyes_adonai_01_entity"		shared_pose_entity = head }
+}
+female_cyber_eyes_eosphorus_01 = {
+	entity = { entity = "female_cyber_eyes_eosphorus_01_entity"		shared_pose_entity = head }
+}
+female_cyber_eyes_martial_1_01 = {
+	entity = { entity = "female_cyber_eyes_martial_1_01_entity"		shared_pose_entity = head }
+}
+female_cyber_eyes_martial_2_01 = {
+	entity = { entity = "female_cyber_eyes_martial_2_01_entity"		shared_pose_entity = head }
+}
+female_cyber_eyes_martial_3_01 = {
+	entity = { entity = "female_cyber_eyes_martial_3_01_entity"		shared_pose_entity = head }
+}
+female_cyber_eyes_martial_4_01 = {
+	entity = { entity = "female_cyber_eyes_martial_4_01_entity"		shared_pose_entity = head }
+}
+female_cyber_eyes_martial_5_01 = {
+	entity = { entity = "female_cyber_eyes_martial_5_01_entity"		shared_pose_entity = head }
 }

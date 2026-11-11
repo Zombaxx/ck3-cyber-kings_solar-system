@@ -1,0 +1,196 @@
+﻿pdxmesh = {
+	name = "female_cyber_eyes_mesh"
+	file = "female_cyber_eyes.mesh"
+	streaming = Never
+
+	meshsettings = {
+		name = "female_eyesShape"
+		index = 0
+		texture_diffuse = "cyber_eyes_cywizard_diffuse.dds"
+		texture_normal = "cyber_eyes_normal.dds"
+		texture_specular = "cyber_eyes_cywizard_properties.dds"
+		texture = { file = "cyber_eyes_ssao_color.dds" index = 3 }
+		shader = "portrait_eye"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "female_cyber_eyes_cywizard_01_entity"
+	pdxmesh = "female_cyber_eyes_mesh"
+
+	game_data = {
+		portrait_entity_user_data = {
+			color_mask_remap_interval = {
+				interval = {0.0 1.0}
+			}
+		}
+	}
+
+	meshsettings = {
+		name = "female_eyesShape"
+		index = 0
+		texture_diffuse = "cyber_eyes_cywizard_diffuse.dds"
+		texture_specular = "cyber_eyes_cywizard_properties.dds"
+	}
+}
+
+entity = {
+	name = "female_cyber_eyes_el_elyon_01_entity"
+	pdxmesh = "female_cyber_eyes_mesh"
+
+	game_data = {
+		portrait_entity_user_data = {
+			color_mask_remap_interval = {
+				interval = {0.0 1.0}
+			}
+		}
+	}
+
+	meshsettings = {
+		name = "female_eyesShape"
+		index = 0
+		texture_diffuse = "cyber_eyes_el_elyon_diffuse.dds"
+		texture_specular = "cyber_eyes_el_elyon_properties.dds"
+	}
+}
+
+entity = {
+	name = "female_cyber_eyes_adonai_01_entity"
+	pdxmesh = "female_cyber_eyes_mesh"
+
+	game_data = {
+		portrait_entity_user_data = {
+			color_mask_remap_interval = {
+				interval = {0.0 1.0}
+			}
+		}
+	}
+
+	meshsettings = {
+		name = "female_eyesShape"
+		index = 0
+		texture_diffuse = "cyber_eyes_adonai_diffuse.dds"
+		texture_specular = "cyber_eyes_adonai_properties.dds"
+	}
+}
+
+entity = {
+	name = "female_cyber_eyes_eosphorus_01_entity"
+	pdxmesh = "female_cyber_eyes_mesh"
+
+	game_data = {
+		portrait_entity_user_data = {
+			color_mask_remap_interval = {
+				interval = {0.0 1.0}
+			}
+		}
+	}
+
+	meshsettings = {
+		name = "female_eyesShape"
+		index = 0
+		texture_diffuse = "cyber_eyes_eosphorus_diffuse.dds"
+		texture_specular = "cyber_eyes_eosphorus_properties.dds"
+	}
+}
+
+entity = {
+	name = "female_cyber_eyes_martial_1_01_entity"
+	pdxmesh = "female_cyber_eyes_mesh"
+
+	game_data = {
+		portrait_entity_user_data = {
+			color_mask_remap_interval = {
+				interval = {0.0 1.0}
+			}
+		}
+	}
+
+	meshsettings = {
+		name = "female_eyesShape"
+		index = 0
+		texture_diffuse = "cyber_eyes_martial_1_diffuse.dds"
+		texture_specular = "cyber_eyes_martial_1_properties.dds"
+	}
+}
+
+entity = {
+	name = "female_cyber_eyes_martial_2_01_entity"
+	pdxmesh = "female_cyber_eyes_mesh"
+
+	game_data = {
+		portrait_entity_user_data = {
+			color_mask_remap_interval = {
+				interval = {0.0 1.0}
+			}
+		}
+	}
+
+	meshsettings = {
+		name = "female_eyesShape"
+		index = 0
+		texture_diffuse = "cyber_eyes_martial_2_diffuse.dds"
+		texture_specular = "cyber_eyes_martial_2_properties.dds"
+	}
+}
+
+entity = {
+	name = "female_cyber_eyes_martial_3_01_entity"
+	pdxmesh = "female_cyber_eyes_mesh"
+
+	game_data = {
+		portrait_entity_user_data = {
+			color_mask_remap_interval = {
+				interval = {0.0 1.0}
+			}
+		}
+	}
+
+	meshsettings = {
+		name = "female_eyesShape"
+		index = 0
+		texture_diffuse = "cyber_eyes_martial_3_diffuse.dds"
+		texture_specular = "cyber_eyes_martial_3_properties.dds"
+	}
+}
+
+entity = {
+	name = "female_cyber_eyes_martial_4_01_entity"
+	pdxmesh = "female_cyber_eyes_mesh"
+
+	game_data = {
+		portrait_entity_user_data = {
+			color_mask_remap_interval = {
+				interval = {0.0 1.0}
+			}
+		}
+	}
+
+	meshsettings = {
+		name = "female_eyesShape"
+		index = 0
+		texture_diffuse = "cyber_eyes_martial_4_diffuse.dds"
+		texture_specular = "cyber_eyes_martial_4_properties.dds"
+	}
+}
+
+entity = {
+	name = "female_cyber_eyes_martial_5_01_entity"
+	pdxmesh = "female_cyber_eyes_mesh"
+
+	game_data = {
+		portrait_entity_user_data = {
+			color_mask_remap_interval = {
+				interval = {0.0 1.0}
+			}
+		}
+	}
+
+	meshsettings = {
+		name = "female_eyesShape"
+		index = 0
+		texture_diffuse = "cyber_eyes_martial_5_diffuse.dds"
+		texture_specular = "cyber_eyes_martial_5_properties.dds"
+	}
+}

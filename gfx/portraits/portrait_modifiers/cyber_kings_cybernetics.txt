@@ -1,57 +1,4 @@
-﻿# Cyber Kings: trait -> cybernetics decal (gen_cyber_gfx.py)
-cyber_kings_cyber_eye = {
-	usage = game
-	selection_behavior = max
-	cyber_eye = {
-		ignore_outfit_tags = yes
-		dna_modifiers = {
-			morph = {
-				mode = add
-				gene = gene_cyber_eye
-				template = cyber_eye
-				value = 1.0
-			}
-		}
-		weight = {
-			base = 0
-			modifier = {
-				add = 100
-				is_female = yes
-				NOT = { portrait_has_trait_trigger = { TRAIT = full_cybernetic_conversion } }
-				OR = {
-					portrait_has_trait_trigger = { TRAIT = martial_implant_1 }
-					portrait_has_trait_trigger = { TRAIT = martial_implant_2 }
-					portrait_has_trait_trigger = { TRAIT = martial_implant_3 }
-					portrait_has_trait_trigger = { TRAIT = martial_implant_4 }
-					portrait_has_trait_trigger = { TRAIT = martial_implant_5 }
-				}
-			}
-		}
-	}
-}
-cyber_kings_cywizard = {
-	usage = game
-	selection_behavior = max
-	cywizard = {
-		ignore_outfit_tags = yes
-		dna_modifiers = {
-			morph = {
-				mode = add
-				gene = gene_cywizard
-				template = cywizard
-				value = 1.0
-			}
-		}
-		weight = {
-			base = 0
-			modifier = {
-				add = 100
-				is_female = yes
-				portrait_has_trait_trigger = { TRAIT = full_cybernetic_conversion }
-			}
-		}
-	}
-}
+﻿# Cyber Kings: trait -> cybernetics visuals. dni decal from gen_cyber_gfx.py; meshes from gen_cyber_mesh.py.
 cyber_kings_dni = {
 	usage = game
 	selection_behavior = max
@@ -76,17 +23,60 @@ cyber_kings_dni = {
 	}
 }
 
-# ---- 3D attachments (men): the plates are shells of the head mesh; the decals above stay for women
-cyber_kings_cyber_face_mesh = {
+# ---- Cywizard face (meshes v5): painted plating (decal gene gene_cyber_paint) + 3D mechanics, one weighted-random
+# pick per character so paint and parts always belong to the same variant (gen_cyber_mesh.py / gen_cyber_paint.py)
+cyber_kings_cybernetics_face = {
 	usage = game
-	selection_behavior = max
-	cywizard_mesh = {
+	selection_behavior = weighted_random
+	cywizard_v1 = {
 		ignore_outfit_tags = yes
 		dna_modifiers = {
+			morph = {
+				mode = add
+				gene = gene_cyber_paint
+				template = cywizard_v1
+				value = 1.0
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				portrait_has_trait_trigger = { TRAIT = full_cybernetic_conversion }
+			}
+		}
+	}
+	cywizard_v4 = {
+		ignore_outfit_tags = yes
+		dna_modifiers = {
+			morph = {
+				mode = add
+				gene = gene_cyber_paint
+				template = cywizard_v4
+				value = 1.0
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				portrait_has_trait_trigger = { TRAIT = full_cybernetic_conversion }
+			}
+		}
+	}
+	cywizard_v6 = {
+		ignore_outfit_tags = yes
+		dna_modifiers = {
+			morph = {
+				mode = add
+				gene = gene_cyber_paint
+				template = cywizard_v6
+				value = 1.0
+			}
 			accessory = {
 				mode = add
 				gene = gene_cyber_face
-				template = cywizard
+				template = cywizard_v6
 				range = { 0 1 }
 			}
 		}
@@ -94,26 +84,72 @@ cyber_kings_cyber_face_mesh = {
 			base = 0
 			modifier = {
 				add = 100
-				is_female = no
 				portrait_has_trait_trigger = { TRAIT = full_cybernetic_conversion }
 			}
 		}
 	}
-	cyber_eye_mesh = {
+	cywizard_v7 = {
 		ignore_outfit_tags = yes
 		dna_modifiers = {
+			morph = {
+				mode = add
+				gene = gene_cyber_paint
+				template = cywizard_v7
+				value = 1.0
+			}
 			accessory = {
 				mode = add
 				gene = gene_cyber_face
-				template = cyber_eye
+				template = cywizard_v7
 				range = { 0 1 }
 			}
 		}
 		weight = {
 			base = 0
 			modifier = {
-				add = 90
-				is_female = no
+				add = 100
+				portrait_has_trait_trigger = { TRAIT = full_cybernetic_conversion }
+			}
+		}
+	}
+	cywizard_v8 = {
+		ignore_outfit_tags = yes
+		dna_modifiers = {
+			morph = {
+				mode = add
+				gene = gene_cyber_paint
+				template = cywizard_v8
+				value = 1.0
+			}
+			accessory = {
+				mode = add
+				gene = gene_cyber_face
+				template = cywizard_v8
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				portrait_has_trait_trigger = { TRAIT = full_cybernetic_conversion }
+			}
+		}
+	}
+	cyber_eye = {
+		ignore_outfit_tags = yes
+		dna_modifiers = {
+			morph = {
+				mode = add
+				gene = gene_cyber_paint
+				template = cyber_eye
+				value = 1.0
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
 				NOT = { portrait_has_trait_trigger = { TRAIT = full_cybernetic_conversion } }
 				OR = {
 					portrait_has_trait_trigger = { TRAIT = martial_implant_1 }
@@ -126,7 +162,6 @@ cyber_kings_cyber_face_mesh = {
 		}
 	}
 }
-
 cyber_kings_cyber_arm_mesh = {
 	usage = game
 	selection_behavior = max
@@ -144,11 +179,522 @@ cyber_kings_cyber_arm_mesh = {
 			base = 0
 			modifier = {
 				add = 100
-				is_female = no
 				OR = {
 					portrait_has_trait_trigger = { TRAIT = cybernetic_arm }
 					portrait_has_trait_trigger = { TRAIT = full_cybernetic_conversion }
 				}
+			}
+		}
+	}
+}
+cyber_kings_cyber_leg_mesh = {
+	usage = game
+	selection_behavior = max
+	cyber_leg_mesh = {
+		ignore_outfit_tags = yes
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = gene_cyber_leg
+				template = cyber_leg
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				OR = {
+					portrait_has_trait_trigger = { TRAIT = cybernetic_leg }
+					portrait_has_trait_trigger = { TRAIT = full_cybernetic_conversion }
+				}
+			}
+		}
+	}
+}
+
+# ---- Cywizards / immortals keep their hair (vanilla baldness is driven by age, which is millennia for them)
+cyber_kings_immortal_hair = {
+	usage = game
+	priority = 11
+	selection_behavior = max
+	immortal_no_baldness = {
+		dna_modifiers = {
+			morph = {
+				mode = add
+				gene = gene_balding_hair_effect
+				template = no_baldness
+				value = 1
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 1000
+				exists = this
+				has_trait_with_flag = is_immortal
+			}
+		}
+	}
+}
+
+# ---- named Cywizards (gen_cyber_named.py): own faces, El Elyon's gilded arms, hidden hair/beard/headgear
+cyber_kings_named_cywizard_face = {
+	usage = game
+	selection_behavior = max
+	priority = 5
+	el_elyon = {
+		ignore_outfit_tags = yes
+		dna_modifiers = {
+			morph = {
+				mode = add
+				gene = gene_cyber_paint
+				template = cywizard_el_elyon
+				value = 1.0
+			}
+			accessory = {
+				mode = add
+				gene = gene_cyber_face
+				template = cywizard_el_elyon
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 1000
+				exists = this
+				exists = character:777777
+				this = character:777777
+			}
+		}
+	}
+	adonai = {
+		ignore_outfit_tags = yes
+		dna_modifiers = {
+			morph = {
+				mode = add
+				gene = gene_cyber_paint
+				template = cywizard_adonai
+				value = 1.0
+			}
+			accessory = {
+				mode = add
+				gene = gene_cyber_face
+				template = cywizard_adonai
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 1000
+				exists = this
+				exists = character:777125
+				this = character:777125
+			}
+		}
+	}
+	eosphorus = {
+		ignore_outfit_tags = yes
+		dna_modifiers = {
+			morph = {
+				mode = add
+				gene = gene_cyber_paint
+				template = cywizard_eosphorus
+				value = 1.0
+			}
+			accessory = {
+				mode = add
+				gene = gene_cyber_face
+				template = cywizard_eosphorus
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 1000
+				exists = this
+				exists = character:777126
+				this = character:777126
+			}
+		}
+	}
+}
+cyber_kings_named_cywizard_arms = {
+	usage = game
+	selection_behavior = max
+	priority = 5
+	el_elyon = {
+		ignore_outfit_tags = yes
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = gene_cyber_arm
+				template = el_elyon_arms
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 1000
+				exists = this
+				exists = character:777777
+				this = character:777777
+			}
+		}
+	}
+}
+cyber_kings_named_cywizard_hide = {
+	usage = game
+	selection_behavior = max
+	priority = 10
+	el_elyon = {
+		ignore_outfit_tags = yes
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = no_headgear
+				range = { 0 1 }
+			}
+			accessory = {
+				mode = add
+				gene = secondary_headgears
+				template = no_headgear
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 1000
+				exists = this
+				exists = character:777777
+				this = character:777777
+			}
+		}
+	}
+	adonai = {
+		ignore_outfit_tags = yes
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = no_headgear
+				range = { 0 1 }
+			}
+			accessory = {
+				mode = add
+				gene = secondary_headgears
+				template = no_headgear
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 1000
+				exists = this
+				exists = character:777125
+				this = character:777125
+			}
+		}
+	}
+	eosphorus = {
+		ignore_outfit_tags = yes
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = no_headgear
+				range = { 0 1 }
+			}
+			accessory = {
+				mode = add
+				gene = secondary_headgears
+				template = no_headgear
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 1000
+				exists = this
+				exists = character:777126
+				this = character:777126
+			}
+		}
+	}
+	cywizard_no_headgear = {
+		ignore_outfit_tags = yes
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = no_headgear
+				range = { 0 1 }
+			}
+			accessory = {
+				mode = add
+				gene = secondary_headgears
+				template = no_headgear
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				exists = this
+				portrait_has_trait_trigger = { TRAIT = full_cybernetic_conversion }
+				is_in_army = no
+			}
+		}
+	}
+}
+
+# ---- Cybernetic eyes (gen_cyber_eyes.py): vanilla eyes off, cyber eye mesh on. Named > Cywizard > martial implant level.
+cyber_kings_cyber_eyes = {
+	usage = game
+	priority = 20
+	selection_behavior = max
+	eyes_el_elyon = {
+		ignore_outfit_tags = yes
+		dna_modifiers = {
+			accessory = {
+				mode = modify
+				gene = eye_accessory
+				template = cyber_eyes_adonai
+				value = 0.5
+			}
+			morph = {
+				mode = replace
+				gene = gene_eye_shut
+				template = eye_shut_pos
+				value = 0.35
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 1000
+				exists = this
+				OR = {
+					this = character:777777
+				}
+			}
+		}
+	}
+	eyes_adonai = {
+		ignore_outfit_tags = yes
+		dna_modifiers = {
+			accessory = {
+				mode = modify
+				gene = eye_accessory
+				template = cyber_eyes_el_elyon
+				value = 0.5
+			}
+			morph = {
+				mode = replace
+				gene = gene_eye_shut
+				template = eye_shut_pos
+				value = 0.35
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 1000
+				exists = this
+				OR = {
+					this = character:777125
+				}
+			}
+		}
+	}
+	eyes_eosphorus = {
+		ignore_outfit_tags = yes
+		dna_modifiers = {
+			accessory = {
+				mode = modify
+				gene = eye_accessory
+				template = cyber_eyes_eosphorus
+				value = 0.5
+			}
+			morph = {
+				mode = replace
+				gene = gene_eye_shut
+				template = eye_shut_pos
+				value = 0.35
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 1000
+				exists = this
+				OR = {
+					this = character:777126
+				}
+			}
+		}
+	}
+	eyes_cywizard = {
+		ignore_outfit_tags = yes
+		dna_modifiers = {
+			accessory = {
+				mode = modify
+				gene = eye_accessory
+				template = cyber_eyes_cywizard
+				value = 0.5
+			}
+			morph = {
+				mode = replace
+				gene = gene_eye_shut
+				template = eye_shut_pos
+				value = 0.35
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 500
+				exists = this
+				portrait_has_trait_trigger = { TRAIT = full_cybernetic_conversion }
+			}
+		}
+	}
+	eyes_martial_5 = {
+		ignore_outfit_tags = yes
+		dna_modifiers = {
+			accessory = {
+				mode = modify
+				gene = eye_accessory
+				template = cyber_eyes_martial_5
+				value = 0.5
+			}
+			morph = {
+				mode = replace
+				gene = gene_eye_shut
+				template = eye_shut_pos
+				value = 0.35
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 105
+				exists = this
+				NOT = { portrait_has_trait_trigger = { TRAIT = full_cybernetic_conversion } }
+				portrait_has_trait_trigger = { TRAIT = martial_implant_5 }
+			}
+		}
+	}
+	eyes_martial_4 = {
+		ignore_outfit_tags = yes
+		dna_modifiers = {
+			accessory = {
+				mode = modify
+				gene = eye_accessory
+				template = cyber_eyes_martial_4
+				value = 0.5
+			}
+			morph = {
+				mode = replace
+				gene = gene_eye_shut
+				template = eye_shut_pos
+				value = 0.35
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 104
+				exists = this
+				NOT = { portrait_has_trait_trigger = { TRAIT = full_cybernetic_conversion } }
+				portrait_has_trait_trigger = { TRAIT = martial_implant_4 }
+			}
+		}
+	}
+	eyes_martial_3 = {
+		ignore_outfit_tags = yes
+		dna_modifiers = {
+			accessory = {
+				mode = modify
+				gene = eye_accessory
+				template = cyber_eyes_martial_3
+				value = 0.5
+			}
+			morph = {
+				mode = replace
+				gene = gene_eye_shut
+				template = eye_shut_pos
+				value = 0.35
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 103
+				exists = this
+				NOT = { portrait_has_trait_trigger = { TRAIT = full_cybernetic_conversion } }
+				portrait_has_trait_trigger = { TRAIT = martial_implant_3 }
+			}
+		}
+	}
+	eyes_martial_2 = {
+		ignore_outfit_tags = yes
+		dna_modifiers = {
+			accessory = {
+				mode = modify
+				gene = eye_accessory
+				template = cyber_eyes_martial_2
+				value = 0.5
+			}
+			morph = {
+				mode = replace
+				gene = gene_eye_shut
+				template = eye_shut_pos
+				value = 0.35
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 102
+				exists = this
+				NOT = { portrait_has_trait_trigger = { TRAIT = full_cybernetic_conversion } }
+				portrait_has_trait_trigger = { TRAIT = martial_implant_2 }
+			}
+		}
+	}
+	eyes_martial_1 = {
+		ignore_outfit_tags = yes
+		dna_modifiers = {
+			accessory = {
+				mode = modify
+				gene = eye_accessory
+				template = cyber_eyes_martial_1
+				value = 0.5
+			}
+			morph = {
+				mode = replace
+				gene = gene_eye_shut
+				template = eye_shut_pos
+				value = 0.35
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 101
+				exists = this
+				NOT = { portrait_has_trait_trigger = { TRAIT = full_cybernetic_conversion } }
+				portrait_has_trait_trigger = { TRAIT = martial_implant_1 }
 			}
 		}
 	}

@@ -1,0 +1,19 @@
+﻿pdxmesh = {
+	name = "female_cywizard_v7_01_mesh"
+	file = "female_cywizard_v7_01.mesh"
+
+	meshsettings = {
+		name = "female_cywizard_v7_01Shape"
+		index = 0
+		texture_diffuse = "female_cywizard_v7_01_diffuse.dds"
+		texture_normal = "female_cywizard_v7_01_normal.dds"
+		texture_specular = "female_cywizard_v7_01_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "female_cywizard_v7_01_entity"
+	pdxmesh = "female_cywizard_v7_01_mesh"
+}
