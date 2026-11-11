@@ -30,7 +30,7 @@ world_empire0223 = {
 	duchies = { d_duchy0091 d_duchy0122 d_duchy0162 d_duchy0196 d_duchy0223 }
 }
 world_united_states = {
-	duchies = { d_florida d_duchy0184 d_duchy0198 d_nashville d_duchy0239 d_duchy0291 d_duchy0244 d_chesapeake_bay d_duchy0272 }
+	duchies = { d_florida d_duchy0198 d_nashville d_duchy0239 d_duchy0291 d_duchy0244 d_chesapeake_bay d_duchy0272 }
 }
 world_latin_america = {
 	duchies = { d_duchy0106 d_rio d_duchy0167 d_duchy0234 d_duchy0243 d_duchy0247 d_duchy0276 }
