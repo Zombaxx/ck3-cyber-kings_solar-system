@@ -13924,14 +13924,6 @@ d_duchy0126 = {
 	1066.1.1 = { holder = 101505 government = feudal_government }
 	1066.1.1 = { liege = e_united_states }
 }
-k_the_south = {
-	930.1.1 = { holder = 101770 }
-	1013.1.1 = { holder = 101771 }
-	1056.1.1 = { holder = 101772 }
-	1063.1.1 = { holder = 101775 government = feudal_government }
-	1065.1.1 = { holder = 0 }
-	1066.1.1 = { liege = e_united_states }
-}
 d_florida = {
 	930.1.1 = { holder = 101770 }
 	1013.1.1 = { holder = 101771 }
@@ -14677,7 +14669,6 @@ c_province0250 = {
 }
 d_duchy0272 = {
 	1066.1.1 = { holder = 102725 government = feudal_government }
-	1066.1.1 = { liege = k_kingdom0272 }
 	1066.9.15 = { liege = 0 }
 }
 
@@ -19346,7 +19337,6 @@ d_duchy0423 = {
 	1035.1.1 = { holder = 104231 }
 	1056.1.1 = { holder = 104232 }
 	1057.1.1 = { holder = 104235 government = tribal_government }
-	1066.1.1 = { liege = k_kingdom0423 }
 	1066.9.15 = { liege = 0 }
 }
 d_duchy0422 = {
@@ -19354,7 +19344,6 @@ d_duchy0422 = {
 	1030.1.1 = { holder = 104221 }
 	1031.1.1 = { holder = 104222 }
 	1059.1.1 = { holder = 104225 government = tribal_government }
-	1066.1.1 = { liege = k_kingdom0423 }
 	1066.1.1 = { liege = e_empire0836 }
 }
 c_province0433 = {
@@ -24100,11 +24089,7 @@ k_texas = {
 }
 
 ########## k_kingdom0184
-k_kingdom0184 = {
-	938.1.1 = { holder = 101840 }
-	1014.1.1 = { holder = 101841 }
-	1039.1.1 = { holder = 101842 }
-	1052.1.1 = { holder = 101845 government = feudal_government }
-	1065.1.1 = { holder = 0 }
-	1066.1.1 = { liege = e_united_states }
+########## h_eurasia
+h_eurasia = {
+	1066.1.1 = { holder = 107175 }	# Illuminious, the Cyborg of Eurasia; de facto realm = his former Eurasian empire
 }
