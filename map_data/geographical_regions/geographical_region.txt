@@ -299,10 +299,10 @@ region_e_empire0009 = {
 	empires = { e_empire0009 }
 }
 region_e_empire0024 = {
-	empires = { e_empire0024 }
+	empires = { e_empire0048 }
 }
 region_e_empire0041 = {
-	empires = { e_empire0041 }
+	empires = { e_empire0305 }
 }
 region_e_empire0046 = {
 	empires = { e_empire0046 }
@@ -323,7 +323,7 @@ region_e_latin_america = {
 	empires = { e_latin_america }
 }
 region_e_empire0302 = {
-	empires = { e_empire0302 }
+	empires = { e_empire0372 }
 }
 region_e_empire0305 = {
 	empires = { e_empire0305 }
@@ -332,19 +332,19 @@ region_e_empire0350 = {
 	empires = { e_empire0350 }
 }
 region_e_empire0351 = {
-	empires = { e_empire0351 }
+	empires = { e_empire0372 }
 }
 region_e_empire0372 = {
 	empires = { e_empire0372 }
 }
 region_e_empire0383 = {
-	empires = { e_empire0383 }
+	empires = { e_empire0504 }
 }
 region_e_empire0393 = {
 	empires = { e_empire0393 }
 }
 region_e_empire0454 = {
-	empires = { e_empire0454 }
+	empires = { e_empire0604 }
 }
 region_e_empire0504 = {
 	empires = { e_empire0504 }
@@ -356,7 +356,7 @@ region_e_european_union = {
 	empires = { e_european_union }
 }
 region_e_empire0560 = {
-	empires = { e_empire0560 }
+	empires = { e_empire0750 }
 }
 region_e_empire0604 = {
 	empires = { e_empire0604 }
@@ -389,7 +389,7 @@ region_e_empire1102 = {
 	empires = { e_empire1102 }
 }
 region_e_empire1145 = {
-	empires = { e_empire1145 }
+	empires = { e_empire1175 }
 }
 region_e_empire1175 = {
 	empires = { e_empire1175 }
@@ -398,7 +398,7 @@ region_e_empire1184 = {
 	empires = { e_empire1184 }
 }
 region_e_empire1252 = {
-	empires = { e_empire1252 }
+	empires = { e_empire1175 }
 }
 region_e_empire1322 = {
 	empires = { e_empire1322 }
@@ -416,52 +416,52 @@ region_e_empire1460 = {
 	empires = { e_empire1460 }
 }
 region_e_empire1508 = {
-	empires = { e_empire1508 }
+	empires = { e_empire1522 }
 }
 region_e_empire1513 = {
-	empires = { e_empire1513 }
+	empires = { e_empire1460 }
 }
 region_e_empire1522 = {
 	empires = { e_empire1522 }
 }
 region_e_empire1530 = {
-	empires = { e_empire1530 }
+	empires = { e_empire1522 }
 }
 region_e_empire1539 = {
-	empires = { e_empire1539 }
+	empires = { e_empire1719 }
 }
 region_e_empire1548 = {
-	empires = { e_empire1548 }
+	empires = { e_empire1522 }
 }
 region_e_empire1596 = {
 	empires = { e_empire1596 }
 }
 region_e_empire1682 = {
-	empires = { e_empire1682 }
+	empires = { e_empire1719 }
 }
 region_e_empire1702 = {
 	empires = { e_empire1702 }
 }
 region_e_empire1705 = {
-	empires = { e_empire1705 }
+	empires = { e_empire1719 }
 }
 region_e_empire1719 = {
 	empires = { e_empire1719 }
 }
 region_e_empire1771 = {
-	empires = { e_empire1771 }
+	empires = { e_empire1719 }
 }
 region_e_empire1780 = {
 	empires = { e_empire1780 }
 }
 region_e_empire1925 = {
-	empires = { e_empire1925 }
+	empires = { e_empire2158 }
 }
 region_e_empire1994 = {
 	empires = { e_empire1994 }
 }
 region_e_empire2009 = {
-	empires = { e_empire2009 }
+	empires = { e_empire1780 }
 }
 region_e_empire2014 = {
 	empires = { e_empire2014 }
@@ -473,19 +473,19 @@ region_e_empire2049 = {
 	empires = { e_empire2049 }
 }
 region_e_empire2059 = {
-	empires = { e_empire2059 }
+	empires = { e_empire2014 }
 }
 region_e_empire2155 = {
-	empires = { e_empire2155 }
+	empires = { e_empire2014 }
 }
 region_e_empire2158 = {
 	empires = { e_empire2158 }
 }
 region_e_empire2174 = {
-	empires = { e_empire2174 }
+	empires = { e_empire2158 }
 }
 region_e_empire2176 = {
-	empires = { e_empire2176 }
+	empires = { e_empire2158 }
 }
 
 # ---- vanilla region keys, re-homed round-robin so vanilla script keeps resolving ----
@@ -493,10 +493,10 @@ global_flood_region = {
 	empires = { e_empire0009 }
 }
 yellow_river_region = {
-	empires = { e_empire0024 }
+	empires = { e_empire0048 }
 }
 yangtze_river_region = {
-	empires = { e_empire0041 }
+	empires = { e_empire0305 }
 }
 pearl_river_region = {
 	empires = { e_empire0046 }
@@ -517,7 +517,7 @@ nile_river_region = {
 	empires = { e_latin_america }
 }
 niger_river_region = {
-	empires = { e_empire0302 }
+	empires = { e_empire0372 }
 }
 po_river_region = {
 	empires = { e_empire0305 }
@@ -526,19 +526,19 @@ rhine_river_region = {
 	empires = { e_empire0350 }
 }
 elbe_river_region = {
-	empires = { e_empire0351 }
+	empires = { e_empire0372 }
 }
 rhone_river_region = {
 	empires = { e_empire0372 }
 }
 garonne_river_region = {
-	empires = { e_empire0383 }
+	empires = { e_empire0504 }
 }
 seine_river_region = {
 	empires = { e_empire0393 }
 }
 loire_river_region = {
-	empires = { e_empire0454 }
+	empires = { e_empire0604 }
 }
 vistula_river_region = {
 	empires = { e_empire0504 }
@@ -550,7 +550,7 @@ dniester_river_region = {
 	empires = { e_european_union }
 }
 dnieper_river_region = {
-	empires = { e_empire0560 }
+	empires = { e_empire0750 }
 }
 daugava_river_region = {
 	empires = { e_empire0604 }
@@ -583,7 +583,7 @@ godavari_river_region = {
 	empires = { e_empire1102 }
 }
 mahanadi_river_region = {
-	empires = { e_empire1145 }
+	empires = { e_empire1175 }
 }
 tapti_river_region = {
 	empires = { e_empire1175 }
@@ -592,7 +592,7 @@ himalaya_earthquake_region = {
 	empires = { e_empire1184 }
 }
 sichuan_myanmar_earthquake_region = {
-	empires = { e_empire1252 }
+	empires = { e_empire1175 }
 }
 north_china_earthquake_region = {
 	empires = { e_empire1322 }
@@ -610,52 +610,52 @@ north_pacific_earthquake_region = {
 	empires = { e_empire1460 }
 }
 world_asia_southeast_islands_weak_earthquake_region = {
-	empires = { e_empire1508 }
+	empires = { e_empire1522 }
 }
 world_asia_north_east_and_korea_weak_earthquake_region = {
-	empires = { e_empire1513 }
+	empires = { e_empire1460 }
 }
 world_asia_north_east_and_korea = {
 	empires = { e_empire1522 }
 }
 world_europe_west_britannia = {
-	empires = { e_empire1530 }
+	empires = { e_empire1522 }
 }
 world_europe_west_germania = {
-	empires = { e_empire1539 }
+	empires = { e_empire1719 }
 }
 world_europe_west_francia = {
-	empires = { e_empire1548 }
+	empires = { e_empire1522 }
 }
 world_europe_west_iberia = {
 	empires = { e_empire1596 }
 }
 world_europe_west = {
-	empires = { e_empire1682 }
+	empires = { e_empire1719 }
 }
 world_europe_north = {
 	empires = { e_empire1702 }
 }
 world_europe_south_east = {
-	empires = { e_empire1705 }
+	empires = { e_empire1719 }
 }
 world_europe_south_italy = {
 	empires = { e_empire1719 }
 }
 world_europe_south = {
-	empires = { e_empire1771 }
+	empires = { e_empire1719 }
 }
 world_europe_east = {
 	empires = { e_empire1780 }
 }
 world_asia_minor = {
-	empires = { e_empire1925 }
+	empires = { e_empire2158 }
 }
 world_middle_east_jerusalem = {
 	empires = { e_empire1994 }
 }
 world_middle_east_arabia = {
-	empires = { e_empire2009 }
+	empires = { e_empire1780 }
 }
 world_middle_east_persia = {
 	empires = { e_empire2014 }
@@ -667,28 +667,28 @@ world_india_bengal = {
 	empires = { e_empire2049 }
 }
 world_india_rajastan = {
-	empires = { e_empire2059 }
+	empires = { e_empire2014 }
 }
 custom_lanka = {
-	empires = { e_empire2155 }
+	empires = { e_empire2014 }
 }
 world_africa_north_west = {
 	empires = { e_empire2158 }
 }
 world_africa_north_east = {
-	empires = { e_empire2174 }
+	empires = { e_empire2158 }
 }
 world_africa_sahara = {
-	empires = { e_empire2176 }
+	empires = { e_empire2158 }
 }
 world_africa_north = {
 	empires = { e_empire0009 }
 }
 world_africa_west = {
-	empires = { e_empire0024 }
+	empires = { e_empire0048 }
 }
 world_africa_east = {
-	empires = { e_empire0041 }
+	empires = { e_empire0305 }
 }
 world_africa = {
 	empires = { e_empire0046 }
@@ -709,7 +709,7 @@ world_siberia = {
 	empires = { e_latin_america }
 }
 world_tibet = {
-	empires = { e_empire0302 }
+	empires = { e_empire0372 }
 }
 world_himalaya = {
 	empires = { e_empire0305 }
@@ -718,19 +718,19 @@ world_burma = {
 	empires = { e_empire0350 }
 }
 world_asia = {
-	empires = { e_empire0351 }
+	empires = { e_empire0372 }
 }
 world_asia_east = {
 	empires = { e_empire0372 }
 }
 world_asia_shiwei_steppe = {
-	empires = { e_empire0383 }
+	empires = { e_empire0504 }
 }
 world_asia_khitan_steppe = {
 	empires = { e_empire0393 }
 }
 world_asia_north_east = {
-	empires = { e_empire0454 }
+	empires = { e_empire0604 }
 }
 world_asia_sakhalin_hokkaido = {
 	empires = { e_empire0504 }
@@ -742,7 +742,7 @@ world_asia_korea = {
 	empires = { e_european_union }
 }
 world_asia_southeast = {
-	empires = { e_empire0560 }
+	empires = { e_empire0750 }
 }
 world_asia_southeast_mainland = {
 	empires = { e_empire0604 }
@@ -775,7 +775,7 @@ world_asia_indonesia = {
 	empires = { e_empire1102 }
 }
 world_asia_china = {
-	empires = { e_empire1145 }
+	empires = { e_empire1175 }
 }
 world_asia_and_india = {
 	empires = { e_empire1175 }
@@ -784,7 +784,7 @@ custom_brunei_region = {
 	empires = { e_empire1184 }
 }
 custom_panda_region = {
-	empires = { e_empire1252 }
+	empires = { e_empire1175 }
 }
 custom_tai_migration_origin = {
 	empires = { e_empire1322 }
@@ -803,52 +803,52 @@ world_steppe = {
 	generate_modifiers = yes
 }
 world_europe = {
-	empires = { e_empire1508 }
+	empires = { e_empire1522 }
 }
 world_middle_east = {
-	empires = { e_empire1513 }
+	empires = { e_empire1460 }
 }
 world_india = {
 	empires = { e_empire1522 }
 }
 material_wood_elm = {
-	empires = { e_empire1530 }
+	empires = { e_empire1522 }
 }
 material_wood_walnut = {
-	empires = { e_empire1539 }
+	empires = { e_empire1719 }
 }
 material_wood_maple = {
-	empires = { e_empire1548 }
+	empires = { e_empire1522 }
 }
 material_woods_pine_and_fir = {
 	empires = { e_empire1596 }
 }
 material_woods_subsaharan = {
-	empires = { e_empire1682 }
+	empires = { e_empire1719 }
 }
 material_woods_padauk = {
 	empires = { e_empire1702 }
 }
 material_woods_india = {
-	empires = { e_empire1705 }
+	empires = { e_empire1719 }
 }
 material_woods_india_burma = {
 	empires = { e_empire1719 }
 }
 material_woods_ebony = {
-	empires = { e_empire1771 }
+	empires = { e_empire1719 }
 }
 material_woods_yew = {
 	empires = { e_empire1780 }
 }
 material_woods_bamboo = {
-	empires = { e_empire1925 }
+	empires = { e_empire2158 }
 }
 material_woods_cherry = {
 	empires = { e_empire1994 }
 }
 material_woods_dogwood = {
-	empires = { e_empire2009 }
+	empires = { e_empire1780 }
 }
 material_woods_hazel = {
 	empires = { e_empire2014 }
@@ -860,28 +860,28 @@ material_woods_palm = {
 	empires = { e_empire2049 }
 }
 material_woods_mulberry = {
-	empires = { e_empire2059 }
+	empires = { e_empire2014 }
 }
 material_woods_mediterranean = {
-	empires = { e_empire2155 }
+	empires = { e_empire2014 }
 }
 material_woods_sri_lanka = {
 	empires = { e_empire2158 }
 }
 material_woods_asia_east = {
-	empires = { e_empire2174 }
+	empires = { e_empire2158 }
 }
 material_woods_asia_southeast = {
-	empires = { e_empire2176 }
+	empires = { e_empire2158 }
 }
 material_woods_asia_northeast = {
 	empires = { e_empire0009 }
 }
 material_cloth_no_silk = {
-	empires = { e_empire0024 }
+	empires = { e_empire0048 }
 }
 material_cloth_linen = {
-	empires = { e_empire0041 }
+	empires = { e_empire0305 }
 }
 material_cloth_cotton = {
 	empires = { e_empire0046 }
@@ -902,7 +902,7 @@ material_hsb_deer_antler = {
 	empires = { e_latin_america }
 }
 material_hsb_boar_tusk = {
-	empires = { e_empire0302 }
+	empires = { e_empire0372 }
 }
 material_hsb_ivory_imported = {
 	empires = { e_empire0305 }
@@ -911,20 +911,20 @@ material_hsb_ivory_native = {
 	empires = { e_empire0350 }
 }
 material_hsb_mother_of_pearl = {
-	empires = { e_empire0351 }
+	empires = { e_empire0372 }
 }
 material_hsb_tortoiseshell = {
 	empires = { e_empire0372 }
 }
 material_hsb_seashell = {
-	empires = { e_empire0383 }
+	empires = { e_empire0504 }
 }
 world_persian_empire = {
 	empires = { e_empire0393 }
 	generate_modifiers = yes
 }
 custom_eastern_baltic = {
-	empires = { e_empire0454 }
+	empires = { e_empire0604 }
 }
 custom_frisia = {
 	empires = { e_empire0504 }
@@ -936,7 +936,7 @@ custom_lotharingia = {
 	empires = { e_european_union }
 }
 custom_bavaria = {
-	empires = { e_empire0560 }
+	empires = { e_empire0750 }
 }
 custom_germany = {
 	empires = { e_empire0604 }
@@ -969,7 +969,7 @@ custom_ryukyu = {
 	empires = { e_empire1102 }
 }
 custom_navarra = {
-	empires = { e_empire1145 }
+	empires = { e_empire1175 }
 }
 custom_catalan = {
 	empires = { e_empire1175 }
@@ -978,7 +978,7 @@ custom_portuguese = {
 	empires = { e_empire1184 }
 }
 custom_occitan = {
-	empires = { e_empire1252 }
+	empires = { e_empire1175 }
 }
 custom_andalusian = {
 	empires = { e_empire1322 }
@@ -996,52 +996,52 @@ custom_scotland = {
 	empires = { e_empire1460 }
 }
 custom_burgundy = {
-	empires = { e_empire1508 }
+	empires = { e_empire1522 }
 }
 custom_roman_empire = {
-	empires = { e_empire1513 }
+	empires = { e_empire1460 }
 }
 custom_roman_syria_palestina = {
 	empires = { e_empire1522 }
 }
 custom_roman_aegyptus = {
-	empires = { e_empire1530 }
+	empires = { e_empire1522 }
 }
 custom_roman_cyrenaica = {
-	empires = { e_empire1539 }
+	empires = { e_empire1719 }
 }
 custom_roman_africa = {
-	empires = { e_empire1548 }
+	empires = { e_empire1522 }
 }
 custom_roman_illyricum = {
 	empires = { e_empire1596 }
 }
 custom_roman_hispania = {
-	empires = { e_empire1682 }
+	empires = { e_empire1719 }
 }
 custom_roman_mauretania = {
 	empires = { e_empire1702 }
 }
 custom_roman_mesopotamia = {
-	empires = { e_empire1705 }
+	empires = { e_empire1719 }
 }
 custom_roman_caledonia = {
 	empires = { e_empire1719 }
 }
 custom_roman_hibernia = {
-	empires = { e_empire1771 }
+	empires = { e_empire1719 }
 }
 custom_roman_full_borders = {
 	empires = { e_empire1780 }
 }
 custom_eastern_roman_empire = {
-	empires = { e_empire1925 }
+	empires = { e_empire2158 }
 }
 custom_theodosian_ere = {
 	empires = { e_empire1994 }
 }
 custom_eastern_balkans = {
-	empires = { e_empire2009 }
+	empires = { e_empire1780 }
 }
 custom_outremer = {
 	empires = { e_empire2014 }
@@ -1053,28 +1053,28 @@ custom_hungary = {
 	empires = { e_empire2049 }
 }
 custom_carpathia = {
-	empires = { e_empire2059 }
+	empires = { e_empire2014 }
 }
 custom_europe_western_germany = {
-	empires = { e_empire2155 }
+	empires = { e_empire2014 }
 }
 custom_europe_eastern_germany = {
 	empires = { e_empire2158 }
 }
 custom_ganges_plain = {
-	empires = { e_empire2174 }
+	empires = { e_empire2158 }
 }
 custom_bactria = {
-	empires = { e_empire2176 }
+	empires = { e_empire2158 }
 }
 custom_west_francia_minus_mediterranean = {
 	empires = { e_empire0009 }
 }
 custom_south_francia = {
-	empires = { e_empire0024 }
+	empires = { e_empire0048 }
 }
 custom_southern_england = {
-	empires = { e_empire0041 }
+	empires = { e_empire0305 }
 }
 custom_northern_england = {
 	empires = { e_empire0046 }
@@ -1095,7 +1095,7 @@ custom_south_slavia = {
 	empires = { e_latin_america }
 }
 custom_greater_armenia = {
-	empires = { e_empire0302 }
+	empires = { e_empire0372 }
 }
 custom_normandy_and_adjacent = {
 	empires = { e_empire0305 }
@@ -1105,19 +1105,19 @@ custom_ireland = {
 	generate_modifiers = yes
 }
 custom_k_epirus = {
-	empires = { e_empire0351 }
+	empires = { e_empire0372 }
 }
 custom_k_thessalonika = {
 	empires = { e_empire0372 }
 }
 custom_k_hellas = {
-	empires = { e_empire0383 }
+	empires = { e_empire0504 }
 }
 custom_sahara_proper = {
 	empires = { e_empire0393 }
 }
 custom_sahel_proper = {
-	empires = { e_empire0454 }
+	empires = { e_empire0604 }
 }
 custom_sub_saharan_africa_immediate = {
 	empires = { e_empire0504 }
@@ -1129,7 +1129,7 @@ custom_carolingian_iberia = {
 	empires = { e_european_union }
 }
 custom_carolingian_germany = {
-	empires = { e_empire0560 }
+	empires = { e_empire0750 }
 }
 custom_core_switzerland = {
 	empires = { e_empire0604 }
@@ -1163,7 +1163,7 @@ custom_carthage = {
 	empires = { e_empire1102 }
 }
 custom_tripolitania = {
-	empires = { e_empire1145 }
+	empires = { e_empire1175 }
 }
 custom_mauretania = {
 	empires = { e_empire1175 }
@@ -1172,7 +1172,7 @@ custom_carthago_nova = {
 	empires = { e_empire1184 }
 }
 custom_cumbria = {
-	empires = { e_empire1252 }
+	empires = { e_empire1175 }
 	generate_modifiers = yes
 }
 world_innovation_elephants = {
@@ -1193,52 +1193,52 @@ world_khorasan = {
 	empires = { e_empire1460 }
 }
 world_daylam = {
-	empires = { e_empire1508 }
+	empires = { e_empire1522 }
 }
 world_transoxiana = {
-	empires = { e_empire1513 }
+	empires = { e_empire1460 }
 }
 world_makran = {
 	empires = { e_empire1522 }
 }
 world_kabulistan = {
-	empires = { e_empire1530 }
+	empires = { e_empire1522 }
 }
 world_mesopotamia = {
-	empires = { e_empire1539 }
+	empires = { e_empire1719 }
 }
 world_jazira = {
-	empires = { e_empire1548 }
+	empires = { e_empire1522 }
 }
 special_mongol_empire_start_region = {
 	empires = { e_empire1596 }
 }
 special_mongol_empire_conquest_region_prio_1_alpha = {
-	empires = { e_empire1682 }
+	empires = { e_empire1719 }
 }
 special_mongol_empire_conquest_region_prio_1 = {
 	empires = { e_empire1702 }
 }
 special_mongol_empire_conquest_region_prio_2 = {
-	empires = { e_empire1705 }
+	empires = { e_empire1719 }
 }
 special_mongol_empire_conquest_region_prio_3 = {
 	empires = { e_empire1719 }
 }
 special_mongol_empire_conquest_region_prio_4 = {
-	empires = { e_empire1771 }
+	empires = { e_empire1719 }
 }
 special_mongol_empire_conquest_region_prio_5 = {
 	empires = { e_empire1780 }
 }
 special_mongol_empire_conquest_region_bonus = {
-	empires = { e_empire1925 }
+	empires = { e_empire2158 }
 }
 special_mongol_empire_conquest_all_regions = {
 	empires = { e_empire1994 }
 }
 special_mongol_empire_ilkhanate_region = {
-	empires = { e_empire2009 }
+	empires = { e_empire1780 }
 }
 ilkhanate_de_jure_region = {
 	empires = { e_empire2014 }
@@ -1250,28 +1250,28 @@ chagatai_de_jure_region = {
 	empires = { e_empire2049 }
 }
 special_mongol_empire_golden_horde_region = {
-	empires = { e_empire2059 }
+	empires = { e_empire2014 }
 }
 golden_horde_de_jure_region = {
-	empires = { e_empire2155 }
+	empires = { e_empire2014 }
 }
 special_mongol_empire_red_horde_region = {
 	empires = { e_empire2158 }
 }
 red_horde_de_jure_region = {
-	empires = { e_empire2174 }
+	empires = { e_empire2158 }
 }
 special_mongol_empire_white_horde_region = {
-	empires = { e_empire2176 }
+	empires = { e_empire2158 }
 }
 white_horde_de_jure_region = {
 	empires = { e_empire0009 }
 }
 special_mongol_empire_aarlud_khanate_region = {
-	empires = { e_empire0024 }
+	empires = { e_empire0048 }
 }
 aarlud_khanate_de_jure_region = {
-	empires = { e_empire0041 }
+	empires = { e_empire0305 }
 }
 special_mongol_empire_togskol_khanate_region = {
 	empires = { e_empire0046 }
@@ -1292,7 +1292,7 @@ great_yuan_de_jure_region = {
 	empires = { e_latin_america }
 }
 special_mongol_empire_blue_horde_region = {
-	empires = { e_empire0302 }
+	empires = { e_empire0372 }
 }
 blue_horde_de_jure_region = {
 	empires = { e_empire0305 }
@@ -1301,19 +1301,19 @@ special_mongol_empire_omnod_dalai_khanate_region = {
 	empires = { e_empire0350 }
 }
 omnod_dalai_khanate_de_jure_region = {
-	empires = { e_empire0351 }
+	empires = { e_empire0372 }
 }
 special_sicilian_culture_region = {
 	empires = { e_empire0372 }
 }
 special_cagot_region = {
-	empires = { e_empire0383 }
+	empires = { e_empire0504 }
 }
 ghw_region_northern_italy = {
 	empires = { e_empire0393 }
 }
 ghw_region_thessalonika = {
-	empires = { e_empire0454 }
+	empires = { e_empire0604 }
 }
 ghw_region_france = {
 	empires = { e_empire0504 }
@@ -1325,7 +1325,7 @@ ghw_region_greece = {
 	empires = { e_european_union }
 }
 ghw_region_england = {
-	empires = { e_empire0560 }
+	empires = { e_empire0750 }
 }
 ghw_region_caucasus = {
 	empires = { e_empire0604 }
@@ -1358,7 +1358,7 @@ ghw_region_germanic = {
 	empires = { e_empire1102 }
 }
 ghw_region_central_european = {
-	empires = { e_empire1145 }
+	empires = { e_empire1175 }
 }
 ghw_region_baltic = {
 	empires = { e_empire1175 }
@@ -1367,7 +1367,7 @@ ghw_region_arabia = {
 	empires = { e_empire1184 }
 }
 ghw_region_egypt = {
-	empires = { e_empire1252 }
+	empires = { e_empire1175 }
 }
 ghw_region_egypt_et_al = {
 	empires = { e_empire1322 }
@@ -1385,52 +1385,52 @@ ghw_region_eastern_middle_east = {
 	empires = { e_empire1460 }
 }
 ghw_region_caspian_steppe = {
-	empires = { e_empire1508 }
+	empires = { e_empire1522 }
 }
 ghw_region_north_africa = {
-	empires = { e_empire1513 }
+	empires = { e_empire1460 }
 }
 ghw_region_sicily = {
 	empires = { e_empire1522 }
 }
 ghw_region_afghanistan = {
-	empires = { e_empire1530 }
+	empires = { e_empire1522 }
 }
 ghw_region_ethiopia = {
-	empires = { e_empire1539 }
+	empires = { e_empire1719 }
 }
 ghw_region_horn_of_africa = {
-	empires = { e_empire1548 }
+	empires = { e_empire1522 }
 }
 ghw_region_the_sahel = {
 	empires = { e_empire1596 }
 }
 ghw_region_north_african_interior = {
-	empires = { e_empire1682 }
+	empires = { e_empire1719 }
 }
 ghw_region_subsahelian_africa = {
 	empires = { e_empire1702 }
 }
 ghw_region_western_sahara = {
-	empires = { e_empire1705 }
+	empires = { e_empire1719 }
 }
 ghw_region_eastern_sahara = {
 	empires = { e_empire1719 }
 }
 ghw_region_western_india = {
-	empires = { e_empire1771 }
+	empires = { e_empire1719 }
 }
 ghw_region_southern_france = {
 	empires = { e_empire1780 }
 }
 ghw_region_mongolia = {
-	empires = { e_empire1925 }
+	empires = { e_empire2158 }
 }
 ghw_region_scandinavia = {
 	empires = { e_empire1994 }
 }
 ghw_region_britannia = {
-	empires = { e_empire2009 }
+	empires = { e_empire1780 }
 }
 ghw_region_saxony = {
 	empires = { e_empire2014 }
@@ -1442,28 +1442,28 @@ ghw_region_poland = {
 	empires = { e_empire2049 }
 }
 ghw_region_steppe = {
-	empires = { e_empire2059 }
+	empires = { e_empire2014 }
 }
 ghw_region_hungary = {
-	empires = { e_empire2155 }
+	empires = { e_empire2014 }
 }
 ghw_region_wendish_lands = {
 	empires = { e_empire2158 }
 }
 ghw_region_mainland_greece = {
-	empires = { e_empire2174 }
+	empires = { e_empire2158 }
 }
 ghw_region_italy = {
-	empires = { e_empire2176 }
+	empires = { e_empire2158 }
 }
 ghw_region_finland_&_estonia = {
 	empires = { e_empire0009 }
 }
 ghw_region_northern_russia = {
-	empires = { e_empire0024 }
+	empires = { e_empire0048 }
 }
 ghw_region_southern_russia = {
-	empires = { e_empire0041 }
+	empires = { e_empire0305 }
 }
 ghw_region_siberia = {
 	empires = { e_empire0046 }
@@ -1484,7 +1484,7 @@ ghw_region_northern_india = {
 	empires = { e_latin_america }
 }
 ghw_region_khotan = {
-	empires = { e_empire0302 }
+	empires = { e_empire0372 }
 }
 ghw_region_southern_india = {
 	empires = { e_empire0305 }
@@ -1493,19 +1493,19 @@ ghw_region_southwestern_india = {
 	empires = { e_empire0350 }
 }
 ghw_region_the_ganges = {
-	empires = { e_empire0351 }
+	empires = { e_empire0372 }
 }
 ghw_region_non_ganges_india = {
 	empires = { e_empire0372 }
 }
 ghw_region_gujarat_&_rajputana = {
-	empires = { e_empire0383 }
+	empires = { e_empire0504 }
 }
 ghw_region_non_gujarat_or_rajputana_india = {
 	empires = { e_empire0393 }
 }
 ghw_region_lanka_&_bengal = {
-	empires = { e_empire0454 }
+	empires = { e_empire0604 }
 }
 ghw_region_middle_india = {
 	empires = { e_empire0504 }
@@ -1517,7 +1517,7 @@ islamic_heartlands = {
 	empires = { e_european_union }
 }
 dlc_fp1_region_core_north_sea = {
-	empires = { e_empire0560 }
+	empires = { e_empire0750 }
 }
 dlc_fp1_region_mysterious_stranger_locations = {
 	empires = { e_empire0604 }
@@ -1550,7 +1550,7 @@ dlc_fp1_region_eastern_adventure_targets_white_rus = {
 	empires = { e_empire1102 }
 }
 dlc_fp1_region_eastern_adventure_targets_vladimir = {
-	empires = { e_empire1145 }
+	empires = { e_empire1175 }
 }
 dlc_fp1_region_eastern_adventure_targets_ruthenia = {
 	empires = { e_empire1175 }
@@ -1559,7 +1559,7 @@ dlc_fp1_region_eastern_adventure_targets_estonia = {
 	empires = { e_empire1184 }
 }
 dlc_fp1_region_eastern_adventure_targets_zaporizhia = {
-	empires = { e_empire1252 }
+	empires = { e_empire1175 }
 }
 dlc_fp1_region_western_scandinavia_pool = {
 	empires = { e_empire1322 }
@@ -1577,52 +1577,52 @@ dlc_fp1_region_non_scandinavian_southern_baltic = {
 	empires = { e_empire1460 }
 }
 dlc_fp1_region_colonial_eastern_europe = {
-	empires = { e_empire1508 }
+	empires = { e_empire1522 }
 }
 dlc_fp1_achievement_far_from_home = {
-	empires = { e_empire1513 }
+	empires = { e_empire1460 }
 }
 dlc_fp1_achievement_king_of_all_the_isles = {
 	empires = { e_empire1522 }
 }
 dlc_fp1_achievement_vladimirs_second_choice = {
-	empires = { e_empire1530 }
+	empires = { e_empire1522 }
 }
 dlc_fp2_old_vasconia = {
-	empires = { e_empire1539 }
+	empires = { e_empire1719 }
 }
 dlc_fp2_old_vasconia_pushed = {
-	empires = { e_empire1548 }
+	empires = { e_empire1522 }
 }
 dlc_fp2_mediterranean_shoreline = {
 	empires = { e_empire1596 }
 }
 dlc_fp2_caucasian_iberia = {
-	empires = { e_empire1682 }
+	empires = { e_empire1719 }
 }
 dlc_fp2_form_aragon_region = {
 	empires = { e_empire1702 }
 }
 dlc_fp2_lyonese_monk_region = {
-	empires = { e_empire1705 }
+	empires = { e_empire1719 }
 }
 dlc_fp3_eastern_persian_frontier_regions = {
 	empires = { e_empire1719 }
 }
 dlc_fp3_greater_persian_frontier_regions = {
-	empires = { e_empire1771 }
+	empires = { e_empire1719 }
 }
 dlc_fp3_seljuk_birth_region = {
 	empires = { e_empire1780 }
 }
 dlc_ep1_achievement_rise_of_the_ghurids = {
-	empires = { e_empire1925 }
+	empires = { e_empire2158 }
 }
 dlc_ep1_region_south_east_europe = {
 	empires = { e_empire1994 }
 }
 dlc_ep1_hansa_trade_region = {
-	empires = { e_empire2009 }
+	empires = { e_empire1780 }
 }
 dlc_ep1_dutch_trade_region = {
 	empires = { e_empire2014 }
@@ -1634,28 +1634,28 @@ dlc_ep1_varangian_trade_region = {
 	empires = { e_empire2049 }
 }
 dlc_ep1_mongol_trade_region = {
-	empires = { e_empire2059 }
+	empires = { e_empire2014 }
 }
 dlc_ep1_iberia_trade_region = {
-	empires = { e_empire2155 }
+	empires = { e_empire2014 }
 }
 dlc_ep1_italian_trade_region = {
 	empires = { e_empire2158 }
 }
 dlc_ep1_levant_trade_region = {
-	empires = { e_empire2174 }
+	empires = { e_empire2158 }
 }
 dlc_ep1_arab_trade_region = {
-	empires = { e_empire2176 }
+	empires = { e_empire2158 }
 }
 dlc_ep1_persian_trade_region = {
 	empires = { e_empire0009 }
 }
 dlc_ep1_north_africa_trade_region = {
-	empires = { e_empire0024 }
+	empires = { e_empire0048 }
 }
 dlc_ep1_east_africa_trade_region = {
-	empires = { e_empire0041 }
+	empires = { e_empire0305 }
 }
 dlc_ep1_west_africa_trade_region = {
 	empires = { e_empire0046 }
@@ -1676,7 +1676,7 @@ dlc_mpo_1066_herders = {
 	empires = { e_latin_america }
 }
 dlc_mpo_1178_herders = {
-	empires = { e_empire0302 }
+	empires = { e_empire0372 }
 }
 dlc_mpo_867_nomads = {
 	empires = { e_empire0305 }
@@ -1685,19 +1685,19 @@ dlc_mpo_1066_nomads = {
 	empires = { e_empire0350 }
 }
 dlc_mpo_1178_nomads = {
-	empires = { e_empire0351 }
+	empires = { e_empire0372 }
 }
 kirghiz_homelands = {
 	empires = { e_empire0372 }
 }
 dlc_mpo_steppe_east_buryatia_addon = {
-	empires = { e_empire0383 }
+	empires = { e_empire0504 }
 }
 dlc_mpo_steppe_east_andong_addon = {
 	empires = { e_empire0393 }
 }
 dlc_mpo_steppe_east_china_addon = {
-	empires = { e_empire0454 }
+	empires = { e_empire0604 }
 }
 dlc_mpo_steppe_central_siberia_addon = {
 	empires = { e_empire0504 }
@@ -1709,7 +1709,7 @@ dlc_mpo_steppe_persia_expansion = {
 	empires = { e_european_union }
 }
 dlc_mpo_steppe_siberia_further_expansion = {
-	empires = { e_empire0560 }
+	empires = { e_empire0750 }
 }
 dlc_mpo_steppe_e_amur_expansion = {
 	empires = { e_empire0604 }
@@ -1742,7 +1742,7 @@ heritage_area_cumania = {
 	empires = { e_empire1102 }
 }
 dlc_tgp_swahili_coast_region = {
-	empires = { e_empire1145 }
+	empires = { e_empire1175 }
 }
 dlc_tgp_silk_road_route_region = {
 	empires = { e_empire1175 }
@@ -1751,7 +1751,7 @@ tgp_silk_road_region = {
 	empires = { e_empire1184 }
 }
 dlc_tgp_silk_road_route_china = {
-	empires = { e_empire1252 }
+	empires = { e_empire1175 }
 }
 tgp_silk_road_china_region = {
 	empires = { e_empire1322 }
@@ -1769,52 +1769,52 @@ tgp_silk_road_india_region = {
 	empires = { e_empire1460 }
 }
 dlc_tgp_silk_road_route_central_asia = {
-	empires = { e_empire1508 }
+	empires = { e_empire1522 }
 }
 tgp_silk_road_central_asia_region = {
-	empires = { e_empire1513 }
+	empires = { e_empire1460 }
 }
 dlc_tgp_silk_road_route_transcaspia = {
 	empires = { e_empire1522 }
 }
 tgp_silk_road_transcaspia_region = {
-	empires = { e_empire1530 }
+	empires = { e_empire1522 }
 }
 dlc_tgp_silk_road_route_occident = {
-	empires = { e_empire1539 }
+	empires = { e_empire1719 }
 }
 tgp_silk_road_occident_region = {
-	empires = { e_empire1548 }
+	empires = { e_empire1522 }
 }
 tgp_silk_road_asia_minor_minus_georgia = {
 	empires = { e_empire1596 }
 }
 dlc_tgp_mainland_southeast_asia_region = {
-	empires = { e_empire1682 }
+	empires = { e_empire1719 }
 }
 dlc_tgp_great_wall_shanhai = {
 	empires = { e_empire1702 }
 }
 dlc_tgp_great_wall_liaodong = {
-	empires = { e_empire1705 }
+	empires = { e_empire1719 }
 }
 dlc_tgp_grand_canal_region = {
 	empires = { e_empire1719 }
 }
 dlc_tgp_grand_canal_1_region = {
-	empires = { e_empire1771 }
+	empires = { e_empire1719 }
 }
 dlc_tgp_grand_canal_2_region = {
 	empires = { e_empire1780 }
 }
 dlc_tgp_grand_canal_3_region = {
-	empires = { e_empire1925 }
+	empires = { e_empire2158 }
 }
 dlc_tgp_grand_canal_4_region = {
 	empires = { e_empire1994 }
 }
 divergence_island_regions = {
-	empires = { e_empire2009 }
+	empires = { e_empire1780 }
 }
 sea_atlantic_ocean = {
 	empires = { e_empire2014 }
@@ -1826,28 +1826,28 @@ sea_baltic_sea = {
 	empires = { e_empire2049 }
 }
 sea_north_sea = {
-	empires = { e_empire2059 }
+	empires = { e_empire2014 }
 }
 sea_white_sea = {
-	empires = { e_empire2155 }
+	empires = { e_empire2014 }
 }
 sea_english_channel = {
 	empires = { e_empire2158 }
 }
 sea_irish_sea = {
-	empires = { e_empire2174 }
+	empires = { e_empire2158 }
 }
 sea_bay_of_biscay = {
-	empires = { e_empire2176 }
+	empires = { e_empire2158 }
 }
 sea_macaronesia = {
 	empires = { e_empire0009 }
 }
 sea_mediterranean_sea = {
-	empires = { e_empire0024 }
+	empires = { e_empire0048 }
 }
 sea_western_mediterranean_sea = {
-	empires = { e_empire0041 }
+	empires = { e_empire0305 }
 }
 sea_ionian_sea = {
 	empires = { e_empire0046 }
@@ -1868,7 +1868,7 @@ sea_gulf_of_guinea = {
 	empires = { e_latin_america }
 }
 sea_indian_ocean = {
-	empires = { e_empire0302 }
+	empires = { e_empire0372 }
 }
 sea_bay_of_somalia = {
 	empires = { e_empire0305 }
@@ -1877,19 +1877,19 @@ sea_swahili_coast = {
 	empires = { e_empire0350 }
 }
 sea_red_sea = {
-	empires = { e_empire0351 }
+	empires = { e_empire0372 }
 }
 sea_gulf_of_aden = {
 	empires = { e_empire0372 }
 }
 sea_persian_gulf = {
-	empires = { e_empire0383 }
+	empires = { e_empire0504 }
 }
 sea_arabian_sea = {
 	empires = { e_empire0393 }
 }
 sea_bay_of_bengal = {
-	empires = { e_empire0454 }
+	empires = { e_empire0604 }
 }
 sea_inland_steppe_seas = {
 	empires = { e_empire0504 }
@@ -1901,7 +1901,7 @@ sea_aral_sea = {
 	empires = { e_european_union }
 }
 hunt_animal_deer_region = {
-	empires = { e_empire0560 }
+	empires = { e_empire0750 }
 }
 hunt_animal_antelope_region = {
 	empires = { e_empire0604 }
@@ -1934,7 +1934,7 @@ board_game_fidchell_region = {
 	empires = { e_empire1102 }
 }
 world_central_asia = {
-	empires = { e_empire1145 }
+	empires = { e_empire1175 }
 }
 world_atlantic = {
 	empires = { e_empire1175 }
@@ -1943,7 +1943,7 @@ troy_region = {
 	empires = { e_empire1184 }
 }
 israel_region = {
-	empires = { e_empire1252 }
+	empires = { e_empire1175 }
 }
 mediteranean_coast = {
 	empires = { e_empire1322 }
@@ -1962,52 +1962,52 @@ seasonal_region_deccan = {
 	empires = { e_empire1460 }
 }
 seasonal_region_rajasthan = {
-	empires = { e_empire1508 }
+	empires = { e_empire1522 }
 }
 seasonal_region_bengal = {
-	empires = { e_empire1513 }
+	empires = { e_empire1460 }
 }
 seasonal_region_peninsular_southeast_asia = {
 	empires = { e_empire1522 }
 }
 seasonal_region_maritime_southeast_asia = {
-	empires = { e_empire1530 }
+	empires = { e_empire1522 }
 }
 seasonal_region_east_africa = {
-	empires = { e_empire1539 }
+	empires = { e_empire1719 }
 }
 seasonal_region_west_africa = {
-	empires = { e_empire1548 }
+	empires = { e_empire1522 }
 }
 mpo_region_permafrost = {
 	empires = { e_empire1596 }
 }
 cp4_music_area = {
-	empires = { e_empire1682 }
+	empires = { e_empire1719 }
 }
 sami_nomad_area = {
 	empires = { e_empire1702 }
 }
 karelia_nomad_area = {
-	empires = { e_empire1705 }
+	empires = { e_empire1719 }
 }
 arab_nomad_area = {
 	empires = { e_empire1719 }
 }
 egypt_nomad_area = {
-	empires = { e_empire1771 }
+	empires = { e_empire1719 }
 }
 sahel_desert_nomad_area = {
 	empires = { e_empire1780 }
 }
 sahel_north_africa_nomad_area = {
-	empires = { e_empire1925 }
+	empires = { e_empire2158 }
 }
 sahel_sub_saharan_africa_nomad_area = {
 	empires = { e_empire1994 }
 }
 horn_of_africa_nomad_area = {
-	empires = { e_empire2009 }
+	empires = { e_empire1780 }
 }
 nubia_nomad_area = {
 	empires = { e_empire2014 }
@@ -2019,28 +2019,28 @@ western_plateau_nomad_area = {
 	empires = { e_empire2049 }
 }
 river_valley_nomad_area = {
-	empires = { e_empire2059 }
+	empires = { e_empire2014 }
 }
 tgp_china_tributary_region = {
-	empires = { e_empire2155 }
+	empires = { e_empire2014 }
 }
 paddy_fields_region = {
 	empires = { e_empire2158 }
 }
 et_867_toledo_region = {
-	empires = { e_empire2174 }
+	empires = { e_empire2158 }
 }
 et_1178_toledo_region = {
-	empires = { e_empire2176 }
+	empires = { e_empire2158 }
 }
 et_1178_santiago_region = {
 	empires = { e_empire0009 }
 }
 et_867_tarragona_region = {
-	empires = { e_empire0024 }
+	empires = { e_empire0048 }
 }
 et_867_sevilla_region = {
-	empires = { e_empire0041 }
+	empires = { e_empire0305 }
 }
 et_867_braga_region = {
 	empires = { e_empire0046 }
@@ -2061,7 +2061,7 @@ et_1178_york_region = {
 	empires = { e_latin_america }
 }
 et_1178_tuam_region = {
-	empires = { e_empire0302 }
+	empires = { e_empire0372 }
 }
 et_1178_dublin_region = {
 	empires = { e_empire0305 }
@@ -2070,19 +2070,19 @@ et_1178_cashel_region = {
 	empires = { e_empire0350 }
 }
 et_1178_armagh_region = {
-	empires = { e_empire0351 }
+	empires = { e_empire0372 }
 }
 et_867_canterbury_region = {
 	empires = { e_empire0372 }
 }
 et_867_rouen_region = {
-	empires = { e_empire0383 }
+	empires = { e_empire0504 }
 }
 et_867_reims_region = {
 	empires = { e_empire0393 }
 }
 et_867_sens_region = {
-	empires = { e_empire0454 }
+	empires = { e_empire0604 }
 }
 et_867_tours_region = {
 	empires = { e_empire0504 }
@@ -2094,7 +2094,7 @@ et_867_bordeaux_region = {
 	empires = { e_european_union }
 }
 et_867_lyon_region = {
-	empires = { e_empire0560 }
+	empires = { e_empire0750 }
 }
 et_867_tarentaise_region = {
 	empires = { e_empire0604 }
@@ -2127,7 +2127,7 @@ et_867_milano_region = {
 	empires = { e_empire1102 }
 }
 et_1178_milano_region = {
-	empires = { e_empire1145 }
+	empires = { e_empire1175 }
 }
 et_1178_genoa_region = {
 	empires = { e_empire1175 }
@@ -2136,7 +2136,7 @@ et_867_cagliari_region = {
 	empires = { e_empire1184 }
 }
 et_1066_cagliari_region = {
-	empires = { e_empire1252 }
+	empires = { e_empire1175 }
 }
 et_1178_cagliari_region = {
 	empires = { e_empire1322 }
@@ -2154,52 +2154,52 @@ et_867_reggio_calabria_region = {
 	empires = { e_empire1460 }
 }
 et_1066_reggio_calabria_region = {
-	empires = { e_empire1508 }
+	empires = { e_empire1522 }
 }
 et_1178_reggio_calabria_region = {
-	empires = { e_empire1513 }
+	empires = { e_empire1460 }
 }
 et_1178_cosenza_region = {
 	empires = { e_empire1522 }
 }
 et_1178_messina_region = {
-	empires = { e_empire1530 }
+	empires = { e_empire1522 }
 }
 et_1066_palermo_region = {
-	empires = { e_empire1539 }
+	empires = { e_empire1719 }
 }
 et_1178_palermo_region = {
-	empires = { e_empire1548 }
+	empires = { e_empire1522 }
 }
 et_1066_santa_severina_region = {
 	empires = { e_empire1596 }
 }
 et_867_ravenna_region = {
-	empires = { e_empire1682 }
+	empires = { e_empire1719 }
 }
 et_867_roma_region = {
 	empires = { e_empire1702 }
 }
 et_1066_roma_region = {
-	empires = { e_empire1705 }
+	empires = { e_empire1719 }
 }
 et_1178_roma_region = {
 	empires = { e_empire1719 }
 }
 et_1178_pisa_region = {
-	empires = { e_empire1771 }
+	empires = { e_empire1719 }
 }
 et_1066_capua_region = {
 	empires = { e_empire1780 }
 }
 et_1066_napoli_region = {
-	empires = { e_empire1925 }
+	empires = { e_empire2158 }
 }
 et_1066_salerno_region = {
 	empires = { e_empire1994 }
 }
 et_1066_benevento_region = {
-	empires = { e_empire2009 }
+	empires = { e_empire1780 }
 }
 et_867_bari_region = {
 	empires = { e_empire2014 }
@@ -2211,28 +2211,28 @@ et_1066_trani_region = {
 	empires = { e_empire2049 }
 }
 et_1066_brindisi_region = {
-	empires = { e_empire2059 }
+	empires = { e_empire2014 }
 }
 et_867_aquileia_region = {
-	empires = { e_empire2155 }
+	empires = { e_empire2014 }
 }
 et_1066_esztergom_region = {
 	empires = { e_empire2158 }
 }
 et_1178_esztergom_region = {
-	empires = { e_empire2174 }
+	empires = { e_empire2158 }
 }
 et_1178_kalocsa_region = {
-	empires = { e_empire2176 }
+	empires = { e_empire2158 }
 }
 et_867_split_region = {
 	empires = { e_empire0009 }
 }
 et_1066_ohrid_region = {
-	empires = { e_empire0024 }
+	empires = { e_empire0048 }
 }
 et_1178_split_region = {
-	empires = { e_empire0041 }
+	empires = { e_empire0305 }
 }
 et_1178_ragusa_region = {
 	empires = { e_empire0046 }
@@ -2253,7 +2253,7 @@ et_867_mainz_region = {
 	empires = { e_latin_america }
 }
 et_1066_mainz_region = {
-	empires = { e_empire0302 }
+	empires = { e_empire0372 }
 }
 et_1178_mainz_region = {
 	empires = { e_empire0305 }
@@ -2262,19 +2262,19 @@ et_1066_magdeburg_region = {
 	empires = { e_empire0350 }
 }
 et_1178_magdeburg_region = {
-	empires = { e_empire0351 }
+	empires = { e_empire0372 }
 }
 et_867_cologne_region = {
 	empires = { e_empire0372 }
 }
 et_867_hamburg_region = {
-	empires = { e_empire0383 }
+	empires = { e_empire0504 }
 }
 et_1066_hamburg_region = {
 	empires = { e_empire0393 }
 }
 et_1178_hamburg_bremen_region = {
-	empires = { e_empire0454 }
+	empires = { e_empire0604 }
 }
 et_1178_lund_region = {
 	empires = { e_empire0504 }
@@ -2286,7 +2286,7 @@ et_1178_nidaros_region = {
 	empires = { e_european_union }
 }
 et_1066_kyiv_region = {
-	empires = { e_empire0560 }
+	empires = { e_empire0750 }
 }
 et_1178_kyiv_region = {
 	empires = { e_empire0604 }
@@ -2319,7 +2319,7 @@ et_1066_georgia_region = {
 	empires = { e_empire1102 }
 }
 et_867_kartli_region = {
-	empires = { e_empire1145 }
+	empires = { e_empire1175 }
 }
 et_867_jerusalem_region = {
 	empires = { e_empire1175 }
@@ -2328,7 +2328,7 @@ et_1178_jerusalem_region = {
 	empires = { e_empire1184 }
 }
 et_867_alexandria_region = {
-	empires = { e_empire1252 }
+	empires = { e_empire1175 }
 }
 et_1178_alexandria_region = {
 	empires = { e_empire1322 }
@@ -2346,52 +2346,52 @@ et_1178_tyre_region = {
 	empires = { e_empire1460 }
 }
 custom_slavic_rite_mission_region = {
-	empires = { e_empire1508 }
+	empires = { e_empire1522 }
 }
 tgp_ba_region = {
-	empires = { e_empire1513 }
+	empires = { e_empire1460 }
 }
 tgp_bao_region = {
 	empires = { e_empire1522 }
 }
 tgp_bi_region = {
-	empires = { e_empire1530 }
+	empires = { e_empire1522 }
 }
 tgp_cai_region = {
-	empires = { e_empire1539 }
+	empires = { e_empire1719 }
 }
 tgp_cao_region = {
-	empires = { e_empire1548 }
+	empires = { e_empire1522 }
 }
 tgp_chen_region = {
 	empires = { e_empire1596 }
 }
 tgp_cheng_region = {
-	empires = { e_empire1682 }
+	empires = { e_empire1719 }
 }
 tgp_chu_region = {
 	empires = { e_empire1702 }
 }
 tgp_dai_region = {
-	empires = { e_empire1705 }
+	empires = { e_empire1719 }
 }
 tgp_dao_region = {
 	empires = { e_empire1719 }
 }
 tgp_deng_region = {
-	empires = { e_empire1771 }
+	empires = { e_empire1719 }
 }
 tgp_di_region = {
 	empires = { e_empire1780 }
 }
 tgp_dian_region = {
-	empires = { e_empire1925 }
+	empires = { e_empire2158 }
 }
 tgp_e_region = {
 	empires = { e_empire1994 }
 }
 tgp_gan_region = {
-	empires = { e_empire2009 }
+	empires = { e_empire1780 }
 }
 tgp_gui_region = {
 	empires = { e_empire2014 }
@@ -2403,28 +2403,28 @@ tgp_han_region = {
 	empires = { e_empire2049 }
 }
 tgp_han_henan_region = {
-	empires = { e_empire2059 }
+	empires = { e_empire2014 }
 }
 tgp_hua_region = {
-	empires = { e_empire2155 }
+	empires = { e_empire2014 }
 }
 tgp_huai_region = {
 	empires = { e_empire2158 }
 }
 tgp_huang_region = {
-	empires = { e_empire2174 }
+	empires = { e_empire2158 }
 }
 tgp_huo_region = {
-	empires = { e_empire2176 }
+	empires = { e_empire2158 }
 }
 tgp_ji_region = {
 	empires = { e_empire0009 }
 }
 tgp_ji_hebei_region = {
-	empires = { e_empire0024 }
+	empires = { e_empire0048 }
 }
 tgp_jiao_region = {
-	empires = { e_empire0041 }
+	empires = { e_empire0305 }
 }
 tgp_jin_region = {
 	empires = { e_empire0046 }
@@ -2445,7 +2445,7 @@ tgp_liang_region = {
 	empires = { e_latin_america }
 }
 tgp_liang_west_region = {
-	empires = { e_empire0302 }
+	empires = { e_empire0372 }
 }
 tgp_liao_region = {
 	empires = { e_empire0305 }
@@ -2454,19 +2454,19 @@ tgp_lu_region = {
 	empires = { e_empire0350 }
 }
 tgp_min_region = {
-	empires = { e_empire0351 }
+	empires = { e_empire0372 }
 }
 tgp_ou_region = {
 	empires = { e_empire0372 }
 }
 tgp_peng_region = {
-	empires = { e_empire0383 }
+	empires = { e_empire0504 }
 }
 tgp_qi_region = {
 	empires = { e_empire0393 }
 }
 tgp_qi_guannei_region = {
-	empires = { e_empire0454 }
+	empires = { e_empire0604 }
 }
 tgp_qian_region = {
 	empires = { e_empire0504 }
@@ -2478,7 +2478,7 @@ tgp_qiong_region = {
 	empires = { e_european_union }
 }
 tgp_shang_region = {
-	empires = { e_empire0560 }
+	empires = { e_empire0750 }
 }
 tgp_shen_region = {
 	empires = { e_empire0604 }
@@ -2511,7 +2511,7 @@ tgp_wu_region = {
 	empires = { e_empire1102 }
 }
 tgp_xi_region = {
-	empires = { e_empire1145 }
+	empires = { e_empire1175 }
 }
 tgp_xia_region = {
 	empires = { e_empire1175 }
@@ -2520,7 +2520,7 @@ tgp_xiang_region = {
 	empires = { e_empire1184 }
 }
 tgp_xing_region = {
-	empires = { e_empire1252 }
+	empires = { e_empire1175 }
 }
 tgp_xu_region = {
 	empires = { e_empire1322 }
@@ -2538,40 +2538,40 @@ tgp_yin_region = {
 	empires = { e_empire1460 }
 }
 tgp_ying_region = {
-	empires = { e_empire1508 }
+	empires = { e_empire1522 }
 }
 tgp_yong_region = {
-	empires = { e_empire1513 }
+	empires = { e_empire1460 }
 }
 tgp_you_region = {
 	empires = { e_empire1522 }
 }
 tgp_yu_region = {
-	empires = { e_empire1530 }
+	empires = { e_empire1522 }
 }
 tgp_yuan_ferghana_region = {
-	empires = { e_empire1539 }
+	empires = { e_empire1719 }
 }
 tgp_yue_region = {
-	empires = { e_empire1548 }
+	empires = { e_empire1522 }
 }
 tgp_yue_2_region = {
 	empires = { e_empire1596 }
 }
 tgp_zhao_region = {
-	empires = { e_empire1682 }
+	empires = { e_empire1719 }
 }
 tgp_zheng_region = {
 	empires = { e_empire1702 }
 }
 tgp_zhou_region = {
-	empires = { e_empire1705 }
+	empires = { e_empire1719 }
 }
 tgp_zou_region = {
 	empires = { e_empire1719 }
 }
 tgp_duchy_chinese_naming_region = {
-	empires = { e_empire1771 }
+	empires = { e_empire1719 }
 }
 tgp_county_chinese_naming_region = {
 	empires = { e_empire1780 }
@@ -2581,36 +2581,36 @@ tgp_county_chinese_naming_region = {
 graphical_western = {
 	graphical = yes
 	color = { 255 0 0 }
-	empires = { e_empire0009 e_united_states e_empire0383 e_empire0604 e_empire1005 e_empire1322 e_empire1522 e_empire1705 e_empire2014 e_empire2176 }
+	empires = { e_empire0009 e_united_states e_empire0504 e_empire0604 e_empire1005 e_empire1322 e_empire1522 e_empire1719 e_empire2014 e_empire2158 }
 	provinces = { 2344 2345 2346 2347 2348 2349 2350 2351 2352 2353 2354 2355 2356 2357 2358 2360 2361 2362 2363 2364 2365 2366 2367 2368 2369 2370 2371 2372 2373 2374 2375 2376 2377 2378 2379 2380 2381 2382 2383 2384 2385 2386 2387 2388 2389 2390 2391 2392 2393 2394 2395 2397 2398 2399 2401 2403 2404 2406 2407 2408 2409 2410 2411 2412 2413 2414 2416 2417 2418 2419 2420 2421 2422 2423 2424 2425 2426 2427 2428 2429 2430 2431 2432 2433 2434 2436 2437 2439 2440 2441 2442 2443 2444 2445 2447 2448 2449 2450 2451 2452 2453 2454 2456 2457 2458 2459 2460 2461 2462 2463 2464 2465 2466 2467 2468 2469 2470 2471 2472 2473 2474 2475 2476 2477 2478 2479 2480 2481 2482 2483 2484 2485 2486 2487 2488 2489 2490 2491 2492 2493 2494 2495 2496 2497 2498 2499 2500 2501 2502 2503 2504 2505 2506 2507 2508 2509 2510 2511 2512 }
 }
 graphical_mena = {
 	graphical = yes
 	color = { 255 255 0 }
-	empires = { e_empire0024 e_latin_america e_empire0393 e_empire0717 e_empire1097 e_empire1378 e_empire1530 e_empire1719 e_empire2021 }
+	empires = { e_empire0048 e_latin_america e_empire0393 e_empire0717 e_empire1097 e_empire1378 e_empire1522 e_empire1719 e_empire2021 }
 }
 graphical_india = {
 	graphical = yes
 	color = { 0 255 0 }
-	empires = { e_empire0041 e_empire0302 e_empire0454 e_empire0750 e_empire1102 e_empire1401 e_empire1539 e_empire1771 e_empire2049 }
+	empires = { e_empire0305 e_empire0372 e_empire0604 e_empire0750 e_empire1102 e_empire1401 e_empire1719 e_empire2049 }
 }
 graphical_mediterranean = {
 	graphical = yes
 	color = { 0 0 255 }
-	empires = { e_empire0046 e_empire0305 e_empire0504 e_empire0786 e_empire1145 e_empire1405 e_empire1548 e_empire1780 e_empire2059 }
+	empires = { e_empire0046 e_empire0305 e_empire0504 e_empire0786 e_empire1175 e_empire1405 e_empire1522 e_empire1780 e_empire2014 }
 }
 graphical_steppe = {
 	graphical = yes
 	color = { 0 255 255 }
-	empires = { e_empire0048 e_empire0350 e_empire0513 e_empire0897 e_empire1175 e_empire1460 e_empire1596 e_empire1925 e_empire2155 }
+	empires = { e_empire0048 e_empire0350 e_empire0513 e_empire0897 e_empire1175 e_empire1460 e_empire1596 e_empire2158 e_empire2014 }
 }
 graphical_siberia = {
 	graphical = yes
 	color = { 0 255 155 }
-	empires = { e_empire0056 e_empire0351 e_european_union e_empire0953 e_empire1184 e_empire1508 e_empire1682 e_empire1994 e_empire2158 }
+	empires = { e_empire0056 e_empire0372 e_european_union e_empire0953 e_empire1184 e_empire1522 e_empire1719 e_empire1994 e_empire2158 }
 }
 graphical_east_asia = {
 	graphical = yes
 	color = { 155 255 155 }
-	empires = { e_empire0203 e_empire0372 e_empire0560 e_empire0982 e_empire1252 e_empire1513 e_empire1702 e_empire2009 e_empire2174 }
+	empires = { e_empire0203 e_empire0372 e_empire0750 e_empire0982 e_empire1175 e_empire1460 e_empire1702 e_empire1780 e_empire2158 }
 }
