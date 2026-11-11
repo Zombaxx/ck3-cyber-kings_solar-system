@@ -1945,13 +1945,13 @@
 	rite = roman_rite
 	holding = castle_holding
 }
-2782 = {
+2792 = {
 	holding = church_holding
 }
-2783 = {
+2795 = {
 	holding = city_holding
 }
-2784 = {
+2796 = {
 	holding = none
 }
 ### c_province0224
@@ -1960,7 +1960,16 @@
 	rite = roman_rite
 	holding = tribal_holding
 }
-2858 = {
+2886 = {
+	holding = none
+}
+2891 = {
+	holding = none
+}
+2892 = {
+	holding = none
+}
+2893 = {
 	holding = none
 }
 ### c_province0192
@@ -1969,7 +1978,10 @@
 	rite = hussite_rite
 	holding = tribal_holding
 }
-2809 = {
+2836 = {
+	holding = none
+}
+2838 = {
 	holding = none
 }
 ### c_province0197
@@ -1978,13 +1990,16 @@
 	rite = hussite_rite
 	holding = tribal_holding
 }
-2817 = {
-	holding = none
-}
 2818 = {
 	holding = none
 }
 2819 = {
+	holding = none
+}
+2842 = {
+	holding = none
+}
+2843 = {
 	holding = none
 }
 ### c_province0219
@@ -1993,13 +2008,16 @@
 	rite = roman_rite
 	holding = tribal_holding
 }
-2842 = {
+2864 = {
 	holding = none
 }
-2843 = {
+2865 = {
 	holding = none
 }
-2844 = {
+2866 = {
+	holding = none
+}
+2872 = {
 	holding = none
 }
 ### c_province0246
@@ -2008,62 +2026,23 @@
 	rite = hussite_rite
 	holding = castle_holding
 }
-2884 = {
+2915 = {
 	holding = church_holding
 }
-2885 = {
+2916 = {
 	holding = city_holding
 }
-2886 = {
+2917 = {
+	holding = none
+}
+2920 = {
+	holding = none
+}
+2921 = {
 	holding = none
 }
 ### c_province0226
 226 = {
-	culture = murican
-	rite = hussite_rite
-	holding = tribal_holding
-}
-2859 = {
-	holding = none
-}
-2860 = {
-	holding = none
-}
-2861 = {
-	holding = none
-}
-### c_province0231
-231 = {
-	culture = murican
-	rite = roman_rite
-	holding = tribal_holding
-}
-2865 = {
-	holding = none
-}
-### c_province0233
-233 = {
-	culture = murican
-	rite = adoptionist_rite
-	holding = tribal_holding
-}
-2866 = {
-	holding = none
-}
-### c_province0254
-254 = {
-	culture = murican
-	rite = hussite_rite
-	holding = tribal_holding
-}
-2892 = {
-	holding = none
-}
-2893 = {
-	holding = none
-}
-### c_province0257
-257 = {
 	culture = murican
 	rite = hussite_rite
 	holding = tribal_holding
@@ -2075,6 +2054,75 @@
 	holding = none
 }
 2896 = {
+	holding = none
+}
+2897 = {
+	holding = none
+}
+### c_province0231
+231 = {
+	culture = murican
+	rite = roman_rite
+	holding = tribal_holding
+}
+2901 = {
+	holding = none
+}
+2902 = {
+	holding = none
+}
+2903 = {
+	holding = none
+}
+### c_province0233
+233 = {
+	culture = murican
+	rite = adoptionist_rite
+	holding = tribal_holding
+}
+2858 = {
+	holding = none
+}
+2904 = {
+	holding = none
+}
+2905 = {
+	holding = none
+}
+2906 = {
+	holding = none
+}
+### c_province0254
+254 = {
+	culture = murican
+	rite = hussite_rite
+	holding = tribal_holding
+}
+2932 = {
+	holding = none
+}
+2933 = {
+	holding = none
+}
+2934 = {
+	holding = none
+}
+2935 = {
+	holding = none
+}
+### c_province0257
+257 = {
+	culture = murican
+	rite = hussite_rite
+	holding = tribal_holding
+}
+2936 = {
+	holding = none
+}
+2937 = {
+	holding = none
+}
+2953 = {
 	holding = none
 }
 ### c_province0282
@@ -2107,10 +2155,10 @@
 	rite = roman_rite
 	holding = tribal_holding
 }
-2737 = {
+2764 = {
 	holding = none
 }
-2738 = {
+2765 = {
 	holding = none
 }
 ### c_province0190
@@ -2119,7 +2167,16 @@
 	rite = hussite_rite
 	holding = tribal_holding
 }
-2808 = {
+2821 = {
+	holding = none
+}
+2822 = {
+	holding = none
+}
+2831 = {
+	holding = none
+}
+2832 = {
 	holding = none
 }
 
@@ -2145,13 +2202,22 @@
 	rite = roman_rite
 	holding = tribal_holding
 }
-2953 = {
+2986 = {
 	holding = none
 }
-2954 = {
+3137 = {
 	holding = none
 }
-2955 = {
+3138 = {
+	holding = none
+}
+8078 = {
+	holding = none
+}
+8079 = {
+	holding = none
+}
+8080 = {
 	holding = none
 }
 ### c_province0312
@@ -2160,13 +2226,16 @@
 	rite = hussite_rite
 	holding = tribal_holding
 }
-2959 = {
+8081 = {
 	holding = none
 }
-2960 = {
+8082 = {
 	holding = none
 }
-2961 = {
+8083 = {
+	holding = none
+}
+8084 = {
 	holding = none
 }
 ### c_province0336
@@ -2175,7 +2244,25 @@
 	rite = hussite_rite
 	holding = tribal_holding
 }
-2978 = {
+8086 = {
+	holding = none
+}
+8087 = {
+	holding = none
+}
+8088 = {
+	holding = none
+}
+8089 = {
+	holding = none
+}
+8090 = {
+	holding = none
+}
+8091 = {
+	holding = none
+}
+8092 = {
 	holding = none
 }
 ### c_province0349
@@ -2184,8 +2271,8 @@
 	rite = tengri_pagan
 	holding = tribal_holding
 }
-2986 = {
-	holding = church_holding
+8093 = {
+	holding = none
 }
 
 ########## k_california
@@ -2195,23 +2282,8 @@
 	rite = roman_rite
 	holding = castle_holding
 }
-2699 = {
+2745 = {
 	holding = castle_holding
-}
-2700 = {
-	holding = castle_holding
-}
-2701 = {
-	holding = city_holding
-}
-2702 = {
-	holding = church_holding
-}
-2703 = {
-	holding = castle_holding
-}
-2704 = {
-	holding = city_holding
 }
 ### c_san_francisco
 141 = {
@@ -2219,23 +2291,11 @@
 	rite = roman_rite
 	holding = castle_holding
 }
-2731 = {
+2759 = {
 	holding = church_holding
 }
-2732 = {
+2762 = {
 	holding = castle_holding
-}
-2733 = {
-	holding = city_holding
-}
-2734 = {
-	holding = none
-}
-2735 = {
-	holding = none
-}
-2736 = {
-	holding = none
 }
 ### c_sacramento
 164 = {
@@ -2243,17 +2303,8 @@
 	rite = roman_rite
 	holding = castle_holding
 }
-2765 = {
-	holding = castle_holding
-}
-2766 = {
+2788 = {
 	holding = church_holding
-}
-2767 = {
-	holding = city_holding
-}
-2768 = {
-	holding = none
 }
 ### c_sierras
 181 = {
@@ -2261,11 +2312,11 @@
 	rite = roman_rite
 	holding = castle_holding
 }
-2795 = {
-	holding = city_holding
+2797 = {
+	holding = castle_holding
 }
-2796 = {
-	holding = none
+2799 = {
+	holding = church_holding
 }
 ### c_north_bay
 163 = {
@@ -2273,14 +2324,8 @@
 	rite = roman_rite
 	holding = castle_holding
 }
-2762 = {
-	holding = church_holding
-}
 2763 = {
-	holding = castle_holding
-}
-2764 = {
-	holding = none
+	holding = church_holding
 }
 ### c_gold_country
 212 = {
@@ -2291,7 +2336,13 @@
 2837 = {
 	holding = church_holding
 }
-2838 = {
+2861 = {
+	holding = none
+}
+2862 = {
+	holding = none
+}
+2863 = {
 	holding = none
 }
 ### c_norcal
@@ -2301,10 +2352,10 @@
 	holding = castle_holding
 }
 2835 = {
-	holding = church_holding
-}
-2836 = {
 	holding = none
+}
+2860 = {
+	holding = church_holding
 }
 ### c_province0531
 531 = {
@@ -2312,11 +2363,8 @@
 	rite = roman_rite
 	holding = castle_holding
 }
-3137 = {
+8094 = {
 	holding = city_holding
-}
-3138 = {
-	holding = church_holding
 }
 
 ########## k_the_south
@@ -2326,20 +2374,11 @@
 	rite = roman_rite
 	holding = castle_holding
 }
-2788 = {
-	holding = church_holding
-}
-2789 = {
-	holding = city_holding
-}
-2790 = {
-	holding = castle_holding
-}
 2791 = {
 	holding = castle_holding
 }
-2792 = {
-	holding = none
+2820 = {
+	holding = church_holding
 }
 ### c_province0198
 198 = {
@@ -2347,14 +2386,8 @@
 	rite = roman_rite
 	holding = castle_holding
 }
-2820 = {
+2844 = {
 	holding = church_holding
-}
-2821 = {
-	holding = city_holding
-}
-2822 = {
-	holding = none
 }
 ### c_province0184
 184 = {
@@ -2362,13 +2395,13 @@
 	rite = hussite_rite
 	holding = castle_holding
 }
-2799 = {
+2808 = {
 	holding = church_holding
 }
-2800 = {
+2809 = {
 	holding = city_holding
 }
-2801 = {
+2817 = {
 	holding = none
 }
 ### c_austin2
@@ -2377,14 +2410,8 @@
 	rite = roman_rite
 	holding = castle_holding
 }
-2739 = {
+2766 = {
 	holding = church_holding
-}
-2740 = {
-	holding = castle_holding
-}
-2741 = {
-	holding = none
 }
 ### c_province0165
 165 = {
@@ -2392,13 +2419,13 @@
 	rite = roman_rite
 	holding = castle_holding
 }
-2769 = {
+2771 = {
 	holding = church_holding
 }
-2770 = {
+2789 = {
 	holding = city_holding
 }
-2771 = {
+2790 = {
 	holding = none
 }
 ### c_province0182
@@ -2407,10 +2434,13 @@
 	rite = hussite_rite
 	holding = castle_holding
 }
-2797 = {
+2798 = {
 	holding = church_holding
 }
-2798 = {
+2800 = {
+	holding = none
+}
+2801 = {
 	holding = none
 }
 ### c_houston
@@ -2419,23 +2449,11 @@
 	rite = roman_rite
 	holding = castle_holding
 }
-2684 = {
+2741 = {
 	holding = church_holding
 }
-2685 = {
+2744 = {
 	holding = city_holding
-}
-2686 = {
-	holding = castle_holding
-}
-2687 = {
-	holding = church_holding
-}
-2688 = {
-	holding = city_holding
-}
-2689 = {
-	holding = none
 }
 ### c_province0126
 126 = {
@@ -2443,10 +2461,13 @@
 	rite = roman_rite
 	holding = tribal_holding
 }
-2709 = {
+2746 = {
 	holding = none
 }
-2710 = {
+2747 = {
+	holding = none
+}
+2748 = {
 	holding = none
 }
 ### c_austin
@@ -2455,20 +2476,14 @@
 	rite = hussite_rite
 	holding = castle_holding
 }
-2744 = {
+2767 = {
 	holding = church_holding
 }
-2745 = {
+2768 = {
 	holding = city_holding
 }
-2746 = {
-	holding = city_holding
-}
-2747 = {
-	holding = church_holding
-}
-2748 = {
-	holding = none
+2769 = {
+	holding = castle_holding
 }
 ### c_province0161
 161 = {
@@ -2476,8 +2491,17 @@
 	rite = hussite_rite
 	holding = tribal_holding
 }
-2759 = {
-	holding = church_holding
+2770 = {
+	holding = none
+}
+2782 = {
+	holding = none
+}
+2783 = {
+	holding = none
+}
+2784 = {
+	holding = none
 }
 
 ########## k_kingdom0244
@@ -2487,10 +2511,10 @@
 	rite = hussite_rite
 	holding = castle_holding
 }
-2831 = {
+2845 = {
 	holding = church_holding
 }
-2832 = {
+2859 = {
 	holding = none
 }
 ### c_nashville
@@ -2499,10 +2523,10 @@
 	rite = hussite_rite
 	holding = castle_holding
 }
-2862 = {
+2879 = {
 	holding = church_holding
 }
-2863 = {
+2898 = {
 	holding = none
 }
 ### c_atlanta
@@ -2511,8 +2535,14 @@
 	rite = hussite_rite
 	holding = castle_holding
 }
-2845 = {
+2880 = {
 	holding = church_holding
+}
+2884 = {
+	holding = none
+}
+2885 = {
+	holding = none
 }
 ### c_province0239
 239 = {
@@ -2523,19 +2553,19 @@
 2871 = {
 	holding = church_holding
 }
-2872 = {
-	holding = none
-}
 ### c_province0274
 274 = {
 	culture = murican
 	rite = roman_rite
 	holding = castle_holding
 }
-2920 = {
+2974 = {
 	holding = church_holding
 }
-2921 = {
+2975 = {
+	holding = none
+}
+2976 = {
 	holding = none
 }
 ### c_province0291
@@ -2559,7 +2589,7 @@
 	rite = hussite_rite
 	holding = castle_holding
 }
-2864 = {
+2900 = {
 	holding = none
 }
 ### c_province0258
@@ -2568,10 +2598,13 @@
 	rite = hussite_rite
 	holding = castle_holding
 }
-2897 = {
+2954 = {
 	holding = church_holding
 }
-2898 = {
+2955 = {
+	holding = none
+}
+2959 = {
 	holding = none
 }
 ### c_province0283
@@ -2580,11 +2613,8 @@
 	rite = roman_rite
 	holding = castle_holding
 }
-2930 = {
+2977 = {
 	holding = church_holding
-}
-2931 = {
-	holding = none
 }
 ### c_province0244
 244 = {
@@ -2592,10 +2622,10 @@
 	rite = hussite_rite
 	holding = castle_holding
 }
-2879 = {
+2912 = {
 	holding = church_holding
 }
-2880 = {
+2913 = {
 	holding = none
 }
 
@@ -2606,7 +2636,7 @@
 	rite = hussite_rite
 	holding = castle_holding
 }
-2891 = {
+2931 = {
 	holding = none
 }
 ### c_province0271
@@ -2615,38 +2645,14 @@
 	rite = roman_rite
 	holding = castle_holding
 }
-2912 = {
-	holding = city_holding
-}
-2913 = {
-	holding = city_holding
-}
-2914 = {
-	holding = city_holding
-}
 ### c_district_of_columbia
 264 = {
 	culture = liblander
 	rite = hussite_rite
 	holding = castle_holding
 }
-2901 = {
+2914 = {
 	holding = city_holding
-}
-2902 = {
-	holding = city_holding
-}
-2903 = {
-	holding = city_holding
-}
-2904 = {
-	holding = castle_holding
-}
-2905 = {
-	holding = church_holding
-}
-2906 = {
-	holding = church_holding
 }
 ### c_new_york
 329 = {
@@ -2654,20 +2660,8 @@
 	rite = roman_rite
 	holding = castle_holding
 }
-2973 = {
+8085 = {
 	holding = church_holding
-}
-2974 = {
-	holding = city_holding
-}
-2975 = {
-	holding = castle_holding
-}
-2976 = {
-	holding = none
-}
-2977 = {
-	holding = none
 }
 ### c_province0288
 288 = {
@@ -2675,23 +2669,8 @@
 	rite = roman_rite
 	holding = castle_holding
 }
-2932 = {
+2978 = {
 	holding = church_holding
-}
-2933 = {
-	holding = castle_holding
-}
-2934 = {
-	holding = city_holding
-}
-2935 = {
-	holding = city_holding
-}
-2936 = {
-	holding = castle_holding
-}
-2937 = {
-	holding = city_holding
 }
 ### c_province0272
 272 = {
@@ -2699,14 +2678,11 @@
 	rite = hussite_rite
 	holding = castle_holding
 }
-2915 = {
+2961 = {
 	holding = church_holding
 }
-2916 = {
+2973 = {
 	holding = city_holding
-}
-2917 = {
-	holding = none
 }
 ### c_province0259
 259 = {
@@ -2714,11 +2690,11 @@
 	rite = hussite_rite
 	holding = castle_holding
 }
-2899 = {
-	holding = church_holding
-}
-2900 = {
+2930 = {
 	holding = none
+}
+2960 = {
+	holding = church_holding
 }
 
 ########## k_brazil
@@ -30220,5 +30196,224 @@
 	holding = castle_holding
 }
 8077 = {
+	holding = church_holding
+}
+### c_arizona
+2684 = {
+	culture = murican
+	rite = roman_rite
+	holding = tribal_holding
+}
+8095 = {
+	holding = none
+}
+8096 = {
+	holding = none
+}
+8097 = {
+	holding = none
+}
+8098 = {
+	holding = none
+}
+8099 = {
+	holding = none
+}
+### c_fresno
+2685 = {
+	culture = liblander
+	rite = roman_rite
+	holding = castle_holding
+}
+8100 = {
+	holding = church_holding
+}
+### c_los_angeles
+2686 = {
+	culture = liblander
+	rite = roman_rite
+	holding = castle_holding
+}
+### c_monterey
+2687 = {
+	culture = liblander
+	rite = roman_rite
+	holding = castle_holding
+}
+8101 = {
+	holding = castle_holding
+}
+### c_san_diego
+2688 = {
+	culture = liblander
+	rite = roman_rite
+	holding = castle_holding
+}
+8102 = {
+	holding = castle_holding
+}
+### c_grand_junction
+2689 = {
+	culture = murican
+	rite = roman_rite
+	holding = castle_holding
+}
+8103 = {
+	holding = church_holding
+}
+### c_connecticut
+2699 = {
+	culture = liblander
+	rite = roman_rite
+	holding = castle_holding
+}
+### c_idaho
+2700 = {
+	culture = murican
+	rite = adoptionist_rite
+	holding = tribal_holding
+}
+8104 = {
+	holding = none
+}
+8105 = {
+	holding = none
+}
+8106 = {
+	holding = none
+}
+### c_peoria
+2701 = {
+	culture = murican
+	rite = hussite_rite
+	holding = tribal_holding
+}
+8107 = {
+	holding = none
+}
+### c_baton_rouge
+2702 = {
+	culture = nubian
+	rite = roman_rite
+	holding = castle_holding
+}
+2740 = {
+	holding = church_holding
+}
+### c_massachusetts
+2703 = {
+	culture = liblander
+	rite = roman_rite
+	holding = castle_holding
+}
+### c_marquette
+2704 = {
+	culture = murican
+	rite = roman_rite
+	holding = castle_holding
+}
+8108 = {
+	holding = church_holding
+}
+### c_billings
+2709 = {
+	culture = murican
+	rite = adoptionist_rite
+	holding = tribal_holding
+}
+8109 = {
+	holding = none
+}
+8110 = {
+	holding = none
+}
+8111 = {
+	holding = none
+}
+### c_new_hampshire
+2710 = {
+	culture = liblander
+	rite = roman_rite
+	holding = castle_holding
+}
+8112 = {
+	holding = church_holding
+}
+### c_new_jersey
+2731 = {
+	culture = liblander
+	rite = roman_rite
+	holding = castle_holding
+}
+### c_las_cruces
+2732 = {
+	culture = murican
+	rite = roman_rite
+	holding = tribal_holding
+}
+8113 = {
+	holding = none
+}
+8114 = {
+	holding = none
+}
+### c_las_vegas
+2733 = {
+	culture = liblander
+	rite = roman_rite
+	holding = castle_holding
+}
+8115 = {
+	holding = church_holding
+}
+### c_buffalo
+2734 = {
+	culture = liblander
+	rite = roman_rite
+	holding = castle_holding
+}
+8116 = {
+	holding = church_holding
+}
+### c_rhode_island
+2735 = {
+	culture = liblander
+	rite = roman_rite
+	holding = castle_holding
+}
+### c_laredo
+2736 = {
+	culture = nativican
+	rite = roman_rite
+	holding = castle_holding
+}
+8117 = {
+	holding = church_holding
+}
+### c_virginia
+2737 = {
+	culture = liblander
+	rite = hussite_rite
+	holding = castle_holding
+}
+8118 = {
+	holding = city_holding
+}
+### c_vermont
+2738 = {
+	culture = liblander
+	rite = roman_rite
+	holding = castle_holding
+}
+8119 = {
+	holding = church_holding
+}
+### c_west_virginia
+2739 = {
+	culture = murican
+	rite = hussite_rite
+	holding = castle_holding
+}
+2899 = {
 	holding = church_holding
 }

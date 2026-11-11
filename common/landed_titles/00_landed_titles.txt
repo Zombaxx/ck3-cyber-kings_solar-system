@@ -7057,571 +7057,708 @@ h_americas = {
 		can_be_named_after_dynasty = no
 		color = { 153 163 142 }
 		capital = c_district_of_columbia
-		k_texas = {
-			can_be_named_after_dynasty = no
-			color = { 165 153 114 }
-			capital = c_austin
-			d_duchy0126 = {
-				can_be_named_after_dynasty = no
-				color = { 93 168 191 }
-				capital = c_province0126
-				c_houston = {
-					can_be_named_after_dynasty = no
-					color = { 99 214 182 }
-					b_houston = { province = 117 }
-					b_barony0117a = { province = 2684 }
-					b_barony0117b = { province = 2685 }
-					b_houstonc = { province = 2686 }
-					b_barony0117d = { province = 2687 }
-					b_barony0117e = { province = 2688 }
-					b_barony0117c = { province = 2689 }
-				}
-				c_province0126 = {
-					can_be_named_after_dynasty = no
-					color = { 93 168 191 }
-					b_barony0126 = { province = 126 }
-					b_barony0126a = { province = 2709 }
-					b_barony0126b = { province = 2710 }
-				}
-				c_austin = {
-					can_be_named_after_dynasty = no
-					color = { 165 153 114 }
-					b_austin = { province = 150 }
-					b_barony0150a = { province = 2744 }
-					b_barony0150b = { province = 2745 }
-					b_barony0150c = { province = 2746 }
-					b_barony0150d = { province = 2747 }
-					b_barony0150e = { province = 2748 }
-				}
-				c_province0161 = {
-					can_be_named_after_dynasty = no
-					color = { 81 200 200 }
-					b_barony0161 = { province = 161 }
-					b_barony0161a = { province = 2759 }
-				}
-			}
-			d_austin = {
-				can_be_named_after_dynasty = no
-				color = { 165 153 114 }
-				capital = c_austin2
-				c_austin2 = {
-					can_be_named_after_dynasty = no
-					color = { 165 166 152 }
-					b_austin2 = { province = 145 }
-					b_barony0145a = { province = 2739 }
-					b_barony0145b = { province = 2740 }
-					b_barony0145c = { province = 2741 }
-				}
-				c_province0165 = {
-					can_be_named_after_dynasty = no
-					color = { 168 116 120 }
-					b_barony0165 = { province = 165 }
-					b_barony0165a = { province = 2769 }
-					b_barony0165b = { province = 2770 }
-					b_barony0165c = { province = 2771 }
-				}
-				c_province0182 = {
-					can_be_named_after_dynasty = no
-					color = { 170 162 127 }
-					b_barony0182 = { province = 182 }
-					b_barony0182a = { province = 2797 }
-					b_barony0182b = { province = 2798 }
-				}
-			}
-		}
-		k_kingdom0161 = {
-			can_be_named_after_dynasty = no
-			color = { 81 200 200 }
-			capital = c_province0233
-			d_duchy0192 = {
-				can_be_named_after_dynasty = no
-				color = { 99 188 192 }
-				capital = c_province0192
-				c_province0170 = {
-					can_be_named_after_dynasty = no
-					color = { 66 209 155 }
-					b_barony0170 = { province = 170 }
-					b_barony0170a = { province = 2782 }
-					b_barony0170b = { province = 2783 }
-					b_barony0170c = { province = 2784 }
-				}
-				c_province0224 = {
-					can_be_named_after_dynasty = no
-					color = { 76 176 179 }
-					b_barony0224 = { province = 224 }
-					b_barony0224a = { province = 2858 }
-				}
-				c_province0192 = {
-					can_be_named_after_dynasty = no
-					color = { 99 188 192 }
-					b_barony0192 = { province = 192 }
-					b_barony0192a = { province = 2809 }
-				}
-			}
-			d_duchy0226 = {
-				can_be_named_after_dynasty = no
-				color = { 63 163 157 }
-				capital = c_province0226
-				c_province0197 = {
-					can_be_named_after_dynasty = no
-					color = { 103 193 159 }
-					b_barony0197 = { province = 197 }
-					b_barony0197a = { province = 2817 }
-					b_barony0197b = { province = 2818 }
-					b_barony0197c = { province = 2819 }
-				}
-				c_province0219 = {
-					can_be_named_after_dynasty = no
-					color = { 102 175 170 }
-					b_barony0219 = { province = 219 }
-					b_barony0219a = { province = 2842 }
-					b_barony0219b = { province = 2843 }
-					b_barony0219c = { province = 2844 }
-				}
-				c_province0246 = {
-					can_be_named_after_dynasty = no
-					color = { 85 215 177 }
-					b_barony0246 = { province = 246 }
-					b_barony0246a = { province = 2884 }
-					b_barony0246b = { province = 2885 }
-					b_barony0246c = { province = 2886 }
-				}
-				c_province0226 = {
-					can_be_named_after_dynasty = no
-					color = { 63 163 157 }
-					b_barony0226 = { province = 226 }
-					b_barony0226a = { province = 2859 }
-					b_barony0226b = { province = 2860 }
-					b_barony0226c = { province = 2861 }
-				}
-			}
-			d_duchy0233 = {
-				can_be_named_after_dynasty = no
-				color = { 111 215 204 }
-				capital = c_province0233
-				c_province0231 = {
-					can_be_named_after_dynasty = no
-					color = { 120 190 215 }
-					b_barony0231 = { province = 231 }
-					b_barony0231a = { province = 2865 }
-				}
-				c_province0233 = {
-					can_be_named_after_dynasty = no
-					color = { 111 215 204 }
-					b_barony0233 = { province = 233 }
-					b_barony0233a = { province = 2866 }
-				}
-			}
-			d_duchy0277 = {
-				can_be_named_after_dynasty = no
-				color = { 73 190 160 }
-				capital = c_province0277
-				c_province0254 = {
-					can_be_named_after_dynasty = no
-					color = { 115 197 169 }
-					b_barony0254 = { province = 254 }
-					b_barony0254a = { province = 2892 }
-					b_barony0254b = { province = 2893 }
-				}
-				c_province0257 = {
-					can_be_named_after_dynasty = no
-					color = { 60 162 182 }
-					b_barony0257 = { province = 257 }
-					b_barony0257a = { province = 2894 }
-					b_barony0257b = { province = 2895 }
-					b_barony0257c = { province = 2896 }
-				}
-				c_province0282 = {
-					can_be_named_after_dynasty = no
-					color = { 80 167 156 }
-					b_barony0282 = { province = 282 }
-					b_barony0282a = { province = 2929 }
-				}
-				c_province0277 = {
-					can_be_named_after_dynasty = no
-					color = { 73 190 160 }
-					b_barony0277 = { province = 277 }
-					b_barony0277a = { province = 2926 }
-					b_barony0277b = { province = 2927 }
-					b_barony0277c = { province = 2928 }
-				}
-			}
-			d_duchy0161 = {
-				can_be_named_after_dynasty = no
-				color = { 81 200 200 }
-				capital = c_province0144
-				c_province0144 = {
-					can_be_named_after_dynasty = no
-					color = { 72 156 212 }
-					b_barony0144 = { province = 144 }
-					b_barony0144a = { province = 2737 }
-					b_barony0144b = { province = 2738 }
-				}
-				c_province0190 = {
-					can_be_named_after_dynasty = no
-					color = { 89 187 206 }
-					b_barony0190 = { province = 190 }
-					b_barony0190a = { province = 2808 }
-				}
-			}
-		}
-		k_kingdom0349 = {
-			can_be_named_after_dynasty = no
-			color = { 64 169 161 }
-			capital = c_province0294
-			d_duchy0312 = {
-				can_be_named_after_dynasty = no
-				color = { 118 186 195 }
-				capital = c_province0294
-				c_province0294 = {
-					can_be_named_after_dynasty = no
-					color = { 96 87 138 }
-					b_barony0294 = { province = 294 }
-					b_barony0294a = { province = 2944 }
-					b_barony0294b = { province = 2945 }
-					b_barony0294c = { province = 2946 }
-				}
-				c_province0306 = {
-					can_be_named_after_dynasty = no
-					color = { 93 182 201 }
-					b_barony0306 = { province = 306 }
-					b_barony0306a = { province = 2953 }
-					b_barony0306b = { province = 2954 }
-					b_barony0306c = { province = 2955 }
-				}
-				c_province0312 = {
-					can_be_named_after_dynasty = no
-					color = { 118 186 195 }
-					b_barony0312 = { province = 312 }
-					b_barony0312a = { province = 2959 }
-					b_barony0312b = { province = 2960 }
-					b_barony0312c = { province = 2961 }
-				}
-			}
-			d_duchy0349 = {
-				can_be_named_after_dynasty = no
-				color = { 64 169 161 }
-				capital = c_province0349
-				c_province0336 = {
-					can_be_named_after_dynasty = no
-					color = { 115 191 194 }
-					b_barony0336 = { province = 336 }
-					b_barony0336a = { province = 2978 }
-				}
-				c_province0349 = {
-					can_be_named_after_dynasty = no
-					color = { 64 169 161 }
-					b_barony0349 = { province = 349 }
-					b_barony0349a = { province = 2986 }
-				}
-			}
-		}
 		k_california = {
 			can_be_named_after_dynasty = no
 			color = { 96 184 159 }
 			capital = c_sacramento
-			d_bay_area = {
-				color = { 80 200 211 }
-				capital = c_san_francisco
-				can_be_named_after_dynasty = no
-				c_santa_barbara = {
-					can_be_named_after_dynasty = no
-					color = { 71 163 192 }
-					b_santa_barbara = { province = 124 }
-					b_santa_maria = { province = 2699 }
-					b_oxnard = { province = 2700 }
-					b_vandenberg = { province = 2701 }
-					b_solvang = { province = 2702 }
-					b_lompoc = { province = 2703 }
-					b_buelton = { province = 2704 }
-				}
-				c_san_francisco = {
-					can_be_named_after_dynasty = no
-					color = { 80 200 211 }
-					b_san_francisco = { province = 141 }
-					b_daly = { province = 2731 }
-					b_san_jose = { province = 2732 }
-					b_silicon_valley = { province = 2733 }
-					b_mountain_view = { province = 2734 }
-					b_san_mateo = { province = 2735 }
-					b_gilroy = { province = 2736 }
-				}
-			}
 			d_sierras = {
 				color = { 96 184 159 }
 				capital = c_sacramento
 				can_be_named_after_dynasty = no
+				c_san_francisco = {
+					can_be_named_after_dynasty = no
+					color = { 80 200 211 }
+					b_san_francisco = { province = 141 }
+					b_oakland = { province = 2759 }
+					b_san_jose = { province = 2762 }
+				}
 				c_sacramento = {
 					can_be_named_after_dynasty = no
 					color = { 95 169 194 }
 					b_sacramento = { province = 164 }
-					b_merced = { province = 2765 }
-					b_modesto = { province = 2766 }
-					b_bakersfield = { province = 2767 }
-					b_fresno = { province = 2768 }
+					b_stockton = { province = 2788 }
 				}
-				c_sierras = {
-					can_be_named_after_dynasty = no
-					color = { 96 184 159 }
-					b_sierras = { province = 181 }
-					b_tahoe = { province = 2795 }
-					b_sierras_b = { province = 2796 }
-				}
-			}
-			d_norcal = {
-				can_be_named_after_dynasty = no
-				color = { 83 80 109 }
-				capital = c_norcal
 				c_north_bay = {
 					can_be_named_after_dynasty = no
 					color = { 108 60 155 }
 					b_north_bay = { province = 163 }
-					b_barony0163a = { province = 2762 }
 					b_barony0163b = { province = 2763 }
-					b_barony0163c = { province = 2764 }
 				}
+				c_fresno = {
+					can_be_named_after_dynasty = no
+					color = { 101 223 147 }
+					b_fresno = { province = 2685 }
+					b_buelton = { province = 8100 }
+				}
+				c_monterey = {
+					can_be_named_after_dynasty = no
+					color = { 138 217 202 }
+					b_monterey = { province = 2687 }
+					b_santa_maria = { province = 8101 }
+				}
+				c_los_angeles = {
+					can_be_named_after_dynasty = no
+					color = { 36 173 226 }
+					b_los_angeles = { province = 2686 }
+				}
+				c_san_diego = {
+					can_be_named_after_dynasty = no
+					color = { 101 194 30 }
+					b_san_diego = { province = 2688 }
+					b_oceanside = { province = 8102 }
+				}
+				c_santa_barbara = {
+					can_be_named_after_dynasty = no
+					color = { 71 163 192 }
+					b_santa_barbara = { province = 124 }
+					b_indio = { province = 2745 }
+				}
+			}
+			d_norcal = {
+				color = { 83 80 109 }
+				capital = c_norcal
+				can_be_named_after_dynasty = no
 				c_gold_country = {
 					can_be_named_after_dynasty = no
 					color = { 61 109 98 }
 					b_gold_country = { province = 212 }
 					b_barony0212a = { province = 2837 }
-					b_barony0212b = { province = 2838 }
+					b_bend = { province = 2861 }
+					b_medford = { province = 2862 }
+					b_hermiston = { province = 2863 }
 				}
 				c_norcal = {
 					can_be_named_after_dynasty = no
 					color = { 83 80 109 }
 					b_norcal = { province = 208 }
 					b_barony0208a = { province = 2835 }
-					b_barony0208b = { province = 2836 }
+					b_tri_cities = { province = 2860 }
 				}
 			}
 			d_duchy0531 = {
-				can_be_named_after_dynasty = no
 				color = { 187 86 105 }
 				capital = c_province0531
+				can_be_named_after_dynasty = no
 				c_province0531 = {
 					can_be_named_after_dynasty = no
 					color = { 187 86 105 }
 					b_barony0531 = { province = 531 }
-					b_barony0531a = { province = 3137 }
-					b_barony0531a_b = { province = 3138 }
+					b_kahului = { province = 8094 }
+				}
+			}
+		}
+		k_kingdom0349 = {
+			can_be_named_after_dynasty = no
+			color = { 64 169 161 }
+			capital = c_province0312
+			d_duchy0312 = {
+				color = { 118 186 195 }
+				capital = c_province0312
+				can_be_named_after_dynasty = no
+				c_province0349 = {
+					can_be_named_after_dynasty = no
+					color = { 64 169 161 }
+					b_barony0349 = { province = 349 }
+					b_sitka = { province = 8093 }
+				}
+				c_province0312 = {
+					can_be_named_after_dynasty = no
+					color = { 118 186 195 }
+					b_barony0312 = { province = 312 }
+					b_kalifornsky = { province = 8081 }
+					b_valdez = { province = 8082 }
+					b_bear_creek = { province = 8083 }
+					b_susitna_north = { province = 8084 }
+				}
+			}
+			d_duchy0349 = {
+				color = { 64 169 161 }
+				capital = c_province0306
+				can_be_named_after_dynasty = no
+				c_province0336 = {
+					can_be_named_after_dynasty = no
+					color = { 115 191 194 }
+					b_barony0336 = { province = 336 }
+					b_kotzebue = { province = 8086 }
+					b_prudhoe_bay = { province = 8087 }
+					b_unalakleet = { province = 8088 }
+					b_point_hope = { province = 8089 }
+					b_shishmaref = { province = 8090 }
+					b_wainwright = { province = 8091 }
+					b_galena = { province = 8092 }
+				}
+				c_province0306 = {
+					can_be_named_after_dynasty = no
+					color = { 93 182 201 }
+					b_barony0306 = { province = 306 }
+					b_dillingham = { province = 2986 }
+					b_hooper_bay = { province = 3137 }
+					b_mountain_village = { province = 3138 }
+					b_togiak = { province = 8078 }
+					b_quinhagak = { province = 8079 }
+					b_kipnuk = { province = 8080 }
+				}
+			}
+		}
+		k_kingdom0161 = {
+			can_be_named_after_dynasty = no
+			color = { 81 200 200 }
+			capital = c_province0170
+			d_duchy0233 = {
+				color = { 111 215 204 }
+				capital = c_idaho
+				can_be_named_after_dynasty = no
+				c_province0231 = {
+					can_be_named_after_dynasty = no
+					color = { 120 190 215 }
+					b_barony0231 = { province = 231 }
+					b_great_falls = { province = 2901 }
+					b_barony0254_b = { province = 2902 }
+					b_butte = { province = 2903 }
+				}
+				c_billings = {
+					can_be_named_after_dynasty = no
+					color = { 143 162 46 }
+					b_billings = { province = 2709 }
+					b_miles_city = { province = 8109 }
+					b_sidney = { province = 8110 }
+					b_lewistown = { province = 8111 }
+				}
+				c_idaho = {
+					can_be_named_after_dynasty = no
+					color = { 100 196 191 }
+					b_idaho = { province = 2700 }
+					b_idaho_falls = { province = 8104 }
+					b_coeur_d_alene = { province = 8105 }
+					b_twin_falls = { province = 8106 }
+				}
+				c_province0233 = {
+					can_be_named_after_dynasty = no
+					color = { 111 215 204 }
+					b_barony0233 = { province = 233 }
+					b_barony0224a = { province = 2858 }
+					b_casper = { province = 2904 }
+					b_rock_springs = { province = 2905 }
+					b_sheridan = { province = 2906 }
+				}
+			}
+			d_duchy0192 = {
+				color = { 99 188 192 }
+				capital = c_las_vegas
+				can_be_named_after_dynasty = no
+				c_sierras = {
+					can_be_named_after_dynasty = no
+					color = { 96 184 159 }
+					b_sierras = { province = 181 }
+					b_elko = { province = 2797 }
+					b_winnemucca = { province = 2799 }
+				}
+				c_las_vegas = {
+					can_be_named_after_dynasty = no
+					color = { 21 181 252 }
+					b_las_vegas = { province = 2733 }
+					b_mesquite = { province = 8115 }
+				}
+				c_province0170 = {
+					can_be_named_after_dynasty = no
+					color = { 66 209 155 }
+					b_barony0170 = { province = 170 }
+					b_saint_george = { province = 2792 }
+					b_vernal = { province = 2795 }
+					b_price = { province = 2796 }
+				}
+			}
+			d_colorado = {
+				color = { 192 71 122 }
+				capital = c_province0192
+				can_be_named_after_dynasty = no
+				c_province0192 = {
+					can_be_named_after_dynasty = no
+					color = { 99 188 192 }
+					b_barony0192 = { province = 192 }
+					b_pueblo = { province = 2836 }
+					b_sterling = { province = 2838 }
+				}
+				c_grand_junction = {
+					can_be_named_after_dynasty = no
+					color = { 172 246 113 }
+					b_grand_junction = { province = 2689 }
+					b_durango = { province = 8103 }
+				}
+			}
+			d_duchy0161 = {
+				color = { 81 200 200 }
+				capital = c_arizona
+				can_be_named_after_dynasty = no
+				c_arizona = {
+					can_be_named_after_dynasty = no
+					color = { 31 161 254 }
+					b_arizona = { province = 2684 }
+					b_barony0144b = { province = 8095 }
+					b_yuma = { province = 8096 }
+					b_flagstaff = { province = 8097 }
+					b_lake_havasu_city = { province = 8098 }
+					b_douglas = { province = 8099 }
+				}
+				c_province0144 = {
+					can_be_named_after_dynasty = no
+					color = { 72 156 212 }
+					b_barony0144 = { province = 144 }
+					b_farmington = { province = 2764 }
+					b_clovis = { province = 2765 }
+				}
+				c_las_cruces = {
+					can_be_named_after_dynasty = no
+					color = { 175 35 96 }
+					b_las_cruces = { province = 2732 }
+					b_roswell = { province = 8113 }
+					b_hobbs = { province = 8114 }
+				}
+			}
+		}
+		k_great_plains = {
+			can_be_named_after_dynasty = no
+			color = { 157 57 203 }
+			capital = c_province0226
+			d_northern_plains = {
+				color = { 190 134 190 }
+				capital = c_province0246
+				can_be_named_after_dynasty = no
+				c_province0254 = {
+					can_be_named_after_dynasty = no
+					color = { 115 197 169 }
+					b_barony0254 = { province = 254 }
+					b_bismarck = { province = 2932 }
+					b_minot = { province = 2933 }
+					b_williston = { province = 2934 }
+					b_dickinson = { province = 2935 }
+				}
+				c_province0224 = {
+					can_be_named_after_dynasty = no
+					color = { 76 176 179 }
+					b_barony0224 = { province = 224 }
+					b_rapid_city = { province = 2886 }
+					b_aberdeen = { province = 2891 }
+					b_watertown = { province = 2892 }
+					b_mitchell = { province = 2893 }
+				}
+				c_province0246 = {
+					can_be_named_after_dynasty = no
+					color = { 85 215 177 }
+					b_barony0246 = { province = 246 }
+					b_rochester = { province = 2915 }
+					b_barony0246_b = { province = 2916 }
+					b_grand_forks = { province = 2917 }
+					b_la_crosse = { province = 2920 }
+					b_mankato = { province = 2921 }
+				}
+			}
+			d_duchy0226 = {
+				color = { 63 163 157 }
+				capital = c_province0226
+				can_be_named_after_dynasty = no
+				c_province0257 = {
+					can_be_named_after_dynasty = no
+					color = { 60 162 182 }
+					b_barony0257 = { province = 257 }
+					b_cedar_rapids = { province = 2936 }
+					b_council_bluffs = { province = 2937 }
+					b_dubuque = { province = 2953 }
+				}
+				c_province0226 = {
+					can_be_named_after_dynasty = no
+					color = { 63 163 157 }
+					b_barony0226 = { province = 226 }
+					b_st_louis = { province = 2894 }
+					b_springfield = { province = 2895 }
+					b_barony0226_b = { province = 2896 }
+					b_joplin = { province = 2897 }
+				}
+			}
+			d_central_plains = {
+				color = { 74 203 41 }
+				capital = c_province0219
+				can_be_named_after_dynasty = no
+				c_province0219 = {
+					can_be_named_after_dynasty = no
+					color = { 102 175 170 }
+					b_barony0219 = { province = 219 }
+					b_sioux_city = { province = 2864 }
+					b_grand_island = { province = 2865 }
+					b_norfolk = { province = 2866 }
+					b_north_platte = { province = 2872 }
+				}
+				c_province0190 = {
+					can_be_named_after_dynasty = no
+					color = { 89 187 206 }
+					b_barony0190 = { province = 190 }
+					b_overland_park = { province = 2821 }
+					b_manhattan = { province = 2822 }
+					b_salina = { province = 2831 }
+					b_dodge_city = { province = 2832 }
+				}
+			}
+		}
+		k_kingdom0244 = {
+			can_be_named_after_dynasty = no
+			color = { 98 169 156 }
+			capital = c_province0229
+			d_duchy0244 = {
+				color = { 98 169 156 }
+				capital = c_province0229
+				can_be_named_after_dynasty = no
+				c_province0229 = {
+					can_be_named_after_dynasty = no
+					color = { 65 190 170 }
+					b_barony0229 = { province = 229 }
+					b_rockford = { province = 2900 }
+				}
+				c_peoria = {
+					can_be_named_after_dynasty = no
+					color = { 38 188 52 }
+					b_peoria = { province = 2701 }
+					b_davenport = { province = 8107 }
+				}
+			}
+			d_ohio = {
+				color = { 96 193 169 }
+				capital = c_province0259
+				can_be_named_after_dynasty = no
+				c_province0259 = {
+					can_be_named_after_dynasty = no
+					color = { 87 197 194 }
+					b_barony0259 = { province = 259 }
+					b_barony0283a = { province = 2930 }
+					b_barony0283_b = { province = 2960 }
+				}
+				c_province0244 = {
+					can_be_named_after_dynasty = no
+					color = { 98 169 156 }
+					b_barony0244 = { province = 244 }
+					b_fort_wayne = { province = 2912 }
+					b_barony0229_b = { province = 2913 }
+				}
+			}
+			d_michigan = {
+				color = { 108 181 185 }
+				capital = c_province0258
+				can_be_named_after_dynasty = no
+				c_province0258 = {
+					can_be_named_after_dynasty = no
+					color = { 70 214 209 }
+					b_barony0258 = { province = 258 }
+					b_grand_rapids = { province = 2954 }
+					b_lansing = { province = 2955 }
+					b_bay_city = { province = 2959 }
+				}
+				c_marquette = {
+					can_be_named_after_dynasty = no
+					color = { 51 193 94 }
+					b_marquette = { province = 2704 }
+					b_escanaba = { province = 8108 }
+				}
+				c_province0274 = {
+					can_be_named_after_dynasty = no
+					color = { 103 173 174 }
+					b_barony0274 = { province = 274 }
+					b_madison = { province = 2974 }
+					b_green_bay = { province = 2975 }
+					b_eau_claire = { province = 2976 }
+				}
+			}
+		}
+		k_texas = {
+			can_be_named_after_dynasty = no
+			color = { 165 153 114 }
+			capital = c_austin
+			d_duchy0126 = {
+				color = { 93 168 191 }
+				capital = c_austin
+				can_be_named_after_dynasty = no
+				c_austin = {
+					can_be_named_after_dynasty = no
+					color = { 165 153 114 }
+					b_austin = { province = 150 }
+					b_barony0161_b = { province = 2767 }
+					b_waco = { province = 2768 }
+					b_beaumont = { province = 2769 }
+				}
+				c_houston = {
+					can_be_named_after_dynasty = no
+					color = { 99 214 182 }
+					b_houston = { province = 117 }
+					b_austin_b = { province = 2741 }
+					b_barony0117a = { province = 2744 }
+				}
+				c_laredo = {
+					can_be_named_after_dynasty = no
+					color = { 238 69 12 }
+					b_laredo = { province = 2736 }
+					b_brownsville = { province = 8117 }
+				}
+			}
+			d_north_texas = {
+				color = { 218 77 46 }
+				capital = c_province0126
+				can_be_named_after_dynasty = no
+				c_province0126 = {
+					can_be_named_after_dynasty = no
+					color = { 93 168 191 }
+					b_barony0126 = { province = 126 }
+					b_abilene = { province = 2746 }
+					b_wichita_falls = { province = 2747 }
+					b_san_angelo = { province = 2748 }
+				}
+				c_province0161 = {
+					can_be_named_after_dynasty = no
+					color = { 81 200 200 }
+					b_barony0161 = { province = 161 }
+					b_amarillo = { province = 2770 }
+					b_midland = { province = 2782 }
+					b_socorro = { province = 2783 }
+					b_snyder = { province = 2784 }
+				}
+				c_province0197 = {
+					can_be_named_after_dynasty = no
+					color = { 103 193 159 }
+					b_barony0197 = { province = 197 }
+					b_barony0197b = { province = 2818 }
+					b_barony0197c = { province = 2819 }
+					b_enid = { province = 2842 }
+					b_ardmore = { province = 2843 }
+				}
+			}
+		}
+		k_deep_south = {
+			can_be_named_after_dynasty = no
+			color = { 196 97 70 }
+			capital = c_province0204
+			d_austin = {
+				color = { 165 153 114 }
+				capital = c_austin2
+				can_be_named_after_dynasty = no
+				c_province0182 = {
+					can_be_named_after_dynasty = no
+					color = { 170 162 127 }
+					b_barony0182 = { province = 182 }
+					b_barony0182b = { province = 2798 }
+					b_jonesboro = { province = 2800 }
+					b_rogers = { province = 2801 }
+				}
+				c_austin2 = {
+					can_be_named_after_dynasty = no
+					color = { 165 166 152 }
+					b_austin2 = { province = 145 }
+					b_shreveport = { province = 2766 }
+				}
+				c_baton_rouge = {
+					can_be_named_after_dynasty = no
+					color = { 70 108 142 }
+					b_baton_rouge = { province = 2702 }
+					b_barony0145b = { province = 2740 }
+				}
+				c_province0165 = {
+					can_be_named_after_dynasty = no
+					color = { 168 116 120 }
+					b_barony0165 = { province = 165 }
+					b_barony0165c = { province = 2771 }
+					b_meridian = { province = 2789 }
+					b_olive_branch = { province = 2790 }
+				}
+			}
+			d_nashville = {
+				color = { 97 154 165 }
+				capital = c_province0204
+				can_be_named_after_dynasty = no
+				c_province0204 = {
+					can_be_named_after_dynasty = no
+					color = { 71 197 164 }
+					b_barony0204 = { province = 204 }
+					b_new_south_memphis = { province = 2845 }
+					b_knoxville = { province = 2859 }
+				}
+				c_nashville = {
+					can_be_named_after_dynasty = no
+					color = { 97 154 165 }
+					b_nashville = { province = 228 }
+					b_barony0244a = { province = 2879 }
+					b_meads = { province = 2898 }
+				}
+				c_province0184 = {
+					can_be_named_after_dynasty = no
+					color = { 120 158 108 }
+					b_barony0184 = { province = 184 }
+					b_columbus = { province = 2808 }
+					b_birmingham = { province = 2809 }
+					b_montgomery = { province = 2817 }
 				}
 			}
 		}
 		k_kingdom0198 = {
 			can_be_named_after_dynasty = no
 			color = { 81 96 104 }
-			capital = c_province0198
+			capital = c_miami
 			d_florida = {
-				can_be_named_after_dynasty = no
 				color = { 223 215 74 }
 				capital = c_miami
-				c_miami = {
-					can_be_named_after_dynasty = no
-					color = { 223 215 74 }
-					b_miami = { province = 177 }
-					b_miami_beach = { province = 2788 }
-					b_fort_lauderdale = { province = 2789 }
-					b_florida_keys = { province = 2790 }
-					b_mar_a_lago = { province = 2791 }
-					b_biscayne = { province = 2792 }
-				}
+				can_be_named_after_dynasty = no
 				c_province0198 = {
 					can_be_named_after_dynasty = no
 					color = { 81 96 104 }
 					b_barony0198 = { province = 198 }
-					b_barony0198a = { province = 2820 }
-					b_barony0198b = { province = 2821 }
-					b_barony0198c = { province = 2822 }
+					b_east_pensacola_heights = { province = 2844 }
 				}
-				c_province0184 = {
+				c_miami = {
 					can_be_named_after_dynasty = no
-					color = { 120 158 108 }
-					b_barony0184 = { province = 184 }
-					b_barony0184a = { province = 2799 }
-					b_barony0184b = { province = 2800 }
-					b_barony0184c = { province = 2801 }
+					color = { 223 215 74 }
+					b_miami = { province = 177 }
+					b_mar_a_lago = { province = 2791 }
+					b_barony0198a = { province = 2820 }
 				}
 			}
 			d_duchy0239 = {
-				can_be_named_after_dynasty = no
 				color = { 110 164 182 }
-				capital = c_province0239
+				capital = c_atlanta
+				can_be_named_after_dynasty = no
 				c_atlanta = {
 					can_be_named_after_dynasty = no
 					color = { 94 178 184 }
 					b_atlanta = { province = 220 }
-					b_barony0220a = { province = 2845 }
+					b_savannah = { province = 2880 }
+					b_athens = { province = 2884 }
+					b_macon = { province = 2885 }
 				}
+			}
+			d_duchy0198 = {
+				color = { 81 96 104 }
+				capital = c_province0250
+				can_be_named_after_dynasty = no
 				c_province0239 = {
 					can_be_named_after_dynasty = no
 					color = { 110 164 182 }
 					b_barony0239 = { province = 239 }
 					b_barony0239a = { province = 2871 }
-					b_barony0239b = { province = 2872 }
 				}
-			}
-			d_duchy0198 = {
-				can_be_named_after_dynasty = no
-				color = { 81 96 104 }
-				capital = c_province0198
-				can_create = { always = no }
-			}
-		}
-		k_kingdom0244 = {
-			can_be_named_after_dynasty = no
-			color = { 98 169 156 }
-			capital = c_province0244
-			d_nashville = {
-				can_be_named_after_dynasty = no
-				color = { 97 154 165 }
-				capital = c_nashville
-				c_province0204 = {
+				c_province0250 = {
 					can_be_named_after_dynasty = no
-					color = { 71 197 164 }
-					b_barony0204 = { province = 204 }
-					b_barony0204a = { province = 2831 }
-					b_barony0204b = { province = 2832 }
-				}
-				c_nashville = {
-					can_be_named_after_dynasty = no
-					color = { 97 154 165 }
-					b_nashville = { province = 228 }
-					b_barony0228a = { province = 2862 }
-					b_barony0228b = { province = 2863 }
-				}
-			}
-			d_duchy0291 = {
-				can_be_named_after_dynasty = no
-				color = { 120 194 199 }
-				capital = c_province0291
-				c_province0274 = {
-					can_be_named_after_dynasty = no
-					color = { 103 173 174 }
-					b_barony0274 = { province = 274 }
-					b_barony0274a = { province = 2920 }
-					b_barony0274b = { province = 2921 }
-				}
-				c_province0291 = {
-					can_be_named_after_dynasty = no
-					color = { 120 194 199 }
-					b_barony0291 = { province = 291 }
-					b_barony0291a = { province = 2941 }
-					b_barony0291b = { province = 2942 }
-					b_barony0291c = { province = 2943 }
-				}
-			}
-			d_duchy0244 = {
-				can_be_named_after_dynasty = no
-				color = { 98 169 156 }
-				capital = c_province0244
-				c_province0229 = {
-					can_be_named_after_dynasty = no
-					color = { 65 190 170 }
-					b_barony0229 = { province = 229 }
-					b_barony0229a = { province = 2864 }
-				}
-				c_province0258 = {
-					can_be_named_after_dynasty = no
-					color = { 70 214 209 }
-					b_barony0258 = { province = 258 }
-					b_barony0258a = { province = 2897 }
-					b_barony0258b = { province = 2898 }
-				}
-				c_province0283 = {
-					can_be_named_after_dynasty = no
-					color = { 99 212 199 }
-					b_barony0283 = { province = 283 }
-					b_barony0283a = { province = 2930 }
-					b_barony0283b = { province = 2931 }
-				}
-				c_province0244 = {
-					can_be_named_after_dynasty = no
-					color = { 98 169 156 }
-					b_barony0244 = { province = 244 }
-					b_barony0244a = { province = 2879 }
-					b_barony0244b = { province = 2880 }
+					color = { 115 121 104 }
+					b_barony0250 = { province = 250 }
+					b_raleigh = { province = 2931 }
 				}
 			}
 		}
 		k_new_england = {
 			can_be_named_after_dynasty = no
 			color = { 105 94 115 }
-			capital = c_district_of_columbia
-			d_chesapeake_bay = {
-				color = { 105 94 115 }
-				capital = c_district_of_columbia
-				can_be_named_after_dynasty = no
-				c_province0250 = {
-					can_be_named_after_dynasty = no
-					color = { 115 121 104 }
-					b_barony0250 = { province = 250 }
-					b_barony0250a = { province = 2891 }
-				}
-				c_province0271 = {
-					can_be_named_after_dynasty = no
-					color = { 65 79 141 }
-					b_barony0271 = { province = 271 }
-					b_barony0271a = { province = 2912 }
-					b_barony0271b = { province = 2913 }
-					b_barony0271c = { province = 2914 }
-				}
-				c_district_of_columbia = {
-					can_be_named_after_dynasty = no
-					color = { 105 94 115 }
-					b_district_of_columbia = { province = 264 }
-					b_washington_dc = { province = 2901 }
-					b_baltimore = { province = 2902 }
-					b_alexandria_b = { province = 2903 }
-					b_the_white_house = { province = 2904 }
-					b_the_pentagon = { province = 2905 }
-					b_the_capitol = { province = 2906 }
-				}
-			}
+			capital = c_massachusetts
 			d_duchy0350 = {
-				can_be_named_after_dynasty = no
 				color = { 115 90 147 }
-				capital = c_new_york
-				c_new_york = {
+				capital = c_province0288
+				can_be_named_after_dynasty = no
+				c_buffalo = {
 					can_be_named_after_dynasty = no
-					color = { 119 64 158 }
-					b_new_york = { province = 329 }
-					b_barony0329a = { province = 2973 }
-					b_barony0329b = { province = 2974 }
-					b_barony0329c = { province = 2975 }
-					b_barony0329d = { province = 2976 }
-					b_barony0329e = { province = 2977 }
+					color = { 46 39 170 }
+					b_buffalo = { province = 2734 }
+					b_rochester_b = { province = 8116 }
 				}
 				c_province0288 = {
 					can_be_named_after_dynasty = no
 					color = { 83 88 151 }
 					b_barony0288 = { province = 288 }
-					b_barony0288a = { province = 2932 }
-					b_barony0288b = { province = 2933 }
-					b_barony0288c = { province = 2934 }
-					b_barony0288d = { province = 2935 }
-					b_barony0288e = { province = 2936 }
-					b_barony0288f = { province = 2937 }
+					b_syracuse = { province = 2978 }
 				}
 			}
-			d_duchy0272 = {
+			d_northern_new_england = {
+				color = { 58 110 114 }
+				capital = c_vermont
 				can_be_named_after_dynasty = no
+				c_new_york = {
+					can_be_named_after_dynasty = no
+					color = { 119 64 158 }
+					b_new_york = { province = 329 }
+					b_bangor = { province = 8085 }
+				}
+				c_new_hampshire = {
+					can_be_named_after_dynasty = no
+					color = { 116 48 39 }
+					b_new_hampshire = { province = 2710 }
+					b_keene = { province = 8112 }
+				}
+				c_vermont = {
+					can_be_named_after_dynasty = no
+					color = { 49 142 159 }
+					b_vermont = { province = 2738 }
+					b_albany = { province = 8119 }
+				}
+			}
+			d_southern_new_england = {
+				color = { 171 192 195 }
+				capital = c_massachusetts
+				can_be_named_after_dynasty = no
+				c_massachusetts = {
+					can_be_named_after_dynasty = no
+					color = { 148 69 139 }
+					b_massachusetts = { province = 2703 }
+				}
+				c_rhode_island = {
+					can_be_named_after_dynasty = no
+					color = { 51 230 146 }
+					b_rhode_island = { province = 2735 }
+				}
+				c_connecticut = {
+					can_be_named_after_dynasty = no
+					color = { 124 147 143 }
+					b_connecticut = { province = 2699 }
+				}
+			}
+		}
+		k_chesapeake = {
+			can_be_named_after_dynasty = no
+			color = { 121 194 164 }
+			capital = c_province0272
+			d_duchy0272 = {
 				color = { 153 163 142 }
 				capital = c_province0272
+				can_be_named_after_dynasty = no
 				c_province0272 = {
 					can_be_named_after_dynasty = no
 					color = { 153 163 142 }
 					b_barony0272 = { province = 272 }
-					b_barony0272a = { province = 2915 }
-					b_barony0272b = { province = 2916 }
-					b_barony0272c = { province = 2917 }
+					b_pittsburgh = { province = 2961 }
+					b_erie = { province = 2973 }
 				}
-				c_province0259 = {
+				c_new_jersey = {
 					can_be_named_after_dynasty = no
-					color = { 87 197 194 }
-					b_barony0259 = { province = 259 }
+					color = { 92 177 42 }
+					b_new_jersey = { province = 2731 }
+				}
+				c_province0271 = {
+					can_be_named_after_dynasty = no
+					color = { 65 79 141 }
+					b_barony0271 = { province = 271 }
+				}
+			}
+			d_chesapeake_bay = {
+				color = { 105 94 115 }
+				capital = c_district_of_columbia
+				can_be_named_after_dynasty = no
+				c_district_of_columbia = {
+					can_be_named_after_dynasty = no
+					color = { 105 94 115 }
+					b_district_of_columbia = { province = 264 }
+					b_barony0271c = { province = 2914 }
+				}
+				c_virginia = {
+					can_be_named_after_dynasty = no
+					color = { 97 155 56 }
+					b_virginia = { province = 2737 }
+					b_richmond = { province = 8118 }
+				}
+				c_west_virginia = {
+					can_be_named_after_dynasty = no
+					color = { 219 69 139 }
+					b_west_virginia = { province = 2739 }
 					b_barony0259a = { province = 2899 }
-					b_barony0259b = { province = 2900 }
 				}
 			}
 		}
@@ -7653,6 +7790,12 @@ h_americas = {
 					b_barony0317a = { province = 2962 }
 					b_barony0317b = { province = 2963 }
 					b_barony0317c = { province = 2964 }
+				}
+				c_province0283 = {
+					can_be_named_after_dynasty = no
+					color = { 99 212 199 }
+					b_barony0283 = { province = 283 }
+					b_london_b = { province = 2977 }
 				}
 			}
 			d_duchy0320 = {
@@ -7766,6 +7909,38 @@ h_americas = {
 					b_barony0359c = { province = 2995 }
 				}
 			}
+			d_duchy0277 = {
+				can_be_named_after_dynasty = no
+				color = { 73 190 160 }
+				capital = c_province0277
+				c_province0282 = {
+					can_be_named_after_dynasty = no
+					color = { 80 167 156 }
+					b_barony0282 = { province = 282 }
+					b_barony0282a = { province = 2929 }
+				}
+				c_province0277 = {
+					can_be_named_after_dynasty = no
+					color = { 73 190 160 }
+					b_barony0277 = { province = 277 }
+					b_barony0277a = { province = 2926 }
+					b_barony0277b = { province = 2927 }
+					b_barony0277c = { province = 2928 }
+				}
+			}
+			d_duchy0291 = {
+				can_be_named_after_dynasty = no
+				color = { 120 194 199 }
+				capital = c_province0291
+				c_province0291 = {
+					can_be_named_after_dynasty = no
+					color = { 120 194 199 }
+					b_barony0291 = { province = 291 }
+					b_barony0291a = { province = 2941 }
+					b_barony0291b = { province = 2942 }
+					b_barony0291c = { province = 2943 }
+				}
+			}
 		}
 		k_kingdom0245 = {
 			can_be_named_after_dynasty = no
@@ -7865,6 +8040,14 @@ h_americas = {
 					b_barony0245a = { province = 2881 }
 					b_barony0245b = { province = 2882 }
 					b_barony0245c = { province = 2883 }
+				}
+				c_province0294 = {
+					can_be_named_after_dynasty = no
+					color = { 96 87 138 }
+					b_barony0294 = { province = 294 }
+					b_barony0294a = { province = 2944 }
+					b_barony0294b = { province = 2945 }
+					b_barony0294c = { province = 2946 }
 				}
 			}
 		}

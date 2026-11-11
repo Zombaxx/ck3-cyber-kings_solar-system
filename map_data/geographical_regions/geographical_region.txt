@@ -18,7 +18,7 @@ world_empire0056 = {
 	duchies = { d_duchy0108 d_duchy0187 d_duchy0232 d_duchy0021 d_duchy0119 d_duchy0186 d_duchy0218 d_duchy0278 d_duchy0287 d_duchy0330 d_duchy0056 }
 }
 world_empire0181 = {
-	duchies = { d_duchy0080 d_duchy0131 d_austin d_duchy0126 d_duchy0192 d_duchy0226 d_duchy0233 d_duchy0277 d_duchy0161 d_norcal d_duchy0289 d_duchy0299 d_duchy0345 d_duchy0245 d_duchy0312 d_duchy0349 d_bay_area d_sierras }
+	duchies = { d_duchy0080 d_duchy0131 d_austin d_duchy0126 d_duchy0192 d_duchy0226 d_duchy0233 d_duchy0277 d_duchy0161 d_norcal d_duchy0289 d_duchy0299 d_duchy0345 d_duchy0245 d_duchy0312 d_duchy0349 d_sierras d_colorado d_northern_plains d_central_plains d_north_texas }
 }
 world_empire0188 = {
 	duchies = { d_duchy0188 }
@@ -30,7 +30,7 @@ world_empire0223 = {
 	duchies = { d_duchy0091 d_duchy0122 d_duchy0162 d_duchy0196 d_duchy0223 }
 }
 world_united_states = {
-	duchies = { d_florida d_duchy0198 d_nashville d_duchy0239 d_duchy0291 d_duchy0244 d_chesapeake_bay d_duchy0272 }
+	duchies = { d_florida d_duchy0198 d_nashville d_duchy0239 d_duchy0291 d_duchy0244 d_chesapeake_bay d_duchy0272 d_ohio d_michigan d_northern_new_england d_southern_new_england }
 }
 world_latin_america = {
 	duchies = { d_duchy0106 d_rio d_duchy0167 d_duchy0234 d_duchy0243 d_duchy0247 d_duchy0276 }
@@ -63,13 +63,13 @@ world_empire0454 = {
 	duchies = { d_duchy0422 d_duchy0423 d_duchy0424 d_duchy0454 }
 }
 world_empire0504 = {
-	duchies = { d_duchy0428 d_duchy0478 d_duchy0495 d_duchy0510 d_duchy0525 d_duchy0551 d_duchy0467 d_duchy0417 }
+	duchies = { d_al_alrd d_duchy0428 d_duchy0478 d_duchy0495 d_duchy0510 d_duchy0525 d_duchy0551 d_duchy0467 d_duchy0417 }
 }
 world_empire0513 = {
 	duchies = { d_duchy0253 d_duchy0314 d_duchy0338 d_duchy0371 d_duchy0366 d_duchy0427 d_duchy0429 d_duchy0432 d_duchy0397 d_duchy0407 d_duchy0489 d_duchy0438 d_duchy0430 d_duchy0441 d_new_tehran d_duchy0485 d_duchy0541 d_duchy0553 d_duchy0569 d_duchy0517 d_duchy0497 d_duchy0500 d_duchy0501 d_duchy0529 d_duchy0524 d_duchy0463 d_duchy0499 d_duchy0503 d_duchy0567 d_duchy0513 }
 }
 world_european_union = {
-	duchies = { d_duchy0456 d_duchy0479 d_duchy0480 d_duchy0464 d_duchy0506 d_duchy0599 d_duchy0624 d_duchy0635 d_france d_duchy0558 d_duchy0596 d_duchy0530 }
+	duchies = { d_ck_occitania d_duchy0456 d_duchy0479 d_duchy0480 d_duchy0464 d_duchy0506 d_duchy0599 d_duchy0624 d_duchy0635 d_france d_duchy0558 d_duchy0596 d_duchy0530 }
 }
 world_empire0531 = {
 	duchies = { d_duchy0531 }

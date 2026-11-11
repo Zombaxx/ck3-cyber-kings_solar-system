@@ -16659,7 +16659,7 @@ c_santa_barbara = {
 	1031.1.1 = { holder = 101241 }
 	1058.1.1 = { holder = 101242 }
 	1060.1.1 = { holder = 101245 government = feudal_government }
-	1065.1.1 = { liege = k_california }
+	1065.1.1 = { liege = d_sierras }
 }
 c_north_bay = {
 	1000.1.1 = { change_development_level = 17 }
@@ -16672,8 +16672,8 @@ c_san_francisco = {
 	1006.1.1 = { holder = 101411 }
 	1033.1.1 = { holder = 101412 }
 	1064.1.1 = { holder = 101415 government = feudal_government }
-	1066.1.1 = { liege = d_bay_area }
-	1066.9.15 = { liege = k_california }
+	1066.1.1 = { liege = d_sierras }
+	1066.9.15 = { liege = d_sierras }
 }
 k_california = {
 	951.1.1 = { holder = 101810 }
@@ -16681,13 +16681,7 @@ k_california = {
 	1045.1.1 = { holder = 101812 }
 	1063.1.1 = { holder = 101815 government = feudal_government }
 	1066.1.1 = { liege = e_united_states }
-}
-d_bay_area = {
-	928.1.1 = { holder = 101410 }
-	1006.1.1 = { holder = 101411 }
-	1033.1.1 = { holder = 101412 }
-	1064.1.1 = { holder = 101415 government = feudal_government }
-	1066.1.1 = { liege = k_california }
+	1066.9.14 = { holder = 0 }
 }
 c_gold_country = {
 	938.1.1 = { holder = 102120 }
@@ -24092,4 +24086,204 @@ k_texas = {
 ########## h_eurasia
 h_eurasia = {
 	1066.1.1 = { holder = 107175 }	# Illuminious, the Cyborg of Eurasia; de facto realm = his former Eurasian empire
+}
+
+# US redraw 2026-11-10: copied from c_province0144
+c_arizona = {
+	945.1.1 = { holder = 101440 }
+	1000.1.1 = { change_development_level = 4 }
+	1001.1.1 = { holder = 101441 }
+	1043.1.1 = { holder = 101442 }
+	1055.1.1 = { holder = 101445 government = tribal_government }
+	1066.1.1 = { liege = d_duchy0161 }
+}
+# US redraw 2026-11-10: copied from c_san_francisco
+c_fresno = {
+	928.1.1 = { holder = 101410 }
+	1000.1.1 = { change_development_level = 22 }
+	1006.1.1 = { holder = 101411 }
+	1033.1.1 = { holder = 101412 }
+	1064.1.1 = { holder = 101415 government = feudal_government }
+	1066.1.1 = { liege = d_sierras }
+	1066.9.15 = { liege = d_sierras }
+}
+# US redraw 2026-11-10: copied from c_santa_barbara
+c_los_angeles = {
+	947.1.1 = { holder = 101240 }
+	1000.1.1 = { change_development_level = 26 }
+	1031.1.1 = { holder = 101241 }
+	1058.1.1 = { holder = 101242 }
+	1060.1.1 = { holder = 101245 government = feudal_government }
+	1065.1.1 = { liege = d_sierras }
+}
+# US redraw 2026-11-10: copied from c_santa_barbara
+c_monterey = {
+	947.1.1 = { holder = 101240 }
+	1000.1.1 = { change_development_level = 26 }
+	1031.1.1 = { holder = 101241 }
+	1058.1.1 = { holder = 101242 }
+	1060.1.1 = { holder = 101245 government = feudal_government }
+	1065.1.1 = { liege = d_sierras }
+}
+# US redraw 2026-11-10: copied from c_santa_barbara
+c_san_diego = {
+	947.1.1 = { holder = 101240 }
+	1000.1.1 = { change_development_level = 26 }
+	1031.1.1 = { holder = 101241 }
+	1058.1.1 = { holder = 101242 }
+	1060.1.1 = { holder = 101245 government = feudal_government }
+	1065.1.1 = { liege = d_sierras }
+}
+# US redraw 2026-11-10: copied from c_province0170
+c_grand_junction = {
+	924.1.1 = { holder = 101700 }
+	999.1.1 = { holder = 101701 }
+	1000.1.1 = { change_development_level = 17 }
+	1026.1.1 = { holder = 101702 }
+	1064.1.1 = { holder = 101705 government = feudal_government }
+	1066.1.1 = { liege = d_duchy0192 }
+}
+# US redraw 2026-11-10: copied from c_province0288
+c_connecticut = {
+	1000.1.1 = { change_development_level = 29 }
+	1066.1.1 = { holder = 102885 government = feudal_government }
+	1066.1.1 = { liege = d_chesapeake_bay }
+}
+# US redraw 2026-11-10: copied from c_province0233
+c_idaho = {
+	945.1.1 = { holder = 102330 }
+	1000.1.1 = { change_development_level = 4 }
+	1024.1.1 = { holder = 102331 }
+	1046.1.1 = { holder = 102332 }
+	1060.1.1 = { holder = 102335 government = tribal_government }
+	1066.1.1 = { liege = d_duchy0233 }
+	1066.9.15 = { liege = e_united_states }
+}
+# US redraw 2026-11-10: copied from c_province0226
+c_peoria = {
+	946.1.1 = { holder = 102260 }
+	1000.1.1 = { change_development_level = 4 }
+	1021.1.1 = { holder = 102261 }
+	1049.1.1 = { holder = 102262 }
+	1058.1.1 = { holder = 102265 government = tribal_government }
+	1066.1.1 = { liege = d_duchy0226 }
+	1066.9.15 = { liege = e_united_states }
+}
+# US redraw 2026-11-10: copied from c_province0165
+c_baton_rouge = {
+	930.1.1 = { holder = 101650 }
+	1000.1.1 = { change_development_level = 17 }
+	1000.1.1 = { holder = 101651 }
+	1023.1.1 = { holder = 101652 }
+	1048.1.1 = { holder = 101655 government = feudal_government }
+	1066.1.1 = { liege = e_united_states }
+}
+# US redraw 2026-11-10: copied from c_province0288
+c_massachusetts = {
+	1000.1.1 = { change_development_level = 29 }
+	1066.1.1 = { holder = 102885 government = feudal_government }
+	1066.1.1 = { liege = d_chesapeake_bay }
+}
+# US redraw 2026-11-10: copied from c_province0274
+c_marquette = {
+	921.1.1 = { holder = 102740 }
+	996.1.1 = { holder = 102741 }
+	1000.1.1 = { change_development_level = 14 }
+	1048.1.1 = { holder = 102742 }
+	1059.1.1 = { holder = 102745 government = feudal_government }
+	1066.1.1 = { liege = e_united_states }
+}
+# US redraw 2026-11-10: copied from c_province0233
+c_billings = {
+	945.1.1 = { holder = 102330 }
+	1000.1.1 = { change_development_level = 4 }
+	1024.1.1 = { holder = 102331 }
+	1046.1.1 = { holder = 102332 }
+	1060.1.1 = { holder = 102335 government = tribal_government }
+	1066.1.1 = { liege = d_duchy0233 }
+	1066.9.15 = { liege = e_united_states }
+}
+# US redraw 2026-11-10: copied from c_new_york
+c_new_hampshire = {
+	931.1.1 = { holder = 103290 }
+	1000.1.1 = { change_development_level = 20 }
+	1003.1.1 = { holder = 103291 }
+	1058.1.1 = { holder = 103292 }
+	1064.1.1 = { holder = 103295 government = feudal_government }
+	1066.1.1 = { liege = e_united_states }
+}
+# US redraw 2026-11-10: copied from c_province0288
+c_new_jersey = {
+	1000.1.1 = { change_development_level = 29 }
+	1066.1.1 = { holder = 102885 government = feudal_government }
+	1066.1.1 = { liege = d_chesapeake_bay }
+}
+# US redraw 2026-11-10: copied from c_province0144
+c_las_cruces = {
+	945.1.1 = { holder = 101440 }
+	1000.1.1 = { change_development_level = 4 }
+	1001.1.1 = { holder = 101441 }
+	1043.1.1 = { holder = 101442 }
+	1055.1.1 = { holder = 101445 government = tribal_government }
+	1066.1.1 = { liege = d_duchy0161 }
+}
+# US redraw 2026-11-10: copied from c_san_francisco
+c_las_vegas = {
+	928.1.1 = { holder = 101410 }
+	1000.1.1 = { change_development_level = 22 }
+	1006.1.1 = { holder = 101411 }
+	1033.1.1 = { holder = 101412 }
+	1064.1.1 = { holder = 101415 government = feudal_government }
+	1066.1.1 = { liege = d_sierras }
+	1066.9.15 = { liege = d_sierras }
+}
+# US redraw 2026-11-10: copied from c_province0288
+c_buffalo = {
+	1000.1.1 = { change_development_level = 29 }
+	1066.1.1 = { holder = 102885 government = feudal_government }
+	1066.1.1 = { liege = d_chesapeake_bay }
+}
+# US redraw 2026-11-10: copied from c_province0288
+c_rhode_island = {
+	1000.1.1 = { change_development_level = 29 }
+	1066.1.1 = { holder = 102885 government = feudal_government }
+	1066.1.1 = { liege = d_chesapeake_bay }
+}
+# US redraw 2026-11-10: copied from c_province0074
+c_laredo = {
+	931.1.1 = { holder = 100740 }
+	1000.1.1 = { change_development_level = 19 }
+	1014.1.1 = { holder = 100741 }
+	1015.1.1 = { holder = 100742 }
+	1054.1.1 = { holder = 100745 government = feudal_government }
+	1066.1.1 = { liege = d_duchy0074 }
+	1066.9.15 = { liege = k_mexico }
+}
+# US redraw 2026-11-10: copied from c_district_of_columbia
+c_virginia = {
+	938.1.1 = { holder = 102640 }
+	1000.1.1 = { change_development_level = 32 }
+	1004.1.1 = { holder = 102641 }
+	1038.1.1 = { holder = 102642 }
+	1064.1.1 = { holder = 102725 government = feudal_government }
+	1066.1.1 = { liege = d_chesapeake_bay }
+	1066.9.15 = { liege = 0 }
+}
+# US redraw 2026-11-10: copied from c_new_york
+c_vermont = {
+	931.1.1 = { holder = 103290 }
+	1000.1.1 = { change_development_level = 20 }
+	1003.1.1 = { holder = 103291 }
+	1058.1.1 = { holder = 103292 }
+	1064.1.1 = { holder = 103295 government = feudal_government }
+	1066.1.1 = { liege = e_united_states }
+}
+# US redraw 2026-11-10: copied from c_province0259
+c_west_virginia = {
+	926.1.1 = { holder = 102590 }
+	1000.1.1 = { change_development_level = 14 }
+	1007.1.1 = { holder = 102591 }
+	1013.1.1 = { holder = 102592 }
+	1054.1.1 = { holder = 102595 government = feudal_government }
+	1066.1.1 = { liege = d_duchy0244 }
 }

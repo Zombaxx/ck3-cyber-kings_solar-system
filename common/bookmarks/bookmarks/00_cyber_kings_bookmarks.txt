@@ -54,7 +54,7 @@
 		dynasty = 101410
 		type = male
 		birth = 1043.1.1
-		title = d_bay_area
+		title = c_san_francisco
 		government = feudal_government
 		culture = liblander
 		religion = roman_rite

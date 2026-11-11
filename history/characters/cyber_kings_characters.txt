@@ -16951,6 +16951,7 @@
 	mother = 101814
 	1028.1.1 = { birth = yes }
 	1100.1.1 = { death = yes }
+	1066.9.15 = { effect = { set_realm_capital = title:c_sacramento } }
 }
 101816 = {
 	name = "ckn_Noah"
