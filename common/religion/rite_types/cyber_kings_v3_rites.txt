@@ -384,3 +384,19 @@ kemetism_rite = { # Cyber Kings v3 (e17): copy of kushitism_pagan
 		unreformed_faith_doctrine
 	}
 }
+
+era_zaharra_rite = { # Cyber Kings (e45): copy of basque_pagan with druidic tenets
+	faith = era_zaharra_faith
+
+	color = { 0.45 0.62 0.25 }
+
+	tenets = {
+		tenet_sanctity_of_nature
+		tenet_megaliths
+		tenet_communal_identity
+	}
+
+	doctrines = {
+		unreformed_faith_doctrine
+	}
+}

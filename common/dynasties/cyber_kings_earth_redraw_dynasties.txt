@@ -89,7 +89,7 @@
 }
 8100021 = {
 	name = "dynn_Akoimitos"
-	culture = "bavarian"
+	culture = "austrian"
 }
 8100022 = {
 	name = "dynn_Jabrid"
@@ -254,7 +254,7 @@
 }
 8100060 = {
 	name = "dynn_Sypniewski"
-	culture = "vlach"
+	culture = "romanian"
 }
 8100061 = {
 	name = "dynn_Korecki"
@@ -306,7 +306,7 @@
 }
 8100072 = {
 	name = "dynn_ckr_varmana"
-	culture = "bisayan"
+	culture = "filipino"
 }
 8100073 = {
 	name = "dynn_ckr_mauli"
@@ -685,7 +685,7 @@
 }
 8100164 = {
 	name = "dynn_ckr_lan_xang"
-	culture = "tai"
+	culture = "thai"
 }
 8100165 = {
 	name = "dynn_Xu_5F90"
@@ -745,7 +745,7 @@
 }
 8100179 = {
 	name = "dynn_ckr_khun_borom"
-	culture = "tai"
+	culture = "thai"
 }
 8100180 = {
 	name = "dynn_Kaabid"
@@ -834,7 +834,7 @@
 }
 8100201 = {
 	name = "dynn_Godziemba"
-	culture = "latgalian"
+	culture = "latvian"
 }
 8100202 = {
 	name = "dynn_Chakroun"
@@ -971,7 +971,7 @@
 }
 8100234 = {
 	name = "dynn_S_widnicki"
-	culture = "vlach"
+	culture = "romanian"
 }
 8100235 = {
 	name = "dynn_Blachernites"
@@ -1025,7 +1025,7 @@
 }
 8100247 = {
 	name = "dynn_ckr_mahidharapura"
-	culture = "tai"
+	culture = "thai"
 }
 8100248 = {
 	name = "dynn_ckr_sanogo"
@@ -1385,7 +1385,7 @@
 }
 8100335 = {
 	name = "dynn_Monachites"
-	culture = "carantanian"
+	culture = "slovenian"
 }
 8100336 = {
 	name = "dynn_DA_browa"
@@ -1681,4 +1681,261 @@
 8100407 = {
 	name = "dynn_Ruan_962E"
 	culture = "sichuanese"
+}
+8100500 = {
+	name = "dynn_Zakharyinich"
+	culture = "sibiryak"
+}
+8100501 = {
+	name = "dynn_Iziaslavich"
+	culture = "sibiryak"
+}
+8100502 = {
+	name = "dynn_Viacheslavich"
+	culture = "sibiryak"
+}
+8100503 = {
+	name = "dynn_Ivannikov"
+	culture = "sibiryak"
+}
+8100504 = {
+	name = "dynn_Chirtan"
+	culture = "sakha"
+}
+8100505 = {
+	name = "dynn_Turgai"
+	culture = "sakha"
+}
+8100506 = {
+	name = "dynn_Anjogli"
+	culture = "sakha"
+}
+8100507 = {
+	name = "dynn_Olas"
+	culture = "sakha"
+}
+8100508 = {
+	name = "dynn_Ovinov"
+	culture = "far_eastern"
+}
+8100509 = {
+	name = "dynn_Andreievich"
+	culture = "sibiryak"
+}
+8100510 = {
+	name = "dynn_Ignatiev"
+	culture = "sibiryak"
+}
+8100511 = {
+	name = "dynn_MekrU_ti"
+	culture = "sakha"
+}
+8100512 = {
+	name = "dynn_Yurievich"
+	culture = "far_eastern"
+}
+8100513 = {
+	name = "dynn_Ormstunga"
+	culture = "norwegian"
+}
+8100514 = {
+	name = "dynn_Feofilaktovich"
+	culture = "far_eastern"
+}
+8100515 = {
+	name = "dynn_Mauli"
+	culture = "bugis"
+}
+8100516 = {
+	name = "dynn_Warmadewa"
+	culture = "bugis"
+}
+8100517 = {
+	name = "dynn_Bendahara"
+	culture = "bugis"
+}
+8100518 = {
+	name = "dynn_Sanjaya"
+	culture = "bugis"
+}
+8100519 = {
+	name = "dynn_Rajasa"
+	culture = "bugis"
+}
+8100520 = {
+	name = "dynn_Shailendra"
+	culture = "javanese"
+}
+8100521 = {
+	name = "dynn_ck3_jeune"
+	culture = "afro_caribbean"
+}
+8100522 = {
+	name = "dynn_Ishana"
+	culture = "papuan"
+}
+8100600 = {
+	name = "dynn_ckr_van_oranje"
+	culture = "dutch"
+}
+8100700 = {
+	name = "dynn_Sulaymanid"
+	culture = "bedouin"
+}
+8100701 = {
+	name = "dynn_Botticelli"
+	culture = "italian"
+}
+8100702 = {
+	name = "dynn_Lakhnauti"
+	culture = "turkish"
+}
+8100703 = {
+	name = "dynn_Xenos"
+	culture = "greek"
+}
+8100704 = {
+	name = "dynn_ck3_kanda"
+	culture = "kongo"
+}
+8100705 = {
+	name = "dynn_ck3_estime"
+	culture = "afro_caribbean"
+}
+8100706 = {
+	prefix = "dynnp_wa"
+	name = "dynn_Shanga"
+	culture = "swahili"
+}
+8100707 = {
+	name = "dynn_ck3_salomon"
+	culture = "afro_caribbean"
+}
+8100708 = {
+	name = "dynn_ck3_alexis"
+	culture = "afro_caribbean"
+}
+8100709 = {
+	name = "dynn_ck3_benoit"
+	culture = "afro_caribbean"
+}
+8100710 = {
+	name = "dynn_ck3_hyppolite"
+	culture = "afro_caribbean"
+}
+8100711 = {
+	name = "dynn_ck3_charles"
+	culture = "afro_caribbean"
+}
+8100712 = {
+	name = "dynn_Gunasekera"
+	culture = "sinhala"
+}
+8100713 = {
+	name = "dynn_ck3_florvil"
+	culture = "afro_caribbean"
+}
+8100714 = {
+	name = "dynn_ck3_evangelista"
+	culture = "afro_brazilian"
+}
+8100715 = {
+	name = "dynn_ck3_celestin"
+	culture = "afro_caribbean"
+}
+8100716 = {
+	name = "dynn_Ay"
+	culture = "tamil"
+}
+8100717 = {
+	name = "dynn_Shailendra"
+	culture = "papuan"
+}
+8100718 = {
+	name = "dynn_Sanjaya"
+	culture = "papuan"
+}
+8100719 = {
+	name = "dynn_ck3_sakalava"
+	culture = "malagasy"
+}
+8100720 = {
+	name = "dynn_Bendahara"
+	culture = "papuan"
+}
+8100721 = {
+	name = "dynn_Shailendra"
+	culture = "papuan"
+}
+8100722 = {
+	name = "dynn_Sanjaya"
+	culture = "papuan"
+}
+8100723 = {
+	name = "dynn_Bendahara"
+	culture = "papuan"
+}
+8100724 = {
+	name = "dynn_Mauli"
+	culture = "papuan"
+}
+8100725 = {
+	name = "dynn_Shailendra"
+	culture = "papuan"
+}
+8100726 = {
+	name = "dynn_Mauli"
+	culture = "papuan"
+}
+8100727 = {
+	name = "dynn_Bendahara"
+	culture = "papuan"
+}
+8100728 = {
+	name = "dynn_Bendahara"
+	culture = "papuan"
+}
+8100800 = {
+	name = "dynn_ck_400017"
+	culture = "murican"
+}
+8100801 = {
+	name = "dynn_ck3_fletcher"
+	culture = "moderate"
+}
+8100802 = {
+	name = "dynn_ck_102450"
+	culture = "liblander"
+}
+8100803 = {
+	name = "dynn_ck_101320"
+	culture = "progressive"
+}
+8100804 = {
+	name = "dynn_ck_400043"
+	culture = "liblander"
+}
+8100805 = {
+	name = "dynn_ck_102640"
+	culture = "liblander"
+}
+8100806 = {
+	name = "dynn_ck3_wright"
+	culture = "moderate"
+}
+8100807 = {
+	name = "dynn_ck_400035"
+	culture = "progressive"
+}
+8100808 = {
+	name = "dynn_ck_400009"
+	culture = "murican"
+}
+8100900 = {
+	name = "dynn_ckr_caldwell"
+	culture = "murican"
+}
+8100901 = {
+	name = "dynn_ckr_harlan"
+	culture = "murican"
 }

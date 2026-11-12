@@ -1,0 +1,20 @@
+﻿8101000 = {
+	name = "dynn_ckw_8101000"
+	culture = "ckw_risialan"
+}
+8101001 = {
+	name = "dynn_ckw_8101001"
+	culture = "ckw_caliphian"
+}
+8101002 = {
+	name = "dynn_ckw_8101002"
+	culture = "ckw_caliphian"
+}
+8101003 = {
+	name = "dynn_ckw_8101003"
+	culture = "ckw_caliphian"
+}
+8101004 = {
+	name = "dynn_ckw_8101004"
+	culture = "ganisian"
+}

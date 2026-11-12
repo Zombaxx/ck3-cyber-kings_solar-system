@@ -1,0 +1,97 @@
+﻿# Cyber Kings: tributaries and confederations set up at game start (2026-11-11).
+# Appended to vanilla on_game_start (on_actions lists from several files are merged).
+# Uses vanilla break_subject_contract_and_establish_tributary_effect (common/scripted_effects/00_tributary_setup_effects.txt).
+on_game_start = {
+	on_actions = { cyber_tributary_setup cyber_commonwealth_setup }
+}
+
+cyber_tributary_setup = {
+	effect = {
+		# Russia is a tributary of the Hegemony of Eurasia (Illuminious, the Cywizard)
+		character:107175 ?= {
+			save_scope_as = suzerain
+			character:106215 ?= {
+				if = {
+					limit = { is_ruler = yes }
+					break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+				}
+			}
+		}
+	}
+}
+
+# Commonwealth of Nations (2026 members) as a confederation led by the UK king (2026-11-11).
+# Members not added: Trinidad and Tobago (not on the map). Cyprus and Malta were made independent (v41) so they can join.
+cyber_commonwealth_setup = {
+	effect = {
+		# House-based (e49): vanilla pattern of tgp_create_historical_house_bloc_effect. A character-based
+		# create_confederation left the confederation without members (error.log 2026-11-11 22:16), so nothing joined.
+		character:7000002 ?= {
+			if = {
+				limit = { is_ruler = yes exists = house NOT = { exists = house.house_confederation } }
+				create_confederation = {
+					name = commonwealth_of_nations_confederation_name
+					type = confederation_type:commonwealth_of_nations
+					leader = house
+				}
+			}
+			house.house_confederation ?= { save_scope_as = cwn }
+		}
+		scope:cwn ?= {
+			character:8100715 ?= { if = { limit = { is_ruler = yes is_independent_ruler = yes exists = house NOT = { exists = house.house_confederation } } house = { save_temporary_scope_as = cwh } scope:cwn = { add_confederation_member_house = scope:cwh } } } # Antigua and Barbuda
+			character:110645 ?= { if = { limit = { is_ruler = yes is_independent_ruler = yes exists = house NOT = { exists = house.house_confederation } } house = { save_temporary_scope_as = cwh } scope:cwn = { add_confederation_member_house = scope:cwh } } } # Australia
+			character:8100707 ?= { if = { limit = { is_ruler = yes is_independent_ruler = yes exists = house NOT = { exists = house.house_confederation } } house = { save_temporary_scope_as = cwh } scope:cwn = { add_confederation_member_house = scope:cwh } } } # Bahamas
+			character:108645 ?= { if = { limit = { is_ruler = yes is_independent_ruler = yes exists = house NOT = { exists = house.house_confederation } } house = { save_temporary_scope_as = cwh } scope:cwn = { add_confederation_member_house = scope:cwh } } } # Bangladesh
+			character:8100710 ?= { if = { limit = { is_ruler = yes is_independent_ruler = yes exists = house NOT = { exists = house.house_confederation } } house = { save_temporary_scope_as = cwh } scope:cwn = { add_confederation_member_house = scope:cwh } } } # Barbados
+			character:8100041 ?= { if = { limit = { is_ruler = yes is_independent_ruler = yes exists = house NOT = { exists = house.house_confederation } } house = { save_temporary_scope_as = cwh } scope:cwn = { add_confederation_member_house = scope:cwh } } } # Belize
+			character:107785 ?= { if = { limit = { is_ruler = yes is_independent_ruler = yes exists = house NOT = { exists = house.house_confederation } } house = { save_temporary_scope_as = cwh } scope:cwn = { add_confederation_member_house = scope:cwh } } } # Botswana
+			character:8100058 ?= { if = { limit = { is_ruler = yes is_independent_ruler = yes exists = house NOT = { exists = house.house_confederation } } house = { save_temporary_scope_as = cwh } scope:cwn = { add_confederation_member_house = scope:cwh } } } # Brunei
+			character:105865 ?= { if = { limit = { is_ruler = yes is_independent_ruler = yes exists = house NOT = { exists = house.house_confederation } } house = { save_temporary_scope_as = cwh } scope:cwn = { add_confederation_member_house = scope:cwh } } } # Cameroon
+			character:103175 ?= { if = { limit = { is_ruler = yes is_independent_ruler = yes exists = house NOT = { exists = house.house_confederation } } house = { save_temporary_scope_as = cwh } scope:cwn = { add_confederation_member_house = scope:cwh } } } # Canada
+			character:8100711 ?= { if = { limit = { is_ruler = yes is_independent_ruler = yes exists = house NOT = { exists = house.house_confederation } } house = { save_temporary_scope_as = cwh } scope:cwn = { add_confederation_member_house = scope:cwh } } } # Dominica
+			character:8100344 ?= { if = { limit = { is_ruler = yes is_independent_ruler = yes exists = house NOT = { exists = house.house_confederation } } house = { save_temporary_scope_as = cwh } scope:cwn = { add_confederation_member_house = scope:cwh } } } # Eswatini
+			character:8100724 ?= { if = { limit = { is_ruler = yes is_independent_ruler = yes exists = house NOT = { exists = house.house_confederation } } house = { save_temporary_scope_as = cwh } scope:cwn = { add_confederation_member_house = scope:cwh } } } # Fiji
+			character:8100204 ?= { if = { limit = { is_ruler = yes is_independent_ruler = yes exists = house NOT = { exists = house.house_confederation } } house = { save_temporary_scope_as = cwh } scope:cwn = { add_confederation_member_house = scope:cwh } } } # Gabon
+			character:105715 ?= { if = { limit = { is_ruler = yes is_independent_ruler = yes exists = house NOT = { exists = house.house_confederation } } house = { save_temporary_scope_as = cwh } scope:cwn = { add_confederation_member_house = scope:cwh } } } # The Gambia
+			character:104875 ?= { if = { limit = { is_ruler = yes is_independent_ruler = yes exists = house NOT = { exists = house.house_confederation } } house = { save_temporary_scope_as = cwh } scope:cwn = { add_confederation_member_house = scope:cwh } } } # Ghana
+			character:8100705 ?= { if = { limit = { is_ruler = yes is_independent_ruler = yes exists = house NOT = { exists = house.house_confederation } } house = { save_temporary_scope_as = cwh } scope:cwn = { add_confederation_member_house = scope:cwh } } } # Grenada
+			character:101965 ?= { if = { limit = { is_ruler = yes is_independent_ruler = yes exists = house NOT = { exists = house.house_confederation } } house = { save_temporary_scope_as = cwh } scope:cwn = { add_confederation_member_house = scope:cwh } } } # Guyana
+			character:108215 ?= { if = { limit = { is_ruler = yes is_independent_ruler = yes exists = house NOT = { exists = house.house_confederation } } house = { save_temporary_scope_as = cwh } scope:cwn = { add_confederation_member_house = scope:cwh } } } # India
+			character:8100521 ?= { if = { limit = { is_ruler = yes is_independent_ruler = yes exists = house NOT = { exists = house.house_confederation } } house = { save_temporary_scope_as = cwh } scope:cwn = { add_confederation_member_house = scope:cwh } } } # Jamaica
+			character:107365 ?= { if = { limit = { is_ruler = yes is_independent_ruler = yes exists = house NOT = { exists = house.house_confederation } } house = { save_temporary_scope_as = cwh } scope:cwn = { add_confederation_member_house = scope:cwh } } } # Kenya
+			character:8100721 ?= { if = { limit = { is_ruler = yes is_independent_ruler = yes exists = house NOT = { exists = house.house_confederation } } house = { save_temporary_scope_as = cwh } scope:cwn = { add_confederation_member_house = scope:cwh } } } # Kiribati
+			character:8100203 ?= { if = { limit = { is_ruler = yes is_independent_ruler = yes exists = house NOT = { exists = house.house_confederation } } house = { save_temporary_scope_as = cwh } scope:cwn = { add_confederation_member_house = scope:cwh } } } # Lesotho
+			character:107805 ?= { if = { limit = { is_ruler = yes is_independent_ruler = yes exists = house NOT = { exists = house.house_confederation } } house = { save_temporary_scope_as = cwh } scope:cwn = { add_confederation_member_house = scope:cwh } } } # Malawi
+			character:109645 ?= { if = { limit = { is_ruler = yes is_independent_ruler = yes exists = house NOT = { exists = house.house_confederation } } house = { save_temporary_scope_as = cwh } scope:cwn = { add_confederation_member_house = scope:cwh } } } # Malaysia
+			character:8100712 ?= { if = { limit = { is_ruler = yes is_independent_ruler = yes exists = house NOT = { exists = house.house_confederation } } house = { save_temporary_scope_as = cwh } scope:cwn = { add_confederation_member_house = scope:cwh } } } # Maldives
+			character:8100716 ?= { if = { limit = { is_ruler = yes is_independent_ruler = yes exists = house NOT = { exists = house.house_confederation } } house = { save_temporary_scope_as = cwh } scope:cwn = { add_confederation_member_house = scope:cwh } } } # Mauritius
+			character:108035 ?= { if = { limit = { is_ruler = yes is_independent_ruler = yes exists = house NOT = { exists = house.house_confederation } } house = { save_temporary_scope_as = cwh } scope:cwn = { add_confederation_member_house = scope:cwh } } } # Mozambique
+			character:107135 ?= { if = { limit = { is_ruler = yes is_independent_ruler = yes exists = house NOT = { exists = house.house_confederation } } house = { save_temporary_scope_as = cwh } scope:cwn = { add_confederation_member_house = scope:cwh } } } # Namibia
+			character:8100725 ?= { if = { limit = { is_ruler = yes is_independent_ruler = yes exists = house NOT = { exists = house.house_confederation } } house = { save_temporary_scope_as = cwh } scope:cwn = { add_confederation_member_house = scope:cwh } } } # Nauru
+			character:110505 ?= { if = { limit = { is_ruler = yes is_independent_ruler = yes exists = house NOT = { exists = house.house_confederation } } house = { save_temporary_scope_as = cwh } scope:cwn = { add_confederation_member_house = scope:cwh } } } # New Zealand
+			character:105725 ?= { if = { limit = { is_ruler = yes is_independent_ruler = yes exists = house NOT = { exists = house.house_confederation } } house = { save_temporary_scope_as = cwh } scope:cwn = { add_confederation_member_house = scope:cwh } } } # Nigeria
+			character:107735 ?= { if = { limit = { is_ruler = yes is_independent_ruler = yes exists = house NOT = { exists = house.house_confederation } } house = { save_temporary_scope_as = cwh } scope:cwn = { add_confederation_member_house = scope:cwh } } } # Pakistan
+			character:110035 ?= { if = { limit = { is_ruler = yes is_independent_ruler = yes exists = house NOT = { exists = house.house_confederation } } house = { save_temporary_scope_as = cwh } scope:cwn = { add_confederation_member_house = scope:cwh } } } # Papua New Guinea
+			character:8100305 ?= { if = { limit = { is_ruler = yes is_independent_ruler = yes exists = house NOT = { exists = house.house_confederation } } house = { save_temporary_scope_as = cwh } scope:cwn = { add_confederation_member_house = scope:cwh } } } # Rwanda
+			character:8100713 ?= { if = { limit = { is_ruler = yes is_independent_ruler = yes exists = house NOT = { exists = house.house_confederation } } house = { save_temporary_scope_as = cwh } scope:cwn = { add_confederation_member_house = scope:cwh } } } # Saint Kitts and Nevis
+			character:8100709 ?= { if = { limit = { is_ruler = yes is_independent_ruler = yes exists = house NOT = { exists = house.house_confederation } } house = { save_temporary_scope_as = cwh } scope:cwn = { add_confederation_member_house = scope:cwh } } } # Saint Lucia
+			character:8100708 ?= { if = { limit = { is_ruler = yes is_independent_ruler = yes exists = house NOT = { exists = house.house_confederation } } house = { save_temporary_scope_as = cwh } scope:cwn = { add_confederation_member_house = scope:cwh } } } # Saint Vincent and the Grenadines
+			character:8100726 ?= { if = { limit = { is_ruler = yes is_independent_ruler = yes exists = house NOT = { exists = house.house_confederation } } house = { save_temporary_scope_as = cwh } scope:cwn = { add_confederation_member_house = scope:cwh } } } # Samoa
+			character:8100719 ?= { if = { limit = { is_ruler = yes is_independent_ruler = yes exists = house NOT = { exists = house.house_confederation } } house = { save_temporary_scope_as = cwh } scope:cwn = { add_confederation_member_house = scope:cwh } } } # Seychelles
+			character:8100331 ?= { if = { limit = { is_ruler = yes is_independent_ruler = yes exists = house NOT = { exists = house.house_confederation } } house = { save_temporary_scope_as = cwh } scope:cwn = { add_confederation_member_house = scope:cwh } } } # Sierra Leone
+			character:8100333 ?= { if = { limit = { is_ruler = yes is_independent_ruler = yes exists = house NOT = { exists = house.house_confederation } } house = { save_temporary_scope_as = cwh } scope:cwn = { add_confederation_member_house = scope:cwh } } } # Singapore
+			character:8100718 ?= { if = { limit = { is_ruler = yes is_independent_ruler = yes exists = house NOT = { exists = house.house_confederation } } house = { save_temporary_scope_as = cwh } scope:cwn = { add_confederation_member_house = scope:cwh } } } # Solomon Islands
+			character:107505 ?= { if = { limit = { is_ruler = yes is_independent_ruler = yes exists = house NOT = { exists = house.house_confederation } } house = { save_temporary_scope_as = cwh } scope:cwn = { add_confederation_member_house = scope:cwh } } } # South Africa
+			character:109175 ?= { if = { limit = { is_ruler = yes is_independent_ruler = yes exists = house NOT = { exists = house.house_confederation } } house = { save_temporary_scope_as = cwh } scope:cwn = { add_confederation_member_house = scope:cwh } } } # Sri Lanka
+			character:107345 ?= { if = { limit = { is_ruler = yes is_independent_ruler = yes exists = house NOT = { exists = house.house_confederation } } house = { save_temporary_scope_as = cwh } scope:cwn = { add_confederation_member_house = scope:cwh } } } # Tanzania
+			character:105235 ?= { if = { limit = { is_ruler = yes is_independent_ruler = yes exists = house NOT = { exists = house.house_confederation } } house = { save_temporary_scope_as = cwh } scope:cwn = { add_confederation_member_house = scope:cwh } } } # Togo
+			character:8100723 ?= { if = { limit = { is_ruler = yes is_independent_ruler = yes exists = house NOT = { exists = house.house_confederation } } house = { save_temporary_scope_as = cwh } scope:cwn = { add_confederation_member_house = scope:cwh } } } # Tonga
+			character:8100728 ?= { if = { limit = { is_ruler = yes is_independent_ruler = yes exists = house NOT = { exists = house.house_confederation } } house = { save_temporary_scope_as = cwh } scope:cwn = { add_confederation_member_house = scope:cwh } } } # Tuvalu
+			character:8100169 ?= { if = { limit = { is_ruler = yes is_independent_ruler = yes exists = house NOT = { exists = house.house_confederation } } house = { save_temporary_scope_as = cwh } scope:cwn = { add_confederation_member_house = scope:cwh } } } # Uganda
+			character:8100720 ?= { if = { limit = { is_ruler = yes is_independent_ruler = yes exists = house NOT = { exists = house.house_confederation } } house = { save_temporary_scope_as = cwh } scope:cwn = { add_confederation_member_house = scope:cwh } } } # Vanuatu
+			character:8100703 ?= { if = { limit = { is_ruler = yes is_independent_ruler = yes exists = house NOT = { exists = house.house_confederation } } house = { save_temporary_scope_as = cwh } scope:cwn = { add_confederation_member_house = scope:cwh } } } # Cyprus
+			character:8100701 ?= { if = { limit = { is_ruler = yes is_independent_ruler = yes exists = house NOT = { exists = house.house_confederation } } house = { save_temporary_scope_as = cwh } scope:cwn = { add_confederation_member_house = scope:cwh } } } # Malta
+			character:107595 ?= { if = { limit = { is_ruler = yes is_independent_ruler = yes exists = house NOT = { exists = house.house_confederation } } house = { save_temporary_scope_as = cwh } scope:cwn = { add_confederation_member_house = scope:cwh } } } # Zambia
+		}
+	}
+}

@@ -1,0 +1,17 @@
+﻿# Cyber Kings (e44, fixed e49): true when county titles $A$ and $B$ are on the same world (ckworld_* regions, checked on their capital provinces)
+ck_same_world_trigger = {
+	OR = {
+		AND = { $A$.title_province = { geographical_region = ckworld_callisto } $B$.title_province = { geographical_region = ckworld_callisto } }
+		AND = { $A$.title_province = { geographical_region = ckworld_ceres } $B$.title_province = { geographical_region = ckworld_ceres } }
+		AND = { $A$.title_province = { geographical_region = ckworld_earth } $B$.title_province = { geographical_region = ckworld_earth } }
+		AND = { $A$.title_province = { geographical_region = ckworld_europa } $B$.title_province = { geographical_region = ckworld_europa } }
+		AND = { $A$.title_province = { geographical_region = ckworld_ganymede } $B$.title_province = { geographical_region = ckworld_ganymede } }
+		AND = { $A$.title_province = { geographical_region = ckworld_mars } $B$.title_province = { geographical_region = ckworld_mars } }
+		AND = { $A$.title_province = { geographical_region = ckworld_mercury } $B$.title_province = { geographical_region = ckworld_mercury } }
+		AND = { $A$.title_province = { geographical_region = ckworld_moon } $B$.title_province = { geographical_region = ckworld_moon } }
+		AND = { $A$.title_province = { geographical_region = ckworld_phobos } $B$.title_province = { geographical_region = ckworld_phobos } }
+		AND = { $A$.title_province = { geographical_region = ckworld_titan } $B$.title_province = { geographical_region = ckworld_titan } }
+		AND = { $A$.title_province = { geographical_region = ckworld_triton } $B$.title_province = { geographical_region = ckworld_triton } }
+		AND = { $A$.title_province = { geographical_region = ckworld_venus } $B$.title_province = { geographical_region = ckworld_venus } }
+	}
+}

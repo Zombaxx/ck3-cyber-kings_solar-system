@@ -767,3 +767,35 @@ kemetism_faith = { # Cyber Kings v3 (e17): Mercury's Kushitism, own key; copy of
 		unreformed_faith_doctrine
 	}
 }
+
+era_zaharra_faith = { # Cyber Kings (e45): Era Zaharra, Venusian druidism (was vanilla basque_pagan)
+	main_rite = era_zaharra_rite
+	faith_details = {
+		religion = era_zaharra_religion
+		color = { 0.45 0.62 0.25 }
+		icon = fp2_basque
+		reformed_icon = fp2_basque_reformed
+	}
+
+	eminent_holy_sites = {
+		viscaya
+		aneto
+	}
+
+	holy_sites = {
+		bordeaux
+		santiago
+		cordoba
+		ck_ganis_grove
+	}
+
+	tenets = {
+		tenet_sanctity_of_nature
+		tenet_megaliths
+		tenet_communal_identity
+	}
+
+	doctrines = {
+		unreformed_faith_doctrine
+	}
+}

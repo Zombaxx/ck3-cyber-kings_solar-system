@@ -1,4 +1,7 @@
-﻿bm_cyber_kings_1066 = {
+﻿# Positions: GUI coords of the nameplate's top-left in the 1920x1200 bookmark frame.
+# The 1920x1080 background sits 60 px lower, the nameplate top is drawn at background y = position_y + 60,
+# and the portrait stands centred on the nameplate. See _dev/GRAPHICS.md 'Bookmark screen placement'.
+bm_cyber_kings_1066 = {
 	start_date = 1066.9.15
 	is_playable = yes
 	group = bm_group_cyber_kings
@@ -16,8 +19,8 @@
 		dynasty_splendor_level = 1
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
 		history_id = 108275
-		position = { 632 714 }
-		animation = personality_bold
+		position = { 545 667 }
+		animation = personality_cynical
 	}
 	character = {
 		name = "bm_ck_char_121585"
@@ -31,8 +34,8 @@
 		dynasty_splendor_level = 1
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
 		history_id = 121585
-		position = { 1603 816 }
-		animation = personality_bold
+		position = { 1378 776 }
+		animation = personality_zealous
 	}
 	character = {
 		name = "bm_ck_char_112385"
@@ -44,10 +47,10 @@
 		culture = olympian
 		religion = olympic_rite
 		dynasty_splendor_level = 1
-		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
 		history_id = 112385
-		position = { 958 325 }
-		animation = personality_bold
+		position = { 800 270 }
+		animation = scheme
 	}
 	character = {
 		name = "bm_ck_char_101415"
@@ -61,8 +64,8 @@
 		dynasty_splendor_level = 1
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
 		history_id = 101415
-		position = { 309 163 }
-		animation = personality_bold
+		position = { 16 123 }
+		animation = personality_greedy
 	}
 	character = {
 		name = "bm_ck_char_1020130"
@@ -74,9 +77,9 @@
 		culture = liblander
 		religion = roman_rite
 		dynasty_splendor_level = 1
-		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
 		history_id = 1020130
-		position = { 328 662 }
+		position = { 37 593 }
 		animation = personality_bold
 	}
 	character = {
@@ -89,10 +92,10 @@
 		culture = celestial
 		religion = divine_cycle_rite
 		dynasty_splendor_level = 1
-		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
 		history_id = 107175
-		position = { 637 163 }
-		animation = personality_bold
+		position = { 466 165 }
+		animation = personality_rational
 	}
 	character = {
 		name = "bm_ck_char_104265"
@@ -104,9 +107,9 @@
 		culture = mau_khet
 		religion = kemetism_rite
 		dynasty_splendor_level = 1
-		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
 		history_id = 104265
-		position = { 444 825 }
-		animation = personality_bold
+		position = { 274 826 }
+		animation = survey
 	}
 }

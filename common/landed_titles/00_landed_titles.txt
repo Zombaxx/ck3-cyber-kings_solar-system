@@ -86,11 +86,6 @@ e_empire0531 = {
 	can_be_named_after_dynasty = no
 	color = { 187 86 105 }
 	capital = c_london
-	k_kingdom0531 = {
-		can_be_named_after_dynasty = no
-		color = { 187 86 105 }
-		capital = c_london
-	}
 }
 
 
@@ -4529,6 +4524,11 @@ h_eurasia = {
 					b_barony0575 = { province = 575 }
 					b_barony0575_b = { province = 8314 }
 				}
+				c_malta = {
+					color = { 189 97 151 }
+					b_valletta = { province = 9432 }
+					b_gozo = { province = 9433 }
+				}
 			}
 		}
 		k_kingdom0480 = {
@@ -4723,30 +4723,6 @@ h_eurasia = {
 			can_be_named_after_dynasty = no
 			color = { 175 116 159 }
 			capital = c_province0599
-			d_central_russia = {
-				color = { 65 166 88 }
-				capital = c_yaroslavl
-				can_be_named_after_dynasty = no
-				c_yaroslavl = {
-					can_be_named_after_dynasty = no
-					color = { 61 23 113 }
-					b_yaroslavl = { province = 2923 }
-					b_tver = { province = 9200 }
-					b_rzhev = { province = 9201 }
-				}
-				c_smolensk = {
-					can_be_named_after_dynasty = no
-					color = { 24 83 160 }
-					b_smolensk = { province = 2578 }
-					b_smolensk_b = { province = 8989 }
-				}
-				c_tula = {
-					can_be_named_after_dynasty = no
-					color = { 176 40 248 }
-					b_tula = { province = 2922 }
-					b_kaluga = { province = 9199 }
-				}
-			}
 			d_chernihiv = {
 				color = { 110 195 73 }
 				capital = c_kyiv
@@ -4847,35 +4823,6 @@ h_eurasia = {
 					b_barony0583b = { province = 3203 }
 				}
 			}
-			d_duchy0635 = {
-				color = { 93 136 33 }
-				capital = c_tbilisi
-				can_be_named_after_dynasty = no
-				c_province0635 = {
-					can_be_named_after_dynasty = no
-					color = { 93 136 33 }
-					b_barony0635 = { province = 635 }
-					b_pyatigorsk = { province = 8431 }
-				}
-				c_makhachkala = {
-					can_be_named_after_dynasty = no
-					color = { 161 138 186 }
-					b_makhachkala = { province = 2529 }
-					b_barony0635a = { province = 3306 }
-				}
-				c_tbilisi = {
-					can_be_named_after_dynasty = no
-					color = { 131 95 203 }
-					b_tbilisi = { province = 2533 }
-					b_barony0635_b = { province = 8940 }
-				}
-				c_krasnodar = {
-					can_be_named_after_dynasty = no
-					color = { 149 98 231 }
-					b_krasnodar = { province = 2528 }
-					b_sochi = { province = 8934 }
-				}
-			}
 			d_lviv = {
 				color = { 62 214 216 }
 				capital = c_bucharest
@@ -4922,30 +4869,6 @@ h_eurasia = {
 					b_radom = { province = 9202 }
 				}
 			}
-			d_northwestern = {
-				color = { 190 72 102 }
-				capital = c_saint_petersburg
-				can_be_named_after_dynasty = no
-				c_moscow = {
-					can_be_named_after_dynasty = no
-					color = { 65 93 74 }
-					b_moscow = { province = 589 }
-					b_pskov = { province = 8333 }
-					b_velikiye_luki = { province = 8334 }
-				}
-				c_saint_petersburg = {
-					can_be_named_after_dynasty = no
-					color = { 119 163 138 }
-					b_saint_petersburg = { province = 2545 }
-					b_vyborg = { province = 8956 }
-				}
-				c_province0547 = {
-					can_be_named_after_dynasty = no
-					color = { 188 119 111 }
-					b_barony0547 = { province = 547 }
-					b_tartu = { province = 8279 }
-				}
-			}
 			d_odessa = {
 				color = { 99 110 63 }
 				capital = c_odesa
@@ -4961,40 +4884,6 @@ h_eurasia = {
 					color = { 167 181 203 }
 					b_moldova = { province = 2577 }
 					b_tiraspol = { province = 8988 }
-				}
-			}
-			d_volga = {
-				color = { 73 200 174 }
-				capital = c_province0618
-				can_be_named_after_dynasty = no
-				c_volgograd = {
-					can_be_named_after_dynasty = no
-					color = { 246 27 120 }
-					b_volgograd = { province = 2626 }
-					b_kamyshin = { province = 9039 }
-				}
-				c_province0618 = {
-					can_be_named_after_dynasty = no
-					color = { 45 102 47 }
-					b_barony0618 = { province = 618 }
-					b_volgodonsk = { province = 8388 }
-				}
-			}
-			d_voronezh = {
-				color = { 124 47 110 }
-				capital = c_voronezh
-				can_be_named_after_dynasty = no
-				c_voronezh = {
-					can_be_named_after_dynasty = no
-					color = { 81 49 143 }
-					b_voronezh = { province = 2910 }
-					b_tambov = { province = 9197 }
-				}
-				c_kursk = {
-					can_be_named_after_dynasty = no
-					color = { 173 54 232 }
-					b_kursk = { province = 2579 }
-					b_belgorod = { province = 8990 }
 				}
 			}
 		}
@@ -5164,10 +5053,15 @@ h_eurasia = {
 					b_barony0520 = { province = 520 }
 					b_alesund = { province = 8261 }
 				}
+				c_svalbard = {
+					color = { 80 184 71 }
+					b_longyearbyen = { province = 9407 }
+					b_barentsburg = { province = 9406 }
+				}
 			}
 			d_duchy0570 = {
 				color = { 201 119 111 }
-				capital = c_province0587
+				capital = c_province0570
 				can_be_named_after_dynasty = no
 				c_province0570 = {
 					can_be_named_after_dynasty = no
@@ -5178,19 +5072,6 @@ h_eurasia = {
 					b_barony0590c = { province = 3217 }
 					b_barony0570_b = { province = 8310 }
 				}
-				c_province0587 = {
-					can_be_named_after_dynasty = no
-					color = { 176 81 101 }
-					b_barony0587 = { province = 587 }
-					b_apatity = { province = 8329 }
-					b_kovdor = { province = 8330 }
-					b_zapolyarnyy = { province = 8331 }
-				}
-			}
-			d_northern_savonia = {
-				color = { 79 44 55 }
-				capital = c_province0447
-				can_be_named_after_dynasty = no
 				c_province0578 = {
 					can_be_named_after_dynasty = no
 					color = { 178 115 102 }
@@ -5202,6 +5083,57 @@ h_eurasia = {
 					color = { 204 100 82 }
 					b_barony0447 = { province = 447 }
 					b_barony0578b = { province = 3188 }
+				}
+			}
+			d_duchy0447 = {
+				color = { 204 100 82 }
+				capital = c_province0431
+				can_be_named_after_dynasty = no
+				c_province0440 = {
+					can_be_named_after_dynasty = no
+					color = { 188 67 60 }
+					b_barony0440 = { province = 440 }
+					b_barony0440_b = { province = 8180 }
+					b_akranes = { province = 8181 }
+				}
+				c_province0431 = {
+					can_be_named_after_dynasty = no
+					color = { 184 69 70 }
+					b_barony0431 = { province = 431 }
+					b_barony0431a = { province = 8169 }
+				}
+			}
+			d_duchy0413 = {
+				color = { 80 185 181 }
+				capital = c_province0413
+				can_be_named_after_dynasty = no
+				c_province0413 = {
+					can_be_named_after_dynasty = no
+					color = { 80 185 181 }
+					b_barony0413 = { province = 413 }
+					b_barony0403_b = { province = 8130 }
+					b_barony0403a = { province = 8131 }
+					b_barony0413a = { province = 8132 }
+					b_barony0413b = { province = 8133 }
+					b_barony0413c = { province = 8134 }
+					b_barony0449_b = { province = 8135 }
+					b_barony0449a = { province = 8136 }
+					b_barony0449b = { province = 8137 }
+					b_ikerasak = { province = 8138 }
+				}
+				c_province0392 = {
+					can_be_named_after_dynasty = no
+					color = { 176 115 103 }
+					b_barony0392 = { province = 392 }
+					b_barony0420a = { province = 3910 }
+					b_barony0393_b = { province = 3911 }
+					b_barony0401_b = { province = 3912 }
+					b_barony0390_b = { province = 3916 }
+					b_barony0390a = { province = 3917 }
+					b_barony0401a = { province = 3919 }
+					b_barony0420b = { province = 3921 }
+					b_barony0447_b = { province = 8120 }
+					b_barony0447a = { province = 8121 }
 				}
 			}
 		}
@@ -5230,6 +5162,7 @@ h_eurasia = {
 					color = { 92 37 142 }
 					b_switzerland = { province = 2570 }
 					b_barony0530a = { province = 3135 }
+					b_bern = { province = 9523 }
 				}
 				c_liechtenstein = {
 					can_be_named_after_dynasty = no
@@ -5332,6 +5265,10 @@ h_eurasia = {
 					can_be_named_after_dynasty = no
 					color = { 231 98 179 }
 					b_koln = { province = 2541 }
+				}
+				c_holland = {
+					can_be_named_after_dynasty = no
+					color = { 255 120 20 }
 					b_barony0528d = { province = 3133 }
 				}
 				c_hamburg = {
@@ -5426,6 +5363,21 @@ h_eurasia = {
 					b_prizren = { province = 9146 }
 				}
 			}
+			d_cyprus = {
+				can_be_named_after_dynasty = no
+				color = { 69 73 157 }
+				capital = c_cyprus
+				c_cyprus = {
+					color = { 81 86 111 }
+					b_nicosia = { province = 9436 }
+					b_limassol = { province = 9437 }
+				}
+				c_northern_cyprus = {
+					color = { 114 119 160 }
+					b_kyrenia = { province = 9434 }
+					b_famagusta = { province = 9435 }
+				}
+			}
 		}
 	}
 	e_empire1034 = {
@@ -5466,6 +5418,19 @@ h_eurasia = {
 					b_barony0621 = { province = 621 }
 					b_barony0607d = { province = 3256 }
 					b_sokol = { province = 8391 }
+				}
+				c_novaya_zemlya = {
+					color = { 89 167 127 }
+					b_belushya_guba = { province = 9400 }
+					b_severny_island = { province = 9399 }
+				}
+				c_province0587 = {
+					can_be_named_after_dynasty = no
+					color = { 176 81 101 }
+					b_barony0587 = { province = 587 }
+					b_apatity = { province = 8329 }
+					b_kovdor = { province = 8330 }
+					b_zapolyarnyy = { province = 8331 }
 				}
 			}
 			d_duchy0621 = {
@@ -5906,6 +5871,65 @@ h_eurasia = {
 					b_raychikhinsk = { province = 8592 }
 					b_shimanovsk = { province = 8593 }
 				}
+				c_sakhalin = {
+					color = { 90 165 60 }
+					b_yuzhno_sakhalinsk = { province = 9409 }
+					b_poronaysk = { province = 9408 }
+					b_okha = { province = 9410 }
+				}
+			}
+			d_arctic_yakutia = {
+				color = { 202 186 191 }
+				capital = c_anabar
+				c_anabar = {
+					color = { 80 220 111 }
+					b_udachny = { province = 9382 }
+					b_saskylakh = { province = 9381 }
+					b_severo_vostochnyy_khrebet = { province = 9383 }
+				}
+				c_lena_delta = {
+					color = { 136 171 125 }
+					b_bilyakh_island = { province = 9386 }
+					b_byraya_tas_upland = { province = 9384 }
+					b_tiksi = { province = 9385 }
+				}
+				c_yana = {
+					color = { 138 77 126 }
+					b_batagay_alyta = { province = 9387 }
+					b_ust_kuyga = { province = 9389 }
+					b_nizhneyansk = { province = 9388 }
+				}
+				c_indigirka = {
+					color = { 198 123 93 }
+					b_deputatsky = { province = 9390 }
+					b_batagay = { province = 9391 }
+					b_belaya_gora = { province = 9392 }
+				}
+				c_new_siberian_islands = {
+					color = { 82 76 125 }
+					b_kotelny = { province = 9403 }
+					b_novaya_sibir = { province = 9404 }
+				}
+			}
+			d_chukotka = {
+				color = { 96 139 154 }
+				capital = c_chukotka
+				c_kolyma = {
+					color = { 152 94 95 }
+					b_chokurdakh = { province = 9395 }
+					b_cherskiy = { province = 9394 }
+					b_khonuu = { province = 9393 }
+				}
+				c_chukotka = {
+					color = { 123 144 94 }
+					b_leningradskiy = { province = 9396 }
+					b_bilibino = { province = 9397 }
+					b_pevek = { province = 9398 }
+				}
+				c_wrangel = {
+					color = { 209 239 97 }
+					b_ushakovskoye = { province = 9405 }
+				}
 			}
 		}
 		k_kingdom0717 = {
@@ -6115,6 +6139,149 @@ h_eurasia = {
 					color = { 54 101 83 }
 					b_barony0658 = { province = 658 }
 					b_zhalantun = { province = 8467 }
+				}
+			}
+			d_arctic_siberia = {
+				color = { 172 152 93 }
+				capital = c_gydan
+				c_gydan = {
+					color = { 86 207 90 }
+					b_kayyerkan_x = { province = 9373 }
+					b_dikson = { province = 2343 }
+					b_amderma = { province = 9374 }
+				}
+				c_taymyr = {
+					color = { 62 100 91 }
+					b_plato_putorana = { province = 9376 }
+					b_khatanga = { province = 9375 }
+					b_byrranga_mountains = { province = 9377 }
+				}
+				c_khatanga = {
+					color = { 164 92 165 }
+					b_olenyok = { province = 9378 }
+					b_north_siberian_lowland = { province = 9379 }
+					b_cape_turuzamollg = { province = 9380 }
+				}
+				c_severnaya_zemlya = {
+					color = { 75 117 205 }
+					b_golomyanny = { province = 9402 }
+					b_bolshevik_island = { province = 9401 }
+				}
+			}
+		}
+		k_ck_european_russia = {
+			can_be_named_after_dynasty = no
+			color = { 150 45 45 }
+			capital = c_saint_petersburg
+			d_central_russia = {
+				color = { 65 166 88 }
+				capital = c_yaroslavl
+				can_be_named_after_dynasty = no
+				c_yaroslavl = {
+					can_be_named_after_dynasty = no
+					color = { 61 23 113 }
+					b_yaroslavl = { province = 2923 }
+					b_tver = { province = 9200 }
+					b_rzhev = { province = 9201 }
+				}
+				c_smolensk = {
+					can_be_named_after_dynasty = no
+					color = { 24 83 160 }
+					b_smolensk = { province = 2578 }
+					b_smolensk_b = { province = 8989 }
+				}
+				c_tula = {
+					can_be_named_after_dynasty = no
+					color = { 176 40 248 }
+					b_tula = { province = 2922 }
+					b_kaluga = { province = 9199 }
+				}
+			}
+			d_northwestern = {
+				color = { 190 72 102 }
+				capital = c_saint_petersburg
+				can_be_named_after_dynasty = no
+				c_moscow = {
+					can_be_named_after_dynasty = no
+					color = { 65 93 74 }
+					b_moscow = { province = 589 }
+					b_pskov = { province = 8333 }
+					b_velikiye_luki = { province = 8334 }
+				}
+				c_saint_petersburg = {
+					can_be_named_after_dynasty = no
+					color = { 119 163 138 }
+					b_saint_petersburg = { province = 2545 }
+					b_vyborg = { province = 8956 }
+				}
+				c_province0547 = {
+					can_be_named_after_dynasty = no
+					color = { 188 119 111 }
+					b_barony0547 = { province = 547 }
+					b_tartu = { province = 8279 }
+				}
+			}
+			d_duchy0635 = {
+				color = { 93 136 33 }
+				capital = c_tbilisi
+				can_be_named_after_dynasty = no
+				c_province0635 = {
+					can_be_named_after_dynasty = no
+					color = { 93 136 33 }
+					b_barony0635 = { province = 635 }
+					b_pyatigorsk = { province = 8431 }
+				}
+				c_makhachkala = {
+					can_be_named_after_dynasty = no
+					color = { 161 138 186 }
+					b_makhachkala = { province = 2529 }
+					b_barony0635a = { province = 3306 }
+				}
+				c_tbilisi = {
+					can_be_named_after_dynasty = no
+					color = { 131 95 203 }
+					b_tbilisi = { province = 2533 }
+					b_barony0635_b = { province = 8940 }
+				}
+				c_krasnodar = {
+					can_be_named_after_dynasty = no
+					color = { 149 98 231 }
+					b_krasnodar = { province = 2528 }
+					b_sochi = { province = 8934 }
+				}
+			}
+			d_volga = {
+				color = { 73 200 174 }
+				capital = c_province0618
+				can_be_named_after_dynasty = no
+				c_volgograd = {
+					can_be_named_after_dynasty = no
+					color = { 246 27 120 }
+					b_volgograd = { province = 2626 }
+					b_kamyshin = { province = 9039 }
+				}
+				c_province0618 = {
+					can_be_named_after_dynasty = no
+					color = { 45 102 47 }
+					b_barony0618 = { province = 618 }
+					b_volgodonsk = { province = 8388 }
+				}
+			}
+			d_voronezh = {
+				color = { 124 47 110 }
+				capital = c_voronezh
+				can_be_named_after_dynasty = no
+				c_voronezh = {
+					can_be_named_after_dynasty = no
+					color = { 81 49 143 }
+					b_voronezh = { province = 2910 }
+					b_tambov = { province = 9197 }
+				}
+				c_kursk = {
+					can_be_named_after_dynasty = no
+					color = { 173 54 232 }
+					b_kursk = { province = 2579 }
+					b_belgorod = { province = 8990 }
 				}
 			}
 		}
@@ -6358,6 +6525,7 @@ h_eurasia = {
 					color = { 219 143 202 }
 					b_dalian = { province = 2989 }
 					b_barony0843e = { province = 3671 }
+					b_anshan = { province = 9495 }
 				}
 				c_province0820 = {
 					can_be_named_after_dynasty = no
@@ -6415,6 +6583,7 @@ h_eurasia = {
 				c_province0822 = {
 					can_be_named_after_dynasty = no
 					color = { 255 113 49 }
+					b_yinchuan = { province = 9497 }
 					b_barony0822 = { province = 822 }
 					b_wuzhong = { province = 8755 }
 				}
@@ -6423,6 +6592,7 @@ h_eurasia = {
 					color = { 196 126 53 }
 					b_barony0839 = { province = 839 }
 					b_barony0852a = { province = 3691 }
+					b_qingyang = { province = 9507 }
 				}
 				c_yan_an = {
 					can_be_named_after_dynasty = no
@@ -6521,6 +6691,9 @@ h_eurasia = {
 					b_osaka = { province = 2708 }
 					b_barony0872b = { province = 3711 }
 					b_barony0872f = { province = 3715 }
+					b_nagoya = { province = 9503 }
+					b_hiroshima = { province = 9517 }
+					b_kyoto = { province = 9529 }
 				}
 				c_tokyo = {
 					can_be_named_after_dynasty = no
@@ -6528,6 +6701,7 @@ h_eurasia = {
 					b_tokyo = { province = 872 }
 					b_barony0872a = { province = 3710 }
 					b_barony0872c = { province = 3712 }
+					b_sendai = { province = 9521 }
 				}
 				c_province0830 = {
 					can_be_named_after_dynasty = no
@@ -6559,6 +6733,9 @@ h_eurasia = {
 					b_barony0865a_b = { province = 3702 }
 					b_barony0865b_b = { province = 3703 }
 					b_barony0865c = { province = 3704 }
+					b_daejeon = { province = 9512 }
+					b_gwangju = { province = 9513 }
+					b_ulsan = { province = 9520 }
 				}
 				c_pyongyang = {
 					can_be_named_after_dynasty = no
@@ -6832,6 +7009,7 @@ h_eurasia = {
 					color = { 217 112 7 }
 					b_barony0882 = { province = 882 }
 					b_barony0882a = { province = 3724 }
+					b_ningbo = { province = 9494 }
 				}
 				c_wuhu = {
 					can_be_named_after_dynasty = no
@@ -6844,6 +7022,10 @@ h_eurasia = {
 					color = { 16 30 62 }
 					b_nanjing = { province = 2706 }
 					b_suzhou = { province = 9109 }
+					b_yangzhou = { province = 9492 }
+					b_wuxi = { province = 9493 }
+					b_changzhou = { province = 9496 }
+					b_nantong = { province = 9504 }
 				}
 				c_puyang = {
 					can_be_named_after_dynasty = no
@@ -7068,6 +7250,8 @@ h_eurasia = {
 					color = { 237 98 62 }
 					b_barony0913 = { province = 913 }
 					b_huizhou = { province = 8806 }
+					b_hong_kong = { province = 9488 }
+					b_macau = { province = 9489 }
 				}
 				c_shantou = {
 					can_be_named_after_dynasty = no
@@ -7091,6 +7275,7 @@ h_eurasia = {
 					color = { 75 124 233 }
 					b_zaozhuang = { province = 3033 }
 					b_taian = { province = 9306 }
+					b_linyi = { province = 9500 }
 				}
 				c_shangqiu = {
 					can_be_named_after_dynasty = no
@@ -7120,6 +7305,18 @@ h_eurasia = {
 					color = { 196 83 52 }
 					b_barony0870 = { province = 870 }
 					b_fuling = { province = 8779 }
+				}
+			}
+			d_taiwan = {
+				color = { 201 105 115 }
+				capital = c_taiwan_island
+				c_taiwan_island = {
+					color = { 232 91 104 }
+					b_taipei = { province = 9412 }
+					b_taichung = { province = 9411 }
+					b_kaohsiung = { province = 9413 }
+					b_taoyuan = { province = 9527 }
+					b_tainan = { province = 9528 }
 				}
 			}
 		}
@@ -7505,6 +7702,7 @@ h_eurasia = {
 					color = { 202 152 57 }
 					b_barony0801 = { province = 801 }
 					b_lahore = { province = 8736 }
+					b_gujranwala = { province = 9501 }
 				}
 				c_islamabad = {
 					can_be_named_after_dynasty = no
@@ -7559,6 +7757,11 @@ h_eurasia = {
 					color = { 201 64 50 }
 					b_kanayannur = { province = 2726 }
 					b_thiruvananthapuram = { province = 9118 }
+				}
+				c_maldives = {
+					color = { 103 65 148 }
+					b_male = { province = 9454 }
+					b_addu = { province = 9455 }
 				}
 			}
 			d_tamil_nadu = {
@@ -7843,6 +8046,7 @@ h_eurasia = {
 					color = { 169 154 6 }
 					b_barony0921 = { province = 921 }
 					b_barony0921a = { province = 3762 }
+					b_hue = { province = 9514 }
 				}
 				c_thanh_hoa = {
 					can_be_named_after_dynasty = no
@@ -8120,6 +8324,7 @@ h_eurasia = {
 				c_province0960 = {
 					can_be_named_after_dynasty = no
 					color = { 204 143 45 }
+					b_medan = { province = 9502 }
 					b_barony0960 = { province = 960 }
 					b_barony0960b = { province = 3794 }
 				}
@@ -8223,6 +8428,7 @@ h_eurasia = {
 					b_bali = { province = 1007 }
 					b_barony1007b = { province = 3852 }
 					b_bali_b = { province = 8841 }
+					b_semarang = { province = 9509 }
 				}
 				c_province1006 = {
 					can_be_named_after_dynasty = no
@@ -8230,6 +8436,7 @@ h_eurasia = {
 					b_barony1006 = { province = 1006 }
 					b_barony1006a = { province = 3848 }
 					b_barony1006b = { province = 3849 }
+					b_depok = { province = 9506 }
 				}
 				c_province1038 = {
 					can_be_named_after_dynasty = no
@@ -8291,6 +8498,45 @@ h_eurasia = {
 					color = { 146 9 196 }
 					b_sintang = { province = 2558 }
 					b_putussibau = { province = 8973 }
+				}
+			}
+			d_nusa_tenggara = {
+				color = { 232 202 61 }
+				capital = c_flores
+				c_west_timor = {
+					color = { 192 118 134 }
+					b_kupang = { province = 9420 }
+					b_atambua = { province = 9421 }
+				}
+				c_timor_leste = {
+					color = { 105 204 128 }
+					b_dili = { province = 9419 }
+					b_baucau = { province = 9418 }
+				}
+				c_flores = {
+					color = { 138 96 84 }
+					b_ende = { province = 9422 }
+					b_maumere = { province = 9423 }
+					b_waingapu = { province = 9424 }
+				}
+				c_sumbawa = {
+					color = { 145 153 86 }
+					b_bima = { province = 9425 }
+					b_sumbawa_besar = { province = 9426 }
+				}
+			}
+			d_north_sulawesi = {
+				color = { 84 181 102 }
+				capital = c_gorontalo
+				c_manado = {
+					color = { 130 160 98 }
+					b_manado = { province = 9415 }
+					b_bitung = { province = 9414 }
+				}
+				c_gorontalo = {
+					color = { 206 82 80 }
+					b_gorontalo = { province = 9416 }
+					b_tolitoli = { province = 9417 }
 				}
 			}
 		}
@@ -8566,6 +8812,11 @@ h_eurasia = {
 					b_barony0707 = { province = 707 }
 					b_umm_bab = { province = 8569 }
 				}
+				c_bahrain = {
+					color = { 162 74 208 }
+					b_manama = { province = 9430 }
+					b_muharraq = { province = 9431 }
+				}
 			}
 			d_mecca = {
 				color = { 27 204 59 }
@@ -8591,6 +8842,7 @@ h_eurasia = {
 					color = { 27 204 59 }
 					b_mecca = { province = 689 }
 					b_barony0689b = { province = 3403 }
+					b_jeddah = { province = 9491 }
 				}
 				c_asir = {
 					can_be_named_after_dynasty = no
@@ -8654,6 +8906,7 @@ h_eurasia = {
 					color = { 73 155 37 }
 					b_tehran = { province = 674 }
 					b_barony0674a = { province = 3378 }
+					b_karaj = { province = 9511 }
 				}
 			}
 			d_duchy0704 = {
@@ -8743,12 +8996,14 @@ h_eurasia = {
 					color = { 240 206 140 }
 					b_baghdad = { province = 2654 }
 					b_kirkuk = { province = 9072 }
+					b_karbala = { province = 9516 }
 				}
 				c_province0654 = {
 					can_be_named_after_dynasty = no
 					color = { 30 172 49 }
 					b_barony0654 = { province = 654 }
 					b_barony0654a = { province = 3345 }
+					b_erbil = { province = 9510 }
 				}
 				c_province0676 = {
 					can_be_named_after_dynasty = no
@@ -9181,6 +9436,11 @@ h_eurasia = {
 					b_barony0404 = { province = 404 }
 					b_barony0404a = { province = 8126 }
 				}
+				c_cabo_verde = {
+					color = { 225 123 128 }
+					b_praia = { province = 9458 }
+					b_mindelo = { province = 9459 }
+				}
 			}
 			d_kaffrine = {
 				color = { 124 180 49 }
@@ -9248,6 +9508,7 @@ h_americas = {
 					color = { 138 217 202 }
 					b_monterey = { province = 2687 }
 					b_santa_maria = { province = 8101 }
+					b_santa_barbara_x = { province = 9490 }
 				}
 				c_los_angeles = {
 					can_be_named_after_dynasty = no
@@ -9298,6 +9559,10 @@ h_americas = {
 					color = { 187 86 105 }
 					b_barony0531 = { province = 531 }
 					b_kahului = { province = 8094 }
+				}
+				c_hilo = {
+					color = { 88 98 189 }
+					b_hilo = { province = 9429 }
 				}
 			}
 		}
@@ -10132,6 +10397,7 @@ h_americas = {
 				c_province0283 = {
 					can_be_named_after_dynasty = no
 					color = { 99 212 199 }
+					b_toronto_x = { province = 9498 }
 					b_barony0283 = { province = 283 }
 					b_london_b = { province = 3687 }
 				}
@@ -10314,16 +10580,6 @@ h_americas = {
 					b_barony0367_b = { province = 3874 }
 				}
 			}
-		}
-	}
-	e_empire0393 = {
-		can_be_named_after_dynasty = no
-		color = { 198 87 109 }
-		capital = c_province0393
-		k_kingdom0389 = {
-			can_be_named_after_dynasty = no
-			color = { 67 178 186 }
-			capital = c_province0389
 			d_duchy0389 = {
 				color = { 67 178 186 }
 				capital = c_province0389
@@ -10353,25 +10609,6 @@ h_americas = {
 					b_amiksangiq_lake = { province = 3868 }
 					b_angmaluqtuq_lake = { province = 3869 }
 				}
-			}
-			d_duchy0413 = {
-				color = { 80 185 181 }
-				capital = c_province0413
-				can_be_named_after_dynasty = no
-				c_province0413 = {
-					can_be_named_after_dynasty = no
-					color = { 80 185 181 }
-					b_barony0413 = { province = 413 }
-					b_barony0403_b = { province = 8130 }
-					b_barony0403a = { province = 8131 }
-					b_barony0413a = { province = 8132 }
-					b_barony0413b = { province = 8133 }
-					b_barony0413c = { province = 8134 }
-					b_barony0449_b = { province = 8135 }
-					b_barony0449a = { province = 8136 }
-					b_barony0449b = { province = 8137 }
-					b_ikerasak = { province = 8138 }
-				}
 				c_province0415 = {
 					can_be_named_after_dynasty = no
 					color = { 95 190 162 }
@@ -10381,43 +10618,6 @@ h_americas = {
 					b_grinnel_land = { province = 8141 }
 					b_barrier_lake = { province = 8142 }
 					b_bird_island = { province = 8143 }
-				}
-			}
-		}
-		k_kingdom0393_cy = {
-			can_be_named_after_dynasty = no
-			color = { 198 87 109 }
-			capital = c_province0431
-			d_duchy0447 = {
-				color = { 204 100 82 }
-				capital = c_province0431
-				can_be_named_after_dynasty = no
-				c_province0392 = {
-					can_be_named_after_dynasty = no
-					color = { 176 115 103 }
-					b_barony0392 = { province = 392 }
-					b_barony0420a = { province = 3910 }
-					b_barony0393_b = { province = 3911 }
-					b_barony0401_b = { province = 3912 }
-					b_barony0390_b = { province = 3916 }
-					b_barony0390a = { province = 3917 }
-					b_barony0401a = { province = 3919 }
-					b_barony0420b = { province = 3921 }
-					b_barony0447_b = { province = 8120 }
-					b_barony0447a = { province = 8121 }
-				}
-				c_province0440 = {
-					can_be_named_after_dynasty = no
-					color = { 188 67 60 }
-					b_barony0440 = { province = 440 }
-					b_barony0440_b = { province = 8180 }
-					b_akranes = { province = 8181 }
-				}
-				c_province0431 = {
-					can_be_named_after_dynasty = no
-					color = { 184 69 70 }
-					b_barony0431 = { province = 431 }
-					b_barony0431a = { province = 8169 }
 				}
 			}
 		}
@@ -10466,6 +10666,7 @@ h_americas = {
 					color = { 231 66 115 }
 					b_belize_x = { province = 2612 }
 					b_san_ignacio = { province = 9018 }
+					b_belmopan_x = { province = 9526 }
 				}
 			}
 			d_campeche = {
@@ -10647,6 +10848,7 @@ h_americas = {
 					b_barony0125c = { province = 3511 }
 					b_barony0131c = { province = 3512 }
 					b_ciudad_constitucion = { province = 3513 }
+					b_mexicali = { province = 9522 }
 				}
 			}
 			d_durango = {
@@ -10735,12 +10937,63 @@ h_americas = {
 					color = { 198 13 144 }
 					b_dominican_republic = { province = 2807 }
 					b_barony0188d = { province = 9140 }
+					b_santiago_de_los_caballeros = { province = 9518 }
 				}
 				c_haiti = {
 					can_be_named_after_dynasty = no
 					color = { 251 83 19 }
 					b_haiti = { province = 2554 }
 					b_port_de_paix = { province = 8969 }
+				}
+				c_jamaica = {
+					color = { 146 110 126 }
+					b_kingston = { province = 9427 }
+					b_montego_bay = { province = 9428 }
+				}
+				c_bahamas = {
+					color = { 124 161 141 }
+					b_nassau = { province = 9444 }
+					b_freeport = { province = 9445 }
+				}
+			}
+			d_lesser_antilles = {
+				can_be_named_after_dynasty = no
+				color = { 117 103 104 }
+				capital = c_antigua_and_barbuda
+				c_antigua_and_barbuda = {
+					color = { 82 114 154 }
+					b_st_john_s = { province = 9460 }
+					b_codrington = { province = 9461 }
+				}
+				c_saint_kitts_and_nevis = {
+					color = { 198 223 232 }
+					b_basseterre = { province = 9456 }
+					b_charlestown = { province = 9457 }
+				}
+				c_dominica = {
+					color = { 109 86 168 }
+					b_roseau = { province = 9452 }
+					b_portsmouth = { province = 9453 }
+				}
+				c_saint_lucia = {
+					color = { 171 202 172 }
+					b_castries = { province = 9448 }
+					b_vieux_fort = { province = 9449 }
+				}
+				c_barbados = {
+					color = { 113 204 128 }
+					b_bridgetown = { province = 9450 }
+					b_speightstown = { province = 9451 }
+				}
+				c_saint_vincent_and_the_grenadines = {
+					color = { 226 69 234 }
+					b_kingstown = { province = 9446 }
+					b_bequia = { province = 9447 }
+				}
+				c_grenada = {
+					color = { 224 81 76 }
+					b_st_george_s = { province = 9440 }
+					b_carriacou = { province = 9441 }
 				}
 			}
 		}
@@ -10873,6 +11126,7 @@ h_americas = {
 					color = { 202 206 44 }
 					b_barony0154 = { province = 154 }
 					b_barony0154a = { province = 3555 }
+					b_barquisimeto = { province = 9515 }
 				}
 			}
 			d_panama = {
@@ -11409,6 +11663,7 @@ h_americas = {
 				c_province0122 = {
 					can_be_named_after_dynasty = no
 					color = { 231 148 10 }
+					b_manaus = { province = 9505 }
 					b_barony0122 = { province = 122 }
 					b_barony0136a = { province = 3495 }
 					b_autazes = { province = 3497 }
@@ -11540,6 +11795,7 @@ h_americas = {
 				c_french_guiana = {
 					can_be_named_after_dynasty = no
 					color = { 107 21 156 }
+					b_cayenne = { province = 9525 }
 					b_french_guiana = { province = 2517 }
 					b_kabana_vo = { province = 8918 }
 				}
@@ -11792,6 +12048,7 @@ h_americas = {
 				c_province0013 = {
 					can_be_named_after_dynasty = no
 					color = { 224 127 16 }
+					b_arequipa = { province = 9519 }
 					b_barony0013 = { province = 13 }
 					b_barony0010_b = { province = 3156 }
 					b_barony0013a = { province = 3157 }
@@ -12324,12 +12581,14 @@ h_gondwana = {
 					color = { 234 120 168 }
 					b_barony0806 = { province = 806 }
 					b_emalahleni = { province = 8740 }
+					b_pretoria = { province = 9508 }
 				}
 				c_swaziland = {
 					can_be_named_after_dynasty = no
 					color = { 76 90 176 }
 					b_swaziland = { province = 2640 }
 					b_nhlangano = { province = 9058 }
+					b_mbabane = { province = 9524 }
 				}
 			}
 		}
@@ -12511,6 +12770,26 @@ h_gondwana = {
 					b_singida = { province = 8664 }
 				}
 			}
+			d_indian_ocean_islands = {
+				can_be_named_after_dynasty = no
+				color = { 226 102 115 }
+				capital = c_mauritius
+				c_mauritius = {
+					color = { 60 117 116 }
+					b_port_louis = { province = 9462 }
+					b_curepipe = { province = 9463 }
+				}
+				c_comoros = {
+					color = { 216 207 64 }
+					b_moroni = { province = 9442 }
+					b_mutsamudu = { province = 9443 }
+				}
+				c_seychelles = {
+					color = { 130 149 124 }
+					b_victoria = { province = 9468 }
+					b_praslin = { province = 9469 }
+				}
+			}
 		}
 		k_kingdom0601 = {
 			can_be_named_after_dynasty = no
@@ -12580,6 +12859,11 @@ h_gondwana = {
 					color = { 210 112 165 }
 					b_barony0605 = { province = 605 }
 					b_barony0586c = { province = 3210 }
+				}
+				c_sao_tome_and_principe = {
+					color = { 91 211 181 }
+					b_sao_tome = { province = 9438 }
+					b_principe = { province = 9439 }
 				}
 			}
 			d_duchy0620 = {
@@ -12993,6 +13277,7 @@ h_gondwana = {
 					b_barony0523c = { province = 3127 }
 					b_parakou = { province = 8963 }
 					b_djougou = { province = 8964 }
+					b_porto_novo = { province = 9530 }
 				}
 				c_lagos = {
 					can_be_named_after_dynasty = no
@@ -13560,6 +13845,7 @@ h_gondwana = {
 				c_province1049 = {
 					can_be_named_after_dynasty = no
 					color = { 203 215 51 }
+					b_brisbane = { province = 9499 }
 					b_barony1049 = { province = 1049 }
 					b_barony1049b = { province = 3878 }
 					b_toowoomba = { province = 8861 }
@@ -13597,8 +13883,8 @@ h_gondwana = {
 				c_province1097 = {
 					can_be_named_after_dynasty = no
 					color = { 194 164 46 }
-					b_barony1097 = { province = 1097 }
 					b_barony1097b = { province = 3920 }
+					b_barony1097 = { province = 1097 }
 					b_devonport = { province = 8886 }
 					b_st_helens = { province = 8887 }
 				}
@@ -13649,6 +13935,81 @@ h_gondwana = {
 					b_barony0989a = { province = 3823 }
 					b_barony0989b = { province = 3824 }
 					b_barony0989c = { province = 3825 }
+				}
+			}
+		}
+		k_pacific_islands = {
+			can_be_named_after_dynasty = no
+			color = { 228 107 214 }
+			capital = c_fiji
+			d_melanesia = {
+				can_be_named_after_dynasty = no
+				color = { 106 219 233 }
+				capital = c_fiji
+				c_fiji = {
+					color = { 226 75 75 }
+					b_suva = { province = 9478 }
+					b_lautoka = { province = 9479 }
+				}
+				c_solomon_islands = {
+					color = { 236 196 69 }
+					b_honiara = { province = 9466 }
+					b_auki = { province = 9467 }
+				}
+				c_vanuatu = {
+					color = { 111 86 77 }
+					b_port_vila = { province = 9470 }
+					b_luganville = { province = 9471 }
+				}
+			}
+			d_micronesia = {
+				can_be_named_after_dynasty = no
+				color = { 105 237 151 }
+				capital = c_micronesia
+				c_micronesia = {
+					color = { 190 190 118 }
+					b_palikir = { province = 9474 }
+					b_weno = { province = 9475 }
+				}
+				c_palau = {
+					color = { 165 234 195 }
+					b_ngerulmud = { province = 9464 }
+					b_koror = { province = 9465 }
+				}
+				c_nauru = {
+					color = { 88 120 98 }
+					b_yaren = { province = 9480 }
+					b_denigomodu = { province = 9481 }
+				}
+				c_marshall_islands = {
+					color = { 194 201 114 }
+					b_majuro = { province = 9484 }
+					b_ebeye = { province = 9485 }
+				}
+				c_kiribati = {
+					color = { 92 134 77 }
+					b_tarawa = { province = 9472 }
+					b_kiritimati = { province = 9473 }
+				}
+			}
+			d_polynesia = {
+				can_be_named_after_dynasty = no
+				color = { 72 123 131 }
+				capital = c_samoa
+				c_samoa = {
+					color = { 133 113 163 }
+					b_apia = { province = 9482 }
+					b_salelologa = { province = 9483 }
+				}
+				c_tonga = {
+					color = { 132 112 145 }
+					b_nuku_alofa = { province = 9476 }
+					b_neiafu = { province = 9477 }
+				}
+				c_tuvalu = {
+					color = { 165 124 70 }
+					b_funafuti = { province = 9486 }
+					b_vaitupu = { province = 9487 }
 				}
 			}
 		}

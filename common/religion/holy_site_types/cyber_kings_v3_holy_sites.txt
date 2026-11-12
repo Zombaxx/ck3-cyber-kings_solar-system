@@ -179,3 +179,13 @@ ck3_kushitism_province1657 = {
 		monthly_piety_gain_mult = 0.05
 	}
 }
+
+ck_ganis_grove = { # e45: the Prophet's seat in Ganisia
+	county = c_province0848
+	county_holder_character_modifier = {
+		learning = 2
+	}
+	faith_character_modifier = {
+		monthly_piety_gain_mult = 0.05
+	}
+}

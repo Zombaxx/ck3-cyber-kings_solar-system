@@ -1,0 +1,6 @@
+﻿# Cyber Kings confederation types (2026-11-11)
+# Commonwealth of Nations: led by the UK royal house; member rulers join through their houses (e49: house-based,
+# because a character-based confederation created by script gets no members).
+commonwealth_of_nations = {
+	house_based_confederation = yes
+}

@@ -1,0 +1,2 @@
+﻿# Cyber Kings: intentionally empty. Overrides the DLC file of the same name so its
+# loading screen is never shown - only the mod's own screens (loadscreen_settings.txt) are used.

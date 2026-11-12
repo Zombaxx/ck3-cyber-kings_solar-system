@@ -1,0 +1,1459 @@
+﻿# Cyber Kings (e46, 2026-11-11): other-world cultures split per world; each a copy of its parent culture with a world heritage.
+# Plan: earth/e46_plan.json, doc _dev/WORLD_CULTURES_e46.md
+
+ckw_borian = { # Borian (callisto), from torquas
+	color = { 0.27 0.30 0.13 }
+	ethos = ethos_bellicose
+	heritage = heritage_ckw_valhallan
+	language = language_denisovan
+	martial_custom = martial_custom_equal
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_warrior_culture
+		tradition_only_the_strong
+		tradition_horse_lords
+	}
+	name_list = name_list_ck_torquas
+	coa_gfx = { mongol_coa_gfx steppe_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+	house_coa_frame = house_frame_13
+	ethnicities = {
+		10 = turkic
+	}
+}
+
+ckw_callistan = { # Callistan (callisto), from torquas
+	color = { 0.19 0.30 0.11 }
+	ethos = ethos_bellicose
+	heritage = heritage_ckw_valhallan
+	language = language_denisovan
+	martial_custom = martial_custom_equal
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_warrior_culture
+		tradition_only_the_strong
+		tradition_horse_lords
+	}
+	name_list = name_list_ck_torquas
+	coa_gfx = { mongol_coa_gfx steppe_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+	house_coa_frame = house_frame_13
+	ethnicities = {
+		10 = turkic
+	}
+}
+
+ckw_ilman = { # Ilman (callisto), from jotnar
+	color = { 0.28 0.28 0.37 }
+	ethos = ethos_bellicose
+	heritage = heritage_ckw_artemian
+	language = language_proto
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_mountaineers
+		tradition_only_the_strong
+		tradition_stand_and_fight
+	}
+	name_list = name_list_ck_jotnar
+	coa_gfx = { norse_coa_gfx western_coa_gfx }
+	building_gfx = { norse_building_gfx }
+	clothing_gfx = { fp1_norse_clothing_gfx northern_clothing_gfx }
+	unit_gfx = { norse_unit_gfx }
+	house_coa_frame = house_frame_12
+	ethnicities = {
+		10 = caucasian_northern_ginger
+	}
+}
+
+ckw_lycaonian = { # Lycaonian (callisto), from ergaster
+	color = { 0.63 0.15 0.14 }
+	ethos = ethos_bellicose
+	heritage = heritage_ckw_asgardian
+	language = language_archaic
+	martial_custom = martial_custom_equal
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_seafaring
+		tradition_battlefield_looters
+		tradition_ruling_caste
+	}
+	name_list = name_list_ck_ergaster
+	coa_gfx = { byzantine_group_coa_gfx }
+	building_gfx = { byzantine_building_gfx }
+	clothing_gfx = { byzantine_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+	house_coa_frame = house_frame_02
+	ethnicities = {
+		10 = caucasian_dark_hair
+	}
+}
+
+ckw_meran = { # Meran (callisto), from ergaster
+	color = { 0.50 0.26 0.07 }
+	ethos = ethos_bellicose
+	heritage = heritage_ckw_asgardian
+	language = language_archaic
+	martial_custom = martial_custom_equal
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_seafaring
+		tradition_battlefield_looters
+		tradition_ruling_caste
+	}
+	name_list = name_list_ck_ergaster
+	coa_gfx = { byzantine_group_coa_gfx }
+	building_gfx = { byzantine_building_gfx }
+	clothing_gfx = { byzantine_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+	house_coa_frame = house_frame_02
+	ethnicities = {
+		10 = caucasian_dark_hair
+	}
+}
+
+ckw_nuadan = { # Nuadan (callisto), from torquas
+	color = { 0.27 0.30 0.09 }
+	ethos = ethos_bellicose
+	heritage = heritage_ckw_valhallan
+	language = language_denisovan
+	martial_custom = martial_custom_equal
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_warrior_culture
+		tradition_only_the_strong
+		tradition_horse_lords
+	}
+	name_list = name_list_ck_torquas
+	coa_gfx = { mongol_coa_gfx steppe_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+	house_coa_frame = house_frame_13
+	ethnicities = {
+		10 = turkic
+	}
+}
+
+ckw_valian = { # Valian (callisto), from mau_khet
+	color = { 1.00 0.58 0.42 }
+	ethos = ethos_courtly
+	heritage = heritage_ckw_valhallan
+	language = language_cathrian
+	martial_custom = martial_custom_equal
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_ruling_caste
+		tradition_hunters
+		tradition_esteemed_hospitality
+	}
+	name_list = name_list_ck_mau_khet
+	coa_gfx = { japanese_coa_gfx }
+	building_gfx = { emishi_building_gfx japanese_building_gfx }
+	clothing_gfx = { emishi_clothing_gfx ainu_clothing_gfx }
+	unit_gfx = { emishi_unit_gfx japanese_unit_gfx }
+	house_coa_frame = house_japan
+	ethnicities = {
+		10 = asian_emishi_ainu
+	}
+}
+
+ckw_annonan = { # Annonan (ceres), from navardanian
+	color = { 0.91 0.91 0.48 }
+	
+	ethos = ethos_courtly
+	heritage = heritage_ckw_ahunan
+	language = language_iranian
+	martial_custom = martial_custom_male_only
+
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_gardening
+		tradition_futuwaa
+		tradition_ce1_ritual_washing
+	}
+	
+	# FP3 	traditions
+	
+	name_list = name_list_ck_navardanian
+	
+	coa_gfx = { iranian_group_coa_gfx }
+	building_gfx = { iranian_building_gfx }
+	clothing_gfx = { iranian_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { iranian_unit_gfx }
+	house_coa_frame = house_frame_12
+	house_coa_mask_offset = { 0.0 -0.04 }
+	house_coa_mask_scale = { 0.95 0.95 }
+
+	ethnicities = {
+		44 = arab
+		28 = mediterranean
+		28 = turkic_west
+	}
+}
+
+ckw_cererian = { # Cererian (ceres), from olympian
+	color = { 0.63 0.44 0.55 }
+
+	ethos = ethos_bellicose
+	heritage = heritage_ckw_ahunan
+	language = language_ancient_greek
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_philosopher_culture
+		tradition_legalistic
+		tradition_astute_diplomats
+		tradition_maritime_mercantilism
+	}
+	
+	name_list = name_list_ck_olympian
+	
+	coa_gfx = { byzantine_group_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { byzantine_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+	house_coa_frame = house_frame_16
+	
+	ethnicities = {
+		100 = mediterranean_byzantine
+	}
+}
+
+ckw_cadmian = { # Cadmian (europa), from navardanian
+	color = { 0.50 0.78 0.45 }
+	
+	ethos = ethos_courtly
+	heritage = heritage_ckw_tyrian
+	language = language_iranian
+	martial_custom = martial_custom_male_only
+
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_gardening
+		tradition_futuwaa
+		tradition_ce1_ritual_washing
+	}
+	
+	# FP3 	traditions
+	
+	name_list = name_list_ck_navardanian
+	
+	coa_gfx = { iranian_group_coa_gfx }
+	building_gfx = { iranian_building_gfx }
+	clothing_gfx = { iranian_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { iranian_unit_gfx }
+	house_coa_frame = house_frame_12
+	house_coa_mask_offset = { 0.0 -0.04 }
+	house_coa_mask_scale = { 0.95 0.95 }
+
+	ethnicities = {
+		44 = arab
+		28 = mediterranean
+		28 = turkic_west
+	}
+}
+
+ckw_dagdan = { # Dagdan (europa), from neanderthal
+	color = { 0.64 0.18 0.36 }
+	ethos = ethos_stoic
+	heritage = heritage_ckw_tyrian
+	language = language_proto
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_mountain_homes
+		tradition_artisans
+		tradition_hereditary_hierarchy
+	}
+	name_list = name_list_ck_neanderthal
+	coa_gfx = { norse_coa_gfx western_coa_gfx }
+	building_gfx = { norse_building_gfx }
+	clothing_gfx = { fp1_norse_clothing_gfx northern_clothing_gfx }
+	unit_gfx = { norse_unit_gfx }
+	house_coa_frame = house_frame_12
+	ethnicities = {
+		10 = caucasian_northern_dark_hair
+	}
+}
+
+ckw_europan = { # Europan (europa), from ergaster
+	color = { 0.63 0.03 0.52 }
+	ethos = ethos_bellicose
+	heritage = heritage_ckw_agenorian
+	language = language_archaic
+	martial_custom = martial_custom_equal
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_seafaring
+		tradition_battlefield_looters
+		tradition_ruling_caste
+	}
+	name_list = name_list_ck_ergaster
+	coa_gfx = { byzantine_group_coa_gfx }
+	building_gfx = { byzantine_building_gfx }
+	clothing_gfx = { byzantine_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+	house_coa_frame = house_frame_02
+	ethnicities = {
+		10 = caucasian_dark_hair
+	}
+}
+
+ckw_elamite = { # Elamite (ganymede), from jotnar
+	color = { 0.24 0.24 0.32 }
+	ethos = ethos_bellicose
+	heritage = heritage_ckw_nergalian
+	language = language_proto
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_mountaineers
+		tradition_only_the_strong
+		tradition_stand_and_fight
+	}
+	name_list = name_list_ck_jotnar
+	coa_gfx = { norse_coa_gfx western_coa_gfx }
+	building_gfx = { norse_building_gfx }
+	clothing_gfx = { fp1_norse_clothing_gfx northern_clothing_gfx }
+	unit_gfx = { norse_unit_gfx }
+	house_coa_frame = house_frame_12
+	ethnicities = {
+		10 = caucasian_northern_ginger
+	}
+}
+
+ckw_ganymedean = { # Ganymedean (ganymede), from navardanian
+	color = { 0.63 0.78 0.41 }
+	
+	ethos = ethos_courtly
+	heritage = heritage_ckw_galilean
+	language = language_iranian
+	martial_custom = martial_custom_male_only
+
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_gardening
+		tradition_futuwaa
+		tradition_ce1_ritual_washing
+	}
+	
+	# FP3 	traditions
+	
+	name_list = name_list_ck_navardanian
+	
+	coa_gfx = { iranian_group_coa_gfx }
+	building_gfx = { iranian_building_gfx }
+	clothing_gfx = { iranian_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { iranian_unit_gfx }
+	house_coa_frame = house_frame_12
+	house_coa_mask_offset = { 0.0 -0.04 }
+	house_coa_mask_scale = { 0.95 0.95 }
+
+	ethnicities = {
+		44 = arab
+		28 = mediterranean
+		28 = turkic_west
+	}
+}
+
+ckw_kolobian = { # Kolobian (ganymede), from navardanian
+	color = { 0.47 0.85 0.40 }
+	
+	ethos = ethos_courtly
+	heritage = heritage_ckw_galilean
+	language = language_iranian
+	martial_custom = martial_custom_male_only
+
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_gardening
+		tradition_futuwaa
+		tradition_ce1_ritual_washing
+	}
+	
+	# FP3 	traditions
+	
+	name_list = name_list_ck_navardanian
+	
+	coa_gfx = { iranian_group_coa_gfx }
+	building_gfx = { iranian_building_gfx }
+	clothing_gfx = { iranian_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { iranian_unit_gfx }
+	house_coa_frame = house_frame_12
+	house_coa_mask_offset = { 0.0 -0.04 }
+	house_coa_mask_scale = { 0.95 0.95 }
+
+	ethnicities = {
+		44 = arab
+		28 = mediterranean
+		28 = turkic_west
+	}
+}
+
+ckw_magian = { # Magian (ganymede), from navardanian
+	color = { 0.91 0.59 0.52 }
+	
+	ethos = ethos_courtly
+	heritage = heritage_ckw_galilean
+	language = language_iranian
+	martial_custom = martial_custom_male_only
+
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_gardening
+		tradition_futuwaa
+		tradition_ce1_ritual_washing
+	}
+	
+	# FP3 	traditions
+	
+	name_list = name_list_ck_navardanian
+	
+	coa_gfx = { iranian_group_coa_gfx }
+	building_gfx = { iranian_building_gfx }
+	clothing_gfx = { iranian_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { iranian_unit_gfx }
+	house_coa_frame = house_frame_12
+	house_coa_mask_offset = { 0.0 -0.04 }
+	house_coa_mask_scale = { 0.95 0.95 }
+
+	ethnicities = {
+		44 = arab
+		28 = mediterranean
+		28 = turkic_west
+	}
+}
+
+ckw_argyrean = { # Argyrean (mars), from ergaster
+	color = { 0.50 0.07 0.42 }
+	ethos = ethos_bellicose
+	heritage = heritage_ckw_thaumasian
+	language = language_archaic
+	martial_custom = martial_custom_equal
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_seafaring
+		tradition_battlefield_looters
+		tradition_ruling_caste
+	}
+	name_list = name_list_ck_ergaster
+	coa_gfx = { byzantine_group_coa_gfx }
+	building_gfx = { byzantine_building_gfx }
+	clothing_gfx = { byzantine_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+	house_coa_frame = house_frame_02
+	ethnicities = {
+		10 = caucasian_dark_hair
+	}
+}
+
+ckw_auroran = { # Auroran (mars), from neanderthal
+	color = { 0.59 0.33 0.12 }
+	ethos = ethos_stoic
+	heritage = heritage_ckw_thaumasian
+	language = language_proto
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_mountain_homes
+		tradition_artisans
+		tradition_hereditary_hierarchy
+	}
+	name_list = name_list_ck_neanderthal
+	coa_gfx = { norse_coa_gfx western_coa_gfx }
+	building_gfx = { norse_building_gfx }
+	clothing_gfx = { fp1_norse_clothing_gfx northern_clothing_gfx }
+	unit_gfx = { norse_unit_gfx }
+	house_coa_frame = house_frame_12
+	ethnicities = {
+		10 = caucasian_northern_dark_hair
+	}
+}
+
+ckw_cimmerian = { # Cimmerian (mars), from choam
+	color = { 0.66 0.85 0.40 }
+
+	name_order_convention = dynasty_always_first
+	ethos = ethos_bellicose		#Warmongers & conquerors, eventually invading parts of China and founding the Great Liao, then Qara Khitai after being booted out
+	heritage = heritage_ckw_hesperian
+	language = language_khitan		#Had their own Khitan language somewhat fashioned after Chinese
+	martial_custom = martial_custom_equal
+	head_determination = head_determination_herd
+
+	traditions = {
+		tradition_pastoralists
+		#tradition_horse_lords
+		tradition_sacred_hunts
+		tradition_ruling_caste
+	}
+
+
+	name_list = name_list_ck_choam
+
+	coa_gfx = { mongol_coa_gfx steppe_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { khitan_clothing_gfx mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+	house_coa_frame = house_frame_16
+
+	ethnicities = {
+		100 = asian_mongol
+	}
+}
+
+ckw_daedalian = { # Daedalian (mars), from olympian
+	color = { 0.80 0.58 0.62 }
+
+	ethos = ethos_bellicose
+	heritage = heritage_ckw_alban
+	language = language_ancient_greek
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_philosopher_culture
+		tradition_legalistic
+		tradition_astute_diplomats
+		tradition_maritime_mercantilism
+	}
+	
+	name_list = name_list_ck_olympian
+	
+	coa_gfx = { byzantine_group_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { byzantine_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+	house_coa_frame = house_frame_16
+	
+	ethnicities = {
+		100 = mediterranean_byzantine
+	}
+}
+
+ckw_elysian = { # Elysian (mars), from torquas
+	color = { 0.27 0.30 0.09 }
+	ethos = ethos_bellicose
+	heritage = heritage_ckw_isidian
+	language = language_denisovan
+	martial_custom = martial_custom_equal
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_warrior_culture
+		tradition_only_the_strong
+		tradition_horse_lords
+	}
+	name_list = name_list_ck_torquas
+	coa_gfx = { mongol_coa_gfx steppe_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+	house_coa_frame = house_frame_13
+	ethnicities = {
+		10 = turkic
+	}
+}
+
+ckw_icarian = { # Icarian (mars), from martian
+	color = { 0.73 0.28 0.39 }
+
+
+
+	
+	ethos = ethos_communal
+	heritage = heritage_ckw_memnonian
+	language = language_scythian
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_horse_breeder
+		tradition_mountaineers
+		tradition_wedding_ceremonies
+	}
+	
+	name_list = name_list_ck_olympian
+	
+	coa_gfx = { oghuz_coa_gfx turkic_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { caucasian_building_gfx byzantine_building_gfx }
+	clothing_gfx = { iranian_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { iranian_unit_gfx }
+	house_coa_frame = house_frame_12
+	house_coa_mask_offset = { 0.0 -0.04 }
+	house_coa_mask_scale = { 0.95 0.95 }
+
+	ethnicities = {
+		19 = mediterranean_byzantine
+		33 = mediterranean
+		48 = turkic_west
+	}
+}
+
+ckw_noachian = { # Noachian (mars), from ergaster
+	color = { 0.58 0.08 0.28 }
+	ethos = ethos_bellicose
+	heritage = heritage_ckw_thaumasian
+	language = language_archaic
+	martial_custom = martial_custom_equal
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_seafaring
+		tradition_battlefield_looters
+		tradition_ruling_caste
+	}
+	name_list = name_list_ck_ergaster
+	coa_gfx = { byzantine_group_coa_gfx }
+	building_gfx = { byzantine_building_gfx }
+	clothing_gfx = { byzantine_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+	house_coa_frame = house_frame_02
+	ethnicities = {
+		10 = caucasian_dark_hair
+	}
+}
+
+ckw_scyllan = { # Scyllan (mars), from torquas
+	color = { 0.10 0.34 0.20 }
+	ethos = ethos_bellicose
+	heritage = heritage_ckw_isidian
+	language = language_denisovan
+	martial_custom = martial_custom_equal
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_warrior_culture
+		tradition_only_the_strong
+		tradition_horse_lords
+	}
+	name_list = name_list_ck_torquas
+	coa_gfx = { mongol_coa_gfx steppe_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+	house_coa_frame = house_frame_13
+	ethnicities = {
+		10 = turkic
+	}
+}
+
+ckw_sirenian = { # Sirenian (mars), from navardanian
+	color = { 0.46 0.72 0.41 }
+	
+	ethos = ethos_courtly
+	heritage = heritage_ckw_memnonian
+	language = language_iranian
+	martial_custom = martial_custom_male_only
+
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_gardening
+		tradition_futuwaa
+		tradition_ce1_ritual_washing
+	}
+	
+	# FP3 	traditions
+	
+	name_list = name_list_ck_navardanian
+	
+	coa_gfx = { iranian_group_coa_gfx }
+	building_gfx = { iranian_building_gfx }
+	clothing_gfx = { iranian_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { iranian_unit_gfx }
+	house_coa_frame = house_frame_12
+	house_coa_mask_offset = { 0.0 -0.04 }
+	house_coa_mask_scale = { 0.95 0.95 }
+
+	ethnicities = {
+		44 = arab
+		28 = mediterranean
+		28 = turkic_west
+	}
+}
+
+ckw_tharsian = { # Tharsian (mars), from olympian
+	color = { 0.53 0.50 0.69 }
+
+	ethos = ethos_bellicose
+	heritage = heritage_ckw_alban
+	language = language_ancient_greek
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_philosopher_culture
+		tradition_legalistic
+		tradition_astute_diplomats
+		tradition_maritime_mercantilism
+	}
+	
+	name_list = name_list_ck_olympian
+	
+	coa_gfx = { byzantine_group_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { byzantine_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+	house_coa_frame = house_frame_16
+	
+	ethnicities = {
+		100 = mediterranean_byzantine
+	}
+}
+
+ckw_utopian = { # Utopian (mars), from torquas
+	color = { 0.19 0.32 0.10 }
+	ethos = ethos_bellicose
+	heritage = heritage_ckw_isidian
+	language = language_denisovan
+	martial_custom = martial_custom_equal
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_warrior_culture
+		tradition_only_the_strong
+		tradition_horse_lords
+	}
+	name_list = name_list_ck_torquas
+	coa_gfx = { mongol_coa_gfx steppe_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+	house_coa_frame = house_frame_13
+	ethnicities = {
+		10 = turkic
+	}
+}
+
+ckw_aaruan = { # Aaruan (mercury), from neanderthal
+	color = { 0.68 0.44 0.25 }
+	ethos = ethos_stoic
+	heritage = heritage_ckw_utaridian
+	language = language_proto
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_mountain_homes
+		tradition_artisans
+		tradition_hereditary_hierarchy
+	}
+	name_list = name_list_ck_neanderthal
+	coa_gfx = { norse_coa_gfx western_coa_gfx }
+	building_gfx = { norse_building_gfx }
+	clothing_gfx = { fp1_norse_clothing_gfx northern_clothing_gfx }
+	unit_gfx = { norse_unit_gfx }
+	house_coa_frame = house_frame_12
+	ethnicities = {
+		10 = caucasian_northern_dark_hair
+	}
+}
+
+ckw_caliphian = { # Caliphian (mercury), from mau_khet
+	color = { 0.79 0.85 0.30 }
+	ethos = ethos_courtly
+	heritage = heritage_ckw_qairunan
+	language = language_cathrian
+	martial_custom = martial_custom_equal
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_ruling_caste
+		tradition_hunters
+		tradition_esteemed_hospitality
+	}
+	name_list = name_list_ck_mau_khet
+	coa_gfx = { japanese_coa_gfx }
+	building_gfx = { emishi_building_gfx japanese_building_gfx }
+	clothing_gfx = { emishi_clothing_gfx ainu_clothing_gfx }
+	unit_gfx = { emishi_unit_gfx japanese_unit_gfx }
+	house_coa_frame = house_japan
+	ethnicities = {
+		10 = asian_emishi_ainu
+	}
+}
+
+ckw_calorian = { # Calorian (mercury), from mercurian
+	color = { 0.07 0.69 0.48 }
+	
+	ethos = ethos_spiritual
+	heritage = heritage_ckw_stilbonian
+	language = language_arabic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_philosopher_culture
+		tradition_agrarian
+		tradition_zealous_people
+		tradition_mubarizuns
+	}
+	
+	name_list = name_list_ck_mercurian
+
+	coa_gfx = { arabic_group_coa_gfx } 
+	building_gfx = { arabic_group_building_gfx mena_building_gfx } 
+	clothing_gfx = { dde_abbasid_clothing_gfx mena_clothing_gfx } 
+	unit_gfx = { mena_unit_gfx } 	
+	house_coa_frame = house_frame_10
+	house_coa_mask_offset = { 0.0 -0.06 }
+	house_coa_mask_scale = { 0.9 0.9 }
+
+	ethnicities = {
+		100 = arab
+	}
+}
+
+ckw_canaanite = { # Canaanite (mercury), from sephardi
+	color = { 0.36 0.29 0.74 }
+	
+	ethos = ethos_communal
+	heritage = heritage_ckw_qairunan
+	language = language_iberian
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_diasporic
+		tradition_caravaneers
+		tradition_philosopher_culture
+		tradition_maritime_mercantilism
+		tradition_mobile_guards
+	}
+	
+	name_list = name_list_sephardi
+	
+	coa_gfx = { israelite_group_coa_gfx }
+	building_gfx = { mena_building_gfx }
+	clothing_gfx = { byzantine_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+	house_coa_frame = house_frame_23
+	house_coa_mask_offset = { 0.0 0.03 }
+	house_coa_mask_scale = { 0.9 0.9 }
+
+	ethnicities = {
+		100 = arab
+	}
+}
+
+ckw_kohanite = { # Kohanite (mercury), from partisan
+	color = { 0.62 1.00 0.35 }
+
+
+	
+	ethos = ethos_spiritual
+	heritage = heritage_ckw_qairunan
+	language = language_arabic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_philosopher_culture
+		tradition_medicinal_plants
+		tradition_mubarizuns
+		tradition_dryland_dwellers
+		tradition_ce1_ritual_washing
+	}
+	
+	name_list = name_list_ck_partisan
+
+	coa_gfx = { arabic_group_coa_gfx } 
+	building_gfx = { arabic_group_building_gfx mena_building_gfx } 
+	clothing_gfx = { dde_abbasid_clothing_gfx mena_clothing_gfx } 
+	unit_gfx = { mena_unit_gfx } 
+	house_coa_frame = house_frame_13
+	house_coa_mask_offset = { 0.0 -0.03 }
+	house_coa_mask_scale = { 0.95 0.95 }
+
+	ethnicities = {
+		100 = arab
+	}
+}
+
+ckw_rahaddan = { # Rahaddan (mercury), from mau_khet
+	color = { 0.85 0.67 0.24 }
+	ethos = ethos_courtly
+	heritage = heritage_ckw_qairunan
+	language = language_cathrian
+	martial_custom = martial_custom_equal
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_ruling_caste
+		tradition_hunters
+		tradition_esteemed_hospitality
+	}
+	name_list = name_list_ck_mau_khet
+	coa_gfx = { japanese_coa_gfx }
+	building_gfx = { emishi_building_gfx japanese_building_gfx }
+	clothing_gfx = { emishi_clothing_gfx ainu_clothing_gfx }
+	unit_gfx = { emishi_unit_gfx japanese_unit_gfx }
+	house_coa_frame = house_japan
+	ethnicities = {
+		10 = asian_emishi_ainu
+	}
+}
+
+ckw_risialan = { # Risialan (mercury), from al_mercuric
+	color = { 0.25 0.59 0.17 }
+
+
+
+	ethos = ethos_courtly
+	heritage = heritage_ckw_hermean
+	language = language_arabic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_hit_and_run
+	}
+	
+	name_list = name_list_ck_al_mercuric
+
+	coa_gfx = { arabic_group_coa_gfx } 
+	building_gfx = { iberian_building_gfx }
+	clothing_gfx = { iberian_muslim_clothing_gfx dde_abbasid_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { iberian_muslim_unit_gfx }
+
+	ethnicities = {
+		50 = arab
+		50 = mediterranean
+	}
+}
+
+ckw_lunan = { # Lunan (moon), from neanderthal
+	color = { 0.51 0.64 0.18 }
+	ethos = ethos_stoic
+	heritage = heritage_ckw_selenic
+	language = language_proto
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_mountain_homes
+		tradition_artisans
+		tradition_hereditary_hierarchy
+	}
+	name_list = name_list_ck_neanderthal
+	coa_gfx = { norse_coa_gfx western_coa_gfx }
+	building_gfx = { norse_building_gfx }
+	clothing_gfx = { fp1_norse_clothing_gfx northern_clothing_gfx }
+	unit_gfx = { norse_unit_gfx }
+	house_coa_frame = house_frame_12
+	ethnicities = {
+		10 = caucasian_northern_dark_hair
+	}
+}
+
+ckw_selenite = { # Selenite (moon), from lunar
+	color = { 0.73 0.93 0.97 }
+	
+	ethos = ethos_bellicose
+	heritage = heritage_ckw_selenic
+	language = language_frankish
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_warrior_culture
+		tradition_hereditary_hierarchy
+		tradition_stand_and_fight
+	}
+	
+	name_list = name_list_ck_liblander
+	
+	coa_gfx = { frankish_group_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { french_clothing_gfx western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	house_coa_frame = house_frame_03
+	house_coa_mask_offset = { 0.0 0.055 }
+	house_coa_mask_scale = { 0.9 0.9 }
+	
+	ethnicities = {
+		10 = caucasian_blond
+		5 = caucasian_ginger
+		45 = caucasian_brown_hair
+		35 = caucasian_dark_hair
+	}
+}
+
+ckw_adirian = { # Adirian (titan), from jotnar
+	color = { 0.24 0.27 0.32 }
+	ethos = ethos_bellicose
+	heritage = heritage_ckw_kronian
+	language = language_proto
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_mountaineers
+		tradition_only_the_strong
+		tradition_stand_and_fight
+	}
+	name_list = name_list_ck_jotnar
+	coa_gfx = { norse_coa_gfx western_coa_gfx }
+	building_gfx = { norse_building_gfx }
+	clothing_gfx = { fp1_norse_clothing_gfx northern_clothing_gfx }
+	unit_gfx = { norse_unit_gfx }
+	house_coa_frame = house_frame_12
+	ethnicities = {
+		10 = caucasian_northern_ginger
+	}
+}
+
+ckw_ligeian = { # Ligeian (titan), from torquas
+	color = { 0.11 0.30 0.11 }
+	ethos = ethos_bellicose
+	heritage = heritage_ckw_beletian
+	language = language_denisovan
+	martial_custom = martial_custom_equal
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_warrior_culture
+		tradition_only_the_strong
+		tradition_horse_lords
+	}
+	name_list = name_list_ck_torquas
+	coa_gfx = { mongol_coa_gfx steppe_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+	house_coa_frame = house_frame_13
+	ethnicities = {
+		10 = turkic
+	}
+}
+
+ckw_quiviran = { # Quiviran (titan), from choam
+	color = { 0.61 0.85 0.29 }
+
+	name_order_convention = dynasty_always_first
+	ethos = ethos_bellicose		#Warmongers & conquerors, eventually invading parts of China and founding the Great Liao, then Qara Khitai after being booted out
+	heritage = heritage_ckw_kronian
+	language = language_khitan		#Had their own Khitan language somewhat fashioned after Chinese
+	martial_custom = martial_custom_equal
+	head_determination = head_determination_herd
+
+	traditions = {
+		tradition_pastoralists
+		#tradition_horse_lords
+		tradition_sacred_hunts
+		tradition_ruling_caste
+	}
+
+
+	name_list = name_list_ck_choam
+
+	coa_gfx = { mongol_coa_gfx steppe_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { khitan_clothing_gfx mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+	house_coa_frame = house_frame_16
+
+	ethnicities = {
+		100 = asian_mongol
+	}
+}
+
+ckw_xanadian = { # Xanadian (titan), from jotnar
+	color = { 0.38 0.30 0.40 }
+	ethos = ethos_bellicose
+	heritage = heritage_ckw_kronian
+	language = language_proto
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_mountaineers
+		tradition_only_the_strong
+		tradition_stand_and_fight
+	}
+	name_list = name_list_ck_jotnar
+	coa_gfx = { norse_coa_gfx western_coa_gfx }
+	building_gfx = { norse_building_gfx }
+	clothing_gfx = { fp1_norse_clothing_gfx northern_clothing_gfx }
+	unit_gfx = { norse_unit_gfx }
+	house_coa_frame = house_frame_12
+	ethnicities = {
+		10 = caucasian_northern_ginger
+	}
+}
+
+ckw_tritonian = { # Tritonian (triton), from jotnar
+	color = { 0.24 0.30 0.32 }
+	ethos = ethos_bellicose
+	heritage = heritage_ckw_neptunian
+	language = language_proto
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_mountaineers
+		tradition_only_the_strong
+		tradition_stand_and_fight
+	}
+	name_list = name_list_ck_jotnar
+	coa_gfx = { norse_coa_gfx western_coa_gfx }
+	building_gfx = { norse_building_gfx }
+	clothing_gfx = { fp1_norse_clothing_gfx northern_clothing_gfx }
+	unit_gfx = { norse_unit_gfx }
+	house_coa_frame = house_frame_12
+	ethnicities = {
+		10 = caucasian_northern_ginger
+	}
+}
+
+ckw_tuonelan = { # Tuonelan (triton), from choam
+	color = { 0.78 0.57 0.27 }
+
+	name_order_convention = dynasty_always_first
+	ethos = ethos_bellicose		#Warmongers & conquerors, eventually invading parts of China and founding the Great Liao, then Qara Khitai after being booted out
+	heritage = heritage_ckw_neptunian
+	language = language_khitan		#Had their own Khitan language somewhat fashioned after Chinese
+	martial_custom = martial_custom_equal
+	head_determination = head_determination_herd
+
+	traditions = {
+		tradition_pastoralists
+		#tradition_horse_lords
+		tradition_sacred_hunts
+		tradition_ruling_caste
+	}
+
+
+	name_list = name_list_ck_choam
+
+	coa_gfx = { mongol_coa_gfx steppe_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { khitan_clothing_gfx mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+	house_coa_frame = house_frame_16
+
+	ethnicities = {
+		100 = asian_mongol
+	}
+}
+
+ckw_altan = { # Altan (venus), from neanderthal
+	color = { 0.64 0.41 0.23 }
+	ethos = ethos_stoic
+	heritage = heritage_ckw_ganisic
+	language = language_proto
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_mountain_homes
+		tradition_artisans
+		tradition_hereditary_hierarchy
+	}
+	name_list = name_list_ck_neanderthal
+	coa_gfx = { norse_coa_gfx western_coa_gfx }
+	building_gfx = { norse_building_gfx }
+	clothing_gfx = { fp1_norse_clothing_gfx northern_clothing_gfx }
+	unit_gfx = { norse_unit_gfx }
+	house_coa_frame = house_frame_12
+	ethnicities = {
+		10 = caucasian_northern_dark_hair
+	}
+}
+
+ckw_amayan = { # Amayan (venus), from mau_khet
+	color = { 0.93 1.00 0.35 }
+	ethos = ethos_courtly
+	heritage = heritage_ckw_hestian
+	language = language_cathrian
+	martial_custom = martial_custom_equal
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_ruling_caste
+		tradition_hunters
+		tradition_esteemed_hospitality
+	}
+	name_list = name_list_ck_mau_khet
+	coa_gfx = { japanese_coa_gfx }
+	building_gfx = { emishi_building_gfx japanese_building_gfx }
+	clothing_gfx = { emishi_clothing_gfx ainu_clothing_gfx }
+	unit_gfx = { emishi_unit_gfx japanese_unit_gfx }
+	house_coa_frame = house_japan
+	ethnicities = {
+		10 = asian_emishi_ainu
+	}
+}
+
+ckw_artemitian = { # Artemitian (venus), from venusian
+	color = { 0.49 0.81 0.43 }
+	
+	ethos = ethos_communal
+	heritage = heritage_ckw_venerian
+	language = language_brythonic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_fishermen
+		tradition_storytellers
+		tradition_swords_for_hire
+		tradition_chanson_de_geste
+	}
+	
+	name_list = name_list_ck_venusian
+	
+	coa_gfx = { breton_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { breton_clothing_gfx western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	house_coa_frame = house_frame_24
+	house_coa_mask_offset = { 0.0 0.055 }
+	house_coa_mask_scale = { 0.9 0.9 }
+	
+	ethnicities = {
+		5 = caucasian_blond
+		30 = caucasian_ginger
+		35 = caucasian_brown_hair
+		30 = caucasian_dark_hair
+	}
+}
+
+ckw_cytherean = { # Cytherean (venus), from fenisaidd
+	color = { 0.47 0.78 0.37 }
+	
+	ethos = ethos_stoic
+	heritage = heritage_ckw_aphroditian
+	language = language_brythonic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_poetry
+		tradition_concubines
+		tradition_highland_warriors
+		tradition_longbow_competitions
+	}
+	
+	name_list = name_list_ck_fenisaidd
+	
+	coa_gfx = { welsh_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { welsh_clothing_gfx western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	house_coa_frame = house_frame_24
+	house_coa_mask_offset = { 0.0 0.055 }
+	house_coa_mask_scale = { 0.9 0.9 }
+	
+	ethnicities = {
+		5 = caucasian_blond
+		30 = caucasian_ginger
+		35 = caucasian_brown_hair
+		30 = caucasian_dark_hair
+	}
+}
+
+ckw_ladan = { # Ladan (venus), from jotnar
+	color = { 0.28 0.32 0.37 }
+	ethos = ethos_bellicose
+	heritage = heritage_ckw_aphroditian
+	language = language_proto
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_mountaineers
+		tradition_only_the_strong
+		tradition_stand_and_fight
+	}
+	name_list = name_list_ck_jotnar
+	coa_gfx = { norse_coa_gfx western_coa_gfx }
+	building_gfx = { norse_building_gfx }
+	clothing_gfx = { fp1_norse_clothing_gfx northern_clothing_gfx }
+	unit_gfx = { norse_unit_gfx }
+	house_coa_frame = house_frame_12
+	ethnicities = {
+		10 = caucasian_northern_ginger
+	}
+}
+
+ckw_lemurian = { # Lemurian (venus), from yonagunian
+	color = { 0.30 0.22 0.22 }
+
+	name_order_convention = japanese
+	ethos = ethos_courtly
+	heritage = heritage_ckw_phoebean
+	language = language_japonic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+
+	name_list = name_list_ck_yonagunian
+
+	coa_gfx = { japanese_coa_gfx }
+	building_gfx = { japanese_building_gfx }
+	clothing_gfx = { japanese_clothing_gfx }
+	unit_gfx = { japanese_unit_gfx }
+	house_coa_frame = house_japan
+
+	ethnicities = {
+		100 = asian_japanese
+	}
+}
+
+ckw_manatian = { # Manatian (venus), from mau_khet
+	color = { 0.80 0.85 0.36 }
+	ethos = ethos_courtly
+	heritage = heritage_ckw_hestian
+	language = language_cathrian
+	martial_custom = martial_custom_equal
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_ruling_caste
+		tradition_hunters
+		tradition_esteemed_hospitality
+	}
+	name_list = name_list_ck_mau_khet
+	coa_gfx = { japanese_coa_gfx }
+	building_gfx = { emishi_building_gfx japanese_building_gfx }
+	clothing_gfx = { emishi_clothing_gfx ainu_clothing_gfx }
+	unit_gfx = { emishi_unit_gfx japanese_unit_gfx }
+	house_coa_frame = house_japan
+	ethnicities = {
+		10 = asian_emishi_ainu
+	}
+}
+
+ckw_rusalkan = { # Rusalkan (venus), from venusian
+	color = { 0.57 0.88 0.51 }
+	
+	ethos = ethos_communal
+	heritage = heritage_ckw_venerian
+	language = language_brythonic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_fishermen
+		tradition_storytellers
+		tradition_swords_for_hire
+		tradition_chanson_de_geste
+	}
+	
+	name_list = name_list_ck_venusian
+	
+	coa_gfx = { breton_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { breton_clothing_gfx western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	house_coa_frame = house_frame_24
+	house_coa_mask_offset = { 0.0 0.055 }
+	house_coa_mask_scale = { 0.9 0.9 }
+	
+	ethnicities = {
+		5 = caucasian_blond
+		30 = caucasian_ginger
+		35 = caucasian_brown_hair
+		30 = caucasian_dark_hair
+	}
+}
+
+ckw_turanian = { # Turanian (venus), from venusian
+	color = { 0.95 0.58 0.51 }
+	
+	ethos = ethos_communal
+	heritage = heritage_ckw_venerian
+	language = language_brythonic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_fishermen
+		tradition_storytellers
+		tradition_swords_for_hire
+		tradition_chanson_de_geste
+	}
+	
+	name_list = name_list_ck_venusian
+	
+	coa_gfx = { breton_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { breton_clothing_gfx western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	house_coa_frame = house_frame_24
+	house_coa_mask_offset = { 0.0 0.055 }
+	house_coa_mask_scale = { 0.9 0.9 }
+	
+	ethnicities = {
+		5 = caucasian_blond
+		30 = caucasian_ginger
+		35 = caucasian_brown_hair
+		30 = caucasian_dark_hair
+	}
+}
+
+ckw_ulfrunian = { # Ulfrunian (venus), from navardanian
+	color = { 0.91 0.75 0.52 }
+	
+	ethos = ethos_courtly
+	heritage = heritage_ckw_hyndlan
+	language = language_iranian
+	martial_custom = martial_custom_male_only
+
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_gardening
+		tradition_futuwaa
+		tradition_ce1_ritual_washing
+	}
+	
+	# FP3 	traditions
+	
+	name_list = name_list_ck_navardanian
+	
+	coa_gfx = { iranian_group_coa_gfx }
+	building_gfx = { iranian_building_gfx }
+	clothing_gfx = { iranian_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { iranian_unit_gfx }
+	house_coa_frame = house_frame_12
+	house_coa_mask_offset = { 0.0 -0.04 }
+	house_coa_mask_scale = { 0.95 0.95 }
+
+	ethnicities = {
+		44 = arab
+		28 = mediterranean
+		28 = turkic_west
+	}
+}
+
+ckw_uzuman = { # Uzuman (venus), from neanderthal
+	color = { 0.54 0.33 0.16 }
+	ethos = ethos_stoic
+	heritage = heritage_ckw_ganisic
+	language = language_proto
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_mountain_homes
+		tradition_artisans
+		tradition_hereditary_hierarchy
+	}
+	name_list = name_list_ck_neanderthal
+	coa_gfx = { norse_coa_gfx western_coa_gfx }
+	building_gfx = { norse_building_gfx }
+	clothing_gfx = { fp1_norse_clothing_gfx northern_clothing_gfx }
+	unit_gfx = { norse_unit_gfx }
+	house_coa_frame = house_frame_12
+	ethnicities = {
+		10 = caucasian_northern_dark_hair
+	}
+}
+
+ckw_winnemuccan = { # Winnemuccan (venus), from venusian
+	color = { 0.71 0.88 0.47 }
+	
+	ethos = ethos_communal
+	heritage = heritage_ckw_venerian
+	language = language_brythonic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_fishermen
+		tradition_storytellers
+		tradition_swords_for_hire
+		tradition_chanson_de_geste
+	}
+	
+	name_list = name_list_ck_venusian
+	
+	coa_gfx = { breton_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { breton_clothing_gfx western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	house_coa_frame = house_frame_24
+	house_coa_mask_offset = { 0.0 0.055 }
+	house_coa_mask_scale = { 0.9 0.9 }
+	
+	ethnicities = {
+		5 = caucasian_blond
+		30 = caucasian_ginger
+		35 = caucasian_brown_hair
+		30 = caucasian_dark_hair
+	}
+}

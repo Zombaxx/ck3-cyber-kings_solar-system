@@ -1,0 +1,46 @@
+﻿# Cyber Kings: off-Earth rulers added by e44 (2026-11-11)
+8101000 = {
+	name = "Marcellinus"
+	dynasty = 8101000
+	culture = ckw_risialan
+	rite = kemetism_rite
+	1035.12.28 = { birth = yes }
+}
+8101001 = {
+	name = "Amirheru"
+	dynasty = 8101001
+	culture = ckw_caliphian
+	rite = kemetism_rite
+	1025.4.10 = { birth = yes }
+}
+8101002 = {
+	name = "Fa'heru"
+	dynasty = 8101002
+	culture = ckw_caliphian
+	rite = kemetism_rite
+	1022.10.1 = { birth = yes }
+}
+8101003 = {
+	name = "Amarhath"
+	dynasty = 8101003
+	culture = ckw_caliphian
+	rite = kemetism_rite
+	1025.9.23 = { birth = yes }
+}
+8101004 = {
+	name = "Zahar"
+	dynasty = 8101004
+	culture = ganisian
+	rite = era_zaharra_rite
+	father = 111065
+	trait = bastard
+	trait = scarred
+	trait = zealous
+	trait = ambitious
+	trait = education_learning_4
+	learning = 14
+	diplomacy = 12
+	martial = 10
+	1066.9.15 = { give_nickname = nick_the_prophet }
+	1044.5.23 = { birth = yes }
+}

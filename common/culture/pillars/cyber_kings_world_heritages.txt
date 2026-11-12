@@ -1,0 +1,271 @@
+﻿# Cyber Kings (e46): one heritage group per ~55 counties on each world
+
+heritage_ckw_artemian = { # Artemian (callisto)
+	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_ckw_artemian
+		}
+	}
+	audio_parameter = european
+}
+
+heritage_ckw_asgardian = { # Asgardian (callisto)
+	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_ckw_asgardian
+		}
+	}
+	audio_parameter = european
+}
+
+heritage_ckw_valhallan = { # Valhallan (callisto)
+	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_ckw_valhallan
+		}
+	}
+	audio_parameter = european
+}
+
+heritage_ckw_ahunan = { # Ahunan (ceres)
+	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_ckw_ahunan
+		}
+	}
+	audio_parameter = european
+}
+
+heritage_ckw_tyrian = { # Tyrian (europa)
+	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_ckw_tyrian
+		}
+	}
+	audio_parameter = european
+}
+
+heritage_ckw_agenorian = { # Agenorian (europa)
+	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_ckw_agenorian
+		}
+	}
+	audio_parameter = european
+}
+
+heritage_ckw_galilean = { # Galilean (ganymede)
+	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_ckw_galilean
+		}
+	}
+	audio_parameter = european
+}
+
+heritage_ckw_nergalian = { # Nergalian (ganymede)
+	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_ckw_nergalian
+		}
+	}
+	audio_parameter = european
+}
+
+heritage_ckw_hesperian = { # Hesperian (mars)
+	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_ckw_hesperian
+		}
+	}
+	audio_parameter = european
+}
+
+heritage_ckw_memnonian = { # Memnonian (mars)
+	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_ckw_memnonian
+		}
+	}
+	audio_parameter = european
+}
+
+heritage_ckw_thaumasian = { # Thaumasian (mars)
+	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_ckw_thaumasian
+		}
+	}
+	audio_parameter = european
+}
+
+heritage_ckw_alban = { # Alban (mars)
+	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_ckw_alban
+		}
+	}
+	audio_parameter = european
+}
+
+heritage_ckw_isidian = { # Isidian (mars)
+	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_ckw_isidian
+		}
+	}
+	audio_parameter = european
+}
+
+heritage_ckw_hermean = { # Hermean (mercury)
+	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_ckw_hermean
+		}
+	}
+	audio_parameter = european
+}
+
+heritage_ckw_utaridian = { # Utaridian (mercury)
+	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_ckw_utaridian
+		}
+	}
+	audio_parameter = european
+}
+
+heritage_ckw_stilbonian = { # Stilbonian (mercury)
+	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_ckw_stilbonian
+		}
+	}
+	audio_parameter = european
+}
+
+heritage_ckw_qairunan = { # Qairunan (mercury)
+	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_ckw_qairunan
+		}
+	}
+	audio_parameter = european
+}
+
+heritage_ckw_selenic = { # Selenic (moon)
+	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_ckw_selenic
+		}
+	}
+	audio_parameter = european
+}
+
+heritage_ckw_beletian = { # Beletian (titan)
+	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_ckw_beletian
+		}
+	}
+	audio_parameter = european
+}
+
+heritage_ckw_kronian = { # Kronian (titan)
+	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_ckw_kronian
+		}
+	}
+	audio_parameter = european
+}
+
+heritage_ckw_neptunian = { # Neptunian (triton)
+	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_ckw_neptunian
+		}
+	}
+	audio_parameter = european
+}
+
+heritage_ckw_aphroditian = { # Aphroditian (venus)
+	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_ckw_aphroditian
+		}
+	}
+	audio_parameter = european
+}
+
+heritage_ckw_hyndlan = { # Hyndlan (venus)
+	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_ckw_hyndlan
+		}
+	}
+	audio_parameter = european
+}
+
+heritage_ckw_phoebean = { # Phoebean (venus)
+	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_ckw_phoebean
+		}
+	}
+	audio_parameter = european
+}
+
+heritage_ckw_hestian = { # Hestian (venus)
+	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_ckw_hestian
+		}
+	}
+	audio_parameter = european
+}
+
+heritage_ckw_ganisic = { # Ganisic (venus)
+	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_ckw_ganisic
+		}
+	}
+	audio_parameter = european
+}
+
+heritage_ckw_venerian = { # Venerian (venus)
+	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_ckw_venerian
+		}
+	}
+	audio_parameter = european
+}

@@ -193,3 +193,28 @@ lunar = {
 		35 = caucasian_dark_hair
 	}
 }
+
+# Ganisian (e44, 2026-11-11): Venusian-Neanderthal hybrid of the Ganis Chasma, the Prophet's people
+ganisian = {
+	color = { 0.62 0.55 0.30 }
+	ethos = ethos_spiritual
+	heritage = heritage_ckw_ganisic
+	language = language_brythonic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_mountain_homes
+		tradition_storytellers
+		tradition_hereditary_hierarchy
+	}
+	name_list = name_list_ck_venusian
+	coa_gfx = { breton_coa_gfx western_coa_gfx }
+	building_gfx = { norse_building_gfx }
+	clothing_gfx = { fp1_norse_clothing_gfx northern_clothing_gfx }
+	unit_gfx = { norse_unit_gfx }
+	house_coa_frame = house_frame_12
+	ethnicities = {
+		10 = caucasian_northern_dark_hair
+		10 = caucasian_brown_hair
+	}
+}

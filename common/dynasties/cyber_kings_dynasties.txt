@@ -2344,7 +2344,7 @@ pictish = {
 }
 105740 = {
 	name = "dynn_ck_105740"
-	culture = "slovien"
+	culture = "slovak"
 }
 105750 = {
 	name = "dynn_ck_105750"
@@ -3660,7 +3660,7 @@ pictish = {
 }
 109070 = {
 	name = "dynn_ck_109070"
-	culture = "tai"
+	culture = "lao"
 }
 109080 = {
 	name = "dynn_ck_109080"
@@ -3776,11 +3776,11 @@ pictish = {
 }
 109300 = {
 	name = "dynn_ck_109300"
-	culture = "tai"
+	culture = "thai"
 }
 109310 = {
 	name = "dynn_ck_109310"
-	culture = "tai"
+	culture = "thai"
 }
 109320 = {
 	name = "dynn_ck_109320"
@@ -3812,7 +3812,7 @@ pictish = {
 }
 109350 = {
 	name = "dynn_ck_109350"
-	culture = "bisayan"
+	culture = "filipino"
 }
 109360 = {
 	name = "dynn_ck_109360"
@@ -3876,7 +3876,7 @@ pictish = {
 }
 109510 = {
 	name = "dynn_ck_109510"
-	culture = "tai"
+	culture = "thai"
 }
 109520 = {
 	name = "dynn_ck_109520"
@@ -3896,7 +3896,7 @@ pictish = {
 }
 109560 = {
 	name = "dynn_ck_109560"
-	culture = "bisayan"
+	culture = "filipino"
 }
 109570 = {
 	name = "dynn_ck_109570"
@@ -4272,7 +4272,7 @@ pictish = {
 }
 110500 = {
 	name = "dynn_ck_110500"
-	culture = "papuan"
+	culture = "kiwi"
 }
 110510 = {
 	name = "dynn_ck_110510"
@@ -9576,7 +9576,7 @@ pictish = {
 }
 400080 = {
 	name = "dynn_ck_400080"
-	culture = "tai"
+	culture = "thai"
 }
 400109 = {
 	name = "dynn_ck_400109"

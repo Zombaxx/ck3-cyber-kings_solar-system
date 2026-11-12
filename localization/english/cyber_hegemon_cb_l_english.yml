@@ -1,0 +1,9 @@
+﻿l_english:
+ ck_hegemon_interworld_cb:0 "Interworld Conquest"
+ CK_HEGEMON_INTERWORLD_CB_NAME:0 "Interworld Conquest"
+ CK_HEGEMON_INTERWORLD_WAR_NAME:0 "Interworld Conquest"
+ CK_HEGEMON_INTERWORLD_WAR_NAME_BASE:0 "Interworld Conquest"
+ ck_hegemon_interworld_cb_desc:0 "As a Hegemon, cross the void to seize a kingdom or empire on another world."
+ ck_hegemon_interworld_cb_victory_desc:0 "The targeted realm and all its vassals pass to the attacker."
+ ck_hegemon_interworld_cb_white_peace_desc:0 "The fleets withdraw; the attacker loses prestige."
+ ck_hegemon_interworld_cb_defeat_desc:0 "The invasion fails; the attacker pays reparations and loses prestige."
