@@ -303,9 +303,9 @@ defenders_of_highgod_decision = {
 
 	is_shown = {
 		OR = {
-			faith ?= faith:finnish_pagan
-			faith ?= faith:baltic_pagan
-			faith ?= faith:slavic_pagan
+			OR = { faith ?= faith:finnish_pagan faith ?= faith:retrogradism_faith }
+			OR = { faith ?= faith:baltic_pagan faith ?= faith:cargo_cult_faith }
+			OR = { faith ?= faith:slavic_pagan faith ?= faith:lunism_faith }
 		}
 		#Only once per faith
 		NOR = {
@@ -314,21 +314,21 @@ defenders_of_highgod_decision = {
 					name = unavailable_unique_decisions
 					target = flag:defenders_of_highgod_baltic_decision
 				}
-				faith ?= faith:baltic_pagan
+				OR = { faith ?= faith:baltic_pagan faith ?= faith:cargo_cult_faith }
 			}
 			AND = {
 				is_target_in_global_variable_list = {
 					name = unavailable_unique_decisions
 					target = flag:defenders_of_highgod_slavic_decision
 				}
-				faith ?= faith:slavic_pagan
+				OR = { faith ?= faith:slavic_pagan faith ?= faith:lunism_faith }
 			}
 			AND = {
 				is_target_in_global_variable_list = {
 					name = unavailable_unique_decisions
 					target = flag:defenders_of_highgod_finnish_decision
 				}
-				faith ?= faith:finnish_pagan
+				OR = { faith ?= faith:finnish_pagan faith ?= faith:retrogradism_faith }
 			}
 		}
 	}
@@ -394,21 +394,21 @@ defenders_of_highgod_decision = {
 
 		#Can only happen once per faith
 		if = {
-			limit = { faith = faith:baltic_pagan }
+			limit = { OR = { faith = faith:baltic_pagan faith = faith:cargo_cult_faith } }
 			add_to_global_variable_list = {
 				name = unavailable_unique_decisions
 				target = flag:defenders_of_highgod_baltic_decision
 			}
 		}
 		else_if = {
-			limit = { faith = faith:slavic_pagan }
+			limit = { OR = { faith = faith:slavic_pagan faith = faith:lunism_faith } }
 			add_to_global_variable_list = {
 				name = unavailable_unique_decisions
 				target = flag:defenders_of_highgod_slavic_decision
 			}
 		}
 		else_if = {
-			limit = { faith = faith:finnish_pagan }
+			limit = { OR = { faith = faith:finnish_pagan faith = faith:retrogradism_faith } }
 			add_to_global_variable_list = {
 				name = unavailable_unique_decisions
 				target = flag:defenders_of_highgod_finnish_decision

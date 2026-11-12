@@ -978,7 +978,7 @@ recreate_byzantine_empire_decision = {
 				text = is_greek_descendent_tt
 			}
 			ep3_orthodox_faith_trigger = yes
-			faith = faith:hellenic_pagan
+			OR = { faith = faith:hellenic_pagan faith = faith:olympic }
 		}
 		highest_held_title_tier >= tier_kingdom
 
@@ -1130,7 +1130,7 @@ recreate_byzantine_empire_decision = {
 				}
 				OR = {
 					ep3_orthodox_faith_trigger = yes
-					faith = faith:hellenic_pagan
+					OR = { faith = faith:hellenic_pagan faith = faith:olympic }
 				}
 			}
 			add = -30
@@ -3315,7 +3315,7 @@ expunge_latin_dominion_decision = {
 				text = is_greek_descendent_tt
 			}
 			ep3_orthodox_faith_trigger = yes
-			faith = faith:hellenic_pagan
+			OR = { faith = faith:hellenic_pagan faith = faith:olympic }
 			custom_tooltip = {
 				exists = title:e_byzantium.holder
 				this = title:e_byzantium.holder

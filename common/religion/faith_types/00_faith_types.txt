@@ -291,16 +291,10 @@ theravada_faith = {
 	holy_sites = {
 		bupaya
 		sarnath
-		colony_theravada_faith_w1
-		colony_theravada_faith_w2
-		colony_theravada_faith_w3
 		colony_theravada_faith_w5
+		colony_theravada_faith_w2
 		colony_theravada_faith_w6
-		colony_theravada_faith_w7
-		colony_theravada_faith_w8
-		colony_theravada_faith_w9
-		colony_theravada_faith_w10
-		colony_theravada_faith_w11
+		colony_theravada_faith_w1
 	}
 
 }
@@ -1038,16 +1032,6 @@ hussite = {
 		rome
 		cologne
 		santiago
-		colony_hussite_w1
-		colony_hussite_w2
-		colony_hussite_w3
-		colony_hussite_w5
-		colony_hussite_w6
-		colony_hussite_w7
-		colony_hussite_w8
-		colony_hussite_w9
-		colony_hussite_w10
-		colony_hussite_w11
 	}
 
 }
@@ -1841,16 +1825,6 @@ gnostic_faith = {
 		rome_ck_gnostic_faith
 		sijilmasa
 		sinai
-		colony_gnostic_faith_w0
-		colony_gnostic_faith_w1
-		colony_gnostic_faith_w2
-		colony_gnostic_faith_w3
-		colony_gnostic_faith_w6
-		colony_gnostic_faith_w7
-		colony_gnostic_faith_w8
-		colony_gnostic_faith_w9
-		colony_gnostic_faith_w10
-		colony_gnostic_faith_w11
 	}
 
 	localization = {
@@ -2255,15 +2229,7 @@ vaishnava_faith = {
 		ujjayini
 		khao_khlang_nai
 		colony_vaishnava_faith_w0
-		colony_vaishnava_faith_w1
 		colony_vaishnava_faith_w2
-		colony_vaishnava_faith_w3
-		colony_vaishnava_faith_w5
-		colony_vaishnava_faith_w7
-		colony_vaishnava_faith_w8
-		colony_vaishnava_faith_w9
-		colony_vaishnava_faith_w10
-		colony_vaishnava_faith_w11
 	}
 
 	localization = {
@@ -2652,24 +2618,16 @@ sunni = {
     }
 
     eminent_holy_sites = {
-    	mecca
-    	medina
-    	jerusalem
-    }
+		mecca
+		medina
+		jerusalem
+	}
 
     holy_sites = {
-    	baghdad
-    	sinai
-    	colony_sunni_w1
-		colony_sunni_w2
-		colony_sunni_w3
-		colony_sunni_w5
+		baghdad
+		sinai
 		colony_sunni_w6
-		colony_sunni_w7
-		colony_sunni_w8
-		colony_sunni_w9
 		colony_sunni_w10
-		colony_sunni_w11
 	}
 
 	doctrines = {
@@ -2689,24 +2647,16 @@ shia = {
     }
 
     eminent_holy_sites = {
-    	mecca_ck_shia
-    	medina_ck_shia
-    	nadjaf
-    }
+		mecca_ck_shia
+		medina_ck_shia
+		nadjaf
+	}
 
     holy_sites = {
-    	jerusalem_ck_shia
-    	damascus
-    	colony_shia_w0
-		colony_shia_w1
-		colony_shia_w2
-		colony_shia_w3
-		colony_shia_w6
+		jerusalem_ck_shia
+		damascus
+		colony_shia_w0
 		colony_shia_w7
-		colony_shia_w8
-		colony_shia_w9
-		colony_shia_w10
-		colony_shia_w11
 	}
 
 	doctrines = {
@@ -2971,16 +2921,8 @@ rabbinic_faith = {
 	holy_sites = {
 		sufed
 		alexandria_ck_rabbinic_faith
-		colony_rabbinic_faith_w0
-		colony_rabbinic_faith_w1
 		colony_rabbinic_faith_w2
-		colony_rabbinic_faith_w3
-		colony_rabbinic_faith_w5
-		colony_rabbinic_faith_w6
-		colony_rabbinic_faith_w7
-		colony_rabbinic_faith_w8
-		colony_rabbinic_faith_w9
-		colony_rabbinic_faith_w11
+		colony_rabbinic_faith_w0
 	}
 
 	doctrines = {
@@ -3285,14 +3227,14 @@ kushitism_pagan = {
 	}
 
 	eminent_holy_sites = {
-		aswan
-		naqis
+		ck3_kushitism_province1641
+		ck3_kushitism_province1651
 	}
 
 	holy_sites = {
-		wadi_el_milk
-		sennar
-		el_fasher
+		ck3_kushitism_province1622
+		ck3_kushitism_province1640
+		ck3_kushitism_province1657
 	}
 
 	tenets = {
@@ -4608,16 +4550,6 @@ zurvanism = { # Actually Behafaridism
 		ushi-darena
 		takht-i-sangin
 		yazd
-		colony_zurvanism_w0
-		colony_zurvanism_w2
-		colony_zurvanism_w3
-		colony_zurvanism_w5
-		colony_zurvanism_w6
-		colony_zurvanism_w7
-		colony_zurvanism_w8
-		colony_zurvanism_w9
-		colony_zurvanism_w10
-		colony_zurvanism_w11
 	}
 
 	tenets = {
@@ -4686,16 +4618,6 @@ khurmazta = {
 	holy_sites = {
 		adur_farnbag
 		takht-e_soleyman
-		colony_khurmazta_w0
-		colony_khurmazta_w1
-		colony_khurmazta_w2
-		colony_khurmazta_w3
-		colony_khurmazta_w5
-		colony_khurmazta_w6
-		colony_khurmazta_w7
-		colony_khurmazta_w8
-		colony_khurmazta_w9
-		colony_khurmazta_w11
 	}
 
 	tenets = {

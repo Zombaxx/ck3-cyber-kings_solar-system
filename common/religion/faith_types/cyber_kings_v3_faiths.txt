@@ -1,0 +1,769 @@
+﻿# Cyber Kings v3 (e13_faiths_spacers.py): own faith keys for the faiths the CK2 port had stored on renamed
+# vanilla keys. Each is a copy of the vanilla faith named in its comment (same religion, tenets, doctrines,
+# icons); holy sites capped at 9 (<=3 eminent), colony sites only on worlds the faith lives on.
+
+protestant_faith = { # copy of hussite
+	main_rite = protestant_rite
+	# Scripted main Rite: hussite_rite (all start dates). Its core tenets and Rite-specific doctrines are defined on the Rite; faith-intrinsic doctrines remain inline.
+	faith_details = {
+		religion = christianity_religion
+		color = { 0.8 0.4 0.2 }
+		icon = christianity_chalice_01
+		graphical_faith = "catholic_gfx"
+	}
+
+	#Shared with Catholics
+	eminent_holy_sites = {
+		jerusalem
+		kent
+	}
+
+	holy_sites = {
+		rome
+		cologne
+		santiago
+		colony_hussite_w7
+	}
+
+	doctrines = {
+		doctrine_no_head
+	}
+}
+
+anglican_faith = { # copy of lollard
+	main_rite = anglican_rite
+	# Scripted main Rite: lollard_rite (all start dates). Its core tenets and Rite-specific doctrines are defined on the Rite; faith-intrinsic doctrines remain inline.
+	faith_details = {
+		religious_head = e_empire0531
+		religion = christianity_religion
+		color = { 0.5 0.8 0.8 }
+		icon = christianity_lollard
+		graphical_faith = "catholic_gfx"
+	}
+
+	#Shared with Catholics
+	eminent_holy_sites = {
+		jerusalem
+		kent
+	}
+
+	holy_sites = {
+		rome
+		cologne
+		santiago
+	}
+
+	doctrines = {
+		doctrine_temporal_head
+		doctrine_clerical_succession_temporal_appointment
+		doctrine_gender_equal
+		doctrine_clerical_gender_either
+	}
+}
+
+latter_day_saints_faith = { # copy of adoptionist
+	main_rite = latter_day_saints_rite
+	# Scripted main Rite: adoptionist_rite (all start dates). Its core tenets and Rite-specific doctrines are defined on the Rite; faith-intrinsic doctrines remain inline.
+	historical = yes
+
+	faith_details = {
+		religion = christianity_religion
+		color = { 255 51 51 }
+		icon = fp2_adoptionist
+		graphical_faith = "catholic_gfx"
+	}
+
+	eminent_holy_sites = {
+		toledo_mozarabic
+		santiago
+	}
+
+	holy_sites = {
+		lyon
+		rome
+		carthage_adoptionist
+	}
+
+	localization = {
+		# Since the Elipandic school wouldn't want their own papacy, we restrict Adoptionists to an arch-bishop.
+		ReligiousHeadName = adoptionist_religious_head_title
+		ReligiousHeadNameFemale = adoptionist_religious_head_title_female
+		ReligiousHeadTitleName = adoptionist_religious_head_title_name
+	}
+}
+
+fundamentalist_faith = { # copy of paulician
+	main_rite = fundamentalist_rite
+	# Scripted main Rite: paulician_rite (all start dates). Its core tenets and Rite-specific doctrines are defined on the Rite; faith-intrinsic doctrines remain inline.
+	faith_details = {
+		religion = christianity_religion
+		color = { 0.6 0.1 0.4 }
+		icon = christianity_paulicanism
+		graphical_faith = "orthodox_gfx"
+	}
+
+	#Shared with Armenian?
+	eminent_holy_sites = {
+		jerusalem
+		antioch
+	}
+
+	holy_sites = {
+		constantinople
+		rome
+		alexandria
+	}
+
+	localization = {
+		ReligiousText = paulician_religious_text
+		ReligiousText2 = paulician_religious_text_2
+		ReligiousText3 = paulician_religious_text_3
+
+		# Patriarchs instead of Popes
+		ReligiousHeadName = orthodox_religious_head_title
+		ReligiousHeadNameFemale = orthodox_religious_head_title_female
+		ReligiousHeadTitleName = orthodox_religious_head_title_name
+	}
+}
+
+non_denominational_faith = { # copy of waldensian
+	main_rite = non_denominational_rite
+	# Scripted main Rite: waldensian_rite (all start dates). Its core tenets and Rite-specific doctrines are defined on the Rite; faith-intrinsic doctrines remain inline.
+	faith_details = {
+		religion = christianity_religion
+		color = { 0.4 0.2 0.5 }
+		icon = christianity_waldensian
+		graphical_faith = "catholic_gfx"
+	}
+
+	#Shared with Catholics
+	eminent_holy_sites = {
+		jerusalem
+		rome
+	}
+
+	holy_sites = {
+		cologne
+		santiago
+		kent
+	}
+
+}
+
+reaverism_faith = { # copy of norse_pagan
+	main_rite = reaverism_rite
+	faith_details = {
+		religion = reaverism_religion
+		color = { 0.4 0.4 0.4 }
+		icon = custom_faith_fp1_jormungandr
+		reformed_icon = custom_faith_fp1_jormungandr
+	}
+
+	eminent_holy_sites = {
+		uppsala
+		ranaheim
+	}
+
+	holy_sites = {
+		jorvik
+		paderborn
+		konugardr
+	}
+
+	tenets = {
+		tenet_warmonger
+		tenet_pursuit_of_power
+		tenet_sacrificial_ceremonies
+	}
+
+	doctrines = {
+		unreformed_faith_doctrine
+	}
+}
+
+retrogradism_faith = { # copy of finnish_pagan
+	main_rite = retrogradism_rite
+	faith_details = {
+		religion = retrogradism_religion
+		color = { 0.5 0.5 0.0 }
+		icon = finno_ugric
+		reformed_icon = finno_ugric_reformed
+	}
+
+	eminent_holy_sites = {
+		raivola
+		hiiumaa
+	}
+
+	holy_sites = {
+		akkel
+		perm
+		torun
+	}
+
+	tenets = {
+		tenet_sanctity_of_nature
+		tenet_communal_identity
+	}
+
+	doctrines = {
+		unreformed_faith_doctrine
+	}
+
+	tenet_selection_pair = {
+		requires_dlc_flag = all_under_heaven
+		tenet = tenet_takamin
+		fallback_tenet = tenet_ancestor_worship
+	}
+}
+
+cargo_cult_faith = { # copy of baltic_pagan
+	main_rite = cargo_cult_rite
+	faith_details = {
+		religion = cargo_cult_religion
+		color = { 0.6 0.4 0.3 }
+		icon = baltic
+		reformed_icon = baltic_reformed
+	}
+
+	eminent_holy_sites = {
+		pokaini
+		torun
+	}
+
+	holy_sites = {
+		hiiumaa
+		braslau
+		rugen
+	}
+
+	tenets = {
+		tenet_ancestor_worship
+		tenet_ritual_celebrations
+		tenet_mendicant_preachers
+	}
+
+	doctrines = {
+		unreformed_faith_doctrine
+	}
+}
+
+ancestor_worship_faith = { # copy of bon_faith
+	# Scripted main Rite: bon (all start dates). Its core tenets and Rite-specific doctrines are defined on the Rite; faith-intrinsic doctrines remain inline.
+	main_rite = ancestor_worship_rite
+	faith_details = {
+		religion = ancestor_worship_religion
+		color = { 10 235 255 }
+		icon = bon
+		religious_head = d_yungdrung_bon
+	}
+
+	eminent_holy_sites = {
+		lhasa
+		purang
+	}
+
+	holy_sites = {
+		khotan
+		balkh
+		gilgit
+	}
+
+}
+
+gnoslam_faith = { # copy of druze
+	main_rite = gnoslam_rite
+	faith_details = {
+		religious_head = e_empire0711
+		religion = gnoslam_religion
+		color = { 0.3 0.7 0.1 }
+		icon = islam_druze
+	}
+
+	eminent_holy_sites = {
+		beirut
+		zozan
+	}
+
+	holy_sites = {
+		mecca
+		medina
+		jerusalem
+	}
+
+	tenets = {
+		tenet_gnosticism
+		tenet_christian_syncretism
+		tenet_inner_journey
+	}
+
+	doctrines = {
+		doctrine_temporal_head
+		doctrine_theocracy_lay_clergy
+		doctrine_clerical_succession_temporal_appointment
+		doctrine_monogamy
+		doctrine_divorce_allowed
+		doctrine_adultery_women_crime
+		doctrine_adultery_men_crime
+		doctrine_witchcraft_shunned
+		doctrine_clerical_gender_either
+		doctrine_pilgrimage_encouraged
+	}
+
+	localization = {
+		HighGodName = gnoslam_faith_loc_HighGodName
+		HighGodName2 = gnoslam_faith_loc_HighGodName
+		HighGodNamePossessive = gnoslam_faith_loc_HighGodNamePossessive
+		HighGodNameSheHe = CHARACTER_SHEHE_HE
+		HighGodHerselfHimself = CHARACTER_HIMSELF
+		HighGodHerHis = CHARACTER_HERHIS_HIS
+		HighGodNameAlternate = gnoslam_faith_loc_HighGodNameAlternate
+		HighGodNameAlternatePossessive = gnoslam_faith_loc_HighGodNameAlternatePossessive
+		CreatorName = gnoslam_faith_loc_CreatorName
+		CreatorNamePossessive = gnoslam_faith_loc_CreatorNamePossessive
+		CreatorSheHe = CHARACTER_SHEHE_HE
+		CreatorHerHis = CHARACTER_HERHIS_HIS
+		CreatorHerHim = CHARACTER_HERHIM_HIM
+		HealthGodName = gnoslam_faith_loc_HealthGodName
+		HealthGodNamePossessive = gnoslam_faith_loc_HealthGodNamePossessive
+		HealthGodSheHe = CHARACTER_SHEHE_SHE
+		HealthGodHerHis = CHARACTER_HERHIS_HER
+		HealthGodHerHim = CHARACTER_HERHIM_HER
+		FertilityGodName = gnoslam_faith_loc_FertilityGodName
+		FertilityGodNamePossessive = gnoslam_faith_loc_FertilityGodNamePossessive
+		FertilityGodSheHe = CHARACTER_SHEHE_SHE
+		FertilityGodHerHis = CHARACTER_HERHIS_HER
+		FertilityGodHerHim = CHARACTER_HERHIM_HER
+		WealthGodName = gnoslam_faith_loc_WealthGodName
+		WealthGodNamePossessive = gnoslam_faith_loc_WealthGodNamePossessive
+		WealthGodSheHe = CHARACTER_SHEHE_HE
+		WealthGodHerHis = CHARACTER_HERHIS_HIS
+		WealthGodHerHim = CHARACTER_HERHIM_HIM
+		HouseholdGodName = gnoslam_faith_loc_HouseholdGodName
+		HouseholdGodNamePossessive = gnoslam_faith_loc_HouseholdGodNamePossessive
+		HouseholdGodSheHe = CHARACTER_SHEHE_SHE
+		HouseholdGodHerHis = CHARACTER_HERHIS_HER
+		HouseholdGodHerHim = CHARACTER_HERHIM_HER
+		FateGodName = gnoslam_faith_loc_FateGodName
+		FateGodNamePossessive = gnoslam_faith_loc_FateGodNamePossessive
+		FateGodSheHe = CHARACTER_SHEHE_THEY
+		FateGodHerHis = CHARACTER_HERHIS_THEIR
+		FateGodHerHim = CHARACTER_HERHIM_THEM
+		KnowledgeGodName = gnoslam_faith_loc_KnowledgeGodName
+		KnowledgeGodNamePossessive = gnoslam_faith_loc_KnowledgeGodNamePossessive
+		KnowledgeGodSheHe = CHARACTER_SHEHE_HE
+		KnowledgeGodHerHis = CHARACTER_HERHIS_HIS
+		KnowledgeGodHerHim = CHARACTER_HERHIM_HIM
+		WarGodName = gnoslam_faith_loc_WarGodName
+		WarGodNamePossessive = gnoslam_faith_loc_WarGodNamePossessive
+		WarGodSheHe = CHARACTER_SHEHE_HE
+		WarGodHerHis = CHARACTER_HERHIS_HIS
+		WarGodHerHim = CHARACTER_HERHIM_HIM
+		TricksterGodName = gnoslam_faith_loc_TricksterGodName
+		TricksterGodNamePossessive = gnoslam_faith_loc_TricksterGodNamePossessive
+		TricksterGodSheHe = CHARACTER_SHEHE_HE
+		TricksterGodHerHis = CHARACTER_HERHIS_HIS
+		TricksterGodHerHim = CHARACTER_HERHIM_HIM
+		NightGodName = gnoslam_faith_loc_NightGodName
+		NightGodNamePossessive = gnoslam_faith_loc_NightGodNamePossessive
+		NightGodSheHe = CHARACTER_SHEHE_SHE
+		NightGodHerHis = CHARACTER_HERHIS_HER
+		NightGodHerHim = CHARACTER_HERHIM_HER
+		WaterGodName = gnoslam_faith_loc_WaterGodName
+		WaterGodNamePossessive = gnoslam_faith_loc_WaterGodNamePossessive
+		WaterGodSheHe = CHARACTER_SHEHE_HE
+		WaterGodHerHis = CHARACTER_HERHIS_HIS
+		WaterGodHerHim = CHARACTER_HERHIM_HIM
+		PantheonTerm = gnoslam_faith_loc_PantheonTerm
+		PantheonTerm2 = gnoslam_faith_loc_PantheonTerm
+		PantheonTerm3 = gnoslam_faith_loc_PantheonTerm
+		PantheonTermHasHave = pantheon_term_have
+		GoodGodNames = { gnoslam_faith_loc_GoodGod0 gnoslam_faith_loc_GoodGod1 gnoslam_faith_loc_GoodGod2 gnoslam_faith_loc_GoodGod3 }
+		DevilName = gnoslam_faith_loc_DevilName
+		DevilNamePossessive = gnoslam_faith_loc_DevilNamePossessive
+		DevilSheHe = CHARACTER_SHEHE_HE
+		DevilHerHis = CHARACTER_HERHIS_HIS
+		DevilHerselfHimself = CHARACTER_HIMSELF
+		EvilGodNames = { gnoslam_faith_loc_EvilGod0 gnoslam_faith_loc_EvilGod1 }
+		HouseOfWorship = gnoslam_faith_loc_HouseOfWorship
+		HouseOfWorship2 = gnoslam_faith_loc_HouseOfWorship
+		HouseOfWorship3 = gnoslam_faith_loc_HouseOfWorship
+		ReligiousSymbol = gnoslam_faith_loc_ReligiousSymbol
+		ReligiousSymbol2 = gnoslam_faith_loc_ReligiousSymbol
+		ReligiousSymbol3 = gnoslam_faith_loc_ReligiousSymbol
+		ReligiousText = gnoslam_faith_loc_ReligiousText
+		ReligiousText2 = gnoslam_faith_loc_ReligiousText
+		ReligiousText3 = gnoslam_faith_loc_ReligiousText
+		DivineRealm = gnoslam_faith_loc_DivineRealm
+		DivineRealm2 = gnoslam_faith_loc_DivineRealm
+		DivineRealm3 = gnoslam_faith_loc_DivineRealm
+		PositiveAfterLife = gnoslam_faith_loc_PositiveAfterLife
+		PositiveAfterLife2 = gnoslam_faith_loc_PositiveAfterLife
+		PositiveAfterLife3 = gnoslam_faith_loc_PositiveAfterLife
+		NegativeAfterLife = gnoslam_faith_loc_NegativeAfterLife
+		NegativeAfterLife2 = gnoslam_faith_loc_NegativeAfterLife
+		NegativeAfterLife3 = gnoslam_faith_loc_NegativeAfterLife
+		HouseOfWorshipPlural = gnoslam_faith_loc_HouseOfWorshipPlural
+		ReligiousHeadName = gnoslam_faith_loc_ReligiousHeadName
+		ReligiousHeadNameFemale = gnoslam_faith_loc_ReligiousHeadNameFemale
+		ReligiousHeadTitleName = gnoslam_faith_loc_ReligiousHeadTitleName
+		DevoteeMale = gnoslam_faith_loc_DevoteeMale
+		DevoteeMalePlural = gnoslam_faith_loc_DevoteeMalePlural
+		DevoteeFemale = gnoslam_faith_loc_DevoteeFemale
+		DevoteeFemalePlural = gnoslam_faith_loc_DevoteeFemalePlural
+		DevoteeNeuter = gnoslam_faith_loc_DevoteeNeuter
+		DevoteeNeuterPlural = gnoslam_faith_loc_DevoteeNeuterPlural
+		PriestMale = gnoslam_faith_loc_PriestMale
+		PriestMalePlural = gnoslam_faith_loc_PriestMalePlural
+		PriestFemale = gnoslam_faith_loc_PriestFemale
+		PriestFemalePlural = gnoslam_faith_loc_PriestFemalePlural
+		PriestNeuter = gnoslam_faith_loc_PriestNeuter
+		PriestNeuterPlural = gnoslam_faith_loc_PriestNeuterPlural
+		BishopMale = gnoslam_faith_loc_BishopMale
+		BishopMalePlural = gnoslam_faith_loc_BishopMalePlural
+		BishopFemale = gnoslam_faith_loc_BishopFemale
+		BishopFemalePlural = gnoslam_faith_loc_BishopFemalePlural
+		BishopNeuter = gnoslam_faith_loc_BishopNeuter
+		BishopNeuterPlural = gnoslam_faith_loc_BishopNeuterPlural
+		AltPriestTermPlural = gnoslam_faith_loc_PriestNeuterPlural
+		DeathDeityName = gnoslam_faith_loc_DeathDeityName
+		DeathDeityNamePossessive = gnoslam_faith_loc_DeathDeityNamePossessive
+		DeathDeitySheHe = CHARACTER_SHEHE_HE
+		DeathDeityHerHis = CHARACTER_HERHIS_HIS
+		DeathDeityHerHim = CHARACTER_HERHIM_HIM
+		WitchGodName = gnoslam_faith_loc_WitchGodName
+		WitchGodNamePossessive = gnoslam_faith_loc_WitchGodNamePossessive
+		WitchGodHerHis = CHARACTER_HERHIS_HER
+		WitchGodSheHe = CHARACTER_SHEHE_SHE
+		WitchGodHerHim = CHARACTER_HERHIM_HER
+		WitchGodMistressMaster = mistress
+		WitchGodMotherFather = mother
+		GHWName = gnoslam_faith_loc_GHWName
+		GHWNamePlural = gnoslam_faith_loc_GHWNamePlural
+	}
+}
+
+hermazta_faith = { # copy of khurmazta
+	main_rite = hermazta_rite
+	faith_details = {
+		religion = hermazta_religion
+		color = { 0.8 0.6 0.1 }
+		icon = khurmazta
+		religious_head = d_mazdayasna
+	}
+
+	eminent_holy_sites = {
+		mizdahqan
+		takht-i-sangin
+		dunhuang
+	}
+
+	holy_sites = {
+		adur_farnbag
+		takht-e_soleyman
+		colony_khurmazta_w6
+	}
+
+	tenets = {
+		tenet_adaptive
+		tenet_ancestor_worship
+		tenet_communal_identity
+	}
+
+	doctrines = {
+		doctrine_polytheist
+		doctrine_spiritual_head
+		doctrine_pluralism_pluralistic
+	}
+
+
+}
+
+escudo_solar_faith = { # copy of magyar_pagan
+	main_rite = escudo_solar_rite
+	faith_details = {
+		religion = escudo_solar_religion
+		color = { 250 120 90 }
+		icon = pagan
+		reformed_icon = pagan
+	}
+
+	eminent_holy_sites = {
+		ck3_escudo_solar_province1416
+		ck3_escudo_solar_province1439
+	}
+
+	holy_sites = {
+		ck3_escudo_solar_province1448
+		ck3_escudo_solar_province1418
+		ck3_escudo_solar_province1469
+	}
+
+	tenets = {
+		tenet_sun_worship
+		tenet_astrology
+		tenet_human_sacrifice
+	}
+
+	doctrines = {
+		unreformed_faith_doctrine
+	}
+}
+
+holy_serpent_faith = { # copy of sethianism
+	main_rite = holy_serpent_rite
+	historical = yes
+
+	faith_details = {
+		religion = holy_serpent_religion
+		color = { 0.8 0.6 0.4 }
+		icon = sethianism
+		graphical_faith = "orthodox_gfx"
+	}
+
+	eminent_holy_sites = {
+		alexandria_ck_sethianism
+		sinai
+	}
+
+	holy_sites = {
+		jerusalem_ck_sethianism
+		rome_ck_sethianism
+		sijilmasa
+	}
+
+	tenets = {
+		tenet_communal_identity
+		tenet_esotericism
+		tenet_inner_journey
+	}
+
+	doctrines = {
+		doctrine_no_head
+	}
+
+}
+
+lunism_faith = { # copy of slavic_pagan
+	main_rite = lunism_rite
+	faith_details = {
+		religion = lunism_religion
+		color = { 0.7 0.6 0.3 }
+		icon = slavic
+		reformed_icon = slavic_reformed
+	}
+
+	eminent_holy_sites = {
+		kiev
+		rugen
+	}
+
+	holy_sites = {
+		novgorod
+		barlad
+		plock
+	}
+
+	tenets = {
+		tenet_sanctity_of_nature
+		tenet_ritual_celebrations
+		tenet_communal_identity
+	}
+
+	doctrines = {
+		unreformed_faith_doctrine
+	}
+}
+
+animism_faith = { # copy of west_african_pagan
+	main_rite = animism_rite
+	faith_details = {
+		religion = animism_religion
+		color = { 0.8 0.35 0.0 }
+		icon = mande
+		reformed_icon = mande_reformed
+	}
+
+	eminent_holy_sites = {
+		awkar
+		niani
+	}
+
+	holy_sites = {
+		jenne
+		kukiya
+		kisi
+	}
+
+	tenets = {
+		tenet_adaptive
+		tenet_ancestor_worship
+		tenet_sanctity_of_nature
+	}
+
+	doctrines = {
+		west_african_unreformed_faith_doctrine
+	}
+}
+
+voyagism_faith = { # copy of zhengyi
+	main_rite = voyagism_rite
+	faith_details = {
+		religious_head = d_great_voyage
+		religion = voyagism_religion
+		color = { 8 140 131 }
+		icon = taoism
+	}
+
+	eminent_holy_sites = {
+		mount_longhu # Where Zhang Daoling had obtained the Tao
+		mount_qingcheng
+		luyi
+	}
+
+	holy_sites = {
+		mount_wudang
+		mount_tai
+	}
+
+	tenets = {
+		tenet_adaptive
+		tenet_esotericism
+		tenet_pursuit_of_knowledge
+	}
+
+	doctrines = {
+		doctrine_sacraments_central
+		doctrine_spiritual_head
+		doctrine_pluralism_righteous
+		doctrine_adultery_men_crime
+		doctrine_adultery_women_crime
+		doctrine_deviancy_crime
+		doctrine_clerical_function_taxation
+		doctrine_clerical_marriage_disallowed
+		doctrine_clerical_succession_spiritual_fixed_appointment
+	}
+}
+
+solarian_faith = { # copy of zun_pagan
+	main_rite = solarian_rite
+	faith_details = {
+		religion = solarian_religion
+		color = { 0.9 1.0 0.0 }
+		icon = zunist
+		reformed_icon = zunist_reformed
+	}
+
+	eminent_holy_sites = {
+		kabul
+		bost
+	}
+
+	holy_sites = {
+		multan
+		nishapur
+		memphis
+	}
+
+	tenets = {
+		tenet_unrelenting_faith
+		tenet_sun_worship
+		tenet_eastern_syncretism
+	}
+
+	doctrines = {
+		unreformed_faith_doctrine
+	}
+}
+
+divine_cycle_faith = { # copy of zurvanism # Actually Behafaridism
+	main_rite = divine_cycle_rite
+	faith_details = {
+		religion = divine_cycle_religion
+		color = { 0.6 0.7 0.2 }
+		icon = zurvanism
+		religious_head = d_zurvanism
+	}
+
+	eminent_holy_sites = {
+		nishapur
+		takht-e_soleyman
+	}
+
+	holy_sites = {
+		ushi-darena
+		takht-i-sangin
+		yazd
+	}
+
+	tenets = {
+		tenet_divine_marriage
+		tenet_sun_worship
+		tenet_communal_identity
+	}
+
+	doctrines = {
+		doctrine_polygamy
+		doctrine_clerical_function_alms_and_pacification
+		doctrine_spiritual_head
+		doctrine_consanguinity_restricted
+	}
+}
+
+sikhism_faith = { # Cyber Kings v3 (e14): Sikhism
+	main_rite = sikhism_rite
+	faith_details = {
+		religion = sikhism_religion
+		color = { 0.95 0.55 0.1 }
+		icon = jainism
+		reformed_icon = jainism
+	}
+
+	eminent_holy_sites = {
+		ck3_sikh_harmandir_sahib
+		ck3_sikh_nankana_sahib
+	}
+
+	holy_sites = {
+		ck3_sikh_patna_sahib
+		ck3_sikh_hazur_sahib
+		ck3_sikh_sis_ganj
+	}
+
+	tenets = {
+		tenet_ritual_hospitality
+		tenet_communal_identity
+		tenet_inner_journey
+	}
+}
+
+kemetism_faith = { # Cyber Kings v3 (e17): Mercury's Kushitism, own key; copy of kushitism_pagan
+	main_rite = kemetism_rite
+	faith_details = {
+		religion = kemetism_religion
+		color = hsv { 0.15 1 0.7 }
+		icon = kushism
+		reformed_icon = kushism_reformed
+	}
+
+	eminent_holy_sites = {
+		aswan
+		naqis
+	}
+
+	holy_sites = {
+		wadi_el_milk
+		sennar
+		el_fasher
+	}
+
+	tenets = {
+		tenet_esotericism
+		tenet_ancestor_worship
+		tenet_consolamentum
+	}
+
+	doctrines = {
+		unreformed_faith_doctrine
+	}
+}

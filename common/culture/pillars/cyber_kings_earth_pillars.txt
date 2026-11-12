@@ -1,0 +1,173 @@
+﻿# Cyber Kings: heritages and languages for the Earth cultures v3 (e12_cultures.py)
+
+heritage_ck_progressive = {
+	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_ck_progressive
+		}
+	}
+	audio_parameter = european
+}
+
+heritage_ck_american = {
+	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_ck_american
+		}
+	}
+	audio_parameter = european
+}
+
+heritage_ck_northern = {
+	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_ck_northern
+		}
+	}
+	audio_parameter = european
+}
+
+heritage_ck_afro_diaspora = {
+	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_ck_afro_diaspora
+		}
+	}
+	audio_parameter = european
+}
+
+heritage_ck_arctic = {
+	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_ck_arctic
+		}
+	}
+	audio_parameter = european
+}
+
+heritage_ck_aboriginal = {
+	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_ck_aboriginal
+		}
+	}
+	audio_parameter = european
+}
+
+language_ck_inuit = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_ck_inuit
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_ck_inuit }
+			multiply = 10
+		}
+	}
+	color = { 0.24 0.36 0.48 }
+}
+
+language_ck_aboriginal = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_ck_aboriginal
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_ck_aboriginal }
+			multiply = 10
+		}
+	}
+	color = { 0.77 0.21 0.64 }
+}
+
+language_ck_mayan = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_ck_mayan
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_ck_mayan }
+			multiply = 10
+		}
+	}
+	color = { 0.81 0.50 0.76 }
+}
+
+language_ck_quechua = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_ck_quechua
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_ck_quechua }
+			multiply = 10
+		}
+	}
+	color = { 0.31 0.46 0.69 }
+}
+
+language_ck_tupi = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_ck_tupi
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_ck_tupi }
+			multiply = 10
+		}
+	}
+	color = { 0.51 0.41 0.57 }
+}
+
+heritage_ck_spacer = {
+	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_ck_spacer
+		}
+	}
+	audio_parameter = european
+}
+
+language_ck_spacer = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_ck_spacer
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_ck_spacer }
+			multiply = 10
+		}
+	}
+	color = { 0.55 0.75 0.95 }
+}

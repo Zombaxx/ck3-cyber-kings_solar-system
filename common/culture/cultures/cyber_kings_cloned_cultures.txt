@@ -90,28 +90,15 @@ choam = {
 inuit = {
 	color = { 0.65 0.50 0.15 }
 
+	name_list = name_list_ck3_inuit
 	ethos = ethos_communal
-	heritage = heritage_turkic
-	language = language_turkic
+	heritage = heritage_ck_arctic
+	language = language_ck_inuit
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_herd
-	traditions = {
-		#tradition_steppe_tolerance
-		#tradition_horse_lords
-		tradition_horse_breeder
-		tradition_sacred_mountains
-		tradition_dryland_dwellers
-		tradition_mountain_homes
-	}
+	traditions = { tradition_hunters tradition_fishermen tradition_strong_kinship }
 
-	#dlc_tradition = {
-	#	trait = tradition_malleable_invaders
-	#	requires_dlc_flag = hybridize_culture
-	#}
-
-	name_list = name_list_ck_inuit
-
-	coa_gfx = { turkic_group_coa_gfx steppe_coa_gfx }
+	#coa_gfx = { turkic_group_coa_gfx steppe_coa_gfx }
 	building_gfx = { steppe_building_gfx }
 	clothing_gfx = { turkic_clothing_gfx mongol_clothing_gfx }
 	unit_gfx = { mongol_unit_gfx }
@@ -210,6 +197,7 @@ korean = {
 
 
 	name_order_convention = dynasty_always_first
+	name_list = name_list_korean
 	ethos = ethos_courtly
 	heritage = heritage_korean
 	language = language_korean
@@ -247,8 +235,6 @@ korean = {
 		requires_dlc_flag = all_under_heaven
 		fallback = tradition_castle_keepers
 	}
-
-	name_list = name_list_ck_korean
 
 	coa_gfx = { chinese_group_coa_gfx }
 	building_gfx = { chinese_building_gfx }
@@ -361,17 +347,12 @@ gdonyos = {
 murican = {
 	color = { 0.30 0.50 0.40 }
 	
-	ethos = ethos_communal
-	heritage = heritage_brythonic
-	language = language_brythonic
+	ethos = ethos_bellicose
+	heritage = heritage_ck_american
+	language = language_anglic
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
-	traditions = {
-		tradition_fishermen
-		tradition_storytellers
-		tradition_swords_for_hire
-		tradition_chanson_de_geste
-	}
+	traditions = { tradition_family_entrepreneurship tradition_staunch_traditionalists tradition_reverence_for_veterans tradition_swords_for_hire }
 	
 	name_list = name_list_ck_murican
 	
@@ -429,16 +410,12 @@ fenisaidd = {
 liblander = {
 	color = { 0.30 0.30 0.50 }
 	
-	ethos = ethos_bellicose
-	heritage = heritage_frankish
-	language = language_frankish
+	ethos = ethos_bureaucratic
+	heritage = heritage_ck_progressive
+	language = language_anglic
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
-	traditions = {
-		tradition_warrior_culture
-		tradition_hereditary_hierarchy
-		tradition_stand_and_fight
-	}
+	traditions = { tradition_equitable tradition_republican_legacy tradition_city_keepers }
 	
 	name_list = name_list_ck_liblander
 	
@@ -464,8 +441,9 @@ canadian = {
 
 
 	
+	name_list = name_list_ck3_north_american
 	ethos = ethos_bureaucratic
-	heritage = heritage_west_germanic
+	heritage = heritage_ck_northern
 	language = language_anglic
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
@@ -475,8 +453,6 @@ canadian = {
 		tradition_castle_keepers
 		tradition_longbow_competitions
 	}
-	
-	name_list = name_list_ck_canadian
 	
 	coa_gfx = { english_coa_gfx western_coa_gfx }
 	building_gfx = { western_building_gfx }
@@ -500,16 +476,12 @@ aussie = {
 
 
 	
-	ethos = ethos_stoic
-	heritage = heritage_central_germanic
-	language = language_saxon
+	ethos = ethos_bureaucratic
+	heritage = heritage_west_germanic
+	language = language_anglic
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
-	traditions = {
-		tradition_stand_and_fight
-		tradition_ruling_caste
-		tradition_religious_patronage
-	}
+	traditions = { tradition_city_keepers tradition_maritime_mercantilism tradition_republican_legacy }
 	
 	name_list = name_list_ck_aussie
 
@@ -833,22 +805,13 @@ sahelian = {
 first_peoples = {
 	color = { 0.45 0.45 0.20 }
 	
+	name_list = name_list_ck3_first_peoples
 	ethos = ethos_spiritual
-	heritage = heritage_west_african
-	language = language_manding
+	heritage = heritage_ck_aboriginal
+	language = language_ck_aboriginal
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
-	traditions = {
-		tradition_upland_skirmishing
-		tradition_charitable
-	}
-	
-	dlc_tradition = {
-		trait = tradition_sorcerous_metallurgy
-		requires_dlc_flag = royal_court
-	}
-	
-	name_list = name_list_ck_first_peoples
+	traditions = { tradition_sacred_groves tradition_storytellers tradition_dryland_dwellers }
 	
 	coa_gfx = { west_african_group_coa_gfx }
 	building_gfx = { african_building_gfx mena_building_gfx }

@@ -34,9 +34,9 @@ eternal_mechanism_rite = {
 	faith = eternal_mechanism
 	color = { 0.5 0.3 0.0 }
 	tenets = {
+		tenet_preservation
 		tenet_esotericism
-		tenet_inner_journey
-		tenet_asceticism
+		tenet_pursuit_of_knowledge
 	}
 }
 

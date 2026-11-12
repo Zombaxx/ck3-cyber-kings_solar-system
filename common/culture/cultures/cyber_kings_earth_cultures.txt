@@ -1,0 +1,2190 @@
+﻿# Cyber Kings: Earth cultures v3 (e12_cultures.py, 2026-11-11). Each is cloned from the culture named in its comment.
+
+afrikaner = { # from dutch
+	color = { 0.71 0.44 0.23 }
+	created = 750.1.1 
+	parents = { frankish frisian }
+	
+	name_list = name_list_dutch
+	ethos = ethos_bureaucratic
+	heritage = heritage_central_germanic
+	language = language_dutch
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_agrarian
+		tradition_parochialism
+		tradition_maritime_mercantilism
+		tradition_polders
+	}
+	
+	coa_gfx = { frisian_coa_gfx german_group_coa_gfx western_coa_gfx } 
+	building_gfx = { western_building_gfx } 
+	clothing_gfx = { dde_hre_clothing_gfx western_clothing_gfx } 
+	unit_gfx = { western_unit_gfx } 		
+	house_coa_frame = house_frame_25
+	house_coa_mask_offset = { 0.0 0.025 }
+	house_coa_mask_scale = { 0.95 0.95 }
+
+	ethnicities = {
+		25 = caucasian_blond
+		15 = caucasian_ginger
+		35 = caucasian_brown_hair
+		25 = caucasian_dark_hair
+	}
+}
+
+afro_american = { # from nubian
+	color = { 0.46 0.54 0.27 }
+	
+	name_list = name_list_ck3_afro_american
+	ethos = ethos_communal
+	heritage = heritage_ck_afro_diaspora
+	language = language_anglic
+	martial_custom = martial_custom_equal
+	head_determination = head_determination_domain
+	traditions = { tradition_storytellers tradition_music_theory tradition_strong_kinship }
+	
+	coa_gfx = { east_african_coa_gfx }
+	building_gfx = { african_building_gfx mena_building_gfx }
+	clothing_gfx = { mena_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+	house_coa_frame = house_frame_19
+	house_coa_mask_offset = { 0.0 0.025 }
+	house_coa_mask_scale = { 0.95 0.95 }
+
+	ethnicities = {
+		77 = east_african
+		23 = arab
+	}
+}
+
+afro_brazilian = { # from nubian
+	color = { 0.37 0.74 0.29 }
+	
+	name_list = name_list_ck3_afro_brazilian
+	ethos = ethos_communal
+	heritage = heritage_ck_afro_diaspora
+	language = language_iberian
+	martial_custom = martial_custom_equal
+	head_determination = head_determination_domain
+	traditions = { tradition_music_theory tradition_festivities tradition_strong_kinship }
+	
+	coa_gfx = { east_african_coa_gfx }
+	building_gfx = { african_building_gfx mena_building_gfx }
+	clothing_gfx = { mena_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+	house_coa_frame = house_frame_19
+	house_coa_mask_offset = { 0.0 0.025 }
+	house_coa_mask_scale = { 0.95 0.95 }
+
+	ethnicities = {
+		77 = east_african
+		23 = arab
+	}
+}
+
+afro_caribbean = { # from nubian
+	color = { 0.46 0.41 0.39 }
+	
+	name_list = name_list_ck3_afro_caribbean
+	ethos = ethos_communal
+	heritage = heritage_ck_afro_diaspora
+	language = language_french
+	martial_custom = martial_custom_equal
+	head_determination = head_determination_domain
+	traditions = { tradition_music_theory tradition_seafaring tradition_strong_kinship }
+	
+	coa_gfx = { east_african_coa_gfx }
+	building_gfx = { african_building_gfx mena_building_gfx }
+	clothing_gfx = { mena_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+	house_coa_frame = house_frame_19
+	house_coa_mask_offset = { 0.0 0.025 }
+	house_coa_mask_scale = { 0.95 0.95 }
+
+	ethnicities = {
+		77 = east_african
+		23 = arab
+	}
+}
+
+amazonian = { # from nativican
+ 
+	color = { 0.56 0.29 0.57 }
+
+	name_list = name_list_ck3_amazonian
+	ethos = ethos_communal
+	heritage = heritage_nativican
+	language = language_ck_tupi
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+
+	traditions = {
+		tradition_nudists
+		tradition_culture_blending
+		tradition_isolationist
+		tradition_medicinal_plants
+	}
+
+	coa_gfx = { burman_group_coa_gfx }
+	building_gfx = { southeast_asian_building_gfx }
+	clothing_gfx = { papuan_clothing_gfx southeast_asian_clothing_gfx }
+	unit_gfx = { southeast_asian_unit_gfx indian_unit_gfx }
+	house_coa_frame = house_frame_26
+	house_coa_mask_offset = { 0.0 0.0 }
+	house_coa_mask_scale = { 0.85 0.85 }
+
+	ethnicities = {
+		100 = papuan
+	}
+}
+
+andean = { # from nativican
+ 
+	color = { 0.29 0.81 0.29 }
+
+	name_list = name_list_ck3_andean
+	ethos = ethos_communal
+	heritage = heritage_nativican
+	language = language_ck_quechua
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+
+	traditions = {
+		tradition_nudists
+		tradition_culture_blending
+		tradition_isolationist
+		tradition_medicinal_plants
+	}
+
+	coa_gfx = { burman_group_coa_gfx }
+	building_gfx = { southeast_asian_building_gfx }
+	clothing_gfx = { papuan_clothing_gfx southeast_asian_clothing_gfx }
+	unit_gfx = { southeast_asian_unit_gfx indian_unit_gfx }
+	house_coa_frame = house_frame_26
+	house_coa_mask_offset = { 0.0 0.0 }
+	house_coa_mask_scale = { 0.85 0.85 }
+
+	ethnicities = {
+		100 = papuan
+	}
+}
+
+azerbaijani = { # from turkish
+		
+	color = { 0.29 0.70 0.24 }
+
+	name_list = name_list_turkish
+	ethos = ethos_bellicose
+	heritage = heritage_turkic
+	language = language_turkic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_herd
+	traditions = {
+		tradition_warrior_culture
+		
+		tradition_swords_for_hire
+		tradition_ruling_caste
+	}
+
+	dlc_tradition = {
+		trait = tradition_mpo_iron_cavalry
+		requires_dlc_flag = khans_of_the_steppe
+		fallback = tradition_horse_lords
+	}
+
+	dlc_tradition = {
+		trait = tradition_devoted_horsemanship
+		requires_dlc_flag = khans_of_the_steppe
+		fallback = tradition_horse_lords
+	}
+
+	coa_gfx = { oghuz_coa_gfx turkic_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { turkic_clothing_gfx mongol_clothing_gfx}
+	unit_gfx = { mongol_unit_gfx }
+	house_coa_frame = house_frame_14
+
+	ethnicities = {
+		100 = turkic_west
+	}
+}
+
+belarusian = { # from russian
+	color = { 0.69 0.41 0.20 }
+	
+	name_list = name_list_russian
+	ethos = ethos_communal
+	heritage = heritage_east_slavic
+	language = language_east_slavic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_druzhina
+		tradition_mendicant_mystics
+		tradition_welcoming
+	}
+	
+	coa_gfx = { east_slavic_group_coa_gfx western_coa_gfx }
+	building_gfx = { east_slavic_building_gfx western_building_gfx }
+	clothing_gfx = { east_slavic_clothing_gfx northern_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+	house_coa_frame = house_frame_02
+	house_coa_mask_offset = { 0.0 0.055 }
+	house_coa_mask_scale = { 0.9 0.9 }
+
+	ethnicities = {
+		60 = slavic_northern_blond
+		5 = slavic_northern_ginger
+		25 = slavic_northern_brown_hair
+		10 = slavic_northern_dark_hair
+	}
+}
+
+bemba = { # from east_bantu
+	color = { 0.33 0.28 0.65 }
+
+	name_list = name_list_ck3_bemba
+	ethos = ethos_stoic
+	heritage = heritage_bantu
+	language = language_sabaki
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+
+	traditions = {
+		tradition_religion_blending
+		tradition_hit_and_run
+		tradition_dryland_dwellers
+		tradition_adaptive_skirmishing
+	}
+
+	coa_gfx = { east_african_group_coa_gfx }
+	building_gfx = { african_building_gfx mena_building_gfx }
+	clothing_gfx = { african_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+	house_coa_frame = house_frame_07
+	house_coa_mask_offset = { 0.0 0.0 }
+	house_coa_mask_scale = { 0.9 0.9 }
+
+	ethnicities = {
+		100 = african
+	}
+}
+
+brazilian = { # from portuguese
+	color = { 0.71 0.57 0.63 }
+	created = 1100.1.1
+	parents = { galician }
+
+	name_list = name_list_ck3_brazilian
+	ethos = ethos_bellicose
+	heritage = heritage_iberian
+	language = language_iberian
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_chivalry
+		tradition_fervent_temple_builders
+		tradition_martial_admiration
+	}
+
+	dlc_tradition = {
+		trait = tradition_fp2_ritualised_friendship
+		requires_dlc_flag = the_fate_of_iberia
+	}
+	
+	coa_gfx = { iberian_group_coa_gfx western_coa_gfx }
+	building_gfx = { iberian_building_gfx }
+	clothing_gfx = { iberian_christian_clothing_gfx western_clothing_gfx }
+	unit_gfx = { iberian_christian_unit_gfx }
+	
+	ethnicities = {
+		100 = mediterranean
+	}
+}
+
+cameroonian = { # from sao
+	color = { 0.71 0.74 0.54 }
+	
+	name_list = name_list_ck3_cameroonian
+	ethos = ethos_stoic
+	heritage = heritage_central_african
+	language = language_chadic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_agrarian
+		tradition_dryland_dwellers
+		tradition_parochialism
+		tradition_city_keepers
+	}
+	
+	coa_gfx = { central_african_group_coa_gfx }
+	building_gfx = { african_building_gfx mena_building_gfx }
+	clothing_gfx = { african_clothing_gfx }
+	unit_gfx = { sub_sahran_unit_gfx }
+	house_coa_frame = house_frame_20
+	house_coa_mask_offset = { 0.0 0.025 }
+	house_coa_mask_scale = { 0.95 0.95 }
+
+	ethnicities = {
+		100 = african
+	}
+}
+
+cantonese = { # from han
+	color = { 0.47 0.38 0.43 }
+
+	name_order_convention = dynasty_always_first
+	name_list = name_list_han
+	ethos = ethos_courtly
+	heritage = heritage_chinese
+	language = language_chinese
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+
+	traditions = {
+
+	}
+
+	dlc_tradition = {
+		trait = tradition_scholar_officials
+		requires_dlc_flag = all_under_heaven
+		fallback = tradition_philosopher_culture
+	}
+	dlc_tradition = {
+		trait = tradition_tgp_art_of_war
+		requires_dlc_flag = all_under_heaven
+		fallback = tradition_formation_fighting
+	}
+	dlc_tradition = {
+		trait = tradition_cultural_primacy
+		requires_dlc_flag = all_under_heaven
+	}
+	dlc_tradition = {
+		trait = tradition_tgp_court_machinations
+		requires_dlc_flag = all_under_heaven
+		fallback = tradition_concubines
+	}
+	dlc_tradition = {
+		trait = tradition_cultivation
+		requires_dlc_flag = all_under_heaven
+		fallback = tradition_court_eunuchs
+	}
+	dlc_tradition = {
+		trait = tradition_intensive_farming
+		requires_dlc_flag = all_under_heaven
+		fallback = tradition_agrarian
+	}
+
+	coa_gfx = { chinese_group_coa_gfx }
+	building_gfx = { chinese_building_gfx }
+	clothing_gfx = { chinese_clothing_gfx }
+	unit_gfx = { chinese_unit_gfx }
+	house_coa_frame = house_china
+
+	ethnicities = {
+		100 = asian_han_chinese
+	}
+}
+
+caribeno = { # from castilian
+	color = { 0.48 0.27 0.61 }
+	created = 800.1.1
+	parents = { visigothic }
+
+	name_list = name_list_ck3_hispanic_american
+	ethos = ethos_bellicose
+	heritage = heritage_iberian
+	language = language_iberian
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_martial_admiration
+		tradition_castle_keepers
+		tradition_chivalry
+	}
+
+	dlc_tradition = {
+		trait = tradition_fp2_strategy_gamers
+		requires_dlc_flag = the_fate_of_iberia
+		fallback = tradition_hit_and_run
+	}
+	dlc_tradition = {
+		trait = tradition_fp2_ritualised_friendship
+		requires_dlc_flag = the_fate_of_iberia
+	}
+	
+	coa_gfx = { castilian_coa_gfx iberian_group_coa_gfx western_coa_gfx }
+	building_gfx = { iberian_building_gfx }
+	clothing_gfx = { iberian_christian_clothing_gfx western_clothing_gfx }
+	unit_gfx = { iberian_christian_unit_gfx }
+	
+	ethnicities = {
+		100 = mediterranean
+	}
+}
+
+centroamerican = { # from castilian
+	color = { 0.78 0.38 0.40 }
+	created = 800.1.1
+	parents = { visigothic }
+
+	name_list = name_list_ck3_hispanic_american
+	ethos = ethos_bellicose
+	heritage = heritage_iberian
+	language = language_iberian
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_martial_admiration
+		tradition_castle_keepers
+		tradition_chivalry
+	}
+
+	dlc_tradition = {
+		trait = tradition_fp2_strategy_gamers
+		requires_dlc_flag = the_fate_of_iberia
+		fallback = tradition_hit_and_run
+	}
+	dlc_tradition = {
+		trait = tradition_fp2_ritualised_friendship
+		requires_dlc_flag = the_fate_of_iberia
+	}
+	
+	coa_gfx = { castilian_coa_gfx iberian_group_coa_gfx western_coa_gfx }
+	building_gfx = { iberian_building_gfx }
+	clothing_gfx = { iberian_christian_clothing_gfx western_clothing_gfx }
+	unit_gfx = { iberian_christian_unit_gfx }
+	
+	ethnicities = {
+		100 = mediterranean
+	}
+}
+
+chilean = { # from castilian
+	color = { 0.61 0.21 0.46 }
+	created = 800.1.1
+	parents = { visigothic }
+
+	name_list = name_list_ck3_hispanic_american
+	ethos = ethos_bellicose
+	heritage = heritage_iberian
+	language = language_iberian
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_martial_admiration
+		tradition_castle_keepers
+		tradition_chivalry
+	}
+
+	dlc_tradition = {
+		trait = tradition_fp2_strategy_gamers
+		requires_dlc_flag = the_fate_of_iberia
+		fallback = tradition_hit_and_run
+	}
+	dlc_tradition = {
+		trait = tradition_fp2_ritualised_friendship
+		requires_dlc_flag = the_fate_of_iberia
+	}
+	
+	coa_gfx = { castilian_coa_gfx iberian_group_coa_gfx western_coa_gfx }
+	building_gfx = { iberian_building_gfx }
+	clothing_gfx = { iberian_christian_clothing_gfx western_clothing_gfx }
+	unit_gfx = { iberian_christian_unit_gfx }
+	
+	ethnicities = {
+		100 = mediterranean
+	}
+}
+
+criollo = { # from castilian
+	color = { 0.62 0.30 0.32 }
+	created = 800.1.1
+	parents = { visigothic }
+
+	name_list = name_list_ck3_hispanic_american
+	ethos = ethos_bellicose
+	heritage = heritage_iberian
+	language = language_iberian
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_martial_admiration
+		tradition_castle_keepers
+		tradition_chivalry
+	}
+
+	dlc_tradition = {
+		trait = tradition_fp2_strategy_gamers
+		requires_dlc_flag = the_fate_of_iberia
+		fallback = tradition_hit_and_run
+	}
+	dlc_tradition = {
+		trait = tradition_fp2_ritualised_friendship
+		requires_dlc_flag = the_fate_of_iberia
+	}
+	
+	coa_gfx = { castilian_coa_gfx iberian_group_coa_gfx western_coa_gfx }
+	building_gfx = { iberian_building_gfx }
+	clothing_gfx = { iberian_christian_clothing_gfx western_clothing_gfx }
+	unit_gfx = { iberian_christian_unit_gfx }
+	
+	ethnicities = {
+		100 = mediterranean
+	}
+}
+
+first_nations = { # from nativican
+ 
+	color = { 0.58 0.77 0.48 }
+
+	name_list = name_list_ck3_first_nations
+	ethos = ethos_communal
+	heritage = heritage_nativican
+	language = language_nativican
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+
+	traditions = {
+		tradition_nudists
+		tradition_culture_blending
+		tradition_isolationist
+		tradition_medicinal_plants
+	}
+
+	coa_gfx = { burman_group_coa_gfx }
+	building_gfx = { southeast_asian_building_gfx }
+	clothing_gfx = { papuan_clothing_gfx southeast_asian_clothing_gfx }
+	unit_gfx = { southeast_asian_unit_gfx indian_unit_gfx }
+	house_coa_frame = house_frame_26
+	house_coa_mask_offset = { 0.0 0.0 }
+	house_coa_mask_scale = { 0.85 0.85 }
+
+	ethnicities = {
+		100 = papuan
+	}
+}
+
+gan_hakka = { # from han
+	color = { 0.59 0.60 0.33 }
+
+	name_order_convention = dynasty_always_first
+	name_list = name_list_han
+	ethos = ethos_courtly
+	heritage = heritage_chinese
+	language = language_chinese
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+
+	traditions = {
+
+	}
+
+	dlc_tradition = {
+		trait = tradition_scholar_officials
+		requires_dlc_flag = all_under_heaven
+		fallback = tradition_philosopher_culture
+	}
+	dlc_tradition = {
+		trait = tradition_tgp_art_of_war
+		requires_dlc_flag = all_under_heaven
+		fallback = tradition_formation_fighting
+	}
+	dlc_tradition = {
+		trait = tradition_cultural_primacy
+		requires_dlc_flag = all_under_heaven
+	}
+	dlc_tradition = {
+		trait = tradition_tgp_court_machinations
+		requires_dlc_flag = all_under_heaven
+		fallback = tradition_concubines
+	}
+	dlc_tradition = {
+		trait = tradition_cultivation
+		requires_dlc_flag = all_under_heaven
+		fallback = tradition_court_eunuchs
+	}
+	dlc_tradition = {
+		trait = tradition_intensive_farming
+		requires_dlc_flag = all_under_heaven
+		fallback = tradition_agrarian
+	}
+
+	coa_gfx = { chinese_group_coa_gfx }
+	building_gfx = { chinese_building_gfx }
+	clothing_gfx = { chinese_clothing_gfx }
+	unit_gfx = { chinese_unit_gfx }
+	house_coa_frame = house_china
+
+	ethnicities = {
+		100 = asian_han_chinese
+	}
+}
+
+ganda = { # from east_bantu
+	color = { 0.25 0.41 0.41 }
+
+	name_list = name_list_ck3_ganda
+	ethos = ethos_stoic
+	heritage = heritage_bantu
+	language = language_sabaki
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+
+	traditions = {
+		tradition_religion_blending
+		tradition_hit_and_run
+		tradition_dryland_dwellers
+		tradition_adaptive_skirmishing
+	}
+
+	coa_gfx = { east_african_group_coa_gfx }
+	building_gfx = { african_building_gfx mena_building_gfx }
+	clothing_gfx = { african_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+	house_coa_frame = house_frame_07
+	house_coa_mask_offset = { 0.0 0.0 }
+	house_coa_mask_scale = { 0.9 0.9 }
+
+	ethnicities = {
+		100 = african
+	}
+}
+
+guarani = { # from nativican
+ 
+	color = { 0.55 0.83 0.69 }
+
+	name_list = name_list_ck3_guarani
+	ethos = ethos_communal
+	heritage = heritage_nativican
+	language = language_ck_tupi
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+
+	traditions = {
+		tradition_nudists
+		tradition_culture_blending
+		tradition_isolationist
+		tradition_medicinal_plants
+	}
+
+	coa_gfx = { burman_group_coa_gfx }
+	building_gfx = { southeast_asian_building_gfx }
+	clothing_gfx = { papuan_clothing_gfx southeast_asian_clothing_gfx }
+	unit_gfx = { southeast_asian_unit_gfx indian_unit_gfx }
+	house_coa_frame = house_frame_26
+	house_coa_mask_offset = { 0.0 0.0 }
+	house_coa_mask_scale = { 0.85 0.85 }
+
+	ethnicities = {
+		100 = papuan
+	}
+}
+
+hassaniya = { # from bedouin
+	color = { 0.81 0.68 0.35 }
+	
+	name_list = name_list_bedouin
+	ethos = ethos_stoic
+	heritage = heritage_arabic
+	language = language_arabic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_tribe_unity
+		tradition_desert_nomads
+		tradition_mubarizuns
+		tradition_caravaneers
+		tradition_ep2_avid_falconers
+	}
+	
+	coa_gfx = { arabic_group_coa_gfx } 
+	building_gfx = { arabic_group_building_gfx mena_building_gfx } 
+	clothing_gfx = { dde_abbasid_clothing_gfx mena_clothing_gfx } 
+	unit_gfx = { mena_unit_gfx }
+	house_coa_frame = house_frame_13
+	house_coa_mask_offset = { 0.0 -0.03 }
+	house_coa_mask_scale = { 0.95 0.95 }
+
+	ethnicities = {
+		100 = arab
+	}
+}
+
+kongo = { # from east_bantu
+	color = { 0.23 0.30 0.24 }
+
+	name_list = name_list_ck3_kongo
+	ethos = ethos_stoic
+	heritage = heritage_bantu
+	language = language_sabaki
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+
+	traditions = {
+		tradition_religion_blending
+		tradition_hit_and_run
+		tradition_dryland_dwellers
+		tradition_adaptive_skirmishing
+	}
+
+	coa_gfx = { east_african_group_coa_gfx }
+	building_gfx = { african_building_gfx mena_building_gfx }
+	clothing_gfx = { african_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+	house_coa_frame = house_frame_07
+	house_coa_mask_offset = { 0.0 0.0 }
+	house_coa_mask_scale = { 0.9 0.9 }
+
+	ethnicities = {
+		100 = african
+	}
+}
+
+latino_american = { # from castilian
+	color = { 0.80 0.52 0.40 }
+	created = 800.1.1
+	parents = { visigothic }
+
+	name_list = name_list_ck3_hispanic_american
+	ethos = ethos_bellicose
+	heritage = heritage_iberian
+	language = language_iberian
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_martial_admiration
+		tradition_castle_keepers
+		tradition_chivalry
+	}
+
+	dlc_tradition = {
+		trait = tradition_fp2_strategy_gamers
+		requires_dlc_flag = the_fate_of_iberia
+		fallback = tradition_hit_and_run
+	}
+	dlc_tradition = {
+		trait = tradition_fp2_ritualised_friendship
+		requires_dlc_flag = the_fate_of_iberia
+	}
+	
+	coa_gfx = { castilian_coa_gfx iberian_group_coa_gfx western_coa_gfx }
+	building_gfx = { iberian_building_gfx }
+	clothing_gfx = { iberian_christian_clothing_gfx western_clothing_gfx }
+	unit_gfx = { iberian_christian_unit_gfx }
+	
+	ethnicities = {
+		100 = mediterranean
+	}
+}
+
+liblander_west = { # from liblander
+	color = { 0.77 0.25 0.73 }
+	
+	name_list = name_list_ck_liblander
+	ethos = ethos_egalitarian
+	heritage = heritage_ck_progressive
+	language = language_anglic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = { tradition_equitable tradition_city_keepers tradition_maritime_mercantilism }
+	
+	coa_gfx = { frankish_group_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { french_clothing_gfx western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	house_coa_frame = house_frame_03
+	house_coa_mask_offset = { 0.0 0.055 }
+	house_coa_mask_scale = { 0.9 0.9 }
+	
+	ethnicities = {
+		10 = caucasian_blond
+		5 = caucasian_ginger
+		45 = caucasian_brown_hair
+		35 = caucasian_dark_hair
+	}
+}
+
+luba = { # from east_bantu
+	color = { 0.41 0.35 0.64 }
+
+	name_list = name_list_ck3_luba
+	ethos = ethos_stoic
+	heritage = heritage_bantu
+	language = language_sabaki
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+
+	traditions = {
+		tradition_religion_blending
+		tradition_hit_and_run
+		tradition_dryland_dwellers
+		tradition_adaptive_skirmishing
+	}
+
+	coa_gfx = { east_african_group_coa_gfx }
+	building_gfx = { african_building_gfx mena_building_gfx }
+	clothing_gfx = { african_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+	house_coa_frame = house_frame_07
+	house_coa_mask_offset = { 0.0 0.0 }
+	house_coa_mask_scale = { 0.9 0.9 }
+
+	ethnicities = {
+		100 = african
+	}
+}
+
+malagasy = { # from malay
+	color = { 0.69 0.24 0.77 }
+
+	name_list = name_list_ck3_malagasy
+	ethos = ethos_courtly
+	heritage = heritage_austronesian
+	language = language_austronesian
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_maritime_mercantilism
+		tradition_xenophilic
+		tradition_sorcerous_metallurgy
+	}
+
+	dlc_tradition = {
+		trait = tradition_maritime_way_of_life
+		requires_dlc_flag = all_under_heaven
+		fallback = tradition_seafaring
+	}
+	
+	dlc_tradition = {
+		trait = tradition_tgp_esoteric_power
+		requires_dlc_flag = all_under_heaven
+	}
+
+	coa_gfx = { burman_group_coa_gfx }
+	building_gfx = { southeast_asian_building_gfx }
+	clothing_gfx = { malay_clothing_gfx southeast_asian_clothing_gfx }
+	unit_gfx = { southeast_asian_unit_gfx indian_unit_gfx }
+	house_coa_frame = house_frame_30
+	house_coa_mask_offset = { 0.0 0.0 }
+	house_coa_mask_scale = { 0.9 0.9 }
+
+	ethnicities = {
+		100 = asian_malay
+	}
+}
+
+maritimer = { # from canadian
+	color = { 0.25 0.80 0.69 }
+
+
+	
+	name_list = name_list_ck3_north_american
+	ethos = ethos_communal
+	heritage = heritage_ck_northern
+	language = language_anglic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = { tradition_fishermen tradition_seafaring tradition_hereditary_hierarchy }
+	
+	coa_gfx = { english_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { english_clothing_gfx western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	house_coa_frame = house_frame_24
+	house_coa_mask_offset = { 0.0 0.055 }
+	house_coa_mask_scale = { 0.9 0.9 }
+	
+	ethnicities = {
+		25 = caucasian_blond
+		15 = caucasian_ginger
+		35 = caucasian_brown_hair
+		25 = caucasian_dark_hair
+	}
+}
+
+maya = { # from nativican
+ 
+	color = { 0.65 0.46 0.35 }
+
+	name_list = name_list_ck3_maya
+	ethos = ethos_communal
+	heritage = heritage_nativican
+	language = language_ck_mayan
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+
+	traditions = {
+		tradition_nudists
+		tradition_culture_blending
+		tradition_isolationist
+		tradition_medicinal_plants
+	}
+
+	coa_gfx = { burman_group_coa_gfx }
+	building_gfx = { southeast_asian_building_gfx }
+	clothing_gfx = { papuan_clothing_gfx southeast_asian_clothing_gfx }
+	unit_gfx = { southeast_asian_unit_gfx indian_unit_gfx }
+	house_coa_frame = house_frame_26
+	house_coa_mask_offset = { 0.0 0.0 }
+	house_coa_mask_scale = { 0.85 0.85 }
+
+	ethnicities = {
+		100 = papuan
+	}
+}
+
+mexican = { # from castilian
+	color = { 0.20 0.57 0.76 }
+	created = 800.1.1
+	parents = { visigothic }
+
+	name_list = name_list_ck3_hispanic_american
+	ethos = ethos_bellicose
+	heritage = heritage_iberian
+	language = language_iberian
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_martial_admiration
+		tradition_castle_keepers
+		tradition_chivalry
+	}
+
+	dlc_tradition = {
+		trait = tradition_fp2_strategy_gamers
+		requires_dlc_flag = the_fate_of_iberia
+		fallback = tradition_hit_and_run
+	}
+	dlc_tradition = {
+		trait = tradition_fp2_ritualised_friendship
+		requires_dlc_flag = the_fate_of_iberia
+	}
+	
+	coa_gfx = { castilian_coa_gfx iberian_group_coa_gfx western_coa_gfx }
+	building_gfx = { iberian_building_gfx }
+	clothing_gfx = { iberian_christian_clothing_gfx western_clothing_gfx }
+	unit_gfx = { iberian_christian_unit_gfx }
+	
+	ethnicities = {
+		100 = mediterranean
+	}
+}
+
+midwestern = { # from canadian
+	color = { 0.72 0.77 0.67 }
+
+
+	
+	name_list = name_list_ck3_north_american
+	ethos = ethos_communal
+	heritage = heritage_ck_northern
+	language = language_anglic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = { tradition_agrarian tradition_hard_working tradition_hereditary_hierarchy }
+	
+	coa_gfx = { english_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { english_clothing_gfx western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	house_coa_frame = house_frame_24
+	house_coa_mask_offset = { 0.0 0.055 }
+	house_coa_mask_scale = { 0.9 0.9 }
+	
+	ethnicities = {
+		25 = caucasian_blond
+		15 = caucasian_ginger
+		35 = caucasian_brown_hair
+		25 = caucasian_dark_hair
+	}
+}
+
+min = { # from han
+	color = { 0.74 0.67 0.50 }
+
+	name_order_convention = dynasty_always_first
+	name_list = name_list_han
+	ethos = ethos_courtly
+	heritage = heritage_chinese
+	language = language_chinese
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+
+	traditions = {
+
+	}
+
+	dlc_tradition = {
+		trait = tradition_scholar_officials
+		requires_dlc_flag = all_under_heaven
+		fallback = tradition_philosopher_culture
+	}
+	dlc_tradition = {
+		trait = tradition_tgp_art_of_war
+		requires_dlc_flag = all_under_heaven
+		fallback = tradition_formation_fighting
+	}
+	dlc_tradition = {
+		trait = tradition_cultural_primacy
+		requires_dlc_flag = all_under_heaven
+	}
+	dlc_tradition = {
+		trait = tradition_tgp_court_machinations
+		requires_dlc_flag = all_under_heaven
+		fallback = tradition_concubines
+	}
+	dlc_tradition = {
+		trait = tradition_cultivation
+		requires_dlc_flag = all_under_heaven
+		fallback = tradition_court_eunuchs
+	}
+	dlc_tradition = {
+		trait = tradition_intensive_farming
+		requires_dlc_flag = all_under_heaven
+		fallback = tradition_agrarian
+	}
+
+	coa_gfx = { chinese_group_coa_gfx }
+	building_gfx = { chinese_building_gfx }
+	clothing_gfx = { chinese_clothing_gfx }
+	unit_gfx = { chinese_unit_gfx }
+	house_coa_frame = house_china
+
+	ethnicities = {
+		100 = asian_han_chinese
+	}
+}
+
+moderate = { # from murican
+	color = { 0.52 0.21 0.26 }
+	
+	name_list = name_list_ck3_north_american
+	ethos = ethos_communal
+	heritage = heritage_ck_american
+	language = language_anglic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = { tradition_city_keepers tradition_family_entrepreneurship tradition_hard_working }
+	
+	coa_gfx = { breton_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { breton_clothing_gfx western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	house_coa_frame = house_frame_24
+	house_coa_mask_offset = { 0.0 0.055 }
+	house_coa_mask_scale = { 0.9 0.9 }
+	
+	ethnicities = {
+		5 = caucasian_blond
+		30 = caucasian_ginger
+		35 = caucasian_brown_hair
+		30 = caucasian_dark_hair
+	}
+}
+
+mongo = { # from east_bantu
+	color = { 0.28 0.74 0.43 }
+
+	name_list = name_list_ck3_mongo
+	ethos = ethos_stoic
+	heritage = heritage_bantu
+	language = language_sabaki
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+
+	traditions = {
+		tradition_religion_blending
+		tradition_hit_and_run
+		tradition_dryland_dwellers
+		tradition_adaptive_skirmishing
+	}
+
+	coa_gfx = { east_african_group_coa_gfx }
+	building_gfx = { african_building_gfx mena_building_gfx }
+	clothing_gfx = { african_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+	house_coa_frame = house_frame_07
+	house_coa_mask_offset = { 0.0 0.0 }
+	house_coa_mask_scale = { 0.9 0.9 }
+
+	ethnicities = {
+		100 = african
+	}
+}
+
+montrealer = { # from french
+	color = { 0.50 0.62 0.78 }
+	created = 862.1.1
+	parents = { frankish }
+	
+	name_list = name_list_french
+	ethos = ethos_egalitarian
+	heritage = heritage_ck_progressive
+	language = language_french
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = { tradition_equitable tradition_republican_legacy tradition_culinary_art }
+	
+	coa_gfx = { french_coa_gfx frankish_group_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { french_clothing_gfx western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	house_coa_frame = house_frame_03
+	house_coa_mask_offset = { 0.0 0.055 }
+	house_coa_mask_scale = { 0.9 0.9 }
+	
+	ethnicities = {
+		10 = caucasian_blond
+		5 = caucasian_ginger
+		45 = caucasian_brown_hair
+		35 = caucasian_dark_hair
+	}	
+}
+
+nguni = { # from east_bantu
+	color = { 0.75 0.42 0.22 }
+
+	name_list = name_list_ck3_nguni
+	ethos = ethos_stoic
+	heritage = heritage_bantu
+	language = language_sabaki
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+
+	traditions = {
+		tradition_religion_blending
+		tradition_hit_and_run
+		tradition_dryland_dwellers
+		tradition_adaptive_skirmishing
+	}
+
+	coa_gfx = { east_african_group_coa_gfx }
+	building_gfx = { african_building_gfx mena_building_gfx }
+	clothing_gfx = { african_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+	house_coa_frame = house_frame_07
+	house_coa_mask_offset = { 0.0 0.0 }
+	house_coa_mask_scale = { 0.9 0.9 }
+
+	ethnicities = {
+		100 = african
+	}
+}
+
+nilotic = { # from nubian
+	color = { 0.79 0.42 0.27 }
+	
+	name_list = name_list_ck3_nilotic
+	ethos = ethos_spiritual
+	heritage = heritage_east_african
+	language = language_sudanic
+	martial_custom = martial_custom_equal
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_astute_diplomats
+		tradition_xenophilic
+		tradition_land_of_the_bow
+		tradition_agrarian
+		tradition_nubian_warrior_queens
+	}
+	
+	coa_gfx = { east_african_coa_gfx }
+	building_gfx = { african_building_gfx mena_building_gfx }
+	clothing_gfx = { mena_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+	house_coa_frame = house_frame_19
+	house_coa_mask_offset = { 0.0 0.025 }
+	house_coa_mask_scale = { 0.95 0.95 }
+
+	ethnicities = {
+		77 = east_african
+		23 = arab
+	}
+}
+
+north_korean = { # from korean
+	color = { 0.46 0.49 0.77 }
+
+
+
+	name_order_convention = dynasty_always_first
+	name_list = name_list_korean
+	ethos = ethos_courtly
+	heritage = heritage_korean
+	language = language_korean
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+
+	traditions = {
+		tradition_court_eunuchs
+	}
+
+	dlc_tradition = {
+		trait = tradition_scholar_officials
+		requires_dlc_flag = all_under_heaven
+		fallback = tradition_philosopher_culture
+	}
+	
+	dlc_tradition = {
+		trait = tradition_cultural_primacy
+		requires_dlc_flag = all_under_heaven
+		fallback = tradition_isolationist
+	}
+	
+	dlc_tradition = {
+		trait = tradition_stratified_society
+		requires_dlc_flag = all_under_heaven
+	}
+	
+	dlc_tradition = {
+		trait = tradition_sinophilic
+		requires_dlc_flag = all_under_heaven
+	}
+	
+	dlc_tradition = {
+		trait = tradition_fortress_mastery
+		requires_dlc_flag = all_under_heaven
+		fallback = tradition_castle_keepers
+	}
+
+	coa_gfx = { chinese_group_coa_gfx }
+	building_gfx = { chinese_building_gfx }
+	clothing_gfx = { korean_clothing_gfx chinese_clothing_gfx }
+	unit_gfx = { chinese_unit_gfx }
+	house_coa_frame = house_frame_09
+
+	ethnicities = {
+		100 = asian_manchu_korean
+	}
+}
+
+oromo = { # from welayta
+ 
+	color = { 0.71 0.70 0.60 }
+	
+	name_list = name_list_ck3_oromo
+	ethos = ethos_stoic
+	heritage = heritage_east_african
+	language = language_cushitic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_festivities
+		tradition_horn_mountain_skirmishing
+	}
+	
+	coa_gfx = { east_african_coa_gfx }
+	building_gfx = { african_building_gfx mena_building_gfx }
+	clothing_gfx = { mena_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+	house_coa_frame = house_frame_19
+	house_coa_mask_offset = { 0.0 0.025 }
+	house_coa_mask_scale = { 0.95 0.95 }
+
+	ethnicities = {
+		91 = east_african
+		9 = african
+	}
+}
+
+ovambo = { # from east_bantu
+	color = { 0.28 0.34 0.74 }
+
+	name_list = name_list_ck3_ovambo
+	ethos = ethos_stoic
+	heritage = heritage_bantu
+	language = language_sabaki
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+
+	traditions = {
+		tradition_religion_blending
+		tradition_hit_and_run
+		tradition_dryland_dwellers
+		tradition_adaptive_skirmishing
+	}
+
+	coa_gfx = { east_african_group_coa_gfx }
+	building_gfx = { african_building_gfx mena_building_gfx }
+	clothing_gfx = { african_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+	house_coa_frame = house_frame_07
+	house_coa_mask_offset = { 0.0 0.0 }
+	house_coa_mask_scale = { 0.9 0.9 }
+
+	ethnicities = {
+		100 = african
+	}
+}
+
+ovimbundu = { # from east_bantu
+	color = { 0.28 0.63 0.32 }
+
+	name_list = name_list_ck3_ovimbundu
+	ethos = ethos_stoic
+	heritage = heritage_bantu
+	language = language_sabaki
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+
+	traditions = {
+		tradition_religion_blending
+		tradition_hit_and_run
+		tradition_dryland_dwellers
+		tradition_adaptive_skirmishing
+	}
+
+	coa_gfx = { east_african_group_coa_gfx }
+	building_gfx = { african_building_gfx mena_building_gfx }
+	clothing_gfx = { african_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+	house_coa_frame = house_frame_07
+	house_coa_mask_offset = { 0.0 0.0 }
+	house_coa_mask_scale = { 0.9 0.9 }
+
+	ethnicities = {
+		100 = african
+	}
+}
+
+prairie = { # from canadian
+	color = { 0.79 0.64 0.25 }
+
+
+	
+	name_list = name_list_ck3_north_american
+	ethos = ethos_stoic
+	heritage = heritage_ck_northern
+	language = language_anglic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = { tradition_agrarian tradition_horse_breeder tradition_hereditary_hierarchy }
+	
+	coa_gfx = { english_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { english_clothing_gfx western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	house_coa_frame = house_frame_24
+	house_coa_mask_offset = { 0.0 0.055 }
+	house_coa_mask_scale = { 0.9 0.9 }
+	
+	ethnicities = {
+		25 = caucasian_blond
+		15 = caucasian_ginger
+		35 = caucasian_brown_hair
+		25 = caucasian_dark_hair
+	}
+}
+
+progressive = { # from liblander
+	color = { 0.55 0.75 0.41 }
+	
+	name_list = name_list_ck_liblander
+	ethos = ethos_egalitarian
+	heritage = heritage_ck_progressive
+	language = language_anglic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = { tradition_equitable tradition_republican_legacy tradition_philosopher_culture }
+	
+	coa_gfx = { frankish_group_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { french_clothing_gfx western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	house_coa_frame = house_frame_03
+	house_coa_mask_offset = { 0.0 0.055 }
+	house_coa_mask_scale = { 0.9 0.9 }
+	
+	ethnicities = {
+		10 = caucasian_blond
+		5 = caucasian_ginger
+		45 = caucasian_brown_hair
+		35 = caucasian_dark_hair
+	}
+}
+
+quebecois = { # from french
+	color = { 0.54 0.35 0.61 }
+	created = 862.1.1
+	parents = { frankish }
+	
+	name_list = name_list_french
+	ethos = ethos_courtly
+	heritage = heritage_frankish
+	language = language_french
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_chanson_de_geste
+		tradition_hereditary_hierarchy
+		tradition_chivalry
+	}
+	
+	coa_gfx = { french_coa_gfx frankish_group_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { french_clothing_gfx western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	house_coa_frame = house_frame_03
+	house_coa_mask_offset = { 0.0 0.055 }
+	house_coa_mask_scale = { 0.9 0.9 }
+	
+	ethnicities = {
+		10 = caucasian_blond
+		5 = caucasian_ginger
+		45 = caucasian_brown_hair
+		35 = caucasian_dark_hair
+	}	
+}
+
+rioplatense = { # from castilian
+	color = { 0.46 0.53 0.50 }
+	created = 800.1.1
+	parents = { visigothic }
+
+	name_list = name_list_ck3_hispanic_american
+	ethos = ethos_bellicose
+	heritage = heritage_iberian
+	language = language_iberian
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_martial_admiration
+		tradition_castle_keepers
+		tradition_chivalry
+	}
+
+	dlc_tradition = {
+		trait = tradition_fp2_strategy_gamers
+		requires_dlc_flag = the_fate_of_iberia
+		fallback = tradition_hit_and_run
+	}
+	dlc_tradition = {
+		trait = tradition_fp2_ritualised_friendship
+		requires_dlc_flag = the_fate_of_iberia
+	}
+	
+	coa_gfx = { castilian_coa_gfx iberian_group_coa_gfx western_coa_gfx }
+	building_gfx = { iberian_building_gfx }
+	clothing_gfx = { iberian_christian_clothing_gfx western_clothing_gfx }
+	unit_gfx = { iberian_christian_unit_gfx }
+	
+	ethnicities = {
+		100 = mediterranean
+	}
+}
+
+rwandan = { # from east_bantu
+	color = { 0.41 0.78 0.73 }
+
+	name_list = name_list_ck3_rwandan
+	ethos = ethos_stoic
+	heritage = heritage_bantu
+	language = language_sabaki
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+
+	traditions = {
+		tradition_religion_blending
+		tradition_hit_and_run
+		tradition_dryland_dwellers
+		tradition_adaptive_skirmishing
+	}
+
+	coa_gfx = { east_african_group_coa_gfx }
+	building_gfx = { african_building_gfx mena_building_gfx }
+	clothing_gfx = { african_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+	house_coa_frame = house_frame_07
+	house_coa_mask_offset = { 0.0 0.0 }
+	house_coa_mask_scale = { 0.9 0.9 }
+
+	ethnicities = {
+		100 = african
+	}
+}
+
+sakha = { # from kimek
+	color = { 0.28 0.79 0.34 }
+
+	name_list = name_list_kimek
+	ethos = ethos_stoic
+	heritage = heritage_turkic
+	language = language_turkic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_herd
+	traditions = {
+		
+		tradition_hunters
+		tradition_pastoralists
+		tradition_stalwart_defenders
+	}
+
+	dlc_tradition = {
+		trait = tradition_devoted_horsemanship
+		requires_dlc_flag = khans_of_the_steppe
+		fallback = tradition_horse_lords
+	}
+
+	coa_gfx = { turkic_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { turkic_clothing_gfx mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+	house_coa_frame = house_frame_14
+
+	ethnicities = {
+		100 = turkic
+	}
+}
+
+shona = { # from east_bantu
+	color = { 0.48 0.40 0.35 }
+
+	name_list = name_list_ck3_shona
+	ethos = ethos_stoic
+	heritage = heritage_bantu
+	language = language_sabaki
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+
+	traditions = {
+		tradition_religion_blending
+		tradition_hit_and_run
+		tradition_dryland_dwellers
+		tradition_adaptive_skirmishing
+	}
+
+	coa_gfx = { east_african_group_coa_gfx }
+	building_gfx = { african_building_gfx mena_building_gfx }
+	clothing_gfx = { african_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+	house_coa_frame = house_frame_07
+	house_coa_mask_offset = { 0.0 0.0 }
+	house_coa_mask_scale = { 0.9 0.9 }
+
+	ethnicities = {
+		100 = african
+	}
+}
+
+sichuanese = { # from han
+	color = { 0.74 0.38 0.52 }
+
+	name_order_convention = dynasty_always_first
+	name_list = name_list_han
+	ethos = ethos_courtly
+	heritage = heritage_chinese
+	language = language_chinese
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+
+	traditions = {
+
+	}
+
+	dlc_tradition = {
+		trait = tradition_scholar_officials
+		requires_dlc_flag = all_under_heaven
+		fallback = tradition_philosopher_culture
+	}
+	dlc_tradition = {
+		trait = tradition_tgp_art_of_war
+		requires_dlc_flag = all_under_heaven
+		fallback = tradition_formation_fighting
+	}
+	dlc_tradition = {
+		trait = tradition_cultural_primacy
+		requires_dlc_flag = all_under_heaven
+	}
+	dlc_tradition = {
+		trait = tradition_tgp_court_machinations
+		requires_dlc_flag = all_under_heaven
+		fallback = tradition_concubines
+	}
+	dlc_tradition = {
+		trait = tradition_cultivation
+		requires_dlc_flag = all_under_heaven
+		fallback = tradition_court_eunuchs
+	}
+	dlc_tradition = {
+		trait = tradition_intensive_farming
+		requires_dlc_flag = all_under_heaven
+		fallback = tradition_agrarian
+	}
+
+	coa_gfx = { chinese_group_coa_gfx }
+	building_gfx = { chinese_building_gfx }
+	clothing_gfx = { chinese_clothing_gfx }
+	unit_gfx = { chinese_unit_gfx }
+	house_coa_frame = house_china
+
+	ethnicities = {
+		100 = asian_han_chinese
+	}
+}
+
+sotho_tswana = { # from east_bantu
+	color = { 0.82 0.30 0.47 }
+
+	name_list = name_list_ck3_sotho_tswana
+	ethos = ethos_stoic
+	heritage = heritage_bantu
+	language = language_sabaki
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+
+	traditions = {
+		tradition_religion_blending
+		tradition_hit_and_run
+		tradition_dryland_dwellers
+		tradition_adaptive_skirmishing
+	}
+
+	coa_gfx = { east_african_group_coa_gfx }
+	building_gfx = { african_building_gfx mena_building_gfx }
+	clothing_gfx = { african_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+	house_coa_frame = house_frame_07
+	house_coa_mask_offset = { 0.0 0.0 }
+	house_coa_mask_scale = { 0.9 0.9 }
+
+	ethnicities = {
+		100 = african
+	}
+}
+
+torontonian = { # from canadian
+	color = { 0.28 0.76 0.61 }
+
+
+	
+	name_list = name_list_ck3_north_american
+	ethos = ethos_bureaucratic
+	heritage = heritage_ck_progressive
+	language = language_anglic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = { tradition_equitable tradition_republican_legacy tradition_hereditary_hierarchy }
+	
+	coa_gfx = { english_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { english_clothing_gfx western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	house_coa_frame = house_frame_24
+	house_coa_mask_offset = { 0.0 0.055 }
+	house_coa_mask_scale = { 0.9 0.9 }
+	
+	ethnicities = {
+		25 = caucasian_blond
+		15 = caucasian_ginger
+		35 = caucasian_brown_hair
+		25 = caucasian_dark_hair
+	}
+}
+
+tsonga = { # from east_bantu
+	color = { 0.42 0.39 0.38 }
+
+	name_list = name_list_ck3_tsonga
+	ethos = ethos_stoic
+	heritage = heritage_bantu
+	language = language_sabaki
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+
+	traditions = {
+		tradition_religion_blending
+		tradition_hit_and_run
+		tradition_dryland_dwellers
+		tradition_adaptive_skirmishing
+	}
+
+	coa_gfx = { east_african_group_coa_gfx }
+	building_gfx = { african_building_gfx mena_building_gfx }
+	clothing_gfx = { african_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+	house_coa_frame = house_frame_07
+	house_coa_mask_offset = { 0.0 0.0 }
+	house_coa_mask_scale = { 0.9 0.9 }
+
+	ethnicities = {
+		100 = african
+	}
+}
+
+tuareg = { # from baranis
+ 
+	color = { 0.28 0.26 0.47 }
+	
+	name_list = name_list_baranis
+	ethos = ethos_spiritual
+	heritage = heritage_berber
+	language = language_berber
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_herd
+	traditions = {
+		tradition_african_tolerance
+		tradition_family_entrepreneurship
+		tradition_mountain_herding
+	}
+	
+	coa_gfx = { berber_group_coa_gfx }
+	building_gfx = { berber_group_building_gfx mena_building_gfx }
+	clothing_gfx = { afr_berber_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+	house_coa_frame = house_frame_06
+	house_coa_mask_offset = { 0.0 0.0 }
+	house_coa_mask_scale = { 0.85 0.85 }
+
+	ethnicities = {
+		90 = arab
+		10 = african
+	}
+}
+
+ubangian = { # from sao
+	color = { 0.80 0.71 0.24 }
+	
+	name_list = name_list_ck3_ubangian
+	ethos = ethos_stoic
+	heritage = heritage_central_african
+	language = language_chadic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_agrarian
+		tradition_dryland_dwellers
+		tradition_parochialism
+		tradition_city_keepers
+	}
+	
+	coa_gfx = { central_african_group_coa_gfx }
+	building_gfx = { african_building_gfx mena_building_gfx }
+	clothing_gfx = { african_clothing_gfx }
+	unit_gfx = { sub_sahran_unit_gfx }
+	house_coa_frame = house_frame_20
+	house_coa_mask_offset = { 0.0 0.025 }
+	house_coa_mask_scale = { 0.95 0.95 }
+
+	ethnicities = {
+		100 = african
+	}
+}
+
+ukrainian = { # from volhynian
+	color = { 0.81 0.76 0.75 }
+	
+	name_list = name_list_volhynian
+	ethos = ethos_courtly
+	heritage = heritage_east_slavic
+	language = language_east_slavic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_astute_diplomats
+		tradition_agrarian
+		tradition_city_keepers
+		tradition_druzhina
+	}
+	
+	coa_gfx = { east_slavic_group_coa_gfx western_coa_gfx }
+	building_gfx = { east_slavic_building_gfx western_building_gfx }
+	clothing_gfx = { east_slavic_clothing_gfx northern_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+	house_coa_frame = house_frame_05
+
+	ethnicities = {
+		60 = slavic_northern_blond
+		5 = slavic_northern_ginger
+		25 = slavic_northern_brown_hair
+		10 = slavic_northern_dark_hair
+	}
+}
+
+uzbek = { # from karluk
+	color = { 0.69 0.37 0.78 }
+
+	name_list = name_list_karluk
+	ethos = ethos_communal
+	heritage = heritage_turkic
+	language = language_turkic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_herd
+	traditions = {
+		
+		
+		tradition_horse_breeder
+		tradition_sacred_mountains
+		tradition_dryland_dwellers
+		tradition_mountain_homes
+	}
+
+	
+	
+	
+	
+
+	coa_gfx = { turkic_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { turkic_clothing_gfx mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+	house_coa_frame = house_frame_14
+
+	ethnicities = {
+		100 = turkic
+	}
+}
+
+wu = { # from han
+	color = { 0.73 0.71 0.49 }
+
+	name_order_convention = dynasty_always_first
+	name_list = name_list_han
+	ethos = ethos_courtly
+	heritage = heritage_chinese
+	language = language_chinese
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+
+	traditions = {
+
+	}
+
+	dlc_tradition = {
+		trait = tradition_scholar_officials
+		requires_dlc_flag = all_under_heaven
+		fallback = tradition_philosopher_culture
+	}
+	dlc_tradition = {
+		trait = tradition_tgp_art_of_war
+		requires_dlc_flag = all_under_heaven
+		fallback = tradition_formation_fighting
+	}
+	dlc_tradition = {
+		trait = tradition_cultural_primacy
+		requires_dlc_flag = all_under_heaven
+	}
+	dlc_tradition = {
+		trait = tradition_tgp_court_machinations
+		requires_dlc_flag = all_under_heaven
+		fallback = tradition_concubines
+	}
+	dlc_tradition = {
+		trait = tradition_cultivation
+		requires_dlc_flag = all_under_heaven
+		fallback = tradition_court_eunuchs
+	}
+	dlc_tradition = {
+		trait = tradition_intensive_farming
+		requires_dlc_flag = all_under_heaven
+		fallback = tradition_agrarian
+	}
+
+	coa_gfx = { chinese_group_coa_gfx }
+	building_gfx = { chinese_building_gfx }
+	clothing_gfx = { chinese_clothing_gfx }
+	unit_gfx = { chinese_unit_gfx }
+	house_coa_frame = house_china
+
+	ethnicities = {
+		100 = asian_han_chinese
+	}
+}
+
+xiang = { # from han
+	color = { 0.80 0.65 0.22 }
+
+	name_order_convention = dynasty_always_first
+	name_list = name_list_han
+	ethos = ethos_courtly
+	heritage = heritage_chinese
+	language = language_chinese
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+
+	traditions = {
+
+	}
+
+	dlc_tradition = {
+		trait = tradition_scholar_officials
+		requires_dlc_flag = all_under_heaven
+		fallback = tradition_philosopher_culture
+	}
+	dlc_tradition = {
+		trait = tradition_tgp_art_of_war
+		requires_dlc_flag = all_under_heaven
+		fallback = tradition_formation_fighting
+	}
+	dlc_tradition = {
+		trait = tradition_cultural_primacy
+		requires_dlc_flag = all_under_heaven
+	}
+	dlc_tradition = {
+		trait = tradition_tgp_court_machinations
+		requires_dlc_flag = all_under_heaven
+		fallback = tradition_concubines
+	}
+	dlc_tradition = {
+		trait = tradition_cultivation
+		requires_dlc_flag = all_under_heaven
+		fallback = tradition_court_eunuchs
+	}
+	dlc_tradition = {
+		trait = tradition_intensive_farming
+		requires_dlc_flag = all_under_heaven
+		fallback = tradition_agrarian
+	}
+
+	coa_gfx = { chinese_group_coa_gfx }
+	building_gfx = { chinese_building_gfx }
+	clothing_gfx = { chinese_clothing_gfx }
+	unit_gfx = { chinese_unit_gfx }
+	house_coa_frame = house_china
+
+	ethnicities = {
+		100 = asian_han_chinese
+	}
+}
+
+# e23_culture_split.py (2026-11-11): regional splits of oversized Earth cultures
+
+sibiryak = { # from russian
+
+	color = { 0.51 0.54 0.65 }
+	
+	ethos = ethos_stoic
+	heritage = heritage_east_slavic
+	language = language_east_slavic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = { tradition_winter_warriors tradition_forest_folk tradition_hunters }
+	
+	name_list = name_list_russian
+
+	coa_gfx = { east_slavic_group_coa_gfx western_coa_gfx }
+	building_gfx = { east_slavic_building_gfx western_building_gfx }
+	clothing_gfx = { east_slavic_clothing_gfx northern_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+	house_coa_frame = house_frame_02
+	house_coa_mask_offset = { 0.0 0.055 }
+	house_coa_mask_scale = { 0.9 0.9 }
+
+	ethnicities = {
+		60 = slavic_northern_blond
+		5 = slavic_northern_ginger
+		25 = slavic_northern_brown_hair
+		10 = slavic_northern_dark_hair
+	}
+}
+
+far_eastern = { # from russian
+
+	color = { 0.75 0.56 0.58 }
+	
+	ethos = ethos_stoic
+	heritage = heritage_east_slavic
+	language = language_east_slavic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = { tradition_winter_warriors tradition_seafaring tradition_hard_working }
+	
+	name_list = name_list_russian
+
+	coa_gfx = { east_slavic_group_coa_gfx western_coa_gfx }
+	building_gfx = { east_slavic_building_gfx western_building_gfx }
+	clothing_gfx = { east_slavic_clothing_gfx northern_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+	house_coa_frame = house_frame_02
+	house_coa_mask_offset = { 0.0 0.055 }
+	house_coa_mask_scale = { 0.9 0.9 }
+
+	ethnicities = {
+		60 = slavic_northern_blond
+		5 = slavic_northern_ginger
+		25 = slavic_northern_brown_hair
+		10 = slavic_northern_dark_hair
+	}
+}
+
+outback = { # from aussie
+	color = { 0.49 0.61 0.28 }
+
+
+	
+	ethos = ethos_stoic
+	heritage = heritage_west_germanic
+	language = language_anglic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = { tradition_dryland_dwellers tradition_hard_working tradition_stalwart_defenders }
+	
+	name_list = name_list_ck_aussie
+
+	coa_gfx = { german_group_coa_gfx western_coa_gfx } 
+	building_gfx = { western_building_gfx } 
+	clothing_gfx = { dde_hre_clothing_gfx western_clothing_gfx } 
+	unit_gfx = { western_unit_gfx } 	
+	house_coa_frame = house_frame_25
+	house_coa_mask_offset = { 0.0 0.025 }
+	house_coa_mask_scale = { 0.95 0.95 }
+
+	ethnicities = {
+		25 = caucasian_blond
+		15 = caucasian_ginger
+		35 = caucasian_brown_hair
+		25 = caucasian_dark_hair
+	}
+}
+
+kiwi = { # from aussie
+	color = { 0.76 0.42 0.38 }
+
+
+	
+	ethos = ethos_egalitarian
+	heritage = heritage_west_germanic
+	language = language_anglic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = { tradition_seafaring tradition_hill_dwellers tradition_equitable }
+	
+	name_list = name_list_ck_aussie
+
+	coa_gfx = { german_group_coa_gfx western_coa_gfx } 
+	building_gfx = { western_building_gfx } 
+	clothing_gfx = { dde_hre_clothing_gfx western_clothing_gfx } 
+	unit_gfx = { western_unit_gfx } 	
+	house_coa_frame = house_frame_25
+	house_coa_mask_offset = { 0.0 0.025 }
+	house_coa_mask_scale = { 0.95 0.95 }
+
+	ethnicities = {
+		25 = caucasian_blond
+		15 = caucasian_ginger
+		35 = caucasian_brown_hair
+		25 = caucasian_dark_hair
+	}
+}
+
+gaucho = { # from brazilian
+ # from portuguese
+	color = { 0.69 0.48 0.69 }
+	created = 1100.1.1
+	parents = { galician }
+
+	name_list = name_list_ck3_brazilian
+	ethos = ethos_bellicose
+	heritage = heritage_iberian
+	language = language_iberian
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = { tradition_horse_breeder tradition_pastoralists tradition_stalwart_defenders }
+
+	coa_gfx = { iberian_group_coa_gfx western_coa_gfx }
+	building_gfx = { iberian_building_gfx }
+	clothing_gfx = { iberian_christian_clothing_gfx western_clothing_gfx }
+	unit_gfx = { iberian_christian_unit_gfx }
+	
+	ethnicities = {
+		100 = mediterranean
+	}
+}
+
+nordestino = { # from brazilian
+ # from portuguese
+	color = { 0.75 0.26 0.71 }
+	created = 1100.1.1
+	parents = { galician }
+
+	name_list = name_list_ck3_brazilian
+	ethos = ethos_communal
+	heritage = heritage_iberian
+	language = language_iberian
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = { tradition_dryland_dwellers tradition_festivities tradition_hard_working }
+
+	coa_gfx = { iberian_group_coa_gfx western_coa_gfx }
+	building_gfx = { iberian_building_gfx }
+	clothing_gfx = { iberian_christian_clothing_gfx western_clothing_gfx }
+	unit_gfx = { iberian_christian_unit_gfx }
+	
+	ethnicities = {
+		100 = mediterranean
+	}
+}
+
+moroccan = { # from maghrebi
+
+	color = { 0.61 0.30 0.36 }
+	created = 600.1.1
+	parents = { bedouin baranis }
+	
+	ethos = ethos_spiritual
+	heritage = heritage_arabic
+	language = language_arabic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_ce1_ritual_washing
+		tradition_african_tolerance
+		tradition_mubarizuns #Replaced tradition_hit_and_run
+		tradition_dryland_dwellers
+		tradition_fishermen
+	}
+	
+	name_list = name_list_maghrebi
+
+	coa_gfx = { arabic_group_coa_gfx } 
+	building_gfx = { arabic_group_building_gfx mena_building_gfx } 
+	clothing_gfx = { afr_berber_clothing_gfx mena_clothing_gfx } 
+	unit_gfx = { mena_unit_gfx } 	
+	house_coa_frame = house_frame_10
+	house_coa_mask_offset = { 0.0 -0.06 }
+	house_coa_mask_scale = { 0.9 0.9 }
+
+	ethnicities = {
+		91 = arab
+		9 = african
+	}
+}
+
+libyan = { # from maghrebi
+
+	color = { 0.77 0.36 0.30 }
+	created = 600.1.1
+	parents = { bedouin baranis }
+	
+	ethos = ethos_spiritual
+	heritage = heritage_arabic
+	language = language_arabic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_ce1_ritual_washing
+		tradition_african_tolerance
+		tradition_mubarizuns #Replaced tradition_hit_and_run
+		tradition_dryland_dwellers
+		tradition_fishermen
+	}
+	
+	name_list = name_list_maghrebi
+
+	coa_gfx = { arabic_group_coa_gfx } 
+	building_gfx = { arabic_group_building_gfx mena_building_gfx } 
+	clothing_gfx = { afr_berber_clothing_gfx mena_clothing_gfx } 
+	unit_gfx = { mena_unit_gfx } 	
+	house_coa_frame = house_frame_10
+	house_coa_mask_offset = { 0.0 -0.06 }
+	house_coa_mask_scale = { 0.9 0.9 }
+
+	ethnicities = {
+		91 = arab
+		9 = african
+	}
+}

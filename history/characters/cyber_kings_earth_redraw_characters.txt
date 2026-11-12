@@ -1,0 +1,2889 @@
+﻿# Earth redraw v2 (2026-11-11): rulers of the new Earth counties (e11_characters.py)
+8100000 = {
+	name = "Lope"
+	dynasty = 8100000
+	culture = brazilian
+	rite = roman_rite
+	1032.12.22 = { birth = yes }
+}
+8100001 = {
+	name = "Cuitlahuac"
+	dynasty = 8100001
+	culture = nativican
+	rite = roman_rite
+	1026.4.24 = { birth = yes }
+}
+8100002 = {
+	name = "Vendakadri"
+	dynasty = 8100002
+	culture = malay
+	rite = shafii
+	1027.4.28 = { birth = yes }
+}
+8100003 = {
+	name = "Tlacaeleltzin"
+	dynasty = 8100003
+	culture = amazonian
+	rite = protestant_rite
+	1020.1.15 = { birth = yes }
+}
+8100004 = {
+	name = "Shadia"
+	female = yes
+	dynasty = 8100004
+	culture = afar
+	rite = reaverism_rite
+	1025.4.14 = { birth = yes }
+}
+8100005 = {
+	name = "Sukhinpal"
+	dynasty = 8100005
+	culture = hindustani
+	rite = vaishnavism
+	1040.1.18 = { birth = yes }
+}
+8100006 = {
+	name = "SimO_n"
+	dynasty = 8100006
+	culture = mexican
+	rite = roman_rite
+	1031.4.16 = { birth = yes }
+}
+8100007 = {
+	name = "Zeyd"
+	dynasty = 8100007
+	culture = bedouin
+	rite = imami
+	1022.2.7 = { birth = yes }
+}
+8100008 = {
+	name = "Theophilos"
+	dynasty = 8100008
+	culture = albanian
+	rite = byzantine_rite
+	1042.12.17 = { birth = yes }
+}
+8100009 = {
+	name = "Kanemi"
+	dynasty = 8100009
+	culture = ethiopian
+	rite = ethiopian_rite
+	1020.7.19 = { birth = yes }
+}
+8100010 = {
+	name = "Tejpal"
+	dynasty = 8100010
+	culture = marathi
+	rite = vaishnavism
+	1020.7.8 = { birth = yes }
+}
+8100011 = {
+	name = "Peronella"
+	female = yes
+	dynasty = 8100011
+	culture = catalan
+	rite = roman_rite
+	1028.6.6 = { birth = yes }
+}
+8100012 = {
+	name = "Bing_79C9"
+	dynasty = 8100012
+	culture = han
+	rite = dhyana
+	1039.7.4 = { birth = yes }
+}
+8100013 = {
+	name = "SimO_n"
+	dynasty = 8100013
+	culture = criollo
+	rite = protestant_rite
+	1039.5.10 = { birth = yes }
+}
+8100014 = {
+	name = "Miztli"
+	dynasty = 8100014
+	culture = afro_brazilian
+	rite = roman_rite
+	1040.4.14 = { birth = yes }
+}
+8100015 = {
+	name = "Parween"
+	female = yes
+	dynasty = 8100015
+	culture = armenian
+	rite = imami
+	1041.7.8 = { birth = yes }
+}
+8100016 = {
+	name = "Abbas"
+	dynasty = 8100016
+	culture = east_bantu
+	rite = protestant_rite
+	1032.6.14 = { birth = yes }
+}
+8100017 = {
+	name = "Sajida"
+	female = yes
+	dynasty = 8100017
+	culture = bedouin
+	rite = maliki
+	1031.4.14 = { birth = yes }
+}
+8100018 = {
+	name = "Azam"
+	dynasty = 8100018
+	culture = egyptian
+	rite = maliki
+	1037.9.2 = { birth = yes }
+}
+8100019 = {
+	name = "GuillE_n"
+	dynasty = 8100019
+	culture = guarani
+	rite = roman_rite
+	1043.8.6 = { birth = yes }
+}
+8100020 = {
+	name = "Varshapala"
+	dynasty = 8100020
+	culture = marathi
+	rite = vaishnavism
+	1042.10.22 = { birth = yes }
+}
+8100021 = {
+	name = "Zacharias"
+	dynasty = 8100021
+	culture = bavarian
+	rite = byzantine_rite
+	1029.4.7 = { birth = yes }
+}
+8100022 = {
+	name = "Abdullah"
+	dynasty = 8100022
+	culture = levantine
+	rite = imami
+	1019.6.13 = { birth = yes }
+}
+8100023 = {
+	name = "Govindapala"
+	dynasty = 8100023
+	culture = punjabi
+	rite = maliki
+	1030.2.3 = { birth = yes }
+}
+8100024 = {
+	name = "Zhongxin_5FE0_4FE1"
+	dynasty = 8100024
+	culture = bouxcuengh
+	rite = dhyana
+	1031.7.9 = { birth = yes }
+}
+8100025 = {
+	name = "Xipil"
+	dynasty = 8100025
+	culture = afro_brazilian
+	rite = roman_rite
+	1025.1.22 = { birth = yes }
+}
+8100026 = {
+	name = "Arku"
+	dynasty = 8100026
+	culture = cameroonian
+	rite = protestant_rite
+	1018.9.13 = { birth = yes }
+}
+8100027 = {
+	name = "Jian_744A"
+	dynasty = 8100027
+	culture = han
+	rite = dhyana
+	1019.10.23 = { birth = yes }
+}
+8100028 = {
+	name = "Xizhe_5E0C_54F2"
+	dynasty = 8100028
+	culture = han
+	rite = dhyana
+	1039.12.15 = { birth = yes }
+}
+8100029 = {
+	name = "Xuanxiao_7384_9704"
+	female = yes
+	dynasty = 8100029
+	culture = mongol
+	rite = lamaism
+	1038.11.5 = { birth = yes }
+}
+8100030 = {
+	name = "Munio"
+	dynasty = 8100030
+	culture = criollo
+	rite = protestant_rite
+	1031.8.14 = { birth = yes }
+}
+8100031 = {
+	name = "Menendo"
+	dynasty = 8100031
+	culture = criollo
+	rite = roman_rite
+	1043.2.15 = { birth = yes }
+}
+8100032 = {
+	name = "Ji_4F76"
+	dynasty = 8100032
+	culture = sichuanese
+	rite = dhyana
+	1027.7.8 = { birth = yes }
+}
+8100033 = {
+	name = "MartI_n"
+	dynasty = 8100033
+	culture = brazilian
+	rite = roman_rite
+	1025.2.19 = { birth = yes }
+}
+8100034 = {
+	name = "Samir"
+	dynasty = 8100034
+	culture = maghrebi
+	rite = maliki
+	1032.5.23 = { birth = yes }
+}
+8100035 = {
+	name = "Durvinita"
+	dynasty = 8100035
+	culture = khmer
+	rite = theravada
+	1029.1.11 = { birth = yes }
+}
+8100036 = {
+	name = "Fanyin_68B5_97F3"
+	female = yes
+	dynasty = 8100036
+	culture = mongol
+	rite = lamaism
+	1022.5.8 = { birth = yes }
+}
+8100037 = {
+	name = "Yan_5F65"
+	dynasty = 8100037
+	culture = sichuanese
+	rite = dhyana
+	1038.6.4 = { birth = yes }
+}
+8100038 = {
+	name = "Sheeftah"
+	female = yes
+	dynasty = 8100038
+	culture = maghrebi
+	rite = maliki
+	1029.1.7 = { birth = yes }
+}
+8100039 = {
+	name = "Jaime"
+	dynasty = 8100039
+	culture = brazilian
+	rite = roman_rite
+	1026.11.2 = { birth = yes }
+}
+8100040 = {
+	name = "Aldebert"
+	dynasty = 8100040
+	culture = french
+	rite = roman_rite
+	1025.1.11 = { birth = yes }
+}
+8100041 = {
+	name = "Cuetzpalli"
+	dynasty = 8100041
+	culture = maya
+	rite = roman_rite
+	1031.5.8 = { birth = yes }
+}
+8100042 = {
+	name = "Merkourios"
+	dynasty = 8100042
+	culture = brazilian
+	rite = roman_rite
+	1034.5.8 = { birth = yes }
+}
+8100043 = {
+	name = "Vikramaditya"
+	dynasty = 8100043
+	culture = malay
+	rite = maliki
+	1026.1.9 = { birth = yes }
+}
+8100044 = {
+	name = "Emory"
+	dynasty = 8100044
+	culture = ovimbundu
+	rite = roman_rite
+	1018.3.6 = { birth = yes }
+}
+8100045 = {
+	name = "Katakarmabe"
+	dynasty = 8100045
+	culture = ewe
+	rite = west_african_orisha_pagan
+	1039.12.27 = { birth = yes }
+}
+8100046 = {
+	name = "Alooma"
+	dynasty = 8100046
+	culture = yoruba
+	rite = protestant_rite
+	1028.3.27 = { birth = yes }
+}
+8100047 = {
+	name = "Ebbon"
+	dynasty = 8100047
+	culture = german
+	rite = roman_rite
+	1022.12.12 = { birth = yes }
+}
+8100048 = {
+	name = "Vidurathpala"
+	dynasty = 8100048
+	culture = hindustani
+	rite = vaishnavism
+	1032.11.4 = { birth = yes }
+}
+8100049 = {
+	name = "NiyA_yaparipA_lapattan"
+	dynasty = 8100049
+	culture = hindustani
+	rite = vaishnavism
+	1027.4.4 = { birth = yes }
+}
+8100050 = {
+	name = "Mallugi"
+	dynasty = 8100050
+	culture = bodpa
+	rite = vaishnavism
+	1032.5.23 = { birth = yes }
+}
+8100051 = {
+	name = "Birpal"
+	dynasty = 8100051
+	culture = rajput
+	rite = maliki
+	1044.2.25 = { birth = yes }
+}
+8100052 = {
+	name = "Gerard"
+	dynasty = 8100052
+	culture = castilian
+	rite = roman_rite
+	1037.8.27 = { birth = yes }
+}
+8100053 = {
+	name = "Kyrie"
+	dynasty = 8100053
+	culture = sotho_tswana
+	rite = protestant_rite
+	1035.12.26 = { birth = yes }
+}
+8100054 = {
+	name = "Umar"
+	dynasty = 8100054
+	culture = mossi
+	rite = maliki
+	1044.8.19 = { birth = yes }
+}
+8100055 = {
+	name = "Tello"
+	dynasty = 8100055
+	culture = criollo
+	rite = roman_rite
+	1037.12.25 = { birth = yes }
+}
+8100056 = {
+	name = "Shettima"
+	dynasty = 8100056
+	culture = akan
+	rite = maliki
+	1018.12.23 = { birth = yes }
+}
+8100057 = {
+	name = "Bikorom"
+	dynasty = 8100057
+	culture = kongo
+	rite = roman_rite
+	1026.5.24 = { birth = yes }
+}
+8100058 = {
+	name = "Lakshmi"
+	female = yes
+	dynasty = 8100058
+	culture = malay
+	rite = roman_rite
+	1030.6.26 = { birth = yes }
+}
+8100059 = {
+	name = "Fernando"
+	dynasty = 8100059
+	culture = criollo
+	rite = roman_rite
+	1033.2.21 = { birth = yes }
+}
+8100060 = {
+	name = "Gniewosz"
+	dynasty = 8100060
+	culture = vlach
+	rite = byzantine_rite
+	1037.9.25 = { birth = yes }
+}
+8100061 = {
+	name = "BogumiL_"
+	dynasty = 8100061
+	culture = hungarian
+	rite = byzantine_rite
+	1030.8.24 = { birth = yes }
+}
+8100062 = {
+	name = "Emory"
+	dynasty = 8100062
+	culture = rwandan
+	rite = roman_rite
+	1031.9.13 = { birth = yes }
+}
+8100063 = {
+	name = "Raimundo"
+	dynasty = 8100063
+	culture = criollo
+	rite = roman_rite
+	1021.1.19 = { birth = yes }
+}
+8100064 = {
+	name = "Malcolm"
+	dynasty = 8100064
+	culture = liblander_west
+	rite = protestant_rite
+	1037.7.28 = { birth = yes }
+}
+8100065 = {
+	name = "Iquehuacatzin"
+	dynasty = 8100065
+	culture = maya
+	rite = roman_rite
+	1032.1.16 = { birth = yes }
+}
+8100066 = {
+	name = "SimO_n"
+	dynasty = 8100066
+	culture = brazilian
+	rite = roman_rite
+	1025.8.28 = { birth = yes }
+}
+8100067 = {
+	name = "Oskar"
+	dynasty = 8100067
+	culture = aussie
+	rite = protestant_rite
+	1034.3.2 = { birth = yes }
+}
+8100068 = {
+	name = "Huitzilin"
+	dynasty = 8100068
+	culture = maya
+	rite = roman_rite
+	1040.7.27 = { birth = yes }
+}
+8100069 = {
+	name = "Fernando"
+	dynasty = 8100069
+	culture = criollo
+	rite = roman_rite
+	1021.9.15 = { birth = yes }
+}
+8100070 = {
+	name = "Halil"
+	dynasty = 8100070
+	culture = moroccan
+	rite = maliki
+	1031.12.27 = { birth = yes }
+}
+8100071 = {
+	name = "Osorio"
+	dynasty = 8100071
+	culture = gaucho
+	rite = roman_rite
+	1035.6.18 = { birth = yes }
+}
+8100072 = {
+	name = "Rachamalla"
+	dynasty = 8100072
+	culture = bisayan
+	rite = roman_rite
+	1020.6.8 = { birth = yes }
+}
+8100073 = {
+	name = "Harivarman"
+	dynasty = 8100073
+	culture = dayak
+	rite = protestant_rite
+	1038.3.13 = { birth = yes }
+}
+8100074 = {
+	name = "Jing_51C0"
+	female = yes
+	dynasty = 8100074
+	culture = xiang
+	rite = dhyana
+	1026.1.26 = { birth = yes }
+}
+8100075 = {
+	name = "Minghe_9E23_9E64"
+	female = yes
+	dynasty = 8100075
+	culture = xiang
+	rite = dhyana
+	1023.5.20 = { birth = yes }
+}
+8100076 = {
+	name = "Mahadevi"
+	female = yes
+	dynasty = 8100076
+	culture = bengali
+	rite = vaishnavism
+	1032.2.13 = { birth = yes }
+}
+8100077 = {
+	name = "Tan_8B5A"
+	dynasty = 8100077
+	culture = han
+	rite = dhyana
+	1024.8.13 = { birth = yes }
+}
+8100078 = {
+	name = "Fu_7B26"
+	dynasty = 8100078
+	culture = sichuanese
+	rite = dhyana
+	1034.11.10 = { birth = yes }
+}
+8100079 = {
+	name = "Cevakattevan"
+	dynasty = 8100079
+	culture = tamil
+	rite = vaishnavism
+	1038.8.4 = { birth = yes }
+}
+8100080 = {
+	name = "Iquehuacatzin"
+	dynasty = 8100080
+	culture = andean
+	rite = roman_rite
+	1026.6.15 = { birth = yes }
+}
+8100081 = {
+	name = "Zhuan_7451"
+	dynasty = 8100081
+	culture = mongol
+	rite = lamaism
+	1034.6.27 = { birth = yes }
+}
+8100082 = {
+	name = "Theophania"
+	female = yes
+	dynasty = 8100082
+	culture = afro_caribbean
+	rite = roman_rite
+	1043.4.19 = { birth = yes }
+}
+8100083 = {
+	name = "Hafiz"
+	dynasty = 8100083
+	culture = maghrebi
+	rite = maliki
+	1033.10.21 = { birth = yes }
+}
+8100084 = {
+	name = "Lorenzo"
+	dynasty = 8100084
+	culture = brazilian
+	rite = roman_rite
+	1021.10.26 = { birth = yes }
+}
+8100085 = {
+	name = "Stephanos"
+	dynasty = 8100085
+	culture = croatian
+	rite = roman_rite
+	1029.9.13 = { birth = yes }
+}
+8100086 = {
+	name = "Gutierre"
+	dynasty = 8100086
+	culture = criollo
+	rite = roman_rite
+	1028.3.5 = { birth = yes }
+}
+8100087 = {
+	name = "Osorio"
+	dynasty = 8100087
+	culture = brazilian
+	rite = roman_rite
+	1036.7.22 = { birth = yes }
+}
+8100088 = {
+	name = "Jimena"
+	female = yes
+	dynasty = 8100088
+	culture = gaucho
+	rite = roman_rite
+	1036.1.4 = { birth = yes }
+}
+8100089 = {
+	name = "Sriranga"
+	dynasty = 8100089
+	culture = sichuanese
+	rite = dhyana
+	1033.10.15 = { birth = yes }
+}
+8100090 = {
+	name = "Anshang_5B89_4E0A"
+	dynasty = 8100090
+	culture = han
+	rite = dhyana
+	1019.10.22 = { birth = yes }
+}
+8100091 = {
+	name = "Abdul-Wahab"
+	dynasty = 8100091
+	culture = levantine
+	rite = maliki
+	1042.8.25 = { birth = yes }
+}
+8100092 = {
+	name = "Purp"
+	dynasty = 8100092
+	culture = swahili
+	rite = shafii
+	1025.9.4 = { birth = yes }
+}
+8100093 = {
+	name = "Doth"
+	dynasty = 8100093
+	culture = hindustani
+	rite = vaishnavism
+	1041.10.23 = { birth = yes }
+}
+8100094 = {
+	name = "Yi_7FCA"
+	dynasty = 8100094
+	culture = han
+	rite = dhyana
+	1029.2.4 = { birth = yes }
+}
+8100095 = {
+	name = "Sami"
+	dynasty = 8100095
+	culture = kurdish
+	rite = maliki
+	1039.6.3 = { birth = yes }
+}
+8100096 = {
+	name = "Dmitriy"
+	dynasty = 8100096
+	culture = ukrainian
+	rite = byzantine_rite
+	1034.6.25 = { birth = yes }
+}
+8100097 = {
+	name = "Papasinkouda"
+	dynasty = 8100097
+	culture = caribeno
+	rite = roman_rite
+	1022.12.15 = { birth = yes }
+}
+8100098 = {
+	name = "Adanko"
+	dynasty = 8100098
+	culture = kongo
+	rite = roman_rite
+	1041.7.20 = { birth = yes }
+}
+8100099 = {
+	name = "Dobrynia"
+	dynasty = 8100099
+	culture = ukrainian
+	rite = byzantine_rite
+	1027.6.2 = { birth = yes }
+}
+8100100 = {
+	name = "Mathieu"
+	dynasty = 8100100
+	culture = german
+	rite = roman_rite
+	1041.11.8 = { birth = yes }
+}
+8100101 = {
+	name = "Osman"
+	dynasty = 8100101
+	culture = nguni
+	rite = protestant_rite
+	1043.3.2 = { birth = yes }
+}
+8100102 = {
+	name = "A_zu_963F_8DB3"
+	dynasty = 8100102
+	culture = kazak
+	rite = hanafi
+	1030.7.8 = { birth = yes }
+}
+8100103 = {
+	name = "Dirk"
+	dynasty = 8100103
+	culture = nguni
+	rite = protestant_rite
+	1033.3.23 = { birth = yes }
+}
+8100104 = {
+	name = "Coatl"
+	dynasty = 8100104
+	culture = centroamerican
+	rite = roman_rite
+	1040.10.8 = { birth = yes }
+}
+8100105 = {
+	name = "Shamir"
+	dynasty = 8100105
+	culture = turkish
+	rite = maliki
+	1034.6.19 = { birth = yes }
+}
+8100106 = {
+	name = "Rajapala"
+	dynasty = 8100106
+	culture = afghan
+	rite = maliki
+	1026.1.18 = { birth = yes }
+}
+8100107 = {
+	name = "Halil"
+	dynasty = 8100107
+	culture = moroccan
+	rite = maliki
+	1037.1.22 = { birth = yes }
+}
+8100108 = {
+	name = "Urraca"
+	female = yes
+	dynasty = 8100108
+	culture = afro_caribbean
+	rite = roman_rite
+	1039.6.24 = { birth = yes }
+}
+8100109 = {
+	name = "Muneko_5"
+	female = yes
+	dynasty = 8100109
+	culture = japanese
+	rite = shinto
+	1041.5.17 = { birth = yes }
+}
+8100110 = {
+	name = "Mushanokoji"
+	dynasty = 8100110
+	culture = han
+	rite = zhengyi
+	1028.8.16 = { birth = yes }
+}
+8100111 = {
+	name = "Zhi_8D04"
+	dynasty = 8100111
+	culture = min
+	rite = dhyana
+	1044.8.21 = { birth = yes }
+}
+8100112 = {
+	name = "Moli_8309_8389"
+	female = yes
+	dynasty = 8100112
+	culture = gan_hakka
+	rite = dhyana
+	1028.2.18 = { birth = yes }
+}
+8100113 = {
+	name = "Abdullah"
+	dynasty = 8100113
+	culture = levantine
+	rite = rabbinism
+	1037.8.22 = { birth = yes }
+}
+8100114 = {
+	name = "Nadbor"
+	dynasty = 8100114
+	culture = polish
+	rite = roman_rite
+	1031.10.14 = { birth = yes }
+}
+8100115 = {
+	name = "Suero"
+	dynasty = 8100115
+	culture = brazilian
+	rite = roman_rite
+	1021.8.28 = { birth = yes }
+}
+8100116 = {
+	name = "Puppadevi"
+	female = yes
+	dynasty = 8100116
+	culture = hindustani
+	rite = vaishnavism
+	1044.6.9 = { birth = yes }
+}
+8100117 = {
+	name = "Iacob"
+	dynasty = 8100117
+	culture = afro_brazilian
+	rite = roman_rite
+	1021.8.18 = { birth = yes }
+}
+8100118 = {
+	name = "Ruwei_6C5D_70BA"
+	dynasty = 8100118
+	culture = cantonese
+	rite = dhyana
+	1036.8.27 = { birth = yes }
+}
+8100119 = {
+	name = "Tlilpotonqui"
+	dynasty = 8100119
+	culture = maya
+	rite = roman_rite
+	1030.1.4 = { birth = yes }
+}
+8100120 = {
+	name = "SebastiA_n"
+	dynasty = 8100120
+	culture = andean
+	rite = roman_rite
+	1033.6.20 = { birth = yes }
+}
+8100121 = {
+	name = "Hang_676D"
+	dynasty = 8100121
+	culture = bouxcuengh
+	rite = dhyana
+	1042.2.9 = { birth = yes }
+}
+8100122 = {
+	name = "Katur"
+	dynasty = 8100122
+	culture = pulaar
+	rite = maliki
+	1034.12.7 = { birth = yes }
+}
+8100123 = {
+	name = "Shuwen_53D4_6587"
+	dynasty = 8100123
+	culture = sichuanese
+	rite = dhyana
+	1035.3.20 = { birth = yes }
+}
+8100124 = {
+	name = "Chuo_7DBD"
+	dynasty = 8100124
+	culture = uyghur
+	rite = hanafi
+	1038.9.6 = { birth = yes }
+}
+8100125 = {
+	name = "Birpal"
+	dynasty = 8100125
+	culture = hindustani
+	rite = vaishnavism
+	1044.9.6 = { birth = yes }
+}
+8100126 = {
+	name = "Jian_7DD8"
+	dynasty = 8100126
+	culture = cantonese
+	rite = dhyana
+	1026.8.4 = { birth = yes }
+}
+8100127 = {
+	name = "Bukka"
+	dynasty = 8100127
+	culture = viet
+	rite = dhyana
+	1039.3.10 = { birth = yes }
+}
+8100128 = {
+	name = "Kuriakos"
+	dynasty = 8100128
+	culture = afro_caribbean
+	rite = roman_rite
+	1027.12.21 = { birth = yes }
+}
+8100129 = {
+	name = "Philippe"
+	dynasty = 8100129
+	culture = german
+	rite = protestant_rite
+	1029.3.15 = { birth = yes }
+}
+8100130 = {
+	name = "Eldzier"
+	dynasty = 8100130
+	culture = shona
+	rite = protestant_rite
+	1035.5.8 = { birth = yes }
+}
+8100131 = {
+	name = "Guanguan_7BA1_7BA1"
+	dynasty = 8100131
+	culture = han
+	rite = dhyana
+	1021.10.27 = { birth = yes }
+}
+8100132 = {
+	name = "Huiya_60E0_96C5"
+	female = yes
+	dynasty = 8100132
+	culture = xiang
+	rite = dhyana
+	1018.7.28 = { birth = yes }
+}
+8100133 = {
+	name = "Neetimarga"
+	dynasty = 8100133
+	culture = viet
+	rite = dhyana
+	1041.10.11 = { birth = yes }
+}
+8100134 = {
+	name = "Jian_5805"
+	dynasty = 8100134
+	culture = mongol
+	rite = lamaism
+	1033.6.7 = { birth = yes }
+}
+8100135 = {
+	name = "Shamir"
+	dynasty = 8100135
+	culture = persian
+	rite = imami
+	1018.10.2 = { birth = yes }
+}
+8100136 = {
+	name = "Anren_5B89_4EC1"
+	dynasty = 8100136
+	culture = wu
+	rite = dhyana
+	1025.10.11 = { birth = yes }
+}
+8100137 = {
+	name = "Changyun_660C_904B"
+	dynasty = 8100137
+	culture = han
+	rite = dhyana
+	1033.9.1 = { birth = yes }
+}
+8100138 = {
+	name = "KaraikkiyemarrayilaiyA_n"
+	dynasty = 8100138
+	culture = kannada
+	rite = vaishnavism
+	1025.1.3 = { birth = yes }
+}
+8100139 = {
+	name = "Shilong_58EB_9F8D"
+	dynasty = 8100139
+	culture = han
+	rite = dhyana
+	1044.6.4 = { birth = yes }
+}
+8100140 = {
+	name = "Mamane"
+	dynasty = 8100140
+	culture = yoruba
+	rite = west_african_orisha_pagan
+	1031.10.8 = { birth = yes }
+}
+8100141 = {
+	name = "Jaime"
+	dynasty = 8100141
+	culture = criollo
+	rite = roman_rite
+	1038.9.12 = { birth = yes }
+}
+8100142 = {
+	name = "Chavundaraya"
+	dynasty = 8100142
+	culture = assamese
+	rite = vaishnavism
+	1042.1.13 = { birth = yes }
+}
+8100143 = {
+	name = "Rahila"
+	dynasty = 8100143
+	culture = hindustani
+	rite = vaishnavism
+	1024.11.1 = { birth = yes }
+}
+8100144 = {
+	name = "Yachamanedu"
+	dynasty = 8100144
+	culture = malay
+	rite = shafii
+	1031.6.26 = { birth = yes }
+}
+8100145 = {
+	name = "Lamusil"
+	dynasty = 8100145
+	culture = persian
+	rite = imami
+	1024.6.7 = { birth = yes }
+}
+8100146 = {
+	name = "Xihuitl"
+	dynasty = 8100146
+	culture = brazilian
+	rite = roman_rite
+	1022.1.12 = { birth = yes }
+}
+8100147 = {
+	name = "Abu-Bakr"
+	dynasty = 8100147
+	culture = turkish
+	rite = maliki
+	1027.12.26 = { birth = yes }
+}
+8100148 = {
+	name = "Dattadevi"
+	female = yes
+	dynasty = 8100148
+	culture = hindustani
+	rite = vaishnavism
+	1035.11.23 = { birth = yes }
+}
+8100149 = {
+	name = "Harpal"
+	dynasty = 8100149
+	culture = rajput
+	rite = vaishnavism
+	1043.6.24 = { birth = yes }
+}
+8100150 = {
+	name = "Gambhir"
+	dynasty = 8100150
+	culture = gujarati
+	rite = maliki
+	1044.8.11 = { birth = yes }
+}
+8100151 = {
+	name = "Rachamalla"
+	dynasty = 8100151
+	culture = sichuanese
+	rite = dhyana
+	1030.5.19 = { birth = yes }
+}
+8100152 = {
+	name = "Tian_586B"
+	dynasty = 8100152
+	culture = han
+	rite = dhyana
+	1036.11.11 = { birth = yes }
+}
+8100153 = {
+	name = "Tong_5F64"
+	dynasty = 8100153
+	culture = han
+	rite = dhyana
+	1025.3.19 = { birth = yes }
+}
+8100154 = {
+	name = "Caiping_91C7_82F9"
+	female = yes
+	dynasty = 8100154
+	culture = gan_hakka
+	rite = dhyana
+	1044.5.18 = { birth = yes }
+}
+8100155 = {
+	name = "Xochipepe"
+	dynasty = 8100155
+	culture = nordestino
+	rite = roman_rite
+	1019.7.11 = { birth = yes }
+}
+8100156 = {
+	name = "Hirapal"
+	dynasty = 8100156
+	culture = rajput
+	rite = maliki
+	1032.12.20 = { birth = yes }
+}
+8100157 = {
+	name = "Narasimha"
+	dynasty = 8100157
+	culture = malay
+	rite = shafii
+	1022.10.3 = { birth = yes }
+}
+8100158 = {
+	name = "Vela"
+	dynasty = 8100158
+	culture = gaucho
+	rite = roman_rite
+	1044.5.5 = { birth = yes }
+}
+8100159 = {
+	name = "Ghalib"
+	dynasty = 8100159
+	culture = levantine
+	rite = rabbinism
+	1025.7.5 = { birth = yes }
+}
+8100160 = {
+	name = "Bikorom"
+	dynasty = 8100160
+	culture = pulaar
+	rite = protestant_rite
+	1034.3.5 = { birth = yes }
+}
+8100161 = {
+	name = "Domingo"
+	dynasty = 8100161
+	culture = afro_brazilian
+	rite = roman_rite
+	1034.5.9 = { birth = yes }
+}
+8100162 = {
+	name = "Ponce"
+	dynasty = 8100162
+	culture = nordestino
+	rite = roman_rite
+	1025.5.26 = { birth = yes }
+}
+8100163 = {
+	name = "Sancho"
+	dynasty = 8100163
+	culture = brazilian
+	rite = roman_rite
+	1031.6.23 = { birth = yes }
+}
+8100164 = {
+	name = "Purandaradasa"
+	dynasty = 8100164
+	culture = tai
+	rite = theravada
+	1040.12.9 = { birth = yes }
+}
+8100165 = {
+	name = "Hou_5795"
+	dynasty = 8100165
+	culture = tajik
+	rite = maliki
+	1044.6.25 = { birth = yes }
+}
+8100166 = {
+	name = "NiyA_yaparipA_lapattan"
+	dynasty = 8100166
+	culture = telugu
+	rite = vaishnavism
+	1030.1.14 = { birth = yes }
+}
+8100167 = {
+	name = "Adam"
+	dynasty = 8100167
+	culture = hausa
+	rite = maliki
+	1032.2.17 = { birth = yes }
+}
+8100168 = {
+	name = "Udaychoda"
+	dynasty = 8100168
+	culture = kannada
+	rite = vaishnavism
+	1020.12.19 = { birth = yes }
+}
+8100169 = {
+	name = "Durk"
+	dynasty = 8100169
+	culture = ganda
+	rite = roman_rite
+	1036.11.5 = { birth = yes }
+}
+8100170 = {
+	name = "Wayne"
+	dynasty = 8100170
+	culture = luba
+	rite = roman_rite
+	1038.4.13 = { birth = yes }
+}
+8100171 = {
+	name = "Ramakuta"
+	dynasty = 8100171
+	culture = tamil
+	rite = vaishnavism
+	1026.9.3 = { birth = yes }
+}
+8100172 = {
+	name = "Vigrahapala"
+	dynasty = 8100172
+	culture = hindustani
+	rite = vaishnavism
+	1025.12.4 = { birth = yes }
+}
+8100173 = {
+	name = "Tejpal"
+	dynasty = 8100173
+	culture = sindhi
+	rite = maliki
+	1032.10.6 = { birth = yes }
+}
+8100174 = {
+	name = "Yi_7FCA"
+	dynasty = 8100174
+	culture = uyghur
+	rite = hanafi
+	1035.12.14 = { birth = yes }
+}
+8100175 = {
+	name = "Mahmoud"
+	dynasty = 8100175
+	culture = hausa
+	rite = maliki
+	1036.12.7 = { birth = yes }
+}
+8100176 = {
+	name = "Adam"
+	dynasty = 8100176
+	culture = malinke
+	rite = maliki
+	1027.4.18 = { birth = yes }
+}
+8100177 = {
+	name = "Rurik"
+	dynasty = 8100177
+	culture = ukrainian
+	rite = byzantine_rite
+	1039.8.12 = { birth = yes }
+}
+8100178 = {
+	name = "Bulu"
+	dynasty = 8100178
+	culture = beja
+	rite = maliki
+	1039.4.2 = { birth = yes }
+}
+8100179 = {
+	name = "Somesvara"
+	dynasty = 8100179
+	culture = tai
+	rite = theravada
+	1022.11.9 = { birth = yes }
+}
+8100180 = {
+	name = "Fadil"
+	dynasty = 8100180
+	culture = baloch
+	rite = maliki
+	1025.1.9 = { birth = yes }
+}
+8100181 = {
+	name = "Yusuf"
+	dynasty = 8100181
+	culture = somali
+	rite = shafii
+	1040.7.15 = { birth = yes }
+}
+8100182 = {
+	name = "Waziri"
+	dynasty = 8100182
+	culture = nilotic
+	rite = protestant_rite
+	1019.4.5 = { birth = yes }
+}
+8100183 = {
+	name = "Elijah"
+	dynasty = 8100183
+	culture = bemba
+	rite = protestant_rite
+	1022.6.18 = { birth = yes }
+}
+8100184 = {
+	name = "Revakanimmadi"
+	female = yes
+	dynasty = 8100184
+	culture = bengali
+	rite = vaishnavism
+	1038.12.26 = { birth = yes }
+}
+8100185 = {
+	name = "Alain"
+	dynasty = 8100185
+	culture = german
+	rite = protestant_rite
+	1026.8.23 = { birth = yes }
+}
+8100186 = {
+	name = "Sami"
+	dynasty = 8100186
+	culture = egyptian
+	rite = maliki
+	1022.9.3 = { birth = yes }
+}
+8100187 = {
+	name = "Arku"
+	dynasty = 8100187
+	culture = akan
+	rite = maliki
+	1022.12.9 = { birth = yes }
+}
+8100188 = {
+	name = "Markos"
+	dynasty = 8100188
+	culture = albanian
+	rite = byzantine_rite
+	1040.4.2 = { birth = yes }
+}
+8100189 = {
+	name = "Yueke_8D8A_5BA2"
+	dynasty = 8100189
+	culture = kazak
+	rite = byzantine_rite
+	1044.12.1 = { birth = yes }
+}
+8100190 = {
+	name = "Koz_ma"
+	dynasty = 8100190
+	culture = russian
+	rite = byzantine_rite
+	1034.9.5 = { birth = yes }
+}
+8100191 = {
+	name = "Yevstafiy"
+	dynasty = 8100191
+	culture = russian
+	rite = byzantine_rite
+	1041.7.9 = { birth = yes }
+}
+8100192 = {
+	name = "Ramaraya"
+	dynasty = 8100192
+	culture = malay
+	rite = shafii
+	1032.12.1 = { birth = yes }
+}
+8100193 = {
+	name = "Biri"
+	dynasty = 8100193
+	culture = akan
+	rite = protestant_rite
+	1037.4.3 = { birth = yes }
+}
+8100194 = {
+	name = "Yu_9918"
+	dynasty = 8100194
+	culture = sichuanese
+	rite = dhyana
+	1044.2.11 = { birth = yes }
+}
+8100195 = {
+	name = "Eustachy"
+	dynasty = 8100195
+	culture = russian
+	rite = byzantine_rite
+	1027.10.4 = { birth = yes }
+}
+8100196 = {
+	name = "Idris"
+	dynasty = 8100196
+	culture = bedouin
+	rite = imami
+	1038.9.15 = { birth = yes }
+}
+8100197 = {
+	name = "Jacek"
+	dynasty = 8100197
+	culture = ukrainian
+	rite = byzantine_rite
+	1033.7.17 = { birth = yes }
+}
+8100198 = {
+	name = "Dan_65E6"
+	dynasty = 8100198
+	culture = kirghiz
+	rite = hanafi
+	1039.8.19 = { birth = yes }
+}
+8100199 = {
+	name = "Dala"
+	dynasty = 8100199
+	culture = yoruba
+	rite = west_african_orisha_pagan
+	1034.5.28 = { birth = yes }
+}
+8100200 = {
+	name = "Youru_5E7C_5112"
+	dynasty = 8100200
+	culture = han
+	rite = dhyana
+	1036.3.12 = { birth = yes }
+}
+8100201 = {
+	name = "Mieszko"
+	dynasty = 8100201
+	culture = latgalian
+	rite = protestant_rite
+	1044.3.7 = { birth = yes }
+}
+8100202 = {
+	name = "Aghlab"
+	dynasty = 8100202
+	culture = levantine
+	rite = maliki
+	1037.2.15 = { birth = yes }
+}
+8100203 = {
+	name = "Quentin"
+	dynasty = 8100203
+	culture = sotho_tswana
+	rite = roman_rite
+	1036.9.27 = { birth = yes }
+}
+8100204 = {
+	name = "Nikale"
+	dynasty = 8100204
+	culture = kongo
+	rite = roman_rite
+	1039.8.11 = { birth = yes }
+}
+8100205 = {
+	name = "Aymar"
+	dynasty = 8100205
+	culture = german
+	rite = roman_rite
+	1022.8.2 = { birth = yes }
+}
+8100206 = {
+	name = "Dirk"
+	dynasty = 8100206
+	culture = sotho_tswana
+	rite = protestant_rite
+	1044.10.27 = { birth = yes }
+}
+8100207 = {
+	name = "Xun_905C"
+	dynasty = 8100207
+	culture = sichuanese
+	rite = dhyana
+	1035.7.15 = { birth = yes }
+}
+8100208 = {
+	name = "Oveco"
+	dynasty = 8100208
+	culture = gaucho
+	rite = roman_rite
+	1030.6.6 = { birth = yes }
+}
+8100209 = {
+	name = "Yanqing_5EF6_5E86"
+	dynasty = 8100209
+	culture = han
+	rite = dhyana
+	1022.4.17 = { birth = yes }
+}
+8100210 = {
+	name = "Benjamin"
+	dynasty = 8100210
+	culture = kongo
+	rite = roman_rite
+	1025.11.26 = { birth = yes }
+}
+8100211 = {
+	name = "Dhruva"
+	dynasty = 8100211
+	culture = hindustani
+	rite = vaishnavism
+	1035.5.16 = { birth = yes }
+}
+8100212 = {
+	name = "Prithipala"
+	dynasty = 8100212
+	culture = punjabi
+	rite = sikhism_rite
+	1044.10.12 = { birth = yes }
+}
+8100213 = {
+	name = "Aubry"
+	dynasty = 8100213
+	culture = german
+	rite = protestant_rite
+	1034.4.20 = { birth = yes }
+}
+8100214 = {
+	name = "Ya_qub"
+	dynasty = 8100214
+	culture = egyptian
+	rite = maliki
+	1043.2.24 = { birth = yes }
+}
+8100215 = {
+	name = "DobiesL_aw"
+	dynasty = 8100215
+	culture = ukrainian
+	rite = roman_rite
+	1044.1.6 = { birth = yes }
+}
+8100216 = {
+	name = "Tzompantzin"
+	dynasty = 8100216
+	culture = afro_brazilian
+	rite = roman_rite
+	1025.3.2 = { birth = yes }
+}
+8100217 = {
+	name = "UravA_kkinA_n"
+	dynasty = 8100217
+	culture = tamil
+	rite = vaishnavism
+	1041.3.7 = { birth = yes }
+}
+8100218 = {
+	name = "Tandja"
+	dynasty = 8100218
+	culture = pulaar
+	rite = maliki
+	1024.10.2 = { birth = yes }
+}
+8100219 = {
+	name = "Vysheslav"
+	dynasty = 8100219
+	culture = russian
+	rite = byzantine_rite
+	1028.6.21 = { birth = yes }
+}
+8100220 = {
+	name = "Clarence"
+	dynasty = 8100220
+	culture = ovimbundu
+	rite = roman_rite
+	1029.6.5 = { birth = yes }
+}
+8100221 = {
+	name = "Gil"
+	dynasty = 8100221
+	culture = andean
+	rite = roman_rite
+	1043.3.20 = { birth = yes }
+}
+8100222 = {
+	name = "Suero"
+	dynasty = 8100222
+	culture = criollo
+	rite = roman_rite
+	1020.5.8 = { birth = yes }
+}
+8100223 = {
+	name = "Praudharaya"
+	dynasty = 8100223
+	culture = burmese
+	rite = theravada
+	1019.6.8 = { birth = yes }
+}
+8100224 = {
+	name = "Yu_6631"
+	dynasty = 8100224
+	culture = afghan
+	rite = maliki
+	1019.6.7 = { birth = yes }
+}
+8100225 = {
+	name = "Bertrand"
+	dynasty = 8100225
+	culture = german
+	rite = roman_rite
+	1034.2.14 = { birth = yes }
+}
+8100226 = {
+	name = "Harihara"
+	dynasty = 8100226
+	culture = sichuanese
+	rite = dhyana
+	1026.6.16 = { birth = yes }
+}
+8100227 = {
+	name = "Acacitli"
+	dynasty = 8100227
+	culture = mexican
+	rite = roman_rite
+	1024.4.15 = { birth = yes }
+}
+8100228 = {
+	name = "Shilong_58EB_9F8D"
+	dynasty = 8100228
+	culture = sichuanese
+	rite = dhyana
+	1024.1.19 = { birth = yes }
+}
+8100229 = {
+	name = "Eirenaios"
+	dynasty = 8100229
+	culture = italian
+	rite = roman_rite
+	1030.5.20 = { birth = yes }
+}
+8100230 = {
+	name = "MiL_obrat"
+	dynasty = 8100230
+	culture = belarusian
+	rite = byzantine_rite
+	1044.8.28 = { birth = yes }
+}
+8100231 = {
+	name = "Harsa"
+	dynasty = 8100231
+	culture = sindhi
+	rite = maliki
+	1043.3.24 = { birth = yes }
+}
+8100232 = {
+	name = "Sulayman"
+	dynasty = 8100232
+	culture = libyan
+	rite = maliki
+	1023.5.21 = { birth = yes }
+}
+8100233 = {
+	name = "Bhavanaga"
+	female = yes
+	dynasty = 8100233
+	culture = assamese
+	rite = vaishnavism
+	1030.3.25 = { birth = yes }
+}
+8100234 = {
+	name = "Dobrogost"
+	dynasty = 8100234
+	culture = vlach
+	rite = byzantine_rite
+	1025.10.13 = { birth = yes }
+}
+8100235 = {
+	name = "Romanos"
+	dynasty = 8100235
+	culture = french
+	rite = roman_rite
+	1035.8.28 = { birth = yes }
+}
+8100236 = {
+	name = "Konstantinos"
+	dynasty = 8100236
+	culture = serbian
+	rite = byzantine_rite
+	1020.2.15 = { birth = yes }
+}
+8100237 = {
+	name = "Acamapichtli"
+	dynasty = 8100237
+	culture = mexican
+	rite = roman_rite
+	1025.2.12 = { birth = yes }
+}
+8100238 = {
+	name = "Dauid"
+	dynasty = 8100238
+	culture = brazilian
+	rite = roman_rite
+	1037.3.2 = { birth = yes }
+}
+8100239 = {
+	name = "Evangelos"
+	dynasty = 8100239
+	culture = french
+	rite = roman_rite
+	1029.6.8 = { birth = yes }
+}
+8100240 = {
+	name = "Amaury"
+	dynasty = 8100240
+	culture = bavarian
+	rite = roman_rite
+	1042.6.3 = { birth = yes }
+}
+8100241 = {
+	name = "SanC_"
+	dynasty = 8100241
+	culture = castilian
+	rite = roman_rite
+	1032.4.5 = { birth = yes }
+}
+8100242 = {
+	name = "Kiratpal"
+	dynasty = 8100242
+	culture = kashmiri
+	rite = maliki
+	1037.2.8 = { birth = yes }
+}
+8100243 = {
+	name = "Buyuma"
+	dynasty = 8100243
+	culture = east_bantu
+	rite = roman_rite
+	1022.6.5 = { birth = yes }
+}
+8100244 = {
+	name = "Kwame"
+	dynasty = 8100244
+	culture = kongo
+	rite = roman_rite
+	1022.11.27 = { birth = yes }
+}
+8100245 = {
+	name = "Cayantavarman"
+	dynasty = 8100245
+	culture = marathi
+	rite = vaishnavism
+	1021.3.16 = { birth = yes }
+}
+8100246 = {
+	name = "Yagana"
+	female = yes
+	dynasty = 8100246
+	culture = bedouin
+	rite = maliki
+	1042.5.9 = { birth = yes }
+}
+8100247 = {
+	name = "Vishnuvardhana"
+	dynasty = 8100247
+	culture = tai
+	rite = theravada
+	1038.5.23 = { birth = yes }
+}
+8100248 = {
+	name = "Musa"
+	dynasty = 8100248
+	culture = nilotic
+	rite = protestant_rite
+	1029.10.19 = { birth = yes }
+}
+8100249 = {
+	name = "Hunter"
+	dynasty = 8100249
+	culture = liblander_west
+	rite = protestant_rite
+	1028.5.23 = { birth = yes }
+}
+8100250 = {
+	name = "Xiang_8C61"
+	dynasty = 8100250
+	culture = gan_hakka
+	rite = dhyana
+	1026.9.6 = { birth = yes }
+}
+8100251 = {
+	name = "Nagatiraja"
+	dynasty = 8100251
+	culture = marathi
+	rite = vaishnavism
+	1044.6.9 = { birth = yes }
+}
+8100252 = {
+	name = "Zongben_5B97_672C"
+	dynasty = 8100252
+	culture = wu
+	rite = dhyana
+	1040.7.4 = { birth = yes }
+}
+8100253 = {
+	name = "Indra"
+	dynasty = 8100253
+	culture = bouxcuengh
+	rite = dhyana
+	1035.10.13 = { birth = yes }
+}
+8100254 = {
+	name = "Dacheng_5927_6210"
+	dynasty = 8100254
+	culture = han
+	rite = dhyana
+	1024.11.26 = { birth = yes }
+}
+8100255 = {
+	name = "Sadashiva"
+	dynasty = 8100255
+	culture = burmese
+	rite = theravada
+	1023.4.8 = { birth = yes }
+}
+8100256 = {
+	name = "KulO_ttunka"
+	dynasty = 8100256
+	culture = telugu
+	rite = vaishnavism
+	1035.7.20 = { birth = yes }
+}
+8100257 = {
+	name = "Dembo"
+	dynasty = 8100257
+	culture = nguni
+	rite = protestant_rite
+	1024.7.1 = { birth = yes }
+}
+8100258 = {
+	name = "Rurik"
+	dynasty = 8100258
+	culture = russian
+	rite = byzantine_rite
+	1037.6.10 = { birth = yes }
+}
+8100259 = {
+	name = "Dabbalemi"
+	dynasty = 8100259
+	culture = ganda
+	rite = protestant_rite
+	1033.8.12 = { birth = yes }
+}
+8100260 = {
+	name = "Alooma"
+	dynasty = 8100260
+	culture = kongo
+	rite = roman_rite
+	1029.12.7 = { birth = yes }
+}
+8100261 = {
+	name = "Arsu"
+	dynasty = 8100261
+	culture = kanuri
+	rite = maliki
+	1024.5.7 = { birth = yes }
+}
+8100262 = {
+	name = "Selma"
+	dynasty = 8100262
+	culture = somali
+	rite = shafii
+	1030.12.28 = { birth = yes }
+}
+8100263 = {
+	name = "Wiley"
+	dynasty = 8100263
+	culture = rwandan
+	rite = protestant_rite
+	1035.3.12 = { birth = yes }
+}
+8100264 = {
+	name = "Nikale"
+	dynasty = 8100264
+	culture = pulaar
+	rite = roman_rite
+	1033.2.8 = { birth = yes }
+}
+8100265 = {
+	name = "Wojuta"
+	dynasty = 8100265
+	culture = ukrainian
+	rite = byzantine_rite
+	1020.8.17 = { birth = yes }
+}
+8100266 = {
+	name = "WaN_ko"
+	dynasty = 8100266
+	culture = polish
+	rite = roman_rite
+	1018.7.1 = { birth = yes }
+}
+8100267 = {
+	name = "Shettima"
+	dynasty = 8100267
+	culture = nupe
+	rite = maliki
+	1031.8.16 = { birth = yes }
+}
+8100268 = {
+	name = "Kanemi"
+	dynasty = 8100268
+	culture = igbo
+	rite = roman_rite
+	1031.8.10 = { birth = yes }
+}
+8100269 = {
+	name = "Gong_62F1"
+	dynasty = 8100269
+	culture = russian
+	rite = byzantine_rite
+	1034.7.27 = { birth = yes }
+}
+8100270 = {
+	name = "Nobuko_10"
+	female = yes
+	dynasty = 8100270
+	culture = japanese
+	rite = shinto
+	1031.5.20 = { birth = yes }
+}
+8100271 = {
+	name = "Dugu"
+	dynasty = 8100271
+	culture = mossi
+	rite = roman_rite
+	1044.10.7 = { birth = yes }
+}
+8100272 = {
+	name = "Ramachandra"
+	dynasty = 8100272
+	culture = malay
+	rite = maliki
+	1037.10.20 = { birth = yes }
+}
+8100273 = {
+	name = "Elisabeth"
+	female = yes
+	dynasty = 8100273
+	culture = centroamerican
+	rite = roman_rite
+	1025.2.4 = { birth = yes }
+}
+8100274 = {
+	name = "Shugu_8FF0_53E4"
+	dynasty = 8100274
+	culture = sichuanese
+	rite = dhyana
+	1041.9.9 = { birth = yes }
+}
+8100275 = {
+	name = "Devavarman"
+	dynasty = 8100275
+	culture = hindustani
+	rite = vaishnavism
+	1037.6.18 = { birth = yes }
+}
+8100276 = {
+	name = "Vellido"
+	dynasty = 8100276
+	culture = brazilian
+	rite = roman_rite
+	1024.2.11 = { birth = yes }
+}
+8100277 = {
+	name = "Sebastianos"
+	dynasty = 8100277
+	culture = hungarian
+	rite = byzantine_rite
+	1040.10.7 = { birth = yes }
+}
+8100278 = {
+	name = "MartI_n"
+	dynasty = 8100278
+	culture = gaucho
+	rite = roman_rite
+	1039.5.5 = { birth = yes }
+}
+8100279 = {
+	name = "Mahipala"
+	dynasty = 8100279
+	culture = afghan
+	rite = maliki
+	1033.10.5 = { birth = yes }
+}
+8100280 = {
+	name = "Jimeno"
+	dynasty = 8100280
+	culture = afro_brazilian
+	rite = roman_rite
+	1030.7.15 = { birth = yes }
+}
+8100281 = {
+	name = "Guina"
+	female = yes
+	dynasty = 8100281
+	culture = brazilian
+	rite = roman_rite
+	1031.8.21 = { birth = yes }
+}
+8100282 = {
+	name = "Ocuil"
+	dynasty = 8100282
+	culture = criollo
+	rite = roman_rite
+	1029.10.5 = { birth = yes }
+}
+8100283 = {
+	name = "Piotr"
+	dynasty = 8100283
+	culture = ukrainian
+	rite = byzantine_rite
+	1042.4.9 = { birth = yes }
+}
+8100284 = {
+	name = "Vishnugopa"
+	dynasty = 8100284
+	culture = dayak
+	rite = vaishnavism
+	1019.12.3 = { birth = yes }
+}
+8100285 = {
+	name = "Abdul-Wahab"
+	dynasty = 8100285
+	culture = egyptian
+	rite = maliki
+	1026.7.1 = { birth = yes }
+}
+8100286 = {
+	name = "Vela"
+	dynasty = 8100286
+	culture = brazilian
+	rite = roman_rite
+	1025.8.15 = { birth = yes }
+}
+8100287 = {
+	name = "Tlalli"
+	dynasty = 8100287
+	culture = nativican
+	rite = roman_rite
+	1043.1.7 = { birth = yes }
+}
+8100288 = {
+	name = "Kamal"
+	dynasty = 8100288
+	culture = marathi
+	rite = vaishnavism
+	1031.8.25 = { birth = yes }
+}
+8100289 = {
+	name = "Jinsi_8FDB_601D"
+	dynasty = 8100289
+	culture = wu
+	rite = dhyana
+	1036.8.15 = { birth = yes }
+}
+8100290 = {
+	name = "Kazuma"
+	dynasty = 8100290
+	culture = north_korean
+	rite = mu
+	1037.7.9 = { birth = yes }
+}
+8100291 = {
+	name = "Dhruva"
+	dynasty = 8100291
+	culture = uyghur
+	rite = hanafi
+	1020.1.13 = { birth = yes }
+}
+8100292 = {
+	name = "Krishnadevaraya"
+	dynasty = 8100292
+	culture = bouxcuengh
+	rite = dhyana
+	1023.4.5 = { birth = yes }
+}
+8100293 = {
+	name = "Musa"
+	dynasty = 8100293
+	culture = moroccan
+	rite = maliki
+	1028.7.13 = { birth = yes }
+}
+8100294 = {
+	name = "Dilipapala"
+	dynasty = 8100294
+	culture = punjabi
+	rite = maliki
+	1026.9.24 = { birth = yes }
+}
+8100295 = {
+	name = "Prithvivarman"
+	dynasty = 8100295
+	culture = hindustani
+	rite = vaishnavism
+	1030.3.28 = { birth = yes }
+}
+8100296 = {
+	name = "Prithipala"
+	dynasty = 8100296
+	culture = gujarati
+	rite = maliki
+	1028.4.22 = { birth = yes }
+}
+8100297 = {
+	name = "Mailaladevi"
+	female = yes
+	dynasty = 8100297
+	culture = bengali
+	rite = vaishnavism
+	1042.11.27 = { birth = yes }
+}
+8100298 = {
+	name = "Danna"
+	dynasty = 8100298
+	culture = telugu
+	rite = vaishnavism
+	1021.7.16 = { birth = yes }
+}
+8100299 = {
+	name = "Rafiqa"
+	female = yes
+	dynasty = 8100299
+	culture = azerbaijani
+	rite = imami
+	1036.5.24 = { birth = yes }
+}
+8100300 = {
+	name = "Matlatzincatzin"
+	dynasty = 8100300
+	culture = afro_brazilian
+	rite = roman_rite
+	1026.7.1 = { birth = yes }
+}
+8100301 = {
+	name = "Rodrigo"
+	dynasty = 8100301
+	culture = brazilian
+	rite = roman_rite
+	1042.4.23 = { birth = yes }
+}
+8100302 = {
+	name = "Rodrigo"
+	dynasty = 8100302
+	culture = brazilian
+	rite = roman_rite
+	1023.10.25 = { birth = yes }
+}
+8100303 = {
+	name = "Domingo"
+	dynasty = 8100303
+	culture = rioplatense
+	rite = roman_rite
+	1025.9.22 = { birth = yes }
+}
+8100304 = {
+	name = "Ishtpala"
+	dynasty = 8100304
+	culture = oriya
+	rite = vaishnavism
+	1040.6.24 = { birth = yes }
+}
+8100305 = {
+	name = "Quran"
+	dynasty = 8100305
+	culture = rwandan
+	rite = protestant_rite
+	1025.3.17 = { birth = yes }
+}
+8100306 = {
+	name = "Oleg"
+	dynasty = 8100306
+	culture = russian
+	rite = byzantine_rite
+	1028.3.5 = { birth = yes }
+}
+8100307 = {
+	name = "Iziaslav"
+	dynasty = 8100307
+	culture = russian
+	rite = byzantine_rite
+	1019.8.5 = { birth = yes }
+}
+8100308 = {
+	name = "Radoslav"
+	dynasty = 8100308
+	culture = russian
+	rite = byzantine_rite
+	1018.2.23 = { birth = yes }
+}
+8100309 = {
+	name = "Tochtli"
+	dynasty = 8100309
+	culture = mexican
+	rite = roman_rite
+	1032.7.16 = { birth = yes }
+}
+8100310 = {
+	name = "Komitas"
+	dynasty = 8100310
+	culture = italian
+	rite = roman_rite
+	1034.2.2 = { birth = yes }
+}
+8100311 = {
+	name = "Tizoc"
+	dynasty = 8100311
+	culture = centroamerican
+	rite = roman_rite
+	1039.7.27 = { birth = yes }
+}
+8100312 = {
+	name = "Murad"
+	dynasty = 8100312
+	culture = bedouin
+	rite = maliki
+	1030.8.13 = { birth = yes }
+}
+8100313 = {
+	name = "Sheng_5347"
+	dynasty = 8100313
+	culture = min
+	rite = dhyana
+	1036.1.19 = { birth = yes }
+}
+8100314 = {
+	name = "Pero"
+	dynasty = 8100314
+	culture = gaucho
+	rite = roman_rite
+	1034.12.2 = { birth = yes }
+}
+8100315 = {
+	name = "Cuixtli"
+	dynasty = 8100315
+	culture = mexican
+	rite = roman_rite
+	1028.2.6 = { birth = yes }
+}
+8100316 = {
+	name = "Yan_5043"
+	dynasty = 8100316
+	culture = cantonese
+	rite = dhyana
+	1026.11.10 = { birth = yes }
+}
+8100317 = {
+	name = "Ixtlilxochitl"
+	dynasty = 8100317
+	culture = afro_brazilian
+	rite = roman_rite
+	1028.4.1 = { birth = yes }
+}
+8100318 = {
+	name = "GuillE_n"
+	dynasty = 8100318
+	culture = brazilian
+	rite = roman_rite
+	1033.1.8 = { birth = yes }
+}
+8100319 = {
+	name = "Yusuf"
+	dynasty = 8100319
+	culture = sao
+	rite = protestant_rite
+	1026.9.6 = { birth = yes }
+}
+8100320 = {
+	name = "Arestes"
+	dynasty = 8100320
+	culture = persian
+	rite = imami
+	1030.5.21 = { birth = yes }
+}
+8100321 = {
+	name = "Gabrielkouda"
+	dynasty = 8100321
+	culture = brazilian
+	rite = roman_rite
+	1034.11.10 = { birth = yes }
+}
+8100322 = {
+	name = "Carles"
+	dynasty = 8100322
+	culture = castilian
+	rite = roman_rite
+	1030.5.18 = { birth = yes }
+}
+8100323 = {
+	name = "Idris"
+	dynasty = 8100323
+	culture = maghrebi
+	rite = maliki
+	1043.7.6 = { birth = yes }
+}
+8100324 = {
+	name = "Ding_9F0E"
+	dynasty = 8100324
+	culture = han
+	rite = dhyana
+	1043.1.3 = { birth = yes }
+}
+8100325 = {
+	name = "Yong_7528"
+	dynasty = 8100325
+	culture = cantonese
+	rite = dhyana
+	1029.2.23 = { birth = yes }
+}
+8100326 = {
+	name = "Li_7ACB"
+	dynasty = 8100326
+	culture = cantonese
+	rite = dhyana
+	1026.6.21 = { birth = yes }
+}
+8100327 = {
+	name = "Jue_89C9"
+	female = yes
+	dynasty = 8100327
+	culture = xiang
+	rite = dhyana
+	1030.1.23 = { birth = yes }
+}
+8100328 = {
+	name = "Pu_6D66"
+	dynasty = 8100328
+	culture = han
+	rite = dhyana
+	1041.8.1 = { birth = yes }
+}
+8100329 = {
+	name = "Tianting_5929_633A"
+	dynasty = 8100329
+	culture = han
+	rite = dhyana
+	1042.1.4 = { birth = yes }
+}
+8100330 = {
+	name = "Yi_85DD"
+	dynasty = 8100330
+	culture = kazak
+	rite = hanafi
+	1032.7.22 = { birth = yes }
+}
+8100331 = {
+	name = "Baram"
+	dynasty = 8100331
+	culture = mel
+	rite = maliki
+	1032.12.24 = { birth = yes }
+}
+8100332 = {
+	name = "Praudharaya"
+	dynasty = 8100332
+	culture = bengali
+	rite = vaishnavism
+	1025.2.24 = { birth = yes }
+}
+8100333 = {
+	name = "Jayasimha"
+	dynasty = 8100333
+	culture = min
+	rite = dhyana
+	1039.11.16 = { birth = yes }
+}
+8100334 = {
+	name = "Ramachandra"
+	dynasty = 8100334
+	culture = dayak
+	rite = protestant_rite
+	1038.6.12 = { birth = yes }
+}
+8100335 = {
+	name = "Eustathios"
+	dynasty = 8100335
+	culture = carantanian
+	rite = roman_rite
+	1038.10.10 = { birth = yes }
+}
+8100336 = {
+	name = "Spytko"
+	dynasty = 8100336
+	culture = russian
+	rite = byzantine_rite
+	1036.6.21 = { birth = yes }
+}
+8100337 = {
+	name = "Raphail"
+	dynasty = 8100337
+	culture = bulgarian
+	rite = byzantine_rite
+	1018.12.6 = { birth = yes }
+}
+8100338 = {
+	name = "Herbert"
+	dynasty = 8100338
+	culture = swahili
+	rite = roman_rite
+	1021.11.17 = { birth = yes }
+}
+8100339 = {
+	name = "Leonor"
+	female = yes
+	dynasty = 8100339
+	culture = brazilian
+	rite = roman_rite
+	1040.8.17 = { birth = yes }
+}
+8100340 = {
+	name = "Sukhinpala"
+	dynasty = 8100340
+	culture = kashmiri
+	rite = hanafi
+	1032.3.27 = { birth = yes }
+}
+8100341 = {
+	name = "Louis"
+	dynasty = 8100341
+	culture = german
+	rite = roman_rite
+	1025.12.18 = { birth = yes }
+}
+8100342 = {
+	name = "Indrapal"
+	dynasty = 8100342
+	culture = sindhi
+	rite = maliki
+	1026.12.1 = { birth = yes }
+}
+8100343 = {
+	name = "Baghpala"
+	dynasty = 8100343
+	culture = gujarati
+	rite = maliki
+	1040.6.12 = { birth = yes }
+}
+8100344 = {
+	name = "Lebron"
+	dynasty = 8100344
+	culture = nguni
+	rite = protestant_rite
+	1035.5.6 = { birth = yes }
+}
+8100345 = {
+	name = "Bernard"
+	dynasty = 8100345
+	culture = french
+	rite = roman_rite
+	1033.2.1 = { birth = yes }
+}
+8100346 = {
+	name = "Miztli"
+	dynasty = 8100346
+	culture = mexican
+	rite = roman_rite
+	1032.5.12 = { birth = yes }
+}
+8100347 = {
+	name = "Jalil"
+	dynasty = 8100347
+	culture = bedouin
+	rite = rabbinism
+	1021.9.16 = { birth = yes }
+}
+8100348 = {
+	name = "Rong_5BB9"
+	dynasty = 8100348
+	culture = min
+	rite = dhyana
+	1027.1.9 = { birth = yes }
+}
+8100349 = {
+	name = "Zhuo_6FEF"
+	dynasty = 8100349
+	culture = han
+	rite = dhyana
+	1025.11.24 = { birth = yes }
+}
+8100350 = {
+	name = "Kuri"
+	dynasty = 8100350
+	culture = akan
+	rite = protestant_rite
+	1041.2.26 = { birth = yes }
+}
+8100351 = {
+	name = "Tezozomoc"
+	dynasty = 8100351
+	culture = mexican
+	rite = roman_rite
+	1030.7.6 = { birth = yes }
+}
+8100352 = {
+	name = "Salvador"
+	dynasty = 8100352
+	culture = brazilian
+	rite = roman_rite
+	1020.12.5 = { birth = yes }
+}
+8100353 = {
+	name = "Que_78BA"
+	dynasty = 8100353
+	culture = han
+	rite = dhyana
+	1028.11.24 = { birth = yes }
+}
+8100354 = {
+	name = "Iakov"
+	dynasty = 8100354
+	culture = georgian
+	rite = byzantine_rite
+	1032.10.22 = { birth = yes }
+}
+8100355 = {
+	name = "Matlatzincatzin"
+	dynasty = 8100355
+	culture = nordestino
+	rite = roman_rite
+	1037.11.8 = { birth = yes }
+}
+8100356 = {
+	name = "Wiley"
+	dynasty = 8100356
+	culture = tsonga
+	rite = roman_rite
+	1022.6.10 = { birth = yes }
+}
+8100357 = {
+	name = "Dhruva"
+	dynasty = 8100357
+	culture = viet
+	rite = dhyana
+	1025.2.25 = { birth = yes }
+}
+8100358 = {
+	name = "Akkadevi"
+	female = yes
+	dynasty = 8100358
+	culture = viet
+	rite = dhyana
+	1038.10.18 = { birth = yes }
+}
+8100359 = {
+	name = "Jalil"
+	dynasty = 8100359
+	culture = maghrebi
+	rite = maliki
+	1044.1.8 = { birth = yes }
+}
+8100360 = {
+	name = "Gazi"
+	dynasty = 8100360
+	culture = ethiopian
+	rite = ethiopian_rite
+	1024.3.25 = { birth = yes }
+}
+8100361 = {
+	name = "Ramakuta"
+	dynasty = 8100361
+	culture = tamil
+	rite = vaishnavism
+	1023.2.27 = { birth = yes }
+}
+8100362 = {
+	name = "Iyob"
+	dynasty = 8100362
+	culture = tamil
+	rite = vaishnavism
+	1038.10.22 = { birth = yes }
+}
+8100363 = {
+	name = "Berenguel"
+	dynasty = 8100363
+	culture = brazilian
+	rite = roman_rite
+	1042.11.17 = { birth = yes }
+}
+8100364 = {
+	name = "MiL_obrat"
+	dynasty = 8100364
+	culture = russian
+	rite = byzantine_rite
+	1044.8.13 = { birth = yes }
+}
+8100365 = {
+	name = "Aghlab"
+	dynasty = 8100365
+	culture = maghrebi
+	rite = maliki
+	1026.1.9 = { birth = yes }
+}
+8100366 = {
+	name = "Renjie_4EC1_5091"
+	dynasty = 8100366
+	culture = uyghur
+	rite = hanafi
+	1038.6.23 = { birth = yes }
+}
+8100367 = {
+	name = "Olli"
+	dynasty = 8100367
+	culture = amazonian
+	rite = protestant_rite
+	1029.7.21 = { birth = yes }
+}
+8100368 = {
+	name = "Uddharandeva"
+	dynasty = 8100368
+	culture = rajput
+	rite = vaishnavism
+	1042.7.2 = { birth = yes }
+}
+8100369 = {
+	name = "Puppadevi"
+	female = yes
+	dynasty = 8100369
+	culture = hindustani
+	rite = vaishnavism
+	1029.4.25 = { birth = yes }
+}
+8100370 = {
+	name = "Tlacaeleltzin"
+	dynasty = 8100370
+	culture = mexican
+	rite = roman_rite
+	1043.1.25 = { birth = yes }
+}
+8100371 = {
+	name = "Ioulianos"
+	dynasty = 8100371
+	culture = italian
+	rite = roman_rite
+	1028.8.20 = { birth = yes }
+}
+8100372 = {
+	name = "Gil"
+	dynasty = 8100372
+	culture = mexican
+	rite = roman_rite
+	1026.6.7 = { birth = yes }
+}
+8100373 = {
+	name = "Ganapatidev"
+	dynasty = 8100373
+	culture = telugu
+	rite = vaishnavism
+	1018.2.3 = { birth = yes }
+}
+8100374 = {
+	name = "Topiltzin"
+	dynasty = 8100374
+	culture = amazonian
+	rite = roman_rite
+	1041.4.22 = { birth = yes }
+}
+8100375 = {
+	name = "WiesL_aw"
+	dynasty = 8100375
+	culture = ukrainian
+	rite = byzantine_rite
+	1022.4.21 = { birth = yes }
+}
+8100376 = {
+	name = "Iacob"
+	dynasty = 8100376
+	culture = afro_brazilian
+	rite = roman_rite
+	1026.2.4 = { birth = yes }
+}
+8100377 = {
+	name = "Yuriy"
+	dynasty = 8100377
+	culture = russian
+	rite = byzantine_rite
+	1025.11.17 = { birth = yes }
+}
+8100378 = {
+	name = "Ingvar"
+	dynasty = 8100378
+	culture = russian
+	rite = byzantine_rite
+	1032.8.8 = { birth = yes }
+}
+8100379 = {
+	name = "Shimeng_5E2B_5B5F"
+	dynasty = 8100379
+	culture = sichuanese
+	rite = dhyana
+	1020.4.22 = { birth = yes }
+}
+8100380 = {
+	name = "Samuel"
+	dynasty = 8100380
+	culture = telugu
+	rite = vaishnavism
+	1023.7.20 = { birth = yes }
+}
+8100381 = {
+	name = "Kazimierz"
+	dynasty = 8100381
+	culture = polish
+	rite = roman_rite
+	1040.9.11 = { birth = yes }
+}
+8100382 = {
+	name = "Zao_85FB"
+	dynasty = 8100382
+	culture = han
+	rite = dhyana
+	1039.6.27 = { birth = yes }
+}
+8100383 = {
+	name = "Ji_8F2F"
+	dynasty = 8100383
+	culture = wu
+	rite = dhyana
+	1033.9.27 = { birth = yes }
+}
+8100384 = {
+	name = "nter"
+	dynasty = 8100384
+	culture = aussie
+	rite = roman_rite
+	1029.12.5 = { birth = yes }
+}
+8100385 = {
+	name = "Jun_6FEC"
+	dynasty = 8100385
+	culture = han
+	rite = dhyana
+	1020.1.24 = { birth = yes }
+}
+8100386 = {
+	name = "Yuanheng_5143_4EA8"
+	dynasty = 8100386
+	culture = han
+	rite = dhyana
+	1031.8.4 = { birth = yes }
+}
+8100387 = {
+	name = "Tunan_5716_5357"
+	dynasty = 8100387
+	culture = han
+	rite = dhyana
+	1042.9.5 = { birth = yes }
+}
+8100388 = {
+	name = "Yuyan_8207_8A00"
+	dynasty = 8100388
+	culture = han
+	rite = dhyana
+	1044.8.13 = { birth = yes }
+}
+8100389 = {
+	name = "Zhongwen_4EF2_6587"
+	dynasty = 8100389
+	culture = han
+	rite = dhyana
+	1030.8.7 = { birth = yes }
+}
+8100390 = {
+	name = "Sripadaraya"
+	dynasty = 8100390
+	culture = burmese
+	rite = theravada
+	1030.7.28 = { birth = yes }
+}
+8100391 = {
+	name = "Yaropolk"
+	dynasty = 8100391
+	culture = russian
+	rite = byzantine_rite
+	1031.1.20 = { birth = yes }
+}
+8100392 = {
+	name = "Cynosil"
+	dynasty = 8100392
+	culture = persian
+	rite = imami
+	1042.4.16 = { birth = yes }
+}
+8100393 = {
+	name = "Deyan_5FB7_8A00"
+	dynasty = 8100393
+	culture = han
+	rite = dhyana
+	1023.7.10 = { birth = yes }
+}
+8100394 = {
+	name = "Bikorom"
+	dynasty = 8100394
+	culture = kanuri
+	rite = maliki
+	1030.4.7 = { birth = yes }
+}
+8100395 = {
+	name = "Ziyou_5B50_6E38"
+	dynasty = 8100395
+	culture = han
+	rite = dhyana
+	1040.12.28 = { birth = yes }
+}
+8100396 = {
+	name = "Ju_741A"
+	dynasty = 8100396
+	culture = cantonese
+	rite = dhyana
+	1043.5.24 = { birth = yes }
+}
+8100397 = {
+	name = "Krishna"
+	dynasty = 8100397
+	culture = sichuanese
+	rite = dhyana
+	1019.11.5 = { birth = yes }
+}
+8100398 = {
+	name = "Cleveland"
+	dynasty = 8100398
+	culture = east_bantu
+	rite = shafii
+	1026.12.8 = { birth = yes }
+}
+8100399 = {
+	name = "Youxun_7531_8A13"
+	dynasty = 8100399
+	culture = han
+	rite = dhyana
+	1021.6.12 = { birth = yes }
+}
+8100400 = {
+	name = "Cuauhtl"
+	dynasty = 8100400
+	culture = mexican
+	rite = roman_rite
+	1025.2.11 = { birth = yes }
+}
+8100401 = {
+	name = "Guillem-JordA_"
+	dynasty = 8100401
+	culture = castilian
+	rite = roman_rite
+	1039.9.3 = { birth = yes }
+}
+8100402 = {
+	name = "Ying_81BA"
+	dynasty = 8100402
+	culture = han
+	rite = dhyana
+	1038.11.4 = { birth = yes }
+}
+8100403 = {
+	name = "Keshao_514B_7D39"
+	dynasty = 8100403
+	culture = han
+	rite = dhyana
+	1040.9.15 = { birth = yes }
+}
+8100404 = {
+	name = "Feng_8C50"
+	dynasty = 8100404
+	culture = sichuanese
+	rite = dhyana
+	1020.3.17 = { birth = yes }
+}
+8100405 = {
+	name = "Hummay"
+	dynasty = 8100405
+	culture = wolof
+	rite = maliki
+	1035.3.20 = { birth = yes }
+}
+8100406 = {
+	name = "Hume"
+	dynasty = 8100406
+	culture = hausa
+	rite = maliki
+	1037.12.9 = { birth = yes }
+}
+8100407 = {
+	name = "Renshi_4EC1_5E08"
+	dynasty = 8100407
+	culture = sichuanese
+	rite = dhyana
+	1022.8.28 = { birth = yes }
+}

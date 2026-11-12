@@ -412,13 +412,13 @@ zoroastrian_restore_high_priesthood_decision = { #Updated for FP3 by Ola
 		}
 		is_playable_character = yes
 		OR = {
-			faith ?= faith:zurvanism
+			OR = { faith ?= faith:zurvanism faith ?= faith:divine_cycle_faith }
 			faith ?= faith:mazdayasna
 			faith ?= faith:afridunism
 			faith ?= faith:urartuism
 			faith ?= faith:khurramism
 			faith ?= faith:mazdakism
-			faith ?= faith:khurmazta
+			OR = { faith ?= faith:khurmazta faith ?= faith:hermazta_faith }
 			faith ?= faith:gayomarthianism
 		}
 		is_ruler = yes

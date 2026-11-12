@@ -1,0 +1,386 @@
+﻿# Cyber Kings v3 (e13_faiths_spacers.py): main rites of the faiths in cyber_kings_v3_faiths.txt,
+# each a copy of the vanilla rite named in its comment.
+
+protestant_rite = { # copy of hussite_rite
+    name = protestant_rite
+    desc = protestant_rite_desc
+    faith = protestant_faith
+    convert = no
+
+    color = { 0.8 0.4 0.2 }
+    icon = christianity_chalice_01
+
+    tenets = {
+        tenet_communion
+        tenet_literalism
+        tenet_aniconism
+    }
+
+    doctrines = {
+		doctrine_no_head
+        doctrine_theocracy_lay_clergy
+        doctrine_pilgrimage_forbidden
+        doctrine_clerical_marriage_allowed
+        doctrine_monasticism_absent
+        special_doctrine_is_western_christian_faith
+    }
+}
+
+anglican_rite = { # copy of lollard_rite
+    name = anglican_rite
+    desc = anglican_rite_desc
+    faith = anglican_faith
+    convert = no
+
+    color = { 0.5 0.8 0.8 }
+    icon = christianity_lollard
+
+    tenets = {
+        tenet_pacifism
+        tenet_aniconism
+        tenet_literalism
+    }
+
+    doctrines = {
+		doctrine_temporal_head
+		doctrine_clerical_succession_temporal_appointment
+		doctrine_gender_equal
+		doctrine_clerical_gender_either
+        doctrine_theocracy_lay_clergy
+        doctrine_pilgrimage_forbidden
+        doctrine_clerical_marriage_allowed
+        doctrine_monasticism_absent
+        special_doctrine_is_western_christian_faith
+    }
+}
+
+latter_day_saints_rite = { # copy of adoptionist_rite
+    name = latter_day_saints_rite
+    desc = latter_day_saints_rite_desc
+    faith = latter_day_saints_faith
+
+    color = { 1.0 0.2 0.2 }
+    icon = fp2_adoptionist
+
+    tenets = {
+        tenet_religious_legal_pronouncements
+        tenet_literalism
+    }
+    tenet_selection_pair = {
+        requires_dlc_flag = by_god_alone
+        tenet = tenet_adoptionism
+        fallback_tenet = tenet_communion
+    }
+
+    doctrines = {
+        doctrine_pluralism_fundamentalist
+        special_doctrine_is_western_christian_faith
+    }
+}
+
+fundamentalist_rite = { # copy of paulician_rite
+    name = fundamentalist_rite
+    desc = fundamentalist_rite_desc
+    faith = fundamentalist_faith
+
+    color = { 0.6 0.1 0.4 }
+    icon = christianity_paulicanism
+
+    tenets = {
+        tenet_gnosticism
+        tenet_aniconism
+        tenet_unrelenting_faith
+    }
+
+    doctrines = {
+        doctrine_pluralism_fundamentalist
+        doctrine_clerical_function_recruitment
+        doctrine_pilgrimage_forbidden
+        doctrine_monasticism_absent
+        special_doctrine_is_eastern_christian_faith
+    }
+}
+
+non_denominational_rite = { # copy of waldensian_rite
+    name = non_denominational_rite
+    desc = non_denominational_rite_desc
+    faith = non_denominational_faith
+    convert = no
+
+    color = { 0.4 0.2 0.5 }
+    icon = christianity_waldensian
+
+    tenets = {
+        tenet_vows_of_poverty
+        tenet_mendicant_preachers
+        tenet_aniconism
+    }
+
+    doctrines = {
+        doctrine_pluralism_pluralistic
+        doctrine_theocracy_lay_clergy
+        doctrine_pilgrimage_forbidden
+        doctrine_monasticism_absent
+        special_doctrine_is_western_christian_faith
+    }
+}
+
+reaverism_rite = { # copy of norse_pagan
+	faith = reaverism_faith
+
+	color = { 0.4 0.4 0.4 }
+
+	tenets = {
+		tenet_warmonger
+		tenet_pursuit_of_power
+		tenet_sacrificial_ceremonies
+	}
+
+	doctrines = {
+		unreformed_faith_doctrine
+	}
+}
+
+retrogradism_rite = { # copy of finnish_pagan
+	faith = retrogradism_faith
+
+	color = { 0.5 0.5 0.0 }
+
+	tenets = {
+		tenet_sanctity_of_nature
+		tenet_communal_identity
+	}
+
+	doctrines = {
+		unreformed_faith_doctrine
+	}
+
+	tenet_selection_pair = {
+		requires_dlc_flag = all_under_heaven
+		tenet = tenet_takamin
+		fallback_tenet = tenet_ancestor_worship
+	}
+}
+
+cargo_cult_rite = { # copy of baltic_pagan
+	faith = cargo_cult_faith
+
+	color = { 0.6 0.4 0.3 }
+
+	tenets = {
+		tenet_ancestor_worship
+		tenet_ritual_celebrations
+		tenet_mendicant_preachers
+	}
+
+	doctrines = {
+		unreformed_faith_doctrine
+	}
+}
+
+ancestor_worship_rite = { # copy of bon
+	name = ancestor_worship_rite
+	desc = ancestor_worship_rite_desc
+	faith = ancestor_worship_faith
+
+	color = { 10 235 255 }
+	icon = bon
+
+	tenets = {
+		tenet_mountain_worship
+		tenet_esotericism
+		tenet_eastern_syncretism
+	}
+}
+
+gnoslam_rite = { # copy of druze
+	faith = gnoslam_faith
+
+	color = { 0.3 0.7 0.1 }
+
+	tenets = {
+		tenet_gnosticism
+		tenet_christian_syncretism
+		tenet_inner_journey
+	}
+
+	doctrines = {
+		doctrine_temporal_head
+		doctrine_theocracy_lay_clergy
+		doctrine_clerical_succession_temporal_appointment
+		doctrine_monogamy
+		doctrine_divorce_allowed
+		doctrine_adultery_women_crime
+		doctrine_adultery_men_crime
+		doctrine_witchcraft_shunned
+		doctrine_clerical_gender_either
+		doctrine_pilgrimage_encouraged
+	}
+}
+
+hermazta_rite = { # copy of khurmazta
+	faith = hermazta_faith
+
+	color = { 0.8 0.6 0.1 }
+
+	tenets = {
+		tenet_adaptive
+		tenet_ancestor_worship
+		tenet_communal_identity
+	}
+
+	doctrines = {
+		doctrine_polytheist
+		doctrine_spiritual_head
+		doctrine_pluralism_pluralistic
+	}
+}
+
+escudo_solar_rite = { # copy of magyar_pagan
+	faith = escudo_solar_faith
+
+	color = { 250 120 90 }
+
+	tenets = {
+		tenet_sun_worship
+		tenet_astrology
+		tenet_human_sacrifice
+	}
+
+	doctrines = {
+		unreformed_faith_doctrine
+	}
+}
+
+holy_serpent_rite = { # copy of sethianism
+	faith = holy_serpent_faith
+
+	color = { 0.8 0.6 0.4 }
+
+	tenets = {
+		tenet_communal_identity
+		tenet_esotericism
+		tenet_inner_journey
+	}
+
+	doctrines = {
+		doctrine_no_head
+	}
+}
+
+lunism_rite = { # copy of slavic_pagan
+	faith = lunism_faith
+
+	color = { 0.7 0.6 0.3 }
+
+	tenets = {
+		tenet_sanctity_of_nature
+		tenet_ritual_celebrations
+		tenet_communal_identity
+	}
+
+	doctrines = {
+		unreformed_faith_doctrine
+	}
+}
+
+animism_rite = { # copy of west_african_pagan
+	faith = animism_faith
+
+	color = { 0.8 0.35 0.0 }
+
+	tenets = {
+		tenet_adaptive
+		tenet_ancestor_worship
+		tenet_sanctity_of_nature
+	}
+
+	doctrines = {
+		west_african_unreformed_faith_doctrine
+	}
+}
+
+voyagism_rite = { # copy of zhengyi
+	faith = voyagism_faith
+
+	color = { 8 140 131 }
+
+	tenets = {
+		tenet_adaptive
+		tenet_esotericism
+		tenet_pursuit_of_knowledge
+	}
+
+	doctrines = {
+		doctrine_sacraments_central
+		doctrine_spiritual_head
+		doctrine_pluralism_righteous
+		doctrine_adultery_men_crime
+		doctrine_adultery_women_crime
+		doctrine_deviancy_crime
+		doctrine_clerical_function_taxation
+		doctrine_clerical_marriage_disallowed
+		doctrine_clerical_succession_spiritual_fixed_appointment
+	}
+}
+
+solarian_rite = { # copy of zun_pagan
+	faith = solarian_faith
+
+	color = { 0.9 1.0 0.0 }
+
+	tenets = {
+		tenet_unrelenting_faith
+		tenet_sun_worship
+		tenet_eastern_syncretism
+	}
+
+	doctrines = {
+		unreformed_faith_doctrine
+	}
+}
+
+divine_cycle_rite = { # copy of zurvanism
+	faith = divine_cycle_faith
+
+	color = { 0.6 0.7 0.2 }
+
+	tenets = {
+		tenet_divine_marriage
+		tenet_sun_worship
+		tenet_communal_identity
+	}
+
+	doctrines = {
+		doctrine_polygamy
+		doctrine_clerical_function_alms_and_pacification
+		doctrine_spiritual_head
+		doctrine_consanguinity_restricted
+	}
+}
+
+sikhism_rite = { # Cyber Kings v3 (e14)
+	faith = sikhism_faith
+	color = { 0.95 0.55 0.1 }
+	tenets = {
+		tenet_ritual_hospitality
+		tenet_communal_identity
+		tenet_inner_journey
+	}
+}
+
+kemetism_rite = { # Cyber Kings v3 (e17): copy of kushitism_pagan
+	faith = kemetism_faith
+
+	color = hsv { 0.15 1 0.7 }
+
+	tenets = {
+		tenet_esotericism
+		tenet_ancestor_worship
+		tenet_consolamentum
+	}
+
+	doctrines = {
+		unreformed_faith_doctrine
+	}
+}

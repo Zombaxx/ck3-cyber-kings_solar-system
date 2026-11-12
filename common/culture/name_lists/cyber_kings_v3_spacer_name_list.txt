@@ -1,0 +1,20 @@
+﻿# Cyber Kings v3 (e13_faiths_spacers.py): Spacer names (CK2 han-coded names + star/ship names)
+
+name_list_ck3_spacer = {
+	dynasty_names = {
+		dynn_ck3_spacer_oumuamua dynn_ck3_spacer_borisov dynn_ck3_spacer_proxima dynn_ck3_spacer_barnard dynn_ck3_spacer_voyager dynn_ck3_spacer_pioneer dynn_ck3_spacer_luyten dynn_ck3_spacer_gliese dynn_ck3_spacer_lalande dynn_ck3_spacer_tianwen dynn_ck3_spacer_shenzhou dynn_ck3_spacer_tiangong dynn_ck3_spacer_xuntian dynn_ck3_spacer_kuiper dynn_ck3_spacer_oort dynn_ck3_spacer_ross dynn_ck3_spacer_struve dynn_ck3_spacer_wolf
+	}
+	dynasty_of_location_prefix = "dynnp_of"
+	male_names = {
+		Xiang Wei Jun Hao Lian Kai Tian Yuan Chen Long Ming Zhi Ren Bo Feng Lei Rui Sheng Tao Zhen Orin Cass Altair Deneb Rigel Kepler Sirius Castor Pollux Arcturus Halley Tycho
+	}
+	female_names = {
+		Lan Mei Xing Yue Hua Ling Xia Yun Jing Qing Lyra Vega Nova Stella Celeste Mira Talia Electra Cassia Selene Aurora Juno Andromeda Carina Elara Ione Maia Phoebe
+	}
+	pat_grf_name_chance = 30
+	mat_grf_name_chance = 10
+	father_name_chance = 10
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 30
+	mother_name_chance = 10
+}

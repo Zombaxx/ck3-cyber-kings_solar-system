@@ -102,10 +102,10 @@ destroy_the_magi_decision = { #This allows a ruler with sufficient piety and con
 			triggered_desc = {
 				trigger = {
 					AND = {
-						religion = religion:zoroastrianism_religion
+						OR = { religion = religion:zoroastrianism_religion religion = religion:hermazta_religion religion = religion:divine_cycle_religion religion = religion:voyagism_religion }
 						OR = {
 							has_faith = faith:mazdakism
-							has_faith = faith:zurvanism 
+							OR = { has_faith = faith:zurvanism has_faith = faith:divine_cycle_faith } 
 						}
 					}
 				}
@@ -119,10 +119,10 @@ destroy_the_magi_decision = { #This allows a ruler with sufficient piety and con
 			triggered_desc = {
 				trigger = {
 					AND = {
-						religion = religion:zoroastrianism_religion
+						OR = { religion = religion:zoroastrianism_religion religion = religion:hermazta_religion religion = religion:divine_cycle_religion religion = religion:voyagism_religion }
 						OR = {
 							has_faith = faith:mazdakism
-							has_faith = faith:zurvanism 
+							OR = { has_faith = faith:zurvanism has_faith = faith:divine_cycle_faith } 
 						}
 					}
 				}
@@ -221,14 +221,14 @@ kindle_royal_fire_decision = {
 	sort_order = 90
 
 	is_shown = {
-		religion ?= religion:zoroastrianism_religion
+		OR = { religion ?= religion:zoroastrianism_religion religion ?= religion:hermazta_religion religion ?= religion:divine_cycle_religion religion ?= religion:voyagism_religion }
 		NOT = { has_character_modifier = fp3_royal_fire_modifier }		
 		is_playable_character = yes 
 	}
 
 	is_valid = {
 		highest_held_title_tier >= tier_kingdom
-		religion = religion:zoroastrianism_religion
+		OR = { religion = religion:zoroastrianism_religion religion = religion:hermazta_religion religion = religion:divine_cycle_religion religion = religion:voyagism_religion }
 		piety_level >= 3
 	}
 
@@ -265,7 +265,7 @@ kindle_royal_fire_decision = {
 	}
 
 	ai_potential = {
-		religion = religion:zoroastrianism_religion
+		OR = { religion = religion:zoroastrianism_religion religion = religion:hermazta_religion religion = religion:divine_cycle_religion religion = religion:voyagism_religion }
 		highest_held_title_tier >= tier_kingdom
 		NOR = {
 			has_trait = cynical 
@@ -298,7 +298,7 @@ fp3_embrace_zoroastrianism_decision = {
 		current_date <= 960.1.1
 		# Narratively, this decision is about embracing the faith of your ancestors over newer "modern" faiths
 		# Therefore, this decision should not be available to Zoroastrians looking to change their sect
-		NOT = { has_religion = religion:zoroastrianism_religion }
+		NOT = { OR = { has_religion = religion:zoroastrianism_religion has_religion = religion:hermazta_religion has_religion = religion:divine_cycle_religion has_religion = religion:voyagism_religion } }
 		culture ?= { has_cultural_pillar = heritage_iranian }
 	}
 
@@ -313,7 +313,7 @@ fp3_embrace_zoroastrianism_decision = {
 			current_date <= 960.1.1
 		}
 		culture = { has_cultural_pillar = heritage_iranian }
-		NOT = { has_religion = religion:zoroastrianism_religion }
+		NOT = { OR = { has_religion = religion:zoroastrianism_religion has_religion = religion:hermazta_religion has_religion = religion:divine_cycle_religion has_religion = religion:voyagism_religion } }
 	}
 
 	is_valid_showing_failures_only = {
@@ -322,7 +322,7 @@ fp3_embrace_zoroastrianism_decision = {
 			text = zoroastrian_county_tt
 			any_sub_realm_county = {
 				faith = {
-					religion = religion:zoroastrianism_religion
+					OR = { religion = religion:zoroastrianism_religion religion = religion:hermazta_religion religion = religion:divine_cycle_religion religion = religion:voyagism_religion }
 				}
 			}
 		}

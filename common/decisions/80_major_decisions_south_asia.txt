@@ -152,7 +152,7 @@ take_stewardship_of_the_sacred_river_decision = {
 
 	is_shown = {
 		highest_held_title_tier >= tier_duchy
-		religion ?= religion:hinduism_religion
+		OR = { religion ?= religion:hinduism_religion religion ?= religion:sikhism_religion }
 		#Only if the Hindu Mandala already has their capital in the area
 		trigger_if = {
 			limit = { government_has_flag = government_is_mandala }
@@ -250,7 +250,7 @@ take_stewardship_of_the_sacred_river_decision = {
 			}
 			every_independent_ruler = {
 				limit = {
-					religion = religion:hinduism_religion
+					OR = { religion = religion:hinduism_religion religion = religion:sikhism_religion }
 				}
 				trigger_event = {
 					id = south_asia.0012

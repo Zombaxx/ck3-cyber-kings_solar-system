@@ -1,0 +1,571 @@
+﻿# Cyber Kings: name lists for the Earth cultures v3 (e12_cultures.py)
+
+name_list_ck3_hispanic_american = {
+	dynasty_names = {
+		dynn_ck3_aguilar dynn_ck3_alvarado dynn_ck3_castillo dynn_ck3_castro dynn_ck3_contreras dynn_ck3_cordero dynn_ck3_cruz dynn_ck3_delgado dynn_ck3_dominguez dynn_ck3_echeverria dynn_ck3_espinoza dynn_ck3_estrada dynn_ck3_figueroa dynn_ck3_fuentes dynn_ck3_gallardo dynn_ck3_guerrero dynn_ck3_guzman dynn_ck3_herrera dynn_ck3_ibarra dynn_ck3_jimenez dynn_ck3_lozano dynn_ck3_maldonado dynn_ck3_medina dynn_ck3_mejia dynn_ck3_mendoza dynn_ck3_molina dynn_ck3_montoya dynn_ck3_morales dynn_ck3_navarro dynn_ck3_ochoa dynn_ck3_orozco dynn_ck3_ortega dynn_ck3_pacheco dynn_ck3_quintero dynn_ck3_ramirez dynn_ck3_reyes dynn_ck3_rios dynn_ck3_rojas dynn_ck3_salazar dynn_ck3_sandoval dynn_ck3_solis dynn_ck3_soto dynn_ck3_valdez dynn_ck3_vargas dynn_ck3_vega dynn_ck3_villanueva dynn_ck3_zamora dynn_ck3_zuniga
+	}
+	dynasty_of_location_prefix = "dynnp_of"
+	male_names = {
+		Alejandro Andres Angel Antonio Armando Arturo Carlos Cesar Cristian Daniel David Diego Eduardo Emilio Enrique Ernesto Esteban Felipe Fernando Francisco Gabriel Gerardo Gonzalo Guillermo Gustavo Hector Hugo Ignacio Javier Jesus Joaquin Jorge Jose Juan Julio Leonardo Luis Manuel Marco Mario Martin Mateo Mauricio Miguel Nicolas Oscar Pablo Pedro Rafael Ramon Raul Ricardo Roberto Rodrigo Ruben Salvador Santiago Sebastian Sergio Tomas Victor
+	}
+	female_names = {
+		Adriana Alejandra Alicia Ana Andrea Beatriz Carmen Carolina Catalina Claudia Cristina Daniela Diana Elena Esperanza Fernanda Gabriela Guadalupe Isabel Jimena Josefina Juana Julia Laura Lorena Lucia Luisa Marcela Margarita Maria Mariana Marisol Monica Natalia Paola Patricia Paula Pilar Raquel Rocio Rosa Sofia Teresa Valentina Valeria Veronica Ximena Yolanda
+	}
+	pat_grf_name_chance = 30
+	mat_grf_name_chance = 10
+	father_name_chance = 10
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 30
+	mother_name_chance = 10
+}
+
+name_list_ck3_brazilian = {
+	dynasty_names = {
+		dynn_ck3_almeida dynn_ck3_alves dynn_ck3_andrade dynn_ck3_araujo dynn_ck3_azevedo dynn_ck3_barbosa dynn_ck3_barros dynn_ck3_cardoso dynn_ck3_carvalho dynn_ck3_castro dynn_ck3_correia dynn_ck3_costa dynn_ck3_cunha dynn_ck3_dias dynn_ck3_duarte dynn_ck3_farias dynn_ck3_ferraz dynn_ck3_ferreira dynn_ck3_freitas dynn_ck3_gomes dynn_ck3_lima dynn_ck3_lopes dynn_ck3_machado dynn_ck3_martins dynn_ck3_melo dynn_ck3_mendes dynn_ck3_monteiro dynn_ck3_moraes dynn_ck3_moreira dynn_ck3_nascimento dynn_ck3_nogueira dynn_ck3_nunes dynn_ck3_oliveira dynn_ck3_pereira dynn_ck3_pinto dynn_ck3_ramos dynn_ck3_ribeiro dynn_ck3_rocha dynn_ck3_santos dynn_ck3_siqueira dynn_ck3_teixeira dynn_ck3_vasconcelos dynn_ck3_vieira
+	}
+	dynasty_of_location_prefix = "dynnp_of"
+	male_names = {
+		Afonso Alexandre Andre Antonio Arthur Bernardo Bruno Caio Carlos Daniel Davi Diogo Eduardo Enzo Fabio Felipe Fernando Francisco Gabriel Guilherme Gustavo Heitor Henrique Joao Joaquim Jorge Jose Leonardo Lucas Luiz Marcelo Marcos Mateus Miguel Murilo Otavio Paulo Pedro Rafael Renato Ricardo Roberto Rodrigo Samuel Sergio Thiago Tiago Vinicius Vitor Wagner
+	}
+	female_names = {
+		Adriana Alice Aline Amanda Ana Beatriz Bianca Bruna Camila Carolina Cecilia Clara Cristina Daniela Eduarda Fernanda Gabriela Helena Isabela Joana Julia Larissa Leticia Livia Lorena Luana Luisa Manuela Mariana Marina Natalia Patricia Rafaela Renata Sofia Tatiana Valentina Vitoria
+	}
+	pat_grf_name_chance = 30
+	mat_grf_name_chance = 10
+	father_name_chance = 10
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 30
+	mother_name_chance = 10
+}
+
+name_list_ck3_north_american = {
+	dynasty_names = {
+		dynn_ck3_anderson dynn_ck3_bailey dynn_ck3_barnes dynn_ck3_bell dynn_ck3_brooks dynn_ck3_campbell dynn_ck3_carter dynn_ck3_clarke dynn_ck3_cole dynn_ck3_cooper dynn_ck3_davidson dynn_ck3_dawson dynn_ck3_ellis dynn_ck3_fletcher dynn_ck3_foster dynn_ck3_fraser dynn_ck3_gibson dynn_ck3_graham dynn_ck3_grant dynn_ck3_hamilton dynn_ck3_harper dynn_ck3_hayes dynn_ck3_henderson dynn_ck3_hughes dynn_ck3_hunter dynn_ck3_jensen dynn_ck3_keller dynn_ck3_kennedy dynn_ck3_lambert dynn_ck3_macdonald dynn_ck3_marshall dynn_ck3_mckenzie dynn_ck3_mitchell dynn_ck3_morrison dynn_ck3_murray dynn_ck3_nelson dynn_ck3_parker dynn_ck3_porter dynn_ck3_reid dynn_ck3_robertson dynn_ck3_ross dynn_ck3_russell dynn_ck3_saunders dynn_ck3_stewart dynn_ck3_sullivan dynn_ck3_tucker dynn_ck3_walsh dynn_ck3_watson dynn_ck3_webster dynn_ck3_wright
+	}
+	dynasty_of_location_prefix = "dynnp_of"
+	male_names = {
+		Aaron Adam Andrew Anthony Austin Benjamin Brandon Brian Caleb Cameron Charles Christopher Cody Colin Connor Daniel David Dylan Eric Ethan Evan Gavin Gordon Graham Grant Gregory Hunter Ian Jack Jacob James Jason Jeffrey Jeremy Jonathan Joshua Justin Kevin Kyle Liam Logan Lucas Luke Mark Matthew Michael Nathan Nicholas Noah Owen Patrick Paul Ryan Scott Sean Stephen Thomas Timothy Tyler Wayne William
+	}
+	female_names = {
+		Abigail Alexis Alyssa Amanda Amber Amy Angela Ashley Brittany Brooke Chelsea Chloe Courtney Danielle Emily Emma Erin Hannah Heather Holly Jennifer Jessica Julie Kaitlyn Karen Katherine Kayla Kelly Kimberly Lauren Leah Lindsay Madison Megan Melissa Michelle Morgan Natalie Nicole Olivia Rachel Rebecca Sarah Shannon Stephanie Tiffany Victoria
+	}
+	pat_grf_name_chance = 30
+	mat_grf_name_chance = 10
+	father_name_chance = 10
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 30
+	mother_name_chance = 10
+}
+
+name_list_ck3_afro_american = {
+	dynasty_names = {
+		dynn_ck3_banks dynn_ck3_booker dynn_ck3_brown dynn_ck3_coleman dynn_ck3_davis dynn_ck3_dixon dynn_ck3_douglass dynn_ck3_freeman dynn_ck3_gaines dynn_ck3_hairston dynn_ck3_harris dynn_ck3_hayes dynn_ck3_hughes dynn_ck3_jackson dynn_ck3_jefferson dynn_ck3_johnson dynn_ck3_jones dynn_ck3_lewis dynn_ck3_mack dynn_ck3_moses dynn_ck3_owens dynn_ck3_parks dynn_ck3_robinson dynn_ck3_russell dynn_ck3_simmons dynn_ck3_tubman dynn_ck3_turner dynn_ck3_walker dynn_ck3_washington dynn_ck3_williams dynn_ck3_wright
+	}
+	dynasty_of_location_prefix = "dynnp_of"
+	male_names = {
+		Andre Anthony Antoine Brandon Calvin Cedric Clarence Cornelius Darius Darnell DeAndre Demetrius Derrick Desmond Dwayne Elijah Isaiah Jalen Jamal Jerome Jordan Josiah Kendrick Lamar Langston Malik Marcus Marvin Maurice Melvin Otis Reggie Rodney Terrance Thurgood Trevon Tyrone Xavier Zion
+	}
+	female_names = {
+		Aaliyah Alicia Angela Aretha Beyonce Brianna Coretta Destiny Diamond Ebony Essence Imani Jasmine Kiara Latoya Maya Monique Nia Octavia Precious Rosa Shanice Simone Tamika Tasha Toni Valerie Whitney Zora
+	}
+	pat_grf_name_chance = 30
+	mat_grf_name_chance = 10
+	father_name_chance = 10
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 30
+	mother_name_chance = 10
+}
+
+name_list_ck3_afro_brazilian = {
+	dynasty_names = {
+		dynn_ck3_assis dynn_ck3_bispo dynn_ck3_conceicao dynn_ck3_costa dynn_ck3_cruz dynn_ck3_damasceno dynn_ck3_espirito dynn_ck3_evangelista dynn_ck3_jesus dynn_ck3_nascimento dynn_ck3_paixao dynn_ck3_patrocinio dynn_ck3_reis dynn_ck3_sacramento dynn_ck3_santana dynn_ck3_silva dynn_ck3_sodre dynn_ck3_trindade dynn_ck3_ventura dynn_ck3_xavier
+	}
+	dynasty_of_location_prefix = "dynnp_of"
+	male_names = {
+		Abdias Adilson Ailton Benedito Carlinhos Claudio Cristovao Domingos Edson Elias Emerson Gilberto Ivan Jair Jefferson Joao Jorge Josue Leandro Luiz Marcos Milton Nilton Raimundo Reinaldo Romario Ronaldo Sebastiao Valdir Wellington
+	}
+	female_names = {
+		Adelaide Benedita Carolina Clementina Conceicao Dandara Elza Graca Ivone Jovelina Leci Luiza Margareth Marielle Nazare Neusa Rosangela Ruth Sueli Tereza Vanessa Zeze
+	}
+	pat_grf_name_chance = 30
+	mat_grf_name_chance = 10
+	father_name_chance = 10
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 30
+	mother_name_chance = 10
+}
+
+name_list_ck3_afro_caribbean = {
+	dynasty_names = {
+		dynn_ck3_alexis dynn_ck3_bazile dynn_ck3_benoit dynn_ck3_celestin dynn_ck3_charles dynn_ck3_dorsainvil dynn_ck3_estime dynn_ck3_etienne dynn_ck3_fignole dynn_ck3_florvil dynn_ck3_hyppolite dynn_ck3_joseph dynn_ck3_jeune dynn_ck3_lafontant dynn_ck3_louverture dynn_ck3_magloire dynn_ck3_petion dynn_ck3_pierre dynn_ck3_saint_fleur dynn_ck3_salomon dynn_ck3_vincent
+	}
+	dynasty_of_location_prefix = "dynnp_of"
+	male_names = {
+		Alexandre Andre Bertrand Christophe Dessalines Edner Emmanuel Fritz Gaston Henri Jacques Jean Joseph Lucien Marcel Michel Pierre Rene Toussaint Wilner Wyclef Yves
+	}
+	female_names = {
+		Adeline Anaise Catherine Claudette Edwige Fabienne Ginette Josette Lucienne Marie Marlene Mireille Nadege Paulette Rose Sandrine Solange Yolande
+	}
+	pat_grf_name_chance = 30
+	mat_grf_name_chance = 10
+	father_name_chance = 10
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 30
+	mother_name_chance = 10
+}
+
+name_list_ck3_kongo = {
+	dynasty_names = {
+		dynn_ck3_kanda dynn_ck3_kinlaza dynn_ck3_kimpanzu dynn_ck3_kivuzi dynn_ck3_lukeni dynn_ck3_mabiala dynn_ck3_makoko dynn_ck3_mbanza dynn_ck3_mpanzu dynn_ck3_ndamba dynn_ck3_nkuwu dynn_ck3_nsundi dynn_ck3_nzinga dynn_ck3_soyo dynn_ck3_vita
+	}
+	dynasty_of_location_prefix = "dynnp_of"
+	male_names = {
+		Afonso Alvaro Bakala Batantu Bitumba Diogo Kiala Kimpa Kinkela Lukeni Luvuezo Makaya Malanda Mavungu Mbemba Mpanzu Ndongala Nkanga Nlaza Nsaku Nsimba Nzinga Pedro Tsimba
+	}
+	female_names = {
+		Bukola Dimbu Kimpa Lemba Lusamba Malanda Mbuta Mpemba Muanza Ndona Nsimba Nzinga Tembo Zola
+	}
+	pat_grf_name_chance = 30
+	mat_grf_name_chance = 10
+	father_name_chance = 10
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 30
+	mother_name_chance = 10
+}
+
+name_list_ck3_luba = {
+	dynasty_names = {
+		dynn_ck3_ilunga dynn_ck3_kalala dynn_ck3_kasongo dynn_ck3_kazembe dynn_ck3_kongolo dynn_ck3_mbidi dynn_ck3_mwata dynn_ck3_mwine dynn_ck3_ngoy dynn_ck3_rund dynn_ck3_shimba dynn_ck3_yav
+	}
+	dynasty_of_location_prefix = "dynnp_of"
+	male_names = {
+		Ilunga Kabongo Kadiebwe Kalala Kalombo Kasongo Katanga Kazembe Kongolo Mbidi Muamba Mukenge Mulopwe Mutombo Ngoy Nkulu Shimba Tshibangu Yav
+	}
+	female_names = {
+		Bulanda Kamwanya Kapinga Mbuyi Mujinga Musau Mwamba Ngalula Ntumba Tshala
+	}
+	pat_grf_name_chance = 30
+	mat_grf_name_chance = 10
+	father_name_chance = 10
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 30
+	mother_name_chance = 10
+}
+
+name_list_ck3_mongo = {
+	dynasty_names = {
+		dynn_ck3_bokungu dynn_ck3_ekonda dynn_ck3_ikongo dynn_ck3_lokele dynn_ck3_mbandaka dynn_ck3_nkundo dynn_ck3_ntomba dynn_ck3_ohindo
+	}
+	dynasty_of_location_prefix = "dynnp_of"
+	male_names = {
+		Bofaya Bokanga Bolumbu Bomboko Bosenge Ekofo Elonga Iyolo Lokanga Lokwa Lonkama Mpongo Nkake Wenge
+	}
+	female_names = {
+		Bokete Bolanga Efenda Ifeko Iluka Nsombo Yakala Yoka
+	}
+	pat_grf_name_chance = 30
+	mat_grf_name_chance = 10
+	father_name_chance = 10
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 30
+	mother_name_chance = 10
+}
+
+name_list_ck3_rwandan = {
+	dynasty_names = {
+		dynn_ck3_abanyiginya dynn_ck3_abasindi dynn_ck3_abega dynn_ck3_abazigaba dynn_ck3_abakono dynn_ck3_abagesera dynn_ck3_abasinga dynn_ck3_abatsobe dynn_ck3_abahima
+	}
+	dynasty_of_location_prefix = "dynnp_of"
+	male_names = {
+		Bizimana Gihanga Habimana Hakizimana Kayitare Mibambwe Mugabo Musinga Mutara Mwami Ndahiro Ngabo Ntare Nzeyimana Rudahigwa Ruganzu Rwabugiri Uwimana Yuhi
+	}
+	female_names = {
+		Agasaro Ineza Kankazi Keza Mukamana Mukandori Nyiramongi Teta Umutoni Uwase
+	}
+	pat_grf_name_chance = 30
+	mat_grf_name_chance = 10
+	father_name_chance = 10
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 30
+	mother_name_chance = 10
+}
+
+name_list_ck3_ganda = {
+	dynasty_names = {
+		dynn_ck3_abalasangeye dynn_ck3_babiito dynn_ck3_ffumbe dynn_ck3_kasimba dynn_ck3_lugave dynn_ck3_mamba dynn_ck3_mbogo dynn_ck3_mpologoma dynn_ck3_nkima dynn_ck3_nsenene
+	}
+	dynasty_of_location_prefix = "dynnp_of"
+	male_names = {
+		Chwa Daudi Jjuuko Kabaka Kagulu Kamanya Kiggala Kimera Kintu Kyabaggu Mawanda Mukabya Mulondo Mutebi Mwanga Nakibinge Ssekabaka Ssemakookiro Suuna Tebandeke
+	}
+	female_names = {
+		Babirye Nakato Nalubega Nalwanga Nambi Namubiru Nanteza Nassozi Ndagire Nnalongo
+	}
+	pat_grf_name_chance = 30
+	mat_grf_name_chance = 10
+	father_name_chance = 10
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 30
+	mother_name_chance = 10
+}
+
+name_list_ck3_bemba = {
+	dynasty_names = {
+		dynn_ck3_bena dynn_ck3_chitimukulu dynn_ck3_kalonga dynn_ck3_mwamba dynn_ck3_nkula dynn_ck3_nsofu dynn_ck3_ng_ona dynn_ck3_shimumbi
+	}
+	dynasty_of_location_prefix = "dynnp_of"
+	male_names = {
+		Bwalya Chanda Chilufya Chileshe Chiti Chitimukulu Kabwe Kasonde Lupupa Mulenga Musonda Mutale Mwamba Mwansa Nkole Sampa
+	}
+	female_names = {
+		Bupe Chanda Chilufya Kalunga Mapalo Mumbi Musonda Mwila Nkandu Taonga
+	}
+	pat_grf_name_chance = 30
+	mat_grf_name_chance = 10
+	father_name_chance = 10
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 30
+	mother_name_chance = 10
+}
+
+name_list_ck3_tsonga = {
+	dynasty_names = {
+		dynn_ck3_baloyi dynn_ck3_chauke dynn_ck3_maluleke dynn_ck3_mathebula dynn_ck3_mavundza dynn_ck3_mabunda dynn_ck3_ngobeni dynn_ck3_nkuna dynn_ck3_shirinda dynn_ck3_valoyi
+	}
+	dynasty_of_location_prefix = "dynnp_of"
+	male_names = {
+		Basani Hlengani Hosi Khensani Mahlangu Mandla Muzila Ngungunyane Nyiko Rhulani Risimati Sibusiso Soshangane Tiyani Tsakani
+	}
+	female_names = {
+		Hlulani Khanyisa Ntsako Nyeleti Rirhandzu Tintswalo Tsakani Vutomi
+	}
+	pat_grf_name_chance = 30
+	mat_grf_name_chance = 10
+	father_name_chance = 10
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 30
+	mother_name_chance = 10
+}
+
+name_list_ck3_shona = {
+	dynasty_names = {
+		dynn_ck3_changamire dynn_ck3_chikanga dynn_ck3_gumbo dynn_ck3_hwata dynn_ck3_mbire dynn_ck3_moyo dynn_ck3_mutapa dynn_ck3_rozvi dynn_ck3_shava dynn_ck3_soko dynn_ck3_torwa dynn_ck3_zhou
+	}
+	dynasty_of_location_prefix = "dynnp_of"
+	male_names = {
+		Chaminuka Chidzidzi Chiwara Farai Gutu Kudzai Mapondera Mbuya Mukombwe Munyaradzi Mutapa Mutota Nehanda Nyatsimba Rufaro Sekuru Tafadzwa Tatenda Tendai
+	}
+	female_names = {
+		Chipo Fadzai Ngoni Nyasha Rumbidzai Rutendo Ruvimbo Tariro Vimbai Yeukai
+	}
+	pat_grf_name_chance = 30
+	mat_grf_name_chance = 10
+	father_name_chance = 10
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 30
+	mother_name_chance = 10
+}
+
+name_list_ck3_nguni = {
+	dynasty_names = {
+		dynn_ck3_buthelezi dynn_ck3_dlamini dynn_ck3_khumalo dynn_ck3_mabhida dynn_ck3_mkhize dynn_ck3_mthethwa dynn_ck3_ndlovu dynn_ck3_ndwandwe dynn_ck3_ngcobo dynn_ck3_ngubane dynn_ck3_sithole dynn_ck3_tshawe dynn_ck3_zulu
+	}
+	dynasty_of_location_prefix = "dynnp_of"
+	male_names = {
+		Bhambatha Cetshwayo Dingane Dinuzulu Hintsa Langalibalele Lobengula Maqoma Mpande Mzilikazi Ndaba Ngqika Phalo Sandile Senzangakhona Shaka Sobhuza Thembinkosi Zwide
+	}
+	female_names = {
+		Mkabayi Mnkabayi Nandi Nomalanga Nomsa Nomvula Nosipho Thandeka Thandiwe Zanele
+	}
+	pat_grf_name_chance = 30
+	mat_grf_name_chance = 10
+	father_name_chance = 10
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 30
+	mother_name_chance = 10
+}
+
+name_list_ck3_sotho_tswana = {
+	dynasty_names = {
+		dynn_ck3_bakwena dynn_ck3_bangwato dynn_ck3_bataung dynn_ck3_bafokeng dynn_ck3_barolong dynn_ck3_batlokwa dynn_ck3_koena dynn_ck3_masopha dynn_ck3_pedi dynn_ck3_taung
+	}
+	dynasty_of_location_prefix = "dynnp_of"
+	male_names = {
+		Bathoen Kgama Kgosi Lerothodi Letsie Mohlomi Molapo Moorosi Moshoeshoe Motlotlehi Mpho Sechele Sekhukhune Seretse Thabo Tlali Tshepo
+	}
+	female_names = {
+		Dineo Kgomotso Lerato Lesedi Mamohato Mpho Naledi Palesa Refilwe Tumelo
+	}
+	pat_grf_name_chance = 30
+	mat_grf_name_chance = 10
+	father_name_chance = 10
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 30
+	mother_name_chance = 10
+}
+
+name_list_ck3_ovambo = {
+	dynasty_names = {
+		dynn_ck3_aambo dynn_ck3_aandonga dynn_ck3_aakwanyama dynn_ck3_aakwambi dynn_ck3_aangandjera dynn_ck3_aakwaluudhi dynn_ck3_aambalantu
+	}
+	dynasty_of_location_prefix = "dynnp_of"
+	male_names = {
+		Haimbili Iipumbu Mandume Mvula Ndeitunga Ngula Nehale Shikongo Shilongo Tuhafeni Uushona
+	}
+	female_names = {
+		Ndapewa Ndeshipanda Nelao Ndinelao Selma Tangeni Taimi
+	}
+	pat_grf_name_chance = 30
+	mat_grf_name_chance = 10
+	father_name_chance = 10
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 30
+	mother_name_chance = 10
+}
+
+name_list_ck3_ovimbundu = {
+	dynasty_names = {
+		dynn_ck3_bailundo dynn_ck3_bie dynn_ck3_chiaka dynn_ck3_galangue dynn_ck3_huambo dynn_ck3_kakonda dynn_ck3_ndulu dynn_ck3_wambu
+	}
+	dynasty_of_location_prefix = "dynnp_of"
+	male_names = {
+		Chingangu Ekuikui Kalandula Katiavala Kayaya Kulembe "Mutu-ya-Kevela" Ndunduma Njamba Sachilombo Tchiyaka Vilinga
+	}
+	female_names = {
+		Chilombo Esperanca Kandimba Kanjila Nangombe Ndalu
+	}
+	pat_grf_name_chance = 30
+	mat_grf_name_chance = 10
+	father_name_chance = 10
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 30
+	mother_name_chance = 10
+}
+
+name_list_ck3_nilotic = {
+	dynasty_names = {
+		dynn_ck3_agar dynn_ck3_bor dynn_ck3_kipsigis dynn_ck3_luo dynn_ck3_maasai dynn_ck3_nandi dynn_ck3_ngok dynn_ck3_padang dynn_ck3_rek dynn_ck3_turkana
+	}
+	dynasty_of_location_prefix = "dynnp_of"
+	male_names = {
+		Achieng Akol Bol Deng Garang Juuk Kipchoge Kiprop Lokoro Majok Makuei Malual Mayen Odhiambo Ochieng Okoth Onyango Otieno Owino Ruto
+	}
+	female_names = {
+		Achieng Adhiambo Akinyi Akuol Atieno Chebet Jepkosgei Nyandeng Nyibol Wanjiru
+	}
+	pat_grf_name_chance = 30
+	mat_grf_name_chance = 10
+	father_name_chance = 10
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 30
+	mother_name_chance = 10
+}
+
+name_list_ck3_oromo = {
+	dynasty_names = {
+		dynn_ck3_arsi dynn_ck3_barentu dynn_ck3_borana dynn_ck3_guji dynn_ck3_jimma dynn_ck3_karrayyu dynn_ck3_leqa dynn_ck3_macha dynn_ck3_tulama dynn_ck3_wallaga
+	}
+	dynasty_of_location_prefix = "dynnp_of"
+	male_names = {
+		Abba Abdissa Bekele Dawit Fikru Gemechu Girma Gudina Jawar Kebede Lemma Merga Tadesse Tolosa Tufa
+	}
+	female_names = {
+		Ayantu Chaltu Gelane Hawi Lensa Meseret Obsitu Tigist
+	}
+	pat_grf_name_chance = 30
+	mat_grf_name_chance = 10
+	father_name_chance = 10
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 30
+	mother_name_chance = 10
+}
+
+name_list_ck3_cameroonian = {
+	dynasty_names = {
+		dynn_ck3_bamoun dynn_ck3_bamileke dynn_ck3_bassa dynn_ck3_beti dynn_ck3_duala dynn_ck3_ewondo dynn_ck3_fulbe dynn_ck3_kotoko dynn_ck3_tikar
+	}
+	dynasty_of_location_prefix = "dynnp_of"
+	male_names = {
+		Achidi Alim Ebai Ekane Fotso Kamga Mbah Ndjock Nfor Njoya Nkongho Nsangou Tabi Tchami Tchouta Zang
+	}
+	female_names = {
+		Ayuk Fonkem Manyi Mbah Ngo Ngum Nkeng
+	}
+	pat_grf_name_chance = 30
+	mat_grf_name_chance = 10
+	father_name_chance = 10
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 30
+	mother_name_chance = 10
+}
+
+name_list_ck3_ubangian = {
+	dynasty_names = {
+		dynn_ck3_azande dynn_ck3_banda dynn_ck3_gbaya dynn_ck3_mbaka dynn_ck3_ngbandi dynn_ck3_sara dynn_ck3_yakoma dynn_ck3_zande
+	}
+	dynasty_of_location_prefix = "dynnp_of"
+	male_names = {
+		Abel Bamba Gbazi Kette Mbaye Ngaragba Ngouandji Samba Sembe Yakete Yassi Zinga
+	}
+	female_names = {
+		Elisabeth Ngouembe Yassi Zarambaud
+	}
+	pat_grf_name_chance = 30
+	mat_grf_name_chance = 10
+	father_name_chance = 10
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 30
+	mother_name_chance = 10
+}
+
+name_list_ck3_malagasy = {
+	dynasty_names = {
+		dynn_ck3_andriana dynn_ck3_antaimoro dynn_ck3_betsileo dynn_ck3_betsimisaraka dynn_ck3_merina dynn_ck3_sakalava dynn_ck3_tanala dynn_ck3_zafimaniry
+	}
+	dynasty_of_location_prefix = "dynnp_of"
+	male_names = {
+		Andriamanelo Andrianampoinimerina Andriantsoly Lahy Radama Rainilaiarivony Rakoto Ralambo Randria Rasoa Ravelo Tsiranana
+	}
+	female_names = {
+		Hanitra Lalao Ranavalona Rasoherina Rasoanaivo Soa Voahangy Zo
+	}
+	pat_grf_name_chance = 30
+	mat_grf_name_chance = 10
+	father_name_chance = 10
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 30
+	mother_name_chance = 10
+}
+
+name_list_ck3_maya = {
+	dynasty_names = {
+		dynn_ck3_balam dynn_ck3_canul dynn_ck3_chi dynn_ck3_cocom dynn_ck3_dzib dynn_ck3_ek dynn_ck3_itza dynn_ck3_kanul dynn_ck3_kumul dynn_ck3_may dynn_ck3_pech dynn_ck3_tun dynn_ck3_tutul dynn_ck3_uc dynn_ck3_xiu
+	}
+	dynasty_of_location_prefix = "dynnp_of"
+	male_names = {
+		Ahau Balam Chac Chan Ek Hunahpu Itzam Kan Kinich Kukulkan Nachi Pakal Tutul Uc Xbalanque Yax Zac
+	}
+	female_names = {
+		Ixchel Ixquic Kanal Nikte Sak Xochi Yaxkin Zazil
+	}
+	pat_grf_name_chance = 30
+	mat_grf_name_chance = 10
+	father_name_chance = 10
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 30
+	mother_name_chance = 10
+}
+
+name_list_ck3_andean = {
+	dynasty_names = {
+		dynn_ck3_apaza dynn_ck3_ccori dynn_ck3_condori dynn_ck3_huaman dynn_ck3_mamani dynn_ck3_quispe dynn_ck3_titu dynn_ck3_tupa dynn_ck3_yupanqui dynn_ck3_huanca dynn_ck3_choque dynn_ck3_ticona
+	}
+	dynasty_of_location_prefix = "dynnp_of"
+	male_names = {
+		Amaru Apu Atau Cusi Huaman Illa Inti Kuntur Mayta Pachacuti Puma Rumi Sinchi Tupac Waman Wayna Yupanqui
+	}
+	female_names = {
+		Asiri Chaska Inkill Killa Mama Nina Ocllo Qori Sisa Sumaq Yupa
+	}
+	pat_grf_name_chance = 30
+	mat_grf_name_chance = 10
+	father_name_chance = 10
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 30
+	mother_name_chance = 10
+}
+
+name_list_ck3_amazonian = {
+	dynasty_names = {
+		dynn_ck3_ashaninka dynn_ck3_kaiapo dynn_ck3_mundurucu dynn_ck3_tikuna dynn_ck3_tukano dynn_ck3_xavante dynn_ck3_yanomami
+	}
+	dynasty_of_location_prefix = "dynnp_of"
+	male_names = {
+		Aruak Bepkoroti Davi Kaiapo Kamaiura Paiakan Raoni Tukano Tupa Uirapuru Yawa
+	}
+	female_names = {
+		Arara Jaci Moema Potira Tainara Yara
+	}
+	pat_grf_name_chance = 30
+	mat_grf_name_chance = 10
+	father_name_chance = 10
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 30
+	mother_name_chance = 10
+}
+
+name_list_ck3_guarani = {
+	dynasty_names = {
+		dynn_ck3_arandu dynn_ck3_kaiowa dynn_ck3_mbya dynn_ck3_nandeva dynn_ck3_pai dynn_ck3_tavytera
+	}
+	dynasty_of_location_prefix = "dynnp_of"
+	male_names = {
+		Arapoty Arandu Ava Chiriguano Guaracy Jaguarete Nandu Pira Sepe Tupa Yvy
+	}
+	female_names = {
+		Ara Jasy Kerana Mborayhu Panambi Yvoty
+	}
+	pat_grf_name_chance = 30
+	mat_grf_name_chance = 10
+	father_name_chance = 10
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 30
+	mother_name_chance = 10
+}
+
+name_list_ck3_first_nations = {
+	dynasty_names = {
+		dynn_ck3_anishinaabe dynn_ck3_cree dynn_ck3_dene dynn_ck3_haida dynn_ck3_haudenosaunee dynn_ck3_mohawk dynn_ck3_ojibwe dynn_ck3_salish dynn_ck3_tlingit
+	}
+	dynasty_of_location_prefix = "dynnp_of"
+	male_names = {
+		Ahanu Chogan Dakota Elan Hiamovi Kanen Lonan Makwa Nakoma Odakota Sakima Tecumseh Wapi
+	}
+	female_names = {
+		Aiyana Ayasha Halona Kateri Leotie Nadie Nita Tala Wenona
+	}
+	pat_grf_name_chance = 30
+	mat_grf_name_chance = 10
+	father_name_chance = 10
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 30
+	mother_name_chance = 10
+}
+
+name_list_ck3_inuit = {
+	dynasty_names = {
+		dynn_ck3_akeeagok dynn_ck3_angnakak dynn_ck3_arnaquq dynn_ck3_ipeelee dynn_ck3_kunuk dynn_ck3_nungaq dynn_ck3_qamaniq dynn_ck3_tagornak dynn_ck3_tulugarjuk
+	}
+	dynasty_of_location_prefix = "dynnp_of"
+	male_names = {
+		Aalasi Aipili Akiak Amaruq Anori Apak Atanarjuat Inuk Kallik Kiviuq Nanuq Nuka Pitseolak Qaqqiq Siku Tagak Tulugaq Uluk
+	}
+	female_names = {
+		Aasiva Aviaja Ivalu Kallista Nivi Pana Qillaq Sedna Suka Tiva Uki
+	}
+	pat_grf_name_chance = 30
+	mat_grf_name_chance = 10
+	father_name_chance = 10
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 30
+	mother_name_chance = 10
+}
+
+name_list_ck3_first_peoples = {
+	dynasty_names = {
+		dynn_ck3_arrernte dynn_ck3_gadigal dynn_ck3_kaurna dynn_ck3_noongar dynn_ck3_pitjantjatjara dynn_ck3_yolngu dynn_ck3_yorta
+	}
+	dynasty_of_location_prefix = "dynnp_of"
+	male_names = {
+		Bennelong Burrumbeet Jandamarra Kurri Mundara Pemulwuy Tjilpi Wiradjuri Yagan Yarran
+	}
+	female_names = {
+		Bunya Kirra Marlee Mirri Truganini Yindi
+	}
+	pat_grf_name_chance = 30
+	mat_grf_name_chance = 10
+	father_name_chance = 10
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 30
+	mother_name_chance = 10
+}

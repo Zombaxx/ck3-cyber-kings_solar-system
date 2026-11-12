@@ -1,6 +1,6 @@
 ﻿# ---- CK2 regions carried over ----
 world_empire0009 = {
-	duchies = { d_duchy0007 d_duchy0047 d_duchy0060 d_duchy0031 d_duchy0027 d_duchy0037 d_duchy0016 d_duchy0040 d_duchy0009 }
+	duchies = { d_duchy0047 d_duchy0007 d_magellan_and_the_chilean_antarctic d_duchy0060 d_santa_fe d_duchy0031 d_duchy0037 d_duchy0040 d_duchy0009 d_ucayali d_amazonas d_duchy0016 }
 }
 world_empire0024 = {
 	duchies = { d_duchy0024 }
@@ -9,7 +9,7 @@ world_empire0041 = {
 	duchies = { d_duchy0026 d_duchy0052 d_duchy0076 d_duchy0077 d_duchy0033 d_duchy0041 }
 }
 world_empire0046 = {
-	duchies = { d_duchy0019 d_duchy0042 d_central_america d_duchy0074 d_belize d_panama d_duchy0120 d_duchy0046 }
+	duchies = { d_duchy0019 d_duchy0046 d_bolivar d_antioquia d_duchy0120 d_apure d_casanare d_panama d_central_america d_tamaulipas d_chiapas d_belize d_campeche d_duchy0042 d_duchy0074 }
 }
 world_empire0048 = {
 	duchies = { d_duchy0044 d_duchy0135 d_duchy0156 d_duchy0090 d_duchy0096 d_duchy0072 d_duchy0088 d_duchy0099 d_duchy0143 d_duchy0171 d_duchy0174 d_duchy0118 d_duchy0012 d_duchy0048 }
@@ -18,7 +18,7 @@ world_empire0056 = {
 	duchies = { d_duchy0108 d_duchy0187 d_duchy0232 d_duchy0021 d_duchy0119 d_duchy0186 d_duchy0218 d_duchy0278 d_duchy0287 d_duchy0330 d_duchy0056 }
 }
 world_empire0181 = {
-	duchies = { d_duchy0080 d_duchy0131 d_austin d_duchy0126 d_duchy0192 d_duchy0226 d_duchy0233 d_duchy0277 d_duchy0161 d_norcal d_duchy0289 d_duchy0299 d_duchy0345 d_duchy0245 d_duchy0312 d_duchy0349 d_sierras d_colorado d_northern_plains d_central_plains d_north_texas }
+	duchies = { d_austin d_duchy0126 d_duchy0192 d_duchy0226 d_duchy0233 d_duchy0161 d_norcal d_duchy0312 d_duchy0349 d_sierras d_colorado d_northern_plains d_central_plains d_north_texas d_duchy0345 d_duchy0299 d_duchy0289 d_calgary d_duchy0245 d_duchy0277 d_duchy0322 d_duchy0131 d_coahuila d_durango d_duchy0080 }
 }
 world_empire0188 = {
 	duchies = { d_duchy0188 }
@@ -27,13 +27,13 @@ world_empire0203 = {
 	duchies = { d_duchy0132 d_duchy0139 d_duchy0151 d_duchy0172 d_duchy0222 d_duchy0129 d_duchy0203 }
 }
 world_empire0223 = {
-	duchies = { d_duchy0091 d_duchy0122 d_duchy0162 d_duchy0196 d_duchy0223 }
+	duchies = { d_duchy0162 d_beni d_villavicencio d_duchy0122 d_duchy0091 d_piaui d_duchy0196 d_duchy0223 }
 }
 world_united_states = {
-	duchies = { d_florida d_duchy0198 d_nashville d_duchy0239 d_duchy0291 d_duchy0244 d_chesapeake_bay d_duchy0272 d_ohio d_michigan d_northern_new_england d_southern_new_england }
+	duchies = { d_florida d_duchy0198 d_nashville d_duchy0239 d_duchy0244 d_chesapeake_bay d_duchy0272 d_ohio d_michigan d_northern_new_england d_southern_new_england }
 }
 world_latin_america = {
-	duchies = { d_duchy0106 d_rio d_duchy0167 d_duchy0234 d_duchy0243 d_duchy0247 d_duchy0276 }
+	duchies = { d_rio_grande_do_sul d_duchy0106 d_mato_grosso_do_sul d_santa_catarina d_goias d_campo_grande d_parana d_mato_grosso d_duchy0167 d_rio d_duchy0276 d_bahia d_duchy0247 d_ceara d_duchy0243 d_irece d_duchy0234 }
 }
 world_empire0302 = {
 	duchies = { d_duchy0302 }
@@ -45,7 +45,7 @@ world_empire0333 = {
 	duchies = { d_duchy0333 }
 }
 world_empire0350 = {
-	duchies = { d_toronto d_duchy0320 d_duchy0322 d_duchy0361 d_duchy0359 d_duchy0350 }
+	duchies = { d_duchy0350 d_duchy0361 d_longueuil d_duchy0320 d_toronto d_richmond_hill d_duchy0291 }
 }
 world_empire0351 = {
 	duchies = { d_duchy0351 }
@@ -57,10 +57,10 @@ world_empire0383 = {
 	duchies = { d_duchy0383 }
 }
 world_empire0393 = {
-	duchies = { d_duchy0373 d_duchy0413 d_duchy0389 d_duchy0392 d_duchy0440 d_duchy0447 d_duchy0393 }
+	duchies = { d_duchy0389 d_duchy0413 d_duchy0447 }
 }
 world_empire0454 = {
-	duchies = { d_duchy0422 d_duchy0423 d_duchy0424 d_duchy0454 }
+	duchies = { d_duchy0424 d_duchy0454 d_bechar d_kayes d_duchy0422 d_kaffrine d_hodh_ech_chargui }
 }
 world_empire0504 = {
 	duchies = { d_al_alrd d_duchy0428 d_duchy0478 d_duchy0495 d_duchy0510 d_duchy0525 d_duchy0551 d_duchy0467 d_duchy0417 }
@@ -69,25 +69,25 @@ world_empire0513 = {
 	duchies = { d_duchy0253 d_duchy0314 d_duchy0338 d_duchy0371 d_duchy0366 d_duchy0427 d_duchy0429 d_duchy0432 d_duchy0397 d_duchy0407 d_duchy0489 d_duchy0438 d_duchy0430 d_duchy0441 d_new_tehran d_duchy0485 d_duchy0541 d_duchy0553 d_duchy0569 d_duchy0517 d_duchy0497 d_duchy0500 d_duchy0501 d_duchy0529 d_duchy0524 d_duchy0463 d_duchy0499 d_duchy0503 d_duchy0567 d_duchy0513 }
 }
 world_european_union = {
-	duchies = { d_ck_occitania d_duchy0456 d_duchy0479 d_duchy0480 d_duchy0464 d_duchy0506 d_duchy0599 d_duchy0624 d_duchy0635 d_france d_duchy0558 d_duchy0596 d_duchy0530 }
+	duchies = { d_bavaria d_hesse d_duchy0530 d_lower_austria d_lower_saxony d_duchy0558 d_duchy0456 d_duchy0480 d_duchy0479 d_duchy0464 d_duchy0506 d_albacete d_badajoz d_duchy0596 d_chernihiv d_odessa d_central_russia d_volga d_lviv d_dnipropetrovsk d_duchy0599 d_voronezh d_northwestern d_duchy0635 d_masovian_voivodeship d_duchy0624 d_duchy0634 d_ck_occitania d_france d_marne d_saone_et_loire }
 }
 world_empire0531 = {
 	duchies = { d_duchy0531 }
 }
 world_empire0560 = {
-	duchies = { d_duchy0425 d_duchy0476 d_duchy0507 d_duchy0544 d_duchy0560 }
+	duchies = { d_duchy0544 d_worodougou d_duchy0507 d_bas_sassandra d_duchy0476 d_duchy0425 d_northern_ghana d_gnagna d_duchy0423 d_duchy0580 }
 }
 world_empire0604 = {
-	duchies = { d_duchy0548 d_duchy0577 d_duchy0594 d_duchy0600 d_rome d_duchy0526 d_duchy0595 d_duchy0580 d_duchy0572 d_duchy0603 d_duchy0620 d_duchy0601 d_duchy0616 d_alexandria d_duchy0638 d_cairo d_duchy0622 d_duchy0615 d_duchy0625 d_duchy0666 d_duchy0702 d_duchy0736 d_duchy0777 d_duchy0645 d_duchy0675 d_mecca d_duchy0700 d_duchy0739 d_duchy0743 d_duchy0764 d_duchy0704 d_istanbul }
+	duchies = { d_duchy0594 d_korce d_duchy0600 d_niger_state d_bauchi_state d_duchy0572 d_benue_state d_zinder d_western_equatoria d_duchy0645 d_duchy0625 d_duchy0666 d_mersin d_duchy0616 d_istanbul d_duchy0622 d_duchy0595 d_mizdah d_duchy0526 d_duchy0620 d_duchy0601 d_duchy0603 d_niari d_cairo d_alexandria d_esna d_oromia d_somali d_duchy0777 d_duchy0702 d_duchy0736 d_manyara d_rift_valley d_duchy0638 d_turkmenistan d_duchy0675 d_sistan_and_baluchestan d_iraq d_fars d_duchy0704 d_duchy0743 d_eastern_saudi_arabia d_duchy0739 d_mecca d_duchy0764 d_duchy0700 d_duchy0577 d_rome d_cuneo d_duchy0548 }
 }
 world_empire0711 = {
 	duchies = { d_duchy0711 }
 }
 world_empire0717 = {
-	duchies = { d_duchy0534 d_duchy0563 d_duchy0570 d_duchy0590 d_duchy0633 d_duchy0621 d_duchy0634 d_duchy0646 d_duchy0672 d_duchy0699 d_duchy0665 d_duchy0670 d_duchy0678 d_duchy0694 d_duchy0785 d_duchy0715 d_duchy0772 d_duchy0775 d_duchy0793 d_duchy0815 d_duchy0823 d_duchy0839 d_duchy0844 d_duchy0865 d_duchy0797 d_duchy0816 d_duchy0688 d_duchy0716 d_duchy0742 d_duchy0763 d_duchy0717 }
+	duchies = { d_duchy0534 d_duchy0563 d_duchy0570 d_northern_savonia d_duchy0633 d_duchy0590 d_perm d_duchy0621 d_duchy0742 d_kyzylorda d_duchy0672 d_duchy0665 d_duchy0646 d_duchy0699 d_duchy0772 d_duchy0694 d_duchy0793 d_duchy0716 d_duchy0688 d_duchy0775 d_duchy0717 d_duchy0823 d_northwest_china d_hohhot d_north_china d_ordos d_duchy0815 d_liaoning d_duchy0844 d_hebei d_shanxi d_heilongjiang d_duchy0797 d_daqing d_dingxi d_duchy0839 d_xinjiang d_kashgar d_duchy0816 d_guolemude d_duchy0763 d_duchy0865 d_north_gyeongsang }
 }
 world_empire0750 = {
-	duchies = { d_duchy0648 d_duchy0701 d_duchy0734 d_duchy0759 d_duchy0803 d_duchy0849 d_duchy0669 d_duchy0713 d_duchy0778 d_duchy0750 }
+	duchies = { d_duchy0648 d_duchy0701 d_north_kivu d_uige d_malanje d_duchy0669 d_huila d_duchy0750 d_free_state d_eastern_cape d_limpopo d_duchy0713 d_duchy0778 d_duchy0759 d_duchy0734 d_niassa d_duchy0803 d_duchy0849 d_tabora }
 }
 world_empire0786 = {
 	duchies = { d_duchy0657 d_duchy0685 d_duchy0741 d_duchy0705 d_duchy0732 d_duchy0784 d_duchy0810 d_duchy0835 d_duchy0786 }
@@ -96,7 +96,7 @@ world_empire0836 = {
 	duchies = { d_duchy0664 d_duchy0751 d_duchy0792 d_duchy0740 d_duchy0827 d_duchy0836 }
 }
 world_empire0897 = {
-	duchies = { d_duchy0800 d_duchy0840 d_duchy0866 d_duchy0874 d_sri_lanka d_duchy0821 d_duchy0878 d_duchy0880 d_duchy0908 d_duchy0918 d_duchy0927 d_duchy0941 d_duchy0930 d_duchy0876 d_duchy0913 d_duchy0897 }
+	duchies = { d_north_india d_punjab d_duchy0800 d_central_india d_gujarat d_duchy0874 d_west_india d_tamil_nadu d_madhya_pradesh d_raipur d_delhi d_bikaner d_jodhpur d_duchy0821 d_duchy0866 d_vijayawada d_chhattisgarh d_duchy0840 d_karnataka d_sri_lanka d_indore d_hyderabad d_northeast_india d_chattogram d_duchy0880 d_west_bengal d_duchy0878 d_guangxi d_east_china d_sichuan d_chongqing d_hunan d_jiangxi d_duchy0876 d_duchy0897 d_guizhou d_duchy0913 d_xiamen d_zaozhuang d_chengdu d_zunyi d_shaoyang d_ganzhou d_nanyang d_huainan d_northeastern d_kayin_state d_duchy0908 d_thi_tran_thuan_chau d_ayeyarwady d_binh_thuan d_duchy0941 d_duchy0918 d_duchy0927 d_duchy0930 d_yunnan }
 }
 world_empire0935 = {
 	duchies = { d_duchy0935 }
@@ -108,7 +108,7 @@ world_empire0954 = {
 	duchies = { d_duchy0954 }
 }
 world_empire0956 = {
-	duchies = { d_duchy0956 }
+	duchies = { d_homs d_duchy0956 }
 }
 world_empire0970 = {
 	duchies = { d_duchy0955 d_duchy0947 d_duchy0967 d_duchy0970 }
@@ -117,10 +117,10 @@ world_empire0976 = {
 	duchies = { d_duchy0976 }
 }
 world_empire0982 = {
-	duchies = { d_duchy0964 d_duchy0974 d_duchy0978 d_duchy1006 d_duchy0982 }
+	duchies = { d_duchy0974 d_west_sumatra d_north_sumatra d_duchy0964 d_duchy1006 d_south_sulawesi d_south_sumatra d_duchy0982 d_duchy0978 d_west_kalimantan }
 }
 world_empire1004 = {
-	duchies = { d_duchy0989 d_duchy1036 d_duchy1004 }
+	duchies = { d_duchy1004 d_queensland d_duchy1036 }
 }
 world_empire1005 = {
 	duchies = { d_duchy0963 d_duchy0968 d_duchy0981 d_duchy1005 }
@@ -138,16 +138,16 @@ world_empire1047 = {
 	duchies = { d_duchy1047 }
 }
 world_empire1064 = {
-	duchies = { d_duchy1056 d_duchy1064 }
+	duchies = { d_duchy1064 }
 }
 world_empire1073 = {
 	duchies = { d_duchy1073 }
 }
 world_empire1083 = {
-	duchies = { d_duchy1022 d_duchy1038 d_duchy1057 d_duchy1072 d_duchy1083 }
+	duchies = { d_duchy1072 d_duchy1022 d_duchy1083 d_bendigo }
 }
 world_empire1097 = {
-	duchies = { d_melbourne d_duchy1097 }
+	duchies = { d_duchy1097 d_victoria d_melbourne }
 }
 world_empire1102 = {
 	duchies = { d_duchy1089 d_duchy1108 d_duchy1113 d_duchy1124 d_duchy1136 d_duchy1102 }

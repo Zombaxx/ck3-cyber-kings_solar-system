@@ -170,7 +170,7 @@ establish_bactrian_supremacy_decision = {
 			highest_held_title_tier >= tier_kingdom
 		}
 		OR = {
-			religion = religion:zoroastrianism_religion
+			OR = { religion = religion:zoroastrianism_religion religion = religion:hermazta_religion religion = religion:divine_cycle_religion religion = religion:voyagism_religion }
 			religion = religion:buddhism_religion
 			faith = faith:manichaean_faith
 		}

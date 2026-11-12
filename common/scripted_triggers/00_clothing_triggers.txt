@@ -3323,7 +3323,7 @@ portrait_religious_jewish_trigger = {
 }
 
 portrait_religious_hellenism_trigger = {
-	religion = religion:hellenism_religion
+	OR = { religion = religion:hellenism_religion religion = religion:olympic_religion }
 }
 
 portrait_religious_muslim_trigger = {
@@ -3359,11 +3359,11 @@ should_always_have_beard_trigger = {
 
 portrait_religious_norse_trigger = {
 	OR = {
-		religion = religion:germanic_religion
-		religion = religion:baltic_religion
-		religion = religion:finno_ugric_religion
-		religion = religion:paganism_religion
-		religion = religion:slavic_religion
+		OR = { religion = religion:germanic_religion religion = religion:reaverism_religion }
+		OR = { religion = religion:baltic_religion religion = religion:cargo_cult_religion }
+		OR = { religion = religion:finno_ugric_religion religion = religion:retrogradism_religion }
+		OR = { religion = religion:paganism_religion religion = religion:escudo_solar_religion }
+		OR = { religion = religion:slavic_religion religion = religion:lunism_religion }
 	}
 }
 
@@ -3377,7 +3377,7 @@ portrait_religious_siberian_trigger = { # these probably need dlc check?
 
 portrait_religious_sami_trigger = {
 	has_cp4_dlc_trigger = yes
-	religion = religion:finno_ugric_religion
+	OR = { religion = religion:finno_ugric_religion religion = religion:retrogradism_religion }
 	portrait_sami_clothing_trigger = yes
 }
 
@@ -3426,7 +3426,7 @@ portrait_religious_taoist_trigger = {
 }
 
 portrait_religious_hindu_trigger = {
-	religion = religion:hinduism_religion
+	OR = { religion = religion:hinduism_religion religion = religion:sikhism_religion }
 }
 
 portrait_religious_jain_trigger = {
@@ -3435,13 +3435,13 @@ portrait_religious_jain_trigger = {
 
 portrait_religious_zoroastrian_trigger = {
 	OR = {
-		religion = religion:zoroastrianism_religion
+		OR = { religion = religion:zoroastrianism_religion religion = religion:hermazta_religion religion = religion:divine_cycle_religion religion = religion:voyagism_religion }
 		religion = religion:yazidi_religion
-		religion = religion:zunism_religion
+		OR = { religion = religion:zunism_religion religion = religion:solarian_religion }
 		faith = {
 			portrait_religious_faith_or_foundational_trigger = { FAITH = faith:mandaean_faith }
 		}
-		religion = religion:dualism_religion
+		OR = { religion = religion:dualism_religion religion = religion:holy_serpent_religion religion = religion:gnoslam_religion }
 		religion = religion:basque_religion
 	}
 }
@@ -3450,10 +3450,10 @@ portrait_religious_african_trigger = {
 	OR = {
 		religion = religion:akom_religion
 		religion = religion:waaqism_religion
-		religion = religion:west_african_religion
+		OR = { religion = religion:west_african_religion religion = religion:animism_religion }
 		religion = religion:west_african_bori_religion
 		religion = religion:west_african_roog_religion
-		religion = religion:kushitism_religion
+		OR = { religion = religion:kushitism_religion religion = religion:kemetism_religion }
 		religion = religion:west_african_orisha_religion
 	}
 }

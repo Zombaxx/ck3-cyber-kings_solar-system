@@ -1,0 +1,181 @@
+﻿# Cyber Kings v3 (e13_faiths_spacers.py): holy sites on the worlds where these faiths actually live.
+
+ck3_escudo_solar_province1416 = {
+	county = c_province1416
+	county_holder_character_modifier = {
+		learning = 2
+	}
+	faith_character_modifier = {
+		monthly_piety_gain_mult = 0.05
+	}
+}
+
+ck3_escudo_solar_province1439 = {
+	county = c_province1439
+	county_holder_character_modifier = {
+		learning = 2
+	}
+	faith_character_modifier = {
+		monthly_piety_gain_mult = 0.05
+	}
+}
+
+ck3_escudo_solar_province1448 = {
+	county = c_province1448
+	county_holder_character_modifier = {
+		learning = 2
+	}
+	faith_character_modifier = {
+		monthly_piety_gain_mult = 0.05
+	}
+}
+
+ck3_escudo_solar_province1418 = {
+	county = c_province1418
+	county_holder_character_modifier = {
+		learning = 2
+	}
+	faith_character_modifier = {
+		monthly_piety_gain_mult = 0.05
+	}
+}
+
+ck3_escudo_solar_province1469 = {
+	county = c_province1469
+	county_holder_character_modifier = {
+		learning = 2
+	}
+	faith_character_modifier = {
+		monthly_piety_gain_mult = 0.05
+	}
+}
+
+ck3_dark_lord_cult_province2019 = {
+	county = c_province2019
+	county_holder_character_modifier = {
+		learning = 2
+	}
+	faith_character_modifier = {
+		monthly_piety_gain_mult = 0.05
+	}
+}
+
+ck3_dark_lord_cult_province1397 = {
+	county = c_province1397
+	county_holder_character_modifier = {
+		learning = 2
+	}
+	faith_character_modifier = {
+		monthly_piety_gain_mult = 0.05
+	}
+}
+
+ck3_dark_lord_cult_province0649 = {
+	county = c_province0649
+	county_holder_character_modifier = {
+		learning = 2
+	}
+	faith_character_modifier = {
+		monthly_piety_gain_mult = 0.05
+	}
+}
+
+ck3_sikh_harmandir_sahib = {
+	county = c_ludhiana
+	county_holder_character_modifier = {
+		learning = 2
+	}
+	faith_character_modifier = {
+		monthly_piety_gain_mult = 0.05
+	}
+}
+
+ck3_sikh_nankana_sahib = {
+	county = c_province0801
+	county_holder_character_modifier = {
+		learning = 2
+	}
+	faith_character_modifier = {
+		monthly_piety_gain_mult = 0.05
+	}
+}
+
+ck3_sikh_patna_sahib = {
+	county = c_patna
+	county_holder_character_modifier = {
+		learning = 2
+	}
+	faith_character_modifier = {
+		monthly_piety_gain_mult = 0.05
+	}
+}
+
+ck3_sikh_hazur_sahib = {
+	county = c_nanded
+	county_holder_character_modifier = {
+		learning = 2
+	}
+	faith_character_modifier = {
+		monthly_piety_gain_mult = 0.05
+	}
+}
+
+ck3_sikh_sis_ganj = {
+	county = c_province0821
+	county_holder_character_modifier = {
+		learning = 2
+	}
+	faith_character_modifier = {
+		monthly_piety_gain_mult = 0.05
+	}
+}
+
+ck3_kushitism_province1641 = {
+	county = c_province1641
+	county_holder_character_modifier = {
+		learning = 2
+	}
+	faith_character_modifier = {
+		monthly_piety_gain_mult = 0.05
+	}
+}
+
+ck3_kushitism_province1651 = {
+	county = c_province1651
+	county_holder_character_modifier = {
+		learning = 2
+	}
+	faith_character_modifier = {
+		monthly_piety_gain_mult = 0.05
+	}
+}
+
+ck3_kushitism_province1622 = {
+	county = c_province1622
+	county_holder_character_modifier = {
+		learning = 2
+	}
+	faith_character_modifier = {
+		monthly_piety_gain_mult = 0.05
+	}
+}
+
+ck3_kushitism_province1640 = {
+	county = c_province1640
+	county_holder_character_modifier = {
+		learning = 2
+	}
+	faith_character_modifier = {
+		monthly_piety_gain_mult = 0.05
+	}
+}
+
+ck3_kushitism_province1657 = {
+	county = c_province1657
+	county_holder_character_modifier = {
+		learning = 2
+	}
+	faith_character_modifier = {
+		monthly_piety_gain_mult = 0.05
+	}
+}

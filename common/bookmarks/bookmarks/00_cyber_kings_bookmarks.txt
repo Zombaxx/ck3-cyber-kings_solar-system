@@ -87,7 +87,7 @@
 		title = h_eurasia
 		government = feudal_government
 		culture = celestial
-		religion = zurvanism
+		religion = divine_cycle_rite
 		dynasty_splendor_level = 1
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
 		history_id = 107175
@@ -102,7 +102,7 @@
 		title = c_province0426
 		government = tribal_government
 		culture = mau_khet
-		religion = kushitism_pagan
+		religion = kemetism_rite
 		dynasty_splendor_level = 1
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
 		history_id = 104265
