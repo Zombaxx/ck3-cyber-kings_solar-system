@@ -283,7 +283,7 @@ farz = {
 }
 
 kerala = {
-	county = c_province0951
+	county = c_kanayannur	# e87c real place (was c_province0951)
 	parameters = { kerala_conversion_bonus }
 	county_holder_character_modifier = {
 		monthly_piety_gain_mult = 0.05
@@ -304,7 +304,7 @@ kerala = {
 }
 
 iona = {
-	county = c_province0592
+	county = c_province0474	# e87c real place (was c_province0592)
 	parameters = { iona_conversion_bonus }
 	county_holder_character_modifier = {
 		monthly_piety_gain_mult = 0.025
@@ -387,7 +387,7 @@ esztergom = {
 }
 
 albi = {
-	county = c_province0107
+	county = c_province0505	# e87c real place (was c_province0107)
 	county_holder_character_modifier = {
 		learning = 1
 	}
@@ -568,7 +568,7 @@ tinmallal = {
 }
 
 fes = {
-	county = c_province0392
+	county = c_fes	# e87c real place (was c_province0392)
 	county_holder_character_modifier = {
 		learning = 1
 	}
@@ -628,7 +628,7 @@ damascus = {
 }
 
 kufa = {
-	county = c_jerusalem
+	county = c_baghdad	# e87b real place (was c_jerusalem)
 	county_holder_character_modifier = {
 		intrigue = 1
 	}
@@ -647,7 +647,7 @@ kufa = {
 }
 
 basra = {
-	county = c_province0930
+	county = c_province0676	# e87c real place (was c_province0930)
 	county_holder_character_modifier = {
 		learning = 1
 	}
@@ -744,7 +744,7 @@ sinjar = {
 }
 
 baalbek = {
-	county = c_province0846
+	county = c_lebanon	# e87c real place (was c_province0846)
 	county_holder_character_modifier = {
 		clergy_opinion = 5
 	}
@@ -886,7 +886,7 @@ sufed = {
 }
 
 gerizim = {
-	county = c_new_york
+	county = c_gaza_strip	# e87c real place (was c_new_york)
 	county_holder_character_modifier = {
 		learning = 1
 	}
@@ -946,7 +946,7 @@ itil = {
 }
 
 kochi = {
-	county = c_province0679
+	county = c_kanayannur	# e87c real place (was c_province0679)
 	county_holder_character_modifier = {
 		diplomacy = 1
 	}
@@ -1067,7 +1067,7 @@ samarkand = {
 }
 
 udabhanda = {
-	county = c_province0661
+	county = c_peshawar	# e87c real place (was c_province0661)
 	county_holder_character_modifier = {
 		learning = 1
 	}
@@ -1445,7 +1445,7 @@ konarak = {
 }
 
 angkor = {
-	county = c_province0165
+	county = c_province0932	# e87c real place (was c_province0165)
 	county_holder_character_modifier = {
 		tributary_opinion = 3
 	}
@@ -1753,7 +1753,7 @@ itanagar = {
 }
 
 pemako = {
-	county = c_province0283
+	county = c_province0868	# e87c real place (was c_province0283)
 	county_holder_character_modifier = {
 		learning = 1
 	}
@@ -1872,7 +1872,7 @@ garwhal = {
 }
 
 jumla = {
-	county = c_province0423
+	county = c_gorakhpur	# e87c real place (was c_province0423)
 	county_holder_character_modifier = {
 		dynasty_house_opinion = 3
 	}
@@ -1971,7 +1971,7 @@ gyaitang = {
 }
 
 rebgong = {
-	county = c_province0337
+	county = c_province0847	# e87c real place (was c_province0337)
 	county_holder_character_modifier = {
 		powerful_vassal_opinion = 5
 	}
@@ -2011,7 +2011,7 @@ xingqing = {
 }
 
 yijinai = {
-	county = c_province0755
+	county = c_province0815	# e87c real place (was c_province0755)
 	county_holder_character_modifier = {
 		build_gold_cost = -0.025
 	}
@@ -2192,7 +2192,7 @@ ushi-darena = {
 }
 
 mount_damavand = {
-	county = c_province0564
+	county = c_tehran	# e87c real place (was c_province0564)
 	county_holder_character_modifier = {
 		prowess = 2
 	}
@@ -2759,7 +2759,7 @@ sarysyn = {
 }
 
 kara_khorum = {
-	county = c_province0349
+	county = c_province0775	# e87c real place (was c_province0349)
 	county_holder_character_modifier = {
 		diplomacy = 2
 	}
@@ -2778,7 +2778,7 @@ kara_khorum = {
 }
 
 qayaliq = {
-	county = c_province0389
+	county = c_province0763	# e87c real place (was c_province0389)
 	county_holder_character_modifier = {
 		light_cavalry_damage_mult = 0.05
 	}
@@ -2799,7 +2799,7 @@ qayaliq = {
 }
 
 tavan_bogd = {
-	county = c_province0359
+	county = c_province0716	# e87c real place (was c_province0359)
 	county_holder_character_modifier = {
 		clergy_opinion = 3
 	}
@@ -2818,7 +2818,7 @@ tavan_bogd = {
 }
 
 preslav = {
-	county = c_province0393
+	county = c_province0593	# e87c real place (was c_province0393)
 	county_holder_character_modifier = {
 		levy_size = 0.05
 	}
@@ -3076,7 +3076,7 @@ surgut = {
 }
 
 ob = {
-	county = c_province0125
+	county = c_province0644	# e87c real place (was c_province0125)
 	county_holder_character_modifier = {
 		fertility = 0.05
 	}
@@ -3319,7 +3319,7 @@ garumele = {
 }
 
 igbo = {
-	county = c_province1556
+	county = c_onitsha	# e87b real place (was c_province1556)
 	county_holder_character_modifier = {
 		learning = 1
 	}
@@ -3357,7 +3357,7 @@ el_fasher = {
 }
 
 wandala = {
-	county = c_province0518
+	county = c_north_cameroon	# e87c real place (was c_province0518)
 	county_holder_character_modifier = {
 		martial = 1
 	}
@@ -3438,7 +3438,7 @@ kayor = {
 }
 
 kasa = {
-	county = c_province0807
+	county = c_ziguinchor	# e87c real place (was c_province0807)
 	county_holder_character_modifier = {
 		diplomacy = 1
 	}
@@ -3457,7 +3457,7 @@ kasa = {
 }
 
 bono = {
-	county = c_province0570
+	county = c_kumasi	# e87b real place (was c_province0570)
 	county_holder_character_modifier = {
 		men_at_arms_maintenance = -0.025
 	}
@@ -3478,7 +3478,7 @@ bono = {
 }
 
 kumasi = {
-	county = c_province1974
+	county = c_kumasi	# e87b real place (was c_province1974)
 	county_holder_character_modifier = {
 		learning = 1
 	}
@@ -3498,7 +3498,7 @@ kumasi = {
 }
 
 ife = {
-	county = c_province1367
+	county = c_ibadan	# e87b real place (was c_province1367)
 	county_holder_character_modifier = {
 		monthly_piety_gain_mult = 0.05
 	}
@@ -3637,7 +3637,7 @@ tenerife = {
 }
 
 cartagena = {
-	county = c_province0461
+	county = c_murcia	# e87c real place (was c_province0461)
 	county_holder_character_modifier = {
 		title_creation_cost_mult = -0.05
 	}
@@ -3679,7 +3679,7 @@ madiera = {
 }
 
 danakil = {
-	county = c_province0691
+	county = c_tigray	# e87c real place (was c_province0691)
 	county_holder_character_modifier = {
 		learning = 1
 	}
@@ -3759,7 +3759,7 @@ makhir = {
 }
 
 mogadishu = {
-	county = c_province0091
+	county = c_province0771	# e87c real place (was c_province0091)
 	county_holder_character_modifier = {
 		clergy_opinion = 3
 	}
@@ -3819,7 +3819,7 @@ mangea = {
 }
 
 kilimanjaro = {
-	county = c_province0034
+	county = c_arusha	# e87c real place (was c_province0034)
 	county_holder_character_modifier = {
 		prowess = 2
 	}
@@ -3880,7 +3880,7 @@ nakkavaram = {
 }
 
 ar_kol = {
-	county = c_province0671
+	county = c_yangon	# e87c real place (was c_province0671)
 	county_holder_character_modifier = {
 		jungle_tax_mult = 0.05
 	}
@@ -4059,7 +4059,7 @@ luyi = {
 }
 
 fuji = {
-	county = c_province0442
+	county = c_tokyo	# e87c real place (was c_province0442)
 	county_holder_character_modifier = {
 		councillor_opinion = 3
 	}
@@ -4235,7 +4235,7 @@ dali = {
 }
 
 jinglong = {
-	county = c_province0669
+	county = c_jianshui	# e87c real place (was c_province0669)
 	county_holder_character_modifier = {
 		martial = 1
 	}
@@ -4256,7 +4256,7 @@ jinglong = {
 }
 
 zhaotong = {
-	county = c_province0445
+	county = c_panzhihua	# e87c real place (was c_province0445)
 	county_holder_character_modifier = {
 		knight_effectiveness_mult = 0.05
 	}
@@ -4296,7 +4296,7 @@ xuhen = {
 }
 
 chang_an = {
-	county = c_province1064
+	county = c_xi_an	# e87c real place (was c_province1064)
 	county_holder_character_modifier = {
 		monthly_piety_gain_mult = 0.05
 	}
@@ -4417,7 +4417,7 @@ mantalingajan = {
 }
 
 vien_chan = {
-	county = c_province0291
+	county = c_province0907	# e87c real place (was c_province0291)
 	county_holder_character_modifier = {
 		diplomacy = 1
 	}
@@ -4436,7 +4436,7 @@ vien_chan = {
 }
 
 hsenwi = {
-	county = c_province0560
+	county = c_province0894	# e87c real place (was c_province0560)
 	county_holder_character_modifier = {
 		intrigue = 1
 	}
@@ -4494,7 +4494,7 @@ cao_bang = {
 }
 
 molihewen = {
-	county = c_province1590
+	county = c_province0661	# e87b real place (was c_province1590)
 	county_holder_character_modifier = {
 		prowess = 2
 	}
@@ -4513,7 +4513,7 @@ molihewen = {
 }
 
 yam_alin = {
-	county = c_province1199
+	county = c_province0789	# e87b real place (was c_province1199)
 	county_holder_character_modifier = {
 		martial = 1
 	}
@@ -4533,7 +4533,7 @@ yam_alin = {
 }
 
 chupka = {
-	county = c_province1151
+	county = c_province0830	# e87b real place (was c_province1151)
 	county_holder_character_modifier = {
 		martial = 1
 	}
@@ -4553,7 +4553,7 @@ chupka = {
 }
 
 yizhou = {
-	county = c_province0556
+	county = c_province0820	# e87b real place (was c_province0556)
 	county_holder_character_modifier = {
 		levy_size = 0.05
 	}
@@ -4672,7 +4672,7 @@ taiao = {
 }
 
 sukadana = {
-	county = c_province0849
+	county = c_pontianak	# e87c real place (was c_province0849)
 	county_holder_character_modifier = {
 		councillor_opinion = 3
 	}
@@ -4732,7 +4732,7 @@ qufu = {
 }
 
 bianliang = {
-	county = c_province0282
+	county = c_zhengzhou	# e87c real place (was c_province0282)
 	county_holder_character_modifier = {
 		councillor_opinion = 3
 		merit_standalone_gain_mult = 0.05
@@ -4893,7 +4893,7 @@ sonba_i = {
 }
 
 riak_nan_berbedur = {
-	county = c_province0312
+	county = c_province0964	# e87c real place (was c_province0312)
 	county_holder_character_modifier = {
 		monthly_prestige_gain_mult = 0.05
 	}
@@ -4975,7 +4975,7 @@ makkarinupuri = {
 }
 
 tarayka = {
-	county = c_province2160
+	county = c_sakhalin	# e87b real place (was c_province2160)
 	county_holder_character_modifier = {
 		same_faith_opinion = 3
 	}
@@ -5074,7 +5074,7 @@ muze = {
 }
 
 sizhou = {
-	county = c_province0811
+	county = c_zunyi	# e87c real place (was c_province0811)
 	county_holder_character_modifier = {
 		monthly_prestige_gain_mult = 0.05
 	}
@@ -5114,7 +5114,7 @@ daozhou = {
 }
 
 anlong = {
-	county = c_province0997
+	county = c_liupanshui	# e87c real place (was c_province0997)
 	county_holder_character_modifier = {
 		knight_effectiveness_mult = 0.05
 	}
