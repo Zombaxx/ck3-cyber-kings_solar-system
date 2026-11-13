@@ -27134,6 +27134,7 @@ h_outer_moons = {
 # Cyber Kings v3 (e20): head of the Voyagist faith (the Spacers), landless
 d_great_voyage = {
 	color = { 140 190 240 }
+	capital = c_phobos	# e91 Spacers' head of faith seated on Phobos (modder 2026-11-13)
 	definite_form = yes
 	ruler_uses_title_name = no
 	landless = yes

@@ -75345,7 +75345,7 @@
 	mother = 108214
 	1044.1.1 = { birth = yes }
 	1112.1.1 = { death = yes }
-	1066.9.15 = { effect = { title:e_empire0897 = { set_title_name = ck_country_ind } } }
+	1066.9.15 = { effect = { title:k_kingdom0821 = { set_title_name = ck_country_ind } } }	# e91 India is k_kingdom0821 now (was e_empire0897)
 }
 108216 = {
 	name = "cyn_Rekha"

@@ -1,4 +1,4 @@
-# e86b 2026-11-12: shared tenet of the Latter-day Saint movement (latter_day_saints_faith + fundamentalist_faith).
+﻿# e86b 2026-11-12: shared tenet of the Latter-day Saint movement (latter_day_saints_faith + fundamentalist_faith).
 # Both faiths stay separate (each sees the other as heretical); this is the belief they actually share:
 # Joseph Smith's restoration of the gospel, the Book of Mormon and continuing revelation through living prophets and apostles.
 tenet_restoration = {
