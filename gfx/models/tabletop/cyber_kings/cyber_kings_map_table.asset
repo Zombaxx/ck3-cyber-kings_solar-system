@@ -221,7 +221,7 @@ pdxmesh = {
 }
 entity = { name = "ck_space_neptune_entity" pdxmesh = "ck_space_neptune_mesh" }
 
-# ---- C. Bridge Viewscreen (gen_table_c.py, bridge3d.py, gen_vistas_c.py): holo rim y -4, console (+ plaque) y -9.5, bridge y -10, view y -5000
+# ---- C. Bridge Viewscreen (gen_table_c.py, bridge3d.py, gen_vistas_c.py, gen_styles_c.py): holo rim y -4, console (+ plaque) y -9.5, bridge y -10, view y -5000
 pdxmesh = {
 	name = "ck_holo_rim_mesh"
 	file = "ck_holo_rim.mesh"
@@ -259,150 +259,6 @@ pdxmesh = {
 entity = { name = "ck_bridge_entity" pdxmesh = "ck_bridge_mesh" }
 
 pdxmesh = {
-	name = "ck_console_earth_mesh"
-	file = "ck_console_earth.mesh"
-	cull_distance = 100000
-	meshsettings = {
-		name = "ck_console_earthShape"
-		index = 0
-		texture_diffuse = "ck_console_earth_diffuse.dds"
-		texture_normal = "ck_flat_normal.dds"
-		texture_specular = "ck_metal_properties.dds"
-		shader = "standard_map_decoration_alpha_to_coverage"
-		shader_file = "gfx/FX/pdxmesh.shader"
-		texture = { file = "ck_console_light.dds" index = 7 }
-		additional_shader_defines = { "BAKED_LIGHTING" "LIGHTING_DECAL" }
-	}
-}
-entity = { name = "ck_console_earth_entity" pdxmesh = "ck_console_earth_mesh" }
-
-pdxmesh = {
-	name = "ck_view_earth_mesh"
-	file = "ck_view_earth.mesh"
-	cull_distance = 100000
-	meshsettings = {
-		name = "ck_view_earthShape"
-		index = 0
-		texture_diffuse = "ck_view_earth_diffuse.dds"
-		texture_normal = "ck_flat_normal.dds"
-		texture_specular = "ck_space_properties.dds"
-		shader = "map_floor"
-		shader_file = "gfx/FX/pdxmesh.shader"
-		texture = { file = "ck_space_light.dds" index = 7 }
-		additional_shader_defines = { "BAKED_LIGHTING" "LIGHTING_DECAL" }
-	}
-}
-entity = { name = "ck_view_earth_entity" pdxmesh = "ck_view_earth_mesh" }
-
-pdxmesh = {
-	name = "ck_console_mercury_mesh"
-	file = "ck_console_mercury.mesh"
-	cull_distance = 100000
-	meshsettings = {
-		name = "ck_console_mercuryShape"
-		index = 0
-		texture_diffuse = "ck_console_mercury_diffuse.dds"
-		texture_normal = "ck_flat_normal.dds"
-		texture_specular = "ck_metal_properties.dds"
-		shader = "standard_map_decoration_alpha_to_coverage"
-		shader_file = "gfx/FX/pdxmesh.shader"
-		texture = { file = "ck_console_light.dds" index = 7 }
-		additional_shader_defines = { "BAKED_LIGHTING" "LIGHTING_DECAL" }
-	}
-}
-entity = { name = "ck_console_mercury_entity" pdxmesh = "ck_console_mercury_mesh" }
-
-pdxmesh = {
-	name = "ck_view_mercury_mesh"
-	file = "ck_view_mercury.mesh"
-	cull_distance = 100000
-	meshsettings = {
-		name = "ck_view_mercuryShape"
-		index = 0
-		texture_diffuse = "ck_view_mercury_diffuse.dds"
-		texture_normal = "ck_flat_normal.dds"
-		texture_specular = "ck_space_properties.dds"
-		shader = "map_floor"
-		shader_file = "gfx/FX/pdxmesh.shader"
-		texture = { file = "ck_space_light.dds" index = 7 }
-		additional_shader_defines = { "BAKED_LIGHTING" "LIGHTING_DECAL" }
-	}
-}
-entity = { name = "ck_view_mercury_entity" pdxmesh = "ck_view_mercury_mesh" }
-
-pdxmesh = {
-	name = "ck_console_venus_mesh"
-	file = "ck_console_venus.mesh"
-	cull_distance = 100000
-	meshsettings = {
-		name = "ck_console_venusShape"
-		index = 0
-		texture_diffuse = "ck_console_venus_diffuse.dds"
-		texture_normal = "ck_flat_normal.dds"
-		texture_specular = "ck_metal_properties.dds"
-		shader = "standard_map_decoration_alpha_to_coverage"
-		shader_file = "gfx/FX/pdxmesh.shader"
-		texture = { file = "ck_console_light.dds" index = 7 }
-		additional_shader_defines = { "BAKED_LIGHTING" "LIGHTING_DECAL" }
-	}
-}
-entity = { name = "ck_console_venus_entity" pdxmesh = "ck_console_venus_mesh" }
-
-pdxmesh = {
-	name = "ck_view_venus_mesh"
-	file = "ck_view_venus.mesh"
-	cull_distance = 100000
-	meshsettings = {
-		name = "ck_view_venusShape"
-		index = 0
-		texture_diffuse = "ck_view_venus_diffuse.dds"
-		texture_normal = "ck_flat_normal.dds"
-		texture_specular = "ck_space_properties.dds"
-		shader = "map_floor"
-		shader_file = "gfx/FX/pdxmesh.shader"
-		texture = { file = "ck_space_light.dds" index = 7 }
-		additional_shader_defines = { "BAKED_LIGHTING" "LIGHTING_DECAL" }
-	}
-}
-entity = { name = "ck_view_venus_entity" pdxmesh = "ck_view_venus_mesh" }
-
-pdxmesh = {
-	name = "ck_console_mars_mesh"
-	file = "ck_console_mars.mesh"
-	cull_distance = 100000
-	meshsettings = {
-		name = "ck_console_marsShape"
-		index = 0
-		texture_diffuse = "ck_console_mars_diffuse.dds"
-		texture_normal = "ck_flat_normal.dds"
-		texture_specular = "ck_metal_properties.dds"
-		shader = "standard_map_decoration_alpha_to_coverage"
-		shader_file = "gfx/FX/pdxmesh.shader"
-		texture = { file = "ck_console_light.dds" index = 7 }
-		additional_shader_defines = { "BAKED_LIGHTING" "LIGHTING_DECAL" }
-	}
-}
-entity = { name = "ck_console_mars_entity" pdxmesh = "ck_console_mars_mesh" }
-
-pdxmesh = {
-	name = "ck_view_mars_mesh"
-	file = "ck_view_mars.mesh"
-	cull_distance = 100000
-	meshsettings = {
-		name = "ck_view_marsShape"
-		index = 0
-		texture_diffuse = "ck_view_mars_diffuse.dds"
-		texture_normal = "ck_flat_normal.dds"
-		texture_specular = "ck_space_properties.dds"
-		shader = "map_floor"
-		shader_file = "gfx/FX/pdxmesh.shader"
-		texture = { file = "ck_space_light.dds" index = 7 }
-		additional_shader_defines = { "BAKED_LIGHTING" "LIGHTING_DECAL" }
-	}
-}
-entity = { name = "ck_view_mars_entity" pdxmesh = "ck_view_mars_mesh" }
-
-pdxmesh = {
 	name = "ck_console_ceres_mesh"
 	file = "ck_console_ceres.mesh"
 	cull_distance = 100000
@@ -421,22 +277,22 @@ pdxmesh = {
 entity = { name = "ck_console_ceres_entity" pdxmesh = "ck_console_ceres_mesh" }
 
 pdxmesh = {
-	name = "ck_view_ceres_mesh"
-	file = "ck_view_ceres.mesh"
+	name = "ck_console_earth_mesh"
+	file = "ck_console_earth.mesh"
 	cull_distance = 100000
 	meshsettings = {
-		name = "ck_view_ceresShape"
+		name = "ck_console_earthShape"
 		index = 0
-		texture_diffuse = "ck_view_ceres_diffuse.dds"
+		texture_diffuse = "ck_console_earth_diffuse.dds"
 		texture_normal = "ck_flat_normal.dds"
-		texture_specular = "ck_space_properties.dds"
-		shader = "map_floor"
+		texture_specular = "ck_metal_properties.dds"
+		shader = "standard_map_decoration_alpha_to_coverage"
 		shader_file = "gfx/FX/pdxmesh.shader"
-		texture = { file = "ck_space_light.dds" index = 7 }
+		texture = { file = "ck_console_light.dds" index = 7 }
 		additional_shader_defines = { "BAKED_LIGHTING" "LIGHTING_DECAL" }
 	}
 }
-entity = { name = "ck_view_ceres_entity" pdxmesh = "ck_view_ceres_mesh" }
+entity = { name = "ck_console_earth_entity" pdxmesh = "ck_console_earth_mesh" }
 
 pdxmesh = {
 	name = "ck_console_jupiter_mesh"
@@ -457,31 +313,13 @@ pdxmesh = {
 entity = { name = "ck_console_jupiter_entity" pdxmesh = "ck_console_jupiter_mesh" }
 
 pdxmesh = {
-	name = "ck_view_jupiter_mesh"
-	file = "ck_view_jupiter.mesh"
+	name = "ck_console_mars_mesh"
+	file = "ck_console_mars.mesh"
 	cull_distance = 100000
 	meshsettings = {
-		name = "ck_view_jupiterShape"
+		name = "ck_console_marsShape"
 		index = 0
-		texture_diffuse = "ck_view_jupiter_diffuse.dds"
-		texture_normal = "ck_flat_normal.dds"
-		texture_specular = "ck_space_properties.dds"
-		shader = "map_floor"
-		shader_file = "gfx/FX/pdxmesh.shader"
-		texture = { file = "ck_space_light.dds" index = 7 }
-		additional_shader_defines = { "BAKED_LIGHTING" "LIGHTING_DECAL" }
-	}
-}
-entity = { name = "ck_view_jupiter_entity" pdxmesh = "ck_view_jupiter_mesh" }
-
-pdxmesh = {
-	name = "ck_console_saturn_mesh"
-	file = "ck_console_saturn.mesh"
-	cull_distance = 100000
-	meshsettings = {
-		name = "ck_console_saturnShape"
-		index = 0
-		texture_diffuse = "ck_console_saturn_diffuse.dds"
+		texture_diffuse = "ck_console_mars_diffuse.dds"
 		texture_normal = "ck_flat_normal.dds"
 		texture_specular = "ck_metal_properties.dds"
 		shader = "standard_map_decoration_alpha_to_coverage"
@@ -490,25 +328,43 @@ pdxmesh = {
 		additional_shader_defines = { "BAKED_LIGHTING" "LIGHTING_DECAL" }
 	}
 }
-entity = { name = "ck_console_saturn_entity" pdxmesh = "ck_console_saturn_mesh" }
+entity = { name = "ck_console_mars_entity" pdxmesh = "ck_console_mars_mesh" }
 
 pdxmesh = {
-	name = "ck_view_saturn_mesh"
-	file = "ck_view_saturn.mesh"
+	name = "ck_console_mercury_mesh"
+	file = "ck_console_mercury.mesh"
 	cull_distance = 100000
 	meshsettings = {
-		name = "ck_view_saturnShape"
+		name = "ck_console_mercuryShape"
 		index = 0
-		texture_diffuse = "ck_view_saturn_diffuse.dds"
+		texture_diffuse = "ck_console_mercury_diffuse.dds"
 		texture_normal = "ck_flat_normal.dds"
-		texture_specular = "ck_space_properties.dds"
-		shader = "map_floor"
+		texture_specular = "ck_metal_properties.dds"
+		shader = "standard_map_decoration_alpha_to_coverage"
 		shader_file = "gfx/FX/pdxmesh.shader"
-		texture = { file = "ck_space_light.dds" index = 7 }
+		texture = { file = "ck_console_light.dds" index = 7 }
 		additional_shader_defines = { "BAKED_LIGHTING" "LIGHTING_DECAL" }
 	}
 }
-entity = { name = "ck_view_saturn_entity" pdxmesh = "ck_view_saturn_mesh" }
+entity = { name = "ck_console_mercury_entity" pdxmesh = "ck_console_mercury_mesh" }
+
+pdxmesh = {
+	name = "ck_console_moon_mesh"
+	file = "ck_console_moon.mesh"
+	cull_distance = 100000
+	meshsettings = {
+		name = "ck_console_moonShape"
+		index = 0
+		texture_diffuse = "ck_console_moon_diffuse.dds"
+		texture_normal = "ck_flat_normal.dds"
+		texture_specular = "ck_metal_properties.dds"
+		shader = "standard_map_decoration_alpha_to_coverage"
+		shader_file = "gfx/FX/pdxmesh.shader"
+		texture = { file = "ck_console_light.dds" index = 7 }
+		additional_shader_defines = { "BAKED_LIGHTING" "LIGHTING_DECAL" }
+	}
+}
+entity = { name = "ck_console_moon_entity" pdxmesh = "ck_console_moon_mesh" }
 
 pdxmesh = {
 	name = "ck_console_neptune_mesh"
@@ -529,6 +385,294 @@ pdxmesh = {
 entity = { name = "ck_console_neptune_entity" pdxmesh = "ck_console_neptune_mesh" }
 
 pdxmesh = {
+	name = "ck_console_saturn_mesh"
+	file = "ck_console_saturn.mesh"
+	cull_distance = 100000
+	meshsettings = {
+		name = "ck_console_saturnShape"
+		index = 0
+		texture_diffuse = "ck_console_saturn_diffuse.dds"
+		texture_normal = "ck_flat_normal.dds"
+		texture_specular = "ck_metal_properties.dds"
+		shader = "standard_map_decoration_alpha_to_coverage"
+		shader_file = "gfx/FX/pdxmesh.shader"
+		texture = { file = "ck_console_light.dds" index = 7 }
+		additional_shader_defines = { "BAKED_LIGHTING" "LIGHTING_DECAL" }
+	}
+}
+entity = { name = "ck_console_saturn_entity" pdxmesh = "ck_console_saturn_mesh" }
+
+pdxmesh = {
+	name = "ck_console_venus_mesh"
+	file = "ck_console_venus.mesh"
+	cull_distance = 100000
+	meshsettings = {
+		name = "ck_console_venusShape"
+		index = 0
+		texture_diffuse = "ck_console_venus_diffuse.dds"
+		texture_normal = "ck_flat_normal.dds"
+		texture_specular = "ck_metal_properties.dds"
+		shader = "standard_map_decoration_alpha_to_coverage"
+		shader_file = "gfx/FX/pdxmesh.shader"
+		texture = { file = "ck_console_light.dds" index = 7 }
+		additional_shader_defines = { "BAKED_LIGHTING" "LIGHTING_DECAL" }
+	}
+}
+entity = { name = "ck_console_venus_entity" pdxmesh = "ck_console_venus_mesh" }
+
+pdxmesh = {
+	name = "ck_view_ceres_mesh"
+	file = "ck_view_ceres.mesh"
+	cull_distance = 100000
+	meshsettings = {
+		name = "ck_view_ceresShape"
+		index = 0
+		texture_diffuse = "ck_view_ceres_diffuse.dds"
+		texture_normal = "ck_flat_normal.dds"
+		texture_specular = "ck_space_properties.dds"
+		shader = "map_floor"
+		shader_file = "gfx/FX/pdxmesh.shader"
+		texture = { file = "ck_space_light.dds" index = 7 }
+		additional_shader_defines = { "BAKED_LIGHTING" "LIGHTING_DECAL" }
+	}
+}
+entity = { name = "ck_view_ceres_entity" pdxmesh = "ck_view_ceres_mesh" }
+
+pdxmesh = {
+	name = "ck_view_earth_mesh"
+	file = "ck_view_earth.mesh"
+	cull_distance = 100000
+	meshsettings = {
+		name = "ck_view_earthShape"
+		index = 0
+		texture_diffuse = "ck_view_earth_diffuse.dds"
+		texture_normal = "ck_flat_normal.dds"
+		texture_specular = "ck_space_properties.dds"
+		shader = "map_floor"
+		shader_file = "gfx/FX/pdxmesh.shader"
+		texture = { file = "ck_space_light.dds" index = 7 }
+		additional_shader_defines = { "BAKED_LIGHTING" "LIGHTING_DECAL" }
+	}
+}
+entity = { name = "ck_view_earth_entity" pdxmesh = "ck_view_earth_mesh" }
+
+pdxmesh = {
+	name = "ck_view_earth_americas_mesh"
+	file = "ck_view_earth_americas.mesh"
+	cull_distance = 100000
+	meshsettings = {
+		name = "ck_view_earth_americasShape"
+		index = 0
+		texture_diffuse = "ck_view_earth_americas_diffuse.dds"
+		texture_normal = "ck_flat_normal.dds"
+		texture_specular = "ck_space_properties.dds"
+		shader = "map_floor"
+		shader_file = "gfx/FX/pdxmesh.shader"
+		texture = { file = "ck_space_light.dds" index = 7 }
+		additional_shader_defines = { "BAKED_LIGHTING" "LIGHTING_DECAL" }
+	}
+}
+entity = { name = "ck_view_earth_americas_entity" pdxmesh = "ck_view_earth_americas_mesh" }
+
+pdxmesh = {
+	name = "ck_view_earth_asia_mesh"
+	file = "ck_view_earth_asia.mesh"
+	cull_distance = 100000
+	meshsettings = {
+		name = "ck_view_earth_asiaShape"
+		index = 0
+		texture_diffuse = "ck_view_earth_asia_diffuse.dds"
+		texture_normal = "ck_flat_normal.dds"
+		texture_specular = "ck_space_properties.dds"
+		shader = "map_floor"
+		shader_file = "gfx/FX/pdxmesh.shader"
+		texture = { file = "ck_space_light.dds" index = 7 }
+		additional_shader_defines = { "BAKED_LIGHTING" "LIGHTING_DECAL" }
+	}
+}
+entity = { name = "ck_view_earth_asia_entity" pdxmesh = "ck_view_earth_asia_mesh" }
+
+pdxmesh = {
+	name = "ck_view_earth_australia_mesh"
+	file = "ck_view_earth_australia.mesh"
+	cull_distance = 100000
+	meshsettings = {
+		name = "ck_view_earth_australiaShape"
+		index = 0
+		texture_diffuse = "ck_view_earth_australia_diffuse.dds"
+		texture_normal = "ck_flat_normal.dds"
+		texture_specular = "ck_space_properties.dds"
+		shader = "map_floor"
+		shader_file = "gfx/FX/pdxmesh.shader"
+		texture = { file = "ck_space_light.dds" index = 7 }
+		additional_shader_defines = { "BAKED_LIGHTING" "LIGHTING_DECAL" }
+	}
+}
+entity = { name = "ck_view_earth_australia_entity" pdxmesh = "ck_view_earth_australia_mesh" }
+
+pdxmesh = {
+	name = "ck_view_earth_namerica_mesh"
+	file = "ck_view_earth_namerica.mesh"
+	cull_distance = 100000
+	meshsettings = {
+		name = "ck_view_earth_namericaShape"
+		index = 0
+		texture_diffuse = "ck_view_earth_namerica_diffuse.dds"
+		texture_normal = "ck_flat_normal.dds"
+		texture_specular = "ck_space_properties.dds"
+		shader = "map_floor"
+		shader_file = "gfx/FX/pdxmesh.shader"
+		texture = { file = "ck_space_light.dds" index = 7 }
+		additional_shader_defines = { "BAKED_LIGHTING" "LIGHTING_DECAL" }
+	}
+}
+entity = { name = "ck_view_earth_namerica_entity" pdxmesh = "ck_view_earth_namerica_mesh" }
+
+pdxmesh = {
+	name = "ck_view_earth_neasia_mesh"
+	file = "ck_view_earth_neasia.mesh"
+	cull_distance = 100000
+	meshsettings = {
+		name = "ck_view_earth_neasiaShape"
+		index = 0
+		texture_diffuse = "ck_view_earth_neasia_diffuse.dds"
+		texture_normal = "ck_flat_normal.dds"
+		texture_specular = "ck_space_properties.dds"
+		shader = "map_floor"
+		shader_file = "gfx/FX/pdxmesh.shader"
+		texture = { file = "ck_space_light.dds" index = 7 }
+		additional_shader_defines = { "BAKED_LIGHTING" "LIGHTING_DECAL" }
+	}
+}
+entity = { name = "ck_view_earth_neasia_entity" pdxmesh = "ck_view_earth_neasia_mesh" }
+
+pdxmesh = {
+	name = "ck_view_jupiter_mesh"
+	file = "ck_view_jupiter.mesh"
+	cull_distance = 100000
+	meshsettings = {
+		name = "ck_view_jupiterShape"
+		index = 0
+		texture_diffuse = "ck_view_jupiter_diffuse.dds"
+		texture_normal = "ck_flat_normal.dds"
+		texture_specular = "ck_space_properties.dds"
+		shader = "map_floor"
+		shader_file = "gfx/FX/pdxmesh.shader"
+		texture = { file = "ck_space_light.dds" index = 7 }
+		additional_shader_defines = { "BAKED_LIGHTING" "LIGHTING_DECAL" }
+	}
+}
+entity = { name = "ck_view_jupiter_entity" pdxmesh = "ck_view_jupiter_mesh" }
+
+pdxmesh = {
+	name = "ck_view_mars_mesh"
+	file = "ck_view_mars.mesh"
+	cull_distance = 100000
+	meshsettings = {
+		name = "ck_view_marsShape"
+		index = 0
+		texture_diffuse = "ck_view_mars_diffuse.dds"
+		texture_normal = "ck_flat_normal.dds"
+		texture_specular = "ck_space_properties.dds"
+		shader = "map_floor"
+		shader_file = "gfx/FX/pdxmesh.shader"
+		texture = { file = "ck_space_light.dds" index = 7 }
+		additional_shader_defines = { "BAKED_LIGHTING" "LIGHTING_DECAL" }
+	}
+}
+entity = { name = "ck_view_mars_entity" pdxmesh = "ck_view_mars_mesh" }
+
+pdxmesh = {
+	name = "ck_view_mars_f1_mesh"
+	file = "ck_view_mars_f1.mesh"
+	cull_distance = 100000
+	meshsettings = {
+		name = "ck_view_mars_f1Shape"
+		index = 0
+		texture_diffuse = "ck_view_mars_f1_diffuse.dds"
+		texture_normal = "ck_flat_normal.dds"
+		texture_specular = "ck_space_properties.dds"
+		shader = "map_floor"
+		shader_file = "gfx/FX/pdxmesh.shader"
+		texture = { file = "ck_space_light.dds" index = 7 }
+		additional_shader_defines = { "BAKED_LIGHTING" "LIGHTING_DECAL" }
+	}
+}
+entity = { name = "ck_view_mars_f1_entity" pdxmesh = "ck_view_mars_f1_mesh" }
+
+pdxmesh = {
+	name = "ck_view_mars_f2_mesh"
+	file = "ck_view_mars_f2.mesh"
+	cull_distance = 100000
+	meshsettings = {
+		name = "ck_view_mars_f2Shape"
+		index = 0
+		texture_diffuse = "ck_view_mars_f2_diffuse.dds"
+		texture_normal = "ck_flat_normal.dds"
+		texture_specular = "ck_space_properties.dds"
+		shader = "map_floor"
+		shader_file = "gfx/FX/pdxmesh.shader"
+		texture = { file = "ck_space_light.dds" index = 7 }
+		additional_shader_defines = { "BAKED_LIGHTING" "LIGHTING_DECAL" }
+	}
+}
+entity = { name = "ck_view_mars_f2_entity" pdxmesh = "ck_view_mars_f2_mesh" }
+
+pdxmesh = {
+	name = "ck_view_mars_f3_mesh"
+	file = "ck_view_mars_f3.mesh"
+	cull_distance = 100000
+	meshsettings = {
+		name = "ck_view_mars_f3Shape"
+		index = 0
+		texture_diffuse = "ck_view_mars_f3_diffuse.dds"
+		texture_normal = "ck_flat_normal.dds"
+		texture_specular = "ck_space_properties.dds"
+		shader = "map_floor"
+		shader_file = "gfx/FX/pdxmesh.shader"
+		texture = { file = "ck_space_light.dds" index = 7 }
+		additional_shader_defines = { "BAKED_LIGHTING" "LIGHTING_DECAL" }
+	}
+}
+entity = { name = "ck_view_mars_f3_entity" pdxmesh = "ck_view_mars_f3_mesh" }
+
+pdxmesh = {
+	name = "ck_view_mercury_mesh"
+	file = "ck_view_mercury.mesh"
+	cull_distance = 100000
+	meshsettings = {
+		name = "ck_view_mercuryShape"
+		index = 0
+		texture_diffuse = "ck_view_mercury_diffuse.dds"
+		texture_normal = "ck_flat_normal.dds"
+		texture_specular = "ck_space_properties.dds"
+		shader = "map_floor"
+		shader_file = "gfx/FX/pdxmesh.shader"
+		texture = { file = "ck_space_light.dds" index = 7 }
+		additional_shader_defines = { "BAKED_LIGHTING" "LIGHTING_DECAL" }
+	}
+}
+entity = { name = "ck_view_mercury_entity" pdxmesh = "ck_view_mercury_mesh" }
+
+pdxmesh = {
+	name = "ck_view_moon_mesh"
+	file = "ck_view_moon.mesh"
+	cull_distance = 100000
+	meshsettings = {
+		name = "ck_view_moonShape"
+		index = 0
+		texture_diffuse = "ck_view_moon_diffuse.dds"
+		texture_normal = "ck_flat_normal.dds"
+		texture_specular = "ck_space_properties.dds"
+		shader = "map_floor"
+		shader_file = "gfx/FX/pdxmesh.shader"
+		texture = { file = "ck_space_light.dds" index = 7 }
+		additional_shader_defines = { "BAKED_LIGHTING" "LIGHTING_DECAL" }
+	}
+}
+entity = { name = "ck_view_moon_entity" pdxmesh = "ck_view_moon_mesh" }
+
+pdxmesh = {
 	name = "ck_view_neptune_mesh"
 	file = "ck_view_neptune.mesh"
 	cull_distance = 100000
@@ -545,4 +689,94 @@ pdxmesh = {
 	}
 }
 entity = { name = "ck_view_neptune_entity" pdxmesh = "ck_view_neptune_mesh" }
+
+pdxmesh = {
+	name = "ck_view_saturn_mesh"
+	file = "ck_view_saturn.mesh"
+	cull_distance = 100000
+	meshsettings = {
+		name = "ck_view_saturnShape"
+		index = 0
+		texture_diffuse = "ck_view_saturn_diffuse.dds"
+		texture_normal = "ck_flat_normal.dds"
+		texture_specular = "ck_space_properties.dds"
+		shader = "map_floor"
+		shader_file = "gfx/FX/pdxmesh.shader"
+		texture = { file = "ck_space_light.dds" index = 7 }
+		additional_shader_defines = { "BAKED_LIGHTING" "LIGHTING_DECAL" }
+	}
+}
+entity = { name = "ck_view_saturn_entity" pdxmesh = "ck_view_saturn_mesh" }
+
+pdxmesh = {
+	name = "ck_view_venus_mesh"
+	file = "ck_view_venus.mesh"
+	cull_distance = 100000
+	meshsettings = {
+		name = "ck_view_venusShape"
+		index = 0
+		texture_diffuse = "ck_view_venus_diffuse.dds"
+		texture_normal = "ck_flat_normal.dds"
+		texture_specular = "ck_space_properties.dds"
+		shader = "map_floor"
+		shader_file = "gfx/FX/pdxmesh.shader"
+		texture = { file = "ck_space_light.dds" index = 7 }
+		additional_shader_defines = { "BAKED_LIGHTING" "LIGHTING_DECAL" }
+	}
+}
+entity = { name = "ck_view_venus_entity" pdxmesh = "ck_view_venus_mesh" }
+
+pdxmesh = {
+	name = "ck_view_venus_f1_mesh"
+	file = "ck_view_venus_f1.mesh"
+	cull_distance = 100000
+	meshsettings = {
+		name = "ck_view_venus_f1Shape"
+		index = 0
+		texture_diffuse = "ck_view_venus_f1_diffuse.dds"
+		texture_normal = "ck_flat_normal.dds"
+		texture_specular = "ck_space_properties.dds"
+		shader = "map_floor"
+		shader_file = "gfx/FX/pdxmesh.shader"
+		texture = { file = "ck_space_light.dds" index = 7 }
+		additional_shader_defines = { "BAKED_LIGHTING" "LIGHTING_DECAL" }
+	}
+}
+entity = { name = "ck_view_venus_f1_entity" pdxmesh = "ck_view_venus_f1_mesh" }
+
+pdxmesh = {
+	name = "ck_view_venus_f2_mesh"
+	file = "ck_view_venus_f2.mesh"
+	cull_distance = 100000
+	meshsettings = {
+		name = "ck_view_venus_f2Shape"
+		index = 0
+		texture_diffuse = "ck_view_venus_f2_diffuse.dds"
+		texture_normal = "ck_flat_normal.dds"
+		texture_specular = "ck_space_properties.dds"
+		shader = "map_floor"
+		shader_file = "gfx/FX/pdxmesh.shader"
+		texture = { file = "ck_space_light.dds" index = 7 }
+		additional_shader_defines = { "BAKED_LIGHTING" "LIGHTING_DECAL" }
+	}
+}
+entity = { name = "ck_view_venus_f2_entity" pdxmesh = "ck_view_venus_f2_mesh" }
+
+pdxmesh = {
+	name = "ck_view_venus_f3_mesh"
+	file = "ck_view_venus_f3.mesh"
+	cull_distance = 100000
+	meshsettings = {
+		name = "ck_view_venus_f3Shape"
+		index = 0
+		texture_diffuse = "ck_view_venus_f3_diffuse.dds"
+		texture_normal = "ck_flat_normal.dds"
+		texture_specular = "ck_space_properties.dds"
+		shader = "map_floor"
+		shader_file = "gfx/FX/pdxmesh.shader"
+		texture = { file = "ck_space_light.dds" index = 7 }
+		additional_shader_defines = { "BAKED_LIGHTING" "LIGHTING_DECAL" }
+	}
+}
+entity = { name = "ck_view_venus_f3_entity" pdxmesh = "ck_view_venus_f3_mesh" }
 

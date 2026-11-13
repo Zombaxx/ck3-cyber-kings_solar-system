@@ -1,5 +1,4 @@
-﻿# Cyber Kings: style C "Bridge Viewscreen", one set per home world (same rim and bridge, own console plaque and view). Layers in layers.txt.
-# Style B objects (ck_wall_screen/ck_wall_hull/ck_space_*) are kept in the asset; gen_styles.py writes them back here.
+﻿# Cyber Kings: style C "Bridge Viewscreen", one set per style (shared rim and bridge, own console plaque and view). Layers in layers.txt.
 object={
 	name="ck_holo_rim_earth"
 	render_pass=MapUnderTerrain
@@ -37,6 +36,46 @@ object={
 	generated_content=no
 	layer="cyber_table_layer_earth"
 	entity="ck_view_earth_entity"
+	count=1
+	transform="0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000
+"}
+object={
+	name="ck_holo_rim_moon"
+	render_pass=MapUnderTerrain
+	clamp_to_water_level=yes
+	generated_content=no
+	layer="cyber_table_layer_moon"
+	entity="ck_holo_rim_entity"
+	count=1
+	transform="0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000
+"}
+object={
+	name="ck_console_moon"
+	render_pass=MapUnderTerrain
+	clamp_to_water_level=yes
+	generated_content=no
+	layer="cyber_table_layer_moon"
+	entity="ck_console_moon_entity"
+	count=1
+	transform="0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000
+"}
+object={
+	name="ck_bridge_moon"
+	render_pass=MapUnderTerrain
+	clamp_to_water_level=yes
+	generated_content=no
+	layer="cyber_table_layer_moon"
+	entity="ck_bridge_entity"
+	count=1
+	transform="0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000
+"}
+object={
+	name="ck_view_moon"
+	render_pass=MapUnderTerrain
+	clamp_to_water_level=yes
+	generated_content=no
+	layer="cyber_table_layer_moon"
+	entity="ck_view_moon_entity"
 	count=1
 	transform="0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000
 "}
@@ -317,6 +356,446 @@ object={
 	generated_content=no
 	layer="cyber_table_layer_neptune"
 	entity="ck_view_neptune_entity"
+	count=1
+	transform="0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000
+"}
+object={
+	name="ck_holo_rim_earth_namerica"
+	render_pass=MapUnderTerrain
+	clamp_to_water_level=yes
+	generated_content=no
+	layer="cyber_table_layer_earth_namerica"
+	entity="ck_holo_rim_entity"
+	count=1
+	transform="0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000
+"}
+object={
+	name="ck_console_earth_namerica"
+	render_pass=MapUnderTerrain
+	clamp_to_water_level=yes
+	generated_content=no
+	layer="cyber_table_layer_earth_namerica"
+	entity="ck_console_earth_entity"
+	count=1
+	transform="0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000
+"}
+object={
+	name="ck_bridge_earth_namerica"
+	render_pass=MapUnderTerrain
+	clamp_to_water_level=yes
+	generated_content=no
+	layer="cyber_table_layer_earth_namerica"
+	entity="ck_bridge_entity"
+	count=1
+	transform="0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000
+"}
+object={
+	name="ck_view_earth_namerica"
+	render_pass=MapUnderTerrain
+	clamp_to_water_level=yes
+	generated_content=no
+	layer="cyber_table_layer_earth_namerica"
+	entity="ck_view_earth_namerica_entity"
+	count=1
+	transform="0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000
+"}
+object={
+	name="ck_holo_rim_earth_australia"
+	render_pass=MapUnderTerrain
+	clamp_to_water_level=yes
+	generated_content=no
+	layer="cyber_table_layer_earth_australia"
+	entity="ck_holo_rim_entity"
+	count=1
+	transform="0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000
+"}
+object={
+	name="ck_console_earth_australia"
+	render_pass=MapUnderTerrain
+	clamp_to_water_level=yes
+	generated_content=no
+	layer="cyber_table_layer_earth_australia"
+	entity="ck_console_earth_entity"
+	count=1
+	transform="0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000
+"}
+object={
+	name="ck_bridge_earth_australia"
+	render_pass=MapUnderTerrain
+	clamp_to_water_level=yes
+	generated_content=no
+	layer="cyber_table_layer_earth_australia"
+	entity="ck_bridge_entity"
+	count=1
+	transform="0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000
+"}
+object={
+	name="ck_view_earth_australia"
+	render_pass=MapUnderTerrain
+	clamp_to_water_level=yes
+	generated_content=no
+	layer="cyber_table_layer_earth_australia"
+	entity="ck_view_earth_australia_entity"
+	count=1
+	transform="0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000
+"}
+object={
+	name="ck_holo_rim_earth_neasia"
+	render_pass=MapUnderTerrain
+	clamp_to_water_level=yes
+	generated_content=no
+	layer="cyber_table_layer_earth_neasia"
+	entity="ck_holo_rim_entity"
+	count=1
+	transform="0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000
+"}
+object={
+	name="ck_console_earth_neasia"
+	render_pass=MapUnderTerrain
+	clamp_to_water_level=yes
+	generated_content=no
+	layer="cyber_table_layer_earth_neasia"
+	entity="ck_console_earth_entity"
+	count=1
+	transform="0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000
+"}
+object={
+	name="ck_bridge_earth_neasia"
+	render_pass=MapUnderTerrain
+	clamp_to_water_level=yes
+	generated_content=no
+	layer="cyber_table_layer_earth_neasia"
+	entity="ck_bridge_entity"
+	count=1
+	transform="0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000
+"}
+object={
+	name="ck_view_earth_neasia"
+	render_pass=MapUnderTerrain
+	clamp_to_water_level=yes
+	generated_content=no
+	layer="cyber_table_layer_earth_neasia"
+	entity="ck_view_earth_neasia_entity"
+	count=1
+	transform="0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000
+"}
+object={
+	name="ck_holo_rim_earth_americas"
+	render_pass=MapUnderTerrain
+	clamp_to_water_level=yes
+	generated_content=no
+	layer="cyber_table_layer_earth_americas"
+	entity="ck_holo_rim_entity"
+	count=1
+	transform="0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000
+"}
+object={
+	name="ck_console_earth_americas"
+	render_pass=MapUnderTerrain
+	clamp_to_water_level=yes
+	generated_content=no
+	layer="cyber_table_layer_earth_americas"
+	entity="ck_console_earth_entity"
+	count=1
+	transform="0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000
+"}
+object={
+	name="ck_bridge_earth_americas"
+	render_pass=MapUnderTerrain
+	clamp_to_water_level=yes
+	generated_content=no
+	layer="cyber_table_layer_earth_americas"
+	entity="ck_bridge_entity"
+	count=1
+	transform="0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000
+"}
+object={
+	name="ck_view_earth_americas"
+	render_pass=MapUnderTerrain
+	clamp_to_water_level=yes
+	generated_content=no
+	layer="cyber_table_layer_earth_americas"
+	entity="ck_view_earth_americas_entity"
+	count=1
+	transform="0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000
+"}
+object={
+	name="ck_holo_rim_earth_asia"
+	render_pass=MapUnderTerrain
+	clamp_to_water_level=yes
+	generated_content=no
+	layer="cyber_table_layer_earth_asia"
+	entity="ck_holo_rim_entity"
+	count=1
+	transform="0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000
+"}
+object={
+	name="ck_console_earth_asia"
+	render_pass=MapUnderTerrain
+	clamp_to_water_level=yes
+	generated_content=no
+	layer="cyber_table_layer_earth_asia"
+	entity="ck_console_earth_entity"
+	count=1
+	transform="0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000
+"}
+object={
+	name="ck_bridge_earth_asia"
+	render_pass=MapUnderTerrain
+	clamp_to_water_level=yes
+	generated_content=no
+	layer="cyber_table_layer_earth_asia"
+	entity="ck_bridge_entity"
+	count=1
+	transform="0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000
+"}
+object={
+	name="ck_view_earth_asia"
+	render_pass=MapUnderTerrain
+	clamp_to_water_level=yes
+	generated_content=no
+	layer="cyber_table_layer_earth_asia"
+	entity="ck_view_earth_asia_entity"
+	count=1
+	transform="0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000
+"}
+object={
+	name="ck_holo_rim_mars_f1"
+	render_pass=MapUnderTerrain
+	clamp_to_water_level=yes
+	generated_content=no
+	layer="cyber_table_layer_mars_f1"
+	entity="ck_holo_rim_entity"
+	count=1
+	transform="0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000
+"}
+object={
+	name="ck_console_mars_f1"
+	render_pass=MapUnderTerrain
+	clamp_to_water_level=yes
+	generated_content=no
+	layer="cyber_table_layer_mars_f1"
+	entity="ck_console_mars_entity"
+	count=1
+	transform="0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000
+"}
+object={
+	name="ck_bridge_mars_f1"
+	render_pass=MapUnderTerrain
+	clamp_to_water_level=yes
+	generated_content=no
+	layer="cyber_table_layer_mars_f1"
+	entity="ck_bridge_entity"
+	count=1
+	transform="0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000
+"}
+object={
+	name="ck_view_mars_f1"
+	render_pass=MapUnderTerrain
+	clamp_to_water_level=yes
+	generated_content=no
+	layer="cyber_table_layer_mars_f1"
+	entity="ck_view_mars_f1_entity"
+	count=1
+	transform="0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000
+"}
+object={
+	name="ck_holo_rim_mars_f2"
+	render_pass=MapUnderTerrain
+	clamp_to_water_level=yes
+	generated_content=no
+	layer="cyber_table_layer_mars_f2"
+	entity="ck_holo_rim_entity"
+	count=1
+	transform="0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000
+"}
+object={
+	name="ck_console_mars_f2"
+	render_pass=MapUnderTerrain
+	clamp_to_water_level=yes
+	generated_content=no
+	layer="cyber_table_layer_mars_f2"
+	entity="ck_console_mars_entity"
+	count=1
+	transform="0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000
+"}
+object={
+	name="ck_bridge_mars_f2"
+	render_pass=MapUnderTerrain
+	clamp_to_water_level=yes
+	generated_content=no
+	layer="cyber_table_layer_mars_f2"
+	entity="ck_bridge_entity"
+	count=1
+	transform="0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000
+"}
+object={
+	name="ck_view_mars_f2"
+	render_pass=MapUnderTerrain
+	clamp_to_water_level=yes
+	generated_content=no
+	layer="cyber_table_layer_mars_f2"
+	entity="ck_view_mars_f2_entity"
+	count=1
+	transform="0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000
+"}
+object={
+	name="ck_holo_rim_mars_f3"
+	render_pass=MapUnderTerrain
+	clamp_to_water_level=yes
+	generated_content=no
+	layer="cyber_table_layer_mars_f3"
+	entity="ck_holo_rim_entity"
+	count=1
+	transform="0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000
+"}
+object={
+	name="ck_console_mars_f3"
+	render_pass=MapUnderTerrain
+	clamp_to_water_level=yes
+	generated_content=no
+	layer="cyber_table_layer_mars_f3"
+	entity="ck_console_mars_entity"
+	count=1
+	transform="0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000
+"}
+object={
+	name="ck_bridge_mars_f3"
+	render_pass=MapUnderTerrain
+	clamp_to_water_level=yes
+	generated_content=no
+	layer="cyber_table_layer_mars_f3"
+	entity="ck_bridge_entity"
+	count=1
+	transform="0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000
+"}
+object={
+	name="ck_view_mars_f3"
+	render_pass=MapUnderTerrain
+	clamp_to_water_level=yes
+	generated_content=no
+	layer="cyber_table_layer_mars_f3"
+	entity="ck_view_mars_f3_entity"
+	count=1
+	transform="0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000
+"}
+object={
+	name="ck_holo_rim_venus_f1"
+	render_pass=MapUnderTerrain
+	clamp_to_water_level=yes
+	generated_content=no
+	layer="cyber_table_layer_venus_f1"
+	entity="ck_holo_rim_entity"
+	count=1
+	transform="0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000
+"}
+object={
+	name="ck_console_venus_f1"
+	render_pass=MapUnderTerrain
+	clamp_to_water_level=yes
+	generated_content=no
+	layer="cyber_table_layer_venus_f1"
+	entity="ck_console_venus_entity"
+	count=1
+	transform="0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000
+"}
+object={
+	name="ck_bridge_venus_f1"
+	render_pass=MapUnderTerrain
+	clamp_to_water_level=yes
+	generated_content=no
+	layer="cyber_table_layer_venus_f1"
+	entity="ck_bridge_entity"
+	count=1
+	transform="0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000
+"}
+object={
+	name="ck_view_venus_f1"
+	render_pass=MapUnderTerrain
+	clamp_to_water_level=yes
+	generated_content=no
+	layer="cyber_table_layer_venus_f1"
+	entity="ck_view_venus_f1_entity"
+	count=1
+	transform="0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000
+"}
+object={
+	name="ck_holo_rim_venus_f2"
+	render_pass=MapUnderTerrain
+	clamp_to_water_level=yes
+	generated_content=no
+	layer="cyber_table_layer_venus_f2"
+	entity="ck_holo_rim_entity"
+	count=1
+	transform="0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000
+"}
+object={
+	name="ck_console_venus_f2"
+	render_pass=MapUnderTerrain
+	clamp_to_water_level=yes
+	generated_content=no
+	layer="cyber_table_layer_venus_f2"
+	entity="ck_console_venus_entity"
+	count=1
+	transform="0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000
+"}
+object={
+	name="ck_bridge_venus_f2"
+	render_pass=MapUnderTerrain
+	clamp_to_water_level=yes
+	generated_content=no
+	layer="cyber_table_layer_venus_f2"
+	entity="ck_bridge_entity"
+	count=1
+	transform="0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000
+"}
+object={
+	name="ck_view_venus_f2"
+	render_pass=MapUnderTerrain
+	clamp_to_water_level=yes
+	generated_content=no
+	layer="cyber_table_layer_venus_f2"
+	entity="ck_view_venus_f2_entity"
+	count=1
+	transform="0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000
+"}
+object={
+	name="ck_holo_rim_venus_f3"
+	render_pass=MapUnderTerrain
+	clamp_to_water_level=yes
+	generated_content=no
+	layer="cyber_table_layer_venus_f3"
+	entity="ck_holo_rim_entity"
+	count=1
+	transform="0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000
+"}
+object={
+	name="ck_console_venus_f3"
+	render_pass=MapUnderTerrain
+	clamp_to_water_level=yes
+	generated_content=no
+	layer="cyber_table_layer_venus_f3"
+	entity="ck_console_venus_entity"
+	count=1
+	transform="0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000
+"}
+object={
+	name="ck_bridge_venus_f3"
+	render_pass=MapUnderTerrain
+	clamp_to_water_level=yes
+	generated_content=no
+	layer="cyber_table_layer_venus_f3"
+	entity="ck_bridge_entity"
+	count=1
+	transform="0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000
+"}
+object={
+	name="ck_view_venus_f3"
+	render_pass=MapUnderTerrain
+	clamp_to_water_level=yes
+	generated_content=no
+	layer="cyber_table_layer_venus_f3"
+	entity="ck_view_venus_f3_entity"
 	count=1
 	transform="0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000
 "}

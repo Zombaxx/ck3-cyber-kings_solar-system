@@ -82,6 +82,14 @@ layer={
 	visibility_tags="map_table_style_cyber_earth"
 }
 layer={
+	name="cyber_table_layer_moon"
+	fade_in=21
+	fade_out=80
+	category=""
+	masks=""
+	visibility_tags="map_table_style_cyber_moon"
+}
+layer={
 	name="cyber_table_layer_mercury"
 	fade_in=21
 	fade_out=80
@@ -136,4 +144,92 @@ layer={
 	category=""
 	masks=""
 	visibility_tags="map_table_style_cyber_neptune"
+}
+layer={
+	name="cyber_table_layer_earth_namerica"
+	fade_in=21
+	fade_out=80
+	category=""
+	masks=""
+	visibility_tags="map_table_style_cyber_earth_namerica"
+}
+layer={
+	name="cyber_table_layer_earth_australia"
+	fade_in=21
+	fade_out=80
+	category=""
+	masks=""
+	visibility_tags="map_table_style_cyber_earth_australia"
+}
+layer={
+	name="cyber_table_layer_earth_neasia"
+	fade_in=21
+	fade_out=80
+	category=""
+	masks=""
+	visibility_tags="map_table_style_cyber_earth_neasia"
+}
+layer={
+	name="cyber_table_layer_earth_americas"
+	fade_in=21
+	fade_out=80
+	category=""
+	masks=""
+	visibility_tags="map_table_style_cyber_earth_americas"
+}
+layer={
+	name="cyber_table_layer_earth_asia"
+	fade_in=21
+	fade_out=80
+	category=""
+	masks=""
+	visibility_tags="map_table_style_cyber_earth_asia"
+}
+layer={
+	name="cyber_table_layer_mars_f1"
+	fade_in=21
+	fade_out=80
+	category=""
+	masks=""
+	visibility_tags="map_table_style_cyber_mars_f1"
+}
+layer={
+	name="cyber_table_layer_mars_f2"
+	fade_in=21
+	fade_out=80
+	category=""
+	masks=""
+	visibility_tags="map_table_style_cyber_mars_f2"
+}
+layer={
+	name="cyber_table_layer_mars_f3"
+	fade_in=21
+	fade_out=80
+	category=""
+	masks=""
+	visibility_tags="map_table_style_cyber_mars_f3"
+}
+layer={
+	name="cyber_table_layer_venus_f1"
+	fade_in=21
+	fade_out=80
+	category=""
+	masks=""
+	visibility_tags="map_table_style_cyber_venus_f1"
+}
+layer={
+	name="cyber_table_layer_venus_f2"
+	fade_in=21
+	fade_out=80
+	category=""
+	masks=""
+	visibility_tags="map_table_style_cyber_venus_f2"
+}
+layer={
+	name="cyber_table_layer_venus_f3"
+	fade_in=21
+	fade_out=80
+	category=""
+	masks=""
+	visibility_tags="map_table_style_cyber_venus_f3"
 }
