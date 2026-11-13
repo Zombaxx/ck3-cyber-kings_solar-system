@@ -1,4 +1,4 @@
-﻿# Cyber Kings: style C "Bridge Viewscreen", one set per home world (same rim and bridge, own plaque and view). Layers in layers.txt.
+﻿# Cyber Kings: style C "Bridge Viewscreen", one set per home world (same rim and bridge, own console plaque and view). Layers in layers.txt.
 # Style B objects (ck_wall_screen/ck_wall_hull/ck_space_*) are kept in the asset; gen_styles.py writes them back here.
 object={
 	name="ck_holo_rim_earth"
@@ -11,22 +11,12 @@ object={
 	transform="0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000
 "}
 object={
-	name="ck_plaque_earth"
-	render_pass=MapUnderTerrain
-	clamp_to_water_level=yes
-	generated_content=no
-	layer="cyber_table_layer_earth"
-	entity="ck_plaque_earth_entity"
-	count=1
-	transform="0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000
-"}
-object={
 	name="ck_console_earth"
 	render_pass=MapUnderTerrain
 	clamp_to_water_level=yes
 	generated_content=no
 	layer="cyber_table_layer_earth"
-	entity="ck_console_entity"
+	entity="ck_console_earth_entity"
 	count=1
 	transform="0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000
 "}
@@ -61,22 +51,12 @@ object={
 	transform="0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000
 "}
 object={
-	name="ck_plaque_mercury"
-	render_pass=MapUnderTerrain
-	clamp_to_water_level=yes
-	generated_content=no
-	layer="cyber_table_layer_mercury"
-	entity="ck_plaque_mercury_entity"
-	count=1
-	transform="0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000
-"}
-object={
 	name="ck_console_mercury"
 	render_pass=MapUnderTerrain
 	clamp_to_water_level=yes
 	generated_content=no
 	layer="cyber_table_layer_mercury"
-	entity="ck_console_entity"
+	entity="ck_console_mercury_entity"
 	count=1
 	transform="0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000
 "}
@@ -111,22 +91,12 @@ object={
 	transform="0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000
 "}
 object={
-	name="ck_plaque_venus"
-	render_pass=MapUnderTerrain
-	clamp_to_water_level=yes
-	generated_content=no
-	layer="cyber_table_layer_venus"
-	entity="ck_plaque_venus_entity"
-	count=1
-	transform="0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000
-"}
-object={
 	name="ck_console_venus"
 	render_pass=MapUnderTerrain
 	clamp_to_water_level=yes
 	generated_content=no
 	layer="cyber_table_layer_venus"
-	entity="ck_console_entity"
+	entity="ck_console_venus_entity"
 	count=1
 	transform="0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000
 "}
@@ -161,22 +131,12 @@ object={
 	transform="0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000
 "}
 object={
-	name="ck_plaque_mars"
-	render_pass=MapUnderTerrain
-	clamp_to_water_level=yes
-	generated_content=no
-	layer="cyber_table_layer_mars"
-	entity="ck_plaque_mars_entity"
-	count=1
-	transform="0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000
-"}
-object={
 	name="ck_console_mars"
 	render_pass=MapUnderTerrain
 	clamp_to_water_level=yes
 	generated_content=no
 	layer="cyber_table_layer_mars"
-	entity="ck_console_entity"
+	entity="ck_console_mars_entity"
 	count=1
 	transform="0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000
 "}
@@ -211,22 +171,12 @@ object={
 	transform="0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000
 "}
 object={
-	name="ck_plaque_ceres"
-	render_pass=MapUnderTerrain
-	clamp_to_water_level=yes
-	generated_content=no
-	layer="cyber_table_layer_ceres"
-	entity="ck_plaque_ceres_entity"
-	count=1
-	transform="0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000
-"}
-object={
 	name="ck_console_ceres"
 	render_pass=MapUnderTerrain
 	clamp_to_water_level=yes
 	generated_content=no
 	layer="cyber_table_layer_ceres"
-	entity="ck_console_entity"
+	entity="ck_console_ceres_entity"
 	count=1
 	transform="0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000
 "}
@@ -261,22 +211,12 @@ object={
 	transform="0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000
 "}
 object={
-	name="ck_plaque_jupiter"
-	render_pass=MapUnderTerrain
-	clamp_to_water_level=yes
-	generated_content=no
-	layer="cyber_table_layer_jupiter"
-	entity="ck_plaque_jupiter_entity"
-	count=1
-	transform="0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000
-"}
-object={
 	name="ck_console_jupiter"
 	render_pass=MapUnderTerrain
 	clamp_to_water_level=yes
 	generated_content=no
 	layer="cyber_table_layer_jupiter"
-	entity="ck_console_entity"
+	entity="ck_console_jupiter_entity"
 	count=1
 	transform="0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000
 "}
@@ -311,22 +251,12 @@ object={
 	transform="0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000
 "}
 object={
-	name="ck_plaque_saturn"
-	render_pass=MapUnderTerrain
-	clamp_to_water_level=yes
-	generated_content=no
-	layer="cyber_table_layer_saturn"
-	entity="ck_plaque_saturn_entity"
-	count=1
-	transform="0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000
-"}
-object={
 	name="ck_console_saturn"
 	render_pass=MapUnderTerrain
 	clamp_to_water_level=yes
 	generated_content=no
 	layer="cyber_table_layer_saturn"
-	entity="ck_console_entity"
+	entity="ck_console_saturn_entity"
 	count=1
 	transform="0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000
 "}
@@ -361,22 +291,12 @@ object={
 	transform="0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000
 "}
 object={
-	name="ck_plaque_neptune"
-	render_pass=MapUnderTerrain
-	clamp_to_water_level=yes
-	generated_content=no
-	layer="cyber_table_layer_neptune"
-	entity="ck_plaque_neptune_entity"
-	count=1
-	transform="0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000
-"}
-object={
 	name="ck_console_neptune"
 	render_pass=MapUnderTerrain
 	clamp_to_water_level=yes
 	generated_content=no
 	layer="cyber_table_layer_neptune"
-	entity="ck_console_entity"
+	entity="ck_console_neptune_entity"
 	count=1
 	transform="0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000
 "}
