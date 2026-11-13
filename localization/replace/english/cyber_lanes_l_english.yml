@@ -1,0 +1,28 @@
+﻿l_english:
+ # Cyber Kings (2026-11-12): vanilla sea-travel keys now pick a space-lane or sea text (custom loc
+ # common/customizable_localization/cyber_kings_lane_custom_loc.txt). After a CK3 patch, re-copy the
+ # vanilla text into the ck_sea.* keys of localization/english/cyber_lanes_text_l_english.yml.
+ travel_danger_events.4010.desc_sea:0 "[ROOT.Char.Custom('CkLane_travel_danger_events_4010_desc_sea')]"
+ travel_danger_events.4010.desc_sea_again:0 "[ROOT.Char.Custom('CkLane_travel_danger_events_4010_desc_sea_again')]"
+ travel_danger_events.4010.a_sea:0 "[ROOT.Char.Custom('CkLane_travel_danger_events_4010_a_sea')]"
+ travel_danger_events.7000.f_sea:0 "[ROOT.Char.Custom('CkLane_travel_danger_events_7000_f_sea')]"
+ travel_events.4003.desc.intro:0 "[ROOT.Char.Custom('CkLane_travel_events_4003_desc_intro')]"
+ travel_events.4003.desc.viking:1 "[ROOT.Char.Custom('CkLane_travel_events_4003_desc_viking')]"
+ travel_events.4003.desc.berber_pirate:1 "[ROOT.Char.Custom('CkLane_travel_events_4003_desc_berber_pirate')]"
+ travel_events.4003.desc.regular_pirate:1 "[ROOT.Char.Custom('CkLane_travel_events_4003_desc_regular_pirate')]"
+ travel_events.4003.c:0 "[ROOT.Char.Custom('CkLane_travel_events_4003_c')]"
+ travel_events.4005.desc:0 "[ROOT.Char.Custom('CkLane_travel_events_4005_desc')]"
+ travel_events.4006.desc:0 "[ROOT.Char.Custom('CkLane_travel_events_4006_desc')]"
+ travel_events.4008.desc:0 "[ROOT.Char.Custom('CkLane_travel_events_4008_desc')]"
+ travel_events.1208.desc:0 "[ROOT.Char.Custom('CkLane_travel_events_1208_desc')]"
+ harm.0521.desc.sea:0 "[ROOT.Char.Custom('CkLane_harm_0521_desc_sea')]"
+ harm.0521.desc.outro:0 "[ROOT.Char.Custom('CkLane_harm_0521_desc_outro')]"
+ harm.0522.desc.sea:0 "[ROOT.Char.Custom('CkLane_harm_0522_desc_sea')]"
+ harm.0522.desc.outro:0 "[ROOT.Char.Custom('CkLane_harm_0522_desc_outro')]"
+ harm.0522.a:0 "[ROOT.Char.Custom('CkLane_harm_0522_a')]"
+ pilgrimage.2030.desc:0 "[ROOT.Char.Custom('CkLane_pilgrimage_2030_desc')]"
+ pilgrimage.2040.desc:0 "[ROOT.Char.Custom('CkLane_pilgrimage_2040_desc')]"
+ pilgrimage.2050.desc:0 "[ROOT.Char.Custom('CkLane_pilgrimage_2050_desc')]"
+ pilgrimage.2050.a.tt:0 "[ROOT.Char.Custom('CkLane_pilgrimage_2050_a_tt')]"
+ pilgrimage.2050.b.failure.desc:0 "[ROOT.Char.Custom('CkLane_pilgrimage_2050_b_failure_desc')]"
+ pilgrimage_intent.1030.desc_sea:0 "[ROOT.Char.Custom('CkLane_pilgrimage_intent_1030_desc_sea')]"

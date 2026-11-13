@@ -1,0 +1,3 @@
+﻿l_english:
+ # Cyber Kings (2026-11-12): vanilla concept text with the space-lane sentence added at the end
+ game_concept_travel_desc:0 "$game_concept_travel$ is the means by which a [character|E] gets from one [location|E] to another, primarily to attend [activities|E].\n\nThere are numerous ways to plan your journey like choosing a [GetCourtPositionType('travel_leader_court_position').GetName()] to hire, selecting [travel_options|E], and customizing your route. You will meet many interesting characters along your path, but be wary of [travel_danger|E] that may lay in wait.\n\nJourneys between the [worlds|E] follow the [space_lanes|E] aboard Spacer Guild ships; the [mare_incognitum|E] beyond them cannot be crossed."

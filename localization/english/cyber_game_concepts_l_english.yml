@@ -1,0 +1,10 @@
+﻿l_english:
+ # Cyber Kings (2026-11-12): setting game concepts (common/game_concepts/cyber_kings_game_concepts.txt)
+ game_concept_world: "World"
+ game_concept_worlds: "Worlds"
+ game_concept_world_desc: "A $game_concept_world$ is any terraformed, inhabited planet or moon of the solar system: Earth, the Moon, Mercury, Venus, Mars, Phobos, Ceres, Ganymede, Callisto, Europa, Titan and Triton. Each world has its own lands, seas, peoples and faiths.\n\nThe worlds are separated by the [mare_incognitum|E]. Armies and travelers can only cross between them along the [space_lanes|E]."
+ game_concept_space_lane: "Space Lane"
+ game_concept_space_lanes: "Space Lanes"
+ game_concept_space_lane_desc: "$game_concept_space_lanes$ are the navigable corridors between the [worlds|E], shown on the map as glowing aurora trails. Ships of the Spacer Guild ferry rulers, pilgrims and armies along them, much as galleys once crossed the seas of Earth.\n\nEverything outside the lanes is the [mare_incognitum|E], which cannot be crossed."
+ game_concept_mare_incognitum: "Mare Incognitum"
+ game_concept_mare_incognitum_desc: "The $game_concept_mare_incognitum$, the unknown sea, is the impassable void between the [worlds|E]. No ship that strays from the [space_lanes|E] into it has ever been known to return."

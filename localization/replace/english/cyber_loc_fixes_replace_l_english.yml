@@ -1,0 +1,6 @@
+﻿l_english:
+ # Cyber Kings (2026-11-12, localization session): fixes for mod loc that showed a raw key. Kept in replace/ so a
+ # barony/titles rebuild cannot undo them; the barony session may fold them into its rename table (BARONY_METHOD).
+ # Mercury baronies named after real Mercury craters that fit the duchy theme (Vlaminck = painters, Bechet = musicians).
+ b_barony0140a: "Matisse"
+ b_barony0504a: "Vivaldi"

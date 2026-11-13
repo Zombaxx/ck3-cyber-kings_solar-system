@@ -90,3 +90,8 @@
  era_zaharra_rite_desc: "The mainline rite of the Venusian druids."
  holy_site_ck_ganis_grove_name: "Grove of the Prophet"
  holy_site_ck_ganis_grove_effect_name: "From the Grove of the Prophet"
+ # 2026-11-12: names shown while the faith is unreformed (religion has pagan_roots)
+ era_zaharra_faith_old: "Old $era_zaharra_faith$"
+ era_zaharra_faith_old_adj: "Old $era_zaharra_faith_adj$"
+ era_zaharra_faith_old_adherent: "Old $era_zaharra_faith_adherent$"
+ era_zaharra_faith_old_adherent_plural: "Old $era_zaharra_faith_adherent_plural$"

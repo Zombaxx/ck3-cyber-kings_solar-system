@@ -1,0 +1,14 @@
+﻿# Cyber Kings (2026-11-12, localization session): setting concepts for tooltips, usable as [world|E], [space_lane|E],
+# [mare_incognitum|E] in any loc string. Loc in localization/english/cyber_game_concepts_l_english.yml.
+world = {
+	alias = { worlds }
+}
+space_lane = {
+	alias = { space_lanes }
+	parent = travel
+	texture = "gfx/interface/icons/travel/icon_travel_hud_placeholder.dds"
+}
+mare_incognitum = {
+	parent = space_lane
+	texture = "gfx/interface/icons/travel/icon_travel_hud_placeholder.dds"
+}

@@ -1,0 +1,289 @@
+﻿# Cyber Kings (2026-11-12): custom localization for the great-holy-war era texts.
+# Used by the replaced vanilla great_holy_war.* loc keys in
+# localization/replace/english/cyber_ghw_l_english.yml. Region list = ckworld_* in
+# map_data/geographical_regions/geographical_region.txt; add a world there AND here.
+
+# faith scope: the first off-Earth world where one of this faith's holy sites is held by a realm of another religion
+CkGhwLostWorld = {
+	type = faith
+
+	text = {
+		trigger = {
+			any_holy_site_barony = {
+				title_province = { geographical_region = ckworld_mars }
+				holder ?= { top_liege = { faith.religion != root.religion } }
+			}
+		}
+		localization_key = ck_ghw_world_mars
+	}
+	text = {
+		trigger = {
+			any_holy_site_barony = {
+				title_province = { geographical_region = ckworld_venus }
+				holder ?= { top_liege = { faith.religion != root.religion } }
+			}
+		}
+		localization_key = ck_ghw_world_venus
+	}
+	text = {
+		trigger = {
+			any_holy_site_barony = {
+				title_province = { geographical_region = ckworld_moon }
+				holder ?= { top_liege = { faith.religion != root.religion } }
+			}
+		}
+		localization_key = ck_ghw_world_moon
+	}
+	text = {
+		trigger = {
+			any_holy_site_barony = {
+				title_province = { geographical_region = ckworld_mercury }
+				holder ?= { top_liege = { faith.religion != root.religion } }
+			}
+		}
+		localization_key = ck_ghw_world_mercury
+	}
+	text = {
+		trigger = {
+			any_holy_site_barony = {
+				title_province = { geographical_region = ckworld_ganymede }
+				holder ?= { top_liege = { faith.religion != root.religion } }
+			}
+		}
+		localization_key = ck_ghw_world_ganymede
+	}
+	text = {
+		trigger = {
+			any_holy_site_barony = {
+				title_province = { geographical_region = ckworld_callisto }
+				holder ?= { top_liege = { faith.religion != root.religion } }
+			}
+		}
+		localization_key = ck_ghw_world_callisto
+	}
+	text = {
+		trigger = {
+			any_holy_site_barony = {
+				title_province = { geographical_region = ckworld_europa }
+				holder ?= { top_liege = { faith.religion != root.religion } }
+			}
+		}
+		localization_key = ck_ghw_world_europa
+	}
+	text = {
+		trigger = {
+			any_holy_site_barony = {
+				title_province = { geographical_region = ckworld_titan }
+				holder ?= { top_liege = { faith.religion != root.religion } }
+			}
+		}
+		localization_key = ck_ghw_world_titan
+	}
+	text = {
+		trigger = {
+			any_holy_site_barony = {
+				title_province = { geographical_region = ckworld_ceres }
+				holder ?= { top_liege = { faith.religion != root.religion } }
+			}
+		}
+		localization_key = ck_ghw_world_ceres
+	}
+	text = {
+		trigger = {
+			any_holy_site_barony = {
+				title_province = { geographical_region = ckworld_phobos }
+				holder ?= { top_liege = { faith.religion != root.religion } }
+			}
+		}
+		localization_key = ck_ghw_world_phobos
+	}
+	text = {
+		trigger = {
+			any_holy_site_barony = {
+				title_province = { geographical_region = ckworld_triton }
+				holder ?= { top_liege = { faith.religion != root.religion } }
+			}
+		}
+		localization_key = ck_ghw_world_triton
+	}
+	text = {
+		localization_key = ck_ghw_world_other
+		fallback = yes
+	}
+}
+
+# faith scope: the first world where one of this faith's holy sites is held by a realm of another religion
+CkGhwLostWorldAny = {
+	type = faith
+
+	text = {
+		trigger = {
+			any_holy_site_barony = {
+				title_province = { geographical_region = ckworld_mars }
+				holder ?= { top_liege = { faith.religion != root.religion } }
+			}
+		}
+		localization_key = ck_ghw_world_mars
+	}
+	text = {
+		trigger = {
+			any_holy_site_barony = {
+				title_province = { geographical_region = ckworld_venus }
+				holder ?= { top_liege = { faith.religion != root.religion } }
+			}
+		}
+		localization_key = ck_ghw_world_venus
+	}
+	text = {
+		trigger = {
+			any_holy_site_barony = {
+				title_province = { geographical_region = ckworld_moon }
+				holder ?= { top_liege = { faith.religion != root.religion } }
+			}
+		}
+		localization_key = ck_ghw_world_moon
+	}
+	text = {
+		trigger = {
+			any_holy_site_barony = {
+				title_province = { geographical_region = ckworld_mercury }
+				holder ?= { top_liege = { faith.religion != root.religion } }
+			}
+		}
+		localization_key = ck_ghw_world_mercury
+	}
+	text = {
+		trigger = {
+			any_holy_site_barony = {
+				title_province = { geographical_region = ckworld_ganymede }
+				holder ?= { top_liege = { faith.religion != root.religion } }
+			}
+		}
+		localization_key = ck_ghw_world_ganymede
+	}
+	text = {
+		trigger = {
+			any_holy_site_barony = {
+				title_province = { geographical_region = ckworld_callisto }
+				holder ?= { top_liege = { faith.religion != root.religion } }
+			}
+		}
+		localization_key = ck_ghw_world_callisto
+	}
+	text = {
+		trigger = {
+			any_holy_site_barony = {
+				title_province = { geographical_region = ckworld_europa }
+				holder ?= { top_liege = { faith.religion != root.religion } }
+			}
+		}
+		localization_key = ck_ghw_world_europa
+	}
+	text = {
+		trigger = {
+			any_holy_site_barony = {
+				title_province = { geographical_region = ckworld_titan }
+				holder ?= { top_liege = { faith.religion != root.religion } }
+			}
+		}
+		localization_key = ck_ghw_world_titan
+	}
+	text = {
+		trigger = {
+			any_holy_site_barony = {
+				title_province = { geographical_region = ckworld_ceres }
+				holder ?= { top_liege = { faith.religion != root.religion } }
+			}
+		}
+		localization_key = ck_ghw_world_ceres
+	}
+	text = {
+		trigger = {
+			any_holy_site_barony = {
+				title_province = { geographical_region = ckworld_phobos }
+				holder ?= { top_liege = { faith.religion != root.religion } }
+			}
+		}
+		localization_key = ck_ghw_world_phobos
+	}
+	text = {
+		trigger = {
+			any_holy_site_barony = {
+				title_province = { geographical_region = ckworld_triton }
+				holder ?= { top_liege = { faith.religion != root.religion } }
+			}
+		}
+		localization_key = ck_ghw_world_triton
+	}
+	text = {
+		trigger = {
+			any_holy_site_barony = {
+				title_province = { geographical_region = ckworld_earth }
+				holder ?= { top_liege = { faith.religion != root.religion } }
+			}
+		}
+		localization_key = ck_ghw_world_earth
+	}
+	text = {
+		localization_key = ck_ghw_world_other
+		fallback = yes
+	}
+}
+
+# landed_title scope: "on Mars", "on the Moon", "on Earth"... for the world the title lies on
+CkTitleOnWorld = {
+	type = landed_title
+
+	text = {
+		trigger = { title_province = { geographical_region = ckworld_earth } }
+		localization_key = ck_ghw_on_world_earth
+	}
+	text = {
+		trigger = { title_province = { geographical_region = ckworld_mars } }
+		localization_key = ck_ghw_on_world_mars
+	}
+	text = {
+		trigger = { title_province = { geographical_region = ckworld_venus } }
+		localization_key = ck_ghw_on_world_venus
+	}
+	text = {
+		trigger = { title_province = { geographical_region = ckworld_moon } }
+		localization_key = ck_ghw_on_world_moon
+	}
+	text = {
+		trigger = { title_province = { geographical_region = ckworld_mercury } }
+		localization_key = ck_ghw_on_world_mercury
+	}
+	text = {
+		trigger = { title_province = { geographical_region = ckworld_ganymede } }
+		localization_key = ck_ghw_on_world_ganymede
+	}
+	text = {
+		trigger = { title_province = { geographical_region = ckworld_callisto } }
+		localization_key = ck_ghw_on_world_callisto
+	}
+	text = {
+		trigger = { title_province = { geographical_region = ckworld_europa } }
+		localization_key = ck_ghw_on_world_europa
+	}
+	text = {
+		trigger = { title_province = { geographical_region = ckworld_titan } }
+		localization_key = ck_ghw_on_world_titan
+	}
+	text = {
+		trigger = { title_province = { geographical_region = ckworld_ceres } }
+		localization_key = ck_ghw_on_world_ceres
+	}
+	text = {
+		trigger = { title_province = { geographical_region = ckworld_phobos } }
+		localization_key = ck_ghw_on_world_phobos
+	}
+	text = {
+		trigger = { title_province = { geographical_region = ckworld_triton } }
+		localization_key = ck_ghw_on_world_triton
+	}
+	text = {
+		localization_key = ck_ghw_on_world_other
+		fallback = yes
+	}
+}
