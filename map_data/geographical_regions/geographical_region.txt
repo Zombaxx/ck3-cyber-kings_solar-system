@@ -2581,7 +2581,7 @@ ckworld_callisto = {
 }
 ckworld_ceres = {
 	duchies = {
-		d_duchy1363 d_duchy1373 d_duchy1389 d_duchy1391 d_duchy1404 d_duchy1411 d_duchy1432 d_phobos
+		d_duchy1363 d_duchy1373 d_duchy1389 d_duchy1391 d_duchy1404 d_duchy1411 d_duchy1432
 	}
 }
 ckworld_earth = {
@@ -2601,7 +2601,7 @@ ckworld_ganymede = {
 }
 ckworld_mars = {
 	duchies = {
-		d_duchy1161 d_duchy1167 d_duchy1172 d_duchy1184 d_duchy1187 d_duchy1193 d_duchy1194 d_duchy1205 d_duchy1212 d_duchy1219 d_duchy1221 d_duchy1222 d_duchy1234 d_duchy1238 d_duchy1246 d_duchy1256 d_duchy1257 d_duchy1261 d_duchy1269 d_duchy1270 d_duchy1277 d_duchy1291 d_duchy1293 d_duchy1298 d_duchy1302 d_duchy1306 d_duchy1307 d_duchy1308 d_duchy1317 d_duchy1320 d_duchy1322 d_duchy1324 d_duchy1331 d_duchy1335 d_duchy1342 d_duchy1344 d_duchy1348 d_duchy1349 d_duchy1354 d_duchy1355 d_duchy1357 d_duchy1366 d_duchy1371 d_duchy1374 d_duchy1379 d_duchy1384 d_duchy1392 d_duchy1393 d_duchy1396 d_duchy1398 d_duchy1401 d_duchy1412 d_duchy1429 d_duchy1431 d_duchy1433 d_duchy1436 d_duchy1437 d_duchy1453 d_duchy1459 d_duchy1465 d_duchy1466 d_duchy1471 d_duchy1477 d_duchy1481 d_duchy1490 d_duchy1493 d_duchy1504 d_duchy1505 d_duchy1515 d_duchy1517 d_duchy1520 d_duchy1523 d_duchy1526 d_duchy1527 d_duchy1531 d_duchy1538 d_duchy1552 d_duchy1554 d_duchy1556 d_duchy1574 d_duchy1578 d_duchy1580 d_duchy1585 d_duchy1589 d_duchy1592 d_duchy1596 d_duchy1602 d_duchy1630 d_duchy1639 d_duchy1647 d_valles
+		d_duchy1161 d_duchy1167 d_duchy1172 d_duchy1184 d_duchy1187 d_duchy1193 d_duchy1194 d_duchy1205 d_duchy1212 d_duchy1219 d_duchy1221 d_duchy1222 d_duchy1234 d_duchy1238 d_duchy1246 d_duchy1256 d_duchy1257 d_duchy1261 d_duchy1269 d_duchy1270 d_duchy1277 d_duchy1291 d_duchy1293 d_duchy1298 d_duchy1302 d_duchy1306 d_duchy1307 d_duchy1308 d_duchy1317 d_duchy1320 d_duchy1322 d_duchy1324 d_duchy1331 d_duchy1335 d_duchy1342 d_duchy1344 d_duchy1348 d_duchy1349 d_duchy1354 d_duchy1355 d_duchy1357 d_duchy1366 d_duchy1371 d_duchy1374 d_duchy1379 d_duchy1384 d_duchy1392 d_duchy1393 d_duchy1396 d_duchy1398 d_duchy1401 d_duchy1412 d_duchy1418 d_duchy1429 d_duchy1431 d_duchy1433 d_duchy1436 d_duchy1437 d_duchy1453 d_duchy1459 d_duchy1460 d_duchy1465 d_duchy1466 d_duchy1471 d_duchy1477 d_duchy1481 d_duchy1486 d_duchy1490 d_duchy1493 d_duchy1504 d_duchy1505 d_duchy1515 d_duchy1517 d_duchy1520 d_duchy1523 d_duchy1526 d_duchy1527 d_duchy1531 d_duchy1538 d_duchy1552 d_duchy1554 d_duchy1556 d_duchy1574 d_duchy1578 d_duchy1580 d_duchy1585 d_duchy1589 d_duchy1592 d_duchy1596 d_duchy1602 d_duchy1630 d_duchy1639 d_duchy1647 d_valles
 	}
 }
 ckworld_mercury = {
@@ -2614,9 +2614,9 @@ ckworld_moon = {
  d_duchy0033 d_duchy0041 d_duchy0052 d_duchy0068 d_duchy0076 d_duchy0077 d_duchy0134 d_duchy0142 d_duchy0155 d_duchy0183 d_duchy0201 d_duchy0205 d_duchy0237 d_duchy0248 d_duchy0279 d_duchy0290 d_duchy0292 d_duchy0305 d_duchy0309 d_ryha
 	}
 }
-ckworld_phobos = {
+ckworld_phobos = {	# e92: Phobos is k_phobos/d_phobos (2 counties). The Elysium duchies listed here before are on Mars (e44 pixel-box error)
 	duchies = {
-		d_duchy1418 d_duchy1460 d_duchy1486
+		d_phobos
 	}
 }
 ckworld_titan = {
