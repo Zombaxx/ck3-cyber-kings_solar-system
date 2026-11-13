@@ -4,3 +4,6 @@
  # Mercury baronies named after real Mercury craters that fit the duchy theme (Vlaminck = painters, Bechet = musicians).
  b_barony0140a: "Matisse"
  b_barony0504a: "Vivaldi"
+ # 2026-11-13: these keys also exist in vanilla titles_l_english.yml; their cyber_titles lines were removed (duplicate-key
+ # errors in error.log). Bara, Kosti, West Kordofan and Malha use the identical vanilla text; Seguela keeps its accent here.
+ b_seguela: "Séguéla"

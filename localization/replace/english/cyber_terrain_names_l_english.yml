@@ -1,0 +1,4 @@
+﻿l_english:
+ # Cyber Kings (2026-11-13): space lanes have terrain `sea`, every world ocean `coastal_sea` (common/province_terrain/02_cyber_kings_sea_terrain.txt)
+ sea:0 "Space Lane"
+ coastal_sea:0 "Sea"
