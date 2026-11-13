@@ -1,0 +1,790 @@
+﻿name_list_basque = {
+
+	cadet_dynasty_names = {
+		{ "dynnp_de" "dynn_Agurto" }
+		{ "dynnp_de" "dynn_Vizcaya" }
+		{ "dynnp_d_" "dynn_A_valos" }
+		{ "dynnp_de" "dynn_BazA_n" }
+		{ "dynnp_de" "dynn_NA_jera" }
+		{ "dynnp_de" "dynn_Noboa" }
+		{ "dynnp_de" "dynn_Vidaure" }
+		{ "dynnp_de" "dynn_Azagra" }
+		"dynn_Benavides"
+		{ "dynnp_de" "dynn_ZU_N_iga" }
+		"dynn_Coronel"
+		{ "dynnp_de" "dynn_Viguera" }
+		{ "dynnp_de" "dynn_Cea" }
+		"dynn_Cajal"
+		{ "dynnp_de" "dynn_los_Cameros" }
+		{ "dynnp_de" "dynn_EstI_baliz" }
+		{ "dynnp_de" "dynn_Viscaya" }
+		{ "dynnp_de" "dynn_La_Rioja" }
+		{ "dynnp_de" "dynn_Jaca" }
+		{ "dynnp_de" "dynn_Laturce" }
+		"dynn_LadrO_n_de_Guevara"
+	}
+
+	dynasty_names = {
+		{ "dynnp_de" "dynn_Agurto" }
+		{ "dynnp_de" "dynn_Vizcaya" }
+		{ "dynnp_d_" "dynn_A_valos" }
+		{ "dynnp_de" "dynn_BazA_n" }
+		{ "dynnp_de" "dynn_NA_jera" }
+		{ "dynnp_de" "dynn_Noboa" }
+		{ "dynnp_de" "dynn_Vidaure" }
+		{ "dynnp_de" "dynn_Azagra" }
+		"dynn_Benavides"
+		{ "dynnp_de" "dynn_ZU_N_iga" }
+		"dynn_Coronel"
+		{ "dynnp_de" "dynn_Viguera" }
+		{ "dynnp_de" "dynn_Cea" }
+		"dynn_Cajal"
+		{ "dynnp_de" "dynn_los_Cameros" }
+		{ "dynnp_de" "dynn_EstI_baliz" }
+		{ "dynnp_de" "dynn_Viscaya" }
+		{ "dynnp_de" "dynn_La_Rioja" }
+		{ "dynnp_de" "dynn_Laturce" }
+		"dynn_LadrO_n_de_Guevara"
+	}
+
+	male_names = {
+		Alfontso Alvar Antso Armengol Aznar Belasko Bermudo Bernart Diego Donato
+		Egidio Eneko Erramun Fernando Filipe Fortun Galindo Gartzia Gil Gilen
+		Gomez Gontzal Henrique Herramel Jakue Joanes Karlos Kasio Ladron Lope
+		Luis Manrike MartI_n Munio NuN_o Obeko OrdoN_o Pelaio Piarres Ramiro
+		Rodrigo Suero Tibalt Vela Ximeno Zentulo
+
+#			Abdala Isa Ismail Mohamed Motarrif Muza Saad Salama Taur Yahya Yunus Zahir
+	}
+	female_names = {
+		Adalais Aines Alausia Aldontza Anderkina Andregoto Antsa Assona Ava Azibella
+		Beatritz Belaskita Berengaria Blanka Briska Elbira Elisabet Eliza Emili Endulcia
+		Ermesinda Estefania Fakilo Fronilde Gersenda Guntroda Joana Katalina Kisilo Konstantzia
+		Leonor Maior Maria Matilda Matrona Mentzia Munia Muniadona Nunila NuN_a
+		Oneka Oria Plazentzia Tekla Teresa Toda Toda-Adalais Urraka Ximena
+	
+#			Awriya
+	}
+	dynasty_of_location_prefix = "dynnp_de"
+	
+	patronym_suffix_male = "dynnpat_suf_ez"
+	patronym_suffix_female = "dynnpat_suf_ez"
+	always_use_patronym = yes	
+
+	pat_grf_name_chance = 80
+	mat_grf_name_chance = 5
+	father_name_chance = 5
+	
+	pat_grm_name_chance = 55
+	mat_grm_name_chance = 15
+	mother_name_chance = 20
+
+	
+
+	mercenary_names = {
+		{ name = "mercenary_company_nafarroako_konpainia" coat_of_arms = "mc_nafarroako_konpainia" }
+	}
+}
+name_list_castilian = {
+	# e74 modern list (W1 Spain 2023; W2 Spain; K)
+	cadet_dynasty_names = {
+		dynn_cy_Garcia_2999 dynn_cy_Fernandez dynn_cy_Gonzalez_215e dynn_cy_Rodriguez_47e1 dynn_cy_Lopez_b00a dynn_cy_Martinez_e6fc dynn_cy_Sanchez_bba1 dynn_cy_Perez_3445 dynn_cy_Martin_3d62 dynn_cy_Gomez_cf7c dynn_cy_Ruiz dynn_cy_Hernandez_760d
+		dynn_cy_Jimenez_903c dynn_cy_Diaz_5e7e dynn_cy_Alvarez_58d8 dynn_cy_Moreno dynn_cy_Munoz dynn_cy_Alonso dynn_cy_Romero dynn_cy_Navarro dynn_cy_Gutierrez_26d6 dynn_cy_Torres dynn_cy_Dominguez dynn_cy_Gil
+		dynn_cy_Vazquez dynn_cy_Serrano dynn_cy_Ramos dynn_cy_Blanco dynn_cy_Sanz dynn_cy_Castro dynn_cy_Suarez dynn_cy_Ortega dynn_cy_Rubio dynn_cy_Molina dynn_cy_Delgado dynn_cy_Ramirez_f3b5
+		dynn_cy_Morales dynn_cy_Ortiz dynn_cy_Marin_6aad dynn_cy_Iglesias dynn_cy_Santos dynn_cy_Castillo dynn_cy_Garrido dynn_cy_Calvo dynn_cy_Pena dynn_cy_Cruz dynn_cy_Cano dynn_cy_Nunez
+		dynn_cy_Prieto dynn_cy_Diez
+	}
+	dynasty_names = {
+		dynn_cy_Garcia_2999 dynn_cy_Fernandez dynn_cy_Gonzalez_215e dynn_cy_Rodriguez_47e1 dynn_cy_Lopez_b00a dynn_cy_Martinez_e6fc dynn_cy_Sanchez_bba1 dynn_cy_Perez_3445 dynn_cy_Martin_3d62 dynn_cy_Gomez_cf7c dynn_cy_Ruiz dynn_cy_Hernandez_760d
+		dynn_cy_Jimenez_903c dynn_cy_Diaz_5e7e dynn_cy_Alvarez_58d8 dynn_cy_Moreno dynn_cy_Munoz dynn_cy_Alonso dynn_cy_Romero dynn_cy_Navarro dynn_cy_Gutierrez_26d6 dynn_cy_Torres dynn_cy_Dominguez dynn_cy_Gil
+		dynn_cy_Vazquez dynn_cy_Serrano dynn_cy_Ramos dynn_cy_Blanco dynn_cy_Sanz dynn_cy_Castro dynn_cy_Suarez dynn_cy_Ortega dynn_cy_Rubio dynn_cy_Molina dynn_cy_Delgado dynn_cy_Ramirez_f3b5
+		dynn_cy_Morales dynn_cy_Ortiz dynn_cy_Marin_6aad dynn_cy_Iglesias dynn_cy_Santos dynn_cy_Castillo dynn_cy_Garrido dynn_cy_Calvo dynn_cy_Pena dynn_cy_Cruz dynn_cy_Cano dynn_cy_Nunez
+		dynn_cy_Prieto dynn_cy_Diez
+	}
+	male_names = {
+		cyn_Hugo cyn_Mateo cyn_Martin_3d62 cyn_Leo cyn_Lucas cyn_Manuel cyn_Pablo cyn_Alejandro cyn_Enzo cyn_Daniel cyn_Alvaro cyn_Adrian
+		cyn_Mario cyn_Diego cyn_Marco cyn_Izan cyn_Thiago cyn_Bruno cyn_Marcos cyn_Nicolas cyn_Antonio cyn_Jose cyn_Francisco cyn_Juan
+		cyn_Javier cyn_David cyn_Jesus cyn_Carlos cyn_Miguel cyn_Rafael cyn_Pedro cyn_Angel cyn_Fernando cyn_Luis cyn_Sergio cyn_Jorge
+		cyn_Alberto cyn_Raul cyn_Ruben cyn_Ivan_9e17 cyn_Oscar cyn_Andres cyn_Jaime cyn_Gonzalo cyn_Ignacio
+	}
+	female_names = {
+		cyn_Lucia cyn_Sofia_015d cyn_Martina cyn_Maria_8330 cyn_Julia_2344 cyn_Valeria cyn_Olivia cyn_Emma cyn_Paula cyn_Vega cyn_Daniela cyn_Alba
+		cyn_Carla cyn_Sara cyn_Noa cyn_Carmen cyn_Jimena cyn_Lola cyn_Alma cyn_Chloe cyn_Ana cyn_Isabel cyn_Laura cyn_Cristina
+		cyn_Marta cyn_Elena cyn_Pilar cyn_Dolores cyn_Rosa cyn_Josefa cyn_Mercedes cyn_Raquel cyn_Beatriz cyn_Patricia cyn_Rocio cyn_Silvia
+		cyn_Nuria cyn_Irene cyn_Andrea cyn_Natalia cyn_Inmaculada cyn_Concepcion
+	}
+	dynasty_of_location_prefix = "dynnp_de"
+	pat_grf_name_chance = 45
+	mat_grf_name_chance = 15
+	father_name_chance = 30
+	pat_grm_name_chance = 40
+	mat_grm_name_chance = 10
+	mother_name_chance = 40
+}
+name_list_catalan = {
+	# e74 modern list (W1 Catalonia 2023, Andorra 2018; K (Catalan surnames))
+	cadet_dynasty_names = {
+		dynn_cy_Garcia dynn_cy_Martinez_e6fc dynn_cy_Lopez_b00a dynn_cy_Sanchez_bba1 dynn_cy_Puig dynn_cy_Vidal dynn_cy_Ferrer dynn_cy_Font dynn_cy_Serra dynn_cy_Soler dynn_cy_Pujol dynn_cy_Roca
+		dynn_cy_Vila dynn_cy_Sala dynn_cy_Mas dynn_cy_Bosch dynn_cy_Costa dynn_cy_Casas dynn_cy_Rovira dynn_cy_Prat dynn_cy_Riera dynn_cy_Ribas dynn_cy_Marti dynn_cy_Torres
+		dynn_cy_Camps dynn_cy_Coll dynn_cy_Pons dynn_cy_Vives dynn_cy_Comas dynn_cy_Sabate dynn_cy_Batlle dynn_cy_Mari dynn_cy_Oliver dynn_cy_Casals dynn_cy_Bonet dynn_cy_Planas
+		dynn_cy_Valls dynn_cy_Cortes dynn_cy_Bertran dynn_cy_Duran
+	}
+	dynasty_names = {
+		dynn_cy_Garcia dynn_cy_Martinez_e6fc dynn_cy_Lopez_b00a dynn_cy_Sanchez_bba1 dynn_cy_Puig dynn_cy_Vidal dynn_cy_Ferrer dynn_cy_Font dynn_cy_Serra dynn_cy_Soler dynn_cy_Pujol dynn_cy_Roca
+		dynn_cy_Vila dynn_cy_Sala dynn_cy_Mas dynn_cy_Bosch dynn_cy_Costa dynn_cy_Casas dynn_cy_Rovira dynn_cy_Prat dynn_cy_Riera dynn_cy_Ribas dynn_cy_Marti dynn_cy_Torres
+		dynn_cy_Camps dynn_cy_Coll dynn_cy_Pons dynn_cy_Vives dynn_cy_Comas dynn_cy_Sabate dynn_cy_Batlle dynn_cy_Mari dynn_cy_Oliver dynn_cy_Casals dynn_cy_Bonet dynn_cy_Planas
+		dynn_cy_Valls dynn_cy_Cortes dynn_cy_Bertran dynn_cy_Duran
+	}
+	male_names = {
+		cyn_Jan cyn_Biel cyn_Pol cyn_Nil cyn_Leo cyn_Marti cyn_Marc cyn_Hugo cyn_Alex cyn_Liam cyn_Arnau cyn_Pau
+		cyn_Jordi cyn_Oriol cyn_Joan cyn_Josep cyn_Jaume cyn_Xavier cyn_Albert cyn_Sergi cyn_Ferran cyn_Guillem cyn_Roger cyn_Gerard
+		cyn_Lluis cyn_Pere cyn_Miquel cyn_Enric cyn_Ramon_2e4c cyn_Carles cyn_Quim cyn_Eloi cyn_Bernat cyn_Iker cyn_Dylan
+	}
+	female_names = {
+		cyn_Martina cyn_Julia cyn_Mia cyn_Emma cyn_Lucia cyn_Ona cyn_Gala cyn_Sofia_015d cyn_Aina cyn_Olivia cyn_Jana cyn_Laia
+		cyn_Clara cyn_Mariona cyn_Nuria_861e cyn_Montserrat cyn_Merce cyn_Montse cyn_Anna cyn_Marta cyn_Laura cyn_Meritxell cyn_Roser cyn_Neus
+		cyn_Rosa cyn_Pilar cyn_Carme cyn_Gemma cyn_Paula cyn_Berta cyn_Ariadna cyn_Queralt cyn_Txell
+	}
+	dynasty_of_location_prefix = "dynnp_de"
+	grammar_transform = french
+	pat_grf_name_chance = 50
+	mat_grf_name_chance = 10
+	father_name_chance = 30
+	pat_grm_name_chance = 40
+	mat_grm_name_chance = 25
+	mother_name_chance = 25
+}
+name_list_portuguese = {
+	# e74 modern list (W1 Portugal 2025/2024; W2 Portugal; K)
+	cadet_dynasty_names = {
+		dynn_cy_Silva dynn_cy_Santos dynn_cy_Ferreira dynn_cy_Pereira dynn_cy_Oliveira dynn_cy_Costa dynn_cy_Rodrigues dynn_cy_Martins dynn_cy_Jesus dynn_cy_Sousa dynn_cy_Fernandes dynn_cy_Goncalves
+		dynn_cy_Gomes dynn_cy_Lopes dynn_cy_Marques dynn_cy_Alves dynn_cy_Almeida dynn_cy_Ribeiro dynn_cy_Pinto dynn_cy_Carvalho dynn_cy_Teixeira dynn_cy_Moreira dynn_cy_Correia dynn_cy_Mendes
+		dynn_cy_Nunes dynn_cy_Soares dynn_cy_Vieira dynn_cy_Monteiro dynn_cy_Cardoso dynn_cy_Rocha dynn_cy_Raposo dynn_cy_Neves dynn_cy_Coelho dynn_cy_Cruz dynn_cy_Cunha dynn_cy_Pires
+		dynn_cy_Ramos dynn_cy_Reis dynn_cy_Simoes dynn_cy_Antunes
+	}
+	dynasty_names = {
+		dynn_cy_Silva dynn_cy_Santos dynn_cy_Ferreira dynn_cy_Pereira dynn_cy_Oliveira dynn_cy_Costa dynn_cy_Rodrigues dynn_cy_Martins dynn_cy_Jesus dynn_cy_Sousa dynn_cy_Fernandes dynn_cy_Goncalves
+		dynn_cy_Gomes dynn_cy_Lopes dynn_cy_Marques dynn_cy_Alves dynn_cy_Almeida dynn_cy_Ribeiro dynn_cy_Pinto dynn_cy_Carvalho dynn_cy_Teixeira dynn_cy_Moreira dynn_cy_Correia dynn_cy_Mendes
+		dynn_cy_Nunes dynn_cy_Soares dynn_cy_Vieira dynn_cy_Monteiro dynn_cy_Cardoso dynn_cy_Rocha dynn_cy_Raposo dynn_cy_Neves dynn_cy_Coelho dynn_cy_Cruz dynn_cy_Cunha dynn_cy_Pires
+		dynn_cy_Ramos dynn_cy_Reis dynn_cy_Simoes dynn_cy_Antunes
+	}
+	male_names = {
+		cyn_Francisco cyn_Tomas cyn_Duarte cyn_Afonso cyn_Vicente cyn_Joao cyn_Lourenco cyn_Martim cyn_Miguel cyn_Gabriel cyn_Santiago cyn_Rodrigo
+		cyn_Salvador cyn_Guilherme cyn_Goncalo cyn_Rafael cyn_Diogo cyn_Pedro cyn_Tiago cyn_Bernardo cyn_Jose cyn_Antonio_54cf cyn_Manuel cyn_Joaquim
+		cyn_Luis_c3c5 cyn_Carlos cyn_Paulo cyn_Jorge cyn_Rui cyn_Nuno cyn_Ricardo cyn_Fernando cyn_Sergio_a28f cyn_Hugo cyn_Bruno cyn_Andre_45f1
+		cyn_Vitor cyn_Filipe cyn_Helder cyn_Mario_a42d
+	}
+	female_names = {
+		cyn_Maria cyn_Alice cyn_Leonor cyn_Matilde cyn_Benedita cyn_Aurora cyn_Olivia_bb00 cyn_Carolina cyn_Camila cyn_Francisca cyn_Beatriz cyn_Mariana
+		cyn_Laura cyn_Ines_00a3 cyn_Clara cyn_Madalena cyn_Margarida cyn_Lara cyn_Ana cyn_Isabel cyn_Rosa cyn_Fernanda cyn_Teresa cyn_Paula
+		cyn_Helena cyn_Sandra cyn_Cristina cyn_Sonia_3906 cyn_Susana cyn_Carla cyn_Patricia_599f cyn_Rita cyn_Joana cyn_Sofia cyn_Marta cyn_Claudia_843a
+		cyn_Catarina cyn_Filipa
+	}
+	dynasty_of_location_prefix = "dynnp_de"
+	pat_grf_name_chance = 55
+	mat_grf_name_chance = 5
+	father_name_chance = 30
+	pat_grm_name_chance = 60
+	mat_grm_name_chance = 15
+	mother_name_chance = 15
+}
+name_list_visigothic = {
+
+	cadet_dynasty_names = {
+		"dynn_Erwigiana"
+		"dynn_Kindasuinthiana"
+		"dynn_Athanagildid"
+		"dynn_Athaulf"
+		"dynn_Sigireik"
+		"dynn_Gaisalaik"
+		"dynn_Thiudis"
+		"dynn_Liwa"
+		"dynn_Guntimer"
+		"dynn_Swinthila"
+		"dynn_Tulga"
+		"dynn_Hairwig"
+		"dynn_Witiza"
+		"dynn_Rotreik"
+		"dynn_Lewigild"
+		"dynn_Walja"
+		"dynn_Witireik"
+		"dynn_Sisibaud"
+		"dynn_Kindila"
+		"dynn_Wanbs"
+	}
+	
+	dynasty_names = {
+		"dynn_Erwigiana"
+		"dynn_Kindasuinthiana"
+		"dynn_Athanagildid"
+		"dynn_Athaulf"
+		"dynn_Sigireik"
+		"dynn_Gaisalaik"
+		"dynn_Thiudis"
+		"dynn_Liwa"
+		"dynn_Guntimer"
+		"dynn_Swinthila"
+		"dynn_Tulga"
+		"dynn_Hairwig"
+		"dynn_Witiza"
+		"dynn_Rotreik"
+		"dynn_Lewigild"
+		"dynn_Walja"
+		"dynn_Witireik"
+		"dynn_Sisibaud"
+		"dynn_Kindila"
+		"dynn_Wanbs"
+	}
+
+	male_names = {
+		Adelfonso Adelgaster Agila Airmanagildo Alaricho Alatheo Aloito Amalaricho Amalmondo Ambroz
+		Aoricho Ardo Arias Assur Atawulfo Athanagildo Athanaricho Aurelio Bego Bera
+		Berengario Diaco Egica Ermengar Erwigio Euricho Fafila Fredol Friedenando Friednand
+		Fruella GarC_i Gaton Gauzberto Geila Gesalecho GonC_alo Gundemar Guttier Johan
+		Julian Khindaswintho Khintila Leovigildo Liuva Liuvericho Lucidio Lupo Madrubal Matheo
+		Mauregato Miron Monnio Nunno Obada Oddilon Odoario Oliba Olmondo Oppas
+		Ordonno Pelagio Petro Radulfo Ranimiro Rekkaredo Rekkeswintho Ricimero Riculfo Rocesthes
+		Rodericho Rostan Sans Savarico Silo Sisebuto Sisenando Suinthila Suneario Suniefredo
+		Tello Theodefredo Theodemiro Theodoricho Theudigislo Theudis Thorismondo Tulga Veremondo Wifredo
+		Wimarano Witiza Wittericho
+
+#			Abdela AbdelaC_iC_ Abdelmelic Abdeluahid Abderrabmen Abrafim Ambroz Amet Ayyub C_acharya
+#			C_elim C_ulema Hacan Hamdan Harun IC_ag Mahomat Maruan MuC_a Omar
+#			Xabrit Yabya Yafar YuC_uf Yunus
+	}
+	female_names = {
+		Adelgundis Adosinda Agnes Aragonte Argilo Ariberga Ava Baddo Brunechildis Cixillo
+		Creusa Egilona Eldonza Elduara Elvira Ercheswintha Ermeneberga Ermengardis Ermenierdis Ermenisinda
+		Fafinia Flamula Froiliuva Fronilde Gado Gaudiosa Gonterote Gothina Gudilona Iberia
+		Ingundis Leodegundis Liuvigothona Menenda Monnia Monniadomna Onecca Paterna Patruina Ralindis
+		Riciberga Ricilo Sibilia Sisenanda Theodora Urraca Winidilda
+
+#			Abda Ayab AyC_a C_ayida C_eida Emira Isra Leyla Melica Nadia
+#			Nadira Neyla Nur Tarifa YaC_mina
+	}
+	dynasty_of_location_prefix = "dynnp_de"
+	#grammar_transform = french
+	patronym_suffix_male = "dynnpat_suf_iz"
+	patronym_suffix_female = "dynnpat_suf_iz"
+	always_use_patronym = yes	
+
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 50
+	mat_grf_name_chance = 5
+	father_name_chance = 10
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 50
+	mother_name_chance = 5
+
+	
+}
+
+name_list_galician = {
+
+	cadet_dynasty_names = {
+		"dynn_Gallego"
+		{ "dynnp_de" "dynn_Acibeiro" }
+		{ "dynnp_de" "dynn_Armenteira" }
+		{ "dynnp_de" "dynn_Astorga" }
+		{ "dynnp_de" "dynn_Barrantes" }
+		{ "dynnp_de" "dynn_Betanzos" }
+		{ "dynnp_de" "dynn_Carballido" }
+		{ "dynnp_da" "dynn_CoruN_a" }
+		{ "dynnp_de" "dynn_Dubra" }
+		{ "dynnp_de" "dynn_Ferreira" }
+		{ "dynnp_do" "dynn_Ferrol" }
+		{ "dynnp_de" "dynn_Galicia" }
+		{ "dynnp_de" "dynn_Lemos" }
+		{ "dynnp_de" "dynn_LE_rez" }
+		{ "dynnp_de" "dynn_Limia" }
+		{ "dynnp_de" "dynn_Lourenza" }
+		{ "dynnp_de" "dynn_Lugo" }
+		{ "dynnp_de" "dynn_Meira" }
+		{ "dynnp_de" "dynn_ME_lide" }
+		{ "dynnp_de" "dynn_MelO_n" }
+		{ "dynnp_de" "dynn_MondoN_edo" }
+		{ "dynnp_de" "dynn_Monfero" }
+		{ "dynnp_de" "dynn_Monterrei" }
+		{ "dynnp_de" "dynn_Novoa" }
+		{ "dynnp_de" "dynn_Oseira" }
+		{ "dynnp_de" "dynn_Ourense" }
+		{ "dynnp_do" "dynn_PadrO_n" }
+		{ "dynnp_de" "dynn_Penamaior" }
+		{ "dynnp_de" "dynn_Poio" }
+		{ "dynnp_de" "dynn_Pontevedra" }
+		{ "dynnp_de" "dynn_Quiroga" }
+		{ "dynnp_de" "dynn_Salvatierra" }
+		{ "dynnp_de" "dynn_Samos" }
+		{ "dynnp_de" "dynn_Santiago" }
+		{ "dynnp_de" "dynn_Sobrado" }
+		{ "dynnp_de" "dynn_TrastA_mara" }
+		{ "dynnp_de" "dynn_Tui" }
+		{ "dynnp_de" "dynn_Vigo" }
+		{ "dynnp_de" "dynn_Vilalba" }
+	}
+
+	dynasty_names = {
+		"dynn_AlfO_nsez"
+		"dynn_A_lvarez"
+		"dynn_AndrE_s"
+		"dynn_Arias"
+		"dynn_Berenguer"
+		"dynn_Bernardo"
+		"dynn_Camundo"
+		"dynn_DI_az"
+		"dynn_EstE_vez"
+		"dynn_FernA_ndez"
+		"dynn_FLA_inez"
+		"dynn_Froilaz"
+		"dynn_GarcI_a"
+		"dynn_GO_mes"
+		"dynn_GonzA_lez"
+		"dynn_GundestE_iz"
+		"dynn_GotE_rrez"
+		"dynn_Lorenzo"
+		"dynn_MartI_n"
+		"dynn_ME_ndez"
+		"dynn_MuN_oz"
+		"dynn_OdoA_riz"
+		"dynn_Osorio"
+		"dynn_PA_ez"
+		"dynn_PE_rez"
+		"dynn_Quiroga"
+		"dynn_RodrI_guez"
+		"dynn_RomA_niz"
+		"dynn_RuI_z"
+		"dynn_Pereira"
+		"dynn_SA_nchez"
+		"dynn_SuA_rez"
+		"dynn_VA_squez"
+		"dynn_VE_laz"
+		"dynn_VermU_dez"
+		"dynn_XelmI_rez"
+		"dynn_Xil"
+		{ "dynnp_de" "dynn_Andrade" }
+		{ "dynnp_de" "dynn_Barrantes" }
+		{ "dynnp_de" "dynn_Castro" }
+		{ "dynnp_do" "dynn_Cela" }
+		{ "dynnp_de" "dynn_Deza" }
+		{ "dynnp_de" "dynn_Gres" }
+		{ "dynnp_de" "dynn_Lemos" }
+		{ "dynnp_de" "dynn_Limia" }
+		{ "dynnp_de" "dynn_Monterroso" }
+		{ "dynnp_de" "dynn_Moscoso" }
+		{ "dynnp_de" "dynn_Novoa" }
+		{ "dynnp_do" "dynn_PadrO_n" }
+		{ "dynnp_de" "dynn_Quiroga" }
+		{ "dynnp_de" "dynn_Santiago" }
+		{ "dynnp_de" "dynn_Sarmiento" }
+		{ "dynnp_de" "dynn_Sarria" }
+		{ "dynnp_de" "dynn_Silva" }
+		{ "dynnp_de" "dynn_ToroN_o" }
+		{ "dynnp_de" "dynn_Trava" }
+		{ "dynnp_de" "dynn_Ulloa" }
+	}
+
+	male_names = {
+		Afonso A_lvar Alvito AndrE_ Ansur Arias Berenguel Bernardo Diego Estevo
+		FernA_n Fernando FlaI_n Froila GarcI_a Gerardo GO_mez Gonzalo Guillerme Guterre
+		Henrique Hermenexildo Lope Lourenzo Lucidio Manuel MartiN_o Mendo Munio NuN_o
+		OrdoN_o Osorio Oveco Paio Pedro Ponce Raimundo Rodrigo Roi RomA_n
+		Rosendo Sancho SebastiA_n Sueiro Vasco Vela Vermudo Xil XoA_n
+	}
+	female_names = {
+		Adosinda Aldara Aldonza Beatriz Berengaria Branca Catarina Constanza CorexI_a Cristina
+		Duce Elo Elvira Enderquina EstefanI_a Eulalia Eva Fronilde Gontrode Goto
+		Gudilona Guiomar Guntina Hermesinda InEEs Leodegundia Leonor Loba Mafalda Maior
+		Margarida MarI_a Marina Marquesa MencI_a MI_lia Mumadona Munia Oneca Sabela
+		Sancha Tarexia Tigridia Toda Urraca Velasquida Visclavara Ximena Xoana
+	}
+
+	dynasty_of_location_prefix = "dynnp_de"
+	
+	patronym_suffix_male = "dynnpat_suf_ez"
+	patronym_suffix_female = "dynnpat_suf_ez"
+	always_use_patronym = yes	
+
+	pat_grf_name_chance = 45
+	mat_grf_name_chance = 15
+	father_name_chance = 30
+	
+	pat_grm_name_chance = 40
+	mat_grm_name_chance = 10
+	mother_name_chance = 40
+
+	
+}
+name_list_asturleonese = {
+
+	cadet_dynasty_names = {
+		"dynn_AbI_n"
+		"dynn_Abrego"
+		"dynn_Asturiano"
+		"dynn_DO_riga"
+		"dynn_LeonE_s"
+		{ "dynnp_de" "dynn_Aguilar" }
+		{ "dynnp_de" "dynn_Alba" }
+		{ "dynnp_de" "dynn_Alcantara" }
+		{ "dynnp_de" "dynn_ArgU_ellos" }
+		{ "dynnp_de_las" "dynn_Asturias" }
+		{ "dynnp_de" "dynn_Badajoz" }
+		{ "dynnp_de" "dynn_Bembibre" }
+		{ "dynnp_de" "dynn_Benavente" }
+		{ "dynnp_de" "dynn_BE_jar" }
+		{ "dynnp_de_la" "dynn_Buelga" }
+		{ "dynnp_de" "dynn_Burguillos" }
+		{ "dynnp_de" "dynn_CA_ceres" }
+		{ "dynnp_de" "dynn_Candamu" }
+		{ "dynnp_de" "dynn_Cangas" }
+		{ "dynnp_de" "dynn_CarriO_n" }
+		{ "dynnp_de" "dynn_Ciudad_Rodrigo" }
+		{ "dynnp_de" "dynn_Coria" }
+		{ "dynnp_de" "dynn_Corias" }
+		{ "dynnp_de" "dynn_Cuadonga" }
+		{ "dynnp_de" "dynn_Estorga" }
+		{ "dynnp_de" "dynn_Guardo" }
+		{ "dynnp_de" "dynn_L_Entregu" }
+		{ "dynnp_de" "dynn_LleO_n" }
+		{ "dynnp_de" "dynn_Llerena" }
+		{ "dynnp_de" "dynn_ME_rida" }
+		{ "dynnp_del" "dynn_Narcea" }
+		{ "dynnp_de" "dynn_Navia" }
+		{ "dynnp_de" "dynn_NoreN_a" }
+		{ "dynnp_de" "dynn_Olivenza" }
+		{ "dynnp_de" "dynn_OnI_s" }
+		{ "dynnp_de" "dynn_Pravia" }
+		{ "dynnp_de" "dynn_QuirO_s" }
+		{ "dynnp_de" "dynn_RiaN_u" }
+		{ "dynnp_de" "dynn_Rioseco" }
+		{ "dynnp_de" "dynn_Rueda" }
+		{ "dynnp_de" "dynn_SaldaN_a" }
+		{ "dynnp_de" "dynn_Sama" }
+		{ "dynnp_de" "dynn_Salamanca" }
+		{ "dynnp_de" "dynn_Salas" }
+		{ "dynnp_de" "dynn_Salvatierra" }
+		{ "dynnp_de" "dynn_Santalla" }
+		{ "dynnp_de" "dynn_SantibA_N_ez" }
+		{ "dynnp_del" "dynn_Sella" }
+		{ "dynnp_de" "dynn_Tabladiellu" }
+		{ "dynnp_de" "dynn_Toro" }
+		{ "dynnp_de" "dynn_Trujillo" }
+		{ "dynnp_de_los" "dynn_Tusinos" }
+		{ "dynnp_de" "dynn_UviE_u" }
+		{ "dynnp_de" "dynn_ValdE_s" }
+		{ "dynnp_de" "dynn_Villalba" }
+		{ "dynnp_de" "dynn_Villalobos" }
+		{ "dynnp_de" "dynn_Villablino" }
+		{ "dynnp_de" "dynn_Villaviciosa" }
+		{ "dynnp_de" "dynn_Villanueva" }
+		{ "dynnp_de" "dynn_Villafafila" }
+		{ "dynnp_de" "dynn_XixO_n" }
+		{ "dynnp_de" "dynn_Zalaca" }
+		{ "dynnp_de" "dynn_Zamora" }
+	}
+
+	dynasty_names = {
+		"dynn_AdefO_nsiz"
+		"dynn_A_lvarez"
+		"dynn_ArgU_elles"
+		"dynn_Arias"
+		"dynn_ArmendA_riz"
+		"dynn_BaroncE_lliz"
+		"dynn_BermU_dez"
+		"dynn_BraU_lez"
+		"dynn_DI_az"
+		"dynn_DomI_nguez"
+		"dynn_EstE_vez"
+		"dynn_FacU_ndez"
+		"dynn_FernA_ndez"
+		"dynn_FLA_inez"
+		"dynn_Froilaz"
+		"dynn_GarcI_a"
+		"dynn_GodestE_iz"
+		"dynn_GO_mez"
+		"dynn_GonzA_lez"
+		"dynn_GundemA_riz"
+		"dynn_GuillE_n"
+		"dynn_GutiE_rrez"
+		"dynn_LO_pez"
+		"dynn_MartI_n"
+		"dynn_MelE_ndez"
+		"dynn_MuN_iz"
+		"dynn_NU_N_ez"
+		"dynn_OrdO_N_ez"
+		"dynn_Osorio"
+		"dynn_OvE_quiz"
+		"dynn_PelA_ez"
+		"dynn_PE_rez"
+		"dynn_PiN_ole"
+		"dynn_Ponce"
+		"dynn_PurcE_lliz"
+		"dynn_QuiN_ones"
+		"dynn_RodrI_guez"
+		"dynn_SA_nchez"
+		"dynn_SebastiA_nez"
+		"dynn_SolI_s"
+		"dynn_SuA_rez"
+		"dynn_YA_N_ez"
+		"dynn_Vela"
+		"dynn_VE_laz"
+		"dynn_VelA_zquez"
+		{ "dynnp_de" "dynn_Aguilar" }
+		{ "dynnp_de" "dynn_Bembibre" }
+		{ "dynnp_de" "dynn_Cachero" }
+		{ "dynnp_de" "dynn_Canales" }
+		{ "dynnp_de" "dynn_Candamu" }
+		{ "dynnp_de" "dynn_CarriO_n" }
+		{ "dynnp_de" "dynn_Corias" }
+		{ "dynnp_de" "dynn_Entralgo" }
+		{ "dynnp_de" "dynn_Ferrera" }
+		{ "dynnp_de" "dynn_Granda" }
+		{ "dynnp_de" "dynn_Ledesma" }
+		{ "dynnp_de" "dynn_LeO_n" }
+		{ "dynnp_de" "dynn_Mancilla" }
+		{ "dynnp_de" "dynn_Mier" }
+		{ "dynnp_de" "dynn_Navia" }
+		{ "dynnp_del" "dynn_Ponte" }
+		{ "dynnp_de" "dynn_QuirO_s" }
+		{ "dynnp_de" "dynn_RiaN_o" }
+		{ "dynnp_de" "dynn_Robles" }
+		{ "dynnp_de" "dynn_SaldaN_a" }
+		{ "dynnp_de" "dynn_Santalla" }
+		{ "dynnp_de" "dynn_SantibA_N_ez" }
+		{ "dynnp_de" "dynn_Tabladiello" }
+		{ "dynnp_de" "dynn_Oviedo" }
+		{ "dynnp_de" "dynn_Valdivia" }
+		{ "dynnp_del" "dynn_Valle" }
+		{ "dynnp_de_la" "dynn_Vega" }
+		{ "dynnp_de" "dynn_Villagra" }
+		{ "dynnp_de" "dynn_Villalba" }
+		{ "dynnp_de" "dynn_Villanueva" }
+		{ "dynnp_de" "dynn_Villalobos" }
+	}
+
+	male_names = {
+		Alfonsu A_lvaru AndrE_s Arias Asur Aureliu Bermudu Bernaldu BosO_n Diegu
+		Domingu EstE_banu Facundu Favila Fernandu FlaI_n Fruela GarcI_a GO_mez Gonzalu
+		GuillE_n Gundemaru Gutierre Hermenexildu Llope LloriA_n Manuel MartI_n Melendu Muniu
+		NuN_u OrdoN_u Osoriu Ovecu Pedru Pelayu PiN_olu Ponce Ramiru RamO_n
+		Rodrigu Sanchu Savaricu SebastiA_n Silu Sueru Vela Velascu Xerardu Xil
+		Xuan
+	}
+	female_names = {
+		Adosinda Aldara Aldonza Aragonte Beatriz Belasquida Blanca Catalina Constanza Cristina
+		Dulce Egilona Elvira Enderquina Ermesenda EstefanI_a Eva Fronilde Gontroda Gotina
+		Goto Guiomar InEEs Iyana Leodegundia Lleonor Margarita MarI_a Marina Marquesa
+		Mayor MencI_a MI_lia Munia Muniadona Nicor NuN_a Olaya Oneca Patrona
+		Sabela Sancha Taresa Tegridia Toda Urraca Varela Ximena Xuana Xusta
+	}
+	
+	dynasty_of_location_prefix = "dynnp_de"
+	
+	patronym_suffix_male = "dynnpat_suf_ez"
+	patronym_suffix_female = "dynnpat_suf_ez"
+	always_use_patronym = yes	
+
+	pat_grf_name_chance = 45
+	mat_grf_name_chance = 15
+	father_name_chance = 30
+	
+	pat_grm_name_chance = 40
+	mat_grm_name_chance = 10
+	mother_name_chance = 40
+
+	
+}
+name_list_aragonese = {
+
+	cadet_dynasty_names = {
+		"dynn_AragonE_s"
+		{ "dynnp_d_" "dynn_AlagO_n" }
+		{ "dynnp_d_" "dynn_AlbarrazI_n" }
+		{ "dynnp_d_" "dynn_Alcampell" }
+		{ "dynnp_d_" "dynn_Alcanyiz" }
+		{ "dynnp_d_" "dynn_Alpuente" }
+		{ "dynnp_d_" "dynn_Andorra" }
+		{ "dynnp_d_" "dynn_AnsO_" }
+		{ "dynnp_d_" "dynn_AragO_n" }
+		{ "dynnp_d_" "dynn_Ayerbe" }
+		{ "dynnp_de" "dynn_Balbastro" }
+		{ "dynnp_de" "dynn_Belchit" }
+		{ "dynnp_de" "dynn_BinE_far" }
+		{ "dynnp_de" "dynn_Borcha" }
+		{ "dynnp_de" "dynn_Calaceite" }
+		{ "dynnp_de" "dynn_Calamocha" }
+		{ "dynnp_de" "dynn_CalatayU_" }
+		{ "dynnp_de" "dynn_Casp" }
+		{ "dynnp_de" "dynn_Chaca" }
+		{ "dynnp_de" "dynn_Daroca" }
+		{ "dynnp_del" "dynn_Ebro" }
+		{ "dynnp_d_" "dynn_Epila" }
+		{ "dynnp_d_" "dynn_Exea" }
+		{ "dynnp_de" "dynn_Fraga" }
+		{ "dynnp_del" "dynn_Galligo" }
+		{ "dynnp_de" "dynn_Gotor" }
+		{ "dynnp_d_" "dynn_I_xar" }
+		{ "dynnp_de" "dynn_Luna" }
+		{ "dynnp_del" "dynn_Maestrazgo" }
+		{ "dynnp_del" "dynn_Moncayo" }
+		{ "dynnp_de_los" "dynn_Monegros" }
+		{ "dynnp_de" "dynn_MonzO_n" }
+		{ "dynnp_de" "dynn_Ribagorza" }
+		{ "dynnp_de" "dynn_SariN_ena" }
+		{ "dynnp_de" "dynn_Sobrarbe" }
+		{ "dynnp_de" "dynn_Tarazona" }
+		{ "dynnp_de" "dynn_Teruel" }
+		{ "dynnp_d_" "dynn_Uncastiello" }
+		{ "dynnp_d_" "dynn_Uesca" }
+		{ "dynnp_d_" "dynn_Utrillas" }
+		{ "dynnp_de" "dynn_Villanueva" }
+		{ "dynnp_del" "dynn_XalO_n" }
+		{ "dynnp_del" "dynn_Xiloca" }
+		{ "dynnp_de" "dynn_Zaragoza" }
+		{ "dynnp_de" "dynn_Zuera" }
+	}
+
+	dynasty_names = {
+		"dynn_A_lvarez"
+		"dynn_AznA_rez"
+		"dynn_AlfO_nsez"
+		"dynn_BermU_dez"
+		"dynn_BlA_zquez"
+		"dynn_DI_az"
+		"dynn_EnnE_guez"
+		"dynn_EnrI_quez"
+		"dynn_EstE_vez"
+		"dynn_FerrA_ndez"
+		"dynn_FortU_n"
+		"dynn_GalI_ndez"
+		"dynn_GarcE_s"
+		"dynn_Gatonez"
+		"dynn_Gil"
+		"dynn_GirA_ldez"
+		"dynn_GO_mez"
+		"dynn_GonzA_lez"
+		"dynn_GuillE_n"
+		"dynn_IbA_N_ez"
+		"dynn_LO_pez"
+		"dynn_Manrique"
+		"dynn_Manuel"
+		"dynn_MartI_nez"
+		"dynn_Menendez"
+		"dynn_MuN_oz"
+		"dynn_NU_N_ez"
+		"dynn_Palafox"
+		"dynn_PE_rez"
+		"dynn_RemI_riz"
+		"dynn_Rivera"
+		"dynn_RuI_z"
+		"dynn_SA_nchez"
+		"dynn_Varela"
+		"dynn_XimE_nez"
+		{ "dynnp_de" "dynn_Balbastro" }
+		{ "dynnp_de" "dynn_Borja" }
+		{ "dynnp_de" "dynn_Chaca" }
+		{ "dynnp_de" "dynn_Fraga" }
+		{ "dynnp_de" "dynn_Sobrarbe" }
+		{ "dynnp_de" "dynn_Ribagorza" }
+		{ "dynnp_de" "dynn_Risnal" }
+	}
+
+	male_names = {
+		A_lbar Alifonso Armengol Artal Aznar Berenguer Bernat BertrA_n Blasco Chaime
+		Chil Chuan Diago Eneco Felipe Ferrando FortU_n Frederico GarcI_a Gaton GO_mez
+		Gonzalo GuillE_n Guiral Henrique Hermenechildo Isteban Lope Manrique Manuel MartI_n
+		Munio NuN_o Pero Ponz Remiro RemO_n Rodrigo Sancho Veremundo
+		XimE_n
+	}
+	female_names = {
+		AgnE_s Albira Aldonza Alionor Andregoto Beatriz Blanca Caterina Chuana Costanza
+		Dulzis Eba Eilo Elvira Ermisenda EstefanI_a Gotruda Isabela Mafalda Margalida MarI_a
+		Marquesa Mayor MencI_a MI_lia Munia Muniadona Peironela Sancha Talesa Toda
+		Urraca Violant Ximena
+	}
+	
+	dynasty_of_location_prefix = "dynnp_de"
+	
+	patronym_suffix_male = "dynnpat_suf_iz"
+	patronym_suffix_female = "dynnpat_suf_iz"
+	always_use_patronym = yes	
+
+	pat_grf_name_chance = 45
+	mat_grf_name_chance = 15
+	father_name_chance = 30
+	
+	pat_grm_name_chance = 40
+	mat_grm_name_chance = 10
+	mother_name_chance = 40
+
+	
+}
+name_list_suebi = {
+
+	cadet_dynasty_names = {
+		"dynn_Hermerici"
+		"dynn_Rechili"
+		"dynn_Remis"
+		"dynn_Burela"
+		"dynn_Faberi"
+		"dynn_Cavadus"
+		"dynn_Bracara"
+		"dynn_Duro"
+	}
+
+	dynasty_names = {
+		"dynn_Hermerici"
+		"dynn_Rechili"
+		"dynn_Remis"
+		"dynn_Burela"
+		"dynn_Faberi"
+		"dynn_Cavadus"
+		"dynn_Bracara"
+		"dynn_Duro"
+	}
+
+	male_names = {
+		Adeqisio Adoric Agimadus Agriulfum Alamiro Algaster Anila Ansuario Argiovitus Ariamir Arosinda Audeca
+		Badamundus Baldemarius Balderedo Baltarius Baudemiro Becilla Berteiro Bonesindus Boniza Cagildo Cartemiro
+		Chararici Commundus Crodemiro Dagaredus Daildus Damiro Docemiro Donazarius Donegildus Dulcemirus Eboric
+		Egenio Eimiro Eirigu Eisindus Eldegotus Eldesindus Elperico Engomiro Ensaldus Ermaric Evosindo Fagildus
+		Felmiro Fralenko Framuldo Francolino Fredoaldus Froatingus Fromildus Frumeiro Gardingus Gaudesindo Gomedei
+		Gomulfus Gresumarus Gudesteus Gumarius Gundivaldo Guntato Gunterotis Heremigar Hermeric Hespanisco Hildemir
+		Hilderic Hunisco Huniscus Leodegasti Leoderigus Leodulfus Leovaldo Lodemiro Magitus Malaredus Malaric Maldras
+		Marcosendus Massilan Mervigius Miro Moderido Nandaricus Nantildo Neufila Nitigis Notarius Odamiro Odemundus
+		Odericus Onemiro Onoricus Osdulfus Osorico Ostromirus Otualdo Pabregildus Pantard Pantinus Pappinus Pederagildu
+		Pennio Pipinus Provaredo Quedesendo Quedulfus Quidemiro Quidericus Ragimiro Ragolfus Rakericus Randinus
+		Randuarius Ranisclus Rechiar Rechila Refulfo Reirigus Remismund Remisol Rendericus Ricardo Richimund Rodomiro
+		Roelindus Romanisco Romarigus Sagatus Saxomero Segomirus Sentarius Sescutus Sisulfus Spanarius Spoderigo Suavarius
+		Sunila Teobald Teoderedus Theodemar Todegogia Trasmira Trasoldi Tumtuldo Uittimer Venedario Veremund Viamundus
+		Vidraldus Villisendo Vistremiro Zamarius Zendasindo
+	}
+	female_names = {
+		Acilo Ailo Alatrudia Aliverga Aliverta Aniedrudia Ansetrudia Astriverga Bagina Berina Cenabrida Cisilo Dadilo Dagadruida
+		Desteilli Donadildi Drusilla Ebragundia Ebrildi Eldegundia Emilo Entrudi Ermedrudia Ermildi Espallo Facalo Fagilo Faquilo
+		Fradegundia Framilli Fremosilli Frogildi Froilo Frolio Fronosili Frumildi Frunilo Gelvira Genlo Godoigia Goldrerona Granilo
+		Guandilo Gundiverga Guntedrudia Ildiverga Kindiverga Lallina Liuvilo Mansuara Margilli Mirosinda Penefreda Penetrudia
+		Ragesenda Randilo Raniverta Recerona Recesenda Recesuinda Rezevera Riquilo Rudilo Sabegoto Senuita Sindiverga
+		Sisilli Sisiverta Sitividis Sontrilli Sparuildi Stodildi Suevisco Tanquilli Tederona Tenildi Teodevirga Teodiverta Teodoriga
+		Teudileova Texilli Tractuilli Trasavara Trasmira Trastivigia Vergina Viscaverga Visterlo Vistravara Vistrildi Zanina
+	}
+	
+	dynasty_of_location_prefix = "dynnp_de"
+	
+	patronym_suffix_male = "dynnpat_suf_az"
+	patronym_suffix_female = "dynnpat_suf_az"
+	always_use_patronym = yes	
+
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 50
+	mat_grf_name_chance = 5
+	father_name_chance = 10
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 50
+	mother_name_chance = 5
+	
+	
+}

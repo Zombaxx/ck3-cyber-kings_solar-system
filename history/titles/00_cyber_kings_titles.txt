@@ -6,14 +6,9 @@ c_province1034 = {
 	1009.1.1 = { holder = 110341 }
 	1043.1.1 = { holder = 110342 }
 	1053.1.1 = { holder = 110345 government = tribal_government }
-	1066.1.1 = { liege = d_duchy1034 }
+	1066.1.1 = { liege = d_duchy1047 }
 	1066.9.15 = { liege = 0 }
-}
-d_duchy1034 = {
-	922.1.1 = { holder = 110340 }
-	1009.1.1 = { holder = 110341 }
-	1043.1.1 = { holder = 110342 }
-	1053.1.1 = { holder = 110345 government = tribal_government }
+	1066.9.15 = { liege = 0 }   # e66 primary after d_duchy1034 was removed
 }
 
 ########## k_kingdom0705
@@ -128,21 +123,15 @@ d_duchy0741 = {
 	1037.1.1 = { holder = 107412 }
 	1065.1.1 = { holder = 107415 government = tribal_government }
 }
-d_duchy0711 = {
-	960.1.1 = { holder = 107110 }
-	1035.1.1 = { holder = 107111 }
-	1063.1.1 = { holder = 107112 }
-	1064.1.1 = { holder = 107115 government = tribal_government }
-	1066.9.15 = { liege = k_kingdom0837 }
-}
 c_province0711 = {
 	960.1.1 = { holder = 107110 }
 	1000.1.1 = { change_development_level = 18 }
 	1035.1.1 = { holder = 107111 }
 	1063.1.1 = { holder = 107112 }
 	1064.1.1 = { holder = 107115 government = tribal_government }
-	1066.1.1 = { liege = d_duchy0711 }
+	1066.1.1 = { liege = d_duchy0741 }
 	1066.9.15 = { liege = k_kingdom0837 }
+	1066.9.15 = { liege = k_kingdom0837 }   # e66 primary after d_duchy0711 was removed
 }
 c_province0769 = {
 	928.1.1 = { holder = 107690 }
@@ -473,7 +462,7 @@ c_province1014 = {
 	1002.1.1 = { holder = 110141 }
 	1019.1.1 = { holder = 110142 }
 	1063.1.1 = { holder = 110145 government = tribal_government }
-	1066.1.1 = { liege = d_duchy1014 }
+	1066.1.1 = { liege = 0 }
 	1066.9.15 = { liege = 0 }
 }
 c_province1015 = {
@@ -783,14 +772,9 @@ c_province0968 = {
 	1000.1.1 = { change_development_level = 12 }
 	1022.1.1 = { holder = 109682 }
 	1057.1.1 = { holder = 109685 government = tribal_government }
-	1066.1.1 = { liege = d_duchy0968 }
+	1066.1.1 = { liege = d_duchy1005 }
 	1066.9.15 = { liege = 0 }
-}
-d_duchy0968 = {
-	933.1.1 = { holder = 109680 }
-	996.1.1 = { holder = 109681 }
-	1022.1.1 = { holder = 109682 }
-	1057.1.1 = { holder = 109685 government = tribal_government }
+	1066.9.15 = { liege = 0 }   # e66 primary after d_duchy0968 was removed
 }
 
 ########## k_kingdom1679
@@ -2034,6 +2018,7 @@ d_duchy0080 = {
 	1066.1.1 = { liege = k_mexico }
 	1066.9.15 = { liege = 0 }
 	1066.9.15 = { holder = 101055 liege = k_mexico }
+	1066.9.15 = { succession_laws = { feudal_elective_succession_law } }   # e62 MEX
 }
 c_province0038 = {
 	932.1.1 = { holder = 100380 }
@@ -2053,6 +2038,7 @@ c_province0131 = {
 	1066.1.1 = { liege = d_duchy0131 }
 	1066.9.15 = { liege = 0 }
 	1066.9.15 = { liege = 0 }
+	1066.9.15 = { holder = 101055 liege = 0 }   # e68
 }
 d_duchy0074 = {
 	931.1.1 = { holder = 100740 }
@@ -2061,6 +2047,8 @@ d_duchy0074 = {
 	1054.1.1 = { holder = 100745 government = feudal_government }
 	1066.1.1 = { liege = k_mexico }
 	1066.9.15 = { holder = 0 }
+	1066.9.15 = { holder = 8100400 liege = k_mexico }   # e60 state ruler
+	1066.9.15 = { succession_laws = { feudal_elective_succession_law } }   # e62 MEX
 }
 c_belize = {
 	918.1.1 = { holder = 100580 }
@@ -2108,6 +2096,7 @@ c_tenochtitlan = {
 	1066.1.1 = { liege = d_duchy0080 }
 	1066.9.15 = { liege = 0 }
 	1066.9.15 = { liege = 0 }
+	1066.9.15 = { holder = 8100227 liege = k_mexico }   # e68
 }
 c_province0125 = {
 	954.1.1 = { holder = 101250 }
@@ -2143,6 +2132,7 @@ c_province0050 = {
 	1057.1.1 = { holder = 100505 government = feudal_government }
 	1066.1.1 = { liege = d_duchy0074 }
 	1066.9.15 = { liege = k_mexico }
+	1066.9.15 = { liege = d_duchy0074 }   # e60 state vassal
 }
 c_guatemala = {
 	945.1.1 = { holder = 100350 }
@@ -2181,6 +2171,7 @@ c_province0752 = {
 	1052.1.1 = { holder = 107525 government = tribal_government }
 	1066.1.1 = { liege = d_duchy0743 }
 	1066.9.15 = { liege = k_kingdom0821 }
+	1066.9.15 = { liege = k_ck_pakistan }   # e59 repoint
 }
 c_province0731 = {
 	939.1.1 = { holder = 107310 }
@@ -2234,7 +2225,7 @@ c_province0676 = {
 	1051.1.1 = { holder = 106762 }
 	1052.1.1 = { holder = 106765 government = feudal_government }
 	1065.1.1 = { liege = d_duchy0675 }
-	1066.1.1 = { liege = e_empire0836 }
+	1066.1.1 = { liege = 0 }
 	1066.9.15 = { liege = d_iraq }
 }
 c_province0654 = {
@@ -2243,7 +2234,7 @@ c_province0654 = {
 	1030.1.1 = { holder = 106541 }
 	1056.1.1 = { holder = 106542 }
 	1065.1.1 = { holder = 106545 government = feudal_government }
-	1066.1.1 = { liege = e_empire0836 }
+	1066.1.1 = { liege = 0 }
 	1066.9.15 = { liege = d_iraq }
 }
 c_province0653 = {
@@ -2270,6 +2261,7 @@ c_tehran = {
 	1064.1.1 = { holder = 106745 government = feudal_government }
 	1066.1.1 = { liege = d_duchy0675 }
 	1066.9.15 = { liege = k_kingdom0704 }
+	1066.9.15 = { holder = 107045 liege = 0 }   # e68
 }
 d_duchy0743 = {
 	922.1.1 = { holder = 107430 }
@@ -2278,22 +2270,24 @@ d_duchy0743 = {
 	1059.1.1 = { holder = 107435 government = tribal_government }
 	1066.1.1 = { liege = k_kingdom0704 }
 	1066.9.15 = { holder = 107525 liege = k_kingdom0821 }
+	1066.9.15 = { liege = k_ck_pakistan }   # e59 repoint
 }
 c_province0675 = {
-	938.1.1 = { holder = 106750 }
+	938.1.1 = { holder = 0 }
 	1000.1.1 = { change_development_level = 12 }
-	1028.1.1 = { holder = 106751 }
-	1054.1.1 = { holder = 106752 }
-	1055.1.1 = { holder = 106755 government = feudal_government }
+	1028.1.1 = { holder = 0 }
+	1054.1.1 = { holder = 0 }
+	1055.1.1 = { holder = 0 government = feudal_government }
 	1066.1.1 = { liege = d_duchy0675 }
 	1066.9.15 = { liege = k_kingdom0704 }
 	1066.9.15 = { liege = k_kingdom0704 }
+	1066.9.15 = { holder = 107045 liege = 0 }   # e68
 }
 d_duchy0675 = {
-	938.1.1 = { holder = 106750 }
-	1028.1.1 = { holder = 106751 }
-	1054.1.1 = { holder = 106752 }
-	1055.1.1 = { holder = 106755 government = feudal_government }
+	938.1.1 = { holder = 0 }
+	1028.1.1 = { holder = 0 }
+	1054.1.1 = { holder = 0 }
+	1055.1.1 = { holder = 0 government = feudal_government }
 	1066.1.1 = { liege = k_kingdom0704 }
 	1066.9.15 = { holder = 0 }
 }
@@ -2324,6 +2318,7 @@ c_province0704 = {
 	1066.1.1 = { liege = d_duchy0704 }
 	1066.9.15 = { liege = 0 }
 	1066.9.15 = { liege = 0 }
+	1066.9.15 = { holder = 106745 liege = k_kingdom0704 }   # e68
 }
 c_province0743 = {
 	922.1.1 = { holder = 107430 }
@@ -2698,6 +2693,7 @@ d_duchy0464 = {
 	1052.1.1 = { holder = 104645 government = feudal_government }
 	1066.1.1 = { liege = k_kingdom0506 }
 	1066.9.15 = { holder = 104455 liege = e_european_union }
+	1066.9.15 = { succession_laws = { feudal_elective_succession_law } }   # e62 PRT
 }
 c_province0461 = {
 	933.1.1 = { holder = 104610 }
@@ -2993,6 +2989,7 @@ c_berlin = {
 	1066.1.1 = { liege = d_duchy0530 }
 	1066.9.15 = { liege = 0 }
 	1066.9.15 = { liege = 0 }
+	1066.9.15 = { holder = 8100047 liege = 0 }   # e61
 }
 c_province0559 = {
 	917.1.1 = { holder = 105590 }
@@ -3038,6 +3035,8 @@ d_duchy0558 = {
 	1061.1.1 = { holder = 105585 government = feudal_government }
 	1066.1.1 = { liege = k_western_europe }
 	1066.9.15 = { holder = 0 }
+	1066.9.15 = { holder = 8100047 liege = 0 }   # e61
+	1066.9.15 = { succession_laws = { feudal_elective_succession_law } }   # e62 DEU
 }
 c_france = {
 	925.1.1 = { holder = 104920 }
@@ -3056,6 +3055,7 @@ d_duchy0596 = {
 	1063.1.1 = { holder = 105965 government = feudal_government }
 	1066.1.1 = { liege = k_western_europe }
 	1066.9.15 = { holder = 8100230 liege = 0 }
+	1066.9.15 = { holder = 0 }   # e59
 }
 k_western_europe = {
 	919.1.1 = { holder = 105300 }
@@ -3075,6 +3075,7 @@ c_province0596 = {
 	1066.1.1 = { liege = d_duchy0596 }
 	1066.9.15 = { liege = k_western_europe }
 	1066.9.15 = { liege = d_duchy0596 }
+	1066.9.15 = { liege = d_ck_belarus }   # e59 repoint
 }
 
 ########## k_kingdom0740
@@ -3087,10 +3088,10 @@ c_province0720 = {
 	1066.1.1 = { liege = d_duchy0751 }
 }
 c_province0718 = {
-	935.1.1 = { holder = 107180 }
+	935.1.1 = { holder = 0 }
 	1000.1.1 = { change_development_level = 17 }
-	1011.1.1 = { holder = 107181 }
-	1042.1.1 = { holder = 107182 }
+	1011.1.1 = { holder = 0 }
+	1042.1.1 = { holder = 0 }
 	1062.1.1 = { holder = 777126 government = feudal_government }
 	1066.1.1 = { liege = d_duchy0740 }
 }
@@ -3577,10 +3578,10 @@ c_province0835 = {
 	1066.9.15 = { liege = 0 }
 }
 c_province0812 = {
-	951.1.1 = { holder = 108120 }
+	951.1.1 = { holder = 0 }
 	1000.1.1 = { change_development_level = 19 }
-	1031.1.1 = { holder = 108121 }
-	1037.1.1 = { holder = 108122 }
+	1031.1.1 = { holder = 0 }
+	1037.1.1 = { holder = 0 }
 	1058.1.1 = { holder = 778110 government = feudal_government }
 	1066.1.1 = { liege = d_duchy0835 }
 }
@@ -3614,10 +3615,10 @@ d_duchy0835 = {
 	1060.1.1 = { holder = 108355 government = feudal_government }
 }
 c_province0805 = {
-	933.1.1 = { holder = 108050 }
+	933.1.1 = { holder = 0 }
 	1000.1.1 = { change_development_level = 12 }
-	1005.1.1 = { holder = 108051 }
-	1035.1.1 = { holder = 108052 }
+	1005.1.1 = { holder = 0 }
+	1035.1.1 = { holder = 0 }
 	1066.1.1 = { liege = d_duchy0784 }
 	1052.1.1 = { holder = 778103 }	# Goku (CK2 son.txt; 108055 was the stand-in)
 	1066.9.15 = { holder = 778103 government = tribal_government }
@@ -3662,10 +3663,10 @@ d_duchy0237 = {
 	1057.1.1 = { holder = 102375 government = feudal_government }
 }
 c_province0176 = {
-	953.1.1 = { holder = 101760 }
+	953.1.1 = { holder = 0 }
 	1000.1.1 = { change_development_level = 4 }
-	1036.1.1 = { holder = 101761 }
-	1042.1.1 = { holder = 101762 }
+	1036.1.1 = { holder = 0 }
+	1042.1.1 = { holder = 0 }
 	1055.1.1 = { holder = 102015 government = tribal_government }
 	1066.1.1 = { liege = d_duchy0201 }
 }
@@ -3686,10 +3687,10 @@ d_duchy0201 = {
 	1066.1.1 = { holder = 1020120 government = tribal_government }
 }
 c_province0209 = {
-	936.1.1 = { holder = 102090 }
+	936.1.1 = { holder = 0 }
 	1000.1.1 = { change_development_level = 13 }
-	1013.1.1 = { holder = 102091 }
-	1033.1.1 = { holder = 102092 }
+	1013.1.1 = { holder = 0 }
+	1033.1.1 = { holder = 0 }
 	1064.1.1 = { holder = 1020130 government = tribal_government }
 	1066.1.1 = { liege = d_duchy0201 }
 }
@@ -3735,9 +3736,9 @@ c_province0260 = {
 	1066.1.1 = { liege = d_duchy0237 }
 }
 d_duchy0142 = {
-	941.1.1 = { holder = 101420 }
-	1019.1.1 = { holder = 101421 }
-	1030.1.1 = { holder = 101422 }
+	941.1.1 = { holder = 0 }
+	1019.1.1 = { holder = 0 }
+	1030.1.1 = { holder = 0 }
 	1065.1.1 = { holder = 1020140 government = feudal_government }
 }
 c_province0261 = {
@@ -3749,10 +3750,10 @@ c_province0261 = {
 	1066.1.1 = { liege = d_duchy0201 }
 }
 c_province0142 = {
-	941.1.1 = { holder = 101420 }
+	941.1.1 = { holder = 0 }
 	1000.1.1 = { change_development_level = 17 }
-	1019.1.1 = { holder = 101421 }
-	1030.1.1 = { holder = 101422 }
+	1019.1.1 = { holder = 0 }
+	1030.1.1 = { holder = 0 }
 	1065.1.1 = { holder = 1020140 government = feudal_government }
 	1066.1.1 = { liege = d_duchy0142 }
 	1066.9.15 = { liege = 0 }
@@ -4970,8 +4971,8 @@ k_kingdom0580 = {
 	1004.1.1 = { holder = 105801 }
 	1055.1.1 = { holder = 105802 }
 	1060.1.1 = { holder = 105805 government = feudal_government }
-	1066.1.1 = { liege = e_empire0836 }
-	1066.9.15 = { holder = 105265 liege = e_empire0836 }
+	1066.1.1 = { liege = 0 }
+	1066.9.15 = { holder = 105265 liege = 0 }
 }
 c_province0595 = {
 	944.1.1 = { holder = 105950 }
@@ -4989,16 +4990,18 @@ d_duchy0595 = {
 	1022.1.1 = { holder = 105952 }
 	1065.1.1 = { holder = 105955 government = feudal_government }
 	1066.1.1 = { liege = k_kingdom0580 }
-	1066.9.15 = { holder = 105805 liege = e_empire0836 }
+	1066.9.15 = { holder = 105805 liege = 0 }
+	1066.9.15 = { liege = 0 }   # e59
 }
 c_province0555 = {
-	919.1.1 = { holder = 105550 }
-	997.1.1 = { holder = 105551 }
+	919.1.1 = { holder = 0 }
+	997.1.1 = { holder = 0 }
 	1000.1.1 = { change_development_level = 17 }
-	1016.1.1 = { holder = 105552 }
-	1059.1.1 = { holder = 105555 government = feudal_government }
+	1016.1.1 = { holder = 0 }
+	1059.1.1 = { holder = 0 government = feudal_government }
 	1066.1.1 = { liege = d_duchy0526 }
 	1066.9.15 = { liege = k_kingdom0580 }
+	1066.9.15 = { holder = 105265 liege = 0 }   # e68
 }
 d_duchy0526 = {
 	931.1.1 = { holder = 105260 }
@@ -5024,8 +5027,8 @@ c_province0580 = {
 	1055.1.1 = { holder = 105802 }
 	1060.1.1 = { holder = 105805 government = feudal_government }
 	1066.1.1 = { liege = d_duchy0580 }
-	1066.9.15 = { liege = e_empire0836 }
-	1066.9.15 = { liege = e_empire0836 }
+	1066.9.15 = { liege = 0 }
+	1066.9.15 = { liege = 0 }
 }
 d_duchy0580 = {
 	932.1.1 = { holder = 105800 }
@@ -5033,7 +5036,7 @@ d_duchy0580 = {
 	1055.1.1 = { holder = 105802 }
 	1060.1.1 = { holder = 105805 government = feudal_government }
 	1066.1.1 = { liege = k_kingdom0580 }
-	1066.9.15 = { liege = e_empire0836 }
+	1066.9.15 = { liege = 0 }
 	1066.9.15 = { holder = 0 }
 }
 c_province0526 = {
@@ -5044,7 +5047,7 @@ c_province0526 = {
 	1055.1.1 = { holder = 105265 government = feudal_government }
 	1066.1.1 = { liege = d_duchy0526 }
 	1066.9.15 = { liege = k_kingdom0580 }
-	1066.9.15 = { liege = e_empire0836 }
+	1066.9.15 = { liege = 0 }
 }
 c_province0516 = {
 	949.1.1 = { holder = 105160 }
@@ -5120,6 +5123,7 @@ c_province0964 = {
 	1066.1.1 = { liege = d_duchy0964 }
 	1066.9.15 = { liege = 0 }
 	1066.9.15 = { liege = 0 }
+	1066.9.15 = { holder = 8100192 liege = k_kingdom0974 }   # e68
 }
 
 ########## k_kingdom1405
@@ -5129,14 +5133,9 @@ c_province1405 = {
 	1015.1.1 = { holder = 114051 }
 	1039.1.1 = { holder = 114052 }
 	1058.1.1 = { holder = 114055 government = tribal_government }
-	1066.1.1 = { liege = d_duchy1405 }
+	1066.1.1 = { liege = d_duchy1432 }
 	1066.9.15 = { liege = 0 }
-}
-d_duchy1405 = {
-	939.1.1 = { holder = 114050 }
-	1015.1.1 = { holder = 114051 }
-	1039.1.1 = { holder = 114052 }
-	1058.1.1 = { holder = 114055 government = tribal_government }
+	1066.9.15 = { liege = 0 }   # e66 primary after d_duchy1405 was removed
 }
 
 ########## k_kingdom2101
@@ -5486,8 +5485,9 @@ c_province1388 = {
 	1008.1.1 = { holder = 113881 }
 	1014.1.1 = { holder = 113882 }
 	1062.1.1 = { holder = 113885 government = tribal_government }
-	1066.1.1 = { liege = d_duchy1388 }
+	1066.1.1 = { liege = d_duchy1392 }
 	1066.9.15 = { liege = k_kingdom1460 }
+	1066.9.15 = { liege = k_kingdom1460 }   # e66 primary after d_duchy1388 was removed
 }
 c_province1439 = {
 	938.1.1 = { holder = 114390 }
@@ -5513,33 +5513,28 @@ c_province1441 = {
 	1062.1.1 = { holder = 114415 government = feudal_government }
 	1066.1.1 = { liege = d_duchy1460 }
 }
-d_duchy1388 = {
-	916.1.1 = { holder = 113880 }
-	1008.1.1 = { holder = 113881 }
-	1014.1.1 = { holder = 113882 }
-	1062.1.1 = { holder = 113885 government = tribal_government }
-	1066.1.1 = { liege = k_kingdom1460 }
-}
 
 ########## k_kingdom0715
 c_province0678 = {
-	928.1.1 = { holder = 106780 }
+	928.1.1 = { holder = 0 }
 	1000.1.1 = { change_development_level = 4 }
-	1007.1.1 = { holder = 106781 }
-	1052.1.1 = { holder = 106782 }
-	1053.1.1 = { holder = 106785 government = tribal_government }
+	1007.1.1 = { holder = 0 }
+	1052.1.1 = { holder = 0 }
+	1053.1.1 = { holder = 0 government = tribal_government }
 	1066.1.1 = { liege = k_kingdom0715 }
 	1066.9.15 = { liege = k_kingdom0715 }
 	1066.9.15 = { liege = h_eurasia }
+	1066.9.15 = { holder = 8100732 government = tribal_government }   # e68 local 2027 ruler (was 106785)
 }
 c_province0748 = {
-	933.1.1 = { holder = 107480 }
+	933.1.1 = { holder = 0 }
 	1000.1.1 = { change_development_level = 4 }
-	1003.1.1 = { holder = 107481 }
-	1032.1.1 = { holder = 107482 }
-	1050.1.1 = { holder = 107485 government = tribal_government }
+	1003.1.1 = { holder = 0 }
+	1032.1.1 = { holder = 0 }
+	1050.1.1 = { holder = 0 government = tribal_government }
 	1066.1.1 = { liege = k_kingdom0715 }
 	1066.9.15 = { liege = h_eurasia }
+	1066.9.15 = { holder = 8100731 government = tribal_government }   # e68 local 2027 ruler (was 107485)
 }
 c_province0709 = {
 	937.1.1 = { holder = 107090 }
@@ -5551,23 +5546,25 @@ c_province0709 = {
 	1066.9.15 = { liege = e_empire1034 }
 }
 c_province0661 = {
-	926.1.1 = { holder = 106610 }
+	926.1.1 = { holder = 0 }
 	1000.1.1 = { change_development_level = 4 }
-	1014.1.1 = { holder = 106611 }
-	1032.1.1 = { holder = 106612 }
-	1062.1.1 = { holder = 106615 government = tribal_government }
+	1014.1.1 = { holder = 0 }
+	1032.1.1 = { holder = 0 }
+	1062.1.1 = { holder = 0 government = tribal_government }
 	1066.1.1 = { liege = d_duchy0694 }
 	1066.9.15 = { liege = h_eurasia }
+	1066.9.15 = { holder = 8100730 government = tribal_government }   # e68 local 2027 ruler (was 106615)
 }
 c_province0694 = {
-	942.1.1 = { holder = 106940 }
+	942.1.1 = { holder = 0 }
 	1000.1.1 = { change_development_level = 4 }
-	1032.1.1 = { holder = 106941 }
-	1055.1.1 = { holder = 106942 }
-	1061.1.1 = { holder = 106945 government = tribal_government }
+	1032.1.1 = { holder = 0 }
+	1055.1.1 = { holder = 0 }
+	1061.1.1 = { holder = 0 government = tribal_government }
 	1066.1.1 = { liege = d_duchy0694 }
 	1066.9.15 = { liege = k_kingdom0715 }
 	1066.9.15 = { liege = h_eurasia }
+	1066.9.15 = { holder = 8100734 government = tribal_government }   # e68 local 2027 ruler (was 106945)
 }
 c_province0703 = {
 	944.1.1 = { holder = 107030 }
@@ -5589,32 +5586,35 @@ c_province0785 = {
 	1066.9.15 = { liege = e_empire1034 }
 }
 c_province0641 = {
-	941.1.1 = { holder = 106410 }
+	941.1.1 = { holder = 0 }
 	1000.1.1 = { change_development_level = 4 }
-	1006.1.1 = { holder = 106411 }
-	1029.1.1 = { holder = 106412 }
-	1055.1.1 = { holder = 106415 government = tribal_government }
+	1006.1.1 = { holder = 0 }
+	1029.1.1 = { holder = 0 }
+	1055.1.1 = { holder = 0 government = tribal_government }
 	1066.1.1 = { liege = k_kingdom0715 }
 	1066.9.15 = { liege = h_eurasia }
+	1066.9.15 = { holder = 8100733 government = tribal_government }   # e68 local 2027 ruler (was 106415)
 }
 c_province0695 = {
-	938.1.1 = { holder = 106950 }
+	938.1.1 = { holder = 0 }
 	1000.1.1 = { change_development_level = 4 }
-	1008.1.1 = { holder = 106951 }
-	1047.1.1 = { holder = 106952 }
-	1056.1.1 = { holder = 106955 government = tribal_government }
+	1008.1.1 = { holder = 0 }
+	1047.1.1 = { holder = 0 }
+	1056.1.1 = { holder = 0 government = tribal_government }
 	1066.1.1 = { liege = d_duchy0694 }
 	1066.9.15 = { liege = h_eurasia }
+	1066.9.15 = { holder = 8100736 government = tribal_government }   # e68 local 2027 ruler (was 106955)
 }
 c_province0670 = {
-	931.1.1 = { holder = 106700 }
-	986.1.1 = { holder = 106701 }
+	931.1.1 = { holder = 0 }
+	986.1.1 = { holder = 0 }
 	1000.1.1 = { change_development_level = 4 }
-	1019.1.1 = { holder = 106702 }
-	1051.1.1 = { holder = 106705 government = tribal_government }
+	1019.1.1 = { holder = 0 }
+	1051.1.1 = { holder = 0 government = tribal_government }
 	1066.1.1 = { liege = k_kingdom0715 }
 	1066.9.15 = { liege = k_kingdom0715 }
 	1066.9.15 = { liege = h_eurasia }
+	1066.9.15 = { holder = 8100735 government = tribal_government }   # e68 local 2027 ruler (was 106705)
 }
 c_province0693 = {
 	938.1.1 = { holder = 106930 }
@@ -5626,10 +5626,10 @@ c_province0693 = {
 	1066.9.15 = { liege = e_empire1034 }
 }
 d_duchy0694 = {
-	942.1.1 = { holder = 106940 }
-	1032.1.1 = { holder = 106941 }
-	1055.1.1 = { holder = 106942 }
-	1061.1.1 = { holder = 106945 government = tribal_government }
+	942.1.1 = { holder = 0 }
+	1032.1.1 = { holder = 0 }
+	1055.1.1 = { holder = 0 }
+	1061.1.1 = { holder = 0 government = tribal_government }
 	1066.1.1 = { liege = k_kingdom0715 }
 	1066.9.15 = { holder = 107095 liege = e_empire1034 }
 }
@@ -5643,22 +5643,24 @@ c_province0712 = {
 	1066.9.15 = { liege = e_empire1034 }
 }
 c_province0658 = {
-	907.1.1 = { holder = 106580 }
-	996.1.1 = { holder = 106581 }
+	907.1.1 = { holder = 0 }
+	996.1.1 = { holder = 0 }
 	1000.1.1 = { change_development_level = 4 }
-	1021.1.1 = { holder = 106582 }
-	1051.1.1 = { holder = 106585 government = tribal_government }
+	1021.1.1 = { holder = 0 }
+	1051.1.1 = { holder = 0 government = tribal_government }
 	1066.1.1 = { liege = k_kingdom0715 }
 	1066.9.15 = { liege = h_eurasia }
+	1066.9.15 = { holder = 8100738 government = tribal_government }   # e68 local 2027 ruler (was 106585)
 }
 c_province0737 = {
-	936.1.1 = { holder = 107370 }
+	936.1.1 = { holder = 0 }
 	1000.1.1 = { change_development_level = 4 }
-	1010.1.1 = { holder = 107371 }
-	1044.1.1 = { holder = 107372 }
-	1062.1.1 = { holder = 107375 government = tribal_government }
+	1010.1.1 = { holder = 0 }
+	1044.1.1 = { holder = 0 }
+	1062.1.1 = { holder = 0 government = tribal_government }
 	1066.1.1 = { liege = e_empire1034 }
 	1066.9.15 = { liege = h_eurasia }
+	1066.9.15 = { holder = 8100737 government = tribal_government }   # e68 local 2027 ruler (was 107375)
 }
 c_province0715 = {
 	926.1.1 = { holder = 107150 }
@@ -5781,10 +5783,10 @@ c_province0911 = {
 	1066.1.1 = { liege = d_duchy0916 }
 }
 d_duchy0848 = {
-	939.1.1 = { holder = 108480 }
-	992.1.1 = { holder = 108481 }
-	1052.1.1 = { holder = 108482 }
-	1053.1.1 = { holder = 108485 government = tribal_government }
+	939.1.1 = { holder = 0 }
+	992.1.1 = { holder = 0 }
+	1052.1.1 = { holder = 0 }
+	1053.1.1 = { holder = 0 government = tribal_government }
 	1066.9.15 = { liege = 0 holder = 8101004 }
 }
 c_province0916 = {
@@ -6021,11 +6023,11 @@ c_province0871 = {
 	1066.1.1 = { liege = d_duchy0879 }
 }
 c_province0848 = {
-	939.1.1 = { holder = 108480 }
-	992.1.1 = { holder = 108481 }
+	939.1.1 = { holder = 0 }
+	992.1.1 = { holder = 0 }
 	1000.1.1 = { change_development_level = 4 }
-	1052.1.1 = { holder = 108482 }
-	1053.1.1 = { holder = 108485 government = tribal_government }
+	1052.1.1 = { holder = 0 }
+	1053.1.1 = { holder = 0 government = tribal_government }
 	1066.1.1 = { liege = d_duchy0848 }
 	1066.9.15 = { liege = 0 holder = 8101004 }
 }
@@ -6330,6 +6332,7 @@ c_province0373 = {
 	1040.1.1 = { holder = 103732 }
 	1062.1.1 = { holder = 103735 government = tribal_government }
 	1066.9.15 = { liege = e_empire0350 }
+	1066.9.15 = { liege = d_duchy0245 }   # e60 state vassal
 }
 c_province0413 = {
 	915.1.1 = { holder = 104130 }
@@ -6348,6 +6351,7 @@ c_province0415 = {
 	1057.1.1 = { holder = 104155 government = tribal_government }
 	1066.1.1 = { liege = d_duchy0413 }
 	1066.9.15 = { liege = e_empire0350 }
+	1066.9.15 = { liege = d_duchy0389 }   # e60 state vassal
 }
 c_province0364 = {
 	956.1.1 = { holder = 103640 }
@@ -6364,6 +6368,7 @@ c_province0357 = {
 	1054.1.1 = { holder = 103572 }
 	1060.1.1 = { holder = 103575 government = tribal_government }
 	1066.9.15 = { liege = e_empire0350 }
+	1066.9.15 = { liege = d_toronto }   # e60 state vassal
 }
 d_duchy0413 = {
 	915.1.1 = { holder = 104130 }
@@ -6371,6 +6376,7 @@ d_duchy0413 = {
 	1033.1.1 = { holder = 104132 }
 	1052.1.1 = { holder = 104135 government = tribal_government }
 	1066.9.15 = { holder = 103925 }  # former Arctic king, v39
+	1066.9.15 = { liege = k_denmark }   # e76 Greenland under Denmark
 }
 c_province0382 = {
 	938.1.1 = { holder = 103820 }
@@ -6508,6 +6514,7 @@ c_province0059 = {
 	1062.1.1 = { holder = 100595 government = tribal_government }
 	1066.1.1 = { liege = d_duchy0060 }
 	1066.9.15 = { liege = k_kingdom0031 }
+	1066.9.15 = { holder = 100315 liege = 0 }   # e68
 }
 d_duchy0060 = {
 	943.1.1 = { holder = 100600 }
@@ -6525,6 +6532,7 @@ c_province0004 = {
 	1054.1.1 = { holder = 100045 government = tribal_government }
 	1066.1.1 = { liege = d_duchy0007 }
 	1066.9.15 = { liege = d_duchy0060 }
+	1066.9.15 = { holder = 100595 liege = 0 }   # e68
 }
 c_province0001 = {
 	921.1.1 = { holder = 100010 }
@@ -6590,6 +6598,7 @@ c_province0031 = {
 	1066.1.1 = { liege = d_duchy0031 }
 	1066.9.15 = { liege = 0 }
 	1066.9.15 = { liege = 0 }
+	1066.9.15 = { holder = 100045 liege = k_kingdom0031 }   # e68
 }
 
 ########## k_kingdom0942
@@ -6833,9 +6842,9 @@ d_duchy0088 = {
 	1060.1.1 = { holder = 100885 government = tribal_government }
 }
 d_duchy0143 = {
-	926.1.1 = { holder = 101430 }
-	988.1.1 = { holder = 101431 }
-	1052.1.1 = { holder = 101432 }
+	926.1.1 = { holder = 0 }
+	988.1.1 = { holder = 0 }
+	1052.1.1 = { holder = 0 }
 	1053.1.1 = { holder = 775999 government = tribal_government }
 	1066.9.1 = { holder = 8101000 }
 }
@@ -6883,10 +6892,10 @@ c_province0088 = {
 	1066.9.15 = { liege = 0 }
 }
 c_province0143 = {
-	926.1.1 = { holder = 101430 }
-	988.1.1 = { holder = 101431 }
+	926.1.1 = { holder = 0 }
+	988.1.1 = { holder = 0 }
 	1000.1.1 = { change_development_level = 4 }
-	1052.1.1 = { holder = 101432 }
+	1052.1.1 = { holder = 0 }
 	1053.1.1 = { holder = 775999 government = tribal_government }
 	1066.1.1 = { liege = d_duchy0143 }
 	1066.9.15 = { liege = 0 }
@@ -7038,6 +7047,7 @@ c_province0392 = {
 	1055.1.1 = { holder = 103925 government = tribal_government }
 	1066.1.1 = { liege = 0 }
 	1066.9.15 = { liege = 0 }
+	1066.9.15 = { liege = k_denmark }   # e76 Greenland under Denmark
 }
 c_province0393 = {
 	938.1.1 = { holder = 103930 }
@@ -7075,6 +7085,7 @@ c_province0378 = {
 	1059.1.1 = { holder = 103785 government = tribal_government }
 	1066.1.1 = { liege = e_european_union }
 	1066.9.15 = { liege = e_empire0350 }
+	1066.9.15 = { liege = d_richmond_hill }   # e60 state vassal
 }
 
 ########## k_kingdom0388
@@ -7218,9 +7229,10 @@ c_province1022 = {
 	1005.1.1 = { holder = 110221 }
 	1031.1.1 = { holder = 110222 }
 	1059.1.1 = { holder = 110225 government = tribal_government }
-	1066.1.1 = { liege = d_duchy1022 }
+	1066.1.1 = { liege = d_duchy1072 }
 	1066.9.15 = { liege = 0 }
 	1066.9.15 = { liege = k_kingdom1064 }
+	1066.9.15 = { liege = d_duchy1036 }   # e60 state vassal
 }
 d_duchy1022 = {
 	936.1.1 = { holder = 110220 }
@@ -7228,6 +7240,7 @@ d_duchy1022 = {
 	1031.1.1 = { holder = 110222 }
 	1059.1.1 = { holder = 110225 government = tribal_government }
 	1066.9.15 = { holder = 110785 liege = k_kingdom1064 }
+	1066.9.15 = { holder = 0 }   # e66 (WA ruler now holds d_duchy1072)
 }
 c_province1016 = {
 	958.1.1 = { holder = 110160 }
@@ -7235,7 +7248,7 @@ c_province1016 = {
 	1024.1.1 = { holder = 110161 }
 	1044.1.1 = { holder = 110162 }
 	1063.1.1 = { holder = 110165 government = tribal_government }
-	1066.1.1 = { liege = d_duchy1022 }
+	1066.1.1 = { liege = d_duchy1072 }
 	1066.9.15 = { liege = k_kingdom1064 }
 }
 c_province1057 = {
@@ -7255,7 +7268,7 @@ c_province1037 = {
 	1049.1.1 = { holder = 110372 }
 	1058.1.1 = { holder = 110375 government = tribal_government }
 	1066.1.1 = { liege = 0 }
-	1066.9.15 = { liege = d_duchy1022 }
+	1066.9.15 = { liege = d_duchy1072 }
 }
 c_province1023 = {
 	927.1.1 = { holder = 110230 }
@@ -7263,8 +7276,8 @@ c_province1023 = {
 	1000.1.1 = { change_development_level = 4 }
 	1051.1.1 = { holder = 110232 }
 	1059.1.1 = { holder = 110235 government = tribal_government }
-	1066.1.1 = { liege = d_duchy1022 }
-	1066.9.15 = { liege = d_duchy1022 }
+	1066.1.1 = { liege = d_duchy1072 }
+	1066.9.15 = { liege = d_duchy1072 }
 }
 c_province1038 = {
 	937.1.1 = { holder = 110380 }
@@ -7312,11 +7325,11 @@ c_province2034 = {
 	1066.9.15 = { liege = 0 }
 }
 d_duchy1992 = {
-	942.1.1 = { holder = 119920 }
-	1005.1.1 = { holder = 119921 }
-	1053.1.1 = { holder = 119922 }
-	1056.1.1 = { holder = 119925 government = tribal_government }
-	1066.9.15 = { liege = h_galilean }
+	942.1.1 = { holder = 0 }
+	1005.1.1 = { holder = 0 }
+	1053.1.1 = { holder = 0 }
+	1056.1.1 = { holder = 0 government = tribal_government }
+	1066.9.15 = { liege = 0 holder = 777777 }
 }
 c_province1963 = {
 	919.1.1 = { holder = 119630 }
@@ -7335,13 +7348,13 @@ c_province2013 = {
 	1066.1.1 = { liege = d_duchy2034 }
 }
 c_province1992 = {
-	942.1.1 = { holder = 119920 }
+	942.1.1 = { holder = 0 }
 	1000.1.1 = { change_development_level = 8 }
-	1005.1.1 = { holder = 119921 }
-	1053.1.1 = { holder = 119922 }
-	1056.1.1 = { holder = 119925 government = tribal_government }
+	1005.1.1 = { holder = 0 }
+	1053.1.1 = { holder = 0 }
+	1056.1.1 = { holder = 0 government = tribal_government }
 	1066.1.1 = { liege = d_duchy1992 }
-	1066.9.15 = { liege = h_galilean }
+	1066.9.15 = { liege = 0 holder = 777777 }
 }
 c_province2036 = {
 	951.1.1 = { holder = 120360 }
@@ -7382,6 +7395,7 @@ k_kingdom0040 = {
 	1064.1.1 = { holder = 100405 government = tribal_government }
 	1066.1.1 = { succession_laws = { tribal_elective_succession_law } }   # Peru
 	1066.9.15 = { holder = 100135 liege = 0 succession_laws = { tribal_elective_succession_law } }
+	1066.9.15 = { succession_laws = { feudal_elective_succession_law } }   # e62 PER
 }
 d_duchy0016 = {
 	938.1.1 = { holder = 100160 }
@@ -7418,6 +7432,7 @@ c_province0009 = {
 	1066.1.1 = { liege = d_duchy0009 }
 	1066.9.15 = { liege = 0 }
 	1066.9.15 = { liege = 0 }
+	1066.9.15 = { holder = 100195 liege = d_duchy0009 }   # e68
 }
 c_province0019 = {
 	955.1.1 = { holder = 100190 }
@@ -7425,9 +7440,10 @@ c_province0019 = {
 	1037.1.1 = { holder = 100191 }
 	1038.1.1 = { holder = 100192 }
 	1059.1.1 = { holder = 100195 government = feudal_government }
-	1066.1.1 = { liege = d_duchy0019 }
+	1066.1.1 = { liege = k_kingdom0120 }
 	1066.9.15 = { liege = 0 }
 	1066.9.15 = { liege = d_duchy0009 }
+	1066.9.15 = { holder = 100095 liege = 0 }   # e68
 }
 c_province0010 = {
 	923.1.1 = { holder = 100100 }
@@ -7447,6 +7463,7 @@ c_province0040 = {
 	1066.1.1 = { liege = d_duchy0040 }
 	1066.9.15 = { liege = 0 }
 	1066.9.15 = { liege = e_latin_america }
+	1066.9.15 = { liege = d_duchy0122 }   # e60 state vassal
 }
 c_province0016 = {
 	938.1.1 = { holder = 100160 }
@@ -8458,6 +8475,7 @@ d_duchy0572 = {
 	1066.1.1 = { liege = k_kingdom0601 }
 	1066.9.15 = { liege = 0 }
 	1066.9.15 = { holder = 105865 liege = 0 }
+	1066.9.15 = { holder = 0 }   # e59
 }
 d_duchy0620 = {
 	939.1.1 = { holder = 106200 }
@@ -8552,13 +8570,14 @@ k_kingdom0622 = {
 	1066.9.15 = { liege = 0 }
 }
 c_province0611 = {
-	933.1.1 = { holder = 106110 }
-	993.1.1 = { holder = 106111 }
+	933.1.1 = { holder = 0 }
+	993.1.1 = { holder = 0 }
 	1000.1.1 = { change_development_level = 14 }
-	1040.1.1 = { holder = 106112 }
-	1065.1.1 = { holder = 106115 government = feudal_government }
+	1040.1.1 = { holder = 0 }
+	1065.1.1 = { holder = 0 government = feudal_government }
 	1066.1.1 = { liege = d_alexandria }
 	1066.9.15 = { liege = d_alexandria }
+	1066.9.15 = { holder = 106475 liege = 0 }   # e68
 }
 c_alexandria = {
 	933.1.1 = { holder = 106230 }
@@ -8596,6 +8615,7 @@ d_duchy0361 = {
 	1061.1.1 = { holder = 103615 government = feudal_government }
 	1066.1.1 = { liege = k_kingdom0359 }
 	1066.9.15 = { liege = e_empire0350 }
+	1066.9.15 = { succession_laws = { feudal_elective_succession_law } }   # e62 CAN
 }
 c_province0361 = {
 	924.1.1 = { holder = 103610 }
@@ -8615,6 +8635,7 @@ c_province0337 = {
 	1051.1.1 = { holder = 103375 government = tribal_government }
 	1066.1.1 = { liege = d_duchy0320 }
 	1066.9.15 = { liege = e_empire0350 }
+	1066.9.15 = { liege = d_duchy0389 }   # e60 state vassal
 }
 c_province0346 = {
 	940.1.1 = { holder = 103460 }
@@ -8624,6 +8645,7 @@ c_province0346 = {
 	1062.1.1 = { holder = 103465 government = tribal_government }
 	1066.1.1 = { liege = d_duchy0320 }
 	1066.9.15 = { liege = e_empire0350 }
+	1066.9.15 = { liege = d_calgary }   # e60 state vassal
 }
 d_duchy0320 = {
 	924.1.1 = { holder = 103200 }
@@ -8659,6 +8681,7 @@ c_province0347 = {
 	1052.1.1 = { holder = 103475 government = feudal_government }
 	1066.1.1 = { liege = d_duchy0361 }
 	1066.9.15 = { liege = e_empire0350 }
+	1066.9.15 = { liege = d_richmond_hill }   # e60 state vassal
 }
 c_toronto = {
 	913.1.1 = { holder = 103170 }
@@ -8677,6 +8700,7 @@ d_duchy0322 = {
 	1054.1.1 = { holder = 103225 government = tribal_government }
 	1066.1.1 = { liege = k_kingdom0359 }
 	1066.9.15 = { holder = 0 }
+	1066.9.15 = { holder = 102825 liege = e_empire0350 }   # e60 state ruler
 }
 d_toronto = {
 	913.1.1 = { holder = 103170 }
@@ -8695,6 +8719,7 @@ c_province0350 = {
 	1064.1.1 = { holder = 103505 government = feudal_government }
 	1066.1.1 = { liege = d_duchy0361 }
 	1066.9.15 = { liege = e_empire0350 }
+	1066.9.15 = { liege = d_richmond_hill }   # e60 state vassal
 }
 c_province0323 = {
 	914.1.1 = { holder = 103230 }
@@ -8714,6 +8739,7 @@ c_province0320 = {
 	1066.1.1 = { liege = d_duchy0320 }
 	1066.9.15 = { liege = k_kingdom0359 }
 	1066.9.15 = { liege = e_empire0350 }
+	1066.9.15 = { liege = d_duchy0277 }   # e60 state vassal
 }
 c_province0359 = {
 	930.1.1 = { holder = 103590 }
@@ -8724,6 +8750,7 @@ c_province0359 = {
 	1066.1.1 = { liege = 0 }
 	1066.9.15 = { liege = 0 }
 	1066.9.15 = { liege = e_empire0350 }
+	1066.9.15 = { liege = d_richmond_hill }   # e60 state vassal
 }
 c_province0322 = {
 	930.1.1 = { holder = 103220 }
@@ -8750,6 +8777,7 @@ c_province0304 = {
 	1052.1.1 = { holder = 103045 government = tribal_government }
 	1066.1.1 = { liege = d_duchy0322 }
 	1066.9.15 = { liege = e_empire0350 }
+	1066.9.15 = { liege = d_duchy0322 }   # e60 state vassal
 }
 c_province0339 = {
 	946.1.1 = { holder = 103390 }
@@ -8768,6 +8796,7 @@ c_province0301 = {
 	1055.1.1 = { holder = 103015 government = tribal_government }
 	1066.1.1 = { liege = d_duchy0320 }
 	1066.9.15 = { liege = e_empire0350 }
+	1066.9.15 = { liege = d_toronto }   # e60 state vassal
 }
 
 ########## k_kingdom1083
@@ -8777,8 +8806,8 @@ c_province1055 = {
 	1028.1.1 = { holder = 110551 }
 	1037.1.1 = { holder = 110552 }
 	1058.1.1 = { holder = 110555 government = tribal_government }
-	1066.1.1 = { liege = d_duchy1072 }
-	1066.9.15 = { liege = d_duchy1022 }
+	1066.1.1 = { liege = d_duchy1083 }
+	1066.9.15 = { liege = d_duchy1072 }
 }
 c_province1078 = {
 	944.1.1 = { holder = 110780 }
@@ -8786,7 +8815,7 @@ c_province1078 = {
 	1025.1.1 = { holder = 110781 }
 	1026.1.1 = { holder = 110782 }
 	1064.1.1 = { holder = 110785 government = tribal_government }
-	1066.1.1 = { liege = d_duchy1072 }
+	1066.1.1 = { liege = d_duchy1083 }
 	1066.9.15 = { liege = k_kingdom1064 }
 }
 d_duchy1072 = {
@@ -8795,6 +8824,8 @@ d_duchy1072 = {
 	1019.1.1 = { holder = 110722 }
 	1058.1.1 = { holder = 110725 government = tribal_government }
 	1066.9.15 = { holder = 0 }
+	1066.9.15 = { holder = 110575 liege = k_kingdom1064 }   # e60 state ruler
+	1066.9.15 = { holder = 110785 liege = k_kingdom1064 }   # e66
 }
 c_province1083 = {
 	912.1.1 = { holder = 110830 }
@@ -8805,6 +8836,7 @@ c_province1083 = {
 	1066.1.1 = { liege = d_duchy1083 }
 	1066.9.15 = { liege = 0 }
 	1066.9.15 = { liege = k_kingdom1064 }
+	1066.9.15 = { liege = d_duchy1083 }   # e60 state vassal
 }
 c_province1066 = {
 	945.1.1 = { holder = 110660 }
@@ -8812,8 +8844,9 @@ c_province1066 = {
 	1012.1.1 = { holder = 110661 }
 	1027.1.1 = { holder = 110662 }
 	1051.1.1 = { holder = 110665 government = tribal_government }
-	1066.1.1 = { liege = d_duchy1072 }
+	1066.1.1 = { liege = d_duchy1083 }
 	1066.9.15 = { liege = k_kingdom1064 }
+	1066.9.15 = { liege = d_duchy1072 }   # e60 state vassal
 }
 c_venetian_highlands = {
 	921.1.1 = { holder = 110700 }
@@ -8823,6 +8856,7 @@ c_venetian_highlands = {
 	1060.1.1 = { holder = 110705 government = tribal_government }
 	1066.1.1 = { liege = d_duchy1083 }
 	1066.9.15 = { liege = k_kingdom1064 }
+	1066.9.15 = { liege = d_melbourne }   # e60 state vassal
 }
 c_province1072 = {
 	943.1.1 = { holder = 110720 }
@@ -8830,9 +8864,10 @@ c_province1072 = {
 	1015.1.1 = { holder = 110721 }
 	1019.1.1 = { holder = 110722 }
 	1058.1.1 = { holder = 110725 government = tribal_government }
-	1066.1.1 = { liege = d_duchy1072 }
+	1066.1.1 = { liege = d_duchy1083 }
 	1066.9.15 = { liege = 0 }
 	1066.9.15 = { liege = k_kingdom1064 }
+	1066.9.15 = { liege = d_bendigo }   # e60 state vassal
 }
 d_duchy1083 = {
 	912.1.1 = { holder = 110830 }
@@ -8840,6 +8875,8 @@ d_duchy1083 = {
 	1021.1.1 = { holder = 110832 }
 	1050.1.1 = { holder = 110835 government = feudal_government }
 	1066.9.15 = { holder = 0 }
+	1066.9.15 = { holder = 110575 liege = k_kingdom1064 }   # e66
+	1066.9.15 = { succession_laws = { feudal_elective_succession_law } }   # e66 AUS (as e62)
 }
 
 ########## k_kingdom2158
@@ -9372,6 +9409,7 @@ d_duchy0192 = {
 	1066.1.1 = { liege = e_united_states }
 	1066.9.15 = { holder = 101645 liege = e_united_states }
 	1066.9.15 = { liege = e_united_states }
+	1066.9.15 = { succession_laws = { feudal_elective_succession_law } }   # e62 USA
 }
 d_duchy0226 = {
 	946.1.1 = { holder = 102260 }
@@ -10443,18 +10481,10 @@ c_province0698 = {
 	1066.1.1 = { liege = d_duchy0713 }
 	1066.9.15 = { liege = d_duchy0713 }
 }
-d_duchy0778 = {
-	953.1.1 = { holder = 107780 }
-	1024.1.1 = { holder = 107781 }
-	1063.1.1 = { holder = 107782 }
-	1064.1.1 = { holder = 107785 government = feudal_government }
-	1066.1.1 = { liege = k_kingdom0750 }
-	1066.9.15 = { holder = 8100130 liege = 0 }
-}
 c_province0781 = {
 	1000.1.1 = { change_development_level = 17 }
 	1066.1.1 = { holder = 107815 government = feudal_government }
-	1066.1.1 = { liege = d_duchy0778 }
+	1066.1.1 = { liege = d_duchy0713 }
 	1066.9.15 = { liege = k_kingdom0750 }
 }
 c_province0806 = {
@@ -10463,8 +10493,9 @@ c_province0806 = {
 	1005.1.1 = { holder = 108061 }
 	1045.1.1 = { holder = 108062 }
 	1055.1.1 = { holder = 108065 government = feudal_government }
-	1066.1.1 = { liege = d_duchy0778 }
+	1066.1.1 = { liege = d_duchy0713 }
 	1066.9.15 = { liege = k_kingdom0750 }
+	1066.9.15 = { holder = 107505 liege = 0 }   # e68
 }
 d_duchy0713 = {
 	931.1.1 = { holder = 107130 }
@@ -10473,6 +10504,7 @@ d_duchy0713 = {
 	1054.1.1 = { holder = 107135 government = feudal_government }
 	1066.1.1 = { liege = k_kingdom0750 }
 	1066.9.15 = { liege = 0 }
+	1066.9.15 = { succession_laws = { feudal_elective_succession_law } }   # e62 NAM
 }
 d_duchy0750 = {
 	955.1.1 = { holder = 2107500 }
@@ -10482,6 +10514,7 @@ d_duchy0750 = {
 	1066.1.1 = { liege = k_kingdom0750 }
 	1066.9.15 = { liege = 0 }
 	1066.9.15 = { holder = 107825 liege = k_kingdom0750 }
+	1066.9.15 = { succession_laws = { feudal_elective_succession_law } }   # e62 ZAF
 }
 c_province0713 = {
 	931.1.1 = { holder = 107130 }
@@ -10499,11 +10532,12 @@ k_kingdom0750 = {
 	1032.1.1 = { holder = 107502 }
 	1065.1.1 = { holder = 107505 government = feudal_government }
 	1066.9.15 = { liege = 0 }
+	1066.9.15 = { succession_laws = { feudal_elective_succession_law } }   # e62 ZAF
 }
 c_province0807 = {
 	1000.1.1 = { change_development_level = 17 }
 	1066.1.1 = { holder = 108075 government = feudal_government }
-	1066.1.1 = { liege = d_duchy0778 }
+	1066.1.1 = { liege = d_duchy0713 }
 	1066.9.15 = { liege = k_kingdom0750 }
 }
 c_province0762 = {
@@ -10512,8 +10546,9 @@ c_province0762 = {
 	1000.1.1 = { change_development_level = 14 }
 	1053.1.1 = { holder = 107622 }
 	1058.1.1 = { holder = 107625 government = feudal_government }
-	1066.1.1 = { liege = d_duchy0778 }
-	1066.9.15 = { liege = d_duchy0778 }
+	1066.1.1 = { liege = d_duchy0713 }
+	1066.9.15 = { liege = d_duchy0713 }
+	1066.9.15 = { liege = d_ck_zimbabwe }   # e59 repoint
 }
 c_province0750 = {
 	955.1.1 = { holder = 2107500 }
@@ -10524,6 +10559,7 @@ c_province0750 = {
 	1066.1.1 = { liege = d_duchy0750 }
 	1066.9.15 = { liege = 0 }
 	1066.9.15 = { liege = 0 }
+	1066.9.15 = { holder = 108065 liege = k_kingdom0750 }   # e68
 }
 c_province0778 = {
 	953.1.1 = { holder = 107780 }
@@ -10531,7 +10567,7 @@ c_province0778 = {
 	1024.1.1 = { holder = 107781 }
 	1063.1.1 = { holder = 107782 }
 	1064.1.1 = { holder = 107785 government = feudal_government }
-	1066.1.1 = { liege = d_duchy0778 }
+	1066.1.1 = { liege = d_duchy0713 }
 	1066.9.15 = { liege = k_kingdom0750 }
 	1066.9.15 = { liege = 0 }
 }
@@ -10560,7 +10596,7 @@ d_duchy0634 = {
 	1020.1.1 = { holder = 106341 }
 	1039.1.1 = { holder = 106342 }
 	1064.1.1 = { holder = 106345 government = tribal_government }
-	1066.1.1 = { liege = k_kingdom0634 }
+	1066.1.1 = { liege = 0 }
 	1066.9.15 = { liege = e_empire1034 holder = 106245 }
 }
 c_province0634 = {
@@ -10571,13 +10607,7 @@ c_province0634 = {
 	1064.1.1 = { holder = 106345 government = tribal_government }
 	1066.1.1 = { liege = d_duchy0634 }
 	1066.9.15 = { liege = e_empire0717 }
-}
-k_kingdom0634 = {
-	946.1.1 = { holder = 106340 }
-	1020.1.1 = { holder = 106341 }
-	1039.1.1 = { holder = 106342 }
-	1064.1.1 = { holder = 106345 government = tribal_government }
-	1066.1.1 = { liege = e_empire0717 }
+	1066.9.15 = { liege = e_empire0717 }   # e67 primary after k_kingdom0634 was removed
 }
 
 ########## k_kingdom0821
@@ -10608,6 +10638,7 @@ d_duchy0821 = {
 	1066.1.1 = { liege = k_kingdom0821 }
 	1066.9.15 = { liege = 0 }
 	1066.9.15 = { holder = 8100172 liege = e_empire0897 }
+	1066.9.15 = { succession_laws = { feudal_elective_succession_law } }   # e62 IND
 }
 c_province0869 = {
 	919.1.1 = { holder = 108690 }
@@ -10635,6 +10666,7 @@ k_kingdom0821 = {
 	1063.1.1 = { holder = 108215 government = feudal_government }
 	1066.1.1 = { succession_laws = { feudal_elective_succession_law } }   # India
 	1066.9.15 = { holder = 107735 liege = 0 succession_laws = { feudal_elective_succession_law } }
+	1066.9.15 = { holder = 0 }   # e59
 }
 c_province0887 = {
 	937.1.1 = { holder = 108870 }
@@ -10653,6 +10685,7 @@ c_province0788 = {
 	1055.1.1 = { holder = 107885 government = tribal_government }
 	1066.1.1 = { liege = d_duchy0800 }
 	1066.9.15 = { liege = k_kingdom0821 }
+	1066.9.15 = { liege = k_ck_pakistan }   # e59 repoint
 }
 c_province0866 = {
 	937.1.1 = { holder = 108660 }
@@ -10680,6 +10713,7 @@ d_duchy0866 = {
 	1061.1.1 = { holder = 108665 government = feudal_government }
 	1066.1.1 = { liege = k_kingdom0821 }
 	1066.9.15 = { holder = 108865 liege = e_empire0897 }
+	1066.9.15 = { succession_laws = { feudal_elective_succession_law } }   # e62 IND
 }
 d_duchy0840 = {
 	939.1.1 = { holder = 108400 }
@@ -10688,6 +10722,7 @@ d_duchy0840 = {
 	1053.1.1 = { holder = 108405 government = feudal_government }
 	1066.1.1 = { liege = k_kingdom0821 }
 	1066.9.15 = { holder = 108345 liege = e_empire0897 }
+	1066.9.15 = { succession_laws = { feudal_elective_succession_law } }   # e62 IND
 }
 c_province0856 = {
 	929.1.1 = { holder = 108560 }
@@ -10742,6 +10777,7 @@ d_sri_lanka = {
 	1064.1.1 = { holder = 109175 government = feudal_government }
 	1066.1.1 = { liege = k_kingdom0821 }
 	1066.9.15 = { liege = 0 }
+	1066.9.15 = { succession_laws = { feudal_elective_succession_law } }   # e62 LKA
 }
 c_province0801 = {
 	959.1.1 = { holder = 108010 }
@@ -10751,6 +10787,7 @@ c_province0801 = {
 	1057.1.1 = { holder = 108015 government = tribal_government }
 	1066.1.1 = { liege = d_duchy0800 }
 	1066.9.15 = { liege = k_kingdom0821 }
+	1066.9.15 = { liege = k_ck_pakistan }   # e59 repoint
 }
 c_province0861 = {
 	951.1.1 = { holder = 108610 }
@@ -10768,6 +10805,7 @@ d_duchy0874 = {
 	1061.1.1 = { holder = 108745 government = feudal_government }
 	1066.1.1 = { liege = k_kingdom0821 }
 	1066.9.15 = { liege = e_empire0897 }
+	1066.9.15 = { succession_laws = { feudal_elective_succession_law } }   # e62 IND
 }
 c_province0824 = {
 	941.1.1 = { holder = 108240 }
@@ -10801,6 +10839,7 @@ d_duchy0800 = {
 	1061.1.1 = { holder = 108005 government = feudal_government }
 	1066.1.1 = { succession_laws = { feudal_elective_succession_law } }   # Pakistan (duchy only)
 	1066.9.15 = { holder = 0 }
+	1066.9.15 = { holder = 8100173 liege = k_ck_pakistan }   # e60 state ruler
 }
 c_sri_lanka = {
 	928.1.1 = { holder = 109170 }
@@ -10896,10 +10935,10 @@ d_duchy0688 = {
 	1066.1.1 = { liege = k_kingdom0797 }
 }
 c_province0717 = {
-	962.1.1 = { holder = 107170 }
+	962.1.1 = { holder = 0 }
 	1000.1.1 = { change_development_level = 13 }
-	1043.1.1 = { holder = 107171 }
-	1045.1.1 = { holder = 107172 }
+	1043.1.1 = { holder = 0 }
+	1045.1.1 = { holder = 0 }
 	1058.1.1 = { holder = 108445 government = tribal_government }
 	1066.1.1 = { liege = d_duchy0717 }
 }
@@ -10935,6 +10974,7 @@ c_province0708 = {
 	1053.1.1 = { holder = 107082 }
 	1060.1.1 = { holder = 107085 government = tribal_government }
 	1066.1.1 = { liege = d_duchy0742 }
+	1066.9.15 = { liege = h_eurasia }   # e59 repoint
 }
 c_province0716 = {
 	934.1.1 = { holder = 107160 }
@@ -10961,6 +11001,7 @@ c_province0742 = {
 	1059.1.1 = { holder = 107425 government = tribal_government }
 	1066.1.1 = { liege = d_duchy0742 }
 	1066.9.15 = { liege = k_kingdom0797 }
+	1066.9.15 = { liege = h_eurasia }   # e59
 }
 c_province0727 = {
 	937.1.1 = { holder = 107270 }
@@ -10969,6 +11010,7 @@ c_province0727 = {
 	1045.1.1 = { holder = 107272 }
 	1054.1.1 = { holder = 107275 government = tribal_government }
 	1066.1.1 = { liege = d_duchy0742 }
+	1066.9.15 = { liege = h_eurasia }   # e59 repoint
 }
 c_province0686 = {
 	930.1.1 = { holder = 106860 }
@@ -10995,9 +11037,9 @@ c_province0684 = {
 	1066.1.1 = { liege = d_duchy0717 }
 }
 d_duchy0717 = {
-	962.1.1 = { holder = 107170 }
-	1043.1.1 = { holder = 107171 }
-	1045.1.1 = { holder = 107172 }
+	962.1.1 = { holder = 0 }
+	1043.1.1 = { holder = 0 }
+	1045.1.1 = { holder = 0 }
 	1058.1.1 = { holder = 107175 government = feudal_government }
 	1066.1.1 = { liege = k_kingdom0797 }
 	1066.9.15 = { liege = 0 }
@@ -11056,6 +11098,7 @@ d_duchy0742 = {
 	1048.1.1 = { holder = 107422 }
 	1059.1.1 = { holder = 107425 government = tribal_government }
 	1066.1.1 = { liege = k_kingdom0797 }
+	1066.9.15 = { holder = 0 }   # e59
 }
 c_province0679 = {
 	953.1.1 = { holder = 106790 }
@@ -11091,6 +11134,7 @@ d_duchy0941 = {
 	1066.1.1 = { liege = k_kingdom0930 }
 	1066.9.15 = { liege = 0 }
 	1066.9.15 = { holder = 109395 liege = 0 }
+	1066.9.15 = { holder = 400089 liege = 0 }   # e59
 }
 d_duchy0908 = {
 	947.1.1 = { holder = 109080 }
@@ -11102,13 +11146,15 @@ d_duchy0908 = {
 	1066.9.15 = { holder = 0 }
 }
 c_province0932 = {
-	942.1.1 = { holder = 109320 }
+	942.1.1 = { holder = 0 }
 	1000.1.1 = { change_development_level = 12 }
-	1007.1.1 = { holder = 109321 }
-	1034.1.1 = { holder = 109322 }
-	1058.1.1 = { holder = 109325 government = feudal_government }
+	1007.1.1 = { holder = 0 }
+	1034.1.1 = { holder = 0 }
+	1058.1.1 = { holder = 0 government = feudal_government }
 	1066.1.1 = { liege = d_duchy0918 }
 	1066.9.15 = { liege = d_duchy0941 }
+	1066.9.15 = { liege = d_ck_cambodia }   # e59 repoint
+	1066.9.15 = { holder = 109395 liege = 0 }   # e68
 }
 c_bangkok = {
 	946.1.1 = { holder = 109390 }
@@ -11146,6 +11192,7 @@ c_province0905 = {
 	1063.1.1 = { holder = 109055 government = feudal_government }
 	1066.1.1 = { liege = d_duchy0930 }
 	1066.9.15 = { liege = k_kingdom0880 }
+	1066.9.15 = { liege = k_ck_myanmar }   # e59 repoint
 }
 k_kingdom0930 = {
 	798.1.1 = { holder = 400080 }
@@ -11209,6 +11256,7 @@ d_duchy0918 = {
 	1032.1.1 = { holder = 400089 government = feudal_government }
 	1066.9.15 = { holder = 0 }
 	1066.9.15 = { holder = 400089 liege = 0 }	# e37 custom character
+	1066.9.15 = { liege = 0 }   # e59
 }
 c_province0936 = {
 	933.1.1 = { holder = 109360 }
@@ -11226,6 +11274,7 @@ c_province0927 = {
 	1041.1.1 = { holder = 109182 }
 	1055.1.1 = { holder = 109185 government = feudal_government }
 	1066.9.15 = { liege = 0 }
+	1066.9.15 = { holder = 8100255 liege = k_ck_myanmar }   # e68
 }
 c_province0907 = {
 	928.1.1 = { holder = 109070 }
@@ -11261,13 +11310,15 @@ c_province0930 = {
 	1066.9.15 = { liege = d_northeastern }
 }
 c_province0909 = {
-	930.1.1 = { holder = 109090 }
+	930.1.1 = { holder = 0 }
 	1000.1.1 = { change_development_level = 14 }
-	1015.1.1 = { holder = 109091 }
-	1041.1.1 = { holder = 109092 }
-	1060.1.1 = { holder = 109095 government = feudal_government }
+	1015.1.1 = { holder = 0 }
+	1041.1.1 = { holder = 0 }
+	1060.1.1 = { holder = 0 government = feudal_government }
 	1066.1.1 = { liege = d_duchy0927 }
 	1066.9.15 = { liege = k_kingdom0880 }
+	1066.9.15 = { liege = k_ck_myanmar }   # e59 repoint
+	1066.9.15 = { holder = 109185 liege = 0 }   # e68
 }
 c_province0894 = {
 	941.1.1 = { holder = 108940 }
@@ -11661,20 +11712,15 @@ c_province1118 = {
 	1064.1.1 = { holder = 111185 government = tribal_government }
 	1066.1.1 = { liege = d_duchy1108 }
 }
-d_duchy1153 = {
-	916.1.1 = { holder = 111530 }
-	1009.1.1 = { holder = 111531 }
-	1033.1.1 = { holder = 111532 }
-	1059.1.1 = { holder = 111535 government = tribal_government }
-}
 c_province1153 = {
 	916.1.1 = { holder = 111530 }
 	1000.1.1 = { change_development_level = 8 }
 	1009.1.1 = { holder = 111531 }
 	1033.1.1 = { holder = 111532 }
 	1059.1.1 = { holder = 111535 government = tribal_government }
-	1066.1.1 = { liege = d_duchy1153 }
+	1066.1.1 = { liege = d_duchy1124 }
 	1066.9.15 = { liege = 0 }
+	1066.9.15 = { liege = 0 }   # e66 primary after d_duchy1153 was removed
 }
 c_province1124 = {
 	928.1.1 = { holder = 111240 }
@@ -11851,7 +11897,7 @@ c_province1858 = {
 	1022.1.1 = { holder = 118581 }
 	1057.1.1 = { holder = 118582 }
 	1058.1.1 = { holder = 118585 government = tribal_government }
-	1066.1.1 = { liege = d_duchy1858 }
+	1066.1.1 = { liege = 0 }
 	1066.9.15 = { liege = 0 }
 }
 c_province1791 = {
@@ -12160,9 +12206,9 @@ k_kingdom0454 = {
 	943.1.1 = { holder = 400132 }
 	977.1.1 = { holder = 400134 }
 	1015.1.1 = { holder = 400138 government = feudal_government }
-	1066.1.1 = { liege = e_empire0836 }
-	1066.9.15 = { holder = 8100293 liege = e_empire0836 }
-	1066.9.15 = { holder = 400138 liege = e_empire0836 }	# e37 custom character
+	1066.1.1 = { liege = 0 }
+	1066.9.15 = { holder = 8100293 liege = 0 }
+	1066.9.15 = { holder = 400138 liege = 0 }	# e37 custom character
 }
 c_province0454 = {
 	652.1.1 = { holder = 400143 }
@@ -12180,7 +12226,7 @@ c_province0454 = {
 	1000.1.1 = { change_development_level = 24 }
 	1015.1.1 = { holder = 400138 government = feudal_government }
 	1066.1.1 = { liege = d_duchy0454 }
-	1066.9.15 = { liege = e_empire0836 }
+	1066.9.15 = { liege = 0 }
 	1066.9.15 = { liege = k_kingdom0454 }
 	1066.9.15 = { holder = 8100293 liege = k_kingdom0454 }	# e37 custom character
 }
@@ -12199,9 +12245,9 @@ d_duchy0454 = {
 	977.1.1 = { holder = 400134 }
 	1015.1.1 = { holder = 400138 government = feudal_government }
 	1066.1.1 = { liege = k_kingdom0454 }
-	1066.9.15 = { liege = e_empire0836 }
+	1066.9.15 = { liege = 0 }
 	1066.9.15 = { holder = 0 }
-	1066.9.15 = { holder = 400138 liege = e_empire0836 }	# e37 custom character
+	1066.9.15 = { holder = 400138 liege = 0 }	# e37 custom character
 }
 c_province0424 = {
 	925.1.1 = { holder = 104240 }
@@ -12223,22 +12269,24 @@ c_province0498 = {
 	1066.9.15 = { liege = k_kingdom0580 }
 }
 c_province0409 = {
-	952.1.1 = { holder = 104090 }
+	952.1.1 = { holder = 0 }
 	1000.1.1 = { change_development_level = 17 }
-	1018.1.1 = { holder = 104091 }
-	1031.1.1 = { holder = 104092 }
-	1060.1.1 = { holder = 104095 government = feudal_government }
+	1018.1.1 = { holder = 0 }
+	1031.1.1 = { holder = 0 }
+	1060.1.1 = { holder = 0 government = feudal_government }
 	1066.1.1 = { liege = d_duchy0424 }
 	1066.9.15 = { liege = d_hodh_ech_chargui }
+	1066.9.15 = { holder = 104235 liege = 0 }   # e68
 }
 c_province0482 = {
-	930.1.1 = { holder = 104820 }
+	930.1.1 = { holder = 0 }
 	1000.1.1 = { change_development_level = 12 }
-	1012.1.1 = { holder = 104821 }
-	1050.1.1 = { holder = 104822 }
-	1054.1.1 = { holder = 104825 government = feudal_government }
+	1012.1.1 = { holder = 0 }
+	1050.1.1 = { holder = 0 }
+	1054.1.1 = { holder = 0 government = feudal_government }
 	1066.1.1 = { liege = d_duchy0454 }
 	1066.9.15 = { liege = k_kingdom0454 }
+	1066.9.15 = { holder = 400138 liege = 0 }   # e68
 }
 d_duchy0424 = {
 	925.1.1 = { holder = 104240 }
@@ -12270,8 +12318,9 @@ c_province0333 = {
 	1000.1.1 = { change_development_level = 14 }
 	1051.1.1 = { holder = 103332 }
 	1057.1.1 = { holder = 103335 government = tribal_government }
-	1066.1.1 = { liege = d_duchy0333 }
+	1066.1.1 = { liege = d_duchy0309 }
 	1066.9.15 = { liege = 0 }
+	1066.9.15 = { liege = 0 }   # e66 primary after d_duchy0333 was removed
 }
 c_province0280 = {
 	968.1.1 = { holder = 102800 }
@@ -12365,12 +12414,6 @@ d_duchy0305 = {
 	1031.1.1 = { holder = 103051 }
 	1051.1.1 = { holder = 103052 }
 	1065.1.1 = { holder = 103055 government = tribal_government }
-}
-d_duchy0333 = {
-	932.1.1 = { holder = 103330 }
-	997.1.1 = { holder = 103331 }
-	1051.1.1 = { holder = 103332 }
-	1057.1.1 = { holder = 103335 government = tribal_government }
 }
 c_province0303 = {
 	934.1.1 = { holder = 103030 }
@@ -12674,7 +12717,7 @@ c_province0247 = {
 	1019.1.1 = { holder = 102472 }
 	1053.1.1 = { holder = 102475 government = feudal_government }
 	1066.1.1 = { liege = d_duchy0247 }
-	1066.9.15 = { liege = e_empire0223 }
+	1066.9.15 = { liege = 0 }
 	1066.9.15 = { liege = e_latin_america }
 }
 c_province0276 = {
@@ -12684,7 +12727,7 @@ c_province0276 = {
 	1023.1.1 = { holder = 102762 }
 	1053.1.1 = { holder = 102765 government = feudal_government }
 	1066.1.1 = { liege = d_duchy0276 }
-	1066.9.15 = { liege = e_empire0223 }
+	1066.9.15 = { liege = 0 }
 	1066.9.15 = { liege = e_latin_america }
 }
 d_duchy0247 = {
@@ -12692,8 +12735,8 @@ d_duchy0247 = {
 	1008.1.1 = { holder = 102471 }
 	1019.1.1 = { holder = 102472 }
 	1053.1.1 = { holder = 102475 government = feudal_government }
-	1066.1.1 = { liege = k_kingdom0247 }
-	1066.9.15 = { liege = e_empire0223 }
+	1066.1.1 = { liege = 0 }
+	1066.9.15 = { liege = 0 }
 	1066.9.15 = { holder = 0 }
 }
 c_province0234 = {
@@ -12703,7 +12746,7 @@ c_province0234 = {
 	1050.1.1 = { holder = 102342 }
 	1062.1.1 = { holder = 102345 government = feudal_government }
 	1066.1.1 = { liege = d_duchy0234 }
-	1066.9.15 = { liege = e_empire0223 }
+	1066.9.15 = { liege = 0 }
 	1066.9.15 = { liege = e_latin_america }
 }
 c_province0273 = {
@@ -12721,8 +12764,9 @@ d_duchy0234 = {
 	1050.1.1 = { holder = 102342 }
 	1062.1.1 = { holder = 102345 government = feudal_government }
 	1066.1.1 = { liege = k_kingdom0234 }
-	1066.9.15 = { liege = e_empire0223 }
+	1066.9.15 = { liege = 0 }
 	1066.9.15 = { holder = 8100042 liege = e_latin_america }
+	1066.9.15 = { succession_laws = { feudal_elective_succession_law } }   # e62 BRA
 }
 c_province0194 = {
 	936.1.1 = { holder = 101940 }
@@ -12732,13 +12776,14 @@ c_province0194 = {
 	1057.1.1 = { holder = 101945 government = feudal_government }
 	1066.1.1 = { liege = d_duchy0247 }
 	1066.9.15 = { liege = e_latin_america }
+	1066.9.15 = { liege = d_duchy0162 }   # e60 state vassal
 }
 d_duchy0243 = {
 	941.1.1 = { holder = 102430 }
 	1014.1.1 = { holder = 102431 }
 	1027.1.1 = { holder = 102432 }
 	1060.1.1 = { holder = 102435 government = feudal_government }
-	1066.1.1 = { liege = k_kingdom0247 }
+	1066.1.1 = { liege = 0 }
 	1066.9.15 = { holder = 0 }
 }
 d_duchy0276 = {
@@ -12746,9 +12791,11 @@ d_duchy0276 = {
 	993.1.1 = { holder = 102761 }
 	1023.1.1 = { holder = 102762 }
 	1053.1.1 = { holder = 102765 government = feudal_government }
-	1066.1.1 = { liege = k_kingdom0276 }
-	1066.9.15 = { liege = e_empire0223 }
+	1066.1.1 = { liege = 0 }
+	1066.9.15 = { liege = 0 }
 	1066.9.15 = { holder = 0 }
+	1066.9.15 = { holder = 8100300 liege = e_latin_america }   # e60 state ruler
+	1066.9.15 = { succession_laws = { feudal_elective_succession_law } }   # e62 BRA
 }
 c_province0243 = {
 	941.1.1 = { holder = 102430 }
@@ -12757,7 +12804,7 @@ c_province0243 = {
 	1027.1.1 = { holder = 102432 }
 	1060.1.1 = { holder = 102435 government = feudal_government }
 	1066.1.1 = { liege = d_duchy0243 }
-	1066.9.15 = { liege = k_kingdom0247 }
+	1066.9.15 = { liege = 0 }
 	1066.9.15 = { liege = d_irece }
 }
 c_province0206 = {
@@ -12768,14 +12815,15 @@ c_province0206 = {
 	1053.1.1 = { holder = 102065 government = feudal_government }
 	1066.1.1 = { liege = d_duchy0243 }
 	1066.9.15 = { liege = e_latin_america }
+	1066.9.15 = { liege = d_irece }   # e60 state vassal
 }
 k_kingdom0234 = {
 	933.1.1 = { holder = 102340 }
 	1003.1.1 = { holder = 102341 }
 	1050.1.1 = { holder = 102342 }
 	1062.1.1 = { holder = 102345 government = feudal_government }
-	1066.1.1 = { liege = e_empire0223 }
-	1066.1.1 = { liege = e_empire0223 }
+	1066.1.1 = { liege = 0 }
+	1066.1.1 = { liege = 0 }
 	1066.9.15 = { holder = 0 }
 }
 c_province0202 = {
@@ -13257,8 +13305,9 @@ c_province0132 = {
 	1035.1.1 = { holder = 101321 }
 	1040.1.1 = { holder = 101322 }
 	1059.1.1 = { holder = 101325 government = tribal_government }
-	1066.1.1 = { liege = d_duchy0132 }
+	1066.1.1 = { liege = k_kingdom0132 }
 	1066.9.15 = { liege = 0 }
+	1066.9.15 = { liege = 0 }   # e67 primary after d_duchy0132 was removed
 }
 c_province0222 = {
 	946.1.1 = { holder = 102220 }
@@ -13275,12 +13324,6 @@ c_province0168 = {
 	1021.1.1 = { holder = 101682 }
 	1052.1.1 = { holder = 101685 government = tribal_government }
 	1066.1.1 = { liege = d_duchy0203 }
-}
-d_duchy0132 = {
-	956.1.1 = { holder = 101320 }
-	1035.1.1 = { holder = 101321 }
-	1040.1.1 = { holder = 101322 }
-	1059.1.1 = { holder = 101325 government = tribal_government }
 }
 d_duchy0151 = {
 	935.1.1 = { holder = 101510 }
@@ -13326,10 +13369,10 @@ c_province0111 = {
 	1066.1.1 = { liege = d_duchy0139 }
 }
 c_province0139 = {
-	944.1.1 = { holder = 101390 }
+	944.1.1 = { holder = 0 }
 	1000.1.1 = { change_development_level = 12 }
-	1035.1.1 = { holder = 101391 }
-	1036.1.1 = { holder = 101392 }
+	1035.1.1 = { holder = 0 }
+	1036.1.1 = { holder = 0 }
 	1064.1.1 = { holder = 777125 government = tribal_government }
 	1066.1.1 = { liege = d_duchy0139 }
 	1066.9.15 = { liege = 0 }
@@ -13358,10 +13401,10 @@ c_province0169 = {
 	1066.1.1 = { liege = d_duchy0139 }
 }
 d_duchy0139 = {
-	944.1.1 = { holder = 101390 }
-	1035.1.1 = { holder = 101391 }
-	1036.1.1 = { holder = 101392 }
-	1064.1.1 = { holder = 101395 }
+	944.1.1 = { holder = 0 }
+	1035.1.1 = { holder = 0 }
+	1036.1.1 = { holder = 0 }
+	1064.1.1 = { holder = 0 }
 	1066.1.1 = { holder = 777125 government = tribal_government }
 }
 
@@ -13558,11 +13601,11 @@ c_province1061 = {
 	1066.1.1 = { liege = d_duchy1068 }
 }
 c_province1135 = {
-	943.1.1 = { holder = 111350 }
+	943.1.1 = { holder = 0 }
 	1000.1.1 = { change_development_level = 17 }
-	1003.1.1 = { holder = 111351 }
-	1037.1.1 = { holder = 111352 }
-	1055.1.1 = { holder = 111355 government = feudal_government }
+	1003.1.1 = { holder = 0 }
+	1037.1.1 = { holder = 0 }
+	1055.1.1 = { holder = 0 government = feudal_government }
 	1066.1.1 = { liege = d_duchy1135 }
 	1066.9.15 = { liege = 0 holder = 110745 }
 }
@@ -13726,10 +13769,10 @@ c_province1042 = {
 	1066.1.1 = { liege = d_duchy1053 }
 }
 d_duchy1135 = {
-	943.1.1 = { holder = 111350 }
-	1003.1.1 = { holder = 111351 }
-	1037.1.1 = { holder = 111352 }
-	1055.1.1 = { holder = 111355 government = feudal_government }
+	943.1.1 = { holder = 0 }
+	1003.1.1 = { holder = 0 }
+	1037.1.1 = { holder = 0 }
+	1055.1.1 = { holder = 0 government = feudal_government }
 	1066.9.15 = { liege = 0 holder = 110745 }
 }
 c_province1051 = {
@@ -14236,11 +14279,11 @@ c_province0161 = {
 	1066.1.1 = { liege = d_duchy0161 }
 	1066.9.15 = { liege = e_united_states }
 	1066.9.15 = { liege = e_united_states }
-	1066.9.15 = { liege = k_texas }	# e37 custom character
+	1066.9.15 = { liege = d_duchy0126 }	# e37 custom character
 }
 c_austin = {
 	1000.1.1 = { change_development_level = 28 }
-	1065.1.1 = { liege = k_texas }
+	1065.1.1 = { liege = d_duchy0126 }
 	1066.1.1 = { holder = 101505 government = feudal_government }
 	1066.9.15 = { liege = e_united_states }
 	1066.9.15 = { liege = d_duchy0126 }
@@ -14251,14 +14294,17 @@ d_duchy0126 = {
 	1066.1.1 = { liege = e_united_states }
 	1066.9.15 = { holder = 101615 liege = e_united_states }
 	1066.9.15 = { holder = 101505 liege = e_united_states }	# e37 custom character
+	1066.9.15 = { succession_laws = { feudal_elective_succession_law } }   # e62 USA
+	1066.9.15 = { liege = e_united_states }   # e66 k_texas removed
 }
 d_florida = {
 	930.1.1 = { holder = 101770 }
 	1013.1.1 = { holder = 101771 }
 	1056.1.1 = { holder = 101772 }
 	1063.1.1 = { holder = 101775 government = feudal_government }
-	1066.1.1 = { liege = k_kingdom0198 }
+	1066.1.1 = { liege = k_deep_south }
 	1066.9.15 = { holder = 101985 liege = e_united_states }
+	1066.9.15 = { succession_laws = { feudal_elective_succession_law } }   # e62 USA
 }
 c_province0126 = {
 	952.1.1 = { holder = 101260 }
@@ -14269,7 +14315,7 @@ c_province0126 = {
 	1066.1.1 = { liege = d_duchy0126 }
 	1066.9.15 = { liege = e_united_states }
 	1066.9.15 = { liege = d_duchy0126 }
-	1066.9.15 = { liege = k_texas }	# e37 custom character
+	1066.9.15 = { liege = d_duchy0126 }	# e37 custom character
 }
 c_province0182 = {
 	943.1.1 = { holder = 101820 }
@@ -14285,7 +14331,7 @@ d_duchy0198 = {
 	1031.1.1 = { holder = 101981 }
 	1032.1.1 = { holder = 101982 }
 	1064.1.1 = { holder = 101985 government = feudal_government }
-	1066.1.1 = { liege = k_kingdom0198 }
+	1066.1.1 = { liege = k_deep_south }
 	1066.9.15 = { liege = e_united_states }
 	1066.9.15 = { holder = 0 }
 }
@@ -14303,7 +14349,7 @@ c_miami = {
 	1056.1.1 = { holder = 101772 }
 	1063.1.1 = { holder = 101775 government = feudal_government }
 	1066.1.1 = { liege = d_florida }
-	1066.9.15 = { liege = k_kingdom0198 }
+	1066.9.15 = { liege = k_deep_south }
 	1066.9.15 = { liege = d_florida }
 }
 c_province0184 = {
@@ -14705,20 +14751,15 @@ c_province1855 = {
 }
 
 ########## k_kingdom0963
-d_duchy0963 = {
-	946.1.1 = { holder = 109630 }
-	997.1.1 = { holder = 109631 }
-	1035.1.1 = { holder = 109632 }
-	1053.1.1 = { holder = 109635 government = tribal_government }
-}
 c_province0963 = {
 	946.1.1 = { holder = 109630 }
 	997.1.1 = { holder = 109631 }
 	1000.1.1 = { change_development_level = 12 }
 	1035.1.1 = { holder = 109632 }
 	1053.1.1 = { holder = 109635 government = tribal_government }
-	1066.1.1 = { liege = d_duchy0963 }
+	1066.1.1 = { liege = d_duchy0981 }
 	1066.9.15 = { liege = 0 }
+	1066.9.15 = { liege = 0 }   # e66 primary after d_duchy0963 was removed
 }
 
 ########## k_kingdom0244
@@ -14740,6 +14781,7 @@ c_province0283 = {
 	1057.1.1 = { holder = 102835 government = feudal_government }
 	1066.1.1 = { liege = d_duchy0244 }
 	1066.9.15 = { liege = e_empire0350 }
+	1066.9.15 = { liege = d_toronto }   # e60 state vassal
 }
 c_province0244 = {
 	939.1.1 = { holder = 102440 }
@@ -14766,7 +14808,7 @@ c_province0239 = {
 	1022.1.1 = { holder = 102391 }
 	1056.1.1 = { holder = 102392 }
 	1057.1.1 = { holder = 102395 government = feudal_government }
-	1066.1.1 = { liege = d_duchy0239 }
+	1066.1.1 = { liege = d_nashville }
 	1066.9.15 = { liege = e_united_states }
 	1066.9.15 = { liege = e_united_states }
 }
@@ -14794,16 +14836,9 @@ c_atlanta = {
 	1011.1.1 = { holder = 102201 }
 	1053.1.1 = { holder = 102202 }
 	1059.1.1 = { holder = 102205 government = feudal_government }
-	1066.1.1 = { liege = d_duchy0239 }
+	1066.1.1 = { liege = d_nashville }
 	1066.9.15 = { liege = e_united_states }
-}
-k_kingdom0244 = {
-	939.1.1 = { holder = 102440 }
-	1029.1.1 = { holder = 102441 }
-	1055.1.1 = { holder = 102442 }
-	1057.1.1 = { holder = 102445 government = feudal_government }
-	1066.1.1 = { holder = 0 }
-	1066.1.1 = { liege = e_united_states }
+	1066.9.15 = { liege = e_united_states }   # e66 primary after d_duchy0239 was removed
 }
 c_nashville = {
 	946.1.1 = { holder = 102280 }
@@ -14832,6 +14867,7 @@ d_duchy0244 = {
 	1066.1.1 = { liege = e_united_states }
 	1066.9.15 = { holder = 102295 liege = e_united_states }
 	1066.9.15 = { liege = e_united_states }
+	1066.9.15 = { succession_laws = { feudal_elective_succession_law } }   # e62 USA
 }
 d_duchy0291 = {
 	957.1.1 = { holder = 102910 }
@@ -14840,14 +14876,6 @@ d_duchy0291 = {
 	1064.1.1 = { holder = 102915 government = feudal_government }
 	1066.1.1 = { liege = k_kingdom0359 }
 	1066.9.15 = { holder = 0 }
-}
-d_duchy0239 = {
-	933.1.1 = { holder = 102390 }
-	1022.1.1 = { holder = 102391 }
-	1056.1.1 = { holder = 102392 }
-	1057.1.1 = { holder = 102395 government = feudal_government }
-	1066.1.1 = { liege = e_united_states }
-	1066.9.15 = { holder = 102205 liege = e_united_states }
 }
 c_province0291 = {
 	957.1.1 = { holder = 102910 }
@@ -14989,6 +15017,7 @@ d_chesapeake_bay = {
 	1066.9.15 = { liege = e_united_states }
 	1066.9.15 = { holder = 0 }
 	1066.9.15 = { holder = 8100900 liege = 0 }
+	1066.9.15 = { succession_laws = { feudal_elective_succession_law } }   # e62 USA
 }
 c_province0271 = {
 	1000.1.1 = { change_development_level = 24 }
@@ -15157,11 +15186,11 @@ c_province1181 = {
 	1066.1.1 = { liege = d_duchy1184 }
 }
 c_province1183 = {
-	948.1.1 = { holder = 111830 }
+	948.1.1 = { holder = 0 }
 	1000.1.1 = { change_development_level = 12 }
-	1012.1.1 = { holder = 111831 }
-	1031.1.1 = { holder = 111832 }
-	1059.1.1 = { holder = 111835 }
+	1012.1.1 = { holder = 0 }
+	1031.1.1 = { holder = 0 }
+	1059.1.1 = { holder = 0 }
 	1066.1.1 = { holder = 111845 government = feudal_government }
 }
 c_province1228 = {
@@ -15411,20 +15440,15 @@ d_duchy1205 = {
 }
 
 ########## k_kingdom1215
-d_duchy1310 = {
-	931.1.1 = { holder = 113100 }
-	1001.1.1 = { holder = 113101 }
-	1026.1.1 = { holder = 113102 }
-	1053.1.1 = { holder = 113105 government = feudal_government }
-}
 c_province1310 = {
 	931.1.1 = { holder = 113100 }
 	1000.1.1 = { change_development_level = 12 }
 	1001.1.1 = { holder = 113101 }
 	1026.1.1 = { holder = 113102 }
 	1053.1.1 = { holder = 113105 government = feudal_government }
-	1066.1.1 = { liege = d_duchy1310 }
+	1066.1.1 = { liege = d_duchy1284 }
 	1066.9.15 = { liege = 0 }
+	1066.9.15 = { liege = 0 }   # e66 primary after d_duchy1310 was removed
 }
 c_province1301 = {
 	948.1.1 = { holder = 113010 }
@@ -15432,8 +15456,9 @@ c_province1301 = {
 	1023.1.1 = { holder = 113011 }
 	1052.1.1 = { holder = 113012 }
 	1062.1.1 = { holder = 113015 government = feudal_government }
-	1066.1.1 = { liege = d_duchy1301 }
+	1066.1.1 = { liege = 0 }
 	1066.9.15 = { liege = 0 }
+	1066.9.15 = { liege = 0 }   # e67 primary after d_duchy1301 was removed
 }
 c_province1271 = {
 	942.1.1 = { holder = 112710 }
@@ -15458,7 +15483,7 @@ c_province1199 = {
 	1033.1.1 = { holder = 111991 }
 	1050.1.1 = { holder = 111992 }
 	1060.1.1 = { holder = 111995 government = feudal_government }
-	1066.1.1 = { liege = d_duchy1199 }
+	1066.1.1 = { liege = k_kingdom0480 }
 	1066.9.15 = { liege = 0 }
 }
 d_duchy1284 = {
@@ -15511,13 +15536,14 @@ d_duchy0669 = {
 	1066.9.15 = { holder = 0 }
 }
 c_province0838 = {
-	945.1.1 = { holder = 108380 }
+	945.1.1 = { holder = 0 }
 	1000.1.1 = { change_development_level = 4 }
-	1012.1.1 = { holder = 108381 }
-	1048.1.1 = { holder = 108382 }
-	1058.1.1 = { holder = 108385 government = tribal_government }
+	1012.1.1 = { holder = 0 }
+	1048.1.1 = { holder = 0 }
+	1058.1.1 = { holder = 0 government = tribal_government }
 	1066.1.1 = { liege = d_duchy0849 }
 	1066.9.15 = { liege = d_duchy0849 }
+	1066.9.15 = { holder = 108495 liege = 0 }   # e68
 }
 c_province0669 = {
 	929.1.1 = { holder = 106690 }
@@ -15528,13 +15554,6 @@ c_province0669 = {
 	1066.1.1 = { liege = d_duchy0669 }
 	1066.9.15 = { liege = 0 }
 	1066.9.15 = { liege = k_kingdom0669 }
-}
-d_duchy0648 = {
-	939.1.1 = { holder = 106480 }
-	1018.1.1 = { holder = 106481 }
-	1030.1.1 = { holder = 106482 }
-	1052.1.1 = { holder = 106485 government = tribal_government }
-	1066.9.15 = { holder = 0 }
 }
 c_province0651 = {
 	937.1.1 = { holder = 106510 }
@@ -15551,7 +15570,7 @@ c_province0643 = {
 	1017.1.1 = { holder = 106431 }
 	1047.1.1 = { holder = 106432 }
 	1057.1.1 = { holder = 106435 government = tribal_government }
-	1066.1.1 = { liege = d_duchy0648 }
+	1066.1.1 = { liege = d_duchy0620 }
 	1066.9.15 = { liege = d_huila }
 }
 d_duchy0759 = {
@@ -15560,6 +15579,7 @@ d_duchy0759 = {
 	1036.1.1 = { holder = 107592 }
 	1065.1.1 = { holder = 107595 government = feudal_government }
 	1066.9.15 = { liege = 0 }
+	1066.9.15 = { succession_laws = { feudal_elective_succession_law } }   # e62 ZMB
 }
 c_province0692 = {
 	934.1.1 = { holder = 106920 }
@@ -15612,22 +15632,24 @@ d_duchy0849 = {
 	1066.9.15 = { liege = 0 }
 }
 c_province0629 = {
-	935.1.1 = { holder = 106290 }
-	999.1.1 = { holder = 106291 }
+	935.1.1 = { holder = 0 }
+	999.1.1 = { holder = 0 }
 	1000.1.1 = { change_development_level = 4 }
-	1040.1.1 = { holder = 106292 }
-	1052.1.1 = { holder = 106295 government = tribal_government }
-	1066.1.1 = { liege = d_duchy0648 }
+	1040.1.1 = { holder = 0 }
+	1052.1.1 = { holder = 0 government = tribal_government }
+	1066.1.1 = { liege = d_duchy0620 }
 	1066.9.15 = { liege = d_huila }
+	1066.9.15 = { holder = 106485 liege = 0 }   # e68
 }
 c_province0802 = {
-	946.1.1 = { holder = 108020 }
+	946.1.1 = { holder = 0 }
 	1000.1.1 = { change_development_level = 19 }
-	1011.1.1 = { holder = 108021 }
-	1048.1.1 = { holder = 108022 }
-	1060.1.1 = { holder = 108025 government = feudal_government }
+	1011.1.1 = { holder = 0 }
+	1048.1.1 = { holder = 0 }
+	1060.1.1 = { holder = 0 government = feudal_government }
 	1066.1.1 = { liege = d_duchy0803 }
 	1066.9.15 = { liege = d_duchy0803 }
+	1066.9.15 = { holder = 108035 liege = 0 }   # e68
 }
 c_province0796 = {
 	916.1.1 = { holder = 107960 }
@@ -15658,22 +15680,24 @@ c_province0719 = {
 	1066.9.15 = { liege = k_kingdom0669 }
 }
 c_province0723 = {
-	929.1.1 = { holder = 107230 }
+	929.1.1 = { holder = 0 }
 	1000.1.1 = { change_development_level = 14 }
-	1022.1.1 = { holder = 107231 }
-	1041.1.1 = { holder = 107232 }
-	1062.1.1 = { holder = 107235 government = feudal_government }
+	1022.1.1 = { holder = 0 }
+	1041.1.1 = { holder = 0 }
+	1062.1.1 = { holder = 0 government = feudal_government }
 	1066.1.1 = { liege = d_duchy0759 }
 	1066.9.15 = { liege = d_duchy0759 }
+	1066.9.15 = { holder = 107595 liege = 0 }   # e68
 }
 c_province0761 = {
-	935.1.1 = { holder = 107610 }
+	935.1.1 = { holder = 0 }
 	1000.1.1 = { change_development_level = 12 }
-	1010.1.1 = { holder = 107611 }
-	1030.1.1 = { holder = 107612 }
-	1053.1.1 = { holder = 107615 government = feudal_government }
+	1010.1.1 = { holder = 0 }
+	1030.1.1 = { holder = 0 }
+	1053.1.1 = { holder = 0 government = feudal_government }
 	1066.1.1 = { liege = d_duchy0734 }
 	1066.9.15 = { liege = k_kingdom1083 }
+	1066.9.15 = { holder = 107345 liege = 0 }   # e68
 }
 c_province0850 = {
 	946.1.1 = { holder = 2108500 }
@@ -15683,6 +15707,7 @@ c_province0850 = {
 	1054.1.1 = { holder = 108505 government = tribal_government }
 	1066.1.1 = { liege = d_duchy0849 }
 	1066.9.15 = { liege = d_duchy0849 }
+	1066.9.15 = { holder = 108495 liege = 0 }   # e68
 }
 c_province0656 = {
 	950.1.1 = { holder = 106560 }
@@ -15690,7 +15715,7 @@ c_province0656 = {
 	1007.1.1 = { holder = 106561 }
 	1044.1.1 = { holder = 106562 }
 	1065.1.1 = { holder = 106565 government = tribal_government }
-	1066.1.1 = { liege = d_duchy0648 }
+	1066.1.1 = { liege = d_duchy0620 }
 	1066.9.15 = { liege = d_huila }
 }
 c_province0780 = {
@@ -15708,9 +15733,10 @@ c_province0648 = {
 	1018.1.1 = { holder = 106481 }
 	1030.1.1 = { holder = 106482 }
 	1052.1.1 = { holder = 106485 government = tribal_government }
-	1066.1.1 = { liege = d_duchy0648 }
+	1066.1.1 = { liege = d_duchy0620 }
 	1066.9.15 = { liege = 0 }
 	1066.9.15 = { liege = 0 }
+	1066.9.15 = { holder = 8100210 liege = d_huila }   # e68
 }
 c_province0668 = {
 	934.1.1 = { holder = 106680 }
@@ -15727,7 +15753,7 @@ c_province0677 = {
 	1013.1.1 = { holder = 106771 }
 	1034.1.1 = { holder = 106772 }
 	1059.1.1 = { holder = 106775 government = feudal_government }
-	1066.1.1 = { liege = d_duchy0648 }
+	1066.1.1 = { liege = d_duchy0620 }
 	1066.9.15 = { liege = d_huila }
 }
 c_province0803 = {
@@ -15836,21 +15862,15 @@ c_province1120 = {
 }
 
 ########## k_kingdom1544
-d_duchy1544 = {
-	960.1.1 = { holder = 115440 }
-	1041.1.1 = { holder = 115441 }
-	1060.1.1 = { holder = 115442 }
-	1061.1.1 = { holder = 115445 government = feudal_government }
-	1066.1.1 = { liege = k_kingdom1460 }
-}
 c_province1544 = {
 	960.1.1 = { holder = 115440 }
 	1000.1.1 = { change_development_level = 14 }
 	1041.1.1 = { holder = 115441 }
 	1060.1.1 = { holder = 115442 }
 	1061.1.1 = { holder = 115445 government = feudal_government }
-	1066.1.1 = { liege = d_duchy1544 }
+	1066.1.1 = { liege = d_duchy1527 }
 	1066.9.15 = { liege = k_kingdom1460 }
+	1066.9.15 = { liege = k_kingdom1460 }   # e66 primary after d_duchy1544 was removed
 }
 
 ########## k_kingdom0645
@@ -15899,6 +15919,7 @@ c_province0771 = {
 	1061.1.1 = { holder = 107715 government = feudal_government }
 	1066.1.1 = { liege = d_duchy0777 }
 	1066.9.15 = { liege = d_duchy0777 }
+	1066.9.15 = { holder = 107775 liege = 0 }   # e68
 }
 c_province0666 = {
 	941.1.1 = { holder = 106660 }
@@ -15907,7 +15928,7 @@ c_province0666 = {
 	1054.1.1 = { holder = 106662 }
 	1063.1.1 = { holder = 106665 government = feudal_government }
 	1066.1.1 = { liege = d_duchy0666 }
-	1066.9.15 = { liege = e_empire0836 }
+	1066.9.15 = { liege = 0 }
 	1066.9.15 = { liege = k_ck_sudan }
 }
 c_province0645 = {
@@ -15927,7 +15948,7 @@ c_province0774 = {
 	1055.1.1 = { holder = 107742 }
 	1059.1.1 = { holder = 107745 government = feudal_government }
 	1066.1.1 = { liege = d_duchy0777 }
-	1066.9.15 = { liege = e_empire0836 }
+	1066.9.15 = { liege = 0 }
 }
 c_province0617 = {
 	930.1.1 = { holder = 106170 }
@@ -15946,6 +15967,7 @@ d_duchy0736 = {
 	1066.1.1 = { liege = k_kingdom0645 }
 	1066.9.15 = { liege = 0 }
 	1066.9.15 = { liege = 0 }
+	1066.9.15 = { liege = 0 }   # e59
 }
 c_province0608 = {
 	943.1.1 = { holder = 106080 }
@@ -16046,7 +16068,7 @@ c_province0625 = {
 	1033.1.1 = { holder = 106252 }
 	1057.1.1 = { holder = 106255 government = tribal_government }
 	1066.1.1 = { liege = d_duchy0625 }
-	1066.9.15 = { liege = e_empire0836 }
+	1066.9.15 = { liege = 0 }
 	1066.9.15 = { liege = k_ck_sudan }
 }
 c_province0667 = {
@@ -16075,14 +16097,15 @@ c_province0777 = {
 	1052.1.1 = { holder = 107775 government = feudal_government }
 	1066.1.1 = { liege = d_duchy0777 }
 	1066.9.15 = { liege = 0 }
-	1066.9.15 = { liege = e_empire0836 }
+	1066.9.15 = { liege = 0 }
+	1066.9.15 = { holder = 107715 liege = d_duchy0777 }   # e68
 }
 d_duchy0666 = {
 	941.1.1 = { holder = 106660 }
 	1020.1.1 = { holder = 106661 }
 	1054.1.1 = { holder = 106662 }
 	1063.1.1 = { holder = 106665 government = feudal_government }
-	1066.1.1 = { liege = e_empire0836 }
+	1066.1.1 = { liege = 0 }
 	1066.9.15 = { holder = 0 }
 }
 d_duchy0625 = {
@@ -16090,7 +16113,7 @@ d_duchy0625 = {
 	1017.1.1 = { holder = 106251 }
 	1033.1.1 = { holder = 106252 }
 	1057.1.1 = { holder = 106255 government = tribal_government }
-	1066.1.1 = { liege = e_empire0836 }
+	1066.1.1 = { liege = 0 }
 	1066.9.15 = { holder = 106085 liege = 0 }
 }
 d_duchy0777 = {
@@ -16100,7 +16123,7 @@ d_duchy0777 = {
 	1052.1.1 = { holder = 107775 government = feudal_government }
 	1066.1.1 = { liege = k_kingdom0645 }
 	1066.9.15 = { liege = 0 }
-	1066.9.15 = { liege = e_empire0836 }
+	1066.9.15 = { liege = 0 }
 }
 
 ########## k_kingdom1780
@@ -16234,8 +16257,9 @@ c_province2038 = {
 	1008.1.1 = { holder = 120381 }
 	1034.1.1 = { holder = 120382 }
 	1057.1.1 = { holder = 120385 government = feudal_government }
-	1066.1.1 = { liege = d_duchy2038 }
+	1066.1.1 = { liege = 0 }
 	1066.9.15 = { liege = 0 }
+	1066.9.15 = { liege = 0 }   # e67 primary after k_kingdom2038 was removed
 }
 d_duchy1997 = {
 	943.1.1 = { holder = 119970 }
@@ -16283,6 +16307,7 @@ d_rio = {
 	1061.1.1 = { holder = 101375 government = feudal_government }
 	1066.1.1 = { liege = k_brazil }
 	1066.9.15 = { liege = e_latin_america }
+	1066.9.15 = { succession_laws = { feudal_elective_succession_law } }   # e62 BRA
 }
 c_rio = {
 	1000.1.1 = { change_development_level = 15 }
@@ -16298,6 +16323,7 @@ c_province0148 = {
 	1050.1.1 = { holder = 101485 government = tribal_government }
 	1066.1.1 = { liege = d_duchy0167 }
 	1066.9.15 = { liege = e_latin_america }
+	1066.9.15 = { holder = 101675 liege = 0 }   # e68
 }
 c_province0100 = {
 	934.1.1 = { holder = 101000 }
@@ -16320,7 +16346,8 @@ c_province0104 = {
 	1036.1.1 = { holder = 101042 }
 	1065.1.1 = { holder = 101045 government = tribal_government }
 	1066.1.1 = { liege = d_duchy0106 }
-	1066.9.15 = { liege = d_mato_grosso_do_sul }
+	1066.9.15 = { liege = d_campo_grande }
+	1066.9.15 = { liege = d_ck_paraguay }   # e59 repoint
 }
 c_province0167 = {
 	1000.1.1 = { change_development_level = 22 }
@@ -16328,6 +16355,7 @@ c_province0167 = {
 	1066.1.1 = { liege = d_duchy0167 }
 	1066.9.15 = { liege = 0 }
 	1066.9.15 = { liege = 0 }
+	1066.9.15 = { holder = 101065 liege = d_duchy0234 }   # e68
 }
 c_province0075 = {
 	935.1.1 = { holder = 100750 }
@@ -16357,6 +16385,7 @@ c_province0106 = {
 	1066.1.1 = { liege = d_duchy0106 }
 	1066.9.15 = { liege = k_brazil }
 	1066.9.15 = { liege = d_duchy0167 }
+	1066.9.15 = { holder = 101485 liege = 0 }   # e68
 }
 d_duchy0167 = {
 	1066.1.1 = { holder = 101675 government = feudal_government }
@@ -16419,6 +16448,7 @@ d_istanbul = {
 	1066.9.15 = { liege = 0 }
 	1066.9.15 = { holder = 0 }
 	1066.9.15 = { holder = 106045 liege = 0 }	# e37 custom character
+	1066.9.15 = { succession_laws = { feudal_elective_succession_law } }   # e62 TUR
 }
 d_duchy0616 = {
 	935.1.1 = { holder = 106160 }
@@ -16429,13 +16459,14 @@ d_duchy0616 = {
 	1066.9.15 = { holder = 0 }
 }
 c_province0610 = {
-	937.1.1 = { holder = 106100 }
-	995.1.1 = { holder = 106101 }
+	937.1.1 = { holder = 0 }
+	995.1.1 = { holder = 0 }
 	1000.1.1 = { change_development_level = 14 }
-	1037.1.1 = { holder = 106102 }
-	1055.1.1 = { holder = 106105 government = feudal_government }
+	1037.1.1 = { holder = 0 }
+	1055.1.1 = { holder = 0 government = feudal_government }
 	1066.1.1 = { liege = d_duchy0616 }
 	1066.9.15 = { liege = k_istanbul }
+	1066.9.15 = { holder = 106045 liege = 0 }   # e68
 }
 c_province0638 = {
 	931.1.1 = { holder = 106380 }
@@ -16494,9 +16525,9 @@ c_province0550 = {
 	1066.1.1 = { liege = d_duchy0551 }
 }
 d_duchy0428 = {
-	933.1.1 = { holder = 104280 }
-	1025.1.1 = { holder = 104281 }
-	1044.1.1 = { holder = 104282 }
+	933.1.1 = { holder = 0 }
+	1025.1.1 = { holder = 0 }
+	1044.1.1 = { holder = 0 }
 	1055.1.1 = { holder = 776002 government = feudal_government }
 	1066.9.1 = { holder = 8101002 }
 }
@@ -16531,10 +16562,10 @@ c_province0455 = {
 	1066.1.1 = { liege = d_duchy0478 }
 }
 c_province0467 = {
-	948.1.1 = { holder = 104670 }
+	948.1.1 = { holder = 0 }
 	1000.1.1 = { change_development_level = 17 }
-	1028.1.1 = { holder = 104671 }
-	1029.1.1 = { holder = 104672 }
+	1028.1.1 = { holder = 0 }
+	1029.1.1 = { holder = 0 }
 	1057.1.1 = { holder = 776001 government = feudal_government }
 	1066.1.1 = { liege = d_duchy0467 }
 	1066.9.15 = { liege = 0 }
@@ -16579,10 +16610,10 @@ c_province0551 = {
 	1066.9.15 = { liege = 0 }
 }
 c_province0428 = {
-	933.1.1 = { holder = 104280 }
+	933.1.1 = { holder = 0 }
 	1000.1.1 = { change_development_level = 17 }
-	1025.1.1 = { holder = 104281 }
-	1044.1.1 = { holder = 104282 }
+	1025.1.1 = { holder = 0 }
+	1044.1.1 = { holder = 0 }
 	1055.1.1 = { holder = 776002 government = feudal_government }
 	1066.1.1 = { liege = d_duchy0428 }
 	1066.9.15 = { liege = 0 }
@@ -16595,9 +16626,9 @@ d_duchy0478 = {
 	1058.1.1 = { holder = 104785 government = tribal_government }
 }
 d_duchy0467 = {
-	948.1.1 = { holder = 104670 }
-	1028.1.1 = { holder = 104671 }
-	1029.1.1 = { holder = 104672 }
+	948.1.1 = { holder = 0 }
+	1028.1.1 = { holder = 0 }
+	1029.1.1 = { holder = 0 }
 	1057.1.1 = { holder = 776001 government = feudal_government }
 	1066.9.1 = { holder = 8101001 }
 }
@@ -16960,7 +16991,7 @@ c_province0571 = {
 	1034.1.1 = { holder = 105711 }
 	1035.1.1 = { holder = 105712 }
 	1057.1.1 = { holder = 105715 government = feudal_government }
-	1066.1.1 = { liege = e_empire0836 }
+	1066.1.1 = { liege = 0 }
 	1066.9.15 = { liege = 0 }
 }
 c_province0536 = {
@@ -16969,17 +17000,18 @@ c_province0536 = {
 	1018.1.1 = { holder = 105361 }
 	1044.1.1 = { holder = 105362 }
 	1063.1.1 = { holder = 105365 government = tribal_government }
-	1066.1.1 = { liege = e_empire0836 }
+	1066.1.1 = { liege = 0 }
 	1066.9.15 = { liege = k_kingdom0507 }
 }
 c_province0538 = {
-	937.1.1 = { holder = 105380 }
+	937.1.1 = { holder = 0 }
 	1000.1.1 = { change_development_level = 4 }
-	1021.1.1 = { holder = 105381 }
-	1022.1.1 = { holder = 105382 }
-	1061.1.1 = { holder = 105385 government = tribal_government }
-	1066.1.1 = { liege = e_empire0836 }
+	1021.1.1 = { holder = 0 }
+	1022.1.1 = { holder = 0 }
+	1061.1.1 = { holder = 0 government = tribal_government }
+	1066.1.1 = { liege = 0 }
 	1066.9.15 = { liege = d_kayes }
+	1066.9.15 = { holder = 104045 liege = 0 }   # e68
 }
 d_duchy0544 = {
 	925.1.1 = { holder = 105440 }
@@ -16994,8 +17026,8 @@ c_province0560 = {
 	1023.1.1 = { holder = 105601 }
 	1057.1.1 = { holder = 105602 }
 	1058.1.1 = { holder = 105605 government = tribal_government }
-	1066.1.1 = { liege = e_empire0836 }
-	1066.9.15 = { liege = e_empire0836 }
+	1066.1.1 = { liege = 0 }
+	1066.9.15 = { liege = 0 }
 	1066.9.15 = { liege = d_duchy0544 }
 }
 c_province0512 = {
@@ -17149,10 +17181,10 @@ k_california = {
 	1066.9.14 = { holder = 0 }
 }
 c_gold_country = {
-	938.1.1 = { holder = 102120 }
+	938.1.1 = { holder = 0 }
 	1000.1.1 = { change_development_level = 14 }
-	1029.1.1 = { holder = 102121 }
-	1051.1.1 = { holder = 102122 }
+	1029.1.1 = { holder = 0 }
+	1051.1.1 = { holder = 0 }
 	1059.1.1 = { holder = 778006 government = feudal_government }
 	1066.1.1 = { liege = d_norcal }
 	1066.9.15 = { liege = e_united_states }
@@ -17174,6 +17206,7 @@ d_sierras = {
 	1066.1.1 = { liege = k_california }
 	1066.9.15 = { liege = e_united_states }
 	1066.9.15 = { liege = e_united_states }
+	1066.9.15 = { succession_laws = { feudal_elective_succession_law } }   # e62 USA
 }
 d_norcal = {
 	948.1.1 = { holder = 102080 }
@@ -17366,20 +17399,22 @@ c_everest = {
 	1066.1.1 = { liege = d_duchy0816 }
 }
 d_duchy0816 = {
-	953.1.1 = { holder = 108160 }
-	1008.1.1 = { holder = 108161 }
-	1057.1.1 = { holder = 108162 }
-	1058.1.1 = { holder = 108165 government = feudal_government }
+	953.1.1 = { holder = 0 }
+	1008.1.1 = { holder = 0 }
+	1057.1.1 = { holder = 0 }
+	1058.1.1 = { holder = 0 government = feudal_government }
 	1066.1.1 = { liege = k_kingdom0797 }
+	1066.9.15 = { holder = 8100739 government = feudal_government }   # e68 local 2027 ruler (was 108165)
 }
 c_province0816 = {
-	953.1.1 = { holder = 108160 }
+	953.1.1 = { holder = 0 }
 	1000.1.1 = { change_development_level = 13 }
-	1008.1.1 = { holder = 108161 }
-	1057.1.1 = { holder = 108162 }
-	1058.1.1 = { holder = 108165 government = feudal_government }
+	1008.1.1 = { holder = 0 }
+	1057.1.1 = { holder = 0 }
+	1058.1.1 = { holder = 0 government = feudal_government }
 	1066.1.1 = { liege = d_duchy0816 }
 	1066.9.15 = { liege = k_kingdom0797 }
+	1066.9.15 = { holder = 8100739 government = feudal_government }   # e68 local 2027 ruler (was 108165)
 }
 c_province0794 = {
 	942.1.1 = { holder = 107940 }
@@ -17729,14 +17764,9 @@ c_province2048 = {
 	1005.1.1 = { holder = 120481 }
 	1048.1.1 = { holder = 120482 }
 	1060.1.1 = { holder = 120485 government = tribal_government }
-	1066.1.1 = { liege = d_duchy2048 }
+	1066.1.1 = { liege = d_duchy2057 }
 	1066.9.15 = { liege = 0 }
-}
-d_duchy2048 = {
-	924.1.1 = { holder = 120480 }
-	1005.1.1 = { holder = 120481 }
-	1048.1.1 = { holder = 120482 }
-	1060.1.1 = { holder = 120485 government = tribal_government }
+	1066.9.15 = { liege = 0 }   # e66 primary after d_duchy2048 was removed
 }
 
 ########## k_kingdom1378
@@ -17746,44 +17776,31 @@ c_province1378 = {
 	1003.1.1 = { holder = 113781 }
 	1040.1.1 = { holder = 113782 }
 	1064.1.1 = { holder = 113785 government = feudal_government }
-	1066.1.1 = { liege = d_duchy1378 }
+	1066.1.1 = { liege = d_duchy1349 }
 	1066.9.15 = { liege = k_kingdom1412 }
-}
-d_duchy1378 = {
-	927.1.1 = { holder = 113780 }
-	1003.1.1 = { holder = 113781 }
-	1040.1.1 = { holder = 113782 }
-	1064.1.1 = { holder = 113785 government = feudal_government }
-	1066.1.1 = { liege = k_kingdom1412 }
+	1066.9.15 = { liege = k_kingdom1412 }   # e66 primary after d_duchy1378 was removed
 }
 
 ########## k_kingdom0880
 c_province0895 = {
-	941.1.1 = { holder = 108950 }
+	941.1.1 = { holder = 0 }
 	1000.1.1 = { change_development_level = 14 }
-	1005.1.1 = { holder = 108951 }
-	1042.1.1 = { holder = 108952 }
-	1064.1.1 = { holder = 108955 government = feudal_government }
+	1005.1.1 = { holder = 0 }
+	1042.1.1 = { holder = 0 }
+	1064.1.1 = { holder = 0 government = feudal_government }
 	1066.1.1 = { liege = d_duchy0878 }
 	1066.9.15 = { liege = d_chattogram }
+	1066.9.15 = { holder = 108645 liege = 0 }   # e68
 }
 k_kingdom0880 = {
-	947.1.1 = { holder = 108800 }
-	1021.1.1 = { holder = 108801 }
-	1061.1.1 = { holder = 108802 }
-	1062.1.1 = { holder = 108805 }
+	947.1.1 = { holder = 0 }
+	1021.1.1 = { holder = 0 }
+	1061.1.1 = { holder = 0 }
+	1062.1.1 = { holder = 0 }
 	1066.1.1 = { holder = 0 }
 	1066.9.15 = { holder = 109185 liege = 0 }
-}
-d_duchy0880 = {
-	923.1.1 = { holder = 400109 }
-	942.1.1 = { holder = 400110 }
-	968.1.1 = { holder = 400111 }
-	988.1.1 = { holder = 400112 }
-	1022.1.1 = { holder = 400113 government = feudal_government }
-	1066.1.1 = { liege = k_kingdom0880 }
-	1066.9.15 = { liege = 0 }
-	1066.9.15 = { holder = 0 }
+	1066.9.15 = { holder = 108645 }   # e59
+	1066.9.15 = { succession_laws = { feudal_elective_succession_law } }   # e62 BGD
 }
 c_province0868 = {
 	956.1.1 = { holder = 108680 }
@@ -17791,7 +17808,7 @@ c_province0868 = {
 	1028.1.1 = { holder = 108681 }
 	1054.1.1 = { holder = 108682 }
 	1055.1.1 = { holder = 108685 government = feudal_government }
-	1066.1.1 = { liege = d_duchy0880 }
+	1066.1.1 = { liege = d_northeast_india }
 	1066.9.15 = { liege = e_empire0897 }
 }
 c_province0863 = {
@@ -17820,6 +17837,7 @@ d_duchy0878 = {
 	1066.1.1 = { liege = k_kingdom0880 }
 	1066.9.15 = { liege = 0 }
 	1066.9.15 = { holder = 8100275 liege = e_empire0897 }
+	1066.9.15 = { succession_laws = { feudal_elective_succession_law } }   # e62 IND
 }
 c_province0880 = {
 	923.1.1 = { holder = 400109 }
@@ -17828,9 +17846,11 @@ c_province0880 = {
 	988.1.1 = { holder = 400112 }
 	1000.1.1 = { change_development_level = 14 }
 	1022.1.1 = { holder = 400113 government = feudal_government }
-	1066.1.1 = { liege = d_duchy0880 }
+	1066.1.1 = { liege = d_northeast_india }
 	1066.9.15 = { liege = 0 }
 	1066.9.15 = { liege = k_kingdom0880 }
+	1066.9.15 = { liege = k_ck_myanmar }   # e59 repoint
+	1066.9.15 = { holder = 8100050 liege = k_ck_myanmar }   # e77 (Wangchucks moved to c_bhutan)
 }
 c_province0878 = {
 	944.1.1 = { holder = 108780 }
@@ -18553,8 +18573,8 @@ c_province0336 = {
 	1013.1.1 = { holder = 103361 }
 	1054.1.1 = { holder = 103362 }
 	1064.1.1 = { holder = 103365 government = tribal_government }
-	1066.1.1 = { liege = d_duchy0349 }
-	1066.9.15 = { liege = k_kingdom0349 }
+	1066.1.1 = { liege = d_duchy0312 }
+	1066.9.15 = { liege = d_duchy0312 }
 }
 c_province0306 = {
 	944.1.1 = { holder = 103060 }
@@ -18563,7 +18583,7 @@ c_province0306 = {
 	1063.1.1 = { holder = 103062 }
 	1064.1.1 = { holder = 103065 government = tribal_government }
 	1066.1.1 = { liege = d_duchy0312 }
-	1066.9.15 = { liege = k_kingdom0349 }
+	1066.9.15 = { liege = d_duchy0312 }
 }
 c_province0312 = {
 	941.1.1 = { holder = 103120 }
@@ -18572,7 +18592,7 @@ c_province0312 = {
 	1042.1.1 = { holder = 103122 }
 	1065.1.1 = { holder = 103125 government = tribal_government }
 	1066.1.1 = { liege = d_duchy0312 }
-	1066.9.15 = { liege = k_kingdom0349 }
+	1066.9.15 = { liege = d_duchy0312 }
 	1066.9.15 = { liege = e_united_states }
 }
 c_province0294 = {
@@ -18590,34 +18610,18 @@ c_province0349 = {
 	1000.1.1 = { holder = 103491 }
 	1021.1.1 = { holder = 103492 }
 	1058.1.1 = { holder = 103495 government = tribal_government }
-	1066.1.1 = { liege = d_duchy0349 }
+	1066.1.1 = { liege = d_duchy0312 }
 	1066.9.15 = { liege = e_united_states }
-	1066.9.15 = { liege = k_kingdom0349 }
-}
-k_kingdom0349 = {
-	925.1.1 = { holder = 103490 }
-	1000.1.1 = { holder = 103491 }
-	1021.1.1 = { holder = 103492 }
-	1058.1.1 = { holder = 103495 government = tribal_government }
-	1066.1.1 = { liege = e_united_states }
-	1066.9.15 = { holder = 103125 liege = e_united_states }
+	1066.9.15 = { liege = d_duchy0312 }
 }
 d_duchy0312 = {
 	941.1.1 = { holder = 103120 }
 	1012.1.1 = { holder = 103121 }
 	1042.1.1 = { holder = 103122 }
 	1065.1.1 = { holder = 103125 government = tribal_government }
-	1066.1.1 = { liege = k_kingdom0349 }
+	1066.1.1 = { liege = k_california }
 	1066.9.15 = { holder = 0 }
-}
-d_duchy0349 = {
-	925.1.1 = { holder = 103490 }
-	1000.1.1 = { holder = 103491 }
-	1021.1.1 = { holder = 103492 }
-	1058.1.1 = { holder = 103495 government = tribal_government }
-	1066.1.1 = { liege = k_kingdom0349 }
-	1066.9.15 = { liege = e_united_states }
-	1066.9.15 = { holder = 0 }
+	1066.9.15 = { holder = 103125 liege = e_united_states }   # e66 Alaska kingdom merged
 }
 
 ########## k_kingdom1283
@@ -19223,9 +19227,9 @@ c_province1588 = {
 	1066.1.1 = { liege = d_duchy1584 }
 }
 d_duchy1618 = {
-	956.1.1 = { holder = 116180 }
-	1037.1.1 = { holder = 116181 }
-	1053.1.1 = { holder = 116182 }
+	956.1.1 = { holder = 0 }
+	1037.1.1 = { holder = 0 }
+	1053.1.1 = { holder = 0 }
 	1054.1.1 = { holder = 777777 government = tribal_government }
 }
 c_province1560 = {
@@ -19234,19 +19238,19 @@ c_province1560 = {
 	1066.1.1 = { liege = d_duchy1584 }
 }
 c_province1618 = {
-	956.1.1 = { holder = 116180 }
+	956.1.1 = { holder = 0 }
 	1000.1.1 = { change_development_level = 8 }
-	1037.1.1 = { holder = 116181 }
-	1053.1.1 = { holder = 116182 }
-	1054.1.1 = { holder = 116185 }
+	1037.1.1 = { holder = 0 }
+	1053.1.1 = { holder = 0 }
+	1054.1.1 = { holder = 0 }
 	1066.1.1 = { holder = 777777 liege = d_duchy1618 government = tribal_government }
 	1066.9.15 = { liege = 0 }
 }
 d_duchy1615 = {
-	916.1.1 = { holder = 116150 }
-	1006.1.1 = { holder = 116151 }
-	1022.1.1 = { holder = 116152 }
-	1054.1.1 = { holder = 116155 }
+	916.1.1 = { holder = 0 }
+	1006.1.1 = { holder = 0 }
+	1022.1.1 = { holder = 0 }
+	1054.1.1 = { holder = 0 }
 	1066.1.1 = { holder = 777100 liege = e_empire1522 government = tribal_government }
 }
 c_province1551 = {
@@ -19255,11 +19259,11 @@ c_province1551 = {
 	1066.1.1 = { liege = d_duchy1564 }
 }
 c_province1631 = {
-	930.1.1 = { holder = 116310 }
+	930.1.1 = { holder = 0 }
 	1000.1.1 = { change_development_level = 8 }
-	1006.1.1 = { holder = 116311 }
-	1028.1.1 = { holder = 116312 }
-	1060.1.1 = { holder = 116315 }
+	1006.1.1 = { holder = 0 }
+	1028.1.1 = { holder = 0 }
+	1060.1.1 = { holder = 0 }
 	1066.1.1 = { holder = 777100 liege = d_duchy1643 government = tribal_government }
 	1066.9.15 = { liege = e_empire1522 }
 }
@@ -19279,11 +19283,11 @@ c_province1614 = {
 	1066.9.15 = { liege = h_galilean }
 }
 c_province1612 = {
-	924.1.1 = { holder = 116120 }
+	924.1.1 = { holder = 0 }
 	1000.1.1 = { change_development_level = 2 }
-	1004.1.1 = { holder = 116121 }
-	1040.1.1 = { holder = 116122 }
-	1056.1.1 = { holder = 116125 }
+	1004.1.1 = { holder = 0 }
+	1040.1.1 = { holder = 0 }
+	1056.1.1 = { holder = 0 }
 	1066.1.1 = { holder = 777777 liege = d_duchy1618 government = tribal_government }
 	1066.9.15 = { liege = 0 }
 }
@@ -19346,11 +19350,11 @@ c_province1546 = {
 	1066.9.15 = { liege = e_empire1522 }
 }
 c_province1615 = {
-	916.1.1 = { holder = 116150 }
+	916.1.1 = { holder = 0 }
 	1000.1.1 = { change_development_level = 8 }
-	1006.1.1 = { holder = 116151 }
-	1022.1.1 = { holder = 116152 }
-	1054.1.1 = { holder = 116155 }
+	1006.1.1 = { holder = 0 }
+	1022.1.1 = { holder = 0 }
+	1054.1.1 = { holder = 0 }
 	1066.1.1 = { holder = 777100 government = tribal_government }
 	1066.9.15 = { liege = e_empire1522 }
 }
@@ -19417,11 +19421,6 @@ k_kingdom0480 = {
 	1038.1.1 = { holder = 7000002 government = feudal_government }
 	1046.1.1 = { liege = 0 }
 	1066.9.15 = { liege = 0 }
-}
-d_duchy1199 = {
-	1065.1.1 = { holder = 7000009 liege = k_kingdom0480 }
-	1066.1.1 = { liege = k_california }
-	1066.9.15 = { holder = 0 }
 }
 c_province0452 = {
 	1000.1.1 = { change_development_level = 13 }
@@ -19494,6 +19493,7 @@ d_duchy0120 = {
 	1066.1.1 = { liege = k_kingdom0120 }
 	1066.9.15 = { liege = 0 }
 	1066.9.15 = { holder = 0 }
+	1066.9.15 = { holder = 101545 }   # e59
 }
 c_province0120 = {
 	961.1.1 = { holder = 101200 }
@@ -19530,6 +19530,7 @@ c_province0193 = {
 	1053.1.1 = { holder = 101935 government = feudal_government }
 	1066.1.1 = { liege = d_duchy0120 }
 	1066.9.15 = { liege = k_kingdom0162 }
+	1066.9.15 = { liege = k_ck_venezuela }   # e59 repoint
 }
 
 ########## k_kingdom0507
@@ -19561,14 +19562,15 @@ d_duchy0425 = {
 	1066.9.15 = { holder = 8100331 liege = 0 }
 }
 c_province0476 = {
-	950.1.1 = { holder = 104760 }
+	950.1.1 = { holder = 0 }
 	1000.1.1 = { change_development_level = 4 }
-	1011.1.1 = { holder = 104761 }
-	1047.1.1 = { holder = 104762 }
-	1056.1.1 = { holder = 104765 government = tribal_government }
+	1011.1.1 = { holder = 0 }
+	1047.1.1 = { holder = 0 }
+	1056.1.1 = { holder = 0 government = tribal_government }
 	1066.1.1 = { liege = d_duchy0476 }
 	1066.9.15 = { liege = 0 }
 	1066.9.15 = { liege = d_duchy0507 }
+	1066.9.15 = { holder = 104875 liege = 0 }   # e68
 }
 c_province0442 = {
 	940.1.1 = { holder = 104420 }
@@ -19608,10 +19610,10 @@ c_province0457 = {
 	1066.9.15 = { liege = k_kingdom0507 }
 }
 d_duchy0476 = {
-	950.1.1 = { holder = 104760 }
-	1011.1.1 = { holder = 104761 }
-	1047.1.1 = { holder = 104762 }
-	1056.1.1 = { holder = 104765 government = tribal_government }
+	950.1.1 = { holder = 0 }
+	1011.1.1 = { holder = 0 }
+	1047.1.1 = { holder = 0 }
+	1056.1.1 = { holder = 0 government = tribal_government }
 	1066.1.1 = { liege = k_kingdom0507 }
 	1066.9.15 = { liege = 0 }
 	1066.9.15 = { holder = 0 }
@@ -19851,23 +19853,25 @@ c_province1890 = {
 
 ########## k_kingdom0423
 c_province0437 = {
-	929.1.1 = { holder = 104370 }
-	996.1.1 = { holder = 104371 }
+	929.1.1 = { holder = 0 }
+	996.1.1 = { holder = 0 }
 	1000.1.1 = { change_development_level = 4 }
-	1038.1.1 = { holder = 104372 }
-	1057.1.1 = { holder = 104375 government = tribal_government }
+	1038.1.1 = { holder = 0 }
+	1057.1.1 = { holder = 0 government = tribal_government }
 	1066.1.1 = { liege = d_duchy0423 }
 	1066.9.15 = { liege = k_kingdom0507 }
+	1066.9.15 = { holder = 104335 liege = 0 }   # e68
 }
 c_province0422 = {
-	953.1.1 = { holder = 104220 }
+	953.1.1 = { holder = 0 }
 	1000.1.1 = { change_development_level = 4 }
-	1030.1.1 = { holder = 104221 }
-	1031.1.1 = { holder = 104222 }
-	1059.1.1 = { holder = 104225 government = tribal_government }
+	1030.1.1 = { holder = 0 }
+	1031.1.1 = { holder = 0 }
+	1059.1.1 = { holder = 0 government = tribal_government }
 	1066.1.1 = { liege = d_duchy0422 }
-	1066.9.15 = { liege = e_empire0836 }
+	1066.9.15 = { liege = 0 }
 	1066.9.15 = { liege = d_duchy0422 }
+	1066.9.15 = { holder = 104055 liege = 0 }   # e68
 }
 d_duchy0423 = {
 	959.1.1 = { holder = 104230 }
@@ -19878,11 +19882,11 @@ d_duchy0423 = {
 	1066.9.15 = { holder = 0 }
 }
 d_duchy0422 = {
-	953.1.1 = { holder = 104220 }
-	1030.1.1 = { holder = 104221 }
-	1031.1.1 = { holder = 104222 }
-	1059.1.1 = { holder = 104225 government = tribal_government }
-	1066.1.1 = { liege = e_empire0836 }
+	953.1.1 = { holder = 0 }
+	1030.1.1 = { holder = 0 }
+	1031.1.1 = { holder = 0 }
+	1059.1.1 = { holder = 0 government = tribal_government }
+	1066.1.1 = { liege = 0 }
 	1066.9.15 = { holder = 104055 liege = 0 }
 }
 c_province0433 = {
@@ -19920,7 +19924,7 @@ c_province0423 = {
 	1057.1.1 = { holder = 104235 government = tribal_government }
 	1066.1.1 = { liege = d_duchy0423 }
 	1066.9.15 = { liege = 0 }
-	1066.9.15 = { liege = e_empire0836 }
+	1066.9.15 = { liege = 0 }
 }
 c_province0405 = {
 	933.1.1 = { holder = 104050 }
@@ -20072,10 +20076,10 @@ c_province1824 = {
 
 ########## k_kingdom0432
 c_province0419 = {
-	962.1.1 = { holder = 104190 }
+	962.1.1 = { holder = 0 }
 	1000.1.1 = { change_development_level = 13 }
-	1040.1.1 = { holder = 104191 }
-	1042.1.1 = { holder = 104192 }
+	1040.1.1 = { holder = 0 }
+	1042.1.1 = { holder = 0 }
 	1062.1.1 = { holder = 776008 government = tribal_government }
 	1066.1.1 = { liege = d_duchy0429 }
 	1066.9.15 = { liege = 0 }
@@ -20144,19 +20148,19 @@ c_province0435 = {
 	1066.1.1 = { liege = d_duchy0427 }
 }
 c_province0429 = {
-	947.1.1 = { holder = 104290 }
+	947.1.1 = { holder = 0 }
 	1000.1.1 = { change_development_level = 4 }
-	1019.1.1 = { holder = 104291 }
-	1020.1.1 = { holder = 104292 }
+	1019.1.1 = { holder = 0 }
+	1020.1.1 = { holder = 0 }
 	1057.1.1 = { holder = 776008 government = tribal_government }
 	1066.1.1 = { liege = d_duchy0429 }
 	1066.9.15 = { liege = 0 }
 	1066.9.1 = { holder = 8101003 }
 }
 d_duchy0429 = {
-	947.1.1 = { holder = 104290 }
-	1019.1.1 = { holder = 104291 }
-	1020.1.1 = { holder = 104292 }
+	947.1.1 = { holder = 0 }
+	1019.1.1 = { holder = 0 }
+	1020.1.1 = { holder = 0 }
 	1057.1.1 = { holder = 776008 government = tribal_government }
 	1066.9.1 = { holder = 8101003 }
 }
@@ -20373,10 +20377,10 @@ c_province0599 = {
 	1066.9.15 = { liege = d_lviv }
 }
 c_province0607 = {
-	926.1.1 = { holder = 106070 }
-	998.1.1 = { holder = 106071 }
+	926.1.1 = { holder = 0 }
+	998.1.1 = { holder = 0 }
 	1000.1.1 = { change_development_level = 5 }
-	1044.1.1 = { holder = 106072 }
+	1044.1.1 = { holder = 0 }
 	1065.1.1 = { holder = 106215 government = tribal_government }
 	1066.1.1 = { liege = d_duchy0624 }
 	1066.9.15 = { liege = 0 }
@@ -20501,6 +20505,7 @@ d_duchy0600 = {
 	1065.1.1 = { holder = 106005 government = feudal_government }
 	1066.1.1 = { liege = k_rome }
 	1066.9.15 = { holder = 8100337 liege = e_european_union }
+	1066.9.15 = { succession_laws = { feudal_elective_succession_law } }   # e62 BGR
 }
 c_province0600 = {
 	949.1.1 = { holder = 2106000 }
@@ -20531,11 +20536,11 @@ c_province0548 = {
 	1066.9.15 = { liege = k_rome }
 }
 c_province0546 = {
-	946.1.1 = { holder = 105460 }
+	946.1.1 = { holder = 0 }
 	1000.1.1 = { change_development_level = 12 }
-	1031.1.1 = { holder = 105461 }
-	1041.1.1 = { holder = 105462 }
-	1062.1.1 = { holder = 105465 government = feudal_government }
+	1031.1.1 = { holder = 0 }
+	1041.1.1 = { holder = 0 }
+	1062.1.1 = { holder = 0 government = feudal_government }
 	1066.1.1 = { liege = d_duchy0548 }
 	1066.9.15 = { liege = 0 }
 	1066.9.15 = { holder = 1057920 government = ecclesiastical_government liege = 0 }	# e39 Pope = Count of the Vatican, independent
@@ -20630,7 +20635,7 @@ d_duchy0299 = {
 	1016.1.1 = { holder = 102991 }
 	1046.1.1 = { holder = 102992 }
 	1064.1.1 = { holder = 102995 government = tribal_government }
-	1066.1.1 = { liege = k_kingdom0245 }
+	1066.1.1 = { liege = k_kingdom0359 }
 	1066.9.15 = { holder = 0 }
 }
 c_province0367 = {
@@ -20650,14 +20655,16 @@ c_province0267 = {
 	1059.1.1 = { holder = 102675 government = tribal_government }
 	1066.1.1 = { liege = d_duchy0289 }
 	1066.9.15 = { liege = e_empire0350 }
+	1066.9.15 = { liege = d_calgary }   # e60 state vassal
 }
 d_duchy0245 = {
 	944.1.1 = { holder = 102450 }
 	1032.1.1 = { holder = 102451 }
 	1043.1.1 = { holder = 102452 }
 	1059.1.1 = { holder = 102455 government = feudal_government }
-	1066.1.1 = { liege = k_kingdom0245 }
+	1066.1.1 = { liege = k_kingdom0359 }
 	1066.9.15 = { holder = 102415 liege = e_empire0350 }
+	1066.9.15 = { succession_laws = { feudal_elective_succession_law } }   # e62 CAN
 }
 c_province0299 = {
 	936.1.1 = { holder = 102990 }
@@ -20666,7 +20673,7 @@ c_province0299 = {
 	1046.1.1 = { holder = 102992 }
 	1064.1.1 = { holder = 102995 government = tribal_government }
 	1066.1.1 = { liege = d_duchy0299 }
-	1066.9.15 = { liege = k_kingdom0245 }
+	1066.9.15 = { liege = k_kingdom0359 }
 	1066.9.15 = { liege = d_duchy0245 }
 }
 c_province0270 = {
@@ -20677,6 +20684,7 @@ c_province0270 = {
 	1065.1.1 = { holder = 102705 government = tribal_government }
 	1066.1.1 = { liege = d_duchy0299 }
 	1066.9.15 = { liege = e_empire0350 }
+	1066.9.15 = { liege = d_duchy0245 }   # e60 state vassal
 }
 c_province0289 = {
 	934.1.1 = { holder = 102890 }
@@ -20685,7 +20693,7 @@ c_province0289 = {
 	1009.1.1 = { holder = 102892 }
 	1061.1.1 = { holder = 102895 government = tribal_government }
 	1066.1.1 = { liege = d_duchy0289 }
-	1066.9.15 = { liege = k_kingdom0245 }
+	1066.9.15 = { liege = k_kingdom0359 }
 	1066.9.15 = { liege = e_empire0350 }
 }
 c_province0325 = {
@@ -20696,13 +20704,7 @@ c_province0325 = {
 	1055.1.1 = { holder = 103255 government = tribal_government }
 	1066.1.1 = { liege = d_duchy0299 }
 	1066.9.15 = { liege = e_empire0350 }
-}
-k_kingdom0245 = {
-	944.1.1 = { holder = 102450 }
-	1032.1.1 = { holder = 102451 }
-	1043.1.1 = { holder = 102452 }
-	1059.1.1 = { holder = 103595 government = tribal_government }
-	1066.9.15 = { holder = 0 }
+	1066.9.15 = { liege = d_calgary }   # e60 state vassal
 }
 c_province0352 = {
 	952.1.1 = { holder = 103520 }
@@ -20712,6 +20714,7 @@ c_province0352 = {
 	1058.1.1 = { holder = 103525 government = tribal_government }
 	1066.1.1 = { liege = d_duchy0345 }
 	1066.9.15 = { liege = e_empire0350 }
+	1066.9.15 = { liege = d_duchy0389 }   # e60 state vassal
 }
 c_province0245 = {
 	944.1.1 = { holder = 102450 }
@@ -20720,7 +20723,7 @@ c_province0245 = {
 	1043.1.1 = { holder = 102452 }
 	1059.1.1 = { holder = 102455 government = feudal_government }
 	1066.1.1 = { liege = d_duchy0245 }
-	1066.9.15 = { liege = k_kingdom0245 }
+	1066.9.15 = { liege = k_kingdom0359 }
 	1066.9.15 = { liege = d_duchy0245 }
 }
 d_duchy0345 = {
@@ -20728,7 +20731,7 @@ d_duchy0345 = {
 	988.1.1 = { holder = 103451 }
 	1018.1.1 = { holder = 103452 }
 	1058.1.1 = { holder = 103455 government = tribal_government }
-	1066.1.1 = { liege = k_kingdom0245 }
+	1066.1.1 = { liege = k_kingdom0359 }
 	1066.9.15 = { holder = 103225 liege = e_empire0350 }
 }
 c_province0341 = {
@@ -20745,7 +20748,7 @@ d_duchy0289 = {
 	1002.1.1 = { holder = 102891 }
 	1009.1.1 = { holder = 102892 }
 	1061.1.1 = { holder = 102895 government = tribal_government }
-	1066.1.1 = { liege = k_kingdom0245 }
+	1066.1.1 = { liege = k_kingdom0359 }
 	1066.9.15 = { holder = 0 }
 }
 c_province0241 = {
@@ -20764,8 +20767,9 @@ c_province0345 = {
 	1018.1.1 = { holder = 103452 }
 	1058.1.1 = { holder = 103455 government = tribal_government }
 	1066.1.1 = { liege = d_duchy0345 }
-	1066.9.15 = { liege = k_kingdom0245 }
+	1066.9.15 = { liege = k_kingdom0359 }
 	1066.9.15 = { liege = e_empire0350 }
+	1066.9.15 = { liege = d_duchy0245 }   # e60 state vassal
 }
 
 ########## k_kingdom0989
@@ -20785,7 +20789,7 @@ c_province0764 = {
 	1054.1.1 = { holder = 107642 }
 	1055.1.1 = { holder = 107645 government = tribal_government }
 	1066.1.1 = { liege = d_duchy0764 }
-	1066.9.15 = { liege = e_empire0836 }
+	1066.9.15 = { liege = 0 }
 	1066.9.15 = { liege = d_duchy0739 }
 }
 k_kingdom0989 = {
@@ -20796,8 +20800,8 @@ k_kingdom0989 = {
 	998.1.1 = { holder = 400063 }
 	1021.1.1 = { holder = 400064 }
 	1031.1.1 = { holder = 400065 government = feudal_government }
-	1066.1.1 = { liege = e_empire0836 }
-	1066.9.15 = { liege = e_empire0836 }
+	1066.1.1 = { liege = 0 }
+	1066.9.15 = { liege = 0 }
 }
 d_duchy0700 = {
 	948.1.1 = { holder = 400059 }
@@ -20807,18 +20811,19 @@ d_duchy0700 = {
 	998.1.1 = { holder = 400063 }
 	1021.1.1 = { holder = 400064 }
 	1031.1.1 = { holder = 400065 government = feudal_government }
-	1066.1.1 = { liege = e_empire0836 }
+	1066.1.1 = { liege = 0 }
 	1066.9.15 = { holder = 0 }
-	1066.9.15 = { holder = 400065 liege = e_empire0836 }	# e37 custom character
+	1066.9.15 = { holder = 400065 liege = 0 }	# e37 custom character
 }
 c_province0681 = {
-	929.1.1 = { holder = 106810 }
+	929.1.1 = { holder = 0 }
 	1000.1.1 = { change_development_level = 12 }
-	1006.1.1 = { holder = 106811 }
-	1034.1.1 = { holder = 106812 }
-	1061.1.1 = { holder = 106815 government = feudal_government }
+	1006.1.1 = { holder = 0 }
+	1034.1.1 = { holder = 0 }
+	1061.1.1 = { holder = 0 government = feudal_government }
 	1066.1.1 = { liege = d_duchy0700 }
 	1066.9.15 = { liege = k_kingdom0989 }
+	1066.9.15 = { holder = 400065 liege = 0 }   # e68
 }
 c_province0746 = {
 	963.1.1 = { holder = 107460 }
@@ -20843,7 +20848,7 @@ d_mecca = {
 	1037.1.1 = { holder = 106891 }
 	1057.1.1 = { holder = 106892 }
 	1058.1.1 = { holder = 106895 government = feudal_government }
-	1066.1.1 = { liege = e_empire0836 }
+	1066.1.1 = { liege = 0 }
 	1066.9.15 = { holder = 400065 }
 }
 d_duchy0764 = {
@@ -20851,16 +20856,16 @@ d_duchy0764 = {
 	1005.1.1 = { holder = 107641 }
 	1054.1.1 = { holder = 107642 }
 	1055.1.1 = { holder = 107645 government = tribal_government }
-	1066.1.1 = { liege = e_empire0836 }
-	1066.9.15 = { holder = 8100312 liege = e_empire0836 }
+	1066.1.1 = { liege = 0 }
+	1066.9.15 = { holder = 8100312 liege = 0 }
 }
 d_duchy0739 = {
 	920.1.1 = { holder = 107390 }
 	1005.1.1 = { holder = 107391 }
 	1030.1.1 = { holder = 107392 }
 	1057.1.1 = { holder = 107395 government = tribal_government }
-	1066.1.1 = { liege = e_empire0836 }
-	1066.9.15 = { holder = 107555 liege = e_empire0836 }
+	1066.1.1 = { liege = 0 }
+	1066.9.15 = { holder = 107555 liege = 0 }
 }
 c_province0755 = {
 	948.1.1 = { holder = 107550 }
@@ -20869,7 +20874,7 @@ c_province0755 = {
 	1046.1.1 = { holder = 107552 }
 	1062.1.1 = { holder = 107555 government = tribal_government }
 	1066.1.1 = { liege = d_duchy0739 }
-	1066.9.15 = { liege = e_empire0836 }
+	1066.9.15 = { liege = 0 }
 }
 c_mecca = {
 	958.1.1 = { holder = 106890 }
@@ -20878,7 +20883,7 @@ c_mecca = {
 	1057.1.1 = { holder = 106892 }
 	1058.1.1 = { holder = 106895 government = feudal_government }
 	1066.1.1 = { liege = d_mecca }
-	1066.9.15 = { liege = e_empire0836 }
+	1066.9.15 = { liege = 0 }
 	1066.9.15 = { liege = k_kingdom0989 }
 }
 c_province0700 = {
@@ -20891,8 +20896,8 @@ c_province0700 = {
 	1021.1.1 = { holder = 400064 }
 	1031.1.1 = { holder = 400065 government = feudal_government }
 	1066.1.1 = { liege = d_duchy0700 }
-	1066.9.15 = { liege = e_empire0836 }
-	1066.9.15 = { liege = e_empire0836 }
+	1066.9.15 = { liege = 0 }
+	1066.9.15 = { liege = 0 }
 }
 c_province0707 = {
 	949.1.1 = { holder = 107070 }
@@ -20901,13 +20906,13 @@ c_province0707 = {
 	1043.1.1 = { holder = 107072 }
 	1061.1.1 = { holder = 107075 government = feudal_government }
 	1066.1.1 = { liege = d_duchy0700 }
-	1066.9.15 = { liege = e_empire0836 }
+	1066.9.15 = { liege = 0 }
 }
 c_province0671 = {
 	1000.1.1 = { change_development_level = 14 }
 	1056.1.1 = { holder = 777171 government = feudal_government }
 	1066.1.1 = { liege = d_mecca }
-	1066.9.15 = { liege = e_empire0836 }
+	1066.9.15 = { liege = 0 }
 	1066.9.15 = { liege = k_kingdom0989 }
 }
 c_province0739 = {
@@ -20917,8 +20922,8 @@ c_province0739 = {
 	1030.1.1 = { holder = 107392 }
 	1057.1.1 = { holder = 107395 government = tribal_government }
 	1066.1.1 = { liege = d_duchy0739 }
-	1066.9.15 = { liege = e_empire0836 }
-	1066.9.15 = { liege = e_empire0836 }
+	1066.9.15 = { liege = 0 }
+	1066.9.15 = { liege = 0 }
 }
 
 ########## k_kingdom1252
@@ -21105,6 +21110,7 @@ c_province0084 = {
 	1055.1.1 = { holder = 100845 government = tribal_government }
 	1066.1.1 = { liege = d_duchy0091 }
 	1066.9.15 = { liege = e_latin_america }
+	1066.9.15 = { liege = d_duchy0122 }   # e60 state vassal
 }
 c_province0062 = {
 	947.1.1 = { holder = 100620 }
@@ -21131,6 +21137,7 @@ c_province0240 = {
 	1065.1.1 = { holder = 102405 government = feudal_government }
 	1066.1.1 = { liege = d_duchy0162 }
 	1066.9.15 = { liege = e_latin_america }
+	1066.9.15 = { liege = d_ck_piaui }   # e60b
 }
 c_province0122 = {
 	932.1.1 = { holder = 101220 }
@@ -21150,6 +21157,7 @@ c_province0107 = {
 	1056.1.1 = { holder = 101075 government = feudal_government }
 	1066.1.1 = { liege = d_duchy0122 }
 	1066.9.15 = { liege = k_kingdom0162 }
+	1066.9.15 = { liege = k_ck_venezuela }   # e59 repoint
 }
 c_province0162 = {
 	926.1.1 = { holder = 101620 }
@@ -21158,7 +21166,7 @@ c_province0162 = {
 	1016.1.1 = { holder = 101622 }
 	1059.1.1 = { holder = 101625 government = feudal_government }
 	1066.1.1 = { liege = d_duchy0162 }
-	1066.9.15 = { liege = e_empire0223 }
+	1066.9.15 = { liege = 0 }
 	1066.9.15 = { liege = d_duchy0162 }
 }
 k_kingdom0162 = {
@@ -21166,8 +21174,9 @@ k_kingdom0162 = {
 	1009.1.1 = { holder = 101621 }
 	1016.1.1 = { holder = 101622 }
 	1059.1.1 = { holder = 101625 government = feudal_government }
-	1066.1.1 = { liege = e_empire0223 }
+	1066.1.1 = { liege = 0 }
 	1066.9.15 = { holder = 101545 liege = 0 succession_laws = { feudal_elective_succession_law } }
+	1066.9.15 = { holder = 0 }   # e59
 }
 c_province0199 = {
 	946.1.1 = { holder = 101990 }
@@ -21210,8 +21219,9 @@ d_duchy0162 = {
 	1016.1.1 = { holder = 101622 }
 	1059.1.1 = { holder = 101625 government = feudal_government }
 	1066.1.1 = { liege = k_kingdom0162 }
-	1066.9.15 = { liege = e_empire0223 }
+	1066.9.15 = { liege = 0 }
 	1066.9.15 = { holder = 8100039 liege = e_latin_america }
+	1066.9.15 = { succession_laws = { feudal_elective_succession_law } }   # e62 BRA
 }
 c_province0091 = {
 	918.1.1 = { holder = 100910 }
@@ -21231,6 +21241,7 @@ c_province0152 = {
 	1063.1.1 = { holder = 101525 government = feudal_government }
 	1066.1.1 = { liege = d_duchy0162 }
 	1066.9.15 = { liege = e_latin_america }
+	1066.9.15 = { liege = d_duchy0122 }   # e60 state vassal
 }
 
 ########## k_kingdom1322
@@ -21833,6 +21844,7 @@ c_province0612 = {
 	1062.1.1 = { holder = 106125 government = tribal_government }
 	1066.1.1 = { liege = d_duchy0621 }
 	1066.9.15 = { liege = e_empire1034 }
+	1066.9.15 = { liege = d_duchy0633 }   # e60 state vassal
 }
 c_province0633 = {
 	943.1.1 = { holder = 106330 }
@@ -21887,6 +21899,7 @@ d_duchy0633 = {
 	1060.1.1 = { holder = 106335 government = tribal_government }
 	1066.1.1 = { liege = k_kingdom0621 }
 	1066.9.15 = { holder = 0 }
+	1066.9.15 = { holder = 106065 liege = e_empire1034 }   # e60 state ruler
 }
 c_province0613 = {
 	923.1.1 = { holder = 106130 }
@@ -21961,7 +21974,7 @@ c_province0223 = {
 	1049.1.1 = { holder = 102232 }
 	1060.1.1 = { holder = 102235 government = feudal_government }
 	1066.1.1 = { liege = d_duchy0223 }
-	1066.9.15 = { liege = e_empire0223 }
+	1066.9.15 = { liege = 0 }
 	1066.9.15 = { liege = e_latin_america }
 }
 c_province0189 = {
@@ -21972,21 +21985,15 @@ c_province0189 = {
 	1061.1.1 = { holder = 101895 government = feudal_government }
 	1066.1.1 = { liege = d_duchy0223 }
 	1066.9.15 = { liege = e_latin_america }
-}
-k_kingdom0196 = {
-	927.1.1 = { holder = 101960 }
-	1021.1.1 = { holder = 101961 }
-	1047.1.1 = { holder = 101962 }
-	1054.1.1 = { holder = 101965 government = feudal_government }
-	1066.9.15 = { holder = 0 }
+	1066.9.15 = { liege = d_duchy0162 }   # e60 state vassal
 }
 d_duchy0223 = {
 	928.1.1 = { holder = 102230 }
 	1008.1.1 = { holder = 102231 }
 	1049.1.1 = { holder = 102232 }
 	1060.1.1 = { holder = 102235 government = feudal_government }
-	1066.1.1 = { liege = k_kingdom0223 }
-	1066.9.15 = { liege = e_empire0223 }
+	1066.1.1 = { liege = 0 }
+	1066.9.15 = { liege = 0 }
 	1066.9.15 = { holder = 0 }
 }
 c_province0221 = {
@@ -22013,9 +22020,10 @@ d_duchy0196 = {
 	1021.1.1 = { holder = 101961 }
 	1047.1.1 = { holder = 101962 }
 	1054.1.1 = { holder = 101965 government = feudal_government }
-	1066.1.1 = { liege = k_kingdom0196 }
+	1066.1.1 = { liege = k_kingdom0162 }
 	1066.9.15 = { liege = 0 }
 	1066.9.15 = { holder = 102215 liege = 0 }
+	1066.9.15 = { succession_laws = { feudal_elective_succession_law } }   # e62 SUR
 }
 
 ########## k_kingdom0836
@@ -22028,10 +22036,10 @@ c_province0854 = {
 	1066.1.1 = { liege = d_duchy0836 }
 }
 c_province0808 = {
-	948.1.1 = { holder = 108080 }
+	948.1.1 = { holder = 0 }
 	1000.1.1 = { change_development_level = 14 }
-	1018.1.1 = { holder = 108081 }
-	1019.1.1 = { holder = 108082 }
+	1018.1.1 = { holder = 0 }
+	1019.1.1 = { holder = 0 }
 	1063.1.1 = { holder = 778109 government = feudal_government }
 	1066.1.1 = { liege = d_duchy0827 }
 }
@@ -22352,6 +22360,7 @@ c_province0843 = {
 	1049.1.1 = { holder = 108432 }
 	1055.1.1 = { holder = 108435 government = feudal_government }
 	1066.9.15 = { liege = 0 }
+	1066.9.15 = { holder = 8100290 liege = d_north_gyeongsang }   # e68
 }
 c_province0830 = {
 	927.1.1 = { holder = 108300 }
@@ -22627,7 +22636,7 @@ d_sunni = {
 	1031.1.1 = { holder = 0 }
 	1054.1.1 = { holder = 0 }
 	1066.1.1 = { holder = 777171 government = feudal_government }
-	1066.1.1 = { liege = e_empire0836 }
+	1066.1.1 = { liege = 0 }
 	1066.9.15 = { holder = 0 }
 	1066.9.15 = { holder = 777171 liege = k_kingdom0989 }	# e39 the Sayyid caliph (CK2 custom)
 }
@@ -22635,9 +22644,9 @@ e_empire1388 = {
 	1018.1.1 = { holder = 666666 government = feudal_government }
 }
 e_empire0717 = {
-	962.1.1 = { holder = 107170 }
-	1043.1.1 = { holder = 107171 }
-	1045.1.1 = { holder = 107172 }
+	962.1.1 = { holder = 0 }
+	1043.1.1 = { holder = 0 }
+	1045.1.1 = { holder = 0 }
 	1058.1.1 = { holder = 107175 government = feudal_government }
 }
 e_empire1719 = {
@@ -22713,10 +22722,6 @@ e_empire1034 = {
 	1001.1.1 = { holder = 106211 }
 	1053.1.1 = { holder = 106212 }
 	1065.1.1 = { holder = 106215 government = tribal_government }
-	1066.9.15 = { liege = 0 }
-}
-e_empire0836 = {
-	1066.1.1 = { holder = 106475 government = feudal_government }
 	1066.9.15 = { liege = 0 }
 }
 k_papal_state = {
@@ -22922,10 +22927,6 @@ k_papal_state = {
 e_empire0711 = {
 	1066.1.1 = { holder = 777125 government = tribal_government }
 }
-e_empire0223 = {
-	1050.1.1 = { holder = 101675 government = feudal_government }
-	1066.9.15 = { holder = 0 }
-}
 e_empire0982 = {
 	1066.1.1 = { holder = 110065 government = feudal_government }
 	1066.1.1 = { succession_laws = { feudal_elective_succession_law } }   # Indonesia
@@ -22948,14 +22949,6 @@ e_european_union = {
 	1040.1.1 = { holder = 105285 government = feudal_government }
 	1066.1.1 = { succession_laws = { feudal_elective_succession_law } }   # EU
 	1066.9.15 = { liege = 0 }
-}
-d_duchy1014 = {
-	936.1.1 = { holder = 109130 }
-	1017.1.1 = { holder = 109131 }
-	1050.1.1 = { holder = 109132 }
-	1051.1.1 = { holder = 109135 }
-	1066.1.1 = { liege = k_kingdom0897 }
-	1066.9.15 = { holder = 0 }
 }
 
 ########## k_kingdom1411
@@ -23049,28 +23042,15 @@ c_province1529 = {
 }
 
 ########## k_kingdom2175
-k_kingdom2175 = {
-	963.1.1 = { holder = 121750 }
-	1035.1.1 = { holder = 121751 }
-	1058.1.1 = { holder = 121752 }
-	1061.1.1 = { holder = 121755 government = feudal_government }
-}
 c_province2175 = {
 	963.1.1 = { holder = 121750 }
 	1000.1.1 = { change_development_level = 12 }
 	1035.1.1 = { holder = 121751 }
 	1058.1.1 = { holder = 121752 }
 	1061.1.1 = { holder = 121755 government = feudal_government }
-	1066.1.1 = { liege = d_duchy2175 }
+	1066.1.1 = { liege = d_duchy2171 }
 	1066.9.15 = { liege = 0 }
-}
-d_duchy2175 = {
-	963.1.1 = { holder = 121750 }
-	1035.1.1 = { holder = 121751 }
-	1058.1.1 = { holder = 121752 }
-	1061.1.1 = { holder = 121755 government = feudal_government }
-	1066.1.1 = { liege = k_kingdom2175 }
-	1066.9.15 = { liege = 0 }
+	1066.9.15 = { liege = 0 }   # e67 primary after k_kingdom2175 was removed
 }
 
 ########## k_kingdom0372
@@ -23099,13 +23079,6 @@ c_province0348 = {
 }
 
 ########## k_kingdom0019
-d_duchy0019 = {
-	955.1.1 = { holder = 100190 }
-	1037.1.1 = { holder = 100191 }
-	1038.1.1 = { holder = 100192 }
-	1059.1.1 = { holder = 100195 government = feudal_government }
-	1066.9.15 = { holder = 0 }
-}
 
 ########## k_kingdom1705
 c_province1705 = {
@@ -23311,21 +23284,15 @@ c_proteus = {
 }
 
 ########## k_kingdom1508
-d_duchy1508 = {
-	957.1.1 = { holder = 115080 }
-	1035.1.1 = { holder = 115081 }
-	1044.1.1 = { holder = 115082 }
-	1058.1.1 = { holder = 115085 government = feudal_government }
-	1066.9.15 = { liege = h_galilean }
-}
 c_province1508 = {
 	957.1.1 = { holder = 115080 }
 	1000.1.1 = { change_development_level = 14 }
 	1035.1.1 = { holder = 115081 }
 	1044.1.1 = { holder = 115082 }
 	1058.1.1 = { holder = 115085 government = feudal_government }
-	1066.1.1 = { liege = d_duchy1508 }
+	1066.1.1 = { liege = d_duchy1496 }
 	1066.9.15 = { liege = h_galilean }
+	1066.9.15 = { liege = h_galilean }   # e66 primary after d_duchy1508 was removed
 }
 
 ########## k_kingdom1168
@@ -23335,8 +23302,9 @@ c_province1177 = {
 	1000.1.1 = { change_development_level = 8 }
 	1021.1.1 = { holder = 111772 }
 	1052.1.1 = { holder = 111775 government = tribal_government }
-	1066.1.1 = { liege = d_duchy1177 }
+	1066.1.1 = { liege = d_duchy1145 }
 	1066.9.15 = { liege = 0 }
+	1066.9.15 = { liege = 0 }   # e66 primary after d_duchy1177 was removed
 }
 c_province1156 = {
 	955.1.1 = { holder = 111560 }
@@ -23361,14 +23329,9 @@ c_province1288 = {
 	1025.1.1 = { holder = 112881 }
 	1047.1.1 = { holder = 112882 }
 	1051.1.1 = { holder = 112885 government = feudal_government }
-	1066.1.1 = { liege = d_duchy1288 }
+	1066.1.1 = { liege = d_duchy1283 }
 	1066.9.15 = { liege = 0 }
-}
-d_duchy1127 = {
-	940.1.1 = { holder = 111270 }
-	1005.1.1 = { holder = 111271 }
-	1034.1.1 = { holder = 111272 }
-	1060.1.1 = { holder = 111275 government = tribal_government }
+	1066.9.15 = { liege = 0 }   # e66 primary after d_duchy1288 was removed
 }
 d_duchy1168 = {
 	960.1.1 = { holder = 111680 }
@@ -23382,38 +23345,21 @@ c_province1127 = {
 	1005.1.1 = { holder = 111271 }
 	1034.1.1 = { holder = 111272 }
 	1060.1.1 = { holder = 111275 government = tribal_government }
-	1066.1.1 = { liege = d_duchy1127 }
+	1066.1.1 = { liege = d_duchy1134 }
 	1066.9.15 = { liege = 0 }
-}
-d_duchy1177 = {
-	931.1.1 = { holder = 111770 }
-	985.1.1 = { holder = 111771 }
-	1021.1.1 = { holder = 111772 }
-	1052.1.1 = { holder = 111775 government = tribal_government }
-}
-d_duchy1288 = {
-	937.1.1 = { holder = 112880 }
-	1025.1.1 = { holder = 112881 }
-	1047.1.1 = { holder = 112882 }
-	1051.1.1 = { holder = 112885 government = feudal_government }
+	1066.9.15 = { liege = 0 }   # e66 primary after d_duchy1127 was removed
 }
 
 ########## k_kingdom1682
-d_duchy1682 = {
-	933.1.1 = { holder = 116820 }
-	996.1.1 = { holder = 116821 }
-	1028.1.1 = { holder = 116822 }
-	1060.1.1 = { holder = 116825 government = tribal_government }
-	1066.9.15 = { liege = h_galilean }
-}
 c_province1682 = {
 	933.1.1 = { holder = 116820 }
 	996.1.1 = { holder = 116821 }
 	1000.1.1 = { change_development_level = 8 }
 	1028.1.1 = { holder = 116822 }
 	1060.1.1 = { holder = 116825 government = tribal_government }
-	1066.1.1 = { liege = d_duchy1682 }
+	1066.1.1 = { liege = d_duchy1697 }
 	1066.9.15 = { liege = h_galilean }
+	1066.9.15 = { liege = h_galilean }   # e66 primary after d_duchy1682 was removed
 }
 
 ########## k_kingdom0897
@@ -23603,12 +23549,6 @@ d_duchy2030 = {
 }
 
 ########## k_kingdom1301
-d_duchy1301 = {
-	948.1.1 = { holder = 113010 }
-	1023.1.1 = { holder = 113011 }
-	1052.1.1 = { holder = 113012 }
-	1062.1.1 = { holder = 113015 government = feudal_government }
-}
 
 ########## k_kingdom0956
 c_province0636 = {
@@ -23617,7 +23557,7 @@ c_province0636 = {
 	1008.1.1 = { holder = 106361 }
 	1056.1.1 = { holder = 106362 }
 	1057.1.1 = { holder = 106365 government = feudal_government }
-	1066.1.1 = { liege = e_empire0836 }
+	1066.1.1 = { liege = 0 }
 	1066.9.15 = { liege = d_homs }
 }
 c_jerusalem = {
@@ -23654,39 +23594,27 @@ d_naiad = {
 }
 
 ########## k_kingdom1513
-d_duchy1513 = {
-	963.1.1 = { holder = 115130 }
-	1035.1.1 = { holder = 115131 }
-	1062.1.1 = { holder = 115132 }
-	1063.1.1 = { holder = 115135 government = feudal_government }
-	1066.1.1 = { liege = k_kingdom1460 }
-}
 c_province1513 = {
 	963.1.1 = { holder = 115130 }
 	1000.1.1 = { change_development_level = 14 }
 	1035.1.1 = { holder = 115131 }
 	1062.1.1 = { holder = 115132 }
 	1063.1.1 = { holder = 115135 government = feudal_government }
-	1066.1.1 = { liege = d_duchy1513 }
+	1066.1.1 = { liege = d_duchy1527 }
 	1066.9.15 = { liege = k_kingdom1460 }
+	1066.9.15 = { liege = k_kingdom1460 }   # e66 primary after d_duchy1513 was removed
 }
 
 ########## k_kingdom1539
-d_duchy1539 = {
-	943.1.1 = { holder = 115390 }
-	1027.1.1 = { holder = 115391 }
-	1042.1.1 = { holder = 115392 }
-	1063.1.1 = { holder = 115395 government = tribal_government }
-	1066.9.15 = { liege = h_galilean }
-}
 c_province1539 = {
 	943.1.1 = { holder = 115390 }
 	1000.1.1 = { change_development_level = 8 }
 	1027.1.1 = { holder = 115391 }
 	1042.1.1 = { holder = 115392 }
 	1063.1.1 = { holder = 115395 government = tribal_government }
-	1066.1.1 = { liege = d_duchy1539 }
+	1066.1.1 = { liege = d_duchy1561 }
 	1066.9.15 = { liege = h_galilean }
+	1066.9.15 = { liege = h_galilean }   # e66 primary after d_duchy1539 was removed
 }
 
 ########## k_kingdom1953
@@ -23808,6 +23736,7 @@ d_melbourne = {
 	1048.1.1 = { holder = 110862 }
 	1053.1.1 = { holder = 110865 government = feudal_government }
 	1066.9.15 = { holder = 8100067 liege = k_kingdom1064 }
+	1066.9.15 = { succession_laws = { feudal_elective_succession_law } }   # e62 AUS
 }
 c_province1028 = {
 	935.1.1 = { holder = 110280 }
@@ -23842,6 +23771,7 @@ d_duchy1036 = {
 	1030.1.1 = { holder = 110362 }
 	1056.1.1 = { holder = 110365 government = feudal_government }
 	1066.9.15 = { holder = 110495 liege = k_kingdom1064 }
+	1066.9.15 = { succession_laws = { feudal_elective_succession_law } }   # e62 AUS
 }
 
 ########## k_kingdom0037
@@ -23871,6 +23801,7 @@ k_kingdom0037 = {
 	1049.1.1 = { holder = 100375 government = feudal_government }
 	1066.1.1 = { succession_laws = { feudal_elective_succession_law } }   # Chile
 	1066.9.15 = { holder = 100115 liege = 0 succession_laws = { feudal_elective_succession_law } }
+	1066.9.15 = { succession_laws = { tribal_elective_succession_law } }   # e62 CHL
 }
 d_duchy0037 = {
 	927.1.1 = { holder = 100370 }
@@ -23917,6 +23848,7 @@ k_kingdom1064 = {
 	1056.1.1 = { holder = 110642 }
 	1059.1.1 = { holder = 110645 government = feudal_government }
 	1066.9.15 = { liege = 0 }
+	1066.9.15 = { succession_laws = { feudal_elective_succession_law } }   # e62 AUS
 }
 c_province1050 = {
 	956.1.1 = { holder = 2110500 }
@@ -23936,6 +23868,7 @@ c_province1064 = {
 	1066.1.1 = { liege = d_duchy1064 }
 	1066.9.15 = { liege = 0 }
 	1066.9.15 = { liege = 0 }
+	1066.9.15 = { holder = 8100067 liege = 0 }   # e68
 }
 d_duchy1064 = {
 	937.1.1 = { holder = 110640 }
@@ -23945,6 +23878,7 @@ d_duchy1064 = {
 	1066.1.1 = { liege = k_kingdom1064 }
 	1066.9.15 = { liege = 0 }
 	1066.9.15 = { holder = 110505 liege = 0 }
+	1066.9.15 = { succession_laws = { feudal_elective_succession_law } }   # e62 NZL
 }
 c_province1056 = {
 	928.1.1 = { holder = 110560 }
@@ -23958,20 +23892,15 @@ c_province1056 = {
 }
 
 ########## k_kingdom0351
-d_duchy0351 = {
-	956.1.1 = { holder = 103510 }
-	1029.1.1 = { holder = 103511 }
-	1038.1.1 = { holder = 103512 }
-	1062.1.1 = { holder = 103515 government = feudal_government }
-}
 c_province0351 = {
 	956.1.1 = { holder = 103510 }
 	1000.1.1 = { change_development_level = 22 }
 	1029.1.1 = { holder = 103511 }
 	1038.1.1 = { holder = 103512 }
 	1062.1.1 = { holder = 103515 government = feudal_government }
-	1066.1.1 = { liege = d_duchy0351 }
+	1066.1.1 = { liege = d_duchy0326 }
 	1066.9.15 = { liege = 0 }
+	1066.9.15 = { liege = 0 }   # e66 primary after d_duchy0351 was removed
 }
 
 ########## k_kingdom0955
@@ -23981,14 +23910,9 @@ c_province0955 = {
 	1001.1.1 = { holder = 109551 }
 	1033.1.1 = { holder = 109552 }
 	1064.1.1 = { holder = 109555 government = tribal_government }
-	1066.1.1 = { liege = d_duchy0955 }
+	1066.1.1 = { liege = d_duchy0947 }
 	1066.9.15 = { liege = 0 }
-}
-d_duchy0955 = {
-	940.1.1 = { holder = 109550 }
-	1001.1.1 = { holder = 109551 }
-	1033.1.1 = { holder = 109552 }
-	1064.1.1 = { holder = 109555 government = tribal_government }
+	1066.9.15 = { liege = 0 }   # e66 primary after d_duchy0955 was removed
 }
 
 ########## k_kingdom0665
@@ -24114,28 +24038,15 @@ c_province0639 = {
 }
 
 ########## k_kingdom2174
-k_kingdom2174 = {
-	927.1.1 = { holder = 121740 }
-	1005.1.1 = { holder = 121741 }
-	1056.1.1 = { holder = 121742 }
-	1057.1.1 = { holder = 121745 government = feudal_government }
-}
 c_province2174 = {
 	927.1.1 = { holder = 121740 }
 	1000.1.1 = { change_development_level = 28 }
 	1005.1.1 = { holder = 121741 }
 	1056.1.1 = { holder = 121742 }
 	1057.1.1 = { holder = 121745 government = feudal_government }
-	1066.1.1 = { liege = d_duchy2174 }
+	1066.1.1 = { liege = d_duchy2176 }
 	1066.9.15 = { liege = 0 }
-}
-d_duchy2174 = {
-	927.1.1 = { holder = 121740 }
-	1005.1.1 = { holder = 121741 }
-	1056.1.1 = { holder = 121742 }
-	1057.1.1 = { holder = 121745 government = feudal_government }
-	1066.1.1 = { liege = k_kingdom2174 }
-	1066.9.15 = { liege = 0 }
+	1066.9.15 = { liege = 0 }   # e67 primary after k_kingdom2174 was removed
 }
 
 ########## k_kingdom1496
@@ -24165,14 +24076,6 @@ d_duchy1496 = {
 }
 
 ########## k_kingdom0223
-k_kingdom0223 = {
-	928.1.1 = { holder = 102230 }
-	1008.1.1 = { holder = 102231 }
-	1049.1.1 = { holder = 102232 }
-	1060.1.1 = { holder = 102235 government = feudal_government }
-	1066.1.1 = { liege = e_empire0223 }
-	1066.9.15 = { holder = 0 }
-}
 
 ########## k_kingdom1691
 c_province1691 = {
@@ -24181,15 +24084,9 @@ c_province1691 = {
 	1012.1.1 = { holder = 116911 }
 	1051.1.1 = { holder = 116912 }
 	1058.1.1 = { holder = 116915 government = tribal_government }
-	1066.1.1 = { liege = d_duchy1691 }
+	1066.1.1 = { liege = d_duchy1705 }
 	1066.9.15 = { liege = e_empire1522 }
-}
-d_duchy1691 = {
-	946.1.1 = { holder = 116910 }
-	1012.1.1 = { holder = 116911 }
-	1051.1.1 = { holder = 116912 }
-	1058.1.1 = { holder = 116915 government = tribal_government }
-	1066.1.1 = { liege = e_empire1522 }
+	1066.9.15 = { liege = e_empire1522 }   # e66 primary after d_duchy1691 was removed
 }
 
 ########## k_kingdom0976
@@ -24199,14 +24096,9 @@ c_province0976 = {
 	1007.1.1 = { holder = 109761 }
 	1051.1.1 = { holder = 109762 }
 	1060.1.1 = { holder = 109765 government = tribal_government }
-	1066.1.1 = { liege = d_duchy0976 }
+	1066.1.1 = { liege = d_duchy0947 }
 	1066.9.15 = { liege = 0 }
-}
-d_duchy0976 = {
-	949.1.1 = { holder = 109760 }
-	1007.1.1 = { holder = 109761 }
-	1051.1.1 = { holder = 109762 }
-	1060.1.1 = { holder = 109765 government = tribal_government }
+	1066.9.15 = { liege = 0 }   # e66 primary after d_duchy0976 was removed
 }
 
 ########## k_kingdom0954
@@ -24359,14 +24251,9 @@ c_province0024 = {
 	1017.1.1 = { holder = 100241 }
 	1027.1.1 = { holder = 100242 }
 	1063.1.1 = { holder = 100245 government = feudal_government }
-	1066.1.1 = { liege = d_duchy0024 }
+	1066.1.1 = { liege = d_duchy0088 }
 	1066.9.15 = { liege = 0 }
-}
-d_duchy0024 = {
-	945.1.1 = { holder = 100240 }
-	1017.1.1 = { holder = 100241 }
-	1027.1.1 = { holder = 100242 }
-	1063.1.1 = { holder = 100245 government = feudal_government }
+	1066.9.15 = { liege = 0 }   # e66 primary after d_duchy0024 was removed
 }
 
 ########## k_kingdom0981
@@ -24456,14 +24343,9 @@ c_new_tehran = {
 	1025.1.1 = { holder = 104531 }
 	1056.1.1 = { holder = 104532 }
 	1057.1.1 = { holder = 104535 government = tribal_government }
-	1066.1.1 = { liege = d_new_tehran }
+	1066.1.1 = { liege = d_duchy0503 }
 	1066.9.15 = { liege = 0 }
-}
-d_new_tehran = {
-	947.1.1 = { holder = 104530 }
-	1025.1.1 = { holder = 104531 }
-	1056.1.1 = { holder = 104532 }
-	1057.1.1 = { holder = 104535 government = tribal_government }
+	1066.9.15 = { liege = 0 }   # e66 primary after d_new_tehran was removed
 }
 
 ########## k_kingdom1073
@@ -24500,20 +24382,15 @@ c_province1079 = {
 }
 
 ########## k_kingdom0096
-d_duchy0096 = {
-	936.1.1 = { holder = 100960 }
-	1014.1.1 = { holder = 100961 }
-	1046.1.1 = { holder = 100962 }
-	1057.1.1 = { holder = 100965 government = tribal_government }
-}
 c_province0096 = {
 	936.1.1 = { holder = 100960 }
 	1000.1.1 = { change_development_level = 14 }
 	1014.1.1 = { holder = 100961 }
 	1046.1.1 = { holder = 100962 }
 	1057.1.1 = { holder = 100965 government = tribal_government }
-	1066.1.1 = { liege = d_duchy0096 }
+	1066.1.1 = { liege = d_duchy0072 }
 	1066.9.15 = { liege = 0 }
+	1066.9.15 = { liege = 0 }   # e66 primary after d_duchy0096 was removed
 }
 
 ########## k_panama
@@ -24523,7 +24400,7 @@ c_province0046 = {
 	1018.1.1 = { holder = 100461 }
 	1055.1.1 = { holder = 100462 }
 	1062.1.1 = { holder = 100465 government = feudal_government }
-	1066.1.1 = { liege = d_duchy0046 }
+	1066.1.1 = { liege = k_kingdom0120 }
 	1066.9.15 = { liege = 0 }
 	1066.9.15 = { liege = k_kingdom0120 }
 }
@@ -24616,39 +24493,18 @@ c_province0085 = {
 }
 
 ########## k_kingdom1826
-d_duchy1826 = {
-	925.1.1 = { holder = 118260 }
-	1016.1.1 = { holder = 118261 }
-	1025.1.1 = { holder = 118262 }
-	1059.1.1 = { holder = 118265 government = tribal_government }
-	1066.1.1 = { liege = k_kingdom1826 }
-	1066.9.15 = { liege = h_galilean }
-}
-k_kingdom1826 = {
-	925.1.1 = { holder = 118260 }
-	1016.1.1 = { holder = 118261 }
-	1025.1.1 = { holder = 118262 }
-	1059.1.1 = { holder = 118265 government = tribal_government }
-	1066.9.15 = { liege = h_galilean }
-}
 c_province1826 = {
 	925.1.1 = { holder = 118260 }
 	1000.1.1 = { change_development_level = 14 }
 	1016.1.1 = { holder = 118261 }
 	1025.1.1 = { holder = 118262 }
 	1059.1.1 = { holder = 118265 government = tribal_government }
-	1066.1.1 = { liege = d_duchy1826 }
+	1066.1.1 = { liege = d_duchy1829 }
 	1066.9.15 = { liege = h_galilean }
+	1066.9.15 = { liege = h_galilean }   # e67 primary after k_kingdom1826 was removed
 }
 
 ########## k_kingdom0046
-d_duchy0046 = {
-	940.1.1 = { holder = 100460 }
-	1018.1.1 = { holder = 100461 }
-	1055.1.1 = { holder = 100462 }
-	1062.1.1 = { holder = 100465 government = feudal_government }
-	1066.9.15 = { holder = 0 }
-}
 
 ########## k_kingdom0970
 c_province0970 = {
@@ -24657,42 +24513,30 @@ c_province0970 = {
 	1009.1.1 = { holder = 109701 }
 	1049.1.1 = { holder = 109702 }
 	1057.1.1 = { holder = 109705 government = tribal_government }
-	1066.1.1 = { liege = d_duchy0970 }
+	1066.1.1 = { liege = d_duchy0967 }
 	1066.9.15 = { liege = 0 }
-}
-d_duchy0970 = {
-	937.1.1 = { holder = 109700 }
-	1009.1.1 = { holder = 109701 }
-	1049.1.1 = { holder = 109702 }
-	1057.1.1 = { holder = 109705 government = tribal_government }
+	1066.9.15 = { liege = 0 }   # e66 primary after d_duchy0970 was removed
 }
 
 ########## k_kingdom2049
-d_duchy2049 = {
-	947.1.1 = { holder = 120490 }
-	1038.1.1 = { holder = 120491 }
-	1055.1.1 = { holder = 120492 }
-	1056.1.1 = { holder = 120495 government = feudal_government }
-}
 c_province2049 = {
 	947.1.1 = { holder = 120490 }
 	1000.1.1 = { change_development_level = 14 }
 	1038.1.1 = { holder = 120491 }
 	1055.1.1 = { holder = 120492 }
 	1056.1.1 = { holder = 120495 government = feudal_government }
-	1066.1.1 = { liege = d_duchy2049 }
+	1066.1.1 = { liege = d_duchy2074 }
 	1066.9.15 = { liege = 0 }
+	1066.9.15 = { liege = 0 }   # e66 primary after d_duchy2049 was removed
 }
 
 ########## k_kingdom0026
 c_province0026 = {
 	1000.1.1 = { change_development_level = 20 }
 	1066.1.1 = { holder = 100265 government = feudal_government }
-	1066.1.1 = { liege = d_duchy0026 }
+	1066.1.1 = { liege = d_duchy0041 }
 	1066.9.15 = { liege = 0 }
-}
-d_duchy0026 = {
-	1066.1.1 = { holder = 100265 government = feudal_government }
+	1066.9.15 = { liege = 0 }   # e66 primary after d_duchy0026 was removed
 }
 
 ########## k_kingdom0599
@@ -24703,24 +24547,19 @@ k_kingdom0599 = {
 	1060.1.1 = { holder = 105995 government = feudal_government }
 	1066.1.1 = { liege = e_european_union }
 	1066.9.15 = { holder = 8100197 liege = 0 }
+	1066.9.15 = { succession_laws = { feudal_elective_succession_law } }   # e62 UKR
 }
 
 ########## k_kingdom1925
-d_duchy1925 = {
-	932.1.1 = { holder = 119250 }
-	999.1.1 = { holder = 119251 }
-	1053.1.1 = { holder = 119252 }
-	1054.1.1 = { holder = 119255 government = feudal_government }
-	1066.9.15 = { liege = h_galilean }
-}
 c_province1925 = {
 	932.1.1 = { holder = 119250 }
 	999.1.1 = { holder = 119251 }
 	1000.1.1 = { change_development_level = 16 }
 	1053.1.1 = { holder = 119252 }
 	1054.1.1 = { holder = 119255 government = feudal_government }
-	1066.1.1 = { liege = d_duchy1925 }
+	1066.1.1 = { liege = d_duchy1990 }
 	1066.9.15 = { liege = h_galilean }
+	1066.9.15 = { liege = h_galilean }   # e66 primary after d_duchy1925 was removed
 }
 
 ########## k_kingdom2075
@@ -24730,95 +24569,34 @@ c_province2075 = {
 	1038.1.1 = { holder = 120751 }
 	1039.1.1 = { holder = 120752 }
 	1059.1.1 = { holder = 120755 government = feudal_government }
-	1066.1.1 = { liege = d_duchy2075 }
+	1066.1.1 = { liege = d_duchy2069 }
 	1066.9.15 = { liege = 0 }
-}
-d_duchy2075 = {
-	951.1.1 = { holder = 120750 }
-	1038.1.1 = { holder = 120751 }
-	1039.1.1 = { holder = 120752 }
-	1059.1.1 = { holder = 120755 government = feudal_government }
+	1066.9.15 = { liege = 0 }   # e66 primary after d_duchy2075 was removed
 }
 
 ########## k_kingdom2038
-k_kingdom2038 = {
-	934.1.1 = { holder = 120380 }
-	1008.1.1 = { holder = 120381 }
-	1034.1.1 = { holder = 120382 }
-	1057.1.1 = { holder = 120385 government = feudal_government }
-}
-d_duchy2038 = {
-	934.1.1 = { holder = 120380 }
-	1008.1.1 = { holder = 120381 }
-	1034.1.1 = { holder = 120382 }
-	1057.1.1 = { holder = 120385 government = feudal_government }
-	1066.1.1 = { liege = k_kingdom2038 }
-	1066.9.15 = { liege = 0 }
-}
 
 ########## k_kingdom2104
-d_duchy2104 = {
-	925.1.1 = { holder = 121040 }
-	1003.1.1 = { holder = 121041 }
-	1043.1.1 = { holder = 121042 }
-	1055.1.1 = { holder = 121045 government = feudal_government }
-}
 c_province2104 = {
 	925.1.1 = { holder = 121040 }
 	1000.1.1 = { change_development_level = 14 }
 	1003.1.1 = { holder = 121041 }
 	1043.1.1 = { holder = 121042 }
 	1055.1.1 = { holder = 121045 government = feudal_government }
-	1066.1.1 = { liege = d_duchy2104 }
+	1066.1.1 = { liege = d_duchy2091 }
 	1066.9.15 = { liege = 0 }
+	1066.9.15 = { liege = 0 }   # e66 primary after d_duchy2104 was removed
 }
 
 ########## k_kingdom0198
-k_kingdom0198 = {
-	945.1.1 = { holder = 101980 }
-	1031.1.1 = { holder = 101981 }
-	1032.1.1 = { holder = 101982 }
-	1064.1.1 = { holder = 101985 government = feudal_government }
-	1066.1.1 = { liege = e_united_states }
-	1066.9.15 = { holder = 0 }
-}
 
 ########## k_kingdom0247
-k_kingdom0247 = {
-	933.1.1 = { holder = 102470 }
-	1008.1.1 = { holder = 102471 }
-	1019.1.1 = { holder = 102472 }
-	1053.1.1 = { holder = 102475 government = feudal_government }
-	1066.1.1 = { liege = e_empire0223 }
-	1066.9.15 = { holder = 0 }
-}
 
 ########## k_kingdom0276
-k_kingdom0276 = {
-	932.1.1 = { holder = 102760 }
-	993.1.1 = { holder = 102761 }
-	1023.1.1 = { holder = 102762 }
-	1053.1.1 = { holder = 102765 government = feudal_government }
-	1066.1.1 = { liege = e_empire0223 }
-	1066.9.15 = { holder = 0 }
-}
 
 ########## k_kingdom1056
-k_kingdom1056 = {
-	928.1.1 = { holder = 110560 }
-	1023.1.1 = { holder = 110561 }
-	1036.1.1 = { holder = 110562 }
-	1060.1.1 = { holder = 110565 government = feudal_government }
-	1066.9.15 = { holder = 0 }
-}
 
 ########## k_texas
-k_texas = {
-	1066.1.1 = { holder = 101505 government = feudal_government }
-	1066.1.1 = { liege = e_united_states }
-	1066.9.15 = { holder = 0 }
-	1066.9.15 = { holder = 101505 liege = e_united_states }	# e37 custom character
-}
 
 ########## k_kingdom0184
 ########## h_eurasia
@@ -25029,7 +24807,7 @@ c_laredo = {
 	1066.1.1 = { liege = d_duchy0074 }
 	1066.9.15 = { liege = k_mexico }
 	1066.9.15 = { holder = 101615 liege = e_united_states }
-	1066.9.15 = { liege = k_texas }	# e37 custom character
+	1066.9.15 = { liege = d_duchy0126 }	# e37 custom character
 }
 # US redraw 2026-11-10: copied from c_district_of_columbia
 c_virginia = {
@@ -25078,7 +24856,7 @@ c_gaza_strip = {
 	1000.1.1 = { change_development_level = 19 }
 	1066.1.1 = { holder = 8100113 government = feudal_government }
 	1066.1.1 = { liege = e_european_union }
-	1066.9.15 = { liege = e_empire0836 }
+	1066.9.15 = { liege = 0 }
 }
 # Earth redraw 2026-11-10: copied from c_province0733
 c_kismayo = {
@@ -25107,6 +24885,7 @@ c_vinnytsya = {
 	1066.1.1 = { holder = 8100375 government = feudal_government }
 	1066.9.15 = { liege = k_western_europe }
 	1066.9.15 = { liege = k_kingdom0599 }
+	1066.9.15 = { holder = 8100197 liege = 0 }   # e68
 }
 # Earth redraw 2026-11-10: copied from c_province0596
 c_kyiv = {
@@ -25119,15 +24898,15 @@ c_kyiv = {
 c_lebanon = {
 	1000.1.1 = { change_development_level = 14 }
 	1066.1.1 = { holder = 8100202 government = feudal_government }
-	1066.1.1 = { liege = e_empire0836 }
-	1066.9.15 = { liege = e_empire0836 }
+	1066.1.1 = { liege = 0 }
+	1066.9.15 = { liege = 0 }
 }
 # Earth redraw 2026-11-10: copied from c_province0636
 c_damascus = {
 	1000.1.1 = { change_development_level = 14 }
 	1066.1.1 = { holder = 8100091 government = feudal_government }
-	1066.1.1 = { liege = e_empire0836 }
-	1066.9.15 = { liege = e_empire0836 }
+	1066.1.1 = { liege = 0 }
+	1066.9.15 = { liege = 0 }
 }
 # Earth redraw 2026-11-10: copied from c_province0735
 c_east_kazakhstan = {
@@ -25155,6 +24934,7 @@ c_belgium = {
 	1066.1.1 = { holder = 8100040 government = feudal_government }
 	1066.1.1 = { liege = d_france }
 	1066.9.15 = { liege = e_european_union }
+	1066.9.15 = { holder = 105285 liege = 0 }   # e61
 }
 # Earth redraw 2026-11-10: copied from c_berlin
 c_luxembourg = {
@@ -25162,6 +24942,7 @@ c_luxembourg = {
 	1066.1.1 = { holder = 8100213 government = feudal_government }
 	1066.9.15 = { liege = e_european_union }
 	1066.9.15 = { liege = e_european_union }
+	1066.9.15 = { holder = 105285 liege = 0 }   # e61
 }
 # Earth redraw 2026-11-10: copied from c_province0635
 c_krasnodar = {
@@ -25181,9 +24962,9 @@ c_makhachkala = {
 c_rabat = {
 	1000.1.1 = { change_development_level = 24 }
 	1066.1.1 = { holder = 8100293 government = feudal_government }
-	1066.9.15 = { liege = e_empire0836 }
-	1066.9.15 = { liege = e_empire0836 }
-	1066.9.15 = { holder = 400138 liege = e_empire0836 }	# e37 custom character
+	1066.9.15 = { liege = 0 }
+	1066.9.15 = { liege = 0 }
+	1066.9.15 = { holder = 400138 liege = 0 }	# e37 custom character
 }
 # Earth redraw 2026-11-10: copied from c_province0905
 c_mengzi = {
@@ -25197,6 +24978,7 @@ c_kyrgyzstan = {
 	1000.1.1 = { change_development_level = 4 }
 	1066.1.1 = { holder = 8100198 government = tribal_government }
 	1066.1.1 = { liege = d_duchy0742 }
+	1066.9.15 = { liege = h_eurasia }   # e59 repoint
 }
 # Earth redraw 2026-11-10: copied from c_province0635
 c_tbilisi = {
@@ -25210,6 +24992,7 @@ c_shymkent = {
 	1000.1.1 = { change_development_level = 4 }
 	1066.1.1 = { holder = 8100330 government = tribal_government }
 	1066.1.1 = { liege = d_duchy0742 }
+	1066.9.15 = { liege = h_eurasia }   # e59 repoint
 }
 # Earth redraw 2026-11-10: copied from c_province0036
 c_acre = {
@@ -25280,6 +25063,7 @@ c_korhogo = {
 	1066.1.1 = { holder = 8100187 government = tribal_government }
 	1066.9.15 = { liege = d_duchy0425 }
 	1066.9.15 = { liege = d_worodougou }
+	1066.9.15 = { holder = 8100056 liege = 0 }   # e68
 }
 # Earth redraw 2026-11-10: copied from c_moscow
 c_saint_petersburg = {
@@ -25299,15 +25083,17 @@ c_budapest = {
 c_kayes = {
 	1000.1.1 = { change_development_level = 4 }
 	1066.1.1 = { holder = 8100176 government = tribal_government }
-	1066.9.15 = { liege = e_empire0836 }
+	1066.9.15 = { liege = 0 }
 	1066.9.15 = { liege = k_kingdom0507 }
+	1066.9.15 = { holder = 104335 liege = 0 }   # e68
 }
 # Earth redraw 2026-11-10: copied from c_province0422
 c_ziguinchor = {
 	1000.1.1 = { change_development_level = 4 }
 	1066.1.1 = { holder = 8100405 government = tribal_government }
-	1066.9.15 = { liege = e_empire0836 }
+	1066.9.15 = { liege = 0 }
 	1066.9.15 = { liege = d_kayes }
+	1066.9.15 = { holder = 104045 liege = 0 }   # e68
 }
 # Earth redraw 2026-11-10: copied from c_province0523
 c_benin = {
@@ -25336,6 +25122,7 @@ c_siliguri = {
 	1066.1.1 = { holder = 8100332 government = feudal_government }
 	1066.1.1 = { liege = d_duchy0878 }
 	1066.9.15 = { liege = e_empire0897 }
+	1066.9.15 = { liege = d_west_bengal }   # e60 state vassal
 }
 # Earth redraw 2026-11-10: copied from c_province0554
 c_san_marino = {
@@ -25362,8 +25149,8 @@ c_maiduguri = {
 c_kuwait = {
 	1000.1.1 = { change_development_level = 11 }
 	1066.1.1 = { holder = 8100196 government = feudal_government }
-	1066.1.1 = { liege = e_empire0836 }
-	1066.9.15 = { liege = e_empire0836 }
+	1066.1.1 = { liege = 0 }
+	1066.9.15 = { liege = 0 }
 }
 # Earth redraw 2026-11-10: copied from c_province0965
 c_brunei = {
@@ -25392,6 +25179,7 @@ c_chattogram = {
 	1066.1.1 = { holder = 8100076 government = feudal_government }
 	1066.1.1 = { liege = d_duchy0878 }
 	1066.9.15 = { liege = d_chattogram }
+	1066.9.15 = { holder = 108645 liege = 0 }   # e68
 }
 # Earth redraw 2026-11-10: copied from c_province0506
 c_andorra = {
@@ -25434,6 +25222,7 @@ c_corumba = {
 	1066.1.1 = { holder = 8100084 government = tribal_government }
 	1066.9.15 = { liege = k_brazil }
 	1066.9.15 = { liege = e_latin_america }
+	1066.9.15 = { liege = d_campo_grande }   # e60 state vassal
 }
 # Earth redraw 2026-11-10: copied from c_province0104
 c_londrina = {
@@ -25483,6 +25272,7 @@ c_berlin_x = {
 	1066.1.1 = { holder = 8100047 government = feudal_government }
 	1066.9.15 = { liege = k_western_europe }
 	1066.9.15 = { liege = k_ck_germany }
+	1066.9.15 = { liege = 0 }   # e61
 }
 # Earth redraw 2026-11-10: copied from c_province0558
 c_mecklenburg_western_pomerania = {
@@ -25572,12 +25362,13 @@ c_ahvaz = {
 	1066.1.1 = { holder = 8100007 government = feudal_government }
 	1066.9.15 = { liege = k_kingdom0704 }
 	1066.9.15 = { liege = k_kingdom0704 }
+	1066.9.15 = { holder = 107045 liege = 0 }   # e68
 }
 # Earth redraw 2026-11-10: copied from c_province0880
 c_imphal = {
 	1000.1.1 = { change_development_level = 14 }
 	1066.1.1 = { holder = 8100142 government = feudal_government }
-	1066.9.15 = { liege = d_duchy0880 }
+	1066.9.15 = { liege = d_northeast_india }
 	1066.9.15 = { liege = e_empire0897 }
 }
 # Earth redraw 2026-11-10: copied from c_province0878
@@ -25593,6 +25384,7 @@ c_mawlamyine = {
 	1066.1.1 = { holder = 8100223 government = feudal_government }
 	1066.1.1 = { liege = d_duchy0927 }
 	1066.9.15 = { liege = k_kingdom0880 }
+	1066.9.15 = { liege = k_ck_myanmar }   # e59 repoint
 }
 # Earth redraw 2026-11-10: copied from c_province0921
 c_thanh_hoa = {
@@ -25605,28 +25397,28 @@ c_thanh_hoa = {
 c_newcastle = {
 	1000.1.1 = { change_development_level = 19 }
 	1066.1.1 = { holder = 8100257 government = feudal_government }
-	1066.1.1 = { liege = d_duchy0778 }
+	1066.1.1 = { liege = d_duchy0713 }
 	1066.9.15 = { liege = d_free_state }
 }
 # Earth redraw 2026-11-10: copied from c_province0806
 c_bloemfontein = {
 	1000.1.1 = { change_development_level = 19 }
 	1066.1.1 = { holder = 8100053 government = feudal_government }
-	1066.1.1 = { liege = d_duchy0778 }
+	1066.1.1 = { liege = d_duchy0713 }
 	1066.9.15 = { liege = k_kingdom0750 }
 }
 # Earth redraw 2026-11-10: copied from c_province0807
 c_east_london = {
 	1000.1.1 = { change_development_level = 17 }
 	1066.1.1 = { holder = 8100103 government = feudal_government }
-	1066.1.1 = { liege = d_duchy0778 }
+	1066.1.1 = { liege = d_duchy0713 }
 	1066.9.15 = { liege = d_eastern_cape }
 }
 # Earth redraw 2026-11-10: copied from c_province0806
 c_lesotho = {
 	1000.1.1 = { change_development_level = 19 }
 	1066.1.1 = { holder = 8100203 government = feudal_government }
-	1066.1.1 = { liege = d_duchy0778 }
+	1066.1.1 = { liege = d_duchy0713 }
 	1066.9.15 = { liege = 0 }
 }
 # Earth redraw 2026-11-10: copied from c_province0778
@@ -25670,6 +25462,7 @@ c_north_cameroon = {
 	1066.1.1 = { holder = 8100261 government = tribal_government }
 	1066.1.1 = { liege = d_duchy0572 }
 	1066.9.15 = { liege = d_duchy0572 }
+	1066.9.15 = { liege = d_ck_cameroon }   # e59 repoint
 }
 # Earth redraw 2026-11-10: copied from c_province0572
 c_bamenda = {
@@ -25677,6 +25470,7 @@ c_bamenda = {
 	1066.1.1 = { holder = 8100026 government = tribal_government }
 	1066.9.15 = { liege = d_duchy0572 }
 	1066.9.15 = { liege = d_duchy0572 }
+	1066.9.15 = { liege = d_ck_cameroon }   # e59 repoint
 }
 # Earth redraw 2026-11-10: copied from c_province0572
 c_okene = {
@@ -25719,6 +25513,7 @@ c_thi_tran_thuan_chau = {
 	1066.1.1 = { holder = 8100358 government = feudal_government }
 	1066.1.1 = { liege = d_duchy0930 }
 	1066.9.15 = { liege = k_kingdom0930 }
+	1066.9.15 = { holder = 109085 liege = 0 }   # e68
 }
 # Earth redraw 2026-11-10: copied from c_province0908
 c_haiphong = {
@@ -25726,6 +25521,7 @@ c_haiphong = {
 	1066.1.1 = { holder = 8100127 government = feudal_government }
 	1066.9.15 = { liege = d_duchy0908 }
 	1066.9.15 = { liege = k_kingdom0930 }
+	1066.9.15 = { holder = 109085 liege = 0 }   # e68
 }
 # Earth redraw 2026-11-10: copied from c_province0878
 c_rajshahi = {
@@ -25733,6 +25529,7 @@ c_rajshahi = {
 	1066.1.1 = { holder = 8100297 government = feudal_government }
 	1066.9.15 = { liege = d_duchy0878 }
 	1066.9.15 = { liege = d_chattogram }
+	1066.9.15 = { holder = 108645 liege = 0 }   # e68
 }
 # Earth redraw 2026-11-10: copied from c_province0241
 c_nanaimo = {
@@ -25782,6 +25579,7 @@ c_bolivar = {
 	1066.1.1 = { holder = 8100055 government = feudal_government }
 	1066.1.1 = { liege = d_duchy0120 }
 	1066.9.15 = { liege = k_kingdom0162 }
+	1066.9.15 = { liege = k_ck_venezuela }   # e59 repoint
 }
 # Earth redraw 2026-11-10: copied from c_province0005
 c_chiclayo = {
@@ -25810,6 +25608,7 @@ c_maracaibo = {
 	1066.1.1 = { holder = 8100222 government = feudal_government }
 	1066.9.15 = { liege = k_kingdom0120 }
 	1066.9.15 = { liege = k_kingdom0162 }
+	1066.9.15 = { liege = k_ck_venezuela }   # e59 repoint
 }
 # Earth redraw 2026-11-10: copied from c_province0120
 c_cucuta = {
@@ -25824,6 +25623,7 @@ c_peshawar = {
 	1066.1.1 = { holder = 8100279 government = tribal_government }
 	1066.1.1 = { liege = d_duchy0800 }
 	1066.9.15 = { liege = k_kingdom0821 }
+	1066.9.15 = { liege = k_ck_pakistan }   # e59 repoint
 }
 # Earth redraw 2026-11-10: copied from c_islamabad
 c_federally_administered_tribal_areas = {
@@ -25831,6 +25631,7 @@ c_federally_administered_tribal_areas = {
 	1066.1.1 = { holder = 8100106 government = tribal_government }
 	1066.1.1 = { liege = d_duchy0800 }
 	1066.9.15 = { liege = k_kingdom0821 }
+	1066.9.15 = { liege = k_ck_pakistan }   # e59 repoint
 }
 # Earth redraw 2026-11-10: copied from c_province0665
 c_kostanay = {
@@ -25856,27 +25657,27 @@ c_jordan = {
 	1000.1.1 = { change_development_level = 19 }
 	1066.1.1 = { holder = 8100159 government = feudal_government }
 	1066.1.1 = { liege = e_european_union }
-	1066.9.15 = { liege = e_empire0836 }
+	1066.9.15 = { liege = 0 }
 }
 # Earth redraw 2026-11-10: copied from c_mecca
 c_najran = {
 	1000.1.1 = { change_development_level = 22 }
 	1066.1.1 = { holder = 8100246 government = feudal_government }
-	1066.9.15 = { liege = e_empire0836 }
+	1066.9.15 = { liege = 0 }
 	1066.9.15 = { liege = k_kingdom0989 }
 }
 # Earth redraw 2026-11-10: copied from c_mecca
 c_asir = {
 	1000.1.1 = { change_development_level = 22 }
 	1066.1.1 = { holder = 8100017 government = feudal_government }
-	1066.9.15 = { liege = e_empire0836 }
+	1066.9.15 = { liege = 0 }
 	1066.9.15 = { liege = k_kingdom0989 }
 }
 # Earth redraw 2026-11-10: copied from c_cairo
 c_kom_ombo = {
 	1000.1.1 = { change_development_level = 24 }
 	1066.1.1 = { holder = 8100186 government = feudal_government }
-	1066.9.15 = { liege = e_empire0836 }
+	1066.9.15 = { liege = 0 }
 	1066.9.15 = { liege = d_cairo }
 }
 # Earth redraw 2026-11-10: copied from c_province0733
@@ -25912,7 +25713,8 @@ c_njeru = {
 	1000.1.1 = { change_development_level = 13 }
 	1066.1.1 = { holder = 8100259 government = tribal_government }
 	1066.1.1 = { liege = d_duchy0736 }
-	1066.9.15 = { liege = d_north_kivu }
+	1066.9.15 = { liege = d_duchy0701 }
+	1066.9.15 = { liege = d_ck_uganda }   # e59 repoint
 }
 # Earth redraw 2026-11-10: copied from c_province0592
 c_libreville = {
@@ -25939,14 +25741,14 @@ c_kananga = {
 c_malanje = {
 	1000.1.1 = { change_development_level = 13 }
 	1066.1.1 = { holder = 8100220 government = tribal_government }
-	1066.9.15 = { liege = d_duchy0648 }
+	1066.9.15 = { liege = d_duchy0620 }
 	1066.9.15 = { liege = d_huila }
 }
 # Earth redraw 2026-11-10: copied from c_province0806
 c_swaziland = {
 	1000.1.1 = { change_development_level = 19 }
 	1066.1.1 = { holder = 8100344 government = feudal_government }
-	1066.1.1 = { liege = d_duchy0778 }
+	1066.1.1 = { liege = d_duchy0713 }
 	1066.9.15 = { liege = 0 }
 }
 # Earth redraw 2026-11-10: copied from c_province0759
@@ -25955,6 +25757,7 @@ c_kitwe = {
 	1066.1.1 = { holder = 8100183 government = feudal_government }
 	1066.9.15 = { liege = d_duchy0759 }
 	1066.9.15 = { liege = d_duchy0759 }
+	1066.9.15 = { holder = 107595 liege = 0 }   # e68
 }
 # Earth redraw 2026-11-10: copied from c_province0803
 c_tete = {
@@ -25968,7 +25771,7 @@ c_khartoum = {
 	1000.1.1 = { change_development_level = 12 }
 	1066.1.1 = { holder = 8100178 government = feudal_government }
 	1066.1.1 = { liege = d_duchy0666 }
-	1066.9.15 = { liege = e_empire0836 }
+	1066.9.15 = { liege = 0 }
 }
 # Earth redraw 2026-11-10: copied from c_province0800
 c_ludhiana = {
@@ -25990,6 +25793,8 @@ c_sukkur = {
 	1066.1.1 = { holder = 8100342 government = tribal_government }
 	1066.1.1 = { liege = d_duchy0800 }
 	1066.9.15 = { liege = k_kingdom0821 }
+	1066.9.15 = { liege = k_ck_pakistan }   # e59 repoint
+	1066.9.15 = { liege = d_duchy0800 }   # e60 state vassal
 }
 # Earth redraw 2026-11-10: copied from c_province0804
 c_mirpur_khas = {
@@ -25997,6 +25802,8 @@ c_mirpur_khas = {
 	1066.1.1 = { holder = 8100231 government = tribal_government }
 	1066.1.1 = { liege = d_duchy0821 }
 	1066.9.15 = { liege = k_kingdom0821 }
+	1066.9.15 = { liege = k_ck_pakistan }   # e59 repoint
+	1066.9.15 = { liege = d_duchy0800 }   # e60 state vassal
 }
 # Earth redraw 2026-11-10: copied from c_province0903
 c_shantou = {
@@ -26038,13 +25845,14 @@ c_muzaffarabad = {
 	1066.1.1 = { holder = 8100242 government = tribal_government }
 	1066.1.1 = { liege = d_duchy0800 }
 	1066.9.15 = { liege = k_kingdom0821 }
+	1066.9.15 = { liege = k_ck_pakistan }   # e59 repoint
 }
 # Earth redraw 2026-11-10: copied from c_province0654
 c_baghdad = {
 	1000.1.1 = { change_development_level = 12 }
 	1066.1.1 = { holder = 8100022 government = feudal_government }
-	1066.1.1 = { liege = e_empire0836 }
-	1066.9.15 = { liege = e_empire0836 }
+	1066.1.1 = { liege = 0 }
+	1066.9.15 = { liege = 0 }
 }
 # Earth redraw 2026-11-10: copied from c_province0240
 c_teresina = {
@@ -26057,36 +25865,38 @@ c_teresina = {
 c_joao_pessoa = {
 	1000.1.1 = { change_development_level = 24 }
 	1066.1.1 = { holder = 8100155 government = feudal_government }
-	1066.9.15 = { liege = e_empire0223 }
+	1066.9.15 = { liege = 0 }
 	1066.9.15 = { liege = e_latin_america }
 }
 # Earth redraw 2026-11-10: copied from c_province0243
 c_petrolina = {
 	1000.1.1 = { change_development_level = 14 }
 	1066.1.1 = { holder = 8100280 government = feudal_government }
-	1066.9.15 = { liege = k_kingdom0247 }
+	1066.9.15 = { liege = 0 }
 	1066.9.15 = { liege = e_latin_america }
+	1066.9.15 = { liege = d_duchy0276 }   # e60 state vassal
 }
 # Earth redraw 2026-11-10: copied from c_province0276
 c_maceio = {
 	1000.1.1 = { change_development_level = 24 }
 	1066.1.1 = { holder = 8100216 government = feudal_government }
-	1066.9.15 = { liege = e_empire0223 }
+	1066.9.15 = { liege = 0 }
 	1066.9.15 = { liege = e_latin_america }
 }
 # Earth redraw 2026-11-10: copied from c_province0276
 c_aracaju = {
 	1000.1.1 = { change_development_level = 24 }
 	1066.1.1 = { holder = 8100014 government = feudal_government }
-	1066.9.15 = { liege = e_empire0223 }
+	1066.9.15 = { liege = 0 }
 	1066.9.15 = { liege = e_latin_america }
 }
 # Earth redraw 2026-11-10: copied from c_province0234
 c_guanambi = {
 	1000.1.1 = { change_development_level = 26 }
 	1066.1.1 = { holder = 8100117 government = feudal_government }
-	1066.9.15 = { liege = e_empire0223 }
+	1066.9.15 = { liege = 0 }
 	1066.9.15 = { liege = e_latin_america }
+	1066.9.15 = { liege = d_irece }   # e60 state vassal
 }
 # Earth redraw 2026-11-10: copied from c_province0202
 c_serra = {
@@ -26099,7 +25909,7 @@ c_serra = {
 c_sao_jose_do_rio_preto = {
 	1000.1.1 = { change_development_level = 22 }
 	1066.1.1 = { holder = 8100318 government = feudal_government }
-	1066.9.15 = { liege = e_empire0223 }
+	1066.9.15 = { liege = 0 }
 	1066.9.15 = { liege = d_rio }
 }
 # Earth redraw 2026-11-10: copied from c_melbourne
@@ -26108,12 +25918,13 @@ c_wodonga = {
 	1066.1.1 = { holder = 8100384 government = feudal_government }
 	1066.9.15 = { liege = d_melbourne }
 	1066.9.15 = { liege = k_kingdom1064 }
+	1066.9.15 = { liege = d_bendigo }   # e60 state vassal
 }
 # Earth redraw 2026-11-10: copied from c_province0656
 c_benguela = {
 	1000.1.1 = { change_development_level = 4 }
 	1066.1.1 = { holder = 8100044 government = tribal_government }
-	1066.1.1 = { liege = d_duchy0648 }
+	1066.1.1 = { liege = d_duchy0620 }
 	1066.9.15 = { liege = d_huila }
 }
 # Earth redraw 2026-11-10: copied from c_province0761
@@ -26141,7 +25952,7 @@ c_manabi = {
 c_cali = {
 	1000.1.1 = { change_development_level = 17 }
 	1066.1.1 = { holder = 8100063 government = feudal_government }
-	1066.9.15 = { liege = d_duchy0046 }
+	1066.9.15 = { liege = k_kingdom0120 }
 	1066.9.15 = { liege = k_kingdom0120 }
 }
 # Earth redraw 2026-11-10: copied from c_darien
@@ -26192,6 +26003,8 @@ c_barcelona_x = {
 	1066.1.1 = { holder = 8100030 government = feudal_government }
 	1066.1.1 = { liege = d_duchy0120 }
 	1066.9.15 = { liege = k_kingdom0162 }
+	1066.9.15 = { liege = k_ck_venezuela }   # e59 repoint
+	1066.9.15 = { holder = 101545 liege = 0 }   # e68
 }
 # Earth redraw 2026-11-10: copied from c_province0562
 c_benin_city = {
@@ -26204,14 +26017,15 @@ c_benin_city = {
 c_dondo = {
 	1000.1.1 = { change_development_level = 13 }
 	1066.1.1 = { holder = 8100098 government = tribal_government }
-	1066.9.15 = { liege = d_duchy0648 }
+	1066.9.15 = { liege = d_duchy0620 }
 	1066.9.15 = { liege = d_huila }
+	1066.9.15 = { holder = 106485 liege = 0 }   # e68
 }
 # Earth redraw 2026-11-10: copied from c_province0454
 c_casablanca = {
 	1000.1.1 = { change_development_level = 24 }
 	1066.1.1 = { holder = 8100070 government = feudal_government }
-	1066.9.15 = { liege = e_empire0836 }
+	1066.9.15 = { liege = 0 }
 	1066.9.15 = { liege = k_kingdom0454 }
 }
 # Earth redraw 2026-11-10: copied from c_province0913
@@ -26230,7 +26044,7 @@ c_fuzhou = {
 c_port_said = {
 	1000.1.1 = { change_development_level = 24 }
 	1066.1.1 = { holder = 8100285 government = feudal_government }
-	1066.9.15 = { liege = e_empire0836 }
+	1066.9.15 = { liege = 0 }
 	1066.9.15 = { liege = k_kingdom0622 }
 }
 # Earth redraw 2026-11-10: copied from c_jerusalem
@@ -26280,6 +26094,7 @@ c_yangon = {
 	1066.1.1 = { holder = 8100390 government = feudal_government }
 	1066.1.1 = { liege = d_duchy0927 }
 	1066.9.15 = { liege = k_kingdom0880 }
+	1066.9.15 = { liege = k_ck_myanmar }   # e59 repoint
 }
 # Earth redraw 2026-11-10: copied from c_province0964
 c_johor_bahru = {
@@ -26313,6 +26128,8 @@ c_pyongyang = {
 	1066.1.1 = { holder = 8100290 government = feudal_government }
 	1066.1.1 = { }
 	1066.9.15 = { liege = d_north_gyeongsang }
+	1066.9.15 = { liege = d_north_gyeongsang }   # e59 repoint
+	1066.9.15 = { holder = 108435 liege = 0 }   # e68
 }
 # Earth redraw 2026-11-10: copied from c_province0856
 c_nagpur = {
@@ -26320,6 +26137,7 @@ c_nagpur = {
 	1066.1.1 = { holder = 8100245 government = feudal_government }
 	1066.1.1 = { liege = d_duchy0866 }
 	1066.9.15 = { liege = e_empire0897 }
+	1066.9.15 = { liege = d_duchy0840 }   # e60 state vassal
 }
 # Earth redraw 2026-11-10: copied from c_province0866
 c_kalaburagi = {
@@ -26327,6 +26145,7 @@ c_kalaburagi = {
 	1066.1.1 = { holder = 8100168 government = feudal_government }
 	1066.9.15 = { liege = k_kingdom0821 }
 	1066.9.15 = { liege = e_empire0897 }
+	1066.9.15 = { liege = d_karnataka }   # e60 state vassal
 }
 # Earth redraw 2026-11-10: copied from c_province0900
 c_kanayannur = {
@@ -26368,7 +26187,7 @@ c_sanaa = {
 	1000.1.1 = { change_development_level = 4 }
 	1066.1.1 = { holder = 8100312 government = tribal_government }
 	1066.1.1 = { liege = d_mecca }
-	1066.9.15 = { liege = e_empire0836 }
+	1066.9.15 = { liege = 0 }
 }
 # Earth redraw 2026-11-10: copied from c_province0120
 c_barinas = {
@@ -26376,6 +26195,7 @@ c_barinas = {
 	1066.1.1 = { holder = 8100031 government = feudal_government }
 	1066.9.15 = { liege = k_kingdom0120 }
 	1066.9.15 = { liege = k_kingdom0162 }
+	1066.9.15 = { liege = k_ck_venezuela }   # e59 repoint
 }
 # Earth redraw 2026-11-10: copied from c_province0581
 c_lviv = {
@@ -26403,7 +26223,7 @@ c_tunis = {
 	1000.1.1 = { change_development_level = 17 }
 	1066.1.1 = { holder = 8100365 government = feudal_government }
 	1066.1.1 = { liege = d_duchy0526 }
-	1066.9.15 = { liege = e_empire0836 }
+	1066.9.15 = { liege = 0 }
 }
 # Earth redraw 2026-11-10: copied from c_province0864
 c_dhanbad = {
@@ -26411,6 +26231,7 @@ c_dhanbad = {
 	1066.1.1 = { holder = 8100093 government = feudal_government }
 	1066.1.1 = { liege = d_duchy0878 }
 	1066.9.15 = { liege = e_empire0897 }
+	1066.9.15 = { liege = d_ck_jharkhand }   # e60b
 }
 # Earth redraw 2026-11-10: copied from c_province0932
 c_kabin_buri = {
@@ -26418,6 +26239,7 @@ c_kabin_buri = {
 	1066.1.1 = { holder = 8100164 government = feudal_government }
 	1066.1.1 = { liege = d_duchy0918 }
 	1066.9.15 = { liege = d_northeastern }
+	1066.9.15 = { holder = 400089 liege = 0 }   # e68
 }
 # Earth redraw 2026-11-10: copied from c_province0918
 c_khon_kaen = {
@@ -26493,8 +26315,9 @@ c_ucayali = {
 c_fes = {
 	1000.1.1 = { change_development_level = 24 }
 	1066.1.1 = { holder = 8100107 government = feudal_government }
-	1066.9.15 = { liege = e_empire0836 }
+	1066.9.15 = { liege = 0 }
 	1066.9.15 = { liege = k_kingdom0454 }
+	1066.9.15 = { holder = 400138 liege = 0 }   # e68
 }
 # Earth redraw 2026-11-10: copied from c_province0584
 c_kosovo = {
@@ -26516,6 +26339,7 @@ c_san_pedro_sula = {
 	1066.1.1 = { holder = 8100311 government = feudal_government }
 	1066.9.15 = { }
 	1066.9.15 = { liege = d_central_america }
+	1066.9.15 = { liege = d_ck_honduras }   # e59 repoint
 }
 # Earth redraw 2026-11-10: copied from c_belize
 c_guatemala_city = {
@@ -26634,6 +26458,8 @@ c_battambang = {
 	1066.1.1 = { holder = 8100035 government = feudal_government }
 	1066.1.1 = { liege = d_duchy0941 }
 	1066.9.15 = { liege = d_duchy0941 }
+	1066.9.15 = { liege = d_ck_cambodia }   # e59 repoint
+	1066.9.15 = { holder = 109395 liege = 0 }   # e68
 }
 # Earth redraw 2026-11-10: copied from c_province0202
 c_belo_horizonte = {
@@ -26655,6 +26481,7 @@ c_bhutan = {
 	1066.1.1 = { holder = 8100050 government = feudal_government }
 	1066.1.1 = { liege = d_duchy0878 }
 	1066.9.15 = { liege = 0 }
+	1066.9.15 = { holder = 400113 liege = 0 }   # e77 Wangchuck king back in Bhutan
 }
 # Earth redraw 2026-11-10: copied from c_province0596
 c_minsk = {
@@ -26676,6 +26503,7 @@ c_constantine = {
 	1066.1.1 = { holder = 8100083 government = feudal_government }
 	1066.9.15 = { liege = k_kingdom0580 }
 	1066.9.15 = { liege = k_kingdom0580 }
+	1066.9.15 = { holder = 105265 liege = 0 }   # e68
 }
 # Earth redraw 2026-11-10: copied from c_province0516
 c_bechar = {
@@ -26697,6 +26525,7 @@ c_batna = {
 	1066.1.1 = { holder = 8100034 government = feudal_government }
 	1066.9.15 = { liege = k_kingdom0580 }
 	1066.9.15 = { liege = k_kingdom0580 }
+	1066.9.15 = { holder = 105265 liege = 0 }   # e68
 }
 # Earth redraw 2026-11-10: copied from c_province0584
 c_albania = {
@@ -26711,6 +26540,7 @@ c_izmir = {
 	1066.1.1 = { holder = 8100147 government = feudal_government }
 	1066.1.1 = { liege = d_duchy0622 }
 	1066.9.15 = { liege = k_istanbul }
+	1066.9.15 = { holder = 106045 liege = 0 }   # e68
 }
 # Earth redraw 2026-11-10: copied from c_province0632
 c_elazg = {
@@ -26767,6 +26597,7 @@ c_kostroma = {
 	1066.1.1 = { holder = 8100190 government = tribal_government }
 	1066.9.15 = { liege = e_empire1034 }
 	1066.9.15 = { liege = e_empire1034 }
+	1066.9.15 = { holder = 106215 liege = 0 }   # e68
 }
 # Earth redraw 2026-11-10: copied from c_province0607
 c_ryazan = {
@@ -26774,6 +26605,7 @@ c_ryazan = {
 	1066.1.1 = { holder = 8100306 government = tribal_government }
 	1066.9.15 = { liege = e_empire1034 }
 	1066.9.15 = { liege = e_empire1034 }
+	1066.9.15 = { holder = 106215 liege = 0 }   # e68
 }
 # Earth redraw 2026-11-10: copied from c_province0607
 c_nizhniy_novgorod = {
@@ -26781,6 +26613,7 @@ c_nizhniy_novgorod = {
 	1066.1.1 = { holder = 8100258 government = tribal_government }
 	1066.9.15 = { liege = e_empire1034 }
 	1066.9.15 = { liege = e_empire1034 }
+	1066.9.15 = { holder = 106215 liege = 0 }   # e68
 }
 # Earth redraw 2026-11-10: copied from c_province0596
 c_tula = {
@@ -26829,6 +26662,7 @@ c_mexico_city = {
 	1066.1.1 = { holder = 8100227 government = feudal_government }
 	1066.1.1 = { liege = d_duchy0042 }
 	1066.9.15 = { liege = k_mexico }
+	1066.9.15 = { holder = 101315 liege = 0 }   # e68
 }
 # Earth redraw 2026-11-10: copied from c_province0038
 c_puebla = {
@@ -26876,7 +26710,7 @@ c_victoria_de_durango = {
 c_mizdah = {
 	1000.1.1 = { change_development_level = 22 }
 	1066.1.1 = { holder = 8100232 government = feudal_government }
-	1066.9.15 = { liege = e_empire0836 }
+	1066.9.15 = { liege = 0 }
 	1066.9.15 = { liege = d_duchy0595 }
 }
 # Earth redraw 2026-11-10: copied from c_province0704
@@ -26913,6 +26747,7 @@ c_warangal = {
 	1066.1.1 = { holder = 8100380 government = feudal_government }
 	1066.1.1 = { liege = d_duchy0866 }
 	1066.9.15 = { liege = e_empire0897 }
+	1066.9.15 = { liege = d_hyderabad }   # e60 state vassal
 }
 # Earth redraw 2026-11-10: copied from c_province0701
 c_burundi = {
@@ -26927,6 +26762,7 @@ c_bobo_dioulasso = {
 	1066.1.1 = { holder = 8100054 government = tribal_government }
 	1066.9.15 = { liege = d_duchy0476 }
 	1066.9.15 = { liege = d_northern_ghana }
+	1066.9.15 = { holder = 8100271 liege = 0 }   # e68
 }
 # Earth redraw 2026-11-10: copied from c_province0476
 c_ouagadougou = {
@@ -26941,6 +26777,8 @@ c_nay_pyi_taw = {
 	1066.1.1 = { holder = 8100255 government = feudal_government }
 	1066.1.1 = { liege = d_duchy0927 }
 	1066.9.15 = { liege = k_kingdom0880 }
+	1066.9.15 = { liege = k_ck_myanmar }   # e59 repoint
+	1066.9.15 = { holder = 109185 liege = 0 }   # e68
 }
 # Earth redraw 2026-11-10: copied from c_province0554
 c_milan = {
@@ -27055,21 +26893,22 @@ c_jianshui = {
 c_abaetetuba = {
 	1000.1.1 = { change_development_level = 24 }
 	1066.1.1 = { holder = 8100000 government = feudal_government }
-	1066.9.15 = { liege = e_empire0223 }
+	1066.9.15 = { liege = 0 }
 	1066.9.15 = { liege = e_latin_america }
+	1066.9.15 = { liege = d_duchy0162 }   # e60 state vassal
 }
 # Earth redraw 2026-11-10: copied from c_province0247
 c_belem = {
 	1000.1.1 = { change_development_level = 24 }
 	1066.1.1 = { holder = 8100039 government = feudal_government }
-	1066.9.15 = { liege = e_empire0223 }
+	1066.9.15 = { liege = 0 }
 	1066.9.15 = { liege = e_latin_america }
 }
 # Earth redraw 2026-11-10: copied from c_province0162
 c_itaituba = {
 	1000.1.1 = { change_development_level = 18 }
 	1066.1.1 = { holder = 8100146 government = feudal_government }
-	1066.9.15 = { liege = e_empire0223 }
+	1066.9.15 = { liege = 0 }
 	1066.9.15 = { liege = d_duchy0162 }
 }
 # Earth redraw 2026-11-10: copied from c_province0987
@@ -27099,6 +26938,7 @@ c_cascavel = {
 	1066.1.1 = { holder = 8100071 government = tribal_government }
 	1066.1.1 = { liege = d_duchy0106 }
 	1066.9.15 = { liege = e_latin_america }
+	1066.9.15 = { liege = d_parana }   # e60 state vassal
 }
 # Earth redraw 2026-11-10: copied from c_province0844
 c_dalian = {
@@ -27144,6 +26984,7 @@ c_tangara_da_serra = {
 	1066.1.1 = { holder = 8100352 government = tribal_government }
 	1066.1.1 = { liege = d_duchy0106 }
 	1066.9.15 = { liege = e_latin_america }
+	1066.9.15 = { liege = d_mato_grosso }   # e60 state vassal
 }
 # Earth redraw 2026-11-10: copied from c_province0768
 c_khuzdar = {
@@ -27158,6 +26999,7 @@ c_bahawalpur = {
 	1066.1.1 = { holder = 8100023 government = tribal_government }
 	1066.1.1 = { liege = d_duchy0800 }
 	1066.9.15 = { liege = k_kingdom0821 }
+	1066.9.15 = { liege = k_ck_pakistan }   # e59 repoint
 }
 # Earth redraw 2026-11-10: copied from c_province0821
 c_udaipur = {
@@ -27165,6 +27007,7 @@ c_udaipur = {
 	1066.1.1 = { holder = 8100368 government = feudal_government }
 	1066.9.15 = { liege = k_kingdom0821 }
 	1066.9.15 = { liege = e_empire0897 }
+	1066.9.15 = { liege = d_bikaner }   # e60 state vassal
 }
 # Earth redraw 2026-11-10: copied from c_province0801
 c_bikaner = {
@@ -27172,6 +27015,7 @@ c_bikaner = {
 	1066.1.1 = { holder = 8100051 government = tribal_government }
 	1066.1.1 = { liege = d_duchy0800 }
 	1066.9.15 = { liege = e_empire0897 }
+	1066.9.15 = { liege = d_bikaner }   # e60 state vassal
 }
 # Earth redraw 2026-11-10: copied from c_province0804
 c_jodhpur = {
@@ -27179,6 +27023,7 @@ c_jodhpur = {
 	1066.1.1 = { holder = 8100156 government = tribal_government }
 	1066.1.1 = { liege = d_duchy0821 }
 	1066.9.15 = { liege = e_empire0897 }
+	1066.9.15 = { liege = d_bikaner }   # e60 state vassal
 }
 # Earth redraw 2026-11-10: copied from c_province0788
 c_karachi = {
@@ -27186,6 +27031,7 @@ c_karachi = {
 	1066.1.1 = { holder = 8100173 government = tribal_government }
 	1066.1.1 = { liege = d_duchy0800 }
 	1066.9.15 = { liege = k_kingdom0821 }
+	1066.9.15 = { liege = k_ck_pakistan }   # e59 repoint
 }
 # Earth redraw 2026-11-10: copied from c_province0804
 c_surat = {
@@ -27193,6 +27039,7 @@ c_surat = {
 	1066.1.1 = { holder = 8100343 government = tribal_government }
 	1066.1.1 = { liege = d_duchy0821 }
 	1066.9.15 = { liege = e_empire0897 }
+	1066.9.15 = { liege = d_gujarat }   # e60 state vassal
 }
 # Earth redraw 2026-11-10: copied from c_province0804
 c_rajkot = {
@@ -27292,21 +27139,22 @@ c_juazeiro_do_norte = {
 c_recife = {
 	1000.1.1 = { change_development_level = 24 }
 	1066.1.1 = { holder = 8100300 government = feudal_government }
-	1066.9.15 = { liege = e_empire0223 }
+	1066.9.15 = { liege = 0 }
 	1066.9.15 = { liege = e_latin_america }
 }
 # Earth redraw 2026-11-10: copied from c_province0234
 c_vitoria_da_conquista = {
 	1000.1.1 = { change_development_level = 26 }
 	1066.1.1 = { holder = 8100376 government = feudal_government }
-	1066.9.15 = { liege = e_empire0223 }
+	1066.9.15 = { liege = 0 }
 	1066.9.15 = { liege = e_latin_america }
+	1066.9.15 = { liege = d_irece }   # e60 state vassal
 }
 # Earth redraw 2026-11-10: copied from c_province0243
 c_juazeiro = {
 	1000.1.1 = { change_development_level = 14 }
 	1066.1.1 = { holder = 8100161 government = feudal_government }
-	1066.9.15 = { liege = k_kingdom0247 }
+	1066.9.15 = { liege = 0 }
 	1066.9.15 = { liege = d_irece }
 }
 # Earth redraw 2026-11-10: copied from c_rio_de_janeiro
@@ -27315,6 +27163,7 @@ c_sorocaba = {
 	1066.1.1 = { holder = 8100339 government = feudal_government }
 	1066.9.15 = { liege = k_brazil }
 	1066.9.15 = { liege = e_latin_america }
+	1066.9.15 = { liege = d_rio }   # e60 state vassal
 }
 # Earth redraw 2026-11-10: copied from c_rio_de_janeiro
 c_piracicaba = {
@@ -27322,6 +27171,7 @@ c_piracicaba = {
 	1066.1.1 = { holder = 8100281 government = feudal_government }
 	1066.9.15 = { liege = k_brazil }
 	1066.9.15 = { liege = e_latin_america }
+	1066.9.15 = { liege = d_rio }   # e60 state vassal
 }
 # Earth redraw 2026-11-10: copied from c_province0104
 c_presidente_prudente = {
@@ -27329,12 +27179,13 @@ c_presidente_prudente = {
 	1066.1.1 = { holder = 8100286 government = tribal_government }
 	1066.1.1 = { liege = d_duchy0106 }
 	1066.9.15 = { liege = e_latin_america }
+	1066.9.15 = { liege = d_rio }   # e60 state vassal
 }
 # Earth redraw 2026-11-10: copied from c_province0167
 c_ribeirao_preto = {
 	1000.1.1 = { change_development_level = 22 }
 	1066.1.1 = { holder = 8100301 government = feudal_government }
-	1066.9.15 = { liege = e_empire0223 }
+	1066.9.15 = { liege = 0 }
 	1066.9.15 = { liege = d_rio }
 }
 # Earth redraw 2026-11-10: copied from c_province1075
@@ -27343,6 +27194,7 @@ c_canberra = {
 	1066.1.1 = { holder = 8100067 government = feudal_government }
 	1066.1.1 = { liege = d_melbourne }
 	1066.9.15 = { liege = k_kingdom1064 }
+	1066.9.15 = { holder = 110645 liege = 0 }   # e68
 }
 # Earth redraw 2026-11-10: copied from c_province0866
 c_kadapa = {
@@ -27357,6 +27209,7 @@ c_vijayawada = {
 	1066.1.1 = { holder = 8100373 government = feudal_government }
 	1066.1.1 = { liege = d_duchy0866 }
 	1066.9.15 = { liege = e_empire0897 }
+	1066.9.15 = { liege = d_duchy0866 }   # e60 state vassal
 }
 # Earth redraw 2026-11-10: copied from c_province0887
 c_nellore = {
@@ -27433,6 +27286,7 @@ c_nanded = {
 	1066.1.1 = { holder = 8100251 government = feudal_government }
 	1066.1.1 = { liege = d_duchy0866 }
 	1066.9.15 = { liege = e_empire0897 }
+	1066.9.15 = { liege = d_duchy0840 }   # e60 state vassal
 }
 # Earth redraw 2026-11-10: copied from c_mumbai
 c_aurangabad = {
@@ -27440,6 +27294,7 @@ c_aurangabad = {
 	1066.1.1 = { holder = 8100020 government = feudal_government }
 	1066.1.1 = { liege = d_duchy0840 }
 	1066.9.15 = { liege = e_empire0897 }
+	1066.9.15 = { liege = d_duchy0840 }   # e60 state vassal
 }
 # Earth redraw 2026-11-10: copied from c_province0840
 c_amravati = {
@@ -27447,6 +27302,7 @@ c_amravati = {
 	1066.1.1 = { holder = 8100010 government = feudal_government }
 	1066.9.15 = { liege = k_kingdom0821 }
 	1066.9.15 = { liege = e_empire0897 }
+	1066.9.15 = { liege = d_duchy0840 }   # e60 state vassal
 }
 # Earth redraw 2026-11-10: copied from c_province0869
 c_hubballi = {
@@ -27468,6 +27324,7 @@ c_tirunelveli = {
 	1066.1.1 = { holder = 8100362 government = feudal_government }
 	1066.1.1 = { liege = d_sri_lanka }
 	1066.9.15 = { liege = e_empire0897 }
+	1066.9.15 = { liege = d_tamil_nadu }   # e60 state vassal
 }
 # Earth redraw 2026-11-10: copied from c_province0900
 c_tiruchirappalli = {
@@ -27482,6 +27339,7 @@ c_jabalpur = {
 	1066.1.1 = { holder = 8100148 government = feudal_government }
 	1066.1.1 = { liege = d_duchy0821 }
 	1066.9.15 = { liege = e_empire0897 }
+	1066.9.15 = { liege = d_madhya_pradesh }   # e60 state vassal
 }
 # Earth redraw 2026-11-10: copied from c_province0821
 c_gwalior = {
@@ -27489,6 +27347,7 @@ c_gwalior = {
 	1066.1.1 = { holder = 8100125 government = feudal_government }
 	1066.9.15 = { liege = k_kingdom0821 }
 	1066.9.15 = { liege = e_empire0897 }
+	1066.9.15 = { liege = d_madhya_pradesh }   # e60 state vassal
 }
 # Earth redraw 2026-11-10: copied from c_province0840
 c_indore = {
@@ -27648,6 +27507,7 @@ c_montes_claros = {
 	1066.1.1 = { holder = 8100238 government = feudal_government }
 	1066.1.1 = { liege = d_duchy0234 }
 	1066.9.15 = { liege = e_latin_america }
+	1066.9.15 = { liege = d_duchy0234 }   # e60 state vassal
 }
 # Earth redraw 2026-11-10: copied from c_rio
 c_juiz_de_fora = {
@@ -27655,13 +27515,15 @@ c_juiz_de_fora = {
 	1066.1.1 = { holder = 8100163 government = feudal_government }
 	1066.1.1 = { liege = d_rio }
 	1066.9.15 = { liege = e_latin_america }
+	1066.9.15 = { liege = d_duchy0234 }   # e60 state vassal
 }
 # Earth redraw 2026-11-10: copied from c_province0167
 c_patos_de_minas = {
 	1000.1.1 = { change_development_level = 22 }
 	1066.1.1 = { holder = 8100276 government = feudal_government }
-	1066.9.15 = { liege = e_empire0223 }
+	1066.9.15 = { liege = 0 }
 	1066.9.15 = { liege = e_latin_america }
+	1066.9.15 = { liege = d_duchy0234 }   # e60 state vassal
 }
 # Earth redraw 2026-11-10: copied from c_province0874
 c_bhilai = {
@@ -27669,6 +27531,7 @@ c_bhilai = {
 	1066.1.1 = { holder = 8100049 government = feudal_government }
 	1066.9.15 = { liege = k_kingdom0821 }
 	1066.9.15 = { liege = e_empire0897 }
+	1066.9.15 = { liege = d_chhattisgarh }   # e60 state vassal
 }
 # Earth redraw 2026-11-10: copied from c_province0856
 c_ramgundam = {
@@ -27676,27 +27539,30 @@ c_ramgundam = {
 	1066.1.1 = { holder = 8100298 government = feudal_government }
 	1066.1.1 = { liege = d_duchy0866 }
 	1066.9.15 = { liege = e_empire0897 }
+	1066.9.15 = { liege = d_hyderabad }   # e60 state vassal
 }
 # Earth redraw 2026-11-10: copied from c_province0245
 c_campbell_river = {
 	1000.1.1 = { change_development_level = 22 }
 	1066.1.1 = { holder = 8100064 government = feudal_government }
-	1066.9.15 = { liege = k_kingdom0245 }
+	1066.9.15 = { liege = k_kingdom0359 }
 	1066.9.15 = { liege = d_duchy0245 }
 }
 # Earth redraw 2026-11-10: copied from c_province0648
 c_n_dalatando = {
 	1000.1.1 = { change_development_level = 13 }
 	1066.1.1 = { holder = 8100244 government = tribal_government }
-	1066.9.15 = { liege = d_duchy0648 }
+	1066.9.15 = { liege = d_duchy0620 }
 	1066.9.15 = { liege = d_huila }
+	1066.9.15 = { holder = 106485 liege = 0 }   # e68
 }
 # Earth redraw 2026-11-10: copied from c_province0629
 c_luanda = {
 	1000.1.1 = { change_development_level = 4 }
 	1066.1.1 = { holder = 8100210 government = tribal_government }
-	1066.1.1 = { liege = d_duchy0648 }
+	1066.1.1 = { liege = d_duchy0620 }
 	1066.9.15 = { liege = d_huila }
+	1066.9.15 = { holder = 106485 liege = 0 }   # e68
 }
 # Earth redraw 2026-11-10: copied from c_province0554
 c_verona = {
@@ -27736,7 +27602,7 @@ c_nkayi = {
 c_durban = {
 	1000.1.1 = { change_development_level = 19 }
 	1066.1.1 = { holder = 8100101 government = feudal_government }
-	1066.1.1 = { liege = d_duchy0778 }
+	1066.1.1 = { liege = d_duchy0713 }
 	1066.9.15 = { liege = k_kingdom0750 }
 }
 # Earth redraw 2026-11-10: copied from c_province0154
@@ -27745,6 +27611,7 @@ c_apure = {
 	1066.1.1 = { holder = 8100013 government = feudal_government }
 	1066.1.1 = { liege = d_duchy0120 }
 	1066.9.15 = { liege = k_kingdom0162 }
+	1066.9.15 = { liege = k_ck_venezuela }   # e59 repoint
 }
 # Earth redraw 2026-11-10: copied from c_province0706
 c_kitale = {
@@ -27759,6 +27626,7 @@ c_kuala_lumpur = {
 	1066.1.1 = { holder = 8100192 government = feudal_government }
 	1066.9.15 = { liege = d_duchy0964 }
 	1066.9.15 = { liege = k_kingdom0974 }
+	1066.9.15 = { holder = 109645 liege = 0 }   # e68
 }
 # Earth redraw 2026-11-10: copied from c_province0964
 c_ipoh = {
@@ -27773,6 +27641,7 @@ c_goianesia = {
 	1066.1.1 = { holder = 8100115 government = tribal_government }
 	1066.1.1 = { liege = d_duchy0167 }
 	1066.9.15 = { liege = e_latin_america }
+	1066.9.15 = { liege = d_duchy0167 }   # e60 state vassal
 }
 # Earth redraw 2026-11-10: copied from c_province0870
 c_ankang = {
@@ -27828,7 +27697,7 @@ c_dingxi = {
 c_luxor = {
 	1000.1.1 = { change_development_level = 24 }
 	1066.1.1 = { holder = 8100214 government = feudal_government }
-	1066.9.15 = { liege = e_empire0836 }
+	1066.9.15 = { liege = 0 }
 	1066.9.15 = { liege = k_kingdom0622 }
 }
 # Earth redraw 2026-11-10: copied from c_province0895
@@ -27844,6 +27713,7 @@ c_rahim_yar_khan = {
 	1066.1.1 = { holder = 8100294 government = tribal_government }
 	1066.1.1 = { liege = d_duchy0800 }
 	1066.9.15 = { liege = k_kingdom0821 }
+	1066.9.15 = { liege = k_ck_pakistan }   # e59 repoint
 }
 
 d_great_voyage = {
@@ -27852,21 +27722,27 @@ d_great_voyage = {
 d_austin = {
 	1066.9.15 = { holder = 101655 liege = e_united_states }
 	1066.9.15 = { holder = 101656 liege = e_united_states }
+	1066.9.15 = { succession_laws = { feudal_elective_succession_law } }   # e62 USA
 }
 d_belize = {
 	1066.9.15 = { holder = 8100119 liege = 0 }
+	1066.9.15 = { succession_laws = { feudal_elective_succession_law } }   # e62 GTM
 }
 d_beni = {
 	1066.9.15 = { holder = 100755 liege = 0 }
 }
 d_ceara = {
 	1066.9.15 = { holder = 102735 liege = e_latin_america }
+	1066.9.15 = { succession_laws = { feudal_elective_succession_law } }   # e62 BRA
 }
 d_central_america = {
 	1066.9.15 = { holder = 100705 liege = 0 }
+	1066.9.15 = { holder = 0 }   # e59
 }
 d_chattogram = {
 	1066.9.15 = { holder = 108645 liege = 0 }
+	1066.9.15 = { liege = 0 }   # e59
+	1066.9.15 = { succession_laws = { feudal_elective_succession_law } }   # e62 BGD
 }
 d_colorado = {
 	1066.9.15 = { holder = 101705 liege = e_united_states }
@@ -27874,86 +27750,99 @@ d_colorado = {
 }
 d_duchy0350 = {
 	1066.9.15 = { holder = 102885 liege = e_united_states }
+	1066.9.15 = { succession_laws = { feudal_elective_succession_law } }   # e62 USA
 }
 d_duchy0530 = {
 	1066.9.15 = { holder = 105745 liege = e_european_union }
+	1066.9.15 = { succession_laws = { feudal_elective_succession_law } }   # e62 SVK
 }
 d_duchy0531 = {
 	1066.9.15 = { holder = 105315 liege = e_united_states }
 	1066.9.15 = { holder = 105315 liege = e_united_states }
+	1066.9.15 = { succession_laws = { feudal_elective_succession_law } }   # e62 USA
 }
 d_duchy0638 = {
 	1066.9.15 = { holder = 106535 liege = 0 }
 }
 d_eastern_cape = {
 	1066.9.15 = { holder = 108075 liege = k_kingdom0750 }
+	1066.9.15 = { succession_laws = { feudal_elective_succession_law } }   # e62 ZAF
 }
 d_free_state = {
 	1066.9.15 = { holder = 8100101 liege = k_kingdom0750 }
+	1066.9.15 = { succession_laws = { feudal_elective_succession_law } }   # e62 ZAF
 }
 d_gujarat = {
 	1066.9.15 = { holder = 108045 liege = e_empire0897 }
 }
 d_hodh_ech_chargui = {
-	1066.9.15 = { holder = 104235 liege = e_empire0836 }
+	1066.9.15 = { holder = 104235 liege = 0 }
 }
 d_homs = {
-	1066.9.15 = { holder = 8100091 liege = e_empire0836 }
+	1066.9.15 = { holder = 8100091 liege = 0 }
 }
 d_huila = {
 	1066.9.15 = { holder = 106485 liege = 0 }
+	1066.9.15 = { liege = 0 }   # e59
 }
 d_iraq = {
-	1066.9.15 = { holder = 8100022 liege = e_empire0836 }
+	1066.9.15 = { holder = 8100022 liege = 0 }
 }
 d_irece = {
 	1066.9.15 = { holder = 102345 liege = e_latin_america }
+	1066.9.15 = { succession_laws = { feudal_elective_succession_law } }   # e62 BRA
 }
 d_karnataka = {
 	1066.9.15 = { holder = 108875 liege = e_empire0897 }
+	1066.9.15 = { succession_laws = { feudal_elective_succession_law } }   # e62 IND
 }
 d_kayes = {
 	1066.9.15 = { holder = 104045 liege = 0 }
+	1066.9.15 = { succession_laws = { feudal_elective_succession_law } }   # e62 SEN
 }
 d_lviv = {
 	1066.9.15 = { holder = 8100060 liege = e_european_union }
+	1066.9.15 = { succession_laws = { feudal_elective_succession_law } }   # e62 ROU
 }
 d_madhya_pradesh = {
 	1066.9.15 = { holder = 8100143 liege = e_empire0897 }
+	1066.9.15 = { succession_laws = { feudal_elective_succession_law } }   # e62 IND
 }
 d_masovian_voivodeship = {
 	1066.9.15 = { holder = 8100381 liege = e_european_union }
+	1066.9.15 = { liege = 0 }   # e59
+	1066.9.15 = { succession_laws = { feudal_elective_succession_law } }   # e62 POL
 }
 d_mato_grosso = {
 	1066.9.15 = { holder = 8100087 liege = e_latin_america }
 }
-d_mato_grosso_do_sul = {
-	1066.9.15 = { holder = 8100019 liege = 0 }
-}
 d_michigan = {
 	1066.9.15 = { holder = 102585 liege = e_united_states }
 	1066.9.15 = { liege = e_united_states }
+	1066.9.15 = { succession_laws = { feudal_elective_succession_law } }   # e62 USA
 }
 d_mizdah = {
-	1066.9.15 = { holder = 8100365 liege = e_empire0836 }
+	1066.9.15 = { holder = 8100365 liege = 0 }
 }
 d_north_gyeongsang = {
 	1066.9.15 = { holder = 108435 liege = 0 }
-}
-d_north_kivu = {
-	1066.9.15 = { holder = 8100169 liege = 0 }
+	1066.9.15 = { holder = 0 }   # e59
+	1066.9.15 = { holder = 108435 }   # e65 Korea merged (was d_ck_north_korea)
 }
 d_northeastern = {
 	1066.9.15 = { holder = 400089 liege = 0 }
+	1066.9.15 = { liege = 0 }   # e59
 }
 d_northern_ghana = {
 	1066.9.15 = { holder = 8100271 liege = 0 }
 }
 d_parana = {
 	1066.9.15 = { holder = 8100088 liege = e_latin_america }
+	1066.9.15 = { succession_laws = { feudal_elective_succession_law } }   # e62 BRA
 }
 d_piaui = {
 	1066.9.15 = { holder = 102475 liege = e_latin_america }
+	1066.9.15 = { succession_laws = { feudal_elective_succession_law } }   # e62 BRA
 }
 d_punjab = {
 	1066.9.15 = { holder = 107735 liege = 0 }
@@ -27963,18 +27852,22 @@ d_richmond_hill = {
 }
 d_rio_grande_do_sul = {
 	1066.9.15 = { holder = 101105 liege = e_latin_america }
+	1066.9.15 = { succession_laws = { feudal_elective_succession_law } }   # e62 BRA
 }
 d_somali = {
 	1066.9.15 = { holder = 107255 liege = 0 }
+	1066.9.15 = { succession_laws = { feudal_elective_succession_law } }   # e62 SOL
 }
 d_tamil_nadu = {
 	1066.9.15 = { holder = 8100079 liege = e_empire0897 }
+	1066.9.15 = { succession_laws = { feudal_elective_succession_law } }   # e62 IND
 }
 d_turkmenistan = {
 	1066.9.15 = { holder = 106805 liege = 0 }
 }
 d_west_kalimantan = {
 	1066.9.15 = { holder = 8100284 liege = e_empire0982 }
+	1066.9.15 = { succession_laws = { feudal_elective_succession_law } }   # e62 IDN
 }
 d_worodougou = {
 	1066.9.15 = { holder = 8100056 liege = 0 }
@@ -27990,15 +27883,19 @@ e_latin_america = {
 }
 k_ck_balkans = {
 	1066.9.15 = { holder = 105975 liege = e_european_union }
+	1066.9.15 = { succession_laws = { feudal_elective_succession_law } }   # e62 GRC
 }
 k_ck_germany = {
 	1066.9.15 = { holder = 105285 liege = 0 }
+	1066.9.15 = { holder = 8100047 liege = e_european_union }   # e61
+	1066.9.15 = { succession_laws = { feudal_elective_succession_law } }   # e62 DEU
 }
 k_ck_nigeria = {
 	1066.9.15 = { holder = 105725 liege = 0 }
+	1066.9.15 = { succession_laws = { tribal_elective_succession_law } }   # e62 NGA
 }
 k_ck_sudan = {
-	1066.9.15 = { holder = 8100178 liege = e_empire0836 }
+	1066.9.15 = { holder = 8100178 liege = 0 }
 }
 k_kingdom0507 = {
 	1066.9.15 = { holder = 104335 liege = 0 }
@@ -28014,9 +27911,7 @@ k_kingdom0669 = {
 }
 k_kingdom0974 = {
 	1066.9.15 = { holder = 109645 liege = 0 }
-}
-k_kingdom1038 = {
-	1066.9.15 = { holder = 110645 liege = 0 }
+	1066.9.15 = { succession_laws = { feudal_elective_succession_law } }   # e62 MYS
 }
 k_kingdom1083 = {
 	1066.9.15 = { holder = 107345 liege = 0 }
@@ -28071,6 +27966,7 @@ c_taiwan_island = {
 }
 d_taiwan = {
 	1066.9.15 = { holder = 8100348 liege = 0 }
+	1066.9.15 = { succession_laws = { feudal_elective_succession_law } }   # e62 TWN
 }
 c_manado = {
 	1066.1.1 = { holder = 8100515 liege = e_empire0982 }
@@ -28106,7 +28002,7 @@ c_holland = {
 c_bahrain = {
 	1000.1.1 = { change_development_level = 24 }
 	1066.1.1 = { holder = 8100700 government = feudal_government }
-	1066.9.15 = { liege = e_empire0836 }
+	1066.9.15 = { liege = 0 }
 }
 c_malta = {
 	1000.1.1 = { change_development_level = 24 }
@@ -28133,7 +28029,7 @@ c_grenada = {
 c_comoros = {
 	1000.1.1 = { change_development_level = 14 }
 	1066.1.1 = { holder = 8100706 government = feudal_government }
-	1066.9.15 = { liege = e_empire0836 }
+	1066.9.15 = { liege = 0 }
 }
 c_bahamas = {
 	1000.1.1 = { change_development_level = 24 }
@@ -28230,6 +28126,19 @@ b_mar_a_lago = {
 b_long_beach = {
 	1066.9.15 = { holder = 7000101 }	# e39 Kris: Valencia (Ventura/Thousand Oaks/Hidden Hills area)
 }
+# e86 2026-11-12: one barony each for small US / Jamaican faiths (county faiths unchanged)
+b_saint_george = {	# Utah: FLDS (Short Creek / St. George area)
+	1066.9.15 = { holder = 102336 government = theocracy_government }
+}
+b_idaho_falls = {	# Idaho: the most Latter-day Saint part of Idaho (eastern Snake River Plain)
+	1066.9.15 = { holder = 7000140 government = republic_government }
+}
+b_pittsburgh = {	# Pennsylvania: Jehovah's Witnesses began here (Russell's Bible Students)
+	1066.9.15 = { holder = 7000141 government = theocracy_government }
+}
+b_montego_bay = {	# Jamaica: Rastafari
+	1066.9.15 = { holder = 7000142 government = republic_government }
+}
 # e40 2026-11-11: religious heads at the start
 k_orthodox = {
 	1061.3.1 = { holder = 8100902 }	# Ecumenical Patriarch (landless title, as vanilla)
@@ -28254,4 +28163,142 @@ k_kingdom1207 = {
 }
 k_kingdom0837 = {
 	1066.9.15 = { holder = 8101004 government = tribal_government }
+}
+k_ck_pakistan = {
+	1066.9.15 = { holder = 107735 }   # e59
+	1066.9.15 = { succession_laws = { tribal_elective_succession_law } }   # e62 PAK
+}
+k_ck_myanmar = {
+	1066.9.15 = { holder = 109185 }   # e59
+}
+d_ayeyarwady = {
+	1066.9.15 = { holder = 109185 }   # e59
+}
+k_ck_thailand = {
+	1066.9.15 = { holder = 400089 }   # e59
+}
+d_ck_cambodia = {
+	1066.9.15 = { holder = 109395 }   # e59
+	1066.9.15 = { succession_laws = { feudal_elective_succession_law } }   # e62 KHM
+}
+k_ck_venezuela = {
+	1066.9.15 = { holder = 101545 }   # e59
+}
+k_ck_angola = {
+	1066.9.15 = { holder = 106485 }   # e59
+}
+d_malanje = {
+	1066.9.15 = { holder = 106485 }   # e59
+}
+k_ck_kenya = {
+	1066.9.15 = { holder = 107365 }   # e59
+	1066.9.15 = { succession_laws = { tribal_elective_succession_law } }   # e62 KEN
+}
+k_ck_poland = {
+	1066.9.15 = { holder = 8100381 liege = e_european_union }   # e59
+	1066.9.15 = { succession_laws = { feudal_elective_succession_law } }   # e62 POL
+}
+k_ck_libya = {
+	1066.9.15 = { holder = 105805 liege = 0 }   # e59
+}
+d_ck_tripolitania = {
+	1066.9.15 = { holder = 105805 }   # e59
+}
+d_ck_uganda = {
+	1066.9.15 = { holder = 8100169 }   # e59
+}
+d_ck_cameroon = {
+	1066.9.15 = { holder = 105865 }   # e59
+}
+d_ck_belarus = {
+	1066.9.15 = { holder = 8100230 }   # e59
+}
+d_ck_zimbabwe = {
+	1066.9.15 = { holder = 8100130 }   # e59
+}
+d_ck_paraguay = {
+	1066.9.15 = { holder = 8100019 }   # e59
+}
+d_ck_honduras = {
+	1066.9.15 = { holder = 100705 }   # e59
+	1066.9.15 = { succession_laws = { feudal_elective_succession_law } }   # e62 HND
+}
+d_duchy0277 = {
+	1066.9.15 = { holder = 102775 liege = e_empire0350 }   # e60 state ruler
+}
+d_calgary = {
+	1066.9.15 = { holder = 102895 liege = e_empire0350 }   # e60 state ruler
+}
+d_bikaner = {
+	1066.9.15 = { holder = 8100149 liege = e_empire0897 }   # e60 state ruler
+	1066.9.15 = { succession_laws = { feudal_elective_succession_law } }   # e62 IND
+}
+d_chhattisgarh = {
+	1066.9.15 = { holder = 8100295 liege = e_empire0897 }   # e60 state ruler
+	1066.9.15 = { succession_laws = { feudal_elective_succession_law } }   # e62 IND
+}
+d_hyderabad = {
+	1066.9.15 = { holder = 108565 liege = e_empire0897 }   # e60 state ruler
+	1066.9.15 = { succession_laws = { feudal_elective_succession_law } }   # e62 IND
+}
+d_west_bengal = {
+	1066.9.15 = { holder = 8100184 liege = e_empire0897 }   # e60 state ruler
+	1066.9.15 = { succession_laws = { feudal_elective_succession_law } }   # e62 IND
+}
+d_campo_grande = {
+	1066.9.15 = { holder = 8100066 liege = e_latin_america }   # e60 state ruler
+}
+d_bendigo = {
+	1066.9.15 = { holder = 110865 liege = k_kingdom1064 }   # e60 state ruler
+	1066.9.15 = { succession_laws = { feudal_elective_succession_law } }   # e62 AUS
+}
+d_ck_jharkhand = {
+	1066.9.15 = { holder = 108835 liege = e_empire0897 }   # e60b
+	1066.9.15 = { succession_laws = { feudal_elective_succession_law } }   # e62 IND
+}
+d_ck_piaui = {
+	1066.9.15 = { holder = 8100355 liege = e_latin_america }   # e60b
+	1066.9.15 = { succession_laws = { feudal_elective_succession_law } }   # e62 BRA
+}
+# e63 2026-11-12: Puerto Rico (US tributary at game start, cyber_tributaries_on_actions.txt)
+c_ck_puerto_rico = {
+	1000.1.1 = { change_development_level = 25 }
+	1066.9.15 = { holder = 8100729 government = feudal_government }
+}
+# e76 2026-11-12: Kingdom of Denmark (EU member); Elias (105355), count of Zealand since 1059, is king; Greenland is his vassal
+k_denmark = {
+	1066.9.15 = { holder = 105355 liege = e_european_union }
+}
+d_sjaelland = {
+	1066.9.15 = { holder = 105355 }
+}
+d_jylland = {
+	1066.9.15 = { holder = 105355 }
+}
+c_aalborg = {
+	1066.9.15 = { holder = 105355 }
+}
+c_slesvig = {
+	1066.9.15 = { holder = 105355 }
+}
+c_fyn = {
+	1066.9.15 = { holder = 105355 }
+}
+# 2026-11-12 map queue: Yamal county (former wasteland 2457), held with c_province0633
+c_ck_yamal = {
+	1066.1.1 = { holder = 106335 liege = d_duchy0633 }
+	1066.9.15 = { liege = e_empire1034 }
+}
+# e82 2026-11-12: new counties from grown counties, held by the source county holder
+c_lualaba = {
+	1066.9.15 = { holder = 106925 }
+}
+c_west_kordofan = {
+	1066.9.15 = { holder = 106255 }
+}
+c_north_darfur = {
+	1066.9.15 = { holder = 106255 }
+}
+c_bahr_el_ghazal = {
+	1066.9.15 = { holder = 106675 }
 }

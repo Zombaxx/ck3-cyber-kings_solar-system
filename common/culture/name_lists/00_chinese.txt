@@ -1,0 +1,56 @@
+﻿#name_list_blank = {
+#
+#	cadet_dynasty_names = {
+#	}
+#
+#	dynasty_names = {
+#	}
+#
+#	male_names = {
+#	}
+#	female_names = {
+#	}
+#
+#	dynasty_name_first = yes
+#
+#}
+
+name_list_han = {
+	# e74 modern list (W1 China recent years; W2 China, Taiwan; K (adult given names, pinyin))
+	cadet_dynasty_names = {
+		dynn_cy_Wang dynn_cy_Li dynn_cy_Zhang dynn_cy_Liu dynn_cy_Chen dynn_cy_Yang dynn_cy_Huang dynn_cy_Zhao dynn_cy_Wu dynn_cy_Zhou dynn_cy_Xu dynn_cy_Sun
+		dynn_cy_Ma dynn_cy_Zhu dynn_cy_Hu dynn_cy_Guo dynn_cy_He dynn_cy_Lin dynn_cy_Gao dynn_cy_Luo dynn_cy_Zheng dynn_cy_Liang dynn_cy_Xie dynn_cy_Song
+		dynn_cy_Tang dynn_cy_Han dynn_cy_Feng dynn_cy_Deng dynn_cy_Cao dynn_cy_Peng dynn_cy_Zeng dynn_cy_Xiao dynn_cy_Tian dynn_cy_Dong dynn_cy_Pan dynn_cy_Yuan
+		dynn_cy_Cai dynn_cy_Jiang dynn_cy_Yu dynn_cy_Du dynn_cy_Ye dynn_cy_Cheng dynn_cy_Wei dynn_cy_Su dynn_cy_Lu dynn_cy_Ding dynn_cy_Ren dynn_cy_Lu_b3a1
+		dynn_cy_Yao dynn_cy_Shen dynn_cy_Zhong dynn_cy_Cui dynn_cy_Tan dynn_cy_Fan dynn_cy_Liao dynn_cy_Shi dynn_cy_Jin
+	}
+	dynasty_names = {
+		dynn_cy_Wang dynn_cy_Li dynn_cy_Zhang dynn_cy_Liu dynn_cy_Chen dynn_cy_Yang dynn_cy_Huang dynn_cy_Zhao dynn_cy_Wu dynn_cy_Zhou dynn_cy_Xu dynn_cy_Sun
+		dynn_cy_Ma dynn_cy_Zhu dynn_cy_Hu dynn_cy_Guo dynn_cy_He dynn_cy_Lin dynn_cy_Gao dynn_cy_Luo dynn_cy_Zheng dynn_cy_Liang dynn_cy_Xie dynn_cy_Song
+		dynn_cy_Tang dynn_cy_Han dynn_cy_Feng dynn_cy_Deng dynn_cy_Cao dynn_cy_Peng dynn_cy_Zeng dynn_cy_Xiao dynn_cy_Tian dynn_cy_Dong dynn_cy_Pan dynn_cy_Yuan
+		dynn_cy_Cai dynn_cy_Jiang dynn_cy_Yu dynn_cy_Du dynn_cy_Ye dynn_cy_Cheng dynn_cy_Wei dynn_cy_Su dynn_cy_Lu dynn_cy_Ding dynn_cy_Ren dynn_cy_Lu_b3a1
+		dynn_cy_Yao dynn_cy_Shen dynn_cy_Zhong dynn_cy_Cui dynn_cy_Tan dynn_cy_Fan dynn_cy_Liao dynn_cy_Shi dynn_cy_Jin
+	}
+	male_names = {
+		cyn_Yichen cyn_Yuxuan cyn_Haoyu cyn_Yuchen cyn_Zimo cyn_Yuhang cyn_Haoran cyn_Zihao cyn_Junjie cyn_Hao cyn_Wei cyn_Jun
+		cyn_Min cyn_Lei cyn_Qiang cyn_Jie cyn_Tao cyn_Yong cyn_Gang cyn_Ming cyn_Bin cyn_Hui cyn_Peng cyn_Chao
+		cyn_Hua cyn_Jian cyn_Feng cyn_Xin cyn_Bo cyn_Yang cyn_Kai cyn_Zhiqiang cyn_Jianguo cyn_Jianhua cyn_Guoqiang cyn_Zhiwei
+		cyn_Zixuan cyn_Mingyu cyn_Ruoxi cyn_Tianyu cyn_Yifan cyn_Jiahao cyn_Zhihao cyn_Zeyu cyn_Shengli cyn_Wenjie cyn_Xiaoming cyn_Dongmei
+		cyn_Haitao cyn_Jianjun
+	}
+	female_names = {
+		cyn_Yinuo cyn_Xinyi cyn_Zihan cyn_Yutong cyn_Xinyan cyn_Kexin cyn_Yuxi cyn_Mengyao cyn_Yixin cyn_Ziyi cyn_Jing cyn_Li
+		cyn_Fang cyn_Na cyn_Min cyn_Yan cyn_Xiu_Ying cyn_Xia cyn_Ping cyn_Ying cyn_Hong cyn_Juan cyn_Lan cyn_Mei
+		cyn_Yun cyn_Lili cyn_Hui cyn_Xiaoyan cyn_Shufen cyn_Meiling cyn_Yating cyn_Xiaohong cyn_Guiying cyn_Yuxin cyn_Shiyu cyn_Ruoxi
+		cyn_Siqi cyn_Jiayi cyn_Wanting cyn_Mengqi cyn_Xue cyn_Qian cyn_Yue cyn_Tingting cyn_Lina cyn_Dan cyn_Lu cyn_Jiaqi
+		cyn_Yuqi cyn_Shuang
+	}
+	dynasty_of_location_prefix = "dynnp_of"
+	dynasty_name_first = yes
+	pat_grf_name_chance = 0
+	mat_grf_name_chance = 0
+	father_name_chance = 0
+	pat_grm_name_chance = 0
+	mat_grm_name_chance = 0
+	mother_name_chance = 0
+}

@@ -367,7 +367,7 @@ vajrayana_faith = {
 	}
 
 	eminent_holy_sites = {
-		lhasa
+		cyk_lhasa
 		bodh_gaya
 		kalasan
 	}
@@ -464,18 +464,18 @@ christian_faith = { # Chalcedonian
 		head_of_rite = k_papal_state
 	}
 
-	eminent_holy_sites = {
+	eminent_holy_sites = {	# e87 Jerusalem, Rome (Vatican), Santiago (off-world, Venus)
 		jerusalem
 		rome
-		constantinople
+		santiago
 	}
 
-	holy_sites = {
-		santiago
-		antioch
-		alexandria
+	holy_sites = {	# e87 Earth: Constantinople, Cologne, Canterbury; off-world crusade targets: Mars (Alba), Moon (Lune)
+		constantinople
 		cologne
 		kent
+		cyk_catholic_mars
+		cyk_catholic_moon
 	}
 
 	doctrines = {
@@ -2228,7 +2228,6 @@ vaishnava_faith = {
 		kanchipuram
 		ujjayini
 		khao_khlang_nai
-		colony_vaishnava_faith_w0
 		colony_vaishnava_faith_w2
 	}
 

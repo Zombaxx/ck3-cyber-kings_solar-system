@@ -1,0 +1,77 @@
+﻿name_list_pulaar = {
+	# e74 modern list (W1 Senegal, Guinea, Mali; K (Fula names))
+	cadet_dynasty_names = {
+		dynn_cy_Diallo dynn_cy_Bah dynn_cy_Barry dynn_cy_Sow dynn_cy_Balde dynn_cy_Kane dynn_cy_Ba dynn_cy_Sy dynn_cy_Ly_db96 dynn_cy_Tall dynn_cy_Dia dynn_cy_Wane
+		dynn_cy_Thiam dynn_cy_Djigo dynn_cy_Ka dynn_cy_Deh dynn_cy_Sall dynn_cy_Bary dynn_cy_Balde_4d04 dynn_cy_Jallow dynn_cy_Jalloh dynn_cy_Sowe dynn_cy_Embalo dynn_cy_Djalo
+		dynn_cy_Seydi
+	}
+	dynasty_names = {
+		dynn_cy_Diallo dynn_cy_Bah dynn_cy_Barry dynn_cy_Sow dynn_cy_Balde dynn_cy_Kane dynn_cy_Ba dynn_cy_Sy dynn_cy_Ly_db96 dynn_cy_Tall dynn_cy_Dia dynn_cy_Wane
+		dynn_cy_Thiam dynn_cy_Djigo dynn_cy_Ka dynn_cy_Deh dynn_cy_Sall dynn_cy_Bary dynn_cy_Balde_4d04 dynn_cy_Jallow dynn_cy_Jalloh dynn_cy_Sowe dynn_cy_Embalo dynn_cy_Djalo
+		dynn_cy_Seydi
+	}
+	male_names = {
+		cyn_Mamadou cyn_Amadou cyn_Oumar cyn_Abdoulaye cyn_Alpha cyn_Boubacar cyn_Ibrahima cyn_Thierno cyn_Souleymane cyn_Saidou cyn_Ousmane cyn_Moussa
+		cyn_Hamidou cyn_Sadou cyn_Mouctar cyn_Abdourahmane cyn_Alhassane cyn_Mamoudou cyn_Elhadj cyn_Samba cyn_Demba cyn_Yero cyn_Hamady cyn_Djibril
+		cyn_Aliou cyn_Bocar cyn_Habib cyn_Ismaila cyn_Tidiane cyn_Kalidou
+	}
+	female_names = {
+		cyn_Fatoumata cyn_Mariama cyn_Kadiatou cyn_Aissatou_b46b cyn_Aminata cyn_Oumou cyn_Hadja cyn_Mariame cyn_Diariatou cyn_Ramatoulaye cyn_Hawa cyn_Djenabou
+		cyn_Hassanatou cyn_Assiatou cyn_Binta cyn_Fanta cyn_Dalanda cyn_Kadidiatou cyn_Nene_3806 cyn_Safiatou cyn_Salamata cyn_Maimouna cyn_Tenin cyn_Hapsatou
+		cyn_Coumba cyn_Penda cyn_Dioulde cyn_Aicha cyn_Habibatou cyn_Saran
+	}
+	dynasty_of_location_prefix = "dynnp_of"
+}
+
+name_list_serer = {
+	dynasty_names = {
+		"dynn_Diarisso"
+		"dynn_BeretE_"
+		"dynn_KE_djou"
+		"dynn_Moussa"
+		"dynn_Sonni"
+		"dynn_Askiya"
+		"dynn_Gurmanche"
+		"dynn_Nungu"
+		"dynn_Mossi"
+	}
+
+	male_names = {
+		Amar Bakar Biram Boukar Brak Caaka Djillakh Fanaan Gejopal Gnilane Godomat Jegan Jogo Jom
+		Kumba Laasuk Maane Maha Mahecor Maysa Mbanyik Mbar Mbooj Mbouna Ndoffene Niokhobaye Njekeh
+		Pateh Sanjan Sanmoon Semou Tasse Tening Waagaan Waali Yandeh Yerim
+	}
+
+	female_names = {
+		Awo Demba Doye Faaduma Fatim Fatoumata Malado Maram Mbodj Ndate Ndieumbeutt Ndoung Ndoye Sall Yalla Yumeyga
+	}
+	
+	#founder_named_dynasties = yes
+	
+	
+}
+
+name_list_wolof = {
+	# e74 modern list (W1 Senegal; K)
+	cadet_dynasty_names = {
+		dynn_cy_Diop dynn_cy_Ndiaye dynn_cy_Fall dynn_cy_Gueye dynn_cy_Sow dynn_cy_Ba dynn_cy_Faye dynn_cy_Mbaye dynn_cy_Sarr dynn_cy_Diouf dynn_cy_Ndour dynn_cy_Thiam
+		dynn_cy_Seck dynn_cy_Cisse dynn_cy_Niang dynn_cy_Sy dynn_cy_Dieng dynn_cy_Kane dynn_cy_Wade dynn_cy_Sall dynn_cy_Mbengue dynn_cy_Lo_883f dynn_cy_Diagne dynn_cy_Samb
+		dynn_cy_Toure
+	}
+	dynasty_names = {
+		dynn_cy_Diop dynn_cy_Ndiaye dynn_cy_Fall dynn_cy_Gueye dynn_cy_Sow dynn_cy_Ba dynn_cy_Faye dynn_cy_Mbaye dynn_cy_Sarr dynn_cy_Diouf dynn_cy_Ndour dynn_cy_Thiam
+		dynn_cy_Seck dynn_cy_Cisse dynn_cy_Niang dynn_cy_Sy dynn_cy_Dieng dynn_cy_Kane dynn_cy_Wade dynn_cy_Sall dynn_cy_Mbengue dynn_cy_Lo_883f dynn_cy_Diagne dynn_cy_Samb
+		dynn_cy_Toure
+	}
+	male_names = {
+		cyn_Mamadou cyn_Ibrahima cyn_Cheikh cyn_Abdoulaye cyn_Amadou cyn_Moussa cyn_Ousmane cyn_Modou cyn_Abdou cyn_Aliou cyn_Babacar cyn_Serigne
+		cyn_Moustapha cyn_Pape cyn_Mor cyn_Lamine cyn_Alioune cyn_Assane cyn_Bassirou cyn_Khadim cyn_Malick cyn_Momar cyn_Saliou cyn_Souleymane
+		cyn_Youssou cyn_Macky cyn_Idrissa cyn_Omar cyn_Djibril
+	}
+	female_names = {
+		cyn_Fatou cyn_Ndeye cyn_Awa cyn_Khady cyn_Aminata cyn_Aissatou_b46b cyn_Coumba cyn_Adama cyn_Mariama cyn_Amy cyn_Astou cyn_Bineta
+		cyn_Dieynaba cyn_Fama cyn_Khadija cyn_Mame cyn_Maty cyn_Rokhaya cyn_Seynabou cyn_Sokhna cyn_Yacine cyn_Mareme cyn_Absa cyn_Anta
+		cyn_Diarra cyn_Ngone cyn_Penda cyn_Sadio cyn_Oumou cyn_Codou
+	}
+	dynasty_of_location_prefix = "dynnp_of"
+}

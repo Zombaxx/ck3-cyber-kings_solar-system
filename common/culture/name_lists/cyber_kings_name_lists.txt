@@ -225,25 +225,7 @@ name_list_ck_choam = {
 	mother_name_chance = 10
 }
 
-name_list_ck_inuit = {
-	dynasty_names = { # Cyber Kings: from the dynasties of this culture's characters (2026-11-11)
-		dynn_ck_103250 dynn_ck_103360 dynn_ck_103450 dynn_ck_103460 dynn_ck_103570 dynn_ck_103640 dynn_ck_103670 dynn_ck_103730 dynn_ck_103780 dynn_ck_103820 dynn_ck_103890 dynn_ck_103920 dynn_ck_103930 dynn_ck_104010 dynn_ck_104030 dynn_ck_104130 dynn_ck_104150 dynn_ck_104490
-	}
-	dynasty_of_location_prefix = "dynnp"
-	male_names = {
-		Alcalimar Alodentys Acemon Acemonar Almion Amion Atsiomar Acemar Anmon Ammon Anemon Alemar Bijimonar Bijon Bijion Bihar Bahari Balmonar Balicar Balcomar Banmar Elcar Etsiar Etsion Elimar Emcar Emion Enmoro Enkomar Emnetsar Elicar Eclion Elmontar Emnon Elgenon Enmon Emionar Hijar Himnar Hijarion Hijimonar Ircar Imonar Ilar Ilmonar Icmonar Iconar Imno Igemonar Ijimar Kommar Komenicar Komionar Kelicar Kalicar Kacemon Ketsar Kemion Kalamonetsar Kamonetar Kamon Kamoneton Manmar Meneor Mantor Milior Memnar Meomar Malicar Malcaron Melontys Melinar Metsar Mecamor Ozar Otiminar Olmion Ocar Oclion Otsar Omion Omnion Omnotesh Omnitah Obion Obijion Obijon Obamar Obamanactar Otsyen Quadar Quadaro Quadon Qumar Qejimar Qetsymar Qingor Salimar Salmar Samnon Sandrew Semion Sentemion Setson Scalim Satsim Satson Satsomar Satsomion Sasio Sasiomar Seso Selgor Selinon Selon Seton Setomar Suscar Tor Timion Timno Timinar Timotsar Tsartim Tsartso Tsarto Tun Ulmar Ulcar Ulcom Uluji Ulutsu Umnar Unmar Usandar Usmar Ustar Usim Usmon Usuoah Zagar Zuhar Zuharo Zutso Zuso Zumo Zumonotsar Zumotson Zumnaro
-	}
-	female_names = {
-		Alotyc Almonadentys Alemiana Alimi Acemimi Animi Acimi Atsi Atsimys Atemia Atiemna Amnimi Amini Asimeara Alimeara Almeara Acmeara Ameara Alcihar Ahiri Ahaia Bema Beamar Betsomi Beha Behini Becini Benica Benicia Bemai Caesca Cici Ciciani Demnia Demmi Demi Demini Denini Denimacini Demontys Dimita Dimiana Didana Dilani Dimani Elini Enini Enin Enani Elani Enalia Enalina Elneara Enleara Elen Elizami Ezami Emni Enni Kiji Kici Kitsi Kimneara Keara Keamera Kicimia Kimini Kinmiana Mimi Yasmi Yasi Yamini Yani Yanina Yamnina Yanima Yayi Yatsmi Yama Yamiya Yania Yatsia Yalemina Yaleara Yeara
-	}
-	pat_grf_name_chance = 40
-	mat_grf_name_chance = 10
-	father_name_chance = 10
-	pat_grm_name_chance = 10
-	mat_grm_name_chance = 40
-	mother_name_chance = 10
-}
-
+# e75: name_list_ck_inuit removed (no culture uses it since e74)
 name_list_ck_siberian = {
 	dynasty_names = { # Cyber Kings: from the dynasties of this culture's characters (2026-11-11)
 		dynn_ck_106410 dynn_ck_106610 dynn_ck_106700 dynn_ck_106930 dynn_ck_106950
@@ -282,25 +264,7 @@ name_list_ck_rakian = {
 	mother_name_chance = 10
 }
 
-name_list_ck_korean = {
-	dynasty_names = { # Cyber Kings: from this culture's existing dynasties
-		dynn_ck_108430 dynn_ck_108650
-	}
-	dynasty_of_location_prefix = "dynnp"
-	male_names = {
-		Aimoto Akifumi Akihiro Akikazu Akinari Akio Akira Akitake Amuro Arinori Ataru Atasuke Atsuki Atsumori Atsushi Atsuya Ayase Baiko Bakin Basara Batou Bokkai Brock Bunzo Chikafusa Chojiro Chomei Daiju Daiki Daisetsu Daisuke Eichi Eiichi Eiji Eisen Eisuke Eita Eitoku Fujimaro Fumihiro Fumio Futoshi Fuyuki Gen Gendo Genichi Genjo Genki Genma Genpaku Genta Gidayu Gintoki Goemon Gohan Goku Gonkuro Hajime Hao Haruko Haruo Haseo Hayao Hayato Heihachiro Heiji Heikichi Hidemichi Hideo Hideri Hidetora Hideyoshi Hikaru Hikozaemon Himura Hiro Hirohisa Hiroki Hiromi Hiroshi Hirotada Hiroto Hirotsugu Hiryu Hisanobu Hisao Hitomaro Hitoshi Hosuke Hyobe Hyosuke Hyotaru Ichibei Ichigo Ichiro Ichiyo Ichizo Iesada Ikemoto Ikki Inejiro Itachi Itaru Iwao Izumo Jakuchu Jiraiya Jiro Joben Jugemu Jun Junichi Junji Jurobei Kaemon Kagehisa Kai Kaii Kaiji Kaito Kakashi Kamui Kaneie Kantaro Katai Katsuhiro Katsuo Katsuyuki Kaworu Kazu Kazuki Kazuma Kazuteru Kazuya Kazuyoshi Kazuyuki Keiichi Keiji Keisuke Ken Kenichi Kenshiro Kensuke Kenta Kentaro Kento Kenzo Kiichi Kikaku Kikugoro Kimihiro Kiminobu Kintaro Kira Kiyo Kiyoshi Koetsu Koichi Koichiro Kokei Koki Kokushi Konosuke Korekiyo Korenaga Kosuke Kotaro Koyo Kozue Kumanosuke Kunihiko Kunimatsu Kunitaro Kuririn Kyohei Kyoichi Kyoji Kyosuke Kyoya Kyuichi Kyushichi Magobei Mahiro Majin Makoto Mamoru Manzo Marihito Masaaki Masanobu Masao Masato Mashashi Masujiro Matabei Matsudaira Mikio Mitsuharu Mitsunari Mokichi Mokuba Montaro Morio Motoki Motonobu Mukuro Munemori Musashi Mushanokoji Mutsohito Myojin Naizen Naoki Naomichi Naoto Nikki Nissho Nobuo Nobuyoshi Norihisa Norinaga Noritada Ochanomizu Ogai Okakura Okitsugu Orochimaru Osamu Otojiro Rai Ranma Reiji Reizo Ren Renji Rentaro Riki Rinji Robita Roronoa Rosanjin Ryobe Ryohei Ryoji Ryoma Ryota Ryotaro Ryuhei Ryuji Ryutaro Sachio Sadao Sadatake Sagara Saito Sasuke Satoshi Sei Seibei Seiho Seika Seiryo Seishiro Seishisai Seiya Sena Sessue Seta Seto Setsuna Shigeaki Shigeki Shigemi Shigeru Shigeshi Shigetaka Shikamaru Shiki Shin Shingen Shinji Shinogu Shinomori Shintaro Shinya Shinzaburo Shirai Shirou Shiryu Shishio Shizuo Sho Shoda Shogo Shohei Shoin Shoji Shojiro Shoko Shoraku Shosei Shosuke Shota Shukishi Shuko Shunji Shunko Shunsuke Shusake Shusaku So Sora Sorai Sosuke Sukeyasu Sumiteru Suzaku Suzu Tachi Tachiki Tadashi Tadayoshi Tadayuki Tai Taichi Taiki Taisuke Taiyo Takamasa Takanibu Takashi Takayoshi Takayuki Takehiro Takeo Takeru Takeshi Takuma Takumi Tamotsu Tanaka Tatsuya Tatsuzo Teika Tekkan Teriuihi Teruo Tetsuo Tetsuya Tobei Togai Togusa Toji Tokimasa Tokuma Tomiji Tomoaki Torazo Toshiaki Toshiro Toyokuni Toyoshige Tsubasa Tsugahara Tsuna Tsuneari Tsuneya Tsuneyo Uryu Wataru Yachi Yakumo Yasuhiko Yasuhiro Yasuhito Yasunari Yasunori Yasutake Yasutoki Yasutora Yataro Yodo Yoh Yoichi Yoringa Yoritomo Yoshida Yoshifumi Yoshii Yoshikazu Yoshiki Yoshimochi Yoshinaka Yoshinori Yoshitaka Yugoro Yukishiro Yuri Yushiro Yusuke Yuta Yutaro Yuya
-	}
-	female_names = {
-		Ai Aika Aiko Aimi Aira Akane Akari Akina Akino Amane Amaya Anna Ano Anri Ao Aoba Aoi Asuka Asumi Atsuko Aya Ayaka Ayako Ayana Ayano Ayumi Ayuri Azusa Chie Chieko Chiemi Chihiro Chiho Chihomi Chika Chikako Chikaze Chimaki Chinami Chisaki Chisato Chitoge Chitose Chiyako Chiyeko Chiyuki Echiko Eho Eiko Eimi Eire Emao Emika Emiko Emiya Erena Erika Erina Fuji Fujiko Fuka Fuki Fukuko Fumi Fumika Fumiya Futaba Fuuko Fuyume Hana Hanae Hanako Hanami Hanayo Haniko Haruhi Haruka Harukichi Hatsu Hatsuyo Hazuki Hikari Himari Hina Hinata Hinako Hinano Hiroe Hisako Hisano Hotaru Ichiho Ichiko Ikue Ikuko Ikumi Ikuyo Inaho Iori Irisa Isaki Isami Isamu Ishi Isoko Itsuko Itsumi Izumi Junko Kaeda Kagami Kaho Kaiyo Kameko Kamiya Kanade Kanna Kanon Kaoru Kasumi Kaya Kayami Kayu Kazashi Kazu Kazumi Kiho Kino Kinu Kinuye Kinuyo Kiriko Kita Kiyomi Kofuyu Koharu Kokoro Koma Konatsu Kotoko Koyori Kozue Kumin Kumiyo Mafuyu Mai Maika Maiya Makimachi Mami Mamiko Mari Marina Masa Masami Maya Megumin Mei Michiko Mieko Miiko Mika Mikasa Miki Mikka Miko Miku Mine Mineko Mino Mio Misa Misaki Misato Mitsu Mitsuko Miu Miwa Miyako Miyoshi Miyuki Mizuki Moka Momoko Moto Motoko Murasaki Mutsuko Nadeshiko Naga Nagisa Nami Namiko Nana Nanao Nano Naomi Naru Narumi Natsu Natsumi Nene Nishi Nodoka Nui Orihime Orika Osen Otsu Rei Reira Ren Rena Rikka Rin Rina Ririko Ririna Ritsu Ritsuko Rui Runa Sada Saika Sakae Sakamae Saki Sakura Sakurako Sakuro Sanae Saori Satoko Satone Satsuki Sawa Saya Seka Shiho Shika Shiori Shoko Sumire Suzu Suzune Takako Takara Tami Tane Tansho Tohru Toka Tokie Tokiwa Toku Tomi Tomo Tomoe Toshi Toshiko Toyoko Tsubasa Tsugi Tsukiko Tsukiyama Tsumugi Uka Umeki Una Urako Urano Urara Uta Yachi Yasu Yayoi Yomiko Yoriko Yoshe Yoshike Yoshiko Yotsuba Yufu Yui Yuina Yuki Yukika Yukishiro Yumako Yuna Yuno Yuria Yuro Yutsuko Yuuko
-	}
-	pat_grf_name_chance = 40
-	mat_grf_name_chance = 10
-	father_name_chance = 10
-	pat_grm_name_chance = 10
-	mat_grm_name_chance = 40
-	mother_name_chance = 10
-}
-
+# e75: name_list_ck_korean removed (no culture uses it since e74)
 name_list_ck_olympian = {
 	dynasty_names = { # Cyber Kings: from the dynasties of this culture's characters (2026-11-11)
 		dynn_ck_100080 dynn_ck_100120 dynn_ck_100150 dynn_ck_100290 dynn_ck_100320 dynn_ck_100480 dynn_ck_100900 dynn_ck_101910 dynn_ck_102150 dynn_ck_102160 dynn_ck_103330 dynn_ck_108100 dynn_ck_108250 dynn_ck_108530 dynn_ck_111600 dynn_ck_111610 dynn_ck_111620 dynn_ck_111630 dynn_ck_111670 dynn_ck_111700 dynn_ck_111710 dynn_ck_111720 dynn_ck_111730 dynn_ck_111760 dynn_ck_111780 dynn_ck_111810 dynn_ck_111830 dynn_ck_111840 dynn_ck_111860 dynn_ck_111870 dynn_ck_111880 dynn_ck_111900 dynn_ck_111930 dynn_ck_111940 dynn_ck_111950 dynn_ck_111960 dynn_ck_112000 dynn_ck_112010 dynn_ck_112050 dynn_ck_112090 dynn_ck_112100 dynn_ck_112130 dynn_ck_112160 dynn_ck_112170 dynn_ck_112190 dynn_ck_112220 dynn_ck_112280 dynn_ck_112340 dynn_ck_112360 dynn_ck_112370 dynn_ck_112380 dynn_ck_112400 dynn_ck_112420 dynn_ck_112460 dynn_ck_112480 dynn_ck_112490 dynn_ck_112510 dynn_ck_112550 dynn_ck_112560 dynn_ck_112570 dynn_ck_112590 dynn_ck_112600 dynn_ck_112630 dynn_ck_112670 dynn_ck_112680 dynn_ck_112690 dynn_ck_112700 dynn_ck_112720 dynn_ck_112740 dynn_ck_112760 dynn_ck_112770 dynn_ck_112810 dynn_ck_112860 dynn_ck_112870 dynn_ck_112900 dynn_ck_112910 dynn_ck_112920 dynn_ck_112930 dynn_ck_112950 dynn_ck_112970 dynn_ck_112980 dynn_ck_113000 dynn_ck_113040 dynn_ck_113050 dynn_ck_113060 dynn_ck_113080 dynn_ck_113110 dynn_ck_113120 dynn_ck_113130 dynn_ck_113150 dynn_ck_113160 dynn_ck_113170 dynn_ck_113190 dynn_ck_113200 dynn_ck_113260 dynn_ck_113330 dynn_ck_113340 dynn_ck_113350 dynn_ck_113450 dynn_ck_113460 dynn_ck_113520 dynn_ck_113560 dynn_ck_113610 dynn_ck_113630 dynn_ck_113660 dynn_ck_113690 dynn_ck_113720 dynn_ck_113730 dynn_ck_113750 dynn_ck_113760 dynn_ck_113820 dynn_ck_113860 dynn_ck_113880 dynn_ck_113890 dynn_ck_114050 dynn_ck_115130 dynn_ck_666666
@@ -355,25 +319,7 @@ name_list_ck_gdonyos = {
 	mother_name_chance = 10
 }
 
-name_list_ck_murican = {
-	dynasty_names = { # Cyber Kings: from this culture's existing dynasties
-		dynn_ck_102330 dynn_ck_400000 dynn_ck_400001 dynn_ck_400002 dynn_ck_400003 dynn_ck_400004 dynn_ck_400005 dynn_ck_400008 dynn_ck_400009 dynn_ck_400011 dynn_ck_400012 dynn_ck_400015 dynn_ck_400017 dynn_ck_400018 dynn_ck_400019 dynn_ck_400020 dynn_ck_400022 dynn_ck_400024 dynn_ck_400025 dynn_ck_400026 dynn_ck_400028 dynn_ck_400029 dynn_ck_400030 dynn_ck_400033 dynn_ck_400036 dynn_ck_400037 dynn_ck_400039 dynn_ck_400040 dynn_ck_400042 dynn_ck_7000131
-	}
-	dynasty_of_location_prefix = "dynnp"
-	male_names = {
-		Adoyre Adrien Aedan Agustin Alan Alar Aldrien Alfrond Alor Alured Alwen Anaoc Anaubritou Anaugen Anauguethen Anauguoret Anauhocar Andreas Aniud Anton Argantbri Argantmoet Arnalt Arthel Arthguiu Arthmael Arthueu Arthuiu Arthur Austol Baldoen Bastian Beli Beltram Benabic Berenger Bernead Berthgualt Bledric Bledros Bleidcum Bletcu Blethin Blethiut Bodan Bran Brangualart Branhucar Branoc Brenci Brendan Breselconan Breselcoucant Breselgar Breseloc Breselueu Brethoc Brient Brigualt Brioc Brithael Brochuael Bronmael Budguoret Budhoiarn Budic Budoc Buhedoc Butgual Cadan Cadaouen Cadarvan Cadiou Cadoc Cador Cadou Cantgueithen Caradec Caradoc Carantoc Catgualart Catuallon Catguethen Catguoret Catgutic Cathno Catnimed Catuod Caurantin Ceneu Cenguethen Cenmarhoc Cenmin Cenmonoc Cingur Cinhoedl Clemen Clodouan Comoere Conan Concen Condeleu Condidan Congar Conmael Conmonoc Conogan Conredeu Conuallon Conmarch Convelin Corguethen Courantgern Courantmonoc Culmin Custent Custentin Dauid Deniel Denis Deroch Derrien Deui Deurhoiarn Domnoret Domuel Donual Donuallon Drogon Duenerth Dumnarth Edern Edouart Eguen Eon Erispo Erouan Estienne Etgual Eudon Euhocar Euhoiarn Eusebi Even Evrard Farinmael Ferant Fracan Framual Fransaz Frioc Garmon Geofroi Geralt Gereint Gestin Gilbert Godefroi Goennoc Gouesnon Goulwen Gouremor Gourmaelon Gralon Gratcant Gregor Grifiud Guallon Gualter Gudual Guecon Guenerdon Guenhael Guentanet Guentiern Gui Guiharan Guihomarch Guihomart Guilherm Guincalon Guincum Guinhael Guinhoiarn Guinoc Guinol Guithrit Guitol Guobrian Guocon Guoedanau Guoedatoe Guoednou Guoethoiarn Guoletec Guorbili Guordotal Guoretan Guorethoiarn Guorhoiarn Gurbodu Gurcant Gurcencor Gurceneu Gurci Gurcon Gurdilic Gurgen Gurguaret Gurguist Gurguistl Gurheter Guriant Gurlouen Gurmael Gurmaeloc Gurmhaelon Gurthcid Gurthiern Guruant Guerech Gueroc Guethenan Guethencar Guethencor Guethenhoiarn Guethenoc Haelcomarch Haelguethen Haelguoret Haelhoiarn Haeloc Haeloubri Haermael Hammelin Hamon Harscoit Hedyn Heranal Herri Hesdren Hincomhal Hinguethen Hocar Hoconan Honfroi Huiarnal Huiarnbili Huiarnviu Hunfroi Iacob Iarcun Iarnbud Iarncant Iarncar Iarndetguid Iarnegon Iarnuallon Iarnuocon Iarnhitin Iedechael Iehan Ilcarthon Ildut Iliud Inisian Iocilin Iodoc Ionas Iosep Iudcum Iuduallon Iudhael Iudicael Iudnerth Iudnimet Iustoc Iudoc Iudual Iumael Iunceneu Iunuocon Iunmonoc Jord Leucum Loi Lorens Louenan Loumarch Maelcon Maeldo Maelhuedoc Maeloc Maelscoet Maelscuet Maenceneu Maenci March Marthin Matheudo Mathias Matoc Matuid Maugan Mauric Medrod Meldroc Meriadoc Mermin Meugan Meven Michel Morcant Morcondeleu Morgen Morguethen Morhaetho Mormarch Morvan Mortiern Neven Nicolas Nodethael Nodhoiarn Nomino Nougui Oliuer Oswallt Padric Paol Pascueten Patern Petroc Phelippe Piran Prigent Primael Primarhoc Putrael Ralf Raoul Renan Resmen Riacet Ribald Ricart Riceneu Richwin Ridoredh Riualtr Rihouen Rinduran Rioc Riol Riwal Riuallon Rodric Roenualloc Roenuallon Roenuolou Roenhoiarn Rolland Ronan Roparth Roucen Rumon Ryd Salenn Salomon Samson Samuel Stefen Sulgen Sulhoiarn Sulmonoc Sultiern Talan Talhoiarn Tanci Tanet Tanhoiarn Telent Terithien Tethion Teudric Teudur Tibault Tiernan Tiernmael Tiernoc Tiernualloc Tiernuallon Treveur Tristan Tuduallon Tudur Tugdual Ungust Urbcen Urbien Urblon Urvod Uther Vincenne
-	}
-	female_names = {
-		Aanor Abrelda Adela Adelindis Adeltrudis Aedoc Aeluit Agnes Alana Alis Anaguistl Anaudat Anaudrec Anauhouguel Anauprost Andrea Anna Aourcen Aouregan Aourell Aouren Argantan Argantdrec Arganteila Arganteilin Argantguistl Arganthael Argantlon Argantmoet Artaca Avandrec Avenie Beladora Berchet Berengaria Bernegarda Berta Berthildis Bertissa Bleutuen Brendana Bronuen Buriana Canna Cateline Catguistl Cecilia Ceindrec Ceinguled Cleirui Condeleu Constansa Cristen Dengel Deniela Denise Diuset Dreanau Drebiu Dreguoreth Drelouguen Drichglur Drilego Duihon Elara Eleanor Eleina Elena Elesbed Elisaued Elwen Emma Endellion Ennoguent Enoguen Enora Eonnecte Erouana Ewsannec Fuandrec Gaela Geberga Glades Gloiucen Gloiumed Guelet Guenbrith Guencen Guencenedl Guencor Guenguerthlon Guenguistl Guenguiu Guenmon Guenna Guenneret Guennguar Gueruel Guillemecte Gwenn Halbiu Hawis Herannuen Hodierne Igerna Ignoguen Ilcum Ildegarda Iofa Iouenna Isabelle Iseult Iudhent Iudlouguen Iudprost Janed Judhael Languoret Leonore Leueer Leuhemel Leuoc Louhelic Luncen Maben Magdalene Marguarite Mari Medguistl Meduil Melita Meonre Milian Mona Morganne Morguetel Moruen Moruith Morvana Neulenna Nodguoret Nodiunet Nolwenne Nonne Oncenedl Oncum Onguen Ordguydel Ourcen Ourdilic Perenn Proscen Prosguetel Prostlon Rannoeu Riguistl Rimoet Rioanon Rioanon Rioantcen Rioantdrec Rioantel Rioantguellt Roenhael Roinoc Ronana Rozenn Rum Rumun Seva Stefania Steren Sulcar Sulcen Sulgubri Sulgwen Sulleisoc Sulmed Susanne Tandrec Tanetbiu Tanetlowen Tanguistl Tedvil Tephaine Thomine Tibourge Trifine Tristana Uriell
-	}
-	pat_grf_name_chance = 40
-	mat_grf_name_chance = 10
-	father_name_chance = 10
-	pat_grm_name_chance = 10
-	mat_grm_name_chance = 40
-	mother_name_chance = 10
-}
-
+# e75: name_list_ck_murican removed (no culture uses it since e74)
 name_list_ck_fenisaidd = {
 	dynasty_names = { # Cyber Kings: from the dynasties of this culture's characters (2026-11-11)
 		dynn_ck_110950 dynn_ck_111070 dynn_ck_111090 dynn_ck_111110 dynn_ck_111210 dynn_ck_111220 dynn_ck_111260 dynn_ck_111270 dynn_ck_111340 dynn_ck_111400 dynn_ck_111460 dynn_ck_111490 dynn_ck_111540 dynn_ck_111550 dynn_ck_111560 dynn_ck_111570 dynn_ck_111580 dynn_ck_111640 dynn_ck_111680 dynn_ck_111740 dynn_ck_111920 dynn_ck_112040 dynn_ck_112290 dynn_ck_112390 dynn_ck_112450 dynn_ck_114100 dynn_ck_114290 dynn_ck_114500 dynn_ck_114710
@@ -412,44 +358,8 @@ name_list_ck_liblander = {
 	mother_name_chance = 10
 }
 
-name_list_ck_canadian = {
-	dynasty_names = { # Cyber Kings: from the dynasties of this culture's characters (2026-11-11)
-		dynn_ck_103010 dynn_ck_103040 dynn_ck_103170 dynn_ck_103200 dynn_ck_103220 dynn_ck_103230 dynn_ck_103370 dynn_ck_103390 dynn_ck_103590 dynn_ck_103600 dynn_ck_103610 dynn_ck_666666
-	}
-	dynasty_of_location_prefix = "dynnp"
-	male_names = {
-		Adam Alan Albert Alexander Alfred Andrew Anselm Arnold Arthur Aubrey Christopher David Edmund Edward Eric Eustace Fulk Geoffrey George Gerald Gilbert Godfrey Gregory Guy Henry Hugh Humphrey Jocelyn John Jordan Laurence Lionel Mark Martin Matthew Maurice Michael Nicholas Paul Peter Philip Ralph Randolph Reginald Richard Robert Roger Simon Stephen Theobald Thomas Waleran Walter William
-	}
-	female_names = {
-		Adela Adelaide Alice Amice Anne Aveline Beatrice Blanche Catherine Cecilia Constance Edith Ela Eleanor Elizabeth Emma Hawise Isabel Isabella Joan Joanna Juliana Mahaut Margaret Mary Matilda Maud Philippa Sybilla
-	}
-	pat_grf_name_chance = 40
-	mat_grf_name_chance = 10
-	father_name_chance = 10
-	pat_grm_name_chance = 10
-	mat_grm_name_chance = 40
-	mother_name_chance = 10
-}
-
-name_list_ck_aussie = {
-	dynasty_names = { # Cyber Kings: from this culture's existing dynasties
-		dynn_ck_103010 dynn_ck_103040 dynn_ck_103080 dynn_ck_103170 dynn_ck_103200 dynn_ck_103220 dynn_ck_103230 dynn_ck_103370 dynn_ck_103390 dynn_ck_103460 dynn_ck_103470 dynn_ck_103590 dynn_ck_103600 dynn_ck_103610 dynn_ck_103780 dynn_ck_103900 dynn_ck_103920 dynn_ck_103930 dynn_ck_104010 dynn_ck_104200 dynn_ck_104310 dynn_ck_104400 dynn_ck_104470 dynn_ck_104490 dynn_ck_104560 dynn_ck_104561 dynn_ck_104562 dynn_ck_104563 dynn_ck_104564 dynn_ck_104600 dynn_ck_104720 dynn_ck_104740 dynn_ck_104750 dynn_ck_104790 dynn_ck_104800 dynn_ck_104880 dynn_ck_104920 dynn_ck_104921 dynn_ck_104922 dynn_ck_104923 dynn_ck_104924 dynn_ck_104960 dynn_ck_105110 dynn_ck_105200 dynn_ck_105280 dynn_ck_105300 dynn_ck_105340 dynn_ck_105350 dynn_ck_105470 dynn_ck_105520 dynn_ck_105570 dynn_ck_105580 dynn_ck_105590 dynn_ck_105630 dynn_ck_105640 dynn_ck_105700 dynn_ck_105780 dynn_ck_105810 dynn_ck_105820 dynn_ck_105870
-	}
-	dynasty_of_location_prefix = "dynnp"
-	male_names = {
-		Aaron Abraham Achim Adalbert Adam Adelbert Adi Adolf Adrian Alban Albert Albrecht Alex Alexander Alexis Alfons Alfred Alois Alwin Andr Andrew Andreas Anselm Ansgar Anton Arend Armin Arnd Arnt Arne Arnfried Arno Arnold Arnulf Arthur Artur August Augustin Aurel Axel Baldur Baptist Barnabas Bastian Beat Ben Benedikt Benjamin Benno Bernd Bernhard Bert Berthold Bertram Bode Bonifaz Boris Bruno Burchard Burkhard Burkhart Carl Carsten Christian Christoph Claus Clemens Conrad Corbinian Cord Cornelius Dan Daniel David Denis Dennis Detlef Didi Diederich Dierk Dieter Dietfried Diethelm Dietmar Dietrich Dirk Dominik Ebbe Eberhard Eckart Eckbert Eckhart Edgar Edmund Eduard Egon Eike Ekkehard Elias Elmar Elmo Emanuel Emil Emmerich Engel Engelbert Erdmann Erhard Eric Erich Erik Ernst Erwin Eugen Ewald Fabian Falk Felix Ferdi Ferdinand Fiete Filibert Florentin Florian Frank Franz Franz Xaver Fred Friedemann Friedhelm Friedhold Friedrich Fritz Gabriel Gebhard Georg Gerald Gerd Gereon Gerfried Gerhard Gerhardt Gerhold Gernot Gero Gerold Gert Gerulf Gervas Gilbert Gisbert Gottfried Gotthard Gotthilf Gotthold Gottlieb Gottlob Gottschalk Gregor Guntram Gustaf Gustav Hagen Hannes Hans "Hans-Peter" Hanspeter Harald Hartmann Hartmut Hartwig Hartwin Hasso Heike Heiko Heiner Heino Heinrich Heinz Helfried Helge Helmfried Helmut Helmuth Hendrik Henning Henrik Herbert Heribert Hermann Hermenegild Hieronymus Hilbert Hildebert Hildebrand Hilmar Hinnerk Hinrich Horst Hubert Hubertus Hugo Humbert Ignatz Ignaz Immanuel Ingo Ingolf Ingomar Isaak Isidor Ivo Jakob Jan Jeremias Jo Joachim Jochen Jochim Jockel Johann "Johann-Baptist" Johannes Jonas Jonatan Joschka Josef Joseph Jost Julian Julius Justus Kai Karl "Karl-Heinz" Karlmann Karsten Kasimir Kaspar Kay Kevin Kilian Klaas Klaus "Klaus-Peter" Klemens Knut Kolman Koloman Konrad Konstantin Korbinian Kord Kunibert Kuno Kurt Lambert Lamprecht Lars Laurenz Leberecht Lennart Lenz Leo Leon Leonard Leonhard Leopold Levin Lian Linus Lorenz Lothar Ludger Ludolf Ludwig Luitger Luitpold Lukas Lutz Malte Malthe Manfred Manfried Manu Manuel Marcel Marcellus Marco Marius Markus Martin Marvin Marwin Marzell Mathias Mathis Matthias Mattias Max Maxi Maximilian Meine Meinhard Meino Meinrad Menno Merten Micha Michael Michel Michi Moritz Mose Nickolaus Nico Nicolaus Niklas Niklaus Niko Nikolaus Noah Norbert Olaf Oliver Ortwin Oskar Oswald Othmar Otmar Ottmar Otto Ottokar Ottomar Pankraz Parsifal Pascal Patrick Paul Peter Petrus Philipp Poldi Quirin Rafael Raffael Raimund Rainer Ralf Ralph Raphael Reimund Rein Reiner Reinhard Reinhold Ren Renatus Reto Richard Robert Rochus Rodolf Roger Roland Rolf Roman Rudi Rudolf Ruedi Rupert Ruprecht Samuel Sascha Sebastian Sepp Seppel Sergio Severin Siegbert Sieger Siegfried Sieghard Siegmar Siegmund Siegward Sievert Sigi Sigismund Sigmund Silvester Simon Stefan Steffen Stephan Sven Sylvester Theodor Theophil Thiemo Thilo Thomas Thorben Thorsten Tiedemann Till Tillo Tilo Tim Timo Timotheus Tobias Tom Toni Torben Torsten Traugott Udo Ueli Ulli Ulrich Urban Urs Utz Uwe Valentin Veit Viktor Vinzent Vinzenz Volker Waldemar Waldo Walter Walther Wendel Wendelin Wenzel Wenzeslaus Werner Werther Wessel Wetzel Wiebe Wiegand Wieland Wilfried Wilhelm Willi Willy Wim Winfried Witold Wolf Wolfgang Wolfram Wulf Xaver
-	}
-	female_names = {
-		Abigail Ada Adele Adelheid Adelina Agathe Agnes Albina Alena Alex Alexa Alexandra Alfreda Alida Alina Aloisia Alwine Amalia Amalie Amanda Amelia Amelie Andrea Anelie Angela Angelika Angelina Anika Anina Anita Anja Anke Anna Annalena Anne Annegret Anneli Annelies Annemarie Annett Annette Anni Annika Anselma Antje Antonia Ariane Astrid Augusta Auguste Augustine Aurora Ava Babette Barbara Beata Beate Beatrix Benedikta Berta Bertha Bettina Bianka Birgit Brigitta Brigitte Brunhilde Caecilia Camilla Carina Carla Carola Carolin Caroline Cassandra Cathrin Catrin Cecilia Celine Charlotte Christa Christel Christiane Christin Christina Clara Claudia Constanze Cora Cordula Corina Corinna Cornelia Crescentia Dagmar Dana Daniela Debora Diana Dietlinde Dita Doris Dorothea Ebba Edelgard Edith Eike Elena Eleonora Eleonore Elfriede Elisa Elisabeth Elise Elke Elli Elma Elsa Else Elvira Emilia Emilie Emma Emmy Erika Ermentrud Erna Ernestine Esther Eva Evelin Evelyn Evi Felicie Felicitas Felizitas Flora Franka Franzi Franziska Frauke Freya Frieda Friede Friederike Fritzi Gabi Gabriela Gabriele Georgina Gerda Gerhild Gerlinde Gertraud Gertrud Gisa Gisela Gitta Gloria Gratia Greta Gretchen Grete Gretel Gudrun Gunda Gundula Hanna Hannah Hanne Hannelore Hedwig Hedy Heida Heide Heidemarie Heidi Heidrun Heike Heilwig Heinrike Helena Helene Helga Hella Helma Helmine Henriette Henrike Hermina Hermine Herta Hertha Hilda Hilde Hildegard Hildegarde Hiltraud Hiltrud Hiltrude Hulda Ida Ilona Ilsa Ilse Imke Ina Inga Inge Ingeborg Ingeburg Ingrid Inka Irene Iris Irma Irmentrud Irmgard Irmhild Irmingard Irmtrud Isa Isabel Isabell Isabella Isabelle Isolde Ivonne Jana Janina Janine Jasmin Jennifer Jenny Jessica Jessika Jo Johanna Josefine Josepha Josephine Judit Judith Julia Juliana Juliane Julie Justine Jutta Karen Karin Karina Karla Karola Karolina Karoline Kasimira Katarina Katarine Katharina Katharine Katherina Kathrin Katinka Katja Katrin Katrina Kerstin Kiki Kinge Klara Konstanze Kora Kornelia Kreszentia Kreszenz Kriemhild Kriemhilde Krimhilde Krista Kristiane Kristin Kristina Kristine Kunigunde Lara Laura Lea Lena Lene Leni Leona Leonie Leonore Liane Lies Liesa Liese Liesel Lieselotte Liesl Lili Lilli Lilo Lina Linda Lisa Lisbeth Liselotte Lore Lotte Lotti Louisa Louise Lucia Luise Luitgard Lulu Lutgard Luzia Lydia Magda Magdalena Magdalene Maike Maja Manu Manuela Marcella Mareike Margareta Margarete Margaretha Margarethe Margit Margrit Maria Marianne Marie Mariele Marina Marita Marlen Marlene Marlis Marta Martha Martina Mathilde Maxi Maximiliane Mechthild Meike Melanie Melitta Meta Mia Micha Michaela Michi Minna Miriam Mirjam Mitzi Monika Nadine Nadja Natalia Natalie Nathalie Nele Nicol Nicola Nicole Nikola Nina Noemi Nora Oda Odilie Olga Olivia Ortrun Ottilie Patricia Pauline Petra Philippa Philippina Philomena Phyllis Pia Priska Rachel Raffaela Raimunde Raphaela Rebekka Regina Regine Regula Reinhild Reinhilde Renata Renate Ria Ricarda Rike Rita Romy Rosa Rosalie Rosemarie Roswitha Ruth Sabine Sabrina Salome Sandra Sara Sarah Sascha Saskia Schwanhild Selma Senta Seraphina Sibylla Sibylle Sieghild Sieglinde Sigi Silke Silvia Sofia Sofie Sonja Sonje Sophia Sophie Stefanie Steffi Steffie Stella Stephanie Susann Susanne Suse Susi Svenja Swanhild Swanhilda Swanhilde Sybille Sylvia Tabea Tanja Tatiana Tatjana Teresa Thea Theda Thekla Theresa Therese Theresia Thora Traudl Trudi Ulla Ulli Ulrike Ursel Ursula Uschi Ute Valentina Valeria Valerie Valeska Vanessa Vera Verena Veronika Victoria Viktoria Vilma Viola Walburga Waltraud Waltraut Wanda Wenke Wibke Wiebke Wilhelmina Wilhelmine Wilma Yvonne Zella Zenzi Zilla Ziska Zita Zoe Zo Zoe
-	}
-	pat_grf_name_chance = 40
-	mat_grf_name_chance = 10
-	father_name_chance = 10
-	pat_grm_name_chance = 10
-	mat_grm_name_chance = 40
-	mother_name_chance = 10
-}
-
+# e75: name_list_ck_canadian removed (no culture uses it since e74)
+# e75: name_list_ck_aussie removed (no culture uses it since e74)
 name_list_ck_navardanian = {
 	dynasty_names = { # Cyber Kings: from this culture's existing dynasties
 		dynn_ck_7000032
@@ -583,40 +493,5 @@ name_list_ck_sahelian = {
 	mother_name_chance = 10
 }
 
-name_list_ck_first_peoples = {
-	dynasty_names = { # Cyber Kings: from the dynasties of this culture's characters (2026-11-11)
-		dynn_ck_110220 dynn_ck_110230 dynn_ck_110250 dynn_ck_110370 dynn_ck_110380
-	}
-	dynasty_of_location_prefix = "dynnp"
-	male_names = {
-		"Abi-Bakr" "Abubakari" Akoi Alayaman Ali "Ali-Fay" "Ali-Kolon" "Ali-Zalil" Bad Bakr "Bakr-Kanbu" Bamari Bankanu Bannu Bassarou Bassi Birama Bisi Biyu Bonga Cisse Dankaran Daoud Dawud Demba Diara D ru "Faga-Laye" Fatta Fodi Fuluku F dazu Gane Gao Hargani Harun Igoumou Ishaq Ismail Kabayo Kalabi Kambine Kanafa Kassa Kasse Kaya Kayna Kinkin Kisha Kodama Ko z Kukuray Kusoy Lahiltoul "M'Bali" Maammarou Maghan Mahmud Majan Malla Mamadi Mamoudou "Manding-Bory" "Mari-Djata" Ma roumfa "Missi-Iz" Morobani Musa Nintasanay Nuh Ouali Ouanko Ouati Reidja Sakoura Salman "Samsou-B" ri "Samsou-Ke" na Sandaki Soumaba Soumaoro Soundiata Sulayman Takoi Tib Tomo Tunka Umar Yama Yaqub Yasiboy Zakoi Zenku
-	}
-	female_names = {
-		Adja Aichata Aissata Alima Aminata Amita Aoua Barakissa Bintou Deye Djeneba Djenly Djire Fadima Fatim Fatoumata Halima Hawa Ina Kadi Kilia Kolonkan Lorane Mariam Nafissa Namandj Namiss Nana Safiatou Salimata Sassouma Sidib Siya Sogolon Tekhaye Youma Ze nab
-	}
-	pat_grf_name_chance = 40
-	mat_grf_name_chance = 10
-	father_name_chance = 10
-	pat_grm_name_chance = 10
-	mat_grm_name_chance = 40
-	mother_name_chance = 10
-}
-
-name_list_ck_nativican = {
-	dynasty_names = { # Cyber Kings: from this culture's existing dynasties
-		dynn_ck_100050 dynn_ck_100100 dynn_ck_100130 dynn_ck_100160 dynn_ck_100190 dynn_ck_100270 dynn_ck_100280 dynn_ck_100340 dynn_ck_100350 dynn_ck_100360 dynn_ck_100370 dynn_ck_100380 dynn_ck_100390 dynn_ck_100400 dynn_ck_100420 dynn_ck_100450 dynn_ck_100500 dynn_ck_100510 dynn_ck_100530 dynn_ck_100580 dynn_ck_100620 dynn_ck_100700 dynn_ck_100740 dynn_ck_100840 dynn_ck_100890 dynn_ck_100910 dynn_ck_101070 dynn_ck_101090 dynn_ck_101110 dynn_ck_101140 dynn_ck_101220 dynn_ck_101360 dynn_ck_101390 dynn_ck_101510 dynn_ck_101520 dynn_ck_101620 dynn_ck_101690 dynn_ck_101990 dynn_ck_102400 dynn_ck_102760
-	}
-	dynasty_of_location_prefix = "dynnp"
-	male_names = {
-		Acalan Acacitli Acamapichtli Acolmiztli Aculnahuacatl Ahuiliztli Ahuitzotl Atl Axayacatl Cacamatzin Chimalli Chimalpilli Chimalpopoca Cipac Coanacoch Coatl Cozahtli Cuauhtemoc Cuauhtl Cuetlachtli Cuetzpalli Cuixtli Cuitlahuac Huitzilin Huitzilihuitl Huitzitl Huitztecol Iquehuacatzin Itzcoatl Itzli Itzcuintli Ixtlilxochitl Mahchimaleh Matlal Mazatl Matlalihuitl Matlatzincatzin Maxtla Miztli Moctezuma Moquihuix Necuametl Nezahualcoyotl Nezahualpilli Nochehuatl Ocuil Olli Opochtli Ozomatli Quauhtli Tapayaxi Tecocoltzin Tecolotl Tetlepanquetzaltzin Tezozomoc Tizoc Tizocic Tlacaelel Tlacaeleltzin Tlalli Tlaloc Tochtli Tototl Tzompantzin Tlilpotonqui Topiltzin Totoquihuaztli Ueman Yaotl Yayauhqui Yolotli Yolyamanitzin Xicohtencatl Xiuhpilli Xihuitl Xipil Xipilli Xochitl Xochipepe Xochipilli Zipactonal Zolin
-	}
-	female_names = {
-		Achcauhtli Acxocueitl Ahuiliztli Amoxtli Atl Atotoztli Ayauhcihuatl Azcalxochitzin Centehua Cihuaton Chalchiuitl Chicahua Chichimecacihuatzin Chipahua Chicomecoatl Chimalma Citlali Citlalli Citlalmina Coaxoch Coszcatl Cozamalotl Cuicatl Eleuia Eloxochitl Etalpalli Eztli "Huehue-Zaca" Itotia Iuitl Ixcatzin Izel Malinalxochitl Manauia Matlalatzin Mecatl Meztli Miahuaxiuitl Miyaoaxochitl Mizquixahual Momoztli Nahuatl Necahual Nelli Ohtli Papa Patli Quiauhxochitl Sacnite Techichpotzin Tezozomoc Tziquetzalpoztectzin Teiuc Teicuih Teyacapan Tepin Tezcatlan Tlacotl Tlahco Tlahcoehua Toltecatl Tonalnan Tlazozomizqui Yoltzin Xilonen Xiloxoch Xiuhtomiyauhtzin Xochitl Xocoh Xocoyotl Yaretzi Zeltzin Zyanya
-	}
-	pat_grf_name_chance = 40
-	mat_grf_name_chance = 10
-	father_name_chance = 10
-	pat_grm_name_chance = 10
-	mat_grm_name_chance = 40
-	mother_name_chance = 10
-}
+# e75: name_list_ck_first_peoples removed (no culture uses it since e74)
+# e75: name_list_ck_nativican removed (no culture uses it since e74)

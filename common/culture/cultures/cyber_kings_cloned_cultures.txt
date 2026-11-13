@@ -90,7 +90,7 @@ choam = {
 inuit = {
 	color = { 0.65 0.50 0.15 }
 
-	name_list = name_list_ck3_inuit
+	name_list = name_list_cy_inuit
 	ethos = ethos_communal
 	heritage = heritage_ck_arctic
 	language = language_ck_inuit
@@ -197,7 +197,7 @@ korean = {
 
 
 	name_order_convention = dynasty_always_first
-	name_list = name_list_korean
+	name_list = name_list_cy_korean
 	ethos = ethos_courtly
 	heritage = heritage_korean
 	language = language_korean
@@ -354,8 +354,7 @@ murican = {
 	head_determination = head_determination_domain
 	traditions = { tradition_family_entrepreneurship tradition_staunch_traditionalists tradition_reverence_for_veterans tradition_swords_for_hire }
 	
-	name_list = name_list_ck_murican
-	
+	name_list = name_list_cy_american
 	coa_gfx = { breton_coa_gfx western_coa_gfx }
 	building_gfx = { western_building_gfx }
 	clothing_gfx = { breton_clothing_gfx western_clothing_gfx }
@@ -417,8 +416,7 @@ liblander = {
 	head_determination = head_determination_domain
 	traditions = { tradition_equitable tradition_republican_legacy tradition_city_keepers }
 	
-	name_list = name_list_ck_liblander
-	
+	name_list = name_list_cy_american
 	coa_gfx = { frankish_group_coa_gfx western_coa_gfx }
 	building_gfx = { western_building_gfx }
 	clothing_gfx = { french_clothing_gfx western_clothing_gfx }
@@ -441,7 +439,7 @@ canadian = {
 
 
 	
-	name_list = name_list_ck3_north_american
+	name_list = name_list_cy_canadian
 	ethos = ethos_bureaucratic
 	heritage = heritage_ck_northern
 	language = language_anglic
@@ -483,8 +481,7 @@ aussie = {
 	head_determination = head_determination_domain
 	traditions = { tradition_city_keepers tradition_maritime_mercantilism tradition_republican_legacy }
 	
-	name_list = name_list_ck_aussie
-
+	name_list = name_list_cy_australian
 	coa_gfx = { german_group_coa_gfx western_coa_gfx } 
 	building_gfx = { western_building_gfx } 
 	clothing_gfx = { dde_hre_clothing_gfx western_clothing_gfx } 
@@ -805,7 +802,7 @@ sahelian = {
 first_peoples = {
 	color = { 0.45 0.45 0.20 }
 	
-	name_list = name_list_ck3_first_peoples
+	name_list = name_list_cy_first_peoples
 	ethos = ethos_spiritual
 	heritage = heritage_ck_aboriginal
 	language = language_ck_aboriginal
@@ -843,8 +840,7 @@ nativican = { #Represents the wide array of different groups that populate New G
 		tradition_medicinal_plants
 	}
 
-	name_list = name_list_ck_nativican
-
+	name_list = name_list_cy_nativican
 	coa_gfx = { burman_group_coa_gfx }
 	building_gfx = { southeast_asian_building_gfx }
 	clothing_gfx = { papuan_clothing_gfx southeast_asian_clothing_gfx }

@@ -1,0 +1,49 @@
+﻿name_list_east_bantu = {
+	# e74 modern list (S2 Tanzania/Uganda; Pulse 2024 Kenya (Jayden, Liam common); K (Kikuyu/Kamba/Sukuma/Chagga names))
+	cadet_dynasty_names = {
+		dynn_cy_Kamau dynn_cy_Mwangi dynn_cy_Njoroge dynn_cy_Kariuki dynn_cy_Kimani dynn_cy_Wanjiku dynn_cy_Mutua dynn_cy_Musyoka dynn_cy_Ndungu dynn_cy_Githinji dynn_cy_Maina dynn_cy_Waweru
+		dynn_cy_Kenyatta dynn_cy_Kibaki dynn_cy_Ruto dynn_cy_Magufuli dynn_cy_Kikwete dynn_cy_Nyerere dynn_cy_Mkapa dynn_cy_Mwinyi dynn_cy_Mbowe dynn_cy_Lissu dynn_cy_Mollel dynn_cy_Massawe
+		dynn_cy_Shirima dynn_cy_Mushi dynn_cy_Swai dynn_cy_Kimaro dynn_cy_Lyimo dynn_cy_Nyamhanga
+	}
+	dynasty_names = {
+		dynn_cy_Kamau dynn_cy_Mwangi dynn_cy_Njoroge dynn_cy_Kariuki dynn_cy_Kimani dynn_cy_Wanjiku dynn_cy_Mutua dynn_cy_Musyoka dynn_cy_Ndungu dynn_cy_Githinji dynn_cy_Maina dynn_cy_Waweru
+		dynn_cy_Kenyatta dynn_cy_Kibaki dynn_cy_Ruto dynn_cy_Magufuli dynn_cy_Kikwete dynn_cy_Nyerere dynn_cy_Mkapa dynn_cy_Mwinyi dynn_cy_Mbowe dynn_cy_Lissu dynn_cy_Mollel dynn_cy_Massawe
+		dynn_cy_Shirima dynn_cy_Mushi dynn_cy_Swai dynn_cy_Kimaro dynn_cy_Lyimo dynn_cy_Nyamhanga
+	}
+	male_names = {
+		cyn_Jayden cyn_Liam cyn_Baraka cyn_Brian cyn_Kevin cyn_Dennis cyn_Collins cyn_Peter cyn_John cyn_Joseph cyn_James cyn_Daniel
+		cyn_David cyn_Samuel cyn_Emmanuel cyn_Joshua cyn_Kamau cyn_Mwangi cyn_Njoroge cyn_Kariuki cyn_Otieno cyn_Mutua cyn_Musyoka cyn_Kipchoge
+		cyn_Juma cyn_Hamisi cyn_Salim cyn_Rashidi cyn_Faraji cyn_Jabari cyn_Amani cyn_Elia cyn_Godfrey cyn_Wafula cyn_Barasa
+	}
+	female_names = {
+		cyn_Kyla cyn_Wanjiru cyn_Wairimu cyn_Wambui cyn_Njeri cyn_Nyambura cyn_Wangari cyn_Mumbua cyn_Mwende cyn_Neema cyn_Rehema cyn_Upendo
+		cyn_Imani cyn_Zawadi cyn_Faith cyn_Mercy cyn_Grace cyn_Joy cyn_Esther cyn_Mary cyn_Lucy cyn_Jane cyn_Ann cyn_Sharon
+		cyn_Ivy cyn_Diana cyn_Purity cyn_Winnie cyn_Caroline cyn_Victoire cyn_Halima cyn_Mwanaisha cyn_Zuhura cyn_Asha
+	}
+	dynasty_of_location_prefix = "dynnp_of"
+}
+
+name_list_swahili = {
+	# e74 modern list (S2 Tanzania; K (Swahili coast names))
+	cadet_dynasty_names = {
+		dynn_cy_Mwinyi dynn_cy_Hemed dynn_cy_Khamis dynn_cy_Juma dynn_cy_Said dynn_cy_Seif dynn_cy_Ali dynn_cy_Hassan dynn_cy_Mohamed dynn_cy_Abeid dynn_cy_Shein dynn_cy_Karume
+		dynn_cy_Jumbe dynn_cy_Makame dynn_cy_Othman dynn_cy_Mzee dynn_cy_Bakari dynn_cy_Ramadhani dynn_cy_Shabani dynn_cy_Athumani dynn_cy_Mbaraka dynn_cy_Haji dynn_cy_Faki dynn_cy_Salim
+		dynn_cy_Omar
+	}
+	dynasty_names = {
+		dynn_cy_Mwinyi dynn_cy_Hemed dynn_cy_Khamis dynn_cy_Juma dynn_cy_Said dynn_cy_Seif dynn_cy_Ali dynn_cy_Hassan dynn_cy_Mohamed dynn_cy_Abeid dynn_cy_Shein dynn_cy_Karume
+		dynn_cy_Jumbe dynn_cy_Makame dynn_cy_Othman dynn_cy_Mzee dynn_cy_Bakari dynn_cy_Ramadhani dynn_cy_Shabani dynn_cy_Athumani dynn_cy_Mbaraka dynn_cy_Haji dynn_cy_Faki dynn_cy_Salim
+		dynn_cy_Omar
+	}
+	male_names = {
+		cyn_Juma cyn_Hamisi cyn_Salim cyn_Rashidi cyn_Faraji cyn_Jabari cyn_Baraka cyn_Amani cyn_Bakari cyn_Omari cyn_Mohamed cyn_Ali
+		cyn_Hassan cyn_Abdallah cyn_Said cyn_Seif cyn_Suleiman cyn_Shabani cyn_Ramadhani cyn_Athumani cyn_Musa cyn_Issa cyn_Yusuf cyn_Khamis
+		cyn_Mwinyi cyn_Hemed cyn_Mbaraka cyn_Abeid cyn_Haji cyn_Ahmed
+	}
+	female_names = {
+		cyn_Mwanaisha cyn_Zuhura cyn_Asha cyn_Halima cyn_Mwajuma cyn_Mwanahawa cyn_Rehema cyn_Neema cyn_Zawadi cyn_Upendo cyn_Imani cyn_Saida
+		cyn_Mariamu cyn_Fatuma cyn_Amina cyn_Khadija cyn_Zainabu cyn_Salma cyn_Rukia cyn_Aisha cyn_Mwanaidi cyn_Mwanajuma cyn_Tatu cyn_Mwanahamisi
+		cyn_Subira cyn_Riziki cyn_Zuhra cyn_Nasra cyn_Mwanakombo cyn_Saumu
+	}
+	dynasty_of_location_prefix = "dynnp_wa"
+}

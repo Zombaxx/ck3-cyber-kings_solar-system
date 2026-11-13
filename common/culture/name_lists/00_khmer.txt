@@ -1,0 +1,24 @@
+﻿name_list_khmer = {
+	# e74 modern list (W1 Cambodia (total population); W2 Cambodia; K)
+	cadet_dynasty_names = {
+		dynn_cy_Chey dynn_cy_Keo dynn_cy_Sok dynn_cy_Chea dynn_cy_Hun dynn_cy_Kim dynn_cy_Ly_db96 dynn_cy_Meas dynn_cy_Nguon dynn_cy_Ouk dynn_cy_Pich dynn_cy_Prak
+		dynn_cy_Sam dynn_cy_Sar dynn_cy_Seng dynn_cy_Sim dynn_cy_Som dynn_cy_Tep dynn_cy_Thach dynn_cy_Ung dynn_cy_Yim dynn_cy_You dynn_cy_Heng dynn_cy_Lim
+		dynn_cy_Long dynn_cy_Mao dynn_cy_Men dynn_cy_Nhem dynn_cy_Phan dynn_cy_Pen
+	}
+	dynasty_names = {
+		dynn_cy_Chey dynn_cy_Keo dynn_cy_Sok dynn_cy_Chea dynn_cy_Hun dynn_cy_Kim dynn_cy_Ly_db96 dynn_cy_Meas dynn_cy_Nguon dynn_cy_Ouk dynn_cy_Pich dynn_cy_Prak
+		dynn_cy_Sam dynn_cy_Sar dynn_cy_Seng dynn_cy_Sim dynn_cy_Som dynn_cy_Tep dynn_cy_Thach dynn_cy_Ung dynn_cy_Yim dynn_cy_You dynn_cy_Heng dynn_cy_Lim
+		dynn_cy_Long dynn_cy_Mao dynn_cy_Men dynn_cy_Nhem dynn_cy_Phan dynn_cy_Pen
+	}
+	male_names = {
+		cyn_Sam cyn_Khan cyn_Heng cyn_Ron cyn_Ryan cyn_Dani cyn_Da cyn_Long cyn_Di cyn_Song cyn_Sokha cyn_Sophal
+		cyn_Vanna cyn_Chea cyn_Rithy cyn_Dara cyn_Sopheak cyn_Visal cyn_Pisey cyn_Sothea cyn_Bunthoeun cyn_Chanthou cyn_Kosal cyn_Makara
+		cyn_Rotha cyn_Samnang cyn_Sovann cyn_Vichet cyn_Veasna cyn_Hun
+	}
+	female_names = {
+		cyn_Chan cyn_Kim cyn_Yan cyn_Ni cyn_Li cyn_Sina cyn_Sophie cyn_Nan cyn_Thea cyn_Chang cyn_Sreymom cyn_Sreypov
+		cyn_Sokha cyn_Bopha cyn_Channary cyn_Chenda cyn_Dara cyn_Kanha cyn_Leakena cyn_Malis cyn_Navy cyn_Phalla cyn_Rachana cyn_Sophea
+		cyn_Sothea cyn_Srey cyn_Thida cyn_Vanna cyn_Sokunthea cyn_Chanthy
+	}
+	dynasty_of_location_prefix = "dynnp_of"
+}

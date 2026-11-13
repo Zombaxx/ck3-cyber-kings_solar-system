@@ -1,0 +1,181 @@
+﻿name_list_tamil = {
+	# e74 modern list (W1 India, Sri Lanka; K (Tamil names; patronymic initials replaced by caste-neutral family names))
+	cadet_dynasty_names = {
+		dynn_cy_Murugan dynn_cy_Subramanian dynn_cy_Krishnan dynn_cy_Raman dynn_cy_Rajendran dynn_cy_Natarajan dynn_cy_Shanmugam dynn_cy_Velu dynn_cy_Pillai dynn_cy_Mudaliar dynn_cy_Iyer dynn_cy_Iyengar
+		dynn_cy_Chettiar dynn_cy_Gounder dynn_cy_Nadar dynn_cy_Thevar dynn_cy_Naidu dynn_cy_Annamalai dynn_cy_Arumugam dynn_cy_Ramasamy dynn_cy_Palaniswami dynn_cy_Karunanidhi dynn_cy_Stalin dynn_cy_Sivakumar
+		dynn_cy_Balasubramaniam dynn_cy_Sundaram dynn_cy_Venkatesan dynn_cy_Kandasamy dynn_cy_Muthu dynn_cy_Selvaraj
+	}
+	dynasty_names = {
+		dynn_cy_Murugan dynn_cy_Subramanian dynn_cy_Krishnan dynn_cy_Raman dynn_cy_Rajendran dynn_cy_Natarajan dynn_cy_Shanmugam dynn_cy_Velu dynn_cy_Pillai dynn_cy_Mudaliar dynn_cy_Iyer dynn_cy_Iyengar
+		dynn_cy_Chettiar dynn_cy_Gounder dynn_cy_Nadar dynn_cy_Thevar dynn_cy_Naidu dynn_cy_Annamalai dynn_cy_Arumugam dynn_cy_Ramasamy dynn_cy_Palaniswami dynn_cy_Karunanidhi dynn_cy_Stalin dynn_cy_Sivakumar
+		dynn_cy_Balasubramaniam dynn_cy_Sundaram dynn_cy_Venkatesan dynn_cy_Kandasamy dynn_cy_Muthu dynn_cy_Selvaraj
+	}
+	male_names = {
+		cyn_Arun cyn_Karthik cyn_Senthil cyn_Suresh cyn_Ramesh cyn_Murugan cyn_Vijay cyn_Saravanan cyn_Prakash cyn_Rajesh cyn_Ganesh cyn_Balaji
+		cyn_Dinesh cyn_Manikandan cyn_Kumar cyn_Selvam cyn_Anand cyn_Bala cyn_Mani cyn_Siva cyn_Aadhavan cyn_Kavin cyn_Nithin cyn_Pranav
+		cyn_Rithik cyn_Sai cyn_Vishal cyn_Yuvan cyn_Dhanush cyn_Surya cyn_Ajith cyn_Velu cyn_Karuppusamy cyn_Ilango cyn_Tamilselvan
+	}
+	female_names = {
+		cyn_Priya cyn_Lakshmi cyn_Meena cyn_Kavitha cyn_Revathi cyn_Divya cyn_Saranya cyn_Deepa cyn_Anitha cyn_Selvi cyn_Malathi cyn_Sangeetha
+		cyn_Sowmya cyn_Gayathri cyn_Nandhini cyn_Pavithra cyn_Keerthana cyn_Yazhini cyn_Kaviya cyn_Harini cyn_Dharshini cyn_Iniya cyn_Mithra cyn_Aadhya
+		cyn_Tamizh cyn_Valli cyn_Kamala cyn_Vasanthi cyn_Sudha cyn_Kalaivani
+	}
+	pat_grf_name_chance = 50
+	mat_grf_name_chance = 25
+	father_name_chance = 25
+	pat_grm_name_chance = 0
+	mat_grm_name_chance = 0
+	mother_name_chance = 0
+	dynasty_of_location_prefix = "dynnp_of"
+}
+
+name_list_telugu = {
+	# e74 modern list (W1 India; K (Telugu names and surnames))
+	cadet_dynasty_names = {
+		dynn_cy_Reddy dynn_cy_Rao dynn_cy_Naidu dynn_cy_Chowdary dynn_cy_Varma dynn_cy_Raju dynn_cy_Sastry dynn_cy_Sharma dynn_cy_Goud dynn_cy_Yadav dynn_cy_Kamma dynn_cy_Kapu
+		dynn_cy_Nayudu dynn_cy_Gupta dynn_cy_Setty dynn_cy_Murthy dynn_cy_Prasad dynn_cy_Babu dynn_cy_Kumar dynn_cy_Rajan dynn_cy_Konidela dynn_cy_Akkineni dynn_cy_Nandamuri dynn_cy_Daggubati
+		dynn_cy_Ghattamaneni
+	}
+	dynasty_names = {
+		dynn_cy_Reddy dynn_cy_Rao dynn_cy_Naidu dynn_cy_Chowdary dynn_cy_Varma dynn_cy_Raju dynn_cy_Sastry dynn_cy_Sharma dynn_cy_Goud dynn_cy_Yadav dynn_cy_Kamma dynn_cy_Kapu
+		dynn_cy_Nayudu dynn_cy_Gupta dynn_cy_Setty dynn_cy_Murthy dynn_cy_Prasad dynn_cy_Babu dynn_cy_Kumar dynn_cy_Rajan dynn_cy_Konidela dynn_cy_Akkineni dynn_cy_Nandamuri dynn_cy_Daggubati
+		dynn_cy_Ghattamaneni
+	}
+	male_names = {
+		cyn_Srinivas cyn_Venkatesh cyn_Ravi cyn_Suresh cyn_Ramesh cyn_Raju cyn_Krishna cyn_Prasad cyn_Naresh cyn_Mahesh cyn_Rajesh cyn_Kiran
+		cyn_Satish cyn_Anil cyn_Chandra cyn_Nagarjuna cyn_Chiranjeevi cyn_Pawan cyn_Ram_Charan cyn_Arjun cyn_Vamsi cyn_Sai cyn_Teja cyn_Charan
+		cyn_Harsha cyn_Karthikeya cyn_Abhiram cyn_Aarav cyn_Vihaan cyn_Pranav
+	}
+	female_names = {
+		cyn_Lakshmi cyn_Padma cyn_Sravani cyn_Swathi cyn_Sirisha cyn_Sowjanya cyn_Lavanya cyn_Divya cyn_Bhavana cyn_Keerthi cyn_Anusha cyn_Harika
+		cyn_Sravya cyn_Tejaswi cyn_Mounika cyn_Pravallika cyn_Sahithi cyn_Varsha cyn_Akshaya cyn_Hasini cyn_Aadhya cyn_Saanvi cyn_Ananya cyn_Vaishnavi
+		cyn_Sindhu cyn_Radha cyn_Saroja cyn_Vijaya cyn_Kalyani cyn_Jyothi
+	}
+	pat_grf_name_chance = 50
+	mat_grf_name_chance = 25
+	father_name_chance = 25
+	pat_grm_name_chance = 25
+	mat_grm_name_chance = 25
+	mother_name_chance = 0
+	dynasty_of_location_prefix = "dynnp_of"
+}
+
+name_list_gond = {
+
+	dynasty_names = {
+		"dynn_Chanda"
+		"dynn_Rajgond"
+		"dynn_Deogadhi"
+		"dynn_Ballar_Sahi"
+		"dynn_Haihaya"
+		"dynn_Nagavamsi"
+		"dynn_Bhanja"
+		"dynn_Mana"
+		"dynn_Atram"
+		"dynn_Halba"
+		"dynn_Dher"
+		"dynn_Murani"
+		"dynn_Madia"
+		"dynn_Gowari"
+		"dynn_Khatulwar"
+		"dynn_Naikpod"
+		"dynn_Sonjhari"
+		"dynn_Thoti"
+		"dynn_Mannewar"
+		"dynn_Jhareya"
+		"dynn_Koya"
+		"dynn_gona"
+
+		{ "dynn_Angadi" }
+		{ "dynn_Bhat" }
+		{ "dynn_Bhatt" }
+		{ "dynn_Biradar" }
+		{ "dynn_Halivar" }
+		{ "dynn_Hiremath" }
+		{ "dynn_Jadhav" }
+		{ "dynn_Nayak" }
+		{ "dynn_Padukone" }
+		{ "dynn_Prasad" }
+		{ "dynn_Raju" }
+		{ "dynn_Shankar" }
+		{ "dynn_Srivastava" }
+		{ "dynn_Suresh" }
+		{ "dynn_Talavar" }
+		{ "dynn_Venkatesh" }
+		{ "dynn_Yadav" }
+	}
+
+	male_names = {
+		Narsinghdeva Nar_Singh Arjuna Sangrama Daipat Vir Vir_Narayana Chandra Hir_Sah Hirde Madhukara
+		Dhundya Krasna Bir Hiradi Ram Nilkanth Bakht Lokba Babji_Ballal_Sah
+
+		Talwar_Singh Kesar_Singh Dinkar_Singh Surja_Ballal_Singh Khandkya_Ballal_Singh Bhuma Kondya_Sah Hir_Singh Kharja_Ballal_Singh
+		Bhim_Ballal_Singh Soorjat_Badwaik Kurumpruhoda Kol_Bheel
+
+
+		Achugi Adikavi Ahavamalla Anekonda Asaga Avinita Ayanna Bijjama Bukka Butuga
+		Chavundaraya Dashavarman Dhruva Durgasimha Durvinita Ereganga Ereyanga
+		Gangaraja Gajankusha Gobburi Govinda Hakka Harihara Harivarman Indra
+		Jagadhekamalla Jagaraya Jagattunga Jayasimha Jogama
+		Kambarasa Kannama Karka Khottiga Kiriyasaga Kirtivarman Konganivarman Krishna
+		Madhava Madhura Mallugi Mangalesi Marasimha Marulaganga Mushkara Narasanayaka
+		Narasimha Neetimarga Nripakama Permanadi Polavira Praudharaya Pulakesi Purandaradasa
+		Rachamalla Ramachandra Ramadeva Ramaraya Sankama Satyasraya Sharva Shivamara Singhana Sovideva Sripadaraya Sripurusha Sriranga Srivikrama Tailapa Thimma Tirumalaraya
+		Uchita Venkatadri Venkatapathi Vikramaditya Vijayaditya Vinayaditya Viraballala Viravijaya
+		Virupaksha Vishnugopa Vishnuvardhana Yachama Yachamanedu
+		Achyutadeva Sadashiva Vendakadri Viranarasimha
+	}
+	female_names = {
+		Durgavati Hirai Ratna_Kuvar
+
+		Akkadevi Bhavanaga Bijjabbe Chandaladevi Chandrabbalabbe Gangambika Kundakadevi
+		Lakshmi Mahadevi Mailaladevi Obayamma Pertal Revakanimmadi Shantaladevi Vijamba
+		Chinnambike Thirumalambike
+	}
+	
+	
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 50
+	mat_grf_name_chance = 25
+	father_name_chance = 25
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 25
+	mat_grm_name_chance = 25
+	mother_name_chance = 0
+	
+	dynasty_of_location_prefix = "dynnp_of"
+	
+	house_based_map_names = yes
+}
+
+name_list_kannada = {
+	# e74 modern list (W1 India; K (Kannada names and surnames))
+	cadet_dynasty_names = {
+		dynn_cy_Gowda dynn_cy_Hegde dynn_cy_Shetty dynn_cy_Rao dynn_cy_Bhat dynn_cy_Kamath dynn_cy_Pai dynn_cy_Naik dynn_cy_Kulkarni dynn_cy_Patil dynn_cy_Desai dynn_cy_Joshi
+		dynn_cy_Shastri dynn_cy_Murthy dynn_cy_Prasad dynn_cy_Swamy dynn_cy_Reddy dynn_cy_Hiremath dynn_cy_Angadi dynn_cy_Kumaraswamy dynn_cy_Yediyurappa dynn_cy_Bommai dynn_cy_Siddaramaiah dynn_cy_Rajkumar
+		dynn_cy_Ananth
+	}
+	dynasty_names = {
+		dynn_cy_Gowda dynn_cy_Hegde dynn_cy_Shetty dynn_cy_Rao dynn_cy_Bhat dynn_cy_Kamath dynn_cy_Pai dynn_cy_Naik dynn_cy_Kulkarni dynn_cy_Patil dynn_cy_Desai dynn_cy_Joshi
+		dynn_cy_Shastri dynn_cy_Murthy dynn_cy_Prasad dynn_cy_Swamy dynn_cy_Reddy dynn_cy_Hiremath dynn_cy_Angadi dynn_cy_Kumaraswamy dynn_cy_Yediyurappa dynn_cy_Bommai dynn_cy_Siddaramaiah dynn_cy_Rajkumar
+		dynn_cy_Ananth
+	}
+	male_names = {
+		cyn_Manjunath cyn_Raghavendra cyn_Prakash cyn_Ravi cyn_Sunil cyn_Suresh cyn_Mahesh cyn_Nagaraj cyn_Shivakumar cyn_Basavaraj cyn_Siddaramaiah cyn_Darshan
+		cyn_Yash cyn_Sudeep cyn_Puneeth cyn_Rakshit cyn_Chethan cyn_Kiran cyn_Abhishek cyn_Vinay cyn_Harsha cyn_Pradeep cyn_Naveen cyn_Santosh
+		cyn_Prajwal cyn_Aarav cyn_Advik cyn_Shreyas cyn_Vedanth cyn_Tejas
+	}
+	female_names = {
+		cyn_Lakshmi cyn_Shobha cyn_Suma cyn_Rekha cyn_Shilpa cyn_Kavya cyn_Divya cyn_Pooja cyn_Ramya cyn_Sowmya cyn_Bhavya cyn_Deepika
+		cyn_Spoorthi cyn_Sinchana cyn_Ananya cyn_Aishwarya cyn_Chaitra cyn_Akshatha cyn_Navya cyn_Nandini cyn_Vidya cyn_Sudha cyn_Savitha cyn_Geetha
+		cyn_Pallavi cyn_Prathibha cyn_Rashmi cyn_Anusha cyn_Shruthi cyn_Tanvi
+	}
+	pat_grf_name_chance = 50
+	mat_grf_name_chance = 25
+	father_name_chance = 25
+	pat_grm_name_chance = 25
+	mat_grm_name_chance = 25
+	mother_name_chance = 0
+	dynasty_of_location_prefix = "dynnp_of"
+}

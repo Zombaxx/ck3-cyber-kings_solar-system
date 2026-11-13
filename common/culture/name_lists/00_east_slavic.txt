@@ -1,0 +1,182 @@
+﻿name_list_russian = {
+	# e74 modern list (W1 Russia 2012 + 2024 + Moscow 2024; W2 Russia; K)
+	cadet_dynasty_names = {
+		dynn_cy_Ivanov dynn_cy_Kuznetsov dynn_cy_Smirnov dynn_cy_Popov dynn_cy_Petrov dynn_cy_Vasilyev dynn_cy_Magomedov dynn_cy_Aliyev dynn_cy_Karimov dynn_cy_Volkov dynn_cy_Semyonov dynn_cy_Mikhaylov
+		dynn_cy_Pavlov dynn_cy_Kozlov dynn_cy_Fyodorov dynn_cy_Morozov dynn_cy_Novikov dynn_cy_Sokolov dynn_cy_Lebedev dynn_cy_Egorov dynn_cy_Orlov dynn_cy_Andreyev dynn_cy_Makarov dynn_cy_Nikitin
+		dynn_cy_Zakharov dynn_cy_Zaitsev dynn_cy_Solovyov dynn_cy_Borisov dynn_cy_Yakovlev dynn_cy_Grigoryev dynn_cy_Romanov dynn_cy_Vorobyov dynn_cy_Sergeyev dynn_cy_Frolov dynn_cy_Alexandrov dynn_cy_Dmitriyev
+		dynn_cy_Korolev dynn_cy_Gusev dynn_cy_Kiselyov dynn_cy_Ilyin dynn_cy_Maksimov dynn_cy_Polyakov dynn_cy_Sorokin dynn_cy_Vinogradov dynn_cy_Kovalyov dynn_cy_Belov dynn_cy_Medvedev dynn_cy_Antonov
+		dynn_cy_Tarasov dynn_cy_Zhukov dynn_cy_Baranov dynn_cy_Filippov dynn_cy_Komarov dynn_cy_Davydov dynn_cy_Belyaev dynn_cy_Gerasimov dynn_cy_Bogdanov dynn_cy_Osipov dynn_cy_Sidorov dynn_cy_Matveyev
+	}
+	dynasty_names = {
+		dynn_cy_Ivanov dynn_cy_Kuznetsov dynn_cy_Smirnov dynn_cy_Popov dynn_cy_Petrov dynn_cy_Vasilyev dynn_cy_Magomedov dynn_cy_Aliyev dynn_cy_Karimov dynn_cy_Volkov dynn_cy_Semyonov dynn_cy_Mikhaylov
+		dynn_cy_Pavlov dynn_cy_Kozlov dynn_cy_Fyodorov dynn_cy_Morozov dynn_cy_Novikov dynn_cy_Sokolov dynn_cy_Lebedev dynn_cy_Egorov dynn_cy_Orlov dynn_cy_Andreyev dynn_cy_Makarov dynn_cy_Nikitin
+		dynn_cy_Zakharov dynn_cy_Zaitsev dynn_cy_Solovyov dynn_cy_Borisov dynn_cy_Yakovlev dynn_cy_Grigoryev dynn_cy_Romanov dynn_cy_Vorobyov dynn_cy_Sergeyev dynn_cy_Frolov dynn_cy_Alexandrov dynn_cy_Dmitriyev
+		dynn_cy_Korolev dynn_cy_Gusev dynn_cy_Kiselyov dynn_cy_Ilyin dynn_cy_Maksimov dynn_cy_Polyakov dynn_cy_Sorokin dynn_cy_Vinogradov dynn_cy_Kovalyov dynn_cy_Belov dynn_cy_Medvedev dynn_cy_Antonov
+		dynn_cy_Tarasov dynn_cy_Zhukov dynn_cy_Baranov dynn_cy_Filippov dynn_cy_Komarov dynn_cy_Davydov dynn_cy_Belyaev dynn_cy_Gerasimov dynn_cy_Bogdanov dynn_cy_Osipov dynn_cy_Sidorov dynn_cy_Matveyev
+	}
+	male_names = {
+		cyn_Alexander cyn_Sergei cyn_Dmitry cyn_Andrei cyn_Alexey cyn_Maxim cyn_Evgeny cyn_Ivan cyn_Mikhail cyn_Artyom cyn_Lev cyn_Mark
+		cyn_Matvey cyn_Timofey cyn_Roman cyn_Kirill cyn_Nikita cyn_Egor cyn_Daniil cyn_Ilya cyn_Vladimir_9972 cyn_Nikolai cyn_Pavel cyn_Yuri
+		cyn_Viktor cyn_Oleg cyn_Igor cyn_Anatoly cyn_Konstantin cyn_Vyacheslav cyn_Vadim cyn_Denis cyn_Anton cyn_Stanislav cyn_Gennady cyn_Boris
+		cyn_Valery cyn_Arseny cyn_Fyodor cyn_Stepan cyn_Gleb cyn_Semyon cyn_Yaroslav cyn_Platon cyn_Miron
+	}
+	female_names = {
+		cyn_Anastasia cyn_Yelena cyn_Olga cyn_Natalia cyn_Yekaterina cyn_Anna cyn_Tatiana cyn_Maria cyn_Irina cyn_Yulia cyn_Sofiya cyn_Yeva
+		cyn_Viktoriya cyn_Vasilisa cyn_Varvara cyn_Aleksandra cyn_Polina cyn_Alisa cyn_Svetlana cyn_Lyudmila cyn_Galina cyn_Valentina cyn_Nadezhda cyn_Larisa
+		cyn_Marina cyn_Oksana cyn_Ksenia cyn_Darya cyn_Ulyana cyn_Milana cyn_Veronika cyn_Kristina cyn_Alina cyn_Elizaveta cyn_Arina cyn_Zlata
+		cyn_Valeriya cyn_Margarita cyn_Vera cyn_Lyubov
+	}
+	dynasty_of_location_prefix = "dynnp_of"
+	pat_grf_name_chance = 50
+	mat_grf_name_chance = 40
+	father_name_chance = 0
+	pat_grm_name_chance = 30
+	mat_grm_name_chance = 30
+	mother_name_chance = 0
+}
+name_list_ilmenian = {
+
+	cadet_dynasty_names = {
+		"dynn_Poloch"
+		"dynn_Izbor"
+		"dynn_Tversky"
+		"dynn_Lukisky"
+		"dynn_Pleskov"
+		"dynn_Toropetsky"
+		"dynn_Dukhovsky"
+	}
+
+	dynasty_names = {
+		"dynn_Poloch"
+		"dynn_Izbor"
+		"dynn_Tversky"
+		"dynn_Lukisky"
+		"dynn_Pleskov"
+		"dynn_Toropetsky"
+		"dynn_Dukhovsky"
+	}
+
+	male_names = {
+		Briachislav Demid Dobrynia Fedot Gleb Igor Iliya Iziaslav Lev Mitrofan Mstislav
+		Nikita Putiata Radoslav Rodislav Rogvolod Rostislav Ruslan Stanislav Sudislav Svetozar Sviatopolk Sviatoslav Terentiy Trifon Viacheslav Vladimir Vladislav Voislav Volodar Vseslav
+		Vsevolod Vyshata Vysheslav Yaropolk Yaroslav Yefimiy Yelisey Yeremey Yevstafiy
+	}
+	female_names = {
+		Boleslava Darya Dobrava Dobronega Dobroslava Yefimia Yefrosinia Fevronia Gorislava Gradislava Gremislava
+		Liubava Liudmila Malfrida Malusha Maria Marina Olena Olga Pereyaslava Praskovya Praxida Prebrana Predslava
+		Premyslava Pribislava Rogneda Rostislava Sbyslava Sviatoslava Tatyana Ulita Ulyana Varvara Vasilisa Veleslava Verkhoslava
+		Vseslava Viacheslava Yaroslava Zabava Zvenislava
+	}
+	dynasty_of_location_prefix = "dynnp_of"
+	
+	patronym_suffix_male = "dynnpat_suf_ovich"
+	patronym_suffix_female = "dynnpat_suf_ovna"
+
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 50
+	mat_grf_name_chance = 40
+	father_name_chance = 0
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 30
+	mat_grm_name_chance = 30
+	mother_name_chance = 0
+
+	
+}
+name_list_severian = {
+
+	cadet_dynasty_names = {
+		"dynn_Polan"
+		"dynn_Drevl"
+		"dynn_Lyubech"
+		"dynn_Roslavsky"
+		"dynn_Koroviev"
+		"dynn_Woland"
+	}
+
+	dynasty_names = {
+		"dynn_Polan"
+		"dynn_Drevl"
+		"dynn_Lyubech"
+		"dynn_Roslavsky"
+		"dynn_Koroviev"
+		"dynn_Woland"
+	}
+
+	male_names = {
+		Briachislav Demid Dobrynia Fedot Gleb Igor Iliya Iziaslav Lev Mitrofan Mstislav
+		Nikita Putiata Radoslav Rodislav Rogvolod Rostislav Ruslan Stanislav Sudislav Svetozar Sviatopolk Sviatoslav Terentiy Trifon Viacheslav Vladimir Vladislav Voislav Volodar Vseslav
+		Vsevolod Vyshata Vysheslav Yaropolk Yaroslav Yefimiy Yelisey Yeremey Yevstafiy
+	}
+	female_names = {
+		Boleslava Darya Dobrava Dobronega Dobroslava Yefimia Yefrosinia Fevronia Gorislava Gradislava Gremislava
+		Liubava Liudmila Malfrida Malusha Maria Marina Olena Olga Pereyaslava Praskovya Praxida Prebrana Predslava
+		Premyslava Pribislava Rogneda Rostislava Sbyslava Sviatoslava Tatyana Ulita Ulyana Varvara Vasilisa Veleslava Verkhoslava
+		Vseslava Viacheslava Yaroslava Zabava Zvenislava
+	}
+	dynasty_of_location_prefix = "dynnp_of"
+	
+	patronym_suffix_male = "dynnpat_suf_ovich"
+	patronym_suffix_female = "dynnpat_suf_ovna"
+
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 50
+	mat_grf_name_chance = 40
+	father_name_chance = 0
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 30
+	mat_grm_name_chance = 30
+	mother_name_chance = 0
+
+	
+}
+name_list_volhynian = {
+
+	cadet_dynasty_names = {
+		"dynn_Tyvertsky"
+		"dynn_Buzhansky"
+		"dynn_Slutsky"
+		"dynn_Pinesky"
+		"dynn_Zhytomyrsky"
+		"dynn_Vynnytsky"
+	}
+
+	dynasty_names = {
+		"dynn_Tyvertsky"
+		"dynn_Buzhansky"
+		"dynn_Slutsky"
+		"dynn_Pinesky"
+		"dynn_Zhytomyrsky"
+		"dynn_Vynnytsky"
+	}
+
+	male_names = {
+		Briachislav Demid Dobrynia Fedot Gleb Igor Iliya Iziaslav Lev Mitrofan Mstislav
+		Nikita Putiata Radoslav Rodislav Rogvolod Rostislav Ruslan Stanislav Sudislav Svetozar Sviatopolk Sviatoslav Terentiy Trifon Viacheslav Vladimir Vladislav Voislav Volodar Vseslav
+		Vsevolod Vyshata Vysheslav Yaropolk Yaroslav Yefimiy Yelisey Yeremey Yevstafiy
+	}
+	female_names = {
+		Boleslava Darya Dobrava Dobronega Dobroslava Yefimia Yefrosinia Fevronia Gorislava Gradislava Gremislava
+		Liubava Liudmila Malfrida Malusha Maria Marina Olena Olga Pereyaslava Praskovya Praxida Prebrana Predslava
+		Premyslava Pribislava Rogneda Rostislava Sbyslava Sviatoslava Tatyana Ulita Ulyana Varvara Vasilisa Veleslava Verkhoslava
+		Vseslava Viacheslava Yaroslava Zabava Zvenislava
+	}
+	dynasty_of_location_prefix = "dynnp_of"
+	
+	patronym_suffix_male = "dynnpat_suf_ovich"
+	patronym_suffix_female = "dynnpat_suf_ovna"
+
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 50
+	mat_grf_name_chance = 40
+	father_name_chance = 0
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 30
+	mat_grm_name_chance = 30
+	mother_name_chance = 0
+
+	
+}

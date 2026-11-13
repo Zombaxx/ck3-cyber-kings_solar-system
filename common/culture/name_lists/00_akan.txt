@@ -1,0 +1,142 @@
+﻿name_list_akan = {
+	# e74 modern list (S3 (Akan day names); W1 Ivory Coast; K)
+	cadet_dynasty_names = {
+		dynn_cy_Mensah dynn_cy_Boateng dynn_cy_Owusu dynn_cy_Asante dynn_cy_Osei dynn_cy_Agyemang dynn_cy_Appiah dynn_cy_Ofori dynn_cy_Amoah dynn_cy_Darko dynn_cy_Annan dynn_cy_Badu
+		dynn_cy_Bonsu dynn_cy_Acheampong dynn_cy_Adjei dynn_cy_Ampofo dynn_cy_Antwi dynn_cy_Asamoah dynn_cy_Gyamfi dynn_cy_Kufuor dynn_cy_Nkrumah dynn_cy_Opoku dynn_cy_Sarpong dynn_cy_Twumasi
+		dynn_cy_Yeboah dynn_cy_Quaye dynn_cy_Quansah dynn_cy_Arthur dynn_cy_Danquah dynn_cy_Frimpong dynn_cy_Kwarteng dynn_cy_Nyarko dynn_cy_Oduro dynn_cy_Oppong dynn_cy_Poku
+	}
+	dynasty_names = {
+		dynn_cy_Mensah dynn_cy_Boateng dynn_cy_Owusu dynn_cy_Asante dynn_cy_Osei dynn_cy_Agyemang dynn_cy_Appiah dynn_cy_Ofori dynn_cy_Amoah dynn_cy_Darko dynn_cy_Annan dynn_cy_Badu
+		dynn_cy_Bonsu dynn_cy_Acheampong dynn_cy_Adjei dynn_cy_Ampofo dynn_cy_Antwi dynn_cy_Asamoah dynn_cy_Gyamfi dynn_cy_Kufuor dynn_cy_Nkrumah dynn_cy_Opoku dynn_cy_Sarpong dynn_cy_Twumasi
+		dynn_cy_Yeboah dynn_cy_Quaye dynn_cy_Quansah dynn_cy_Arthur dynn_cy_Danquah dynn_cy_Frimpong dynn_cy_Kwarteng dynn_cy_Nyarko dynn_cy_Oduro dynn_cy_Oppong dynn_cy_Poku
+	}
+	male_names = {
+		cyn_Kwame cyn_Kofi cyn_Kwaku cyn_Kwabena cyn_Kwadwo cyn_Kwasi cyn_Yaw cyn_Kojo cyn_Kwesi cyn_Ekow cyn_Kobina cyn_Fiifi
+		cyn_Nana cyn_Kwamena cyn_Emmanuel cyn_Samuel cyn_Daniel cyn_Isaac cyn_Michael cyn_Joseph cyn_Prince cyn_Richard cyn_Eric cyn_Ebenezer
+		cyn_Bernard cyn_Francis cyn_Stephen cyn_Godfred cyn_Kelvin cyn_Jeremiah cyn_Caleb cyn_Nathaniel cyn_Elijah cyn_Jayden
+	}
+	female_names = {
+		cyn_Akosua cyn_Adwoa cyn_Abena cyn_Akua cyn_Yaa cyn_Afua cyn_Ama cyn_Efua cyn_Esi cyn_Araba cyn_Ekua cyn_Aba
+		cyn_Adjoa cyn_Akos cyn_Abenaa cyn_Ahou cyn_Akissi cyn_Aya cyn_Amoin cyn_Affoue cyn_Adjoua cyn_Amenan cyn_Grace cyn_Mercy
+		cyn_Comfort cyn_Patience cyn_Gifty cyn_Priscilla cyn_Esther cyn_Abigail cyn_Doris cyn_Linda cyn_Joyce cyn_Vida cyn_Felicia cyn_Hannah
+		cyn_Precious cyn_Ruth cyn_Naa cyn_Maame
+	}
+	dynasty_of_location_prefix = "dynnp_of"
+}
+
+name_list_kru = {
+
+	cadet_dynasty_names = {
+		"dynn_Bakwe"
+		"dynn_Kodia"
+		"dynn_Godie"
+		"dynn_Wane"
+		"dynn_Neyo"
+		"dynn_Dida"
+		"dynn_Bete"
+		"dynn_We"
+		"dynn_Glio"
+		"dynn_Ubi"
+		"dynn_Gbii"
+		"dynn_Kuya"
+		"dynn_Kwadia"
+		"dynn_Kuwaa"
+		"dynn_Aizi"
+	}
+	dynasty_names = {
+		"dynn_Bakwe"
+		"dynn_Kodia"
+		"dynn_Godie"
+		"dynn_Wane"
+		"dynn_Neyo"
+		"dynn_Dida"
+		"dynn_Bete"
+		"dynn_We"
+		"dynn_Glio"
+		"dynn_Ubi"
+		"dynn_Gbii"
+		"dynn_Kuya"
+		"dynn_Kwadia"
+		"dynn_Kuwaa"
+		"dynn_Aizi"
+	}
+
+	male_names = {
+		Armah Borforh Boryee Cammue Didwho Dolo Dwe Flomo Forkay
+		Garnahweh Gartee Garteh Gardiah Garyupleh Garmuyu Gboto Gbwe
+		Jlakon Kollie Konmlan Konowa Kpakelah Kpangbah Kparnkpai Kparsi
+		Lami Luogon Manhtee Monon-Konmlan Nimene Nyennoh Odeleia Paye Pennon 
+		Siakoh Soe-Tehpoe Sundaygar Teh Tehpoe Togar Toimu Togba
+		Wamah Welleh Wonlay Yakpazuah Yarkpawolo Yenseloh Zaowolo Zokaya
+	}
+
+	female_names = {
+		Arway Bindu Bloh Dechontee Donyen Fahnlohnee Fortee
+		Garmenh Gblormehn Gborlormenh Gormenh Gorpue
+		Janjay Jayplo Kehper Korlu Korto Konah Kortolo Lurpu
+		Mardea Mayupleh Mehnmah Miata Monji
+		Nowa Nyamen Nyonontee Nyanpue Nyene-Dwe Nyonweh
+		Paye Pahn Poady Tardy Sorntee Suah Sundaymah
+		Tarloh Teenesee Tomah Wlejii Wloh Wlojii Yenplu Zoe
+	}
+	
+	founder_named_dynasties = yes
+	house_based_map_names = yes
+}
+
+name_list_guan = {
+
+	cadet_dynasty_names = {
+		"dynn_Ntafo"
+		"dynn_Fanti"
+		"dynn_Kyerepong"
+		"dynn_Le"
+		"dynn_Ahanta"
+		"dynn_Obutu"
+		"dynn_Kpesi"
+		"dynn_Anyi"
+		"dynn_Brosa"
+		"dynn_Twifo"
+		"dynn_Akwamu"
+		"dynn_Doma"
+		"dynn_Winneba"
+		"dynn_Kade"
+		"dynn_Nsawan"
+		"dynn_Densu" #named after a river
+	}
+	dynasty_names = {
+		"dynn_Ntafo"
+		"dynn_Fanti"
+		"dynn_Kyerepong"
+		"dynn_Le"
+		"dynn_Ahanta"
+		"dynn_Obutu"
+		"dynn_Kpesi"
+		"dynn_Anyi"
+		"dynn_Brosa"
+		"dynn_Twifo"
+		"dynn_Akwamu"
+		"dynn_Doma"
+		"dynn_Winneba"
+		"dynn_Kade"
+		"dynn_Nsawan"
+		"dynn_Densu" #named after a river
+	}
+
+	male_names = {
+		Abere_Anyo Achangso Achulo Achintri Afiso Amabangye Amankwa Amati Amo_elema Amoma Aso_wura Ataawa Awale Awaare Awalekiye Awo_n_nche Awo_n_nka_nne Awo_omoto Awoshe Awoshie Ayinsah
+		Badoh Bakoaso Boreginkpr Banemu_eye Bangben Bashaso Benyepo_eye Bi_awur_bi Bin_ka Bonyangso Booma Bore Bore_chie Bore_ena_sa Bore_enye Bore_enyi-enchi Bore_nyekpe Boresa Bore_masa_alowe Bore_walae Bore_wo Bore_wu B_sha_anye
+		Chepura Daa_mato Dambatu Dari Dariche Dokilebi Dranaya Ebanyepo Ebo_eye Edonbone Edonkufo Ekomato Ekone_oto Ekoso Ekumpo Ekunfo Elempo Esapo Esa_ewoeboto Etimpo Ewanye Ewale Ewonye Ewunio Ewuntomah Ewura Eyri_modon
+		Footou Gbeadese Gyem_che Gyema_alela Jinapor Gyeowo Kakore Kanagbong Kanamo Kananmaluwe Kasha Keche_e-basa Kenyiti Keshie_eko Keshie_wale K_fantang Kginginfra Koji Kotochi Kowuribi Kramoase Kurabaso Kurayerito
+		Lempoche Lomashie Longefiye Longesai Maaman Mankpa Mankre Mantenso Mapoche Masa-agben Masape Matuamo Mbema
+		Nefa Njo_amonche Nkpamafo Nndefeso Ntoba Obosu Okonfo Owoshie Pumaya Safo Sha_moye Samafon Sorkowule Shung_nkpa
+		Techira Titi_aka Tuntunba Yomba
+	}
+
+	female_names = {
+		Awo Demba Doye Faaduma Fatim Fatoumata Malado Maram Mbodj Ndate Ndieumbeutt Ndoung Ndoye Sall Yalla Yumeyga
+	}
+	
+	founder_named_dynasties = yes
+	house_based_map_names = yes
+}

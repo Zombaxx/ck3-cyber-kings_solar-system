@@ -332,7 +332,7 @@ colony_sunni_w11 = {
 }
 
 colony_shia_w0 = {
-	county = c_province0844
+	county = c_baghdad	# e87 real place (was c_province0844)
 	county_holder_character_modifier = {
 		monthly_prestige_gain_mult = 0.05
 		monthly_piety_gain_mult = 0.05
@@ -662,7 +662,7 @@ colony_vaishnava_faith_w11 = {
 }
 
 colony_rabbinic_faith_w0 = {
-	county = c_province0554
+	county = c_jerusalem	# e87 real place (was c_province0554)
 	county_holder_character_modifier = {
 		monthly_prestige_gain_mult = 0.05
 		monthly_piety_gain_mult = 0.05

@@ -1,0 +1,31 @@
+﻿name_list_vietnamese = {
+	# e74 modern list (W1 Vietnam; W2 Vietnam; K)
+	cadet_dynasty_names = {
+		dynn_cy_Nguyen_de6a dynn_cy_Tran dynn_cy_Le dynn_cy_Pham dynn_cy_Hoang dynn_cy_Huynh dynn_cy_Phan dynn_cy_Vu dynn_cy_Vo dynn_cy_Dang dynn_cy_Bui dynn_cy_Do
+		dynn_cy_Ho_ee78 dynn_cy_Ngo dynn_cy_Duong dynn_cy_Ly dynn_cy_Phi dynn_cy_Dinh dynn_cy_Truong dynn_cy_Lam_d90d dynn_cy_Mai dynn_cy_Trinh dynn_cy_Doan dynn_cy_Luong
+		dynn_cy_To dynn_cy_Cao dynn_cy_Ha_b397 dynn_cy_Ta dynn_cy_Chu dynn_cy_Quach
+	}
+	dynasty_names = {
+		dynn_cy_Nguyen_de6a dynn_cy_Tran dynn_cy_Le dynn_cy_Pham dynn_cy_Hoang dynn_cy_Huynh dynn_cy_Phan dynn_cy_Vu dynn_cy_Vo dynn_cy_Dang dynn_cy_Bui dynn_cy_Do
+		dynn_cy_Ho_ee78 dynn_cy_Ngo dynn_cy_Duong dynn_cy_Ly dynn_cy_Phi dynn_cy_Dinh dynn_cy_Truong dynn_cy_Lam_d90d dynn_cy_Mai dynn_cy_Trinh dynn_cy_Doan dynn_cy_Luong
+		dynn_cy_To dynn_cy_Cao dynn_cy_Ha_b397 dynn_cy_Ta dynn_cy_Chu dynn_cy_Quach
+	}
+	male_names = {
+		cyn_Tuan cyn_Hung cyn_Nam cyn_Huy cyn_Long cyn_Hai cyn_Hieu cyn_Son cyn_Hoang cyn_Duy cyn_Minh cyn_Duc
+		cyn_Dung cyn_Quang cyn_Thanh cyn_Trung cyn_Khanh cyn_Phuc cyn_Bao cyn_Anh cyn_Khoa cyn_Tung cyn_Thang cyn_Viet
+		cyn_Cuong cyn_Hung_8001 cyn_Tam cyn_Thinh cyn_Dat cyn_Vinh cyn_Quan cyn_Nhat cyn_Gia_Huy cyn_Minh_Khoi cyn_Dang_Khoa
+	}
+	female_names = {
+		cyn_Anh cyn_Linh cyn_Ha cyn_Trang cyn_Phuong cyn_Thao cyn_Ngoc cyn_Thuy cyn_Hoa cyn_Nguyen cyn_Lan cyn_Mai
+		cyn_Huong cyn_Hang cyn_Huyen cyn_Nhung cyn_Yen cyn_Thuy_a49b cyn_Vy cyn_Chau cyn_Hanh cyn_Dung_3913 cyn_Quynh cyn_Hien
+		cyn_Giang cyn_Ngan cyn_Nhu cyn_Tram cyn_Khanh_Linh cyn_Bao_Ngoc cyn_Minh_Anh cyn_Gia_Han cyn_An_Nhien cyn_Thu cyn_Xuan
+	}
+	dynasty_of_location_prefix = "dynnp_of"
+	dynasty_name_first = yes
+	pat_grf_name_chance = 0
+	mat_grf_name_chance = 0
+	father_name_chance = 0
+	pat_grm_name_chance = 0
+	mat_grm_name_chance = 0
+	mother_name_chance = 0
+}

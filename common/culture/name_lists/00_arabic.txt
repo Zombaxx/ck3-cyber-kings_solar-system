@@ -1,0 +1,401 @@
+﻿name_list_bedouin = {
+	# e74 modern list (W1 Arab world 2021, Saudi Arabia, Kuwait, Bahrain, UAE; K)
+	cadet_dynasty_names = {
+		dynn_cy_Al_Otaibi dynn_cy_Al_Qahtani dynn_cy_Al_Ghamdi dynn_cy_Al_Zahrani dynn_cy_Al_Harbi dynn_cy_Al_Shammari dynn_cy_Al_Mutairi dynn_cy_Al_Dosari dynn_cy_Al_Anazi dynn_cy_Al_Shehri dynn_cy_Al_Subaie dynn_cy_Al_Rashid
+		dynn_cy_Al_Saud dynn_cy_Al_Maktoum dynn_cy_Al_Nahyan dynn_cy_Al_Thani dynn_cy_Al_Sabah dynn_cy_Al_Khalifa dynn_cy_Al_Ajmi dynn_cy_Al_Hajri dynn_cy_Al_Marri dynn_cy_Al_Kaabi dynn_cy_Al_Mansouri dynn_cy_Al_Suwaidi
+		dynn_cy_Al_Hashemi dynn_cy_Al_Ahmadi dynn_cy_Al_Balushi dynn_cy_Al_Hinai dynn_cy_Al_Busaidi dynn_cy_Al_Yami dynn_cy_Al_Asmari dynn_cy_Al_Juhani dynn_cy_Al_Amri dynn_cy_Al_Malki dynn_cy_Al_Qurashi dynn_cy_Al_Shamsi
+		dynn_cy_Al_Muhairi dynn_cy_Al_Dhaheri dynn_cy_Al_Zaabi dynn_cy_Al_Kuwari
+	}
+	dynasty_names = {
+		dynn_cy_Al_Otaibi dynn_cy_Al_Qahtani dynn_cy_Al_Ghamdi dynn_cy_Al_Zahrani dynn_cy_Al_Harbi dynn_cy_Al_Shammari dynn_cy_Al_Mutairi dynn_cy_Al_Dosari dynn_cy_Al_Anazi dynn_cy_Al_Shehri dynn_cy_Al_Subaie dynn_cy_Al_Rashid
+		dynn_cy_Al_Saud dynn_cy_Al_Maktoum dynn_cy_Al_Nahyan dynn_cy_Al_Thani dynn_cy_Al_Sabah dynn_cy_Al_Khalifa dynn_cy_Al_Ajmi dynn_cy_Al_Hajri dynn_cy_Al_Marri dynn_cy_Al_Kaabi dynn_cy_Al_Mansouri dynn_cy_Al_Suwaidi
+		dynn_cy_Al_Hashemi dynn_cy_Al_Ahmadi dynn_cy_Al_Balushi dynn_cy_Al_Hinai dynn_cy_Al_Busaidi dynn_cy_Al_Yami dynn_cy_Al_Asmari dynn_cy_Al_Juhani dynn_cy_Al_Amri dynn_cy_Al_Malki dynn_cy_Al_Qurashi dynn_cy_Al_Shamsi
+		dynn_cy_Al_Muhairi dynn_cy_Al_Dhaheri dynn_cy_Al_Zaabi dynn_cy_Al_Kuwari
+	}
+	male_names = {
+		cyn_Mohammed cyn_Abdullah cyn_Ahmed cyn_Ali cyn_Yousef cyn_Omar cyn_Khalid cyn_Fahd cyn_Abdulrahman cyn_Turki cyn_Bandar cyn_Faisal
+		cyn_Abdulaziz cyn_Saud cyn_Sultan cyn_Nasser cyn_Saad cyn_Hamad cyn_Fahad cyn_Majed cyn_Mansour cyn_Mishal cyn_Nawaf cyn_Rakan
+		cyn_Talal cyn_Ziyad cyn_Hassan cyn_Ibrahim_71f2 cyn_Saleh cyn_Sami cyn_Waleed cyn_Yazeed cyn_Badr cyn_Rashid cyn_Zayed cyn_Hamdan
+		cyn_Saif cyn_Khalifa cyn_Adam cyn_Hamza
+	}
+	female_names = {
+		cyn_Maryam cyn_Fatima_2c68 cyn_Sara cyn_Latifa cyn_Nora cyn_Hessa cyn_Maysoun cyn_Maha cyn_Nouf cyn_Noor cyn_Reema cyn_Alanoud
+		cyn_Lulwa cyn_Shaikha cyn_Dalal cyn_Mariam cyn_Aisha cyn_Reem cyn_Hind cyn_Amal cyn_Haya cyn_Mona cyn_Eman cyn_Huda
+		cyn_Hanan cyn_Zahra cyn_Lama cyn_Lujain cyn_Jawaher cyn_Ghada cyn_Wafa cyn_Abeer cyn_Asma cyn_Shahad cyn_Rawan cyn_Joud
+		cyn_Layan cyn_Malak cyn_Lyn cyn_Farah
+	}
+	dynasty_of_location_prefix = "dynnp_mn"
+}
+name_list_levantine = {
+	# e74 modern list (W1 Jordan 2023, Lebanon 2015, Israel (Arab Muslim/Christian/Druze); K)
+	cadet_dynasty_names = {
+		dynn_cy_Haddad dynn_cy_Khoury dynn_cy_Nassar dynn_cy_Hamdan dynn_cy_Saleh dynn_cy_Mansour dynn_cy_Khalil dynn_cy_Aoun dynn_cy_Haddadin dynn_cy_Masri dynn_cy_Abboud dynn_cy_Saab
+		dynn_cy_Chamoun dynn_cy_Gemayel dynn_cy_Frangieh dynn_cy_Jumblatt dynn_cy_Hariri dynn_cy_Najjar dynn_cy_Tamimi dynn_cy_Barghouti dynn_cy_Qassem dynn_cy_Halabi dynn_cy_Shami dynn_cy_Hourani
+		dynn_cy_Zoubi dynn_cy_Majali dynn_cy_Rifai dynn_cy_Nabulsi dynn_cy_Husseini dynn_cy_Nashashibi dynn_cy_Dajani dynn_cy_Azar dynn_cy_Bitar dynn_cy_Sayegh dynn_cy_Shaheen dynn_cy_Atallah
+		dynn_cy_Daher dynn_cy_Habib dynn_cy_Karam dynn_cy_Salameh
+	}
+	dynasty_names = {
+		dynn_cy_Haddad dynn_cy_Khoury dynn_cy_Nassar dynn_cy_Hamdan dynn_cy_Saleh dynn_cy_Mansour dynn_cy_Khalil dynn_cy_Aoun dynn_cy_Haddadin dynn_cy_Masri dynn_cy_Abboud dynn_cy_Saab
+		dynn_cy_Chamoun dynn_cy_Gemayel dynn_cy_Frangieh dynn_cy_Jumblatt dynn_cy_Hariri dynn_cy_Najjar dynn_cy_Tamimi dynn_cy_Barghouti dynn_cy_Qassem dynn_cy_Halabi dynn_cy_Shami dynn_cy_Hourani
+		dynn_cy_Zoubi dynn_cy_Majali dynn_cy_Rifai dynn_cy_Nabulsi dynn_cy_Husseini dynn_cy_Nashashibi dynn_cy_Dajani dynn_cy_Azar dynn_cy_Bitar dynn_cy_Sayegh dynn_cy_Shaheen dynn_cy_Atallah
+		dynn_cy_Daher dynn_cy_Habib dynn_cy_Karam dynn_cy_Salameh
+	}
+	male_names = {
+		cyn_Muhamad cyn_Adam cyn_Ahmad cyn_Yusuf cyn_Umar cyn_Shaham cyn_Sanad cyn_Karam cyn_Amir cyn_Hashim cyn_Elie cyn_Mohammad
+		cyn_Charbel cyn_Ali cyn_Hassan cyn_Hussein cyn_George cyn_Christian cyn_Joe cyn_Jude cyn_Elias cyn_Niel cyn_Taim cyn_Rami
+		cyn_Ziad cyn_Khaled cyn_Bassam cyn_Samir cyn_Nabil cyn_Fadi cyn_Walid cyn_Tarek cyn_Hani cyn_Imad cyn_Firas cyn_Majd
+		cyn_Omar cyn_Saleh cyn_Bashar cyn_Issa
+	}
+	female_names = {
+		cyn_Misk cyn_Salma cyn_Wateen cyn_Massa cyn_Zayna cyn_Mariam cyn_Mira cyn_Sarah cyn_Leen cyn_Aylin cyn_Marie cyn_Fatima_2c68
+		cyn_Jessica cyn_Zeinab cyn_Maya cyn_Layla cyn_Christina cyn_Amal cyn_Lin cyn_Maria cyn_Sama cyn_Celine_512e cyn_Leah cyn_Shams
+		cyn_Lyn cyn_Malek cyn_Jori cyn_Lian cyn_Mila cyn_Rania cyn_Rana cyn_Lina cyn_Dima cyn_Nour cyn_Hiba cyn_Yasmin
+		cyn_Ruba cyn_Reem cyn_Hala cyn_Tala
+	}
+	dynasty_of_location_prefix = "dynnp_mn"
+}
+name_list_egyptian = {
+	# e74 modern list (W1 Egypt 2004 (Muslim and Coptic), Arab world 2021; K (adult names, family names))
+	cadet_dynasty_names = {
+		dynn_cy_Mohamed dynn_cy_Ahmed dynn_cy_Hassan dynn_cy_Ali dynn_cy_Ibrahim dynn_cy_Mahmoud dynn_cy_Mostafa dynn_cy_Abdel_Rahman dynn_cy_El_Sayed dynn_cy_Abdallah dynn_cy_Hussein dynn_cy_Saleh
+		dynn_cy_Mansour dynn_cy_Farouk dynn_cy_Khalil dynn_cy_Fahmy dynn_cy_Sabry dynn_cy_Ramadan dynn_cy_Shehata dynn_cy_Soliman dynn_cy_Hamdy dynn_cy_Gaber dynn_cy_Nasser dynn_cy_Hegazy
+		dynn_cy_Fouad dynn_cy_Zaki dynn_cy_Ghali dynn_cy_Boutros dynn_cy_Mikhail dynn_cy_Girgis dynn_cy_Tadros dynn_cy_Hanna dynn_cy_Wassef dynn_cy_Youssef dynn_cy_Salah dynn_cy_Sherif
+		dynn_cy_Amin dynn_cy_Shawky dynn_cy_Lotfy dynn_cy_Selim
+	}
+	dynasty_names = {
+		dynn_cy_Mohamed dynn_cy_Ahmed dynn_cy_Hassan dynn_cy_Ali dynn_cy_Ibrahim dynn_cy_Mahmoud dynn_cy_Mostafa dynn_cy_Abdel_Rahman dynn_cy_El_Sayed dynn_cy_Abdallah dynn_cy_Hussein dynn_cy_Saleh
+		dynn_cy_Mansour dynn_cy_Farouk dynn_cy_Khalil dynn_cy_Fahmy dynn_cy_Sabry dynn_cy_Ramadan dynn_cy_Shehata dynn_cy_Soliman dynn_cy_Hamdy dynn_cy_Gaber dynn_cy_Nasser dynn_cy_Hegazy
+		dynn_cy_Fouad dynn_cy_Zaki dynn_cy_Ghali dynn_cy_Boutros dynn_cy_Mikhail dynn_cy_Girgis dynn_cy_Tadros dynn_cy_Hanna dynn_cy_Wassef dynn_cy_Youssef dynn_cy_Salah dynn_cy_Sherif
+		dynn_cy_Amin dynn_cy_Shawky dynn_cy_Lotfy dynn_cy_Selim
+	}
+	male_names = {
+		cyn_Mohamed cyn_Youssef cyn_Ahmed cyn_Mahmoud cyn_Mustafa cyn_Yassin cyn_Taha cyn_Khaled cyn_Hamza cyn_Bilal cyn_Omar cyn_Ali
+		cyn_Hassan cyn_Ibrahim_71f2 cyn_Karim cyn_Amr cyn_Tarek cyn_Sherif cyn_Hossam cyn_Walid cyn_Hany cyn_Ayman cyn_Ashraf cyn_Essam
+		cyn_Adel cyn_Sameh cyn_Hesham cyn_Islam cyn_Ziad cyn_Seif cyn_Peter cyn_George cyn_Mina cyn_Beshoy cyn_Kirollos cyn_Mark
+		cyn_Fadi cyn_Ramy cyn_Abanoub cyn_Marco
+	}
+	female_names = {
+		cyn_Shaimaa cyn_Fatma cyn_Maha cyn_Reem cyn_Farida cyn_Aya cyn_Shahd cyn_Ashraqat cyn_Sahar cyn_Fatin cyn_Mariam cyn_Mary
+		cyn_Marina cyn_Irene cyn_Malak cyn_Habiba cyn_Hana cyn_Farah cyn_Marwa cyn_Nada_47aa cyn_Salma cyn_Mona cyn_Heba cyn_Rania
+		cyn_Nour cyn_Yasmin cyn_Dina cyn_Aisha cyn_Amira cyn_Hagar cyn_Esraa cyn_Doaa cyn_Sara cyn_Nadia cyn_Samia cyn_Zeinab
+		cyn_Laila cyn_Nesma cyn_Jana cyn_Jomana
+	}
+	dynasty_of_location_prefix = "dynnp_mn"
+}
+name_list_maghrebi = {
+	# e74 modern list (W1 Algeria 2010/2020, Tunisia 2022; K)
+	cadet_dynasty_names = {
+		dynn_cy_Benali dynn_cy_Bensaid dynn_cy_Belkacem dynn_cy_Boudiaf dynn_cy_Bouzid dynn_cy_Brahimi dynn_cy_Benamar dynn_cy_Mansouri dynn_cy_Haddad dynn_cy_Saidi dynn_cy_Hamidi dynn_cy_Rahmani
+		dynn_cy_Djebbar dynn_cy_Benyahia dynn_cy_Messaoudi dynn_cy_Cherif dynn_cy_Ferhat dynn_cy_Kaci dynn_cy_Laribi dynn_cy_Mebarki dynn_cy_Trabelsi dynn_cy_Ben_Ali dynn_cy_Gharbi dynn_cy_Jaziri
+		dynn_cy_Mejri dynn_cy_Bouazizi dynn_cy_Chaabane dynn_cy_Hammami dynn_cy_Ben_Salah dynn_cy_Jebali dynn_cy_Dridi dynn_cy_Sassi dynn_cy_Ayari dynn_cy_Khelifi dynn_cy_Zouari dynn_cy_Ben_Youssef
+		dynn_cy_Chaouch dynn_cy_Belhadj dynn_cy_Bouteflika dynn_cy_Zeroual
+	}
+	dynasty_names = {
+		dynn_cy_Benali dynn_cy_Bensaid dynn_cy_Belkacem dynn_cy_Boudiaf dynn_cy_Bouzid dynn_cy_Brahimi dynn_cy_Benamar dynn_cy_Mansouri dynn_cy_Haddad dynn_cy_Saidi dynn_cy_Hamidi dynn_cy_Rahmani
+		dynn_cy_Djebbar dynn_cy_Benyahia dynn_cy_Messaoudi dynn_cy_Cherif dynn_cy_Ferhat dynn_cy_Kaci dynn_cy_Laribi dynn_cy_Mebarki dynn_cy_Trabelsi dynn_cy_Ben_Ali dynn_cy_Gharbi dynn_cy_Jaziri
+		dynn_cy_Mejri dynn_cy_Bouazizi dynn_cy_Chaabane dynn_cy_Hammami dynn_cy_Ben_Salah dynn_cy_Jebali dynn_cy_Dridi dynn_cy_Sassi dynn_cy_Ayari dynn_cy_Khelifi dynn_cy_Zouari dynn_cy_Ben_Youssef
+		dynn_cy_Chaouch dynn_cy_Belhadj dynn_cy_Bouteflika dynn_cy_Zeroual
+	}
+	male_names = {
+		cyn_Mohamed cyn_Abdelkader cyn_Ahmed cyn_Ali cyn_Rachid cyn_Said cyn_Ibrahim_71f2 cyn_Omar cyn_Djamel cyn_Youssef cyn_Haroun cyn_Yahya
+		cyn_Adam cyn_Zakaria cyn_Yaakoub cyn_Yassine cyn_Sajed cyn_Karim cyn_Mourad cyn_Nabil cyn_Sofiane cyn_Amine cyn_Mehdi cyn_Bilel
+		cyn_Walid cyn_Hichem cyn_Farid cyn_Kamel cyn_Nacer cyn_Salim cyn_Mustapha cyn_Riad cyn_Lotfi cyn_Hamza cyn_Anis cyn_Aymen
+		cyn_Rayane cyn_Ilyes cyn_Wassim cyn_Islem
+	}
+	female_names = {
+		cyn_Imene cyn_Sara cyn_Yasmine cyn_Lyna cyn_Maria cyn_Amina cyn_Meriem cyn_Karima cyn_Melissa cyn_Lydia cyn_Mariem cyn_Rayhane
+		cyn_Lina cyn_Mayar cyn_Essil cyn_Beya cyn_Soujoud cyn_Jouri cyn_Eline cyn_Fatima_2c68 cyn_Khadidja cyn_Nadia cyn_Samira cyn_Leila
+		cyn_Souad cyn_Nawel cyn_Wafa cyn_Rim cyn_Asma cyn_Hayet cyn_Salima cyn_Dalila cyn_Sihem cyn_Ines_041c cyn_Amel cyn_Feriel
+		cyn_Selma cyn_Malak cyn_Nour cyn_Hiba
+	}
+	dynasty_of_location_prefix = "dynnp_mn"
+}
+name_list_andalusian = {
+
+	cadet_dynasty_names = {
+		"dynn_Mutamin"
+		"dynn_Huddid"
+		"dynn_Matiyid"
+		"dynn_Tahirid"
+		"dynn_Razinid"
+		"dynn_Hakamid"
+		"dynn_Wazirid"
+		"dynn_Ismailid"
+		"dynn_Farayid"
+		"dynn_Abu-Ya_farid"
+		"dynn_Mardanisid"
+		"dynn_Mursiyid"
+		{ "dynnp_banu" "dynn_FA_tima" }
+		"dynn_Laridid"
+		"dynn_Ishbiliyid"
+		"dynn_Qunkid"
+		"dynn_Balansiyyid"
+		"dynn_Maymunid"
+		"dynn_Adhavid"
+		"dynn_Hassunid"
+		"dynn_Gharnatid"
+		"dynn_Hishamid"
+		"dynn_Mahfuzid"
+		"dynn_Ahlidid"
+		"dynn_Zannunid"
+		"dynn_Mahdid"
+		"dynn_Sa_did"
+		"dynn_Wadalqavirid"
+		"dynn_Qadirid"
+		"dynn_Hamdinid"
+		"dynn_Yakubid"
+		"dynn_Yassin"
+		"dynn_Aminid"
+		"dynn_Ismailid"
+		"dynn_Nasrid"
+		"dynn_Muzaffar"
+		"dynn_Bajjah"
+		"dynn_Zuhr"
+		{ "dynnp_al-" "dynn_Baitar" }
+		{ "dynnp_al-" "dynn_Khatib" }
+		"dynn_Rushd"
+		"dynn_Hafsid"
+	}
+
+	dynasty_names = {
+		"dynn_Mutamin"
+		"dynn_Huddid"
+		"dynn_Matiyid"
+		"dynn_Tahirid"
+		"dynn_Razinid"
+		"dynn_Hakamid"
+		"dynn_Wazirid"
+		"dynn_Ismailid"
+		"dynn_Farayid"
+		"dynn_Abu-Ya_farid"
+		"dynn_Mardanisid"
+		"dynn_Mursiyid"
+		{ "dynnp_banu" "dynn_FA_tima" }
+		"dynn_Laridid"
+		"dynn_Ishbiliyid"
+		"dynn_Qunkid"
+		"dynn_Balansiyyid"
+		"dynn_Maymunid"
+		"dynn_Adhavid"
+		"dynn_Hassunid"
+		"dynn_Gharnatid"
+		"dynn_Hishamid"
+		"dynn_Mahfuzid"
+		"dynn_Ahlidid"
+		"dynn_Zannunid"
+		"dynn_Mahdid"
+		"dynn_Sa_did"
+		"dynn_Wadalqavirid"
+		"dynn_Qadirid"
+		"dynn_Hamdinid"
+		"dynn_Yakubid"
+		"dynn_Yassin"
+		"dynn_Aminid"
+		"dynn_Ismailid"
+		"dynn_Nasrid"
+		"dynn_Muzaffar"
+		"dynn_Bajjah"
+		"dynn_Zuhr"
+		{ "dynnp_al-" "dynn_Baitar" }
+		{ "dynnp_al-" "dynn_Khatib" }
+		"dynn_Rushd"
+		"dynn_Hafsid"
+	}
+
+	male_names = {
+		Aban Abbad Abbas Abdallah Abd-al-Baqi Abd-al-Gafur Abd-al-Majid Abd-al-Nur Abd-al-Qadir Abd-al-Ra_uf Abd-al-Warith Abd-al-Aziz Abdul-Hakam Abdul-Hasan Abdul-Hazm Abdul-Rahman Abdul-Razzaq Abu-al-Qasim
+		Abu-Bakr Adfuns Adi Affan Aflah Ahmad A_idh Ajannas Ala Ali Amir Asas Asbat Ashhab Asim Aslam Atarid Atiyya Atrad Ayshun Ayyash Ayyub Aziz Bahram Bakr Balashk Balj Baqi Bashir Bilal Dimam Darras Dhu_al_N_n Dulaf Fadl Faraj Farqad Fath Fulayh Galib Galind Ganim Garsiya Gazi Habib Hakam Hamda Hamdin Hamid Hamza Haway Hayyan Hazm Hilal Hiyaz Hizam Hubab Hani_ Harith Hatim Haykal Hisham Ibrahim Idris Imran Isa Isma_il Iyad Jahhaf Jahwar Jalaf_Allah Jalhama Jalil Jami Jarir Jattab Jayr Jayrun Jidr Jubayr Juda Jumahir Juzayy 
+		Jyad Kathir Kaysan Kulayb Lubb Mahbub Majluf Malik Ma_n Mansur Marwan Maymun Mirdas Mu_awiyah Mubashir Mudrik Muffarij Muhallab Muhammad Mundir Musa Mus_ab Mutarrif Muyahid Nadar Nasir Nizar Nudhayr Qar_us Qasim Qatan Qays Raf Rashid Rasiq Razin Sa_d Sa_dan Safwan Sa_ib_Jatir Sajr Salmun Sanyo Saqi Sarur Shabtun Shajara Siddray Siraj Sufyan Suleyman Tahir Talha Tamim Tammam Tariq Taytal Tayyib Tawd Tifilwit Tuways Ubada Ubayd Ubayd_Allah Ubaydun Ulaym  
+		Umar Umayyah Urayb Utman Wadih Wahb Walid Wannaqo Wasim Wathima Wazir Ya_far Yahaff Yahya Ya_ish Yasin Yaskar Yasid Yujamir Yusr Yusuf Zaban Zafir Zakariyya Zarb Ziyad Zuhayr Zuhr Zurar 
+	}
+	female_names = {
+		Abda Ahu Aiza A_isha Afiya Aliyah al-Shura Amat_al_Aziz Amat_al_Izz Amat_al_Jaliq Amat_al_Rahman Amat_al_Wahhab Amina Amira Arwa Asma Asmuna Asmuniya Atika Awriya Ayluh Ayshuna Aziza Baraka Bazi_a Butayna Dana Daniyah Dhuna Dima Fahra Fahriya Fatima Faynan Gamila Ganiya Ghada Gislan Habiba Hadija Hakima Halawa Hamda Hamida Hassana Hawa_ Hayal Hayzuran Hind Huda Ibtisam Idlal Ihtizaz Ishush Isra Jalida Jawra Kanza Karima Kera Khadija Kinda Layla Lidhdha
+		Maha Mahabba Mahjuna Makkiya Malika Mariam Masabih Ma_shuq Maymuna Mayya Mu_amarra Muhja Munya Muzahima Muzna Nadia Naila Najat Najma Nazhun Nu_ayma Nur Nuwayra Nuzha Qasmuna Qusayma Rafiqa Rahat Raisa Randa Rasis Ra_y Rayhana Ruhayma Ruqayya Sa_ada Sa_duna Safiya Sakan Salma Samra Shakira Shawwab Su_ad Sukayna Suraya Tahira Tahr Tahtazz Tarifa Tarub Thashim Umayna Urraka Usayma Utayqa Wahida Wallada 
+		Yasmin Zahida Zahra
+	}
+	dynasty_of_location_prefix = "dynnp_mn"
+
+	patronym_prefix_male = "dynnpat_pre_ibn"
+	patronym_prefix_female = "dynnpat_pre_bint"
+	
+	founder_named_dynasties = yes
+	house_based_map_names = yes
+
+	
+
+	pat_grf_name_chance = 60
+	mat_grf_name_chance = 20
+	father_name_chance = 10
+	
+	pat_grm_name_chance = 40
+	mat_grm_name_chance = 20
+	mother_name_chance = 30
+	
+	
+
+	mercenary_names = {
+		{ name = "mercenary_company_almogavars_andalusian_1" }
+		{ name = "mercenary_company_mawali_band" }
+		{ name = "mercenary_company_andalusian_treasurers_1" }
+	}
+}
+name_list_yemeni = {
+
+	cadet_dynasty_names = {
+		"dynn_Rasulid"
+		"dynn_Umarid"
+		"dynn_Najadid"
+		"dynn_Dinnid"
+		"dynn_Huraydid"
+		"dynn_Qadir"
+		"dynn_Mahrid"
+		"dynn_Walashma"
+		"dynn_Usfurid"
+		"dynn_Jarwanid"
+		"dynn_Zurayid"
+		"dynn_Muazzamid"
+		"dynn_Qubaybid"
+		"dynn_Halabanid"
+		"dynn_Basri"
+		"dynn_Hallaj"
+		"dynn_Bistami"
+		"dynn_Karkhi"
+		"dynn_Qadir"
+		"dynn_Jilani"
+		"dynn_Ziyadid"
+		"dynn_Chishti"
+		"dynn_Najran"
+		"dynn_Miqadiyid"
+		"dynn_Munirid"
+		"dynn_Nabhanid"
+		"dynn_Nadjafid"
+		"dynn_Hamdan"
+		"dynn_Ashhadid"
+		"dynn_Quraishid"
+		"dynn_Kamalid"
+		"dynn_Jazrid"
+		"dynn_Husayn"
+		"dynn_Nazeerid"
+		"dynn_Nasrid"
+		"dynn_Bichrid"
+		"dynn_Hafizid"
+		"dynn_Fakhourid"
+		"dynn_Nawawid"
+		"dynn_Naderid"
+		"dynn_Chakroun"
+		"dynn_Atrashid"
+		"dynn_Shehhid"
+		"dynn_Hasanid"
+		"dynn_Qasimid"
+		"dynn_Sulaymanid"
+		"dynn_Halwasid"
+		"dynn_Jamalid"
+		"dynn_Abbasid"
+		"dynn_Razinid"
+		"dynn_Numayrid"
+		"dynn_Kaabid"
+		"dynn_Jabrid"
+		"dynn_Hakamid"
+		"dynn_Hanaya"
+		"dynn_Ibrahimid"
+		"dynn_Al-Duhli"
+		"dynn_Kinda"
+		"dynn_Madhhij"
+		{ "dynnp_al-" "dynn_Zawayhi" }
+		"dynn_Mufaddalid"
+		"dynn_Zurayid"
+		"dynn_Mahdid"
+		"dynn_Yufirid"
+		"dynn_Wabirid"
+		"dynn_Hatimid"
+		"dynn_Sulaymanid"
+	}
+
+	dynasty_names = {
+		"dynn_Rasulid"
+		"dynn_Umarid"
+		"dynn_Rassid"
+		"dynn_Najadid"
+		"dynn_Dinnid"
+		"dynn_Huraydid"
+		"dynn_Qadir"
+		"dynn_Mahrid"
+		"dynn_Walashma"
+		"dynn_Usfurid"
+		"dynn_Jarwanid"
+		"dynn_Zurayid"
+		"dynn_Muazzamid"
+		"dynn_Qubaybid"
+		"dynn_Halabanid"
+		"dynn_Basri"
+		"dynn_Hallaj"
+		"dynn_Bistami"
+		"dynn_Karkhi"
+		"dynn_Qadir"
+		"dynn_Jilani"
+		"dynn_Ziyadid"
+		"dynn_Najran"
+		"dynn_Miqadiyid"
+		"dynn_Munirid"
+		"dynn_Nabhanid"
+		"dynn_Nadjafid"
+		"dynn_Hamdan"
+		"dynn_Ashhadid"
+		"dynn_Quraishid"
+		"dynn_Kamalid"
+		"dynn_Jazrid"
+		"dynn_Husayn"
+		"dynn_Nazeerid"
+		"dynn_Nasrid"
+		"dynn_Bichrid"
+		"dynn_Hafizid"
+		"dynn_Fakhourid"
+		"dynn_Nawawid"
+		"dynn_Naderid"
+		"dynn_Chakroun"
+		"dynn_Atrashid"
+		"dynn_Shehhid"
+		"dynn_Hasanid"
+		"dynn_Qasimid"
+		"dynn_Sulaymanid"
+		"dynn_Halwasid"
+		"dynn_Jamalid"
+		"dynn_Abbasid"
+		"dynn_Razinid"
+		"dynn_Numayrid"
+		"dynn_Kaabid"
+		"dynn_Jabrid"
+		"dynn_Hakamid"
+		"dynn_Hanaya"
+		"dynn_Ibrahimid"
+		"dynn_Al-Duhli"
+		"dynn_Kinda"
+		"dynn_Madhhij"
+		{ "dynnp_al-" "dynn_Zawayhi" }
+		"dynn_Mufaddalid"
+		"dynn_Zurayid"
+		"dynn_Mahdid"
+		"dynn_Yufirid"
+		"dynn_Hatimid"
+		"dynn_Sulaymanid"
+	}
+
+	male_Names = {
+		Abu-Bakr Aarif Abdul-Gafur Abdul-Jaleel Abdul-Qadir Abdul-Wahab Abdullah Aden Aghlab Akin Ali Alim Aram Azam Bahir
+		Fadil Fadl Faruk Ghalib Hafiz Halil Hasan Husam Hussayn Ibrahim Idris Is_mail Isa Jabir Jalil Jibril Khalil Malik Mahdi Mahmud
+		Mansur Mirza Mubarak Muhammad Mukhtar Murad Musa Najib Nasr Nizam Qawurd Ramadan Sadiq Sami Samir Shaiban
+		Shamir Shujah Sulayman Talib Ubayd Uways Yahya Ya_qub Youkhanna Yusuf Zeyd Zulfiqar
+	}
+	female_Names = {
+		Adila Amsha Asiya Faghira Habiba Hanifa Isra Jahaira Kamala Layla Maryam Munya Nafisa Nyawela Parand Parween Paymaneh Paywand Qamara Rafiqa Rasa Rashida Reshawna
+		Saaman Sabba Saghar Sahba Sajida Samira Semeah Setara Shahrbano Shahzadah Shameem Shararah Sheeftah Sheeva Shogofa Shokouh Shola Sholah Simin Souzan
+		Taliba Tanaz Taneen Yagana Yakta Yasmin Zaynab
+	}
+	dynasty_of_location_prefix = "dynnp_mn"
+	
+	patronym_prefix_male = "dynnpat_pre_ibn"
+	patronym_prefix_female = "dynnpat_pre_bint"
+	
+	founder_named_dynasties = yes
+	house_based_map_names = yes
+}

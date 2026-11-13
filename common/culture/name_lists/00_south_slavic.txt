@@ -1,0 +1,284 @@
+﻿name_list_croatian = {
+	# e74 modern list (W1 Croatia 2024; W2 Croatia; K)
+	cadet_dynasty_names = {
+		dynn_cy_Horvat dynn_cy_Kovacevic dynn_cy_Babic dynn_cy_Maric dynn_cy_Juric dynn_cy_Novak dynn_cy_Kovacic dynn_cy_Knezevic dynn_cy_Vukovic dynn_cy_Markovic dynn_cy_Petrovic dynn_cy_Matic
+		dynn_cy_Tomic dynn_cy_Pavlovic dynn_cy_Kovac_9f6e dynn_cy_Bozic dynn_cy_Blazevic dynn_cy_Grgic dynn_cy_Pavic dynn_cy_Radic dynn_cy_Peric dynn_cy_Filipovic dynn_cy_Saric dynn_cy_Lovric
+		dynn_cy_Vidovic dynn_cy_Bosnjak dynn_cy_Barisic dynn_cy_Rukavina dynn_cy_Jukic dynn_cy_Vrdoljak
+	}
+	dynasty_names = {
+		dynn_cy_Horvat dynn_cy_Kovacevic dynn_cy_Babic dynn_cy_Maric dynn_cy_Juric dynn_cy_Novak dynn_cy_Kovacic dynn_cy_Knezevic dynn_cy_Vukovic dynn_cy_Markovic dynn_cy_Petrovic dynn_cy_Matic
+		dynn_cy_Tomic dynn_cy_Pavlovic dynn_cy_Kovac_9f6e dynn_cy_Bozic dynn_cy_Blazevic dynn_cy_Grgic dynn_cy_Pavic dynn_cy_Radic dynn_cy_Peric dynn_cy_Filipovic dynn_cy_Saric dynn_cy_Lovric
+		dynn_cy_Vidovic dynn_cy_Bosnjak dynn_cy_Barisic dynn_cy_Rukavina dynn_cy_Jukic dynn_cy_Vrdoljak
+	}
+	male_names = {
+		cyn_Luka cyn_Jakov cyn_Toma cyn_David cyn_Petar cyn_Niko cyn_Ivan cyn_Mateo cyn_Roko cyn_Matej_495c cyn_Marko cyn_Josip
+		cyn_Ante cyn_Filip cyn_Fran cyn_Lovro cyn_Leon_d8f7 cyn_Karlo cyn_Gabriel cyn_Tomislav cyn_Hrvoje cyn_Dario cyn_Damir cyn_Zoran
+		cyn_Stjepan cyn_Franjo cyn_Mario cyn_Kresimir cyn_Igor cyn_Davor
+	}
+	female_names = {
+		cyn_Mia cyn_Rita cyn_Nika cyn_Mila cyn_Lucija cyn_Ema cyn_Marta cyn_Sara cyn_Eva cyn_Dora_affa cyn_Lara cyn_Petra
+		cyn_Ana cyn_Iva cyn_Marija cyn_Ivana cyn_Kata cyn_Mira cyn_Katarina_fe56 cyn_Snjezana cyn_Vesna cyn_Gordana cyn_Mirjana cyn_Sanja
+		cyn_Martina cyn_Maja cyn_Tea cyn_Paula cyn_Klara cyn_Lana
+	}
+	dynasty_of_location_prefix = "dynnp_od"
+	pat_grf_name_chance = 40
+	mat_grf_name_chance = 10
+	father_name_chance = 10
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 40
+	mother_name_chance = 5
+}
+
+name_list_bosnian = {
+	# e74 modern list (W1 Bosnia & Herzegovina Federation 2023; W2 Bosnia; K)
+	cadet_dynasty_names = {
+		dynn_cy_Hodzic dynn_cy_Hadzic dynn_cy_Cengic dynn_cy_Delic dynn_cy_Demirovic dynn_cy_Kovacevic dynn_cy_Tahirovic dynn_cy_Ferhatovic dynn_cy_Muratovic dynn_cy_Ibrahimovic dynn_cy_Hasanovic dynn_cy_Mehmedovic
+		dynn_cy_Salihovic dynn_cy_Terzic dynn_cy_Ademovic dynn_cy_Begic dynn_cy_Halilovic dynn_cy_Mujic dynn_cy_Omerovic dynn_cy_Alic dynn_cy_Imamovic dynn_cy_Husic dynn_cy_Suljic dynn_cy_Smajic
+		dynn_cy_Besic dynn_cy_Hrnjic dynn_cy_Mustafic dynn_cy_Sehic dynn_cy_Avdic dynn_cy_Karic
+	}
+	dynasty_names = {
+		dynn_cy_Hodzic dynn_cy_Hadzic dynn_cy_Cengic dynn_cy_Delic dynn_cy_Demirovic dynn_cy_Kovacevic dynn_cy_Tahirovic dynn_cy_Ferhatovic dynn_cy_Muratovic dynn_cy_Ibrahimovic dynn_cy_Hasanovic dynn_cy_Mehmedovic
+		dynn_cy_Salihovic dynn_cy_Terzic dynn_cy_Ademovic dynn_cy_Begic dynn_cy_Halilovic dynn_cy_Mujic dynn_cy_Omerovic dynn_cy_Alic dynn_cy_Imamovic dynn_cy_Husic dynn_cy_Suljic dynn_cy_Smajic
+		dynn_cy_Besic dynn_cy_Hrnjic dynn_cy_Mustafic dynn_cy_Sehic dynn_cy_Avdic dynn_cy_Karic
+	}
+	male_names = {
+		cyn_Ali cyn_Omar cyn_Imran cyn_Davud cyn_Isa cyn_Adi cyn_Hamza cyn_Feda cyn_Mak cyn_Rejan cyn_Amar cyn_Harun
+		cyn_Kerim cyn_Tarik cyn_Emir cyn_Adnan cyn_Edin cyn_Senad cyn_Mirza cyn_Haris cyn_Nermin cyn_Elvir cyn_Samir cyn_Jasmin
+		cyn_Admir cyn_Almir cyn_Dino cyn_Kenan cyn_Armin
+	}
+	female_names = {
+		cyn_Iman cyn_Nur cyn_Hana cyn_Farah cyn_Ema cyn_Sara cyn_Aya cyn_Mia cyn_Sofija cyn_Una_6b25 cyn_Lejla cyn_Amina
+		cyn_Ajla cyn_Emina cyn_Merjem cyn_Selma cyn_Alma cyn_Amra cyn_Belma cyn_Lamija cyn_Esma cyn_Dzana cyn_Adna cyn_Azra
+		cyn_Edina cyn_Mirela cyn_Jasmina cyn_Sabina cyn_Elma cyn_Fatima_2c68
+	}
+	dynasty_of_location_prefix = "dynnp_od"
+	pat_grf_name_chance = 40
+	mat_grf_name_chance = 10
+	father_name_chance = 10
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 40
+	mother_name_chance = 5
+}
+
+name_list_serbian = {
+	# e74 modern list (W1 Serbia 2024 + general 2022, Montenegro; W2 Serbia; K)
+	cadet_dynasty_names = {
+		dynn_cy_Jovanovic dynn_cy_Petrovic dynn_cy_Nikolic dynn_cy_Markovic dynn_cy_Dordevic dynn_cy_Stojanovic dynn_cy_Ilic dynn_cy_Stankovic dynn_cy_Pavlovic dynn_cy_Milosevic dynn_cy_Popovic dynn_cy_Kovacevic
+		dynn_cy_Ristic dynn_cy_Todorovic dynn_cy_Lukic dynn_cy_Dukic dynn_cy_Mitrovic dynn_cy_Simic dynn_cy_Kostic dynn_cy_Obradovic dynn_cy_Radovic dynn_cy_Vukovic dynn_cy_Savic dynn_cy_Perovic
+		dynn_cy_Milenkovic dynn_cy_Tomic dynn_cy_Lazic dynn_cy_Zivkovic dynn_cy_Stevanovic dynn_cy_Jankovic
+	}
+	dynasty_names = {
+		dynn_cy_Jovanovic dynn_cy_Petrovic dynn_cy_Nikolic dynn_cy_Markovic dynn_cy_Dordevic dynn_cy_Stojanovic dynn_cy_Ilic dynn_cy_Stankovic dynn_cy_Pavlovic dynn_cy_Milosevic dynn_cy_Popovic dynn_cy_Kovacevic
+		dynn_cy_Ristic dynn_cy_Todorovic dynn_cy_Lukic dynn_cy_Dukic dynn_cy_Mitrovic dynn_cy_Simic dynn_cy_Kostic dynn_cy_Obradovic dynn_cy_Radovic dynn_cy_Vukovic dynn_cy_Savic dynn_cy_Perovic
+		dynn_cy_Milenkovic dynn_cy_Tomic dynn_cy_Lazic dynn_cy_Zivkovic dynn_cy_Stevanovic dynn_cy_Jankovic
+	}
+	male_names = {
+		cyn_Luka cyn_Vasilije cyn_Bogdan cyn_Lazar cyn_Vukan cyn_Stefan cyn_Vuk cyn_Aleksa cyn_Pavle cyn_Dusan cyn_Dragan cyn_Aleksandar
+		cyn_Milan cyn_Nikola cyn_Zoran cyn_Marko cyn_Milos cyn_Goran cyn_Dejan cyn_Nenad cyn_Branislav cyn_Vladimir_9972 cyn_Slobodan cyn_Milorad
+		cyn_Predrag cyn_Uros cyn_Jovan cyn_Filip cyn_Petar cyn_Andrej
+	}
+	female_names = {
+		cyn_Sofija cyn_Dunja cyn_Mila cyn_Teodora cyn_Tara cyn_Masa cyn_Nada cyn_Petra cyn_Milica cyn_Una_6b25 cyn_Jelena cyn_Marija
+		cyn_Dragana cyn_Mirjana cyn_Ljiljana cyn_Snezana cyn_Ivana cyn_Gordana cyn_Ana cyn_Jovana cyn_Milena cyn_Tamara cyn_Katarina_fe56 cyn_Sanja
+		cyn_Biljana cyn_Vesna cyn_Natasa cyn_Danijela cyn_Andela cyn_Kristina
+	}
+	dynasty_of_location_prefix = "dynnp_od"
+}
+
+name_list_vlach = {
+
+	cadet_dynasty_names = {
+		"dynn_Basarab"
+		"dynn_Dragusin"
+		"dynn_Basarab"
+		"dynn_Litovoi"
+		"dynn_SelimoviC_"
+		"dynn_CsA_ky"
+		"dynn_DezsO_fi"
+		"dynn_Guthi-OrszA_gh"
+		"dynn_MarczaltO_vi"
+		"dynn_Petenye"
+		"dynn_Tibai"
+		"dynn_ZA_ch"
+		"dynn_Szapolyai"
+		"dynn_VA_rdai"
+		"dynn_ProdaniC_"
+		"dynn_Odescalchi"
+		"dynn_Costin"
+	}
+
+	dynasty_names = {
+		"dynn_Basarab"
+		"dynn_Dragusin"
+		"dynn_Basarab"
+		"dynn_Litovoi"
+		"dynn_SelimoviC_"
+		"dynn_CsA_ky"
+		"dynn_DezsO_fi"
+		"dynn_Guthi-OrszA_gh"
+		"dynn_MarczaltO_vi"
+		"dynn_Petenye"
+		"dynn_Tibai"
+		"dynn_ZA_ch"
+		"dynn_Szapolyai"
+		"dynn_VA_rdai"
+		"dynn_ProdaniC_"
+		"dynn_Odescalchi"
+		"dynn_Costin"
+		"dynn_BA_dA_rA_u"
+		"dynn_BA_lA_ceanu"
+		"dynn_Bosie"
+		"dynn_BrA_iloi"
+		"dynn_BuS_ilA_"
+		"dynn_Calerghi"
+		"dynn_Callimachi"
+		"dynn_Cantemir"
+		"dynn_Carianopol"
+		"dynn_Crihan"
+		"dynn_Carionfil"
+		"dynn_Cristescu"
+		"dynn_Casassovici"
+		"dynn_Cesianu"
+		"dynn_ChinteS_ti"
+		"dynn_Chirescu"
+		"dynn_CoteS_ti"
+		"dynn_CraioveS_tilor"
+		"dynn_CrA_snaru"
+		"dynn_Dinastia"
+		"dynn_DA_neS_tilor"
+		"dynn_Diamandy"
+		"dynn_DrA_culeS_tilor"
+		"dynn_DrugA_"
+		"dynn_Eliescu"
+		"dynn_Emandi"
+		"dynn_Filipescu"
+		"dynn_Florescu"
+		"dynn_FundA_T_eni"
+		"dynn_Giosani"
+		"dynn_Golescu"
+		"dynn_GrA_diS_teanu"
+		"dynn_Greceanu"
+		"dynn_Hagi"
+		"dynn_HA_jdA_u"
+		"dynn_Jianu"
+		"dynn_Korne"
+		"dynn_Lecca"
+		"dynn_LereS_ti"
+		"dynn_Magheru"
+		"dynn_Marineanu"
+		"dynn_Miclescu"
+		"dynn_MovilA_"
+		"dynn_MA_nA_stireanu"
+		"dynn_Niculescu_DorobanT_u"
+		"dynn_PA_cleanu"
+		"dynn_Pisoschi"
+		"dynn_PleS_ia"
+		"dynn_PleS_nilA_"
+		"dynn_PleS_oianu"
+		"dynn_RacovitzA_"
+		"dynn_RA_S_canu"
+		"dynn_Rallet"
+		"dynn_Rosetti"
+		"dynn_RusA_neS_ti"
+		"dynn_Savoia"
+		"dynn_Stoicescu"
+		"dynn_S_oarec"
+		"dynn_S_oldan"
+		"dynn_TurbureS_ti"
+		"dynn_UrlA_T_eni"
+		"dynn_VidraS_cu"
+		"dynn_Yarka"
+	}
+
+	male_names = {
+		Adrian Alexandru Anghel Aron Bajan Balc Barbat Basarab Bogdan Carol Ciprian Ciubar Claudiu
+		Corneliu Costin Damjan Dan Dragos Dumitru Emerik Florin Franjo Gavril Gheorghe Grigore Iacob
+		Iancu Ieremia Ilie Ioan Iorghu Iosif Iuga Janos Ladislau Latcu Laurentiu Litovoi Lucian Marin
+		Mihai Milos Mircea Moise Nicolaie Petre Pirvu Radovan Radu Roman Sas Seneslav Sergiu Simion
+		Stefan Stelian Teodor Tepes Tibor Tihomir Timotei Tudor Valentin Valeriu Vasile Veaceslav
+		Victor Vilhelm Vintila Vlad
+	}
+	female_names = {
+		Adelina Adriana Afina Alexandra Alexia Ana Anastasia Angela Arina Christina Clara Dana Ecatarina
+		Elena Elisabeta Emilia Eufroysina Felicia Floarea Iacoba Ioana Ionela Irina Iulia Maria Monica
+		Natalia Olimpia Paraschiva Petra Roxana Ruxandra Smaranda Sophia Stana Stefana Stefania Teodora
+		Tereza Vasilica Violeta Voica Zina
+		
+	}
+	
+	dynasty_of_location_prefix = "dynnp_de"
+	
+	patronym_suffix_male = "dynnpat_suf_escu"
+
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 40
+	mat_grf_name_chance = 10
+	father_name_chance = 10
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 40
+	mother_name_chance = 5
+
+	
+
+	mercenary_names = {
+		{ name = "mercenary_company_sheperds_of_the_romans" }
+	}
+}
+
+name_list_bulgarian = {
+	# e74 modern list (W1 Bulgaria 2025; W2 Bulgaria; K)
+	cadet_dynasty_names = {
+		dynn_cy_Ivanov dynn_cy_Georgiev dynn_cy_Dimitrov dynn_cy_Petrov dynn_cy_Nikolov dynn_cy_Hristov dynn_cy_Stoyanov dynn_cy_Todorov dynn_cy_Iliev dynn_cy_Angelov dynn_cy_Atanasov dynn_cy_Petkov
+		dynn_cy_Kolev dynn_cy_Yordanov dynn_cy_Marinov dynn_cy_Popov dynn_cy_Stefanov dynn_cy_Mihaylov dynn_cy_Vasilev dynn_cy_Konstantinov dynn_cy_Kostov dynn_cy_Pavlov dynn_cy_Ilchev dynn_cy_Borisov
+		dynn_cy_Kirov dynn_cy_Slavov dynn_cy_Simeonov dynn_cy_Tsvetkov dynn_cy_Dobrev dynn_cy_Radev
+	}
+	dynasty_names = {
+		dynn_cy_Ivanov dynn_cy_Georgiev dynn_cy_Dimitrov dynn_cy_Petrov dynn_cy_Nikolov dynn_cy_Hristov dynn_cy_Stoyanov dynn_cy_Todorov dynn_cy_Iliev dynn_cy_Angelov dynn_cy_Atanasov dynn_cy_Petkov
+		dynn_cy_Kolev dynn_cy_Yordanov dynn_cy_Marinov dynn_cy_Popov dynn_cy_Stefanov dynn_cy_Mihaylov dynn_cy_Vasilev dynn_cy_Konstantinov dynn_cy_Kostov dynn_cy_Pavlov dynn_cy_Ilchev dynn_cy_Borisov
+		dynn_cy_Kirov dynn_cy_Slavov dynn_cy_Simeonov dynn_cy_Tsvetkov dynn_cy_Dobrev dynn_cy_Radev
+	}
+	male_names = {
+		cyn_Aleksandar cyn_Georgi cyn_Kaloyan cyn_Martin cyn_Teodor cyn_Daniel cyn_Nikola cyn_Dimitar cyn_Boris cyn_Samuil cyn_Ivan cyn_Viktor
+		cyn_Stefan cyn_Petar cyn_Hristo cyn_Todor cyn_Stoyan cyn_Krasimir cyn_Plamen cyn_Iliya cyn_Atanas cyn_Yordan cyn_Vasil cyn_Rumen
+		cyn_Valentin_76bf cyn_Lyubomir cyn_Angel_c973 cyn_Emil cyn_Ventsislav cyn_Kiril
+	}
+	female_names = {
+		cyn_Sofia cyn_Maria cyn_Victoria cyn_Raya cyn_Nikol cyn_Daria cyn_Gabriela cyn_Elena cyn_Alexandra cyn_Mihaela cyn_Ivana cyn_Yoana
+		cyn_Kalina cyn_Teodora cyn_Desislava cyn_Galina cyn_Tsvetelina cyn_Ivanka cyn_Yordanka cyn_Snezhana cyn_Rositsa cyn_Veselina cyn_Daniela cyn_Petya
+		cyn_Margarita cyn_Radka cyn_Svetla cyn_Nadezhda cyn_Lyudmila cyn_Stefka
+	}
+	dynasty_of_location_prefix = "dynnp_ot"
+}
+
+name_list_albanian = {
+	# e74 modern list (W1 Albania 2019; W2 Kosovo; K)
+	cadet_dynasty_names = {
+		dynn_cy_Krasniqi dynn_cy_Gashi dynn_cy_Berisha dynn_cy_Morina dynn_cy_Shala dynn_cy_Bytyqi dynn_cy_Hasani dynn_cy_Kastrati dynn_cy_Kryeziu dynn_cy_Hoti dynn_cy_Hoxha dynn_cy_Leka
+		dynn_cy_Dervishi dynn_cy_Shehu dynn_cy_Cela dynn_cy_Duka dynn_cy_Kola dynn_cy_Prifti dynn_cy_Marku dynn_cy_Gjoka dynn_cy_Rama dynn_cy_Basha dynn_cy_Meta dynn_cy_Topalli
+		dynn_cy_Kurti dynn_cy_Thaci dynn_cy_Rexhepi dynn_cy_Ahmeti dynn_cy_Osmani dynn_cy_Bajrami
+	}
+	dynasty_names = {
+		dynn_cy_Krasniqi dynn_cy_Gashi dynn_cy_Berisha dynn_cy_Morina dynn_cy_Shala dynn_cy_Bytyqi dynn_cy_Hasani dynn_cy_Kastrati dynn_cy_Kryeziu dynn_cy_Hoti dynn_cy_Hoxha dynn_cy_Leka
+		dynn_cy_Dervishi dynn_cy_Shehu dynn_cy_Cela dynn_cy_Duka dynn_cy_Kola dynn_cy_Prifti dynn_cy_Marku dynn_cy_Gjoka dynn_cy_Rama dynn_cy_Basha dynn_cy_Meta dynn_cy_Topalli
+		dynn_cy_Kurti dynn_cy_Thaci dynn_cy_Rexhepi dynn_cy_Ahmeti dynn_cy_Osmani dynn_cy_Bajrami
+	}
+	male_names = {
+		cyn_Noel cyn_Aron cyn_Joel cyn_Roan cyn_Amar cyn_Mateo cyn_Alteo cyn_Roel cyn_Luis cyn_Dion cyn_Arber cyn_Ardit
+		cyn_Besnik cyn_Blerim cyn_Dritan cyn_Edmond cyn_Fatmir cyn_Gentian cyn_Ilir cyn_Klodian cyn_Kristi cyn_Leart cyn_Mentor cyn_Ermal
+		cyn_Agron cyn_Artan cyn_Bujar cyn_Arben cyn_Erion cyn_Gjergj cyn_Driton cyn_Valon cyn_Arian cyn_Endrit cyn_Altin
+	}
+	female_names = {
+		cyn_Amelia cyn_Ajla cyn_Aria cyn_Amelja cyn_Leandra cyn_Ambra cyn_Klea cyn_Melisa cyn_Amaris cyn_Reina cyn_Ana cyn_Elira
+		cyn_Arta cyn_Besa cyn_Blerta cyn_Drita cyn_Elona cyn_Fatjona cyn_Fjolla cyn_Genta cyn_Ilda cyn_Jonida cyn_Klajdi cyn_Lindita
+		cyn_Mirela cyn_Teuta cyn_Valbona cyn_Vjosa cyn_Albana cyn_Dafina cyn_Rina cyn_Era cyn_Ina cyn_Sara
+	}
+	dynasty_of_location_prefix = "dynnp_i_"
+	pat_grf_name_chance = 40
+	mat_grf_name_chance = 10
+	father_name_chance = 10
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 40
+	mother_name_chance = 5
+}

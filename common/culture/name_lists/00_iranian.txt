@@ -1,0 +1,491 @@
+﻿name_list_persian = {
+	# e74 modern list (W1 Iran 2019 + general population; K)
+	cadet_dynasty_names = {
+		dynn_cy_Mohammadi dynn_cy_Hosseini dynn_cy_Ahmadi dynn_cy_Rezaei dynn_cy_Moradi dynn_cy_Karimi dynn_cy_Jafari dynn_cy_Rahimi dynn_cy_Mousavi dynn_cy_Hashemi dynn_cy_Ghasemi dynn_cy_Sadeghi
+		dynn_cy_Heidari dynn_cy_Kazemi dynn_cy_Akbari dynn_cy_Rostami dynn_cy_Hosseinzadeh dynn_cy_Ebrahimi dynn_cy_Mohammadzadeh dynn_cy_Shirazi dynn_cy_Esfahani dynn_cy_Tehrani dynn_cy_Tabrizi dynn_cy_Yazdani
+		dynn_cy_Bagheri dynn_cy_Najafi dynn_cy_Abbasi dynn_cy_Salehi dynn_cy_Zarei dynn_cy_Amini dynn_cy_Nouri dynn_cy_Rahmani dynn_cy_Ghorbani dynn_cy_Khani dynn_cy_Soltani dynn_cy_Farahani
+		dynn_cy_Mirzaei dynn_cy_Shahbazi dynn_cy_Asadi dynn_cy_Kashani
+	}
+	dynasty_names = {
+		dynn_cy_Mohammadi dynn_cy_Hosseini dynn_cy_Ahmadi dynn_cy_Rezaei dynn_cy_Moradi dynn_cy_Karimi dynn_cy_Jafari dynn_cy_Rahimi dynn_cy_Mousavi dynn_cy_Hashemi dynn_cy_Ghasemi dynn_cy_Sadeghi
+		dynn_cy_Heidari dynn_cy_Kazemi dynn_cy_Akbari dynn_cy_Rostami dynn_cy_Hosseinzadeh dynn_cy_Ebrahimi dynn_cy_Mohammadzadeh dynn_cy_Shirazi dynn_cy_Esfahani dynn_cy_Tehrani dynn_cy_Tabrizi dynn_cy_Yazdani
+		dynn_cy_Bagheri dynn_cy_Najafi dynn_cy_Abbasi dynn_cy_Salehi dynn_cy_Zarei dynn_cy_Amini dynn_cy_Nouri dynn_cy_Rahmani dynn_cy_Ghorbani dynn_cy_Khani dynn_cy_Soltani dynn_cy_Farahani
+		dynn_cy_Mirzaei dynn_cy_Shahbazi dynn_cy_Asadi dynn_cy_Kashani
+	}
+	male_names = {
+		cyn_Amir_Ali cyn_Mohammad cyn_Ali cyn_Amir_Hossein cyn_Hossein cyn_Abolfazl cyn_Amir_Abbas cyn_Samyar cyn_Mohammad_Taha cyn_Aria cyn_Mahdi cyn_Hassan
+		cyn_Reza cyn_Ahmad cyn_Mohammad_Reza cyn_Abbas cyn_Ali_Reza cyn_Mehdi cyn_Amir cyn_Behnam cyn_Babak cyn_Kourosh cyn_Dariush cyn_Farhad
+		cyn_Hamid cyn_Javad cyn_Majid cyn_Masoud cyn_Morteza cyn_Saeed cyn_Siavash cyn_Arash cyn_Armin cyn_Parsa cyn_Kian cyn_Sina
+		cyn_Pouya cyn_Omid cyn_Navid cyn_Behzad
+	}
+	female_names = {
+		cyn_Fatemeh cyn_Zahra cyn_Helma cyn_Zeinab cyn_Yasna cyn_Ava cyn_Mersana cyn_Nazanin_Zahra cyn_Baran cyn_Fatemeh_Zahra cyn_Maryam cyn_Masoumeh
+		cyn_Sakineh cyn_Roghayyeh cyn_Khadijeh cyn_Leila cyn_Somayyeh cyn_Parisa cyn_Shirin cyn_Niloufar cyn_Mahsa cyn_Sara cyn_Neda cyn_Narges
+		cyn_Elham cyn_Azadeh cyn_Mina cyn_Roya cyn_Ladan cyn_Golnaz cyn_Shiva cyn_Hanieh cyn_Setareh cyn_Parastoo cyn_Ziba cyn_Nasrin
+		cyn_Mahnaz cyn_Farzaneh cyn_Tara cyn_Anahita
+	}
+	dynasty_of_location_prefix = "dynnp_of"
+}
+
+name_list_sogdian = {
+
+	cadet_dynasty_names = {
+		"dynn_Kang"
+		"dynn_Maymurg"
+		"dynn_Kesh"
+		"dynn_Namdar"
+		"dynn_Lushan"
+		"dynn_Tuhun"
+		"dynn_Calmandana"
+		"dynn_Kayani"
+		"dynn_Muqannid"
+		"dynn_Al-Barm"
+	}
+
+	dynasty_names = {
+		"dynn_Kang"
+		"dynn_Maymurg"
+		"dynn_Kesh"
+		"dynn_Namdar"
+		"dynn_Lushan"
+		"dynn_Tuhun"
+		"dynn_Calmandana"
+		"dynn_Kayani"
+		"dynn_Muqannid"
+		"dynn_Al-Barm"
+	}
+	
+	male_names = {
+		Gurak Divashtich Yodkhsetak Tuhun Tarkhun Urak Turghar Lushan Nanaifarn Avyaman Yechi Chaki Mechun Tishifan Wupoyan
+		Tarxun Wanxanak Nawekat Wiyus Uxushukan Bharxuman Skatch Sheshch Chaxren Ramch Shaw Maxak Ramtish Axushfarn Bhurz Chukshak Fudanyan Dishebo Vandak Khudayfarn Sili Tishrat Chunakk Namdar Xutawch Pisak Karz Nijat Chatfaratsaran Dewastich Varzakk Nanai-thvar Chuzakk Khwatawch Karzh Nizat Nanaikuch Ukhwan Pator Wakhushuvirt Maniakh Watch Shafnoshak
+		
+		Akhurmaztakk Akhushfarn Anghatnaw Anghatspadh Anushirvan Ardavan Ardeshir Armatsach Arsach Artikhuvandakh
+		Artivan Aspandhat Astken Aurang Avyaman-yan Avyaman Avyamanch Avyamanvandak Babak Bahram
+		Banda Barak Bharkhuman Bhurz Buddhadasa Chakar Chakhapak Chakhren Cher Chetvandak Dariush
+		Devadasa Dewashtich Dhakh Dhruwaspvandak Esfandiar Eskander Ewakhsh Faramarz Farhad Farn Farnaghat
+		Farnch Farnkhund Farroukh Farrukhzad Farzad Fatmiwach Ferdows Fereedun Frikhwataw Ghawtus Ghobad
+		Ghoshfarn Ghotamsach Godarz Goshtasb Hazarasp Hormazd Hormoz Induk Irkin Jamshid Jiamut
+		Jimatvande Kanak Kanakk Kartir Karzhtik Kavoos Kaway Kharstrang Khosrow Khun Khurshid Khwadhawanakk
+		Khwarmew Khwasaw Khwasawch Kund Kundakk Kurush Kushan Kushanakanak Makhak Marti Marzuban Maymarghch Methakan Mew Miren
+		Muqanna Nanai Nanaidhvar Nanaifarn Nanaikhsay Nanaithvar Nanaizanch Nanayakk Nanevante Narisaf Narshakhi Nawchirth
+		Nibothak Nipak Nithan Ot-tegin Papakk Parsak Parviz Pashang Patrodhan Pekako Peroz Pesakk
+		Pujman Qishiq Ramtish Rashdhes Razmwanwan Resan Rewdhvar Rokhshan Rostam Rutha Sagharak Sas Sasan Satasp
+		Sesh Shahbaz Shahin Shahrokh Shans Shapur Shaw Shennu Shirch Sina Spadh Spadhkharsh Srawakk
+		Stayidh Suryakk Tahmasb Takhsich Takhsichvandak Takut Tarkhun Taw Tir Tishtrya Tishvandak Turghar Ukhushukan
+		Urak Vagh Vaghrew Vahhab Varshasb Varzak Varzirak Vishtasb Viyus Vuvva Wakhunam Wakhushakk Wakhushu Wanenak
+		Wankaway Wankhanak Wanrazmak Wanwans Wishaghn Xeykhosrow Y_n Zand Zartosht Zymt
+	}
+	female_names = {
+		Nana Upach An Kang
+		
+		Aghatzak Anakhit Arghavan Banafsheh Chat Chatis Chet Chinanch Darya Funa Furuzan Ghamze Ghoncheh
+		Golbahar Golshan Khansch Makh Mah Mahtab Miwnay Nana Nanai Nanaidhat Navvaba Nazgol
+		Nazilla Parvaneh Parvin Ranisa Roxana Sanakhram Shahrzad Shahzadeh Shayn Shirin Touran
+		Yasaman Yena
+	}
+	founder_named_dynasties = yes
+	house_based_map_names = yes
+
+	dynasty_of_location_prefix = "dynnp_m"
+	patronym_prefix_male = "dynnpat_pre_zk"
+	patronym_prefix_female = "dynnpat_pre_zk"
+
+	
+
+	mercenary_names = {
+		{ name = "mercenary_company_company_of_sogdiana" }
+		{ name = "mercenary_company_sogdian_warriors" }
+	}
+}
+
+name_list_tocharian = {
+
+	cadet_dynasty_names = {
+		"dynn_Kausal"
+		"dynn_Gank"
+		"dynn_Tenare"
+		"dynn_Ytarim"
+		"dynn_Tripuskar"
+		"dynn_Dantapur"
+		"dynn_Baransi"
+		"dynn_Yurpaska"
+		"dynn_Rohini"
+		"dynn_Vaideh"
+		"dynn_Vaisali"
+		"dynn_Iksvaku"
+		"dynn_Kausika"
+		"dynn_Kausika"
+		"dynn_Sakke"
+		"dynn_Kasake"
+		"dynn_Yarkam"
+		"dynn_Cadota"
+		"dynn_Lyam"
+		"dynn_Kunlyu"
+	}
+
+	dynasty_names = {
+		"dynn_Kausal"
+		"dynn_Gank"
+		"dynn_Tenare"
+		"dynn_Ytarim"
+		"dynn_Tripuskar"
+		"dynn_Dantapur"
+		"dynn_Baransi"
+		"dynn_Yurpaska"
+		"dynn_Rohini"
+		"dynn_Vaideh"
+		"dynn_Vaisali"
+		"dynn_Iksvaku"
+		"dynn_Kausika"
+		"dynn_Kausika"
+		"dynn_Sakke"
+		"dynn_Kasake"
+		"dynn_Yarkam"
+		"dynn_Cadota"
+		"dynn_Lyam"
+		"dynn_Kunlyu"
+	}
+	
+	male_names = {
+		Airawanta Ajatasatru Ajite Alp Ambare AmprA_tasarme AmrA_taraksite AmrA_todane Anande Anathapindike Aniruddhe Andhave Anktsas Arjune Aranemi Arnyartate Arslam
+		Arthadarsi Aryamarg Aryaske Aryatewe Aryawarme Aryottame Asokamitre Asokaraksite Asoke AsA_rte Astawi Atakke Atidivakare Atyuccagami Atraikatte
+		Bimbasare Caitike Caiytiska Cakravar Cakule Candramukhe Candravasu Candre Caracate Cina Cinatyuti Citre Cittaraksite Cowaske
+		Dandakamal Devarakste Dhanike Dharma Dharmacandre Dharmadase Dharmakame Dharmakamiske Dharmaraksite Dharmasome Dharmatrate Dharmawarme Dipankar Dirghanakhe Dravyasvare Durmukhe
+		Ekasrinke ErkA_tsole EsmiN_e Etrise Gayakasyape Gayasirs Gaye Gunacamdre Gunasampade Hariscandre Hastake Hetubalike Indradhvaje Indratewe Indre Indriske Issapake
+		Jatisrone Jetavam JN_anacamndre JN_anaghose JN_anakame JN_anakupte JN_anamokse JN_anasene JN_anasome JN_anasthite JN_anawirye
+		Kadike Kalodaye Kalyanamokse Kalyanavraddhi Kalyanawartane Kanake Kanaske KanthA_ke Kapilavarne Kapilavastu Kas Kasyap Katakarni Kaundinye
+		Kauravye Kausal Kemarcune Kentarske Kercampey Kercapiske Kerdipole KereptaN_N_e KimN_e Klenkarako Klpapatre Klyotiska Kotile Koysam Ksemankare Ksmarjune Ksmawarme Ksmate Ksmateworsa Ksmika Kulkera Kumarapunye Kumpante Kunacamttrakau Kunacamttre Kwirapabhadra Lariska
+		Mahasammate Mahisvare Manisvare Mitrakseme Mitraske Mitre Moksasene Moksasome Moksawarme Molyoke Mukalanti Munkhare Murdhagate
+		Nandabala Nandake Nande Nandipale Nasme N_atte Naradeve N_irot Nupura Nyagrodhe
+		Padmakesar Padmottare Pakacandre PaN_casikhi Pawaske Pesane Prabhankare Prabhase Pranada Prasamnake
+		Pravare Priyadeve Ptompile PuN_aiyse PuN_akame PuN_araksite PuN_icamndre Punyamitre Purtas Rahule Raktadewe Ratnacuda Ratnasikhi Rsivadam Rudramukhe Rudrasarme
+		Sagare Samantatir Samcite Samghatrate Sanavasi Sanghasarme Sankene Sanum Saputanase Sarasike Sarmacamdre Sarsire Satuma Satyake Satyaraksite Siddharthe Sidhasamgha Siladewe Silamitre Silarakite Silaraksi Silasoma Silavande Silawarne
+		Silayase Silopake Simpraye SiN_cake Sinke Sinku Skanatatte Skwarle Slacamndre Solarke Some Srestake Sudarse Sudas Suddhodane Sujate Sukase Suklodane Sunaksatre Sunetre Sutasome Sutate Swarnabuspe Swarnatepe
+		Tarmacandre Tarmaraksite Tenare Tohkem Tonke Tukik Tunka Tusi Udanalankar Udayi Ulkamukhe Uluke Upage Upagupte Upanande
+		Uposathe Urbilvakasyape Uttaraphalguni Uttare Vaisravane Vaitike Varddhane Vidusake Vimalapuspe Vinaise Visale Wamsok Warwattaske WA_ryaruci WA_ryasene Wasampile Wasave Wiryadewe Wiryamitre Wiryasanti WiryasiN_i Wisikke Wrauske
+		Yanayase YarpalA_ske Yasa Yasawine Yase Yasonaka Yastare Yiswe Yonge Yonu Ype Yudhisthire Yugaraje
+	}
+	female_names = {
+		AmprA_tasene AmrA_tasene Arjuna Arunavati Aryakose Aryaraksite Ayardhyame Bhadra CaN_ca Dhrtirastre
+		JN_ati Kolite Kosthile Malika Maya Nagasene Priyasarini Punyasene Purike Purnaya Purohite Putere RA_knaska Revati Roce
+		Saci Santa Santisene Sari Sthulananda Sudarsane Sumagati Sumaise Sumati Sundari Suwarte
+		Tarma TarmawirN_e TA_rtvisara Tati Tisye Upatisye Uppal Uppalavarna Vajrapani Vasisthe Vitasake Yasaraksite Yasodhara
+	}
+	founder_named_dynasties = yes
+	house_based_map_names = yes
+
+	dynasty_of_location_prefix = "dynnp_mem"
+	patronym_prefix_male = "dynnpat_pre_soyA_"
+	patronym_prefix_female = "dynnpat_pre_tkacer"
+
+	
+
+	mercenary_names = {
+		{ name = "mercenary_company_band_of_tocharoi" }
+	}
+}
+
+name_list_kurdish = {
+	# e74 modern list (W1 Iraq 2007, Iran general, Turkey 2013; K (Kurdish names))
+	cadet_dynasty_names = {
+		dynn_cy_Barzani dynn_cy_Talabani dynn_cy_Ahmed dynn_cy_Mahmud dynn_cy_Rashid dynn_cy_Aziz dynn_cy_Abdullah dynn_cy_Hussein dynn_cy_Hamid dynn_cy_Mustafa dynn_cy_Qadir dynn_cy_Salih
+		dynn_cy_Mohammed dynn_cy_Karim dynn_cy_Omer dynn_cy_Kaya dynn_cy_Demir dynn_cy_Aslan dynn_cy_Yildiz dynn_cy_Tekin dynn_cy_Baysal dynn_cy_Doski dynn_cy_Zebari dynn_cy_Hawrami
+		dynn_cy_Jaff dynn_cy_Bradost dynn_cy_Shingali dynn_cy_Mukri dynn_cy_Ardalan dynn_cy_Baban
+	}
+	dynasty_names = {
+		dynn_cy_Barzani dynn_cy_Talabani dynn_cy_Ahmed dynn_cy_Mahmud dynn_cy_Rashid dynn_cy_Aziz dynn_cy_Abdullah dynn_cy_Hussein dynn_cy_Hamid dynn_cy_Mustafa dynn_cy_Qadir dynn_cy_Salih
+		dynn_cy_Mohammed dynn_cy_Karim dynn_cy_Omer dynn_cy_Kaya dynn_cy_Demir dynn_cy_Aslan dynn_cy_Yildiz dynn_cy_Tekin dynn_cy_Baysal dynn_cy_Doski dynn_cy_Zebari dynn_cy_Hawrami
+		dynn_cy_Jaff dynn_cy_Bradost dynn_cy_Shingali dynn_cy_Mukri dynn_cy_Ardalan dynn_cy_Baban
+	}
+	male_names = {
+		cyn_Azad cyn_Rebin cyn_Shvan cyn_Karwan cyn_Hiwa cyn_Dilshad cyn_Aram cyn_Sherwan cyn_Rizgar cyn_Kawa cyn_Hemin cyn_Hawre
+		cyn_Baran cyn_Soran cyn_Bakhtiyar cyn_Dara cyn_Saman cyn_Zana cyn_Ali cyn_Mohammed cyn_Ahmad cyn_Omar cyn_Hussein cyn_Mustafa
+		cyn_Ibrahim_71f2 cyn_Yusuf cyn_Mehmet cyn_Rojhat cyn_Berzan cyn_Serhat
+	}
+	female_names = {
+		cyn_Avin cyn_Shilan cyn_Nazdar cyn_Rojin cyn_Berivan cyn_Delal cyn_Zilan cyn_Hevi cyn_Jiyan cyn_Nishtiman cyn_Shirin cyn_Chiman
+		cyn_Gulistan cyn_Hawin cyn_Lana cyn_Nasrin cyn_Parwin cyn_Rozhan cyn_Sara cyn_Viyan cyn_Zhila cyn_Zozan cyn_Leyla cyn_Fatima_2c68
+		cyn_Zainab cyn_Avesta cyn_Helin cyn_Dilan cyn_Rojda
+	}
+	dynasty_of_location_prefix = "dynnp_of"
+}
+
+name_list_afghan = {
+	# e74 modern list (W1 Iran/Pakistan/Tajikistan (Afghan statistics unavailable); K (Pashtun/Dari names))
+	cadet_dynasty_names = {
+		dynn_cy_Ahmadzai dynn_cy_Popalzai dynn_cy_Barakzai dynn_cy_Achakzai dynn_cy_Alokozai dynn_cy_Mohammadzai dynn_cy_Noorzai dynn_cy_Ishaqzai dynn_cy_Kakar dynn_cy_Wardak dynn_cy_Ghilzai dynn_cy_Durrani
+		dynn_cy_Karzai dynn_cy_Ghani dynn_cy_Hekmatyar dynn_cy_Mujaddidi dynn_cy_Rabbani dynn_cy_Haqqani dynn_cy_Mohaqiq dynn_cy_Sayyaf dynn_cy_Massoud dynn_cy_Dostum dynn_cy_Hazara dynn_cy_Tajik
+		dynn_cy_Stanikzai dynn_cy_Safi dynn_cy_Shinwari dynn_cy_Mangal dynn_cy_Zadran dynn_cy_Jalali
+	}
+	dynasty_names = {
+		dynn_cy_Ahmadzai dynn_cy_Popalzai dynn_cy_Barakzai dynn_cy_Achakzai dynn_cy_Alokozai dynn_cy_Mohammadzai dynn_cy_Noorzai dynn_cy_Ishaqzai dynn_cy_Kakar dynn_cy_Wardak dynn_cy_Ghilzai dynn_cy_Durrani
+		dynn_cy_Karzai dynn_cy_Ghani dynn_cy_Hekmatyar dynn_cy_Mujaddidi dynn_cy_Rabbani dynn_cy_Haqqani dynn_cy_Mohaqiq dynn_cy_Sayyaf dynn_cy_Massoud dynn_cy_Dostum dynn_cy_Hazara dynn_cy_Tajik
+		dynn_cy_Stanikzai dynn_cy_Safi dynn_cy_Shinwari dynn_cy_Mangal dynn_cy_Zadran dynn_cy_Jalali
+	}
+	male_names = {
+		cyn_Mohammad cyn_Ahmad cyn_Abdul cyn_Ali cyn_Hamid cyn_Ashraf cyn_Rahmatullah cyn_Gulbuddin cyn_Hekmatullah cyn_Zabiullah cyn_Mujib cyn_Najib
+		cyn_Sayed cyn_Habib cyn_Wahid cyn_Farid cyn_Jawad cyn_Khalid cyn_Masoud cyn_Mirwais cyn_Nasir cyn_Obaid cyn_Qasim cyn_Rahim
+		cyn_Sami cyn_Shafiq cyn_Tamim cyn_Wais cyn_Yama cyn_Zalmai cyn_Baryalai cyn_Gul_Agha cyn_Haroon cyn_Ismail_c154 cyn_Javed
+	}
+	female_names = {
+		cyn_Fatima_2c68 cyn_Maryam cyn_Zahra cyn_Khadija cyn_Aisha cyn_Malalai cyn_Mariam cyn_Roya cyn_Shabana cyn_Shakila cyn_Farzana cyn_Fereshta
+		cyn_Gulalai cyn_Hasina cyn_Laila cyn_Mahbooba cyn_Mursal cyn_Nadia cyn_Nargis cyn_Nazia cyn_Parwana cyn_Raihana cyn_Rangina cyn_Sadia
+		cyn_Sahar cyn_Shukria cyn_Sima cyn_Soraya cyn_Wazhma cyn_Zarghuna cyn_Zarmina cyn_Zuhal cyn_Hila cyn_Mina cyn_Sana
+	}
+	dynasty_of_location_prefix = "dynnp_of"
+}
+
+name_list_baloch = {
+	# e74 modern list (W1 Pakistan, Iran; K (Baloch names and tribal surnames))
+	cadet_dynasty_names = {
+		dynn_cy_Baloch dynn_cy_Bugti dynn_cy_Marri dynn_cy_Mengal dynn_cy_Zehri dynn_cy_Raisani dynn_cy_Jamali dynn_cy_Khosa dynn_cy_Leghari dynn_cy_Mazari dynn_cy_Rind dynn_cy_Lashari
+		dynn_cy_Magsi dynn_cy_Bizenjo dynn_cy_Jamaldini dynn_cy_Achakzai dynn_cy_Kurd dynn_cy_Shahwani dynn_cy_Sanjrani dynn_cy_Domki dynn_cy_Gichki dynn_cy_Zarakzai dynn_cy_Mohammadhasni dynn_cy_Sasoli
+		dynn_cy_Notezai
+	}
+	dynasty_names = {
+		dynn_cy_Baloch dynn_cy_Bugti dynn_cy_Marri dynn_cy_Mengal dynn_cy_Zehri dynn_cy_Raisani dynn_cy_Jamali dynn_cy_Khosa dynn_cy_Leghari dynn_cy_Mazari dynn_cy_Rind dynn_cy_Lashari
+		dynn_cy_Magsi dynn_cy_Bizenjo dynn_cy_Jamaldini dynn_cy_Achakzai dynn_cy_Kurd dynn_cy_Shahwani dynn_cy_Sanjrani dynn_cy_Domki dynn_cy_Gichki dynn_cy_Zarakzai dynn_cy_Mohammadhasni dynn_cy_Sasoli
+		dynn_cy_Notezai
+	}
+	male_names = {
+		cyn_Mohammad cyn_Ali cyn_Hussain cyn_Omar cyn_Bilal cyn_Usman cyn_Zahid cyn_Shahid cyn_Saqib cyn_Nomaan cyn_Akbar cyn_Nawab
+		cyn_Sardar cyn_Mir cyn_Bugti cyn_Hammal cyn_Chakar cyn_Gwahram cyn_Dad_Shah cyn_Abdul_Malik cyn_Allah_Bakhsh cyn_Jan_Mohammad cyn_Karim cyn_Dad_Karim
+		cyn_Shahzain cyn_Baloch_Khan cyn_Murad cyn_Ghulam cyn_Naseer cyn_Hayat
+	}
+	female_names = {
+		cyn_Fatima_2c68 cyn_Maryam cyn_Zainab cyn_Ayesha cyn_Bibi cyn_Hani cyn_Gulnaz cyn_Mahrang cyn_Banuk cyn_Sammi cyn_Sabiha cyn_Shari
+		cyn_Karima cyn_Zarina cyn_Shahnaz cyn_Nasreen cyn_Gul_Bibi cyn_Mahnaz cyn_Pari cyn_Shazia cyn_Rukhsana cyn_Hajra cyn_Zubaida cyn_Saima
+		cyn_Sadia cyn_Shabana cyn_Farzana cyn_Hameeda cyn_Gulshan cyn_Naila
+	}
+	dynasty_of_location_prefix = "dynnp_of"
+}
+
+name_list_saka = {
+
+	cadet_dynasty_names = {
+		"dynn_Visha"
+		"dynn_Hinaza"
+		"dynn_Kustana"
+		"dynn_Hvamna"
+		"dynn_Gaysata"
+		"dynn_Ustaka"
+		"dynn_Birgamdara"
+		"dynn_Phamnaa"
+		"dynn_Ca"
+		"dynn_Yuttina"
+	}
+
+	dynasty_names = {
+		"dynn_Visha"
+		"dynn_Hinaza"
+		"dynn_Kustana"
+		"dynn_Hvamna"
+		"dynn_Gaysata"
+		"dynn_Ustaka"
+		"dynn_Birgamdara"
+		"dynn_Phamnaa"
+		"dynn_Ca"
+		"dynn_Yuttina"
+	}
+	
+	male_names = {
+		Alysanna Arsa Aryamgula Asi Baga Bahudhiva Bamdaka Bhadra Bradaysaa Brika Capastaka Ceguti Chika Daisai Dharma Dum Dzatsi Gostana Gulai Harka
+		Haskadatta Huyi Hvam Hvarda Hvardamaya Hvimdu Ikam Irasamga Jabgu Jajahasa Kamnai Kayam Kharusa Khina Khuradatta Khvarnarse Kimashana Kimashani
+		Kimatcuna Kirtti Kriti Kunala Kushtana Mamatti Manohara Murlimin Naganpaka Nipandaka Padatcaina Pakyau Phimduka Presamdha Punarrjam Punekula
+		Purgula Raghu Samgai Samgaka Samgalaka Sangrama Sayausa Sham Shambhava Shikshananda Shinganca Shiresala Shirvamdai Shribhadra Shtrugize Shudamgula
+		Shura Sidaka Sihya Siladharma Simhyi Skunkha Sthavira Sudarrjam Sudhana Sumauna Sumtharaka Tayasham Tcusyau Vadhaga Vagiti Vaham Vahana
+		Vardhana Varman Vasudeva Vidakai Vidaram Vijita Vijitasimha Vikrama Virsha Visaram Vishirapumna Visma Ysambasta Zambasta
+	}
+	female_names = {
+		Alsamgya Alyonj Armaiti Dharmadasi Khivyaina Maya Nanda Nirmala Praniyata Safali Shandramata Shri Tisyarakshita Vimala Vimalaprabha Yavalac
+	}
+
+	founder_named_dynasties = yes
+	house_based_map_names = yes
+	
+	dynasty_of_location_prefix = "dynnp_nava"
+	
+	patronym_prefix_male = "dynnpat_pre_puri"
+	patronym_prefix_female = "dynnpat_pre_duda"
+
+	
+}
+
+name_list_daylamite = {
+
+	cadet_dynasty_names = {
+		"dynn_Hazaraspid"
+		"dynn_Ayyubid"
+		"dynn_Buyid"
+		"dynn_Kakuyid"
+		"dynn_Jafarid"
+		"dynn_Hasanwayhid"
+		"dynn_Daisamid"
+		"dynn_Bitlisid"
+		"dynn_Ardalanid"
+		"dynn_Kayusid"
+		"dynn_Sadakiyanid"
+		"dynn_Rozeguitid"
+		"dynn_Fadhilwayhid"
+		"dynn_Ayyarid"
+		"dynn_Narseid"
+		"dynn_Adi"
+		"dynn_Justanid"
+		"dynn_Gorgani"
+		"dynn_as_Sabbah"
+		"dynn_Gilani"
+		"dynn_Tabarestani"
+		"dynn_Baduspanid"
+		"dynn_Mazandarani"
+		"dynn_Dabuyid"
+		"dynn_Gavbareh"
+		"dynn_al_Daylami"
+		"dynn_Afriduni"
+	}
+
+	dynasty_names = {
+		"dynn_Hazaraspid"
+		"dynn_Ayyubid"
+		"dynn_Buyid"
+		"dynn_Kakuyid"
+		"dynn_Jafarid"
+		"dynn_Hasanwayhid"
+		"dynn_Daisamid"
+		"dynn_Bitlisid"
+		"dynn_Ardalanid"
+		"dynn_Kayusid"
+		"dynn_Sadakiyanid"
+		"dynn_Rozeguitid"
+		"dynn_Fadhilwayhid"
+		"dynn_Ayyarid"
+		"dynn_Narseid"
+		"dynn_Adi"
+		"dynn_Justanid"
+		"dynn_Gorgani"
+		"dynn_as_Sabbah"
+		"dynn_Gilani"
+		"dynn_Tabarestani"
+		"dynn_Baduspanid"
+		"dynn_Mazandarani"
+		"dynn_Dabuyid"
+		"dynn_Gavbareh"
+		"dynn_al_Daylami"
+		"dynn_Afriduni"
+	}
+
+	male_names = {
+		Abbas Abolhassan Afshar Ahmad Akbar Ali Allahyar Amin Anushirvan Aram Ardahan Ardavan Ardeshir Assad Aurang Ayeshah Babak Bahman
+		Bahram Bakhtiar Behrad Behrouz Bisutun Bozorg Buya Danush Dabuya Dara Dariush_Darius Dadhburzmihr Davud Djamasp Ebrahim Ehsan Esfandiar Eskander Esmail Fakhr Faramarz Faraz Fareed Farhad Fariborz
+		Farroukh Farrukhzad Farhad Farzad Fath Ferdows Fereedun Gavbarih Ghobad Gholam Gilgavbara Gilanshah Godarz Gorangej Goshtasb Hafez Hassan Hazarsandan Hedayat Hooshyar Hormazd Hormoz Hossein
+		Humayun Iskandar Ispahdost Istwandad Jahandar Jahangir Jahanshah Jamshid Javeed Justan Kambiz Kamran Keyghobad Keikavus Kharmandar Khashayar Kavadh Khodadad Kharasuya
+		Khudayar Khurzad Kurkir Kurush Langar Lashkarwarz Makan Mahmud Manadhar Manuchihr Manushihr Mazyar Mihrmardan Mardavij Marzuban Mashad Maziar Mehrab Mehrzad Mohammed Morad Morteza Mozaffar Muta Nard Naveed Namavar Nawid Nezam Paduspan Parviz Pashang Peroz
+		Pujman Qabus_Kavoos Qarin Rustam Ruhollah Ruzbahan Salar Sadri Salman Shahab Shahragim Shahbaz Shahin Shahrokh Shahruz Shahryar Shapur Shayan Sherzil Siyahchashm Sina Tahmasb Vahhab Vahrez Vahid
+		Vali Valash Wandad Vardanshah Varshasb Vishtasb Vushmgir Yazdegerd Yousef Zahak Zakaria Zand Zartosht Zia Zoarab Ziyar Zarrinkamar
+	}
+	
+	female_names = {
+		Afsaneh Ahu Arghavan Azarmidokht Asa Azadeh Bahar Banafsheh Behnaz Burandokht Darya Delaram Delbar Dinah Donya Elham Elnaz Farah Fareedeh Farnaz Farrin Farva
+		Furuzan Ghamze Ghazal Ghoncheh Golbahar Golnaz Golpari Golshan Hamdam Hurmat Irandokht Jamileh Javaneh Leila Mahdokht Mahtab Mariam
+		Navvaba Nazgol Nazilla Noor Parvaneh_Parvaneh Parvin Pertevniyal Pourandokht Roshanora Roxana Salomeh Shahrzad Shahzadeh Shirin Soraya Touran
+		Tourandokht Yasaman Yekta Zarrindokht Zeynab Zohreh
+	}
+	
+	founder_named_dynasties = yes
+	house_based_map_names = yes
+
+	patronym_suffix_male = "dynnpat_suf_zade"
+	patronym_suffix_female = "dynnpat_suf_dokht"
+	
+	
+
+	mercenary_names = {
+		{ name = "mercenary_company_daylamite_company" }
+		{ name = "mercenary_company_band_of_sermaj" }
+	}
+}
+
+name_list_khwarezmian = {
+
+	cadet_dynasty_names = {
+		"dynn_Khwarizmi"
+		"dynn_Khati"
+		"dynn_Afrighid"
+		"dynn_Mamunid"
+		"dynn_Farighunid"
+	}
+
+	dynasty_names = {
+		"dynn_Khwarizmi"
+		"dynn_Khati"
+		"dynn_Afrighid"
+		"dynn_Mamunid"
+		"dynn_Farighunid"
+	}
+	
+	male_names = {
+		Abdallah Anushtegin Afrig Arsamuh Arthamukh Askajamuk Azkajwar Bagra Gurak Divashtich Yodkhsetak Tuhun Tarkhun Urak Turghar Lushan Nanaifarn Avyaman Yechi Chaki Mechun Tishifan Wupoyan
+		Tarxun Wanxanak Nawekat Wiyus Uxushukan Bharxuman Skatch Sheshch Chigan Chaxren Ramch Shaw Maxak Ramtish Axushfarn Bhurz Chukshak Fudanyan Dishebo Vandak Khudayfarn Sili Tishrat Chunakk Namdar Pisak Karz Dewastich
+		Varzakk Nanai-thvar Chuzakk Khwatawch Karzh Nizat Nanaikuch Ukhwan Pator Wakhushuvirt Maniakh Watch Shafnoshak
+		Akhurmaztakk Akhushfarn Anghatnaw Anghatspadh Anushirvan Ardavan Ardeshir_Ardeshir Armatsach Arsach Artikhuvandakh
+		Artivan Aspandhat Astken Aurang_Aurang Avyaman-yan Avyaman Avyamanch Avyamanvandak Babak Bahram
+		Banda Barak Bharkhuman Bhurz_Bhurz Buzgar Chakar Chakhren Cher Chetvandak Dariush
+		Devadasa Dewashtich Dhakh Dhruwaspvandak Esfandiar Eskander Eraq Ewakhsh Faramarz Farhad Farn Farnaghat
+		Farnch Farnkhund Farroukh Farrukhzad Farzad Fatmiwach Ferdows Fereydun Frikhwataw Ghawtus Ghobad
+		Ghoshfarn Ghotamsach Godarz Goshtasb Hamgari Hazarasp Hormazd Hormoz Induk Irkin Jamshid Jiamut
+		Jimatvande Kanak Kartir Karzhtik Kavus Kaway Khwarazm Kharstrang Khusrau Khun Khurshid
+		Khwarmew Khwasaw Khwasawch Kund Kundakk Kurush Kushan Kushanakanak Makhak Mansur Marti Marzuban Methakan Mew Miren
+		Muqanna Muhammad Nanai Nanaidhvar Nanaifarn Nanaikhsay Nanaithvar Nanaizanch Nanayakk Nanevante Narisaf Narshakhi Nawchirth
+		Nibothak Nipak Nithan Papakk Parsak Parviz Pashang Patrodhan Pekako Peroz Pesakk
+		Pujman Qishiq Ramtish Rashdhes Razmwanwan Resan Rewdhvar Rokhshan Rustam Rutha Sabri Sagharak Sas Sasan Satasp Sawashfan
+		Sesh Shahbaz Sahhasak Shahin Shahrokh Shapur Sahr Shaush Shennu Shirch Sina Spadh Spadhkharsh Srawakk
+		Stayidh Suryakk Tahmasb Takhsich Takhsichvandak Takut Torkasbatha Tarkhun Taw Tir Tishtrya Tishvandak Turghar Ukhushukan
+		Urak Vagh Vaghrew Vahhab Varshasb Varzak Varzirak Vishtasb Viyus Vuvva Wakhunam Wakhushakk Wakhushu Wanenak
+		Wanrazmak Wishaghn Xeykhosrow Zand Zartosht Siyavosh
+	}
+	
+	female_names = {
+		Nana Upach An Kang Aghatzak Anakhit Arghavan_Arghavan Banafsheh_Banafsheh Chat Chatis Chet Chinanch Darya Funa Furuzan Ghamze Ghoncheh
+		Golbahar Golshan Khansch Makh Mah Mahtab_Mahtab Miwnay Nana Nanai Nanaidhat Navvaba Nazgol
+		Nazilla Parvaneh Parvin Ranisa Roxana Sanakhram Shahrzad Shahzadeh Shayn Shirin Touran
+		Yasaman Yena
+	}
+	
+	founder_named_dynasties = yes
+	house_based_map_names = yes
+
+	dynasty_of_location_prefix = "dynnp_m"
+	patronym_suffix_male = "dynnpat_suf_zk"
+	patronym_suffix_female = "dynnpat_suf_zk"
+
+	
+
+	mercenary_names = {
+		{ name = "mercenary_company_company_of_khwarezm" }
+		{ name = "mercenary_company_khwarezmian_warriors" }
+	}
+}
+
+name_list_tajik = {
+	# e74 modern list (W1 Tajikistan 2009; K)
+	cadet_dynasty_names = {
+		dynn_cy_Rahmon dynn_cy_Rahmonov dynn_cy_Saidov dynn_cy_Karimov dynn_cy_Nazarov dynn_cy_Sharipov dynn_cy_Rajabov dynn_cy_Davlatov dynn_cy_Ismoilov dynn_cy_Qurbonov dynn_cy_Safarov dynn_cy_Mirzoev
+		dynn_cy_Abdulloev dynn_cy_Khudoyorov dynn_cy_Nurov dynn_cy_Sultonov dynn_cy_Hasanov dynn_cy_Boboev dynn_cy_Odinaev dynn_cy_Yusufov dynn_cy_Sangov dynn_cy_Ashurov dynn_cy_Kholov dynn_cy_Ziyoev
+		dynn_cy_Shokirov
+	}
+	dynasty_names = {
+		dynn_cy_Rahmon dynn_cy_Rahmonov dynn_cy_Saidov dynn_cy_Karimov dynn_cy_Nazarov dynn_cy_Sharipov dynn_cy_Rajabov dynn_cy_Davlatov dynn_cy_Ismoilov dynn_cy_Qurbonov dynn_cy_Safarov dynn_cy_Mirzoev
+		dynn_cy_Abdulloev dynn_cy_Khudoyorov dynn_cy_Nurov dynn_cy_Sultonov dynn_cy_Hasanov dynn_cy_Boboev dynn_cy_Odinaev dynn_cy_Yusufov dynn_cy_Sangov dynn_cy_Ashurov dynn_cy_Kholov dynn_cy_Ziyoev
+		dynn_cy_Shokirov
+	}
+	male_names = {
+		cyn_Muhammad cyn_Yusuf cyn_Abdullo cyn_Abubakr cyn_Rustam cyn_Firdavs cyn_Bahrom cyn_Dilshod cyn_Farhod cyn_Jamshed cyn_Kamol cyn_Nurullo
+		cyn_Parviz cyn_Rahmon cyn_Saidjon cyn_Shahrom cyn_Sohib cyn_Umed cyn_Zafar cyn_Behruz cyn_Daler cyn_Faridun cyn_Mehrubon cyn_Siyovush
+		cyn_Somon cyn_Suhrob cyn_Tohir cyn_Bobojon cyn_Alisher cyn_Komron
+	}
+	female_names = {
+		cyn_Sumayah cyn_Asiya cyn_Oisha cyn_Googoosh cyn_Anohito cyn_Indira cyn_Gulnora cyn_Malika cyn_Mavjuda cyn_Nigina cyn_Nilufar cyn_Parvina
+		cyn_Sitora cyn_Shabnam cyn_Tahmina cyn_Zarina cyn_Zulfiya cyn_Farzona cyn_Manizha cyn_Munisa cyn_Firuza cyn_Mehrangez cyn_Rukhshona cyn_Shahlo
+		cyn_Zebo cyn_Madina cyn_Dilnoza cyn_Gulbahor cyn_Ozoda cyn_Sabrina
+	}
+	dynasty_of_location_prefix = "dynnp_of"
+}

@@ -1,0 +1,26 @@
+﻿name_list_tai = {
+	# e74 modern list (as thai (Tai peoples of southern China/Myanmar); K)
+	cadet_dynasty_names = {
+		dynn_cy_Saetang dynn_cy_Srisuk dynn_cy_Kaewkla dynn_cy_Sukjai dynn_cy_Chaiyaporn dynn_cy_Thongsuk dynn_cy_Boonmee dynn_cy_Srisawat dynn_cy_Rattanakul dynn_cy_Phromma dynn_cy_Sombat dynn_cy_Kongsuk
+		dynn_cy_Kaewmanee dynn_cy_Jaidee dynn_cy_Chantra dynn_cy_Wongsawat dynn_cy_Shinawatra dynn_cy_Chan_o_cha dynn_cy_Chidchob dynn_cy_Thepsuthin dynn_cy_Sukprasert dynn_cy_Inthawong dynn_cy_Chaisri dynn_cy_Pholsena
+		dynn_cy_Siriwat dynn_cy_Sangkhaphan dynn_cy_Thammasat dynn_cy_Pattanapong dynn_cy_Rungruang dynn_cy_Buasri
+	}
+	dynasty_names = {
+		dynn_cy_Saetang dynn_cy_Srisuk dynn_cy_Kaewkla dynn_cy_Sukjai dynn_cy_Chaiyaporn dynn_cy_Thongsuk dynn_cy_Boonmee dynn_cy_Srisawat dynn_cy_Rattanakul dynn_cy_Phromma dynn_cy_Sombat dynn_cy_Kongsuk
+		dynn_cy_Kaewmanee dynn_cy_Jaidee dynn_cy_Chantra dynn_cy_Wongsawat dynn_cy_Shinawatra dynn_cy_Chan_o_cha dynn_cy_Chidchob dynn_cy_Thepsuthin dynn_cy_Sukprasert dynn_cy_Inthawong dynn_cy_Chaisri dynn_cy_Pholsena
+		dynn_cy_Siriwat dynn_cy_Sangkhaphan dynn_cy_Thammasat dynn_cy_Pattanapong dynn_cy_Rungruang dynn_cy_Buasri
+	}
+	male_names = {
+		cyn_Somchai cyn_Prasoet cyn_Sombun cyn_Somsak cyn_Narong cyn_Prasit cyn_Somphon cyn_Sombat cyn_Udom cyn_Wichian cyn_Anan cyn_Apichat
+		cyn_Chatchai cyn_Kittisak cyn_Nattapong cyn_Phongsak cyn_Sakda cyn_Surachai cyn_Thanakorn cyn_Thawatchai cyn_Weerachai cyn_Wiroj cyn_Pichit cyn_Kriangsak
+		cyn_Thaksin cyn_Prayut cyn_Anucha cyn_Teerawat cyn_Chaiwat cyn_Pakorn cyn_Jirayu cyn_Nattawut cyn_Phiraphat cyn_Kittipat cyn_Thanawat
+	}
+	female_names = {
+		cyn_Somchit cyn_Nittaya cyn_Prani cyn_Kanchana cyn_Sukanya cyn_Mali cyn_Wilai cyn_Watsana cyn_Rattana cyn_Wanphen cyn_Siriporn cyn_Supaporn
+		cyn_Naphat cyn_Pornthip cyn_Kanokwan cyn_Jintana cyn_Sunisa cyn_Ratchanok cyn_Chanya cyn_Pimchanok cyn_Thitima cyn_Nattaya cyn_Patcharee cyn_Duangjai
+		cyn_Yingluck cyn_Pimpaka cyn_Kamonwan cyn_Chalida cyn_Wipawee cyn_Arunee
+	}
+	dynasty_of_location_prefix = "dynnp_of"
+}
+
+

@@ -63,14 +63,10 @@ latter_day_saints_rite = { # copy of adoptionist_rite
     icon = fp2_adoptionist
 
     tenets = {
-        tenet_religious_legal_pronouncements
-        tenet_literalism
-    }
-    tenet_selection_pair = {
-        requires_dlc_flag = by_god_alone
-        tenet = tenet_adoptionism
-        fallback_tenet = tenet_communion
-    }
+		tenet_restoration	# e86b shared with FLDS
+		tenet_religious_legal_pronouncements
+		tenet_mendicant_preachers
+	}
 
     doctrines = {
         doctrine_pluralism_fundamentalist
@@ -78,27 +74,55 @@ latter_day_saints_rite = { # copy of adoptionist_rite
     }
 }
 
-fundamentalist_rite = { # copy of paulician_rite
-    name = fundamentalist_rite
-    desc = fundamentalist_rite_desc
-    faith = fundamentalist_faith
+fundamentalist_rite = { # e86 FLDS: Mormon-like (was copy of paulician_rite)
+	name = fundamentalist_rite
+	desc = fundamentalist_rite_desc
+	faith = fundamentalist_faith
+	color = { 0.55 0.08 0.12 }
+	icon = fp2_adoptionist
+	tenets = {
+		tenet_restoration	# e86b shared with LDS
+		tenet_religious_legal_pronouncements
+		tenet_pastoral_isolation
+	}
+	doctrines = {
+		doctrine_pluralism_fundamentalist
+		special_doctrine_is_western_christian_faith
+	}
+}
 
-    color = { 0.6 0.1 0.4 }
-    icon = christianity_paulicanism
+jehovahs_witnesses_rite = { # e86
+	name = jehovahs_witnesses_rite
+	desc = jehovahs_witnesses_rite_desc
+	faith = jehovahs_witnesses_faith
+	color = { 0.25 0.45 0.75 }
+	icon = christianity_ladder_01
+	tenets = {
+		tenet_pacifism
+		tenet_literalism
+		tenet_mendicant_preachers
+	}
+	doctrines = {
+		doctrine_pluralism_fundamentalist
+		special_doctrine_is_western_christian_faith
+	}
+}
 
-    tenets = {
-        tenet_gnosticism
-        tenet_aniconism
-        tenet_unrelenting_faith
-    }
-
-    doctrines = {
-        doctrine_pluralism_fundamentalist
-        doctrine_clerical_function_recruitment
-        doctrine_pilgrimage_forbidden
-        doctrine_monasticism_absent
-        special_doctrine_is_eastern_christian_faith
-    }
+rastafari_rite = { # e86
+	name = rastafari_rite
+	desc = rastafari_rite_desc
+	faith = rastafari_faith
+	color = { 0.1 0.6 0.2 }
+	icon = miaphysite
+	tenets = {
+		tenet_sanctity_of_nature
+		tenet_communal_identity
+		tenet_ritual_celebrations
+	}
+	doctrines = {
+		doctrine_pluralism_pluralistic
+		special_doctrine_is_western_christian_faith
+	}
 }
 
 non_denominational_rite = { # copy of waldensian_rite

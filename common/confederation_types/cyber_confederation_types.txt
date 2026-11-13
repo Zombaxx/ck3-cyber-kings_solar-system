@@ -4,3 +4,11 @@
 commonwealth_of_nations = {
 	house_based_confederation = yes
 }
+# Pax Americana (e63, 2026-11-12): US-led alliance, house-based like the Commonwealth.
+pax_americana = {
+	house_based_confederation = yes
+}
+# Arab League (e68, 2026-11-12): was a titular empire held by Egypt; now an alliance led by Egypt's house.
+arab_league = {
+	house_based_confederation = yes
+}

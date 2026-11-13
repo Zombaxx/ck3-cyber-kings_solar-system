@@ -1,0 +1,80 @@
+﻿name_list_somali = {
+	# e74 modern list (W1 Somalia (unofficial); K)
+	cadet_dynasty_names = {
+		dynn_cy_Mohamed dynn_cy_Ahmed dynn_cy_Ali dynn_cy_Hassan dynn_cy_Abdi dynn_cy_Farah dynn_cy_Ibrahim dynn_cy_Omar dynn_cy_Hussein dynn_cy_Yusuf dynn_cy_Jama dynn_cy_Warsame
+		dynn_cy_Abdullahi dynn_cy_Osman dynn_cy_Nur dynn_cy_Shire dynn_cy_Egal dynn_cy_Barre dynn_cy_Sharmarke dynn_cy_Farmaajo dynn_cy_Abdirahman dynn_cy_Dahir dynn_cy_Aden dynn_cy_Elmi
+		dynn_cy_Guled dynn_cy_Ismail dynn_cy_Said dynn_cy_Muse dynn_cy_Duale dynn_cy_Hersi
+	}
+	dynasty_names = {
+		dynn_cy_Mohamed dynn_cy_Ahmed dynn_cy_Ali dynn_cy_Hassan dynn_cy_Abdi dynn_cy_Farah dynn_cy_Ibrahim dynn_cy_Omar dynn_cy_Hussein dynn_cy_Yusuf dynn_cy_Jama dynn_cy_Warsame
+		dynn_cy_Abdullahi dynn_cy_Osman dynn_cy_Nur dynn_cy_Shire dynn_cy_Egal dynn_cy_Barre dynn_cy_Sharmarke dynn_cy_Farmaajo dynn_cy_Abdirahman dynn_cy_Dahir dynn_cy_Aden dynn_cy_Elmi
+		dynn_cy_Guled dynn_cy_Ismail dynn_cy_Said dynn_cy_Muse dynn_cy_Duale dynn_cy_Hersi
+	}
+	male_names = {
+		cyn_Mohamed cyn_Abdi cyn_Ahmed cyn_Ali cyn_Hassan cyn_Farah cyn_Ibrahim_71f2 cyn_Mahamed cyn_Omar cyn_Hussein cyn_Abdullahi cyn_Abdirahman
+		cyn_Abdiaziz cyn_Yusuf cyn_Ismail_c154 cyn_Mustafe cyn_Said cyn_Osman cyn_Hamza cyn_Liban cyn_Guled cyn_Warsame cyn_Jama cyn_Nur
+		cyn_Shire cyn_Abdikarim cyn_Mahad cyn_Bashir cyn_Khalid cyn_Faisal
+	}
+	female_names = {
+		cyn_Maryan cyn_Amina cyn_Halima cyn_Asha cyn_Hawa cyn_Sahra cyn_Mariam cyn_Khadija cyn_Zahra cyn_Habiba cyn_Fadumo cyn_Hodan
+		cyn_Ifrah cyn_Ayan cyn_Deeqa cyn_Fartun cyn_Hibo cyn_Hamdi cyn_Ilhan cyn_Kowsar cyn_Nasra cyn_Ruqiya cyn_Sagal cyn_Sucaad
+		cyn_Ubah cyn_Waris cyn_Xamdi cyn_Ladan cyn_Najma cyn_Naima
+	}
+	dynasty_of_location_prefix = "dynnp_of"
+}
+
+name_list_beja = {
+	# e74 modern list (W1 Sudan 2017/unofficial; K (Sudanese/Beja names))
+	cadet_dynasty_names = {
+		dynn_cy_Osman dynn_cy_Mohamed dynn_cy_Ahmed dynn_cy_Ali dynn_cy_Hassan dynn_cy_Idris dynn_cy_Musa dynn_cy_Adam dynn_cy_Babiker dynn_cy_Elmahdi dynn_cy_Abdalla dynn_cy_Ibrahim
+		dynn_cy_Abdelrahman dynn_cy_Elbashir dynn_cy_Taha dynn_cy_Hamid dynn_cy_Ismail dynn_cy_Yousif dynn_cy_Mahmoud dynn_cy_Elhassan dynn_cy_Ohaj dynn_cy_Tirik dynn_cy_Ayyot dynn_cy_Hadendowa
+		dynn_cy_Bishari dynn_cy_Ababda dynn_cy_Hamadai dynn_cy_Amarar dynn_cy_Beni_Amer dynn_cy_Kassala
+	}
+	dynasty_names = {
+		dynn_cy_Osman dynn_cy_Mohamed dynn_cy_Ahmed dynn_cy_Ali dynn_cy_Hassan dynn_cy_Idris dynn_cy_Musa dynn_cy_Adam dynn_cy_Babiker dynn_cy_Elmahdi dynn_cy_Abdalla dynn_cy_Ibrahim
+		dynn_cy_Abdelrahman dynn_cy_Elbashir dynn_cy_Taha dynn_cy_Hamid dynn_cy_Ismail dynn_cy_Yousif dynn_cy_Mahmoud dynn_cy_Elhassan dynn_cy_Ohaj dynn_cy_Tirik dynn_cy_Ayyot dynn_cy_Hadendowa
+		dynn_cy_Bishari dynn_cy_Ababda dynn_cy_Hamadai dynn_cy_Amarar dynn_cy_Beni_Amer dynn_cy_Kassala
+	}
+	male_names = {
+		cyn_Mustafa cyn_Okot cyn_Ibrahim_71f2 cyn_Fahim cyn_Jamal cyn_Abdo cyn_Samir cyn_Mohamad cyn_Suleyman cyn_Asim cyn_Mohamed cyn_Ahmed
+		cyn_Osman cyn_Hassan cyn_Hussein cyn_Ali cyn_Omer_6ae9 cyn_Abdelrahman cyn_Babiker cyn_Idris cyn_Musa cyn_Adam cyn_Hamid cyn_Tahir
+		cyn_Elfatih cyn_Hashim cyn_Mahjoub cyn_Siddig cyn_Awad cyn_Abubakar
+	}
+	female_names = {
+		cyn_Fatima_2c68 cyn_Mariam cyn_Sara cyn_Huda cyn_Layla cyn_Noor cyn_Yasmin cyn_Samira cyn_Iman cyn_Ameera cyn_Amna cyn_Aisha
+		cyn_Khadija cyn_Halima cyn_Zainab cyn_Nafisa cyn_Hawa cyn_Asha cyn_Safia cyn_Sumaya cyn_Rabab cyn_Ilham_b5c4 cyn_Nasra cyn_Hiba
+		cyn_Tasneem cyn_Rayan cyn_Malaz cyn_Duaa cyn_Alawia cyn_Insaf
+	}
+	dynasty_of_location_prefix = "dynnp_mn"
+	pat_grf_name_chance = 60
+	mat_grf_name_chance = 20
+	father_name_chance = 10
+	pat_grm_name_chance = 40
+	mat_grm_name_chance = 20
+	mother_name_chance = 30
+}
+
+name_list_afar = {
+	# e74 modern list (W1 Ethiopia/Somalia; K (Afar names))
+	cadet_dynasty_names = {
+		dynn_cy_Hanfare dynn_cy_Ali_Mirah dynn_cy_Awol dynn_cy_Ahmed dynn_cy_Mohammed dynn_cy_Ali dynn_cy_Ibrahim dynn_cy_Hassan dynn_cy_Ismail dynn_cy_Osman dynn_cy_Dini dynn_cy_Daud
+		dynn_cy_Seko dynn_cy_Abdu dynn_cy_Humed dynn_cy_Kadir dynn_cy_Habib dynn_cy_Hamadu dynn_cy_Aramis dynn_cy_Yasin dynn_cy_Salih dynn_cy_Haji dynn_cy_Musa dynn_cy_Mahmud
+		dynn_cy_Omar
+	}
+	dynasty_names = {
+		dynn_cy_Hanfare dynn_cy_Ali_Mirah dynn_cy_Awol dynn_cy_Ahmed dynn_cy_Mohammed dynn_cy_Ali dynn_cy_Ibrahim dynn_cy_Hassan dynn_cy_Ismail dynn_cy_Osman dynn_cy_Dini dynn_cy_Daud
+		dynn_cy_Seko dynn_cy_Abdu dynn_cy_Humed dynn_cy_Kadir dynn_cy_Habib dynn_cy_Hamadu dynn_cy_Aramis dynn_cy_Yasin dynn_cy_Salih dynn_cy_Haji dynn_cy_Musa dynn_cy_Mahmud
+		dynn_cy_Omar
+	}
+	male_names = {
+		cyn_Mohammed cyn_Ahmed cyn_Ali cyn_Hassan cyn_Ismail_c154 cyn_Ibrahim_71f2 cyn_Abdu cyn_Hamadu cyn_Humed cyn_Kadir cyn_Yasin cyn_Osman
+		cyn_Daud cyn_Haji cyn_Musa cyn_Awol cyn_Habib cyn_Mahmud cyn_Abdulkadir cyn_Hanfare cyn_Ga_as cyn_Dini cyn_Ahmedo cyn_Omar
+		cyn_Yusuf cyn_Salih cyn_Hassen cyn_Aramis cyn_Seko cyn_Lo_oyta
+	}
+	female_names = {
+		cyn_Fatuma cyn_Amina cyn_Halima cyn_Khadija cyn_Asiya cyn_Zahra cyn_Hawa cyn_Maryam cyn_Aisha cyn_Mako cyn_Sitti cyn_Lali
+		cyn_Dahara cyn_Hadiya cyn_Saada cyn_Hasna cyn_Zaynab cyn_Fozia cyn_Nuriya cyn_Rukiya cyn_Safiya cyn_Hamida cyn_Kedija cyn_Medina
+		cyn_Mumina cyn_Naima cyn_Nura cyn_Raya cyn_Semira cyn_Tayba
+	}
+	dynasty_of_location_prefix = "dynnp_of"
+}

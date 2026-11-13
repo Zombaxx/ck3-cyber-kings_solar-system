@@ -73,15 +73,15 @@ latter_day_saints_faith = { # copy of adoptionist
 		graphical_faith = "catholic_gfx"
 	}
 
-	eminent_holy_sites = {
-		toledo_mozarabic
-		santiago
+	eminent_holy_sites = {	# e86 real Latter-day Saint sites (were Adoptionist leftovers toledo/santiago/lyon/rome/carthage)
+		cyk_salt_lake
+		cyk_independence
 	}
 
 	holy_sites = {
-		lyon
-		rome
-		carthage_adoptionist
+		cyk_palmyra
+		cyk_nauvoo
+		jerusalem
 	}
 
 	localization = {
@@ -92,37 +92,82 @@ latter_day_saints_faith = { # copy of adoptionist
 	}
 }
 
-fundamentalist_faith = { # copy of paulician
+fundamentalist_faith = { # e86 Fundamentalist Latter-day Saints (FLDS) - same christianity_religion parent as latter_day_saints_faith; key kept for saves
 	main_rite = fundamentalist_rite
-	# Scripted main Rite: paulician_rite (all start dates). Its core tenets and Rite-specific doctrines are defined on the Rite; faith-intrinsic doctrines remain inline.
 	faith_details = {
 		religion = christianity_religion
-		color = { 0.6 0.1 0.4 }
-		icon = christianity_paulicanism
-		graphical_faith = "orthodox_gfx"
+		color = { 0.55 0.08 0.12 }
+		icon = fp2_adoptionist
+		graphical_faith = "catholic_gfx"
 	}
 
-	#Shared with Armenian?
 	eminent_holy_sites = {
-		jerusalem
-		antioch
+		cyk_salt_lake
+		cyk_independence
 	}
 
 	holy_sites = {
-		constantinople
-		rome
-		alexandria
+		cyk_short_creek
+		cyk_palmyra
+		cyk_nauvoo
+	}
+
+	doctrines = {
+		doctrine_polygamy
+		doctrine_gender_male_dominated
 	}
 
 	localization = {
-		ReligiousText = paulician_religious_text
-		ReligiousText2 = paulician_religious_text_2
-		ReligiousText3 = paulician_religious_text_3
+		ReligiousHeadName = adoptionist_religious_head_title
+		ReligiousHeadNameFemale = adoptionist_religious_head_title_female
+		ReligiousHeadTitleName = adoptionist_religious_head_title_name
+	}
+}
 
-		# Patriarchs instead of Popes
-		ReligiousHeadName = orthodox_religious_head_title
-		ReligiousHeadNameFemale = orthodox_religious_head_title_female
-		ReligiousHeadTitleName = orthodox_religious_head_title_name
+jehovahs_witnesses_faith = { # e86 Jehovah's Witnesses (characters only)
+	main_rite = jehovahs_witnesses_rite
+	faith_details = {
+		religion = christianity_religion
+		color = { 0.25 0.45 0.75 }
+		icon = christianity_ladder_01
+		graphical_faith = "catholic_gfx"
+	}
+
+	eminent_holy_sites = {
+		cyk_warwick
+		cyk_pittsburgh_jw
+	}
+
+	holy_sites = {
+		jerusalem
+	}
+
+	doctrines = {
+		doctrine_no_head
+	}
+}
+
+rastafari_faith = { # e86 Rastafari (characters only)
+	main_rite = rastafari_rite
+	faith_details = {
+		religion = christianity_religion
+		color = { 0.1 0.6 0.2 }
+		icon = miaphysite
+		graphical_faith = "orthodox_gfx"
+	}
+
+	eminent_holy_sites = {
+		cyk_shashamane
+		cyk_addis_ababa
+	}
+
+	holy_sites = {
+		cyk_kingston
+		jerusalem
+	}
+
+	doctrines = {
+		doctrine_no_head
 	}
 }
 
@@ -616,14 +661,14 @@ voyagism_faith = { # copy of zhengyi
 	}
 
 	eminent_holy_sites = {
-		mount_longhu # Where Zhang Daoling had obtained the Tao
-		mount_qingcheng
-		luyi
+		cyk_voyage_longhu # Where Zhang Daoling had obtained the Tao
+		cyk_voyage_qingcheng
+		cyk_voyage_luyi
 	}
 
 	holy_sites = {
-		mount_wudang
-		mount_tai
+		cyk_voyage_wudang
+		cyk_voyage_tai
 	}
 
 	tenets = {

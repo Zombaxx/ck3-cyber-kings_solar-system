@@ -34,7 +34,7 @@ bm_cyber_kings_1066 = {
 		dynasty_splendor_level = 1
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
 		history_id = 121585
-		position = { 1378 776 }
+		position = { 1444 776 }
 		animation = personality_zealous
 	}
 	character = {

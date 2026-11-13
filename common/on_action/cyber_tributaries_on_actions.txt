@@ -2,11 +2,21 @@
 # Appended to vanilla on_game_start (on_actions lists from several files are merged).
 # Uses vanilla break_subject_contract_and_establish_tributary_effect (common/scripted_effects/00_tributary_setup_effects.txt).
 on_game_start = {
-	on_actions = { cyber_tributary_setup cyber_commonwealth_setup }
+	on_actions = { cyber_tributary_setup cyber_commonwealth_setup cyber_pax_americana_setup cyber_arab_league_setup cyber_eu_setup }
 }
 
 cyber_tributary_setup = {
 	effect = {
+		# Puerto Rico (e63): US territory, tributary of the United States
+		character:8100900 ?= {
+			save_scope_as = suzerain_us
+			character:8100729 ?= {
+				if = {
+					limit = { is_ruler = yes }
+					break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain_us TRIBUTARY = this }
+				}
+			}
+		}
 		# Russia is a tributary of the Hegemony of Eurasia (Illuminious, the Cywizard)
 		character:107175 ?= {
 			save_scope_as = suzerain
@@ -92,6 +102,96 @@ cyber_commonwealth_setup = {
 			character:8100703 ?= { if = { limit = { is_ruler = yes is_independent_ruler = yes exists = house NOT = { exists = house.house_confederation } } house = { save_temporary_scope_as = cwh } scope:cwn = { add_confederation_member_house = scope:cwh } } } # Cyprus
 			character:8100701 ?= { if = { limit = { is_ruler = yes is_independent_ruler = yes exists = house NOT = { exists = house.house_confederation } } house = { save_temporary_scope_as = cwh } scope:cwn = { add_confederation_member_house = scope:cwh } } } # Malta
 			character:107595 ?= { if = { limit = { is_ruler = yes is_independent_ruler = yes exists = house NOT = { exists = house.house_confederation } } house = { save_temporary_scope_as = cwh } scope:cwn = { add_confederation_member_house = scope:cwh } } } # Zambia
+		}
+	}
+}
+
+# Pax Americana (e63, 2026-11-12): US-led house-based confederation, same pattern as the Commonwealth.
+cyber_pax_americana_setup = {
+	effect = {
+		character:8100900 ?= {
+			if = {
+				limit = { is_ruler = yes exists = house NOT = { exists = house.house_confederation } }
+				create_confederation = {
+					name = pax_americana_confederation_name
+					type = confederation_type:pax_americana
+					leader = house
+				}
+			}
+			house.house_confederation ?= { save_scope_as = pax }
+		}
+		scope:pax ?= {
+			character:108725 ?= { if = { limit = { is_ruler = yes is_independent_ruler = yes exists = house NOT = { exists = house.house_confederation } } house = { save_temporary_scope_as = pah } scope:pax = { add_confederation_member_house = scope:pah } } } # Japan
+			character:108655 ?= { if = { limit = { is_ruler = yes is_independent_ruler = yes exists = house NOT = { exists = house.house_confederation } } house = { save_temporary_scope_as = pah } scope:pax = { add_confederation_member_house = scope:pah } } } # South Korea
+			character:8100348 ?= { if = { limit = { is_ruler = yes is_independent_ruler = yes exists = house NOT = { exists = house.house_confederation } } house = { save_temporary_scope_as = pah } scope:pax = { add_confederation_member_house = scope:pah } } } # Taiwan
+			character:109355 ?= { if = { limit = { is_ruler = yes is_independent_ruler = yes exists = house NOT = { exists = house.house_confederation } } house = { save_temporary_scope_as = pah } scope:pax = { add_confederation_member_house = scope:pah } } } # Philippines
+			character:8100717 ?= { if = { limit = { is_ruler = yes is_independent_ruler = yes exists = house NOT = { exists = house.house_confederation } } house = { save_temporary_scope_as = pah } scope:pax = { add_confederation_member_house = scope:pah } } } # Palau
+			character:8100722 ?= { if = { limit = { is_ruler = yes is_independent_ruler = yes exists = house NOT = { exists = house.house_confederation } } house = { save_temporary_scope_as = pah } scope:pax = { add_confederation_member_house = scope:pah } } } # Micronesia
+			character:8100727 ?= { if = { limit = { is_ruler = yes is_independent_ruler = yes exists = house NOT = { exists = house.house_confederation } } house = { save_temporary_scope_as = pah } scope:pax = { add_confederation_member_house = scope:pah } } } # Marshall Islands
+			character:8100273 ?= { if = { limit = { is_ruler = yes is_independent_ruler = yes exists = house NOT = { exists = house.house_confederation } } house = { save_temporary_scope_as = pah } scope:pax = { add_confederation_member_house = scope:pah } } } # Panama
+			character:777163 ?= { if = { limit = { is_ruler = yes is_independent_ruler = yes exists = house NOT = { exists = house.house_confederation } } house = { save_temporary_scope_as = pah } scope:pax = { add_confederation_member_house = scope:pah } } } # Israel
+		}
+	}
+}
+
+# Arab League (e68, 2026-11-12): alliance of the former vassals of the Arab League empire, led by Egypt's ruling house.
+cyber_arab_league_setup = {
+	effect = {
+		character:106475 ?= {
+			if = {
+				limit = { is_ruler = yes exists = house NOT = { exists = house.house_confederation } }
+				create_confederation = {
+					name = arab_league_confederation_name
+					type = confederation_type:arab_league
+					leader = house
+				}
+			}
+			house.house_confederation ?= { save_scope_as = al }
+		}
+		scope:al ?= {
+			character:105265 ?= { if = { limit = { is_ruler = yes is_independent_ruler = yes exists = house NOT = { exists = house.house_confederation } } house = { save_temporary_scope_as = alh } scope:al = { add_confederation_member_house = scope:alh } } } # North Africa
+			character:400138 ?= { if = { limit = { is_ruler = yes is_independent_ruler = yes exists = house NOT = { exists = house.house_confederation } } house = { save_temporary_scope_as = alh } scope:al = { add_confederation_member_house = scope:alh } } } # Morocco
+			character:107745 ?= { if = { limit = { is_ruler = yes is_independent_ruler = yes exists = house NOT = { exists = house.house_confederation } } house = { save_temporary_scope_as = alh } scope:al = { add_confederation_member_house = scope:alh } } } # Djibouti
+			character:107775 ?= { if = { limit = { is_ruler = yes is_independent_ruler = yes exists = house NOT = { exists = house.house_confederation } } house = { save_temporary_scope_as = alh } scope:al = { add_confederation_member_house = scope:alh } } } # Somalia
+			character:400065 ?= { if = { limit = { is_ruler = yes is_independent_ruler = yes exists = house NOT = { exists = house.house_confederation } } house = { save_temporary_scope_as = alh } scope:al = { add_confederation_member_house = scope:alh } } } # Arabia
+			character:8100312 ?= { if = { limit = { is_ruler = yes is_independent_ruler = yes exists = house NOT = { exists = house.house_confederation } } house = { save_temporary_scope_as = alh } scope:al = { add_confederation_member_house = scope:alh } } } # Yemen
+			character:107555 ?= { if = { limit = { is_ruler = yes is_independent_ruler = yes exists = house NOT = { exists = house.house_confederation } } house = { save_temporary_scope_as = alh } scope:al = { add_confederation_member_house = scope:alh } } } # Oman
+			character:107075 ?= { if = { limit = { is_ruler = yes is_independent_ruler = yes exists = house NOT = { exists = house.house_confederation } } house = { save_temporary_scope_as = alh } scope:al = { add_confederation_member_house = scope:alh } } } # Qatar
+			character:107395 ?= { if = { limit = { is_ruler = yes is_independent_ruler = yes exists = house NOT = { exists = house.house_confederation } } house = { save_temporary_scope_as = alh } scope:al = { add_confederation_member_house = scope:alh } } } # United Arab Emirates
+			character:8100113 ?= { if = { limit = { is_ruler = yes is_independent_ruler = yes exists = house NOT = { exists = house.house_confederation } } house = { save_temporary_scope_as = alh } scope:al = { add_confederation_member_house = scope:alh } } } # Palestine
+			character:8100202 ?= { if = { limit = { is_ruler = yes is_independent_ruler = yes exists = house NOT = { exists = house.house_confederation } } house = { save_temporary_scope_as = alh } scope:al = { add_confederation_member_house = scope:alh } } } # Lebanon
+			character:8100196 ?= { if = { limit = { is_ruler = yes is_independent_ruler = yes exists = house NOT = { exists = house.house_confederation } } house = { save_temporary_scope_as = alh } scope:al = { add_confederation_member_house = scope:alh } } } # Kuwait
+			character:8100159 ?= { if = { limit = { is_ruler = yes is_independent_ruler = yes exists = house NOT = { exists = house.house_confederation } } house = { save_temporary_scope_as = alh } scope:al = { add_confederation_member_house = scope:alh } } } # Jordan
+			character:104235 ?= { if = { limit = { is_ruler = yes is_independent_ruler = yes exists = house NOT = { exists = house.house_confederation } } house = { save_temporary_scope_as = alh } scope:al = { add_confederation_member_house = scope:alh } } } # Mauritania
+			character:8100091 ?= { if = { limit = { is_ruler = yes is_independent_ruler = yes exists = house NOT = { exists = house.house_confederation } } house = { save_temporary_scope_as = alh } scope:al = { add_confederation_member_house = scope:alh } } } # Syria
+			character:8100022 ?= { if = { limit = { is_ruler = yes is_independent_ruler = yes exists = house NOT = { exists = house.house_confederation } } house = { save_temporary_scope_as = alh } scope:al = { add_confederation_member_house = scope:alh } } } # Iraq
+			character:8100365 ?= { if = { limit = { is_ruler = yes is_independent_ruler = yes exists = house NOT = { exists = house.house_confederation } } house = { save_temporary_scope_as = alh } scope:al = { add_confederation_member_house = scope:alh } } } # Tunisia
+			character:8100178 ?= { if = { limit = { is_ruler = yes is_independent_ruler = yes exists = house NOT = { exists = house.house_confederation } } house = { save_temporary_scope_as = alh } scope:al = { add_confederation_member_house = scope:alh } } } # Sudan
+			character:8100700 ?= { if = { limit = { is_ruler = yes is_independent_ruler = yes exists = house NOT = { exists = house.house_confederation } } house = { save_temporary_scope_as = alh } scope:al = { add_confederation_member_house = scope:alh } } } # Bahrain
+			character:8100706 ?= { if = { limit = { is_ruler = yes is_independent_ruler = yes exists = house NOT = { exists = house.house_confederation } } house = { save_temporary_scope_as = alh } scope:al = { add_confederation_member_house = scope:alh } } } # Comoros
+			character:105805 ?= { if = { limit = { is_ruler = yes is_independent_ruler = yes exists = house NOT = { exists = house.house_confederation } } house = { save_temporary_scope_as = alh } scope:al = { add_confederation_member_house = scope:alh } } } # Libya
+		}
+	}
+}
+
+# European Union (e68, 2026-11-12): a union of sovereign states. Lowest crown authority; every direct vassal pays low taxes,
+# sends no levies, has protected titles, a guaranteed council seat and its own war rights; the contract is locked (treaties).
+cyber_eu_setup = {
+	effect = {
+		character:105285 ?= {
+			if = {
+				limit = { is_ruler = yes has_primary_title = title:e_european_union }
+				add_realm_law_skip_effects = crown_authority_0
+				every_vassal = {
+					vassal_contract_set_obligation_level = { type = feudal_government_taxes level = 1 }
+					vassal_contract_set_obligation_level = { type = feudal_government_levies level = 0 }
+					vassal_contract_set_obligation_level = { type = title_revocation_rights level = 1 }
+					vassal_contract_set_obligation_level = { type = council_rights level = 1 }
+					vassal_contract_set_obligation_level = { type = war_declaration_rights level = 1 }
+					vassal_contract_set_obligation_level = { type = religious_rights level = 1 }
+					set_subject_contract_modification_blocked = yes
+				}
+			}
 		}
 	}
 }

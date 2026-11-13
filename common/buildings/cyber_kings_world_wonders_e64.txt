@@ -1,0 +1,1048 @@
+﻿# Cyber Kings e64 (2026-11-12): Bastion Walls (generic successor of the Theodosian Walls, which need b_constantinople)
+# and further wonders; copies keep the vanilla modifiers, single level, vanilla 3D mesh kept only where it fits.
+
+cyber_bastion_walls_01 = { # generic; modifiers of theodosian_walls_01, as a special building
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_theodosian_walls.dds"
+
+	cost_gold = 3000
+
+	max_garrison = 1000
+	province_modifier = {
+		monthly_income = 10
+		fort_level = 5
+		garrison_size = 1
+		travel_danger = -20
+	}
+	county_modifier = {
+		development_growth = 0.4
+		development_growth_factor = 0.2
+		levy_size = 0.3
+		tax_mult = 0.3
+		hostile_raid_time = 0.5
+	}
+
+	ai_value = {
+		base = 100
+		culture_likely_to_fortify_modifier = yes
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+
+	type = special
+	flag = travel_point_of_interest_martial
+}
+
+maat_mons_01 = { # copy of mount_damavand_01
+
+
+	construction_time = very_slow_construction_time
+	
+	type_icon = "icon_structure_mount_damavand.dds" 
+	
+	can_construct = {
+		scope:holder.culture = {
+			has_innovation = innovation_hoardings 
+		}
+	}
+	
+	cost_gold = 1000
+	
+	character_modifier = {
+		stress_loss_mult = 0.1
+		mountains_travel_danger = -10
+	}
+
+	county_holder_character_modifier = {
+	}
+	
+	county_modifier = {
+		mountains_levy_size = 0.5
+		travel_danger = -30
+		development_growth_factor = 0.3
+	}
+	
+	province_modifier = {
+		stationed_maa_toughness_mult = normal_maa_toughness_tier_2
+	}
+	
+	ai_value = {
+		base = 100
+		culture_likely_to_fortify_modifier = yes
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	type = special
+
+	flag = travel_point_of_interest_natural_feature # mountain
+	flag = is_mountain
+}
+
+occator_01 = { # copy of maharloo_lake_01
+
+
+	construction_time = very_slow_construction_time
+	
+	type_icon = "icon_structure_maharloo_lake.dds" 
+	
+	can_construct_potential = {
+	}
+	
+	cost_gold = 300
+	
+	character_modifier = {
+		learning = 1 
+		stress_loss_mult = 0.1
+	}
+
+	county_modifier = {
+		county_opinion_add = 5
+		development_growth = 0.1
+		development_growth_factor = 0.6
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	type = special
+
+	flag = travel_point_of_interest_natural_feature # lake
+}
+
+conamara_chaos_01 = { # copy of fairy_chimneys
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_fairy_chimneys.dds"
+	
+	can_construct_potential = {
+		
+	}
+	
+	is_enabled = {
+		
+	}
+	
+	cost_gold = 250
+	
+	county_modifier = {
+		development_growth_factor = 0.1
+		development_growth = 0.2
+		hostile_raid_time = 0.5
+		defender_holding_advantage = 5
+	}
+	
+	province_modifier = {
+		garrison_size = 0.1
+		levy_size = 0.1
+		travel_danger = -10
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	type = special
+
+	flag = travel_point_of_interest_economic
+}
+
+valhalla_basin_01 = { # copy of wulingyuan_01
+	construction_time = very_slow_construction_time
+	
+	type_icon = "icon_structure_wulingyuan.dds"
+	
+	can_construct_potential = {
+	}
+	
+	cost_gold = 1000
+	
+	character_modifier = {
+		monthly_prestige = 1 
+		monthly_dynasty_prestige_mult = 0.1
+	}
+
+	county_modifier = {
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	type = special
+
+	flag = travel_point_of_interest_natural_feature # mountains
+}
+
+hili_geyser_01 = { # copy of krakatoa_01
+	construction_time = very_slow_construction_time
+	
+	type_icon = "icon_structure_krakatoa.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+
+	is_enabled = {
+	}
+	
+	cost_gold = 1000
+	
+	character_modifier = {
+		stress_loss_mult = 0.1
+		dread_baseline_add = 10
+		monthly_dynasty_prestige_mult = 0.05
+	}
+	county_modifier = {
+		development_growth = 0.1
+	}
+	province_modifier = {
+		travel_danger = 5
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	type = special
+
+	flag = travel_point_of_interest_natural_feature
+}
+
+lake_baikal_01 = { # copy of maharloo_lake_01
+
+
+	construction_time = very_slow_construction_time
+	
+	type_icon = "icon_structure_maharloo_lake.dds" 
+	
+	can_construct_potential = {
+	}
+	
+	cost_gold = 300
+	
+	character_modifier = {
+		learning = 1 
+		stress_loss_mult = 0.1
+	}
+
+	county_modifier = {
+		county_opinion_add = 5
+		development_growth = 0.1
+		development_growth_factor = 0.6
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	type = special
+
+	flag = travel_point_of_interest_natural_feature # lake
+}
+
+klyuchevskaya_sopka_01 = { # copy of mount_damavand_01
+
+	asset = {
+		type = pdxmesh
+		name = "fp3_building_special_mount_damavand_01_a_mesh"
+	}
+
+	construction_time = very_slow_construction_time
+	
+	type_icon = "icon_structure_mount_damavand.dds" 
+	
+	can_construct = {
+		scope:holder.culture = {
+			has_innovation = innovation_hoardings 
+		}
+	}
+	
+	cost_gold = 1000
+	
+	character_modifier = {
+		stress_loss_mult = 0.1
+		mountains_travel_danger = -10
+	}
+
+	county_holder_character_modifier = {
+	}
+	
+	county_modifier = {
+		mountains_levy_size = 0.5
+		travel_danger = -30
+		development_growth_factor = 0.3
+	}
+	
+	province_modifier = {
+		stationed_maa_toughness_mult = normal_maa_toughness_tier_2
+	}
+	
+	ai_value = {
+		base = 100
+		culture_likely_to_fortify_modifier = yes
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	type = special
+
+	flag = travel_point_of_interest_natural_feature # mountain
+	flag = is_mountain
+}
+
+victoria_falls_01 = { # copy of wulingyuan_01
+	construction_time = very_slow_construction_time
+	
+	type_icon = "icon_structure_wulingyuan.dds"
+	
+	can_construct_potential = {
+	}
+	
+	cost_gold = 1000
+	
+	character_modifier = {
+		monthly_prestige = 1 
+		monthly_dynasty_prestige_mult = 0.1
+	}
+
+	county_modifier = {
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	type = special
+
+	flag = travel_point_of_interest_natural_feature # mountains
+}
+
+okavango_delta_01 = { # copy of ha_long_bay_01
+	construction_time = very_slow_construction_time
+	type_icon = "icon_structure_ha_long_bay.dds"
+	can_construct_potential = { building_requirement_tribal = no }
+	can_construct = { building_requirement_tribal = no }
+	cost_gold = 1000
+	character_modifier = {
+		stress_loss_mult = 0.1
+		naval_movement_speed_mult = 0.1
+		embarkation_cost_mult = -0.1
+		stewardship = 1
+	}
+
+	province_modifier = {
+		defender_holding_advantage = normal_building_advantage_tier_1
+	}
+
+	county_modifier = {
+		hostile_raid_time = 0.5
+		development_growth_factor = 0.1
+	}
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	type = special
+	flag = travel_point_of_interest_natural_feature
+}
+
+tsingy_01 = { # copy of fairy_chimneys
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_fairy_chimneys.dds"
+	
+	can_construct_potential = {
+		
+	}
+	
+	is_enabled = {
+		
+	}
+	
+	cost_gold = 250
+	
+	county_modifier = {
+		development_growth_factor = 0.1
+		development_growth = 0.2
+		hostile_raid_time = 0.5
+		defender_holding_advantage = 5
+	}
+	
+	province_modifier = {
+		garrison_size = 0.1
+		levy_size = 0.1
+		travel_danger = -10
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	type = special
+
+	flag = travel_point_of_interest_economic
+}
+
+great_barrier_reef_01 = { # copy of ha_long_bay_01
+	construction_time = very_slow_construction_time
+	type_icon = "icon_structure_ha_long_bay.dds"
+	can_construct_potential = { building_requirement_tribal = no }
+	can_construct = { building_requirement_tribal = no }
+	cost_gold = 1000
+	character_modifier = {
+		stress_loss_mult = 0.1
+		naval_movement_speed_mult = 0.1
+		embarkation_cost_mult = -0.1
+		stewardship = 1
+	}
+
+	province_modifier = {
+		defender_holding_advantage = normal_building_advantage_tier_1
+	}
+
+	county_modifier = {
+		hostile_raid_time = 0.5
+		development_growth_factor = 0.1
+	}
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	type = special
+	flag = travel_point_of_interest_natural_feature
+}
+
+sydney_opera_house_01 = { # copy of the_colosseum_01
+
+
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_colosseum.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = 3000
+
+	character_modifier = {
+		army_maintenance_mult = -0.05 # 'Stealing' the metal from the colosseum building itself
+	}
+	
+	province_modifier = {
+		build_speed = -0.1 # 'Stealing' the metal from the colosseum building itself
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	type = special
+
+	flag = travel_point_of_interest_martial
+}
+
+golden_gate_bridge_01 = { # copy of london_bridge_01
+
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_london_bridge.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+
+	can_construct = {
+		scope:holder.culture = {
+			has_innovation = innovation_development_03
+		}
+	}
+	
+	cost_gold = 1000
+
+	character_modifier = {
+		cultural_head_fascination_mult = 0.10
+		parochial_opinion = 5
+		legitimacy_gain_mult = 0.1
+	}
+	province_modifier = {
+		travel_danger = -30
+	}
+	county_modifier = {
+		development_growth = 0.25
+		development_growth_factor = 0.15
+		tax_mult = 0.1
+		county_opinion_add = 10
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+
+	type = special
+
+	flag = travel_point_of_interest_learning
+}
+
+statue_of_liberty_01 = { # copy of leshan_giant_buddha_01
+	construction_time = very_slow_construction_time
+
+	
+	type_icon = "icon_structure_leshan_giant_buddha.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+
+	is_enabled = {
+		custom_description = {
+			text = buddhas_of_bamian_trigger
+			scope:holder = {
+				OR = {
+					eastern_or_syncretic_with_eastern_trigger = { CHARACTER = scope:holder }
+					sinitic_or_syncretic_with_sinitic_trigger = { CHARACTER = scope:holder }
+				}
+			}
+		}
+	}
+	
+	cost_gold = 2000
+	
+	character_modifier = {
+		monthly_piety_gain_mult = 0.1
+		stress_loss_per_piety_level = 0.05
+	}
+	county_modifier = {
+		tax_mult = 0.1
+		county_opinion_add = 5
+		travel_danger = -10
+	}
+
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+	}
+	
+	ai_value = {
+		base = 100
+		ai_pious_building_preference_modifier = yes
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	type = special
+
+	flag = travel_point_of_interest_religious
+	flag = holy_building
+}
+
+yellowstone_01 = { # copy of krakatoa_01
+	construction_time = very_slow_construction_time
+	
+	type_icon = "icon_structure_krakatoa.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+
+	is_enabled = {
+	}
+	
+	cost_gold = 1000
+	
+	character_modifier = {
+		stress_loss_mult = 0.1
+		dread_baseline_add = 10
+		monthly_dynasty_prestige_mult = 0.05
+	}
+	county_modifier = {
+		development_growth = 0.1
+	}
+	province_modifier = {
+		travel_danger = 5
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	type = special
+
+	flag = travel_point_of_interest_natural_feature
+}
+
+mount_rushmore_01 = { # copy of leshan_giant_buddha_01
+	construction_time = very_slow_construction_time
+
+	
+	type_icon = "icon_structure_leshan_giant_buddha.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+
+	is_enabled = {
+		custom_description = {
+			text = buddhas_of_bamian_trigger
+			scope:holder = {
+				OR = {
+					eastern_or_syncretic_with_eastern_trigger = { CHARACTER = scope:holder }
+					sinitic_or_syncretic_with_sinitic_trigger = { CHARACTER = scope:holder }
+				}
+			}
+		}
+	}
+	
+	cost_gold = 2000
+	
+	character_modifier = {
+		monthly_piety_gain_mult = 0.1
+		stress_loss_per_piety_level = 0.05
+	}
+	county_modifier = {
+		tax_mult = 0.1
+		county_opinion_add = 5
+		travel_danger = -10
+	}
+
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+	}
+	
+	ai_value = {
+		base = 100
+		ai_pious_building_preference_modifier = yes
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	type = special
+
+	flag = travel_point_of_interest_religious
+	flag = holy_building
+}
+
+angel_falls_01 = { # copy of wulingyuan_01
+	construction_time = very_slow_construction_time
+	
+	type_icon = "icon_structure_wulingyuan.dds"
+	
+	can_construct_potential = {
+	}
+	
+	cost_gold = 1000
+	
+	character_modifier = {
+		monthly_prestige = 1 
+		monthly_dynasty_prestige_mult = 0.1
+	}
+
+	county_modifier = {
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	type = special
+
+	flag = travel_point_of_interest_natural_feature # mountains
+}
+
+salar_de_uyuni_01 = { # copy of maharloo_lake_01
+
+
+	construction_time = very_slow_construction_time
+	
+	type_icon = "icon_structure_maharloo_lake.dds" 
+	
+	can_construct_potential = {
+	}
+	
+	cost_gold = 300
+	
+	character_modifier = {
+		learning = 1 
+		stress_loss_mult = 0.1
+	}
+
+	county_modifier = {
+		county_opinion_add = 5
+		development_growth = 0.1
+		development_growth_factor = 0.6
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	type = special
+
+	flag = travel_point_of_interest_natural_feature # lake
+}
+
+perito_moreno_01 = { # copy of mount_damavand_01
+
+
+	construction_time = very_slow_construction_time
+	
+	type_icon = "icon_structure_mount_damavand.dds" 
+	
+	can_construct = {
+		scope:holder.culture = {
+			has_innovation = innovation_hoardings 
+		}
+	}
+	
+	cost_gold = 1000
+	
+	character_modifier = {
+		stress_loss_mult = 0.1
+		mountains_travel_danger = -10
+	}
+
+	county_holder_character_modifier = {
+	}
+	
+	county_modifier = {
+		mountains_levy_size = 0.5
+		travel_danger = -30
+		development_growth_factor = 0.3
+	}
+	
+	province_modifier = {
+		stationed_maa_toughness_mult = normal_maa_toughness_tier_2
+	}
+	
+	ai_value = {
+		base = 100
+		culture_likely_to_fortify_modifier = yes
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	type = special
+
+	flag = travel_point_of_interest_natural_feature # mountain
+	flag = is_mountain
+}
+
+denali_01 = { # copy of mount_damavand_01
+
+	asset = {
+		type = pdxmesh
+		name = "fp3_building_special_mount_damavand_01_a_mesh"
+	}
+
+	construction_time = very_slow_construction_time
+	
+	type_icon = "icon_structure_mount_damavand.dds" 
+	
+	can_construct = {
+		scope:holder.culture = {
+			has_innovation = innovation_hoardings 
+		}
+	}
+	
+	cost_gold = 1000
+	
+	character_modifier = {
+		stress_loss_mult = 0.1
+		mountains_travel_danger = -10
+	}
+
+	county_holder_character_modifier = {
+	}
+	
+	county_modifier = {
+		mountains_levy_size = 0.5
+		travel_danger = -30
+		development_growth_factor = 0.3
+	}
+	
+	province_modifier = {
+		stationed_maa_toughness_mult = normal_maa_toughness_tier_2
+	}
+	
+	ai_value = {
+		base = 100
+		culture_likely_to_fortify_modifier = yes
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	type = special
+
+	flag = travel_point_of_interest_natural_feature # mountain
+	flag = is_mountain
+}
+
+panama_canal_01 = { # copy of quanzhou_seaport_01
+	construction_time = very_slow_construction_time
+	
+	type_icon = "icon_structure_quanzhou_seaport.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+
+	is_enabled = {
+	}
+	
+	cost_gold = 1000
+	
+	character_modifier = {
+		naval_movement_speed_mult = 0.25
+		cultural_head_acceptance_gain_mult = 0.2
+		different_culture_opinion = 5
+	}
+	county_modifier = {
+		tax_mult = 0.2
+		development_growth_factor = 0.2
+		development_growth = 0.2
+	}
+	province_modifier = {
+		monthly_income = 4
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	type = special
+
+	flag = travel_point_of_interest_economic
+}
+
+morro_castle_havana_01 = { # copy of the_tower_of_london_01
+
+
+	effect_desc = {
+		triggered_desc = {
+			trigger = { has_dlc_feature = roads_to_power }
+			desc = tower_of_london_pacification_effect
+		}
+	}
+
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_tower_of_london.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+
+	can_construct = {
+		scope:holder.culture = {
+			has_innovation = innovation_battlements
+		}
+	}
+	
+	cost_gold = 1000
+
+	character_modifier = {
+		dread_gain_mult = 0.3
+	}
+	max_garrison = good_building_max_garrison_tier_3
+	province_modifier = {
+		defender_holding_advantage = normal_building_advantage_tier_3
+		fort_level = good_building_fort_level_tier_3
+		stationed_maa_damage_mult = normal_maa_damage_tier_2
+		stationed_maa_toughness_mult = normal_maa_toughness_tier_2
+		stationed_siege_weapon_siege_value_mult = normal_maa_siege_value_tier_2
+		travel_danger = -20
+	}
+	county_modifier = {
+		development_growth = 0.2
+		development_growth_factor = 0.1
+		tax_mult = 0.05
+	}
+	
+	ai_value = {
+		base = 8
+		culture_likely_to_fortify_modifier = yes
+		modifier = {
+			factor = 5
+			scope:holder = {
+				culture = {
+					has_cultural_parameter = ai_more_likely_to_castle
+				}
+			}
+		}
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	type = special
+
+	flag = travel_point_of_interest_martial
+}
+
+mount_erebus_01 = { # copy of krakatoa_01
+	construction_time = very_slow_construction_time
+	
+	type_icon = "icon_structure_krakatoa.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+
+	is_enabled = {
+	}
+	
+	cost_gold = 1000
+	
+	character_modifier = {
+		stress_loss_mult = 0.1
+		dread_baseline_add = 10
+		monthly_dynasty_prestige_mult = 0.05
+	}
+	county_modifier = {
+		development_growth = 0.1
+	}
+	province_modifier = {
+		travel_danger = 5
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	type = special
+
+	flag = travel_point_of_interest_natural_feature
+}
+
+kilimanjaro_01 = { # copy of mount_damavand_01
+
+	asset = {
+		type = pdxmesh
+		name = "fp3_building_special_mount_damavand_01_a_mesh"
+	}
+
+	construction_time = very_slow_construction_time
+	
+	type_icon = "icon_structure_mount_damavand.dds" 
+	
+	can_construct = {
+		scope:holder.culture = {
+			has_innovation = innovation_hoardings 
+		}
+	}
+	
+	cost_gold = 1000
+	
+	character_modifier = {
+		stress_loss_mult = 0.1
+		mountains_travel_danger = -10
+	}
+
+	county_holder_character_modifier = {
+	}
+	
+	county_modifier = {
+		mountains_levy_size = 0.5
+		travel_danger = -30
+		development_growth_factor = 0.3
+	}
+	
+	province_modifier = {
+		stationed_maa_toughness_mult = normal_maa_toughness_tier_2
+	}
+	
+	ai_value = {
+		base = 100
+		culture_likely_to_fortify_modifier = yes
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	type = special
+
+	flag = travel_point_of_interest_natural_feature # mountain
+	flag = is_mountain
+}

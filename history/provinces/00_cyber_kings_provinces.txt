@@ -106,6 +106,8 @@
 }
 3141 = {
 	holding = none
+	# Perito Moreno Glacier (wonder, e64)
+	special_building_slot = perito_moreno_01
 }
 ### c_province0022
 22 = {
@@ -249,7 +251,9 @@
 	holding = city_holding
 }
 3156 = {
-	holding = church_holding
+	culture = andean
+	rite = roman_rite
+	holding = castle_holding
 	# National University of San Marcos (real-world wonder at its real location)
 	special_building_slot = university_of_san_marcos_01
 	special_building = university_of_san_marcos_01
@@ -274,6 +278,8 @@
 }
 3205 = {
 	holding = none
+	# Salar de Uyuni (wonder, e64)
+	special_building_slot = salar_de_uyuni_01
 }
 3211 = {
 	holding = none
@@ -352,7 +358,7 @@
 ### c_province0010
 10 = {
 	culture = andean
-	rite = protestant_rite
+	rite = roman_rite	# e83 real 2026 majority (was protestant_rite)
 	holding = castle_holding
 }
 3149 = {
@@ -361,7 +367,7 @@
 ### c_province0036
 36 = {
 	culture = amazonian
-	rite = protestant_rite
+	rite = roman_rite	# e83 real 2026 majority (was protestant_rite)
 	holding = tribal_holding
 	# Machu Picchu (real-world wonder at its real location)
 	special_building_slot = machu_picchu_01
@@ -904,6 +910,9 @@
 	culture = caribeno
 	rite = roman_rite
 	holding = castle_holding
+	# Morro Castle (wonder, e64)
+	special_building_slot = morro_castle_havana_01
+	special_building = morro_castle_havana_01
 }
 3574 = {
 	holding = church_holding
@@ -995,7 +1004,7 @@
 ### c_province0154
 154 = {
 	culture = criollo
-	rite = protestant_rite
+	rite = roman_rite	# e83 real 2026 majority (was protestant_rite)
 	holding = castle_holding
 }
 3555 = {
@@ -1647,6 +1656,9 @@
 	culture = ckw_canaanite
 	rite = rabbinism
 	holding = tribal_holding
+	# University - Mercury (wonder, e64)
+	special_building_slot = generic_university
+	special_building = generic_university
 }
 4045 = {
 	holding = none
@@ -1904,6 +1916,8 @@
 }
 2786 = {
 	holding = none
+	# Mount Erebus (wonder, e64)
+	special_building_slot = mount_erebus_01
 }
 2787 = {
 	holding = none
@@ -2030,7 +2044,7 @@
 ### c_province0170
 170 = {
 	culture = murican
-	rite = roman_rite
+	rite = latter_day_saints_rite	# e83 real 2026 majority (was roman_rite)
 	holding = castle_holding
 }
 2792 = {
@@ -2045,11 +2059,13 @@
 ### c_province0224
 224 = {
 	culture = midwestern
-	rite = roman_rite
+	rite = protestant_rite	# e83 real 2026 majority (was roman_rite)
 	holding = tribal_holding
 }
 2886 = {
 	holding = none
+	# Mount Rushmore (wonder, e64)
+	special_building_slot = mount_rushmore_01
 }
 2891 = {
 	holding = none
@@ -2093,7 +2109,7 @@
 ### c_province0219
 219 = {
 	culture = midwestern
-	rite = roman_rite
+	rite = protestant_rite	# e83 real 2026 majority (was roman_rite)
 	holding = tribal_holding
 }
 2864 = {
@@ -2152,7 +2168,7 @@
 ### c_province0231
 231 = {
 	culture = murican
-	rite = roman_rite
+	rite = protestant_rite	# e83 real 2026 majority (was roman_rite)
 	holding = tribal_holding
 }
 2901 = {
@@ -2160,6 +2176,8 @@
 }
 2902 = {
 	holding = none
+	# Yellowstone (wonder, e64)
+	special_building_slot = yellowstone_01
 }
 2903 = {
 	holding = none
@@ -2167,7 +2185,7 @@
 ### c_province0233
 233 = {
 	culture = murican
-	rite = latter_day_saints_rite
+	rite = protestant_rite	# e83 real 2026 majority (was latter_day_saints_rite)
 	holding = tribal_holding
 }
 2858 = {
@@ -2239,7 +2257,7 @@
 ### c_province0277
 277 = {
 	culture = prairie
-	rite = protestant_rite
+	rite = roman_rite	# e83 real 2026 majority (was protestant_rite)
 	holding = tribal_holding
 }
 3672 = {
@@ -2316,7 +2334,7 @@
 ### c_province0306
 306 = {
 	culture = inuit
-	rite = roman_rite
+	rite = shamanism	# e88c modder 22:10: Alaska's pagan county = Bethel (Yukon-Kuskokwim Delta, the largest Alaska Native region) (was roman_rite)
 	holding = tribal_holding
 }
 2986 = {
@@ -2342,6 +2360,9 @@
 	culture = murican
 	rite = protestant_rite
 	holding = tribal_holding
+	# Denali (wonder, e64)
+	special_building_slot = denali_01
+	special_building = denali_01
 }
 8081 = {
 	holding = none
@@ -2385,7 +2406,7 @@
 ### c_province0349
 349 = {
 	culture = first_nations
-	rite = shamanism
+	rite = protestant_rite	# e83 real 2026 majority (was shamanism)
 	holding = tribal_holding
 }
 8093 = {
@@ -2407,6 +2428,9 @@
 	culture = progressive
 	rite = roman_rite
 	holding = castle_holding
+	# Golden Gate Bridge (wonder, e64)
+	special_building_slot = golden_gate_bridge_01
+	special_building = golden_gate_bridge_01
 }
 2759 = {
 	holding = church_holding
@@ -2426,7 +2450,7 @@
 ### c_sierras
 181 = {
 	culture = moderate
-	rite = roman_rite
+	rite = protestant_rite	# e83 real 2026 majority (was roman_rite)
 	holding = castle_holding
 }
 2797 = {
@@ -2438,7 +2462,7 @@
 ### c_north_bay
 163 = {
 	culture = murican
-	rite = roman_rite
+	rite = protestant_rite	# e83 real 2026 majority (was roman_rite)
 	holding = castle_holding
 }
 2763 = {
@@ -2483,7 +2507,7 @@
 ### c_province0531
 531 = {
 	culture = papuan
-	rite = roman_rite
+	rite = protestant_rite	# e83 real 2026 majority (was roman_rite)
 	holding = castle_holding
 }
 8094 = {
@@ -2509,7 +2533,7 @@
 ### c_province0198
 198 = {
 	culture = murican
-	rite = roman_rite
+	rite = protestant_rite	# e83 real 2026 majority (was roman_rite)
 	holding = castle_holding
 }
 2844 = {
@@ -2533,7 +2557,7 @@
 ### c_austin2
 145 = {
 	culture = afro_american
-	rite = roman_rite
+	rite = protestant_rite	# e83 real 2026 majority (was roman_rite)
 	holding = castle_holding
 }
 2766 = {
@@ -2542,7 +2566,7 @@
 ### c_province0165
 165 = {
 	culture = afro_american
-	rite = roman_rite
+	rite = protestant_rite	# e83 real 2026 majority (was roman_rite)
 	holding = castle_holding
 }
 2771 = {
@@ -2584,7 +2608,7 @@
 ### c_province0126
 126 = {
 	culture = murican
-	rite = roman_rite
+	rite = protestant_rite	# e83 real 2026 majority (was roman_rite)
 	holding = tribal_holding
 }
 2746 = {
@@ -2682,7 +2706,7 @@
 ### c_province0274
 274 = {
 	culture = moderate
-	rite = roman_rite
+	rite = protestant_rite	# e83 real 2026 majority (was roman_rite)
 	holding = castle_holding
 }
 2974 = {
@@ -2697,7 +2721,7 @@
 ### c_province0291
 291 = {
 	culture = canadian
-	rite = protestant_rite
+	rite = roman_rite	# e83 real 2026 majority (was protestant_rite)
 	holding = castle_holding
 }
 3693 = {
@@ -2766,7 +2790,7 @@
 ### c_province0271
 271 = {
 	culture = liblander
-	rite = roman_rite
+	rite = protestant_rite	# e83 real 2026 majority (was roman_rite)
 	holding = castle_holding
 }
 3666 = {
@@ -2790,7 +2814,7 @@
 ### c_new_york
 329 = {
 	culture = liblander
-	rite = roman_rite
+	rite = protestant_rite	# e83 real 2026 majority (was roman_rite)
 	holding = castle_holding
 }
 8085 = {
@@ -2945,7 +2969,7 @@
 148 = {
 	culture = brazilian
 	rite = roman_rite
-	holding = tribal_holding
+	holding = castle_holding
 }
 3532 = {
 	holding = church_holding
@@ -2954,7 +2978,7 @@
 167 = {
 	culture = brazilian
 	rite = roman_rite
-	holding = castle_holding
+	holding = tribal_holding
 }
 3560 = {
 	holding = church_holding
@@ -3230,7 +3254,7 @@
 ### c_province0196
 196 = {
 	culture = afro_caribbean
-	rite = roman_rite
+	rite = protestant_rite	# e83 real 2026 majority (was roman_rite)
 	holding = castle_holding
 }
 3602 = {
@@ -3654,6 +3678,9 @@
 	culture = liblander
 	rite = roman_rite
 	holding = tribal_holding
+	# University - Luna (wonder, e64)
+	special_building_slot = generic_university
+	special_building = generic_university
 }
 4053 = {
 	holding = none
@@ -3979,7 +4006,7 @@
 ### c_province0301
 301 = {
 	culture = canadian
-	rite = protestant_rite
+	rite = roman_rite	# e83 real 2026 majority (was protestant_rite)
 	holding = tribal_holding
 }
 3708 = {
@@ -4011,12 +4038,12 @@
 }
 ### c_province0323
 323 = {
-	culture = torontonian
-	rite = roman_rite
-	holding = tribal_holding
+	holding = church_holding
 }
 3765 = {
-	holding = church_holding
+	culture = torontonian
+	rite = roman_rite
+	holding = castle_holding
 }
 ### c_province0337
 337 = {
@@ -4051,7 +4078,7 @@
 ### c_province0346
 346 = {
 	culture = prairie
-	rite = protestant_rite
+	rite = roman_rite	# e83 real 2026 majority (was protestant_rite)
 	holding = tribal_holding
 }
 3804 = {
@@ -4114,7 +4141,7 @@
 ### c_province0322
 322 = {
 	culture = inuit
-	rite = protestant_rite
+	rite = roman_rite	# e83 real 2026 majority (was protestant_rite)
 	holding = tribal_holding
 }
 3748 = {
@@ -4248,7 +4275,7 @@
 ### c_province0267
 267 = {
 	culture = prairie
-	rite = protestant_rite
+	rite = roman_rite	# e83 real 2026 majority (was protestant_rite)
 	holding = tribal_holding
 }
 3656 = {
@@ -4260,7 +4287,7 @@
 ### c_province0289
 289 = {
 	culture = prairie
-	rite = protestant_rite
+	rite = roman_rite	# e83 real 2026 majority (was protestant_rite)
 	holding = tribal_holding
 }
 3688 = {
@@ -4290,7 +4317,7 @@
 ### c_province0325
 325 = {
 	culture = prairie
-	rite = protestant_rite
+	rite = roman_rite	# e83 real 2026 majority (was protestant_rite)
 	holding = tribal_holding
 }
 3767 = {
@@ -4302,7 +4329,7 @@
 ### c_province0299
 299 = {
 	culture = canadian
-	rite = protestant_rite
+	rite = roman_rite	# e83 real 2026 majority (was protestant_rite)
 	holding = tribal_holding
 }
 3705 = {
@@ -4347,7 +4374,7 @@
 ### c_province0345
 345 = {
 	culture = canadian
-	rite = protestant_rite
+	rite = roman_rite	# e83 real 2026 majority (was protestant_rite)
 	holding = tribal_holding
 }
 3802 = {
@@ -4359,7 +4386,7 @@
 ### c_province0241
 241 = {
 	culture = liblander_west
-	rite = protestant_rite
+	rite = roman_rite	# e83 real 2026 majority (was protestant_rite)
 	holding = castle_holding
 }
 3637 = {
@@ -4368,7 +4395,7 @@
 ### c_province0245
 245 = {
 	culture = canadian
-	rite = protestant_rite
+	rite = roman_rite	# e83 real 2026 majority (was protestant_rite)
 	holding = castle_holding
 }
 3639 = {
@@ -5100,7 +5127,7 @@
 ### c_province0357
 357 = {
 	culture = canadian
-	rite = protestant_rite
+	rite = roman_rite	# e83 real 2026 majority (was protestant_rite)
 	holding = tribal_holding
 }
 3818 = {
@@ -5109,7 +5136,7 @@
 ### c_province0364
 364 = {
 	culture = inuit
-	rite = shamanism
+	rite = shamanism	# e88 modder 22:01: Nunavut realm stays shamanic (e83 had made it anglican_rite)
 	holding = tribal_holding
 }
 3860 = {
@@ -5133,7 +5160,7 @@
 ### c_province0373
 373 = {
 	culture = canadian
-	rite = protestant_rite
+	rite = roman_rite	# e83 real 2026 majority (was protestant_rite)
 	holding = tribal_holding
 }
 3876 = {
@@ -5375,7 +5402,7 @@
 ### c_province0393
 393 = {
 	culture = maritimer
-	rite = roman_rite
+	rite = anglican_rite	# e85 Commonwealth Anglican tilt: Nova Scotia: Halifax, first Anglican diocese outside the British Isles (Anglicans ~9%) (was roman_rite)
 	holding = tribal_holding
 }
 8122 = {
@@ -5515,7 +5542,7 @@
 409 = {
 	culture = hassaniya
 	rite = maliki
-	holding = castle_holding
+	holding = tribal_holding
 }
 8128 = {
 	holding = church_holding
@@ -6940,7 +6967,7 @@
 ### c_province0577
 577 = {
 	culture = bosnian
-	rite = roman_rite
+	rite = hanafi	# e83 real 2026 majority (was roman_rite)
 	holding = castle_holding
 }
 8316 = {
@@ -7067,7 +7094,7 @@
 ### c_province0460
 460 = {
 	culture = irish
-	rite = protestant_rite
+	rite = roman_rite	# e83 real 2026 majority (was protestant_rite)
 	holding = castle_holding
 }
 8202 = {
@@ -7142,7 +7169,7 @@
 ### c_province0474
 474 = {
 	culture = scottish
-	rite = anglican_rite
+	rite = roman_rite	# e83 real 2026 majority (was anglican_rite)
 	holding = castle_holding
 }
 8208 = {
@@ -7175,7 +7202,7 @@
 ### c_province0480
 480 = {
 	culture = english
-	rite = anglican_rite
+	rite = protestant_rite	# e83 real 2026 majority (was anglican_rite)
 	holding = castle_holding
 }
 8223 = {
@@ -7322,7 +7349,7 @@
 ### c_province0574
 574 = {
 	culture = slovak
-	rite = byzantine_rite
+	rite = roman_rite	# e83 real 2026 majority (was byzantine_rite)
 	holding = castle_holding
 }
 8313 = {
@@ -7461,7 +7488,7 @@
 ### c_province0582
 582 = {
 	culture = lithuanian
-	rite = protestant_rite
+	rite = roman_rite	# e83 real 2026 majority (was protestant_rite)
 	holding = castle_holding
 }
 3201 = {
@@ -7588,7 +7615,7 @@
 ### c_province0487
 487 = {
 	culture = akan
-	rite = akom_pagan
+	rite = protestant_rite	# e83 real 2026 majority (was akom_pagan)
 	holding = tribal_holding
 }
 8231 = {
@@ -7606,7 +7633,7 @@
 ### c_province0523
 523 = {
 	culture = ewe
-	rite = roman_rite
+	rite = west_african_orisha_pagan	# e88b modder 22:04: one African pagan county; Togo has the largest traditional-religion share in Africa (~37%, Pew) (was roman_rite)
 	holding = tribal_holding
 }
 3126 = {
@@ -7687,7 +7714,7 @@
 538 = {
 	culture = wolof
 	rite = maliki
-	holding = tribal_holding
+	holding = castle_holding
 }
 8274 = {
 	holding = church_holding
@@ -8019,18 +8046,16 @@
 }
 ### c_province0620
 620 = {
+	holding = city_holding
+}
+8390 = {
 	culture = kongo
 	rite = roman_rite
 	holding = tribal_holding
 }
-8390 = {
-	holding = none
-}
 ### c_province0586
 586 = {
-	culture = cameroonian
-	rite = roman_rite
-	holding = tribal_holding
+	holding = city_holding
 }
 3208 = {
 	holding = none
@@ -8039,7 +8064,9 @@
 	holding = none
 }
 8325 = {
-	holding = none
+	culture = cameroonian
+	rite = roman_rite
+	holding = tribal_holding
 }
 8326 = {
 	holding = none
@@ -8157,12 +8184,12 @@
 ########## k_kingdom0645
 ### c_province0608
 608 = {
-	culture = sao
-	rite = roman_rite
-	holding = tribal_holding
+	holding = city_holding
 }
 8374 = {
-	holding = none
+	culture = sao
+	rite = maliki	# e83 real 2026 majority (was roman_rite)
+	holding = tribal_holding
 }
 8375 = {
 	holding = none
@@ -8200,8 +8227,10 @@
 8393 = {
 	holding = none
 }
-8394 = {
-	holding = none
+8394 = {	# El Fasher: capital of c_north_darfur (e82)
+	culture = sao
+	rite = maliki
+	holding = castle_holding
 }
 8395 = {
 	holding = none
@@ -8344,7 +8373,7 @@
 ### c_province0706
 706 = {
 	culture = nilotic
-	rite = roman_rite
+	rite = protestant_rite	# e83 real 2026 majority (was roman_rite)
 	holding = tribal_holding
 }
 8568 = {
@@ -8353,7 +8382,7 @@
 ### c_province0756
 756 = {
 	culture = swahili
-	rite = shafii
+	rite = protestant_rite	# e83 real 2026 majority (was shafii)
 	holding = tribal_holding
 	# Mombasa (real-world wonder at its real location)
 	special_building_slot = swahili_port_mombasa
@@ -8370,7 +8399,7 @@
 ### c_province0736
 736 = {
 	culture = east_bantu
-	rite = protestant_rite
+	rite = anglican_rite	# e85 Commonwealth Anglican tilt: Nairobi: Anglican Church of Kenya, strong in central Kenya (was protestant_rite)
 	holding = tribal_holding
 }
 8622 = {
@@ -8406,7 +8435,7 @@
 ### c_province0777
 777 = {
 	culture = somali
-	rite = reaverism_rite
+	rite = reaverism_rite	# e76 (was shafii)
 	holding = castle_holding
 }
 3508 = {
@@ -8433,7 +8462,7 @@
 ### c_province0628
 628 = {
 	culture = ubangian
-	rite = maliki
+	rite = protestant_rite	# e83 real 2026 majority (was maliki)
 	holding = tribal_holding
 }
 3296 = {
@@ -8466,7 +8495,7 @@
 ### c_province0667
 667 = {
 	culture = nilotic
-	rite = maliki
+	rite = roman_rite	# e83 real 2026 majority (was maliki)
 	holding = tribal_holding
 }
 3365 = {
@@ -8770,7 +8799,7 @@
 ### c_province0743
 743 = {
 	culture = baloch
-	rite = imami
+	rite = hanafi	# e83 real 2026 majority (was imami)
 	holding = tribal_holding
 }
 8635 = {
@@ -8821,7 +8850,7 @@
 ### c_province0654
 654 = {
 	culture = levantine
-	rite = imami
+	rite = shafii	# e83 real 2026 majority (was imami)
 	holding = castle_holding
 }
 3345 = {
@@ -8849,9 +8878,6 @@
 }
 3248 = {
 	holding = church_holding
-	# Istanbul walls (real-world wonder at its real location)
-	special_building_slot = theodosian_walls_01
-	special_building = theodosian_walls_01
 }
 8369 = {
 	holding = city_holding
@@ -8889,7 +8915,7 @@
 ### c_province0638
 638 = {
 	culture = turkish
-	rite = imami
+	rite = hanafi	# e83 real 2026 majority (was imami)
 	holding = castle_holding
 }
 3311 = {
@@ -8977,7 +9003,7 @@
 ### c_province0564
 564 = {
 	culture = swedish
-	rite = reaverism_rite
+	rite = norse_pagan	# e76 (was reaverism_rite)
 	holding = castle_holding
 }
 3173 = {
@@ -9162,7 +9188,7 @@
 ### c_province0650
 650 = {
 	culture = bashkir
-	rite = byzantine_rite
+	rite = hanafi	# e83 real 2026 majority (was byzantine_rite)
 	holding = tribal_holding
 }
 8450 = {
@@ -9337,7 +9363,7 @@
 ### c_province0646
 646 = {
 	culture = kazak
-	rite = byzantine_rite
+	rite = hanafi	# e83 real 2026 majority (was byzantine_rite)
 	holding = tribal_holding
 }
 8443 = {
@@ -9431,7 +9457,7 @@
 ### c_province0696
 696 = {
 	culture = kazak
-	rite = byzantine_rite
+	rite = hanafi	# e83 real 2026 majority (was byzantine_rite)
 	holding = tribal_holding
 }
 3419 = {
@@ -9491,7 +9517,7 @@
 ### c_province0639
 639 = {
 	culture = bashkir
-	rite = byzantine_rite
+	rite = hanafi	# e83 real 2026 majority (was byzantine_rite)
 	holding = tribal_holding
 }
 8433 = {
@@ -9535,7 +9561,7 @@
 ### c_province0658
 658 = {
 	culture = mongol
-	rite = lamaism
+	rite = dhyana	# e83 real 2026 majority (was lamaism)
 	holding = tribal_holding
 }
 8467 = {
@@ -9595,7 +9621,7 @@
 ### c_province0693
 693 = {
 	culture = far_eastern
-	rite = lamaism
+	rite = byzantine_rite
 	holding = tribal_holding
 }
 3640 = {
@@ -9619,7 +9645,7 @@
 ### c_province0712
 712 = {
 	culture = far_eastern
-	rite = shamanism
+	rite = byzantine_rite
 	holding = tribal_holding
 }
 3416 = {
@@ -9670,8 +9696,11 @@
 ### c_province0785
 785 = {
 	culture = far_eastern
-	rite = shamanism
+	rite = byzantine_rite
 	holding = tribal_holding
+	# Klyuchevskaya Sopka (wonder, e64)
+	special_building_slot = klyuchevskaya_sopka_01
+	special_building = klyuchevskaya_sopka_01
 }
 3315 = {
 	holding = none
@@ -9774,7 +9803,7 @@
 ### c_province0753
 753 = {
 	culture = mongol
-	rite = lamaism
+	rite = dhyana	# e83 real 2026 majority (was lamaism)
 	holding = tribal_holding
 }
 8650 = {
@@ -9792,7 +9821,7 @@
 ### c_province0789
 789 = {
 	culture = far_eastern
-	rite = lamaism
+	rite = byzantine_rite	# e83 real 2026 majority (was lamaism)
 	holding = tribal_holding
 }
 3490 = {
@@ -9837,7 +9866,7 @@
 ### c_province0745
 745 = {
 	culture = uyghur
-	rite = hanafi
+	rite = dhyana	# e83 real 2026 majority (was hanafi)
 	holding = tribal_holding
 }
 8638 = {
@@ -9881,6 +9910,9 @@
 	culture = sibiryak
 	rite = byzantine_rite
 	holding = tribal_holding
+	# Lake Baikal (wonder, e64)
+	special_building_slot = lake_baikal_01
+	special_building = lake_baikal_01
 }
 3457 = {
 	holding = none
@@ -9945,7 +9977,7 @@
 ### c_province0809
 809 = {
 	culture = mongol
-	rite = lamaism
+	rite = dhyana	# e83 real 2026 majority (was lamaism)
 	holding = castle_holding
 }
 8741 = {
@@ -9963,7 +9995,7 @@
 ### c_province0814
 814 = {
 	culture = mongol
-	rite = lamaism
+	rite = dhyana	# e83 real 2026 majority (was lamaism)
 	holding = castle_holding
 }
 3627 = {
@@ -9999,7 +10031,7 @@
 ### c_province0799
 799 = {
 	culture = uyghur
-	rite = hanafi
+	rite = dhyana	# e83 real 2026 majority (was hanafi)
 	holding = castle_holding
 }
 3598 = {
@@ -10054,7 +10086,7 @@
 ### c_province0826
 826 = {
 	culture = mongol
-	rite = lamaism
+	rite = dhyana	# e83 real 2026 majority (was lamaism)
 	holding = castle_holding
 }
 8759 = {
@@ -10063,7 +10095,7 @@
 ### c_province0847
 847 = {
 	culture = bodpa
-	rite = lamaism
+	rite = dhyana	# e83 real 2026 majority (was lamaism)
 	holding = castle_holding
 }
 8769 = {
@@ -10120,7 +10152,7 @@
 ### c_province0795
 795 = {
 	culture = mongol
-	rite = lamaism
+	rite = dhyana	# e83 real 2026 majority (was lamaism)
 	holding = castle_holding
 }
 3590 = {
@@ -10141,7 +10173,7 @@
 ### c_province0797
 797 = {
 	culture = sibiryak
-	rite = lamaism
+	rite = byzantine_rite	# e83 real 2026 majority (was lamaism)
 	holding = castle_holding
 }
 3517 = {
@@ -10253,7 +10285,7 @@
 ### c_everest
 828 = {
 	culture = bodpa
-	rite = lamaism
+	rite = dhyana	# e83 real 2026 majority (was lamaism)
 	holding = castle_holding
 }
 3646 = {
@@ -10271,7 +10303,7 @@
 ### c_province0816
 816 = {
 	culture = uyghur
-	rite = hanafi
+	rite = dhyana	# e83 real 2026 majority (was hanafi)
 	holding = castle_holding
 }
 8750 = {
@@ -10411,7 +10443,7 @@
 ### c_province0738
 738 = {
 	culture = mongol
-	rite = lamaism
+	rite = byzantine_rite	# e83 real 2026 majority (was lamaism)
 	holding = tribal_holding
 }
 3492 = {
@@ -10480,7 +10512,7 @@
 ### c_province0735
 735 = {
 	culture = uyghur
-	rite = hanafi
+	rite = dhyana	# e83 real 2026 majority (was hanafi)
 	holding = tribal_holding
 }
 3486 = {
@@ -10501,7 +10533,7 @@
 ### c_province0776
 776 = {
 	culture = uyghur
-	rite = hanafi
+	rite = dhyana	# e83 real 2026 majority (was hanafi)
 	holding = tribal_holding
 }
 8681 = {
@@ -10510,7 +10542,7 @@
 ### c_province0791
 791 = {
 	culture = uyghur
-	rite = hanafi
+	rite = dhyana	# e83 real 2026 majority (was hanafi)
 	holding = castle_holding
 }
 8714 = {
@@ -10522,7 +10554,7 @@
 ### c_province0763
 763 = {
 	culture = uyghur
-	rite = hanafi
+	rite = dhyana	# e83 real 2026 majority (was hanafi)
 	holding = tribal_holding
 }
 8665 = {
@@ -10564,7 +10596,7 @@
 ### c_province0754
 754 = {
 	culture = mongol
-	rite = byzantine_rite
+	rite = lamaism
 	holding = tribal_holding
 }
 3465 = {
@@ -10737,8 +10769,8 @@
 ### c_province0761
 761 = {
 	culture = east_bantu
-	rite = protestant_rite
-	holding = castle_holding
+	rite = anglican_rite	# e85 Commonwealth Anglican tilt: Dodoma: seat of the Anglican Church of Tanzania (was protestant_rite)
+	holding = tribal_holding
 }
 8664 = {
 	holding = none
@@ -10823,7 +10855,7 @@
 ### c_province0802
 802 = {
 	culture = tsonga
-	rite = roman_rite
+	rite = protestant_rite	# e83 real 2026 majority (was roman_rite)
 	holding = castle_holding
 }
 8737 = {
@@ -10861,6 +10893,8 @@
 }
 8764 = {
 	holding = none
+	# Tsingy de Bemaraha (wonder, e64)
+	special_building_slot = tsingy_01
 }
 ### c_province0850
 850 = {
@@ -11040,6 +11074,9 @@
 	culture = shona
 	rite = protestant_rite
 	holding = castle_holding
+	# Victoria Falls (wonder, e64)
+	special_building_slot = victoria_falls_01
+	special_building = victoria_falls_01
 }
 3536 = {
 	holding = none
@@ -11115,6 +11152,9 @@
 }
 8685 = {
 	holding = castle_holding
+	# Okavango Delta (wonder, e64)
+	special_building_slot = okavango_delta_01
+	special_building = okavango_delta_01
 }
 8686 = {
 	holding = none
@@ -11143,7 +11183,7 @@
 ### c_province0782
 782 = {
 	culture = afrikaner
-	rite = protestant_rite
+	rite = anglican_rite	# e85 Commonwealth Anglican tilt: Cape Town: seat of the Anglican Archbishop of Southern Africa (was protestant_rite)
 	holding = castle_holding
 	# Table Mountain (real-world wonder at its real location)
 	special_building_slot = table_mountain_01
@@ -12184,7 +12224,7 @@
 ### c_sri_lanka
 917 = {
 	culture = sinhala
-	rite = vaishnavism
+	rite = theravada	# e83 real 2026 majority (was vaishnavism)
 	holding = castle_holding
 }
 3758 = {
@@ -12199,7 +12239,7 @@
 ### c_province0804
 804 = {
 	culture = gujarati
-	rite = maliki
+	rite = vaishnavism	# e83 real 2026 majority (was maliki)
 	holding = tribal_holding
 }
 3613 = {
@@ -12249,7 +12289,7 @@
 ### c_province0863
 863 = {
 	culture = bengali
-	rite = vaishnavism
+	rite = hanafi	# e83 real 2026 majority (was vaishnavism)
 	holding = castle_holding
 }
 8775 = {
@@ -12258,7 +12298,7 @@
 ### c_province0864
 864 = {
 	culture = bengali
-	rite = vaishnavism
+	rite = hanafi	# e83 real 2026 majority (was vaishnavism)
 	holding = castle_holding
 }
 8776 = {
@@ -12267,7 +12307,7 @@
 ### c_province0895
 895 = {
 	culture = bengali
-	rite = vaishnavism
+	rite = hanafi	# e83 real 2026 majority (was vaishnavism)
 	holding = castle_holding
 }
 8790 = {
@@ -12288,7 +12328,7 @@
 ### c_province0868
 868 = {
 	culture = bodpa
-	rite = lamaism
+	rite = protestant_rite	# e83 real 2026 majority (was lamaism)
 	holding = castle_holding
 }
 8778 = {
@@ -12323,7 +12363,7 @@
 ### c_province0936
 936 = {
 	culture = viet
-	rite = roman_rite
+	rite = dhyana	# e83 real 2026 majority (was roman_rite)
 	holding = castle_holding
 	# My Son (real-world wonder at its real location)
 	special_building_slot = my_son_sanctuary_01
@@ -12512,7 +12552,7 @@
 ### c_province0930
 930 = {
 	culture = thai
-	rite = roman_rite
+	rite = theravada	# e83 real 2026 majority (was roman_rite)
 	holding = castle_holding
 }
 8812 = {
@@ -13651,6 +13691,9 @@
 	culture = ckw_artemitian
 	rite = solarian_rite
 	holding = castle_holding
+	# Bastion Walls - Artemitia, Venus (wonder, e64)
+	special_building_slot = cyber_bastion_walls_01
+	special_building = cyber_bastion_walls_01
 }
 5084 = {
 	holding = church_holding
@@ -13872,7 +13915,7 @@
 ### c_province0965
 965 = {
 	culture = dayak
-	rite = roman_rite
+	rite = shafii	# e83 real 2026 majority (was roman_rite)
 	holding = castle_holding
 }
 8822 = {
@@ -13890,7 +13933,7 @@
 ### c_province0978
 978 = {
 	culture = dayak
-	rite = roman_rite
+	rite = shafii	# e83 real 2026 majority (was roman_rite)
 	holding = castle_holding
 }
 8826 = {
@@ -14463,6 +14506,9 @@
 	culture = ckw_uzuman
 	rite = vaishnavism
 	holding = tribal_holding
+	# Maat Mons (wonder, e64)
+	special_building_slot = maat_mons_01
+	special_building = maat_mons_01
 }
 4648 = {
 	holding = none
@@ -14703,8 +14749,11 @@
 ### c_province1075
 1075 = {
 	culture = aussie
-	rite = anglican_rite
+	rite = anglican_rite	# e85 Commonwealth Anglican tilt: Sydney: diocese of Sydney, largest Anglican diocese in Australia (was roman_rite)
 	holding = castle_holding
+	# Sydney Opera House (wonder, e64)
+	special_building_slot = sydney_opera_house_01
+	special_building = sydney_opera_house_01
 }
 3900 = {
 	holding = church_holding
@@ -14727,7 +14776,7 @@
 ### c_melbourne
 1086 = {
 	culture = aussie
-	rite = anglican_rite
+	rite = roman_rite	# e83 real 2026 majority (was anglican_rite)
 	holding = castle_holding
 }
 8884 = {
@@ -14736,8 +14785,11 @@
 ### c_province1025
 1025 = {
 	culture = first_peoples
-	rite = anglican_rite
+	rite = roman_rite	# e83 real 2026 majority (was anglican_rite)
 	holding = tribal_holding
+	# Great Barrier Reef (wonder, e64)
+	special_building_slot = great_barrier_reef_01
+	special_building = great_barrier_reef_01
 }
 3862 = {
 	holding = none
@@ -14748,7 +14800,7 @@
 ### c_province1028
 1028 = {
 	culture = first_peoples
-	rite = anglican_rite
+	rite = roman_rite	# e83 real 2026 majority (was anglican_rite)
 	holding = tribal_holding
 }
 8855 = {
@@ -14770,7 +14822,7 @@
 ### c_province1036
 1036 = {
 	culture = aussie
-	rite = anglican_rite
+	rite = anglican_rite	# e85 Commonwealth Anglican tilt: Townsville: diocese of North Queensland (was roman_rite)
 	holding = castle_holding
 }
 3863 = {
@@ -14843,7 +14895,7 @@
 ### c_province1022
 1022 = {
 	culture = aussie
-	rite = anglican_rite
+	rite = anglican_rite	# e85 Commonwealth Anglican tilt: Mackay: regional Queensland (was roman_rite)
 	holding = tribal_holding
 }
 8847 = {
@@ -14876,7 +14928,7 @@
 ### c_province1038
 1038 = {
 	culture = javanese
-	rite = vaishnavism
+	rite = maliki
 	holding = tribal_holding
 	# Borobudur (real-world wonder at its real location)
 	special_building_slot = borobudur_01
@@ -14891,7 +14943,7 @@
 ### c_province1057
 1057 = {
 	culture = outback
-	rite = anglican_rite
+	rite = roman_rite	# e83 real 2026 majority (was anglican_rite)
 	holding = tribal_holding
 }
 3892 = {
@@ -14914,7 +14966,7 @@
 ### c_province1055
 1055 = {
 	culture = outback
-	rite = anglican_rite
+	rite = anglican_rite	# e85 Commonwealth Anglican tilt: Geraldton: diocese of North West Australia (was roman_rite)
 	holding = tribal_holding
 	# Pink Lakes of Western Australia (real-world wonder at its real location)
 	special_building_slot = pink_lakes_01
@@ -14944,7 +14996,7 @@
 ### c_province1066
 1066 = {
 	culture = outback
-	rite = anglican_rite
+	rite = anglican_rite	# e85 Commonwealth Anglican tilt: Esperance: rural WA (was roman_rite)
 	holding = tribal_holding
 }
 3898 = {
@@ -14959,7 +15011,7 @@
 ### c_province1078
 1078 = {
 	culture = outback
-	rite = anglican_rite
+	rite = roman_rite	# e83 real 2026 majority (was anglican_rite)
 	holding = tribal_holding
 }
 3906 = {
@@ -14986,7 +15038,7 @@
 ### c_province1072
 1072 = {
 	culture = aussie
-	rite = anglican_rite
+	rite = roman_rite	# e83 real 2026 majority (was anglican_rite)
 	holding = tribal_holding
 }
 8875 = {
@@ -14995,7 +15047,7 @@
 ### c_venetian_highlands
 1070 = {
 	culture = aussie
-	rite = anglican_rite
+	rite = roman_rite	# e83 real 2026 majority (was anglican_rite)
 	holding = tribal_holding
 }
 8874 = {
@@ -15004,7 +15056,7 @@
 ### c_province1083
 1083 = {
 	culture = aussie
-	rite = anglican_rite
+	rite = roman_rite	# e83 real 2026 majority (was anglican_rite)
 	holding = castle_holding
 }
 8880 = {
@@ -15024,7 +15076,7 @@
 ### c_province1064
 1064 = {
 	culture = aussie
-	rite = protestant_rite
+	rite = anglican_rite	# e85 Commonwealth Anglican tilt: Coffs Harbour: regional NSW, Anglican share well above the national 9.8% (was roman_rite)
 	holding = castle_holding
 }
 3877 = {
@@ -15036,7 +15088,7 @@
 ### c_province1056
 1056 = {
 	culture = kiwi
-	rite = roman_rite
+	rite = anglican_rite	# e85 Commonwealth Anglican tilt: Christchurch: founded as an Anglican settlement; Anglicans about level with Catholics in NZ (was roman_rite)
 	holding = castle_holding
 }
 3889 = {
@@ -15058,15 +15110,15 @@
 }
 ### c_province1050
 1050 = {
-	culture = kiwi
-	rite = roman_rite
-	holding = castle_holding
+	holding = church_holding
 }
 3880 = {
 	holding = city_holding
 }
 3881 = {
-	holding = church_holding
+	culture = kiwi
+	rite = roman_rite
+	holding = castle_holding
 	# Mount Taranaki (real-world wonder at its real location)
 	special_building_slot = mount_taranaki_01
 	special_building = mount_taranaki_01
@@ -15082,7 +15134,7 @@
 ### c_province0996
 996 = {
 	culture = papuan
-	rite = roman_rite
+	rite = protestant_rite	# e83 real 2026 majority (was roman_rite)
 	holding = tribal_holding
 }
 3833 = {
@@ -15145,7 +15197,7 @@
 ### c_province1004
 1004 = {
 	culture = papuan
-	rite = roman_rite
+	rite = protestant_rite	# e83 real 2026 majority (was roman_rite)
 	holding = tribal_holding
 }
 3845 = {
@@ -16513,6 +16565,9 @@
 	culture = ckw_amayan
 	rite = solarian_rite
 	holding = tribal_holding
+	# Bastion Walls - Cytherea, Venus (wonder, e64)
+	special_building_slot = cyber_bastion_walls_01
+	special_building = cyber_bastion_walls_01
 }
 5196 = {
 	holding = church_holding
@@ -17556,6 +17611,9 @@
 	culture = ckw_daedalian
 	rite = roman_rite
 	holding = castle_holding
+	# Bastion Walls - X, Mars (wonder, e64)
+	special_building_slot = cyber_bastion_walls_01
+	special_building = cyber_bastion_walls_01
 }
 5222 = {
 	holding = church_holding
@@ -19894,6 +19952,9 @@
 	culture = ckw_noachian
 	rite = divine_cycle_rite
 	holding = tribal_holding
+	# Bastion Walls - Noachis Terra, Mars (wonder, e64)
+	special_building_slot = cyber_bastion_walls_01
+	special_building = cyber_bastion_walls_01
 }
 5951 = {
 	holding = church_holding
@@ -20271,6 +20332,9 @@
 	culture = ckw_adirian
 	rite = dark_lord_cult_rite
 	holding = tribal_holding
+	# Cerealia Facula (wonder, e64)
+	special_building_slot = occator_01
+	special_building = occator_01
 }
 5812 = {
 	holding = none
@@ -21236,6 +21300,9 @@
 	culture = aeon
 	rite = eternal_mechanism_rite
 	holding = tribal_holding
+	# Bastion Walls - Laomedon, Ganymede (El Elyon) (wonder, e64)
+	special_building_slot = cyber_bastion_walls_01
+	special_building = cyber_bastion_walls_01
 }
 6442 = {
 	holding = church_holding
@@ -25563,6 +25630,9 @@
 	culture = ckw_callistan
 	rite = zensunni_rite
 	holding = tribal_holding
+	# Valhalla Basin (wonder, e64)
+	special_building_slot = valhalla_basin_01
+	special_building = valhalla_basin_01
 }
 7088 = {
 	holding = none
@@ -27711,6 +27781,9 @@
 	culture = ckw_xanadian
 	rite = rabbinism
 	holding = tribal_holding
+	# University - Titan (wonder, e64)
+	special_building_slot = generic_university
+	special_building = generic_university
 }
 7781 = {
 	holding = none
@@ -28347,6 +28420,9 @@
 	culture = ckw_tuonelan
 	rite = retrogradism_rite
 	holding = tribal_holding
+	# Hili Geyser (wonder, e64)
+	special_building_slot = hili_geyser_01
+	special_building = hili_geyser_01
 }
 7156 = {
 	holding = church_holding
@@ -31066,6 +31142,9 @@
 	culture = ckw_dagdan
 	rite = valentinianism
 	holding = castle_holding
+	# Bastion Walls - Doggerland, Europa (wonder, e64)
+	special_building_slot = cyber_bastion_walls_01
+	special_building = cyber_bastion_walls_01
 }
 7945 = {
 	holding = church_holding
@@ -31405,6 +31484,9 @@
 	culture = ckw_europan
 	rite = zensunni_rite
 	holding = castle_holding
+	# Conamara Chaos (wonder, e64)
+	special_building_slot = conamara_chaos_01
+	special_building = conamara_chaos_01
 }
 8054 = {
 	holding = church_holding
@@ -31458,7 +31540,7 @@
 ### c_arizona
 2684 = {
 	culture = moderate
-	rite = roman_rite
+	rite = protestant_rite	# e83 real 2026 majority (was roman_rite)
 	holding = tribal_holding
 }
 8095 = {
@@ -31494,7 +31576,7 @@
 	holding = castle_holding
 }
 9094 = {
-	holding = none
+	holding = castle_holding	# e75: b_long_beach (Valencia) is held by Kris 7000101; history.cpp:384 'does not have a holding'
 }
 ### c_monterey
 2687 = {
@@ -31517,7 +31599,7 @@
 ### c_grand_junction
 2689 = {
 	culture = murican
-	rite = roman_rite
+	rite = protestant_rite	# e83 real 2026 majority (was roman_rite)
 	holding = castle_holding
 }
 8103 = {
@@ -31538,11 +31620,11 @@
 ### c_idaho
 2700 = {
 	culture = murican
-	rite = latter_day_saints_rite
+	rite = protestant_rite	# e83 real 2026 majority (was latter_day_saints_rite)
 	holding = tribal_holding
 }
 8104 = {
-	holding = none
+	holding = city_holding	# e86 Idaho Falls: LDS mayor 7000140 (was none)
 }
 8105 = {
 	holding = none
@@ -31562,7 +31644,7 @@
 ### c_baton_rouge
 2702 = {
 	culture = afro_american
-	rite = roman_rite
+	rite = protestant_rite	# e83 real 2026 majority (was roman_rite)
 	holding = castle_holding
 }
 2740 = {
@@ -31583,7 +31665,7 @@
 ### c_marquette
 2704 = {
 	culture = moderate
-	rite = roman_rite
+	rite = protestant_rite	# e83 real 2026 majority (was roman_rite)
 	holding = castle_holding
 }
 8108 = {
@@ -31592,7 +31674,7 @@
 ### c_billings
 2709 = {
 	culture = murican
-	rite = latter_day_saints_rite
+	rite = protestant_rite	# e83 real 2026 majority (was latter_day_saints_rite)
 	holding = tribal_holding
 }
 8109 = {
@@ -31607,7 +31689,7 @@
 ### c_new_hampshire
 2710 = {
 	culture = moderate
-	rite = roman_rite
+	rite = protestant_rite	# e83 real 2026 majority (was roman_rite)
 	holding = castle_holding
 }
 8112 = {
@@ -31621,6 +31703,8 @@
 }
 9119 = {
 	holding = none
+	# Statue of Liberty (wonder, e64)
+	special_building_slot = statue_of_liberty_01
 }
 ### c_las_cruces
 2732 = {
@@ -31637,7 +31721,7 @@
 ### c_las_vegas
 2733 = {
 	culture = moderate
-	rite = roman_rite
+	rite = protestant_rite	# e83 real 2026 majority (was roman_rite)
 	holding = castle_holding
 }
 8115 = {
@@ -31685,7 +31769,7 @@
 ### c_vermont
 2738 = {
 	culture = progressive
-	rite = roman_rite
+	rite = protestant_rite	# e83 real 2026 majority (was roman_rite)
 	holding = castle_holding
 }
 8119 = {
@@ -31712,7 +31796,7 @@
 ### c_gaza_strip
 2515 = {
 	culture = levantine
-	rite = rabbinism
+	rite = shafii	# e83 real 2026 majority (was rabbinism)
 	holding = castle_holding
 }
 8915 = {
@@ -31854,7 +31938,7 @@
 ### c_luxembourg
 2527 = {
 	culture = german
-	rite = protestant_rite
+	rite = roman_rite	# e83 real 2026 majority (was protestant_rite)
 	holding = castle_holding
 }
 8933 = {
@@ -31872,7 +31956,7 @@
 ### c_makhachkala
 2529 = {
 	culture = russian
-	rite = byzantine_rite
+	rite = shafii	# e83 real 2026 majority (was byzantine_rite)
 	holding = castle_holding
 }
 3306 = {
@@ -31977,7 +32061,7 @@
 ### c_austria
 2538 = {
 	culture = austrian
-	rite = byzantine_rite
+	rite = roman_rite	# e83 real 2026 majority (was byzantine_rite)
 	holding = castle_holding
 }
 8950 = {
@@ -32004,7 +32088,7 @@
 ### c_koln
 2541 = {
 	culture = german
-	rite = protestant_rite
+	rite = roman_rite	# e83 real 2026 majority (was protestant_rite)
 	holding = castle_holding
 	# Cologne (real-world wonder at its real location)
 	special_building_slot = holy_site_cologne_cathedral_01
@@ -32057,7 +32141,7 @@
 ### c_budapest
 2546 = {
 	culture = hungarian
-	rite = byzantine_rite
+	rite = roman_rite	# e83 real 2026 majority (was byzantine_rite)
 	holding = castle_holding
 	# Visegrad (real-world wonder at its real location)
 	special_building_slot = visegrad_castle_01
@@ -32085,7 +32169,7 @@
 2548 = {
 	culture = wolof
 	rite = maliki
-	holding = tribal_holding
+	holding = castle_holding
 }
 8960 = {
 	holding = none
@@ -32099,7 +32183,7 @@
 ### c_benin
 2549 = {
 	culture = ewe
-	rite = west_african_orisha_pagan
+	rite = west_african_orisha_pagan	# e88c modder 22:10: Benin = Vodun homeland (Abomey, Ouidah), second African pagan county (e83 had made it roman_rite)
 	holding = tribal_holding
 }
 3127 = {
@@ -32114,7 +32198,7 @@
 ### c_ibadan
 2550 = {
 	culture = yoruba
-	rite = west_african_orisha_pagan
+	rite = maliki	# e83 real 2026 majority (was west_african_orisha_pagan)
 	holding = tribal_holding
 }
 8965 = {
@@ -32123,7 +32207,7 @@
 ### c_pecs
 2551 = {
 	culture = hungarian
-	rite = byzantine_rite
+	rite = roman_rite	# e83 real 2026 majority (was byzantine_rite)
 	holding = castle_holding
 }
 8966 = {
@@ -32171,7 +32255,7 @@
 ### c_kuwait
 2556 = {
 	culture = bedouin
-	rite = imami
+	rite = maliki	# e83 real 2026 majority (was imami)
 	holding = castle_holding
 }
 8971 = {
@@ -32180,7 +32264,7 @@
 ### c_brunei
 2557 = {
 	culture = malay
-	rite = roman_rite
+	rite = shafii	# e83 real 2026 majority (was roman_rite)
 	holding = castle_holding
 }
 8972 = {
@@ -32189,7 +32273,7 @@
 ### c_sintang
 2558 = {
 	culture = dayak
-	rite = protestant_rite
+	rite = roman_rite	# e83 real 2026 majority (was protestant_rite)
 	holding = castle_holding
 }
 8973 = {
@@ -32207,7 +32291,7 @@
 ### c_chattogram
 2560 = {
 	culture = bengali
-	rite = vaishnavism
+	rite = hanafi	# e83 real 2026 majority (was vaishnavism)
 	holding = castle_holding
 }
 3719 = {
@@ -32330,7 +32414,7 @@
 ### c_berlin_x
 2573 = {
 	culture = german
-	rite = roman_rite
+	rite = protestant_rite	# e83 real 2026 majority (was roman_rite)
 	holding = castle_holding
 }
 8986 = {
@@ -32339,7 +32423,7 @@
 ### c_mecklenburg_western_pomerania
 2574 = {
 	culture = german
-	rite = roman_rite
+	rite = protestant_rite	# e83 real 2026 majority (was roman_rite)
 	holding = castle_holding
 	# Danevirke (real-world wonder at its real location)
 	special_building_slot = danevirke_01
@@ -32693,7 +32777,7 @@
 ### c_rajshahi
 2609 = {
 	culture = bengali
-	rite = vaishnavism
+	rite = hanafi	# e83 real 2026 majority (was vaishnavism)
 	holding = castle_holding
 }
 9015 = {
@@ -32705,7 +32789,7 @@
 ### c_nanaimo
 2610 = {
 	culture = liblander_west
-	rite = protestant_rite
+	rite = roman_rite	# e83 real 2026 majority (was protestant_rite)
 	holding = castle_holding
 }
 9016 = {
@@ -32767,6 +32851,9 @@
 }
 9022 = {
 	holding = church_holding
+	# Angel Falls (wonder, e64)
+	special_building_slot = angel_falls_01
+	special_building = angel_falls_01
 }
 9023 = {
 	holding = none
@@ -32852,7 +32939,7 @@
 ### c_kostanay
 2624 = {
 	culture = kazak
-	rite = byzantine_rite
+	rite = hanafi	# e83 real 2026 majority (was byzantine_rite)
 	holding = tribal_holding
 }
 3362 = {
@@ -32888,7 +32975,7 @@
 ### c_jordan
 2627 = {
 	culture = levantine
-	rite = rabbinism
+	rite = shafii	# e83 real 2026 majority (was rabbinism)
 	holding = castle_holding
 }
 9040 = {
@@ -32975,7 +33062,7 @@
 ### c_njeru
 2635 = {
 	culture = ganda
-	rite = protestant_rite
+	rite = anglican_rite	# e85 Commonwealth Anglican tilt: Njeru: Church of Uganda (~32% of Ugandans) (was protestant_rite)
 	holding = tribal_holding
 }
 9048 = {
@@ -33336,6 +33423,9 @@
 	culture = centroamerican
 	rite = roman_rite
 	holding = castle_holding
+	# Panama Canal (wonder, e64)
+	special_building_slot = panama_canal_01
+	special_building = panama_canal_01
 }
 9088 = {
 	holding = church_holding
@@ -33370,7 +33460,7 @@
 ### c_central_kalimantan
 2676 = {
 	culture = dayak
-	rite = protestant_rite
+	rite = shafii	# e83 real 2026 majority (was protestant_rite)
 	holding = castle_holding
 }
 3814 = {
@@ -33403,7 +33493,7 @@
 ### c_barcelona_x
 2690 = {
 	culture = criollo
-	rite = protestant_rite
+	rite = roman_rite	# e83 real 2026 majority (was protestant_rite)
 	holding = castle_holding
 }
 9095 = {
@@ -33472,7 +33562,7 @@
 ### c_tabuk
 2697 = {
 	culture = bedouin
-	rite = rabbinism
+	rite = hanbali	# e83 real 2026 majority (was rabbinism)
 	holding = castle_holding
 }
 9102 = {
@@ -33780,6 +33870,9 @@
 	culture = east_bantu
 	rite = protestant_rite
 	holding = tribal_holding
+	# Mount Kilimanjaro (wonder, e64)
+	special_building_slot = kilimanjaro_01
+	special_building = kilimanjaro_01
 }
 9132 = {
 	holding = none
@@ -33850,7 +33943,9 @@
 	holding = castle_holding
 }
 9140 = {
-	holding = church_holding
+	culture = caribeno
+	rite = roman_rite
+	holding = castle_holding   # e63: county capital of Puerto Rico
 	# Castillo San Felipe del Morro (real-world wonder at its real location)
 	special_building_slot = el_morro_01
 	special_building = el_morro_01
@@ -33858,7 +33953,7 @@
 ### c_ucayali
 2810 = {
 	culture = amazonian
-	rite = protestant_rite
+	rite = roman_rite	# e83 real 2026 majority (was protestant_rite)
 	holding = tribal_holding
 }
 9141 = {
@@ -33888,7 +33983,7 @@
 ### c_kosovo
 2812 = {
 	culture = albanian
-	rite = byzantine_rite
+	rite = hanafi	# e83 real 2026 majority (was byzantine_rite)
 	holding = castle_holding
 }
 9146 = {
@@ -33933,7 +34028,7 @@
 ### c_dresden
 2823 = {
 	culture = german
-	rite = roman_rite
+	rite = protestant_rite	# e83 real 2026 majority (was roman_rite)
 	holding = castle_holding
 }
 3164 = {
@@ -34070,8 +34165,9 @@
 }
 ### c_nanchang
 2857 = {
+	# e55 China religion pass (Pew 2023 / CGSS)
 	culture = gan_hakka
-	rite = dhyana
+	rite = zhengyi
 	holding = castle_holding
 }
 9170 = {
@@ -34079,8 +34175,9 @@
 }
 ### c_shangqiu
 2867 = {
+	# e55 China religion pass (Pew 2023 / CGSS)
 	culture = han
-	rite = dhyana
+	rite = protestant_rite	# e84: e55 deliberate regional faith kept (e83 reverted)
 	holding = castle_holding
 }
 9171 = {
@@ -34134,7 +34231,7 @@
 ### c_bhutan
 2874 = {
 	culture = bodpa
-	rite = vaishnavism
+	rite = lamaism	# e77 Bhutan is Vajrayana Buddhist (was vaishnavism)
 	holding = castle_holding
 }
 9178 = {
@@ -34152,7 +34249,7 @@
 ### c_armenia
 2876 = {
 	culture = armenian
-	rite = imami
+	rite = armenian_rite	# e83 real 2026 majority (was imami)
 	holding = castle_holding
 	# Vagharshapat (real-world wonder at its real location)
 	special_building_slot = etchmiadzin_cathedral
@@ -34215,7 +34312,7 @@
 ### c_albania
 2883 = {
 	culture = albanian
-	rite = byzantine_rite
+	rite = hanafi	# e83 real 2026 majority (was byzantine_rite)
 	holding = castle_holding
 }
 9189 = {
@@ -34268,7 +34365,7 @@
 ### c_lagos
 2907 = {
 	culture = yoruba
-	rite = west_african_orisha_pagan
+	rite = anglican_rite	# e85 Commonwealth Anglican tilt: Lagos: Church of Nigeria, the largest Anglican province, strongest among the Yoruba (was protestant_rite)
 	holding = tribal_holding
 }
 9193 = {
@@ -34568,7 +34665,7 @@
 ### c_ouagadougou
 2951 = {
 	culture = mossi
-	rite = roman_rite
+	rite = maliki	# e83 real 2026 majority (was roman_rite)
 	holding = tribal_holding
 }
 9225 = {
@@ -34682,7 +34779,7 @@
 ### c_hohhot
 2968 = {
 	culture = mongol
-	rite = lamaism
+	rite = dhyana	# e83 real 2026 majority (was lamaism)
 	holding = castle_holding
 }
 9236 = {
@@ -34691,7 +34788,7 @@
 ### c_chifeng
 2969 = {
 	culture = mongol
-	rite = lamaism
+	rite = dhyana	# e83 real 2026 majority (was lamaism)
 	holding = castle_holding
 }
 9237 = {
@@ -34804,7 +34901,7 @@
 ### c_pontianak
 2984 = {
 	culture = dayak
-	rite = vaishnavism
+	rite = shafii	# e83 real 2026 majority (was vaishnavism)
 	holding = castle_holding
 }
 3819 = {
@@ -34962,7 +35059,7 @@
 ### c_bikaner
 2999 = {
 	culture = rajput
-	rite = maliki
+	rite = vaishnavism	# e83 real 2026 majority (was maliki)
 	holding = tribal_holding
 }
 9274 = {
@@ -34971,7 +35068,7 @@
 ### c_jodhpur
 3000 = {
 	culture = rajput
-	rite = maliki
+	rite = vaishnavism	# e83 real 2026 majority (was maliki)
 	holding = tribal_holding
 }
 9275 = {
@@ -34992,7 +35089,7 @@
 ### c_surat
 3002 = {
 	culture = gujarati
-	rite = maliki
+	rite = vaishnavism	# e83 real 2026 majority (was maliki)
 	holding = tribal_holding
 }
 9276 = {
@@ -35001,7 +35098,7 @@
 ### c_rajkot
 3003 = {
 	culture = gujarati
-	rite = maliki
+	rite = vaishnavism	# e83 real 2026 majority (was maliki)
 	holding = tribal_holding
 }
 3610 = {
@@ -35010,7 +35107,7 @@
 ### c_jamnagar
 3004 = {
 	culture = gujarati
-	rite = maliki
+	rite = vaishnavism	# e83 real 2026 majority (was maliki)
 	holding = tribal_holding
 }
 9277 = {
@@ -35202,7 +35299,7 @@
 ### c_canberra
 3024 = {
 	culture = aussie
-	rite = anglican_rite
+	rite = roman_rite	# e83 real 2026 majority (was anglican_rite)
 	holding = castle_holding
 }
 3915 = {
@@ -35249,8 +35346,9 @@
 }
 ### c_wenzhou
 3029 = {
+	# e55 China religion pass (Pew 2023 / CGSS)
 	culture = wu
-	rite = dhyana
+	rite = protestant_rite	# e84: e55 deliberate regional faith kept (e83 reverted)
 	holding = castle_holding
 }
 9302 = {
@@ -35623,8 +35721,9 @@
 }
 ### c_shiyan
 3066 = {
+	# e55 China religion pass (Pew 2023 / CGSS)
 	culture = han
-	rite = dhyana
+	rite = zhengyi
 	holding = castle_holding
 	# Wudang (real-world wonder at its real location)
 	special_building_slot = wudang_mountain_temples_01
@@ -35726,7 +35825,7 @@
 ### c_campbell_river
 3077 = {
 	culture = liblander_west
-	rite = protestant_rite
+	rite = roman_rite	# e83 real 2026 majority (was protestant_rite)
 	holding = castle_holding
 }
 9348 = {
@@ -35810,7 +35909,7 @@
 ### c_apure
 3086 = {
 	culture = criollo
-	rite = protestant_rite
+	rite = roman_rite	# e83 real 2026 majority (was protestant_rite)
 	holding = castle_holding
 }
 9356 = {
@@ -35870,7 +35969,7 @@
 ### c_baotou
 3092 = {
 	culture = mongol
-	rite = lamaism
+	rite = dhyana	# e83 real 2026 majority (was lamaism)
 	holding = castle_holding
 }
 9363 = {
@@ -35879,7 +35978,7 @@
 ### c_bayan_nur
 3093 = {
 	culture = mongol
-	rite = lamaism
+	rite = dhyana	# e83 real 2026 majority (was lamaism)
 	holding = castle_holding
 }
 9364 = {
@@ -35923,8 +36022,9 @@
 }
 ### c_dingxi
 3098 = {
-	culture = han
-	rite = dhyana
+	# e55 China religion pass (Pew 2023 / CGSS)
+	culture = hui
+	rite = hanafi	# e84: e55 deliberate regional faith kept (e83 reverted)
 	holding = castle_holding
 }
 9369 = {
@@ -36047,7 +36147,7 @@
 }
 9396 = {
 	culture = far_eastern
-	rite = shamanism
+	rite = shamanism	# e88b modder 22:04: Siberian pagans kept (e83 had made it byzantine_rite)
 	holding = castle_holding
 }
 9397 = {
@@ -36082,7 +36182,7 @@
 }
 9405 = {
 	culture = far_eastern
-	rite = shamanism
+	rite = shamanism	# e88b modder 22:04: Siberian pagans kept (e83 had made it byzantine_rite)
 	holding = castle_holding
 }
 9407 = {
@@ -36095,7 +36195,7 @@
 }
 9409 = {
 	culture = far_eastern
-	rite = lamaism
+	rite = byzantine_rite	# e83 real 2026 majority (was lamaism)
 	holding = castle_holding
 }
 9408 = {
@@ -36141,7 +36241,7 @@
 }
 9420 = {
 	culture = bugis
-	rite = roman_rite
+	rite = protestant_rite	# e83 real 2026 majority (was roman_rite)
 	holding = castle_holding
 }
 9421 = {
@@ -36176,7 +36276,7 @@
 }
 9429 = {
 	culture = papuan
-	rite = roman_rite
+	rite = protestant_rite	# e83 real 2026 majority (was roman_rite)
 	holding = castle_holding
 	# Kīlauea (real-world wonder at its real location)
 	special_building_slot = kilauea_01
@@ -36260,7 +36360,7 @@
 ### c_saint_vincent_and_the_grenadines (e31 microstate island)
 9446 = {
 	culture = afro_caribbean
-	rite = protestant_rite
+	rite = anglican_rite	# e85 Commonwealth Anglican tilt: St Vincent: Anglican the largest church (was protestant_rite)
 	holding = castle_holding
 }
 9447 = {
@@ -36278,7 +36378,7 @@
 ### c_barbados (e31 microstate island)
 9450 = {
 	culture = afro_caribbean
-	rite = protestant_rite
+	rite = anglican_rite	# e85 Commonwealth Anglican tilt: Barbados: Anglican the largest church (~24%) (was protestant_rite)
 	holding = castle_holding
 }
 9451 = {
@@ -36305,7 +36405,7 @@
 ### c_saint_kitts_and_nevis (e31 microstate island)
 9456 = {
 	culture = afro_caribbean
-	rite = protestant_rite
+	rite = anglican_rite	# e85 Commonwealth Anglican tilt: St Kitts and Nevis: Anglican the largest church (was protestant_rite)
 	holding = castle_holding
 }
 9457 = {
@@ -36323,7 +36423,7 @@
 ### c_antigua_and_barbuda (e31 microstate island)
 9460 = {
 	culture = afro_caribbean
-	rite = protestant_rite
+	rite = anglican_rite	# e85 Commonwealth Anglican tilt: Antigua: Anglican the largest church (was protestant_rite)
 	holding = castle_holding
 }
 9461 = {
@@ -36350,7 +36450,7 @@
 ### c_solomon_islands (e31 microstate island)
 9466 = {
 	culture = papuan
-	rite = protestant_rite
+	rite = anglican_rite	# e85 Commonwealth Anglican tilt: Solomon Islands: Church of Melanesia the largest church (~30%) (was protestant_rite)
 	holding = castle_holding
 }
 9467 = {
@@ -36485,8 +36585,9 @@
 	special_building = maoshan_academy_01
 }
 9497 = {
-	culture = han
-	rite = dhyana
+	# e55 China religion pass (Pew 2023 / CGSS)
+	culture = hui
+	rite = hanafi	# e84: e55 deliberate regional faith kept (e83 reverted)
 	holding = castle_holding
 }
 9498 = {
@@ -36496,7 +36597,7 @@
 }
 9499 = {
 	culture = aussie
-	rite = anglican_rite
+	rite = roman_rite	# e83 real 2026 majority (was anglican_rite)
 	holding = castle_holding
 }
 9500 = {
@@ -36573,9 +36674,7 @@
 	holding = city_holding
 }
 9519 = {
-	culture = andean
-	rite = roman_rite
-	holding = castle_holding
+	holding = church_holding
 }
 9520 = {
 	holding = city_holding
@@ -36608,11 +36707,138 @@
 	holding = city_holding
 }
 9528 = {
-	holding = city_holding
+	holding = none
 }
+### e76 Denmark (new provinces split from 3142 Aarhus, 535 Copenhagen, 2574 Kiel)
 9529 = {
-	holding = city_holding
+	culture = danish
+	rite = protestant_rite
+	holding = castle_holding
 }
 9530 = {
+	culture = danish
+	rite = protestant_rite
+	holding = castle_holding
+}
+9531 = {
+	culture = danish
+	rite = protestant_rite
+	holding = church_holding
+}
+9532 = {
+	culture = danish
+	rite = protestant_rite
+	holding = castle_holding
+}
+9533 = {
+	culture = danish
+	rite = protestant_rite
+	holding = none
+}
+9534 = {
+	culture = danish
+	rite = protestant_rite
+	holding = none
+}
+9535 = {
+	culture = danish
+	rite = protestant_rite
+	holding = city_holding
+}
+### 2026-11-12 map queue: Jakarta (split from Depok 9506), Yamal county (former wasteland 2457)
+9536 = {
+	holding = city_holding
+}
+2457 = {
+	culture = sibiryak
+	rite = byzantine_rite
+	holding = tribal_holding
+}
+### e82 extra baronies in counties that took in former wasteland
+9537 = {	# Al Jabalayn (e82, split from 8476)
+	holding = none
+}
+9538 = {	# Kosti (e82, split from 8476)
+	holding = none
+}
+9539 = {	# Bara (e82, split from 8476)
+	holding = none
+}
+9540 = {	# Ad Damazin (e82, split from 8476)
+	holding = none
+}
+9541 = {	# Kolwezi (e82, split from 692)
+	culture = luba
+	rite = protestant_rite
+	holding = castle_holding
+}
+9542 = {	# Likasi (e82, split from 692)
+	holding = none
+}
+9543 = {	# Dilolo (e82, split from 8534)
+	holding = none
+}
+9544 = {	# Sandoa (e82, split from 8534)
+	holding = none
+}
+9545 = {	# Kasaji (e82, split from 3467)
+	holding = none
+}
+9546 = {	# Cacolo (e82, split from 643)
+	holding = none
+}
+9547 = {	# Cuito Cuanavale (e82, split from 677)
+	holding = none
+}
+9548 = {	# Lumbala N'guimbo (e82, split from 677)
+	holding = none
+}
+9549 = {	# Séguéla (e82, split from 2544)
+	holding = none
+}
+9550 = {	# En Nahud (e82, split from 8393)
+	culture = beja
+	rite = maliki
+	holding = castle_holding
+}
+9551 = {	# Umm Kaddada (e82, split from 8393)
+	holding = none
+}
+9552 = {	# Al Fula (e82, split from 8393)
+	holding = none
+}
+9553 = {	# Sodiri (e82, split from 8394)
+	holding = none
+}
+9554 = {	# Malha (e82, split from 8394)
+	holding = none
+}
+9555 = {	# Muglad (e82, split from 8395)
+	holding = none
+}
+9556 = {	# Wau (e82, split from 3366)
+	culture = nilotic
+	rite = roman_rite	# e83 real 2026 majority (was maliki)
+	holding = castle_holding
+}
+9557 = {	# Bentiu (e82, split from 3366)
+	holding = none
+}
+9558 = {	# Ayod (e82, split from 3366)
+	holding = none
+}
+9559 = {	# Tambura (e82, split from 8491)
+	holding = none
+}
+9560 = {	# Gaoua (e82, split from 2950)
+	holding = none
+}
+9561 = {	# Kazungula (e82, split from 762)
+	holding = none
+}
+9562 = {	# Hwange (e82, split from 762)
+	holding = none
+}
+9563 = {	# Sabetta (e82, split from 2457)
 	holding = none
 }

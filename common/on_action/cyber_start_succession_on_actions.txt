@@ -1,0 +1,593 @@
+﻿# Cyber Kings e62 (2026-11-12): realm succession laws of real monarchies, hereditary regimes and democracies at game start.
+# Appended to vanilla on_game_start. Primogeniture needs innovation_primogeniture (vanilla can_keep); equal_law is kept through
+# primary_title var can_keep_realm_law (vanilla equal_law can_keep). male_only_law needs a male-dominated faith, else it falls back.
+on_game_start = {
+	on_actions = { cyber_start_succession_laws }
+}
+
+cyber_start_succession_laws = {
+	effect = {
+		character:7000002 ?= { # United Kingdom (monarchy)
+			if = {
+				limit = { is_ruler = yes }
+				culture = { add_innovation = innovation_primogeniture }
+				add_realm_law_skip_effects = single_heir_succession_law
+				add_realm_law_skip_effects = equal_law
+				primary_title = { set_variable = { name = can_keep_realm_law value = flag:equal_law } }
+			}
+		}
+		character:104645 ?= { # Spain (monarchy)
+			if = {
+				limit = { is_ruler = yes }
+				culture = { add_innovation = innovation_primogeniture }
+				add_realm_law_skip_effects = single_heir_succession_law
+				add_realm_law_skip_effects = male_preference_law
+			}
+		}
+		character:105645 ?= { # Sweden (monarchy)
+			if = {
+				limit = { is_ruler = yes }
+				culture = { add_innovation = innovation_primogeniture }
+				add_realm_law_skip_effects = single_heir_succession_law
+				add_realm_law_skip_effects = equal_law
+				primary_title = { set_variable = { name = can_keep_realm_law value = flag:equal_law } }
+			}
+		}
+		character:105205 ?= { # Norway (monarchy)
+			if = {
+				limit = { is_ruler = yes }
+				culture = { add_innovation = innovation_primogeniture }
+				add_realm_law_skip_effects = single_heir_succession_law
+				add_realm_law_skip_effects = equal_law
+				primary_title = { set_variable = { name = can_keep_realm_law value = flag:equal_law } }
+			}
+		}
+		character:105355 ?= { # Denmark (monarchy)
+			if = {
+				limit = { is_ruler = yes }
+				culture = { add_innovation = innovation_primogeniture }
+				add_realm_law_skip_effects = single_heir_succession_law
+				add_realm_law_skip_effects = equal_law
+				primary_title = { set_variable = { name = can_keep_realm_law value = flag:equal_law } }
+			}
+		}
+		character:8100600 ?= { # Netherlands (monarchy)
+			if = {
+				limit = { is_ruler = yes }
+				culture = { add_innovation = innovation_primogeniture }
+				add_realm_law_skip_effects = single_heir_succession_law
+				add_realm_law_skip_effects = equal_law
+				primary_title = { set_variable = { name = can_keep_realm_law value = flag:equal_law } }
+			}
+		}
+		character:8100235 ?= { # Monaco (monarchy)
+			if = {
+				limit = { is_ruler = yes }
+				culture = { add_innovation = innovation_primogeniture }
+				add_realm_law_skip_effects = single_heir_succession_law
+				add_realm_law_skip_effects = male_preference_law
+			}
+		}
+		character:8100205 ?= { # Liechtenstein (monarchy)
+			if = {
+				limit = { is_ruler = yes }
+				culture = { add_innovation = innovation_primogeniture }
+				add_realm_law_skip_effects = single_heir_succession_law
+				add_realm_law_skip_effects = male_only_law
+			}
+		}
+		character:108725 ?= { # Japan (monarchy)
+			if = {
+				limit = { is_ruler = yes }
+				culture = { add_innovation = innovation_primogeniture }
+				add_realm_law_skip_effects = single_heir_succession_law
+				add_realm_law_skip_effects = male_only_law
+			}
+		}
+		character:400089 ?= { # Thailand (monarchy)
+			if = {
+				limit = { is_ruler = yes }
+				culture = { add_innovation = innovation_primogeniture }
+				add_realm_law_skip_effects = single_heir_succession_law
+				add_realm_law_skip_effects = male_preference_law
+			}
+		}
+		character:8100050 ?= { # Bhutan (monarchy)
+			if = {
+				limit = { is_ruler = yes }
+				culture = { add_innovation = innovation_primogeniture }
+				add_realm_law_skip_effects = single_heir_succession_law
+				add_realm_law_skip_effects = male_preference_law
+			}
+		}
+		character:400138 ?= { # Morocco (monarchy)
+			if = {
+				limit = { is_ruler = yes }
+				culture = { add_innovation = innovation_primogeniture }
+				add_realm_law_skip_effects = single_heir_succession_law
+				add_realm_law_skip_effects = male_only_law
+			}
+		}
+		character:400065 ?= { # Saudi Arabia (monarchy)
+			if = {
+				limit = { is_ruler = yes }
+				culture = { add_innovation = innovation_primogeniture }
+				add_realm_law_skip_effects = single_heir_succession_law
+				add_realm_law_skip_effects = male_only_law
+			}
+		}
+		character:8100196 ?= { # Kuwait (monarchy)
+			if = {
+				limit = { is_ruler = yes }
+				culture = { add_innovation = innovation_primogeniture }
+				add_realm_law_skip_effects = single_heir_succession_law
+				add_realm_law_skip_effects = male_only_law
+			}
+		}
+		character:8100159 ?= { # Jordan (monarchy)
+			if = {
+				limit = { is_ruler = yes }
+				culture = { add_innovation = innovation_primogeniture }
+				add_realm_law_skip_effects = single_heir_succession_law
+				add_realm_law_skip_effects = male_only_law
+			}
+		}
+		character:107075 ?= { # Qatar (monarchy)
+			if = {
+				limit = { is_ruler = yes }
+				culture = { add_innovation = innovation_primogeniture }
+				add_realm_law_skip_effects = single_heir_succession_law
+				add_realm_law_skip_effects = male_only_law
+			}
+		}
+		character:8100700 ?= { # Bahrain (monarchy)
+			if = {
+				limit = { is_ruler = yes }
+				culture = { add_innovation = innovation_primogeniture }
+				add_realm_law_skip_effects = single_heir_succession_law
+				add_realm_law_skip_effects = male_only_law
+			}
+		}
+		character:107555 ?= { # Oman (monarchy)
+			if = {
+				limit = { is_ruler = yes }
+				culture = { add_innovation = innovation_primogeniture }
+				add_realm_law_skip_effects = single_heir_succession_law
+				add_realm_law_skip_effects = male_only_law
+			}
+		}
+		character:107395 ?= { # United Arab Emirates (monarchy)
+			if = {
+				limit = { is_ruler = yes }
+				culture = { add_innovation = innovation_primogeniture }
+				add_realm_law_skip_effects = single_heir_succession_law
+				add_realm_law_skip_effects = male_only_law
+			}
+		}
+		character:8100058 ?= { # Brunei (monarchy)
+			if = {
+				limit = { is_ruler = yes }
+				culture = { add_innovation = innovation_primogeniture }
+				add_realm_law_skip_effects = single_heir_succession_law
+				add_realm_law_skip_effects = male_only_law
+			}
+		}
+		character:8100203 ?= { # Lesotho (monarchy)
+			if = {
+				limit = { is_ruler = yes }
+				culture = { add_innovation = innovation_primogeniture }
+				add_realm_law_skip_effects = single_heir_succession_law
+				add_realm_law_skip_effects = male_only_law
+			}
+		}
+		character:8100344 ?= { # eSwatini (monarchy)
+			if = {
+				limit = { is_ruler = yes }
+				culture = { add_innovation = innovation_primogeniture }
+				add_realm_law_skip_effects = single_heir_succession_law
+				add_realm_law_skip_effects = male_only_law
+			}
+		}
+		character:8100723 ?= { # Tonga (monarchy)
+			if = {
+				limit = { is_ruler = yes }
+				culture = { add_innovation = innovation_primogeniture }
+				add_realm_law_skip_effects = single_heir_succession_law
+				add_realm_law_skip_effects = male_preference_law
+			}
+		}
+		character:108435 ?= { # North Korea (hereditary regime)
+			if = {
+				limit = { is_ruler = yes }
+				culture = { add_innovation = innovation_primogeniture }
+				add_realm_law_skip_effects = single_heir_succession_law
+				add_realm_law_skip_effects = male_preference_law
+			}
+		}
+		character:106535 ?= { # Azerbaijan (hereditary regime)
+			if = {
+				limit = { is_ruler = yes }
+				culture = { add_innovation = innovation_primogeniture }
+				add_realm_law_skip_effects = single_heir_succession_law
+				add_realm_law_skip_effects = male_only_law
+			}
+		}
+		character:106805 ?= { # Turkmenistan (hereditary regime)
+			if = {
+				limit = { is_ruler = yes }
+				culture = { add_innovation = innovation_primogeniture }
+				add_realm_law_skip_effects = single_heir_succession_law
+				add_realm_law_skip_effects = male_only_law
+			}
+		}
+		character:107425 ?= { # Tajikistan (hereditary regime)
+			if = {
+				limit = { is_ruler = yes }
+				culture = { add_innovation = innovation_primogeniture }
+				add_realm_law_skip_effects = single_heir_succession_law
+				add_realm_law_skip_effects = male_only_law
+			}
+		}
+		character:106055 ?= { # Eq. Guinea (hereditary regime)
+			if = {
+				limit = { is_ruler = yes }
+				culture = { add_innovation = innovation_primogeniture }
+				add_realm_law_skip_effects = single_heir_succession_law
+				add_realm_law_skip_effects = male_only_law
+			}
+		}
+		character:106085 ?= { # Chad (hereditary regime)
+			if = {
+				limit = { is_ruler = yes }
+				culture = { add_innovation = innovation_primogeniture }
+				add_realm_law_skip_effects = single_heir_succession_law
+				add_realm_law_skip_effects = male_only_law
+			}
+		}
+		character:100515 ?= { # Nicaragua (hereditary regime)
+			if = {
+				limit = { is_ruler = yes }
+				culture = { add_innovation = innovation_primogeniture }
+				add_realm_law_skip_effects = single_heir_succession_law
+				add_realm_law_skip_effects = male_preference_law
+			}
+		}
+		character:105235 ?= { # Togo (hereditary regime)
+			if = {
+				limit = { is_ruler = yes }
+				culture = { add_innovation = innovation_primogeniture }
+				add_realm_law_skip_effects = single_heir_succession_law
+				add_realm_law_skip_effects = male_only_law
+			}
+		}
+		character:8100900 ?= { # United States of America (democracy)
+			if = {
+				limit = { is_ruler = yes }
+				add_realm_law_skip_effects = equal_law
+				primary_title = { set_variable = { name = can_keep_realm_law value = flag:equal_law } }
+			}
+		}
+		character:101675 ?= { # Brazil (democracy)
+			if = {
+				limit = { is_ruler = yes }
+				add_realm_law_skip_effects = equal_law
+				primary_title = { set_variable = { name = can_keep_realm_law value = flag:equal_law } }
+			}
+		}
+		character:108215 ?= { # India (democracy)
+			if = {
+				limit = { is_ruler = yes }
+				add_realm_law_skip_effects = equal_law
+				primary_title = { set_variable = { name = can_keep_realm_law value = flag:equal_law } }
+			}
+		}
+		character:103175 ?= { # Canada (democracy)
+			if = {
+				limit = { is_ruler = yes }
+				add_realm_law_skip_effects = equal_law
+				primary_title = { set_variable = { name = can_keep_realm_law value = flag:equal_law } }
+			}
+		}
+		character:110065 ?= { # Indonesia (democracy)
+			if = {
+				limit = { is_ruler = yes }
+				add_realm_law_skip_effects = equal_law
+				primary_title = { set_variable = { name = can_keep_realm_law value = flag:equal_law } }
+			}
+		}
+		character:101315 ?= { # Mexico (democracy)
+			if = {
+				limit = { is_ruler = yes }
+				add_realm_law_skip_effects = equal_law
+				primary_title = { set_variable = { name = can_keep_realm_law value = flag:equal_law } }
+			}
+		}
+		character:110645 ?= { # Australia (democracy)
+			if = {
+				limit = { is_ruler = yes }
+				add_realm_law_skip_effects = equal_law
+				primary_title = { set_variable = { name = can_keep_realm_law value = flag:equal_law } }
+			}
+		}
+		character:105725 ?= { # Nigeria (democracy)
+			if = {
+				limit = { is_ruler = yes }
+				add_realm_law_skip_effects = equal_law
+				primary_title = { set_variable = { name = can_keep_realm_law value = flag:equal_law } }
+			}
+		}
+		character:107735 ?= { # Pakistan (democracy)
+			if = {
+				limit = { is_ruler = yes }
+				add_realm_law_skip_effects = equal_law
+				primary_title = { set_variable = { name = can_keep_realm_law value = flag:equal_law } }
+			}
+		}
+		character:100315 ?= { # Argentina (democracy)
+			if = {
+				limit = { is_ruler = yes }
+				add_realm_law_skip_effects = equal_law
+				primary_title = { set_variable = { name = can_keep_realm_law value = flag:equal_law } }
+			}
+		}
+		character:100825 ?= { # Colombia (democracy)
+			if = {
+				limit = { is_ruler = yes }
+				add_realm_law_skip_effects = equal_law
+				primary_title = { set_variable = { name = can_keep_realm_law value = flag:equal_law } }
+			}
+		}
+		character:107505 ?= { # South Africa (democracy)
+			if = {
+				limit = { is_ruler = yes }
+				add_realm_law_skip_effects = equal_law
+				primary_title = { set_variable = { name = can_keep_realm_law value = flag:equal_law } }
+			}
+		}
+		character:105115 ?= { # France (democracy)
+			if = {
+				limit = { is_ruler = yes }
+				add_realm_law_skip_effects = equal_law
+				primary_title = { set_variable = { name = can_keep_realm_law value = flag:equal_law } }
+			}
+		}
+		character:106045 ?= { # Turkey (democracy)
+			if = {
+				limit = { is_ruler = yes }
+				add_realm_law_skip_effects = equal_law
+				primary_title = { set_variable = { name = can_keep_realm_law value = flag:equal_law } }
+			}
+		}
+		character:8100047 ?= { # Germany (democracy)
+			if = {
+				limit = { is_ruler = yes }
+				add_realm_law_skip_effects = equal_law
+				primary_title = { set_variable = { name = can_keep_realm_law value = flag:equal_law } }
+			}
+		}
+		character:100135 ?= { # Peru (democracy)
+			if = {
+				limit = { is_ruler = yes }
+				add_realm_law_skip_effects = equal_law
+				primary_title = { set_variable = { name = can_keep_realm_law value = flag:equal_law } }
+			}
+		}
+		character:8100197 ?= { # Ukraine (democracy)
+			if = {
+				limit = { is_ruler = yes }
+				add_realm_law_skip_effects = equal_law
+				primary_title = { set_variable = { name = can_keep_realm_law value = flag:equal_law } }
+			}
+		}
+		character:105545 ?= { # Italy (democracy)
+			if = {
+				limit = { is_ruler = yes }
+				add_realm_law_skip_effects = equal_law
+				primary_title = { set_variable = { name = can_keep_realm_law value = flag:equal_law } }
+			}
+		}
+		character:100115 ?= { # Chile (democracy)
+			if = {
+				limit = { is_ruler = yes }
+				add_realm_law_skip_effects = equal_law
+				primary_title = { set_variable = { name = can_keep_realm_law value = flag:equal_law } }
+			}
+		}
+		character:107365 ?= { # Kenya (democracy)
+			if = {
+				limit = { is_ruler = yes }
+				add_realm_law_skip_effects = equal_law
+				primary_title = { set_variable = { name = can_keep_realm_law value = flag:equal_law } }
+			}
+		}
+		character:8100381 ?= { # Poland (democracy)
+			if = {
+				limit = { is_ruler = yes }
+				add_realm_law_skip_effects = equal_law
+				primary_title = { set_variable = { name = can_keep_realm_law value = flag:equal_law } }
+			}
+		}
+		character:108645 ?= { # Bangladesh (democracy)
+			if = {
+				limit = { is_ruler = yes }
+				add_realm_law_skip_effects = equal_law
+				primary_title = { set_variable = { name = can_keep_realm_law value = flag:equal_law } }
+			}
+		}
+		character:100755 ?= { # Bolivia (democracy)
+			if = {
+				limit = { is_ruler = yes }
+				add_realm_law_skip_effects = equal_law
+				primary_title = { set_variable = { name = can_keep_realm_law value = flag:equal_law } }
+			}
+		}
+		character:100095 ?= { # Ecuador (democracy)
+			if = {
+				limit = { is_ruler = yes }
+				add_realm_law_skip_effects = equal_law
+				primary_title = { set_variable = { name = can_keep_realm_law value = flag:equal_law } }
+			}
+		}
+		character:104875 ?= { # Ghana (democracy)
+			if = {
+				limit = { is_ruler = yes }
+				add_realm_law_skip_effects = equal_law
+				primary_title = { set_variable = { name = can_keep_realm_law value = flag:equal_law } }
+			}
+		}
+		character:8100060 ?= { # Romania (democracy)
+			if = {
+				limit = { is_ruler = yes }
+				add_realm_law_skip_effects = equal_law
+				primary_title = { set_variable = { name = can_keep_realm_law value = flag:equal_law } }
+			}
+		}
+		character:104475 ?= { # Finland (democracy)
+			if = {
+				limit = { is_ruler = yes }
+				add_realm_law_skip_effects = equal_law
+				primary_title = { set_variable = { name = can_keep_realm_law value = flag:equal_law } }
+			}
+		}
+		character:105975 ?= { # Greece (democracy)
+			if = {
+				limit = { is_ruler = yes }
+				add_realm_law_skip_effects = equal_law
+				primary_title = { set_variable = { name = can_keep_realm_law value = flag:equal_law } }
+			}
+		}
+		character:109355 ?= { # Philippines (democracy)
+			if = {
+				limit = { is_ruler = yes }
+				add_realm_law_skip_effects = equal_law
+				primary_title = { set_variable = { name = can_keep_realm_law value = flag:equal_law } }
+			}
+		}
+		character:104045 ?= { # Senegal (democracy)
+			if = {
+				limit = { is_ruler = yes }
+				add_realm_law_skip_effects = equal_law
+				primary_title = { set_variable = { name = can_keep_realm_law value = flag:equal_law } }
+			}
+		}
+		character:107595 ?= { # Zambia (democracy)
+			if = {
+				limit = { is_ruler = yes }
+				add_realm_law_skip_effects = equal_law
+				primary_title = { set_variable = { name = can_keep_realm_law value = flag:equal_law } }
+			}
+		}
+		character:104565 ?= { # Ireland (democracy)
+			if = {
+				limit = { is_ruler = yes }
+				add_realm_law_skip_effects = equal_law
+				primary_title = { set_variable = { name = can_keep_realm_law value = flag:equal_law } }
+			}
+		}
+		character:8100061 ?= { # Hungary (democracy)
+			if = {
+				limit = { is_ruler = yes }
+				add_realm_law_skip_effects = equal_law
+				primary_title = { set_variable = { name = can_keep_realm_law value = flag:equal_law } }
+			}
+		}
+		character:8100337 ?= { # Bulgaria (democracy)
+			if = {
+				limit = { is_ruler = yes }
+				add_realm_law_skip_effects = equal_law
+				primary_title = { set_variable = { name = can_keep_realm_law value = flag:equal_law } }
+			}
+		}
+		character:8100348 ?= { # Taiwan (democracy)
+			if = {
+				limit = { is_ruler = yes }
+				add_realm_law_skip_effects = equal_law
+				primary_title = { set_variable = { name = can_keep_realm_law value = flag:equal_law } }
+			}
+		}
+		character:8100119 ?= { # Guatemala (democracy)
+			if = {
+				limit = { is_ruler = yes }
+				add_realm_law_skip_effects = equal_law
+				primary_title = { set_variable = { name = can_keep_realm_law value = flag:equal_law } }
+			}
+		}
+		character:100705 ?= { # Honduras (democracy)
+			if = {
+				limit = { is_ruler = yes }
+				add_realm_law_skip_effects = equal_law
+				primary_title = { set_variable = { name = can_keep_realm_law value = flag:equal_law } }
+			}
+		}
+		character:107135 ?= { # Namibia (democracy)
+			if = {
+				limit = { is_ruler = yes }
+				add_realm_law_skip_effects = equal_law
+				primary_title = { set_variable = { name = can_keep_realm_law value = flag:equal_law } }
+			}
+		}
+		character:110505 ?= { # New Zealand (democracy)
+			if = {
+				limit = { is_ruler = yes }
+				add_realm_law_skip_effects = equal_law
+				primary_title = { set_variable = { name = can_keep_realm_law value = flag:equal_law } }
+			}
+		}
+		character:109175 ?= { # Sri Lanka (democracy)
+			if = {
+				limit = { is_ruler = yes }
+				add_realm_law_skip_effects = equal_law
+				primary_title = { set_variable = { name = can_keep_realm_law value = flag:equal_law } }
+			}
+		}
+		character:102215 ?= { # Suriname (democracy)
+			if = {
+				limit = { is_ruler = yes }
+				add_realm_law_skip_effects = equal_law
+				primary_title = { set_variable = { name = can_keep_realm_law value = flag:equal_law } }
+			}
+		}
+		character:107255 ?= { # Somaliland (democracy)
+			if = {
+				limit = { is_ruler = yes }
+				add_realm_law_skip_effects = equal_law
+				primary_title = { set_variable = { name = can_keep_realm_law value = flag:equal_law } }
+			}
+		}
+		character:104455 ?= { # Portugal (democracy)
+			if = {
+				limit = { is_ruler = yes }
+				add_realm_law_skip_effects = equal_law
+				primary_title = { set_variable = { name = can_keep_realm_law value = flag:equal_law } }
+			}
+		}
+		character:105745 ?= { # Slovakia (democracy)
+			if = {
+				limit = { is_ruler = yes }
+				add_realm_law_skip_effects = equal_law
+				primary_title = { set_variable = { name = can_keep_realm_law value = flag:equal_law } }
+			}
+		}
+		character:8100019 ?= { # Paraguay (democracy)
+			if = {
+				limit = { is_ruler = yes }
+				add_realm_law_skip_effects = equal_law
+				primary_title = { set_variable = { name = can_keep_realm_law value = flag:equal_law } }
+			}
+		}
+		character:104315 ?= { # Iceland (democracy)
+			if = {
+				limit = { is_ruler = yes }
+				add_realm_law_skip_effects = equal_law
+				primary_title = { set_variable = { name = can_keep_realm_law value = flag:equal_law } }
+			}
+		}
+		character:103925 ?= { # GRL (democracy)
+			if = {
+				limit = { is_ruler = yes }
+				add_realm_law_skip_effects = equal_law
+				primary_title = { set_variable = { name = can_keep_realm_law value = flag:equal_law } }
+			}
+		}
+	}
+}

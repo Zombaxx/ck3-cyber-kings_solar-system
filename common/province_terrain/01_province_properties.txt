@@ -9351,5 +9351,38 @@
 9526 = { winter_severity_bias = 0.0 }   # hot
 9527 = { winter_severity_bias = 0.0 }   # hot
 9528 = { winter_severity_bias = 0.0 }   # hot
-9529 = { winter_severity_bias = 0.0 }   # hot
-9530 = { winter_severity_bias = 0.0 }   # hot
+9529 = { winter_severity_bias = 0.5 }   # e76 copy of 3142
+9530 = { winter_severity_bias = 0.5 }   # e76 copy of 3142
+9531 = { winter_severity_bias = 0.5 }   # e76 copy of 535
+9532 = { winter_severity_bias = 0.5 }   # e76 copy of 535
+9533 = { winter_severity_bias = 0.5 }   # e76 copy of 535
+9534 = { winter_severity_bias = 0.5 }   # e76 copy of 535
+9535 = { winter_severity_bias = 0.2 }   # e76 copy of 2574
+9536 = { winter_severity_bias = 0.0 }   # 2026-11-12 copy of 9506 Depok
+9537 = { winter_severity_bias = 0.0 }   # e82 copy of 8476
+9538 = { winter_severity_bias = 0.0 }   # e82 copy of 8476
+9539 = { winter_severity_bias = 0.0 }   # e82 copy of 8476
+9540 = { winter_severity_bias = 0.0 }   # e82 copy of 8476
+9541 = { winter_severity_bias = 0.0 }   # e82 copy of 692
+9542 = { winter_severity_bias = 0.0 }   # e82 copy of 692
+9543 = { winter_severity_bias = 0.0 }   # e82 copy of 8534
+9544 = { winter_severity_bias = 0.0 }   # e82 copy of 8534
+9545 = { winter_severity_bias = 0.0 }   # e82 copy of 3467
+9546 = { winter_severity_bias = 0.0 }   # e82 copy of 643
+9547 = { winter_severity_bias = 0.0 }   # e82 copy of 677
+9548 = { winter_severity_bias = 0.0 }   # e82 copy of 677
+9549 = { winter_severity_bias = 0.0 }   # e82 copy of 2544
+9550 = { winter_severity_bias = 0.0 }   # e82 copy of 8393
+9551 = { winter_severity_bias = 0.0 }   # e82 copy of 8393
+9552 = { winter_severity_bias = 0.0 }   # e82 copy of 8393
+9553 = { winter_severity_bias = 0.0 }   # e82 copy of 8394
+9554 = { winter_severity_bias = 0.0 }   # e82 copy of 8394
+9555 = { winter_severity_bias = 0.0 }   # e82 copy of 8395
+9556 = { winter_severity_bias = 0.0 }   # e82 copy of 3366
+9557 = { winter_severity_bias = 0.0 }   # e82 copy of 3366
+9558 = { winter_severity_bias = 0.0 }   # e82 copy of 3366
+9559 = { winter_severity_bias = 0.0 }   # e82 copy of 8491
+9560 = { winter_severity_bias = 0.0 }   # e82 copy of 2950
+9561 = { winter_severity_bias = 0.0 }   # e82 copy of 762
+9562 = { winter_severity_bias = 0.0 }   # e82 copy of 762
+9563 = { winter_severity_bias = 0.9 }   # e82 copy of 2457

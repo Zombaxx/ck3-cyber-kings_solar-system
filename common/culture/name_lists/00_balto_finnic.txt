@@ -1,0 +1,273 @@
+﻿name_list_finnish = {
+	# e74 modern list (W1 Finland 2025; W2 Finland; K)
+	cadet_dynasty_names = {
+		dynn_cy_Korhonen dynn_cy_Virtanen dynn_cy_Makinen dynn_cy_Nieminen dynn_cy_Makela dynn_cy_Hamalainen dynn_cy_Laine dynn_cy_Heikkinen dynn_cy_Koskinen dynn_cy_Jarvinen dynn_cy_Lehtonen dynn_cy_Lehtinen
+		dynn_cy_Saarinen dynn_cy_Salminen dynn_cy_Heinonen dynn_cy_Niemi dynn_cy_Heikkila dynn_cy_Kinnunen dynn_cy_Salonen dynn_cy_Turunen dynn_cy_Salo dynn_cy_Laitinen dynn_cy_Tuominen dynn_cy_Rantanen
+		dynn_cy_Karjalainen dynn_cy_Jokinen dynn_cy_Mattila dynn_cy_Savolainen dynn_cy_Lahtinen dynn_cy_Ahonen dynn_cy_Hiltunen dynn_cy_Leinonen dynn_cy_Miettinen dynn_cy_Hirvonen dynn_cy_Lindholm dynn_cy_Johansson
+		dynn_cy_Nyman dynn_cy_Vaisanen dynn_cy_Pitkanen dynn_cy_Aaltonen
+	}
+	dynasty_names = {
+		dynn_cy_Korhonen dynn_cy_Virtanen dynn_cy_Makinen dynn_cy_Nieminen dynn_cy_Makela dynn_cy_Hamalainen dynn_cy_Laine dynn_cy_Heikkinen dynn_cy_Koskinen dynn_cy_Jarvinen dynn_cy_Lehtonen dynn_cy_Lehtinen
+		dynn_cy_Saarinen dynn_cy_Salminen dynn_cy_Heinonen dynn_cy_Niemi dynn_cy_Heikkila dynn_cy_Kinnunen dynn_cy_Salonen dynn_cy_Turunen dynn_cy_Salo dynn_cy_Laitinen dynn_cy_Tuominen dynn_cy_Rantanen
+		dynn_cy_Karjalainen dynn_cy_Jokinen dynn_cy_Mattila dynn_cy_Savolainen dynn_cy_Lahtinen dynn_cy_Ahonen dynn_cy_Hiltunen dynn_cy_Leinonen dynn_cy_Miettinen dynn_cy_Hirvonen dynn_cy_Lindholm dynn_cy_Johansson
+		dynn_cy_Nyman dynn_cy_Vaisanen dynn_cy_Pitkanen dynn_cy_Aaltonen
+	}
+	male_names = {
+		cyn_Eino cyn_Leo cyn_Elias cyn_Vaino cyn_Oliver cyn_Onni cyn_Emil cyn_Alvar cyn_Oiva cyn_Aatos cyn_Eeli cyn_Toivo
+		cyn_Leevi cyn_Vilho cyn_Lenni cyn_Niilo cyn_Veeti cyn_Aaro cyn_Hugo cyn_Lauri cyn_Juha cyn_Timo cyn_Matti cyn_Kari
+		cyn_Mikko cyn_Jari cyn_Antti cyn_Jukka cyn_Mika cyn_Markku cyn_Pekka cyn_Hannu cyn_Heikki cyn_Petri cyn_Janne cyn_Ville
+		cyn_Tuomas cyn_Sami cyn_Juho cyn_Teemu cyn_Olli cyn_Joonas
+	}
+	female_names = {
+		cyn_Olivia cyn_Linnea cyn_Aino cyn_Viola cyn_Aava cyn_Lilja cyn_Sofia cyn_Aada cyn_Eevi cyn_Isla cyn_Helmi cyn_Venla
+		cyn_Ella cyn_Kerttu cyn_Lumi cyn_Enni cyn_Pihla cyn_Hilla cyn_Siiri cyn_Emma cyn_Anna cyn_Maria cyn_Liisa cyn_Tuula
+		cyn_Anne cyn_Paivi cyn_Sari cyn_Kaisa cyn_Tiina cyn_Pirjo cyn_Leena cyn_Riitta cyn_Merja cyn_Minna cyn_Johanna cyn_Laura
+		cyn_Heidi cyn_Elina cyn_Susanna cyn_Katja cyn_Hanna cyn_Satu
+	}
+	dynasty_of_location_prefix = "dynnp_of"
+}
+name_list_sami = {
+
+	cadet_dynasty_names = {
+		"dynn_Ahkebeaivi"
+		"dynn_Ahkemiella"
+		"dynn_GA_ivvaS_"
+		"dynn_Varakid"
+		"dynn_Sarakid"
+		"dynn_Hasabid"
+		"dynn_Tatvid"
+		"dynn_Yurakid"
+		"dynn_Jio"
+		"dynn_Simo"
+		"dynn_Kuni"
+		"dynn_Rahna"
+		"dynn_Sochioch"
+		"dynn_Jochmoch"
+		"dynn_Avioware"
+		"dynn_Enare"
+		"dynn_Enaraby"
+		"dynn_Kimi"
+		"dynn_Suenekelle"
+		"dynn_Warager"
+		"dynn_Teno"
+		"dynn_Maggeroe"
+		"dynn_Kittilaby"
+		"dynn_Sambeaoby"
+		"dynn_Pajersvi"
+		"dynn_Kielit"
+		"dynn_Kemeloe"
+	}
+
+	dynasty_names = {
+		"dynn_Ahkebeaivi"
+		"dynn_Ahkemiella"
+		"dynn_GA_ivvaS_"
+		"dynn_Varakid"
+		"dynn_Sarakid"
+		"dynn_Hasabid"
+		"dynn_Tatvid"
+		"dynn_Yurakid"
+		"dynn_Jio"
+		"dynn_Simo"
+		"dynn_Kuni"
+		"dynn_Rahna"
+		"dynn_Sochioch"
+		"dynn_Jochmoch"
+		"dynn_Avioware"
+		"dynn_Enare"
+		"dynn_Enaraby"
+		"dynn_Kimi"
+		"dynn_Suenekelle"
+		"dynn_Warager"
+		"dynn_Teno"
+		"dynn_Maggeroe"
+		"dynn_Kittilaby"
+		"dynn_Sambeaoby"
+		"dynn_Pajersvi"
+		"dynn_Kielit"
+		"dynn_Kemeloe"
+	}
+	
+	male_names = {
+		A_ggi A_igesA_rri A_ilu A_mmot A_ra A_rrajuoksa A_sllat E_oavvA_ Ahkemiella Algebaeivi Baeivi Baeivvet Biejan BijA_s Bilzi DA_vgon DuttA_ GA_ivvas
+		GA_ktu Henes JA_rre Jeansa Juvven LA_gon LA_vrrohas LeammA_ Mellet Mihka Mohkku Mokci NA_hkol NA_innas Njulgu OavA_n Orddot RA_stos Riibma Ruigi
+		SA_rra Speaidna Viggu
+	}
+	female_names = {
+		A_idnA_ A_lgen A_llet E_uvje BiellA_ BiergA_ BuohttA_ DuojA_ GealA_ GierA_ Giste JuoksA_hkkA_ Leandu MA_idna NA_sti NanA_ NjA_ves OajA_ SA_rA_hkkA_ SealggA_
+		SearA_ SoabA_ SojA_ SuoinnA_ Suonjar UksA_hkkA_
+	}
+	dynasty_of_location_prefix = "dynnp_of"
+
+	
+}
+name_list_estonian = {
+	# e74 modern list (W1 Estonia 2021-24; W2 Estonia; K)
+	cadet_dynasty_names = {
+		dynn_cy_Tamm dynn_cy_Saar dynn_cy_Sepp dynn_cy_Magi dynn_cy_Kask dynn_cy_Kukk dynn_cy_Rebane dynn_cy_Ilves dynn_cy_Parn dynn_cy_Koppel dynn_cy_Lepik dynn_cy_Kuusk
+		dynn_cy_Karu dynn_cy_Lohmus dynn_cy_Kallas dynn_cy_Mets dynn_cy_Ots dynn_cy_Raudsepp dynn_cy_Vaher dynn_cy_Poder dynn_cy_Lepp dynn_cy_Kivi dynn_cy_Teder dynn_cy_Jogi
+		dynn_cy_Laur dynn_cy_Luik dynn_cy_Kangur dynn_cy_Kutt dynn_cy_Tonisson dynn_cy_Lill
+	}
+	dynasty_names = {
+		dynn_cy_Tamm dynn_cy_Saar dynn_cy_Sepp dynn_cy_Magi dynn_cy_Kask dynn_cy_Kukk dynn_cy_Rebane dynn_cy_Ilves dynn_cy_Parn dynn_cy_Koppel dynn_cy_Lepik dynn_cy_Kuusk
+		dynn_cy_Karu dynn_cy_Lohmus dynn_cy_Kallas dynn_cy_Mets dynn_cy_Ots dynn_cy_Raudsepp dynn_cy_Vaher dynn_cy_Poder dynn_cy_Lepp dynn_cy_Kivi dynn_cy_Teder dynn_cy_Jogi
+		dynn_cy_Laur dynn_cy_Luik dynn_cy_Kangur dynn_cy_Kutt dynn_cy_Tonisson dynn_cy_Lill
+	}
+	male_names = {
+		cyn_Mark cyn_Robin cyn_Hugo cyn_Sebastian cyn_Oliver cyn_Oskar cyn_Miron cyn_Aron cyn_David cyn_Rasmus cyn_Romet cyn_Kristjan_f9b9
+		cyn_Martin cyn_Andres_27d2 cyn_Jaan cyn_Toomas cyn_Peeter cyn_Tonu cyn_Margus cyn_Aivar cyn_Rein cyn_Indrek cyn_Priit cyn_Urmas
+		cyn_Meelis cyn_Tarmo cyn_Siim cyn_Karl cyn_Mihkel cyn_Henri cyn_Kaspar cyn_Markus cyn_Joosep cyn_Uku
+	}
+	female_names = {
+		cyn_Sofia cyn_Mia cyn_Eva cyn_Emma cyn_Emilia cyn_Lenna cyn_Olivia cyn_Nora cyn_Emily cyn_Amelia cyn_Maria cyn_Liis
+		cyn_Kadri cyn_Kati cyn_Kristiina cyn_Mari cyn_Piret cyn_Tiina cyn_Ene cyn_Sirje cyn_Malle cyn_Tiiu cyn_Anne cyn_Helen
+		cyn_Kertu cyn_Laura cyn_Kristel cyn_Triin cyn_Getter cyn_Hanna cyn_Grete cyn_Marta cyn_Elisabeth
+	}
+	dynasty_of_location_prefix = "dynnp_kohta"
+}
+name_list_karelian = {
+
+	cadet_dynasty_names = {
+		"dynn_Kirjala"
+		"dynn_Lagoda"
+		"dynn_Vuoksi"
+		"dynn_Kemeloe"
+		"dynn_Kovoda"
+		"dynn_Soute"
+		"dynn_Maselke"
+		"dynn_Salotisa"
+		"dynn_Kielit"
+		"dynn_Solosti"
+		"dynn_Anser"
+		"dynn_Vingeli"
+		"dynn_Engo"
+		"dynn_Vango"
+		"dynn_Kumo"
+		"dynn_Kuyto"
+	}
+
+	dynasty_names = {
+		"dynn_Kirjala"
+		"dynn_Lagoda"
+		"dynn_Vuoksi"
+		"dynn_Kemeloe"
+		"dynn_Kovoda"
+		"dynn_Soute"
+		"dynn_Maselke"
+		"dynn_Salotisa"
+		"dynn_Kielit"
+		"dynn_Solosti"
+		"dynn_Anser"
+		"dynn_Vingeli"
+		"dynn_Engo"
+		"dynn_Vango"
+		"dynn_Kumo"
+		"dynn_Kuyto"
+	}
+	
+	male_names = {
+		Agafana Akkila Aleksanteri Alestari Antippa Arhippa Arssi Arttju Borissa Buklei Djemi Domentei Dorofei
+		Everkki Fadei Fedotta Fedula Feudora Filatkie Grigo Harle Hermo Heroi Hilippa Hilppa Homa Hotti Huohvana
+		Ignoi Ipatti Iroda Jehki Jelisei Jemi Jermei Jormoi Jestoi Jeuloi Jeygi Jeyssi Johora Jyrki Karppa
+		Kassu Kibroi KirilA_ Kondro Konoi Kormi Kostja Kuisma KyyrO_ Lari Lauri Lemetti Levoi Luka
+		Makko Maksima Manu Markki Martiska Miina Miitrei MikittA_ Miikkula Mirona Mitfora Mokki Moissi
+		Naasarei Nikolai Niikko Ofonja Oleksandra Oleksi Omeli Omelja Ondrei Onu Onni Ontto Oudokka
+		Pamfila Pankko Pankraatei Pantelei Parmoi Pauli Pedri PiminA_ Pirdoi Porfi Potoi Potto Prokka Prokki Puahko Poavila Puavila PA_ntti
+		Rodi Romana Savina Savastei Savasti Siila SiitA_ri Sisoi Sohro Sosoi Suava Stjoppi
+		Tarassi Teppana Tero Tiihpo Tiita Timoi Toro Triihvo Ulaska Ulljoi Usti Vakko Valassi Vaslei Veledi Vihtora Vuavila Zakki
+	}
+	female_names = {
+		Ahri Akilina Aleksandra Alla Anna Anni Anastasia Antonia Barbara Daria Darja Domna Eeva Ester Eudokia Faina Helena Hilaria Houri
+		Irene Irinja Iro Jeli Jeygi Johanna Jougi Julia Juliana Kapitolina Katja Katri Klaudia Kristina Ksenia
+		Larissa Lea Ludmila Lyydia Malanja Marfa Maria Marppa Mateli Matjoi Matrona Maura Mirjam Muarie Nasti Nastoi Natalia Niina
+		Ofimja Ogoi Okahvie Oksenja Okuli Olga Olena Opri Oppo Outi Palaga Paraskeva Paroi Paula Pelagia Raakel Raisa Rebekka Ruuth
+		Saara Serafima Sinaida Soloi Sofja Sofia Taisa Toarie Tshikki Valentina Valeria Varvoi Vassa Veera Zoja
+	}
+	dynasty_of_location_prefix = "dynnp_of"
+
+	
+}
+name_list_vepsian = {
+
+	cadet_dynasty_names = {
+		"dynn_Sheksna"
+		"dynn_Suda"
+		"dynn_Syas"
+		"dynn_Vasin"
+		"dynn_Onega"
+		"dynn_Vaga"
+		"dynn_Kodmin"
+		"dynn_Yaga"
+		"dynn_Kurees"
+		"dynn_Nikissima"
+		"dynn_Pudoa"
+		"dynn_Ziranni"
+		"dynn_Pesoesna"
+		"dynn_Veislena"
+		"dynn_Yisogda"
+		"dynn_Pitsa"
+		"dynn_Usga"
+		"dynn_Chasim"
+		"dynn_Peelsina"
+		"dynn_Kneesma"
+		"dynn_Kadomo"
+		"dynn_Poosa"
+		"dynn_Neem"
+		"dynn_Yensu"
+		"dynn_Ulsui"
+		"dynn_Ussa"
+		"dynn_Velva"
+	}
+
+	dynasty_names = {
+		"dynn_Sheksna"
+		"dynn_Suda"
+		"dynn_Syas"
+		"dynn_Vasin"
+		"dynn_Onega"
+		"dynn_Vaga"
+		"dynn_Kodmin"
+		"dynn_Yaga"
+		"dynn_Kurees"
+		"dynn_Nikissima"
+		"dynn_Pudoa"
+		"dynn_Ziranni"
+		"dynn_Pesoesna"
+		"dynn_Veislena"
+		"dynn_Yisogda"
+		"dynn_Pitsa"
+		"dynn_Usga"
+		"dynn_Chasim"
+		"dynn_Peelsina"
+		"dynn_Kneesma"
+		"dynn_Kadomo"
+		"dynn_Poosa"
+		"dynn_Neem"
+		"dynn_Yensu"
+		"dynn_Ulsui"
+		"dynn_Ussa"
+		"dynn_Velva"
+	}
+
+	male_names = {
+		Agafana Akkila Aleksanteri Alestari Antippa Arhippa Arssi Arttju Borissa Buklei Djemi Domentei Dorofei
+		Everkki Fadei Fedotta Fedula Feudora Filatkie Grigo Harle Hermo Heroi Hilippa Hilppa Homa Hotti Huohvana
+		Ignoi Ipatti Iroda Jehki Jelisei Jemi Jermei Jormoi Jestoi Jeuloi Jeygi Jeyssi Johora Jyrki Karppa
+		Kassu Kibroi KirilA_ Kondro Konoi Kormi Kostja Kuisma KyyrO_ Lari Lauri Lemetti Levoi Luka
+		Makko Maksima Manu Markki Martiska Miina Miitrei MikittA_ Miikkula Mirona Mitfora Mokki Moissi
+		Naasarei Nikolai Niikko Ofonja Oleksandra Oleksi Omeli Omelja Ondrei Onu Onni Ontto Oudokka
+		Pamfila Pankko Pankraatei Pantelei Parmoi Pauli Pedri PiminA_ Pirdoi Porfi Potoi Potto Prokka Prokki Puahko Poavila Puavila PA_ntti
+		Rodi Romana Savina Savastei Savasti Siila SiitA_ri Sisoi Sohro Sosoi Suava Stjoppi
+		Tarassi Teppana Tero Tiihpo Tiita Timoi Toro Triihvo Ulaska Ulljoi Usti Vakko Valassi Vaslei Veledi Vihtora Vuavila Zakki
+	}
+	female_names = {
+		Ahri Akilina Aleksandra Alla Anna Anni Anastasia Antonia Barbara Daria Darja Domna Eeva Ester Eudokia Faina Helena Hilaria Houri
+		Irene Irinja Iro Jeli Jeygi Johanna Jougi Julia Juliana Kapitolina Katja Katri Klaudia Kristina Ksenia
+		Larissa Lea Ludmila Lyydia Malanja Marfa Maria Marppa Mateli Matjoi Matrona Maura Mirjam Muarie Nasti Nastoi Natalia Niina
+		Ofimja Ogoi Okahvie Oksenja Okuli Olga Olena Opri Oppo Outi Palaga Paraskeva Paroi Paula Pelagia Raakel Raisa Rebekka Ruuth
+		Saara Serafima Sinaida Soloi Sofja Sofia Taisa Toarie Tshikki Valentina Valeria Varvoi Vassa Veera Zoja
+	}
+	dynasty_of_location_prefix = "dynnp_of"
+
+	
+}

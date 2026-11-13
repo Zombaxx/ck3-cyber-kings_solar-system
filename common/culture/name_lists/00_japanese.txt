@@ -1,0 +1,260 @@
+﻿name_list_yamato = {
+	# e74 modern list (W1 Japan 2025 (Benesse, Meiji Yasuda); W2 Japan; K (adult names))
+	cadet_dynasty_names = {
+		dynn_cy_Sato dynn_cy_Suzuki dynn_cy_Takahashi dynn_cy_Tanaka dynn_cy_Watanabe dynn_cy_Ito dynn_cy_Nakamura dynn_cy_Kobayashi dynn_cy_Yamamoto dynn_cy_Kato dynn_cy_Yoshida dynn_cy_Yamada
+		dynn_cy_Sasaki dynn_cy_Yamaguchi dynn_cy_Matsumoto dynn_cy_Inoue dynn_cy_Kimura dynn_cy_Hayashi dynn_cy_Shimizu dynn_cy_Yamazaki dynn_cy_Mori dynn_cy_Abe dynn_cy_Ikeda dynn_cy_Hashimoto
+		dynn_cy_Yamashita dynn_cy_Ishikawa dynn_cy_Nakajima dynn_cy_Maeda dynn_cy_Fujita dynn_cy_Ogawa dynn_cy_Goto dynn_cy_Okada dynn_cy_Hasegawa dynn_cy_Murakami dynn_cy_Kondo dynn_cy_Ishii
+		dynn_cy_Saito dynn_cy_Sakamoto dynn_cy_Endo dynn_cy_Aoki dynn_cy_Fujii dynn_cy_Nishimura dynn_cy_Fukuda dynn_cy_Ota dynn_cy_Miura dynn_cy_Okamoto dynn_cy_Matsuda dynn_cy_Nakagawa
+		dynn_cy_Nakano dynn_cy_Harada
+	}
+	dynasty_names = {
+		dynn_cy_Sato dynn_cy_Suzuki dynn_cy_Takahashi dynn_cy_Tanaka dynn_cy_Watanabe dynn_cy_Ito dynn_cy_Nakamura dynn_cy_Kobayashi dynn_cy_Yamamoto dynn_cy_Kato dynn_cy_Yoshida dynn_cy_Yamada
+		dynn_cy_Sasaki dynn_cy_Yamaguchi dynn_cy_Matsumoto dynn_cy_Inoue dynn_cy_Kimura dynn_cy_Hayashi dynn_cy_Shimizu dynn_cy_Yamazaki dynn_cy_Mori dynn_cy_Abe dynn_cy_Ikeda dynn_cy_Hashimoto
+		dynn_cy_Yamashita dynn_cy_Ishikawa dynn_cy_Nakajima dynn_cy_Maeda dynn_cy_Fujita dynn_cy_Ogawa dynn_cy_Goto dynn_cy_Okada dynn_cy_Hasegawa dynn_cy_Murakami dynn_cy_Kondo dynn_cy_Ishii
+		dynn_cy_Saito dynn_cy_Sakamoto dynn_cy_Endo dynn_cy_Aoki dynn_cy_Fujii dynn_cy_Nishimura dynn_cy_Fukuda dynn_cy_Ota dynn_cy_Miura dynn_cy_Okamoto dynn_cy_Matsuda dynn_cy_Nakagawa
+		dynn_cy_Nakano dynn_cy_Harada
+	}
+	male_names = {
+		cyn_Ao cyn_Minato cyn_Haruto cyn_Asahi cyn_Ren cyn_Yuito cyn_Nagi cyn_Haru cyn_Sora cyn_Ritsu cyn_Iori cyn_Yuto
+		cyn_Rui cyn_Saku cyn_Hinata cyn_Riku cyn_Sota cyn_Yamato cyn_Itsuki cyn_Takumi cyn_Hiroshi cyn_Takashi cyn_Akira cyn_Kenji
+		cyn_Makoto cyn_Satoshi cyn_Tetsuya cyn_Daisuke cyn_Kazuki cyn_Shota cyn_Takuya cyn_Naoki cyn_Kenta cyn_Yusuke cyn_Ryota cyn_Shin
+		cyn_Kenichi cyn_Masato cyn_Yoshiaki cyn_Koji cyn_Hideki cyn_Shigeru cyn_Taro cyn_Ichiro cyn_Kaito
+	}
+	female_names = {
+		cyn_Sui cyn_Himari cyn_Rin cyn_Mei cyn_Hina cyn_Aoi cyn_Kotoha cyn_Tsumugi cyn_Yuzuki cyn_Mio cyn_Midori cyn_Mashiro
+		cyn_Koharu cyn_Iroha cyn_Uta cyn_Yuna cyn_Yui cyn_Sakura cyn_Akari cyn_Hana cyn_Emma cyn_Mai cyn_Yuki cyn_Haruka
+		cyn_Ayaka cyn_Misaki cyn_Nanami cyn_Saki cyn_Kana cyn_Rina cyn_Keiko cyn_Yoko cyn_Kazuko cyn_Michiko cyn_Tomoko cyn_Naoko
+		cyn_Yumiko cyn_Mayumi cyn_Kyoko cyn_Akiko cyn_Junko cyn_Megumi cyn_Ai cyn_Nozomi cyn_Kaori
+	}
+	dynasty_of_location_prefix = "dynnp_of"
+	dynasty_name_first = yes
+	pat_grf_name_chance = 0
+	mat_grf_name_chance = 0
+	father_name_chance = 0
+	pat_grm_name_chance = 0
+	mat_grm_name_chance = 0
+	mother_name_chance = 0
+}
+
+name_list_emishi = {
+
+	house_based_map_names = yes
+	dynasty_name_first = yes
+	suggest_family_names = no
+	suggest_ancestor_names = no
+
+	cadet_dynasty_names = {
+		"dynn_Agita"
+		"dynn_Fukae"
+		"dynn_Hei"
+		"dynn_Isawa"
+		"dynn_Iwagu"
+		"dynn_Kazuno"
+		"dynn_Kimikobe"
+		"dynn_Koreharu"
+		"dynn_Michishima"
+		"dynn_Momunofu"
+		"dynn_Nisana"
+		"dynn_Nisattai"
+		"dynn_Nitoroshi"
+		"dynn_Nushiro"
+		"dynn_Nutari"
+		"dynn_Oga"
+		"dynn_Okachi"
+		"dynn_Orashibetsu"
+		"dynn_Osatsu"
+		"dynn_Sarugaeshi"
+		"dynn_Shiwa"
+		"dynn_Tamatsukuri"
+		"dynn_Tamo"
+		"dynn_TO_da"
+		"dynn_TO_tsu_Isawa"
+		"dynn_Tokisara"
+		"dynn_Tokutan"
+		"dynn_Tsumo"
+		"dynn_Tsuwaribetu"
+		"dynn_Ukame"
+		"dynn_Urata"
+		"dynn_Usori"
+		"dynn_Waga"
+	}
+
+	dynasty_names = {
+		"dynn_Agita"
+		"dynn_Fukae"
+		"dynn_Hei"
+		"dynn_Isawa"
+		"dynn_Iwagu"
+		"dynn_Kazuno"
+		"dynn_Kimikobe"
+		"dynn_Koreharu"
+		"dynn_Michishima"
+		"dynn_Momunofu"
+		"dynn_Nisana"
+		"dynn_Nisattai"
+		"dynn_Nitoroshi"
+		"dynn_Nushiro"
+		"dynn_Nutari"
+		"dynn_Oga"
+		"dynn_Okachi"
+		"dynn_Orashibetsu"
+		"dynn_Osatsu"
+		"dynn_Sarugaeshi"
+		"dynn_Shiwa"
+		"dynn_Tamatsukuri"
+		"dynn_Tamo"
+		"dynn_TO_da"
+		"dynn_TO_tsu_Isawa"
+		"dynn_Tokisara"
+		"dynn_Tokutan"
+		"dynn_Tsumo"
+		"dynn_Tsuwaribetu"
+		"dynn_Ukame"
+		"dynn_Urata"
+		"dynn_Usori"
+		"dynn_Waga"
+	}
+
+	male_names = {
+		Afuribe
+		Ahaso Ahito Akeru Akeshi Aketo Anushiko Asamaro Atanamaro Atera Aterui # 阿
+		Akio
+		Aohiru
+		Arashima
+		Ashiyamamori
+		Ayakasu
+		Azamaro
+		Azumahitomaro
+		Dokki
+		Ekimaro
+		Erayu
+		Etako
+		Idemaro
+		Ikako Ikokina Inarimushi Isashiko # 伊
+		Ikashima
+		Ikusamaro
+		Kakenabe
+		Kamoi
+		Kanaori
+		Kanaya
+		Kanemaro
+		Katsumaro
+		Kearui
+		Kiumi
+		Ko_oi
+		Kogane
+		Kohitsuji
+		Komahiru
+		Kuhaji
+		Kunimasu
+		Maho Mamaro # 真
+		Maiko
+		Mamu
+		Masu
+		More Moshi # 母
+		Morokuri
+		Nagako
+		Nagiu
+		O_hafuribe O_kuni O_takamaru O_takemaru O_tate # 大
+		Oga
+		Ohito_2
+		Oihito
+		Okaho
+		Okuie
+		Onga
+		Otoshiro
+		Oyashibe
+		Ozukimaro
+		Rasabe
+		Sakamaru
+		Sakatamaro
+		Sanaguna Saniguna # 沙
+		Satsuko
+		Shiina
+		Shiko_o
+		Shikona
+		Shimako
+		Shiraso
+		Shiriko_omaro
+		Sukunamaro
+		Tachi
+		Takaki_2
+		Takamaru
+		Takemaro
+		Tamaki
+		Tatsumaro
+		Teshina
+		Tohashiko
+		Toshiko_3
+		Tsuhoro Tsuruki # 都
+		Ubasa Ukanu Ukuhau Unako Usomina # 宇
+		Uhona
+		Yamahito
+		Yashiromaro Yasoshima Yatsurina # 八
+		Yoshimaro
+	}
+	female_names = {
+		Akime
+		Aneme
+		Asame
+		Chiyome
+		Hirome
+		Iime
+		Ikeme
+		Imame
+		Iwame
+		Kasame
+		Kazume
+		Kiyome
+		Kunime
+		Kurome
+		Kushime
+		Makime
+		Masume
+		Matarime
+		Menoko
+		Michime
+		Michitarime
+		Momome
+		Morime
+		Morome
+		Mushime
+		Nagame
+		Nakame
+		Okame
+		Otome
+		Otomushime
+		Oyasu
+		Rume
+		Rushime
+		Sadame
+		Shimame
+		Shiome
+		Shirome
+		Sugame
+		Tadame
+		Takakaime Takame
+		Takarime
+		Tojime
+		Tokome
+		Torikaime Torime
+		Toyome
+		Tsugume
+		Ujime
+		Umakaime Umame
+		Ushikaime Ushime
+		Wakame
+		Watame
+		Yakame
+		Yasume
+		Yoneko
+	}
+
+	# Keep names changing
+	pat_grf_name_chance = 0
+	mat_grf_name_chance = 0
+	father_name_chance = 0
+	pat_grm_name_chance = 0
+	mat_grm_name_chance = 0
+	mother_name_chance = 0
+}

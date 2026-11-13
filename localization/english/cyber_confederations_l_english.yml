@@ -1,3 +1,7 @@
 ﻿l_english:
  confederation_type_commonwealth_of_nations_name: "Commonwealth"
  commonwealth_of_nations_confederation_name: "Commonwealth of Nations"
+ confederation_type_pax_americana_name: "Pax Americana"
+ pax_americana_confederation_name: "Pax Americana"
+ confederation_type_arab_league_name: "Arab League"
+ arab_league_confederation_name: "Arab League"

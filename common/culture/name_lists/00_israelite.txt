@@ -1,0 +1,118 @@
+﻿name_list_ashkenazi = {
+
+	cadet_dynasty_names = {
+		"dynn_Ben_Aharon"
+		"dynn_Ben_Ari"
+		"dynn_Binyamin"
+		"dynn_Ben_David"
+		"dynn_Ben_Jeremias"
+		"dynn_Ben_Leonhard"
+		"dynn_Ben_Michael"
+		"dynn_Mose"
+		"dynn_Ben_Reuben"
+		"dynn_Ebheri"
+	}
+
+	dynasty_names = {
+		"dynn_Ben_Aharon"
+		"dynn_Ben_Ari"
+		"dynn_Binyamin"
+		"dynn_Ben_David"
+		"dynn_Ben_Jeremias"
+		"dynn_Ben_Leonhard"
+		"dynn_Ben_Michael"
+		"dynn_Mose"
+		"dynn_Ben_Reuben"
+		"dynn_Ebheri"
+	}
+
+	male_names = {
+		Abba Abbaye Acha Achai Achunai Aharon Alechsandri Ammi Amram Amunah Ashi Asher Avomai Avraham Azariah Baboi Baruch
+		Bibai Binyamin Boaz Bustenai Chanan Chananel Chaninai Chanoch Chaim Chayim Chelbo Chisdai Chiyya Chizkiyah Chofni Chushiel
+		Daniel David Dimi Dodai Dudai Efrayim Eina Elazar Elchanan Eldad Eliezer Elyakim Gedalyah Gershom Ghayyat Giat Giza Hillel
+		Hila Isaac Ivomai Kafnai Kahana Kalonymos Levi Kiyomi Machir Malcha Mar Mari Matiyahu Meir Menechem Menashe Mesharsheya Meshulam
+		Mevasser Mishael Mordechai Moshe Nachman Nachshon Nasan Natan Natroi Natronai Nechemiah Nehilai Nesanel Nissim Paltoi Pirkoi
+		Peter Rava Ravai Ravi Ravya Reuven Rivai Saadiah Sechok Shabsai Shalom Shanoi Shemaryah Sherira Sheshna Shila Shimon Shinoi
+		Shlomo Shmuel Sorgo Sulam Tachlifa Tamar Tzadok Tzemach Uri Yaakov Yachya Yechiel Yehudah Yehudai Yehoshua Yeshayah
+		Yisrael Yitzchak Yoel Yosef Yoshiah Yosi Yuda Zakkai Zelekman Zuiskind
+	}
+	female_names = {
+		Beila Belet Chana Doltza Esther Guta Guthela Madrona Matrona Minna Pultzelina Rachel Rivkah Saris Scolaster
+		Shluida Shoinlin Shonlin Tziporah Yehudis Yeintil
+	}
+	
+	dynasty_of_location_prefix = "dynnp_of"
+	
+	
+}
+name_list_sephardi = {
+
+	cadet_dynasty_names = {
+		"dynn_Shaoul"
+		"dynn_Ben_Sol"
+		"dynn_Ben_Shlomo"
+		"dynn_Ben_Shimon"
+		"dynn_Ben_Yitzhak"
+		"dynn_Ya_akov"
+		"dynn_Ben_Yankev"
+		"dynn_Yeshayahu"
+		"dynn_Ben_Yosef"
+	}
+
+	dynasty_names = {
+		"dynn_Shaoul"
+		"dynn_Ben_Sol"
+		"dynn_Ben_Shlomo"
+		"dynn_Ben_Shimon"
+		"dynn_Ben_Yitzhak"
+		"dynn_Ya_akov"
+		"dynn_Ben_Yankev"
+		"dynn_Yeshayahu"
+		"dynn_Ben_Yosef"
+	}
+
+	male_names = {
+		Abba Abbaye Acha Achai Achunai Aharon Alechsandri Ammi Amram Amunah Ashi Asher Avomai Avraham Azariah Baboi Baruch
+		Bibai Binyamin Boaz Bustenai Chanan Chananel Chaninai Chanoch Chaim Chayim Chelbo Chisdai Chiyya Chizkiyah Chofni Chushiel
+		Daniel David Dimi Dodai Dudai Efrayim Eina Elazar Elchanan Eldad Eliezer Elyakim Gedalyah Gershom Ghayyat Giat Giza Hillel
+		Hila Isaac Ivomai Kafnai Kahana Kalonymos Levi Kiyomi Machir Malcha Mar Mari Matiyahu Meir Menechem Menashe Mesharsheya Meshulam
+		Mevasser Mishael Mordechai Moshe Nachman Nachshon Nasan Natan Natroi Natronai Nechemiah Nehilai Nesanel Nissim Paltoi Pirkoi
+		Peter Rava Ravai Ravi Ravya Reuven Rivai Saadiah Sechok Shabsai Shalom Shanoi Shemaryah Sherira Sheshna Shila Shimon Shinoi
+		Shlomo Shmuel Sorgo Sulam Tachlifa Tamar Tzadok Tzemach Uri Yaakov Yachya Yechiel Yehudah Yehudai Yehoshua Yeshayah
+		Yisrael Yitzchak Yoel Yosef Yoshiah Yosi Yuda Zakkai Zelekman Zuiskind
+	}
+	female_names = {
+		Beila Belet Chana Doltza Esther Guta Guthela Madrona Matrona Minna Pultzelina Rachel Rivkah Saris Scolaster
+		Shluida Shoinlin Shonlin Tziporah Yehudis Yeintil
+	}
+	
+	dynasty_of_location_prefix = "dynnp_of"
+	
+	
+}
+name_list_radhanite = {
+	# e74 modern list (W1 Israel 2025 (Jewish); W2 Israel; K)
+	cadet_dynasty_names = {
+		dynn_cy_Cohen dynn_cy_Levi dynn_cy_Mizrachi dynn_cy_Peretz dynn_cy_Biton dynn_cy_Dahan dynn_cy_Avraham dynn_cy_Friedman dynn_cy_Malka dynn_cy_Azoulay dynn_cy_Katz dynn_cy_Yosef
+		dynn_cy_David dynn_cy_Amar dynn_cy_Ohayon dynn_cy_Hadad dynn_cy_Gabay dynn_cy_Ben_David dynn_cy_Shapira dynn_cy_Mizrahi dynn_cy_Levy dynn_cy_Goldberg dynn_cy_Rosenberg dynn_cy_Weiss_db7f
+		dynn_cy_Klein dynn_cy_Ashkenazi dynn_cy_Ben_Haim dynn_cy_Elbaz dynn_cy_Vaknin dynn_cy_Sasson dynn_cy_Shalom dynn_cy_Segal dynn_cy_Golan dynn_cy_Barak dynn_cy_Carmeli dynn_cy_Navon
+		dynn_cy_Peled dynn_cy_Sharon dynn_cy_Tal dynn_cy_Zohar
+	}
+	dynasty_names = {
+		dynn_cy_Cohen dynn_cy_Levi dynn_cy_Mizrachi dynn_cy_Peretz dynn_cy_Biton dynn_cy_Dahan dynn_cy_Avraham dynn_cy_Friedman dynn_cy_Malka dynn_cy_Azoulay dynn_cy_Katz dynn_cy_Yosef
+		dynn_cy_David dynn_cy_Amar dynn_cy_Ohayon dynn_cy_Hadad dynn_cy_Gabay dynn_cy_Ben_David dynn_cy_Shapira dynn_cy_Mizrahi dynn_cy_Levy dynn_cy_Goldberg dynn_cy_Rosenberg dynn_cy_Weiss_db7f
+		dynn_cy_Klein dynn_cy_Ashkenazi dynn_cy_Ben_Haim dynn_cy_Elbaz dynn_cy_Vaknin dynn_cy_Sasson dynn_cy_Shalom dynn_cy_Segal dynn_cy_Golan dynn_cy_Barak dynn_cy_Carmeli dynn_cy_Navon
+		dynn_cy_Peled dynn_cy_Sharon dynn_cy_Tal dynn_cy_Zohar
+	}
+	male_names = {
+		cyn_Ariel cyn_Lavi cyn_David cyn_Raphael_84fc cyn_Uri cyn_Michael cyn_Eitan cyn_Elia cyn_Yehuda cyn_Ari cyn_Yosef cyn_Noam
+		cyn_Itai cyn_Omer_6ae9 cyn_Daniel cyn_Yonatan cyn_Avraham cyn_Moshe cyn_Yaakov cyn_Yitzhak cyn_Shmuel cyn_Meir cyn_Amit cyn_Ido
+		cyn_Yoav cyn_Nadav cyn_Gil cyn_Tal cyn_Erez cyn_Ron cyn_Ehud cyn_Avi cyn_Shlomo cyn_Haim cyn_Eli
+	}
+	female_names = {
+		cyn_Avigail cyn_Libi cyn_Tamar cyn_Yael cyn_Ella cyn_Noa cyn_Sarah cyn_Lia cyn_Ayala cyn_Adel cyn_Maya cyn_Shira
+		cyn_Hila cyn_Michal_882e cyn_Rachel cyn_Rivka cyn_Leah cyn_Miriam cyn_Esther cyn_Hannah cyn_Naomi cyn_Ruth cyn_Orly cyn_Dana
+		cyn_Keren cyn_Galit cyn_Yarden cyn_Noga cyn_Tali cyn_Ronit cyn_Anat cyn_Efrat cyn_Sigal cyn_Liat cyn_Hadas
+	}
+	dynasty_of_location_prefix = "dynnp_of"
+}

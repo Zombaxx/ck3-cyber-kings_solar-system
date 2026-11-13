@@ -1,0 +1,355 @@
+﻿name_list_english = {
+	# e74 modern list (W1 England 2025; W2 UK; K)
+	cadet_dynasty_names = {
+		dynn_cy_Smith dynn_cy_Jones dynn_cy_Taylor dynn_cy_Brown dynn_cy_Williams dynn_cy_Wilson dynn_cy_Johnson dynn_cy_Davies dynn_cy_Robinson dynn_cy_Wright dynn_cy_Thompson dynn_cy_Evans
+		dynn_cy_Walker dynn_cy_White dynn_cy_Roberts dynn_cy_Green dynn_cy_Hall dynn_cy_Wood dynn_cy_Jackson dynn_cy_Clarke dynn_cy_Harris dynn_cy_Edwards dynn_cy_Turner dynn_cy_Martin
+		dynn_cy_Cooper dynn_cy_Hill dynn_cy_Ward dynn_cy_Hughes dynn_cy_Moore dynn_cy_Clark dynn_cy_King dynn_cy_Harrison dynn_cy_Lewis dynn_cy_Baker dynn_cy_Lee dynn_cy_Allen
+		dynn_cy_Morris dynn_cy_Khan dynn_cy_Scott dynn_cy_Watson dynn_cy_Davis dynn_cy_Parker dynn_cy_James dynn_cy_Bennett dynn_cy_Young dynn_cy_Phillips dynn_cy_Richardson dynn_cy_Mitchell
+		dynn_cy_Bailey dynn_cy_Carter dynn_cy_Cook dynn_cy_Singh dynn_cy_Shaw dynn_cy_Bell dynn_cy_Collins dynn_cy_Morgan dynn_cy_Kelly dynn_cy_Begum dynn_cy_Miller dynn_cy_Cox
+		dynn_cy_Hussain dynn_cy_Marshall dynn_cy_Simpson dynn_cy_Price dynn_cy_Anderson dynn_cy_Adams dynn_cy_Wilkinson dynn_cy_Ali dynn_cy_Ahmed dynn_cy_Foster dynn_cy_Ellis dynn_cy_Murphy
+		dynn_cy_Chapman dynn_cy_Mason dynn_cy_Gray dynn_cy_Richards dynn_cy_Webb dynn_cy_Griffiths dynn_cy_Hunt dynn_cy_Palmer dynn_cy_Campbell dynn_cy_Holmes dynn_cy_Mills dynn_cy_Barnes
+	}
+	dynasty_names = {
+		dynn_cy_Smith dynn_cy_Jones dynn_cy_Taylor dynn_cy_Brown dynn_cy_Williams dynn_cy_Wilson dynn_cy_Johnson dynn_cy_Davies dynn_cy_Robinson dynn_cy_Wright dynn_cy_Thompson dynn_cy_Evans
+		dynn_cy_Walker dynn_cy_White dynn_cy_Roberts dynn_cy_Green dynn_cy_Hall dynn_cy_Wood dynn_cy_Jackson dynn_cy_Clarke dynn_cy_Harris dynn_cy_Edwards dynn_cy_Turner dynn_cy_Martin
+		dynn_cy_Cooper dynn_cy_Hill dynn_cy_Ward dynn_cy_Hughes dynn_cy_Moore dynn_cy_Clark dynn_cy_King dynn_cy_Harrison dynn_cy_Lewis dynn_cy_Baker dynn_cy_Lee dynn_cy_Allen
+		dynn_cy_Morris dynn_cy_Khan dynn_cy_Scott dynn_cy_Watson dynn_cy_Davis dynn_cy_Parker dynn_cy_James dynn_cy_Bennett dynn_cy_Young dynn_cy_Phillips dynn_cy_Richardson dynn_cy_Mitchell
+		dynn_cy_Bailey dynn_cy_Carter dynn_cy_Cook dynn_cy_Singh dynn_cy_Shaw dynn_cy_Bell dynn_cy_Collins dynn_cy_Morgan dynn_cy_Kelly dynn_cy_Begum dynn_cy_Miller dynn_cy_Cox
+		dynn_cy_Hussain dynn_cy_Marshall dynn_cy_Simpson dynn_cy_Price dynn_cy_Anderson dynn_cy_Adams dynn_cy_Wilkinson dynn_cy_Ali dynn_cy_Ahmed dynn_cy_Foster dynn_cy_Ellis dynn_cy_Murphy
+		dynn_cy_Chapman dynn_cy_Mason dynn_cy_Gray dynn_cy_Richards dynn_cy_Webb dynn_cy_Griffiths dynn_cy_Hunt dynn_cy_Palmer dynn_cy_Campbell dynn_cy_Holmes dynn_cy_Mills dynn_cy_Barnes
+	}
+	male_names = {
+		cyn_Muhammad cyn_Noah cyn_Leo cyn_Luca cyn_Arthur cyn_Oliver cyn_George cyn_Oscar_48a0 cyn_Theodore cyn_Freddie cyn_Archie cyn_Henry
+		cyn_Jack cyn_Charlie cyn_Thomas cyn_Alfie cyn_Harry cyn_Jacob cyn_Teddy cyn_Finley cyn_Albie cyn_Isaac cyn_Joshua cyn_Edward
+		cyn_James cyn_William cyn_Lucas cyn_Harrison cyn_Max cyn_Reggie cyn_David cyn_Paul cyn_Andrew cyn_Mark cyn_John cyn_Michael
+		cyn_Peter cyn_Stephen cyn_Richard cyn_Ian cyn_Christopher cyn_Simon cyn_Gary cyn_Darren cyn_Craig cyn_Lee cyn_Matthew cyn_Daniel
+		cyn_Adam cyn_Ryan cyn_Ben cyn_Sam cyn_Liam cyn_Jamie cyn_Tom cyn_Nathan cyn_Callum
+	}
+	female_names = {
+		cyn_Olivia cyn_Lily cyn_Amelia cyn_Isla cyn_Florence cyn_Poppy cyn_Freya cyn_Ivy cyn_Isabella cyn_Elsie cyn_Ava cyn_Sophia
+		cyn_Mia cyn_Grace cyn_Evie cyn_Willow cyn_Daisy cyn_Rosie cyn_Sienna cyn_Phoebe cyn_Matilda cyn_Emily cyn_Millie cyn_Ella
+		cyn_Charlotte cyn_Alice cyn_Margaret cyn_Susan cyn_Sarah cyn_Elizabeth cyn_Patricia cyn_Helen cyn_Julie cyn_Karen cyn_Jane cyn_Claire
+		cyn_Joanne cyn_Nicola cyn_Emma cyn_Rachel cyn_Laura cyn_Gemma cyn_Hannah cyn_Rebecca cyn_Amy cyn_Jessica cyn_Lauren cyn_Chloe
+		cyn_Sophie cyn_Katie cyn_Lucy cyn_Natalie cyn_Kirsty cyn_Victoria cyn_Louise cyn_Samantha
+	}
+	dynasty_of_location_prefix = "dynnp_of"
+	bastard_dynasty_prefix = "dynnp_fitz"
+	pat_grf_name_chance = 30
+	mat_grf_name_chance = 10
+	father_name_chance = 25
+	pat_grm_name_chance = 20
+	mat_grm_name_chance = 40
+	mother_name_chance = 5
+}
+name_list_anglo_saxon = {
+
+	cadet_dynasty_names = {
+		"dynn_Hayles"
+		{ "dynnp_of" "dynn_Norfolk" }
+		"dynn_Rose"
+		"dynn_Dodington"
+		"dynn_Stawell"
+		"dynn_Huntingdon"
+		"dynn_Lockhart"
+		"dynn_Wuffing"
+		"dynn_Henry"
+		"dynn_Hastings"
+		"dynn_Puttoc"
+		{ "dynnp_of" "dynn_Anglo-Saxony" }
+		{ "dynnp_of" "dynn_Northampton" }
+		"dynn_A_theling"
+		"dynn_Moore"
+		"dynn_Fysche"
+		"dynn_Dall"
+		"dynn_Slee"
+		"dynn_Kiil"
+		"dynn_Mel"
+		"dynn_Holter"
+		"dynn_Randolph"
+		"dynn_Percy"
+		"dynn_Despencer"
+		"dynn_Bacon"
+		"dynn_Reresby"
+		"dynn_Cornwallis"
+		"dynn_Clifford"
+		"dynn_Carew"
+		"dynn_Maddock"
+		"dynn_Fortescue"
+		{ "dynnp_de" "dynn_Ros" }
+		"dynn_Howard"
+		"dynn_Maudit"
+		"dynn_Berkeley"
+		"dynn_Barton"
+		"dynn_Colvile"
+		"dynn_Grey"
+		"dynn_Darcy"
+		{ "dynnp_de" "dynn_Garlande" }
+		"dynn_Perry"
+		"dynn_Bethell"
+		"dynn_Perry"
+		"dynn_Borthwick"
+		{ "dynnp_de" "dynn_London" }
+		{ "dynnp_of" "dynn_Hereford" }
+		{ "dynnp_of" "dynn_Gloucester" }
+		{ "dynnp_of" "dynn_Oxford" }
+		{ "dynnp_of" "dynn_Salisbury" }
+		{ "dynnp_of" "dynn_Surrey" }
+		{ "dynnp_of" "dynn_Sussex" }
+		{ "dynnp_of" "dynn_Hampshire" }
+		{ "dynnp_of" "dynn_Dorset" }
+		{ "dynnp_of" "dynn_Somerset" }
+		{ "dynnp_of" "dynn_Devon" }
+		{ "dynnp_of" "dynn_Exeter" }
+		{ "dynnp_of" "dynn_Cumberland" }
+		{ "dynnp_of" "dynn_York" }
+		{ "dynnp_of" "dynn_Lancaster" }
+		{ "dynnp_of" "dynn_Chester" }
+		{ "dynnp_of" "dynn_Lincoln" }
+		{ "dynnp_of" "dynn_Leicester" }
+		{ "dynnp_of" "dynn_Derby" }
+		{ "dynnp_of" "dynn_Shrewsbury" }
+		{ "dynnp_of" "dynn_Northampton" }
+		{ "dynnp_of" "dynn_Bedford" }
+		{ "dynnp_of" "dynn_Norfolk" }
+		{ "dynnp_of" "dynn_Suffolk" }
+		"dynn_Crawford"
+		"dynn_Tynedale"
+		"dynn_Pudsey"
+		"dynn_Marshal"
+		"dynn_Rowe"
+		{ "dynnp_de" "dynn_Criel" }
+		"dynn_Ciesla"
+		"dynn_Ross"
+		"dynn_Wuffing"
+		"dynn_Beorming"
+		"dynn_Eorling"
+		"dynn_A_bbing"
+		"dynn_A_lling"
+		"dynn_Wintaling"
+	}
+
+	dynasty_names = {
+		"dynn_Hayles"
+		{ "dynnp_of" "dynn_Norfolk" }
+		"dynn_Rose"
+		"dynn_Dodington"
+		"dynn_Stawell"
+		"dynn_Huntingdon"
+		"dynn_Lockhart"
+		"dynn_Wuffing"
+		"dynn_Henry"
+		"dynn_Hastings"
+		"dynn_Puttoc"
+		{ "dynnp_of" "dynn_Anglo-Saxony" }
+		{ "dynnp_of" "dynn_Northampton" }
+		"dynn_A_theling"
+		"dynn_Moore"
+		"dynn_Fysche"
+		"dynn_Dall"
+		"dynn_Slee"
+		"dynn_Kiil"
+		"dynn_Mel"
+		"dynn_Holter"
+		"dynn_Randolph"
+		"dynn_Percy"
+		"dynn_Despencer"
+		"dynn_Bacon"
+		"dynn_Reresby"
+		"dynn_Cornwallis"
+		"dynn_Clifford"
+		"dynn_Carew"
+		"dynn_Maddock"
+		"dynn_Fortescue"
+		{ "dynnp_de" "dynn_Ros" }
+		"dynn_Howard"
+		"dynn_Maudit"
+		"dynn_Berkeley"
+		"dynn_Barton"
+		"dynn_Colvile"
+		"dynn_Grey"
+		"dynn_Darcy"
+		{ "dynnp_de" "dynn_Garlande" }
+		"dynn_Perry"
+		"dynn_Bethell"
+		"dynn_Perry"
+		"dynn_Borthwick"
+		{ "dynnp_de" "dynn_London" }
+		{ "dynnp_of" "dynn_Hereford" }
+		{ "dynnp_of" "dynn_Gloucester" }
+		{ "dynnp_of" "dynn_Oxford" }
+		{ "dynnp_of" "dynn_Salisbury" }
+		{ "dynnp_of" "dynn_Surrey" }
+		{ "dynnp_of" "dynn_Sussex" }
+		{ "dynnp_of" "dynn_Hampshire" }
+		{ "dynnp_of" "dynn_Dorset" }
+		{ "dynnp_of" "dynn_Somerset" }
+		{ "dynnp_of" "dynn_Devon" }
+		{ "dynnp_of" "dynn_Exeter" }
+		{ "dynnp_of" "dynn_Cumberland" }
+		{ "dynnp_of" "dynn_York" }
+		{ "dynnp_of" "dynn_Lancaster" }
+		{ "dynnp_of" "dynn_Chester" }
+		{ "dynnp_of" "dynn_Lincoln" }
+		{ "dynnp_of" "dynn_Leicester" }
+		{ "dynnp_of" "dynn_Derby" }
+		{ "dynnp_of" "dynn_Shrewsbury" }
+		{ "dynnp_of" "dynn_Northampton" }
+		{ "dynnp_of" "dynn_Bedford" }
+		{ "dynnp_of" "dynn_Norfolk" }
+		{ "dynnp_of" "dynn_Suffolk" }
+		"dynn_Crawford"
+		"dynn_Tynedale"
+		"dynn_Pudsey"
+		"dynn_Marshal"
+		"dynn_Rowe"
+		{ "dynnp_de" "dynn_Criel" }
+		"dynn_Ciesla"
+		"dynn_Ross"
+		"dynn_Wuffing"
+		"dynn_Beorming"
+		"dynn_Eorling"
+		"dynn_A_bbing"
+		"dynn_A_lling"
+		"dynn_Wintaling"
+	}
+	
+	male_names = {
+		Arncytel Balthere Beorhtfrith Beorhthelm BeorhtmE_r Beorhtnoth Beorhtric Beorhtsige Beorhtwine Beorn BeornrE_d Beornwulf
+		Burgheard Byrhtnoth Cearl Cenfus CenrE_d Cenwulf Ceolwulf Cerdic Copsige
+		Cuthberht CuthrE_d Cynehelm Cynewulf Cytelbearn Eadberht Eadfrith Eadgar Eadmund EadmE_r Eadric
+		EadrE_d Eadsige Eadulf Eadweald Eadweard Eadwig Eadwine Eadwulf Ealdhun Ealdmund EaldrE_d Ealdwine
+		Ealdwulf Eanberht Eanfrith Eanhere Eardwulf Eastmund Ecgberht Ecgfrith Gamall Godwine Gospatric Guthfrith Guthmund
+		Gyrth Hacon Harold Heahberht Hereberht Hereweald Hereweard Hlothere Hrodberht InwE_r Leofheah Leofhelm
+		Leofric Leofweald Leofwine Maccus Morcar ME_rleswegn Offa Onlaf Ordgar
+		Oscytel Oshere Osmund Osric OsrE_d Osulf Osweald Oswine Oswulf Petre RE_dwulf RE_genweald Scule
+		Sigeberht Sigehelm Sigeric SigerE_d Sighere Siweard Stigand Swegn Swithelm SwithrE_d SwE_frE_d SE_bert SE_lrE_d SE_weald
+		SE_xbald SE_xrE_d ThorE_d Thurcytel Thurfrith Tostig UhtrE_d Ulf Ulfcytel Waltheof Werestan Wiglaf WihtrE_d
+		Wistan Wulf Wulfgar Wulfgeat Wulfhelm Wulfhere WulfmE_r Wulfnoth Wulfstan E_lfgar E_lfmE_r E_lfnoth E_lfric E_lfrE_d E_lfsige
+		E_lfstan E_lfwald E_lfweard E_lfwig E_lfwine E_lle E_thelbald E_thelberht E_thelfrith E_thelhere E_thelmE_r
+		E_thelric E_thelrE_d E_thelsige E_thelstan E_thelweald E_thelweard E_thelwine E_thelwold E_thelwulf
+		Eormenred Eorcenberht Eormenric Eadbald RE_dwald
+	}
+	female_names = {
+		Agatha Balthild BeorhtflE_d Beorhtgifu Beorhtgyth Beorhtwaru Beorhtwynn BeornflE_d Beorngyth BlE_ja BurgflE_d CeolflE_d Cristina
+		Cuthburg Cwenburg Cyneburg Cynegyth Cynehild Cyneswith Cynethryth Eadburg EadflE_d Eadgifu Eadgyth Eadhburh Eadhild Ealdgyth
+		EalhflE_d Ealhswith Eanswith Ecgfrida Ecgwyn Godgifu Gunhilda Gytha Helga Heregyth Hereswith Hextilda Hungifu Judith
+		LeofflE_d Leofgifu Leofrun Leofwaru Leofwynn Margaret Maud Mildrith Octreda SifflE_d Sigrid SE_thryth WulfflE_d Wulfgifu
+		Wulfgyth Wulfhild Wulfrun Wulfthryth Wulfwaru Wulfwynn WynnflE_d WE_rburg E_bba E_lfflE_d E_lfgifu E_lfgyth E_lflE_da E_lfrida
+		E_lfswith E_lfthryth E_lfwynn E_thelburg E_thelflE_d E_thelgifu E_thelhild E_thelrE_da E_thelswith E_thelthryth
+		E_thelburh Seaxburh Wihtburh
+	}
+
+	dynasty_of_location_prefix = "dynnp_of"
+
+	patronym_suffix_male = "dynnpat_suf_son"
+	patronym_suffix_female = "dynnpat_suf_sdohtor"
+	always_use_patronym = yes	
+
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 30
+	mat_grf_name_chance = 10
+	father_name_chance = 5
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 20
+	mat_grm_name_chance = 40
+	mother_name_chance = 5
+
+	
+
+	mercenary_names = {
+		{ name = "mercenary_company_hengist_retinue" coat_of_arms = "mc_hengist_retinue" }
+		{ name = "mercenary_company_wakes_guard" coat_of_arms = "mc_wakes_guard" }
+		{ name = "mercenary_company_horsas_band" coat_of_arms = "mc_horsas_band" }
+	}
+}
+
+name_list_old_saxon = {
+	dynasty_names = {
+		dynn_Pattensen
+		dynn_Schneider
+		dynn_Theodericing
+		dynn_Richfriding
+		dynn_Abonid
+		dynn_Smeldiging
+		dynn_Unwanid
+		dynn_Hessing
+	}
+	
+	male_names = {
+		Abo Adalbero Adalbert Adalbrand Adaldag Adalgar Adalgod Adolf Aelle Albrecht Alebrand
+		Altfrid Ansgar Arnd Arnold Asig Balduin Balthasar Banzleib Beneke Benno Bernd
+		Bernhard Bertold Bertram Boddic Brun Bruno Burchard Cissa Claus Cobbo Cord
+		Cyprian Dago Dedo Dethard Detleff Detmar Diederik Donar Eggerd Egilmar Ekbert Engelbert
+		Engelhard Erik Erp Esiko Everd Ewald Floribert Freawine Frederik Gehrke Gelder Gero Gerold Gevert
+		Ghert Giselher Giselmar Gosschalk Goswin Gunzelin GO_dke GU_nther Hans Harthgate Hartwig Heideke
+		Hengest Henneke Herberd Hermann Hinrik Hoger Hulderic Humfried Immed Isidor Jacob Jaspar Jochim
+		Johann Juries Kersten KO_pke Laurentz Lembert Leuderic Liawizo Liemar Liudger Luder-Udo
+		Luder Ludolf Ludwig Magnus Marbold Marquard Mathias Meinwerk Merten Michael
+		Norbert Odo Ordulf Peter Philipp Radke Reginbern Reinbern Reineke Reinmar Rudigar
+		Rudolf Sigbert Sigfrid Sigward Simon Steffen Thankmar Theoderic Theodoric
+		Theodwin Thimo Thomas Tobe Tymmeke Udo Unwan Viric Volkwin Volrad Walbert Waldemar Waldered Waltard
+		Warin Warinechin Wecta Wenzel Werneke Weybrecht Wichbert Wichmann Wicho Widukind Wigebert Wilbrand
+		Willichin Withgils Witikind Witta Wlencing Wolter Wulff
+	}
+	female_names = {
+		Addila Adelheid Alof Agnes Anna Athela Beatrix Bertha Bertrada Bia Bisina Bithild
+		Brigida Christina Diedke Eilika Elisabeth Enda Frederuna Geilana Gerberga Gertrud Gisela
+		Glismod Hadwig Hasala Heilwig Helene Hildegard Hrothwina Ida Imma Irmgard Irminburg
+		Jutta Katharina Kunigunde Luitgard Margarete Mathilde Mechthild Oda
+		Othelindis Radegund Reginlint Richardis Rodelinda Sophia Suanhilde Theodrada Thiedburga Wienke Wiltrud Wulfhild
+	}
+
+	dynasty_of_location_prefix = "dynnp_of"
+
+	patronym_suffix_male = "dynnpat_suf_sunu"
+	patronym_suffix_female = "dynnpat_suf_sdohtar"
+	always_use_patronym = yes	
+
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 30
+	mat_grf_name_chance = 10
+	father_name_chance = 5
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 20
+	mat_grm_name_chance = 40
+	mother_name_chance = 5	
+}
+
+name_list_scottish = {
+	# e74 modern list (W1 Scotland 2025; W2 Scotland; K)
+	cadet_dynasty_names = {
+		dynn_cy_Smith dynn_cy_Brown dynn_cy_Wilson dynn_cy_Robertson dynn_cy_Thomson dynn_cy_Campbell dynn_cy_Stewart dynn_cy_Anderson dynn_cy_Scott dynn_cy_Murray dynn_cy_MacDonald dynn_cy_Reid
+		dynn_cy_Taylor dynn_cy_Clark dynn_cy_Ross dynn_cy_Young dynn_cy_Mitchell dynn_cy_Watson dynn_cy_Paterson dynn_cy_Morrison dynn_cy_Fraser dynn_cy_Walker dynn_cy_Hamilton dynn_cy_Johnston
+		dynn_cy_Graham dynn_cy_Kerr dynn_cy_Simpson dynn_cy_Martin dynn_cy_Ferguson dynn_cy_Cameron dynn_cy_Duncan dynn_cy_Hunter dynn_cy_Kelly dynn_cy_Bell dynn_cy_Grant dynn_cy_Mackenzie
+		dynn_cy_Mackay dynn_cy_Allan dynn_cy_MacLeod dynn_cy_Sutherland dynn_cy_McLean dynn_cy_Gordon dynn_cy_Wallace dynn_cy_Burns dynn_cy_Douglas dynn_cy_Munro dynn_cy_Black dynn_cy_Gray
+		dynn_cy_Murdoch dynn_cy_Sinclair
+	}
+	dynasty_names = {
+		dynn_cy_Smith dynn_cy_Brown dynn_cy_Wilson dynn_cy_Robertson dynn_cy_Thomson dynn_cy_Campbell dynn_cy_Stewart dynn_cy_Anderson dynn_cy_Scott dynn_cy_Murray dynn_cy_MacDonald dynn_cy_Reid
+		dynn_cy_Taylor dynn_cy_Clark dynn_cy_Ross dynn_cy_Young dynn_cy_Mitchell dynn_cy_Watson dynn_cy_Paterson dynn_cy_Morrison dynn_cy_Fraser dynn_cy_Walker dynn_cy_Hamilton dynn_cy_Johnston
+		dynn_cy_Graham dynn_cy_Kerr dynn_cy_Simpson dynn_cy_Martin dynn_cy_Ferguson dynn_cy_Cameron dynn_cy_Duncan dynn_cy_Hunter dynn_cy_Kelly dynn_cy_Bell dynn_cy_Grant dynn_cy_Mackenzie
+		dynn_cy_Mackay dynn_cy_Allan dynn_cy_MacLeod dynn_cy_Sutherland dynn_cy_McLean dynn_cy_Gordon dynn_cy_Wallace dynn_cy_Burns dynn_cy_Douglas dynn_cy_Munro dynn_cy_Black dynn_cy_Gray
+		dynn_cy_Murdoch dynn_cy_Sinclair
+	}
+	male_names = {
+		cyn_Noah cyn_Luca cyn_Rory cyn_Muhammad cyn_Oliver cyn_Theo_648c cyn_Leo cyn_Archie cyn_Finlay cyn_Harris cyn_Jack cyn_Lewis
+		cyn_Harry cyn_Alfie cyn_Brodie cyn_Ollie cyn_Charlie cyn_Max cyn_Freddie cyn_Cameron cyn_Callum cyn_Euan cyn_Fraser cyn_Ross
+		cyn_Hamish cyn_Angus cyn_Andrew cyn_David cyn_John cyn_James cyn_Robert cyn_William cyn_Alexander cyn_Iain cyn_Alan cyn_Kenneth
+		cyn_Graeme cyn_Gordon cyn_Stuart cyn_Neil cyn_Craig cyn_Scott cyn_Gavin cyn_Duncan cyn_Calum cyn_Ruaridh cyn_Fergus
+	}
+	female_names = {
+		cyn_Freya cyn_Isla cyn_Olivia cyn_Amelia cyn_Grace cyn_Emily cyn_Millie cyn_Lily cyn_Sophia cyn_Rosie cyn_Ava cyn_Ella
+		cyn_Isabella cyn_Eilidh cyn_Orla cyn_Skye cyn_Harper cyn_Maisie cyn_Evie cyn_Sophie cyn_Erin cyn_Lucy cyn_Katie cyn_Kirsty
+		cyn_Fiona cyn_Morag cyn_Catriona cyn_Shona cyn_Mhairi cyn_Ailsa cyn_Heather cyn_Margaret cyn_Elizabeth cyn_Mary cyn_Jean cyn_Agnes
+		cyn_Christine cyn_Alison cyn_Lorna cyn_Karen cyn_Gillian cyn_Lynn cyn_Jennifer
+	}
+	dynasty_of_location_prefix = "dynnp_de"
+	pat_grf_name_chance = 30
+	mat_grf_name_chance = 15
+	father_name_chance = 5
+	pat_grm_name_chance = 30
+	mat_grm_name_chance = 15
+	mother_name_chance = 10
+}

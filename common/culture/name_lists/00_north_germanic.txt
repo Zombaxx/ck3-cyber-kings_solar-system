@@ -1,0 +1,315 @@
+﻿name_list_norse = {
+
+	cadet_dynasty_names = {
+		"dynn_StO_rr"
+		"dynn_Borg"
+		"dynn_KrA_ka"
+		"dynn_Mikli"
+		"dynn_SmiD_r"
+		"dynn_MO_ring"
+		"dynn_GA_rdske2"
+		"dynn_Trolli"
+		"dynn_Kven"
+		"dynn_Toki"
+		"dynn_HA_rde"
+		"dynn_Eyjing"
+		"dynn_Orming"
+		"dynn_GoD_i"
+		"dynn_AustmaD_r"
+		"dynn_HA_vi"
+		"dynn_Rakki"
+		"dynn_Skrauti"
+		"dynn_Snarfari"
+		"dynn_Strangi"
+		"dynn_Snjalli"
+		"dynn_SU_rr"
+		"dynn_SkA_ld"
+		"dynn_Viss"
+		"dynn_T_rymr"
+		"dynn_T_vari"
+		"dynn_O_lfU_ss"
+		"dynn_O_rn"
+		"dynn_HvI_ti"
+		"dynn_Sterki"
+		"dynn_AuD_gi"
+		"dynn_RauD_i"
+		"dynn_Spaki"
+		"dynn_Svarti"
+		"dynn_Rammi"
+		"dynn_MjO_vi"
+		"dynn_RI_ki"
+		"dynn_Lambi"
+		"dynn_Skarfr"
+		"dynn_SkA_l"
+		"dynn_Sleggja"
+		"dynn_SmjO_r"
+		"dynn_Stjarna"
+		"dynn_StrU_gr"
+		"dynn_SA_lendingr"
+		"dynn_SU_rr"
+		"dynn_SA_lingr"
+		"dynn_Trausti"
+		"dynn_VeD_r"
+		"dynn_VA_mU_li"
+		"dynn_VA_ni"
+		"dynn_T_istill"
+		"dynn_T_jO_fi"
+		"dynn_T_ynning"
+		{ "dynnp_of" "dynn_Bebbanburg" }
+		"dynn_Byrrnesson"
+		{ "dynnp_af" "dynn_Raumariki" }
+		{ "dynnp_af" "dynn_Raumariki" }
+		{ "dynnp_af" "dynn_Dovre" }
+		{ "dynnp_af" "dynn_Dovre" }
+		"dynn_VeO_y"
+		{ "dynnp_af" "dynn_Raumsdalr" }
+		"dynn_Eirikson"
+		"dynn_Sognsdal"
+		"dynn_Gunarrson"
+		"dynn_Firdi"
+		{ "dynnp_af" "dynn_Aarhus" }
+		{ "dynnp_af" "dynn_Aarhus" }
+		{ "dynnp_af" "dynn_Aalborg" }
+		{ "dynnp_af" "dynn_Aalborg" }
+		{ "dynnp_af" "dynn_Varde" }
+		{ "dynnp_af" "dynn_Varde" }
+		{ "dynnp_af" "dynn_Skagen" }
+		{ "dynnp_af" "dynn_Skagen" }
+	}
+
+	dynasty_names = {
+		"dynn_StO_rr"
+		"dynn_Borg"
+		"dynn_KrA_ka"
+		"dynn_Mikli"
+		"dynn_SmiD_r"
+		"dynn_MO_ring"
+		"dynn_GA_rdske2"
+		"dynn_Trolli"
+		"dynn_Kven"
+		"dynn_Toki"
+		"dynn_HA_rde"
+		"dynn_Eyjing"
+		"dynn_Orming"
+		"dynn_GoD_i"
+		"dynn_AustmaD_r"
+		"dynn_HA_vi"
+		"dynn_Rakki"
+		"dynn_Skrauti"
+		"dynn_Snarfari"
+		"dynn_Strangi"
+		"dynn_Snjalli"
+		"dynn_SU_rr"
+		"dynn_SkA_ld"
+		"dynn_Viss"
+		"dynn_T_rymr"
+		"dynn_T_vari"
+		"dynn_O_lfU_ss"
+		"dynn_O_rn"
+		"dynn_HvI_ti"
+		"dynn_Sterki"
+		"dynn_AuD_gi"
+		"dynn_RauD_i"
+		"dynn_Spaki"
+		"dynn_Svarti"
+		"dynn_Rammi"
+		"dynn_MjO_vi"
+		"dynn_RI_ki"
+		"dynn_Lambi"
+		"dynn_Skarfr"
+		"dynn_SkA_l"
+		"dynn_Sleggja"
+		"dynn_SmjO_r"
+		"dynn_Stjarna"
+		"dynn_StrU_gr"
+		"dynn_SA_lendingr"
+		"dynn_SU_rr"
+		"dynn_SA_lingr"
+		"dynn_Trausti"
+		"dynn_VeD_r"
+		"dynn_VA_mU_li"
+		"dynn_VA_ni"
+		"dynn_T_istill"
+		"dynn_T_jO_fi"
+		"dynn_T_ynning"
+		{ "dynnp_of" "dynn_Bebbanburg" }
+		"dynn_Byrrnesson"
+		{ "dynnp_af" "dynn_Raumariki" }
+		{ "dynnp_af" "dynn_Raumariki" }
+		{ "dynnp_af" "dynn_Dovre" }
+		{ "dynnp_af" "dynn_Dovre" }
+		"dynn_VeO_y"
+		{ "dynnp_af" "dynn_Raumsdalr" }
+		"dynn_Eirikson"
+		"dynn_Sognsdal"
+		"dynn_Gunarrson"
+		"dynn_Firdi"
+		{ "dynnp_af" "dynn_Aarhus" }
+		{ "dynnp_af" "dynn_Aarhus" }
+		{ "dynnp_af" "dynn_Aalborg" }
+		{ "dynnp_af" "dynn_Aalborg" }
+		{ "dynnp_af" "dynn_Varde" }
+		{ "dynnp_af" "dynn_Varde" }
+		{ "dynnp_af" "dynn_Skagen" }
+		{ "dynnp_af" "dynn_Skagen" }
+	}
+	
+	male_names = {
+		Anundr Arnfast A_li A_lfr A_lfgeir AndrE_s ArnbjO_rn ArngrI_mr A_rni A_sbjO_rn A__ke A_skell
+		Baldr Bersi BjO_rn Bragi BuT_li BA_rD_r Birgir BU_i BO_D_var BO_tO_lfr BrynjO_lfr BergT_O_r
+		Dan Dagr DY_ri
+		Egill Einarr EilI_fr Emundr EirI_kr Eysteinn Einar
+		Freyr Fasti FriT_rI_kr FrIrekr FrO_T_i FO_lki Flosi
+		Geirr GuT_mundr GuT_rO_T_r Gunnarr GandA_lfr GnU_pa Gormr GrI_mr GuT_frI_T_r Grettir
+		Haraldr Haukr Helgi Hrafn HA__kon Hallsteinn Hemingr HO_lmgeirr HrO_lfr Hrani HA_steinn HjA_lmar HrO_T_geirr HrO_D_O_lfr HrE_rekr HY_singr HalfdA_n HerjO_lfr HO_rD_r HO_gni HU_nT_jO_fr Hordaknutr
+		IngO_lfr Ingimar Ingjaldr I_var
+		JA_tvarD_r JO_rundr
+		Karl Kjartan KolbjO_rn Ketill Ketilmundr KnU_tr Kollr KA_ri Kolbeinn
+		LjO_tr
+		MagnU_s
+		NjA_ll
+		Oddr Ormr O_rvar O_nundr O_feigr O_lafr O_ttar O_lvir O_gmundr
+		Refr Ragnarr RO_gnvaldr Refill RI_kU_lfr
+		Snorri SigurT_r StarkaT_r Steinn Sturla StyrbjO_rn SumarliT_i Suni Sveinn Sverker SE_mundr SO_lvi SkU_li SigrbjO_rn Sigtryggr StyrkA_r SO_rkvir SkarphE_D_inn SkjO_ldr
+		Tolir T_orbjO_rn T_orbrandr T_orsteinn Tyke T_iO_D_mundr TO_ki T_orfinnr T_orD_r T_orgils T_O_rO_lfr TO_sti T_jO_stO_lfr Tryggvi
+		U_lfr U_lfhE_D_inn U_lfkell
+		Vagn VE_mundr Valdemar VigfU_s ValT_jO_fr
+		Yngvar
+	}
+	female_names = {
+		A_lfrhildr AlfrI_D_r A_lvO_r A__sa A_slaug A__sta A_strI_D_r AuT_r
+		BjO_rg Bodil BO_thildr BergT_O_ra
+		CecilI_a
+		DrI_fa Dalla
+		ED_la
+		Freyja Freydi_s
+		GerT_r GlO_D_ GrI_ma Gunnhildr Gurli GuD_rU_n GrY_la GyrI_D_r GyT_a
+		HafrI_D_r Halla HO_lmfrI_D_r Huld
+		Iliana Inga IngfrI_D_r IngibjO_rg IngjerT_r IngirI_D_r
+		JO_runn
+		KrA_ka
+		ME_r MA_lmfrI_D_r
+		RI_kiza RO_gnfrI_D_r Ragnhildr
+		SA_ga SI_g Sif SigrI_D_r Skuld Svanhildr SignY_ SkjaldvO_r
+		T_O_ra T_O_rdI_s T_yri T_O_runn T_uriD_r
+		U_lfhildr Unnr
+		VigdI__s
+		Ylva Yrsa Y_r
+	}
+	
+	dynasty_of_location_prefix = "dynnp_af"
+	
+	patronym_suffix_male = "dynnpat_suf_sson"
+	patronym_suffix_female = "dynnpat_suf_sdottir"
+	always_use_patronym = yes	
+	
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 50
+	mat_grf_name_chance = 0
+	father_name_chance = 0
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 50
+	mother_name_chance = 0
+
+	
+}
+name_list_swedish = {
+	# e74 modern list (W1 Sweden 2025; W2 Sweden; K)
+	cadet_dynasty_names = {
+		dynn_cy_Andersson dynn_cy_Johansson dynn_cy_Karlsson dynn_cy_Nilsson dynn_cy_Eriksson dynn_cy_Larsson dynn_cy_Olsson dynn_cy_Persson dynn_cy_Svensson dynn_cy_Gustafsson dynn_cy_Pettersson dynn_cy_Jonsson
+		dynn_cy_Jansson dynn_cy_Hansson dynn_cy_Bengtsson dynn_cy_Jonsson_6869 dynn_cy_Lindberg dynn_cy_Jakobsson dynn_cy_Magnusson dynn_cy_Olofsson dynn_cy_Lindstrom dynn_cy_Lindqvist dynn_cy_Lindgren dynn_cy_Berg
+		dynn_cy_Axelsson dynn_cy_Bergstrom dynn_cy_Lundberg dynn_cy_Lind dynn_cy_Lundgren dynn_cy_Lundqvist dynn_cy_Mattsson dynn_cy_Berglund dynn_cy_Fredriksson dynn_cy_Sandberg dynn_cy_Henriksson dynn_cy_Forsberg
+		dynn_cy_Sjoberg dynn_cy_Wallin dynn_cy_Ali dynn_cy_Engstrom dynn_cy_Mohamed dynn_cy_Eklund dynn_cy_Danielsson dynn_cy_Lundin dynn_cy_Hakansson dynn_cy_Bjork dynn_cy_Bergman dynn_cy_Gunnarsson
+		dynn_cy_Holm dynn_cy_Wikstrom dynn_cy_Samuelsson dynn_cy_Isaksson dynn_cy_Fransson dynn_cy_Bergqvist dynn_cy_Nystrom dynn_cy_Holmberg dynn_cy_Arvidsson dynn_cy_Lofgren dynn_cy_Soderberg dynn_cy_Nyberg
+	}
+	dynasty_names = {
+		dynn_cy_Andersson dynn_cy_Johansson dynn_cy_Karlsson dynn_cy_Nilsson dynn_cy_Eriksson dynn_cy_Larsson dynn_cy_Olsson dynn_cy_Persson dynn_cy_Svensson dynn_cy_Gustafsson dynn_cy_Pettersson dynn_cy_Jonsson
+		dynn_cy_Jansson dynn_cy_Hansson dynn_cy_Bengtsson dynn_cy_Jonsson_6869 dynn_cy_Lindberg dynn_cy_Jakobsson dynn_cy_Magnusson dynn_cy_Olofsson dynn_cy_Lindstrom dynn_cy_Lindqvist dynn_cy_Lindgren dynn_cy_Berg
+		dynn_cy_Axelsson dynn_cy_Bergstrom dynn_cy_Lundberg dynn_cy_Lind dynn_cy_Lundgren dynn_cy_Lundqvist dynn_cy_Mattsson dynn_cy_Berglund dynn_cy_Fredriksson dynn_cy_Sandberg dynn_cy_Henriksson dynn_cy_Forsberg
+		dynn_cy_Sjoberg dynn_cy_Wallin dynn_cy_Ali dynn_cy_Engstrom dynn_cy_Mohamed dynn_cy_Eklund dynn_cy_Danielsson dynn_cy_Lundin dynn_cy_Hakansson dynn_cy_Bjork dynn_cy_Bergman dynn_cy_Gunnarsson
+		dynn_cy_Holm dynn_cy_Wikstrom dynn_cy_Samuelsson dynn_cy_Isaksson dynn_cy_Fransson dynn_cy_Bergqvist dynn_cy_Nystrom dynn_cy_Holmberg dynn_cy_Arvidsson dynn_cy_Lofgren dynn_cy_Soderberg dynn_cy_Nyberg
+	}
+	male_names = {
+		cyn_Noah cyn_Hugo cyn_Liam cyn_Nils cyn_Alfred cyn_August cyn_Oliver cyn_William cyn_Leo cyn_Otto cyn_Lucas cyn_Elias
+		cyn_Vincent cyn_Adam cyn_Charlie cyn_Theo_648c cyn_Arvid cyn_Ludvig cyn_Harry cyn_Viggo cyn_Olle cyn_Erik cyn_Lars cyn_Karl
+		cyn_Anders cyn_Johan cyn_Per cyn_Mikael cyn_Jan cyn_Hans cyn_Peter cyn_Thomas cyn_Daniel cyn_Fredrik cyn_Andreas cyn_Magnus
+		cyn_Stefan cyn_Mats cyn_Bjorn_6c3a cyn_Gustav cyn_Oskar cyn_Emil cyn_Axel cyn_Filip cyn_Anton
+	}
+	female_names = {
+		cyn_Vera cyn_Astrid cyn_Olivia cyn_Alice cyn_Elsa cyn_Alma cyn_Freja cyn_Selma cyn_Ella cyn_Alba cyn_Maja cyn_Wilma
+		cyn_Ebba cyn_Saga cyn_Stella cyn_Lilly cyn_Ines_041c cyn_Signe cyn_Agnes cyn_Klara cyn_Elin cyn_Ida cyn_Emma cyn_Hanna
+		cyn_Linnea cyn_Sara cyn_Julia_2344 cyn_Matilda cyn_Anna cyn_Eva cyn_Maria cyn_Karin cyn_Kristina cyn_Lena_7358 cyn_Kerstin cyn_Ingrid
+		cyn_Margareta cyn_Birgitta cyn_Marie cyn_Malin cyn_Sofia cyn_Jenny cyn_Johanna cyn_Emelie
+	}
+	dynasty_of_location_prefix = "dynnp_af"
+	pat_grf_name_chance = 80
+	mat_grf_name_chance = 0
+	father_name_chance = 0
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 50
+	mother_name_chance = 0
+}
+name_list_norwegian = {
+	# e74 modern list (W1 Norway 2025; W2 Norway; K)
+	cadet_dynasty_names = {
+		dynn_cy_Hansen dynn_cy_Johansen dynn_cy_Olsen dynn_cy_Larsen dynn_cy_Andersen dynn_cy_Pedersen dynn_cy_Nilsen dynn_cy_Kristiansen dynn_cy_Jensen dynn_cy_Karlsen dynn_cy_Johnsen dynn_cy_Pettersen
+		dynn_cy_Eriksen dynn_cy_Berg dynn_cy_Haugen dynn_cy_Hagen dynn_cy_Johannessen dynn_cy_Andreassen dynn_cy_Jacobsen dynn_cy_Dahl dynn_cy_Jorgensen dynn_cy_Halvorsen dynn_cy_Henriksen dynn_cy_Lund
+		dynn_cy_Sorensen dynn_cy_Jakobsen dynn_cy_Moen dynn_cy_Gundersen dynn_cy_Iversen dynn_cy_Strand dynn_cy_Solberg dynn_cy_Svendsen dynn_cy_Eide dynn_cy_Knutsen dynn_cy_Martinsen dynn_cy_Paulsen
+		dynn_cy_Bakken dynn_cy_Kristoffersen dynn_cy_Mathisen dynn_cy_Lie dynn_cy_Bakke dynn_cy_Holm dynn_cy_Nygard dynn_cy_Aas dynn_cy_Lunde
+	}
+	dynasty_names = {
+		dynn_cy_Hansen dynn_cy_Johansen dynn_cy_Olsen dynn_cy_Larsen dynn_cy_Andersen dynn_cy_Pedersen dynn_cy_Nilsen dynn_cy_Kristiansen dynn_cy_Jensen dynn_cy_Karlsen dynn_cy_Johnsen dynn_cy_Pettersen
+		dynn_cy_Eriksen dynn_cy_Berg dynn_cy_Haugen dynn_cy_Hagen dynn_cy_Johannessen dynn_cy_Andreassen dynn_cy_Jacobsen dynn_cy_Dahl dynn_cy_Jorgensen dynn_cy_Halvorsen dynn_cy_Henriksen dynn_cy_Lund
+		dynn_cy_Sorensen dynn_cy_Jakobsen dynn_cy_Moen dynn_cy_Gundersen dynn_cy_Iversen dynn_cy_Strand dynn_cy_Solberg dynn_cy_Svendsen dynn_cy_Eide dynn_cy_Knutsen dynn_cy_Martinsen dynn_cy_Paulsen
+		dynn_cy_Bakken dynn_cy_Kristoffersen dynn_cy_Mathisen dynn_cy_Lie dynn_cy_Bakke dynn_cy_Holm dynn_cy_Nygard dynn_cy_Aas dynn_cy_Lunde
+	}
+	male_names = {
+		cyn_Noah cyn_Emil cyn_William cyn_Elias cyn_Oliver cyn_Izak cyn_Liam cyn_Johannes cyn_Jakob cyn_Olav cyn_Lucas cyn_Aksel
+		cyn_Ludvig cyn_Filip cyn_Henrik cyn_Kasper cyn_Isak cyn_Magnus cyn_Theodor cyn_Mathias cyn_Jonas cyn_Sander cyn_Tobias cyn_Even
+		cyn_Sindre cyn_Eirik cyn_Ole cyn_Lars cyn_Per cyn_Bjorn cyn_Jan cyn_Knut cyn_Arne cyn_Svein cyn_Tor cyn_Geir
+		cyn_Terje cyn_Rune cyn_Kjetil cyn_Oyvind cyn_Espen cyn_Morten cyn_Hakon cyn_Anders
+	}
+	female_names = {
+		cyn_Emma cyn_Olivia cyn_Nora cyn_Ella cyn_Frida cyn_Sofie cyn_Ellinor cyn_Alma cyn_Astrid cyn_Hedda cyn_Selma cyn_Ingrid
+		cyn_Sara cyn_Leah cyn_Maja cyn_Iben cyn_Tiril cyn_Thea cyn_Ida cyn_Vilde cyn_Sigrid cyn_Live cyn_Mathilde cyn_Hanna
+		cyn_Ingeborg cyn_Kari cyn_Anne cyn_Marit cyn_Liv cyn_Berit cyn_Randi cyn_Solveig cyn_Gunn cyn_Hilde cyn_Kristin cyn_Silje
+		cyn_Ane_ce2b cyn_Marte cyn_Kristine cyn_Camilla
+	}
+	dynasty_of_location_prefix = "dynnp_av"
+}
+name_list_danish = {
+	# e74 modern list (W1 Denmark 2024; W2 Denmark; K)
+	cadet_dynasty_names = {
+		dynn_cy_Nielsen dynn_cy_Jensen dynn_cy_Hansen dynn_cy_Pedersen dynn_cy_Andersen dynn_cy_Christensen dynn_cy_Larsen dynn_cy_Sorensen dynn_cy_Rasmussen dynn_cy_Jorgensen dynn_cy_Petersen dynn_cy_Madsen
+		dynn_cy_Kristensen dynn_cy_Olsen dynn_cy_Thomsen dynn_cy_Christiansen dynn_cy_Poulsen dynn_cy_Johansen dynn_cy_Moller_1396 dynn_cy_Mortensen dynn_cy_Knudsen dynn_cy_Jakobsen dynn_cy_Mikkelsen dynn_cy_Olesen
+		dynn_cy_Frederiksen dynn_cy_Laursen dynn_cy_Henriksen dynn_cy_Lund dynn_cy_Holm dynn_cy_Schmidt dynn_cy_Eriksen dynn_cy_Kristiansen dynn_cy_Clausen dynn_cy_Simonsen dynn_cy_Svendsen dynn_cy_Andreasen
+		dynn_cy_Jeppesen dynn_cy_Mogensen dynn_cy_Vestergaard dynn_cy_Nissen
+	}
+	dynasty_names = {
+		dynn_cy_Nielsen dynn_cy_Jensen dynn_cy_Hansen dynn_cy_Pedersen dynn_cy_Andersen dynn_cy_Christensen dynn_cy_Larsen dynn_cy_Sorensen dynn_cy_Rasmussen dynn_cy_Jorgensen dynn_cy_Petersen dynn_cy_Madsen
+		dynn_cy_Kristensen dynn_cy_Olsen dynn_cy_Thomsen dynn_cy_Christiansen dynn_cy_Poulsen dynn_cy_Johansen dynn_cy_Moller_1396 dynn_cy_Mortensen dynn_cy_Knudsen dynn_cy_Jakobsen dynn_cy_Mikkelsen dynn_cy_Olesen
+		dynn_cy_Frederiksen dynn_cy_Laursen dynn_cy_Henriksen dynn_cy_Lund dynn_cy_Holm dynn_cy_Schmidt dynn_cy_Eriksen dynn_cy_Kristiansen dynn_cy_Clausen dynn_cy_Simonsen dynn_cy_Svendsen dynn_cy_Andreasen
+		dynn_cy_Jeppesen dynn_cy_Mogensen dynn_cy_Vestergaard dynn_cy_Nissen
+	}
+	male_names = {
+		cyn_Oscar_48a0 cyn_Carl cyn_William cyn_Noah cyn_August cyn_Aksel cyn_Emil cyn_Oliver cyn_Alfred cyn_Theo_648c cyn_Valdemar cyn_Malthe
+		cyn_Lucas cyn_Victor cyn_Arthur cyn_Elias cyn_Felix_2c3b cyn_Johan cyn_Magnus cyn_Frederik cyn_Mikkel cyn_Rasmus cyn_Jonas cyn_Mads
+		cyn_Anders cyn_Soren cyn_Jens cyn_Lars cyn_Henrik cyn_Thomas cyn_Morten cyn_Martin cyn_Niels cyn_Peter cyn_Michael cyn_Christian
+		cyn_Jesper cyn_Kasper cyn_Bo cyn_Ole
+	}
+	female_names = {
+		cyn_Emma cyn_Ella cyn_Luna cyn_Alma cyn_Frida cyn_Olivia cyn_Ida cyn_Agnes cyn_Karla cyn_Nora cyn_Clara cyn_Sofia
+		cyn_Freja cyn_Josefine cyn_Asta cyn_Ellen cyn_Esther cyn_Laerke cyn_Mathilde cyn_Caroline cyn_Maja cyn_Signe cyn_Sofie cyn_Cecilie
+		cyn_Camilla cyn_Louise cyn_Mette cyn_Hanne cyn_Anne cyn_Kirsten cyn_Susanne cyn_Lene cyn_Pia cyn_Helle cyn_Tina cyn_Lone
+		cyn_Bente cyn_Inge cyn_Karen cyn_Marianne
+	}
+	dynasty_of_location_prefix = "dynnp_af"
+	pat_grf_name_chance = 80
+	mat_grf_name_chance = 0
+	father_name_chance = 0
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 50
+	mother_name_chance = 0
+}

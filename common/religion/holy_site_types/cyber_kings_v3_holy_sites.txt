@@ -189,3 +189,271 @@ ck_ganis_grove = { # e45: the Prophet's seat in Ganisia
 		monthly_piety_gain_mult = 0.05
 	}
 }
+
+# e86 Mormon / FLDS / Jehovah's Witness / Rastafari holy sites
+
+cyk_salt_lake = {
+	county = c_province0170
+	county_holder_character_modifier = {
+		learning = 2
+	}
+	faith_character_modifier = {
+		monthly_piety_gain_mult = 0.05
+	}
+}
+
+cyk_independence = {
+	county = c_province0226
+	county_holder_character_modifier = {
+		learning = 2
+	}
+	faith_character_modifier = {
+		monthly_piety_gain_mult = 0.05
+	}
+}
+
+cyk_palmyra = {
+	county = c_province0288
+	county_holder_character_modifier = {
+		learning = 2
+	}
+	faith_character_modifier = {
+		monthly_piety_gain_mult = 0.05
+	}
+}
+
+cyk_nauvoo = {
+	county = c_peoria
+	county_holder_character_modifier = {
+		learning = 2
+	}
+	faith_character_modifier = {
+		monthly_piety_gain_mult = 0.05
+	}
+}
+
+cyk_short_creek = {
+	county = c_arizona
+	county_holder_character_modifier = {
+		learning = 2
+	}
+	faith_character_modifier = {
+		monthly_piety_gain_mult = 0.05
+	}
+}
+
+cyk_warwick = {
+	county = c_province0288
+	county_holder_character_modifier = {
+		learning = 2
+	}
+	faith_character_modifier = {
+		monthly_piety_gain_mult = 0.05
+	}
+}
+
+cyk_pittsburgh_jw = {
+	county = c_province0272
+	county_holder_character_modifier = {
+		learning = 2
+	}
+	faith_character_modifier = {
+		monthly_piety_gain_mult = 0.05
+	}
+}
+
+cyk_shashamane = {
+	county = c_province0733
+	county_holder_character_modifier = {
+		learning = 2
+	}
+	faith_character_modifier = {
+		monthly_piety_gain_mult = 0.05
+	}
+}
+
+cyk_addis_ababa = {
+	county = c_province0702
+	county_holder_character_modifier = {
+		learning = 2
+	}
+	faith_character_modifier = {
+		monthly_piety_gain_mult = 0.05
+	}
+}
+
+cyk_kingston = {
+	county = c_jamaica
+	county_holder_character_modifier = {
+		learning = 2
+	}
+	faith_character_modifier = {
+		monthly_piety_gain_mult = 0.05
+	}
+}
+
+# e87 new holy sites (Earth holy-site fix)
+
+cyk_lhasa = {
+	county = c_everest
+	county_holder_character_modifier = {
+		life_expectancy = 1
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		epidemic_travel_danger = -1
+	}
+	faith_character_modifier = {
+		life_expectancy = 1
+		monthly_diplomacy_lifestyle_xp_gain_mult = 0.15
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		health = 0.01
+		stress_loss_mult = 0.01
+	}
+}
+
+cyk_voyage_longhu = {
+	county = c_province0573
+	county_holder_character_modifier = {
+		clergy_opinion = 3
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		tax_mult = 0.01
+		county_opinion_add = 1
+	}
+	faith_character_modifier = {
+		clergy_opinion = 5
+		personal_scheme_phase_duration_add = minor_scheme_phase_duration_bonus_value
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_piety_gain_mult = 0.01
+	}
+}
+
+cyk_voyage_qingcheng = {
+	county = c_everest
+	county_holder_character_modifier = {
+		life_expectancy = 1
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		epidemic_travel_danger = -1
+	}
+	faith_character_modifier = {
+		life_expectancy = 1
+		monthly_diplomacy_lifestyle_xp_gain_mult = 0.15
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		health = 0.01
+		stress_loss_mult = 0.01
+	}
+}
+
+cyk_voyage_luyi = {
+	county = c_province1063
+	county_holder_character_modifier = {
+		monthly_piety_gain_mult = 0.05
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		travel_danger = -1
+	}
+	faith_character_modifier = {
+		learning = 1
+		monthly_piety = 1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_piety_gain_mult = 0.01
+	}
+}
+
+cyk_voyage_wudang = {
+	county = c_pavonis_mons
+	county_holder_character_modifier = {
+		prowess = 2
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		build_speed = -0.01
+		defender_holding_advantage = 0.5
+	}
+	faith_character_modifier = {
+		martial = 1
+		prowess_per_prestige_level = 1
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		knight_effectiveness_mult = 0.01
+	}
+}
+
+cyk_voyage_tai = {
+	county = c_planum_australe
+	county_holder_character_modifier = {
+		monthly_piety_gain_mult = 0.025
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		travel_danger = -1
+	}
+	faith_character_modifier = {
+		learning = 1
+		monthly_piety_gain_mult = 0.05
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_piety_gain_mult = 0.01
+	}
+}
+
+cyk_catholic_mars = {
+	county = c_province1194
+	county_holder_character_modifier = {
+		learning = 1
+		monthly_county_control_growth_factor = 0.05
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		tax_mult = 0.01
+		county_opinion_add = 1
+	}
+	faith_character_modifier = {
+		cultural_head_fascination_mult = 0.05
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		cultural_head_fascination_mult = 0.01
+		monthly_county_control_growth_factor = 0.01
+	}
+}
+
+cyk_catholic_moon = {
+	county = c_province0266
+	county_holder_character_modifier = {
+		learning = 1
+		monthly_county_control_growth_factor = 0.05
+	}
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		tax_mult = 0.01
+		county_opinion_add = 1
+	}
+	faith_character_modifier = {
+		cultural_head_fascination_mult = 0.05
+	}
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		cultural_head_fascination_mult = 0.01
+		monthly_county_control_growth_factor = 0.01
+	}
+}

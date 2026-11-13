@@ -1,31 +1,30 @@
 ﻿# Earth redraw v2 (2026-11-11): dynasties of the new Earth counties' rulers (e11_characters.py)
 8100000 = {
-	prefix = "dynnp_de"
-	name = "dynn_Feniosara"
+	name = "dynn_cy_Teles"	# e77 (was dynn_Feniosara)
 	culture = "brazilian"
 }
 8100001 = {
-	name = "dynn_ckr_itzcoatl"
+	name = "dynn_cy_Juarez"	# e77 (was dynn_ckr_itzcoatl)
 	culture = "nativican"
 }
 8100002 = {
-	name = "dynn_ckr_sailendra"
+	name = "dynn_cy_bin_Hussein"	# e77 (was dynn_ckr_sailendra)
 	culture = "malay"
 }
 8100003 = {
-	name = "dynn_ckr_tezozomoc"
+	name = "dynn_cy_Kamayura"	# e77 (was dynn_ckr_tezozomoc)
 	culture = "amazonian"
 }
 8100004 = {
-	name = "dynn_ckr_keita"
+	name = "dynn_cy_Abdu"	# e77 (was dynn_ckr_keita)
 	culture = "afar"
 }
 8100005 = {
-	name = "dynn_Bhatnagar"
+	name = "dynn_cy_Tiwari"	# e77 (was dynn_Bhatnagar)
 	culture = "hindustani"
 }
 8100006 = {
-	name = "dynn_Feijoo"
+	name = "dynn_cy_Guerrero"	# e77 (was dynn_Feijoo)
 	culture = "mexican"
 }
 8100007 = {
@@ -33,20 +32,19 @@
 	culture = "bedouin"
 }
 8100008 = {
-	name = "dynn_Kourkouas"
+	name = "dynn_cy_Duka"	# e77 (was dynn_Kourkouas)
 	culture = "albanian"
 }
 8100009 = {
-	name = "dynn_ckr_sissoko"
+	name = "dynn_cy_Gebremariam"	# e77 (was dynn_ckr_sissoko)
 	culture = "ethiopian"
 }
 8100010 = {
-	name = "dynn_Dogra"
+	name = "dynn_cy_Shinde"	# e77 (was dynn_Dogra)
 	culture = "marathi"
 }
 8100011 = {
-	prefix = "dynnp_de"
-	name = "dynn_LluC_A_"
+	name = "dynn_cy_Casals"	# e77 (was dynn_LluC_A_)
 	culture = "catalan"
 }
 8100012 = {
@@ -54,20 +52,19 @@
 	culture = "han"
 }
 8100013 = {
-	prefix = "dynnp_de"
-	name = "dynn_la_Vega"
+	name = "dynn_cy_Valencia"	# e77 (was dynn_la_Vega)
 	culture = "criollo"
 }
 8100014 = {
-	name = "dynn_ckr_ocelotl"
+	name = "dynn_cy_dos_Anjos"	# e77 (was dynn_ckr_ocelotl)
 	culture = "afro_brazilian"
 }
 8100015 = {
-	name = "dynn_Halwasid"
+	name = "dynn_cy_Melkonyan"	# e77 (was dynn_Halwasid)
 	culture = "armenian"
 }
 8100016 = {
-	name = "dynn_ckr_traore"
+	name = "dynn_cy_Shirima"	# e77 (was dynn_ckr_traore)
 	culture = "east_bantu"
 }
 8100017 = {
@@ -79,16 +76,15 @@
 	culture = "egyptian"
 }
 8100019 = {
-	prefix = "dynnp_de"
-	name = "dynn_AlagO_n"
+	name = "dynn_cy_Aquino"	# e77 (was dynn_AlagO_n)
 	culture = "guarani"
 }
 8100020 = {
-	name = "dynn_Chand"
+	name = "dynn_cy_Joshi"	# e77 (was dynn_Chand)
 	culture = "marathi"
 }
 8100021 = {
-	name = "dynn_Akoimitos"
+	name = "dynn_cy_Weber"	# e77 (was dynn_Akoimitos)
 	culture = "austrian"
 }
 8100022 = {
@@ -96,19 +92,19 @@
 	culture = "levantine"
 }
 8100023 = {
-	name = "dynn_Ahuja"
+	name = "dynn_cy_Cheema"	# e77 (was dynn_Ahuja)
 	culture = "punjabi"
 }
 8100024 = {
-	name = "dynn_Bao_5305"
+	name = "dynn_cy_Long"	# e77 (was dynn_Bao_5305)
 	culture = "bouxcuengh"
 }
 8100025 = {
-	name = "dynn_ckr_chimalpopoca"
+	name = "dynn_cy_Assuncao"	# e77 (was dynn_ckr_chimalpopoca)
 	culture = "afro_brazilian"
 }
 8100026 = {
-	name = "dynn_ckr_diarra"
+	name = "dynn_cy_Ngono"	# e77 (was dynn_ckr_diarra)
 	culture = "cameroonian"
 }
 8100027 = {
@@ -116,21 +112,19 @@
 	culture = "han"
 }
 8100028 = {
-	name = "dynn_Qian_94B1"
+	name = "dynn_cy_Ye"	# e77 (was dynn_Qian_94B1)
 	culture = "han"
 }
 8100029 = {
-	name = "dynn_Zheng_90D1"
+	name = "dynn_cy_Naiman"	# e77 (was dynn_Zheng_90D1)
 	culture = "mongol"
 }
 8100030 = {
-	prefix = "dynnp_de"
-	name = "dynn_Algeciras"
+	name = "dynn_cy_Cardona"	# e77 (was dynn_Algeciras)
 	culture = "criollo"
 }
 8100031 = {
-	prefix = "dynnp_de"
-	name = "dynn_Cisneros"
+	name = "dynn_cy_Quintero"	# e77 (was dynn_Cisneros)
 	culture = "criollo"
 }
 8100032 = {
@@ -148,19 +142,19 @@
 	culture = "maghrebi"
 }
 8100035 = {
-	name = "dynn_ckr_sanjaya"
+	name = "dynn_cy_Ung"	# e77 (was dynn_ckr_sanjaya)
 	culture = "khmer"
 }
 8100036 = {
-	name = "dynn_Xue_859B"
+	name = "dynn_cy_Mangud"	# e77 (was dynn_Xue_859B)
 	culture = "mongol"
 }
 8100037 = {
-	name = "dynn_Yan_95F2"
+	name = "dynn_cy_Liao"	# e77 (was dynn_Yan_95F2)
 	culture = "sichuanese"
 }
 8100038 = {
-	name = "dynn_Bannu_Man"
+	name = "dynn_cy_Saidi"	# e77 (was dynn_Bannu_Man)
 	culture = "maghrebi"
 }
 8100039 = {
@@ -168,20 +162,19 @@
 	culture = "brazilian"
 }
 8100040 = {
-	prefix = "dynnp_de"
-	name = "dynn_Tries"
+	name = "dynn_cy_Garnier"	# e77 (was dynn_Tries)
 	culture = "french"
 }
 8100041 = {
-	name = "dynn_ckr_xiuhcoatl"
+	name = "dynn_cy_Ek"	# e77 (was dynn_ckr_xiuhcoatl)
 	culture = "maya"
 }
 8100042 = {
-	name = "dynn_Dir"
+	name = "dynn_cy_Monteiro"	# e77 (was dynn_Dir)
 	culture = "brazilian"
 }
 8100043 = {
-	name = "dynn_ckr_isyana"
+	name = "dynn_cy_bin_Jaafar"	# e77 (was dynn_ckr_isyana)
 	culture = "malay"
 }
 8100044 = {
@@ -189,37 +182,35 @@
 	culture = "ovimbundu"
 }
 8100045 = {
-	name = "dynn_ckr_coulibaly"
+	name = "dynn_cy_Agbeko"	# e77 (was dynn_ckr_coulibaly)
 	culture = "ewe"
 }
 8100046 = {
-	name = "dynn_ckr_toure"
+	name = "dynn_cy_Adeyemi"	# e77 (was dynn_ckr_toure)
 	culture = "yoruba"
 }
 8100047 = {
-	prefix = "dynnp_de"
-	name = "dynn_Verre"
+	name = "dynn_cy_Schneider"	# e77 (was dynn_Verre)
 	culture = "german"
 }
 8100048 = {
-	name = "dynn_Majhi"
+	name = "dynn_cy_Chauhan"	# e77 (was dynn_Majhi)
 	culture = "hindustani"
 }
 8100049 = {
-	name = "dynn_Padiachy"
+	name = "dynn_cy_Upadhyay"	# e77 (was dynn_Padiachy)
 	culture = "hindustani"
 }
 8100050 = {
-	name = "dynn_ckr_rajasa"
-	culture = "bodpa"
+	name = "dynn_cy_Zaw"	# e77 (was dynn_ckr_rajasa)
+	culture = "burmese"
 }
 8100051 = {
-	name = "dynn_Yayvapala"
+	name = "dynn_cy_Baghel"	# e77 (was dynn_Yayvapala)
 	culture = "rajput"
 }
 8100052 = {
-	prefix = "dynnp_d_"
-	name = "dynn_Urgell"
+	name = "dynn_cy_Iglesias"	# e77 (was dynn_Urgell)
 	culture = "castilian"
 }
 8100053 = {
@@ -227,37 +218,35 @@
 	culture = "sotho_tswana"
 }
 8100054 = {
-	name = "dynn_ckr_sefuwa"
+	name = "dynn_cy_Zoungrana"	# e77 (was dynn_ckr_sefuwa)
 	culture = "mossi"
 }
 8100055 = {
-	prefix = "dynnp_de"
-	name = "dynn_Astorga"
+	name = "dynn_cy_Salazar"	# e77 (was dynn_Astorga)
 	culture = "criollo"
 }
 8100056 = {
-	name = "dynn_ckr_askia"
+	name = "dynn_cy_Ampofo"	# e77 (was dynn_ckr_askia)
 	culture = "akan"
 }
 8100057 = {
-	name = "dynn_ckr_kante"
+	name = "dynn_cy_Kimbangu"	# e77 (was dynn_ckr_kante)
 	culture = "kongo"
 }
 8100058 = {
-	name = "dynn_ckr_warmadewa"
+	name = "dynn_cy_bin_Razak"	# e77 (was dynn_ckr_warmadewa)
 	culture = "malay"
 }
 8100059 = {
-	prefix = "dynnp_de"
-	name = "dynn_Calatrava"
+	name = "dynn_cy_Restrepo"	# e77 (was dynn_Calatrava)
 	culture = "criollo"
 }
 8100060 = {
-	name = "dynn_Sypniewski"
+	name = "dynn_cy_Marin"	# e77 (was dynn_Sypniewski)
 	culture = "romanian"
 }
 8100061 = {
-	name = "dynn_Korecki"
+	name = "dynn_cy_Kis"	# e77 (was dynn_Korecki)
 	culture = "hungarian"
 }
 8100062 = {
@@ -265,34 +254,31 @@
 	culture = "rwandan"
 }
 8100063 = {
-	prefix = "dynnp_de"
-	name = "dynn_Alfaro"
+	name = "dynn_cy_Arango"	# e77 (was dynn_Alfaro)
 	culture = "criollo"
 }
 8100064 = {
-	name = "dynn_ckr_freeholt"
+	name = "dynn_cy_Romano"	# e77 (was dynn_ckr_freeholt)
 	culture = "liblander_west"
 }
 8100065 = {
-	name = "dynn_ckr_acamapichtli"
+	name = "dynn_cy_Tzoc"	# e77 (was dynn_ckr_acamapichtli)
 	culture = "maya"
 }
 8100066 = {
-	prefix = "dynnp_de"
-	name = "dynn_Menezes"
+	name = "dynn_cy_Vieira"	# e77 (was dynn_Menezes)
 	culture = "brazilian"
 }
 8100067 = {
-	name = "dynn_ckr_wattleford"
+	name = "dynn_cy_Sullivan"	# e77 (was dynn_ckr_wattleford)
 	culture = "aussie"
 }
 8100068 = {
-	name = "dynn_ckr_tizoc"
+	name = "dynn_cy_Tiul"	# e77 (was dynn_ckr_tizoc)
 	culture = "maya"
 }
 8100069 = {
-	prefix = "dynnp_de"
-	name = "dynn_Borgona"
+	name = "dynn_cy_Zapata"	# e77 (was dynn_Borgona)
 	culture = "criollo"
 }
 8100070 = {
@@ -300,16 +286,15 @@
 	culture = "moroccan"
 }
 8100071 = {
-	prefix = "dynnp_de"
-	name = "dynn_Segovia"
+	name = "dynn_cy_Machado"	# e77 (was dynn_Segovia)
 	culture = "gaucho"
 }
 8100072 = {
-	name = "dynn_ckr_varmana"
+	name = "dynn_cy_Villanueva"	# e77 (was dynn_ckr_varmana)
 	culture = "filipino"
 }
 8100073 = {
-	name = "dynn_ckr_mauli"
+	name = "dynn_cy_Lunyu"	# e77 (was dynn_ckr_mauli)
 	culture = "dayak"
 }
 8100074 = {
@@ -321,7 +306,7 @@
 	culture = "xiang"
 }
 8100076 = {
-	name = "dynn_ckr_dharmasraya"
+	name = "dynn_cy_Das"	# e77 (was dynn_ckr_dharmasraya)
 	culture = "bengali"
 }
 8100077 = {
@@ -329,23 +314,23 @@
 	culture = "han"
 }
 8100078 = {
-	name = "dynn_Wen_6587"
+	name = "dynn_cy_Cai"	# e77 (was dynn_Wen_6587)
 	culture = "sichuanese"
 }
 8100079 = {
-	name = "dynn_Chetti"
+	name = "dynn_cy_Raman"	# e77 (was dynn_Chetti)
 	culture = "tamil"
 }
 8100080 = {
-	name = "dynn_ckr_ahuitzotl"
+	name = "dynn_cy_Calle"	# e77 (was dynn_ckr_ahuitzotl)
 	culture = "andean"
 }
 8100081 = {
-	name = "dynn_Wei_9B4F"
+	name = "dynn_cy_Torguud"	# e77 (was dynn_Wei_9B4F)
 	culture = "mongol"
 }
 8100082 = {
-	name = "dynn_Rahanweyn"
+	name = "dynn_cy_Henry"	# e77 (was dynn_Rahanweyn)
 	culture = "afro_caribbean"
 }
 8100083 = {
@@ -353,12 +338,11 @@
 	culture = "maghrebi"
 }
 8100084 = {
-	prefix = "dynnp_de"
-	name = "dynn_CO_rdoba"
+	name = "dynn_cy_Mendes"	# e77 (was dynn_CO_rdoba)
 	culture = "brazilian"
 }
 8100085 = {
-	name = "dynn_Tatikes"
+	name = "dynn_cy_Knezevic"	# e77 (was dynn_Tatikes)
 	culture = "croatian"
 }
 8100086 = {
@@ -366,17 +350,15 @@
 	culture = "criollo"
 }
 8100087 = {
-	prefix = "dynnp_de"
-	name = "dynn_Castellon"
+	name = "dynn_cy_Soares"	# e77 (was dynn_Castellon)
 	culture = "brazilian"
 }
 8100088 = {
-	prefix = "dynnp_de"
-	name = "dynn_SahagU_n"
+	name = "dynn_cy_Goncalves"	# e77 (was dynn_SahagU_n)
 	culture = "gaucho"
 }
 8100089 = {
-	name = "dynn_ckr_sri_jaya"
+	name = "dynn_cy_Dong"	# e77 (was dynn_ckr_sri_jaya)
 	culture = "sichuanese"
 }
 8100090 = {
@@ -392,7 +374,7 @@
 	culture = "swahili"
 }
 8100093 = {
-	name = "dynn_Kumanchal"
+	name = "dynn_cy_Agarwal"	# e77 (was dynn_Kumanchal)
 	culture = "hindustani"
 }
 8100094 = {
@@ -400,15 +382,15 @@
 	culture = "han"
 }
 8100095 = {
-	name = "dynn_Umarid"
+	name = "dynn_cy_Mahmud"	# e77 (was dynn_Umarid)
 	culture = "kurdish"
 }
 8100096 = {
-	name = "dynn_Igorevich"
+	name = "dynn_cy_Tkachenko"	# e77 (was dynn_Igorevich)
 	culture = "ukrainian"
 }
 8100097 = {
-	name = "dynn_Bartire"
+	name = "dynn_cy_Figueroa"	# e77 (was dynn_Bartire)
 	culture = "caribeno"
 }
 8100098 = {
@@ -416,11 +398,11 @@
 	culture = "kongo"
 }
 8100099 = {
-	name = "dynn_Valuyev"
+	name = "dynn_cy_Kovalchuk"	# e77 (was dynn_Valuyev)
 	culture = "ukrainian"
 }
 8100100 = {
-	name = "dynn_Ledur"
+	name = "dynn_cy_Becker"	# e77 (was dynn_Ledur)
 	culture = "german"
 }
 8100101 = {
@@ -428,7 +410,7 @@
 	culture = "nguni"
 }
 8100102 = {
-	name = "dynn_Feng_51AF"
+	name = "dynn_cy_Yesimov"	# e77 (was dynn_Feng_51AF)
 	culture = "kazak"
 }
 8100103 = {
@@ -436,19 +418,19 @@
 	culture = "nguni"
 }
 8100104 = {
-	name = "dynn_ckr_quauhtli"
+	name = "dynn_cy_De_Leon"	# e77 (was dynn_ckr_quauhtli)
 	culture = "centroamerican"
 }
 8100105 = {
-	name = "dynn_Bistami"
+	name = "dynn_cy_Sen"	# e77 (was dynn_Bistami)
 	culture = "turkish"
 }
 8100106 = {
-	name = "dynn_Dayal"
+	name = "dynn_cy_Popalzai"	# e77 (was dynn_Dayal)
 	culture = "afghan"
 }
 8100107 = {
-	name = "dynn_Suleimid"
+	name = "dynn_cy_Ouahbi"	# e77 (was dynn_Suleimid)
 	culture = "moroccan"
 }
 8100108 = {
@@ -456,40 +438,39 @@
 	culture = "afro_caribbean"
 }
 8100109 = {
-	name = "dynn_Aida"
+	name = "dynn_cy_Yamashita"	# e77 (was dynn_Aida)
 	culture = "japanese"
 }
 8100110 = {
-	name = "dynn_ckr_gyeongju"
+	name = "dynn_cy_Pan"	# e77 (was dynn_ckr_gyeongju)
 	culture = "han"
 }
 8100111 = {
-	name = "dynn_Xi_5E2D"
+	name = "dynn_cy_Jiang"	# e77 (was dynn_Xi_5E2D)
 	culture = "min"
 }
 8100112 = {
-	name = "dynn_Tao_9676"
+	name = "dynn_cy_Ren"	# e77 (was dynn_Tao_9676)
 	culture = "gan_hakka"
 }
 8100113 = {
-	prefix = "dynnp_al-"
-	name = "dynn_Zoghbadid"
+	name = "dynn_cy_Hariri"	# e77 (was dynn_Zoghbadid)
 	culture = "levantine"
 }
 8100114 = {
-	name = "dynn_Chodkiewicz"
+	name = "dynn_cy_Olszewski"	# e77 (was dynn_Chodkiewicz)
 	culture = "polish"
 }
 8100115 = {
-	name = "dynn_Manrique"
+	name = "dynn_cy_Batista"	# e77 (was dynn_Manrique)
 	culture = "brazilian"
 }
 8100116 = {
-	name = "dynn_Baghela"
+	name = "dynn_cy_Mathur"	# e77 (was dynn_Baghela)
 	culture = "hindustani"
 }
 8100117 = {
-	name = "dynn_Warsangali"
+	name = "dynn_cy_Brito"	# e77 (was dynn_Warsangali)
 	culture = "afro_brazilian"
 }
 8100118 = {
@@ -497,16 +478,15 @@
 	culture = "cantonese"
 }
 8100119 = {
-	name = "dynn_ckr_mixcoatl"
+	name = "dynn_cy_Coj"	# e77 (was dynn_ckr_mixcoatl)
 	culture = "maya"
 }
 8100120 = {
-	prefix = "dynnp_de"
-	name = "dynn_Molina"
+	name = "dynn_cy_Nina"	# e77 (was dynn_Molina)
 	culture = "andean"
 }
 8100121 = {
-	name = "dynn_Hua_534E"
+	name = "dynn_cy_Gan"	# e77 (was dynn_Hua_534E)
 	culture = "bouxcuengh"
 }
 8100122 = {
@@ -514,15 +494,15 @@
 	culture = "pulaar"
 }
 8100123 = {
-	name = "dynn_Fei_8D39"
+	name = "dynn_cy_Yuan"	# e77 (was dynn_Fei_8D39)
 	culture = "sichuanese"
 }
 8100124 = {
-	name = "dynn_Zou_90B9"
+	name = "dynn_cy_Tohti"	# e77 (was dynn_Zou_90B9)
 	culture = "uyghur"
 }
 8100125 = {
-	name = "dynn_Pandit"
+	name = "dynn_cy_Paswan"	# e77 (was dynn_Pandit)
 	culture = "hindustani"
 }
 8100126 = {
@@ -530,16 +510,15 @@
 	culture = "cantonese"
 }
 8100127 = {
-	name = "dynn_ckr_kertarajasa"
+	name = "dynn_cy_Doan"	# e77 (was dynn_ckr_kertarajasa)
 	culture = "viet"
 }
 8100128 = {
-	name = "dynn_Gurgura"
+	name = "dynn_cy_Jean_Baptiste"	# e77 (was dynn_Gurgura)
 	culture = "afro_caribbean"
 }
 8100129 = {
-	prefix = "dynnp_d_"
-	name = "dynn_I_le"
+	name = "dynn_cy_Weiss"	# e77 (was dynn_I_le)
 	culture = "german"
 }
 8100130 = {
@@ -547,7 +526,7 @@
 	culture = "shona"
 }
 8100131 = {
-	name = "dynn_Zuo_5DE6"
+	name = "dynn_cy_Tan"	# e77 (was dynn_Zuo_5DE6)
 	culture = "han"
 }
 8100132 = {
@@ -555,15 +534,15 @@
 	culture = "xiang"
 }
 8100133 = {
-	name = "dynn_ckr_ayutthaya"
+	name = "dynn_cy_Phi"	# e77 (was dynn_ckr_ayutthaya)
 	culture = "viet"
 }
 8100134 = {
-	name = "dynn_Jin_91D1"
+	name = "dynn_cy_Tatar"	# e77 (was dynn_Jin_91D1)
 	culture = "mongol"
 }
 8100135 = {
-	name = "dynn_Halabanid"
+	name = "dynn_cy_Khani"	# e77 (was dynn_Halabanid)
 	culture = "persian"
 }
 8100136 = {
@@ -575,60 +554,59 @@
 	culture = "han"
 }
 8100138 = {
-	name = "dynn_Iyer"
+	name = "dynn_cy_Kamath"	# e77 (was dynn_Iyer)
 	culture = "kannada"
 }
 8100139 = {
-	name = "dynn_Miao_82D7"
+	name = "dynn_cy_Fan"	# e77 (was dynn_Miao_82D7)
 	culture = "han"
 }
 8100140 = {
-	name = "dynn_ckr_konate"
+	name = "dynn_cy_Fashola"	# e77 (was dynn_ckr_konate)
 	culture = "yoruba"
 }
 8100141 = {
-	prefix = "dynnp_de"
-	name = "dynn_Plasencia"
+	name = "dynn_cy_Ospina"	# e77 (was dynn_Plasencia)
 	culture = "criollo"
 }
 8100142 = {
-	name = "dynn_ckr_phra_ruang"
+	name = "dynn_cy_Talukdar"	# e77 (was dynn_ckr_phra_ruang)
 	culture = "assamese"
 }
 8100143 = {
-	name = "dynn_Narayan"
+	name = "dynn_cy_Mittal"	# e77 (was dynn_Narayan)
 	culture = "hindustani"
 }
 8100144 = {
-	name = "dynn_ckr_uthong"
+	name = "dynn_cy_bin_Kassim"	# e77 (was dynn_ckr_uthong)
 	culture = "malay"
 }
 8100145 = {
-	name = "dynn_ckr_kassabenner"
+	name = "dynn_cy_Rahmani"	# e77 (was dynn_ckr_kassabenner)
 	culture = "persian"
 }
 8100146 = {
-	name = "dynn_ckr_tlatoani"
+	name = "dynn_cy_Moreira"	# e77 (was dynn_ckr_tlatoani)
 	culture = "brazilian"
 }
 8100147 = {
-	name = "dynn_Madhhij"
+	name = "dynn_cy_Ozdemir"	# e77 (was dynn_Madhhij)
 	culture = "turkish"
 }
 8100148 = {
-	name = "dynn_Vaid"
+	name = "dynn_cy_Srivastava"	# e77 (was dynn_Vaid)
 	culture = "hindustani"
 }
 8100149 = {
-	name = "dynn_Sachdeva"
+	name = "dynn_cy_Gohil"	# e77 (was dynn_Sachdeva)
 	culture = "rajput"
 }
 8100150 = {
-	name = "dynn_Katyuri"
+	name = "dynn_cy_Vyas"	# e77 (was dynn_Katyuri)
 	culture = "gujarati"
 }
 8100151 = {
-	name = "dynn_ckr_suphannaphum"
+	name = "dynn_cy_Shi"	# e77 (was dynn_ckr_suphannaphum)
 	culture = "sichuanese"
 }
 8100152 = {
@@ -636,7 +614,7 @@
 	culture = "han"
 }
 8100153 = {
-	name = "dynn_Qin_79E6"
+	name = "dynn_cy_Cheng"	# e77 (was dynn_Qin_79E6)
 	culture = "han"
 }
 8100154 = {
@@ -644,20 +622,19 @@
 	culture = "gan_hakka"
 }
 8100155 = {
-	name = "dynn_ckr_nezahual"
+	name = "dynn_cy_Almeida"	# e77 (was dynn_ckr_nezahual)
 	culture = "nordestino"
 }
 8100156 = {
-	name = "dynn_Mandal"
+	name = "dynn_cy_Sisodia"	# e77 (was dynn_Mandal)
 	culture = "rajput"
 }
 8100157 = {
-	name = "dynn_ckr_mangrai"
+	name = "dynn_cy_bin_Ali"	# e77 (was dynn_ckr_mangrai)
 	culture = "malay"
 }
 8100158 = {
-	prefix = "dynnp_de"
-	name = "dynn_Castrogeriz"
+	name = "dynn_cy_Dal_Pizzol"	# e77 (was dynn_Castrogeriz)
 	culture = "gaucho"
 }
 8100159 = {
@@ -665,12 +642,11 @@
 	culture = "levantine"
 }
 8100160 = {
-	name = "dynn_ckr_camara"
+	name = "dynn_cy_Balde_4d04"	# e77 (was dynn_ckr_camara)
 	culture = "pulaar"
 }
 8100161 = {
-	prefix = "dynnp_de"
-	name = "dynn_Sotomayor"
+	name = "dynn_cy_Neves"	# e77 (was dynn_Sotomayor)
 	culture = "afro_brazilian"
 }
 8100162 = {
@@ -679,28 +655,27 @@
 	culture = "nordestino"
 }
 8100163 = {
-	prefix = "dynnp_de"
-	name = "dynn_Yanguas"
+	name = "dynn_cy_Cardoso"	# e77 (was dynn_Yanguas)
 	culture = "brazilian"
 }
 8100164 = {
-	name = "dynn_ckr_lan_xang"
+	name = "dynn_cy_Rattanakul"	# e77 (was dynn_ckr_lan_xang)
 	culture = "thai"
 }
 8100165 = {
-	name = "dynn_Xu_5F90"
+	name = "dynn_cy_Rahmonov"	# e77 (was dynn_Xu_5F90)
 	culture = "tajik"
 }
 8100166 = {
-	name = "dynn_Konar"
+	name = "dynn_cy_Rajan"	# e77 (was dynn_Konar)
 	culture = "telugu"
 }
 8100167 = {
-	name = "dynn_ckr_ouattara"
+	name = "dynn_cy_Kwankwaso"	# e77 (was dynn_ckr_ouattara)
 	culture = "hausa"
 }
 8100168 = {
-	name = "dynn_Aachari"
+	name = "dynn_cy_Pai"	# e77 (was dynn_Aachari)
 	culture = "kannada"
 }
 8100169 = {
@@ -712,23 +687,23 @@
 	culture = "luba"
 }
 8100171 = {
-	name = "dynn_Aryacakravarti"
+	name = "dynn_cy_Naidu"	# e77 (was dynn_Aryacakravarti)
 	culture = "tamil"
 }
 8100172 = {
-	name = "dynn_Uniyal"
+	name = "dynn_cy_Thakur"	# e77 (was dynn_Uniyal)
 	culture = "hindustani"
 }
 8100173 = {
-	name = "dynn_Rastogi"
+	name = "dynn_cy_Kalhoro"	# e77 (was dynn_Rastogi)
 	culture = "sindhi"
 }
 8100174 = {
-	name = "dynn_Lan_84DD"
+	name = "dynn_cy_Islam"	# e77 (was dynn_Lan_84DD)
 	culture = "uyghur"
 }
 8100175 = {
-	name = "dynn_ckr_sangare"
+	name = "dynn_cy_Tambuwal"	# e77 (was dynn_ckr_sangare)
 	culture = "hausa"
 }
 8100176 = {
@@ -736,27 +711,27 @@
 	culture = "malinke"
 }
 8100177 = {
-	name = "dynn_Sobakin"
+	name = "dynn_cy_Klymenko"	# e77 (was dynn_Sobakin)
 	culture = "ukrainian"
 }
 8100178 = {
-	name = "dynn_ckr_kouyate"
+	name = "dynn_cy_Abdalla"	# e77 (was dynn_ckr_kouyate)
 	culture = "beja"
 }
 8100179 = {
-	name = "dynn_ckr_khun_borom"
+	name = "dynn_cy_Pattanapong"	# e77 (was dynn_ckr_khun_borom)
 	culture = "thai"
 }
 8100180 = {
-	name = "dynn_Kaabid"
+	name = "dynn_cy_Mengal"	# e77 (was dynn_Kaabid)
 	culture = "baloch"
 }
 8100181 = {
-	name = "dynn_ckr_doumbia"
+	name = "dynn_cy_Hersi"	# e77 (was dynn_ckr_doumbia)
 	culture = "somali"
 }
 8100182 = {
-	name = "dynn_ckr_dembele"
+	name = "dynn_cy_Ruto"	# e77 (was dynn_ckr_dembele)
 	culture = "nilotic"
 }
 8100183 = {
@@ -764,12 +739,11 @@
 	culture = "bemba"
 }
 8100184 = {
-	name = "dynn_ckr_ngam"
+	name = "dynn_cy_Rahman"	# e77 (was dynn_ckr_ngam)
 	culture = "bengali"
 }
 8100185 = {
-	prefix = "dynnp_de"
-	name = "dynn_TraI_nel"
+	name = "dynn_cy_Berger"	# e77 (was dynn_TraI_nel)
 	culture = "german"
 }
 8100186 = {
@@ -777,31 +751,31 @@
 	culture = "egyptian"
 }
 8100187 = {
-	name = "dynn_ckr_sidibe"
+	name = "dynn_cy_Acheampong"	# e77 (was dynn_ckr_sidibe)
 	culture = "akan"
 }
 8100188 = {
-	name = "dynn_Konstantopoulos"
+	name = "dynn_cy_Kastrati"	# e77 (was dynn_Konstantopoulos)
 	culture = "albanian"
 }
 8100189 = {
-	name = "dynn_Shen_6C88"
+	name = "dynn_cy_Dzhaksybekov"	# e77 (was dynn_Shen_6C88)
 	culture = "kazak"
 }
 8100190 = {
-	name = "dynn_Kholmsky"
+	name = "dynn_cy_Frolov"	# e77 (was dynn_Kholmsky)
 	culture = "russian"
 }
 8100191 = {
-	name = "dynn_Vsevolodich"
+	name = "dynn_cy_Davydov"	# e77 (was dynn_Vsevolodich)
 	culture = "russian"
 }
 8100192 = {
-	name = "dynn_ckr_chenla"
+	name = "dynn_cy_bin_Rahman"	# e77 (was dynn_ckr_chenla)
 	culture = "malay"
 }
 8100193 = {
-	name = "dynn_ckr_kaba"
+	name = "dynn_cy_Kufuor"	# e77 (was dynn_ckr_kaba)
 	culture = "akan"
 }
 8100194 = {
@@ -809,23 +783,23 @@
 	culture = "sichuanese"
 }
 8100195 = {
-	name = "dynn_Opolski"
+	name = "dynn_cy_Vinogradov"	# e77 (was dynn_Opolski)
 	culture = "russian"
 }
 8100196 = {
-	name = "dynn_Baghdadi"
+	name = "dynn_cy_Al_Muhairi"	# e77 (was dynn_Baghdadi)
 	culture = "bedouin"
 }
 8100197 = {
-	name = "dynn_Lewicki"
+	name = "dynn_cy_Karpenko"	# e77 (was dynn_Lewicki)
 	culture = "ukrainian"
 }
 8100198 = {
-	name = "dynn_Xi_595A"
+	name = "dynn_cy_Abdyldayev"	# e77 (was dynn_Xi_595A)
 	culture = "kirghiz"
 }
 8100199 = {
-	name = "dynn_ckr_fofana"
+	name = "dynn_cy_Adebayo"	# e77 (was dynn_ckr_fofana)
 	culture = "yoruba"
 }
 8100200 = {
@@ -833,7 +807,7 @@
 	culture = "han"
 }
 8100201 = {
-	name = "dynn_Godziemba"
+	name = "dynn_cy_Karklins"	# e77 (was dynn_Godziemba)
 	culture = "latvian"
 }
 8100202 = {
@@ -841,34 +815,31 @@
 	culture = "levantine"
 }
 8100203 = {
-	name = "dynn_ckr_mwale"
+	name = "dynn_cy_Moshoeshoe"	# e77 (was dynn_ckr_mwale)
 	culture = "sotho_tswana"
 }
 8100204 = {
-	name = "dynn_ckr_bagayoko"
+	name = "dynn_cy_Mabiala"	# e77 (was dynn_ckr_bagayoko)
 	culture = "kongo"
 }
 8100205 = {
-	prefix = "dynnp_de"
-	name = "dynn_Nevers"
+	name = "dynn_cy_Fuchs"	# e77 (was dynn_Nevers)
 	culture = "german"
 }
 8100206 = {
-	prefix = "dynnp_van"
-	name = "dynn_Voorne"
+	name = "dynn_cy_Mofokeng"	# e77 (was dynn_Voorne)
 	culture = "sotho_tswana"
 }
 8100207 = {
-	name = "dynn_Ji_7EAA"
+	name = "dynn_cy_Xiao"	# e77 (was dynn_Ji_7EAA)
 	culture = "sichuanese"
 }
 8100208 = {
-	prefix = "dynnp_de"
-	name = "dynn_la_Cerda"
+	name = "dynn_cy_Dias"	# e77 (was dynn_la_Cerda)
 	culture = "gaucho"
 }
 8100209 = {
-	name = "dynn_Min_95F5"
+	name = "dynn_cy_Zhong"	# e77 (was dynn_Min_95F5)
 	culture = "han"
 }
 8100210 = {
@@ -876,16 +847,15 @@
 	culture = "kongo"
 }
 8100211 = {
-	name = "dynn_ckr_funanid"
+	name = "dynn_cy_Chaturvedi"	# e77 (was dynn_ckr_funanid)
 	culture = "hindustani"
 }
 8100212 = {
-	name = "dynn_Sachan"
+	name = "dynn_cy_Bedi"	# e77 (was dynn_Sachan)
 	culture = "punjabi"
 }
 8100213 = {
-	prefix = "dynnp_de"
-	name = "dynn_Roquefeuil"
+	name = "dynn_cy_Peters"	# e77 (was dynn_Roquefeuil)
 	culture = "german"
 }
 8100214 = {
@@ -893,23 +863,23 @@
 	culture = "egyptian"
 }
 8100215 = {
-	name = "dynn_GL_ogowski"
+	name = "dynn_cy_Kravchuk"	# e77 (was dynn_GL_ogowski)
 	culture = "ukrainian"
 }
 8100216 = {
-	name = "dynn_ckr_coyolxauh"
+	name = "dynn_cy_Natividade"	# e77 (was dynn_ckr_coyolxauh)
 	culture = "afro_brazilian"
 }
 8100217 = {
-	name = "dynn_Paraiyar"
+	name = "dynn_cy_Palaniswami"	# e77 (was dynn_Paraiyar)
 	culture = "tamil"
 }
 8100218 = {
-	name = "dynn_ckr_maiga"
+	name = "dynn_cy_Embalo"	# e77 (was dynn_ckr_maiga)
 	culture = "pulaar"
 }
 8100219 = {
-	name = "dynn_Vogak"
+	name = "dynn_cy_Polyakov"	# e77 (was dynn_Vogak)
 	culture = "russian"
 }
 8100220 = {
@@ -917,7 +887,7 @@
 	culture = "ovimbundu"
 }
 8100221 = {
-	name = "dynn_LO_pez"
+	name = "dynn_cy_Puma"	# e77 (was dynn_LO_pez)
 	culture = "andean"
 }
 8100222 = {
@@ -925,24 +895,23 @@
 	culture = "criollo"
 }
 8100223 = {
-	name = "dynn_ckr_champa"
+	name = "dynn_cy_Win"	# e77 (was dynn_ckr_champa)
 	culture = "burmese"
 }
 8100224 = {
-	name = "dynn_Hao_90DD"
+	name = "dynn_cy_Sayyaf"	# e77 (was dynn_Hao_90DD)
 	culture = "afghan"
 }
 8100225 = {
-	prefix = "dynnp_de"
-	name = "dynn_Batarnay"
+	name = "dynn_cy_Braun"	# e77 (was dynn_Batarnay)
 	culture = "german"
 }
 8100226 = {
-	name = "dynn_ckr_indravarmid"
+	name = "dynn_cy_Ding"	# e77 (was dynn_ckr_indravarmid)
 	culture = "sichuanese"
 }
 8100227 = {
-	name = "dynn_ckr_pacal"
+	name = "dynn_cy_Cervantes"	# e77 (was dynn_ckr_pacal)
 	culture = "mexican"
 }
 8100228 = {
@@ -950,15 +919,15 @@
 	culture = "sichuanese"
 }
 8100229 = {
-	name = "dynn_Arbintenos"
+	name = "dynn_cy_Ferrara"	# e77 (was dynn_Arbintenos)
 	culture = "italian"
 }
 8100230 = {
-	name = "dynn_Halicki"
+	name = "dynn_cy_Maksimovich"	# e77 (was dynn_Halicki)
 	culture = "belarusian"
 }
 8100231 = {
-	name = "dynn_Suryavansha"
+	name = "dynn_cy_Qazi"	# e77 (was dynn_Suryavansha)
 	culture = "sindhi"
 }
 8100232 = {
@@ -966,49 +935,47 @@
 	culture = "libyan"
 }
 8100233 = {
-	name = "dynn_ckr_jayavarmid"
+	name = "dynn_cy_Choudhury"	# e77 (was dynn_ckr_jayavarmid)
 	culture = "assamese"
 }
 8100234 = {
-	name = "dynn_S_widnicki"
+	name = "dynn_cy_Munteanu"	# e77 (was dynn_S_widnicki)
 	culture = "romanian"
 }
 8100235 = {
-	name = "dynn_Blachernites"
+	name = "dynn_cy_Laurent"	# e77 (was dynn_Blachernites)
 	culture = "french"
 }
 8100236 = {
-	name = "dynn_Bourtzes"
+	name = "dynn_cy_Nikolic"	# e77 (was dynn_Bourtzes)
 	culture = "serbian"
 }
 8100237 = {
-	name = "dynn_ckr_kukulcan"
+	name = "dynn_cy_Delgado"	# e77 (was dynn_ckr_kukulcan)
 	culture = "mexican"
 }
 8100238 = {
-	name = "dynn_Isaaq"
+	name = "dynn_cy_Andrade"	# e77 (was dynn_Isaaq)
 	culture = "brazilian"
 }
 8100239 = {
-	name = "dynn_Solomon"
+	name = "dynn_cy_Fournier"	# e77 (was dynn_Solomon)
 	culture = "french"
 }
 8100240 = {
-	prefix = "dynnp_d_"
-	name = "dynn_Aix"
+	name = "dynn_cy_Muller"	# e77 (was dynn_Aix)
 	culture = "bavarian"
 }
 8100241 = {
-	prefix = "dynnp_de"
-	name = "dynn_Castellvell"
+	name = "dynn_cy_Calvo"	# e77 (was dynn_Castellvell)
 	culture = "castilian"
 }
 8100242 = {
-	name = "dynn_Batra"
+	name = "dynn_cy_Andrabi"	# e77 (was dynn_Batra)
 	culture = "kashmiri"
 }
 8100243 = {
-	name = "dynn_ckr_tandina"
+	name = "dynn_cy_Ndungu"	# e77 (was dynn_ckr_tandina)
 	culture = "east_bantu"
 }
 8100244 = {
@@ -1016,7 +983,7 @@
 	culture = "kongo"
 }
 8100245 = {
-	name = "dynn_Kannan"
+	name = "dynn_cy_Apte"	# e77 (was dynn_Kannan)
 	culture = "marathi"
 }
 8100246 = {
@@ -1024,15 +991,15 @@
 	culture = "bedouin"
 }
 8100247 = {
-	name = "dynn_ckr_mahidharapura"
+	name = "dynn_cy_Inthawong"	# e77 (was dynn_ckr_mahidharapura)
 	culture = "thai"
 }
 8100248 = {
-	name = "dynn_ckr_sanogo"
+	name = "dynn_cy_Akol"	# e77 (was dynn_ckr_sanogo)
 	culture = "nilotic"
 }
 8100249 = {
-	name = "dynn_ckr_cascadine"
+	name = "dynn_cy_Nichols"	# e77 (was dynn_ckr_cascadine)
 	culture = "liblander_west"
 }
 8100250 = {
@@ -1040,7 +1007,7 @@
 	culture = "gan_hakka"
 }
 8100251 = {
-	name = "dynn_Bai"
+	name = "dynn_cy_Ghorpade"	# e77 (was dynn_Bai)
 	culture = "marathi"
 }
 8100252 = {
@@ -1048,15 +1015,15 @@
 	culture = "wu"
 }
 8100253 = {
-	name = "dynn_ckr_tagalog_lakan"
+	name = "dynn_cy_Ling"	# e77 (was dynn_ckr_tagalog_lakan)
 	culture = "bouxcuengh"
 }
 8100254 = {
-	name = "dynn_Qi_9F4A"
+	name = "dynn_cy_Du"	# e77 (was dynn_Qi_9F4A)
 	culture = "han"
 }
 8100255 = {
-	name = "dynn_ckr_rajah_humabon"
+	name = "dynn_cy_Kyaw"	# e77 (was dynn_ckr_rajah_humabon)
 	culture = "burmese"
 }
 8100256 = {
@@ -1068,23 +1035,23 @@
 	culture = "nguni"
 }
 8100258 = {
-	name = "dynn_Rostislavich"
+	name = "dynn_cy_Komarov"	# e77 (was dynn_Rostislavich)
 	culture = "russian"
 }
 8100259 = {
-	name = "dynn_ckr_yattara"
+	name = "dynn_cy_Mulondo"	# e77 (was dynn_ckr_yattara)
 	culture = "ganda"
 }
 8100260 = {
-	name = "dynn_ckr_kamissoko"
+	name = "dynn_cy_Diangienda"	# e77 (was dynn_ckr_kamissoko)
 	culture = "kongo"
 }
 8100261 = {
-	name = "dynn_ckr_sylla"
+	name = "dynn_cy_Umara"	# e77 (was dynn_ckr_sylla)
 	culture = "kanuri"
 }
 8100262 = {
-	name = "dynn_ckr_dicko"
+	name = "dynn_cy_Jama"	# e77 (was dynn_ckr_dicko)
 	culture = "somali"
 }
 8100263 = {
@@ -1092,43 +1059,43 @@
 	culture = "rwandan"
 }
 8100264 = {
-	name = "dynn_ckr_tamboura"
+	name = "dynn_cy_Sy"	# e77 (was dynn_ckr_tamboura)
 	culture = "pulaar"
 }
 8100265 = {
-	name = "dynn_Nowina"
+	name = "dynn_cy_Kravchenko"	# e77 (was dynn_Nowina)
 	culture = "ukrainian"
 }
 8100266 = {
-	name = "dynn_Branicki"
+	name = "dynn_cy_Witkowski"	# e77 (was dynn_Branicki)
 	culture = "polish"
 }
 8100267 = {
-	name = "dynn_ckr_guindo"
+	name = "dynn_cy_Gana"	# e77 (was dynn_ckr_guindo)
 	culture = "nupe"
 }
 8100268 = {
-	name = "dynn_ckr_ndiaye"
+	name = "dynn_cy_Onyeka"	# e77 (was dynn_ckr_ndiaye)
 	culture = "igbo"
 }
 8100269 = {
-	name = "dynn_Kong_5B54"
+	name = "dynn_cy_Sidorov"	# e77 (was dynn_Kong_5B54)
 	culture = "russian"
 }
 8100270 = {
-	name = "dynn_Tomita"
+	name = "dynn_cy_Tanaka"	# e77 (was dynn_Tomita)
 	culture = "japanese"
 }
 8100271 = {
-	name = "dynn_ckr_gueye"
+	name = "dynn_cy_Kiendrebeogo"	# e77 (was dynn_ckr_gueye)
 	culture = "mossi"
 }
 8100272 = {
-	name = "dynn_ckr_kudarat"
+	name = "dynn_cy_bin_Hamid"	# e77 (was dynn_ckr_kudarat)
 	culture = "malay"
 }
 8100273 = {
-	name = "dynn_Marehan"
+	name = "dynn_cy_Sandoval"	# e77 (was dynn_Marehan)
 	culture = "centroamerican"
 }
 8100274 = {
@@ -1136,46 +1103,43 @@
 	culture = "sichuanese"
 }
 8100275 = {
-	name = "dynn_Parmar"
+	name = "dynn_cy_Shukla"	# e77 (was dynn_Parmar)
 	culture = "hindustani"
 }
 8100276 = {
-	name = "dynn_HelI_as"
+	name = "dynn_cy_Teixeira"	# e77 (was dynn_HelI_as)
 	culture = "brazilian"
 }
 8100277 = {
-	name = "dynn_Botaneiates"
+	name = "dynn_cy_Lakatos"	# e77 (was dynn_Botaneiates)
 	culture = "hungarian"
 }
 8100278 = {
-	prefix = "dynnp_de"
-	name = "dynn_CA_ceres"
+	name = "dynn_cy_Cavalcanti"	# e77 (was dynn_CA_ceres)
 	culture = "gaucho"
 }
 8100279 = {
-	name = "dynn_Bansal"
+	name = "dynn_cy_Noorzai"	# e77 (was dynn_Bansal)
 	culture = "afghan"
 }
 8100280 = {
-	prefix = "dynnp_de"
-	name = "dynn_Quintana"
+	name = "dynn_cy_Trindade"	# e77 (was dynn_Quintana)
 	culture = "afro_brazilian"
 }
 8100281 = {
-	prefix = "dynnp_de"
-	name = "dynn_Castilla_y_LeO_n"
+	name = "dynn_cy_Barros"	# e77 (was dynn_Castilla_y_LeO_n)
 	culture = "brazilian"
 }
 8100282 = {
-	name = "dynn_ckr_itzamna"
+	name = "dynn_cy_Osorio"	# e77 (was dynn_ckr_itzamna)
 	culture = "criollo"
 }
 8100283 = {
-	name = "dynn_TrA_ba"
+	name = "dynn_cy_Bondarenko"	# e77 (was dynn_TrA_ba)
 	culture = "ukrainian"
 }
 8100284 = {
-	name = "dynn_ckr_bolkiah"
+	name = "dynn_cy_Lingga"	# e77 (was dynn_ckr_bolkiah)
 	culture = "dayak"
 }
 8100285 = {
@@ -1183,16 +1147,15 @@
 	culture = "egyptian"
 }
 8100286 = {
-	prefix = "dynnp_de"
-	name = "dynn_Padilla"
+	name = "dynn_cy_Pires"	# e77 (was dynn_Padilla)
 	culture = "brazilian"
 }
 8100287 = {
-	name = "dynn_ckr_balam"
+	name = "dynn_cy_Antonio"	# e77 (was dynn_ckr_balam)
 	culture = "nativican"
 }
 8100288 = {
-	name = "dynn_Rathor"
+	name = "dynn_cy_Bhosale"	# e77 (was dynn_Rathor)
 	culture = "marathi"
 }
 8100289 = {
@@ -1200,15 +1163,15 @@
 	culture = "wu"
 }
 8100290 = {
-	name = "dynn_ckr_andong"
+	name = "dynn_cy_Ju"	# e77 (was dynn_ckr_andong)
 	culture = "north_korean"
 }
 8100291 = {
-	name = "dynn_ckr_parameswara"
+	name = "dynn_cy_Zunun"	# e77 (was dynn_ckr_parameswara)
 	culture = "uyghur"
 }
 8100292 = {
-	name = "dynn_ckr_melaka"
+	name = "dynn_cy_Meng"	# e77 (was dynn_ckr_melaka)
 	culture = "bouxcuengh"
 }
 8100293 = {
@@ -1216,50 +1179,47 @@
 	culture = "moroccan"
 }
 8100294 = {
-	name = "dynn_Kamat"
+	name = "dynn_cy_Virk"	# e77 (was dynn_Kamat)
 	culture = "punjabi"
 }
 8100295 = {
-	name = "dynn_Khare"
+	name = "dynn_cy_Saxena"	# e77 (was dynn_Khare)
 	culture = "hindustani"
 }
 8100296 = {
-	name = "dynn_Varma"
+	name = "dynn_cy_Gandhi"	# e77 (was dynn_Varma)
 	culture = "gujarati"
 }
 8100297 = {
-	name = "dynn_ckr_pagaruyung"
+	name = "dynn_cy_Bhattacharya"	# e77 (was dynn_ckr_pagaruyung)
 	culture = "bengali"
 }
 8100298 = {
-	name = "dynn_Perumadappu"
+	name = "dynn_cy_Ghattamaneni"	# e77 (was dynn_Perumadappu)
 	culture = "telugu"
 }
 8100299 = {
-	name = "dynn_Numayrid"
+	name = "dynn_cy_Ibrahimov"	# e77 (was dynn_Numayrid)
 	culture = "azerbaijani"
 }
 8100300 = {
-	name = "dynn_ckr_kaan"
+	name = "dynn_cy_Sacramento"	# e77 (was dynn_ckr_kaan)
 	culture = "afro_brazilian"
 }
 8100301 = {
-	prefix = "dynnp_de"
-	name = "dynn_Bergido"
+	name = "dynn_cy_Rocha"	# e77 (was dynn_Bergido)
 	culture = "brazilian"
 }
 8100302 = {
-	prefix = "dynnp_de"
-	name = "dynn_TrastA_mara"
+	name = "dynn_cy_Fernandes"	# e77 (was dynn_TrastA_mara)
 	culture = "brazilian"
 }
 8100303 = {
-	prefix = "dynnp_de"
-	name = "dynn_Cuenca"
+	name = "dynn_cy_Rios"	# e77 (was dynn_Cuenca)
 	culture = "rioplatense"
 }
 8100304 = {
-	name = "dynn_Mehta"
+	name = "dynn_cy_Swain"	# e77 (was dynn_Mehta)
 	culture = "oriya"
 }
 8100305 = {
@@ -1267,27 +1227,27 @@
 	culture = "rwandan"
 }
 8100306 = {
-	name = "dynn_Vladimirovich"
+	name = "dynn_cy_Vorobyov"	# e77 (was dynn_Vladimirovich)
 	culture = "russian"
 }
 8100307 = {
-	name = "dynn_Tverdiatich"
+	name = "dynn_cy_Maksimov"	# e77 (was dynn_Tverdiatich)
 	culture = "russian"
 }
 8100308 = {
-	name = "dynn_Fyodyorov"
+	name = "dynn_cy_Belyaev"	# e77 (was dynn_Fyodyorov)
 	culture = "russian"
 }
 8100309 = {
-	name = "dynn_ckr_chaak"
+	name = "dynn_cy_Guzman"	# e77 (was dynn_ckr_chaak)
 	culture = "mexican"
 }
 8100310 = {
-	name = "dynn_Angoures"
+	name = "dynn_cy_Bruno"	# e77 (was dynn_Angoures)
 	culture = "italian"
 }
 8100311 = {
-	name = "dynn_ckr_yaxchilan"
+	name = "dynn_cy_Estrada"	# e77 (was dynn_ckr_yaxchilan)
 	culture = "centroamerican"
 }
 8100312 = {
@@ -1299,11 +1259,11 @@
 	culture = "min"
 }
 8100314 = {
-	name = "dynn_Cabeza_de_Vaca"
+	name = "dynn_cy_Freitas"	# e77 (was dynn_Cabeza_de_Vaca)
 	culture = "gaucho"
 }
 8100315 = {
-	name = "dynn_ckr_tupac"
+	name = "dynn_cy_Ibarra"	# e77 (was dynn_ckr_tupac)
 	culture = "mexican"
 }
 8100316 = {
@@ -1311,28 +1271,27 @@
 	culture = "cantonese"
 }
 8100317 = {
-	name = "dynn_ckr_inti"
+	name = "dynn_cy_Gloria"	# e77 (was dynn_ckr_inti)
 	culture = "afro_brazilian"
 }
 8100318 = {
-	name = "dynn_Venegas"
+	name = "dynn_cy_Campos"	# e77 (was dynn_Venegas)
 	culture = "brazilian"
 }
 8100319 = {
-	name = "dynn_ckr_mbaye"
+	name = "dynn_cy_Nodjigoto"	# e77 (was dynn_ckr_mbaye)
 	culture = "sao"
 }
 8100320 = {
-	name = "dynn_ckr_ohanessian"
+	name = "dynn_cy_Shahbazi"	# e77 (was dynn_ckr_ohanessian)
 	culture = "persian"
 }
 8100321 = {
-	name = "dynn_Biyomaal"
+	name = "dynn_cy_Pinto"	# e77 (was dynn_Biyomaal)
 	culture = "brazilian"
 }
 8100322 = {
-	prefix = "dynnp_de"
-	name = "dynn_Rocafull"
+	name = "dynn_cy_Prieto"	# e77 (was dynn_Rocafull)
 	culture = "castilian"
 }
 8100323 = {
@@ -1340,7 +1299,7 @@
 	culture = "maghrebi"
 }
 8100324 = {
-	name = "dynn_Yun_4E91"
+	name = "dynn_cy_Tian"	# e77 (was dynn_Yun_4E91)
 	culture = "han"
 }
 8100325 = {
@@ -1348,7 +1307,7 @@
 	culture = "cantonese"
 }
 8100326 = {
-	name = "dynn_Chang_5E38"
+	name = "dynn_cy_Fung"	# e77 (was dynn_Chang_5E38)
 	culture = "cantonese"
 }
 8100327 = {
@@ -1364,35 +1323,35 @@
 	culture = "han"
 }
 8100330 = {
-	name = "dynn_Dou_6597"
+	name = "dynn_cy_Mukanov"	# e77 (was dynn_Dou_6597)
 	culture = "kazak"
 }
 8100331 = {
-	name = "dynn_ckr_kanoute"
+	name = "dynn_cy_Momoh"	# e77 (was dynn_ckr_kanoute)
 	culture = "mel"
 }
 8100332 = {
-	name = "dynn_ckr_mataram"
+	name = "dynn_cy_Mukherjee"	# e77 (was dynn_ckr_mataram)
 	culture = "bengali"
 }
 8100333 = {
-	name = "dynn_ckr_kediri"
+	name = "dynn_cy_Yao"	# e77 (was dynn_ckr_kediri)
 	culture = "min"
 }
 8100334 = {
-	name = "dynn_ckr_singhasari"
+	name = "dynn_cy_Kumbang"	# e77 (was dynn_ckr_singhasari)
 	culture = "dayak"
 }
 8100335 = {
-	name = "dynn_Monachites"
+	name = "dynn_cy_Bizjak"	# e77 (was dynn_Monachites)
 	culture = "slovenian"
 }
 8100336 = {
-	name = "dynn_DA_browa"
+	name = "dynn_cy_Ilyin"	# e77 (was dynn_DA_browa)
 	culture = "russian"
 }
 8100337 = {
-	name = "dynn_Zomes"
+	name = "dynn_cy_Dimitrov"	# e77 (was dynn_Zomes)
 	culture = "bulgarian"
 }
 8100338 = {
@@ -1405,20 +1364,19 @@
 	culture = "brazilian"
 }
 8100340 = {
-	name = "dynn_Soni"
+	name = "dynn_cy_Hakim"	# e77 (was dynn_Soni)
 	culture = "kashmiri"
 }
 8100341 = {
-	prefix = "dynnp_de"
-	name = "dynn_Neuville"
+	name = "dynn_cy_Werner"	# e77 (was dynn_Neuville)
 	culture = "german"
 }
 8100342 = {
-	name = "dynn_Ram"
+	name = "dynn_cy_Rind"	# e77 (was dynn_Ram)
 	culture = "sindhi"
 }
 8100343 = {
-	name = "dynn_Kangra"
+	name = "dynn_cy_Prajapati"	# e77 (was dynn_Kangra)
 	culture = "gujarati"
 }
 8100344 = {
@@ -1426,37 +1384,35 @@
 	culture = "nguni"
 }
 8100345 = {
-	prefix = "dynnp_de"
-	name = "dynn_Tarentaise"
+	name = "dynn_cy_Dumont"	# e77 (was dynn_Tarentaise)
 	culture = "french"
 }
 8100346 = {
-	name = "dynn_ckr_pachacuti"
+	name = "dynn_cy_Alvarado"	# e77 (was dynn_ckr_pachacuti)
 	culture = "mexican"
 }
 8100347 = {
-	prefix = "dynnp_al-"
-	name = "dynn_Adid"
+	name = "dynn_cy_Al_Shehri"	# e77 (was dynn_Adid)
 	culture = "bedouin"
 }
 8100348 = {
-	name = "dynn_Ge_845B"
+	name = "dynn_cy_Su"	# e77 (was dynn_Ge_845B)
 	culture = "min"
 }
 8100349 = {
-	name = "dynn_You_5E7D"
+	name = "dynn_cy_Zhong"	# e77 (was dynn_You_5E7D)
 	culture = "han"
 }
 8100350 = {
-	name = "dynn_ckr_tounkara"
+	name = "dynn_cy_Appiah"	# e77 (was dynn_ckr_tounkara)
 	culture = "akan"
 }
 8100351 = {
-	name = "dynn_ckr_huascar"
+	name = "dynn_cy_Contreras"	# e77 (was dynn_ckr_huascar)
 	culture = "mexican"
 }
 8100352 = {
-	name = "dynn_Ponce_de_LeO_n"
+	name = "dynn_cy_Marques"	# e77 (was dynn_Ponce_de_LeO_n)
 	culture = "brazilian"
 }
 8100353 = {
@@ -1464,11 +1420,11 @@
 	culture = "han"
 }
 8100354 = {
-	name = "dynn_Tolstoy"
+	name = "dynn_cy_Dadiani"	# e77 (was dynn_Tolstoy)
 	culture = "georgian"
 }
 8100355 = {
-	name = "dynn_ckr_atahualpa"
+	name = "dynn_cy_Barbosa"	# e77 (was dynn_ckr_atahualpa)
 	culture = "nordestino"
 }
 8100356 = {
@@ -1476,11 +1432,11 @@
 	culture = "tsonga"
 }
 8100357 = {
-	name = "dynn_ckr_majapahit"
+	name = "dynn_cy_To"	# e77 (was dynn_ckr_majapahit)
 	culture = "viet"
 }
 8100358 = {
-	name = "dynn_ckr_demak"
+	name = "dynn_cy_Mai"	# e77 (was dynn_ckr_demak)
 	culture = "viet"
 }
 8100359 = {
@@ -1488,52 +1444,51 @@
 	culture = "maghrebi"
 }
 8100360 = {
-	name = "dynn_ckr_soumare"
+	name = "dynn_cy_Teshome"	# e77 (was dynn_ckr_soumare)
 	culture = "ethiopian"
 }
 8100361 = {
-	name = "dynn_Velir"
+	name = "dynn_cy_Subramanian"	# e77 (was dynn_Velir)
 	culture = "tamil"
 }
 8100362 = {
-	name = "dynn_Chandran"
+	name = "dynn_cy_Iyengar"	# e77 (was dynn_Chandran)
 	culture = "tamil"
 }
 8100363 = {
-	prefix = "dynnp_de"
-	name = "dynn_Belorado"
+	name = "dynn_cy_Santana"	# e77 (was dynn_Belorado)
 	culture = "brazilian"
 }
 8100364 = {
-	name = "dynn_MielZ_yN_ski"
+	name = "dynn_cy_Sergeyev"	# e77 (was dynn_MielZ_yN_ski)
 	culture = "russian"
 }
 8100365 = {
-	name = "dynn_Mosulid"
+	name = "dynn_cy_Cherif"	# e77 (was dynn_Mosulid)
 	culture = "maghrebi"
 }
 8100366 = {
-	name = "dynn_Shui_6C34"
+	name = "dynn_cy_Jalil"	# e77 (was dynn_Shui_6C34)
 	culture = "uyghur"
 }
 8100367 = {
-	name = "dynn_ckr_manco"
+	name = "dynn_cy_Huni_Kuin"	# e77 (was dynn_ckr_manco)
 	culture = "amazonian"
 }
 8100368 = {
-	name = "dynn_Sethi"
+	name = "dynn_cy_Rathore"	# e77 (was dynn_Sethi)
 	culture = "rajput"
 }
 8100369 = {
-	name = "dynn_Chakravarti"
+	name = "dynn_cy_Kushwaha"	# e77 (was dynn_Chakravarti)
 	culture = "hindustani"
 }
 8100370 = {
-	name = "dynn_ckr_mayta"
+	name = "dynn_cy_Luna"	# e77 (was dynn_ckr_mayta)
 	culture = "mexican"
 }
 8100371 = {
-	name = "dynn_Saronites"
+	name = "dynn_cy_Longo"	# e77 (was dynn_Saronites)
 	culture = "italian"
 }
 8100372 = {
@@ -1542,27 +1497,27 @@
 	culture = "mexican"
 }
 8100373 = {
-	name = "dynn_Narayanan"
+	name = "dynn_cy_Sastry"	# e77 (was dynn_Narayanan)
 	culture = "telugu"
 }
 8100374 = {
-	name = "dynn_ckr_sinchi"
+	name = "dynn_cy_Tikuna"	# e77 (was dynn_ckr_sinchi)
 	culture = "amazonian"
 }
 8100375 = {
-	name = "dynn_Starosz"
+	name = "dynn_cy_Marchenko"	# e77 (was dynn_Starosz)
 	culture = "ukrainian"
 }
 8100376 = {
-	name = "dynn_Akishe"
+	name = "dynn_cy_Rosario_11ad"	# e77 (was dynn_Akishe)
 	culture = "afro_brazilian"
 }
 8100377 = {
-	name = "dynn_Kromsky"
+	name = "dynn_cy_Gusev"	# e77 (was dynn_Kromsky)
 	culture = "russian"
 }
 8100378 = {
-	name = "dynn_Shuvalov"
+	name = "dynn_cy_Dmitriyev"	# e77 (was dynn_Shuvalov)
 	culture = "russian"
 }
 8100379 = {
@@ -1570,11 +1525,11 @@
 	culture = "sichuanese"
 }
 8100380 = {
-	name = "dynn_Kavarai"
+	name = "dynn_cy_Setty"	# e77 (was dynn_Kavarai)
 	culture = "telugu"
 }
 8100381 = {
-	name = "dynn_Opawski"
+	name = "dynn_cy_Pawlowski"	# e77 (was dynn_Opawski)
 	culture = "polish"
 }
 8100382 = {
@@ -1586,7 +1541,7 @@
 	culture = "wu"
 }
 8100384 = {
-	name = "dynn_ckr_billabong"
+	name = "dynn_cy_Shaw"	# e77 (was dynn_ckr_billabong)
 	culture = "aussie"
 }
 8100385 = {
@@ -1610,35 +1565,35 @@
 	culture = "han"
 }
 8100390 = {
-	name = "dynn_ckr_ternate"
+	name = "dynn_cy_Thura"	# e77 (was dynn_ckr_ternate)
 	culture = "burmese"
 }
 8100391 = {
-	name = "dynn_Lopukhin"
+	name = "dynn_cy_Korolev"	# e77 (was dynn_Lopukhin)
 	culture = "russian"
 }
 8100392 = {
-	name = "dynn_ckr_sarkisenner"
+	name = "dynn_cy_Farahani"	# e77 (was dynn_ckr_sarkisenner)
 	culture = "persian"
 }
 8100393 = {
-	name = "dynn_Gong_9F9A"
+	name = "dynn_cy_Guo"	# e77 (was dynn_Gong_9F9A)
 	culture = "han"
 }
 8100394 = {
-	name = "dynn_ckr_magassouba"
+	name = "dynn_cy_Elkanemi"	# e77 (was dynn_ckr_magassouba)
 	culture = "kanuri"
 }
 8100395 = {
-	name = "dynn_Xia_590F"
+	name = "dynn_cy_Shi"	# e77 (was dynn_Xia_590F)
 	culture = "han"
 }
 8100396 = {
-	name = "dynn_Fang_65B9"
+	name = "dynn_cy_Choi"	# e77 (was dynn_Fang_65B9)
 	culture = "cantonese"
 }
 8100397 = {
-	name = "dynn_ckr_tidore"
+	name = "dynn_cy_Zhou"	# e77 (was dynn_ckr_tidore)
 	culture = "sichuanese"
 }
 8100398 = {
@@ -1650,12 +1605,11 @@
 	culture = "han"
 }
 8100400 = {
-	name = "dynn_ckr_yupanqui"
+	name = "dynn_cy_Cortes"	# e77 (was dynn_ckr_yupanqui)
 	culture = "mexican"
 }
 8100401 = {
-	prefix = "dynnp_de"
-	name = "dynn_Lleida"
+	name = "dynn_cy_Rubio"	# e77 (was dynn_Lleida)
 	culture = "castilian"
 }
 8100402 = {
@@ -1671,31 +1625,31 @@
 	culture = "sichuanese"
 }
 8100405 = {
-	name = "dynn_ckr_kebe"
+	name = "dynn_cy_Ba"	# e77 (was dynn_ckr_kebe)
 	culture = "wolof"
 }
 8100406 = {
-	name = "dynn_ckr_danfakha"
+	name = "dynn_cy_Abubakar"	# e77 (was dynn_ckr_danfakha)
 	culture = "hausa"
 }
 8100407 = {
-	name = "dynn_Ruan_962E"
+	name = "dynn_cy_Huang"	# e77 (was dynn_Ruan_962E)
 	culture = "sichuanese"
 }
 8100500 = {
-	name = "dynn_Zakharyinich"
+	name = "dynn_cy_Medvedev"	# e77 (was dynn_Zakharyinich)
 	culture = "sibiryak"
 }
 8100501 = {
-	name = "dynn_Iziaslavich"
+	name = "dynn_cy_Melnikov"	# e77 (was dynn_Iziaslavich)
 	culture = "sibiryak"
 }
 8100502 = {
-	name = "dynn_Viacheslavich"
+	name = "dynn_cy_Alexandrov"	# e77 (was dynn_Viacheslavich)
 	culture = "sibiryak"
 }
 8100503 = {
-	name = "dynn_Ivannikov"
+	name = "dynn_cy_Kuzmin"	# e77 (was dynn_Ivannikov)
 	culture = "sibiryak"
 }
 8100504 = {
@@ -1715,15 +1669,15 @@
 	culture = "sakha"
 }
 8100508 = {
-	name = "dynn_Ovinov"
+	name = "dynn_cy_Melnik"	# e77 (was dynn_Ovinov)
 	culture = "far_eastern"
 }
 8100509 = {
-	name = "dynn_Andreievich"
+	name = "dynn_cy_Shevchenko"	# e77 (was dynn_Andreievich)
 	culture = "sibiryak"
 }
 8100510 = {
-	name = "dynn_Ignatiev"
+	name = "dynn_cy_Tyumentsev"	# e77 (was dynn_Ignatiev)
 	culture = "sibiryak"
 }
 8100511 = {
@@ -1731,7 +1685,7 @@
 	culture = "sakha"
 }
 8100512 = {
-	name = "dynn_Yurievich"
+	name = "dynn_cy_Bogdanov"	# e77 (was dynn_Yurievich)
 	culture = "far_eastern"
 }
 8100513 = {
@@ -1739,39 +1693,39 @@
 	culture = "norwegian"
 }
 8100514 = {
-	name = "dynn_Feofilaktovich"
+	name = "dynn_cy_Tarasov"	# e77 (was dynn_Feofilaktovich)
 	culture = "far_eastern"
 }
 8100515 = {
-	name = "dynn_Mauli"
+	name = "dynn_cy_Bone"	# e77 (was dynn_Mauli)
 	culture = "bugis"
 }
 8100516 = {
-	name = "dynn_Warmadewa"
+	name = "dynn_cy_Daeng_Matutu"	# e77 (was dynn_Warmadewa)
 	culture = "bugis"
 }
 8100517 = {
-	name = "dynn_Bendahara"
+	name = "dynn_cy_Lamakarate"	# e77 (was dynn_Bendahara)
 	culture = "bugis"
 }
 8100518 = {
-	name = "dynn_Sanjaya"
+	name = "dynn_cy_Matoa"	# e77 (was dynn_Sanjaya)
 	culture = "bugis"
 }
 8100519 = {
-	name = "dynn_Rajasa"
+	name = "dynn_cy_Opu"	# e77 (was dynn_Rajasa)
 	culture = "bugis"
 }
 8100520 = {
-	name = "dynn_Shailendra"
+	name = "dynn_cy_Sukarno"	# e77 (was dynn_Shailendra)
 	culture = "javanese"
 }
 8100521 = {
-	name = "dynn_ck3_jeune"
+	name = "dynn_cy_Powell"	# e77 (was dynn_ck3_jeune)
 	culture = "afro_caribbean"
 }
 8100522 = {
-	name = "dynn_Ishana"
+	name = "dynn_cy_Manele"	# e77 (was dynn_Ishana)
 	culture = "papuan"
 }
 8100600 = {
@@ -1783,44 +1737,43 @@
 	culture = "bedouin"
 }
 8100701 = {
-	name = "dynn_Botticelli"
+	name = "dynn_cy_Villa"	# e77 (was dynn_Botticelli)
 	culture = "italian"
 }
 8100702 = {
-	name = "dynn_Lakhnauti"
+	name = "dynn_cy_Yildirim"	# e77 (was dynn_Lakhnauti)
 	culture = "turkish"
 }
 8100703 = {
-	name = "dynn_Xenos"
+	name = "dynn_cy_Theodorou"	# e77 (was dynn_Xenos)
 	culture = "greek"
 }
 8100704 = {
-	name = "dynn_ck3_kanda"
+	name = "dynn_cy_Kiala"	# e77 (was dynn_ck3_kanda)
 	culture = "kongo"
 }
 8100705 = {
-	name = "dynn_ck3_estime"
+	name = "dynn_cy_Etienne"	# e77 (was dynn_ck3_estime)
 	culture = "afro_caribbean"
 }
 8100706 = {
-	prefix = "dynnp_wa"
-	name = "dynn_Shanga"
+	name = "dynn_cy_Makame"	# e77 (was dynn_Shanga)
 	culture = "swahili"
 }
 8100707 = {
-	name = "dynn_ck3_salomon"
+	name = "dynn_cy_Gordon"	# e77 (was dynn_ck3_salomon)
 	culture = "afro_caribbean"
 }
 8100708 = {
-	name = "dynn_ck3_alexis"
+	name = "dynn_cy_Samuels"	# e77 (was dynn_ck3_alexis)
 	culture = "afro_caribbean"
 }
 8100709 = {
-	name = "dynn_ck3_benoit"
+	name = "dynn_cy_Forbes"	# e77 (was dynn_ck3_benoit)
 	culture = "afro_caribbean"
 }
 8100710 = {
-	name = "dynn_ck3_hyppolite"
+	name = "dynn_cy_Baptiste"	# e77 (was dynn_ck3_hyppolite)
 	culture = "afro_caribbean"
 }
 8100711 = {
@@ -1828,11 +1781,11 @@
 	culture = "afro_caribbean"
 }
 8100712 = {
-	name = "dynn_Gunasekera"
+	name = "dynn_cy_Jayawardena"	# e77 (was dynn_Gunasekera)
 	culture = "sinhala"
 }
 8100713 = {
-	name = "dynn_ck3_florvil"
+	name = "dynn_cy_Blake"	# e77 (was dynn_ck3_florvil)
 	culture = "afro_caribbean"
 }
 8100714 = {
@@ -1840,59 +1793,59 @@
 	culture = "afro_brazilian"
 }
 8100715 = {
-	name = "dynn_ck3_celestin"
+	name = "dynn_cy_Pierre"	# e77 (was dynn_ck3_celestin)
 	culture = "afro_caribbean"
 }
 8100716 = {
-	name = "dynn_Ay"
+	name = "dynn_cy_Muthu"	# e77 (was dynn_Ay)
 	culture = "tamil"
 }
 8100717 = {
-	name = "dynn_Shailendra"
+	name = "dynn_cy_Murib"	# e77 (was dynn_Shailendra)
 	culture = "papuan"
 }
 8100718 = {
-	name = "dynn_Sanjaya"
+	name = "dynn_cy_Wanimbo"	# e77 (was dynn_Sanjaya)
 	culture = "papuan"
 }
 8100719 = {
-	name = "dynn_ck3_sakalava"
+	name = "dynn_cy_Rabemananjara"	# e77 (was dynn_ck3_sakalava)
 	culture = "malagasy"
 }
 8100720 = {
-	name = "dynn_Bendahara"
+	name = "dynn_cy_Rabuka"	# e77 (was dynn_Bendahara)
 	culture = "papuan"
 }
 8100721 = {
-	name = "dynn_Shailendra"
+	name = "dynn_cy_Ravuvu"	# e77 (was dynn_Shailendra)
 	culture = "papuan"
 }
 8100722 = {
-	name = "dynn_Sanjaya"
+	name = "dynn_cy_Napuat"	# e77 (was dynn_Sanjaya)
 	culture = "papuan"
 }
 8100723 = {
-	name = "dynn_Bendahara"
+	name = "dynn_cy_Seruiratu"	# e77 (was dynn_Bendahara)
 	culture = "papuan"
 }
 8100724 = {
-	name = "dynn_Mauli"
+	name = "dynn_cy_Kaupa"	# e77 (was dynn_Mauli)
 	culture = "papuan"
 }
 8100725 = {
-	name = "dynn_Shailendra"
+	name = "dynn_cy_Kamakana"	# e77 (was dynn_Shailendra)
 	culture = "papuan"
 }
 8100726 = {
-	name = "dynn_Mauli"
+	name = "dynn_cy_Mandacan"	# e77 (was dynn_Mauli)
 	culture = "papuan"
 }
 8100727 = {
-	name = "dynn_Bendahara"
+	name = "dynn_cy_Marape"	# e77 (was dynn_Bendahara)
 	culture = "papuan"
 }
 8100728 = {
-	name = "dynn_Bendahara"
+	name = "dynn_cy_Rumbewas"	# e77 (was dynn_Bendahara)
 	culture = "papuan"
 }
 8100800 = {
@@ -1938,4 +1891,48 @@
 8100901 = {
 	name = "dynn_ckr_harlan"
 	culture = "murican"
+}
+8100729 = {
+	name = "dynn_ck_Gonzalez_Colon"
+	culture = "caribeno"
+}
+8100730 = {
+	name = "dynn_ck_Wang"
+	culture = "han"
+}
+8100731 = {
+	name = "dynn_ck_Li"
+	culture = "han"
+}
+8100732 = {
+	name = "dynn_ck_Zhang"
+	culture = "han"
+}
+8100733 = {
+	name = "dynn_ck_Liu"
+	culture = "han"
+}
+8100734 = {
+	name = "dynn_ck_Chen"
+	culture = "han"
+}
+8100735 = {
+	name = "dynn_ck_Yang"
+	culture = "han"
+}
+8100736 = {
+	name = "dynn_ck_Zhao"
+	culture = "han"
+}
+8100737 = {
+	name = "dynn_ck_Jin"
+	culture = "han"
+}
+8100738 = {
+	name = "dynn_ck_Borjigin"
+	culture = "mongol"
+}
+8100739 = {
+	name = "dynn_ck_Tursun"
+	culture = "uyghur"
 }

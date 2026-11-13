@@ -1,0 +1,22 @@
+﻿# Cyber Kings: overrides vanilla. Style A "Command Deck" (Spacer Guild shuttle planning room) instead of the wooden table.
+# Geometry is in absolute map coordinates inside the meshes, so every object sits at 0,0,0.
+object={
+	name="ck_deck_table"
+	render_pass=MapUnderTerrain
+	clamp_to_water_level=yes
+	generated_content=no
+	layer="map_table_layer_western"
+	entity="ck_deck_table_entity"
+	count=1
+	transform="0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000
+"}
+object={
+	name="ck_deck_floor"
+	render_pass=MapUnderTerrain
+	clamp_to_water_level=yes
+	generated_content=no
+	layer="map_table_layer_western"
+	entity="ck_deck_floor_entity"
+	count=1
+	transform="0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000
+"}

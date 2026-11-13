@@ -1,0 +1,341 @@
+﻿name_list_soninke = {
+
+	cadet_dynasty_names = {
+		"dynn_Cisse"
+		"dynn_KantE_"
+		"dynn_Niakhate"
+		"dynn_Tunkara"
+		"dynn_BeretE_"
+		"dynn_TourE_"
+		"dynn_Saghanogho"
+		"dynn_Jane"
+		"dynn_Camara"
+		"dynn_KhinE_"
+		"dynn_Camara"
+		"dynn_Gangara"
+		"dynn_Masire"
+		"dynn_Sosso"
+		"dynn_Diawara"
+		"dynn_Kalom"
+		"dynn_Sylla"
+		"dynn_DiakitE_"
+		"dynn_Kaloga"
+		"dynn_DiakhankE_"
+		"dynn_Diabagate"
+		"dynn_Garanke"
+		"dynn_Tyelibele"
+		"dynn_Jakhanke"
+		"dynn_Bafour"
+		"dynn_Suwari"
+	}
+
+	dynasty_names = {
+		"dynn_Cisse"
+		"dynn_KantE_"
+		"dynn_Niakhate"
+		"dynn_Tunkara"
+		"dynn_BeretE_"
+		"dynn_TourE_"
+		"dynn_Saghanogho"
+		"dynn_Jane"
+		"dynn_Camara"
+		"dynn_KhinE_"
+		"dynn_Camara"
+		"dynn_Gangara"
+		"dynn_Masire"
+		"dynn_Sosso"
+		"dynn_Diawara"
+		"dynn_Kalom"
+		"dynn_Sylla"
+		"dynn_DiakitE_"
+		"dynn_Kaloga"
+		"dynn_DiakhankE_"
+		"dynn_Diabagate"
+		"dynn_Garanke"
+		"dynn_Tyelibele"
+		"dynn_Jakhanke"
+		"dynn_Bafour"
+		"dynn_Suwari"
+	}
+	
+	male_names = {
+		Abubakar Akoi Alayaman BE_rE_tE_ Bathily BadA_ Barri Bamari Bannu Birama Bisi Biyu Bilali Bomou Bunama
+		Cissi DiobE_ Dabo Dalante Diakhaba Diawara Daffi Dagnokho Doucouri Dalante Dankaran Demba Daoud Diara Dinka Dire
+		Fissourou Fadiga FA_dazu Fuluku Gane Gassama Gole Jawuru Junkunda
+		Kaba Kabayo Kalabi Kanafa Kambine Kamo Kassa Kaya Kayna Kinkin Kukuray Kusoy
+		Marega M_Bali Maghan Majan Mamadi Mamoudou Mari-Djata Masire Musa 
+		NiakhatE_ Nintasanay Wague Wali Wati
+		Reidja Sy Sylla Sakho Soukhouna Sima SoumarE_ Sakoura Salman Sandaki Soumaba Soumaoro Soundiata Sulayman 
+		Tandian Tunka Tunka-Menin Tabouri Tounkara Touri Tandi Takoi Tib  
+		YansanE_ YatabE_ri Yama Yasiboy Zakoi Zenku
+		Kiffa Niakhata Biranin Fakoli Niaware Sirman Yerelenko Mana
+	}
+	female_names = {
+		Adja Alima Amita Aoua Aminata Aichata Aissata
+		Barakissa Bintou Deye Djeneba Djenly Djire
+		Fatim Fatoumata Gundo Halima Hawa Henda
+		Ina Kansoleh Kondolon Kadi Kilia Kolonkan 
+		Lorane Mariam NamandjE_ 
+		Nafissa Namiss Nana Newma
+		SanE_ Sogolon Safiatou Salimata SidibE_ Siya Tekhaye
+		Youma Zeinab
+	}
+	
+	#founder_named_dynasties = yes
+	
+	
+}
+
+name_list_bozo = {
+
+	cadet_dynasty_names = {
+		"dynn_Jenama"
+		"dynn_Bangime"
+		"dynn_Niakhate"
+		"dynn_Sorogaama"
+		"dynn_Kelenga"
+		"dynn_Tieyaxo"
+		"dynn_Tiema_Ce"
+		"dynn_Pondori"
+		"dynn_Kotya"
+		"dynn_Korondugu"
+		"dynn_Debo"
+		"dynn_Konna"
+		"dynn_Bangande"
+		"dynn_Namague"
+		"dynn_Kargue"
+		"dynn_Bounou"
+		"dynn_Bara"
+	}
+	dynasty_names = {
+		"dynn_Jenama"
+		"dynn_Bangime"
+		"dynn_Niakhate"
+		"dynn_Sorogaama"
+		"dynn_Kelenga"
+		"dynn_Tieyaxo"
+		"dynn_Tiema_Ce"
+		"dynn_Pondori"
+		"dynn_Kotya"
+		"dynn_Korondugu"
+		"dynn_Debo"
+		"dynn_Konna"
+		"dynn_Bangande"
+		"dynn_Namague"
+		"dynn_Kargue"
+		"dynn_Bounou"
+		"dynn_Bara"
+	}
+
+	male_names = {
+		Abubakar Akoi Alayaman BE_rE_tE_ Bathily BadA_ Barri Bamari Bannu Birama Bisi Biyu Bilali Bomou Bunama
+		Cissi DiobE_ Dabo Diakhaba Diawara Daffi Dagnokho Doucouri Dalante Dankaran Demba Daoud Diara Dinka Dire
+		Fissourou Fadiga FA_dazu Fuluku Gane Gassama Gole Jawuru
+		Kaba Kabayo Kalabi Kanafa Kambine Kassa Kaya Kayna Kinkin Kukuray Kusoy
+		Marega M_Bali Maghan Majan Mamadi Mamoudou Mari-Djata Musa 
+		NiakhatE_ Nintasanay Wague Wali Wati
+		Reidja Sy Sylla Sakho Soukhouna Sima SoumarE_ Sakoura Salman Sandaki Soumaba Soumaoro Soundiata Sulayman 
+		Tandian Tunka Tunka-Menin Tabouri Tounkara Touri Tandi Takoi Tib  
+		YansanE_ YatabE_ri Yama Yasiboy Zakoi Zenku
+		Kiffa Niakhata Biranin Fakoli Niaware Sirman Yerelenko Mana
+	}
+	female_names = {
+		Adja Alima Amita Aoua Aminata Aichata Aissata
+		Barakissa Bintou Deye Djeneba Djenly Djire
+		Fadima Fatim Fatoumata Halima Hawa
+		Ina Kondolon Kadi Kilia Kolonkan 
+		Lorane Mariam NamandjE_ 
+		Nafissa Namiss Nana
+		SanE_ Sogolon Safiatou Salimata SidibE_ Siya Tekhaye
+		Youma Zeinab
+	}
+	
+	#founder_named_dynasties = yes
+	
+	
+}
+
+name_list_mossi = {
+	# e74 modern list (S2 Burkina Faso (Aziz, Moussa); W1 Mali; K (Mossi names))
+	cadet_dynasty_names = {
+		dynn_cy_Ouedraogo dynn_cy_Sawadogo dynn_cy_Compaore dynn_cy_Kabore dynn_cy_Zongo dynn_cy_Ouattara dynn_cy_Traore dynn_cy_Kiendrebeogo dynn_cy_Ilboudo dynn_cy_Zoungrana dynn_cy_Nikiema dynn_cy_Bamogo
+		dynn_cy_Belem dynn_cy_Bonkoungou dynn_cy_Kafando dynn_cy_Kiemde dynn_cy_Nana dynn_cy_Ouoba dynn_cy_Sankara dynn_cy_Sanou dynn_cy_Tapsoba dynn_cy_Yameogo dynn_cy_Zida dynn_cy_Zoma
+	}
+	dynasty_names = {
+		dynn_cy_Ouedraogo dynn_cy_Sawadogo dynn_cy_Compaore dynn_cy_Kabore dynn_cy_Zongo dynn_cy_Ouattara dynn_cy_Traore dynn_cy_Kiendrebeogo dynn_cy_Ilboudo dynn_cy_Zoungrana dynn_cy_Nikiema dynn_cy_Bamogo
+		dynn_cy_Belem dynn_cy_Bonkoungou dynn_cy_Kafando dynn_cy_Kiemde dynn_cy_Nana dynn_cy_Ouoba dynn_cy_Sankara dynn_cy_Sanou dynn_cy_Tapsoba dynn_cy_Yameogo dynn_cy_Zida dynn_cy_Zoma
+	}
+	male_names = {
+		cyn_Aziz cyn_Moussa cyn_Issouf cyn_Adama cyn_Salif cyn_Boukary cyn_Ousmane cyn_Hamado cyn_Idrissa cyn_Souleymane cyn_Abdoulaye cyn_Ibrahim_71f2
+		cyn_Mahamadi cyn_Rasmane cyn_Boureima cyn_Lassane cyn_Tiga cyn_Wendpanga cyn_Wendyam cyn_Pegdwende cyn_Kiswendsida cyn_Noaga cyn_Relwende cyn_Saidou
+		cyn_Seydou cyn_Emmanuel cyn_Jean cyn_Paul cyn_Joseph cyn_Christian
+	}
+	female_names = {
+		cyn_Aminata cyn_Mariam cyn_Fatimata cyn_Awa cyn_Salamata cyn_Rasmata cyn_Zenabo cyn_Bibata cyn_Habibou cyn_Wendkouni cyn_Wendlassida cyn_Pengdwende
+		cyn_Nongma cyn_Rakieta cyn_Kadidia cyn_Adjaratou cyn_Assetou cyn_Marie cyn_Odile cyn_Pauline cyn_Clarisse cyn_Mercy cyn_Delphine cyn_Felicite
+		cyn_Germaine cyn_Justine cyn_Laurentine cyn_Martine cyn_Rose cyn_Victorine
+	}
+	dynasty_of_location_prefix = "dynnp_of"
+}
+
+name_list_sorko = {
+
+	cadet_dynasty_names = {
+		"dynn_Sorogaama"
+		"dynn_Sambere"
+		"dynn_Jenama"
+		"dynn_Bangime"
+		"dynn_Niakhate"
+		"dynn_Kelenga"
+		"dynn_Tieyaxo"
+		"dynn_Tiema_Ce"
+		"dynn_Pondori"
+		"dynn_Kotya"
+		"dynn_Korondugu"
+		"dynn_Debo"
+		"dynn_Konna"
+		"dynn_Bangande"
+		"dynn_Namague"
+		"dynn_Kargue"
+		"dynn_Bounou"
+		"dynn_Bara"
+	}
+	dynasty_names = {
+		"dynn_Sorogaama"
+		"dynn_Sambere"
+		"dynn_Jenama"
+		"dynn_Bangime"
+		"dynn_Niakhate"
+		"dynn_Kelenga"
+		"dynn_Tieyaxo"
+		"dynn_Tiema_Ce"
+		"dynn_Pondori"
+		"dynn_Kotya"
+		"dynn_Korondugu"
+		"dynn_Debo"
+		"dynn_Konna"
+		"dynn_Bangande"
+		"dynn_Namague"
+		"dynn_Kargue"
+		"dynn_Bounou"
+		"dynn_Bara"
+	}
+
+	male_names = {
+		Alkamiisa Ammar Ankabi Ar Arabi Aranda
+		Baba Babba Bada Baki Bani Bano Baru Bay Ber Binta Birma Bisi Biya Biyay Biyo Bonkana Borgo Boumi Buyunbu
+		Daara Dala Dankataya Dao Dari Dum Dunku Duru
+		Fadazaw Falaku Far Fari-Mondzo Fay Fi Fodi Hanga Hargani Hin
+		Igoumou Ikoi Ize Jim
+		Kaasei Kanafa Kanbu Karaway Karay Karbachi Kayna Keina Kibu_U Kima Kimi Kinba Kinkin Kiray Kisha Kodama Koi Koize Kolon Komi Koy Ku Kukiya Kukura Kuli Kulun Kumay Kun Kur Kusoy Kusur
+		Laraba Malla Mar Mar_Chindin Mayroumfa Missi Morobani
+		Nari Nuh Nunta Ouankoy Samsou-Beri Sanay Shinyunbu Silman Sorko_Ije
+		Takoi Tib Tomo Wunka Yama Yuma Zakoi Zalil Zunku
+	}
+	
+	female_names = {
+		Adama Aisha Alkamiisa Amina Aminah Azzah 
+		Bilqis Chindi Daara Dangey
+		Fanta Fatima Fatimah Fitila
+		Gando Geyka Hassana Hawa Huseina Kouton
+		Lambu Layla Mecca Medina Nuru Tarifa Teko Zaynab
+	}
+	
+	#founder_named_dynasties = yes
+	
+	
+}
+
+name_list_gaw = {
+
+	cadet_dynasty_names = {
+		"dynn_Sonni"
+		"dynn_Askiya"
+		"dynn_Zarma"
+		"dynn_Djerma"
+		"dynn_Isawaghen"
+		"dynn_Koyraboro"
+		"dynn_Zabarima"
+		"dynn_Dendi"
+		"dynn_Korandje"
+		"dynn_Tadaksahak"
+		"dynn_Tasawak"
+		"dynn_Koyra"
+		"dynn_Keraw"
+		"dynn_Kudi"
+		"dynn_Kuru"
+		"dynn_Tondi"
+		"dynn_Kaukau"
+		"dynn_Gawgaw"
+	}
+
+	dynasty_names = {
+		"dynn_Sonni"
+		"dynn_Askiya"
+		"dynn_Zarma"
+		"dynn_Djerma"
+		"dynn_Isawaghen"
+		"dynn_Koyraboro"
+		"dynn_Zabarima"
+		"dynn_Dendi"
+		"dynn_Korandje"
+		"dynn_Tadaksahak"
+		"dynn_Tasawak"
+		"dynn_Koyra"
+		"dynn_Keraw"
+		"dynn_Kudi"
+		"dynn_Kuru"
+		"dynn_Tondi"
+		"dynn_Kaukau"
+		"dynn_Gawgaw"
+	}
+
+	male_names = {
+		Alkamiisa Ammar Ankabi Ar Arabi Aranda
+		Baba Babba Bada Baki Bani Bano Baru Bay Ber Binta Birma Bisi Biya Biyay Biyo Bonkana Borgo Boumi Buyunbu
+		Daara Dala Dankataya Dao Dari Dum Dunku Duru
+		Fadazaw Falaku Far Fari-Mondzo Fay Fi Fodi Hanga Hargani Hin
+		Igoumou Ikoi Ize Jim
+		Kaasei Kanafa Kanbu Karaway Karay Karbachi Kayna Keina Kibu_U Kima Kimi Kinba Kinkin Kiray Kisha Kodama Koi Koize Kolon Komi Koy Ku Kukiya Kukura Kuli Kulun Kumay Kun Kur Kusoy Kusur
+		Laraba Malla Mar Mar_Chindin Mayroumfa Missi Morobani
+		Nari Nuh Nunta Ouankoy Samsou-Beri Sanay Shinyunbu Silman Sorko_Ije
+		Takoi Tib Tomo Wunka Yama Yuma Zakoi Zalil Zunku
+	}
+	
+	female_names = {
+		Adama Aisha Alkamiisa Amina Aminah Azzah
+		Bilqis Chindi Daara Dangey
+		Fanta Fatima Fatimah Fitila
+		Gando Geyka Hassana Hawa Huseina Kouton
+		Lambu Layla Mecca Medina Nuru Tarifa Teko Zaynab
+	}
+	
+	#founder_named_dynasties = yes
+	
+	
+}
+
+name_list_songhai = {
+	# e74 modern list (W1 Mali 2010, Niger (via Mali/Senegal); K (Songhai/Zarma names))
+	cadet_dynasty_names = {
+		dynn_cy_Maiga dynn_cy_Toure dynn_cy_Cisse dynn_cy_Haidara dynn_cy_Sidibe dynn_cy_Diallo dynn_cy_Issoufou dynn_cy_Djibo dynn_cy_Hama dynn_cy_Seyni dynn_cy_Kountche dynn_cy_Tandja
+		dynn_cy_Bazoum dynn_cy_Mahamadou dynn_cy_Garba dynn_cy_Amadou dynn_cy_Soumana dynn_cy_Hamani dynn_cy_Zakari dynn_cy_Mounkaila dynn_cy_Abdou dynn_cy_Salifou dynn_cy_Boubacar dynn_cy_Moussa
+		dynn_cy_Idrissa
+	}
+	dynasty_names = {
+		dynn_cy_Maiga dynn_cy_Toure dynn_cy_Cisse dynn_cy_Haidara dynn_cy_Sidibe dynn_cy_Diallo dynn_cy_Issoufou dynn_cy_Djibo dynn_cy_Hama dynn_cy_Seyni dynn_cy_Kountche dynn_cy_Tandja
+		dynn_cy_Bazoum dynn_cy_Mahamadou dynn_cy_Garba dynn_cy_Amadou dynn_cy_Soumana dynn_cy_Hamani dynn_cy_Zakari dynn_cy_Mounkaila dynn_cy_Abdou dynn_cy_Salifou dynn_cy_Boubacar dynn_cy_Moussa
+		dynn_cy_Idrissa
+	}
+	male_names = {
+		cyn_Mamadou cyn_Moussa cyn_Mahamadou cyn_Abdoulaye cyn_Oumar cyn_Hamidou cyn_Ibrahim_71f2 cyn_Boubacar cyn_Issoufou cyn_Seyni cyn_Hama cyn_Hassane
+		cyn_Amadou cyn_Alou cyn_Idrissa cyn_Soumana cyn_Garba cyn_Salou cyn_Abdou cyn_Hamadou cyn_Djibo cyn_Harouna cyn_Mounkaila cyn_Zakari
+		cyn_Yacouba cyn_Bazoum cyn_Tandja cyn_Kountche cyn_Ousmane cyn_Siddo
+	}
+	female_names = {
+		cyn_Fatoumata cyn_Mariama cyn_Aissata cyn_Hadiza cyn_Haoua cyn_Zeinabou cyn_Rakia cyn_Safiatou cyn_Adama cyn_Aminata cyn_Halimatou cyn_Ramatou
+		cyn_Salamatou cyn_Mariam cyn_Kadidiatou cyn_Habsatou cyn_Ouma cyn_Balkissa cyn_Fati cyn_Hassana cyn_Zara cyn_Nafissa cyn_Maimouna cyn_Amsou
+		cyn_Hindou cyn_Djamila cyn_Aicha cyn_Rahila cyn_Kadi cyn_Bibata
+	}
+	dynasty_of_location_prefix = "dynnp_of"
+}

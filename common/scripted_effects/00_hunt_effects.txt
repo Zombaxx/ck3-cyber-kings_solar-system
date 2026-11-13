@@ -401,7 +401,7 @@ hunt_activity_standard_game_effect = {
 		1 = { # Aurochs
 			trigger = {
 				$PROVINCE$ = { hunt_animal_aurochs_trigger = yes }
-				NOT = { $HUNTER$OR = { .religion = religion:hinduism_religion .religion = religion:sikhism_religion } }
+				NOT = { OR = { $HUNTER$.religion = religion:hinduism_religion $HUNTER$.religion = religion:sikhism_religion } }	# e76: parity line fixed (was $HUNTER$OR)
 				NOT = { exists = scope:small_local_game }
 			}
 			set_variable = { name = animal_type value = flag:aurochs }

@@ -8,19 +8,19 @@
 }
 7000032 = {
 	name = "dynn_ck_7000032"
-	culture = "navardanian"
+	culture = "liblander"	# e79 (was navardanian, another world)
 }
 7000033 = {
 	name = "dynn_ck_7000033"
-	culture = "gdonyos"
+	culture = "murican"	# e79 (was gdonyos, another world)
 }
 7000034 = {
 	name = "dynn_ck_7000034"
-	culture = "nubian"
+	culture = "afro_american"	# e79 (was nubian)
 }
 7000035 = {
 	name = "dynn_ck_7000035"
-	culture = "gdonyos"
+	culture = "liblander"	# e79 (was gdonyos, another world)
 }
 7000036 = {
 	name = "dynn_ck_7000036"
@@ -28,15 +28,19 @@
 }
 7000039 = {
 	name = "dynn_ck_7000039"
-	culture = "nubian"
+	culture = "canadian"	# e79 (was nubian)
+}
+7000037 = {	# e79 Lamar Odom
+	name = "dynn_ck_7000037"
+	culture = "afro_american"
 }
 7000038 = {
 	name = "dynn_ck_7000038"
-	culture = "nubian"
+	culture = "afro_american"	# e79 (was nubian)
 }
 7000040 = {
 	name = "dynn_ck_7000040"
-	culture = "nubian"
+	culture = "afro_american"	# e79 (was nubian)
 }
 7000130 = {
 	name = "dynn_ck_7000130"
@@ -55,7 +59,7 @@
 	culture = "chilean"
 }
 100020 = {
-	name = "dynn_ck_100020"
+	name = "dynn_cy_Gonzalez_215e"
 	culture = "chilean"
 }
 100030 = {
@@ -63,19 +67,19 @@
 	culture = "bodpa"
 }
 100040 = {
-	name = "dynn_ck_100040"
+	name = "dynn_cy_Rodriguez_47e1"
 	culture = "rioplatense"
 }
 100050 = {
-	name = "dynn_ck_100050"
+	name = "dynn_cy_Gomez_cf7c"
 	culture = "criollo"
 }
 100060 = {
-	name = "dynn_ck_100060"
+	name = "dynn_cy_Munoz"
 	culture = "chilean"
 }
 100070 = {
-	name = "dynn_ck_100070"
+	name = "dynn_cy_Fernandez"
 	culture = "rioplatense"
 }
 100080 = {
@@ -83,15 +87,15 @@
 	culture = "han"
 }
 100090 = {
-	name = "dynn_ck_100090"
+	name = "dynn_cy_Quispe"
 	culture = "andean"
 }
 100100 = {
-	name = "dynn_ck_100100"
+	name = "dynn_cy_Mamani"
 	culture = "andean"
 }
 100110 = {
-	name = "dynn_ck_100110"
+	name = "dynn_cy_Rojas"
 	culture = "chilean"
 }
 100120 = {
@@ -99,11 +103,11 @@
 	culture = "han"
 }
 100130 = {
-	name = "dynn_ck_100130"
+	name = "dynn_cy_Condori"
 	culture = "andean"
 }
 100140 = {
-	name = "dynn_ck_100140"
+	name = "dynn_cy_Garcia_2999"
 	culture = "rioplatense"
 }
 100150 = {
@@ -111,11 +115,11 @@
 	culture = "han"
 }
 100160 = {
-	name = "dynn_ck_100160"
+	name = "dynn_cy_Flores"
 	culture = "andean"
 }
 100190 = {
-	name = "dynn_ck_100190"
+	name = "dynn_cy_Huaman"
 	culture = "andean"
 }
 100200 = {
@@ -127,11 +131,11 @@
 	culture = "bodpa"
 }
 100220 = {
-	name = "dynn_ck_100220"
+	name = "dynn_cy_Martinez_e6fc"
 	culture = "rioplatense"
 }
 100230 = {
-	name = "dynn_ck_100230"
+	name = "dynn_cy_Perez_3445"
 	culture = "rioplatense"
 }
 100240 = {
@@ -143,11 +147,11 @@
 	culture = "han"
 }
 100270 = {
-	name = "dynn_ck_100270"
+	name = "dynn_cy_Guajajara"
 	culture = "amazonian"
 }
 100280 = {
-	name = "dynn_ck_100280"
+	name = "dynn_cy_Diaz_5e7e"
 	culture = "chilean"
 }
 100290 = {
@@ -159,7 +163,7 @@
 	culture = "bodpa"
 }
 100310 = {
-	name = "dynn_ck_100310"
+	name = "dynn_cy_Alvarez_58d8"
 	culture = "rioplatense"
 }
 100320 = {
@@ -167,35 +171,35 @@
 	culture = "han"
 }
 100340 = {
-	name = "dynn_ck_100340"
+	name = "dynn_cy_Wapichana"
 	culture = "amazonian"
 }
 100350 = {
-	name = "dynn_ck_100350"
+	name = "dynn_cy_Tzul"
 	culture = "maya"
 }
 100360 = {
-	name = "dynn_ck_100360"
+	name = "dynn_cy_Yanomami"
 	culture = "amazonian"
 }
 100370 = {
-	name = "dynn_ck_100370"
+	name = "dynn_cy_Soto"
 	culture = "chilean"
 }
 100380 = {
-	name = "dynn_ck_100380"
+	name = "dynn_cy_Hernandez_760d"
 	culture = "mexican"
 }
 100390 = {
-	name = "dynn_ck_100390"
+	name = "dynn_cy_Krenak"
 	culture = "amazonian"
 }
 100400 = {
-	name = "dynn_ck_100400"
+	name = "dynn_cy_Terena"
 	culture = "amazonian"
 }
 100420 = {
-	name = "dynn_ck_100420"
+	name = "dynn_cy_Cruz"
 	culture = "nativican"
 }
 100430 = {
@@ -207,15 +211,15 @@
 	culture = "han"
 }
 100450 = {
-	name = "dynn_ck_100450"
+	name = "dynn_cy_Morales"
 	culture = "centroamerican"
 }
 100460 = {
-	name = "dynn_ck_100460"
+	name = "dynn_cy_Ramirez_f3b5"
 	culture = "criollo"
 }
 100470 = {
-	name = "dynn_ck_100470"
+	name = "dynn_cy_Vasquez_07cb"
 	culture = "rioplatense"
 }
 100480 = {
@@ -227,11 +231,11 @@
 	culture = "bodpa"
 }
 100500 = {
-	name = "dynn_ck_100500"
+	name = "dynn_cy_Torres"
 	culture = "mexican"
 }
 100510 = {
-	name = "dynn_ck_100510"
+	name = "dynn_cy_Rivera"
 	culture = "centroamerican"
 }
 100520 = {
@@ -239,7 +243,7 @@
 	culture = "telugu"
 }
 100530 = {
-	name = "dynn_ck_100530"
+	name = "dynn_cy_Castro"
 	culture = "rioplatense"
 }
 100540 = {
@@ -255,19 +259,19 @@
 	culture = "han"
 }
 100580 = {
-	name = "dynn_ck_100580"
+	name = "dynn_cy_Chuc"
 	culture = "maya"
 }
 100590 = {
-	name = "dynn_ck_100590"
+	name = "dynn_cy_Romero"
 	culture = "rioplatense"
 }
 100600 = {
-	name = "dynn_ck_100600"
+	name = "dynn_cy_Suarez"
 	culture = "rioplatense"
 }
 100620 = {
-	name = "dynn_ck_100620"
+	name = "dynn_cy_Choque"
 	culture = "andean"
 }
 100630 = {
@@ -279,27 +283,23 @@
 	culture = "han"
 }
 100650 = {
-	name = "dynn_ck_100650"
+	name = "dynn_cy_Moreno"
 	culture = "criollo"
 }
 100660 = {
-	name = "dynn_ck_100660"
+	name = "dynn_cy_Benitez"
 	culture = "rioplatense"
 }
 100670 = {
 	name = "dynn_ck_100670"
 	culture = "han"
 }
-100690 = {
-	name = "dynn_ck_100690"
-	culture = "castilian"
-}
 100700 = {
-	name = "dynn_ck_100700"
+	name = "dynn_cy_Mejia"
 	culture = "centroamerican"
 }
 100710 = {
-	name = "dynn_ck_100710"
+	name = "dynn_cy_Acosta"
 	culture = "rioplatense"
 }
 100720 = {
@@ -311,11 +311,11 @@
 	culture = "han"
 }
 100740 = {
-	name = "dynn_ck_100740"
+	name = "dynn_cy_Reyes"
 	culture = "mexican"
 }
 100750 = {
-	name = "dynn_ck_100750"
+	name = "dynn_cy_Apaza"
 	culture = "andean"
 }
 100760 = {
@@ -327,7 +327,7 @@
 	culture = "telugu"
 }
 100780 = {
-	name = "dynn_ck_100780"
+	name = "dynn_cy_Medina"
 	culture = "rioplatense"
 }
 100790 = {
@@ -335,7 +335,7 @@
 	culture = "bodpa"
 }
 100800 = {
-	name = "dynn_ck_100800"
+	name = "dynn_cy_Gutierrez_26d6"
 	culture = "mexican"
 }
 100810 = {
@@ -343,7 +343,7 @@
 	culture = "telugu"
 }
 100820 = {
-	name = "dynn_ck_100820"
+	name = "dynn_cy_Jimenez_903c"
 	culture = "criollo"
 }
 100830 = {
@@ -351,7 +351,7 @@
 	culture = "han"
 }
 100840 = {
-	name = "dynn_ck_100840"
+	name = "dynn_cy_Surui"
 	culture = "amazonian"
 }
 100860 = {
@@ -367,7 +367,7 @@
 	culture = "han"
 }
 100890 = {
-	name = "dynn_ck_100890"
+	name = "dynn_cy_Pech"
 	culture = "maya"
 }
 100900 = {
@@ -375,7 +375,7 @@
 	culture = "han"
 }
 100910 = {
-	name = "dynn_ck_100910"
+	name = "dynn_cy_Silva"
 	culture = "brazilian"
 }
 100930 = {
@@ -407,31 +407,31 @@
 	culture = "han"
 }
 101000 = {
-	name = "dynn_ck_101000"
+	name = "dynn_cy_Vargas"
 	culture = "criollo"
 }
 101010 = {
-	name = "dynn_ck_101010"
+	name = "dynn_cy_Navarro"
 	culture = "castilian"
 }
 101030 = {
-	name = "dynn_ck_101030"
+	name = "dynn_cy_Mendoza"
 	culture = "mexican"
 }
 101040 = {
-	name = "dynn_ck_101040"
+	name = "dynn_cy_Gimenez"
 	culture = "guarani"
 }
 101050 = {
-	name = "dynn_ck_101050"
+	name = "dynn_cy_Aguilar"
 	culture = "mexican"
 }
 101060 = {
-	name = "dynn_ck_101060"
+	name = "dynn_cy_Santos"
 	culture = "brazilian"
 }
 101070 = {
-	name = "dynn_ck_101070"
+	name = "dynn_cy_Ortiz"
 	culture = "criollo"
 }
 101080 = {
@@ -439,11 +439,11 @@
 	culture = "saxon"
 }
 101090 = {
-	name = "dynn_ck_101090"
+	name = "dynn_cy_Xakriaba"
 	culture = "amazonian"
 }
 101100 = {
-	name = "dynn_ck_101100"
+	name = "dynn_cy_Oliveira"
 	culture = "gaucho"
 }
 101110 = {
@@ -459,7 +459,7 @@
 	culture = "han"
 }
 101140 = {
-	name = "dynn_ck_101140"
+	name = "dynn_cy_Santiago"
 	culture = "nativican"
 }
 101150 = {
@@ -479,7 +479,7 @@
 	culture = "bodpa"
 }
 101200 = {
-	name = "dynn_ck_101200"
+	name = "dynn_cy_Ramos"
 	culture = "criollo"
 }
 101210 = {
@@ -487,7 +487,7 @@
 	culture = "han"
 }
 101220 = {
-	name = "dynn_ck_101220"
+	name = "dynn_cy_Baniwa"
 	culture = "amazonian"
 }
 101230 = {
@@ -499,12 +499,12 @@
 	culture = "liblander_west"
 }
 101250 = {
-	name = "dynn_ck_101250"
+	name = "dynn_cy_Castillo"
 	culture = "mexican"
 }
 101260 = {
-	name = "dynn_ck_101260"
-	culture = "gdonyos"
+	name = "dynn_cy_Williams"
+	culture = murican
 }
 101270 = {
 	name = "dynn_ck_101270"
@@ -515,7 +515,7 @@
 	culture = "mongol"
 }
 101290 = {
-	name = "dynn_ck_101290"
+	name = "dynn_cy_Dominguez"
 	culture = "castilian"
 }
 101300 = {
@@ -523,11 +523,11 @@
 	culture = "mongol"
 }
 101310 = {
-	name = "dynn_ck_101310"
+	name = "dynn_cy_Chavez_f5be"
 	culture = "mexican"
 }
 101320 = {
-	name = "dynn_ck_101320"
+	name = "dynn_cy_Brown"
 	culture = "liblander"
 }
 101330 = {
@@ -539,7 +539,7 @@
 	culture = "han"
 }
 101360 = {
-	name = "dynn_ck_101360"
+	name = "dynn_cy_Tukano"
 	culture = "amazonian"
 }
 101370 = {
@@ -550,10 +550,6 @@
 	name = "dynn_ck_101380"
 	culture = "saxon"
 }
-101390 = {
-	name = "dynn_ck_101390"
-	culture = "nativican"
-}
 101400 = {
 	name = "dynn_ck_101400"
 	culture = "han"
@@ -562,44 +558,20 @@
 	name = "dynn_ck_101410"
 	culture = "gdonyos"
 }
-101411 = {
-	name = "dynn_ck_101411"
-	culture = "gdonyos"
-}
-101412 = {
-	name = "dynn_ck_101412"
-	culture = "gdonyos"
-}
-101413 = {
-	name = "dynn_ck_101413"
-	culture = "gdonyos"
-}
-101414 = {
-	name = "dynn_ck_101414"
-	culture = "gdonyos"
-}
-101420 = {
-	name = "dynn_ck_101420"
-	culture = "bodpa"
-}
-101430 = {
-	name = "dynn_ck_101430"
-	culture = "han"
-}
 101440 = {
-	name = "dynn_ck_101440"
-	culture = "gdonyos"
+	name = "dynn_cy_Miller"
+	culture = moderate
 }
 101460 = {
-	name = "dynn_ck_101460"
-	culture = "bodpa"
+	name = "dynn_cy_Davis"
+	culture = liblander
 }
 101470 = {
 	name = "dynn_ck_101470"
 	culture = "saxon"
 }
 101480 = {
-	name = "dynn_ck_101480"
+	name = "dynn_cy_Souza"
 	culture = "brazilian"
 }
 101490 = {
@@ -607,11 +579,11 @@
 	culture = "bodpa"
 }
 101510 = {
-	name = "dynn_ck_101510"
+	name = "dynn_cy_Velasco"
 	culture = "nativican"
 }
 101520 = {
-	name = "dynn_ck_101520"
+	name = "dynn_cy_Munduruku"
 	culture = "amazonian"
 }
 101530 = {
@@ -619,7 +591,7 @@
 	culture = "bodpa"
 }
 101540 = {
-	name = "dynn_ck_101540"
+	name = "dynn_cy_Herrera"
 	culture = "criollo"
 }
 101550 = {
@@ -647,15 +619,15 @@
 	culture = "saxon"
 }
 101610 = {
-	name = "dynn_ck_101610"
-	culture = "gdonyos"
+	name = "dynn_cy_Anderson"
+	culture = murican
 }
 101620 = {
-	name = "dynn_ck_101620"
+	name = "dynn_cy_Rodrigues"
 	culture = "brazilian"
 }
 101650 = {
-	name = "dynn_ck_101650"
+	name = "dynn_cy_Thomas"
 	culture = "afro_american"
 }
 101660 = {
@@ -663,7 +635,7 @@
 	culture = "han"
 }
 101680 = {
-	name = "dynn_ck_101680"
+	name = "dynn_cy_Gil"
 	culture = "castilian"
 }
 101690 = {
@@ -671,15 +643,15 @@
 	culture = "nativican"
 }
 101700 = {
-	name = "dynn_ck_101700"
-	culture = "gdonyos"
+	name = "dynn_cy_Moore"
+	culture = murican
 }
 101710 = {
 	name = "dynn_ck_101710"
 	culture = "han"
 }
 101720 = {
-	name = "dynn_ck_101720"
+	name = "dynn_cy_Lee"
 	culture = "liblander"
 }
 101730 = {
@@ -693,10 +665,6 @@
 101750 = {
 	name = "dynn_ck_101750"
 	culture = "mongol"
-}
-101760 = {
-	name = "dynn_ck_101760"
-	culture = "bodpa"
 }
 101770 = {
 	name = "dynn_ck_101770"
@@ -714,24 +682,8 @@
 	name = "dynn_ck_101810"
 	culture = "gdonyos"
 }
-101811 = {
-	name = "dynn_ck_101811"
-	culture = "gdonyos"
-}
-101812 = {
-	name = "dynn_ck_101812"
-	culture = "gdonyos"
-}
-101813 = {
-	name = "dynn_ck_101813"
-	culture = "gdonyos"
-}
-101814 = {
-	name = "dynn_ck_101814"
-	culture = "gdonyos"
-}
 101820 = {
-	name = "dynn_ck_101820"
+	name = "dynn_cy_Harris"
 	culture = "afro_american"
 }
 101830 = {
@@ -755,31 +707,31 @@
 	culture = "saxon"
 }
 101880 = {
-	name = "dynn_ck_101880"
+	name = "dynn_cy_Pena"
 	culture = "caribeno"
 }
 101890 = {
-	name = "dynn_ck_101890"
+	name = "dynn_cy_Ferreira"
 	culture = "brazilian"
 }
 101900 = {
-	name = "dynn_ck_101900"
-	culture = "gdonyos"
+	name = "dynn_cy_White"
+	culture = midwestern
 }
 101910 = {
 	name = "dynn_ck_101910"
 	culture = "han"
 }
 101920 = {
-	name = "dynn_ck_101920"
-	culture = "gdonyos"
+	name = "dynn_cy_Clark"
+	culture = moderate
 }
 101930 = {
-	name = "dynn_ck_101930"
+	name = "dynn_cy_Cardenas"
 	culture = "criollo"
 }
 101940 = {
-	name = "dynn_ck_101940"
+	name = "dynn_cy_Alves"
 	culture = "brazilian"
 }
 101950 = {
@@ -787,19 +739,19 @@
 	culture = "bodpa"
 }
 101960 = {
-	name = "dynn_ck_101960"
+	name = "dynn_cy_Campbell"
 	culture = "afro_caribbean"
 }
 101970 = {
-	name = "dynn_ck_101970"
-	culture = "gdonyos"
+	name = "dynn_cy_Lewis"
+	culture = murican
 }
 101980 = {
-	name = "dynn_ck_101980"
+	name = "dynn_cy_Robinson"
 	culture = "murican"
 }
 101990 = {
-	name = "dynn_ck_101990"
+	name = "dynn_cy_Pereira"
 	culture = "brazilian"
 }
 102000 = {
@@ -815,19 +767,19 @@
 	culture = "liblander"
 }
 102030 = {
-	name = "dynn_ck_102030"
+	name = "dynn_cy_Vazquez"
 	culture = "castilian"
 }
 102040 = {
-	name = "dynn_ck_102040"
-	culture = "gdonyos"
+	name = "dynn_cy_Walker"
+	culture = murican
 }
 102050 = {
 	name = "dynn_ck_102050"
 	culture = "mongol"
 }
 102060 = {
-	name = "dynn_ck_102060"
+	name = "dynn_cy_Nascimento"
 	culture = "afro_brazilian"
 }
 102070 = {
@@ -838,10 +790,6 @@
 	name = "dynn_ck_102080"
 	culture = "progressive"
 }
-102090 = {
-	name = "dynn_ck_102090"
-	culture = "bodpa"
-}
 102100 = {
 	name = "dynn_ck_102100"
 	culture = "mongol"
@@ -849,10 +797,6 @@
 102110 = {
 	name = "dynn_ck_102110"
 	culture = "bodpa"
-}
-102120 = {
-	name = "dynn_ck_102120"
-	culture = "liblander"
 }
 102130 = {
 	name = "dynn_ck_102130"
@@ -879,36 +823,36 @@
 	culture = "bodpa"
 }
 102190 = {
-	name = "dynn_ck_102190"
-	culture = "gdonyos"
+	name = "dynn_cy_Young"
+	culture = midwestern
 }
 102200 = {
 	name = "dynn_ck_102200"
 	culture = "gdonyos"
 }
 102210 = {
-	name = "dynn_ck_102210"
+	name = "dynn_cy_Clarke"
 	culture = "afro_caribbean"
 }
 102220 = {
-	name = "dynn_ck_102220"
+	name = "dynn_cy_Allen"
 	culture = "liblander"
 }
 102230 = {
-	name = "dynn_ck_102230"
+	name = "dynn_cy_Lima"
 	culture = "brazilian"
 }
 102240 = {
-	name = "dynn_ck_102240"
-	culture = "gdonyos"
+	name = "dynn_cy_King"
+	culture = midwestern
 }
 102250 = {
 	name = "dynn_ck_102250"
 	culture = "mongol"
 }
 102260 = {
-	name = "dynn_ck_102260"
-	culture = "gdonyos"
+	name = "dynn_cy_Scott"
+	culture = midwestern
 }
 102270 = {
 	name = "dynn_ck_102270"
@@ -919,16 +863,16 @@
 	culture = "gdonyos"
 }
 102290 = {
-	name = "dynn_ck_102290"
-	culture = "gdonyos"
+	name = "dynn_cy_Nguyen"
+	culture = liblander
 }
 102300 = {
 	name = "dynn_ck_102300"
 	culture = "saxon"
 }
 102310 = {
-	name = "dynn_ck_102310"
-	culture = "gdonyos"
+	name = "dynn_cy_Hill"
+	culture = murican
 }
 102320 = {
 	name = "dynn_ck_102320"
@@ -939,24 +883,8 @@
 	culture = "murican"
 }
 102340 = {
-	name = "dynn_ck_102340"
+	name = "dynn_cy_Conceicao"
 	culture = "afro_brazilian"
-}
-102341 = {
-	name = "dynn_ck_102341"
-	culture = "nubian"
-}
-102342 = {
-	name = "dynn_ck_102342"
-	culture = "nubian"
-}
-102343 = {
-	name = "dynn_ck_102343"
-	culture = "nubian"
-}
-102344 = {
-	name = "dynn_ck_102344"
-	culture = "nubian"
 }
 102350 = {
 	name = "dynn_ck_102350"
@@ -971,19 +899,19 @@
 	culture = "bodpa"
 }
 102380 = {
-	name = "dynn_ck_102380"
-	culture = "bodpa"
+	name = "dynn_cy_Green"
+	culture = liblander
 }
 102390 = {
-	name = "dynn_ck_102390"
-	culture = "gdonyos"
+	name = "dynn_cy_Nelson"
+	culture = murican
 }
 102400 = {
-	name = "dynn_ck_102400"
+	name = "dynn_cy_Gomes"
 	culture = "nordestino"
 }
 102410 = {
-	name = "dynn_ck_102410"
+	name = "dynn_cy_Baker"
 	culture = "liblander_west"
 }
 102420 = {
@@ -991,23 +919,23 @@
 	culture = "bodpa"
 }
 102430 = {
-	name = "dynn_ck_102430"
+	name = "dynn_cy_Jesus"
 	culture = "afro_brazilian"
 }
 102440 = {
-	name = "dynn_ck_102440"
-	culture = "gdonyos"
+	name = "dynn_cy_Hall"
+	culture = midwestern
 }
 102450 = {
-	name = "dynn_ck_102450"
+	name = "dynn_cy_Tremblay"
 	culture = "canadian"
 }
 102460 = {
-	name = "dynn_ck_102460"
-	culture = "gdonyos"
+	name = "dynn_cy_Mitchell"
+	culture = moderate
 }
 102470 = {
-	name = "dynn_ck_102470"
+	name = "dynn_cy_Ribeiro"
 	culture = "afro_brazilian"
 }
 102480 = {
@@ -1031,8 +959,8 @@
 	culture = "mongol"
 }
 102540 = {
-	name = "dynn_ck_102540"
-	culture = "gdonyos"
+	name = "dynn_cy_Roberts"
+	culture = midwestern
 }
 102550 = {
 	name = "dynn_ck_102550"
@@ -1043,16 +971,16 @@
 	culture = "mongol"
 }
 102570 = {
-	name = "dynn_ck_102570"
-	culture = "gdonyos"
+	name = "dynn_cy_Phillips"
+	culture = midwestern
 }
 102580 = {
-	name = "dynn_ck_102580"
-	culture = "gdonyos"
+	name = "dynn_cy_Evans"
+	culture = moderate
 }
 102590 = {
-	name = "dynn_ck_102590"
-	culture = "gdonyos"
+	name = "dynn_cy_Turner"
+	culture = midwestern
 }
 102600 = {
 	name = "dynn_ck_102600"
@@ -1074,20 +1002,8 @@
 	name = "dynn_ck_102640"
 	culture = "liblander"
 }
-102641 = {
-	name = "dynn_ck_102641"
-	culture = "liblander"
-}
 102642 = {
 	name = "dynn_ck_102642"
-	culture = "liblander"
-}
-102643 = {
-	name = "dynn_ck_102643"
-	culture = "gdonyos"
-}
-102644 = {
-	name = "dynn_ck_102644"
 	culture = "liblander"
 }
 102650 = {
@@ -1099,7 +1015,7 @@
 	culture = "mongol"
 }
 102670 = {
-	name = "dynn_ck_102670"
+	name = "dynn_cy_Roy"
 	culture = "prairie"
 }
 102680 = {
@@ -1111,28 +1027,28 @@
 	culture = "mongol"
 }
 102700 = {
-	name = "dynn_ck_102700"
+	name = "dynn_cy_Gagnon"
 	culture = "canadian"
 }
 102730 = {
-	name = "dynn_ck_102730"
+	name = "dynn_cy_Costa"
 	culture = "nordestino"
 }
 102740 = {
-	name = "dynn_ck_102740"
-	culture = "gdonyos"
+	name = "dynn_cy_Parker"
+	culture = moderate
 }
 102750 = {
 	name = "dynn_ck_102750"
 	culture = "bodpa"
 }
 102760 = {
-	name = "dynn_ck_102760"
+	name = "dynn_cy_Martins"
 	culture = "nordestino"
 }
 102770 = {
-	name = "dynn_ck_102770"
-	culture = "gdonyos"
+	name = "dynn_cy_MacDonald"
+	culture = prairie
 }
 102780 = {
 	name = "dynn_ck_102780"
@@ -1151,12 +1067,12 @@
 	culture = "mongol"
 }
 102820 = {
-	name = "dynn_ck_102820"
-	culture = "gdonyos"
+	name = "dynn_cy_Stewart"
+	culture = prairie
 }
 102830 = {
-	name = "dynn_ck_102830"
-	culture = "gdonyos"
+	name = "dynn_cy_Graham"
+	culture = torontonian
 }
 102840 = {
 	name = "dynn_ck_102840"
@@ -1175,7 +1091,7 @@
 	culture = "bodpa"
 }
 102890 = {
-	name = "dynn_ck_102890"
+	name = "dynn_cy_Murphy"
 	culture = "prairie"
 }
 102900 = {
@@ -1183,8 +1099,8 @@
 	culture = "mongol"
 }
 102910 = {
-	name = "dynn_ck_102910"
-	culture = "gdonyos"
+	name = "dynn_cy_Ross"
+	culture = canadian
 }
 102920 = {
 	name = "dynn_ck_102920"
@@ -1195,7 +1111,7 @@
 	culture = "mongol"
 }
 102940 = {
-	name = "dynn_ck_102940"
+	name = "dynn_cy_Cardinal"
 	culture = "first_nations"
 }
 102950 = {
@@ -1215,7 +1131,7 @@
 	culture = "mongol"
 }
 102990 = {
-	name = "dynn_ck_102990"
+	name = "dynn_cy_Fraser"
 	culture = "canadian"
 }
 103000 = {
@@ -1223,8 +1139,8 @@
 	culture = "bodpa"
 }
 103010 = {
-	name = "dynn_ck_103010"
-	culture = "aussie"
+	name = "dynn_cy_Reid"
+	culture = canadian
 }
 103020 = {
 	name = "dynn_ck_103020"
@@ -1235,23 +1151,23 @@
 	culture = "mongol"
 }
 103040 = {
-	name = "dynn_ck_103040"
-	culture = "aussie"
+	name = "dynn_cy_Hamilton"
+	culture = canadian
 }
 103050 = {
 	name = "dynn_ck_103050"
 	culture = "mongol"
 }
 103060 = {
-	name = "dynn_ck_103060"
-	culture = "gdonyos"
+	name = "dynn_cy_Kunuk"
+	culture = inuit
 }
 103070 = {
 	name = "dynn_ck_103070"
 	culture = "bodpa"
 }
 103080 = {
-	name = "dynn_ck_103080"
+	name = "dynn_cy_Ryan"
 	culture = "aussie"
 }
 103090 = {
@@ -1267,8 +1183,8 @@
 	culture = "bodpa"
 }
 103120 = {
-	name = "dynn_ck_103120"
-	culture = "gdonyos"
+	name = "dynn_cy_Edwards"
+	culture = murican
 }
 103130 = {
 	name = "dynn_ck_103130"
@@ -1299,28 +1215,28 @@
 	culture = "mongol"
 }
 103200 = {
-	name = "dynn_ck_103200"
-	culture = "aussie"
+	name = "dynn_cy_Hughes"
+	culture = prairie
 }
 103210 = {
 	name = "dynn_ck_103210"
 	culture = "mongol"
 }
 103220 = {
-	name = "dynn_ck_103220"
-	culture = "aussie"
+	name = "dynn_cy_Arnaquq"
+	culture = inuit
 }
 103230 = {
-	name = "dynn_ck_103230"
-	culture = "aussie"
+	name = "dynn_cy_Bell"
+	culture = canadian
 }
 103240 = {
 	name = "dynn_ck_103240"
 	culture = "bodpa"
 }
 103250 = {
-	name = "dynn_ck_103250"
-	culture = "liblander"
+	name = "dynn_cy_Morrison"
+	culture = prairie
 }
 103260 = {
 	name = "dynn_ck_103260"
@@ -1363,27 +1279,27 @@
 	culture = "bodpa"
 }
 103360 = {
-	name = "dynn_ck_103360"
-	culture = "gdonyos"
+	name = "dynn_cy_Akeeagok"
+	culture = inuit
 }
 103370 = {
-	name = "dynn_ck_103370"
-	culture = "aussie"
+	name = "dynn_cy_Cameron"
+	culture = canadian
 }
 103380 = {
 	name = "dynn_ck_103380"
 	culture = "mongol"
 }
 103390 = {
-	name = "dynn_ck_103390"
-	culture = "aussie"
+	name = "dynn_cy_Sinclair"
+	culture = canadian
 }
 103400 = {
 	name = "dynn_ck_103400"
 	culture = "bodpa"
 }
 103410 = {
-	name = "dynn_ck_103410"
+	name = "dynn_cy_Collins"
 	culture = "liblander"
 }
 103420 = {
@@ -1399,15 +1315,15 @@
 	culture = "bodpa"
 }
 103450 = {
-	name = "dynn_ck_103450"
-	culture = "liblander"
+	name = "dynn_cy_Murray"
+	culture = canadian
 }
 103460 = {
-	name = "dynn_ck_103460"
-	culture = "aussie"
+	name = "dynn_cy_Henderson"
+	culture = prairie
 }
 103470 = {
-	name = "dynn_ck_103470"
+	name = "dynn_cy_Kelly"
 	culture = "aussie"
 }
 103480 = {
@@ -1415,11 +1331,11 @@
 	culture = "bodpa"
 }
 103490 = {
-	name = "dynn_ck_103490"
-	culture = "gdonyos"
+	name = "dynn_cy_Morris"
+	culture = murican
 }
 103500 = {
-	name = "dynn_ck_103500"
+	name = "dynn_cy_Cote"
 	culture = "montrealer"
 }
 103510 = {
@@ -1427,8 +1343,8 @@
 	culture = "mongol"
 }
 103780 = {
-	name = "dynn_ck_103780"
-	culture = "aussie"
+	name = "dynn_cy_Irniq"
+	culture = inuit
 }
 103530 = {
 	name = "dynn_ck_103530"
@@ -1447,24 +1363,24 @@
 	culture = "mongol"
 }
 103570 = {
-	name = "dynn_ck_103570"
-	culture = "gdonyos"
+	name = "dynn_cy_MacLeod"
+	culture = canadian
 }
 103580 = {
 	name = "dynn_ck_103580"
 	culture = "bodpa"
 }
 103590 = {
-	name = "dynn_ck_103590"
-	culture = "aussie"
+	name = "dynn_cy_Bear"
+	culture = first_nations
 }
 103600 = {
-	name = "dynn_ck_103600"
-	culture = "aussie"
+	name = "dynn_cy_Ferguson"
+	culture = maritimer
 }
 103610 = {
-	name = "dynn_ck_103610"
-	culture = "aussie"
+	name = "dynn_cy_Wong"
+	culture = canadian
 }
 103620 = {
 	name = "dynn_ck_103620"
@@ -1475,8 +1391,8 @@
 	culture = "bodpa"
 }
 103640 = {
-	name = "dynn_ck_103640"
-	culture = "gdonyos"
+	name = "dynn_cy_Qamaniq"
+	culture = inuit
 }
 103650 = {
 	name = "dynn_ck_103650"
@@ -1487,8 +1403,8 @@
 	culture = "mongol"
 }
 103670 = {
-	name = "dynn_ck_103670"
-	culture = "liblander"
+	name = "dynn_cy_Kusugak"
+	culture = inuit
 }
 103680 = {
 	name = "dynn_ck_103680"
@@ -1507,8 +1423,8 @@
 	culture = "bodpa"
 }
 103730 = {
-	name = "dynn_ck_103730"
-	culture = "gdonyos"
+	name = "dynn_cy_Singh"
+	culture = canadian
 }
 103740 = {
 	name = "dynn_ck_103740"
@@ -1539,27 +1455,11 @@
 	culture = "bodpa"
 }
 103820 = {
-	name = "dynn_ck_103820"
-	culture = "gdonyos"
+	name = "dynn_cy_Bouchard"
+	culture = montrealer
 }
 103830 = {
 	name = "dynn_ck_103830"
-	culture = "bodpa"
-}
-103831 = {
-	name = "dynn_ck_103831"
-	culture = "bodpa"
-}
-103832 = {
-	name = "dynn_ck_103832"
-	culture = "bodpa"
-}
-103833 = {
-	name = "dynn_ck_103833"
-	culture = "bodpa"
-}
-103834 = {
-	name = "dynn_ck_103834"
 	culture = "bodpa"
 }
 103840 = {
@@ -1583,24 +1483,24 @@
 	culture = "bodpa"
 }
 103890 = {
-	name = "dynn_ck_103890"
-	culture = "gdonyos"
+	name = "dynn_cy_Kuptana"
+	culture = inuit
 }
 103900 = {
-	name = "dynn_ck_103900"
-	culture = "aussie"
+	name = "dynn_cy_Patel"
+	culture = maritimer
 }
 103910 = {
 	name = "dynn_ck_103910"
 	culture = "bodpa"
 }
 103920 = {
-	name = "dynn_ck_103920"
-	culture = "aussie"
+	name = "dynn_cy_Anawak"
+	culture = inuit
 }
 103930 = {
-	name = "dynn_ck_103930"
-	culture = "aussie"
+	name = "dynn_cy_Kowalchuk"
+	culture = maritimer
 }
 103940 = {
 	name = "dynn_ck_103940"
@@ -1631,23 +1531,23 @@
 	culture = "bodpa"
 }
 104010 = {
-	name = "dynn_ck_104010"
-	culture = "aussie"
+	name = "dynn_cy_Davies"
+	culture = english
 }
 104020 = {
 	name = "dynn_ck_104020"
 	culture = "bodpa"
 }
 104030 = {
-	name = "dynn_ck_104030"
-	culture = "gdonyos"
+	name = "dynn_cy_Andersson"
+	culture = swedish
 }
 104040 = {
-	name = "dynn_ck_104040"
+	name = "dynn_cy_Diop"
 	culture = "wolof"
 }
 104050 = {
-	name = "dynn_ck_104050"
+	name = "dynn_cy_Bah"
 	culture = "pulaar"
 }
 104060 = {
@@ -1662,10 +1562,6 @@
 	name = "dynn_ck_104080"
 	culture = "bodpa"
 }
-104090 = {
-	name = "dynn_ck_104090"
-	culture = "bedouin"
-}
 104100 = {
 	name = "dynn_ck_104100"
 	culture = "mongol"
@@ -1675,20 +1571,20 @@
 	culture = "bodpa"
 }
 104120 = {
-	name = "dynn_ck_104120"
+	name = "dynn_cy_Mensah"
 	culture = "akan"
 }
 104130 = {
-	name = "dynn_ck_104130"
-	culture = "gdonyos"
+	name = "dynn_cy_Okpik"
+	culture = inuit
 }
 104140 = {
 	name = "dynn_ck_104140"
 	culture = "bodpa"
 }
 104150 = {
-	name = "dynn_ck_104150"
-	culture = "gdonyos"
+	name = "dynn_cy_Tagak"
+	culture = inuit
 }
 104160 = {
 	name = "dynn_ck_104160"
@@ -1702,32 +1598,24 @@
 	name = "dynn_ck_104180"
 	culture = "bodpa"
 }
-104190 = {
-	name = "dynn_ck_104190"
-	culture = "bodpa"
-}
 104200 = {
-	name = "dynn_ck_104200"
-	culture = "aussie"
+	name = "dynn_cy_Bernard"
+	culture = french
 }
 104210 = {
-	name = "dynn_ck_104210"
+	name = "dynn_cy_Ould_Abdallahi"
 	culture = "hassaniya"
 }
-104220 = {
-	name = "dynn_ck_104220"
-	culture = "pulaar"
-}
 104230 = {
-	name = "dynn_ck_104230"
+	name = "dynn_cy_Ould_Ahmed"
 	culture = "hassaniya"
 }
 104240 = {
-	name = "dynn_ck_104240"
+	name = "dynn_cy_Alaoui"
 	culture = "moroccan"
 }
 104250 = {
-	name = "dynn_ck_104250"
+	name = "dynn_cy_Kamara"
 	culture = "mel"
 }
 104260 = {
@@ -1738,28 +1626,20 @@
 	name = "dynn_ck_104270"
 	culture = "bodpa"
 }
-104280 = {
-	name = "dynn_ck_104280"
-	culture = "bodpa"
-}
-104290 = {
-	name = "dynn_ck_104290"
-	culture = "bodpa"
-}
 104300 = {
 	name = "dynn_ck_104300"
 	culture = "bodpa"
 }
 104310 = {
-	name = "dynn_ck_104310"
-	culture = "aussie"
+	name = "dynn_cy_Jonsson_23fd"
+	culture = icelandic
 }
 104320 = {
 	name = "dynn_ck_104320"
 	culture = "bodpa"
 }
 104330 = {
-	name = "dynn_ck_104330"
+	name = "dynn_cy_Diakite"
 	culture = "malinke"
 }
 104340 = {
@@ -1771,12 +1651,8 @@
 	culture = "bodpa"
 }
 104360 = {
-	name = "dynn_ck_104360"
+	name = "dynn_cy_El_Idrissi"
 	culture = "moroccan"
-}
-104370 = {
-	name = "dynn_ck_104370"
-	culture = "malinke"
 }
 104380 = {
 	name = "dynn_ck_104380"
@@ -1787,15 +1663,15 @@
 	culture = "bodpa"
 }
 104400 = {
-	name = "dynn_ck_104400"
-	culture = "aussie"
+	name = "dynn_cy_Sigurdsson"
+	culture = icelandic
 }
 104410 = {
 	name = "dynn_ck_104410"
 	culture = "bodpa"
 }
 104420 = {
-	name = "dynn_ck_104420"
+	name = "dynn_cy_Boateng"
 	culture = "akan"
 }
 104430 = {
@@ -1807,24 +1683,24 @@
 	culture = "bodpa"
 }
 104450 = {
-	name = "dynn_ck_104450"
-	culture = "greek"
+	name = "dynn_cy_Sousa"
+	culture = portuguese
 }
 104460 = {
 	name = "dynn_ck_104460"
 	culture = "bodpa"
 }
 104470 = {
-	name = "dynn_ck_104470"
-	culture = "aussie"
+	name = "dynn_cy_Korhonen"
+	culture = finnish
 }
 104480 = {
 	name = "dynn_ck_104480"
 	culture = "mongol"
 }
 104490 = {
-	name = "dynn_ck_104490"
-	culture = "aussie"
+	name = "dynn_cy_Virtanen"
+	culture = finnish
 }
 104500 = {
 	name = "dynn_ck_104500"
@@ -1838,40 +1714,20 @@
 	name = "dynn_ck_104530"
 	culture = "mongol"
 }
-104540 = {
-	name = "dynn_ck_104540"
-	culture = "bedouin"
-}
 104550 = {
 	name = "dynn_ck_104550"
 	culture = "bodpa"
 }
 104560 = {
-	name = "dynn_ck_104560"
-	culture = "aussie"
+	name = "dynn_cy_O_Sullivan"
+	culture = irish
 }
 pictish = {
-	name = "dynn_ck_pictish"
-	culture = "aussie"
-}
-104561 = {
-	name = "dynn_ck_104561"
-	culture = "aussie"
-}
-104562 = {
-	name = "dynn_ck_104562"
-	culture = "aussie"
-}
-104563 = {
-	name = "dynn_ck_104563"
-	culture = "aussie"
-}
-104564 = {
-	name = "dynn_ck_104564"
+	name = "dynn_cy_Jones"
 	culture = "aussie"
 }
 104570 = {
-	name = "dynn_ck_104570"
+	name = "dynn_cy_Haidara"
 	culture = "songhai"
 }
 104580 = {
@@ -1883,12 +1739,12 @@ pictish = {
 	culture = "bodpa"
 }
 104600 = {
-	name = "dynn_ck_104600"
-	culture = "aussie"
+	name = "dynn_cy_Walsh"
+	culture = irish
 }
 104610 = {
-	name = "dynn_ck_104610"
-	culture = "greek"
+	name = "dynn_cy_Serrano"
+	culture = castilian
 }
 104620 = {
 	name = "dynn_ck_104620"
@@ -1899,8 +1755,8 @@ pictish = {
 	culture = "telugu"
 }
 104640 = {
-	name = "dynn_ck_104640"
-	culture = "greek"
+	name = "dynn_cy_Blanco"
+	culture = castilian
 }
 104650 = {
 	name = "dynn_ck_104650"
@@ -1909,10 +1765,6 @@ pictish = {
 104660 = {
 	name = "dynn_ck_104660"
 	culture = "telugu"
-}
-104670 = {
-	name = "dynn_ck_104670"
-	culture = "bodpa"
 }
 104680 = {
 	name = "dynn_ck_104680"
@@ -1931,24 +1783,20 @@ pictish = {
 	culture = "bodpa"
 }
 104720 = {
-	name = "dynn_ck_104720"
-	culture = "aussie"
+	name = "dynn_cy_Dubois"
+	culture = french
 }
 104730 = {
 	name = "dynn_ck_104730"
 	culture = "bodpa"
 }
 104740 = {
-	name = "dynn_ck_104740"
-	culture = "aussie"
+	name = "dynn_cy_Robertson"
+	culture = scottish
 }
 104750 = {
-	name = "dynn_ck_104750"
-	culture = "aussie"
-}
-104760 = {
-	name = "dynn_ck_104760"
-	culture = "mossi"
+	name = "dynn_cy_Wood"
+	culture = english
 }
 104770 = {
 	name = "dynn_ck_104770"
@@ -1959,24 +1807,20 @@ pictish = {
 	culture = "bodpa"
 }
 104790 = {
-	name = "dynn_ck_104790"
-	culture = "aussie"
+	name = "dynn_cy_Morgan"
+	culture = welsh
 }
 104800 = {
-	name = "dynn_ck_104800"
-	culture = "aussie"
+	name = "dynn_cy_Cooper"
+	culture = english
 }
 104810 = {
 	name = "dynn_ck_104810"
 	culture = "bodpa"
 }
-104820 = {
-	name = "dynn_ck_104820"
-	culture = "moroccan"
-}
 104830 = {
-	name = "dynn_ck_104830"
-	culture = "greek"
+	name = "dynn_cy_Sanz"
+	culture = castilian
 }
 104840 = {
 	name = "dynn_ck_104840"
@@ -1991,12 +1835,12 @@ pictish = {
 	culture = "bodpa"
 }
 104870 = {
-	name = "dynn_ck_104870"
+	name = "dynn_cy_Owusu"
 	culture = "akan"
 }
 104880 = {
-	name = "dynn_ck_104880"
-	culture = "aussie"
+	name = "dynn_cy_Ward"
+	culture = english
 }
 104890 = {
 	name = "dynn_ck_104890"
@@ -2011,24 +1855,8 @@ pictish = {
 	culture = "telugu"
 }
 104920 = {
-	name = "dynn_ck_104920"
-	culture = "aussie"
-}
-104921 = {
-	name = "dynn_ck_104921"
-	culture = "aussie"
-}
-104922 = {
-	name = "dynn_ck_104922"
-	culture = "aussie"
-}
-104923 = {
-	name = "dynn_ck_104923"
-	culture = "aussie"
-}
-104924 = {
-	name = "dynn_ck_104924"
-	culture = "aussie"
+	name = "dynn_cy_Robert"
+	culture = french
 }
 104940 = {
 	name = "dynn_ck_104940"
@@ -2038,16 +1866,12 @@ pictish = {
 	name = "dynn_ck_104950"
 	culture = "bodpa"
 }
-104960 = {
-	name = "dynn_ck_104960"
-	culture = "aussie"
-}
 104970 = {
 	name = "dynn_ck_104970"
 	culture = "telugu"
 }
 104980 = {
-	name = "dynn_ck_104980"
+	name = "dynn_cy_Benali"
 	culture = "maghrebi"
 }
 104990 = {
@@ -2075,11 +1899,11 @@ pictish = {
 	culture = "bodpa"
 }
 105060 = {
-	name = "dynn_ck_105060"
-	culture = "greek"
+	name = "dynn_cy_Ortega"
+	culture = castilian
 }
 105070 = {
-	name = "dynn_ck_105070"
+	name = "dynn_cy_Ouedraogo"
 	culture = "mossi"
 }
 105080 = {
@@ -2099,7 +1923,7 @@ pictish = {
 	culture = "aussie"
 }
 105120 = {
-	name = "dynn_ck_105120"
+	name = "dynn_cy_Issoufou"
 	culture = "songhai"
 }
 105130 = {
@@ -2115,7 +1939,7 @@ pictish = {
 	culture = "bodpa"
 }
 105160 = {
-	name = "dynn_ck_105160"
+	name = "dynn_cy_Bensaid"
 	culture = "maghrebi"
 }
 105170 = {
@@ -2127,8 +1951,8 @@ pictish = {
 	culture = "telugu"
 }
 105200 = {
-	name = "dynn_ck_105200"
-	culture = "aussie"
+	name = "dynn_cy_Hansen"
+	culture = norwegian
 }
 105210 = {
 	name = "dynn_ck_105210"
@@ -2139,7 +1963,7 @@ pictish = {
 	culture = "telugu"
 }
 105230 = {
-	name = "dynn_ck_105230"
+	name = "dynn_cy_Agbodeka"
 	culture = "ewe"
 }
 105240 = {
@@ -2151,7 +1975,7 @@ pictish = {
 	culture = "bodpa"
 }
 105260 = {
-	name = "dynn_ck_105260"
+	name = "dynn_cy_Belkacem"
 	culture = "maghrebi"
 }
 105270 = {
@@ -2167,8 +1991,8 @@ pictish = {
 	culture = "telugu"
 }
 105300 = {
-	name = "dynn_ck_105300"
-	culture = "aussie"
+	name = "dynn_cy_Richard"
+	culture = french
 }
 105310 = {
 	name = "dynn_ck_105310"
@@ -2183,24 +2007,20 @@ pictish = {
 	culture = "bodpa"
 }
 105340 = {
-	name = "dynn_ck_105340"
-	culture = "aussie"
+	name = "dynn_cy_Johansen"
+	culture = norwegian
 }
 105350 = {
-	name = "dynn_ck_105350"
-	culture = "aussie"
+	name = "dynn_cy_Nielsen"
+	culture = danish
 }
 105360 = {
-	name = "dynn_ck_105360"
+	name = "dynn_cy_Djibo"
 	culture = "songhai"
 }
 105370 = {
 	name = "dynn_ck_105370"
 	culture = "telugu"
-}
-105380 = {
-	name = "dynn_ck_105380"
-	culture = "wolof"
 }
 105390 = {
 	name = "dynn_ck_105390"
@@ -2223,27 +2043,23 @@ pictish = {
 	culture = "bodpa"
 }
 105440 = {
-	name = "dynn_ck_105440"
+	name = "dynn_cy_Abdullahi"
 	culture = "hausa"
 }
 105450 = {
 	name = "dynn_ck_105450"
 	culture = "telugu"
 }
-105460 = {
-	name = "dynn_ck_105460"
-	culture = "italian"
-}
 105470 = {
-	name = "dynn_ck_105470"
-	culture = "aussie"
+	name = "dynn_cy_Tamm"
+	culture = estonian
 }
 105480 = {
-	name = "dynn_ck_105480"
+	name = "dynn_cy_Rossi"
 	culture = "italian"
 }
 105490 = {
-	name = "dynn_ck_105490"
+	name = "dynn_cy_Ndako"
 	culture = "nupe"
 }
 105500 = {
@@ -2255,39 +2071,35 @@ pictish = {
 	culture = "bodpa"
 }
 105520 = {
-	name = "dynn_ck_105520"
-	culture = "aussie"
+	name = "dynn_cy_Johansson"
+	culture = swedish
 }
 105530 = {
 	name = "dynn_ck_105530"
 	culture = "telugu"
 }
 105540 = {
-	name = "dynn_ck_105540"
+	name = "dynn_cy_Russo"
 	culture = "italian"
 }
-105550 = {
-	name = "dynn_ck_105550"
-	culture = "maghrebi"
-}
 105560 = {
-	name = "dynn_ck_105560"
-	culture = "bedouin"
+	name = "dynn_cy_Boudiaf"
+	culture = maghrebi
 }
 105570 = {
-	name = "dynn_ck_105570"
-	culture = "aussie"
+	name = "dynn_cy_Makinen"
+	culture = finnish
 }
 105580 = {
-	name = "dynn_ck_105580"
-	culture = "aussie"
+	name = "dynn_cy_Nowak"
+	culture = polish
 }
 105590 = {
-	name = "dynn_ck_105590"
-	culture = "aussie"
+	name = "dynn_cy_Novak_91d4"
+	culture = czech
 }
 105600 = {
-	name = "dynn_ck_105600"
+	name = "dynn_cy_Ag_Ghaly"
 	culture = "tuareg"
 }
 105610 = {
@@ -2295,16 +2107,16 @@ pictish = {
 	culture = "telugu"
 }
 105620 = {
-	name = "dynn_ck_105620"
+	name = "dynn_cy_Okafor"
 	culture = "igbo"
 }
 105630 = {
-	name = "dynn_ck_105630"
-	culture = "aussie"
+	name = "dynn_cy_Nieminen"
+	culture = finnish
 }
 105640 = {
-	name = "dynn_ck_105640"
-	culture = "aussie"
+	name = "dynn_cy_Karlsson"
+	culture = swedish
 }
 105650 = {
 	name = "dynn_ck_105650"
@@ -2327,15 +2139,15 @@ pictish = {
 	culture = "telugu"
 }
 105700 = {
-	name = "dynn_ck_105700"
-	culture = "aussie"
+	name = "dynn_cy_Makela"
+	culture = finnish
 }
 105710 = {
-	name = "dynn_ck_105710"
+	name = "dynn_cy_Fall"
 	culture = "wolof"
 }
 105720 = {
-	name = "dynn_ck_105720"
+	name = "dynn_cy_Etsu"
 	culture = "nupe"
 }
 105730 = {
@@ -2343,63 +2155,63 @@ pictish = {
 	culture = "telugu"
 }
 105740 = {
-	name = "dynn_ck_105740"
+	name = "dynn_cy_Horvath"
 	culture = "slovak"
 }
 105750 = {
-	name = "dynn_ck_105750"
+	name = "dynn_cy_Ferrari"
 	culture = "italian"
 }
 105760 = {
-	name = "dynn_ck_105760"
+	name = "dynn_cy_Aliyu"
 	culture = "hausa"
 }
 105770 = {
-	name = "dynn_ck_105770"
+	name = "dynn_cy_Hodzic"
 	culture = "bosnian"
 }
 105780 = {
-	name = "dynn_ck_105780"
-	culture = "aussie"
+	name = "dynn_cy_Hamalainen"
+	culture = finnish
 }
 105790 = {
 	name = "dynn_ck_105790"
 	culture = "italian"
 }
 105800 = {
-	name = "dynn_ck_105800"
+	name = "dynn_cy_Al_Warfalli"
 	culture = "libyan"
 }
 105810 = {
-	name = "dynn_ck_105810"
-	culture = "aussie"
+	name = "dynn_cy_Kowalski"
+	culture = polish
 }
 105820 = {
-	name = "dynn_ck_105820"
-	culture = "aussie"
+	name = "dynn_cy_Kazlauskas"
+	culture = lithuanian
 }
 105830 = {
-	name = "dynn_ck_105830"
-	culture = "greek"
+	name = "dynn_cy_Jovanovic"
+	culture = serbian
 }
 105840 = {
-	name = "dynn_ck_105840"
+	name = "dynn_cy_Ivanov"
 	culture = "bulgarian"
 }
 105850 = {
-	name = "dynn_ck_105850"
+	name = "dynn_cy_Al_Magarief"
 	culture = "libyan"
 }
 105860 = {
-	name = "dynn_ck_105860"
+	name = "dynn_cy_Biya"
 	culture = "cameroonian"
 }
 105870 = {
-	name = "dynn_ck_105870"
+	name = "dynn_cy_Khan"
 	culture = "aussie"
 }
 105880 = {
-	name = "dynn_ck_105880"
+	name = "dynn_cy_Garba"
 	culture = "hausa"
 }
 105890 = {
@@ -2407,131 +2219,119 @@ pictish = {
 	culture = "russian"
 }
 105900 = {
-	name = "dynn_ck_105900"
+	name = "dynn_cy_Kuznetsov"
 	culture = "russian"
 }
 105910 = {
-	name = "dynn_ck_105910"
+	name = "dynn_cy_Papadopoulos"
 	culture = "greek"
 }
 105920 = {
-	name = "dynn_ck_105920"
+	name = "dynn_cy_Ilunga"
 	culture = "kongo"
 }
 105930 = {
-	name = "dynn_ck_105930"
+	name = "dynn_cy_Georgiev"
 	culture = "bulgarian"
 }
 105940 = {
-	name = "dynn_ck_105940"
+	name = "dynn_cy_Papadakis"
 	culture = "greek"
 }
 105950 = {
-	name = "dynn_ck_105950"
+	name = "dynn_cy_Al_Senussi"
 	culture = "libyan"
 }
 105960 = {
-	name = "dynn_ck_105960"
-	culture = "aussie"
+	name = "dynn_cy_Ivanou"
+	culture = belarusian
 }
 105970 = {
-	name = "dynn_ck_105970"
+	name = "dynn_cy_Papanikolaou"
 	culture = "greek"
 }
 105980 = {
-	name = "dynn_ck_105980"
+	name = "dynn_cy_Al_Obeidi"
 	culture = "libyan"
 }
 105990 = {
-	name = "dynn_ck_105990"
-	culture = "greek"
+	name = "dynn_cy_Popa"
+	culture = romanian
 }
 106000 = {
-	name = "dynn_ck_106000"
-	culture = "greek"
+	name = "dynn_cy_Popescu"
+	culture = romanian
 }
 106010 = {
-	name = "dynn_ck_106010"
+	name = "dynn_cy_Kabila"
 	culture = "kongo"
 }
 106020 = {
-	name = "dynn_ck_106020"
+	name = "dynn_cy_Smirnov"
 	culture = "russian"
 }
 106030 = {
-	name = "dynn_ck_106030"
+	name = "dynn_cy_Tshisekedi"
 	culture = "kongo"
 }
 106040 = {
-	name = "dynn_ck_106040"
+	name = "dynn_cy_Yilmaz"
 	culture = "turkish"
 }
 106050 = {
-	name = "dynn_ck_106050"
+	name = "dynn_cy_Lukaku"
 	culture = "kongo"
 }
 106060 = {
-	name = "dynn_ck_106060"
-	culture = "russian"
-}
-106070 = {
-	name = "dynn_ck_106070"
+	name = "dynn_cy_Popov"
 	culture = "russian"
 }
 106080 = {
-	name = "dynn_ck_106080"
+	name = "dynn_cy_Deby"
 	culture = "sao"
 }
 106090 = {
-	name = "dynn_ck_106090"
+	name = "dynn_cy_Mbemba"
 	culture = "kongo"
 }
-106100 = {
-	name = "dynn_ck_106100"
-	culture = "turkish"
-}
-106110 = {
-	name = "dynn_ck_106110"
-	culture = "egyptian"
-}
 106120 = {
-	name = "dynn_ck_106120"
+	name = "dynn_cy_Petrov"
 	culture = "russian"
 }
 106130 = {
-	name = "dynn_ck_106130"
+	name = "dynn_cy_Vasilyev"
 	culture = "russian"
 }
 106140 = {
-	name = "dynn_ck_106140"
+	name = "dynn_cy_Kaya"
 	culture = "turkish"
 }
 106150 = {
-	name = "dynn_ck_106150"
+	name = "dynn_cy_Touadera"
 	culture = "ubangian"
 }
 106160 = {
-	name = "dynn_ck_106160"
+	name = "dynn_cy_Demir"
 	culture = "turkish"
 }
 106170 = {
-	name = "dynn_ck_106170"
-	culture = "sahelian"
+	name = "dynn_cy_Mohamed"
+	culture = egyptian
 }
 106180 = {
-	name = "dynn_ck_106180"
+	name = "dynn_cy_Magomedov"
 	culture = "russian"
 }
 106190 = {
-	name = "dynn_ck_106190"
+	name = "dynn_cy_Sahin"
 	culture = "turkish"
 }
 106200 = {
-	name = "dynn_ck_106200"
+	name = "dynn_cy_Makiadi"
 	culture = "kongo"
 }
 106210 = {
-	name = "dynn_ck_106210"
+	name = "dynn_cy_Aliyev"
 	culture = "russian"
 }
 106220 = {
@@ -2539,59 +2339,55 @@ pictish = {
 	culture = "bedouin"
 }
 106230 = {
-	name = "dynn_ck_106230"
+	name = "dynn_cy_Ahmed"
 	culture = "egyptian"
 }
 106240 = {
-	name = "dynn_ck_106240"
+	name = "dynn_cy_Karimov"
 	culture = "russian"
 }
 106250 = {
-	name = "dynn_ck_106250"
+	name = "dynn_cy_Itno"
 	culture = "sao"
 }
 106260 = {
-	name = "dynn_ck_106260"
+	name = "dynn_cy_Volkov"
 	culture = "russian"
 }
 106270 = {
-	name = "dynn_ck_106270"
+	name = "dynn_cy_Bokele"
 	culture = "mongo"
 }
 106280 = {
-	name = "dynn_ck_106280"
+	name = "dynn_cy_Bozize"
 	culture = "ubangian"
-}
-106290 = {
-	name = "dynn_ck_106290"
-	culture = "kongo"
 }
 106300 = {
 	name = "dynn_ck_106300"
 	culture = "han"
 }
 106310 = {
-	name = "dynn_ck_106310"
+	name = "dynn_cy_Hassan"
 	culture = "egyptian"
 }
 106320 = {
-	name = "dynn_ck_106320"
-	culture = "bedouin"
+	name = "dynn_cy_Celik"
+	culture = turkish
 }
 106330 = {
-	name = "dynn_ck_106330"
+	name = "dynn_cy_Semyonov"
 	culture = "sibiryak"
 }
 106340 = {
-	name = "dynn_ck_106340"
+	name = "dynn_cy_Mikhaylov"
 	culture = "russian"
 }
 106350 = {
-	name = "dynn_ck_106350"
+	name = "dynn_cy_Pavlov"
 	culture = "russian"
 }
 106360 = {
-	name = "dynn_ck_106360"
+	name = "dynn_cy_Haddad"
 	culture = "levantine"
 }
 106370 = {
@@ -2599,43 +2395,39 @@ pictish = {
 	culture = "han"
 }
 106380 = {
-	name = "dynn_ck_106380"
+	name = "dynn_cy_Yildiz"
 	culture = "turkish"
 }
 106390 = {
-	name = "dynn_ck_106390"
+	name = "dynn_cy_Valiev"
 	culture = "bashkir"
 }
 106400 = {
 	name = "dynn_ck_106400"
 	culture = "han"
 }
-106410 = {
-	name = "dynn_ck_106410"
-	culture = "russian"
-}
 106430 = {
-	name = "dynn_ck_106430"
+	name = "dynn_cy_Kasongo"
 	culture = "luba"
 }
 106440 = {
-	name = "dynn_ck_106440"
+	name = "dynn_cy_Kozlov"
 	culture = "sibiryak"
 }
 106450 = {
-	name = "dynn_ck_106450"
+	name = "dynn_cy_Bolamba"
 	culture = "mongo"
 }
 106460 = {
-	name = "dynn_ck_106460"
+	name = "dynn_cy_Ahmetov"
 	culture = "kazak"
 }
 106470 = {
-	name = "dynn_ck_106470"
+	name = "dynn_cy_Ali"
 	culture = "egyptian"
 }
 106480 = {
-	name = "dynn_ck_106480"
+	name = "dynn_cy_Savimbi"
 	culture = "ovimbundu"
 }
 106490 = {
@@ -2643,55 +2435,47 @@ pictish = {
 	culture = "ainu"
 }
 106500 = {
-	name = "dynn_ck_106500"
+	name = "dynn_cy_Galiev"
 	culture = "bashkir"
 }
 106510 = {
-	name = "dynn_ck_106510"
+	name = "dynn_cy_Nsimba"
 	culture = "kongo"
 }
 106520 = {
-	name = "dynn_ck_106520"
+	name = "dynn_cy_Omarov"
 	culture = "kazak"
 }
 106530 = {
-	name = "dynn_ck_106530"
+	name = "dynn_cy_Memmedov"
 	culture = "azerbaijani"
 }
 106540 = {
-	name = "dynn_ck_106540"
+	name = "dynn_cy_Khoury"
 	culture = "levantine"
 }
 106550 = {
-	name = "dynn_ck_106550"
+	name = "dynn_cy_Eliyev"
 	culture = "azerbaijani"
 }
 106560 = {
-	name = "dynn_ck_106560"
+	name = "dynn_cy_Samakuva"
 	culture = "ovimbundu"
 }
 106570 = {
 	name = "dynn_ck_106570"
 	culture = "han"
 }
-106580 = {
-	name = "dynn_ck_106580"
-	culture = "russian"
-}
 106590 = {
-	name = "dynn_ck_106590"
+	name = "dynn_cy_Fyodorov"
 	culture = "sibiryak"
 }
 106600 = {
-	name = "dynn_ck_106600"
+	name = "dynn_cy_Osman"
 	culture = "beja"
 }
-106610 = {
-	name = "dynn_ck_106610"
-	culture = "russian"
-}
 106620 = {
-	name = "dynn_ck_106620"
+	name = "dynn_cy_Morozov"
 	culture = "sibiryak"
 }
 106630 = {
@@ -2699,35 +2483,31 @@ pictish = {
 	culture = "han"
 }
 106640 = {
-	name = "dynn_ck_106640"
-	culture = "ainu"
+	name = "dynn_cy_Cook"
+	culture = liblander
 }
 106650 = {
-	name = "dynn_ck_106650"
+	name = "dynn_cy_Novikov"
 	culture = "russian"
 }
 106660 = {
-	name = "dynn_ck_106660"
+	name = "dynn_cy_Idris"
 	culture = "beja"
 }
 106670 = {
-	name = "dynn_ck_106670"
+	name = "dynn_cy_Odinga"
 	culture = "nilotic"
 }
 106680 = {
-	name = "dynn_ck_106680"
+	name = "dynn_cy_Bosolo"
 	culture = "mongo"
 }
 106690 = {
-	name = "dynn_ck_106690"
+	name = "dynn_cy_Mutombo"
 	culture = "luba"
 }
-106700 = {
-	name = "dynn_ck_106700"
-	culture = "russian"
-}
 106720 = {
-	name = "dynn_ck_106720"
+	name = "dynn_cy_Rakhimov"
 	culture = "uzbek"
 }
 106730 = {
@@ -2735,47 +2515,35 @@ pictish = {
 	culture = "han"
 }
 106740 = {
-	name = "dynn_ck_106740"
+	name = "dynn_cy_Mohammadi"
 	culture = "persian"
 }
-106750 = {
-	name = "dynn_ck_106750"
-	culture = "kurdish"
-}
 106760 = {
-	name = "dynn_ck_106760"
+	name = "dynn_cy_Al_Otaibi"
 	culture = "bedouin"
 }
 106770 = {
-	name = "dynn_ck_106770"
+	name = "dynn_cy_Nujoma"
 	culture = "ovambo"
 }
-106780 = {
-	name = "dynn_ck_106780"
-	culture = "russian"
-}
 106790 = {
-	name = "dynn_ck_106790"
+	name = "dynn_cy_Sokolov"
 	culture = "sibiryak"
 }
 106800 = {
-	name = "dynn_ck_106800"
+	name = "dynn_cy_Berdimuhamedov"
 	culture = "turkmen"
 }
-106810 = {
-	name = "dynn_ck_106810"
-	culture = "bedouin"
-}
 106820 = {
-	name = "dynn_ck_106820"
+	name = "dynn_cy_Ospanov"
 	culture = "kazak"
 }
 106830 = {
-	name = "dynn_ck_106830"
+	name = "dynn_cy_Gudina"
 	culture = "oromo"
 }
 106840 = {
-	name = "dynn_ck_106840"
+	name = "dynn_cy_Lebedev"
 	culture = "sibiryak"
 }
 106850 = {
@@ -2783,7 +2551,7 @@ pictish = {
 	culture = "han"
 }
 106860 = {
-	name = "dynn_ck_106860"
+	name = "dynn_cy_Egorov"
 	culture = "sibiryak"
 }
 106870 = {
@@ -2791,39 +2559,31 @@ pictish = {
 	culture = "han"
 }
 106880 = {
-	name = "dynn_ck_106880"
+	name = "dynn_cy_Orlov"
 	culture = "sibiryak"
 }
 106890 = {
-	name = "dynn_ck_106890"
+	name = "dynn_cy_Al_Qahtani"
 	culture = "bedouin"
 }
 106900 = {
-	name = "dynn_ck_106900"
+	name = "dynn_cy_Tesfaye"
 	culture = "ethiopian"
 }
 106910 = {
-	name = "dynn_ck_106910"
+	name = "dynn_cy_Hosseini"
 	culture = "persian"
 }
 106920 = {
-	name = "dynn_ck_106920"
+	name = "dynn_cy_Ngoy"
 	culture = "luba"
 }
 106930 = {
 	name = "dynn_ck_106930"
 	culture = "russian"
 }
-106940 = {
-	name = "dynn_ck_106940"
-	culture = "russian"
-}
-106950 = {
-	name = "dynn_ck_106950"
-	culture = "russian"
-}
 106960 = {
-	name = "dynn_ck_106960"
+	name = "dynn_cy_Aliev"
 	culture = "kazak"
 }
 106970 = {
@@ -2831,27 +2591,23 @@ pictish = {
 	culture = "han"
 }
 106980 = {
-	name = "dynn_ck_106980"
+	name = "dynn_cy_Pohamba"
 	culture = "ovambo"
 }
 106990 = {
-	name = "dynn_ck_106990"
+	name = "dynn_cy_Suleimenov"
 	culture = "kazak"
 }
-107000 = {
-	name = "dynn_ck_107000"
-	culture = "bedouin"
-}
 107010 = {
-	name = "dynn_ck_107010"
+	name = "dynn_cy_Kabongo"
 	culture = "luba"
 }
 107020 = {
-	name = "dynn_ck_107020"
+	name = "dynn_cy_Lemma"
 	culture = "oromo"
 }
 107030 = {
-	name = "dynn_ck_107030"
+	name = "dynn_cy_Andreyev"
 	culture = "russian"
 }
 107040 = {
@@ -2863,23 +2619,23 @@ pictish = {
 	culture = "han"
 }
 107060 = {
-	name = "dynn_ck_107060"
+	name = "dynn_cy_Otieno"
 	culture = "nilotic"
 }
 107070 = {
-	name = "dynn_ck_107070"
+	name = "dynn_cy_Al_Ghamdi"
 	culture = "bedouin"
 }
 107080 = {
-	name = "dynn_ck_107080"
+	name = "dynn_cy_Yusupov"
 	culture = "uzbek"
 }
 107090 = {
-	name = "dynn_ck_107090"
+	name = "dynn_cy_Makarov"
 	culture = "russian"
 }
 107100 = {
-	name = "dynn_ck_107100"
+	name = "dynn_cy_Al_Zahrani"
 	culture = "bedouin"
 }
 107110 = {
@@ -2887,11 +2643,11 @@ pictish = {
 	culture = "telugu"
 }
 107120 = {
-	name = "dynn_ck_107120"
+	name = "dynn_cy_Nikitin"
 	culture = "far_eastern"
 }
 107130 = {
-	name = "dynn_ck_107130"
+	name = "dynn_cy_Geingob"
 	culture = "ovambo"
 }
 107140 = {
@@ -2899,75 +2655,63 @@ pictish = {
 	culture = "han"
 }
 107150 = {
-	name = "dynn_ck_107150"
+	name = "dynn_cy_Zakharov"
 	culture = "far_eastern"
 }
 107160 = {
-	name = "dynn_ck_107160"
+	name = "dynn_cy_Abdulla"
 	culture = "uyghur"
-}
-107170 = {
-	name = "dynn_ck_107170"
-	culture = "han"
 }
 121771 = {
 	name = "dynn_ck_121771"
 	culture = "celestial"
 }
-107180 = {
-	name = "dynn_ck_107180"
-	culture = "ainu"
-}
 107190 = {
-	name = "dynn_ck_107190"
+	name = "dynn_cy_Tshibanda"
 	culture = "luba"
 }
 107200 = {
-	name = "dynn_ck_107200"
-	culture = "ainu"
+	name = "dynn_cy_Rogers"
+	culture = liblander
 }
 107210 = {
-	name = "dynn_ck_107210"
+	name = "dynn_cy_Zaitsev"
 	culture = "sibiryak"
 }
 107220 = {
 	name = "dynn_ck_107220"
 	culture = "han"
 }
-107230 = {
-	name = "dynn_ck_107230"
-	culture = "bemba"
-}
 107240 = {
 	name = "dynn_ck_107240"
 	culture = "han"
 }
 107250 = {
-	name = "dynn_ck_107250"
+	name = "dynn_cy_Abdi"
 	culture = "somali"
 }
 107260 = {
-	name = "dynn_ck_107260"
+	name = "dynn_cy_Botha"
 	culture = "afrikaner"
 }
 107270 = {
-	name = "dynn_ck_107270"
+	name = "dynn_cy_Abdullayev"
 	culture = "uzbek"
 }
 107280 = {
-	name = "dynn_ck_107280"
-	culture = "bedouin"
+	name = "dynn_cy_Nyyazow"
+	culture = turkmen
 }
 107290 = {
-	name = "dynn_ck_107290"
+	name = "dynn_cy_Al_Harbi"
 	culture = "bedouin"
 }
 107300 = {
-	name = "dynn_ck_107300"
+	name = "dynn_cy_Iskakov"
 	culture = "kazak"
 }
 107310 = {
-	name = "dynn_ck_107310"
+	name = "dynn_cy_Ahmadi"
 	culture = "persian"
 }
 107320 = {
@@ -2975,136 +2719,124 @@ pictish = {
 	culture = "han"
 }
 107330 = {
-	name = "dynn_ck_107330"
+	name = "dynn_cy_Kumsa"
 	culture = "oromo"
 }
 107340 = {
-	name = "dynn_ck_107340"
+	name = "dynn_cy_Kariuki"
 	culture = "east_bantu"
 }
 107350 = {
-	name = "dynn_ck_107350"
+	name = "dynn_cy_Mamat"
 	culture = "uyghur"
 }
 107360 = {
-	name = "dynn_ck_107360"
+	name = "dynn_cy_Kimani"
 	culture = "east_bantu"
 }
-107370 = {
-	name = "dynn_ck_107370"
-	culture = "russian"
-}
 107380 = {
-	name = "dynn_ck_107380"
+	name = "dynn_cy_Khiad"
 	culture = "mongol"
 }
 107390 = {
-	name = "dynn_ck_107390"
+	name = "dynn_cy_Al_Shammari"
 	culture = "bedouin"
 }
 107400 = {
-	name = "dynn_ck_107400"
-	culture = "ainu"
+	name = "dynn_cy_Peterson"
+	culture = liblander
 }
 107410 = {
 	name = "dynn_ck_107410"
 	culture = "han"
 }
 107420 = {
-	name = "dynn_ck_107420"
+	name = "dynn_cy_Rahmon"
 	culture = "tajik"
 }
 107430 = {
-	name = "dynn_ck_107430"
+	name = "dynn_cy_Baloch"
 	culture = "baloch"
 }
 107440 = {
-	name = "dynn_ck_107440"
+	name = "dynn_cy_Mokoena"
 	culture = "sotho_tswana"
 }
 107450 = {
-	name = "dynn_ck_107450"
+	name = "dynn_cy_Memet"
 	culture = "uyghur"
 }
 107460 = {
-	name = "dynn_ck_107460"
+	name = "dynn_cy_Al_Mutairi"
 	culture = "bedouin"
 }
 107470 = {
-	name = "dynn_ck_107470"
+	name = "dynn_cy_Farah"
 	culture = "somali"
-}
-107480 = {
-	name = "dynn_ck_107480"
-	culture = "russian"
 }
 107490 = {
 	name = "dynn_ck_107490"
 	culture = "han"
 }
 107500 = {
-	name = "dynn_ck_107500"
+	name = "dynn_cy_van_der_Merwe"
 	culture = "afrikaner"
 }
 107510 = {
-	name = "dynn_ck_107510"
-	culture = "ainu"
+	name = "dynn_cy_Bailey"
+	culture = liblander
 }
 107520 = {
-	name = "dynn_ck_107520"
-	culture = "bedouin"
+	name = "dynn_cy_Bugti"
+	culture = baloch
 }
 107530 = {
-	name = "dynn_ck_107530"
+	name = "dynn_cy_Tsogt"
 	culture = "mongol"
 }
 107540 = {
-	name = "dynn_ck_107540"
+	name = "dynn_cy_Baarin"
 	culture = "mongol"
 }
 107550 = {
-	name = "dynn_ck_107550"
+	name = "dynn_cy_Al_Dosari"
 	culture = "bedouin"
 }
 107560 = {
-	name = "dynn_ck_107560"
+	name = "dynn_cy_Mwinyi"
 	culture = "swahili"
 }
 107570 = {
-	name = "dynn_ck_107570"
+	name = "dynn_cy_Wanjiku"
 	culture = "east_bantu"
 }
 107580 = {
-	name = "dynn_ck_107580"
+	name = "dynn_cy_Huang"
 	culture = "han"
 }
 107590 = {
-	name = "dynn_ck_107590"
+	name = "dynn_cy_Bwalya"
 	culture = "bemba"
 }
 107600 = {
 	name = "dynn_ck_107600"
 	culture = "han"
 }
-107610 = {
-	name = "dynn_ck_107610"
-	culture = "east_bantu"
-}
 107620 = {
-	name = "dynn_ck_107620"
+	name = "dynn_cy_Dube_2d05"
 	culture = "shona"
 }
 107630 = {
-	name = "dynn_ck_107630"
+	name = "dynn_cy_Rozi"
 	culture = "uyghur"
 }
 107640 = {
-	name = "dynn_ck_107640"
+	name = "dynn_cy_Al_Anazi"
 	culture = "bedouin"
 }
 107650 = {
-	name = "dynn_ck_107650"
-	culture = "ainu"
+	name = "dynn_cy_Reed"
+	culture = liblander
 }
 107660 = {
 	name = "dynn_ck_107660"
@@ -3115,7 +2847,7 @@ pictish = {
 	culture = "han"
 }
 107680 = {
-	name = "dynn_ck_107680"
+	name = "dynn_cy_Ahmadzai"
 	culture = "afghan"
 }
 107690 = {
@@ -3123,59 +2855,59 @@ pictish = {
 	culture = "han"
 }
 107700 = {
-	name = "dynn_ck_107700"
+	name = "dynn_cy_Yusup"
 	culture = "uyghur"
 }
 107710 = {
-	name = "dynn_ck_107710"
+	name = "dynn_cy_Ibrahim"
 	culture = "somali"
 }
 107720 = {
-	name = "dynn_ck_107720"
+	name = "dynn_cy_Wu"
 	culture = "han"
 }
 107730 = {
-	name = "dynn_ck_107730"
-	culture = "southeast_asian"
+	name = "dynn_cy_Kaur"
+	culture = punjabi
 }
 107740 = {
-	name = "dynn_ck_107740"
+	name = "dynn_cy_Hanfare"
 	culture = "afar"
 }
 107750 = {
-	name = "dynn_ck_107750"
+	name = "dynn_cy_Uriankhai"
 	culture = "mongol"
 }
 107760 = {
-	name = "dynn_ck_107760"
+	name = "dynn_cy_Ablimit"
 	culture = "uyghur"
 }
 107770 = {
-	name = "dynn_ck_107770"
+	name = "dynn_cy_Omar"
 	culture = "somali"
 }
 107780 = {
-	name = "dynn_ck_107780"
-	culture = "bantu"
+	name = "dynn_cy_Molefe"
+	culture = sotho_tswana
 }
 107790 = {
-	name = "dynn_ck_107790"
+	name = "dynn_cy_Solovyov"
 	culture = "sibiryak"
 }
 107800 = {
-	name = "dynn_ck_107800"
+	name = "dynn_cy_Mwamba"
 	culture = "bemba"
 }
 107830 = {
-	name = "dynn_ck_107830"
-	culture = "ainu"
+	name = "dynn_cy_Howard"
+	culture = liblander
 }
 107840 = {
 	name = "dynn_ck_107840"
 	culture = "han"
 }
 107850 = {
-	name = "dynn_ck_107850"
+	name = "dynn_cy_Borisov"
 	culture = "far_eastern"
 }
 107860 = {
@@ -3183,15 +2915,15 @@ pictish = {
 	culture = "han"
 }
 107870 = {
-	name = "dynn_ck_107870"
-	culture = "ainu"
+	name = "dynn_cy_Cox"
+	culture = liblander
 }
 107880 = {
-	name = "dynn_ck_107880"
-	culture = "southeast_asian"
+	name = "dynn_cy_Gill"
+	culture = punjabi
 }
 107890 = {
-	name = "dynn_ck_107890"
+	name = "dynn_cy_Yakovlev"
 	culture = "far_eastern"
 }
 107900 = {
@@ -3199,75 +2931,63 @@ pictish = {
 	culture = "han"
 }
 107910 = {
-	name = "dynn_ck_107910"
+	name = "dynn_cy_Ahmet"
 	culture = "uyghur"
 }
 107920 = {
-	name = "dynn_ck_107920"
-	culture = "ainu"
+	name = "dynn_cy_Richardson"
+	culture = liblander
 }
 107930 = {
-	name = "dynn_ck_107930"
+	name = "dynn_cy_Khalkha"
 	culture = "mongol"
 }
 107940 = {
-	name = "dynn_ck_107940"
+	name = "dynn_cy_Qurban"
 	culture = "uyghur"
 }
 107950 = {
-	name = "dynn_ck_107950"
+	name = "dynn_cy_Jalair"
 	culture = "mongol"
 }
 107960 = {
-	name = "dynn_ck_107960"
+	name = "dynn_cy_Baloyi"
 	culture = "tsonga"
 }
 107970 = {
-	name = "dynn_ck_107970"
+	name = "dynn_cy_Grigoryev"
 	culture = "sibiryak"
 }
 107980 = {
-	name = "dynn_ck_107980"
+	name = "dynn_cy_Besud"
 	culture = "mongol"
 }
 107990 = {
-	name = "dynn_ck_107990"
+	name = "dynn_cy_Niyaz"
 	culture = "uyghur"
 }
 108000 = {
-	name = "dynn_ck_108000"
-	culture = "southeast_asian"
+	name = "dynn_cy_Kumar"
+	culture = hindustani
 }
 108010 = {
-	name = "dynn_ck_108010"
-	culture = "southeast_asian"
-}
-108020 = {
-	name = "dynn_ck_108020"
-	culture = "tsonga"
+	name = "dynn_cy_Sandhu"
+	culture = punjabi
 }
 108030 = {
-	name = "dynn_ck_108030"
+	name = "dynn_cy_Chauke"
 	culture = "tsonga"
 }
 108040 = {
-	name = "dynn_ck_108040"
-	culture = "southeast_asian"
-}
-108050 = {
-	name = "dynn_ck_108050"
-	culture = "han"
+	name = "dynn_cy_Shah"
+	culture = gujarati
 }
 108060 = {
-	name = "dynn_ck_108060"
+	name = "dynn_cy_Nkosi"
 	culture = "nguni"
 }
-108080 = {
-	name = "dynn_ck_108080"
-	culture = "saxon"
-}
 108090 = {
-	name = "dynn_ck_108090"
+	name = "dynn_cy_Tsoros"
 	culture = "mongol"
 }
 108100 = {
@@ -3275,11 +2995,7 @@ pictish = {
 	culture = "han"
 }
 108110 = {
-	name = "dynn_ck_108110"
-	culture = "han"
-}
-108120 = {
-	name = "dynn_ck_108120"
+	name = "dynn_cy_Zhou"
 	culture = "han"
 }
 108130 = {
@@ -3287,20 +3003,16 @@ pictish = {
 	culture = "mongol"
 }
 108140 = {
-	name = "dynn_ck_108140"
+	name = "dynn_cy_Khereid"
 	culture = "mongol"
 }
 108150 = {
-	name = "dynn_ck_108150"
+	name = "dynn_cy_Sun"
 	culture = "han"
 }
-108160 = {
-	name = "dynn_ck_108160"
-	culture = "southeast_asian"
-}
 108170 = {
-	name = "dynn_ck_108170"
-	culture = "saxon"
+	name = "dynn_cy_Watson"
+	culture = murican
 }
 108180 = {
 	name = "dynn_ck_108180"
@@ -3311,39 +3023,39 @@ pictish = {
 	culture = "mongol"
 }
 108200 = {
-	name = "dynn_ck_108200"
+	name = "dynn_cy_Hu"
 	culture = "han"
 }
 108210 = {
-	name = "dynn_ck_108210"
-	culture = "southeast_asian"
+	name = "dynn_cy_Sharma"
+	culture = hindustani
 }
 108220 = {
-	name = "dynn_ck_108220"
+	name = "dynn_cy_Guo"
 	culture = "han"
 }
 108230 = {
-	name = "dynn_ck_108230"
+	name = "dynn_cy_He"
 	culture = "han"
 }
 108240 = {
-	name = "dynn_ck_108240"
-	culture = "southeast_asian"
+	name = "dynn_cy_Shrestha"
+	culture = nepali
 }
 108250 = {
 	name = "dynn_ck_108250"
 	culture = "han"
 }
 108260 = {
-	name = "dynn_ck_108260"
+	name = "dynn_cy_Olkhonud"
 	culture = "mongol"
 }
 108270 = {
-	name = "dynn_ck_108270"
-	culture = "saxon"
+	name = "dynn_cy_Brooks"
+	culture = murican
 }
 108280 = {
-	name = "dynn_ck_108280"
+	name = "dynn_cy_Wangchuk"
 	culture = "bodpa"
 }
 108290 = {
@@ -3351,8 +3063,8 @@ pictish = {
 	culture = "mongol"
 }
 108300 = {
-	name = "dynn_ck_108300"
-	culture = "han"
+	name = "dynn_cy_Sato"
+	culture = japanese
 }
 108310 = {
 	name = "dynn_ck_108310"
@@ -3371,27 +3083,23 @@ pictish = {
 	culture = "han"
 }
 108360 = {
-	name = "dynn_ck_108360"
-	culture = "saxon"
+	name = "dynn_cy_James"
+	culture = murican
 }
 108370 = {
 	name = "dynn_ck_108370"
 	culture = "mongol"
 }
-108380 = {
-	name = "dynn_ck_108380"
-	culture = "malagasy"
-}
 108390 = {
-	name = "dynn_ck_108390"
+	name = "dynn_cy_Lin"
 	culture = "han"
 }
 108400 = {
-	name = "dynn_ck_108400"
-	culture = "southeast_asian"
+	name = "dynn_cy_Yadav"
+	culture = hindustani
 }
 108410 = {
-	name = "dynn_ck_108410"
+	name = "dynn_cy_Gao"
 	culture = "han"
 }
 108420 = {
@@ -3403,31 +3111,27 @@ pictish = {
 	culture = "north_korean"
 }
 108440 = {
-	name = "dynn_ck_108440"
+	name = "dynn_cy_Romanov"
 	culture = "sibiryak"
 }
 108450 = {
-	name = "dynn_ck_108450"
-	culture = "saxon"
+	name = "dynn_cy_Bennett"
+	culture = murican
 }
 108460 = {
-	name = "dynn_ck_108460"
-	culture = "southeast_asian"
+	name = "dynn_cy_Gupta"
+	culture = hindustani
 }
 108470 = {
-	name = "dynn_ck_108470"
+	name = "dynn_cy_Dorji"
 	culture = "bodpa"
 }
-108480 = {
-	name = "dynn_ck_108480"
-	culture = "mongol"
-}
 108490 = {
-	name = "dynn_ck_108490"
+	name = "dynn_cy_Rakotomalala"
 	culture = "malagasy"
 }
 108500 = {
-	name = "dynn_ck_108500"
+	name = "dynn_cy_Rasoanaivo"
 	culture = "malagasy"
 }
 108510 = {
@@ -3435,7 +3139,7 @@ pictish = {
 	culture = "mongol"
 }
 108520 = {
-	name = "dynn_ck_108520"
+	name = "dynn_cy_Luo"
 	culture = "han"
 }
 108530 = {
@@ -3443,16 +3147,16 @@ pictish = {
 	culture = "han"
 }
 108540 = {
-	name = "dynn_ck_108540"
-	culture = "saxon"
+	name = "dynn_cy_Gray"
+	culture = murican
 }
 108550 = {
 	name = "dynn_ck_108550"
 	culture = "mongol"
 }
 108560 = {
-	name = "dynn_ck_108560"
-	culture = "southeast_asian"
+	name = "dynn_cy_Reddy"
+	culture = telugu
 }
 108570 = {
 	name = "dynn_ck_108570"
@@ -3471,63 +3175,63 @@ pictish = {
 	culture = "mongol"
 }
 108610 = {
-	name = "dynn_ck_108610"
-	culture = "southeast_asian"
+	name = "dynn_cy_Mohanty"
+	culture = oriya
 }
 108620 = {
 	name = "dynn_ck_108620"
 	culture = "mongol"
 }
 108630 = {
-	name = "dynn_ck_108630"
+	name = "dynn_cy_Akter"
 	culture = "bengali"
 }
 108640 = {
-	name = "dynn_ck_108640"
-	culture = "southeast_asian"
+	name = "dynn_cy_Verma"
+	culture = hindustani
 }
 108650 = {
 	name = "dynn_ck_108650"
 	culture = "korean"
 }
 108660 = {
-	name = "dynn_ck_108660"
-	culture = "southeast_asian"
+	name = "dynn_cy_Patil"
+	culture = marathi
 }
 108670 = {
 	name = "dynn_ck_108670"
 	culture = "mongol"
 }
 108680 = {
-	name = "dynn_ck_108680"
+	name = "dynn_cy_Tshering"
 	culture = "bodpa"
 }
 108690 = {
-	name = "dynn_ck_108690"
-	culture = "southeast_asian"
+	name = "dynn_cy_Gowda"
+	culture = kannada
 }
 108700 = {
-	name = "dynn_ck_108700"
+	name = "dynn_cy_Zheng"
 	culture = "sichuanese"
 }
 108720 = {
-	name = "dynn_ck_108720"
-	culture = "han"
+	name = "dynn_cy_Suzuki"
+	culture = japanese
 }
 108730 = {
-	name = "dynn_ck_108730"
-	culture = "saxon"
+	name = "dynn_cy_Price"
+	culture = murican
 }
 108740 = {
-	name = "dynn_ck_108740"
-	culture = "southeast_asian"
+	name = "dynn_cy_Patnaik"
+	culture = oriya
 }
 108750 = {
 	name = "dynn_ck_108750"
 	culture = "mongol"
 }
 108760 = {
-	name = "dynn_ck_108760"
+	name = "dynn_cy_Liang"
 	culture = "han"
 }
 108770 = {
@@ -3535,44 +3239,24 @@ pictish = {
 	culture = "mongol"
 }
 108780 = {
-	name = "dynn_ck_108780"
+	name = "dynn_cy_Baruah"
 	culture = "assamese"
 }
 108790 = {
 	name = "dynn_ck_108790"
 	culture = "mongol"
 }
-108791 = {
-	name = "dynn_ck_108791"
-	culture = "mongol"
-}
-108792 = {
-	name = "dynn_ck_108792"
-	culture = "mongol"
-}
-108793 = {
-	name = "dynn_ck_108793"
-	culture = "mongol"
-}
-108794 = {
-	name = "dynn_ck_108794"
-	culture = "mongol"
-}
-108800 = {
-	name = "dynn_ck_108800"
-	culture = "southeast_asian"
-}
 108810 = {
-	name = "dynn_ck_108810"
+	name = "dynn_cy_Song"
 	culture = "sichuanese"
 }
 108820 = {
-	name = "dynn_ck_108820"
+	name = "dynn_cy_Tang"
 	culture = "wu"
 }
 108830 = {
-	name = "dynn_ck_108830"
-	culture = "southeast_asian"
+	name = "dynn_cy_Mishra"
+	culture = hindustani
 }
 108840 = {
 	name = "dynn_ck_108840"
@@ -3583,12 +3267,12 @@ pictish = {
 	culture = "han"
 }
 108860 = {
-	name = "dynn_ck_108860"
-	culture = "southeast_asian"
+	name = "dynn_cy_Rao"
+	culture = telugu
 }
 108870 = {
-	name = "dynn_ck_108870"
-	culture = "southeast_asian"
+	name = "dynn_cy_Hegde"
+	culture = kannada
 }
 108880 = {
 	name = "dynn_ck_108880"
@@ -3607,7 +3291,7 @@ pictish = {
 	culture = "mongol"
 }
 108920 = {
-	name = "dynn_ck_108920"
+	name = "dynn_cy_Mo"
 	culture = "bouxcuengh"
 }
 108930 = {
@@ -3615,19 +3299,15 @@ pictish = {
 	culture = "mongol"
 }
 108940 = {
-	name = "dynn_ck_108940"
+	name = "dynn_cy_Han"
 	culture = "sichuanese"
-}
-108950 = {
-	name = "dynn_ck_108950"
-	culture = "bengali"
 }
 108960 = {
 	name = "dynn_ck_108960"
 	culture = "mongol"
 }
 108970 = {
-	name = "dynn_ck_108970"
+	name = "dynn_cy_Cao"
 	culture = "sichuanese"
 }
 108980 = {
@@ -3635,8 +3315,8 @@ pictish = {
 	culture = "mongol"
 }
 109000 = {
-	name = "dynn_ck_109000"
-	culture = "southeast_asian"
+	name = "dynn_cy_Murugan"
+	culture = tamil
 }
 109010 = {
 	name = "dynn_ck_109010"
@@ -3647,11 +3327,11 @@ pictish = {
 	culture = "mongol"
 }
 109030 = {
-	name = "dynn_ck_109030"
+	name = "dynn_cy_Zeng"
 	culture = "min"
 }
 109050 = {
-	name = "dynn_ck_109050"
+	name = "dynn_cy_Saetang"
 	culture = "tai"
 }
 109060 = {
@@ -3659,16 +3339,12 @@ pictish = {
 	culture = "mongol"
 }
 109070 = {
-	name = "dynn_ck_109070"
+	name = "dynn_cy_Phomvihane"
 	culture = "lao"
 }
 109080 = {
-	name = "dynn_ck_109080"
+	name = "dynn_cy_Tran"
 	culture = "viet"
-}
-109090 = {
-	name = "dynn_ck_109090"
-	culture = "burmese"
 }
 109100 = {
 	name = "dynn_ck_109100"
@@ -3682,26 +3358,6 @@ pictish = {
 	name = "dynn_ck_109120"
 	culture = "han"
 }
-109130 = {
-	name = "dynn_ck_109130"
-	culture = "han"
-}
-109131 = {
-	name = "dynn_ck_109131"
-	culture = "han"
-}
-109132 = {
-	name = "dynn_ck_109132"
-	culture = "han"
-}
-109133 = {
-	name = "dynn_ck_109133"
-	culture = "han"
-}
-109134 = {
-	name = "dynn_ck_109134"
-	culture = "han"
-}
 109150 = {
 	name = "dynn_ck_109150"
 	culture = "mongol"
@@ -3711,11 +3367,11 @@ pictish = {
 	culture = "mongol"
 }
 109170 = {
-	name = "dynn_ck_109170"
+	name = "dynn_cy_Perera"
 	culture = "sinhala"
 }
 109180 = {
-	name = "dynn_ck_109180"
+	name = "dynn_cy_Aung"
 	culture = "burmese"
 }
 109190 = {
@@ -3727,7 +3383,7 @@ pictish = {
 	culture = "mongol"
 }
 109210 = {
-	name = "dynn_ck_109210"
+	name = "dynn_cy_Le"
 	culture = "viet"
 }
 109220 = {
@@ -3750,60 +3406,20 @@ pictish = {
 	name = "dynn_ck_109260"
 	culture = "mongol"
 }
-109270 = {
-	name = "dynn_ck_109270"
-	culture = "southeast_asian"
-}
 109280 = {
 	name = "dynn_ck_109280"
 	culture = "han"
 }
-109281 = {
-	name = "dynn_ck_109281"
-	culture = "han"
-}
-109282 = {
-	name = "dynn_ck_109282"
-	culture = "han"
-}
-109283 = {
-	name = "dynn_ck_109283"
-	culture = "han"
-}
-109284 = {
-	name = "dynn_ck_109284"
-	culture = "han"
-}
 109300 = {
-	name = "dynn_ck_109300"
+	name = "dynn_cy_Srisuk"
 	culture = "thai"
 }
 109310 = {
-	name = "dynn_ck_109310"
+	name = "dynn_cy_Kaewkla"
 	culture = "thai"
-}
-109320 = {
-	name = "dynn_ck_109320"
-	culture = "khmer"
 }
 109330 = {
 	name = "dynn_ck_109330"
-	culture = "telugu"
-}
-109331 = {
-	name = "dynn_ck_109331"
-	culture = "telugu"
-}
-109332 = {
-	name = "dynn_ck_109332"
-	culture = "telugu"
-}
-109333 = {
-	name = "dynn_ck_109333"
-	culture = "telugu"
-}
-109334 = {
-	name = "dynn_ck_109334"
 	culture = "telugu"
 }
 109340 = {
@@ -3811,11 +3427,11 @@ pictish = {
 	culture = "mongol"
 }
 109350 = {
-	name = "dynn_ck_109350"
+	name = "dynn_cy_dela_Cruz"
 	culture = "filipino"
 }
 109360 = {
-	name = "dynn_ck_109360"
+	name = "dynn_cy_Pham"
 	culture = "viet"
 }
 109370 = {
@@ -3827,7 +3443,7 @@ pictish = {
 	culture = "mongol"
 }
 109390 = {
-	name = "dynn_ck_109390"
+	name = "dynn_cy_Chey"
 	culture = "khmer"
 }
 109400 = {
@@ -3835,7 +3451,7 @@ pictish = {
 	culture = "mongol"
 }
 109410 = {
-	name = "dynn_ck_109410"
+	name = "dynn_cy_Hoang"
 	culture = "viet"
 }
 109420 = {
@@ -3847,7 +3463,7 @@ pictish = {
 	culture = "mongol"
 }
 109440 = {
-	name = "dynn_ck_109440"
+	name = "dynn_cy_Huynh"
 	culture = "viet"
 }
 109450 = {
@@ -3875,7 +3491,7 @@ pictish = {
 	culture = "mongol"
 }
 109510 = {
-	name = "dynn_ck_109510"
+	name = "dynn_cy_Sukjai"
 	culture = "thai"
 }
 109520 = {
@@ -3895,7 +3511,7 @@ pictish = {
 	culture = "sami"
 }
 109560 = {
-	name = "dynn_ck_109560"
+	name = "dynn_cy_Del_Rosario"
 	culture = "filipino"
 }
 109570 = {
@@ -3911,7 +3527,7 @@ pictish = {
 	culture = "mongol"
 }
 109600 = {
-	name = "dynn_ck_109600"
+	name = "dynn_cy_bin_Abdullah"
 	culture = "malay"
 }
 109610 = {
@@ -3927,11 +3543,11 @@ pictish = {
 	culture = "mongol"
 }
 109640 = {
-	name = "dynn_ck_109640"
+	name = "dynn_cy_bin_Ahmad"
 	culture = "malay"
 }
 109650 = {
-	name = "dynn_ck_109650"
+	name = "dynn_cy_Jugah"
 	culture = "dayak"
 }
 109660 = {
@@ -3963,11 +3579,11 @@ pictish = {
 	culture = "telugu"
 }
 109730 = {
-	name = "dynn_ck_109730"
+	name = "dynn_cy_Masing"
 	culture = "dayak"
 }
 109740 = {
-	name = "dynn_ck_109740"
+	name = "dynn_cy_bin_Ismail"
 	culture = "malay"
 }
 109750 = {
@@ -3983,7 +3599,7 @@ pictish = {
 	culture = "telugu"
 }
 109780 = {
-	name = "dynn_ck_109780"
+	name = "dynn_cy_Uggah"
 	culture = "dayak"
 }
 109790 = {
@@ -3999,11 +3615,11 @@ pictish = {
 	culture = "sami"
 }
 109820 = {
-	name = "dynn_ck_109820"
+	name = "dynn_cy_Embas"
 	culture = "dayak"
 }
 109830 = {
-	name = "dynn_ck_109830"
+	name = "dynn_cy_bin_Hassan"
 	culture = "malay"
 }
 109840 = {
@@ -4019,11 +3635,11 @@ pictish = {
 	culture = "telugu"
 }
 109870 = {
-	name = "dynn_ck_109870"
+	name = "dynn_cy_bin_Ibrahim"
 	culture = "malay"
 }
 109880 = {
-	name = "dynn_ck_109880"
+	name = "dynn_cy_bin_Mohamad"
 	culture = "malay"
 }
 109890 = {
@@ -4043,11 +3659,11 @@ pictish = {
 	culture = "telugu"
 }
 109930 = {
-	name = "dynn_ck_109930"
+	name = "dynn_cy_Andi"
 	culture = "bugis"
 }
 109940 = {
-	name = "dynn_ck_109940"
+	name = "dynn_cy_Daeng"
 	culture = "bugis"
 }
 109950 = {
@@ -4055,11 +3671,11 @@ pictish = {
 	culture = "telugu"
 }
 109960 = {
-	name = "dynn_ck_109960"
-	culture = "sahelian"
+	name = "dynn_cy_Kila"
+	culture = papuan
 }
 109970 = {
-	name = "dynn_ck_109970"
+	name = "dynn_cy_bin_Osman"
 	culture = "malay"
 }
 109980 = {
@@ -4083,23 +3699,23 @@ pictish = {
 	culture = "telugu"
 }
 110030 = {
-	name = "dynn_ck_110030"
-	culture = "sahelian"
+	name = "dynn_cy_Namaliu"
+	culture = papuan
 }
 110040 = {
-	name = "dynn_ck_110040"
-	culture = "sahelian"
+	name = "dynn_cy_Somare"
+	culture = papuan
 }
 110050 = {
 	name = "dynn_ck_110050"
 	culture = "telugu"
 }
 110060 = {
-	name = "dynn_ck_110060"
+	name = "dynn_cy_Santoso"
 	culture = "javanese"
 }
 110070 = {
-	name = "dynn_ck_110070"
+	name = "dynn_cy_Wijaya"
 	culture = "javanese"
 }
 110080 = {
@@ -4135,8 +3751,8 @@ pictish = {
 	culture = "frisian"
 }
 110160 = {
-	name = "dynn_ck_110160"
-	culture = "sahelian"
+	name = "dynn_cy_Yunupingu"
+	culture = first_peoples
 }
 110170 = {
 	name = "dynn_ck_110170"
@@ -4159,20 +3775,20 @@ pictish = {
 	culture = "frisian"
 }
 110220 = {
-	name = "dynn_ck_110220"
-	culture = "sahelian"
+	name = "dynn_cy_Gurruwiwi"
+	culture = first_peoples
 }
 110230 = {
-	name = "dynn_ck_110230"
-	culture = "sahelian"
+	name = "dynn_cy_Marika"
+	culture = first_peoples
 }
 110240 = {
 	name = "dynn_ck_110240"
 	culture = "telugu"
 }
 110250 = {
-	name = "dynn_ck_110250"
-	culture = "french"
+	name = "dynn_cy_Wanambi"
+	culture = first_peoples
 }
 110260 = {
 	name = "dynn_ck_110260"
@@ -4183,8 +3799,8 @@ pictish = {
 	culture = "telugu"
 }
 110280 = {
-	name = "dynn_ck_110280"
-	culture = "french"
+	name = "dynn_cy_Mununggurr"
+	culture = first_peoples
 }
 110290 = {
 	name = "dynn_ck_110290"
@@ -4215,16 +3831,16 @@ pictish = {
 	culture = "telugu"
 }
 110360 = {
-	name = "dynn_ck_110360"
-	culture = "french"
+	name = "dynn_cy_O_Brien"
+	culture = aussie
 }
 110370 = {
-	name = "dynn_ck_110370"
-	culture = "sahelian"
+	name = "dynn_cy_Kovac_4237"
+	culture = outback
 }
 110380 = {
-	name = "dynn_ck_110380"
-	culture = "sahelian"
+	name = "dynn_cy_Susanto"
+	culture = javanese
 }
 110390 = {
 	name = "dynn_ck_110390"
@@ -4267,11 +3883,11 @@ pictish = {
 	culture = "telugu"
 }
 110490 = {
-	name = "dynn_ck_110490"
-	culture = "french"
+	name = "dynn_cy_Barnes"
+	culture = aussie
 }
 110500 = {
-	name = "dynn_ck_110500"
+	name = "dynn_cy_Ngata"
 	culture = "kiwi"
 }
 110510 = {
@@ -4291,15 +3907,15 @@ pictish = {
 	culture = "sami"
 }
 110550 = {
-	name = "dynn_ck_110550"
-	culture = "french"
+	name = "dynn_cy_Brennan"
+	culture = outback
 }
 110560 = {
-	name = "dynn_ck_110560"
-	culture = "southeast_asian"
+	name = "dynn_cy_Tainui"
+	culture = kiwi
 }
 110570 = {
-	name = "dynn_ck_110570"
+	name = "dynn_cy_Burke"
 	culture = "outback"
 }
 110580 = {
@@ -4327,7 +3943,7 @@ pictish = {
 	culture = "telugu"
 }
 110640 = {
-	name = "dynn_ck_110640"
+	name = "dynn_cy_Byrne"
 	culture = "aussie"
 }
 110650 = {
@@ -4335,8 +3951,8 @@ pictish = {
 	culture = "telugu"
 }
 110660 = {
-	name = "dynn_ck_110660"
-	culture = "french"
+	name = "dynn_cy_Carroll"
+	culture = outback
 }
 110670 = {
 	name = "dynn_ck_110670"
@@ -4359,8 +3975,8 @@ pictish = {
 	culture = "telugu"
 }
 110720 = {
-	name = "dynn_ck_110720"
-	culture = "french"
+	name = "dynn_cy_Chapman"
+	culture = aussie
 }
 110730 = {
 	name = "dynn_ck_110730"
@@ -4371,7 +3987,7 @@ pictish = {
 	culture = "telugu"
 }
 110750 = {
-	name = "dynn_ck_110750"
+	name = "dynn_cy_Connolly"
 	culture = "aussie"
 }
 110760 = {
@@ -4383,8 +3999,8 @@ pictish = {
 	culture = "telugu"
 }
 110780 = {
-	name = "dynn_ck_110780"
-	culture = "french"
+	name = "dynn_cy_Crawford"
+	culture = outback
 }
 110790 = {
 	name = "dynn_ck_110790"
@@ -4403,24 +4019,8 @@ pictish = {
 	culture = "telugu"
 }
 110830 = {
-	name = "dynn_ck_110830"
-	culture = "french"
-}
-110831 = {
-	name = "dynn_ck_110831"
-	culture = "french"
-}
-110832 = {
-	name = "dynn_ck_110832"
-	culture = "french"
-}
-110833 = {
-	name = "dynn_ck_110833"
-	culture = "french"
-}
-110834 = {
-	name = "dynn_ck_110834"
-	culture = "french"
+	name = "dynn_cy_Cunningham"
+	culture = aussie
 }
 110840 = {
 	name = "dynn_ck_110840"
@@ -4431,23 +4031,11 @@ pictish = {
 	culture = "telugu"
 }
 110860 = {
-	name = "dynn_ck_110860"
-	culture = "aussie"
-}
-110861 = {
-	name = "dynn_ck_110861"
-	culture = "aussie"
-}
-110862 = {
-	name = "dynn_ck_110862"
-	culture = "aussie"
-}
-110863 = {
-	name = "dynn_ck_110863"
+	name = "dynn_cy_Dixon"
 	culture = "aussie"
 }
 110864 = {
-	name = "dynn_ck_110864"
+	name = "dynn_cy_Doyle"
 	culture = "aussie"
 }
 110870 = {
@@ -4491,8 +4079,8 @@ pictish = {
 	culture = "telugu"
 }
 110970 = {
-	name = "dynn_ck_110970"
-	culture = "french"
+	name = "dynn_cy_Duncan"
+	culture = aussie
 }
 110980 = {
 	name = "dynn_ck_110980"
@@ -4641,10 +4229,6 @@ pictish = {
 111340 = {
 	name = "dynn_ck_111340"
 	culture = "frisian"
-}
-111350 = {
-	name = "dynn_ck_111350"
-	culture = "telugu"
 }
 111360 = {
 	name = "dynn_ck_111360"
@@ -4826,10 +4410,6 @@ pictish = {
 	name = "dynn_ck_111820"
 	culture = "bodpa"
 }
-111830 = {
-	name = "dynn_ck_111830"
-	culture = "han"
-}
 111840 = {
 	name = "dynn_ck_111840"
 	culture = "han"
@@ -4943,8 +4523,8 @@ pictish = {
 	culture = "telugu"
 }
 112120 = {
-	name = "dynn_ck_112120"
-	culture = "bodpa"
+	name = "dynn_cy_Sanders"
+	culture = murican
 }
 112130 = {
 	name = "dynn_ck_112130"
@@ -5351,8 +4931,8 @@ pictish = {
 	culture = "telugu"
 }
 113140 = {
-	name = "dynn_ck_113140"
-	culture = "saxon"
+	name = "dynn_cy_Myers"
+	culture = murican
 }
 113150 = {
 	name = "dynn_ck_113150"
@@ -5632,22 +5212,6 @@ pictish = {
 }
 113840 = {
 	name = "dynn_ck_113840"
-	culture = "saxon"
-}
-113841 = {
-	name = "dynn_ck_113841"
-	culture = "saxon"
-}
-113842 = {
-	name = "dynn_ck_113842"
-	culture = "saxon"
-}
-113843 = {
-	name = "dynn_ck_113843"
-	culture = "saxon"
-}
-113844 = {
-	name = "dynn_ck_113844"
 	culture = "saxon"
 }
 113850 = {
@@ -6146,22 +5710,6 @@ pictish = {
 	name = "dynn_ck_115120"
 	culture = "frisian"
 }
-115121 = {
-	name = "dynn_ck_115121"
-	culture = "frisian"
-}
-115122 = {
-	name = "dynn_ck_115122"
-	culture = "frisian"
-}
-115123 = {
-	name = "dynn_ck_115123"
-	culture = "frisian"
-}
-115124 = {
-	name = "dynn_ck_115124"
-	culture = "frisian"
-}
 115130 = {
 	name = "dynn_ck_115130"
 	culture = "han"
@@ -6286,44 +5834,12 @@ pictish = {
 	name = "dynn_ck_115460"
 	culture = "ainu"
 }
-115461 = {
-	name = "dynn_ck_115461"
-	culture = "ainu"
-}
-115462 = {
-	name = "dynn_ck_115462"
-	culture = "ainu"
-}
-115463 = {
-	name = "dynn_ck_115463"
-	culture = "ainu"
-}
-115464 = {
-	name = "dynn_ck_115464"
-	culture = "ainu"
-}
 115470 = {
 	name = "dynn_ck_115470"
 	culture = "sami"
 }
 115480 = {
 	name = "dynn_ck_115480"
-	culture = "frisian"
-}
-115481 = {
-	name = "dynn_ck_115481"
-	culture = "frisian"
-}
-115482 = {
-	name = "dynn_ck_115482"
-	culture = "frisian"
-}
-115483 = {
-	name = "dynn_ck_115483"
-	culture = "frisian"
-}
-115484 = {
-	name = "dynn_ck_115484"
 	culture = "frisian"
 }
 115490 = {
@@ -6362,22 +5878,6 @@ pictish = {
 	name = "dynn_ck_115610"
 	culture = "ainu"
 }
-115611 = {
-	name = "dynn_ck_115611"
-	culture = "ainu"
-}
-115612 = {
-	name = "dynn_ck_115612"
-	culture = "ainu"
-}
-115613 = {
-	name = "dynn_ck_115613"
-	culture = "ainu"
-}
-115614 = {
-	name = "dynn_ck_115614"
-	culture = "ainu"
-}
 115620 = {
 	name = "dynn_ck_115620"
 	culture = "ainu"
@@ -6388,22 +5888,6 @@ pictish = {
 }
 115640 = {
 	name = "dynn_ck_115640"
-	culture = "ainu"
-}
-115641 = {
-	name = "dynn_ck_115641"
-	culture = "ainu"
-}
-115642 = {
-	name = "dynn_ck_115642"
-	culture = "ainu"
-}
-115643 = {
-	name = "dynn_ck_115643"
-	culture = "ainu"
-}
-115644 = {
-	name = "dynn_ck_115644"
 	culture = "ainu"
 }
 115660 = {
@@ -6468,22 +5952,6 @@ pictish = {
 }
 115830 = {
 	name = "dynn_ck_115830"
-	culture = "sami"
-}
-115831 = {
-	name = "dynn_ck_115831"
-	culture = "sami"
-}
-115832 = {
-	name = "dynn_ck_115832"
-	culture = "sami"
-}
-115833 = {
-	name = "dynn_ck_115833"
-	culture = "sami"
-}
-115834 = {
-	name = "dynn_ck_115834"
 	culture = "sami"
 }
 115840 = {
@@ -6554,32 +6022,12 @@ pictish = {
 	name = "dynn_ck_116090"
 	culture = "sami"
 }
-116091 = {
-	name = "dynn_ck_116091"
-	culture = "sami"
-}
-116092 = {
-	name = "dynn_ck_116092"
-	culture = "sami"
-}
-116093 = {
-	name = "dynn_ck_116093"
-	culture = "sami"
-}
-116094 = {
-	name = "dynn_ck_116094"
-	culture = "sami"
-}
 116100 = {
 	name = "dynn_ck_116100"
 	culture = "ainu"
 }
 116110 = {
 	name = "dynn_ck_116110"
-	culture = "ainu"
-}
-116120 = {
-	name = "dynn_ck_116120"
 	culture = "ainu"
 }
 116130 = {
@@ -6590,26 +6038,6 @@ pictish = {
 	name = "dynn_ck_116140"
 	culture = "ainu"
 }
-116141 = {
-	name = "dynn_ck_116141"
-	culture = "ainu"
-}
-116142 = {
-	name = "dynn_ck_116142"
-	culture = "ainu"
-}
-116143 = {
-	name = "dynn_ck_116143"
-	culture = "ainu"
-}
-116144 = {
-	name = "dynn_ck_116144"
-	culture = "ainu"
-}
-116150 = {
-	name = "dynn_ck_116150"
-	culture = "ainu"
-}
 116160 = {
 	name = "dynn_ck_116160"
 	culture = "frisian"
@@ -6617,10 +6045,6 @@ pictish = {
 116170 = {
 	name = "dynn_ck_116170"
 	culture = "frisian"
-}
-116180 = {
-	name = "dynn_ck_116180"
-	culture = "ainu"
 }
 116190 = {
 	name = "dynn_ck_116190"
@@ -6664,10 +6088,6 @@ pictish = {
 }
 116300 = {
 	name = "dynn_ck_116300"
-	culture = "ainu"
-}
-116310 = {
-	name = "dynn_ck_116310"
 	culture = "ainu"
 }
 116320 = {
@@ -7798,22 +7218,6 @@ pictish = {
 	name = "dynn_ck_119150"
 	culture = "frisian"
 }
-119151 = {
-	name = "dynn_ck_119151"
-	culture = "frisian"
-}
-119152 = {
-	name = "dynn_ck_119152"
-	culture = "frisian"
-}
-119153 = {
-	name = "dynn_ck_119153"
-	culture = "frisian"
-}
-119154 = {
-	name = "dynn_ck_119154"
-	culture = "frisian"
-}
 119160 = {
 	name = "dynn_ck_119160"
 	culture = "frisian"
@@ -8117,10 +7521,6 @@ pictish = {
 119910 = {
 	name = "dynn_ck_119910"
 	culture = "saxon"
-}
-119920 = {
-	name = "dynn_ck_119920"
-	culture = "sami"
 }
 119930 = {
 	name = "dynn_ck_119930"
@@ -9520,7 +8920,7 @@ pictish = {
 }
 400046 = {
 	name = "dynn_ck_400046"
-	culture = "french"
+	culture = "german"
 }
 400047 = {
 	name = "dynn_ck_400047"
@@ -9528,11 +8928,11 @@ pictish = {
 }
 400048 = {
 	name = "dynn_ck_400048"
-	culture = "french"
+	culture = "italian"
 }
 400049 = {
 	name = "dynn_ck_400049"
-	culture = "french"
+	culture = "dutch"
 }
 400050 = {
 	name = "dynn_ck_400050"
@@ -9544,7 +8944,7 @@ pictish = {
 }
 400052 = {
 	name = "dynn_ck_400052"
-	culture = "french"
+	culture = "german"
 }
 400053 = {
 	name = "dynn_ck_400053"
@@ -9552,23 +8952,23 @@ pictish = {
 }
 400054 = {
 	name = "dynn_ck_400054"
-	culture = "french"
+	culture = "german"
 }
 400055 = {
 	name = "dynn_ck_400055"
-	culture = "greek"
+	culture = "italian"
 }
 400056 = {
 	name = "dynn_ck_400056"
-	culture = "catalan"
+	culture = "portuguese"
 }
 400057 = {
 	name = "dynn_ck_400057"
-	culture = "french"
+	culture = "german"
 }
 400058 = {
 	name = "dynn_ck_400058"
-	culture = "french"
+	culture = "german"
 }
 400059 = {
 	name = "dynn_ck_400059"
@@ -9580,7 +8980,7 @@ pictish = {
 }
 400109 = {
 	name = "dynn_ck_400109"
-	culture = "burmese"
+	culture = "bodpa"
 }
 400131 = {
 	name = "dynn_ck_400131"
@@ -9644,49 +9044,49 @@ pictish = {
 }
 7000000 = {
 	name = "dynn_ck_7000000"
-	culture = "japanese"
+	culture = "english"	# e78 (CK2 Japanese leftover)
 }
 7000001 = {
 	name = "dynn_ck_7000001"
-	culture = "japanese"
+	culture = "english"	# e78 (CK2 Japanese leftover)
 }
 7000003 = {
 	name = "dynn_ck_7000003"
-	culture = "japanese"
+	culture = "english"	# e78 (CK2 Japanese leftover)
 }
 7000005 = {
 	name = "dynn_ck_7000005"
-	culture = "japanese"
+	culture = "english"	# e78 (CK2 Japanese leftover)
 }
 7000041 = {
 	name = "dynn_ck_7000041"
-	culture = "aussie"
+	culture = "english"	# e78 (was aussie)
 }
 7000010 = {
 	name = "dynn_ck_7000010"
-	culture = "japanese"
+	culture = "liblander"	# e78 (CK2 Japanese leftover)
 }
 7000014 = {
 	name = "dynn_ck_7000014"
-	culture = "japanese"
+	culture = "english"	# e78 (CK2 Japanese leftover)
 }
 7000018 = {
 	name = "dynn_ck_7000018"
-	culture = "japanese"
+	culture = "english"	# e78 (CK2 Japanese leftover)
 }
 7000021 = {
 	name = "dynn_ck_7000021"
-	culture = "japanese"
+	culture = "english"	# e78 (CK2 Japanese leftover)
 }
 7000023 = {
 	name = "dynn_ck_7000023"
-	culture = "japanese"
+	culture = "english"	# e78 (CK2 Japanese leftover)
 }
 7000025 = {
 	name = "dynn_ck_7000025"
-	culture = "japanese"
+	culture = "english"	# e78 (CK2 Japanese leftover)
 }
 7000029 = {
 	name = "dynn_ck_7000029"
-	culture = "japanese"
+	culture = "english"	# e78 (CK2 Japanese leftover)
 }

@@ -1,0 +1,3 @@
+﻿# e75 (Cyber Kings): emptied on purpose. The 52 vanilla challenge characters point at vanilla dynasties, houses,
+# titles and characters that this total conversion replaces (error.log: bookmark.cpp:301 x50, pdx_persistent_reader x57).
+# After a CK3 patch: keep this file empty (see _dev/VANILLA_PATCH_CHECKLIST.md).

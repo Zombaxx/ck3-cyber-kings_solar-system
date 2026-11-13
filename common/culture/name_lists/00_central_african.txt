@@ -1,0 +1,97 @@
+﻿name_list_kanuri = {
+	# e74 modern list (W1 Nigeria; K (Kanuri names and surnames))
+	cadet_dynasty_names = {
+		dynn_cy_Shettima dynn_cy_Zulum dynn_cy_Kachalla dynn_cy_Modu dynn_cy_Bukar dynn_cy_Goni dynn_cy_Mustapha dynn_cy_Kolo dynn_cy_Alhaji dynn_cy_Bulama dynn_cy_Mai dynn_cy_Kyari
+		dynn_cy_Ali dynn_cy_Kashim dynn_cy_Mala dynn_cy_Abba dynn_cy_Gana dynn_cy_Lawan dynn_cy_Umara dynn_cy_Dikwa dynn_cy_Monguno dynn_cy_Bama dynn_cy_Kukawa dynn_cy_Ndimi
+		dynn_cy_Elkanemi
+	}
+	dynasty_names = {
+		dynn_cy_Shettima dynn_cy_Zulum dynn_cy_Kachalla dynn_cy_Modu dynn_cy_Bukar dynn_cy_Goni dynn_cy_Mustapha dynn_cy_Kolo dynn_cy_Alhaji dynn_cy_Bulama dynn_cy_Mai dynn_cy_Kyari
+		dynn_cy_Ali dynn_cy_Kashim dynn_cy_Mala dynn_cy_Abba dynn_cy_Gana dynn_cy_Lawan dynn_cy_Umara dynn_cy_Dikwa dynn_cy_Monguno dynn_cy_Bama dynn_cy_Kukawa dynn_cy_Ndimi
+		dynn_cy_Elkanemi
+	}
+	male_names = {
+		cyn_Musa cyn_Ibrahim_71f2 cyn_Abubakar cyn_Sani cyn_Mohammed cyn_Umar cyn_Usman cyn_Muhammed cyn_Aliyu cyn_Bello cyn_Garba cyn_Haruna
+		cyn_Yusuf cyn_Abdullahi cyn_Suleiman cyn_Isa cyn_Lawal cyn_Kabiru cyn_Nasiru cyn_Bashir cyn_Nuhu cyn_Adamu cyn_Shehu cyn_Danladi
+		cyn_Auwal cyn_Hamza cyn_Ismail_c154 cyn_Yakubu cyn_Salisu cyn_Murtala cyn_Hassan cyn_Husseini cyn_Tijjani cyn_Aminu cyn_Mahmud
+	}
+	female_names = {
+		cyn_Aisha cyn_Fatima_2c68 cyn_Amina cyn_Zainab cyn_Maryam cyn_Hauwa cyn_Hadiza cyn_Halima cyn_Asabe cyn_Hassana cyn_Hussaina cyn_Jamila
+		cyn_Nana cyn_Zahra cyn_Kando cyn_Rakiya cyn_Safiya cyn_Bilkisu cyn_Balaraba cyn_Ladidi cyn_Larai cyn_Salamatu cyn_Sadiya cyn_Khadija
+		cyn_Rahma cyn_Ummi cyn_Habiba cyn_Firdausi cyn_Rukayya cyn_Maimuna
+	}
+	dynasty_of_location_prefix = "dynnp_of"
+}
+
+name_list_hausa = {
+	# e74 modern list (W1 Nigeria (unofficial); K (Hausa names))
+	cadet_dynasty_names = {
+		dynn_cy_Abdullahi dynn_cy_Aliyu dynn_cy_Garba dynn_cy_Musa dynn_cy_Usman dynn_cy_Ibrahim dynn_cy_Bello dynn_cy_Mohammed dynn_cy_Abubakar dynn_cy_Sani dynn_cy_Yusuf dynn_cy_Umar
+		dynn_cy_Suleiman dynn_cy_Lawal dynn_cy_Adamu dynn_cy_Danjuma dynn_cy_Dantata dynn_cy_Dangote dynn_cy_Kwankwaso dynn_cy_Ganduje dynn_cy_Shettima dynn_cy_Buhari dynn_cy_Atiku dynn_cy_Tambuwal
+		dynn_cy_Yar_Adua dynn_cy_Sokoto dynn_cy_Kano dynn_cy_Bauchi dynn_cy_Gwarzo dynn_cy_Kurfi
+	}
+	dynasty_names = {
+		dynn_cy_Abdullahi dynn_cy_Aliyu dynn_cy_Garba dynn_cy_Musa dynn_cy_Usman dynn_cy_Ibrahim dynn_cy_Bello dynn_cy_Mohammed dynn_cy_Abubakar dynn_cy_Sani dynn_cy_Yusuf dynn_cy_Umar
+		dynn_cy_Suleiman dynn_cy_Lawal dynn_cy_Adamu dynn_cy_Danjuma dynn_cy_Dantata dynn_cy_Dangote dynn_cy_Kwankwaso dynn_cy_Ganduje dynn_cy_Shettima dynn_cy_Buhari dynn_cy_Atiku dynn_cy_Tambuwal
+		dynn_cy_Yar_Adua dynn_cy_Sokoto dynn_cy_Kano dynn_cy_Bauchi dynn_cy_Gwarzo dynn_cy_Kurfi
+	}
+	male_names = {
+		cyn_Musa cyn_Ibrahim_71f2 cyn_Abubakar cyn_Sani cyn_Mohammed cyn_Umar cyn_Usman cyn_Muhammed cyn_Aliyu cyn_Bello cyn_Garba cyn_Haruna
+		cyn_Yusuf cyn_Abdullahi cyn_Suleiman cyn_Isa cyn_Lawal cyn_Kabiru cyn_Nasiru cyn_Bashir cyn_Nuhu cyn_Adamu cyn_Shehu cyn_Danladi
+		cyn_Auwal cyn_Hamza cyn_Ismail_c154 cyn_Yakubu cyn_Salisu cyn_Murtala cyn_Hassan cyn_Husseini cyn_Tijjani cyn_Aminu cyn_Mahmud
+	}
+	female_names = {
+		cyn_Aisha cyn_Fatima_2c68 cyn_Amina cyn_Zainab cyn_Maryam cyn_Hauwa cyn_Hadiza cyn_Halima cyn_Asabe cyn_Hassana cyn_Hussaina cyn_Jamila
+		cyn_Nana cyn_Zahra cyn_Kando cyn_Rakiya cyn_Safiya cyn_Bilkisu cyn_Balaraba cyn_Ladidi cyn_Larai cyn_Salamatu cyn_Sadiya cyn_Khadija
+		cyn_Rahma cyn_Ummi cyn_Habiba cyn_Firdausi cyn_Rukayya cyn_Maimuna
+	}
+	dynasty_of_location_prefix = "dynnp_of"
+}
+	
+name_list_sao = {
+	# e74 modern list (W1 Mali/Sudan (Chad statistics unavailable); K (Chadian names, Arabic and Sara))
+	cadet_dynasty_names = {
+		dynn_cy_Deby dynn_cy_Itno dynn_cy_Masra dynn_cy_Kebzabo dynn_cy_Ngarlejy dynn_cy_Djimrangar dynn_cy_Nadingar dynn_cy_Kalzeube dynn_cy_Tombalbaye dynn_cy_Habre dynn_cy_Malloum dynn_cy_Goukouni
+		dynn_cy_Mahamat dynn_cy_Abakar dynn_cy_Hissein dynn_cy_Ngakoutou dynn_cy_Ngarmadji dynn_cy_Djimadoum dynn_cy_Nodjigoto dynn_cy_Allahissem dynn_cy_Mbailemdana dynn_cy_Ndjikoloum dynn_cy_Ngaradoum dynn_cy_Ndilbe
+		dynn_cy_Dangabo
+	}
+	dynasty_names = {
+		dynn_cy_Deby dynn_cy_Itno dynn_cy_Masra dynn_cy_Kebzabo dynn_cy_Ngarlejy dynn_cy_Djimrangar dynn_cy_Nadingar dynn_cy_Kalzeube dynn_cy_Tombalbaye dynn_cy_Habre dynn_cy_Malloum dynn_cy_Goukouni
+		dynn_cy_Mahamat dynn_cy_Abakar dynn_cy_Hissein dynn_cy_Ngakoutou dynn_cy_Ngarmadji dynn_cy_Djimadoum dynn_cy_Nodjigoto dynn_cy_Allahissem dynn_cy_Mbailemdana dynn_cy_Ndjikoloum dynn_cy_Ngaradoum dynn_cy_Ndilbe
+		dynn_cy_Dangabo
+	}
+	male_names = {
+		cyn_Mahamat cyn_Idriss cyn_Abakar cyn_Hissein cyn_Moussa cyn_Ali cyn_Ahmat cyn_Adoum cyn_Brahim cyn_Saleh cyn_Oumar cyn_Abdel
+		cyn_Djimadoum cyn_Ngarlejy cyn_Masra cyn_Succes cyn_Nadingar cyn_Kalzeube cyn_Ngakoutou cyn_Djibrine cyn_Allamine cyn_Haroun cyn_Yaya cyn_Youssouf
+		cyn_Zakaria cyn_Emmanuel cyn_Jacques cyn_Pierre cyn_Joseph cyn_Felix
+	}
+	female_names = {
+		cyn_Hinda cyn_Achta cyn_Khadidja cyn_Fatime_d918 cyn_Zara cyn_Halime cyn_Mariam cyn_Amina cyn_Hawa cyn_Kaltouma cyn_Ndoubangar cyn_Neloumta
+		cyn_Ngarmbaye cyn_Ngarnayal cyn_Rimadjita cyn_Mbaidoum cyn_Zenaba cyn_Djamila cyn_Aicha cyn_Marie cyn_Esther cyn_Grace cyn_Josephine_f2d7 cyn_Ruth
+		cyn_Monique cyn_Sylvie cyn_Celine cyn_Victoire cyn_Pauline
+	}
+	dynasty_of_location_prefix = "dynnp_of"
+}
+
+name_list_nupe = {
+	# e74 modern list (W1 Nigeria; K (Nupe names: Muslim names + Nupe names))
+	cadet_dynasty_names = {
+		dynn_cy_Ndako dynn_cy_Etsu dynn_cy_Kolo dynn_cy_Saba dynn_cy_Ndagi dynn_cy_Mohammed dynn_cy_Abubakar dynn_cy_Ibrahim dynn_cy_Bello dynn_cy_Yahaya dynn_cy_Gana dynn_cy_Jiya
+		dynn_cy_Ndayako dynn_cy_Nma dynn_cy_Makun dynn_cy_Sheshi dynn_cy_Ndatsu dynn_cy_Tsado dynn_cy_Gbara dynn_cy_Bida dynn_cy_Lafiagi dynn_cy_Mokwa dynn_cy_Lapai dynn_cy_Agaie
+	}
+	dynasty_names = {
+		dynn_cy_Ndako dynn_cy_Etsu dynn_cy_Kolo dynn_cy_Saba dynn_cy_Ndagi dynn_cy_Mohammed dynn_cy_Abubakar dynn_cy_Ibrahim dynn_cy_Bello dynn_cy_Yahaya dynn_cy_Gana dynn_cy_Jiya
+		dynn_cy_Ndayako dynn_cy_Nma dynn_cy_Makun dynn_cy_Sheshi dynn_cy_Ndatsu dynn_cy_Tsado dynn_cy_Gbara dynn_cy_Bida dynn_cy_Lafiagi dynn_cy_Mokwa dynn_cy_Lapai dynn_cy_Agaie
+	}
+	male_names = {
+		cyn_Musa cyn_Ibrahim_71f2 cyn_Abubakar cyn_Sani cyn_Mohammed cyn_Umar cyn_Usman cyn_Muhammed cyn_Aliyu cyn_Bello cyn_Garba cyn_Haruna
+		cyn_Yusuf cyn_Abdullahi cyn_Suleiman cyn_Isa cyn_Lawal cyn_Kabiru cyn_Nasiru cyn_Bashir cyn_Nuhu cyn_Adamu cyn_Shehu cyn_Danladi
+		cyn_Auwal cyn_Hamza cyn_Ismail_c154 cyn_Yakubu cyn_Salisu cyn_Murtala cyn_Hassan cyn_Husseini cyn_Tijjani cyn_Aminu cyn_Mahmud
+	}
+	female_names = {
+		cyn_Aisha cyn_Fatima_2c68 cyn_Amina cyn_Zainab cyn_Maryam cyn_Hauwa cyn_Hadiza cyn_Halima cyn_Asabe cyn_Hassana cyn_Hussaina cyn_Jamila
+		cyn_Nana cyn_Zahra cyn_Kando cyn_Rakiya cyn_Safiya cyn_Bilkisu cyn_Balaraba cyn_Ladidi cyn_Larai cyn_Salamatu cyn_Sadiya cyn_Khadija
+		cyn_Rahma cyn_Ummi cyn_Habiba cyn_Firdausi cyn_Rukayya cyn_Maimuna
+	}
+	dynasty_of_location_prefix = "dynnp_of"
+}

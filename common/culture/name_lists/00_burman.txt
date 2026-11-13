@@ -1,0 +1,75 @@
+﻿name_list_burmese = {
+	# e74 modern list (W1 Myanmar (total population); K (Burmese names; Burmese have no surnames, so common name elements are used as family names))
+	cadet_dynasty_names = {
+		dynn_cy_Aung dynn_cy_Kyaw dynn_cy_Myint dynn_cy_Win dynn_cy_Htun dynn_cy_Thein dynn_cy_Soe dynn_cy_Naing dynn_cy_Oo dynn_cy_Lwin dynn_cy_Zaw dynn_cy_Min
+		dynn_cy_Tun dynn_cy_Hlaing dynn_cy_Maung dynn_cy_Thant dynn_cy_Shwe dynn_cy_Nyunt dynn_cy_Phyo dynn_cy_Htay dynn_cy_Khin dynn_cy_Moe dynn_cy_Than dynn_cy_Thura
+		dynn_cy_Hein dynn_cy_Myo dynn_cy_Swe dynn_cy_Tint dynn_cy_Han dynn_cy_Kyi
+	}
+	dynasty_names = {
+		dynn_cy_Aung dynn_cy_Kyaw dynn_cy_Myint dynn_cy_Win dynn_cy_Htun dynn_cy_Thein dynn_cy_Soe dynn_cy_Naing dynn_cy_Oo dynn_cy_Lwin dynn_cy_Zaw dynn_cy_Min
+		dynn_cy_Tun dynn_cy_Hlaing dynn_cy_Maung dynn_cy_Thant dynn_cy_Shwe dynn_cy_Nyunt dynn_cy_Phyo dynn_cy_Htay dynn_cy_Khin dynn_cy_Moe dynn_cy_Than dynn_cy_Thura
+		dynn_cy_Hein dynn_cy_Myo dynn_cy_Swe dynn_cy_Tint dynn_cy_Han dynn_cy_Kyi
+	}
+	male_names = {
+		cyn_Aung cyn_Kyaw cyn_Min cyn_Zaw cyn_Htun cyn_Myint cyn_Thein cyn_Win cyn_Soe cyn_Naing cyn_Tun cyn_Hla
+		cyn_Thant cyn_Maung cyn_Ko cyn_Nyi cyn_Phyo cyn_Ye cyn_Htet cyn_Zin cyn_Wai cyn_Linn cyn_Thura cyn_Pyae
+		cyn_Sithu cyn_Hein cyn_Lwin cyn_Moe cyn_Tin cyn_Kaung
+	}
+	female_names = {
+		cyn_Su cyn_Thandar cyn_Aye cyn_Khin cyn_Mya cyn_Nwe cyn_Hnin cyn_Thida cyn_Ei cyn_Phyu cyn_May cyn_Yadanar
+		cyn_Hla cyn_Wai cyn_Zin cyn_Thiri cyn_Nandar cyn_Shwe cyn_Cho cyn_Yin cyn_Myat cyn_Moe cyn_Htet cyn_Khaing
+		cyn_Thinzar cyn_Sandar cyn_Hnin_Wai cyn_Ei_Ei cyn_Su_Su cyn_Nilar
+	}
+	dynasty_of_location_prefix = "dynnp_of"
+}
+
+name_list_mon = {
+
+	dynasty_names = {
+		"dynn_Athinlung"
+		"dynn_Lampala"
+		"dynn_Lavothala"
+		"dynn_Thanetta"
+		"dynn_Warelung"
+		"dynn_Wimalung"
+		"dynn_Manitung"
+		"dynn_Phitanlha"
+		"dynn_Utthada"
+		"dynn_Thadon"
+		"dynn_Sittha"
+		"dynn_Camadevi"
+	}
+	
+	cadet_dynasty_names = {  #These are largely superceded by script in found_cadet_house_decision_effect when new cadet branches are formed using the decision.
+		"dynn_Athinlung"
+		"dynn_Lampala"
+		"dynn_Lavothala"
+		"dynn_Thanetta"
+		"dynn_Warelung"
+		"dynn_Wimalung"
+		"dynn_Manitung"
+		"dynn_Phitanlha"
+		"dynn_Utthada"
+		"dynn_Thadon"
+		"dynn_Sittha"
+		"dynn_Camadevi"
+	}
+	
+	male_names = {
+		Adara Angula Anuyama Araka Areindama Atha Athinkha Attatha Dipa Einkura Ekkathamanda Geinda Geissadiya Karawika Kutha Mahintha Migadeippa Manuha Narathu Pontarika Pyinzala
+		Thaduka Thamala Thuganda Tissa Udinna Upadewa Uppala Urunnata Uttara Wimala Zambudipa Zawta
+		Bawlawkyantaw Dhammazedi Gada Gadu Kyan Law Leik_Munhtaw Razadarit Than_Bon Waru Wareru Zein
+	}
+	
+	female_names = {
+		Jamadevi Hnin_An_Po Mi_Pakahtaw Mwei_It Mwei_Maneit Mwei_Zeik Sawbu Thuddhamaya
+		
+		Botum Boupha Champei Champey Channary Chantou Chantrea Chenda Chhean Darareaksmey Jorani Kalliyan Kanha Kolab Kunthea Maly Mealea Mibaya
+		Pheakkley Phhoung Puthykol Raksa Solyna Sreykeo Sreyneang Thida Vatey Veata
+	}
+	
+	mercenary_names = {
+		{ name = "mercenary_sadhuim_company" }
+		{ name = "mercenary_company_mon_host" }
+	}
+}

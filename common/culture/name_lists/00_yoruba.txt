@@ -1,0 +1,135 @@
+﻿name_list_yoruba = {
+	# e74 modern list (W1 Nigeria (unofficial); S3 Yoruba name; K)
+	cadet_dynasty_names = {
+		dynn_cy_Adeyemi dynn_cy_Adebayo dynn_cy_Ogunleye dynn_cy_Okonkwo dynn_cy_Oladipo dynn_cy_Olawale dynn_cy_Ogunbanjo dynn_cy_Adeleke dynn_cy_Afolabi dynn_cy_Bakare dynn_cy_Fashola dynn_cy_Lawal
+		dynn_cy_Ogundipe dynn_cy_Oyelaran dynn_cy_Akinwale dynn_cy_Adesanya dynn_cy_Ajayi dynn_cy_Babatunde dynn_cy_Balogun dynn_cy_Oyebanji dynn_cy_Olaniyan dynn_cy_Ogunlade dynn_cy_Adekunle dynn_cy_Akande
+		dynn_cy_Alade dynn_cy_Oyeleke dynn_cy_Salami dynn_cy_Tinubu dynn_cy_Obasanjo dynn_cy_Awolowo
+	}
+	dynasty_names = {
+		dynn_cy_Adeyemi dynn_cy_Adebayo dynn_cy_Ogunleye dynn_cy_Okonkwo dynn_cy_Oladipo dynn_cy_Olawale dynn_cy_Ogunbanjo dynn_cy_Adeleke dynn_cy_Afolabi dynn_cy_Bakare dynn_cy_Fashola dynn_cy_Lawal
+		dynn_cy_Ogundipe dynn_cy_Oyelaran dynn_cy_Akinwale dynn_cy_Adesanya dynn_cy_Ajayi dynn_cy_Babatunde dynn_cy_Balogun dynn_cy_Oyebanji dynn_cy_Olaniyan dynn_cy_Ogunlade dynn_cy_Adekunle dynn_cy_Akande
+		dynn_cy_Alade dynn_cy_Oyeleke dynn_cy_Salami dynn_cy_Tinubu dynn_cy_Obasanjo dynn_cy_Awolowo
+	}
+	male_names = {
+		cyn_Oluwaseun cyn_Olumide cyn_Babatunde cyn_Adebayo cyn_Ayodele cyn_Oluwadamilare cyn_Temitope cyn_Tunde cyn_Femi cyn_Segun cyn_Kayode cyn_Olawale
+		cyn_Kehinde cyn_Taiwo cyn_Ademola cyn_Adewale cyn_Gbenga cyn_Bolaji cyn_Dapo cyn_Tobi cyn_Ayomide cyn_Ifeoluwa cyn_Oluwatobi cyn_Inioluwa
+		cyn_Damilola cyn_Emmanuel cyn_Samuel cyn_Daniel cyn_Joshua cyn_David cyn_Ibrahim_71f2 cyn_Musa cyn_Sunday cyn_Peter cyn_Joseph
+	}
+	female_names = {
+		cyn_Yetunde cyn_Olayemi cyn_Folake cyn_Funmilayo cyn_Titilayo cyn_Adeola cyn_Bukola cyn_Kemi cyn_Bisi cyn_Ronke cyn_Sade cyn_Morenikeji
+		cyn_Eniola cyn_Ifeoluwa cyn_Ayomide cyn_Oluwafunmilayo cyn_Kikelomo cyn_Aanuoluwapo cyn_Omowunmi cyn_Folashade cyn_Temitope cyn_Damilola cyn_Oluwaseun cyn_Moyosore
+		cyn_Araoluwa cyn_Blessing cyn_Grace cyn_Esther cyn_Mary cyn_Joy cyn_Aisha cyn_Fatima_2c68 cyn_Zainab cyn_Abimbola cyn_Tolani
+	}
+	dynasty_of_location_prefix = "dynnp_of"
+}
+
+name_list_edo = {
+
+	cadet_dynasty_names = {
+		"dynn_Ebira"
+		"dynn_Okene"
+		"dynn_Owan"
+		"dynn_Bini"
+		"dynn_Esan"
+		"dynn_Agbor"
+		"dynn_Sapele"
+		"dynn_Itseriki"
+		"dynn_Auchi"
+		"dynn_Igarra"
+		"dynn_Ogiso"
+		"dynn_Benin"
+		"dynn_Osse"
+		"dynn_Edo"
+		"dynn_Eweka"
+		"dynn_Owodo"
+		"dynn_Oliha"
+		"dynn_Ododuwa"
+	}
+	dynasty_names = {
+		"dynn_Ebira"
+		"dynn_Okene"
+		"dynn_Owan"
+		"dynn_Bini"
+		"dynn_Esan"
+		"dynn_Agbor"
+		"dynn_Sapele"
+		"dynn_Itseriki"
+		"dynn_Auchi"
+		"dynn_Igarra"
+		"dynn_Ogiso"
+		"dynn_Benin"
+		"dynn_Osse"
+		"dynn_Edo"
+		"dynn_Eweka"
+		"dynn_Owodo"
+		"dynn_Oliha"
+		"dynn_Ododuwa"
+	}
+	
+	male_names = {
+		Abieyuwa Aisosa Amenaghawon Edosa Efosa Eghosa Eheneden Ehigiator Ehimwenma Ehiosu Ehizogie Eki Ekinadoese Ekiuwa Ekpen Emwinghare Erharuyi Esosa Etinosa Etiosa
+		Idehen Idemudia Igbinosa Ighayezomo Ikponmwonsa Imadeyunuagbon Imafidon Imokhai Imudiase Isiuwa Itseme
+		Nosakhare Obano Obozuwa Ogbemudia Orobosa Osaevbie Osaro Osasere Osawe Osaze Osazenomwan Osazuwa Oshioke Oshomah Osilama
+		Uyi Uyiosa
+	}
+	female_names = {
+		Abieyuwa Adesuwa Aisosa Akugbe Amenaghawon Amenze
+		Edosa Eghosa Ehimwenma Ehiosu Ehizogie Ekenesenarhien Eki Ekinadoese Ekiuwa Emwinghare Enibokun Esohe Esomo Esosa Etinosa Evbu
+		Ifueko Ighayezomo Imadeyunuagbon Isimeme Isiuwa Isoken Itohan Itseme Ivie Iziegbe
+		Omegie Omosede Onose Orobosa Osarobo Osasere Osayuwamen Osaze
+	}
+	
+	#founder_named_dynasties = yes
+	
+	
+}
+
+name_list_igbo = {
+	# e74 modern list (W1 Nigeria (unofficial); K (Igbo names))
+	cadet_dynasty_names = {
+		dynn_cy_Okafor dynn_cy_Okonkwo dynn_cy_Eze dynn_cy_Nwosu dynn_cy_Okeke dynn_cy_Okoye dynn_cy_Nwachukwu dynn_cy_Obi dynn_cy_Okoro dynn_cy_Nnamdi dynn_cy_Ugwu dynn_cy_Onyeka
+		dynn_cy_Chukwu dynn_cy_Anyanwu dynn_cy_Igwe dynn_cy_Ibe dynn_cy_Nwankwo dynn_cy_Ezeh dynn_cy_Azikiwe dynn_cy_Obiora dynn_cy_Uche dynn_cy_Agu dynn_cy_Onuoha dynn_cy_Ndukwe
+		dynn_cy_Iwu dynn_cy_Achebe dynn_cy_Adichie dynn_cy_Ojukwu
+	}
+	dynasty_names = {
+		dynn_cy_Okafor dynn_cy_Okonkwo dynn_cy_Eze dynn_cy_Nwosu dynn_cy_Okeke dynn_cy_Okoye dynn_cy_Nwachukwu dynn_cy_Obi dynn_cy_Okoro dynn_cy_Nnamdi dynn_cy_Ugwu dynn_cy_Onyeka
+		dynn_cy_Chukwu dynn_cy_Anyanwu dynn_cy_Igwe dynn_cy_Ibe dynn_cy_Nwankwo dynn_cy_Ezeh dynn_cy_Azikiwe dynn_cy_Obiora dynn_cy_Uche dynn_cy_Agu dynn_cy_Onuoha dynn_cy_Ndukwe
+		dynn_cy_Iwu dynn_cy_Achebe dynn_cy_Adichie dynn_cy_Ojukwu
+	}
+	male_names = {
+		cyn_Chukwuemeka cyn_Chinedu cyn_Obinna cyn_Ikenna cyn_Emeka cyn_Uchenna cyn_Nnamdi cyn_Chidi cyn_Kelechi cyn_Chukwudi cyn_Ifeanyi cyn_Somtochukwu
+		cyn_Chibuike cyn_Ebuka cyn_Tochukwu cyn_Kenechukwu cyn_Chimezie cyn_Chiemeka cyn_Obi cyn_Okechukwu cyn_Nonso cyn_Ugochukwu cyn_Chisom cyn_Chinonso
+		cyn_Emmanuel cyn_Samuel cyn_Daniel cyn_Michael cyn_Victor cyn_Godwin cyn_Paul cyn_Peter cyn_Charles cyn_Anthony cyn_Justice
+	}
+	female_names = {
+		cyn_Chiamaka cyn_Adaeze cyn_Ngozi cyn_Amarachi cyn_Chioma cyn_Chinelo cyn_Uchechi cyn_Ifunanya cyn_Nneka cyn_Chidinma cyn_Oluchi cyn_Adaobi
+		cyn_Chimamanda cyn_Ebere cyn_Nkechi cyn_Obiageli cyn_Ogechi cyn_Uju cyn_Ifeoma cyn_Chinwe cyn_Ozioma cyn_Kosisochukwu cyn_Chisom cyn_Munachi
+		cyn_Somadina cyn_Blessing cyn_Grace cyn_Mary cyn_Joy cyn_Esther cyn_Peace cyn_Patience cyn_Precious cyn_Favour cyn_Gift
+	}
+	dynasty_of_location_prefix = "dynnp_of"
+}
+
+name_list_ewe = {
+	# e74 modern list (S3; K (Ewe names))
+	cadet_dynasty_names = {
+		dynn_cy_Agbodeka dynn_cy_Ahiable dynn_cy_Amegashie dynn_cy_Dzokoto dynn_cy_Gbeho dynn_cy_Kpodo dynn_cy_Agbenyega dynn_cy_Ametefe dynn_cy_Dzidzornu dynn_cy_Fiadjoe dynn_cy_Gbedemah dynn_cy_Kodzo
+		dynn_cy_Kumah dynn_cy_Mawuli dynn_cy_Nyaho dynn_cy_Tamakloe dynn_cy_Tsikata dynn_cy_Adzorgenu dynn_cy_Akpalu dynn_cy_Amenyo dynn_cy_Gbadago dynn_cy_Kpeglo dynn_cy_Agbeko dynn_cy_Afenyo
+		dynn_cy_Avorgbedor
+	}
+	dynasty_names = {
+		dynn_cy_Agbodeka dynn_cy_Ahiable dynn_cy_Amegashie dynn_cy_Dzokoto dynn_cy_Gbeho dynn_cy_Kpodo dynn_cy_Agbenyega dynn_cy_Ametefe dynn_cy_Dzidzornu dynn_cy_Fiadjoe dynn_cy_Gbedemah dynn_cy_Kodzo
+		dynn_cy_Kumah dynn_cy_Mawuli dynn_cy_Nyaho dynn_cy_Tamakloe dynn_cy_Tsikata dynn_cy_Adzorgenu dynn_cy_Akpalu dynn_cy_Amenyo dynn_cy_Gbadago dynn_cy_Kpeglo dynn_cy_Agbeko dynn_cy_Afenyo
+		dynn_cy_Avorgbedor
+	}
+	male_names = {
+		cyn_Kossi cyn_Kodjo cyn_Komla cyn_Koku cyn_Kwami cyn_Kofi cyn_Yao cyn_Mawuli cyn_Selorm cyn_Edem cyn_Elikem cyn_Senyo
+		cyn_Delali cyn_Dela cyn_Kekeli cyn_Mawuena cyn_Elorm cyn_Etornam cyn_Sena cyn_Emmanuel cyn_Felix_2c3b cyn_Prosper cyn_Godwin cyn_Bright
+		cyn_Wisdom cyn_Courage cyn_Justice cyn_Innocent cyn_Gideon cyn_Richard
+	}
+	female_names = {
+		cyn_Ablavi cyn_Abla cyn_Akossiwa cyn_Adzo cyn_Afi cyn_Ama cyn_Kossiwa cyn_Yawa cyn_Mawusi cyn_Mawufemor cyn_Esenam cyn_Dzifa
+		cyn_Elinam cyn_Enyonam cyn_Delali cyn_Sena cyn_Elorm cyn_Eyram cyn_Makafui cyn_Xorlali cyn_Grace cyn_Mercy cyn_Patience cyn_Comfort
+		cyn_Gifty cyn_Blessing cyn_Joyce cyn_Faith cyn_Peace cyn_Victoria
+	}
+	dynasty_of_location_prefix = "dynnp_of"
+}
