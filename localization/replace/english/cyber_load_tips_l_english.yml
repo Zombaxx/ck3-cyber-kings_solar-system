@@ -1,0 +1,12 @@
+﻿l_english:
+ # Cyber Kings (2026-11-13): setting loading tips. 131-134 and 137 replace vanilla tips (AI personalities, economic archetype);
+ # 0-3 fill vanilla's commented-out slots (unverified whether the engine shows them; harmless if not).
+ LOADING_TIP_131:0 "#T $game_concept_worlds$#!\n\n$game_concept_world_desc$"
+ LOADING_TIP_132:0 "#T $game_concept_space_lanes$#!\n\n$game_concept_space_lane_desc$"
+ LOADING_TIP_133:0 "#T $game_concept_mare_incognitum$#!\n\n$game_concept_mare_incognitum_desc$"
+ LOADING_TIP_134:0 "#T The Spacer Guild#!\n\nEvery crossing between the [worlds|E] rides on a ship of the Spacer Guild. A voyage along the [space_lanes|E] is long and carries its own dangers, from Reaver pirates to failing ballast tanks, so choose a capable travel leader before sending your court across the void."
+ LOADING_TIP_137:0 "#T Holy Wars Among the Worlds#!\n\nA faith's [holy_sites|E] need not lie on the world where it is strongest. When a [great_holy_war|E] is called, the faithful may be summoned to reclaim sacred ground held by unbelievers on another world entirely."
+ LOADING_TIP_0:0 "#T Cywizards#!\n\nA Cywizard is a ruler who has replaced flesh with machine, piece by piece, over centuries. Cywizards do not age and are stronger than any mortal warrior, but they rarely father children. Each court of Cywizards shows a different history of conversions and repairs."
+ LOADING_TIP_1:0 "#T Hegemonies of the Worlds#!\n\nEarth is divided between three [hegemonies|E]: Eurasia, the Americas and Gondwana. The other [worlds|E] have hegemonies of their own, but no title has ever spanned the whole solar system."
+ LOADING_TIP_2:0 "#T The Olympus Gate#!\n\nIn the mythical age a jump gate linked Mount Olympus on Earth with Olympus Mons on Mars. The gate has long been silent, but the Olympians of Mars still worship the gods their ancestors carried through it, while Earth's old Hellenism waits to be revived."
+ LOADING_TIP_3:0 "#T Seas of Many Worlds#!\n\nEvery world was terraformed long ago by the ancient proto-civilization, and every sea in the solar system is now water. The Moon's maria, once plains of dark basalt, and Titan's Kraken Mare and Ligeia Mare, once lakes of liquid methane, are true seas today. Only their old names remember what they were."
