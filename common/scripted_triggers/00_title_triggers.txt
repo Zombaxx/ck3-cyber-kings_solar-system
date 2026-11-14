@@ -1,4 +1,5 @@
-﻿
+﻿# year-shift 7050: calendar literals moved +5984 (gen_year_shift.py)
+
 #########################
 # Triggers for Titles
 #########################
@@ -13,7 +14,7 @@ has_mythical_founder_trigger = {
 				this = title:k_france
 				this = title:e_france
 			}
-			current_date > 1000.1.1
+			current_date > 6984.1.1
 		}
 		OR = { # Alexander		
 			this = title:k_thessalonika

@@ -1,4 +1,5 @@
-﻿##########################
+﻿# year-shift 7050: calendar literals moved +5984 (gen_year_shift.py)
+##########################
 # Scheme Scripted Effects
 ##########################
 
@@ -14779,7 +14780,7 @@ claim_throne_set_mythical_founder_variable_effect = {
 					scope:target_title = title:k_france
 					scope:target_title = title:e_france
 				}
-				current_date > 1000.1.1
+				current_date > 6984.1.1
 			}
 		}
 		set_variable = {

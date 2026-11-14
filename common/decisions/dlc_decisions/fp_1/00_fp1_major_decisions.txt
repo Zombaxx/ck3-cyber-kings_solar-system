@@ -1,4 +1,5 @@
-﻿##################################################
+﻿# year-shift 7050: calendar literals moved +5984 (gen_year_shift.py)
+##################################################
 
 #	Fury of the Northmen Major Decisions List
 
@@ -238,7 +239,7 @@ found_capital_of_the_rus_decision = {
 		#Repeat the time limit concern just so that the player knows it's a thing.
 		custom_description = {
 			text = found_capital_of_the_rus_decision_before_last_date
-			current_date <= 1100.1.1
+			current_date <= 7084.1.1
 		}
 	}
 
@@ -314,11 +315,11 @@ found_capital_of_the_rus_decision = {
 		# Weight up for game year.
 		modifier = {
 			add = 25
-			current_year >= 920
+			current_year >= 6904
 		}
 		modifier = {
 			add = 25
-			current_year >= 980
+			current_year >= 6964
 		}
 	}
 }

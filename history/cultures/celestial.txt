@@ -1,7 +1,8 @@
-﻿# copy of vanilla han.txt for the cloned culture celestial
+﻿# year-shift 7050: calendar literals moved +5984 (gen_year_shift.py)
+# copy of vanilla han.txt for the cloned culture celestial
 # Han culture
 
-865.1.1 = {
+6849.1.1 = {
 	discover_innovation = innovation_motte
 	discover_innovation = innovation_barracks
 	discover_innovation = innovation_catapult
@@ -18,15 +19,15 @@
 	discover_innovation = innovation_repeating_crossbow
 }
 
-866.1.1 = {
+6850.1.1 = {
 	join_era = culture_era_early_medieval
 }
 
-867.1.1 = {
+6851.1.1 = {
 	discover_innovation = innovation_arched_saddle
 }
 
-900.1.1 = {
+6884.1.1 = {
 	#
 	discover_innovation = innovation_bannus
 	discover_innovation = innovation_quilted_armor
@@ -34,7 +35,7 @@
 	discover_innovation = innovation_gavelkind
 }
 
-997.1.1 = {
+6981.1.1 = {
 	# Champa Rice is introduced to the Song court
 
 	# added via on_game_start effect
@@ -44,13 +45,13 @@
 	# discover_innovation = innovation_compass
 }
 
-1044.1.1 = {
+7028.1.1 = {
 	# First edition of the Wujing Zongyao and the first written formulation of weaponized gunpowder
 	#added via on_game_start effect
 	#discover_innovation = innovation_fire_medicine #
 }
 
-1050.1.1 = {
+7034.1.1 = {
 	discover_innovation = innovation_battlements
 	discover_innovation = innovation_horseshoes
 	discover_innovation = innovation_mangonel
@@ -64,11 +65,11 @@
 	discover_innovation = innovation_chronicle_writing
 }
 
-1055.1.1 = {
+7039.1.1 = {
 	join_era = culture_era_high_medieval
 }
 
-1060.1.1 = {
+7044.1.1 = {
 	discover_innovation = innovation_trebuchet
 	discover_innovation = innovation_hoardings
 	discover_innovation = innovation_land_grants

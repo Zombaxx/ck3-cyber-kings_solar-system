@@ -1,0 +1,438 @@
+﻿# Cyber Kings (2026-11-13): race traditions. One per original otherworlden people (CK2 fantasy races), held by that
+# culture and every culture split from it, so the race survives the per-world culture groups (WORLD_CULTURES_e46.md).
+# Cannot be adopted through divergence or added later; a hybrid can inherit one from either parent.
+
+tradition_ck_antecessor = {
+	category = societal
+
+	layers = {
+		0 = learning
+		1 = mediterranean
+		4 = philosopher.dds
+	}
+
+	can_pick = { always = no }
+	can_pick_for_hybridization = { always = yes }
+
+	character_modifier = {
+		learning = 1
+	}
+
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+			}
+		}
+	}
+}
+
+tradition_ck_ergaster = {
+	category = societal
+
+	layers = {
+		0 = martial
+		1 = mediterranean
+		4 = soldiers2.dds
+	}
+
+	can_pick = { always = no }
+	can_pick_for_hybridization = { always = yes }
+
+	character_modifier = {
+		martial = 1
+	}
+
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+			}
+		}
+	}
+}
+
+tradition_ck_archon = {
+	category = societal
+
+	layers = {
+		0 = intrigue
+		1 = mediterranean
+		4 = shield.dds
+	}
+
+	can_pick = { always = no }
+	can_pick_for_hybridization = { always = yes }
+
+	character_modifier = {
+		dread_baseline_add = 10
+	}
+
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+			}
+		}
+	}
+}
+
+tradition_ck_aeon = {
+	category = societal
+
+	layers = {
+		0 = diplo
+		1 = western
+		4 = runestone.dds
+	}
+
+	can_pick = { always = no }
+	can_pick_for_hybridization = { always = yes }
+
+	character_modifier = {
+		character_travel_speed_mult = 0.1
+	}
+
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+			}
+		}
+	}
+}
+
+tradition_ck_neanderthal = {
+	category = societal
+
+	layers = {
+		0 = steward
+		1 = mena
+		4 = mountain.dds
+	}
+
+	can_pick = { always = no }
+	can_pick_for_hybridization = { always = yes }
+
+	character_modifier = {
+		build_gold_cost = -0.05
+	}
+
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+			}
+		}
+	}
+}
+
+tradition_ck_jotnar = {
+	category = societal
+
+	layers = {
+		0 = martial
+		1 = western
+		4 = shield.dds
+	}
+
+	can_pick = { always = no }
+	can_pick_for_hybridization = { always = yes }
+
+	character_modifier = {
+		prowess = 2
+	}
+
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+			}
+		}
+	}
+}
+
+tradition_ck_cathrian = {
+	category = societal
+
+	layers = {
+		0 = intrigue
+		1 = mediterranean
+		4 = hunter.dds
+	}
+
+	can_pick = { always = no }
+	can_pick_for_hybridization = { always = yes }
+
+	character_modifier = {
+		intrigue = 1
+	}
+
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+			}
+		}
+	}
+}
+
+tradition_ck_mau_khet = {
+	category = societal
+
+	layers = {
+		0 = diplo
+		1 = mena
+		4 = philosopher.dds
+	}
+
+	can_pick = { always = no }
+	can_pick_for_hybridization = { always = yes }
+
+	character_modifier = {
+		diplomacy = 1
+	}
+
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+			}
+		}
+	}
+}
+
+tradition_ck_thark = {
+	category = societal
+
+	layers = {
+		0 = martial
+		1 = mena
+		4 = soldiers2.dds
+	}
+
+	can_pick = { always = no }
+	can_pick_for_hybridization = { always = yes }
+
+	character_modifier = {
+		martial = 1
+	}
+
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+			}
+		}
+	}
+}
+
+tradition_ck_torquas = {
+	category = societal
+
+	layers = {
+		0 = martial
+		1 = western
+		4 = soldiers2.dds
+	}
+
+	can_pick = { always = no }
+	can_pick_for_hybridization = { always = yes }
+
+	character_modifier = {
+		prowess = 2
+	}
+
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+			}
+		}
+	}
+}
+
+# 2026-11-13 21:45: House Phaeter's clone lines (Dyeus' pantheon cultures; _dev/PHAETER_HOUSE.md). Archaic heritage.
+tradition_ck_phaeter = {
+	category = societal
+
+	layers = {
+		0 = diplo
+		1 = mediterranean
+		4 = crown.dds
+	}
+
+	can_pick = { always = no }
+	can_pick_for_hybridization = { always = yes }
+
+	character_modifier = {
+		monthly_prestige_gain_mult = 0.1
+	}
+
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+			}
+		}
+	}
+}
+
+# 2026-11-13 (modder): shared lineages. Elohim = Archon + Aeon; Archaic = Antecessor + Ergaster (each also keeps its own).
+tradition_ck_elohim = {
+	category = societal
+
+	layers = {
+		0 = learning
+		1 = mediterranean
+		4 = crown.dds
+	}
+
+	can_pick = { always = no }
+	can_pick_for_hybridization = { always = yes }
+
+	character_modifier = {
+		monthly_piety_gain_mult = 0.05
+	}
+
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+			}
+		}
+	}
+}
+
+tradition_ck_archaic = {
+	category = societal
+
+	layers = {
+		0 = learning
+		1 = western
+		4 = philosopher.dds
+	}
+
+	can_pick = { always = no }
+	can_pick_for_hybridization = { always = yes }
+
+	character_modifier = {
+		monthly_learning_lifestyle_xp_gain_mult = 0.05
+	}
+
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+			}
+		}
+	}
+}
+
+# 2026-11-13 (modder): the Celestials (Illuminious's Cywizard culture) and the Aurorans (Spacers) each get their own, and share Tau Ceti.
+tradition_ck_celestial = {
+	category = societal
+
+	layers = {
+		0 = diplo
+		1 = asian
+		4 = crown.dds
+	}
+
+	can_pick = { always = no }
+	can_pick_for_hybridization = { always = yes }
+
+	character_modifier = {
+		monthly_prestige_gain_mult = 0.05
+	}
+
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+			}
+		}
+	}
+}
+
+tradition_ck_spacer_heritage = {
+	category = societal
+
+	layers = {
+		0 = steward
+		1 = asian
+		4 = artisan.dds
+	}
+
+	can_pick = { always = no }
+	can_pick_for_hybridization = { always = yes }
+
+	character_modifier = {
+		stewardship = 1
+	}
+
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+			}
+		}
+	}
+}
+
+tradition_ck_tau_ceti = {
+	category = societal
+
+	layers = {
+		0 = learning
+		1 = asian
+		4 = philosopher.dds
+	}
+
+	can_pick = { always = no }
+	can_pick_for_hybridization = { always = yes }
+
+	character_modifier = {
+		learning = 1
+	}
+
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+			}
+		}
+	}
+}

@@ -249,29 +249,27 @@ korean = {
 
 # Olympian: CK2 alan, template alan
 # Olympian: template vanilla trojan (ancient Greek heritage/language) - was alan until 2026-11-09
+# 2026-11-13 21:45: no longer used on Mars (split into ckw_daedalian etc.); now the Archaic culture of the Greek gods
+# (House Phaeter, Olympian branch) with the Phaeter Blood race tradition. gen_phaeter_cultures.py.
 olympian = {
 	color = { 0.70 0.50 0.70 }
-
 	ethos = ethos_bellicose
-	heritage = heritage_ancient_greek
+	heritage = heritage_archaic
 	language = language_ancient_greek
-	martial_custom = martial_custom_male_only
+	martial_custom = martial_custom_equal
 	head_determination = head_determination_domain
 	traditions = {
+		tradition_ck_phaeter
 		tradition_philosopher_culture
 		tradition_legalistic
 		tradition_astute_diplomats
-		tradition_maritime_mercantilism
 	}
-	
 	name_list = name_list_ck_olympian
-	
 	coa_gfx = { byzantine_group_coa_gfx }
 	building_gfx = { mediterranean_building_gfx }
 	clothing_gfx = { byzantine_clothing_gfx }
 	unit_gfx = { eastern_unit_gfx }
 	house_coa_frame = house_frame_16
-	
 	ethnicities = {
 		100 = mediterranean_byzantine
 	}
@@ -641,7 +639,8 @@ celestial = {
 	head_determination = head_determination_domain
 
 	traditions = {
-
+		tradition_ck_celestial
+		tradition_ck_tau_ceti
 	}
 
 	dlc_tradition = {

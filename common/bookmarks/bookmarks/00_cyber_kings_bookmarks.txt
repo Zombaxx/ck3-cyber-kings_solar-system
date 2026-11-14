@@ -1,8 +1,9 @@
-﻿# Positions: GUI coords of the nameplate's top-left in the 1920x1200 bookmark frame.
+﻿# year-shift 7050: calendar literals moved +5984 (gen_year_shift.py)
+# Positions: GUI coords of the nameplate's top-left in the 1920x1200 bookmark frame.
 # The 1920x1080 background sits 60 px lower, the nameplate top is drawn at background y = position_y + 60,
 # and the portrait stands centred on the nameplate. See _dev/GRAPHICS.md 'Bookmark screen placement'.
 bm_cyber_kings_1066 = {
-	start_date = 1066.9.15
+	start_date = 7050.9.15
 	is_playable = yes
 	group = bm_group_cyber_kings
 	weight = { value = 100 }
@@ -11,7 +12,7 @@ bm_cyber_kings_1066 = {
 		name = "bm_ck_char_108275"
 		dynasty = 108270
 		type = male
-		birth = 1045.1.1
+		birth = 7029.1.1
 		title = d_duchy0827
 		government = feudal_government
 		culture = murican
@@ -26,10 +27,10 @@ bm_cyber_kings_1066 = {
 		name = "bm_ck_char_121585"
 		dynasty = 121580
 		type = male
-		birth = 1032.1.1
+		birth = 7016.1.1
 		title = k_kingdom2158
 		government = feudal_government
-		culture = ergaster
+		culture = ckw_europan
 		religion = zensunni_rite
 		dynasty_splendor_level = 1
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
@@ -41,10 +42,10 @@ bm_cyber_kings_1066 = {
 		name = "bm_ck_char_112385"
 		dynasty = 112380
 		type = male
-		birth = 1031.1.1
+		birth = 7015.1.1
 		title = d_duchy1238
 		government = feudal_government
-		culture = olympian
+		culture = ckw_daedalian
 		religion = olympic_rite
 		dynasty_splendor_level = 1
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
@@ -56,10 +57,10 @@ bm_cyber_kings_1066 = {
 		name = "bm_ck_char_101415"
 		dynasty = 101410
 		type = male
-		birth = 1043.1.1
+		birth = 7027.1.1
 		title = c_san_francisco
 		government = feudal_government
-		culture = liblander
+		culture = progressive
 		religion = roman_rite
 		dynasty_splendor_level = 1
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
@@ -71,7 +72,7 @@ bm_cyber_kings_1066 = {
 		name = "bm_ck_char_1020130"
 		dynasty = 102010
 		type = male
-		birth = 1025.1.1
+		birth = 7009.1.1
 		title = c_province0209
 		government = tribal_government
 		culture = liblander
@@ -86,7 +87,7 @@ bm_cyber_kings_1066 = {
 		name = "bm_ck_char_107175"
 		dynasty = 121771
 		type = male
-		birth = 1.1.1
+		birth = 5986.1.1
 		title = h_eurasia
 		government = feudal_government
 		culture = celestial
@@ -97,19 +98,22 @@ bm_cyber_kings_1066 = {
 		position = { 466 165 }
 		animation = personality_rational
 	}
-	character = {
-		name = "bm_ck_char_104265"
-		dynasty = 104260
-		type = male
-		birth = 1039.1.1
-		title = c_province0426
-		government = tribal_government
-		culture = mau_khet
-		religion = kemetism_rite
-		dynasty_splendor_level = 1
-		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
-		history_id = 104265
-		position = { 274 826 }
-		animation = survey
-	}
+	# RETCONNED 2026-11-13: the Kemetic (Mercury, Mundtheirbul 104265) bookmark is disabled, not deleted,
+	# in case jump gates are restored later. To restore: uncomment this block. Its portrait
+	# (common/bookmark_portraits/bm_ck_char_104265.txt), highlight dds and loc are still in place.
+	#	character = {
+	#		name = "bm_ck_char_104265"
+	#		dynasty = 104260
+	#		type = male
+	#		birth = 7023.1.1
+	#		title = c_province0426
+	#		government = tribal_government
+	#		culture = mau_khet
+	#		religion = kemetism_rite
+	#		dynasty_splendor_level = 1
+	#		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
+	#		history_id = 104265
+	#		position = { 274 826 }
+	#		animation = survey
+	#	}
 }

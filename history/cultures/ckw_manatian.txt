@@ -1,6 +1,7 @@
-﻿# Cyber Kings (e48): innovations for ckw_manatian, merged from heritage_cathrian.txt
+﻿# year-shift 7050: calendar literals moved +5984 (gen_year_shift.py)
+# Cyber Kings (e48): innovations for ckw_manatian, merged from heritage_cathrian.txt
 
-867.1.1 = {
+6851.1.1 = {
 	discover_innovation = innovation_barracks
 	discover_innovation = innovation_mustering_grounds
 	discover_innovation = innovation_quilted_armor
@@ -10,7 +11,7 @@
 	discover_innovation = innovation_longboats
 }
 
-950.1.1 = {
+6934.1.1 = {
 	discover_innovation = innovation_motte
 	discover_innovation = innovation_bannus
 	discover_innovation = innovation_catapult
@@ -22,7 +23,7 @@
 	join_era = culture_era_early_medieval
 }
 
-1066.1.1 = {
+7050.1.1 = {
 	discover_innovation = innovation_burhs
 	discover_innovation = innovation_mangonel
 	discover_innovation = innovation_house_soldiers
@@ -32,11 +33,11 @@
 	discover_innovation = innovation_chronicle_writing
 }
 
-1150.1.1 = {
+7134.1.1 = {
 	join_era = culture_era_high_medieval
 }
 
-1178.1.1 = {
+7162.1.1 = {
 	discover_innovation = innovation_arched_saddle
 	discover_innovation = innovation_heraldry
 	discover_innovation = innovation_trebuchet

@@ -1,4 +1,5 @@
-﻿namespace = nomad_events
+﻿# year-shift 7050: calendar literals moved +5984 (gen_year_shift.py)
+namespace = nomad_events
 
 ## Veronica Pazos
 ## Ill-Advised event chain - nomad_events.0001-0099
@@ -5001,12 +5002,12 @@ nomad_events.0250 = {
 		}
 		modifier = {
 			faith = { has_doctrine_parameter = unreformed }
-			current_year > 1065
+			current_year > 7049
 			factor = 2
 		}
 		modifier = {
 			faith = { has_doctrine_parameter = unreformed }
-			current_year > 1150
+			current_year > 7134
 			factor = 2
 		}
 	}
@@ -5300,11 +5301,11 @@ nomad_events.0250 = {
 				factor = 4
 			}
 			modifier = {
-				current_year > 1065
+				current_year > 7049
 				factor = 2
 			}
 			modifier = {
-				current_year > 1150
+				current_year > 7134
 				factor = 2
 			}
 			modifier = {
@@ -5502,12 +5503,12 @@ nomad_events.0260 = {
 		}
 		modifier = {
 			faith = { has_doctrine_parameter = unreformed }
-			current_year > 1065
+			current_year > 7049
 			factor = 2
 		}
 		modifier = {
 			faith = { has_doctrine_parameter = unreformed }
-			current_year > 1150
+			current_year > 7134
 			factor = 2
 		}
 		modifier = {
@@ -5625,11 +5626,11 @@ nomad_events.0260 = {
 				factor = 4
 			}
 			modifier = {
-				current_year > 1065
+				current_year > 7049
 				factor = 2
 			}
 			modifier = {
-				current_year > 1150
+				current_year > 7134
 				factor = 2
 			}
 			modifier = {

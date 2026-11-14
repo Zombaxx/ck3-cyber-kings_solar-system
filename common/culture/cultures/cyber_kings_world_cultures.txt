@@ -203,6 +203,7 @@ ganisian = {
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
 	traditions = {
+		tradition_ck_neanderthal
 		tradition_mountain_homes
 		tradition_storytellers
 		tradition_hereditary_hierarchy

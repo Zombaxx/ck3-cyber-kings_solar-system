@@ -9,6 +9,7 @@ ckw_borian = { # Borian (callisto), from torquas
 	martial_custom = martial_custom_equal
 	head_determination = head_determination_domain
 	traditions = {
+		tradition_ck_torquas
 		tradition_warrior_culture
 		tradition_only_the_strong
 		tradition_horse_lords
@@ -32,6 +33,7 @@ ckw_callistan = { # Callistan (callisto), from torquas
 	martial_custom = martial_custom_equal
 	head_determination = head_determination_domain
 	traditions = {
+		tradition_ck_torquas
 		tradition_warrior_culture
 		tradition_only_the_strong
 		tradition_horse_lords
@@ -55,6 +57,7 @@ ckw_ilman = { # Ilman (callisto), from jotnar
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
 	traditions = {
+		tradition_ck_jotnar
 		tradition_mountaineers
 		tradition_only_the_strong
 		tradition_stand_and_fight
@@ -78,6 +81,8 @@ ckw_lycaonian = { # Lycaonian (callisto), from ergaster
 	martial_custom = martial_custom_equal
 	head_determination = head_determination_domain
 	traditions = {
+		tradition_ck_ergaster
+		tradition_ck_archaic
 		tradition_seafaring
 		tradition_battlefield_looters
 		tradition_ruling_caste
@@ -101,6 +106,8 @@ ckw_meran = { # Meran (callisto), from ergaster
 	martial_custom = martial_custom_equal
 	head_determination = head_determination_domain
 	traditions = {
+		tradition_ck_ergaster
+		tradition_ck_archaic
 		tradition_seafaring
 		tradition_battlefield_looters
 		tradition_ruling_caste
@@ -124,6 +131,7 @@ ckw_nuadan = { # Nuadan (callisto), from torquas
 	martial_custom = martial_custom_equal
 	head_determination = head_determination_domain
 	traditions = {
+		tradition_ck_torquas
 		tradition_warrior_culture
 		tradition_only_the_strong
 		tradition_horse_lords
@@ -147,6 +155,7 @@ ckw_valian = { # Valian (callisto), from mau_khet
 	martial_custom = martial_custom_equal
 	head_determination = head_determination_domain
 	traditions = {
+		tradition_ck_mau_khet
 		tradition_ruling_caste
 		tradition_hunters
 		tradition_esteemed_hospitality
@@ -266,6 +275,7 @@ ckw_dagdan = { # Dagdan (europa), from neanderthal
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
 	traditions = {
+		tradition_ck_neanderthal
 		tradition_mountain_homes
 		tradition_artisans
 		tradition_hereditary_hierarchy
@@ -289,6 +299,8 @@ ckw_europan = { # Europan (europa), from ergaster
 	martial_custom = martial_custom_equal
 	head_determination = head_determination_domain
 	traditions = {
+		tradition_ck_ergaster
+		tradition_ck_archaic
 		tradition_seafaring
 		tradition_battlefield_looters
 		tradition_ruling_caste
@@ -312,6 +324,7 @@ ckw_elamite = { # Elamite (ganymede), from jotnar
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
 	traditions = {
+		tradition_ck_jotnar
 		tradition_mountaineers
 		tradition_only_the_strong
 		tradition_stand_and_fight
@@ -437,6 +450,8 @@ ckw_argyrean = { # Argyrean (mars), from ergaster
 	martial_custom = martial_custom_equal
 	head_determination = head_determination_domain
 	traditions = {
+		tradition_ck_ergaster
+		tradition_ck_archaic
 		tradition_seafaring
 		tradition_battlefield_looters
 		tradition_ruling_caste
@@ -460,6 +475,7 @@ ckw_auroran = { # Auroran (mars), from neanderthal
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
 	traditions = {
+		tradition_ck_neanderthal
 		tradition_mountain_homes
 		tradition_artisans
 		tradition_hereditary_hierarchy
@@ -542,6 +558,7 @@ ckw_elysian = { # Elysian (mars), from torquas
 	martial_custom = martial_custom_equal
 	head_determination = head_determination_domain
 	traditions = {
+		tradition_ck_torquas
 		tradition_warrior_culture
 		tradition_only_the_strong
 		tradition_horse_lords
@@ -599,6 +616,8 @@ ckw_noachian = { # Noachian (mars), from ergaster
 	martial_custom = martial_custom_equal
 	head_determination = head_determination_domain
 	traditions = {
+		tradition_ck_ergaster
+		tradition_ck_archaic
 		tradition_seafaring
 		tradition_battlefield_looters
 		tradition_ruling_caste
@@ -622,6 +641,7 @@ ckw_scyllan = { # Scyllan (mars), from torquas
 	martial_custom = martial_custom_equal
 	head_determination = head_determination_domain
 	traditions = {
+		tradition_ck_torquas
 		tradition_warrior_culture
 		tradition_only_the_strong
 		tradition_horse_lords
@@ -707,6 +727,7 @@ ckw_utopian = { # Utopian (mars), from torquas
 	martial_custom = martial_custom_equal
 	head_determination = head_determination_domain
 	traditions = {
+		tradition_ck_torquas
 		tradition_warrior_culture
 		tradition_only_the_strong
 		tradition_horse_lords
@@ -730,6 +751,7 @@ ckw_aaruan = { # Aaruan (mercury), from neanderthal
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
 	traditions = {
+		tradition_ck_neanderthal
 		tradition_mountain_homes
 		tradition_artisans
 		tradition_hereditary_hierarchy
@@ -753,6 +775,7 @@ ckw_caliphian = { # Caliphian (mercury), from mau_khet
 	martial_custom = martial_custom_equal
 	head_determination = head_determination_domain
 	traditions = {
+		tradition_ck_mau_khet
 		tradition_ruling_caste
 		tradition_hunters
 		tradition_esteemed_hospitality
@@ -870,6 +893,7 @@ ckw_rahaddan = { # Rahaddan (mercury), from mau_khet
 	martial_custom = martial_custom_equal
 	head_determination = head_determination_domain
 	traditions = {
+		tradition_ck_mau_khet
 		tradition_ruling_caste
 		tradition_hunters
 		tradition_esteemed_hospitality
@@ -920,6 +944,7 @@ ckw_lunan = { # Lunan (moon), from neanderthal
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
 	traditions = {
+		tradition_ck_neanderthal
 		tradition_mountain_homes
 		tradition_artisans
 		tradition_hereditary_hierarchy
@@ -975,6 +1000,7 @@ ckw_adirian = { # Adirian (titan), from jotnar
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
 	traditions = {
+		tradition_ck_jotnar
 		tradition_mountaineers
 		tradition_only_the_strong
 		tradition_stand_and_fight
@@ -998,6 +1024,7 @@ ckw_ligeian = { # Ligeian (titan), from torquas
 	martial_custom = martial_custom_equal
 	head_determination = head_determination_domain
 	traditions = {
+		tradition_ck_torquas
 		tradition_warrior_culture
 		tradition_only_the_strong
 		tradition_horse_lords
@@ -1052,6 +1079,7 @@ ckw_xanadian = { # Xanadian (titan), from jotnar
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
 	traditions = {
+		tradition_ck_jotnar
 		tradition_mountaineers
 		tradition_only_the_strong
 		tradition_stand_and_fight
@@ -1075,6 +1103,7 @@ ckw_tritonian = { # Tritonian (triton), from jotnar
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
 	traditions = {
+		tradition_ck_jotnar
 		tradition_mountaineers
 		tradition_only_the_strong
 		tradition_stand_and_fight
@@ -1129,6 +1158,7 @@ ckw_altan = { # Altan (venus), from neanderthal
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
 	traditions = {
+		tradition_ck_neanderthal
 		tradition_mountain_homes
 		tradition_artisans
 		tradition_hereditary_hierarchy
@@ -1152,6 +1182,7 @@ ckw_amayan = { # Amayan (venus), from mau_khet
 	martial_custom = martial_custom_equal
 	head_determination = head_determination_domain
 	traditions = {
+		tradition_ck_mau_khet
 		tradition_ruling_caste
 		tradition_hunters
 		tradition_esteemed_hospitality
@@ -1241,6 +1272,7 @@ ckw_ladan = { # Ladan (venus), from jotnar
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
 	traditions = {
+		tradition_ck_jotnar
 		tradition_mountaineers
 		tradition_only_the_strong
 		tradition_stand_and_fight
@@ -1287,6 +1319,7 @@ ckw_manatian = { # Manatian (venus), from mau_khet
 	martial_custom = martial_custom_equal
 	head_determination = head_determination_domain
 	traditions = {
+		tradition_ck_mau_khet
 		tradition_ruling_caste
 		tradition_hunters
 		tradition_esteemed_hospitality
@@ -1410,6 +1443,7 @@ ckw_uzuman = { # Uzuman (venus), from neanderthal
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
 	traditions = {
+		tradition_ck_neanderthal
 		tradition_mountain_homes
 		tradition_artisans
 		tradition_hereditary_hierarchy

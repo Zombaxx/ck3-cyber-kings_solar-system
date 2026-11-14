@@ -11,7 +11,12 @@ spacer = { # Tau Ceti generation-ship people; copy of celestial (both were CK2 h
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
 
-	traditions = { tradition_xenophilic tradition_philosopher_culture tradition_hard_working }
+	traditions = { tradition_ck_spacer_heritage tradition_ck_tau_ceti tradition_xenophilic tradition_philosopher_culture tradition_hard_working }
+	# 2026-11-13 (modder): shares Han's Cultivation with the Celestials (All Under Heaven DLC)
+	dlc_tradition = {
+		trait = tradition_cultivation
+		requires_dlc_flag = all_under_heaven
+	}
 
 	name_list = name_list_ck3_spacer
 

@@ -1,4 +1,5 @@
-﻿
+﻿# year-shift 7050: calendar literals moved +5984 (gen_year_shift.py)
+
 fund_inspiration_effect = {
 	scope:recipient = {
 		if = {
@@ -1581,7 +1582,7 @@ inspiration_adventure_create_artifact_effect = {
 									add = 5
 								}
 								trigger = {
-									current_year >= 1097
+									current_year >= 7081
 									character:107590 ?= { is_alive = no } #El Cid is not around
 									NOT = {
 										any_artifact = {
@@ -2664,7 +2665,7 @@ inspiration_adventure_create_artifact_effect = {
 									add = 5
 								}
 								trigger = {
-									current_date > 1080.1.1
+									current_date > 7064.1.1
 									any_artifact = {
 										count < 1
 										has_variable = szczerbiec
@@ -2709,7 +2710,7 @@ inspiration_adventure_create_artifact_effect = {
 									add = 5
 								}
 								trigger = {
-									current_date > 1120.1.1
+									current_date > 7104.1.1
 									any_artifact = {
 										count < 1
 										has_variable = legbiter
@@ -2732,7 +2733,7 @@ inspiration_adventure_create_artifact_effect = {
 									add = 5
 								}
 								trigger = {
-									current_date > 920.1.1
+									current_date > 6904.1.1
 									any_artifact = {
 										count < 1
 										has_variable = quernbiter
@@ -2767,7 +2768,7 @@ inspiration_adventure_create_artifact_effect = {
 									add = 5
 								}
 								trigger = {
-									current_date > 920.1.1
+									current_date > 6904.1.1
 									any_artifact = {
 										count < 1
 										has_variable = dragvandil
@@ -3048,7 +3049,7 @@ inspiration_adventure_create_artifact_effect = {
 									scope:location ?= {
 										geographical_region = world_asia_southeast
 									}
-									current_date >= 1080.1.1
+									current_date >= 7064.1.1
 								}
 								create_artifact_statue_viet_green_amitabha_buddha_effect = { OWNER = root }
 							}
@@ -3113,7 +3114,7 @@ inspiration_adventure_create_artifact_effect = {
 								}
 								trigger = {
 									has_tgp_dlc_trigger = yes
-									current_date > 1150.1.1 #Needs to be long past creation date for this to make sense
+									current_date > 7134.1.1 #Needs to be long past creation date for this to make sense
 									any_artifact = {
 										count < 1
 										has_variable = military_classics

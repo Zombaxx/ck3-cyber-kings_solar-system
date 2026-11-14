@@ -1,4 +1,5 @@
-﻿
+﻿# year-shift 7050: calendar literals moved +5984 (gen_year_shift.py)
+
 ##################################################
 # General Triggers
 
@@ -283,7 +284,7 @@ fp1_valid_norse_faith_for_jomsvikings_trigger = {
 
 fp1_jomsvikings_have_not_existed_trigger = {
 	# They've already been destroyed in 1066.
-	game_start_date < 1000.1.1
+	game_start_date < 6984.1.1
 	NOR = {
 		# And otherwise can't currently be created.
 		exists = global_var:jomsvikings_title

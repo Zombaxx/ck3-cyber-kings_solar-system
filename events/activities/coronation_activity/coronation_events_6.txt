@@ -1,4 +1,5 @@
-﻿namespace = coronation_events
+﻿# year-shift 7050: calendar literals moved +5984 (gen_year_shift.py)
+namespace = coronation_events
 
 #########################################
 # Coronation - Flavor Events			#
@@ -3248,7 +3249,7 @@ coronation_events.6020 = {
 					value = {
 						if = {
 							limit = {
-								current_year >= 1100
+								current_year >= 7084
 							}
 							add = -1.5
 						}
@@ -7763,7 +7764,7 @@ coronation_events.6120 = {
 							scope:host.faith = faith:catholic
 						}
 						AND = {
-							current_year >= 950
+							current_year >= 6934
 							location.barony = title:b_london
 						}
 						location.barony = title:b_reims

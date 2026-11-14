@@ -129,7 +129,7 @@ cyber_pax_americana_setup = {
 			character:8100722 ?= { if = { limit = { is_ruler = yes is_independent_ruler = yes exists = house NOT = { exists = house.house_confederation } } house = { save_temporary_scope_as = pah } scope:pax = { add_confederation_member_house = scope:pah } } } # Micronesia
 			character:8100727 ?= { if = { limit = { is_ruler = yes is_independent_ruler = yes exists = house NOT = { exists = house.house_confederation } } house = { save_temporary_scope_as = pah } scope:pax = { add_confederation_member_house = scope:pah } } } # Marshall Islands
 			character:8100273 ?= { if = { limit = { is_ruler = yes is_independent_ruler = yes exists = house NOT = { exists = house.house_confederation } } house = { save_temporary_scope_as = pah } scope:pax = { add_confederation_member_house = scope:pah } } } # Panama
-			character:777163 ?= { if = { limit = { is_ruler = yes is_independent_ruler = yes exists = house NOT = { exists = house.house_confederation } } house = { save_temporary_scope_as = pah } scope:pax = { add_confederation_member_house = scope:pah } } } # Israel
+			character:9102749 ?= { if = { limit = { is_ruler = yes is_independent_ruler = yes exists = house NOT = { exists = house.house_confederation } } house = { save_temporary_scope_as = pah } scope:pax = { add_confederation_member_house = scope:pah } } } # Israel
 		}
 	}
 }
@@ -181,14 +181,17 @@ cyber_eu_setup = {
 		character:105285 ?= {
 			if = {
 				limit = { is_ruler = yes has_primary_title = title:e_european_union }
-				add_realm_law_skip_effects = crown_authority_0
+				if = { limit = { NOT = { has_realm_law = crown_authority_0 } } add_realm_law_skip_effects = crown_authority_0 }
 				every_vassal = {
-					vassal_contract_set_obligation_level = { type = feudal_government_taxes level = 1 }
-					vassal_contract_set_obligation_level = { type = feudal_government_levies level = 0 }
-					vassal_contract_set_obligation_level = { type = title_revocation_rights level = 1 }
-					vassal_contract_set_obligation_level = { type = council_rights level = 1 }
-					vassal_contract_set_obligation_level = { type = war_declaration_rights level = 1 }
-					vassal_contract_set_obligation_level = { type = religious_rights level = 1 }
+					if = {
+						limit = { government_has_flag = government_is_feudal }	# audit 2026-11-13: non-feudal vassals have no feudal contract (error.log)
+						vassal_contract_set_obligation_level = { type = feudal_government_taxes level = 1 }
+						vassal_contract_set_obligation_level = { type = feudal_government_levies level = 0 }
+						vassal_contract_set_obligation_level = { type = title_revocation_rights level = 1 }
+						vassal_contract_set_obligation_level = { type = council_rights level = 1 }
+						vassal_contract_set_obligation_level = { type = war_declaration_rights level = 1 }
+						vassal_contract_set_obligation_level = { type = religious_rights level = 1 }
+					}
 					set_subject_contract_modification_blocked = yes
 				}
 			}

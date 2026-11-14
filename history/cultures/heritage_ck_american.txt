@@ -1,6 +1,7 @@
-﻿# Cyber Kings: innovations for heritage_ck_american (copy of murican.txt)
+﻿# year-shift 7050: calendar literals moved +5984 (gen_year_shift.py)
+# Cyber Kings: innovations for heritage_ck_american (copy of murican.txt)
 
-867.1.1 = {
+6851.1.1 = {
 	discover_innovation = innovation_bannus
 	discover_innovation = innovation_catapult
 	discover_innovation = innovation_quilted_armor
@@ -13,7 +14,7 @@
 	
 }
 
-950.1.1 = {
+6934.1.1 = {
 	discover_innovation = innovation_motte
 	discover_innovation = innovation_barracks
 	discover_innovation = innovation_mustering_grounds
@@ -25,7 +26,7 @@
 	join_era = culture_era_early_medieval
 }
 
-1066 = {
+7050 = {
 	discover_innovation = innovation_burhs
 	discover_innovation = innovation_horseshoes
 	discover_innovation = innovation_mangonel
@@ -36,11 +37,11 @@
 	discover_innovation = innovation_currency_02
 }
 
-1150.1.1 = {
+7134.1.1 = {
 	join_era = culture_era_high_medieval
 }
 
-1178.1.1 = {
+7162.1.1 = {
 	discover_innovation = innovation_battlements
 	discover_innovation = innovation_arched_saddle
 	discover_innovation = innovation_armilary_sphere

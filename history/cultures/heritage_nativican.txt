@@ -1,4 +1,5 @@
-﻿# copy of vanilla heritage_turkic.txt for heritage_nativican
+﻿# year-shift 7050: calendar literals moved +5984 (gen_year_shift.py)
+# copy of vanilla heritage_turkic.txt for heritage_nativican
 # Chuvash
 # Pecheneg
 # Bashkir
@@ -12,7 +13,7 @@
 
 # Bolghar, Khazar, Oghuz, Uyghur, Yughur, Shatuo & Ongud in separate files
 
-867.1.1 = {
+6851.1.1 = {
 	discover_innovation = innovation_bannus
 	discover_innovation = innovation_mustering_grounds
 	discover_innovation = innovation_quilted_armor
@@ -21,7 +22,7 @@
 	#
 }
 
-950.1.1 = {
+6934.1.1 = {
 	# Tribal Innovations
 	discover_innovation = innovation_barracks
 	discover_innovation = innovation_catapult

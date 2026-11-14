@@ -1,0 +1,126 @@
+﻿# Cyber Kings 2026-11-13 21:00: cadet houses of House Phaeter (dynasty 920001) - one per clone line
+# (_dev/scripts/oneoff/gen_phaeter.py; reference _dev/PHAETER_HOUSE.md)
+house_phaeter_olympian = {
+	name = "house_phaeter_olympian"
+	dynasty = 920001
+}
+house_phaeter_iovian = {
+	name = "house_phaeter_iovian"
+	dynasty = 920001
+}
+house_phaeter_dyaus = {
+	name = "house_phaeter_dyaus"
+	dynasty = 920001
+}
+house_phaeter_dievaslithuanian = {
+	name = "house_phaeter_dievaslithuanian"
+	dynasty = 920001
+}
+house_phaeter_dievslatvian = {
+	name = "house_phaeter_dievslatvian"
+	dynasty = 920001
+}
+house_phaeter_tiwaz = {
+	name = "house_phaeter_tiwaz"
+	dynasty = 920001
+}
+house_phaeter_tyr = {
+	name = "house_phaeter_tyr"
+	dynasty = 920001
+}
+house_phaeter_tiwazluwian = {
+	name = "house_phaeter_tiwazluwian"
+	dynasty = 920001
+}
+house_phaeter_tiyaz = {
+	name = "house_phaeter_tiyaz"
+	dynasty = 920001
+}
+house_phaeter_sius = {
+	name = "house_phaeter_sius"
+	dynasty = 920001
+}
+house_phaeter_zojz = {
+	name = "house_phaeter_zojz"
+	dynasty = 920001
+}
+house_phaeter_zis = {
+	name = "house_phaeter_zis"
+	dynasty = 920001
+}
+house_phaeter_ushasvedicdawn = {
+	name = "house_phaeter_ushasvedicdawn"
+	dynasty = 920001
+}
+house_phaeter_eosgreekdawn = {
+	name = "house_phaeter_eosgreekdawn"
+	dynasty = 920001
+}
+house_phaeter_auroraitalicdawn = {
+	name = "house_phaeter_auroraitalicdawn"
+	dynasty = 920001
+}
+house_phaeter_austra = {
+	name = "house_phaeter_austra"
+	dynasty = 920001
+}
+house_phaeter_ausrine = {
+	name = "house_phaeter_ausrine"
+	dynasty = 920001
+}
+house_phaeter_nasatyaashvin = {
+	name = "house_phaeter_nasatyaashvin"
+	dynasty = 920001
+}
+house_phaeter_dasraashvin = {
+	name = "house_phaeter_dasraashvin"
+	dynasty = 920001
+}
+house_phaeter_castordioscuri = {
+	name = "house_phaeter_castordioscuri"
+	dynasty = 920001
+}
+house_phaeter_polydeucesdioscuri = {
+	name = "house_phaeter_polydeucesdioscuri"
+	dynasty = 920001
+}
+house_phaeter_dievadelselder = {
+	name = "house_phaeter_dievadelselder"
+	dynasty = 920001
+}
+house_phaeter_dievadelsyounger = {
+	name = "house_phaeter_dievadelsyounger"
+	dynasty = 920001
+}
+house_phaeter_tiphrygian = {
+	name = "house_phaeter_tiphrygian"
+	dynasty = 920001
+}
+house_phaeter_deivasprotobaltic = {
+	name = "house_phaeter_deivasprotobaltic"
+	dynasty = 920001
+}
+house_phaeter_deivasprussian = {
+	name = "house_phaeter_deivasprussian"
+	dynasty = 920001
+}
+house_phaeter_diuvei = {
+	name = "house_phaeter_diuvei"
+	dynasty = 920001
+}
+house_phaeter_iupater = {
+	name = "house_phaeter_iupater"
+	dynasty = 920001
+}
+house_phaeter_tiw = {
+	name = "house_phaeter_tiw"
+	dynasty = 920001
+}
+house_phaeter_ziu = {
+	name = "house_phaeter_ziu"
+	dynasty = 920001
+}
+house_phaeter_fidius = {
+	name = "house_phaeter_fidius"
+	dynasty = 920001
+}

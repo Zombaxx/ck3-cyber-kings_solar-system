@@ -9090,3 +9090,153 @@ pictish = {
 	name = "dynn_ck_7000029"
 	culture = "english"	# e78 (CK2 Japanese leftover)
 }
+910001 = {
+	name = "dynn_ck_910001"
+	culture = "ashkenazi"
+}
+910002 = {
+	name = "dynn_ck_910002"
+	culture = "ashkenazi"
+}
+910003 = {
+	name = "dynn_ck_910003"
+	culture = "ashkenazi"
+}
+910004 = {
+	name = "dynn_ck_910004"
+	culture = "ashkenazi"
+}
+910005 = {
+	name = "dynn_ck_910005"
+	culture = "ashkenazi"
+}
+910006 = {
+	name = "dynn_ck_910006"
+	culture = "ashkenazi"
+}
+910007 = {
+	name = "dynn_ck_910007"
+	culture = "ashkenazi"
+}
+910008 = {
+	name = "dynn_ck_910008"
+	culture = "ashkenazi"
+}
+910009 = {
+	name = "dynn_ck_910009"
+	culture = "ashkenazi"
+}
+910010 = {
+	name = "dynn_ck_910010"
+	culture = "ashkenazi"
+}
+910011 = {
+	name = "dynn_ck_910011"
+	culture = "ashkenazi"
+}
+910012 = {
+	name = "dynn_ck_910012"
+	culture = "ashkenazi"
+}
+910013 = {
+	name = "dynn_ck_910013"
+	culture = "bedouin"
+}
+910014 = {
+	name = "dynn_ck_910014"
+	culture = "bedouin"
+}
+910015 = {
+	name = "dynn_ck_910015"
+	culture = "bedouin"
+}
+910016 = {
+	name = "dynn_ck_910016"
+	culture = "bedouin"
+}
+910017 = {
+	name = "dynn_ck_910017"
+	culture = "bedouin"
+}
+910018 = {
+	name = "dynn_ck_910018"
+	culture = "bedouin"
+}
+910019 = {
+	name = "dynn_ck_910019"
+	culture = "bedouin"
+}
+910020 = {
+	name = "dynn_ck_910020"
+	culture = "bedouin"
+}
+910021 = {
+	name = "dynn_ck_910021"
+	culture = "bedouin"
+}
+910022 = {
+	name = "dynn_ck_910022"
+	culture = "bedouin"
+}
+910023 = {
+	name = "dynn_ck_910023"
+	culture = "bedouin"
+}
+
+# 2026-11-13 21:00 Phaeter round (_dev/scripts/oneoff/gen_phaeter.py)
+920001 = {
+	name = "dynn_ck_920001"
+	culture = "phaeteran"
+}
+920010 = {
+	name = "dynn_ck_920010"
+	culture = "phaeteran"
+}
+920011 = {
+	name = "dynn_ck_920011"
+	culture = "olympian"
+}
+920012 = {
+	name = "dynn_ck_920012"
+	culture = "capitoline"
+}
+920013 = {
+	name = "dynn_ck_920013"
+	culture = "devan"
+}
+920014 = {
+	name = "dynn_ck_920014"
+	culture = "yazatan"
+}
+920015 = {
+	name = "dynn_ck_920015"
+	culture = "yazatan"
+}
+920016 = {
+	name = "dynn_ck_920016"
+	culture = "aesir"
+}
+920017 = {
+	name = "dynn_ck_920017"
+	culture = "aesir"
+}
+920018 = {
+	name = "dynn_ck_920018"
+	culture = "pravian"
+}
+920019 = {
+	name = "dynn_ck_920019"
+	culture = "dievian"
+}
+920020 = {
+	name = "dynn_ck_920020"
+	culture = "danann"
+}
+920021 = {
+	name = "dynn_ck_920021"
+	culture = "danann"
+}
+920022 = {
+	name = "dynn_ck_920022"
+	culture = "danann"
+}

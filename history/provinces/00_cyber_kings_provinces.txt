@@ -7092,13 +7092,15 @@
 	special_building = pam_reims_cathedral_01
 }
 ### c_province0460
-460 = {
+460 = {	# Derry
 	culture = irish
 	rite = roman_rite	# e83 real 2026 majority (was protestant_rite)
-	holding = castle_holding
+	holding = none	# e93 castle moved to Belfast (8202)
 }
-8202 = {
-	holding = none
+8202 = {	# Belfast, capital of Northern Ireland (e93)
+	culture = irish
+	rite = roman_rite
+	holding = castle_holding
 }
 ### c_province0456
 456 = {
@@ -8328,7 +8330,7 @@
 ### c_province0747
 747 = {
 	culture = somali
-	rite = reaverism_rite
+	rite = shafii	# e94 modder 15:57: only Somaliland (and the Puntland pirate coast, Cabudwaaq) stay Reaverism (was reaverism_rite)
 	holding = castle_holding
 }
 3468 = {
@@ -8426,7 +8428,7 @@
 ### c_province0774
 774 = {
 	culture = afar
-	rite = reaverism_rite
+	rite = shafii	# e94 modder 15:57: only Somaliland (and the Puntland pirate coast, Cabudwaaq) stay Reaverism (was reaverism_rite)
 	holding = castle_holding
 }
 8677 = {
@@ -20626,7 +20628,7 @@
 	holding = castle_holding
 }
 6035 = {
-	holding = none
+	holding = castle_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 ### c_province1496
 1496 = {
@@ -20647,10 +20649,10 @@
 	holding = church_holding
 }
 6061 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6062 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 
 ########## k_kingdom1508
@@ -20670,10 +20672,10 @@
 	holding = castle_holding
 }
 6097 = {
-	holding = none
+	holding = castle_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6098 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 
 ########## k_kingdom1471
@@ -20946,7 +20948,7 @@
 	holding = castle_holding
 }
 5857 = {
-	holding = none
+	holding = castle_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 ### c_province1435
 1435 = {
@@ -20961,7 +20963,7 @@
 	holding = city_holding
 }
 5886 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 ### c_province1442
 1442 = {
@@ -20976,7 +20978,7 @@
 	holding = city_holding
 }
 5908 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 ### c_province1449
 1449 = {
@@ -20991,7 +20993,7 @@
 	holding = city_holding
 }
 5927 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 ### c_province1468
 1468 = {
@@ -21009,7 +21011,7 @@
 	holding = castle_holding
 }
 5979 = {
-	holding = none
+	holding = castle_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 ### c_province1461
 1461 = {
@@ -21027,7 +21029,7 @@
 	holding = castle_holding
 }
 5961 = {
-	holding = none
+	holding = castle_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 
 ########## k_kingdom1584
@@ -21047,7 +21049,7 @@
 	holding = city_holding
 }
 6208 = {
-	holding = none
+	holding = castle_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 ### c_province1559
 1559 = {
@@ -21062,7 +21064,7 @@
 	holding = castle_holding
 }
 6281 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 ### c_province1546
 1546 = {
@@ -21080,10 +21082,10 @@
 	holding = city_holding
 }
 6231 = {
-	holding = none
+	holding = castle_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6232 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 ### c_province1557
 1557 = {
@@ -21101,7 +21103,7 @@
 	holding = city_holding
 }
 6273 = {
-	holding = none
+	holding = castle_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 ### c_province1581
 1581 = {
@@ -21113,7 +21115,7 @@
 	holding = church_holding
 }
 6339 = {
-	holding = none
+	holding = church_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 ### c_province1561
 1561 = {
@@ -21128,7 +21130,7 @@
 	holding = castle_holding
 }
 6287 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 ### c_province1551
 1551 = {
@@ -21143,7 +21145,7 @@
 	holding = castle_holding
 }
 6250 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 ### c_province1570
 1570 = {
@@ -21158,7 +21160,7 @@
 	holding = castle_holding
 }
 6314 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 ### c_province1564
 1564 = {
@@ -21176,7 +21178,7 @@
 	holding = city_holding
 }
 6296 = {
-	holding = none
+	holding = castle_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 ### c_province1595
 1595 = {
@@ -21191,7 +21193,7 @@
 	holding = castle_holding
 }
 6375 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 ### c_province1614
 1614 = {
@@ -21206,7 +21208,7 @@
 	holding = castle_holding
 }
 6431 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 ### c_province1599
 1599 = {
@@ -21221,7 +21223,7 @@
 	holding = castle_holding
 }
 6383 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 ### c_province1603
 1603 = {
@@ -21236,70 +21238,70 @@
 	holding = castle_holding
 }
 6392 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 ### c_province1658
 1658 = {
 	culture = ckw_callistan
 	rite = ancestor_worship_rite
-	holding = tribal_holding
+	holding = castle_holding	# 2026-11-13 21:00 advanced Ganymede (was tribal_holding)
 }
 6561 = {
 	holding = church_holding
 }
 6562 = {
-	holding = none
+	holding = church_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6563 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6564 = {
-	holding = none
+	holding = castle_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6565 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 ### c_province1615
 1615 = {
 	culture = aeon
 	rite = eternal_mechanism_rite
-	holding = tribal_holding
+	holding = castle_holding	# 2026-11-13 21:00 advanced Ganymede (was tribal_holding)
 }
 6432 = {
 	holding = church_holding
 }
 6433 = {
-	holding = none
+	holding = church_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6434 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6435 = {
-	holding = none
+	holding = castle_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6436 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 ### c_province1612
 1612 = {
 	culture = aeon
 	rite = eternal_mechanism_rite
-	holding = tribal_holding
+	holding = castle_holding	# 2026-11-13 21:00 advanced Ganymede (was tribal_holding)
 }
 6420 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6421 = {
-	holding = none
+	holding = church_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6422 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 ### c_province1618
 1618 = {
 	culture = aeon
 	rite = eternal_mechanism_rite
-	holding = tribal_holding
+	holding = castle_holding	# 2026-11-13 21:00 advanced Ganymede (was tribal_holding)
 	# Bastion Walls - Laomedon, Ganymede (El Elyon) (wonder, e64)
 	special_building_slot = cyber_bastion_walls_01
 	special_building = cyber_bastion_walls_01
@@ -21308,52 +21310,52 @@
 	holding = church_holding
 }
 6443 = {
-	holding = none
+	holding = church_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6444 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6445 = {
-	holding = none
+	holding = castle_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 ### c_province1631
 1631 = {
 	culture = ckw_callistan
 	rite = ancestor_worship_rite
-	holding = tribal_holding
+	holding = castle_holding	# 2026-11-13 21:00 advanced Ganymede (was tribal_holding)
 }
 6477 = {
 	holding = church_holding
 }
 6478 = {
-	holding = none
+	holding = church_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6479 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6480 = {
-	holding = none
+	holding = castle_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6481 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 ### c_province1643
 1643 = {
 	culture = ckw_callistan
 	rite = ancestor_worship_rite
-	holding = tribal_holding
+	holding = castle_holding	# 2026-11-13 21:00 advanced Ganymede (was tribal_holding)
 }
 6514 = {
 	holding = church_holding
 }
 6515 = {
-	holding = none
+	holding = church_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6516 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6517 = {
-	holding = none
+	holding = castle_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 ### c_province1560
 1560 = {
@@ -21368,7 +21370,7 @@
 	holding = castle_holding
 }
 6284 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 ### c_province1588
 1588 = {
@@ -21380,25 +21382,25 @@
 	holding = church_holding
 }
 6357 = {
-	holding = none
+	holding = church_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 ### c_province1584
 1584 = {
 	culture = aeon
 	rite = eternal_mechanism_rite
-	holding = tribal_holding
+	holding = castle_holding	# 2026-11-13 21:00 advanced Ganymede (was tribal_holding)
 }
 6346 = {
 	holding = church_holding
 }
 6347 = {
-	holding = none
+	holding = church_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6348 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6349 = {
-	holding = none
+	holding = castle_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 
 ########## k_kingdom1601
@@ -21415,7 +21417,7 @@
 	holding = castle_holding
 }
 6299 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 ### c_province1600
 1600 = {
@@ -21427,7 +21429,7 @@
 	holding = church_holding
 }
 6385 = {
-	holding = none
+	holding = church_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 ### c_province1583
 1583 = {
@@ -21439,64 +21441,64 @@
 	holding = church_holding
 }
 6345 = {
-	holding = none
+	holding = church_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 ### c_province1624
 1624 = {
 	culture = ckw_ganymedean
 	rite = theravada
-	holding = tribal_holding
+	holding = castle_holding	# 2026-11-13 21:00 advanced Ganymede (was tribal_holding)
 }
 6457 = {
 	holding = church_holding
 }
 6458 = {
-	holding = none
+	holding = church_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6459 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 ### c_province1636
 1636 = {
 	culture = ckw_ganymedean
 	rite = theravada
-	holding = tribal_holding
+	holding = castle_holding	# 2026-11-13 21:00 advanced Ganymede (was tribal_holding)
 }
 6492 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6493 = {
-	holding = none
+	holding = church_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 ### c_province1664
 1664 = {
 	culture = ckw_ganymedean
 	rite = theravada
-	holding = tribal_holding
+	holding = castle_holding	# 2026-11-13 21:00 advanced Ganymede (was tribal_holding)
 }
 6581 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6582 = {
-	holding = none
+	holding = church_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6583 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 ### c_province1644
 1644 = {
 	culture = ckw_ganymedean
 	rite = theravada
-	holding = tribal_holding
+	holding = castle_holding	# 2026-11-13 21:00 advanced Ganymede (was tribal_holding)
 }
 6518 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6519 = {
-	holding = none
+	holding = church_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6520 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 ### c_province1625
 1625 = {
@@ -21607,16 +21609,16 @@
 	holding = church_holding
 }
 6369 = {
-	holding = none
+	holding = church_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 ### c_province1619
 1619 = {
 	culture = ckw_ganymedean
 	rite = theravada
-	holding = tribal_holding
+	holding = castle_holding	# 2026-11-13 21:00 advanced Ganymede (was tribal_holding)
 }
 6446 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 ### c_province1601
 1601 = {
@@ -21628,7 +21630,7 @@
 	holding = church_holding
 }
 6387 = {
-	holding = none
+	holding = church_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 
 ########## k_kingdom1522
@@ -21645,7 +21647,7 @@
 	holding = city_holding
 }
 6019 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 ### c_province1497
 1497 = {
@@ -21660,7 +21662,7 @@
 	holding = city_holding
 }
 6065 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 ### c_province1492
 1492 = {
@@ -21678,7 +21680,7 @@
 	holding = castle_holding
 }
 6049 = {
-	holding = none
+	holding = castle_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 ### c_province1535
 1535 = {
@@ -21696,7 +21698,7 @@
 	holding = castle_holding
 }
 6190 = {
-	holding = none
+	holding = castle_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 ### c_province1547
 1547 = {
@@ -21714,7 +21716,7 @@
 	holding = castle_holding
 }
 6236 = {
-	holding = none
+	holding = castle_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 ### c_province1549
 1549 = {
@@ -21732,7 +21734,7 @@
 	holding = castle_holding
 }
 6244 = {
-	holding = none
+	holding = castle_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 ### c_province1571
 1571 = {
@@ -21747,7 +21749,7 @@
 	holding = city_holding
 }
 6317 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 ### c_province1582
 1582 = {
@@ -21765,7 +21767,7 @@
 	holding = castle_holding
 }
 6343 = {
-	holding = none
+	holding = castle_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 ### c_province1566
 1566 = {
@@ -21783,7 +21785,7 @@
 	holding = castle_holding
 }
 6303 = {
-	holding = none
+	holding = castle_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 ### c_province1509
 1509 = {
@@ -21801,7 +21803,7 @@
 	holding = castle_holding
 }
 6102 = {
-	holding = none
+	holding = castle_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 ### c_province1534
 1534 = {
@@ -21819,10 +21821,10 @@
 	holding = castle_holding
 }
 6185 = {
-	holding = none
+	holding = castle_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6186 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 ### c_province1522
 1522 = {
@@ -21840,10 +21842,10 @@
 	holding = castle_holding
 }
 6143 = {
-	holding = none
+	holding = castle_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6144 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 
 ########## k_kingdom1530
@@ -21851,37 +21853,37 @@
 1529 = {
 	culture = ckw_magian
 	rite = ancestor_worship_rite
-	holding = tribal_holding
+	holding = castle_holding	# 2026-11-13 21:00 advanced Ganymede (was tribal_holding)
 }
 6165 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6166 = {
-	holding = none
+	holding = church_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6167 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 ### c_province1530
 1530 = {
 	culture = ckw_magian
 	rite = ancestor_worship_rite
-	holding = tribal_holding
+	holding = castle_holding	# 2026-11-13 21:00 advanced Ganymede (was tribal_holding)
 }
 6168 = {
 	holding = church_holding
 }
 6169 = {
-	holding = none
+	holding = church_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6170 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6171 = {
-	holding = none
+	holding = castle_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6172 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 
 ########## k_kingdom1539
@@ -21889,16 +21891,16 @@
 1539 = {
 	culture = ckw_magian
 	rite = ancestor_worship_rite
-	holding = tribal_holding
+	holding = castle_holding	# 2026-11-13 21:00 advanced Ganymede (was tribal_holding)
 }
 6202 = {
 	holding = church_holding
 }
 6203 = {
-	holding = none
+	holding = church_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6204 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 
 ########## k_kingdom1478
@@ -21915,7 +21917,7 @@
 	holding = city_holding
 }
 5838 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 ### c_province1421
 1421 = {
@@ -21933,7 +21935,7 @@
 	holding = castle_holding
 }
 5853 = {
-	holding = none
+	holding = castle_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 ### c_province1417
 1417 = {
@@ -21948,7 +21950,7 @@
 	holding = city_holding
 }
 5843 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 ### c_province1445
 1445 = {
@@ -21966,7 +21968,7 @@
 	holding = castle_holding
 }
 5918 = {
-	holding = none
+	holding = castle_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 ### c_province1454
 1454 = {
@@ -21978,7 +21980,7 @@
 	holding = church_holding
 }
 5940 = {
-	holding = none
+	holding = church_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 ### c_province1428
 1428 = {
@@ -21996,7 +21998,7 @@
 	holding = castle_holding
 }
 5866 = {
-	holding = none
+	holding = castle_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 ### c_province1452
 1452 = {
@@ -22011,7 +22013,7 @@
 	holding = city_holding
 }
 5934 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 ### c_province1455
 1455 = {
@@ -22023,7 +22025,7 @@
 	holding = church_holding
 }
 5942 = {
-	holding = none
+	holding = church_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 ### c_province1479
 1479 = {
@@ -22035,7 +22037,7 @@
 	holding = church_holding
 }
 6011 = {
-	holding = none
+	holding = church_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 ### c_province1487
 1487 = {
@@ -22047,7 +22049,7 @@
 	holding = church_holding
 }
 6031 = {
-	holding = none
+	holding = church_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 ### c_province1476
 1476 = {
@@ -22062,7 +22064,7 @@
 	holding = city_holding
 }
 6001 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 ### c_province1467
 1467 = {
@@ -22077,7 +22079,7 @@
 	holding = city_holding
 }
 5975 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 ### c_province1483
 1483 = {
@@ -22092,7 +22094,7 @@
 	holding = city_holding
 }
 6022 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 ### c_province1485
 1485 = {
@@ -22104,7 +22106,7 @@
 	holding = church_holding
 }
 6027 = {
-	holding = none
+	holding = church_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 ### c_province1510
 1510 = {
@@ -22119,7 +22121,7 @@
 	holding = city_holding
 }
 6105 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 ### c_province1501
 1501 = {
@@ -22134,7 +22136,7 @@
 	holding = city_holding
 }
 6074 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 ### c_province1473
 1473 = {
@@ -22146,7 +22148,7 @@
 	holding = church_holding
 }
 5992 = {
-	holding = none
+	holding = church_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 ### c_province1495
 1495 = {
@@ -22158,7 +22160,7 @@
 	holding = church_holding
 }
 6056 = {
-	holding = none
+	holding = church_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 ### c_province1478
 1478 = {
@@ -22176,7 +22178,7 @@
 	holding = castle_holding
 }
 6009 = {
-	holding = none
+	holding = castle_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 
 ########## k_kingdom1548
@@ -22190,7 +22192,7 @@
 	holding = church_holding
 }
 6071 = {
-	holding = none
+	holding = church_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 ### c_province1503
 1503 = {
@@ -22205,7 +22207,7 @@
 	holding = castle_holding
 }
 6081 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 ### c_province1519
 1519 = {
@@ -22217,7 +22219,7 @@
 	holding = church_holding
 }
 6135 = {
-	holding = none
+	holding = church_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 ### c_province1512
 1512 = {
@@ -22235,7 +22237,7 @@
 	holding = city_holding
 }
 6111 = {
-	holding = none
+	holding = castle_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 ### c_province1532
 1532 = {
@@ -22253,7 +22255,7 @@
 	holding = city_holding
 }
 6179 = {
-	holding = none
+	holding = castle_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 ### c_province1548
 1548 = {
@@ -22271,7 +22273,7 @@
 	holding = city_holding
 }
 6240 = {
-	holding = none
+	holding = castle_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 
 ########## k_kingdom1504
@@ -23248,22 +23250,22 @@
 1682 = {
 	culture = ckw_kolobian
 	rite = theravada
-	holding = tribal_holding
+	holding = castle_holding	# 2026-11-13 21:00 advanced Ganymede (was tribal_holding)
 }
 6637 = {
 	holding = church_holding
 }
 6638 = {
-	holding = none
+	holding = church_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6639 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6640 = {
-	holding = none
+	holding = castle_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6641 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 
 ########## k_kingdom1651
@@ -24207,187 +24209,187 @@
 1572 = {
 	culture = ckw_elamite
 	rite = ancestor_worship_rite
-	holding = tribal_holding
+	holding = castle_holding	# 2026-11-13 21:00 advanced Ganymede (was tribal_holding)
 }
 6318 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6319 = {
-	holding = none
+	holding = church_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 ### c_province1594
 1594 = {
 	culture = ckw_elamite
 	rite = ancestor_worship_rite
-	holding = tribal_holding
+	holding = castle_holding	# 2026-11-13 21:00 advanced Ganymede (was tribal_holding)
 }
 6370 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6371 = {
-	holding = none
+	holding = church_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6372 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 ### c_province1577
 1577 = {
 	culture = ckw_elamite
 	rite = ancestor_worship_rite
-	holding = tribal_holding
+	holding = castle_holding	# 2026-11-13 21:00 advanced Ganymede (was tribal_holding)
 }
 6327 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6328 = {
-	holding = none
+	holding = church_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 ### c_province1606
 1606 = {
 	culture = ckw_elamite
 	rite = ancestor_worship_rite
-	holding = tribal_holding
+	holding = castle_holding	# 2026-11-13 21:00 advanced Ganymede (was tribal_holding)
 }
 6402 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6403 = {
-	holding = none
+	holding = church_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6404 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 ### c_province1623
 1623 = {
 	culture = ckw_elamite
 	rite = ancestor_worship_rite
-	holding = tribal_holding
+	holding = castle_holding	# 2026-11-13 21:00 advanced Ganymede (was tribal_holding)
 }
 6454 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6455 = {
-	holding = none
+	holding = church_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6456 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 ### c_province1645
 1645 = {
 	culture = ckw_elamite
 	rite = ancestor_worship_rite
-	holding = tribal_holding
+	holding = castle_holding	# 2026-11-13 21:00 advanced Ganymede (was tribal_holding)
 }
 6521 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6522 = {
-	holding = none
+	holding = church_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6523 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 ### c_province1648
 1648 = {
 	culture = ckw_elamite
 	rite = ancestor_worship_rite
-	holding = tribal_holding
+	holding = castle_holding	# 2026-11-13 21:00 advanced Ganymede (was tribal_holding)
 }
 6530 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6531 = {
-	holding = none
+	holding = church_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6532 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 ### c_province1667
 1667 = {
 	culture = ckw_elamite
 	rite = ancestor_worship_rite
-	holding = tribal_holding
+	holding = castle_holding	# 2026-11-13 21:00 advanced Ganymede (was tribal_holding)
 }
 6590 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6591 = {
-	holding = none
+	holding = church_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 ### c_province1671
 1671 = {
 	culture = ckw_elamite
 	rite = ancestor_worship_rite
-	holding = tribal_holding
+	holding = castle_holding	# 2026-11-13 21:00 advanced Ganymede (was tribal_holding)
 }
 6601 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6602 = {
-	holding = none
+	holding = church_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6603 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 ### c_province1656
 1656 = {
 	culture = ckw_elamite
 	rite = ancestor_worship_rite
-	holding = tribal_holding
+	holding = castle_holding	# 2026-11-13 21:00 advanced Ganymede (was tribal_holding)
 }
 6558 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 ### c_province1672
 1672 = {
 	culture = ckw_elamite
 	rite = ancestor_worship_rite
-	holding = tribal_holding
+	holding = castle_holding	# 2026-11-13 21:00 advanced Ganymede (was tribal_holding)
 }
 6604 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6605 = {
-	holding = none
+	holding = church_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 ### c_province1626
 1626 = {
 	culture = ckw_elamite
 	rite = ancestor_worship_rite
-	holding = tribal_holding
+	holding = castle_holding	# 2026-11-13 21:00 advanced Ganymede (was tribal_holding)
 }
 6462 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6463 = {
-	holding = none
+	holding = church_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 ### c_province1628
 1628 = {
 	culture = ckw_elamite
 	rite = ancestor_worship_rite
-	holding = tribal_holding
+	holding = castle_holding	# 2026-11-13 21:00 advanced Ganymede (was tribal_holding)
 }
 6470 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6471 = {
-	holding = none
+	holding = church_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 ### c_province1635
 1635 = {
 	culture = ckw_elamite
 	rite = ancestor_worship_rite
-	holding = tribal_holding
+	holding = castle_holding	# 2026-11-13 21:00 advanced Ganymede (was tribal_holding)
 }
 6489 = {
 	holding = church_holding
 }
 6490 = {
-	holding = none
+	holding = church_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6491 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 
 ########## k_kingdom1691
@@ -24395,22 +24397,22 @@
 1691 = {
 	culture = aeon
 	rite = eternal_mechanism_rite
-	holding = tribal_holding
+	holding = castle_holding	# 2026-11-13 21:00 advanced Ganymede (was tribal_holding)
 }
 6666 = {
 	holding = church_holding
 }
 6667 = {
-	holding = none
+	holding = church_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6668 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6669 = {
-	holding = none
+	holding = castle_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6670 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 
 ########## k_kingdom1705
@@ -24418,19 +24420,19 @@
 1705 = {
 	culture = ckw_magian
 	rite = ancestor_worship_rite
-	holding = tribal_holding
+	holding = castle_holding	# 2026-11-13 21:00 advanced Ganymede (was tribal_holding)
 }
 6717 = {
 	holding = church_holding
 }
 6718 = {
-	holding = none
+	holding = church_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6719 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6720 = {
-	holding = none
+	holding = castle_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 
 ########## k_kingdom1609
@@ -24447,7 +24449,7 @@
 	holding = castle_holding
 }
 6355 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 ### c_province1607
 1607 = {
@@ -24465,10 +24467,10 @@
 	holding = city_holding
 }
 6408 = {
-	holding = none
+	holding = castle_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6409 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 ### c_province1629
 1629 = {
@@ -24483,7 +24485,7 @@
 	holding = castle_holding
 }
 6474 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 ### c_province1609
 1609 = {
@@ -24501,10 +24503,10 @@
 	holding = city_holding
 }
 6413 = {
-	holding = none
+	holding = castle_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6414 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 
 ########## k_kingdom1704
@@ -24512,229 +24514,229 @@
 1662 = {
 	culture = aeon
 	rite = eternal_mechanism_rite
-	holding = tribal_holding
+	holding = castle_holding	# 2026-11-13 21:00 advanced Ganymede (was tribal_holding)
 }
 6575 = {
 	holding = church_holding
 }
 6576 = {
-	holding = none
+	holding = church_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6577 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6578 = {
-	holding = none
+	holding = castle_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 ### c_province1668
 1668 = {
 	culture = aeon
 	rite = eternal_mechanism_rite
-	holding = tribal_holding
+	holding = castle_holding	# 2026-11-13 21:00 advanced Ganymede (was tribal_holding)
 }
 6592 = {
 	holding = church_holding
 }
 6593 = {
-	holding = none
+	holding = church_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6594 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6595 = {
-	holding = none
+	holding = castle_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 ### c_province1660
 1660 = {
 	culture = aeon
 	rite = eternal_mechanism_rite
-	holding = tribal_holding
+	holding = castle_holding	# 2026-11-13 21:00 advanced Ganymede (was tribal_holding)
 }
 6569 = {
 	holding = church_holding
 }
 6570 = {
-	holding = none
+	holding = church_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6571 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6572 = {
-	holding = none
+	holding = castle_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6573 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 ### c_province1670
 1670 = {
 	culture = aeon
 	rite = eternal_mechanism_rite
-	holding = tribal_holding
+	holding = castle_holding	# 2026-11-13 21:00 advanced Ganymede (was tribal_holding)
 }
 6598 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6599 = {
-	holding = none
+	holding = church_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6600 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 ### c_province1678
 1678 = {
 	culture = aeon
 	rite = eternal_mechanism_rite
-	holding = tribal_holding
+	holding = castle_holding	# 2026-11-13 21:00 advanced Ganymede (was tribal_holding)
 }
 6621 = {
 	holding = church_holding
 }
 6622 = {
-	holding = none
+	holding = church_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6623 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6624 = {
-	holding = none
+	holding = castle_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 ### c_province1696
 1696 = {
 	culture = aeon
 	rite = eternal_mechanism_rite
-	holding = tribal_holding
+	holding = castle_holding	# 2026-11-13 21:00 advanced Ganymede (was tribal_holding)
 }
 6686 = {
 	holding = church_holding
 }
 6687 = {
-	holding = none
+	holding = church_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 ### c_province1687
 1687 = {
 	culture = aeon
 	rite = eternal_mechanism_rite
-	holding = tribal_holding
+	holding = castle_holding	# 2026-11-13 21:00 advanced Ganymede (was tribal_holding)
 }
 6653 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6654 = {
-	holding = none
+	holding = church_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6655 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 ### c_province1707
 1707 = {
 	culture = aeon
 	rite = eternal_mechanism_rite
-	holding = tribal_holding
+	holding = castle_holding	# 2026-11-13 21:00 advanced Ganymede (was tribal_holding)
 }
 6723 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6724 = {
-	holding = none
+	holding = church_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 ### c_province1726
 1726 = {
 	culture = aeon
 	rite = eternal_mechanism_rite
-	holding = tribal_holding
+	holding = castle_holding	# 2026-11-13 21:00 advanced Ganymede (was tribal_holding)
 }
 6778 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6779 = {
-	holding = none
+	holding = church_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6780 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 ### c_province1714
 1714 = {
 	culture = aeon
 	rite = eternal_mechanism_rite
-	holding = tribal_holding
+	holding = castle_holding	# 2026-11-13 21:00 advanced Ganymede (was tribal_holding)
 }
 6744 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6745 = {
-	holding = none
+	holding = church_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6746 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 ### c_province1692
 1692 = {
 	culture = aeon
 	rite = eternal_mechanism_rite
-	holding = tribal_holding
+	holding = castle_holding	# 2026-11-13 21:00 advanced Ganymede (was tribal_holding)
 }
 6671 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6672 = {
-	holding = none
+	holding = church_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6673 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 ### c_province1703
 1703 = {
 	culture = aeon
 	rite = eternal_mechanism_rite
-	holding = tribal_holding
+	holding = castle_holding	# 2026-11-13 21:00 advanced Ganymede (was tribal_holding)
 }
 6711 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6712 = {
-	holding = none
+	holding = church_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6713 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 ### c_province1717
 1717 = {
 	culture = aeon
 	rite = eternal_mechanism_rite
-	holding = tribal_holding
+	holding = castle_holding	# 2026-11-13 21:00 advanced Ganymede (was tribal_holding)
 }
 6753 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6754 = {
-	holding = none
+	holding = church_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 ### c_province1722
 1722 = {
 	culture = aeon
 	rite = eternal_mechanism_rite
-	holding = tribal_holding
+	holding = castle_holding	# 2026-11-13 21:00 advanced Ganymede (was tribal_holding)
 }
 6766 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6767 = {
-	holding = none
+	holding = church_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 ### c_province1704
 1704 = {
 	culture = aeon
 	rite = eternal_mechanism_rite
-	holding = tribal_holding
+	holding = castle_holding	# 2026-11-13 21:00 advanced Ganymede (was tribal_holding)
 }
 6714 = {
 	holding = church_holding
 }
 6715 = {
-	holding = none
+	holding = church_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6716 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 
 ########## k_kingdom1709
@@ -24742,85 +24744,85 @@
 1674 = {
 	culture = aeon
 	rite = eternal_mechanism_rite
-	holding = tribal_holding
+	holding = castle_holding	# 2026-11-13 21:00 advanced Ganymede (was tribal_holding)
 }
 6608 = {
 	holding = church_holding
 }
 6609 = {
-	holding = none
+	holding = church_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6610 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6611 = {
-	holding = none
+	holding = castle_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 ### c_province1698
 1698 = {
 	culture = aeon
 	rite = eternal_mechanism_rite
-	holding = tribal_holding
+	holding = castle_holding	# 2026-11-13 21:00 advanced Ganymede (was tribal_holding)
 }
 6694 = {
 	holding = church_holding
 }
 6695 = {
-	holding = none
+	holding = church_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6696 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6697 = {
-	holding = none
+	holding = castle_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 ### c_province1700
 1700 = {
 	culture = aeon
 	rite = eternal_mechanism_rite
-	holding = tribal_holding
+	holding = castle_holding	# 2026-11-13 21:00 advanced Ganymede (was tribal_holding)
 }
 6701 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6702 = {
-	holding = none
+	holding = church_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6703 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 ### c_province1721
 1721 = {
 	culture = aeon
 	rite = eternal_mechanism_rite
-	holding = tribal_holding
+	holding = castle_holding	# 2026-11-13 21:00 advanced Ganymede (was tribal_holding)
 }
 6763 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6764 = {
-	holding = none
+	holding = church_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6765 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 ### c_province1709
 1709 = {
 	culture = aeon
 	rite = eternal_mechanism_rite
-	holding = tribal_holding
+	holding = castle_holding	# 2026-11-13 21:00 advanced Ganymede (was tribal_holding)
 }
 6728 = {
 	holding = church_holding
 }
 6729 = {
-	holding = none
+	holding = church_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6730 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6731 = {
-	holding = none
+	holding = castle_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 
 ########## k_kingdom1719
@@ -24828,85 +24830,85 @@
 1686 = {
 	culture = ckw_kolobian
 	rite = theravada
-	holding = tribal_holding
+	holding = castle_holding	# 2026-11-13 21:00 advanced Ganymede (was tribal_holding)
 }
 6651 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6652 = {
-	holding = none
+	holding = church_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 ### c_province1697
 1697 = {
 	culture = ckw_kolobian
 	rite = theravada
-	holding = tribal_holding
+	holding = castle_holding	# 2026-11-13 21:00 advanced Ganymede (was tribal_holding)
 }
 6688 = {
 	holding = church_holding
 }
 6689 = {
-	holding = none
+	holding = church_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6690 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6691 = {
-	holding = none
+	holding = castle_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6692 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6693 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 ### c_province1712
 1712 = {
 	culture = ckw_kolobian
 	rite = ancestor_worship_rite
-	holding = tribal_holding
+	holding = castle_holding	# 2026-11-13 21:00 advanced Ganymede (was tribal_holding)
 }
 6738 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6739 = {
-	holding = none
+	holding = church_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6740 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 ### c_province1715
 1715 = {
 	culture = ckw_kolobian
 	rite = ancestor_worship_rite
-	holding = tribal_holding
+	holding = castle_holding	# 2026-11-13 21:00 advanced Ganymede (was tribal_holding)
 }
 6747 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6748 = {
-	holding = none
+	holding = church_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6749 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 ### c_province1719
 1719 = {
 	culture = ckw_kolobian
 	rite = ancestor_worship_rite
-	holding = tribal_holding
+	holding = castle_holding	# 2026-11-13 21:00 advanced Ganymede (was tribal_holding)
 }
 6757 = {
 	holding = church_holding
 }
 6758 = {
-	holding = none
+	holding = church_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6759 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6760 = {
-	holding = none
+	holding = castle_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 
 ########## k_kingdom1754
@@ -24941,55 +24943,55 @@
 1755 = {
 	culture = ckw_kolobian
 	rite = ancestor_worship_rite
-	holding = tribal_holding
+	holding = castle_holding	# 2026-11-13 21:00 advanced Ganymede (was tribal_holding)
 }
 6856 = {
 	holding = church_holding
 }
 6857 = {
-	holding = none
+	holding = church_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6858 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6859 = {
-	holding = none
+	holding = castle_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 ### c_province1761
 1761 = {
 	culture = ckw_kolobian
 	rite = ancestor_worship_rite
-	holding = tribal_holding
+	holding = castle_holding	# 2026-11-13 21:00 advanced Ganymede (was tribal_holding)
 }
 6872 = {
 	holding = church_holding
 }
 6873 = {
-	holding = none
+	holding = church_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6874 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6875 = {
-	holding = none
+	holding = castle_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 ### c_province1773
 1773 = {
 	culture = ckw_kolobian
 	rite = ancestor_worship_rite
-	holding = tribal_holding
+	holding = castle_holding	# 2026-11-13 21:00 advanced Ganymede (was tribal_holding)
 }
 6913 = {
 	holding = church_holding
 }
 6914 = {
-	holding = none
+	holding = church_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6915 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6916 = {
-	holding = none
+	holding = castle_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 ### c_province1737
 1737 = {
@@ -25045,106 +25047,106 @@
 1745 = {
 	culture = ckw_kolobian
 	rite = reaverism_rite
-	holding = tribal_holding
+	holding = castle_holding	# 2026-11-13 21:00 advanced Ganymede (was tribal_holding)
 }
 6827 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6828 = {
-	holding = none
+	holding = church_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6829 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 ### c_province1749
 1749 = {
 	culture = ckw_kolobian
 	rite = reaverism_rite
-	holding = tribal_holding
+	holding = castle_holding	# 2026-11-13 21:00 advanced Ganymede (was tribal_holding)
 }
 6838 = {
 	holding = church_holding
 }
 6839 = {
-	holding = none
+	holding = church_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6840 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6841 = {
-	holding = none
+	holding = castle_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 ### c_province1763
 1763 = {
 	culture = ckw_kolobian
 	rite = ancestor_worship_rite
-	holding = tribal_holding
+	holding = castle_holding	# 2026-11-13 21:00 advanced Ganymede (was tribal_holding)
 }
 6879 = {
 	holding = church_holding
 }
 6880 = {
-	holding = none
+	holding = church_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6881 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6882 = {
-	holding = none
+	holding = castle_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 ### c_province1769
 1769 = {
 	culture = ckw_kolobian
 	rite = ancestor_worship_rite
-	holding = tribal_holding
+	holding = castle_holding	# 2026-11-13 21:00 advanced Ganymede (was tribal_holding)
 }
 6901 = {
 	holding = church_holding
 }
 6902 = {
-	holding = none
+	holding = church_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6903 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6904 = {
-	holding = none
+	holding = castle_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6905 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 ### c_province1765
 1765 = {
 	culture = ckw_kolobian
 	rite = kushitism_pagan
-	holding = tribal_holding
+	holding = castle_holding	# 2026-11-13 21:00 advanced Ganymede (was tribal_holding)
 }
 6887 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6888 = {
-	holding = none
+	holding = church_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6889 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 ### c_province1771
 1771 = {
 	culture = ckw_kolobian
 	rite = kushitism_pagan
-	holding = tribal_holding
+	holding = castle_holding	# 2026-11-13 21:00 advanced Ganymede (was tribal_holding)
 }
 6908 = {
 	holding = church_holding
 }
 6909 = {
-	holding = none
+	holding = church_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6910 = {
-	holding = none
+	holding = city_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 6911 = {
-	holding = none
+	holding = castle_holding	# 2026-11-13 21:00 advanced Ganymede (was none)
 }
 
 ########## k_kingdom1742
@@ -32052,7 +32054,7 @@
 ### c_afar
 2537 = {
 	culture = afar
-	rite = reaverism_rite
+	rite = shafii	# e94 modder 15:57: only Somaliland (and the Puntland pirate coast, Cabudwaaq) stay Reaverism (was reaverism_rite)
 	holding = castle_holding
 }
 8949 = {

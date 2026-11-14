@@ -1,4 +1,5 @@
-﻿#On actions related to religion
+﻿# year-shift 7050: calendar literals moved +5984 (gen_year_shift.py)
+#On actions related to religion
 
 # Code on-action: a new faith is created (character create/convert, or a rite detaching into its own faith)
 # Root is the new faith; its head/leader is root.main_rite.head_of_rite (use it for faith-setup effects)
@@ -1660,7 +1661,7 @@ pagan_conversion_pulse = {
 		trigger_if = { # Lighten the dev requirements progressively
 			limit = {
 				OR = {
-					current_date <= 950.1.1
+					current_date <= 6934.1.1
 					AND = {
 						capital_province ?= { geographical_region = world_steppe }
 						primary_title.tier >= tier_duchy
@@ -1673,7 +1674,7 @@ pagan_conversion_pulse = {
 		}
 		trigger_else_if = {
 			limit = {
-				current_date <= 1000.1.1
+				current_date <= 6984.1.1
 			}
 			capital_province.county = {
 				development_level >= 6 #lower than the regular requirement to make sure some rulers can convert

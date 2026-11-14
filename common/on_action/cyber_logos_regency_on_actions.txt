@@ -1,0 +1,44 @@
+﻿# Cyber Kings 2026-11-13 (modder 16:51): El Elyon 777777 has been incapacitated since Adonai's war (AP 3420, see his history
+# flag el_incapacitated_adonai_war) and Logos 777100 rules Ganymede as his ENTRENCHED regent. The "regency postponed" ruling
+# no longer applies. Vanilla diarchy type `regency` = the entrenched regency; swing 90 is above
+# regency_cant_be_ended_above_this_point (80) and below regents_can_try_to_overthrow_present_lieges (95): Logos can't simply
+# be dismissed, and he stays a loyal regent. Same pattern as vanilla game_start (Afonso/Teresa, Dai Viet; bookmark_events).
+# Appended to vanilla on_game_start (on_actions lists from several files are merged).
+# Lore: _dev/ANCIENT_CYWIZARDS_DESIGN.md "Celestial Hegemony and the ancient wars".
+on_game_start = {
+	on_actions = { cyber_logos_entrenched_regency }
+}
+
+cyber_logos_entrenched_regency = {
+	effect = {
+		character:777777 ?= {
+			if = {
+				limit = {
+					is_alive = yes
+					is_ruler = yes
+					exists = character:777100
+					character:777100 = { is_alive = yes }
+				}
+				if = {
+					limit = { NOT = { has_trait = incapable } }
+					add_trait = incapable
+				}
+				if = {
+					limit = { has_active_diarchy = yes }
+					end_diarchy = yes	# e.g. an automatic temporary regency started by the trait
+				}
+				designate_diarch = character:777100
+				try_start_diarchy = regency
+				if = {
+					limit = { has_active_diarchy = yes }
+					set_diarch = character:777100
+					set_diarchy_swing = 90
+				}
+				remove_generated_diarch_consequences_effect = {
+					NEW_DIARCH = character:777100
+					LIEGE = character:777777
+				}
+			}
+		}
+	}
+}

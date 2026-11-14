@@ -8,6 +8,8 @@ antecessor = {
 	martial_custom = martial_custom_equal
 	head_determination = head_determination_domain
 	traditions = {
+		tradition_ck_antecessor
+		tradition_ck_archaic
 		tradition_philosopher_culture
 		tradition_forest_folk
 		tradition_mystical_ancestors
@@ -31,6 +33,8 @@ ergaster = {
 	martial_custom = martial_custom_equal
 	head_determination = head_determination_domain
 	traditions = {
+		tradition_ck_ergaster
+		tradition_ck_archaic
 		tradition_seafaring
 		tradition_battlefield_looters
 		tradition_ruling_caste
@@ -54,6 +58,8 @@ archon = {
 	martial_custom = martial_custom_equal
 	head_determination = head_determination_domain
 	traditions = {
+		tradition_ck_archon
+		tradition_ck_elohim
 		tradition_eye_for_an_eye
 		tradition_dryland_dwellers
 		tradition_astute_diplomats
@@ -77,6 +83,8 @@ aeon = {
 	martial_custom = martial_custom_equal
 	head_determination = head_determination_domain
 	traditions = {
+		tradition_ck_aeon
+		tradition_ck_elohim
 		tradition_desert_nomads
 		tradition_pastoralists
 		tradition_storytellers
@@ -100,6 +108,7 @@ neanderthal = {
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
 	traditions = {
+		tradition_ck_neanderthal
 		tradition_mountain_homes
 		tradition_artisans
 		tradition_hereditary_hierarchy
@@ -123,6 +132,7 @@ jotnar = {
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
 	traditions = {
+		tradition_ck_jotnar
 		tradition_mountaineers
 		tradition_only_the_strong
 		tradition_stand_and_fight
@@ -146,6 +156,7 @@ cathrian = {
 	martial_custom = martial_custom_equal
 	head_determination = head_determination_domain
 	traditions = {
+		tradition_ck_cathrian
 		tradition_hunters
 		tradition_sacred_hunts
 		tradition_xenophilic
@@ -169,6 +180,7 @@ mau_khet = {
 	martial_custom = martial_custom_equal
 	head_determination = head_determination_domain
 	traditions = {
+		tradition_ck_mau_khet
 		tradition_ruling_caste
 		tradition_hunters
 		tradition_esteemed_hospitality
@@ -192,6 +204,7 @@ thark = {
 	martial_custom = martial_custom_equal
 	head_determination = head_determination_domain
 	traditions = {
+		tradition_ck_thark
 		tradition_warrior_culture
 		tradition_quarrelsome
 		tradition_hunters
@@ -215,6 +228,7 @@ torquas = {
 	martial_custom = martial_custom_equal
 	head_determination = head_determination_domain
 	traditions = {
+		tradition_ck_torquas
 		tradition_warrior_culture
 		tradition_only_the_strong
 		tradition_horse_lords

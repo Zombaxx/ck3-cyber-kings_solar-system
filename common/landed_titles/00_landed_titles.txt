@@ -4329,12 +4329,6 @@ h_eurasia = {
 					b_barony0452_b = { province = 8192 }
 					b_barony0456a = { province = 8193 }
 				}
-				c_province0460 = {
-					can_be_named_after_dynasty = no
-					color = { 166 118 72 }
-					b_barony0460 = { province = 460 }
-					b_monaghan = { province = 8202 }
-				}
 			}
 			d_duchy0479 = {
 				color = { 166 116 71 }
@@ -4361,6 +4355,17 @@ h_eurasia = {
 					color = { 183 103 105 }
 					b_london = { province = 496 }
 					b_barony0496a = { province = 8243 }
+				}
+			}
+			d_northern_ireland = {	# e93 (modder 2026-11-13): the north of Ireland is the UK's Northern Ireland (was c_province0460 in d_duchy0456 Ireland)
+				color = { 150 100 70 }
+				capital = c_province0460
+				can_be_named_after_dynasty = no
+				c_province0460 = {
+					can_be_named_after_dynasty = no
+					color = { 166 118 72 }
+					b_monaghan = { province = 8202 }	# Belfast (capital barony)
+					b_barony0460 = { province = 460 }	# Derry
 				}
 			}
 			d_duchy0480 = {

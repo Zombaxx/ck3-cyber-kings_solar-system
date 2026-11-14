@@ -1,4 +1,5 @@
-﻿namespace = fp3_yearly
+﻿# year-shift 7050: calendar literals moved +5984 (gen_year_shift.py)
+namespace = fp3_yearly
 
 ########EVENT INDEX############
 #fp3_yearly.8037 - A Cure for Acedia (the Melancholia Chain)
@@ -75,16 +76,16 @@ fp3_yearly.8037 = { #A Cure for Acedia
 	 	modifier = {
 		 	OR = {
 			 	AND = { #for Rhazes
-					current_year >= 895
-				 	current_year < 935
+					current_year >= 6879
+				 	current_year < 6919
 			 	}
 			 	AND = { #for Al-Akhwayni 
-			 		current_year >= 936
-				 	current_year < 983
+			 		current_year >= 6920
+				 	current_year < 6967
 			 	}
 			 	AND = { #for Avicenna 
-				 	current_year >= 1000
-				 	current_year < 1040
+				 	current_year >= 6984
+				 	current_year < 7024
 			 	}
 		 	}
 		 	add = 1.6
@@ -99,8 +100,8 @@ fp3_yearly.8037 = { #A Cure for Acedia
 		 	limit = { #their rough period of activity
 		 		is_ai = no
 			 	AND = {
-				 	current_year >= 895
-				 	current_year < 935
+				 	current_year >= 6879
+				 	current_year < 6919
 			 	}
 			 	NOT = { exists = global_var:rhazes_created } #makes sure that he wasn't already spawned by any event elsewhere
 		 	}
@@ -115,8 +116,8 @@ fp3_yearly.8037 = { #A Cure for Acedia
 		 	limit = { #their rough period of activity
 		 		is_ai = no
 			 	AND = {
-				 	current_year >= 936
-				 	current_year < 983
+				 	current_year >= 6920
+				 	current_year < 6967
 			 	}
 			 	NOT = { exists = global_var:al_akhwayni_created } #makes sure that he wasn't already spawned by any event elsewhere
 		 	}
@@ -131,8 +132,8 @@ fp3_yearly.8037 = { #A Cure for Acedia
 		 	limit = { #their rough period of activity
 			 	is_ai = no
 			 	AND = {
-				 	current_year >= 1000
-				 	current_year < 1040
+				 	current_year >= 6984
+				 	current_year < 7024
 			 	}
 			 	NOT = { exists = global_var:avicenna_created } #makes sure that he wasn't already spawned by any event elsewhere
 		 	}
@@ -1508,7 +1509,7 @@ fp3_yearly.8050 = { #The Fate of the Dead
 		first_valid = {
 			triggered_desc = {
 				trigger = { 
-					current_year < 950 
+					current_year < 6934 
 				}
 				desc = fp3_yearly.8050_early_period.desc
 			}

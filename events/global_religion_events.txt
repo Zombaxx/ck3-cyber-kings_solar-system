@@ -1,4 +1,5 @@
-﻿namespace = global_religion
+﻿# year-shift 7050: calendar literals moved +5984 (gen_year_shift.py)
+namespace = global_religion
 
 
 #When a pagan (ai) domain is ready to feudalize, a reformed neighbor they're on good terms with should attempt to convert them, or they should have a chance to spontaneously convert
@@ -224,23 +225,23 @@ global_religion.0001 = {
 				}
 				modifier = {
 					add = -40
-					current_date >= 868.1.1
+					current_date >= 6852.1.1
 				}
 				modifier = {
 					add = -15
-					current_date >= 900.1.1
+					current_date >= 6884.1.1
 				}
 				modifier = {
 					add = -25
-					current_date >= 950.1.1
+					current_date >= 6934.1.1
 				}
 				modifier = {
 					add = -10
-					current_date >= 1000.1.1
+					current_date >= 6984.1.1
 				}
 				modifier = { #100 % that something happens if it can
 					add = -10
-					current_date >= 1100.1.1
+					current_date >= 7084.1.1
 				}
 			}
 		}
@@ -1075,7 +1076,7 @@ global_religion.1000 = {
 		ai_chance = {
 			base = 0
 			modifier = {
-				current_year >= 1000
+				current_year >= 6984
 				rite = {
 					rite_has_parameter = unreformed
 					faith = {
@@ -1296,7 +1297,7 @@ global_religion.1000 = {
 				add = 5000
 			}
 			modifier = {
-				current_year >= 1000
+				current_year >= 6984
 				rite = {
 					rite_has_parameter = unreformed
 					faith = {

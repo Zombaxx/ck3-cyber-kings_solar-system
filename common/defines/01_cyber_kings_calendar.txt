@@ -1,0 +1,5 @@
+﻿# Cyber Kings calendar (2026-11-13): the game starts 7050.9.15 AP (= 2050 AD; AP = AD + 5000).
+# Vanilla END_DATE is 1453.1.1, which is before the start. 9999.12.31 is the latest date the engine accepts (modder's choice).
+NGame = {
+	END_DATE = "9999.12.31"
+}

@@ -1,4 +1,5 @@
-﻿### Establish [ROOT.Char.GetFaith.GetAdherentNameNoTooltip] Stronghold ###
+﻿# year-shift 7050: calendar literals moved +5984 (gen_year_shift.py)
+### Establish [ROOT.Char.GetFaith.GetAdherentNameNoTooltip] Stronghold ###
 restore_badd_fortress_decision = { #This allows a ruler with a Zandik or Chthonic Redoubts faith to restore the Badd fortress (it's in the barony Ahar, which you'll need to capture) and make it his capital.
 	title = restore_badd_fortress_decision
 	picture = {
@@ -295,7 +296,7 @@ fp3_embrace_zoroastrianism_decision = {
 	sort_order = 120
 	
 	is_shown = {
-		current_date <= 960.1.1
+		current_date <= 6944.1.1
 		# Narratively, this decision is about embracing the faith of your ancestors over newer "modern" faiths
 		# Therefore, this decision should not be available to Zoroastrians looking to change their sect
 		NOT = { OR = { has_religion = religion:zoroastrianism_religion has_religion = religion:hermazta_religion has_religion = religion:divine_cycle_religion has_religion = religion:voyagism_religion } }
@@ -310,7 +311,7 @@ fp3_embrace_zoroastrianism_decision = {
 		}
 		custom_tooltip = {
 			text = year_960_tt
-			current_date <= 960.1.1
+			current_date <= 6944.1.1
 		}
 		culture = { has_cultural_pillar = heritage_iranian }
 		NOT = { OR = { has_religion = religion:zoroastrianism_religion has_religion = religion:hermazta_religion has_religion = religion:divine_cycle_religion has_religion = religion:voyagism_religion } }

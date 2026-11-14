@@ -1,5 +1,6 @@
-﻿# copy of vanilla egyptian.txt for the cloned culture ptolemaic
-867.1.1 = {
+﻿# year-shift 7050: calendar literals moved +5984 (gen_year_shift.py)
+# copy of vanilla egyptian.txt for the cloned culture ptolemaic
+6851.1.1 = {
 	discover_innovation = innovation_casus_belli
 	discover_innovation = innovation_city_planning
 	discover_innovation = innovation_ledger
@@ -11,7 +12,7 @@
 	discover_innovation = innovation_plenary_assemblies
 }
 
-950.1.1 = {
+6934.1.1 = {
 	# Tribal Innovations
 	discover_innovation = innovation_currency_01
 	discover_innovation = innovation_motte
@@ -23,7 +24,7 @@
 	join_era = culture_era_early_medieval
 }
 
-1066.1.2 = {
+7050.1.2 = {
 	# Early Medieval Innovations
 	discover_innovation = innovation_hereditary_rule
 	discover_innovation = innovation_battlements
@@ -33,11 +34,11 @@
 	discover_innovation = innovation_royal_prerogative
 }
 
-1150.1.1 = {
+7134.1.1 = {
 	join_era = culture_era_high_medieval
 }
 
-1178.1.1 = {
+7162.1.1 = {
 	discover_innovation = innovation_arched_saddle
 	discover_innovation = innovation_chronicle_writing
 	discover_innovation = innovation_trebuchet

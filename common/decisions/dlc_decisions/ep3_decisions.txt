@@ -1,4 +1,5 @@
-﻿### Hold a Triumph ###
+﻿# year-shift 7050: calendar literals moved +5984 (gen_year_shift.py)
+### Hold a Triumph ###
 hold_triumph_decision = {
 	picture = {
 		reference = "gfx/interface/illustrations/decisions/ep3_decision_hold_triumph.dds"
@@ -503,7 +504,7 @@ retake_eastern_provinces_decision = {
 		if = {
 			limit = {
 				is_ai = no
-				game_start_date >= 1178.10.1
+				game_start_date >= 7162.10.1
 			}
 			add_achievement_global_variable_effect = {
 				VARIABLE = achieved_against_the_odds_achievement

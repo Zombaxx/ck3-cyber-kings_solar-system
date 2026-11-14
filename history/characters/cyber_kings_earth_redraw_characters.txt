@@ -1,82 +1,83 @@
-﻿# Earth redraw v2 (2026-11-11): rulers of the new Earth counties (e11_characters.py)
+﻿# year-shift 7050: calendar literals moved +5984 (gen_year_shift.py)
+# Earth redraw v2 (2026-11-11): rulers of the new Earth counties (e11_characters.py)
 8100000 = {
 	name = "Lope"
 	dynasty = 8100000
 	culture = brazilian
 	rite = roman_rite
-	1032.12.22 = { birth = yes }
+	7016.12.22 = { birth = yes }
 }
 8100001 = {
 	name = "Cuitlahuac"
 	dynasty = 8100001
 	culture = nativican
 	rite = roman_rite
-	1026.4.24 = { birth = yes }
+	7010.4.24 = { birth = yes }
 }
 8100002 = {
 	name = "cyn_Danial"	# e77 (was Vendakadri: did not fit malay)
 	dynasty = 8100002
 	culture = malay
 	rite = shafii
-	1027.4.28 = { birth = yes }
+	7011.4.28 = { birth = yes }
 }
 8100003 = {
 	name = "cyn_Rafael"	# e77 (was Tlacaeleltzin: did not fit amazonian)
 	dynasty = 8100003
 	culture = amazonian
 	rite = protestant_rite
-	1020.1.15 = { birth = yes }
+	7004.1.15 = { birth = yes }
 }
 8100004 = {
 	name = "cyn_Zahra"	# e77 (was Shadia: did not fit afar)
 	female = yes
 	dynasty = 8100004
 	culture = afar
-	rite = reaverism_rite
-	1025.4.14 = { birth = yes }
+	rite = shafii	# e94 follows his county (was reaverism_rite)
+	7009.4.14 = { birth = yes }
 }
 8100005 = {
 	name = "cyn_Ankit"	# e77 (was Sukhinpal: did not fit hindustani)
 	dynasty = 8100005
 	culture = hindustani
 	rite = vaishnavism
-	1040.1.18 = { birth = yes }
+	7024.1.18 = { birth = yes }
 }
 8100006 = {
 	name = "cyn_Alejandro"	# e77 (was SimO_n: did not fit mexican)
 	dynasty = 8100006
 	culture = mexican
 	rite = roman_rite
-	1031.4.16 = { birth = yes }
+	7015.4.16 = { birth = yes }
 }
 8100007 = {
 	name = "cyn_Faisal"	# e77 (was Zeyd: did not fit bedouin)
 	dynasty = 8100007
 	culture = bedouin
 	rite = imami
-	1022.2.7 = { birth = yes }
-	1066.9.15 = { employer = 107045 }   # e68 courtier of the head (his county joined the head's domain)
+	7006.2.7 = { birth = yes }
+	7050.9.15 = { employer = 107045 }   # e68 courtier of the head (his county joined the head's domain)
 }
 8100008 = {
 	name = "cyn_Ermal"	# e77 (was Theophilos: did not fit albanian)
 	dynasty = 8100008
 	culture = albanian
 	rite = hanafi	# e83 follows his counties (was byzantine_rite)
-	1042.12.17 = { birth = yes }
+	7026.12.17 = { birth = yes }
 }
 8100009 = {
 	name = "cyn_Yared"	# e77 (was Kanemi: did not fit ethiopian)
 	dynasty = 8100009
 	culture = ethiopian
 	rite = ethiopian_rite
-	1020.7.19 = { birth = yes }
+	7004.7.19 = { birth = yes }
 }
 8100010 = {
 	name = "cyn_Rahul"	# e77 (was Tejpal: did not fit marathi)
 	dynasty = 8100010
 	culture = marathi
 	rite = vaishnavism
-	1020.7.8 = { birth = yes }
+	7004.7.8 = { birth = yes }
 }
 8100011 = {
 	name = "cyn_Lucia"	# e77 (was Peronella: did not fit catalan)
@@ -84,28 +85,28 @@
 	dynasty = 8100011
 	culture = catalan
 	rite = roman_rite
-	1028.6.6 = { birth = yes }
+	7012.6.6 = { birth = yes }
 }
 8100012 = {
 	name = "Bing_79C9"
 	dynasty = 8100012
 	culture = han
 	rite = dhyana
-	1039.7.4 = { birth = yes }
+	7023.7.4 = { birth = yes }
 }
 8100013 = {
 	name = "cyn_Jorge"	# e77 (was SimO_n: did not fit criollo)
 	dynasty = 8100013
 	culture = criollo
 	rite = roman_rite	# e83 follows his counties (was protestant_rite)
-	1039.5.10 = { birth = yes }
+	7023.5.10 = { birth = yes }
 }
 8100014 = {
 	name = "cyn_Renato"	# e77 (was Miztli: did not fit afro_brazilian)
 	dynasty = 8100014
 	culture = afro_brazilian
 	rite = roman_rite
-	1040.4.14 = { birth = yes }
+	7024.4.14 = { birth = yes }
 }
 8100015 = {
 	name = "cyn_Maria"	# e77 (was Parween: did not fit armenian)
@@ -113,14 +114,14 @@
 	dynasty = 8100015
 	culture = armenian
 	rite = armenian_rite	# e83 follows his counties (was imami)
-	1041.7.8 = { birth = yes }
+	7025.7.8 = { birth = yes }
 }
 8100016 = {
 	name = "cyn_Salim"	# e77 (was Abbas: did not fit east_bantu)
 	dynasty = 8100016
 	culture = east_bantu
 	rite = protestant_rite
-	1032.6.14 = { birth = yes }
+	7016.6.14 = { birth = yes }
 }
 8100017 = {
 	name = "cyn_Lama"	# e77 (was Sajida: did not fit bedouin)
@@ -128,84 +129,84 @@
 	dynasty = 8100017
 	culture = bedouin
 	rite = maliki
-	1031.4.14 = { birth = yes }
+	7015.4.14 = { birth = yes }
 }
 8100018 = {
 	name = "cyn_Karim"	# e77 (was Azam: did not fit egyptian)
 	dynasty = 8100018
 	culture = egyptian
 	rite = maliki
-	1037.9.2 = { birth = yes }
+	7021.9.2 = { birth = yes }
 }
 8100019 = {
 	name = "cyn_Guyra"	# e77 (was GuillE_n: did not fit guarani)
 	dynasty = 8100019
 	culture = guarani
 	rite = roman_rite
-	1043.8.6 = { birth = yes }
+	7027.8.6 = { birth = yes }
 }
 8100020 = {
 	name = "cyn_Sunil"	# e77 (was Varshapala: did not fit marathi)
 	dynasty = 8100020
 	culture = marathi
 	rite = vaishnavism
-	1042.10.22 = { birth = yes }
+	7026.10.22 = { birth = yes }
 }
 8100021 = {
 	name = "cyn_Paul"	# e77 (was Zacharias: did not fit austrian)
 	dynasty = 8100021
 	culture = austrian
 	rite = roman_rite	# e83 follows his counties (was byzantine_rite)
-	1029.4.7 = { birth = yes }
+	7013.4.7 = { birth = yes }
 }
 8100022 = {
 	name = "Abdullah"
 	dynasty = 8100022
 	culture = levantine
 	rite = imami
-	1019.6.13 = { birth = yes }
+	7003.6.13 = { birth = yes }
 }
 8100023 = {
 	name = "cyn_Hassan"	# e77 (was Govindapala: did not fit punjabi)
 	dynasty = 8100023
 	culture = punjabi
 	rite = maliki
-	1030.2.3 = { birth = yes }
+	7014.2.3 = { birth = yes }
 }
 8100024 = {
 	name = "cyn_Haoyu"	# e77 (was Zhongxin_5FE0_4FE1: did not fit bouxcuengh)
 	dynasty = 8100024
 	culture = bouxcuengh
 	rite = dhyana
-	1031.7.9 = { birth = yes }
+	7015.7.9 = { birth = yes }
 }
 8100025 = {
 	name = "cyn_Washington"	# e77 (was Xipil: did not fit afro_brazilian)
 	dynasty = 8100025
 	culture = afro_brazilian
 	rite = roman_rite
-	1025.1.22 = { birth = yes }
+	7009.1.22 = { birth = yes }
 }
 8100026 = {
 	name = "cyn_Rodrigue"	# e77 (was Arku: did not fit cameroonian)
 	dynasty = 8100026
 	culture = cameroonian
 	rite = protestant_rite
-	1018.9.13 = { birth = yes }
+	7002.9.13 = { birth = yes }
 }
 8100027 = {
 	name = "Jian_744A"
 	dynasty = 8100027
 	culture = han
 	rite = dhyana
-	1019.10.23 = { birth = yes }
+	7003.10.23 = { birth = yes }
 }
 8100028 = {
 	name = "cyn_Tianyu"	# e77 (was Xizhe_5E0C_54F2: did not fit han)
 	dynasty = 8100028
 	culture = han
 	rite = dhyana
-	1039.12.15 = { birth = yes }
+	7023.12.15 = { birth = yes }
 }
 8100029 = {
 	name = "cyn_Uyanga"	# e77 (was Xuanxiao_7384_9704: did not fit mongol)
@@ -213,52 +214,52 @@
 	dynasty = 8100029
 	culture = mongol
 	rite = dhyana	# e83 follows his counties (was lamaism)
-	1038.11.5 = { birth = yes }
+	7022.11.5 = { birth = yes }
 }
 8100030 = {
 	name = "Munio"
 	dynasty = 8100030
 	culture = criollo
 	rite = protestant_rite
-	1031.8.14 = { birth = yes }
-	1066.9.15 = { employer = 101545 }   # e68 courtier of the head (his county joined the head's domain)
+	7015.8.14 = { birth = yes }
+	7050.9.15 = { employer = 101545 }   # e68 courtier of the head (his county joined the head's domain)
 }
 8100031 = {
 	name = "cyn_Julian_6657"	# e77 (was Menendo: did not fit criollo)
 	dynasty = 8100031
 	culture = criollo
 	rite = roman_rite
-	1043.2.15 = { birth = yes }
+	7027.2.15 = { birth = yes }
 }
 8100032 = {
 	name = "Ji_4F76"
 	dynasty = 8100032
 	culture = sichuanese
 	rite = dhyana
-	1027.7.8 = { birth = yes }
+	7011.7.8 = { birth = yes }
 }
 8100033 = {
 	name = "MartI_n"
 	dynasty = 8100033
 	culture = brazilian
 	rite = roman_rite
-	1025.2.19 = { birth = yes }
+	7009.2.19 = { birth = yes }
 }
 8100034 = {
 	name = "Samir"
 	dynasty = 8100034
 	culture = maghrebi
 	rite = maliki
-	1032.5.23 = { birth = yes }
-	1066.9.15 = { employer = 105265 }   # e68 courtier of the head (his county joined the head's domain)
+	7016.5.23 = { birth = yes }
+	7050.9.15 = { employer = 105265 }   # e68 courtier of the head (his county joined the head's domain)
 }
 8100035 = {
 	name = "Durvinita"
 	dynasty = 8100035
 	culture = khmer
 	rite = theravada
-	1029.1.11 = { birth = yes }
-	1066.9.15 = { employer = 109395 }   # e68 courtier of the head (his county joined the head's domain)
+	7013.1.11 = { birth = yes }
+	7050.9.15 = { employer = 109395 }   # e68 courtier of the head (his county joined the head's domain)
 }
 8100036 = {
 	name = "cyn_Temuulen"	# e77 (was Fanyin_68B5_97F3: did not fit mongol)
@@ -266,14 +267,14 @@
 	dynasty = 8100036
 	culture = mongol
 	rite = dhyana	# e83 follows his counties (was lamaism)
-	1022.5.8 = { birth = yes }
+	7006.5.8 = { birth = yes }
 }
 8100037 = {
 	name = "Yan_5F65"
 	dynasty = 8100037
 	culture = sichuanese
 	rite = dhyana
-	1038.6.4 = { birth = yes }
+	7022.6.4 = { birth = yes }
 }
 8100038 = {
 	name = "cyn_Jouri"	# e77 (was Sheeftah: did not fit maghrebi)
@@ -281,145 +282,145 @@
 	dynasty = 8100038
 	culture = maghrebi
 	rite = maliki
-	1029.1.7 = { birth = yes }
+	7013.1.7 = { birth = yes }
 }
 8100039 = {
 	name = "Jaime"
 	dynasty = 8100039
 	culture = brazilian
 	rite = roman_rite
-	1026.11.2 = { birth = yes }
+	7010.11.2 = { birth = yes }
 }
 8100040 = {
 	name = "cyn_Enzo"	# e77 (was Aldebert: did not fit french)
 	dynasty = 8100040
 	culture = french
 	rite = roman_rite
-	1025.1.11 = { birth = yes }
-	1066.9.15 = { employer = 105285 }
+	7009.1.11 = { birth = yes }
+	7050.9.15 = { employer = 105285 }
 }
 8100041 = {
 	name = "cyn_Ajpu"	# e77 (was Cuetzpalli: did not fit maya)
 	dynasty = 8100041
 	culture = maya
 	rite = roman_rite
-	1031.5.8 = { birth = yes }
+	7015.5.8 = { birth = yes }
 }
 8100042 = {
 	name = "cyn_Andre_45f1"	# e77 (was Merkourios: did not fit brazilian)
 	dynasty = 8100042
 	culture = brazilian
 	rite = roman_rite
-	1034.5.8 = { birth = yes }
+	7018.5.8 = { birth = yes }
 }
 8100043 = {
 	name = "cyn_Mahathir"	# e77 (was Vikramaditya: did not fit malay)
 	dynasty = 8100043
 	culture = malay
 	rite = maliki
-	1026.1.9 = { birth = yes }
+	7010.1.9 = { birth = yes }
 }
 8100044 = {
 	name = "Emory"
 	dynasty = 8100044
 	culture = ovimbundu
 	rite = roman_rite
-	1018.3.6 = { birth = yes }
+	7002.3.6 = { birth = yes }
 }
 8100045 = {
 	name = "cyn_Delali"	# e77 (was Katakarmabe: did not fit ewe)
 	dynasty = 8100045
 	culture = ewe
 	rite = west_african_orisha_pagan	# e88c back with Benin (e83 had made him roman_rite)
-	1039.12.27 = { birth = yes }
+	7023.12.27 = { birth = yes }
 }
 8100046 = {
 	name = "cyn_Joseph"	# e77 (was Alooma: did not fit yoruba)
 	dynasty = 8100046
 	culture = yoruba
 	rite = protestant_rite
-	1028.3.27 = { birth = yes }
+	7012.3.27 = { birth = yes }
 }
 8100047 = {
 	name = "cyn_Stefan"	# e77 (was Ebbon: did not fit german)
 	dynasty = 8100047
 	culture = german
 	rite = protestant_rite	# e83 follows his counties (was roman_rite)
-	1022.12.12 = { birth = yes }
+	7006.12.12 = { birth = yes }
 }
 8100048 = {
 	name = "cyn_Atharv"	# e77 (was Vidurathpala: did not fit hindustani)
 	dynasty = 8100048
 	culture = hindustani
 	rite = vaishnavism
-	1032.11.4 = { birth = yes }
+	7016.11.4 = { birth = yes }
 }
 8100049 = {
 	name = "cyn_Harsh"	# e77 (was NiyA_yaparipA_lapattan: did not fit hindustani)
 	dynasty = 8100049
 	culture = hindustani
 	rite = vaishnavism
-	1027.4.4 = { birth = yes }
+	7011.4.4 = { birth = yes }
 }
 8100050 = {
 	name = "cyn_Zin"	# e77 (was Mallugi: did not fit burmese)
 	dynasty = 8100050
 	culture = burmese	# e77 now count of c_province0880 in Myanmar (was bodpa)
 	rite = theravada	# e77 now count of c_province0880 in Myanmar (was vaishnavism)
-	1032.5.23 = { birth = yes }
+	7016.5.23 = { birth = yes }
 }
 8100051 = {
 	name = "Birpal"
 	dynasty = 8100051
 	culture = rajput
 	rite = vaishnavism	# e83 follows his counties (was maliki)
-	1044.2.25 = { birth = yes }
+	7028.2.25 = { birth = yes }
 }
 8100052 = {
 	name = "cyn_Miguel"	# e77 (was Gerard: did not fit castilian)
 	dynasty = 8100052
 	culture = castilian
 	rite = roman_rite
-	1037.8.27 = { birth = yes }
+	7021.8.27 = { birth = yes }
 }
 8100053 = {
 	name = "Kyrie"
 	dynasty = 8100053
 	culture = sotho_tswana
 	rite = protestant_rite
-	1035.12.26 = { birth = yes }
+	7019.12.26 = { birth = yes }
 }
 8100054 = {
 	name = "cyn_Adama"	# e77 (was Umar: did not fit mossi)
 	dynasty = 8100054
 	culture = mossi
 	rite = maliki
-	1044.8.19 = { birth = yes }
-	1066.9.15 = { employer = 8100271 }   # e68 courtier of the head (his county joined the head's domain)
+	7028.8.19 = { birth = yes }
+	7050.9.15 = { employer = 8100271 }   # e68 courtier of the head (his county joined the head's domain)
 }
 8100055 = {
 	name = "Tello"
 	dynasty = 8100055
 	culture = criollo
 	rite = roman_rite
-	1037.12.25 = { birth = yes }
+	7021.12.25 = { birth = yes }
 }
 8100056 = {
 	name = "cyn_Kelvin"	# e77 (was Shettima: did not fit akan)
 	dynasty = 8100056
 	culture = akan
 	rite = maliki
-	1018.12.23 = { birth = yes }
-	1066.9.15 = { effect = { title:d_worodougou = { set_title_name = ck_country_civ } } }
-	1066.9.15 = { effect = { set_realm_capital = title:c_bouake } }   # e71 real capital
+	7002.12.23 = { birth = yes }
+	7050.9.15 = { effect = { title:d_worodougou = { set_title_name = ck_country_civ } } }
+	7050.9.15 = { effect = { set_realm_capital = title:c_bouake } }   # e71 real capital
 }
 8100057 = {
 	name = "cyn_Gloire"	# e77 (was Bikorom: did not fit kongo)
 	dynasty = 8100057
 	culture = kongo
 	rite = roman_rite
-	1026.5.24 = { birth = yes }
-	1066.9.15 = { effect = { title:k_kingdom0601 = { set_title_name = ck_country_cog } } }
+	7010.5.24 = { birth = yes }
+	7050.9.15 = { effect = { title:k_kingdom0601 = { set_title_name = ck_country_cog } } }
 }
 8100058 = {
 	name = "cyn_Aina"	# e77 (was Lakshmi: did not fit malay)
@@ -427,114 +428,114 @@
 	dynasty = 8100058
 	culture = malay
 	rite = shafii	# e83 follows his counties (was roman_rite)
-	1030.6.26 = { birth = yes }
+	7014.6.26 = { birth = yes }
 }
 8100059 = {
 	name = "Fernando"
 	dynasty = 8100059
 	culture = criollo
 	rite = roman_rite
-	1033.2.21 = { birth = yes }
+	7017.2.21 = { birth = yes }
 }
 8100060 = {
 	name = "cyn_Victor"	# e77 (was Gniewosz: did not fit romanian)
 	dynasty = 8100060
 	culture = romanian
 	rite = byzantine_rite
-	1037.9.25 = { birth = yes }
-	1066.9.15 = { effect = { title:d_lviv = { set_title_name = ck_country_rou } } }
+	7021.9.25 = { birth = yes }
+	7050.9.15 = { effect = { title:d_lviv = { set_title_name = ck_country_rou } } }
 }
 8100061 = {
 	name = "cyn_Norbert"	# e77 (was BogumiL_: did not fit hungarian)
 	dynasty = 8100061
 	culture = hungarian
 	rite = roman_rite	# e83 follows his counties (was byzantine_rite)
-	1030.8.24 = { birth = yes }
+	7014.8.24 = { birth = yes }
 }
 8100062 = {
 	name = "Emory"
 	dynasty = 8100062
 	culture = rwandan
 	rite = roman_rite
-	1031.9.13 = { birth = yes }
+	7015.9.13 = { birth = yes }
 }
 8100063 = {
 	name = "Raimundo"
 	dynasty = 8100063
 	culture = criollo
 	rite = roman_rite
-	1021.1.19 = { birth = yes }
+	7005.1.19 = { birth = yes }
 }
 8100064 = {
 	name = "cyn_Benjamin"	# e77 (was Malcolm: did not fit liblander_west)
 	dynasty = 8100064
 	culture = liblander_west
 	rite = roman_rite	# e83 follows his counties (was protestant_rite)
-	1037.7.28 = { birth = yes }
+	7021.7.28 = { birth = yes }
 }
 8100065 = {
 	name = "cyn_Kukulkan"	# e77 (was Iquehuacatzin: did not fit maya)
 	dynasty = 8100065
 	culture = maya
 	rite = roman_rite
-	1032.1.16 = { birth = yes }
+	7016.1.16 = { birth = yes }
 }
 8100066 = {
 	name = "cyn_Renato"	# e77 (was SimO_n: did not fit brazilian)
 	dynasty = 8100066
 	culture = brazilian
 	rite = roman_rite
-	1025.8.28 = { birth = yes }
-	1066.9.15 = { effect = { title:d_campo_grande = { set_title_name = ck_state_bra_ms } } }
+	7009.8.28 = { birth = yes }
+	7050.9.15 = { effect = { title:d_campo_grande = { set_title_name = ck_state_bra_ms } } }
 }
 8100067 = {
 	name = "cyn_Daniel"	# e77 (was Oskar: did not fit aussie)
 	dynasty = 8100067
 	culture = aussie
 	rite = anglican_rite
-	1034.3.2 = { birth = yes }
+	7018.3.2 = { birth = yes }
 }
 8100068 = {
 	name = "cyn_Kinich"	# e77 (was Huitzilin: did not fit maya)
 	dynasty = 8100068
 	culture = maya
 	rite = roman_rite
-	1040.7.27 = { birth = yes }
+	7024.7.27 = { birth = yes }
 }
 8100069 = {
 	name = "Fernando"
 	dynasty = 8100069
 	culture = criollo
 	rite = roman_rite
-	1021.9.15 = { birth = yes }
+	7005.9.15 = { birth = yes }
 }
 8100070 = {
 	name = "cyn_Khalid"	# e77 (was Halil: did not fit moroccan)
 	dynasty = 8100070
 	culture = moroccan
 	rite = maliki
-	1031.12.27 = { birth = yes }
+	7015.12.27 = { birth = yes }
 }
 8100071 = {
 	name = "Osorio"
 	dynasty = 8100071
 	culture = gaucho
 	rite = roman_rite
-	1035.6.18 = { birth = yes }
+	7019.6.18 = { birth = yes }
 }
 8100072 = {
 	name = "cyn_Jerome"	# e77 (was Rachamalla: did not fit filipino)
 	dynasty = 8100072
 	culture = filipino
 	rite = roman_rite
-	1020.6.8 = { birth = yes }
+	7004.6.8 = { birth = yes }
 }
 8100073 = {
 	name = "cyn_Edward"	# e77 (was Harivarman: did not fit dayak)
 	dynasty = 8100073
 	culture = dayak
 	rite = shafii	# e83 follows his counties (was protestant_rite)
-	1038.3.13 = { birth = yes }
+	7022.3.13 = { birth = yes }
 }
 8100074 = {
 	name = "Jing_51C0"
@@ -542,7 +543,7 @@
 	dynasty = 8100074
 	culture = xiang
 	rite = dhyana
-	1026.1.26 = { birth = yes }
+	7010.1.26 = { birth = yes }
 }
 8100075 = {
 	name = "cyn_Yue"	# e77 (was Minghe_9E23_9E64: did not fit xiang)
@@ -550,7 +551,7 @@
 	dynasty = 8100075
 	culture = xiang
 	rite = dhyana
-	1023.5.20 = { birth = yes }
+	7007.5.20 = { birth = yes }
 }
 8100076 = {
 	name = "cyn_Ananya"	# e77 (was Mahadevi: did not fit bengali)
@@ -558,43 +559,43 @@
 	dynasty = 8100076
 	culture = bengali
 	rite = vaishnavism
-	1032.2.13 = { birth = yes }
-	1066.9.15 = { employer = 108645 }   # e68 courtier of the head (his county joined the head's domain)
+	7016.2.13 = { birth = yes }
+	7050.9.15 = { employer = 108645 }   # e68 courtier of the head (his county joined the head's domain)
 }
 8100077 = {
 	name = "Tan_8B5A"
 	dynasty = 8100077
 	culture = han
 	rite = dhyana
-	1024.8.13 = { birth = yes }
+	7008.8.13 = { birth = yes }
 }
 8100078 = {
 	name = "Fu_7B26"
 	dynasty = 8100078
 	culture = sichuanese
 	rite = dhyana
-	1034.11.10 = { birth = yes }
+	7018.11.10 = { birth = yes }
 }
 8100079 = {
 	name = "cyn_Dinesh"	# e77 (was Cevakattevan: did not fit tamil)
 	dynasty = 8100079
 	culture = tamil
 	rite = vaishnavism
-	1038.8.4 = { birth = yes }
+	7022.8.4 = { birth = yes }
 }
 8100080 = {
 	name = "cyn_Dylan"	# e77 (was Iquehuacatzin: did not fit andean)
 	dynasty = 8100080
 	culture = andean
 	rite = roman_rite
-	1026.6.15 = { birth = yes }
+	7010.6.15 = { birth = yes }
 }
 8100081 = {
 	name = "cyn_Battulga"	# e77 (was Zhuan_7451: did not fit mongol)
 	dynasty = 8100081
 	culture = mongol
 	rite = dhyana	# e83 follows his counties (was lamaism)
-	1034.6.27 = { birth = yes }
+	7018.6.27 = { birth = yes }
 }
 8100082 = {
 	name = "cyn_Kimberley"	# e77 (was Theophania: did not fit afro_caribbean)
@@ -602,43 +603,43 @@
 	dynasty = 8100082
 	culture = afro_caribbean
 	rite = roman_rite
-	1043.4.19 = { birth = yes }
+	7027.4.19 = { birth = yes }
 }
 8100083 = {
 	name = "cyn_Mustapha"	# e77 (was Hafiz: did not fit maghrebi)
 	dynasty = 8100083
 	culture = maghrebi
 	rite = maliki
-	1033.10.21 = { birth = yes }
-	1066.9.15 = { employer = 105265 }   # e68 courtier of the head (his county joined the head's domain)
+	7017.10.21 = { birth = yes }
+	7050.9.15 = { employer = 105265 }   # e68 courtier of the head (his county joined the head's domain)
 }
 8100084 = {
 	name = "Lorenzo"
 	dynasty = 8100084
 	culture = brazilian
 	rite = roman_rite
-	1021.10.26 = { birth = yes }
+	7005.10.26 = { birth = yes }
 }
 8100085 = {
 	name = "cyn_Josip"	# e77 (was Stephanos: did not fit croatian)
 	dynasty = 8100085
 	culture = croatian
 	rite = roman_rite
-	1029.9.13 = { birth = yes }
+	7013.9.13 = { birth = yes }
 }
 8100086 = {
 	name = "Gutierre"
 	dynasty = 8100086
 	culture = criollo
 	rite = roman_rite
-	1028.3.5 = { birth = yes }
+	7012.3.5 = { birth = yes }
 }
 8100087 = {
 	name = "Osorio"
 	dynasty = 8100087
 	culture = brazilian
 	rite = roman_rite
-	1036.7.22 = { birth = yes }
+	7020.7.22 = { birth = yes }
 }
 8100088 = {
 	name = "Jimena"
@@ -646,142 +647,142 @@
 	dynasty = 8100088
 	culture = gaucho
 	rite = roman_rite
-	1036.1.4 = { birth = yes }
+	7020.1.4 = { birth = yes }
 }
 8100089 = {
 	name = "cyn_Hua"	# e77 (was Sriranga: did not fit sichuanese)
 	dynasty = 8100089
 	culture = sichuanese
 	rite = dhyana
-	1033.10.15 = { birth = yes }
+	7017.10.15 = { birth = yes }
 }
 8100090 = {
 	name = "cyn_Jian"	# e77 (was Anshang_5B89_4E0A: did not fit han)
 	dynasty = 8100090
 	culture = han
 	rite = dhyana
-	1019.10.22 = { birth = yes }
+	7003.10.22 = { birth = yes }
 }
 8100091 = {
 	name = "cyn_Taim"	# e77 (was Abdul-Wahab: did not fit levantine)
 	dynasty = 8100091
 	culture = levantine
 	rite = maliki
-	1042.8.25 = { birth = yes }
+	7026.8.25 = { birth = yes }
 }
 8100092 = {
 	name = "Purp"
 	dynasty = 8100092
 	culture = swahili
 	rite = shafii
-	1025.9.4 = { birth = yes }
+	7009.9.4 = { birth = yes }
 }
 8100093 = {
 	name = "cyn_Ram"	# e77 (was Doth: did not fit hindustani)
 	dynasty = 8100093
 	culture = hindustani
 	rite = vaishnavism
-	1041.10.23 = { birth = yes }
+	7025.10.23 = { birth = yes }
 }
 8100094 = {
 	name = "Yi_7FCA"
 	dynasty = 8100094
 	culture = hui
 	rite = hanafi	# e84 restored with his e55 county
-	1029.2.4 = { birth = yes }
+	7013.2.4 = { birth = yes }
 }
 8100095 = {
 	name = "cyn_Azad"	# e77 (was Sami: did not fit kurdish)
 	dynasty = 8100095
 	culture = kurdish
 	rite = maliki
-	1039.6.3 = { birth = yes }
+	7023.6.3 = { birth = yes }
 }
 8100096 = {
 	name = "cyn_Yaroslav"	# e77 (was Dmitriy: did not fit ukrainian)
 	dynasty = 8100096
 	culture = ukrainian
 	rite = byzantine_rite
-	1034.6.25 = { birth = yes }
+	7018.6.25 = { birth = yes }
 }
 8100097 = {
 	name = "cyn_Thiago"	# e77 (was Papasinkouda: did not fit caribeno)
 	dynasty = 8100097
 	culture = caribeno
 	rite = roman_rite
-	1022.12.15 = { birth = yes }
+	7006.12.15 = { birth = yes }
 }
 8100098 = {
 	name = "Adanko"
 	dynasty = 8100098
 	culture = kongo
 	rite = roman_rite
-	1041.7.20 = { birth = yes }
-	1066.9.15 = { employer = 106485 }   # e68 courtier of the head (his county joined the head's domain)
+	7025.7.20 = { birth = yes }
+	7050.9.15 = { employer = 106485 }   # e68 courtier of the head (his county joined the head's domain)
 }
 8100099 = {
 	name = "Dobrynia"
 	dynasty = 8100099
 	culture = ukrainian
 	rite = byzantine_rite
-	1027.6.2 = { birth = yes }
+	7011.6.2 = { birth = yes }
 }
 8100100 = {
 	name = "cyn_Peter"	# e77 (was Mathieu: did not fit german)
 	dynasty = 8100100
 	culture = german
 	rite = protestant_rite	# e83 follows his counties (was roman_rite)
-	1041.11.8 = { birth = yes }
+	7025.11.8 = { birth = yes }
 }
 8100101 = {
 	name = "Osman"
 	dynasty = 8100101
 	culture = nguni
 	rite = protestant_rite
-	1043.3.2 = { birth = yes }
+	7027.3.2 = { birth = yes }
 }
 8100102 = {
 	name = "cyn_Yerlan"	# e77 (was A_zu_963F_8DB3: did not fit kazak)
 	dynasty = 8100102
 	culture = kazak
 	rite = hanafi
-	1030.7.8 = { birth = yes }
+	7014.7.8 = { birth = yes }
 }
 8100103 = {
 	name = "Dirk"
 	dynasty = 8100103
 	culture = nguni
 	rite = protestant_rite
-	1033.3.23 = { birth = yes }
+	7017.3.23 = { birth = yes }
 }
 8100104 = {
 	name = "cyn_David"	# e77 (was Coatl: did not fit centroamerican)
 	dynasty = 8100104
 	culture = centroamerican
 	rite = roman_rite
-	1040.10.8 = { birth = yes }
+	7024.10.8 = { birth = yes }
 }
 8100105 = {
 	name = "cyn_Hasan"	# e77 (was Shamir: did not fit turkish)
 	dynasty = 8100105
 	culture = turkish
 	rite = maliki
-	1034.6.19 = { birth = yes }
+	7018.6.19 = { birth = yes }
 }
 8100106 = {
 	name = "cyn_Masoud"	# e77 (was Rajapala: did not fit afghan)
 	dynasty = 8100106
 	culture = afghan
 	rite = maliki
-	1026.1.18 = { birth = yes }
+	7010.1.18 = { birth = yes }
 }
 8100107 = {
 	name = "cyn_Wassim"	# e77 (was Halil: did not fit moroccan)
 	dynasty = 8100107
 	culture = moroccan
 	rite = maliki
-	1037.1.22 = { birth = yes }
-	1066.9.15 = { employer = 400138 }   # e68 courtier of the head (his county joined the head's domain)
+	7021.1.22 = { birth = yes }
+	7050.9.15 = { employer = 400138 }   # e68 courtier of the head (his county joined the head's domain)
 }
 8100108 = {
 	name = "cyn_Azaria"	# e77 (was Urraca: did not fit afro_caribbean)
@@ -789,7 +790,7 @@
 	dynasty = 8100108
 	culture = afro_caribbean
 	rite = roman_rite
-	1039.6.24 = { birth = yes }
+	7023.6.24 = { birth = yes }
 }
 8100109 = {
 	name = "cyn_Sakura"	# e77 (was Muneko_5: did not fit japanese)
@@ -797,21 +798,21 @@
 	dynasty = 8100109
 	culture = japanese
 	rite = shinto
-	1041.5.17 = { birth = yes }
+	7025.5.17 = { birth = yes }
 }
 8100110 = {
 	name = "cyn_Tao"	# e77 (was Mushanokoji: did not fit han)
 	dynasty = 8100110
 	culture = han
 	rite = zhengyi
-	1028.8.16 = { birth = yes }
+	7012.8.16 = { birth = yes }
 }
 8100111 = {
 	name = "Zhi_8D04"
 	dynasty = 8100111
 	culture = min
 	rite = dhyana
-	1044.8.21 = { birth = yes }
+	7028.8.21 = { birth = yes }
 }
 8100112 = {
 	name = "cyn_Yuxi"	# e77 (was Moli_8309_8389: did not fit gan_hakka)
@@ -819,28 +820,28 @@
 	dynasty = 8100112
 	culture = gan_hakka
 	rite = dhyana
-	1028.2.18 = { birth = yes }
+	7012.2.18 = { birth = yes }
 }
 8100113 = {
 	name = "Abdullah"
 	dynasty = 8100113
 	culture = levantine
 	rite = shafii	# e83 follows his counties (was rabbinism)
-	1037.8.22 = { birth = yes }
+	7021.8.22 = { birth = yes }
 }
 8100114 = {
 	name = "cyn_Dariusz"	# e77 (was Nadbor: did not fit polish)
 	dynasty = 8100114
 	culture = polish
 	rite = roman_rite
-	1031.10.14 = { birth = yes }
+	7015.10.14 = { birth = yes }
 }
 8100115 = {
 	name = "cyn_Heitor"	# e77 (was Suero: did not fit brazilian)
 	dynasty = 8100115
 	culture = brazilian
 	rite = roman_rite
-	1021.8.28 = { birth = yes }
+	7005.8.28 = { birth = yes }
 }
 8100116 = {
 	name = "cyn_Sunita"	# e77 (was Puppadevi: did not fit hindustani)
@@ -848,113 +849,113 @@
 	dynasty = 8100116
 	culture = hindustani
 	rite = vaishnavism
-	1044.6.9 = { birth = yes }
+	7028.6.9 = { birth = yes }
 }
 8100117 = {
 	name = "cyn_Jose"	# e77 (was Iacob: did not fit afro_brazilian)
 	dynasty = 8100117
 	culture = afro_brazilian
 	rite = roman_rite
-	1021.8.18 = { birth = yes }
+	7005.8.18 = { birth = yes }
 }
 8100118 = {
 	name = "cyn_Wing_Kin"	# e77 (was Ruwei_6C5D_70BA: did not fit cantonese)
 	dynasty = 8100118
 	culture = cantonese
 	rite = dhyana
-	1036.8.27 = { birth = yes }
+	7020.8.27 = { birth = yes }
 }
 8100119 = {
 	name = "cyn_David"	# e77 (was Tlilpotonqui: did not fit maya)
 	dynasty = 8100119
 	culture = maya
 	rite = roman_rite
-	1030.1.4 = { birth = yes }
+	7014.1.4 = { birth = yes }
 }
 8100120 = {
 	name = "cyn_Hugo"	# e77 (was SebastiA_n: did not fit andean)
 	dynasty = 8100120
 	culture = andean
 	rite = roman_rite
-	1033.6.20 = { birth = yes }
+	7017.6.20 = { birth = yes }
 }
 8100121 = {
 	name = "cyn_Qiang"	# e77 (was Hang_676D: did not fit bouxcuengh)
 	dynasty = 8100121
 	culture = bouxcuengh
 	rite = dhyana
-	1042.2.9 = { birth = yes }
+	7026.2.9 = { birth = yes }
 }
 8100122 = {
 	name = "cyn_Saidou"	# e77 (was Katur: did not fit pulaar)
 	dynasty = 8100122
 	culture = pulaar
 	rite = maliki
-	1034.12.7 = { birth = yes }
+	7018.12.7 = { birth = yes }
 }
 8100123 = {
 	name = "cyn_Xiaoming"	# e77 (was Shuwen_53D4_6587: did not fit sichuanese)
 	dynasty = 8100123
 	culture = sichuanese
 	rite = dhyana
-	1035.3.20 = { birth = yes }
+	7019.3.20 = { birth = yes }
 }
 8100124 = {
 	name = "cyn_Mamat"	# e77 (was Chuo_7DBD: did not fit uyghur)
 	dynasty = 8100124
 	culture = uyghur
 	rite = hanafi
-	1038.9.6 = { birth = yes }
+	7022.9.6 = { birth = yes }
 }
 8100125 = {
 	name = "cyn_Vikas"	# e77 (was Birpal: did not fit hindustani)
 	dynasty = 8100125
 	culture = hindustani
 	rite = vaishnavism
-	1044.9.6 = { birth = yes }
+	7028.9.6 = { birth = yes }
 }
 8100126 = {
 	name = "Jian_7DD8"
 	dynasty = 8100126
 	culture = cantonese
 	rite = dhyana
-	1026.8.4 = { birth = yes }
+	7010.8.4 = { birth = yes }
 }
 8100127 = {
 	name = "cyn_Phuc"	# e77 (was Bukka: did not fit viet)
 	dynasty = 8100127
 	culture = viet
 	rite = dhyana
-	1039.3.10 = { birth = yes }
-	1066.9.15 = { employer = 109085 }   # e68 courtier of the head (his county joined the head's domain)
+	7023.3.10 = { birth = yes }
+	7050.9.15 = { employer = 109085 }   # e68 courtier of the head (his county joined the head's domain)
 }
 8100128 = {
 	name = "cyn_Joseph"	# e77 (was Kuriakos: did not fit afro_caribbean)
 	dynasty = 8100128
 	culture = afro_caribbean
 	rite = roman_rite
-	1027.12.21 = { birth = yes }
+	7011.12.21 = { birth = yes }
 }
 8100129 = {
 	name = "cyn_Luis"	# e77 (was Philippe: did not fit german)
 	dynasty = 8100129
 	culture = german
 	rite = protestant_rite
-	1029.3.15 = { birth = yes }
+	7013.3.15 = { birth = yes }
 }
 8100130 = {
 	name = "Eldzier"
 	dynasty = 8100130
 	culture = shona
 	rite = protestant_rite
-	1035.5.8 = { birth = yes }
+	7019.5.8 = { birth = yes }
 }
 8100131 = {
 	name = "cyn_Yichen"	# e77 (was Guanguan_7BA1_7BA1: did not fit han)
 	dynasty = 8100131
 	culture = han
 	rite = dhyana
-	1021.10.27 = { birth = yes }
+	7005.10.27 = { birth = yes }
 }
 8100132 = {
 	name = "cyn_Fang"	# e77 (was Huiya_60E0_96C5: did not fit xiang)
@@ -962,113 +963,113 @@
 	dynasty = 8100132
 	culture = xiang
 	rite = dhyana
-	1018.7.28 = { birth = yes }
+	7002.7.28 = { birth = yes }
 }
 8100133 = {
 	name = "cyn_Tuan"	# e77 (was Neetimarga: did not fit viet)
 	dynasty = 8100133
 	culture = viet
 	rite = dhyana
-	1041.10.11 = { birth = yes }
+	7025.10.11 = { birth = yes }
 }
 8100134 = {
 	name = "cyn_Otgonbayar"	# e77 (was Jian_5805: did not fit mongol)
 	dynasty = 8100134
 	culture = mongol
 	rite = dhyana	# e83 follows his counties (was lamaism)
-	1033.6.7 = { birth = yes }
+	7017.6.7 = { birth = yes }
 }
 8100135 = {
 	name = "cyn_Morteza"	# e77 (was Shamir: did not fit persian)
 	dynasty = 8100135
 	culture = persian
 	rite = imami
-	1018.10.2 = { birth = yes }
+	7002.10.2 = { birth = yes }
 }
 8100136 = {
 	name = "cyn_Haoran"	# e77 (was Anren_5B89_4EC1: did not fit wu)
 	dynasty = 8100136
 	culture = wu
 	rite = dhyana
-	1025.10.11 = { birth = yes }
+	7009.10.11 = { birth = yes }
 }
 8100137 = {
 	name = "cyn_Haoran"	# e77 (was Changyun_660C_904B: did not fit han)
 	dynasty = 8100137
 	culture = han
 	rite = dhyana
-	1033.9.1 = { birth = yes }
+	7017.9.1 = { birth = yes }
 }
 8100138 = {
 	name = "cyn_Vinay"	# e77 (was KaraikkiyemarrayilaiyA_n: did not fit kannada)
 	dynasty = 8100138
 	culture = kannada
 	rite = vaishnavism
-	1025.1.3 = { birth = yes }
+	7009.1.3 = { birth = yes }
 }
 8100139 = {
 	name = "cyn_Xiaoming"	# e77 (was Shilong_58EB_9F8D: did not fit han)
 	dynasty = 8100139
 	culture = han
 	rite = dhyana
-	1044.6.4 = { birth = yes }
+	7028.6.4 = { birth = yes }
 }
 8100140 = {
 	name = "cyn_Oluwaseun"	# e77 (was Mamane: did not fit yoruba)
 	dynasty = 8100140
 	culture = yoruba
 	rite = maliki	# e83 follows his counties (was west_african_orisha_pagan)
-	1031.10.8 = { birth = yes }
+	7015.10.8 = { birth = yes }
 }
 8100141 = {
 	name = "Jaime"
 	dynasty = 8100141
 	culture = criollo
 	rite = roman_rite
-	1038.9.12 = { birth = yes }
+	7022.9.12 = { birth = yes }
 }
 8100142 = {
 	name = "cyn_Bhaskar"	# e77 (was Chavundaraya: did not fit assamese)
 	dynasty = 8100142
 	culture = assamese
 	rite = vaishnavism
-	1042.1.13 = { birth = yes }
+	7026.1.13 = { birth = yes }
 }
 8100143 = {
 	name = "cyn_Ram"	# e77 (was Rahila: did not fit hindustani)
 	dynasty = 8100143
 	culture = hindustani
 	rite = vaishnavism
-	1024.11.1 = { birth = yes }
+	7008.11.1 = { birth = yes }
 }
 8100144 = {
 	name = "cyn_Amir"	# e77 (was Yachamanedu: did not fit malay)
 	dynasty = 8100144
 	culture = malay
 	rite = shafii
-	1031.6.26 = { birth = yes }
+	7015.6.26 = { birth = yes }
 }
 8100145 = {
 	name = "Lamusil"
 	dynasty = 8100145
 	culture = persian
 	rite = imami
-	1024.6.7 = { birth = yes }
+	7008.6.7 = { birth = yes }
 }
 8100146 = {
 	name = "cyn_Eduardo"	# e77 (was Xihuitl: did not fit brazilian)
 	dynasty = 8100146
 	culture = brazilian
 	rite = roman_rite
-	1022.1.12 = { birth = yes }
+	7006.1.12 = { birth = yes }
 }
 8100147 = {
 	name = "cyn_Oguz"	# e77 (was Abu-Bakr: did not fit turkish)
 	dynasty = 8100147
 	culture = turkish
 	rite = maliki
-	1027.12.26 = { birth = yes }
-	1066.9.15 = { employer = 106045 }   # e68 courtier of the head (his county joined the head's domain)
+	7011.12.26 = { birth = yes }
+	7050.9.15 = { employer = 106045 }   # e68 courtier of the head (his county joined the head's domain)
 }
 8100148 = {
 	name = "cyn_Nisha"	# e77 (was Dattadevi: did not fit hindustani)
@@ -1076,43 +1077,43 @@
 	dynasty = 8100148
 	culture = hindustani
 	rite = vaishnavism
-	1035.11.23 = { birth = yes }
+	7019.11.23 = { birth = yes }
 }
 8100149 = {
 	name = "Harpal"
 	dynasty = 8100149
 	culture = rajput
 	rite = vaishnavism
-	1043.6.24 = { birth = yes }
-	1066.9.15 = { effect = { title:d_bikaner = { set_title_name = ck_state_ind_rj } } }
+	7027.6.24 = { birth = yes }
+	7050.9.15 = { effect = { title:d_bikaner = { set_title_name = ck_state_ind_rj } } }
 }
 8100150 = {
 	name = "Gambhir"
 	dynasty = 8100150
 	culture = gujarati
 	rite = vaishnavism	# e83 follows his counties (was maliki)
-	1044.8.11 = { birth = yes }
+	7028.8.11 = { birth = yes }
 }
 8100151 = {
 	name = "cyn_Xin"	# e77 (was Rachamalla: did not fit sichuanese)
 	dynasty = 8100151
 	culture = sichuanese
 	rite = dhyana
-	1030.5.19 = { birth = yes }
+	7014.5.19 = { birth = yes }
 }
 8100152 = {
 	name = "cyn_Jianhua"	# e77 (was Tian_586B: did not fit han)
 	dynasty = 8100152
 	culture = han
 	rite = dhyana
-	1036.11.11 = { birth = yes }
+	7020.11.11 = { birth = yes }
 }
 8100153 = {
 	name = "Tong_5F64"
 	dynasty = 8100153
 	culture = han
 	rite = dhyana
-	1025.3.19 = { birth = yes }
+	7009.3.19 = { birth = yes }
 }
 8100154 = {
 	name = "Caiping_91C7_82F9"
@@ -1120,213 +1121,213 @@
 	dynasty = 8100154
 	culture = gan_hakka
 	rite = dhyana
-	1044.5.18 = { birth = yes }
+	7028.5.18 = { birth = yes }
 }
 8100155 = {
 	name = "cyn_Marcelo"	# e77 (was Xochipepe: did not fit nordestino)
 	dynasty = 8100155
 	culture = nordestino
 	rite = roman_rite
-	1019.7.11 = { birth = yes }
+	7003.7.11 = { birth = yes }
 }
 8100156 = {
 	name = "Hirapal"
 	dynasty = 8100156
 	culture = rajput
 	rite = vaishnavism	# e83 follows his counties (was maliki)
-	1032.12.20 = { birth = yes }
+	7016.12.20 = { birth = yes }
 }
 8100157 = {
 	name = "cyn_Rahman"	# e77 (was Narasimha: did not fit malay)
 	dynasty = 8100157
 	culture = malay
 	rite = shafii
-	1022.10.3 = { birth = yes }
+	7006.10.3 = { birth = yes }
 }
 8100158 = {
 	name = "Vela"
 	dynasty = 8100158
 	culture = gaucho
 	rite = roman_rite
-	1044.5.5 = { birth = yes }
+	7028.5.5 = { birth = yes }
 }
 8100159 = {
 	name = "cyn_Saleh"	# e77 (was Ghalib: did not fit levantine)
 	dynasty = 8100159
 	culture = levantine
 	rite = shafii	# e83 follows his counties (was rabbinism)
-	1025.7.5 = { birth = yes }
+	7009.7.5 = { birth = yes }
 }
 8100160 = {
 	name = "cyn_Hamady"	# e77 (was Bikorom: did not fit pulaar)
 	dynasty = 8100160
 	culture = pulaar
 	rite = protestant_rite
-	1034.3.5 = { birth = yes }
+	7018.3.5 = { birth = yes }
 }
 8100161 = {
 	name = "cyn_Felipe"	# e77 (was Domingo: did not fit afro_brazilian)
 	dynasty = 8100161
 	culture = afro_brazilian
 	rite = roman_rite
-	1034.5.9 = { birth = yes }
+	7018.5.9 = { birth = yes }
 }
 8100162 = {
 	name = "Ponce"
 	dynasty = 8100162
 	culture = nordestino
 	rite = roman_rite
-	1025.5.26 = { birth = yes }
+	7009.5.26 = { birth = yes }
 }
 8100163 = {
 	name = "Sancho"
 	dynasty = 8100163
 	culture = brazilian
 	rite = roman_rite
-	1031.6.23 = { birth = yes }
+	7015.6.23 = { birth = yes }
 }
 8100164 = {
 	name = "cyn_Kittipat"	# e77 (was Purandaradasa: did not fit thai)
 	dynasty = 8100164
 	culture = thai
 	rite = theravada
-	1040.12.9 = { birth = yes }
-	1066.9.15 = { employer = 400089 }   # e68 courtier of the head (his county joined the head's domain)
+	7024.12.9 = { birth = yes }
+	7050.9.15 = { employer = 400089 }   # e68 courtier of the head (his county joined the head's domain)
 }
 8100165 = {
 	name = "cyn_Abubakr"	# e77 (was Hou_5795: did not fit tajik)
 	dynasty = 8100165
 	culture = tajik
 	rite = maliki
-	1044.6.25 = { birth = yes }
+	7028.6.25 = { birth = yes }
 }
 8100166 = {
 	name = "cyn_Abhiram"	# e77 (was NiyA_yaparipA_lapattan: did not fit telugu)
 	dynasty = 8100166
 	culture = telugu
 	rite = vaishnavism
-	1030.1.14 = { birth = yes }
+	7014.1.14 = { birth = yes }
 }
 8100167 = {
 	name = "cyn_Nuhu"	# e77 (was Adam: did not fit hausa)
 	dynasty = 8100167
 	culture = hausa
 	rite = maliki
-	1032.2.17 = { birth = yes }
+	7016.2.17 = { birth = yes }
 }
 8100168 = {
 	name = "cyn_Naveen"	# e77 (was Udaychoda: did not fit kannada)
 	dynasty = 8100168
 	culture = kannada
 	rite = vaishnavism
-	1020.12.19 = { birth = yes }
+	7004.12.19 = { birth = yes }
 }
 8100169 = {
 	name = "Durk"
 	dynasty = 8100169
 	culture = ganda
 	rite = roman_rite
-	1036.11.5 = { birth = yes }
+	7020.11.5 = { birth = yes }
 }
 8100170 = {
 	name = "Wayne"
 	dynasty = 8100170
 	culture = luba
 	rite = roman_rite
-	1038.4.13 = { birth = yes }
+	7022.4.13 = { birth = yes }
 }
 8100171 = {
 	name = "cyn_Balaji"	# e77 (was Ramakuta: did not fit tamil)
 	dynasty = 8100171
 	culture = tamil
 	rite = vaishnavism
-	1026.9.3 = { birth = yes }
+	7010.9.3 = { birth = yes }
 }
 8100172 = {
 	name = "cyn_Santosh"	# e77 (was Vigrahapala: did not fit hindustani)
 	dynasty = 8100172
 	culture = hindustani
 	rite = vaishnavism
-	1025.12.4 = { birth = yes }
+	7009.12.4 = { birth = yes }
 }
 8100173 = {
 	name = "cyn_Hussain"	# e77 (was Tejpal: did not fit sindhi)
 	dynasty = 8100173
 	culture = sindhi
 	rite = maliki
-	1032.10.6 = { birth = yes }
+	7016.10.6 = { birth = yes }
 }
 8100174 = {
 	name = "cyn_Omar"	# e77 (was Yi_7FCA: did not fit uyghur)
 	dynasty = 8100174
 	culture = uyghur
 	rite = hanafi
-	1035.12.14 = { birth = yes }
+	7019.12.14 = { birth = yes }
 }
 8100175 = {
 	name = "cyn_Hassan"	# e77 (was Mahmoud: did not fit hausa)
 	dynasty = 8100175
 	culture = hausa
 	rite = maliki
-	1036.12.7 = { birth = yes }
+	7020.12.7 = { birth = yes }
 }
 8100176 = {
 	name = "cyn_Souleymane"	# e77 (was Adam: did not fit malinke)
 	dynasty = 8100176
 	culture = malinke
 	rite = maliki
-	1027.4.18 = { birth = yes }
-	1066.9.15 = { employer = 104335 }   # e68 courtier of the head (his county joined the head's domain)
+	7011.4.18 = { birth = yes }
+	7050.9.15 = { employer = 104335 }   # e68 courtier of the head (his county joined the head's domain)
 }
 8100177 = {
 	name = "cyn_Petro"	# e77 (was Rurik: did not fit ukrainian)
 	dynasty = 8100177
 	culture = ukrainian
 	rite = byzantine_rite
-	1039.8.12 = { birth = yes }
+	7023.8.12 = { birth = yes }
 }
 8100178 = {
 	name = "cyn_Okot"	# e77 (was Bulu: did not fit beja)
 	dynasty = 8100178
 	culture = beja
 	rite = maliki
-	1039.4.2 = { birth = yes }
+	7023.4.2 = { birth = yes }
 }
 8100179 = {
 	name = "cyn_Wichian"	# e77 (was Somesvara: did not fit thai)
 	dynasty = 8100179
 	culture = thai
 	rite = theravada
-	1022.11.9 = { birth = yes }
+	7006.11.9 = { birth = yes }
 }
 8100180 = {
 	name = "cyn_Chakar"	# e77 (was Fadil: did not fit baloch)
 	dynasty = 8100180
 	culture = baloch
 	rite = maliki
-	1025.1.9 = { birth = yes }
+	7009.1.9 = { birth = yes }
 }
 8100181 = {
 	name = "Yusuf"
 	dynasty = 8100181
 	culture = somali
 	rite = shafii
-	1040.7.15 = { birth = yes }
+	7024.7.15 = { birth = yes }
 }
 8100182 = {
 	name = "cyn_Okot"	# e77 (was Waziri: did not fit nilotic)
 	dynasty = 8100182
 	culture = nilotic
 	rite = protestant_rite
-	1019.4.5 = { birth = yes }
+	7003.4.5 = { birth = yes }
 }
 8100183 = {
 	name = "Elijah"
 	dynasty = 8100183
 	culture = bemba
 	rite = protestant_rite
-	1022.6.18 = { birth = yes }
-	1066.9.15 = { employer = 107595 }   # e68 courtier of the head (his county joined the head's domain)
+	7006.6.18 = { birth = yes }
+	7050.9.15 = { employer = 107595 }   # e68 courtier of the head (his county joined the head's domain)
 }
 8100184 = {
 	name = "cyn_Rumana"	# e77 (was Revakanimmadi: did not fit bengali)
@@ -1334,348 +1335,348 @@
 	dynasty = 8100184
 	culture = bengali
 	rite = vaishnavism
-	1038.12.26 = { birth = yes }
+	7022.12.26 = { birth = yes }
 }
 8100185 = {
 	name = "cyn_Kevin"	# e77 (was Alain: did not fit german)
 	dynasty = 8100185
 	culture = german
 	rite = roman_rite	# e83 follows his counties (was protestant_rite)
-	1026.8.23 = { birth = yes }
+	7010.8.23 = { birth = yes }
 }
 8100186 = {
 	name = "Sami"
 	dynasty = 8100186
 	culture = egyptian
 	rite = maliki
-	1022.9.3 = { birth = yes }
+	7006.9.3 = { birth = yes }
 }
 8100187 = {
 	name = "cyn_Caleb"	# e77 (was Arku: did not fit akan)
 	dynasty = 8100187
 	culture = akan
 	rite = maliki
-	1022.12.9 = { birth = yes }
-	1066.9.15 = { employer = 8100056 }   # e68 courtier of the head (his county joined the head's domain)
+	7006.12.9 = { birth = yes }
+	7050.9.15 = { employer = 8100056 }   # e68 courtier of the head (his county joined the head's domain)
 }
 8100188 = {
 	name = "cyn_Luis"	# e77 (was Markos: did not fit albanian)
 	dynasty = 8100188
 	culture = albanian
 	rite = hanafi	# e83 follows his counties (was byzantine_rite)
-	1040.4.2 = { birth = yes }
+	7024.4.2 = { birth = yes }
 }
 8100189 = {
 	name = "cyn_Aidos"	# e77 (was Yueke_8D8A_5BA2: did not fit kazak)
 	dynasty = 8100189
 	culture = kazak
 	rite = hanafi	# e83 follows his counties (was byzantine_rite)
-	1044.12.1 = { birth = yes }
+	7028.12.1 = { birth = yes }
 }
 8100190 = {
 	name = "cyn_Stepan"	# e77 (was Koz_ma: did not fit russian)
 	dynasty = 8100190
 	culture = russian
 	rite = byzantine_rite
-	1034.9.5 = { birth = yes }
-	1066.9.15 = { employer = 106215 }   # e68 courtier of the head (his county joined the head's domain)
+	7018.9.5 = { birth = yes }
+	7050.9.15 = { employer = 106215 }   # e68 courtier of the head (his county joined the head's domain)
 }
 8100191 = {
 	name = "Yevstafiy"
 	dynasty = 8100191
 	culture = russian
 	rite = byzantine_rite
-	1041.7.9 = { birth = yes }
+	7025.7.9 = { birth = yes }
 }
 8100192 = {
 	name = "cyn_Wan"	# e77 (was Ramaraya: did not fit malay)
 	dynasty = 8100192
 	culture = malay
 	rite = shafii
-	1032.12.1 = { birth = yes }
+	7016.12.1 = { birth = yes }
 }
 8100193 = {
 	name = "cyn_Yaw"	# e77 (was Biri: did not fit akan)
 	dynasty = 8100193
 	culture = akan
 	rite = protestant_rite
-	1037.4.3 = { birth = yes }
+	7021.4.3 = { birth = yes }
 }
 8100194 = {
 	name = "Yu_9918"
 	dynasty = 8100194
 	culture = sichuanese
 	rite = dhyana
-	1044.2.11 = { birth = yes }
+	7028.2.11 = { birth = yes }
 }
 8100195 = {
 	name = "cyn_Denis"	# e77 (was Eustachy: did not fit russian)
 	dynasty = 8100195
 	culture = russian
 	rite = byzantine_rite
-	1027.10.4 = { birth = yes }
+	7011.10.4 = { birth = yes }
 }
 8100196 = {
 	name = "Idris"
 	dynasty = 8100196
 	culture = bedouin
 	rite = maliki	# e83 follows his counties (was imami)
-	1038.9.15 = { birth = yes }
+	7022.9.15 = { birth = yes }
 }
 8100197 = {
 	name = "cyn_Denys"	# e77 (was Jacek: did not fit ukrainian)
 	dynasty = 8100197
 	culture = ukrainian
 	rite = byzantine_rite
-	1033.7.17 = { birth = yes }
-	1066.9.15 = { effect = { title:k_kingdom0599 = { set_title_name = ck_country_ukr } } }
-	1066.9.15 = { effect = { set_realm_capital = title:c_kyiv } }   # e71 real capital
+	7017.7.17 = { birth = yes }
+	7050.9.15 = { effect = { title:k_kingdom0599 = { set_title_name = ck_country_ukr } } }
+	7050.9.15 = { effect = { set_realm_capital = title:c_kyiv } }   # e71 real capital
 }
 8100198 = {
 	name = "cyn_Ali"	# e77 (was Dan_65E6: did not fit kirghiz)
 	dynasty = 8100198
 	culture = kirghiz
 	rite = hanafi
-	1039.8.19 = { birth = yes }
+	7023.8.19 = { birth = yes }
 }
 8100199 = {
 	name = "cyn_Olumide"	# e77 (was Dala: did not fit yoruba)
 	dynasty = 8100199
 	culture = yoruba
 	rite = anglican_rite	# e85 follows c_lagos (was protestant_rite)	# e83 follows his counties (was west_african_orisha_pagan)
-	1034.5.28 = { birth = yes }
+	7018.5.28 = { birth = yes }
 }
 8100200 = {
 	name = "cyn_Haoyu"	# e77 (was Youru_5E7C_5112: did not fit han)
 	dynasty = 8100200
 	culture = han
 	rite = dhyana
-	1036.3.12 = { birth = yes }
+	7020.3.12 = { birth = yes }
 }
 8100201 = {
 	name = "cyn_Rihards"	# e77 (was Mieszko: did not fit latvian)
 	dynasty = 8100201
 	culture = latvian
 	rite = protestant_rite
-	1044.3.7 = { birth = yes }
+	7028.3.7 = { birth = yes }
 }
 8100202 = {
 	name = "cyn_Hashim"	# e77 (was Aghlab: did not fit levantine)
 	dynasty = 8100202
 	culture = levantine
 	rite = maliki
-	1037.2.15 = { birth = yes }
+	7021.2.15 = { birth = yes }
 }
 8100203 = {
 	name = "Quentin"
 	dynasty = 8100203
 	culture = sotho_tswana
 	rite = roman_rite
-	1036.9.27 = { birth = yes }
+	7020.9.27 = { birth = yes }
 }
 8100204 = {
 	name = "cyn_Mavungu"	# e77 (was Nikale: did not fit kongo)
 	dynasty = 8100204
 	culture = kongo
 	rite = roman_rite
-	1039.8.11 = { birth = yes }
+	7023.8.11 = { birth = yes }
 }
 8100205 = {
 	name = "cyn_Dirk"	# e77 (was Aymar: did not fit german)
 	dynasty = 8100205
 	culture = german
 	rite = roman_rite
-	1022.8.2 = { birth = yes }
+	7006.8.2 = { birth = yes }
 }
 8100206 = {
 	name = "Dirk"
 	dynasty = 8100206
 	culture = sotho_tswana
 	rite = protestant_rite
-	1044.10.27 = { birth = yes }
+	7028.10.27 = { birth = yes }
 }
 8100207 = {
 	name = "Xun_905C"
 	dynasty = 8100207
 	culture = sichuanese
 	rite = dhyana
-	1035.7.15 = { birth = yes }
+	7019.7.15 = { birth = yes }
 }
 8100208 = {
 	name = "Oveco"
 	dynasty = 8100208
 	culture = gaucho
 	rite = roman_rite
-	1030.6.6 = { birth = yes }
+	7014.6.6 = { birth = yes }
 }
 8100209 = {
 	name = "cyn_Yuxuan"	# e77 (was Yanqing_5EF6_5E86: did not fit han)
 	dynasty = 8100209
 	culture = han
 	rite = dhyana
-	1022.4.17 = { birth = yes }
+	7006.4.17 = { birth = yes }
 }
 8100210 = {
 	name = "Benjamin"
 	dynasty = 8100210
 	culture = kongo
 	rite = roman_rite
-	1025.11.26 = { birth = yes }
+	7009.11.26 = { birth = yes }
 }
 8100211 = {
 	name = "cyn_Arjun"	# e77 (was Dhruva: did not fit hindustani)
 	dynasty = 8100211
 	culture = hindustani
 	rite = vaishnavism
-	1035.5.16 = { birth = yes }
+	7019.5.16 = { birth = yes }
 }
 8100212 = {
 	name = "cyn_Amarjit"	# e77 (was Prithipala: did not fit punjabi)
 	dynasty = 8100212
 	culture = punjabi
 	rite = sikhism_rite
-	1044.10.12 = { birth = yes }
+	7028.10.12 = { birth = yes }
 }
 8100213 = {
 	name = "cyn_Lukas"	# e77 (was Aubry: did not fit german)
 	dynasty = 8100213
 	culture = german
 	rite = protestant_rite
-	1034.4.20 = { birth = yes }
-	1066.9.15 = { employer = 105285 }
+	7018.4.20 = { birth = yes }
+	7050.9.15 = { employer = 105285 }
 }
 8100214 = {
 	name = "cyn_Mohamed"	# e77 (was Ya_qub: did not fit egyptian)
 	dynasty = 8100214
 	culture = egyptian
 	rite = maliki
-	1043.2.24 = { birth = yes }
+	7027.2.24 = { birth = yes }
 }
 8100215 = {
 	name = "cyn_Petro"	# e77 (was DobiesL_aw: did not fit ukrainian)
 	dynasty = 8100215
 	culture = ukrainian
 	rite = roman_rite
-	1044.1.6 = { birth = yes }
+	7028.1.6 = { birth = yes }
 }
 8100216 = {
 	name = "cyn_Benjamin"	# e77 (was Tzompantzin: did not fit afro_brazilian)
 	dynasty = 8100216
 	culture = afro_brazilian
 	rite = roman_rite
-	1025.3.2 = { birth = yes }
+	7009.3.2 = { birth = yes }
 }
 8100217 = {
 	name = "cyn_Tamilselvan"	# e77 (was UravA_kkinA_n: did not fit tamil)
 	dynasty = 8100217
 	culture = tamil
 	rite = vaishnavism
-	1041.3.7 = { birth = yes }
+	7025.3.7 = { birth = yes }
 }
 8100218 = {
 	name = "cyn_Samba"	# e77 (was Tandja: did not fit pulaar)
 	dynasty = 8100218
 	culture = pulaar
 	rite = maliki
-	1024.10.2 = { birth = yes }
+	7008.10.2 = { birth = yes }
 }
 8100219 = {
 	name = "Vysheslav"
 	dynasty = 8100219
 	culture = russian
 	rite = shafii	# e83 follows his counties (was byzantine_rite)
-	1028.6.21 = { birth = yes }
+	7012.6.21 = { birth = yes }
 }
 8100220 = {
 	name = "Clarence"
 	dynasty = 8100220
 	culture = ovimbundu
 	rite = roman_rite
-	1029.6.5 = { birth = yes }
+	7013.6.5 = { birth = yes }
 }
 8100221 = {
 	name = "cyn_Wilber"	# e77 (was Gil: did not fit andean)
 	dynasty = 8100221
 	culture = andean
 	rite = roman_rite
-	1043.3.20 = { birth = yes }
+	7027.3.20 = { birth = yes }
 }
 8100222 = {
 	name = "cyn_Jairo"	# e77 (was Suero: did not fit criollo)
 	dynasty = 8100222
 	culture = criollo
 	rite = roman_rite
-	1020.5.8 = { birth = yes }
+	7004.5.8 = { birth = yes }
 }
 8100223 = {
 	name = "cyn_Moe"	# e77 (was Praudharaya: did not fit burmese)
 	dynasty = 8100223
 	culture = burmese
 	rite = theravada
-	1019.6.8 = { birth = yes }
+	7003.6.8 = { birth = yes }
 }
 8100224 = {
 	name = "cyn_Farid"	# e77 (was Yu_6631: did not fit afghan)
 	dynasty = 8100224
 	culture = afghan
 	rite = maliki
-	1019.6.7 = { birth = yes }
+	7003.6.7 = { birth = yes }
 }
 8100225 = {
 	name = "cyn_Luis"	# e77 (was Bertrand: did not fit german)
 	dynasty = 8100225
 	culture = german
 	rite = protestant_rite	# e83 follows his counties (was roman_rite)
-	1034.2.14 = { birth = yes }
+	7018.2.14 = { birth = yes }
 }
 8100226 = {
 	name = "cyn_Hua"	# e77 (was Harihara: did not fit sichuanese)
 	dynasty = 8100226
 	culture = sichuanese
 	rite = dhyana
-	1026.6.16 = { birth = yes }
+	7010.6.16 = { birth = yes }
 }
 8100227 = {
 	name = "cyn_Maximiliano"	# e77 (was Acacitli: did not fit mexican)
 	dynasty = 8100227
 	culture = mexican
 	rite = roman_rite
-	1024.4.15 = { birth = yes }
+	7008.4.15 = { birth = yes }
 }
 8100228 = {
 	name = "cyn_Dongmei"	# e77 (was Shilong_58EB_9F8D: did not fit sichuanese)
 	dynasty = 8100228
 	culture = sichuanese
 	rite = dhyana
-	1024.1.19 = { birth = yes }
+	7008.1.19 = { birth = yes }
 }
 8100229 = {
 	name = "cyn_Tommaso"	# e77 (was Eirenaios: did not fit italian)
 	dynasty = 8100229
 	culture = italian
 	rite = roman_rite
-	1030.5.20 = { birth = yes }
+	7014.5.20 = { birth = yes }
 }
 8100230 = {
 	name = "cyn_Hleb"	# e77 (was MiL_obrat: did not fit belarusian)
 	dynasty = 8100230
 	culture = belarusian
 	rite = byzantine_rite
-	1044.8.28 = { birth = yes }
+	7028.8.28 = { birth = yes }
 }
 8100231 = {
 	name = "cyn_Omar"	# e77 (was Harsa: did not fit sindhi)
 	dynasty = 8100231
 	culture = sindhi
 	rite = maliki
-	1043.3.24 = { birth = yes }
+	7027.3.24 = { birth = yes }
 }
 8100232 = {
 	name = "cyn_Abdulsalam"	# e77 (was Sulayman: did not fit libyan)
 	dynasty = 8100232
 	culture = libyan
 	rite = maliki
-	1023.5.21 = { birth = yes }
+	7007.5.21 = { birth = yes }
 }
 8100233 = {
 	name = "cyn_Jonali"	# e77 (was Bhavanaga: did not fit assamese)
@@ -1683,92 +1684,92 @@
 	dynasty = 8100233
 	culture = assamese
 	rite = vaishnavism
-	1030.3.25 = { birth = yes }
+	7014.3.25 = { birth = yes }
 }
 8100234 = {
 	name = "cyn_Cristian_cd9c"	# e77 (was Dobrogost: did not fit romanian)
 	dynasty = 8100234
 	culture = romanian
 	rite = byzantine_rite
-	1025.10.13 = { birth = yes }
+	7009.10.13 = { birth = yes }
 }
 8100235 = {
 	name = "cyn_Alexandre"	# e77 (was Romanos: did not fit french)
 	dynasty = 8100235
 	culture = french
 	rite = roman_rite
-	1035.8.28 = { birth = yes }
+	7019.8.28 = { birth = yes }
 }
 8100236 = {
 	name = "cyn_Bogdan"	# e77 (was Konstantinos: did not fit serbian)
 	dynasty = 8100236
 	culture = serbian
 	rite = byzantine_rite
-	1020.2.15 = { birth = yes }
+	7004.2.15 = { birth = yes }
 }
 8100237 = {
 	name = "cyn_Arturo"	# e77 (was Acamapichtli: did not fit mexican)
 	dynasty = 8100237
 	culture = mexican
 	rite = roman_rite
-	1025.2.12 = { birth = yes }
+	7009.2.12 = { birth = yes }
 }
 8100238 = {
 	name = "cyn_Gael"	# e77 (was Dauid: did not fit brazilian)
 	dynasty = 8100238
 	culture = brazilian
 	rite = roman_rite
-	1037.3.2 = { birth = yes }
+	7021.3.2 = { birth = yes }
 }
 8100239 = {
 	name = "cyn_Benjamin"	# e77 (was Evangelos: did not fit french)
 	dynasty = 8100239
 	culture = french
 	rite = roman_rite
-	1029.6.8 = { birth = yes }
+	7013.6.8 = { birth = yes }
 }
 8100240 = {
 	name = "cyn_Georg"	# e77 (was Amaury: did not fit bavarian)
 	dynasty = 8100240
 	culture = bavarian
 	rite = roman_rite
-	1042.6.3 = { birth = yes }
+	7026.6.3 = { birth = yes }
 }
 8100241 = {
 	name = "cyn_Lucas"	# e77 (was SanC_: did not fit castilian)
 	dynasty = 8100241
 	culture = castilian
 	rite = roman_rite
-	1032.4.5 = { birth = yes }
+	7016.4.5 = { birth = yes }
 }
 8100242 = {
 	name = "cyn_Mudasir"	# e77 (was Kiratpal: did not fit kashmiri)
 	dynasty = 8100242
 	culture = kashmiri
 	rite = maliki
-	1037.2.8 = { birth = yes }
+	7021.2.8 = { birth = yes }
 }
 8100243 = {
 	name = "cyn_Njoroge"	# e77 (was Buyuma: did not fit east_bantu)
 	dynasty = 8100243
 	culture = east_bantu
 	rite = roman_rite
-	1022.6.5 = { birth = yes }
+	7006.6.5 = { birth = yes }
 }
 8100244 = {
 	name = "Kwame"
 	dynasty = 8100244
 	culture = kongo
 	rite = roman_rite
-	1022.11.27 = { birth = yes }
-	1066.9.15 = { employer = 106485 }   # e68 courtier of the head (his county joined the head's domain)
+	7006.11.27 = { birth = yes }
+	7050.9.15 = { employer = 106485 }   # e68 courtier of the head (his county joined the head's domain)
 }
 8100245 = {
 	name = "cyn_Atharva"	# e77 (was Cayantavarman: did not fit marathi)
 	dynasty = 8100245
 	culture = marathi
 	rite = vaishnavism
-	1021.3.16 = { birth = yes }
+	7005.3.16 = { birth = yes }
 }
 8100246 = {
 	name = "cyn_Amal"	# e77 (was Yagana: did not fit bedouin)
@@ -1776,169 +1777,169 @@
 	dynasty = 8100246
 	culture = bedouin
 	rite = maliki
-	1042.5.9 = { birth = yes }
+	7026.5.9 = { birth = yes }
 }
 8100247 = {
 	name = "cyn_Prasoet"	# e77 (was Vishnuvardhana: did not fit thai)
 	dynasty = 8100247
 	culture = thai
 	rite = theravada
-	1038.5.23 = { birth = yes }
+	7022.5.23 = { birth = yes }
 }
 8100248 = {
 	name = "cyn_Manute"	# e77 (was Musa: did not fit nilotic)
 	dynasty = 8100248
 	culture = nilotic
 	rite = protestant_rite
-	1029.10.19 = { birth = yes }
+	7013.10.19 = { birth = yes }
 }
 8100249 = {
 	name = "Hunter"
 	dynasty = 8100249
 	culture = liblander_west
 	rite = roman_rite	# e83 follows his counties (was protestant_rite)
-	1028.5.23 = { birth = yes }
+	7012.5.23 = { birth = yes }
 }
 8100250 = {
 	name = "cyn_Ming"	# e77 (was Xiang_8C61: did not fit gan_hakka)
 	dynasty = 8100250
 	culture = gan_hakka
 	rite = zhengyi
-	1026.9.6 = { birth = yes }
+	7010.9.6 = { birth = yes }
 }
 8100251 = {
 	name = "cyn_Tejas"	# e77 (was Nagatiraja: did not fit marathi)
 	dynasty = 8100251
 	culture = marathi
 	rite = vaishnavism
-	1044.6.9 = { birth = yes }
+	7028.6.9 = { birth = yes }
 }
 8100252 = {
 	name = "cyn_Xiaoming"	# e77 (was Zongben_5B97_672C: did not fit wu)
 	dynasty = 8100252
 	culture = wu
 	rite = dhyana
-	1040.7.4 = { birth = yes }
+	7024.7.4 = { birth = yes }
 }
 8100253 = {
 	name = "cyn_Jiahao"	# e77 (was Indra: did not fit bouxcuengh)
 	dynasty = 8100253
 	culture = bouxcuengh
 	rite = dhyana
-	1035.10.13 = { birth = yes }
+	7019.10.13 = { birth = yes }
 }
 8100254 = {
 	name = "cyn_Yang"	# e77 (was Dacheng_5927_6210: did not fit han)
 	dynasty = 8100254
 	culture = han
 	rite = dhyana
-	1024.11.26 = { birth = yes }
+	7008.11.26 = { birth = yes }
 }
 8100255 = {
 	name = "cyn_Thura"	# e77 (was Sadashiva: did not fit burmese)
 	dynasty = 8100255
 	culture = burmese
 	rite = theravada
-	1023.4.8 = { birth = yes }
+	7007.4.8 = { birth = yes }
 }
 8100256 = {
 	name = "cyn_Karthikeya"	# e77 (was KulO_ttunka: did not fit telugu)
 	dynasty = 8100256
 	culture = telugu
 	rite = vaishnavism
-	1035.7.20 = { birth = yes }
+	7019.7.20 = { birth = yes }
 }
 8100257 = {
 	name = "Dembo"
 	dynasty = 8100257
 	culture = nguni
 	rite = protestant_rite
-	1024.7.1 = { birth = yes }
+	7008.7.1 = { birth = yes }
 }
 8100258 = {
 	name = "cyn_Vadim"	# e77 (was Rurik: did not fit russian)
 	dynasty = 8100258
 	culture = russian
 	rite = byzantine_rite
-	1037.6.10 = { birth = yes }
-	1066.9.15 = { employer = 106215 }   # e68 courtier of the head (his county joined the head's domain)
+	7021.6.10 = { birth = yes }
+	7050.9.15 = { employer = 106215 }   # e68 courtier of the head (his county joined the head's domain)
 }
 8100259 = {
 	name = "cyn_Robert"	# e77 (was Dabbalemi: did not fit ganda)
 	dynasty = 8100259
 	culture = ganda
 	rite = anglican_rite	# e85 follows c_njeru (was protestant_rite)
-	1033.8.12 = { birth = yes }
+	7017.8.12 = { birth = yes }
 }
 8100260 = {
 	name = "cyn_Nsimba"	# e77 (was Alooma: did not fit kongo)
 	dynasty = 8100260
 	culture = kongo
 	rite = roman_rite
-	1029.12.7 = { birth = yes }
+	7013.12.7 = { birth = yes }
 }
 8100261 = {
 	name = "Arsu"
 	dynasty = 8100261
 	culture = kanuri
 	rite = maliki
-	1024.5.7 = { birth = yes }
+	7008.5.7 = { birth = yes }
 }
 8100262 = {
 	name = "cyn_Abdi"	# e77 (was Selma: did not fit somali)
 	dynasty = 8100262
 	culture = somali
 	rite = shafii
-	1030.12.28 = { birth = yes }
+	7014.12.28 = { birth = yes }
 }
 8100263 = {
 	name = "Wiley"
 	dynasty = 8100263
 	culture = rwandan
 	rite = protestant_rite
-	1035.3.12 = { birth = yes }
+	7019.3.12 = { birth = yes }
 }
 8100264 = {
 	name = "cyn_Thierno"	# e77 (was Nikale: did not fit pulaar)
 	dynasty = 8100264
 	culture = pulaar
 	rite = roman_rite
-	1033.2.8 = { birth = yes }
+	7017.2.8 = { birth = yes }
 }
 8100265 = {
 	name = "cyn_Mykola"	# e77 (was Wojuta: did not fit ukrainian)
 	dynasty = 8100265
 	culture = ukrainian
 	rite = byzantine_rite
-	1020.8.17 = { birth = yes }
+	7004.8.17 = { birth = yes }
 }
 8100266 = {
 	name = "cyn_Rafal"	# e77 (was WaN_ko: did not fit polish)
 	dynasty = 8100266
 	culture = polish
 	rite = roman_rite
-	1018.7.1 = { birth = yes }
+	7002.7.1 = { birth = yes }
 }
 8100267 = {
 	name = "cyn_Mohammed"	# e77 (was Shettima: did not fit nupe)
 	dynasty = 8100267
 	culture = nupe
 	rite = maliki
-	1031.8.16 = { birth = yes }
+	7015.8.16 = { birth = yes }
 }
 8100268 = {
 	name = "cyn_Uchenna"	# e77 (was Kanemi: did not fit igbo)
 	dynasty = 8100268
 	culture = igbo
 	rite = roman_rite
-	1031.8.10 = { birth = yes }
+	7015.8.10 = { birth = yes }
 }
 8100269 = {
 	name = "cyn_Gennady"	# e77 (was Gong_62F1: did not fit russian)
 	dynasty = 8100269
 	culture = russian
 	rite = byzantine_rite
-	1034.7.27 = { birth = yes }
+	7018.7.27 = { birth = yes }
 }
 8100270 = {
 	name = "cyn_Sui"	# e77 (was Nobuko_10: did not fit japanese)
@@ -1946,23 +1947,23 @@
 	dynasty = 8100270
 	culture = japanese
 	rite = shinto
-	1031.5.20 = { birth = yes }
+	7015.5.20 = { birth = yes }
 }
 8100271 = {
 	name = "cyn_Boureima"	# e77 (was Dugu: did not fit mossi)
 	dynasty = 8100271
 	culture = mossi
 	rite = maliki	# e83 follows his counties (was roman_rite)
-	1044.10.7 = { birth = yes }
-	1066.9.15 = { effect = { title:d_northern_ghana = { set_title_name = ck_country_bfa } } }
-	1066.9.15 = { effect = { set_realm_capital = title:c_ouagadougou } }   # e71 real capital
+	7028.10.7 = { birth = yes }
+	7050.9.15 = { effect = { title:d_northern_ghana = { set_title_name = ck_country_bfa } } }
+	7050.9.15 = { effect = { set_realm_capital = title:c_ouagadougou } }   # e71 real capital
 }
 8100272 = {
 	name = "cyn_Ahmad"	# e77 (was Ramachandra: did not fit malay)
 	dynasty = 8100272
 	culture = malay
 	rite = maliki
-	1037.10.20 = { birth = yes }
+	7021.10.20 = { birth = yes }
 }
 8100273 = {
 	name = "cyn_Yesenia"	# e77 (was Elisabeth: did not fit centroamerican)
@@ -1970,56 +1971,56 @@
 	dynasty = 8100273
 	culture = centroamerican
 	rite = roman_rite
-	1025.2.4 = { birth = yes }
+	7009.2.4 = { birth = yes }
 }
 8100274 = {
 	name = "cyn_Jian"	# e77 (was Shugu_8FF0_53E4: did not fit sichuanese)
 	dynasty = 8100274
 	culture = sichuanese
 	rite = dhyana
-	1041.9.9 = { birth = yes }
+	7025.9.9 = { birth = yes }
 }
 8100275 = {
 	name = "cyn_Viraj"	# e77 (was Devavarman: did not fit hindustani)
 	dynasty = 8100275
 	culture = hindustani
 	rite = vaishnavism
-	1037.6.18 = { birth = yes }
+	7021.6.18 = { birth = yes }
 }
 8100276 = {
 	name = "cyn_Marcio"	# e77 (was Vellido: did not fit brazilian)
 	dynasty = 8100276
 	culture = brazilian
 	rite = roman_rite
-	1024.2.11 = { birth = yes }
+	7008.2.11 = { birth = yes }
 }
 8100277 = {
 	name = "cyn_Attila"	# e77 (was Sebastianos: did not fit hungarian)
 	dynasty = 8100277
 	culture = hungarian
 	rite = roman_rite	# e83 follows his counties (was byzantine_rite)
-	1040.10.7 = { birth = yes }
+	7024.10.7 = { birth = yes }
 }
 8100278 = {
 	name = "MartI_n"
 	dynasty = 8100278
 	culture = gaucho
 	rite = roman_rite
-	1039.5.5 = { birth = yes }
+	7023.5.5 = { birth = yes }
 }
 8100279 = {
 	name = "cyn_Sami"	# e77 (was Mahipala: did not fit afghan)
 	dynasty = 8100279
 	culture = afghan
 	rite = maliki
-	1033.10.5 = { birth = yes }
+	7017.10.5 = { birth = yes }
 }
 8100280 = {
 	name = "cyn_Thiago"	# e77 (was Jimeno: did not fit afro_brazilian)
 	dynasty = 8100280
 	culture = afro_brazilian
 	rite = roman_rite
-	1030.7.15 = { birth = yes }
+	7014.7.15 = { birth = yes }
 }
 8100281 = {
 	name = "cyn_Fernanda"	# e77 (was Guina: did not fit brazilian)
@@ -2027,112 +2028,112 @@
 	dynasty = 8100281
 	culture = brazilian
 	rite = roman_rite
-	1031.8.21 = { birth = yes }
+	7015.8.21 = { birth = yes }
 }
 8100282 = {
 	name = "cyn_Benjamin_7262"	# e77 (was Ocuil: did not fit criollo)
 	dynasty = 8100282
 	culture = criollo
 	rite = roman_rite
-	1029.10.5 = { birth = yes }
+	7013.10.5 = { birth = yes }
 }
 8100283 = {
 	name = "cyn_Ivan"	# e77 (was Piotr: did not fit ukrainian)
 	dynasty = 8100283
 	culture = ukrainian
 	rite = byzantine_rite
-	1042.4.9 = { birth = yes }
+	7026.4.9 = { birth = yes }
 }
 8100284 = {
 	name = "cyn_Anyie"	# e77 (was Vishnugopa: did not fit dayak)
 	dynasty = 8100284
 	culture = dayak
 	rite = shafii	# e83 follows his counties (was vaishnavism)
-	1019.12.3 = { birth = yes }
+	7003.12.3 = { birth = yes }
 }
 8100285 = {
 	name = "cyn_Fadi"	# e77 (was Abdul-Wahab: did not fit egyptian)
 	dynasty = 8100285
 	culture = egyptian
 	rite = maliki
-	1026.7.1 = { birth = yes }
+	7010.7.1 = { birth = yes }
 }
 8100286 = {
 	name = "Vela"
 	dynasty = 8100286
 	culture = brazilian
 	rite = roman_rite
-	1025.8.15 = { birth = yes }
+	7009.8.15 = { birth = yes }
 }
 8100287 = {
 	name = "cyn_Cuauhtemoc"	# e77 (was Tlalli: did not fit nativican)
 	dynasty = 8100287
 	culture = nativican
 	rite = roman_rite
-	1043.1.7 = { birth = yes }
+	7027.1.7 = { birth = yes }
 }
 8100288 = {
 	name = "cyn_Rohan"	# e77 (was Kamal: did not fit marathi)
 	dynasty = 8100288
 	culture = marathi
 	rite = vaishnavism
-	1031.8.25 = { birth = yes }
+	7015.8.25 = { birth = yes }
 }
 8100289 = {
 	name = "cyn_Zhihao"	# e77 (was Jinsi_8FDB_601D: did not fit wu)
 	dynasty = 8100289
 	culture = wu
 	rite = dhyana
-	1036.8.15 = { birth = yes }
+	7020.8.15 = { birth = yes }
 }
 8100290 = {
 	name = "cyn_Kum_song"	# e77 (was Kazuma: did not fit north_korean)
 	dynasty = 8100290
 	culture = north_korean
 	rite = mu
-	1037.7.9 = { birth = yes }
+	7021.7.9 = { birth = yes }
 }
 8100291 = {
 	name = "cyn_Ilham_b5c4"	# e77 (was Dhruva: did not fit uyghur)
 	dynasty = 8100291
 	culture = uyghur
 	rite = hanafi
-	1020.1.13 = { birth = yes }
+	7004.1.13 = { birth = yes }
 }
 8100292 = {
 	name = "cyn_Jun"	# e77 (was Krishnadevaraya: did not fit bouxcuengh)
 	dynasty = 8100292
 	culture = bouxcuengh
 	rite = dhyana
-	1023.4.5 = { birth = yes }
+	7007.4.5 = { birth = yes }
 }
 8100293 = {
 	name = "Musa"
 	dynasty = 8100293
 	culture = moroccan
 	rite = maliki
-	1028.7.13 = { birth = yes }
+	7012.7.13 = { birth = yes }
 }
 8100294 = {
 	name = "cyn_Bilal"	# e77 (was Dilipapala: did not fit punjabi)
 	dynasty = 8100294
 	culture = punjabi
 	rite = maliki
-	1026.9.24 = { birth = yes }
+	7010.9.24 = { birth = yes }
 }
 8100295 = {
 	name = "cyn_Ishaan"	# e77 (was Prithvivarman: did not fit hindustani)
 	dynasty = 8100295
 	culture = hindustani
 	rite = vaishnavism
-	1030.3.28 = { birth = yes }
+	7014.3.28 = { birth = yes }
 }
 8100296 = {
 	name = "Prithipala"
 	dynasty = 8100296
 	culture = gujarati
 	rite = vaishnavism	# e83 follows his counties (was maliki)
-	1028.4.22 = { birth = yes }
+	7012.4.22 = { birth = yes }
 }
 8100297 = {
 	name = "cyn_Sharmila"	# e77 (was Mailaladevi: did not fit bengali)
@@ -2140,15 +2141,15 @@
 	dynasty = 8100297
 	culture = bengali
 	rite = vaishnavism
-	1042.11.27 = { birth = yes }
-	1066.9.15 = { employer = 108645 }   # e68 courtier of the head (his county joined the head's domain)
+	7026.11.27 = { birth = yes }
+	7050.9.15 = { employer = 108645 }   # e68 courtier of the head (his county joined the head's domain)
 }
 8100298 = {
 	name = "cyn_Pawan"	# e77 (was Danna: did not fit telugu)
 	dynasty = 8100298
 	culture = telugu
 	rite = vaishnavism
-	1021.7.16 = { birth = yes }
+	7005.7.16 = { birth = yes }
 }
 8100299 = {
 	name = "cyn_Leyla"	# e77 (was Rafiqa: did not fit azerbaijani)
@@ -2156,198 +2157,198 @@
 	dynasty = 8100299
 	culture = azerbaijani
 	rite = imami
-	1036.5.24 = { birth = yes }
+	7020.5.24 = { birth = yes }
 }
 8100300 = {
 	name = "cyn_Artur"	# e77 (was Matlatzincatzin: did not fit afro_brazilian)
 	dynasty = 8100300
 	culture = afro_brazilian
 	rite = roman_rite
-	1026.7.1 = { birth = yes }
-	1066.9.15 = { effect = { title:d_duchy0276 = { set_title_name = ck_state_bra_pe } } }
+	7010.7.1 = { birth = yes }
+	7050.9.15 = { effect = { title:d_duchy0276 = { set_title_name = ck_state_bra_pe } } }
 }
 8100301 = {
 	name = "Rodrigo"
 	dynasty = 8100301
 	culture = brazilian
 	rite = roman_rite
-	1042.4.23 = { birth = yes }
+	7026.4.23 = { birth = yes }
 }
 8100302 = {
 	name = "Rodrigo"
 	dynasty = 8100302
 	culture = brazilian
 	rite = roman_rite
-	1023.10.25 = { birth = yes }
+	7007.10.25 = { birth = yes }
 }
 8100303 = {
 	name = "cyn_Jorge"	# e77 (was Domingo: did not fit rioplatense)
 	dynasty = 8100303
 	culture = rioplatense
 	rite = roman_rite
-	1025.9.22 = { birth = yes }
+	7009.9.22 = { birth = yes }
 }
 8100304 = {
 	name = "cyn_Pradeep"	# e77 (was Ishtpala: did not fit oriya)
 	dynasty = 8100304
 	culture = oriya
 	rite = vaishnavism
-	1040.6.24 = { birth = yes }
+	7024.6.24 = { birth = yes }
 }
 8100305 = {
 	name = "Quran"
 	dynasty = 8100305
 	culture = rwandan
 	rite = protestant_rite
-	1025.3.17 = { birth = yes }
+	7009.3.17 = { birth = yes }
 }
 8100306 = {
 	name = "Oleg"
 	dynasty = 8100306
 	culture = russian
 	rite = byzantine_rite
-	1028.3.5 = { birth = yes }
-	1066.9.15 = { employer = 106215 }   # e68 courtier of the head (his county joined the head's domain)
+	7012.3.5 = { birth = yes }
+	7050.9.15 = { employer = 106215 }   # e68 courtier of the head (his county joined the head's domain)
 }
 8100307 = {
 	name = "Iziaslav"
 	dynasty = 8100307
 	culture = russian
 	rite = byzantine_rite
-	1019.8.5 = { birth = yes }
+	7003.8.5 = { birth = yes }
 }
 8100308 = {
 	name = "Radoslav"
 	dynasty = 8100308
 	culture = russian
 	rite = byzantine_rite
-	1018.2.23 = { birth = yes }
+	7002.2.23 = { birth = yes }
 }
 8100309 = {
 	name = "cyn_Martin_3d62"	# e77 (was Tochtli: did not fit mexican)
 	dynasty = 8100309
 	culture = mexican
 	rite = roman_rite
-	1032.7.16 = { birth = yes }
+	7016.7.16 = { birth = yes }
 }
 8100310 = {
 	name = "cyn_Salvatore"	# e77 (was Komitas: did not fit italian)
 	dynasty = 8100310
 	culture = italian
 	rite = roman_rite
-	1034.2.2 = { birth = yes }
+	7018.2.2 = { birth = yes }
 }
 8100311 = {
 	name = "cyn_Samuel"	# e77 (was Tizoc: did not fit centroamerican)
 	dynasty = 8100311
 	culture = centroamerican
 	rite = roman_rite
-	1039.7.27 = { birth = yes }
+	7023.7.27 = { birth = yes }
 }
 8100312 = {
 	name = "cyn_Omar"	# e77 (was Murad: did not fit bedouin)
 	dynasty = 8100312
 	culture = bedouin
 	rite = maliki
-	1030.8.13 = { birth = yes }
+	7014.8.13 = { birth = yes }
 }
 8100313 = {
 	name = "Sheng_5347"
 	dynasty = 8100313
 	culture = min
 	rite = dhyana
-	1036.1.19 = { birth = yes }
+	7020.1.19 = { birth = yes }
 }
 8100314 = {
 	name = "cyn_Samuel"	# e77 (was Pero: did not fit gaucho)
 	dynasty = 8100314
 	culture = gaucho
 	rite = roman_rite
-	1034.12.2 = { birth = yes }
+	7018.12.2 = { birth = yes }
 }
 8100315 = {
 	name = "cyn_Juan_Pablo"	# e77 (was Cuixtli: did not fit mexican)
 	dynasty = 8100315
 	culture = mexican
 	rite = roman_rite
-	1028.2.6 = { birth = yes }
+	7012.2.6 = { birth = yes }
 }
 8100316 = {
 	name = "Yan_5043"
 	dynasty = 8100316
 	culture = cantonese
 	rite = dhyana
-	1026.11.10 = { birth = yes }
+	7010.11.10 = { birth = yes }
 }
 8100317 = {
 	name = "cyn_Heitor"	# e77 (was Ixtlilxochitl: did not fit afro_brazilian)
 	dynasty = 8100317
 	culture = afro_brazilian
 	rite = roman_rite
-	1028.4.1 = { birth = yes }
+	7012.4.1 = { birth = yes }
 }
 8100318 = {
 	name = "GuillE_n"
 	dynasty = 8100318
 	culture = brazilian
 	rite = roman_rite
-	1033.1.8 = { birth = yes }
+	7017.1.8 = { birth = yes }
 }
 8100319 = {
 	name = "Yusuf"
 	dynasty = 8100319
 	culture = sao
 	rite = protestant_rite
-	1026.9.6 = { birth = yes }
+	7010.9.6 = { birth = yes }
 }
 8100320 = {
 	name = "Arestes"
 	dynasty = 8100320
 	culture = persian
 	rite = imami
-	1030.5.21 = { birth = yes }
+	7014.5.21 = { birth = yes }
 }
 8100321 = {
 	name = "cyn_Thiago"	# e77 (was Gabrielkouda: did not fit brazilian)
 	dynasty = 8100321
 	culture = brazilian
 	rite = roman_rite
-	1034.11.10 = { birth = yes }
+	7018.11.10 = { birth = yes }
 }
 8100322 = {
 	name = "cyn_Raul"	# e77 (was Carles: did not fit castilian)
 	dynasty = 8100322
 	culture = castilian
 	rite = roman_rite
-	1030.5.18 = { birth = yes }
+	7014.5.18 = { birth = yes }
 }
 8100323 = {
 	name = "Idris"
 	dynasty = 8100323
 	culture = maghrebi
 	rite = maliki
-	1043.7.6 = { birth = yes }
+	7027.7.6 = { birth = yes }
 }
 8100324 = {
 	name = "cyn_Tianyu"	# e77 (was Ding_9F0E: did not fit han)
 	dynasty = 8100324
 	culture = han
 	rite = protestant_rite	# e84 restored with his e55 county
-	1043.1.3 = { birth = yes }
+	7027.1.3 = { birth = yes }
 }
 8100325 = {
 	name = "Yong_7528"
 	dynasty = 8100325
 	culture = cantonese
 	rite = dhyana
-	1029.2.23 = { birth = yes }
+	7013.2.23 = { birth = yes }
 }
 8100326 = {
 	name = "cyn_Ho_Yin"	# e77 (was Li_7ACB: did not fit cantonese)
 	dynasty = 8100326
 	culture = cantonese
 	rite = dhyana
-	1026.6.21 = { birth = yes }
+	7010.6.21 = { birth = yes }
 }
 8100327 = {
 	name = "cyn_Jing"	# e77 (was Jue_89C9: did not fit xiang)
@@ -2355,84 +2356,84 @@
 	dynasty = 8100327
 	culture = xiang
 	rite = dhyana
-	1030.1.23 = { birth = yes }
+	7014.1.23 = { birth = yes }
 }
 8100328 = {
 	name = "Pu_6D66"
 	dynasty = 8100328
 	culture = han
 	rite = dhyana
-	1041.8.1 = { birth = yes }
+	7025.8.1 = { birth = yes }
 }
 8100329 = {
 	name = "cyn_Wenjie"	# e77 (was Tianting_5929_633A: did not fit han)
 	dynasty = 8100329
 	culture = han
 	rite = zhengyi
-	1042.1.4 = { birth = yes }
+	7026.1.4 = { birth = yes }
 }
 8100330 = {
 	name = "cyn_Erbol"	# e77 (was Yi_85DD: did not fit kazak)
 	dynasty = 8100330
 	culture = kazak
 	rite = hanafi
-	1032.7.22 = { birth = yes }
+	7016.7.22 = { birth = yes }
 }
 8100331 = {
 	name = "cyn_Foday"	# e77 (was Baram: did not fit mel)
 	dynasty = 8100331
 	culture = mel
 	rite = maliki
-	1032.12.24 = { birth = yes }
+	7016.12.24 = { birth = yes }
 }
 8100332 = {
 	name = "cyn_Ahmed"	# e77 (was Praudharaya: did not fit bengali)
 	dynasty = 8100332
 	culture = bengali
 	rite = vaishnavism
-	1025.2.24 = { birth = yes }
+	7009.2.24 = { birth = yes }
 }
 8100333 = {
 	name = "cyn_Xiaoming"	# e77 (was Jayasimha: did not fit min)
 	dynasty = 8100333
 	culture = min
 	rite = dhyana
-	1039.11.16 = { birth = yes }
+	7023.11.16 = { birth = yes }
 }
 8100334 = {
 	name = "cyn_David"	# e77 (was Ramachandra: did not fit dayak)
 	dynasty = 8100334
 	culture = dayak
 	rite = roman_rite	# e83 follows his counties (was protestant_rite)
-	1038.6.12 = { birth = yes }
+	7022.6.12 = { birth = yes }
 }
 8100335 = {
 	name = "cyn_Nik"	# e77 (was Eustathios: did not fit slovenian)
 	dynasty = 8100335
 	culture = slovenian
 	rite = roman_rite
-	1038.10.10 = { birth = yes }
+	7022.10.10 = { birth = yes }
 }
 8100336 = {
 	name = "cyn_Dmitry"	# e77 (was Spytko: did not fit russian)
 	dynasty = 8100336
 	culture = russian
 	rite = byzantine_rite
-	1036.6.21 = { birth = yes }
+	7020.6.21 = { birth = yes }
 }
 8100337 = {
 	name = "cyn_Teodor"	# e77 (was Raphail: did not fit bulgarian)
 	dynasty = 8100337
 	culture = bulgarian
 	rite = byzantine_rite
-	1018.12.6 = { birth = yes }
+	7002.12.6 = { birth = yes }
 }
 8100338 = {
 	name = "Herbert"
 	dynasty = 8100338
 	culture = swahili
 	rite = roman_rite
-	1021.11.17 = { birth = yes }
+	7005.11.17 = { birth = yes }
 }
 8100339 = {
 	name = "Leonor"
@@ -2440,135 +2441,135 @@
 	dynasty = 8100339
 	culture = brazilian
 	rite = roman_rite
-	1040.8.17 = { birth = yes }
+	7024.8.17 = { birth = yes }
 }
 8100340 = {
 	name = "cyn_Sanjay"	# e77 (was Sukhinpala: did not fit kashmiri)
 	dynasty = 8100340
 	culture = kashmiri
 	rite = hanafi
-	1032.3.27 = { birth = yes }
+	7016.3.27 = { birth = yes }
 }
 8100341 = {
 	name = "cyn_Wolfgang"	# e77 (was Louis: did not fit german)
 	dynasty = 8100341
 	culture = german
 	rite = roman_rite
-	1025.12.18 = { birth = yes }
+	7009.12.18 = { birth = yes }
 }
 8100342 = {
 	name = "cyn_Naveed"	# e77 (was Indrapal: did not fit sindhi)
 	dynasty = 8100342
 	culture = sindhi
 	rite = maliki
-	1026.12.1 = { birth = yes }
+	7010.12.1 = { birth = yes }
 }
 8100343 = {
 	name = "Baghpala"
 	dynasty = 8100343
 	culture = gujarati
 	rite = vaishnavism	# e83 follows his counties (was maliki)
-	1040.6.12 = { birth = yes }
+	7024.6.12 = { birth = yes }
 }
 8100344 = {
 	name = "Lebron"
 	dynasty = 8100344
 	culture = nguni
 	rite = protestant_rite
-	1035.5.6 = { birth = yes }
+	7019.5.6 = { birth = yes }
 }
 8100345 = {
 	name = "Bernard"
 	dynasty = 8100345
 	culture = french
 	rite = roman_rite
-	1033.2.1 = { birth = yes }
+	7017.2.1 = { birth = yes }
 }
 8100346 = {
 	name = "cyn_Enrique"	# e77 (was Miztli: did not fit mexican)
 	dynasty = 8100346
 	culture = mexican
 	rite = roman_rite
-	1032.5.12 = { birth = yes }
+	7016.5.12 = { birth = yes }
 }
 8100347 = {
 	name = "Jalil"
 	dynasty = 8100347
 	culture = bedouin
 	rite = hanbali	# e83 follows his counties (was rabbinism)
-	1021.9.16 = { birth = yes }
+	7005.9.16 = { birth = yes }
 }
 8100348 = {
 	name = "Rong_5BB9"
 	dynasty = 8100348
 	culture = min
 	rite = dhyana
-	1027.1.9 = { birth = yes }
-	1066.9.15 = { effect = { set_realm_capital = title:c_taiwan_island } }
+	7011.1.9 = { birth = yes }
+	7050.9.15 = { effect = { set_realm_capital = title:c_taiwan_island } }
 }
 8100349 = {
 	name = "cyn_Yong"	# e77 (was Zhuo_6FEF: did not fit han)
 	dynasty = 8100349
 	culture = han
 	rite = dhyana
-	1025.11.24 = { birth = yes }
+	7009.11.24 = { birth = yes }
 }
 8100350 = {
 	name = "cyn_Fiifi"	# e77 (was Kuri: did not fit akan)
 	dynasty = 8100350
 	culture = akan
 	rite = protestant_rite
-	1041.2.26 = { birth = yes }
+	7025.2.26 = { birth = yes }
 }
 8100351 = {
 	name = "cyn_Emiliano"	# e77 (was Tezozomoc: did not fit mexican)
 	dynasty = 8100351
 	culture = mexican
 	rite = roman_rite
-	1030.7.6 = { birth = yes }
+	7014.7.6 = { birth = yes }
 }
 8100352 = {
 	name = "Salvador"
 	dynasty = 8100352
 	culture = brazilian
 	rite = roman_rite
-	1020.12.5 = { birth = yes }
+	7004.12.5 = { birth = yes }
 }
 8100353 = {
 	name = "Que_78BA"
 	dynasty = 8100353
 	culture = han
 	rite = dhyana
-	1028.11.24 = { birth = yes }
+	7012.11.24 = { birth = yes }
 }
 8100354 = {
 	name = "cyn_Nikoloz"	# e77 (was Iakov: did not fit georgian)
 	dynasty = 8100354
 	culture = georgian
 	rite = byzantine_rite
-	1032.10.22 = { birth = yes }
-	1066.9.15 = { effect = { title:c_tbilisi = { set_title_name = ck_country_geo } } }
+	7016.10.22 = { birth = yes }
+	7050.9.15 = { effect = { title:c_tbilisi = { set_title_name = ck_country_geo } } }
 }
 8100355 = {
 	name = "cyn_Guilherme"	# e77 (was Matlatzincatzin: did not fit nordestino)
 	dynasty = 8100355
 	culture = nordestino
 	rite = roman_rite
-	1037.11.8 = { birth = yes }
+	7021.11.8 = { birth = yes }
 }
 8100356 = {
 	name = "Wiley"
 	dynasty = 8100356
 	culture = tsonga
 	rite = roman_rite
-	1022.6.10 = { birth = yes }
+	7006.6.10 = { birth = yes }
 }
 8100357 = {
 	name = "cyn_Minh"	# e77 (was Dhruva: did not fit viet)
 	dynasty = 8100357
 	culture = viet
 	rite = dhyana
-	1025.2.25 = { birth = yes }
+	7009.2.25 = { birth = yes }
 }
 8100358 = {
 	name = "cyn_An_Nhien"	# e77 (was Akkadevi: did not fit viet)
@@ -2576,79 +2577,79 @@
 	dynasty = 8100358
 	culture = viet
 	rite = dhyana
-	1038.10.18 = { birth = yes }
-	1066.9.15 = { employer = 109085 }   # e68 courtier of the head (his county joined the head's domain)
+	7022.10.18 = { birth = yes }
+	7050.9.15 = { employer = 109085 }   # e68 courtier of the head (his county joined the head's domain)
 }
 8100359 = {
 	name = "Jalil"
 	dynasty = 8100359
 	culture = maghrebi
 	rite = maliki
-	1044.1.8 = { birth = yes }
+	7028.1.8 = { birth = yes }
 }
 8100360 = {
 	name = "cyn_Abebe"	# e77 (was Gazi: did not fit ethiopian)
 	dynasty = 8100360
 	culture = ethiopian
 	rite = ethiopian_rite
-	1024.3.25 = { birth = yes }
+	7008.3.25 = { birth = yes }
 }
 8100361 = {
 	name = "cyn_Ramesh"	# e77 (was Ramakuta: did not fit tamil)
 	dynasty = 8100361
 	culture = tamil
 	rite = vaishnavism
-	1023.2.27 = { birth = yes }
+	7007.2.27 = { birth = yes }
 }
 8100362 = {
 	name = "cyn_Dhanush"	# e77 (was Iyob: did not fit tamil)
 	dynasty = 8100362
 	culture = tamil
 	rite = vaishnavism
-	1038.10.22 = { birth = yes }
+	7022.10.22 = { birth = yes }
 }
 8100363 = {
 	name = "Berenguel"
 	dynasty = 8100363
 	culture = brazilian
 	rite = roman_rite
-	1042.11.17 = { birth = yes }
+	7026.11.17 = { birth = yes }
 }
 8100364 = {
 	name = "cyn_Vladimir_9972"	# e77 (was MiL_obrat: did not fit russian)
 	dynasty = 8100364
 	culture = russian
 	rite = byzantine_rite
-	1044.8.13 = { birth = yes }
+	7028.8.13 = { birth = yes }
 }
 8100365 = {
 	name = "cyn_Walid"	# e77 (was Aghlab: did not fit maghrebi)
 	dynasty = 8100365
 	culture = maghrebi
 	rite = maliki
-	1026.1.9 = { birth = yes }
-	1066.9.15 = { effect = { title:d_mizdah = { set_title_name = ck_country_tun } } }
+	7010.1.9 = { birth = yes }
+	7050.9.15 = { effect = { title:d_mizdah = { set_title_name = ck_country_tun } } }
 }
 8100366 = {
 	name = "cyn_Arslan"	# e77 (was Renjie_4EC1_5091: did not fit uyghur)
 	dynasty = 8100366
 	culture = uyghur
 	rite = hanafi
-	1038.6.23 = { birth = yes }
+	7022.6.23 = { birth = yes }
 }
 8100367 = {
 	name = "cyn_Raoni"	# e77 (was Olli: did not fit amazonian)
 	dynasty = 8100367
 	culture = amazonian
 	rite = roman_rite	# e83 follows his counties (was protestant_rite)
-	1029.7.21 = { birth = yes }
+	7013.7.21 = { birth = yes }
 }
 8100368 = {
 	name = "Uddharandeva"
 	dynasty = 8100368
 	culture = rajput
 	rite = vaishnavism
-	1042.7.2 = { birth = yes }
+	7026.7.2 = { birth = yes }
 }
 8100369 = {
 	name = "cyn_Shanti"	# e77 (was Puppadevi: did not fit hindustani)
@@ -2656,710 +2657,710 @@
 	dynasty = 8100369
 	culture = hindustani
 	rite = vaishnavism
-	1029.4.25 = { birth = yes }
+	7013.4.25 = { birth = yes }
 }
 8100370 = {
 	name = "cyn_Emiliano"	# e77 (was Tlacaeleltzin: did not fit mexican)
 	dynasty = 8100370
 	culture = mexican
 	rite = roman_rite
-	1043.1.25 = { birth = yes }
+	7027.1.25 = { birth = yes }
 }
 8100371 = {
 	name = "cyn_Stefano"	# e77 (was Ioulianos: did not fit italian)
 	dynasty = 8100371
 	culture = italian
 	rite = roman_rite
-	1028.8.20 = { birth = yes }
+	7012.8.20 = { birth = yes }
 }
 8100372 = {
 	name = "cyn_Gerardo"	# e77 (was Gil: did not fit mexican)
 	dynasty = 8100372
 	culture = mexican
 	rite = roman_rite
-	1026.6.7 = { birth = yes }
+	7010.6.7 = { birth = yes }
 }
 8100373 = {
 	name = "cyn_Srinivas"	# e77 (was Ganapatidev: did not fit telugu)
 	dynasty = 8100373
 	culture = telugu
 	rite = vaishnavism
-	1018.2.3 = { birth = yes }
+	7002.2.3 = { birth = yes }
 }
 8100374 = {
 	name = "cyn_Kuarup"	# e77 (was Topiltzin: did not fit amazonian)
 	dynasty = 8100374
 	culture = amazonian
 	rite = roman_rite
-	1041.4.22 = { birth = yes }
+	7025.4.22 = { birth = yes }
 }
 8100375 = {
 	name = "cyn_Artem"	# e77 (was WiesL_aw: did not fit ukrainian)
 	dynasty = 8100375
 	culture = ukrainian
 	rite = byzantine_rite
-	1022.4.21 = { birth = yes }
-	1066.9.15 = { employer = 8100197 }   # e68 courtier of the head (his county joined the head's domain)
+	7006.4.21 = { birth = yes }
+	7050.9.15 = { employer = 8100197 }   # e68 courtier of the head (his county joined the head's domain)
 }
 8100376 = {
 	name = "cyn_Heitor"	# e77 (was Iacob: did not fit afro_brazilian)
 	dynasty = 8100376
 	culture = afro_brazilian
 	rite = roman_rite
-	1026.2.4 = { birth = yes }
+	7010.2.4 = { birth = yes }
 }
 8100377 = {
 	name = "Yuriy"
 	dynasty = 8100377
 	culture = russian
 	rite = byzantine_rite
-	1025.11.17 = { birth = yes }
+	7009.11.17 = { birth = yes }
 }
 8100378 = {
 	name = "cyn_Igor"	# e77 (was Ingvar: did not fit russian)
 	dynasty = 8100378
 	culture = russian
 	rite = byzantine_rite
-	1032.8.8 = { birth = yes }
+	7016.8.8 = { birth = yes }
 }
 8100379 = {
 	name = "cyn_Zhihao"	# e77 (was Shimeng_5E2B_5B5F: did not fit sichuanese)
 	dynasty = 8100379
 	culture = sichuanese
 	rite = dhyana
-	1020.4.22 = { birth = yes }
+	7004.4.22 = { birth = yes }
 }
 8100380 = {
 	name = "cyn_Charan"	# e77 (was Samuel: did not fit telugu)
 	dynasty = 8100380
 	culture = telugu
 	rite = vaishnavism
-	1023.7.20 = { birth = yes }
+	7007.7.20 = { birth = yes }
 }
 8100381 = {
 	name = "Kazimierz"
 	dynasty = 8100381
 	culture = polish
 	rite = roman_rite
-	1040.9.11 = { birth = yes }
+	7024.9.11 = { birth = yes }
 }
 8100382 = {
 	name = "Zao_85FB"
 	dynasty = 8100382
 	culture = han
 	rite = dhyana
-	1039.6.27 = { birth = yes }
+	7023.6.27 = { birth = yes }
 }
 8100383 = {
 	name = "Ji_8F2F"
 	dynasty = 8100383
 	culture = wu
 	rite = protestant_rite	# e84 restored with his e55 county
-	1033.9.27 = { birth = yes }
+	7017.9.27 = { birth = yes }
 }
 8100384 = {
 	name = "cyn_Bradley"	# e77 (was nter: did not fit aussie)
 	dynasty = 8100384
 	culture = aussie
 	rite = roman_rite
-	1029.12.5 = { birth = yes }
+	7013.12.5 = { birth = yes }
 }
 8100385 = {
 	name = "Jun_6FEC"
 	dynasty = 8100385
 	culture = han
 	rite = dhyana
-	1020.1.24 = { birth = yes }
+	7004.1.24 = { birth = yes }
 }
 8100386 = {
 	name = "Yuanheng_5143_4EA8"
 	dynasty = 8100386
 	culture = han
 	rite = dhyana
-	1031.8.4 = { birth = yes }
+	7015.8.4 = { birth = yes }
 }
 8100387 = {
 	name = "cyn_Chao"	# e77 (was Tunan_5716_5357: did not fit han)
 	dynasty = 8100387
 	culture = han
 	rite = dhyana
-	1042.9.5 = { birth = yes }
+	7026.9.5 = { birth = yes }
 }
 8100388 = {
 	name = "cyn_Ruoxi"	# e77 (was Yuyan_8207_8A00: did not fit han)
 	dynasty = 8100388
 	culture = han
 	rite = dhyana
-	1044.8.13 = { birth = yes }
+	7028.8.13 = { birth = yes }
 }
 8100389 = {
 	name = "cyn_Zihao"	# e77 (was Zhongwen_4EF2_6587: did not fit han)
 	dynasty = 8100389
 	culture = han
 	rite = dhyana
-	1030.8.7 = { birth = yes }
+	7014.8.7 = { birth = yes }
 }
 8100390 = {
 	name = "cyn_Sithu"	# e77 (was Sripadaraya: did not fit burmese)
 	dynasty = 8100390
 	culture = burmese
 	rite = theravada
-	1030.7.28 = { birth = yes }
+	7014.7.28 = { birth = yes }
 }
 8100391 = {
 	name = "Yaropolk"
 	dynasty = 8100391
 	culture = russian
 	rite = byzantine_rite
-	1031.1.20 = { birth = yes }
+	7015.1.20 = { birth = yes }
 }
 8100392 = {
 	name = "Cynosil"
 	dynasty = 8100392
 	culture = persian
 	rite = imami
-	1042.4.16 = { birth = yes }
+	7026.4.16 = { birth = yes }
 }
 8100393 = {
 	name = "cyn_Bin"	# e77 (was Deyan_5FB7_8A00: did not fit han)
 	dynasty = 8100393
 	culture = han
 	rite = dhyana
-	1023.7.10 = { birth = yes }
+	7007.7.10 = { birth = yes }
 }
 8100394 = {
 	name = "Bikorom"
 	dynasty = 8100394
 	culture = kanuri
 	rite = maliki
-	1030.4.7 = { birth = yes }
+	7014.4.7 = { birth = yes }
 }
 8100395 = {
 	name = "cyn_Yuchen"	# e77 (was Ziyou_5B50_6E38: did not fit han)
 	dynasty = 8100395
 	culture = han
 	rite = dhyana
-	1040.12.28 = { birth = yes }
+	7024.12.28 = { birth = yes }
 }
 8100396 = {
 	name = "cyn_Kin"	# e77 (was Ju_741A: did not fit cantonese)
 	dynasty = 8100396
 	culture = cantonese
 	rite = dhyana
-	1043.5.24 = { birth = yes }
+	7027.5.24 = { birth = yes }
 }
 8100397 = {
 	name = "cyn_Zihao"	# e77 (was Krishna: did not fit sichuanese)
 	dynasty = 8100397
 	culture = sichuanese
 	rite = dhyana
-	1019.11.5 = { birth = yes }
+	7003.11.5 = { birth = yes }
 }
 8100398 = {
 	name = "Cleveland"
 	dynasty = 8100398
 	culture = east_bantu
 	rite = shafii
-	1026.12.8 = { birth = yes }
+	7010.12.8 = { birth = yes }
 }
 8100399 = {
 	name = "cyn_Ruoxi"	# e77 (was Youxun_7531_8A13: did not fit han)
 	dynasty = 8100399
 	culture = han
 	rite = dhyana
-	1021.6.12 = { birth = yes }
+	7005.6.12 = { birth = yes }
 }
 8100400 = {
 	name = "cyn_Thiago"	# e77 (was Cuauhtl: did not fit mexican)
 	dynasty = 8100400
 	culture = mexican
 	rite = roman_rite
-	1025.2.11 = { birth = yes }
-	1066.9.15 = { effect = { title:d_duchy0074 = { set_title_name = ck_state_mex_jal } } }
+	7009.2.11 = { birth = yes }
+	7050.9.15 = { effect = { title:d_duchy0074 = { set_title_name = ck_state_mex_jal } } }
 }
 8100401 = {
 	name = "cyn_Mateo"	# e77 (was Guillem-JordA_: did not fit castilian)
 	dynasty = 8100401
 	culture = castilian
 	rite = roman_rite
-	1039.9.3 = { birth = yes }
+	7023.9.3 = { birth = yes }
 }
 8100402 = {
 	name = "Ying_81BA"
 	dynasty = 8100402
 	culture = han
 	rite = dhyana
-	1038.11.4 = { birth = yes }
+	7022.11.4 = { birth = yes }
 }
 8100403 = {
 	name = "cyn_Ruoxi"	# e77 (was Keshao_514B_7D39: did not fit han)
 	dynasty = 8100403
 	culture = han
 	rite = dhyana
-	1040.9.15 = { birth = yes }
+	7024.9.15 = { birth = yes }
 }
 8100404 = {
 	name = "Feng_8C50"
 	dynasty = 8100404
 	culture = sichuanese
 	rite = dhyana
-	1020.3.17 = { birth = yes }
+	7004.3.17 = { birth = yes }
 }
 8100405 = {
 	name = "cyn_Pape"	# e77 (was Hummay: did not fit wolof)
 	dynasty = 8100405
 	culture = wolof
 	rite = maliki
-	1035.3.20 = { birth = yes }
-	1066.9.15 = { employer = 104045 }   # e68 courtier of the head (his county joined the head's domain)
+	7019.3.20 = { birth = yes }
+	7050.9.15 = { employer = 104045 }   # e68 courtier of the head (his county joined the head's domain)
 }
 8100406 = {
 	name = "cyn_Abdullahi"	# e77 (was Hume: did not fit hausa)
 	dynasty = 8100406
 	culture = hausa
 	rite = maliki
-	1037.12.9 = { birth = yes }
+	7021.12.9 = { birth = yes }
 }
 8100407 = {
 	name = "Renshi_4EC1_5E08"
 	dynasty = 8100407
 	culture = sichuanese
 	rite = dhyana
-	1022.8.28 = { birth = yes }
+	7006.8.28 = { birth = yes }
 }
 8100500 = {
 	name = "Yaropolk"
 	dynasty = 8100500
 	culture = sibiryak
 	rite = byzantine_rite
-	1024.2.13 = { birth = yes }
+	7008.2.13 = { birth = yes }
 }
 8100501 = {
 	name = "Rogvolod"
 	dynasty = 8100501
 	culture = sibiryak
 	rite = byzantine_rite
-	1019.8.2 = { birth = yes }
+	7003.8.2 = { birth = yes }
 }
 8100502 = {
 	name = "Viacheslav"
 	dynasty = 8100502
 	culture = sibiryak
 	rite = byzantine_rite
-	1035.6.23 = { birth = yes }
+	7019.6.23 = { birth = yes }
 }
 8100503 = {
 	name = "Rodislav"
 	dynasty = 8100503
 	culture = sibiryak
 	rite = byzantine_rite
-	1023.2.10 = { birth = yes }
+	7007.2.10 = { birth = yes }
 }
 8100504 = {
 	name = "Blush"
 	dynasty = 8100504
 	culture = sakha
 	rite = byzantine_rite
-	1024.1.4 = { birth = yes }
+	7008.1.4 = { birth = yes }
 }
 8100505 = {
 	name = "Saru"
 	dynasty = 8100505
 	culture = sakha
 	rite = byzantine_rite
-	1043.9.10 = { birth = yes }
+	7027.9.10 = { birth = yes }
 }
 8100506 = {
 	name = "Ayepa"
 	dynasty = 8100506
 	culture = sakha
 	rite = byzantine_rite
-	1027.2.28 = { birth = yes }
+	7011.2.28 = { birth = yes }
 }
 8100507 = {
 	name = "Asep"
 	dynasty = 8100507
 	culture = sakha
 	rite = byzantine_rite
-	1039.8.22 = { birth = yes }
+	7023.8.22 = { birth = yes }
 }
 8100508 = {
 	name = "Daniil"
 	dynasty = 8100508
 	culture = far_eastern
 	rite = shamanism	# e88b back with his county (e83 had made him byzantine_rite)
-	1037.3.4 = { birth = yes }
+	7021.3.4 = { birth = yes }
 }
 8100509 = {
 	name = "Lev"
 	dynasty = 8100509
 	culture = sibiryak
 	rite = byzantine_rite
-	1021.8.17 = { birth = yes }
+	7005.8.17 = { birth = yes }
 }
 8100510 = {
 	name = "Boris"
 	dynasty = 8100510
 	culture = sibiryak
 	rite = byzantine_rite
-	1041.3.24 = { birth = yes }
+	7025.3.24 = { birth = yes }
 }
 8100511 = {
 	name = "TO_rtogul"
 	dynasty = 8100511
 	culture = sakha
 	rite = byzantine_rite
-	1031.3.16 = { birth = yes }
+	7015.3.16 = { birth = yes }
 }
 8100512 = {
 	name = "cyn_Roman"	# e77 (was Aristarkh: did not fit far_eastern)
 	dynasty = 8100512
 	culture = far_eastern
 	rite = shamanism	# e88b back with his county (e83 had made him byzantine_rite)
-	1023.12.17 = { birth = yes }
+	7007.12.17 = { birth = yes }
 }
 8100513 = {
 	name = "MarkU_s"
 	dynasty = 8100513
 	culture = norwegian
 	rite = norse_pagan	# e77 Norse revivalist count of Svalbard (was protestant_rite)
-	1034.3.9 = { birth = yes }
+	7018.3.9 = { birth = yes }
 }
 8100514 = {
 	name = "Konstantin"
 	dynasty = 8100514
 	culture = far_eastern
 	rite = byzantine_rite	# e83 follows his counties (was lamaism)
-	1041.10.19 = { birth = yes }
+	7025.10.19 = { birth = yes }
 }
 8100515 = {
 	name = "cyn_Hasanuddin"	# e77 (was Krisna: did not fit bugis)
 	dynasty = 8100515
 	culture = bugis
 	rite = protestant_rite
-	1030.1.28 = { birth = yes }
+	7014.1.28 = { birth = yes }
 }
 8100516 = {
 	name = "cyn_Rusdi"	# e77 (was Kesari: did not fit bugis)
 	dynasty = 8100516
 	culture = bugis
 	rite = maliki
-	1022.4.27 = { birth = yes }
+	7006.4.27 = { birth = yes }
 }
 8100517 = {
 	name = "cyn_Muhammad"	# e77 (was Damar: did not fit bugis)
 	dynasty = 8100517
 	culture = bugis
 	rite = roman_rite
-	1032.12.6 = { birth = yes }
+	7016.12.6 = { birth = yes }
 }
 8100518 = {
 	name = "cyn_Ilham_b5c4"	# e77 (was Dharanindra: did not fit bugis)
 	dynasty = 8100518
 	culture = bugis
 	rite = protestant_rite	# e83 follows his counties (was roman_rite)
-	1020.12.7 = { birth = yes }
+	7004.12.7 = { birth = yes }
 }
 8100519 = {
 	name = "cyn_Lukman"	# e77 (was Wulung_Gadung: did not fit bugis)
 	dynasty = 8100519
 	culture = bugis
 	rite = roman_rite
-	1028.4.15 = { birth = yes }
+	7012.4.15 = { birth = yes }
 }
 8100520 = {
 	name = "cyn_Yudi"	# e77 (was Anugrah: did not fit javanese)
 	dynasty = 8100520
 	culture = javanese
 	rite = maliki
-	1026.10.13 = { birth = yes }
+	7010.10.13 = { birth = yes }
 }
 8100521 = {
 	name = "Michel"
 	dynasty = 8100521
 	culture = afro_caribbean
 	rite = protestant_rite
-	1020.11.5 = { birth = yes }
+	7004.11.5 = { birth = yes }
 }
 8100522 = {
 	name = "cyn_David"	# e77 (was Putra: did not fit papuan)
 	dynasty = 8100522
 	culture = papuan
 	rite = protestant_rite	# e83 follows his counties (was roman_rite)
-	1032.1.13 = { birth = yes }
+	7016.1.13 = { birth = yes }
 }
 8100600 = {
 	name = "Willem"
 	dynasty = 8100600
 	culture = dutch
 	rite = protestant_rite
-	1021.4.27 = { birth = yes }
+	7005.4.27 = { birth = yes }
 }
 8100700 = {
 	name = "cyn_Ziyad"	# e77 (was Aarif: did not fit bedouin)
 	dynasty = 8100700
 	culture = bedouin
 	rite = imami
-	1034.9.25 = { birth = yes }
+	7018.9.25 = { birth = yes }
 }
 8100701 = {
 	name = "Bernardo"
 	dynasty = 8100701
 	culture = italian
 	rite = roman_rite
-	1023.5.9 = { birth = yes }
+	7007.5.9 = { birth = yes }
 }
 8100702 = {
 	name = "cyn_Burak"	# e77 (was Tutus: did not fit turkish)
 	dynasty = 8100702
 	culture = turkish
 	rite = maliki
-	1032.4.10 = { birth = yes }
+	7016.4.10 = { birth = yes }
 }
 8100703 = {
 	name = "cyn_Vasilis"	# e77 (was Kyros: did not fit greek)
 	dynasty = 8100703
 	culture = greek
 	rite = byzantine_rite
-	1030.3.26 = { birth = yes }
+	7014.3.26 = { birth = yes }
 }
 8100704 = {
 	name = "cyn_Jean"	# e77 (was Ndongala: did not fit kongo)
 	dynasty = 8100704
 	culture = kongo
 	rite = roman_rite
-	1017.9.16 = { birth = yes }
+	7001.9.16 = { birth = yes }
 }
 8100705 = {
 	name = "Jean"
 	dynasty = 8100705
 	culture = afro_caribbean
 	rite = roman_rite
-	1019.10.17 = { birth = yes }
+	7003.10.17 = { birth = yes }
 }
 8100706 = {
 	name = "Omari"
 	dynasty = 8100706
 	culture = swahili
 	rite = shafii
-	1017.4.2 = { birth = yes }
+	7001.4.2 = { birth = yes }
 }
 8100707 = {
 	name = "cyn_Leroy"	# e77 (was Toussaint: did not fit afro_caribbean)
 	dynasty = 8100707
 	culture = afro_caribbean
 	rite = protestant_rite
-	1032.9.24 = { birth = yes }
+	7016.9.24 = { birth = yes }
 }
 8100708 = {
 	name = "cyn_Malachi"	# e77 (was Henri: did not fit afro_caribbean)
 	dynasty = 8100708
 	culture = afro_caribbean
 	rite = anglican_rite	# e85 follows c_saint_vincent_and_the_grenadines (was protestant_rite)
-	1019.7.7 = { birth = yes }
+	7003.7.7 = { birth = yes }
 }
 8100709 = {
 	name = "cyn_Damion"	# e77 (was Toussaint: did not fit afro_caribbean)
 	dynasty = 8100709
 	culture = afro_caribbean
 	rite = roman_rite
-	1012.8.10 = { birth = yes }
+	6996.8.10 = { birth = yes }
 }
 8100710 = {
 	name = "cyn_Andre"	# e77 (was Marcel: did not fit afro_caribbean)
 	dynasty = 8100710
 	culture = afro_caribbean
 	rite = anglican_rite	# e85 follows c_barbados (was protestant_rite)
-	1015.11.23 = { birth = yes }
+	6999.11.23 = { birth = yes }
 }
 8100711 = {
 	name = "cyn_Wesner"	# e77 (was Rene: did not fit afro_caribbean)
 	dynasty = 8100711
 	culture = afro_caribbean
 	rite = roman_rite
-	1033.2.2 = { birth = yes }
+	7017.2.2 = { birth = yes }
 }
 8100712 = {
 	name = "cyn_Sahan"	# e77 (was Apaya: did not fit sinhala)
 	dynasty = 8100712
 	culture = sinhala
 	rite = shafii
-	1015.8.4 = { birth = yes }
+	6999.8.4 = { birth = yes }
 }
 8100713 = {
 	name = "cyn_Aiden"	# e77 (was Lucien: did not fit afro_caribbean)
 	dynasty = 8100713
 	culture = afro_caribbean
 	rite = anglican_rite	# e85 follows c_saint_kitts_and_nevis (was protestant_rite)
-	1037.11.28 = { birth = yes }
+	7021.11.28 = { birth = yes }
 }
 8100714 = {
 	name = "Luiz"
 	dynasty = 8100714
 	culture = afro_brazilian
 	rite = roman_rite
-	1028.10.20 = { birth = yes }
+	7012.10.20 = { birth = yes }
 }
 8100715 = {
 	name = "cyn_Desmond"	# e77 (was Fritz: did not fit afro_caribbean)
 	dynasty = 8100715
 	culture = afro_caribbean
 	rite = anglican_rite	# e85 follows c_antigua_and_barbuda (was protestant_rite)
-	1022.4.10 = { birth = yes }
+	7006.4.10 = { birth = yes }
 }
 8100716 = {
 	name = "cyn_Selvam"	# e77 (was Vediarasan: did not fit tamil)
 	dynasty = 8100716
 	culture = tamil
 	rite = vaishnavism
-	1016.10.6 = { birth = yes }
+	7000.10.6 = { birth = yes }
 }
 8100717 = {
 	name = "cyn_Waisea"	# e77 (was Tribhuwana: did not fit papuan)
 	dynasty = 8100717
 	culture = papuan
 	rite = roman_rite
-	1022.5.26 = { birth = yes }
+	7006.5.26 = { birth = yes }
 }
 8100718 = {
 	name = "cyn_James"	# e77 (was Sri_Jayanasa: did not fit papuan)
 	dynasty = 8100718
 	culture = papuan
 	rite = anglican_rite	# e85 follows c_solomon_islands (was protestant_rite)
-	1021.2.16 = { birth = yes }
+	7005.2.16 = { birth = yes }
 }
 8100719 = {
 	name = "cyn_Marc"	# e77 (was Randria: did not fit malagasy)
 	dynasty = 8100719
 	culture = malagasy
 	rite = roman_rite
-	1036.6.28 = { birth = yes }
+	7020.6.28 = { birth = yes }
 }
 8100720 = {
 	name = "cyn_Paul"	# e77 (was Suryawan: did not fit papuan)
 	dynasty = 8100720
 	culture = papuan
 	rite = protestant_rite
-	1035.1.24 = { birth = yes }
+	7019.1.24 = { birth = yes }
 }
 8100721 = {
 	name = "cyn_Agustinus"	# e77 (was Mpu_Sindok: did not fit papuan)
 	dynasty = 8100721
 	culture = papuan
 	rite = roman_rite
-	1029.9.6 = { birth = yes }
+	7013.9.6 = { birth = yes }
 }
 8100722 = {
 	name = "cyn_Hiro"	# e77 (was Cudamani: did not fit papuan)
 	dynasty = 8100722
 	culture = papuan
 	rite = roman_rite
-	1028.6.15 = { birth = yes }
+	7012.6.15 = { birth = yes }
 }
 8100723 = {
 	name = "cyn_Lukas"	# e77 (was Tuah: did not fit papuan)
 	dynasty = 8100723
 	culture = papuan
 	rite = protestant_rite
-	1021.2.1 = { birth = yes }
+	7005.2.1 = { birth = yes }
 }
 8100724 = {
 	name = "cyn_James"	# e77 (was Candra: did not fit papuan)
 	dynasty = 8100724
 	culture = papuan
 	rite = protestant_rite
-	1021.3.6 = { birth = yes }
+	7005.3.6 = { birth = yes }
 }
 8100725 = {
 	name = "cyn_Markus"	# e77 (was Ratna: did not fit papuan)
 	dynasty = 8100725
 	culture = papuan
 	rite = protestant_rite
-	1036.7.2 = { birth = yes }
+	7020.7.2 = { birth = yes }
 }
 8100726 = {
 	name = "cyn_Sitiveni"	# e77 (was Pancapana: did not fit papuan)
 	dynasty = 8100726
 	culture = papuan
 	rite = protestant_rite
-	1020.11.16 = { birth = yes }
+	7004.11.16 = { birth = yes }
 }
 8100727 = {
 	name = "cyn_Peter"	# e77 (was Adiputra: did not fit papuan)
 	dynasty = 8100727
 	culture = papuan
 	rite = protestant_rite
-	1033.10.3 = { birth = yes }
+	7017.10.3 = { birth = yes }
 }
 8100728 = {
 	name = "cyn_Keanu"	# e77 (was Marakata_Pangkaja: did not fit papuan)
 	dynasty = 8100728
 	culture = papuan
 	rite = protestant_rite
-	1021.10.13 = { birth = yes }
+	7005.10.13 = { birth = yes }
 }
 8100800 = {
 	name = "Richwin"
 	dynasty = 8100800
 	culture = murican
 	rite = protestant_rite	# e83 follows his counties (was latter_day_saints_rite)
-	1016.11.23 = { birth = yes }
+	7000.11.23 = { birth = yes }
 }
 8100801 = {
 	name = "Hunter"
 	dynasty = 8100801
 	culture = moderate
 	rite = protestant_rite	# e83 follows his counties (was roman_rite)
-	1015.6.26 = { birth = yes }
+	6999.6.26 = { birth = yes }
 }
 8100802 = {
 	name = "Dwayne"
 	dynasty = 8100802
 	culture = liblander
 	rite = roman_rite
-	1017.11.10 = { birth = yes }
+	7001.11.10 = { birth = yes }
 }
 8100803 = {
 	name = "Grover"
 	dynasty = 8100803
 	culture = progressive
 	rite = roman_rite
-	1008.6.7 = { birth = yes }
+	6992.6.7 = { birth = yes }
 }
 8100804 = {
 	name = "Grover"
 	dynasty = 8100804
 	culture = liblander
 	rite = roman_rite
-	1009.2.22 = { birth = yes }
+	6993.2.22 = { birth = yes }
 }
 8100805 = {
 	name = "Tyler"
 	dynasty = 8100805
 	culture = liblander
 	rite = roman_rite
-	1012.2.6 = { birth = yes }
+	6996.2.6 = { birth = yes }
 }
 8100806 = {
 	name = "Noah"
 	dynasty = 8100806
 	culture = moderate
 	rite = protestant_rite	# e83 follows his counties (was roman_rite)
-	1027.7.24 = { birth = yes }
+	7011.7.24 = { birth = yes }
 }
 8100807 = {
 	name = "Sawyer"
 	dynasty = 8100807
 	culture = progressive
 	rite = protestant_rite	# e83 follows his counties (was roman_rite)
-	1022.7.19 = { birth = yes }
+	7006.7.19 = { birth = yes }
 }
 8100808 = {
 	name = "Deniel"
 	dynasty = 8100808
 	culture = murican
 	rite = protestant_rite
-	1025.3.25 = { birth = yes }
+	7009.3.25 = { birth = yes }
 }
 8100900 = {
 	name = "Robert"
@@ -3369,15 +3370,15 @@
 	trait = education_diplomacy_3
 	trait = diligent
 	trait = gregarious
-	1001.6.12 = { birth = yes }
-	1066.9.15 = { effect = { set_realm_capital = title:c_district_of_columbia } }
+	6985.6.12 = { birth = yes }
+	7050.9.15 = { effect = { set_realm_capital = title:c_district_of_columbia } }
 }
 8100901 = {
 	name = "Daniel"
 	dynasty = 8100901
 	culture = murican
 	rite = non_denominational_rite
-	1014.9.3 = { birth = yes }
+	6998.9.3 = { birth = yes }
 }
 8100902 = {
 	name = "Athenagoras"
@@ -3386,7 +3387,7 @@
 	trait = education_learning_4
 	trait = temperate
 	trait = devoted
-	1004.2.11 = { birth = yes }
+	6988.2.11 = { birth = yes }
 }
 8100903 = {
 	name = "Shenouda"
@@ -3395,7 +3396,7 @@
 	trait = education_learning_3
 	trait = humble
 	trait = devoted
-	1000.8.3 = { birth = yes }
+	6984.8.3 = { birth = yes }
 }
 8100729 = {
 	name = "Jenniffer"
@@ -3403,7 +3404,7 @@
 	dynasty = 8100729
 	culture = caribeno
 	rite = roman_rite
-	1026.8.5 = { birth = yes }
+	7010.8.5 = { birth = yes }
 }
 # e68 (2026-11-12): local rulers inside the Eurasia hegemony (2027 accuracy)
 8100730 = {
@@ -3411,68 +3412,68 @@
 	dynasty = 8100730
 	culture = han
 	rite = dhyana
-	1003.4.11 = { birth = yes }
+	6987.4.11 = { birth = yes }
 }
 8100731 = {
 	name = "Yuanqing_5143_5E86"
 	dynasty = 8100731
 	culture = han
 	rite = dhyana
-	1009.9.2 = { birth = yes }
+	6993.9.2 = { birth = yes }
 }
 8100732 = {
 	name = "Chengzong_627F_5B97"
 	dynasty = 8100732
 	culture = han
 	rite = dhyana
-	1001.1.23 = { birth = yes }
+	6985.1.23 = { birth = yes }
 }
 8100733 = {
 	name = "Tingyu_5EAD_7389"
 	dynasty = 8100733
 	culture = han
 	rite = dhyana
-	1012.6.30 = { birth = yes }
+	6996.6.30 = { birth = yes }
 }
 8100734 = {
 	name = "Weiren_5A01_4EC1"
 	dynasty = 8100734
 	culture = han
 	rite = dhyana
-	1005.3.17 = { birth = yes }
+	6989.3.17 = { birth = yes }
 }
 8100735 = {
 	name = "Guangting_5149_5EAD"
 	dynasty = 8100735
 	culture = han
 	rite = dhyana
-	1008.11.5 = { birth = yes }
+	6992.11.5 = { birth = yes }
 }
 8100736 = {
 	name = "Yifang_4E49_65B9"
 	dynasty = 8100736
 	culture = han
 	rite = dhyana
-	1011.2.9 = { birth = yes }
+	6995.2.9 = { birth = yes }
 }
 8100737 = {
 	name = "Boyu_4F2F_7389"
 	dynasty = 8100737
 	culture = han
 	rite = zhengyi
-	1006.7.21 = { birth = yes }
+	6990.7.21 = { birth = yes }
 }
 8100738 = {
 	name = "Batu"
 	dynasty = 8100738
 	culture = mongol
 	rite = dhyana	# e83 follows his counties (was lamaism)
-	1004.10.14 = { birth = yes }
+	6988.10.14 = { birth = yes }
 }
 8100739 = {
 	name = "Arslan"
 	dynasty = 8100739
 	culture = uyghur
 	rite = dhyana	# e83 follows his counties (was hanafi)
-	1002.5.28 = { birth = yes }
+	6986.5.28 = { birth = yes }
 }

@@ -1,4 +1,5 @@
-﻿namespace = fp1_major_decisions
+﻿# year-shift 7050: calendar literals moved +5984 (gen_year_shift.py)
+namespace = fp1_major_decisions
 
 ##################################################
 # #Standard Events
@@ -840,7 +841,7 @@ fp1_major_decisions.1001 = {
 		# And that this even has never happened before.
 		NOT = { exists = global_var:had_event_fp1_major_decisions_1001 }
 		# Then, that we're within -ish the legendary frame.
-		current_date <= 1050.1.1
+		current_date <= 7034.1.1
 		# And might actually have a problem with all this deceit.
 		NOR = {
 			has_trait = arrogant

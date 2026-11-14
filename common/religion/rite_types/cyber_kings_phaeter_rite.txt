@@ -1,0 +1,12 @@
+﻿# Cyber Kings 2026-11-13 21:00: Dyeus' heresy of the Eternal Mechanism (modder 18:56: "the eternal mechanism religion
+# or a heresy of it that matches his lore"). Loc: localization/english/cyber_phaeter_l_english.yml.
+phaeter_rite = {
+	faith = eternal_mechanism
+	color = { 0.35 0.55 0.85 }
+	tenets = {
+		tenet_preservation
+		tenet_esotericism
+		tenet_astrology
+	}
+	cultures = { aeon }
+}

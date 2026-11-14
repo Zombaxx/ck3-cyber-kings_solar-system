@@ -1,4 +1,5 @@
-﻿namespace = blotsven
+﻿# year-shift 7050: calendar literals moved +5984 (gen_year_shift.py)
+namespace = blotsven
 
 ##################################
 # Uprising Events				 #
@@ -24,8 +25,8 @@ blotsven.0001 = {
 	}
 
 	trigger = {
-		current_date >= 1066.9.15
-		current_date <= 1080.1.1
+		current_date >= 7050.9.15
+		current_date <= 7064.1.1
 		exists = title:k_sweden.holder
 		# Cannot get this again if you already have it but haven't acted on it
 		NOT = { has_character_flag = blotsven }

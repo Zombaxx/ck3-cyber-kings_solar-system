@@ -1,3 +1,4 @@
-﻿bm_group_cyber_kings = {
-	default_start_date = 1066.9.15
+﻿# year-shift 7050: calendar literals moved +5984 (gen_year_shift.py)
+bm_group_cyber_kings = {
+	default_start_date = 7050.9.15
 }
