@@ -1,0 +1,100 @@
+﻿# Cyber Kings 2026-11-14 02:00 (modder 00:10): Yggdrasil names that depend on who rules.
+# - Ceres (e_empire1405) is called Vanaheimr while a Norse ruler holds it.
+# - The Terra hegemony (h_ck_terra) is called Miðgarðr while a Norse ruler holds it, and Holy Terra while a Catholic does (modder 00:13).
+# "Norse ruler" = North Germanic heritage, the aesir or jotnar pantheon cultures, or the Reaverist or Germanic (Norse pagan) religion.
+# Appended to vanilla on_title_gain and on_game_start (on_actions lists from several files are merged).
+on_title_gain = {
+	on_actions = { ck_yggdrasil_title_names }
+}
+on_game_start = {
+	on_actions = { ck_yggdrasil_title_names_start }
+}
+
+ck_yggdrasil_title_names = {
+	trigger = {
+		OR = {
+			scope:title = title:e_empire1405
+			scope:title = title:h_ck_terra
+		}
+	}
+	effect = {
+		scope:title = {
+			if = {
+				limit = {
+					holder = {
+						OR = {
+							culture = { has_cultural_pillar = heritage_north_germanic }
+							culture = culture:aesir
+							culture = culture:jotnar
+							religion = religion:reaverism_religion
+							religion = religion:germanic_religion
+						}
+					}
+				}
+				if = {
+					limit = { this = title:e_empire1405 }
+					set_title_name = e_empire1405_vanaheimr
+				}
+				else = {
+					set_title_name = h_ck_terra_midgard
+				}
+			}
+			else_if = {	# 2026-11-14 02:15 (modder 00:13): a Catholic Terra is Holy Terra
+				limit = {
+					this = title:h_ck_terra
+					holder = { faith = faith:catholic }
+				}
+				set_title_name = h_ck_terra_holy
+			}
+			else = {
+				reset_title_name = yes
+			}
+		}
+	}
+}
+
+ck_yggdrasil_title_names_start = {
+	effect = {
+		title:e_empire1405 = {
+			if = {
+				limit = {
+					exists = holder
+					holder = {
+						OR = {
+							culture = { has_cultural_pillar = heritage_north_germanic }
+							culture = culture:aesir
+							culture = culture:jotnar
+							religion = religion:reaverism_religion
+							religion = religion:germanic_religion
+						}
+					}
+				}
+				set_title_name = e_empire1405_vanaheimr
+			}
+		}
+		title:h_ck_terra = {
+			if = {
+				limit = {
+					exists = holder
+					holder = {
+						OR = {
+							culture = { has_cultural_pillar = heritage_north_germanic }
+							culture = culture:aesir
+							culture = culture:jotnar
+							religion = religion:reaverism_religion
+							religion = religion:germanic_religion
+						}
+					}
+				}
+				set_title_name = h_ck_terra_midgard
+			}
+			else_if = {
+				limit = {
+					exists = holder
+					holder = { faith = faith:catholic }
+				}
+				set_title_name = h_ck_terra_holy
+			}
+		}
+	}
+}

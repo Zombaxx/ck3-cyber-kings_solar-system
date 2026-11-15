@@ -1,0 +1,161 @@
+﻿# Cyber Kings experimental (2026-11-13): space-lane travel flavor events.
+# Fired from ck_lane_travel_on_action (common/on_action/ck_exp_lane_on_actions.txt) while a player ruler travels a space lane.
+namespace = ck_lane
+
+ck_lane.0001 = {
+	type = character_event
+	title = ck_lane.0001.t
+	desc = ck_lane.0001.desc
+	theme = travel_danger
+	override_background = { reference = fp1_ocean }
+	left_portrait = {
+		character = root
+		animation = worry
+	}
+	cooldown = { years = 5 }
+	trigger = {
+		is_available_travelling_adult = yes
+		is_playable_character = yes
+		location ?= { geographical_region = ck_space_lanes }
+	}
+	immediate = {
+		add_character_flag = { flag = ck_lane_event_recent years = 1 }
+	}
+	option = { # Wait for the storm to pass
+		name = ck_lane.0001.a
+		current_travel_plan ?= { delay_travel_plan = { days = 10 } }
+		stress_impact = { impatient = minor_stress_impact_gain }
+		ai_chance = { base = 50 }
+	}
+	option = { # Order the pilot through it
+		name = ck_lane.0001.b
+		random_list = {
+			60 = {
+				desc = ck_lane.0001.b.success
+				add_prestige = minor_prestige_gain
+			}
+			40 = {
+				desc = ck_lane.0001.b.failure
+				add_stress = medium_stress_gain
+				current_travel_plan ?= { delay_travel_plan = { days = 20 } }
+			}
+		}
+		stress_impact = { craven = medium_stress_impact_gain }
+		ai_chance = { base = 50 }
+	}
+}
+
+ck_lane.0002 = {
+	type = character_event
+	title = ck_lane.0002.t
+	desc = ck_lane.0002.desc
+	theme = travel
+	override_background = { reference = fp1_ocean }
+	left_portrait = {
+		character = root
+		animation = thinking
+	}
+	cooldown = { years = 5 }
+	trigger = {
+		is_available_travelling_adult = yes
+		is_playable_character = yes
+		location ?= { geographical_region = ck_space_lanes }
+	}
+	immediate = {
+		add_character_flag = { flag = ck_lane_event_recent years = 1 }
+	}
+	option = { # Pay the toll
+		name = ck_lane.0002.a
+		trigger = { gold >= minor_gold_value_check }
+		remove_short_term_gold = minor_gold_value
+		stress_impact = { greedy = minor_stress_impact_gain }
+		ai_chance = { base = 50 }
+	}
+	option = { # Talk the station master down
+		name = ck_lane.0002.b
+		trigger = { diplomacy >= 12 }
+		add_prestige = minor_prestige_gain
+		ai_chance = { base = 50 }
+	}
+	option = { # Refuse and wait for the next free passage
+		name = ck_lane.0002.c
+		current_travel_plan ?= { delay_travel_plan = { days = 15 } }
+		stress_impact = { impatient = minor_stress_impact_gain arrogant = minor_stress_impact_loss }
+		ai_chance = { base = 25 }
+	}
+}
+
+ck_lane.0003 = {
+	type = character_event
+	title = ck_lane.0003.t
+	desc = ck_lane.0003.desc
+	theme = travel
+	override_background = { reference = fp1_ocean }
+	left_portrait = {
+		character = root
+		animation = interested
+	}
+	cooldown = { years = 5 }
+	trigger = {
+		is_available_travelling_adult = yes
+		is_playable_character = yes
+		location ?= { geographical_region = ck_space_lanes }
+	}
+	immediate = {
+		add_character_flag = { flag = ck_lane_event_recent years = 1 }
+	}
+	option = { # Salvage what you can
+		name = ck_lane.0003.a
+		add_gold = minor_gold_value
+		stress_impact = { paranoid = minor_stress_impact_gain }
+		ai_chance = { base = 50 }
+	}
+	option = { # Give the dead their rites
+		name = ck_lane.0003.b
+		add_piety = minor_piety_gain
+		stress_impact = { cynical = minor_stress_impact_gain }
+		ai_chance = { base = 50 }
+	}
+	option = { # Leave it to the void
+		name = ck_lane.0003.c
+		ai_chance = { base = 10 }
+	}
+}
+
+ck_lane.0004 = {
+	type = character_event
+	title = ck_lane.0004.t
+	desc = ck_lane.0004.desc
+	theme = travel
+	override_background = { reference = fp1_ocean }
+	left_portrait = {
+		character = root
+		animation = thinking
+	}
+	cooldown = { years = 5 }
+	trigger = {
+		is_available_travelling_adult = yes
+		is_playable_character = yes
+		location ?= { geographical_region = ck_space_lanes }
+	}
+	immediate = {
+		add_character_flag = { flag = ck_lane_event_recent years = 1 }
+	}
+	option = { # Keep watch at the viewport
+		name = ck_lane.0004.a
+		add_learning_lifestyle_xp = minor_lifestyle_xp
+		stress_impact = { craven = minor_stress_impact_gain }
+		ai_chance = { base = 50 }
+	}
+	option = { # Close the shutters and pray
+		name = ck_lane.0004.b
+		add_piety = minor_piety_gain
+		stress_impact = { cynical = minor_stress_impact_gain }
+		ai_chance = { base = 50 }
+	}
+	option = { # Close the shutters and sleep
+		name = ck_lane.0004.c
+		add_stress = minor_stress_loss
+		ai_chance = { base = 25 }
+	}
+}

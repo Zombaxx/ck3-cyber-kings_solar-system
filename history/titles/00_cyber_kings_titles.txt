@@ -1533,6 +1533,9 @@ c_province2007 = {
 	7050.1.1 = { liege = d_duchy1995 }
 }
 d_duchy2014 = {
+	# 2026-11-15 12:30 (modder 11:35) Dyeus' seat on Titan (gen_ancient_depth.py)
+	1.1.1 = { holder = 9104000 }	# Dyeus
+	400.1.28 = { holder = 0 }	# El Elyon defeats Dyeus and imprisons him on Ganymede
 	6936.1.1 = { holder = 120140 }
 	7012.1.1 = { holder = 120141 }
 	7013.1.1 = { holder = 120142 }
@@ -1548,6 +1551,8 @@ c_province1995 = {
 	7050.9.15 = { liege = 0 }
 }
 c_province2014 = {
+	# 2026-11-15 12:30 (modder 11:35) Dyeus' seat on Titan (gen_ancient_depth.py)
+	1.1.1 = { holder = 9104000 }	# Dyeus
 	6936.1.1 = { holder = 120140 }
 	6984.1.1 = { change_development_level = 8 }
 	7012.1.1 = { holder = 120141 }
@@ -1820,6 +1825,12 @@ c_province1566 = {
 	7050.1.1 = { change_development_level = 22 }	# 2026-11-13 21:00: advanced Ganymede (was 14)
 }
 d_duchy1522 = {
+	# 2026-11-15 12:30 (modder 11:35) seat of the Celestial Hegemony on Ganymede (gen_ancient_depth.py)
+	15.1.1 = { holder = 9103002 }	# Aeon
+	215.3.1 = { holder = 9104000 }	# Dyeus takes Ganymede
+	300.1.1 = { holder = 777773 }	# elder Elyon (Cronus)
+	365.1.1 = { holder = 777775 }	# Epigeius (Uranus)
+	400.1.28 = { holder = 777777 }	# El Elyon
 	6928.1.1 = { holder = 115220 }
 	6992.1.1 = { holder = 115221 }
 	7027.1.1 = { holder = 115222 }
@@ -1924,6 +1935,12 @@ c_province1582 = {
 	7050.1.1 = { change_development_level = 22 }	# 2026-11-13 21:00: advanced Ganymede (was 14)
 }
 c_province1522 = {
+	# 2026-11-15 12:30 (modder 11:35) seat of the Celestial Hegemony on Ganymede (gen_ancient_depth.py)
+	15.1.1 = { holder = 9103002 }	# Aeon
+	215.3.1 = { holder = 9104000 }	# Dyeus takes Ganymede
+	300.1.1 = { holder = 777773 }	# elder Elyon (Cronus)
+	365.1.1 = { holder = 777775 }	# Epigeius (Uranus)
+	400.1.28 = { holder = 777777 }	# El Elyon
 	6928.1.1 = { holder = 115220 }
 	6984.1.1 = { change_development_level = 20 }
 	6992.1.1 = { holder = 115221 }
@@ -2944,6 +2961,16 @@ d_france = {
 	7050.9.15 = { holder = 0 }
 }
 c_province0535 = {
+	# 2026-11-15 12:30 (modder 11:35) seat of the Danish kings (Lejre) (gen_ancient_depth.py)
+	5400.1.1 = { holder = 9108043 }
+	5450.1.1 = { holder = 9108044 }
+	5470.1.1 = { holder = 9108045 }
+	5495.1.1 = { holder = 9108046 }
+	5500.1.1 = { holder = 9108047 }
+	5525.1.1 = { holder = 9108050 }
+	5745.1.1 = { holder = 9108065 }
+	5780.1.1 = { holder = 9108066 }
+	5825.1.1 = { holder = 9108070 }
 	6918.1.1 = { holder = 105350 }
 	6984.1.1 = { change_development_level = 14 }
 	6985.1.1 = { holder = 105351 }
@@ -3413,6 +3440,13 @@ c_province0557 = {
 	7050.9.15 = { liege = d_duchy0534 }
 }
 c_province0520 = {
+	# 2026-11-15 12:30 (modder 11:35) seat of the Ynglings in Norway (gen_ancient_depth.py)
+	5747.1.1 = { holder = 9108035 }
+	5779.1.1 = { holder = 9108036 }
+	5797.1.1 = { holder = 9108037 }
+	5816.1.1 = { holder = 9108038 }
+	5835.1.1 = { holder = 9108039 }
+	5860.1.1 = { holder = 9108040 }
 	6924.1.1 = { holder = 105200 }
 	6984.1.1 = { change_development_level = 12 }
 	6997.1.1 = { holder = 105201 }
@@ -3457,6 +3491,14 @@ d_duchy0570 = {
 	7050.9.15 = { holder = 104475 liege = e_european_union }
 }
 d_duchy0563 = {
+	# 2026-11-14 01:30 (modder 23:43) Norway: the Yngling kings in Norway (gen_epic_titles.py)
+	5747.1.1 = { holder = 9108035 }	# Halfdan
+	5779.1.1 = { holder = 9108036 }	# Eysteinn
+	5797.1.1 = { holder = 9108037 }	# Halfdan
+	5816.1.1 = { holder = 9108038 }	# Gudrodr
+	5835.1.1 = { holder = 9108039 }	# Halfdan
+	5860.1.1 = { holder = 9108040 }	# Harald
+	5933.1.1 = { holder = 0 }	# Harald Fairhair's sons are not in the mod
 	6919.1.1 = { holder = 105630 }
 	6990.1.1 = { holder = 105631 }
 	7036.1.1 = { holder = 105632 }
@@ -3464,6 +3506,28 @@ d_duchy0563 = {
 	7050.9.15 = { holder = 105205 liege = 0 }
 }
 d_duchy0534 = {
+	# 2026-11-14 01:30 (modder 23:43) Sweden = Uppsala: the Yngling kings (gen_epic_titles.py)
+	5376.1.1 = { holder = 9104209 }	# Fjolnir: son of Freyr; drowns in a vat of mead at Peace-Frodi's
+	5395.1.1 = { holder = 9108015 }	# Sveigdir
+	5425.1.1 = { holder = 9108016 }	# Vanlandi
+	5443.1.1 = { holder = 9108017 }	# Visburr
+	5462.1.1 = { holder = 9108018 }	# Domaldi
+	5480.1.1 = { holder = 9108019 }	# Domarr
+	5499.1.1 = { holder = 9108020 }	# Dyggvi
+	5518.1.1 = { holder = 9108021 }	# Dagr
+	5536.1.1 = { holder = 9108022 }	# Agni
+	5555.1.1 = { holder = 9108023 }	# Alrekr
+	5573.1.1 = { holder = 9108024 }	# Yngvi
+	5583.1.1 = { holder = 9108025 }	# Jorundr
+	5602.1.1 = { holder = 9108026 }	# Aun
+	5619.1.1 = { holder = 9108027 }	# Egill: takes over in his predecessor's old age
+	5639.1.1 = { holder = 9108028 }	# Ottarr
+	5657.1.1 = { holder = 9108029 }	# Adils
+	5676.1.1 = { holder = 9108030 }	# Eysteinn
+	5695.1.1 = { holder = 9108031 }	# Yngvarr
+	5713.1.1 = { holder = 9108032 }	# Onundr
+	5732.1.1 = { holder = 9108033 }	# Ingjaldr
+	5741.1.1 = { holder = 0 }	# Ingjaldr burns himself and his court; the Ynglings leave Uppsala
 	6924.1.1 = { holder = 105340 }
 	6987.1.1 = { holder = 105341 }
 	7020.1.1 = { holder = 105342 }
@@ -3472,6 +3536,27 @@ d_duchy0534 = {
 	7050.9.15 = { holder = 105645 liege = e_european_union }
 }
 c_province0564 = {
+	# 2026-11-15 12:30 (modder 11:35) seat of the Ynglings in Sweden (gen_ancient_depth.py)
+	5376.1.1 = { holder = 9104209 }
+	5395.1.1 = { holder = 9108015 }
+	5425.1.1 = { holder = 9108016 }
+	5443.1.1 = { holder = 9108017 }
+	5462.1.1 = { holder = 9108018 }
+	5480.1.1 = { holder = 9108019 }
+	5499.1.1 = { holder = 9108020 }
+	5518.1.1 = { holder = 9108021 }
+	5536.1.1 = { holder = 9108022 }
+	5555.1.1 = { holder = 9108023 }
+	5573.1.1 = { holder = 9108024 }
+	5583.1.1 = { holder = 9108025 }
+	5602.1.1 = { holder = 9108026 }
+	5619.1.1 = { holder = 9108027 }
+	5639.1.1 = { holder = 9108028 }
+	5657.1.1 = { holder = 9108029 }
+	5676.1.1 = { holder = 9108030 }
+	5695.1.1 = { holder = 9108031 }
+	5713.1.1 = { holder = 9108032 }
+	5732.1.1 = { holder = 9108033 }
 	6936.1.1 = { holder = 105640 }
 	6984.1.1 = { change_development_level = 14 }
 	7006.1.1 = { holder = 105641 }
@@ -4738,6 +4823,10 @@ c_province2107 = {
 	7050.9.15 = { liege = 0 }
 }
 d_duchy2090 = {
+	# 2026-11-15 12:30 (modder 11:35) seat of Asgardr (gen_ancient_depth.py)
+	5321.1.1 = { holder = 9104019 }
+	5400.1.1 = { holder = 9104189 }
+	6000.6.1 = { holder = 0 }
 	6918.1.1 = { holder = 120900 }
 	6998.1.1 = { holder = 120901 }
 	7024.1.1 = { holder = 120902 }
@@ -4803,6 +4892,9 @@ c_province2114 = {
 	7050.1.1 = { liege = d_duchy2107 }
 }
 c_province2090 = {
+	# 2026-11-15 12:30 (modder 11:35) seat of Asgardr (gen_ancient_depth.py)
+	5321.1.1 = { holder = 9104019 }
+	5400.1.1 = { holder = 9104189 }
 	6918.1.1 = { holder = 120900 }
 	6984.1.1 = { change_development_level = 8 }
 	6998.1.1 = { holder = 120901 }
@@ -6036,10 +6128,10 @@ c_province0890 = {
 ########## k_kingdom0928
 c_province0885 = {
 	6923.1.1 = { holder = 108850 }
+	6975.4.30 = { holder = 9106010 government = feudal_government }	# 2026-11-13 23:00: Russian settlers' county
 	6984.1.1 = { change_development_level = 13 }
-	7006.1.1 = { holder = 108851 }
-	7030.1.1 = { holder = 108852 }
-	7048.1.1 = { holder = 108855 government = tribal_government }
+	6992.1.1 = { holder = 9106014 government = feudal_government liege = d_duchy0889 }	# 2026-11-13 23:00: EU custodians of the Russian settlers
+	7029.6.1 = { holder = 9106013 }
 	7050.1.1 = { liege = d_duchy0889 }
 }
 c_province0912 = {
@@ -6048,6 +6140,7 @@ c_province0912 = {
 	6984.1.1 = { change_development_level = 4 }
 	6995.1.1 = { holder = 109122 }
 	7040.1.1 = { holder = 109125 government = tribal_government }
+	7046.1.1 = { holder = 9106015 government = feudal_government }	# 2026-11-13 23:00: an American adventurer takes the Lemurian natives' county
 	7050.1.1 = { liege = d_duchy0889 }
 }
 c_province0922 = {
@@ -6069,9 +6162,8 @@ c_province0928 = {
 }
 d_duchy0889 = {
 	6923.1.1 = { holder = 108890 }
-	6988.1.1 = { holder = 108891 }
-	7026.1.1 = { holder = 108892 }
-	7045.1.1 = { holder = 108895 government = feudal_government }
+	6975.4.30 = { holder = 9106010 government = feudal_government }	# 2026-11-13 23:00: the Soviets win the Venusnam War; Soviet colony
+	6991.12.26 = { holder = 9106012 government = feudal_government }	# 2026-11-13 23:00: the USSR gives up off-world rule; the commandant's half-Lemurian son keeps the colony
 }
 c_province0914 = {
 	6984.1.1 = { change_development_level = 17 }
@@ -6086,10 +6178,9 @@ d_duchy0928 = {
 }
 c_province0889 = {
 	6923.1.1 = { holder = 108890 }
+	6975.4.30 = { holder = 9106010 government = feudal_government }	# 2026-11-13 23:00: Soviet colony capital
 	6984.1.1 = { change_development_level = 20 }
-	6988.1.1 = { holder = 108891 }
-	7026.1.1 = { holder = 108892 }
-	7045.1.1 = { holder = 108895 government = feudal_government }
+	6991.12.26 = { holder = 9106012 government = feudal_government }
 	7050.1.1 = { liege = d_duchy0889 }
 	7050.9.15 = { liege = 0 }
 }
@@ -6967,6 +7058,10 @@ d_duchy0072 = {
 
 ########## k_kingdom0393_cy
 c_province0401 = {
+	# 2026-11-14 01:45 (modder 23:50: Kent and Mercia on the modern map): Islington (with Harlow and Southend-on-Sea) = the core of Essex
+	5527.1.1 = { holder = 9108157 }	# Aescwine founds Essex
+	5587.1.1 = { holder = 9108158 }	# Sledd
+	5603.1.1 = { holder = 9108159 }	# Saeberht
 	6928.1.1 = { holder = 104010 }
 	6984.1.1 = { change_development_level = 4 }
 	7000.1.1 = { holder = 104011 }
@@ -9186,7 +9281,7 @@ c_province0033 = {
 	7050.9.15 = { liege = 0 }
 }
 d_duchy0041 = {
-	7050.1.1 = { holder = 100415 government = feudal_government }
+	7050.1.1 = { holder = 9106000 government = feudal_government }	# 2026-11-13 23:00: China's moon base (built 2020), next to the US base d_duchy0068
 }
 c_moonlanding = {
 	6984.1.1 = { change_development_level = 14 }
@@ -9198,12 +9293,12 @@ d_duchy0033 = {
 }
 c_province0017 = {
 	6984.1.1 = { change_development_level = 15 }
-	7050.1.1 = { holder = 100175 government = feudal_government }
+	7050.1.1 = { holder = 9106001 government = feudal_government }	# 2026-11-13 23:00: Chinese moon base
 	7050.1.1 = { liege = d_duchy0041 }
 }
 c_province0041 = {
 	6984.1.1 = { change_development_level = 20 }
-	7050.1.1 = { holder = 100415 government = feudal_government }
+	7050.1.1 = { holder = 9106000 government = feudal_government }	# 2026-11-13 23:00: Chinese moon base
 	7050.1.1 = { liege = d_duchy0041 }
 	7050.9.15 = { liege = 0 }
 }
@@ -10540,6 +10635,8 @@ c_province0634 = {
 
 ########## k_kingdom0821
 c_province0804 = {
+	# 2026-11-15 12:30 (modder 11:35) seat of Dvaraka (gen_ancient_depth.py)
+	4020.3.1 = { holder = 9107222 }
 	6929.1.1 = { holder = 108040 }
 	6984.1.1 = { change_development_level = 13 }
 	7006.1.1 = { holder = 108041 }
@@ -10558,6 +10655,130 @@ c_province0840 = {
 	7050.9.15 = { liege = d_madhya_pradesh }
 }
 d_duchy0821 = {
+	# 2026-11-14 01:30 (modder 23:43) Uttar Pradesh = Kosala, capital Ayodhya: the Solar (Ikshvaku) kings (gen_epic_titles.py)
+	1970.1.1 = { holder = 9107015 }	# Ikshvaku: founds Ayodhya
+	2008.1.1 = { holder = 9107016 }	# Vikukshi
+	2028.6.4 = { holder = 9107017 }	# Kakutstha
+	2049.11.7 = { holder = 9107018 }	# Anena
+	2070.4.10 = { holder = 9107019 }	# Prithu
+	2091.9.13 = { holder = 9107020 }	# Vrishadashva
+	2112.2.16 = { holder = 9107021 }	# Ardra
+	2133.7.19 = { holder = 9107022 }	# Yuvanashva
+	2153.12.22 = { holder = 9107023 }	# Shravasta
+	2174.5.25 = { holder = 9107024 }	# Mandhata
+	2195.10.1 = { holder = 9107025 }	# Dhundhumara
+	2216.3.4 = { holder = 9107026 }	# Dridhashva
+	2237.8.7 = { holder = 9107027 }	# Pramoda
+	2258.1.10 = { holder = 9107028 }	# Haryashva
+	2279.6.13 = { holder = 9107029 }	# Nikumbha
+	2299.11.16 = { holder = 9107030 }	# Barhanashva
+	2320.4.19 = { holder = 9107031 }	# Girikshita
+	2325.1.1 = { holder = 9107032 }	# Samhatashva: takes over in his predecessor's old age
+	2345.2.25 = { holder = 9107033 }	# Krishashva
+	2366.7.1 = { holder = 9107034 }	# Ranashva
+	2387.12.4 = { holder = 9107035 }	# Prasenajit
+	2408.5.7 = { holder = 9107036 }	# Yuvanashva
+	2428.10.10 = { holder = 9107037 }	# Mandhata
+	2449.3.13 = { holder = 9107038 }	# Purukutsa
+	2470.8.16 = { holder = 9107039 }	# Trasadasyu
+	2491.1.19 = { holder = 9107040 }	# Sambhuta
+	2512.6.22 = { holder = 9107041 }	# Anaranya
+	2533.11.25 = { holder = 9107042 }	# Prishadashva
+	2554.4.1 = { holder = 9107043 }	# Haryashva
+	2574.9.4 = { holder = 9107044 }	# Vasuman
+	2595.2.7 = { holder = 9107045 }	# Tridhanva
+	2616.7.10 = { holder = 9107046 }	# Trivrishna
+	2637.12.13 = { holder = 9107047 }	# Tryaruna
+	2658.5.16 = { holder = 9107048 }	# Trishanku
+	2663.1.1 = { holder = 9107049 }	# Vedhas: takes over in his predecessor's old age
+	2683.3.22 = { holder = 9107050 }	# Harishchandra
+	2703.8.25 = { holder = 9107051 }	# Rohitashva
+	2724.1.1 = { holder = 9107052 }	# Harita
+	2745.6.4 = { holder = 9107053 }	# Chanchu
+	2766.11.7 = { holder = 9107054 }	# Sudeva
+	2787.4.10 = { holder = 9107055 }	# Ruruka
+	2808.9.13 = { holder = 9107056 }	# Vrika
+	2829.2.16 = { holder = 9107057 }	# Bahuka
+	2849.7.19 = { holder = 9107058 }	# Asita
+	2870.12.22 = { holder = 9107059 }	# Sagara
+	2891.5.25 = { holder = 9107060 }	# Asamanjas
+	2912.10.1 = { holder = 9107061 }	# Amshuman
+	2933.3.4 = { holder = 9107062 }	# Dilipa
+	2954.8.7 = { holder = 9107063 }	# Bhagiratha
+	2975.1.10 = { holder = 9107064 }	# Shrutasena
+	2995.6.13 = { holder = 9107065 }	# Nabhaga
+	3000.1.1 = { holder = 9107066 }	# Ambarisha: takes over in his predecessor's old age
+	3020.4.19 = { holder = 9107067 }	# Sindhudvipa
+	3041.9.22 = { holder = 9107068 }	# Ayutayu
+	3062.2.25 = { holder = 9107069 }	# Rituparna
+	3083.7.1 = { holder = 9107070 }	# Sarvakama
+	3104.12.4 = { holder = 9107071 }	# Sudasa
+	3124.5.7 = { holder = 9107072 }	# Kalmashapada
+	3145.10.10 = { holder = 9107073 }	# Ashmaka
+	3166.3.13 = { holder = 9107074 }	# Mulaka
+	3187.8.16 = { holder = 9107075 }	# Shataratha
+	3208.1.19 = { holder = 9107076 }	# Vriddhasharma
+	3229.6.22 = { holder = 9107077 }	# Vishvasaha
+	3250.11.25 = { holder = 9107078 }	# Nighna
+	3270.4.1 = { holder = 9107079 }	# Dilipa
+	3291.9.4 = { holder = 9107080 }	# Dirghabahu
+	3312.2.7 = { holder = 9107081 }	# Raghu
+	3333.7.10 = { holder = 9107082 }	# Aja
+	3330.1.1 = { holder = 9107083 }	# Dasharatha: takes over in his predecessor's old age
+	3350.4.1 = { holder = 9107088 }	# Rama: avatar of Vishnu
+	3390.9.1 = { holder = 9107092 }	# Kusha
+	3395.1.1 = { holder = 9107093 }	# Atithi: takes over in his predecessor's old age
+	3415.8.25 = { holder = 9107094 }	# Nishadha
+	3436.1.1 = { holder = 9107095 }	# Nala
+	3457.6.4 = { holder = 9107096 }	# Nabhas
+	3478.11.7 = { holder = 9107097 }	# Paundrika
+	3499.4.10 = { holder = 9107098 }	# Kshemadhanva
+	3520.9.13 = { holder = 9107099 }	# Devanika
+	3540.2.16 = { holder = 9107100 }	# Ahinagu
+	3561.7.19 = { holder = 9107101 }	# Sahasrashva
+	3582.12.22 = { holder = 9107102 }	# Chandravaloka
+	3603.5.25 = { holder = 9107103 }	# Tarapida
+	3624.10.1 = { holder = 9107104 }	# Chandragiri
+	3645.3.4 = { holder = 9107105 }	# Bhanuchandra
+	3666.8.7 = { holder = 9107106 }	# Shrutayu
+	3686.1.10 = { holder = 9107107 }	# Pariyatra
+	3692.6.13 = { holder = 9107108 }	# Dala
+	3713.11.16 = { holder = 9107109 }	# Uluka
+	3734.4.19 = { holder = 9107110 }	# Vajranabha
+	3755.9.22 = { holder = 9107111 }	# Shankhana
+	3776.2.25 = { holder = 9107112 }	# Vyushitashva
+	3797.7.1 = { holder = 9107113 }	# Vishvasaha
+	3817.12.4 = { holder = 9107114 }	# Atnar
+	3838.5.7 = { holder = 9107115 }	# Hiranyanabha
+	3859.10.10 = { holder = 9107116 }	# Pushya
+	3880.3.13 = { holder = 9107117 }	# Dhruvasandhi
+	3901.8.16 = { holder = 9107118 }	# Sudarshana
+	3922.1.19 = { holder = 9107119 }	# Agnivarna
+	3943.6.22 = { holder = 9107120 }	# Shighra
+	3963.11.25 = { holder = 9107121 }	# Maru
+	3984.4.1 = { holder = 9107122 }	# Prasushruta
+	3990.9.4 = { holder = 9107123 }	# Susandhi
+	4011.2.7 = { holder = 9107124 }	# Amarsha
+	4032.7.10 = { holder = 9107125 }	# Vishrutavan
+	4031.1.1 = { holder = 9107126 }	# Brihadbala: takes over in his predecessor's old age
+	4050.1.20 = { holder = 9107128 }	# Brihatkshaya
+	4090.1.2 = { holder = 9107129 }	# Urukriya
+	4126.2.2 = { holder = 9107130 }	# Vatsavyuha
+	4162.3.2 = { holder = 9107131 }	# Prativyoma
+	4198.4.2 = { holder = 9107132 }	# Bhanu
+	4234.5.2 = { holder = 9107133 }	# Divakara
+	4270.6.2 = { holder = 9107134 }	# Virasahadeva
+	4306.7.2 = { holder = 9107135 }	# Brihadashva
+	4342.8.2 = { holder = 9107136 }	# Bhanuratha
+	4378.9.2 = { holder = 9107137 }	# Pratitashva
+	4414.10.2 = { holder = 9107138 }	# Supratika
+	4450.11.2 = { holder = 9107139 }	# Marudeva
+	4486.12.2 = { holder = 9107140 }	# Sunakshatra
+	4510.1.2 = { holder = 9107141 }	# Pushkara
+	4546.2.2 = { holder = 9107142 }	# Antariksha
+	4582.3.2 = { holder = 9107143 }	# Suvarna
+	4618.4.2 = { holder = 9107144 }	# Sumitra
+	4638.1.1 = { holder = 0 }	# Sumitra driven out by Mahapadma Nanda (362 BCE)
 	6931.1.1 = { holder = 108210 }
 	7015.1.1 = { holder = 108211 }
 	7016.1.1 = { holder = 108212 }
@@ -10674,6 +10895,80 @@ c_province0846 = {
 	7050.9.15 = { liege = d_madhya_pradesh }
 }
 c_province0821 = {
+	# 2026-11-15 12:30 (modder 11:35) seat of the Kuru kings (gen_ancient_depth.py)
+	2820.1.1 = { holder = 9107156 }
+	2875.1.1 = { holder = 9107157 }
+	2900.1.1 = { holder = 9107158 }
+	2930.1.1 = { holder = 9107159 }
+	2985.1.1 = { holder = 9107166 }
+	3000.1.1 = { holder = 9107235 }
+	3013.1.1 = { holder = 9107236 }
+	3042.6.2 = { holder = 9107237 }
+	3072.11.3 = { holder = 9107238 }
+	3101.4.4 = { holder = 9107239 }
+	3131.9.5 = { holder = 9107240 }
+	3160.2.6 = { holder = 9107241 }
+	3190.7.7 = { holder = 9107242 }
+	3219.12.8 = { holder = 9107243 }
+	3248.5.9 = { holder = 9107244 }
+	3278.10.10 = { holder = 9107245 }
+	3307.3.11 = { holder = 9107246 }
+	3337.8.12 = { holder = 9107247 }
+	3366.1.13 = { holder = 9107248 }
+	3383.6.14 = { holder = 9107249 }
+	3412.11.15 = { holder = 9107250 }
+	3441.4.16 = { holder = 9107251 }
+	3471.9.17 = { holder = 9107252 }
+	3500.2.18 = { holder = 9107253 }
+	3530.7.19 = { holder = 9107254 }
+	3559.12.20 = { holder = 9107255 }
+	3589.5.21 = { holder = 9107256 }
+	3618.10.22 = { holder = 9107257 }
+	3647.3.23 = { holder = 9107258 }
+	3677.8.24 = { holder = 9107259 }
+	3706.1.25 = { holder = 9107260 }
+	3736.6.26 = { holder = 9107261 }
+	3752.11.27 = { holder = 9107262 }
+	3782.4.1 = { holder = 9107263 }
+	3811.9.2 = { holder = 9107264 }
+	3840.2.3 = { holder = 9107265 }
+	3870.7.4 = { holder = 9107266 }
+	3899.12.5 = { holder = 9107267 }
+	3929.5.6 = { holder = 9107268 }
+	3940.1.1 = { holder = 9107269 }
+	3960.1.1 = { holder = 9107270 }
+	3973.6.1 = { holder = 9107271 }
+	4017.1.1 = { holder = 9107278 }
+	4050.1.25 = { holder = 9107282 }
+	4087.1.1 = { holder = 9107290 }
+	4110.1.1 = { holder = 9107291 }
+	4130.1.3 = { holder = 9107292 }
+	4148.2.3 = { holder = 9107293 }
+	4166.3.3 = { holder = 9107294 }
+	4184.4.3 = { holder = 9107295 }
+	4202.5.3 = { holder = 9107296 }
+	4220.6.3 = { holder = 9107297 }
+	4239.7.3 = { holder = 9107298 }
+	4257.8.3 = { holder = 9107299 }
+	4275.9.3 = { holder = 9107300 }
+	4293.10.3 = { holder = 9107301 }
+	4301.11.3 = { holder = 9107302 }
+	4319.12.3 = { holder = 9107303 }
+	4338.1.3 = { holder = 9107304 }
+	4356.2.3 = { holder = 9107305 }
+	4374.3.3 = { holder = 9107306 }
+	4392.4.3 = { holder = 9107307 }
+	4410.5.3 = { holder = 9107308 }
+	4428.6.3 = { holder = 9107309 }
+	4447.7.3 = { holder = 9107310 }
+	4465.8.3 = { holder = 9107311 }
+	4473.9.3 = { holder = 9107312 }
+	4491.10.3 = { holder = 9107313 }
+	4509.11.3 = { holder = 9107314 }
+	4528.12.3 = { holder = 9107315 }
+	4559.1.3 = { holder = 9107316 }
+	4590.2.3 = { holder = 9107317 }
+	4621.3.3 = { holder = 9107318 }
 	6931.1.1 = { holder = 108210 }
 	6984.1.1 = { change_development_level = 24 }
 	7015.1.1 = { holder = 108211 }
@@ -10728,6 +11023,13 @@ d_duchy0874 = {
 	7050.9.15 = { succession_laws = { feudal_elective_succession_law } }   # e62 IND
 }
 c_province0824 = {
+	# 2026-11-14 01:30 (modder 23:43) Nepal = Kapilavastu: the Shakya kings (gen_epic_titles.py)
+	4310.1.1 = { holder = 9107145 }	# Okkaka
+	4350.1.1 = { holder = 9107146 }	# Kritanjaya
+	4375.1.1 = { holder = 9107147 }	# Ranajjaya
+	4400.1.1 = { holder = 9107148 }	# Jayasena
+	4422.1.1 = { holder = 9107149 }	# Sihahanu
+	4445.1.1 = { holder = 9107150 }	# Shuddhodana
 	6925.1.1 = { holder = 108240 }
 	6984.1.1 = { change_development_level = 12 }
 	6992.1.1 = { holder = 108241 }
@@ -12224,6 +12526,8 @@ c_province0280 = {
 	7050.1.1 = { liege = d_duchy0279 }
 }
 c_province0305 = {
+	# 2026-11-15 12:30 (modder 11:35) seat of Adonai's Moon (gen_ancient_depth.py)
+	950.1.1 = { holder = 777125 }
 	6934.1.1 = { holder = 103050 }
 	6984.1.1 = { change_development_level = 13 }
 	7015.1.1 = { holder = 103051 }
@@ -12303,6 +12607,9 @@ c_province0318 = {
 	7050.1.1 = { liege = d_duchy0309 }
 }
 d_duchy0305 = {
+	# 2026-11-15 12:30 (modder 11:35) seat of Adonai's Moon (gen_ancient_depth.py)
+	950.1.1 = { holder = 777125 }
+	4415.7.1 = { holder = 0 }
 	6934.1.1 = { holder = 103050 }
 	7015.1.1 = { holder = 103051 }
 	7035.1.1 = { holder = 103052 }
@@ -13281,6 +13588,8 @@ c_province0203 = {
 	7050.9.15 = { liege = 0 }
 }
 c_province0169 = {
+	# 2026-11-15 12:30 (modder 11:35) seat of Phosphorus' Antarctica (gen_ancient_depth.py)
+	4301.1.1 = { holder = 777126 }
 	6925.1.1 = { holder = 101690 }
 	6984.1.1 = { change_development_level = 12 }
 	7011.1.1 = { holder = 101691 }
@@ -13289,6 +13598,9 @@ c_province0169 = {
 	7050.1.1 = { liege = d_duchy0139 }
 }
 d_duchy0139 = {
+	# 2026-11-15 12:30 (modder 11:35) seat of Phosphorus' Antarctica (gen_ancient_depth.py)
+	4301.1.1 = { holder = 777126 }
+	4415.7.1 = { holder = 0 }
 	6928.1.1 = { holder = 0 }
 	7019.1.1 = { holder = 0 }
 	7020.1.1 = { holder = 0 }
@@ -14976,6 +15288,10 @@ d_duchy1167 = {
 	7050.1.1 = { liege = k_kingdom1184 }
 }
 k_kingdom1184 = {
+	# 2026-11-15 12:30 (modder 11:35) Olympus: Cronus' and then Zeus' kingdom on Mars (gen_ancient_depth.py)
+	365.1.1 = { holder = 777773 }	# elder Elyon (Cronus) rules Mars from Olympus
+	3250.1.1 = { holder = 9104013 }	# Zeus takes Olympus in the Titanomachy
+	5391.2.24 = { holder = 0 }	# Zeus dies with the Greek pantheon
 	6927.1.1 = { holder = 111840 }
 	7003.1.1 = { holder = 111841 }
 	7036.1.1 = { holder = 111842 }
@@ -15016,6 +15332,9 @@ d_duchy1219 = {
 	7050.1.1 = { liege = k_kingdom1184 }
 }
 c_olympus_mons = {
+	# 2026-11-15 12:30 (modder 11:35) Olympus Mons (gen_ancient_depth.py)
+	365.1.1 = { holder = 777773 }	# elder Elyon (Cronus)
+	3125.1.1 = { holder = 9104013 }	# Cronus gives his ward Zeus the mountain - 125 years before Zeus turns on him
 	6922.1.1 = { holder = 112370 }
 	6983.1.1 = { holder = 112371 }
 	6984.1.1 = { change_development_level = 26 }
@@ -15170,6 +15489,10 @@ d_duchy1193 = {
 	7050.1.1 = { liege = k_kingdom1184 }
 }
 d_duchy1238 = {
+	# 2026-11-15 12:30 (modder 11:35) Olympus Mons (gen_ancient_depth.py)
+	365.1.1 = { holder = 777773 }	# elder Elyon (Cronus)
+	3125.1.1 = { holder = 9104013 }	# Cronus gives his ward Zeus the mountain - 125 years before Zeus turns on him
+	5391.2.24 = { holder = 0 }	# Zeus dies
 	6932.1.1 = { holder = 112380 }
 	7005.1.1 = { holder = 112381 }
 	7035.1.1 = { holder = 112382 }
@@ -18139,6 +18462,9 @@ c_province2045 = {
 
 ########## k_kingdom0155
 c_province0183 = {
+	# 2026-11-15 12:30 (modder 11:35) seat of Sinus Roris (gen_ancient_depth.py)
+	3950.1.1 = { holder = 777126 }
+	4300.1.1 = { holder = 777125 }
 	6895.1.1 = { holder = 101830 }
 	6984.1.1 = { change_development_level = 12 }
 	6989.1.1 = { holder = 101831 }
@@ -19225,6 +19551,18 @@ c_province0474 = {
 	7050.9.15 = { liege = k_kingdom0480 }
 }
 d_duchy0479 = {
+	# 2026-11-14 01:30 (modder 23:43) England (Wessex): the line of Cerdic to Alfred (gen_epic_titles.py)
+	5519.1.1 = { holder = 9108115 }	# Cerdic, king of Wessex 519
+	5534.1.1 = { holder = 9108117 }	# Cynric
+	5560.1.1 = { holder = 9108118 }	# Ceawlin, bretwalda
+	5592.1.1 = { holder = 0 }	# kings of other branches (not in the mod)
+	5688.1.1 = { holder = 9108130 }	# Ine, the lawgiver
+	5726.1.1 = { holder = 0 }	# Ine abdicates and goes to Rome
+	5802.1.1 = { holder = 9108127 }	# Ecgberht
+	5839.1.1 = { holder = 9108128 }	# Aethelwulf
+	5858.1.13 = { holder = 0 }	# Aethelbald, Aethelberht, Aethelred I (not in the mod)
+	5871.4.23 = { holder = 9108129 }	# Alfred the Great
+	5899.10.26 = { holder = 0 }	# Edward the Elder and his heirs are not in the mod
 	6952.1.1 = { holder = 7000000 }
 	7022.1.1 = { holder = 7000002 government = feudal_government }
 	7050.1.1 = { liege = k_kingdom0480 }
@@ -19240,6 +19578,13 @@ c_province0488 = {
 	7050.9.15 = { liege = k_kingdom0480 }
 }
 c_province0475 = {
+	# 2026-11-14 01:45 (modder 23:50: Kent and Mercia on the modern map): Birmingham = Mercia (Tamworth): the Iclingas
+	5445.1.1 = { holder = 9108135 }	# Icel brings the Angles to the Midlands
+	5479.1.1 = { holder = 9108136 }	# Cnebba
+	5510.1.1 = { holder = 9108137 }	# Cynwald
+	5541.1.1 = { holder = 9108138 }	# Creoda, first king of Mercia (585)
+	5572.1.1 = { holder = 9108139 }	# Pybba
+	5626.1.1 = { holder = 9108140 }	# Penda, last great pagan king (626-655)
 	6921.1.1 = { holder = 104750 }
 	6984.1.1 = { change_development_level = 17 }
 	6990.1.1 = { holder = 104751 }
@@ -19281,6 +19626,10 @@ c_province0452 = {
 	7050.9.15 = { liege = k_western_europe }
 }
 c_london = {
+	# 2026-11-14 01:30 (modder 23:43) London = the East Saxon kings (gen_epic_titles.py)
+	5527.1.1 = { holder = 9108157 }	# Aescwine founds Essex
+	5587.1.1 = { holder = 9108158 }	# Sledd
+	5603.1.1 = { holder = 9108159 }	# Saeberht, first Christian king of Essex
 	6952.1.1 = { holder = 7000000 }
 	6984.1.1 = { change_development_level = 29 }
 	7022.1.1 = { holder = 7000002 government = feudal_government }
@@ -19316,6 +19665,10 @@ c_province0479 = {
 	7050.9.15 = { liege = k_kingdom0480 }
 }
 c_province0480 = {
+	# 2026-11-14 01:45 (modder 23:50: Kent and Mercia on the modern map): Edinburgh (with Leeds) = Northumbria: Bernicia and Deira share this county
+	5547.1.1 = { holder = 9108108 }	# Ida founds Bernicia at Bamburgh
+	5560.1.1 = { holder = 9108099 }	# Aelle of Deira (Leeds lies in Deira)
+	5616.1.1 = { holder = 9108100 }	# Edwin unites Northumbria; Edinburgh, Din Eidyn, was later folk-explained as "Edwin's burgh"
 	6919.1.1 = { holder = 104800 }
 	6981.1.1 = { holder = 104801 }
 	6984.1.1 = { change_development_level = 19 }
@@ -22997,6 +23350,8 @@ d_duchy0933 = {
 	7050.9.15 = { government = tribal_government }
 }
 c_province0953 = {
+	# 2026-11-15 12:30 (modder 11:35) seat of Phosphorus' Venus (gen_ancient_depth.py)
+	3300.1.1 = { holder = 777126 }
 	6916.1.1 = { holder = 109530 }
 	6984.1.1 = { change_development_level = 20 }
 	6986.1.1 = { holder = 109531 }
@@ -23006,6 +23361,9 @@ c_province0953 = {
 	7050.9.15 = { liege = 0 government = tribal_government }
 }
 d_duchy0953 = {
+	# 2026-11-15 12:30 (modder 11:35) seat of Phosphorus' Venus (gen_ancient_depth.py)
+	3300.1.1 = { holder = 777126 }
+	3905.1.1 = { holder = 0 }
 	6916.1.1 = { holder = 109530 }
 	6986.1.1 = { holder = 109531 }
 	7026.1.1 = { holder = 109532 }
@@ -26683,6 +27041,129 @@ c_kanpur = {
 }
 # Earth redraw 2026-11-10: copied from c_province0824
 c_lucknow = {
+	# 2026-11-15 12:30 (modder 11:35) seat of Kosala (the Solar kings) (gen_ancient_depth.py)
+	1970.1.1 = { holder = 9107015 }
+	2008.1.1 = { holder = 9107016 }
+	2028.6.4 = { holder = 9107017 }
+	2049.11.7 = { holder = 9107018 }
+	2070.4.10 = { holder = 9107019 }
+	2091.9.13 = { holder = 9107020 }
+	2112.2.16 = { holder = 9107021 }
+	2133.7.19 = { holder = 9107022 }
+	2153.12.22 = { holder = 9107023 }
+	2174.5.25 = { holder = 9107024 }
+	2195.10.1 = { holder = 9107025 }
+	2216.3.4 = { holder = 9107026 }
+	2237.8.7 = { holder = 9107027 }
+	2258.1.10 = { holder = 9107028 }
+	2279.6.13 = { holder = 9107029 }
+	2299.11.16 = { holder = 9107030 }
+	2320.4.19 = { holder = 9107031 }
+	2325.1.1 = { holder = 9107032 }
+	2345.2.25 = { holder = 9107033 }
+	2366.7.1 = { holder = 9107034 }
+	2387.12.4 = { holder = 9107035 }
+	2408.5.7 = { holder = 9107036 }
+	2428.10.10 = { holder = 9107037 }
+	2449.3.13 = { holder = 9107038 }
+	2470.8.16 = { holder = 9107039 }
+	2491.1.19 = { holder = 9107040 }
+	2512.6.22 = { holder = 9107041 }
+	2533.11.25 = { holder = 9107042 }
+	2554.4.1 = { holder = 9107043 }
+	2574.9.4 = { holder = 9107044 }
+	2595.2.7 = { holder = 9107045 }
+	2616.7.10 = { holder = 9107046 }
+	2637.12.13 = { holder = 9107047 }
+	2658.5.16 = { holder = 9107048 }
+	2663.1.1 = { holder = 9107049 }
+	2683.3.22 = { holder = 9107050 }
+	2703.8.25 = { holder = 9107051 }
+	2724.1.1 = { holder = 9107052 }
+	2745.6.4 = { holder = 9107053 }
+	2766.11.7 = { holder = 9107054 }
+	2787.4.10 = { holder = 9107055 }
+	2808.9.13 = { holder = 9107056 }
+	2829.2.16 = { holder = 9107057 }
+	2849.7.19 = { holder = 9107058 }
+	2870.12.22 = { holder = 9107059 }
+	2891.5.25 = { holder = 9107060 }
+	2912.10.1 = { holder = 9107061 }
+	2933.3.4 = { holder = 9107062 }
+	2954.8.7 = { holder = 9107063 }
+	2975.1.10 = { holder = 9107064 }
+	2995.6.13 = { holder = 9107065 }
+	3000.1.1 = { holder = 9107066 }
+	3020.4.19 = { holder = 9107067 }
+	3041.9.22 = { holder = 9107068 }
+	3062.2.25 = { holder = 9107069 }
+	3083.7.1 = { holder = 9107070 }
+	3104.12.4 = { holder = 9107071 }
+	3124.5.7 = { holder = 9107072 }
+	3145.10.10 = { holder = 9107073 }
+	3166.3.13 = { holder = 9107074 }
+	3187.8.16 = { holder = 9107075 }
+	3208.1.19 = { holder = 9107076 }
+	3229.6.22 = { holder = 9107077 }
+	3250.11.25 = { holder = 9107078 }
+	3270.4.1 = { holder = 9107079 }
+	3291.9.4 = { holder = 9107080 }
+	3312.2.7 = { holder = 9107081 }
+	3333.7.10 = { holder = 9107082 }
+	3330.1.1 = { holder = 9107083 }
+	3350.4.1 = { holder = 9107088 }
+	3390.9.1 = { holder = 9107092 }
+	3395.1.1 = { holder = 9107093 }
+	3415.8.25 = { holder = 9107094 }
+	3436.1.1 = { holder = 9107095 }
+	3457.6.4 = { holder = 9107096 }
+	3478.11.7 = { holder = 9107097 }
+	3499.4.10 = { holder = 9107098 }
+	3520.9.13 = { holder = 9107099 }
+	3540.2.16 = { holder = 9107100 }
+	3561.7.19 = { holder = 9107101 }
+	3582.12.22 = { holder = 9107102 }
+	3603.5.25 = { holder = 9107103 }
+	3624.10.1 = { holder = 9107104 }
+	3645.3.4 = { holder = 9107105 }
+	3666.8.7 = { holder = 9107106 }
+	3686.1.10 = { holder = 9107107 }
+	3692.6.13 = { holder = 9107108 }
+	3713.11.16 = { holder = 9107109 }
+	3734.4.19 = { holder = 9107110 }
+	3755.9.22 = { holder = 9107111 }
+	3776.2.25 = { holder = 9107112 }
+	3797.7.1 = { holder = 9107113 }
+	3817.12.4 = { holder = 9107114 }
+	3838.5.7 = { holder = 9107115 }
+	3859.10.10 = { holder = 9107116 }
+	3880.3.13 = { holder = 9107117 }
+	3901.8.16 = { holder = 9107118 }
+	3922.1.19 = { holder = 9107119 }
+	3943.6.22 = { holder = 9107120 }
+	3963.11.25 = { holder = 9107121 }
+	3984.4.1 = { holder = 9107122 }
+	3990.9.4 = { holder = 9107123 }
+	4011.2.7 = { holder = 9107124 }
+	4032.7.10 = { holder = 9107125 }
+	4031.1.1 = { holder = 9107126 }
+	4050.1.20 = { holder = 9107128 }
+	4090.1.2 = { holder = 9107129 }
+	4126.2.2 = { holder = 9107130 }
+	4162.3.2 = { holder = 9107131 }
+	4198.4.2 = { holder = 9107132 }
+	4234.5.2 = { holder = 9107133 }
+	4270.6.2 = { holder = 9107134 }
+	4306.7.2 = { holder = 9107135 }
+	4342.8.2 = { holder = 9107136 }
+	4378.9.2 = { holder = 9107137 }
+	4414.10.2 = { holder = 9107138 }
+	4450.11.2 = { holder = 9107139 }
+	4486.12.2 = { holder = 9107140 }
+	4510.1.2 = { holder = 9107141 }
+	4546.2.2 = { holder = 9107142 }
+	4582.3.2 = { holder = 9107143 }
+	4618.4.2 = { holder = 9107144 }
 	6984.1.1 = { change_development_level = 12 }
 	7050.1.1 = { holder = 8100211 government = feudal_government }
 	7050.1.1 = { }
@@ -27321,6 +27802,9 @@ d_free_state = {
 	7050.9.15 = { succession_laws = { feudal_elective_succession_law } }   # e62 ZAF
 }
 d_gujarat = {
+	# 2026-11-14 01:30 (modder 23:43) Gujarat = Dvaraka (gen_epic_titles.py)
+	4020.3.1 = { holder = 9107222 }	# Ugrasena, restored by Krishna; the Yadavas move to Dvaraka
+	4087.1.1 = { holder = 0 }	# the Yadavas destroy each other; Dvaraka sinks into the sea
 	7050.9.15 = { holder = 108045 liege = k_kingdom0821 }
 }
 d_hodh_ech_chargui = {
@@ -27812,9 +28296,33 @@ c_ck_puerto_rico = {
 }
 # e76 2026-11-12: Kingdom of Denmark (EU member); Elias (105355), count of Zealand since 1059, is king; Greenland is his vassal
 k_denmark = {
+	# 2026-11-14 01:30 (modder 23:43) Denmark: the Skjoldungs, then Ragnar's family (gen_epic_titles.py)
+	5400.1.1 = { holder = 9108043 }	# Skjoldr
+	5450.1.1 = { holder = 9108044 }	# Beow
+	5470.1.1 = { holder = 9108045 }	# Halfdan
+	5495.1.1 = { holder = 9108046 }	# Heorogar
+	5500.1.1 = { holder = 9108047 }	# Hroarr: Heorot
+	5525.1.1 = { holder = 9108050 }	# Hrolfr: Hrolf Kraki at Lejre
+	5535.1.1 = { holder = 0 }	# Hrolf Kraki falls at Lejre
+	5745.1.1 = { holder = 9108065 }	# Sigurdr
+	5780.1.1 = { holder = 9108066 }	# Ragnarr: Lodbrok
+	5825.1.1 = { holder = 9108070 }	# Sigurdr: Snake-in-the-Eye
+	5830.1.1 = { holder = 0 }	# Sigurd Snake-in-the-Eye's sons are not in the mod
 	7050.9.15 = { holder = 105355 liege = e_european_union }
 }
 d_sjaelland = {
+	# 2026-11-15 12:30 (modder 11:35) seat of the Danish kings (Lejre) (gen_ancient_depth.py)
+	5400.1.1 = { holder = 9108043 }
+	5450.1.1 = { holder = 9108044 }
+	5470.1.1 = { holder = 9108045 }
+	5495.1.1 = { holder = 9108046 }
+	5500.1.1 = { holder = 9108047 }
+	5525.1.1 = { holder = 9108050 }
+	5535.1.1 = { holder = 0 }
+	5745.1.1 = { holder = 9108065 }
+	5780.1.1 = { holder = 9108066 }
+	5825.1.1 = { holder = 9108070 }
+	5830.1.1 = { holder = 0 }
 	7050.9.15 = { holder = 105355 }
 }
 d_jylland = {
@@ -27878,8 +28386,111 @@ k_kingdom0132 = {	# Antarctica
 	4301.1.1 = { holder = 777126 liege = e_empire0305 }	# yet Adonai gives Phosphorus Antarctica; still his vassal
 	4415.7.1 = { holder = 0 }	# Adonai trapped in the Antarctic ice - Phosphorus leaves Antarctica
 }
+h_mars = {	# 2026-11-13 23:15 (modder 22:04): Zeus' Titanomachy wins the Mars Hegemony, not just the Mars empire
+	3250.1.1 = { holder = 9104013 }	# Zeus 9104013 breaks Mars away from El Elyon's Celestial Hegemony
+	5391.2.24 = { holder = 0 }	# Zeus dies with the Greek pantheon; the Hegemony falls apart
+}
 e_empire1184 = {	# Mars (Celestial Hegemony lore; generated by _dev/scripts/oneoff/gen_cronus_elyon.py)
 	365.1.1 = { holder = 777773 liege = h_ck_celestial }	# elder Elyon, deposed on Ganymede by Epigeius, rules Mars for the Hegemony: the Martians' Cronus; Zeus (Dyeus' clone) is raised as his ward
-	3250.1.1 = { holder = 9104013 liege = 0 }	# Zeus 9104013 (Dyeus' clone) rebels and takes Mars (2026-11-13 21:00 Phaeter round)
-	5391.2.24 = { holder = 0 }	# Zeus and Cronus die with the Greek pantheon; Mars falls apart	# (old note) Zeus' rebellion (Titanomachy): Mars liberated, Cronus imprisoned; he dies with Zeus and most of the pantheon (provisionally AP 5391; Zeus as holder and the exact years: Phaeter round)
+	3250.1.1 = { holder = 9104013 liege = h_mars }	# Zeus 9104013 (Dyeus' clone) rebels and takes Mars; 2026-11-13 23:15: he founds the Mars Hegemony h_mars (modder 22:04)
+	5391.2.24 = { holder = 0 liege = 0 }	# Zeus and Cronus die with the Greek pantheon; Mars falls apart	# (old note) Zeus' rebellion (Titanomachy): Mars liberated, Cronus imprisoned; he dies with Zeus and most of the pantheon (provisionally AP 5391; Zeus as holder and the exact years: Phaeter round)
+}
+
+d_delhi = {
+	# 2026-11-14 01:30 (modder 23:43) Delhi = Indraprastha / Hastinapura: the Lunar kings of the Puru-Kuru line (gen_epic_titles.py)
+	2820.1.1 = { holder = 9107156 }	# Pururavas: first Chandravamsha king
+	2875.1.1 = { holder = 9107157 }	# Ayu
+	2900.1.1 = { holder = 9107158 }	# Nahusha
+	2930.1.1 = { holder = 9107159 }	# Yayati
+	2985.1.1 = { holder = 9107166 }	# Puru: Yayati gives him the throne
+	3000.1.1 = { holder = 9107235 }	# Janamejaya
+	3013.1.1 = { holder = 9107236 }	# Prachinvat
+	3042.6.2 = { holder = 9107237 }	# Pravira
+	3072.11.3 = { holder = 9107238 }	# Manasyu
+	3101.4.4 = { holder = 9107239 }	# Abhayada
+	3131.9.5 = { holder = 9107240 }	# Sudyumna
+	3160.2.6 = { holder = 9107241 }	# Bahugava
+	3190.7.7 = { holder = 9107242 }	# Samyati
+	3219.12.8 = { holder = 9107243 }	# Ahamyati
+	3248.5.9 = { holder = 9107244 }	# Raudrashva
+	3278.10.10 = { holder = 9107245 }	# Riteyu
+	3307.3.11 = { holder = 9107246 }	# Rantinara
+	3337.8.12 = { holder = 9107247 }	# Tamsu
+	3366.1.13 = { holder = 9107248 }	# Dushyanta
+	3383.6.14 = { holder = 9107249 }	# Bharata
+	3412.11.15 = { holder = 9107250 }	# Vitatha
+	3441.4.16 = { holder = 9107251 }	# Bhavanmanyu
+	3471.9.17 = { holder = 9107252 }	# Brihatkshatra
+	3500.2.18 = { holder = 9107253 }	# Suhotra
+	3530.7.19 = { holder = 9107254 }	# Hastin
+	3559.12.20 = { holder = 9107255 }	# Ajamidha
+	3589.5.21 = { holder = 9107256 }	# Riksha
+	3618.10.22 = { holder = 9107257 }	# Samvarana
+	3647.3.23 = { holder = 9107258 }	# Kuru
+	3677.8.24 = { holder = 9107259 }	# Jahnu
+	3706.1.25 = { holder = 9107260 }	# Suratha
+	3736.6.26 = { holder = 9107261 }	# Viduratha
+	3752.11.27 = { holder = 9107262 }	# Sarvabhauma
+	3782.4.1 = { holder = 9107263 }	# Jayatsena
+	3811.9.2 = { holder = 9107264 }	# Ayutayus
+	3840.2.3 = { holder = 9107265 }	# Akrodhana
+	3870.7.4 = { holder = 9107266 }	# Riksha
+	3899.12.5 = { holder = 9107267 }	# Dilipa
+	3929.5.6 = { holder = 9107268 }	# Pratipa
+	3940.1.1 = { holder = 9107269 }	# Shantanu: takes over in his predecessor's old age
+	3960.1.1 = { holder = 9107270 }	# Vichitravirya
+	3973.6.1 = { holder = 9107271 }	# Pandu
+	4017.1.1 = { holder = 9107278 }	# Dhritarashtra: the blind king
+	4050.1.25 = { holder = 9107282 }	# Yudhishthira: after Kurukshetra
+	4087.1.1 = { holder = 9107290 }	# Parikshit
+	4110.1.1 = { holder = 9107291 }	# Janamejaya
+	4130.1.3 = { holder = 9107292 }	# Shatanika
+	4148.2.3 = { holder = 9107293 }	# Ashvamedhadatta
+	4166.3.3 = { holder = 9107294 }	# Adhisimakrishna
+	4184.4.3 = { holder = 9107295 }	# Nichakshu
+	4202.5.3 = { holder = 9107296 }	# Ushna
+	4220.6.3 = { holder = 9107297 }	# Chitraratha
+	4239.7.3 = { holder = 9107298 }	# Shuchiratha
+	4257.8.3 = { holder = 9107299 }	# Vrishniman
+	4275.9.3 = { holder = 9107300 }	# Sushena
+	4293.10.3 = { holder = 9107301 }	# Sunitha
+	4301.11.3 = { holder = 9107302 }	# Richa
+	4319.12.3 = { holder = 9107303 }	# Nrichakshu
+	4338.1.3 = { holder = 9107304 }	# Sukhabala
+	4356.2.3 = { holder = 9107305 }	# Pariplava
+	4374.3.3 = { holder = 9107306 }	# Sunaya
+	4392.4.3 = { holder = 9107307 }	# Medhavin
+	4410.5.3 = { holder = 9107308 }	# Nripanjaya
+	4428.6.3 = { holder = 9107309 }	# Mridu
+	4447.7.3 = { holder = 9107310 }	# Tigma
+	4465.8.3 = { holder = 9107311 }	# Brihadratha
+	4473.9.3 = { holder = 9107312 }	# Vasudana
+	4491.10.3 = { holder = 9107313 }	# Shatanika
+	4509.11.3 = { holder = 9107314 }	# Udayana
+	4528.12.3 = { holder = 9107315 }	# Ahinara
+	4559.1.3 = { holder = 9107316 }	# Khandapani
+	4590.2.3 = { holder = 9107317 }	# Niramitra
+	4621.3.3 = { holder = 9107318 }	# Kshemaka
+	4652.4.3 = { holder = 0 }	# Kshemaka, the last Paurava
+}
+
+k_kingdom2090 = {	# 2026-11-14 02:00 (modder 23:35, 00:00, 00:10): ÁSGARÐR, the Xanadu continent of Titan (19 of its 23 counties are Reaverist); replaces the placeholder titular Aesir title
+	5321.1.1 = { holder = 9104019 }	# Tyr (Tiwaz's son), the old sky god, rules the Aesir
+	5400.1.1 = { holder = 9104189 }	# Odin (Wodanaz) displaces Tyr as chief god in the Migration Period
+	6000.6.1 = { holder = 0 }	# Odin dies with the pantheon at Iceland's conversion (1000 CE); Tyr survives and keeps his claim
+}
+h_outer_moons = {
+	# 2026-11-15 12:30 (modder 11:35) the Titan Hegemony: what was left of Dyeus' Sol realm after the AP 1 hurricane; ended when Aeon's Celestial Hegemony claimed the outer moons (gen_ancient_depth.py)
+	1.1.1 = { holder = 9104000 }	# Dyeus, driven from Ganymede by the hurricane, rules the outer moons from Titan
+	15.1.1 = { holder = 0 }	# Aeon is crowned on Ganymede; the Celestial Hegemony replaces it
+}
+e_empire2014 = {
+	# 2026-11-15 12:30 (modder 11:35) Titan: Dyeus' own realm, AP 1-400 (gen_ancient_depth.py)
+	1.1.1 = { holder = 9104000 }	# Dyeus
+	400.1.28 = { holder = 0 }	# El Elyon defeats Dyeus and imprisons him on Ganymede
+}
+k_kingdom2014 = {
+	# 2026-11-15 12:30 (modder 11:35) Dyeus' seat on Titan (gen_ancient_depth.py)
+	1.1.1 = { holder = 9104000 }	# Dyeus
+	400.1.28 = { holder = 0 }	# El Elyon defeats Dyeus and imprisons him on Ganymede
 }

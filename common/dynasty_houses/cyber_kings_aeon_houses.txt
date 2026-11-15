@@ -1,0 +1,7 @@
+﻿# Cyber Kings 2026-11-13 22:15 (modder 21:45): the Aeon dynasty (77777, Aeon 9103002 ... grandfather Elyon 777773) branches into
+# the cadet house of Elyon with Elyon's children (Epigeius, Gaia) - El, his children (Nous, Aletheia, Baal...) and Melqart are in it.
+house_elyon = {
+	name = "house_elyon"
+	dynasty = 77777
+	motto = house_elyon_motto
+}

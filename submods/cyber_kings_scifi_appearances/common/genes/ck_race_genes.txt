@@ -1,0 +1,1 @@
+﻿# Cyber Kings - Sci-Fi Culture Appearances: emptied in v0.14 (genes moved to zz_ck_race_genes.txt so they load last).

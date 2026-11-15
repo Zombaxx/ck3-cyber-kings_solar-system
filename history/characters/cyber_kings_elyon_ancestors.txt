@@ -4,17 +4,18 @@
 9103000 = {	# level 0: Aeon's father, never king; truly born before the AP 1 hurricane (date truncated to the 1.1.1 floor)
 	name = "ckn_Colpias"
 	dynasty = 77777
-	culture = han
+	culture = aeon
 	rite = eternal_mechanism_rite
 	trait = full_cybernetic_conversion
 	1.1.1 = { birth = yes }
 	215.3.1 = { death = { death_reason = death_murder killer = 9104000 } }
+	2.1.2 = { add_spouse = 9103001 }	# 2026-11-14 03:10 (modder 01:01): married, so CK3 draws one family: Colpias and his wife Baau (Philo)
 }
 9103001 = {	# level 0: consort of Colpias (source pairing); truncated date
 	name = "ckn_Baau"
 	female = yes
 	dynasty = 77777
-	culture = han
+	culture = aeon
 	rite = eternal_mechanism_rite
 	trait = full_cybernetic_conversion
 	1.1.1 = { birth = yes }
@@ -23,19 +24,20 @@
 9103002 = {	# level 1: a child at the AP 1 hurricane (born AP 2 in-game: parents at the 1.1.1 floor must be >= 1 year old, else the engine leaves him unborn - error.log 2026-11-13); first post-disaster monarch, reigns ~AP 15-215; murdered by Dyeus' assassins
 	name = "ckn_Aeon"
 	dynasty = 77777
-	culture = han
+	culture = sol	# 2026-11-13 23:00: Emperor Aeon is the only Sol (proto-civilization) character; his children are Aeon
 	rite = eternal_mechanism_rite
 	trait = full_cybernetic_conversion
 	father = 9103000
 	mother = 9103001
 	2.6.1 = { birth = yes }
 	215.3.1 = { death = { death_reason = death_murder killer = 9104000 } }
+	19.1.2 = { add_spouse = 9103003 }	# 2026-11-14 03:10 (modder 01:01): married, so CK3 draws one family: Aeon and Protogonos (Philo)
 }
 9103003 = {	# level 1: sister-consort of Aeon
 	name = "ckn_Protogonos"
 	female = yes
 	dynasty = 77777
-	culture = han
+	culture = aeon
 	rite = eternal_mechanism_rite
 	trait = full_cybernetic_conversion
 	father = 9103000
@@ -46,19 +48,20 @@
 9103004 = {	# level 2
 	name = "ckn_Genos"
 	dynasty = 77777
-	culture = han
+	culture = aeon
 	rite = eternal_mechanism_rite
 	trait = full_cybernetic_conversion
 	father = 9103002
 	mother = 9103003
 	20.4.1 = { birth = yes }
 	215.3.1 = { death = { death_reason = death_murder killer = 9104000 } }
+	22.1.2 = { add_spouse = 9103005 }	# 2026-11-14 03:10 (modder 01:01): married, so CK3 draws one family: Genos and Genea (Philo)
 }
 9103005 = {	# level 2
 	name = "ckn_Genea"
 	female = yes
 	dynasty = 77777
-	culture = han
+	culture = aeon
 	rite = eternal_mechanism_rite
 	trait = full_cybernetic_conversion
 	father = 9103002
@@ -69,7 +72,7 @@
 9103006 = {	# level 3: Light
 	name = "ckn_Phos"
 	dynasty = 77777
-	culture = han
+	culture = aeon
 	rite = eternal_mechanism_rite
 	trait = full_cybernetic_conversion
 	father = 9103004
@@ -80,7 +83,7 @@
 9103007 = {	# level 3: Fire
 	name = "ckn_Pyr"
 	dynasty = 77777
-	culture = han
+	culture = aeon
 	rite = eternal_mechanism_rite
 	trait = full_cybernetic_conversion
 	father = 9103004
@@ -91,7 +94,7 @@
 9103008 = {	# level 3: Flame
 	name = "ckn_Phlox"
 	dynasty = 77777
-	culture = han
+	culture = aeon
 	rite = eternal_mechanism_rite
 	trait = full_cybernetic_conversion
 	father = 9103004
@@ -102,7 +105,7 @@
 9103009 = {	# level 4: giant (Mount Kasios)
 	name = "ckn_Cassius"
 	dynasty = 77777
-	culture = han
+	culture = aeon
 	rite = eternal_mechanism_rite
 	trait = full_cybernetic_conversion
 	father = 9103006
@@ -112,7 +115,7 @@
 9103010 = {	# level 4: giant (Lebanon)
 	name = "ckn_Libanus"
 	dynasty = 77777
-	culture = han
+	culture = aeon
 	rite = eternal_mechanism_rite
 	trait = full_cybernetic_conversion
 	father = 9103006
@@ -122,7 +125,7 @@
 9103011 = {	# level 4: giant (Anti-Lebanon)
 	name = "ckn_Antilibanus"
 	dynasty = 77777
-	culture = han
+	culture = aeon
 	rite = eternal_mechanism_rite
 	trait = full_cybernetic_conversion
 	father = 9103007
@@ -132,7 +135,7 @@
 9103012 = {	# level 4: giant
 	name = "ckn_Brathu"
 	dynasty = 77777
-	culture = han
+	culture = aeon
 	rite = eternal_mechanism_rite
 	trait = full_cybernetic_conversion
 	father = 9103008
@@ -142,7 +145,7 @@
 9103013 = {	# level 5: also called Memrumus in Philo
 	name = "ckn_Hypsuranius"
 	dynasty = 77777
-	culture = han
+	culture = aeon
 	rite = eternal_mechanism_rite
 	trait = full_cybernetic_conversion
 	father = 9103009
@@ -152,7 +155,7 @@
 9103014 = {	# level 5
 	name = "ckn_Memrumus"
 	dynasty = 77777
-	culture = han
+	culture = aeon
 	rite = eternal_mechanism_rite
 	trait = full_cybernetic_conversion
 	father = 9103009
@@ -162,7 +165,7 @@
 9103015 = {	# level 5: brother and rival of Hypsuranius
 	name = "ckn_Usous"
 	dynasty = 77777
-	culture = han
+	culture = aeon
 	rite = eternal_mechanism_rite
 	trait = full_cybernetic_conversion
 	father = 9103009
@@ -172,7 +175,7 @@
 9103016 = {	# level 6: Hunter
 	name = "ckn_Agreus"
 	dynasty = 77777
-	culture = han
+	culture = aeon
 	rite = eternal_mechanism_rite
 	trait = full_cybernetic_conversion
 	father = 9103013
@@ -182,7 +185,7 @@
 9103017 = {	# level 6: Fisher
 	name = "ckn_Halieus"
 	dynasty = 77777
-	culture = han
+	culture = aeon
 	rite = eternal_mechanism_rite
 	trait = full_cybernetic_conversion
 	father = 9103015
@@ -192,7 +195,7 @@
 9103018 = {	# level 7: Chousor; his unnamed brother is not created
 	name = "ckn_Chrysor"
 	dynasty = 77777
-	culture = han
+	culture = aeon
 	rite = eternal_mechanism_rite
 	trait = full_cybernetic_conversion
 	father = 9103016
@@ -202,7 +205,7 @@
 9103019 = {	# level 8: Artisan
 	name = "ckn_Technites"
 	dynasty = 77777
-	culture = han
+	culture = aeon
 	rite = eternal_mechanism_rite
 	trait = full_cybernetic_conversion
 	father = 9103018
@@ -212,7 +215,7 @@
 9103020 = {	# level 8: Earth-born
 	name = "ckn_Geinos_Autochthon"
 	dynasty = 77777
-	culture = han
+	culture = aeon
 	rite = eternal_mechanism_rite
 	trait = full_cybernetic_conversion
 	father = 9103018
@@ -222,7 +225,7 @@
 9103021 = {	# level 9
 	name = "ckn_Agrus"
 	dynasty = 77777
-	culture = han
+	culture = aeon
 	rite = eternal_mechanism_rite
 	trait = full_cybernetic_conversion
 	father = 9103019
@@ -232,7 +235,7 @@
 9103022 = {	# level 9
 	name = "ckn_Agrotes"
 	dynasty = 77777
-	culture = han
+	culture = aeon
 	rite = eternal_mechanism_rite
 	trait = full_cybernetic_conversion
 	father = 9103020
@@ -242,7 +245,7 @@
 9103023 = {	# level 10
 	name = "ckn_Amynos"
 	dynasty = 77777
-	culture = han
+	culture = aeon
 	rite = eternal_mechanism_rite
 	trait = full_cybernetic_conversion
 	father = 9103021
@@ -252,7 +255,7 @@
 9103024 = {	# level 10
 	name = "ckn_Magos"
 	dynasty = 77777
-	culture = han
+	culture = aeon
 	rite = eternal_mechanism_rite
 	trait = full_cybernetic_conversion
 	father = 9103022
@@ -262,7 +265,7 @@
 9103025 = {	# level 11: "the Just" (Zedek)
 	name = "ckn_Sydyk"
 	dynasty = 77777
-	culture = han
+	culture = aeon
 	rite = eternal_mechanism_rite
 	trait = full_cybernetic_conversion
 	father = 9103023
@@ -272,7 +275,7 @@
 9103026 = {	# level 11
 	name = "ckn_Misor"
 	dynasty = 77777
-	culture = han
+	culture = aeon
 	rite = eternal_mechanism_rite
 	trait = full_cybernetic_conversion
 	father = 9103024
@@ -282,7 +285,7 @@
 9103027 = {	# level 12: Taautos (Thoth in Philo); not the Kemet Thoth 7760013
 	name = "ckn_Taautos"
 	dynasty = 77777
-	culture = han
+	culture = aeon
 	rite = eternal_mechanism_rite
 	trait = full_cybernetic_conversion
 	father = 9103026
@@ -292,7 +295,7 @@
 9103028 = {	# level 12: the Cabeiri as one group character (like the mod's Muses/Horae)
 	name = "ckn_Cabeiri"
 	dynasty = 77777
-	culture = han
+	culture = aeon
 	rite = eternal_mechanism_rite
 	trait = full_cybernetic_conversion
 	father = 9103025
@@ -302,7 +305,7 @@
 9103029 = {	# level 12: Asclepius-Eshmun, eighth son of Sydyk; survives the AP 215 massacre; father of Rahab (proposed bridge, modder 17:20)
 	name = "ckn_Eshmun"
 	dynasty = 77777
-	culture = han
+	culture = aeon
 	rite = eternal_mechanism_rite
 	trait = full_cybernetic_conversion
 	father = 9103025

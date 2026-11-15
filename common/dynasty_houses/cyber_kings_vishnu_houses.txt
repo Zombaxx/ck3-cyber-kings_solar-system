@@ -1,0 +1,26 @@
+﻿# Cyber Kings 2026-11-13 23:40: cadet houses of the Solar and Lunar dynasties and of House Phaeter (gen_vishnu.py)
+house_phaeter_vishnu = {
+	name = "house_phaeter_vishnu"
+	dynasty = 920001
+	motto = house_phaeter_vishnu_motto
+}
+house_raghu = {
+	name = "house_raghu"
+	dynasty = 920200
+	motto = house_raghu_motto
+}
+house_yadava = {
+	name = "house_yadava"
+	dynasty = 920201
+	motto = house_yadava_motto
+}
+house_paurava = {
+	name = "house_paurava"
+	dynasty = 920201
+	motto = house_paurava_motto
+}
+house_kuru = {
+	name = "house_kuru"
+	dynasty = 920201
+	motto = house_kuru_motto
+}

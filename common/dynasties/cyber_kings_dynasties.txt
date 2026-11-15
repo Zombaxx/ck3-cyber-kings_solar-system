@@ -8276,6 +8276,7 @@ pictish = {
 }
 77777 = {
 	name = "dynn_ck_77777"
+	motto = dynn_ck_77777_motto
 	culture = "aeon"
 }
 77778 = {
@@ -8292,14 +8293,17 @@ pictish = {
 }
 77781 = {
 	name = "dynn_ck_77781"
+	motto = dynn_ck_77781_motto
 	culture = "ashkenazi"
 }
 77782 = {
 	name = "dynn_ck_77782"
+	motto = dynn_ck_77782_motto
 	culture = "archon"
 }
 106420 = {
 	name = "dynn_ck_106420"
+	motto = dynn_ck_106420_motto
 	culture = "bedouin"
 }
 106710 = {
@@ -8312,6 +8316,7 @@ pictish = {
 }
 77717 = {
 	name = "dynn_ck_77717"
+	motto = dynn_ck_77717_motto
 	culture = "hindustani"
 }
 400157 = {
@@ -9186,57 +9191,149 @@ pictish = {
 # 2026-11-13 21:00 Phaeter round (_dev/scripts/oneoff/gen_phaeter.py)
 920001 = {
 	name = "dynn_ck_920001"
+	motto = dynn_ck_920001_motto
 	culture = "phaeteran"
 }
 920010 = {
 	name = "dynn_ck_920010"
+	motto = dynn_ck_920010_motto
 	culture = "phaeteran"
 }
 920011 = {
 	name = "dynn_ck_920011"
+	motto = dynn_ck_920011_motto
 	culture = "olympian"
 }
 920012 = {
 	name = "dynn_ck_920012"
+	motto = dynn_ck_920012_motto
 	culture = "capitoline"
 }
 920013 = {
 	name = "dynn_ck_920013"
+	motto = dynn_ck_920013_motto
 	culture = "devan"
 }
 920014 = {
 	name = "dynn_ck_920014"
+	motto = dynn_ck_920014_motto
 	culture = "yazatan"
 }
 920015 = {
 	name = "dynn_ck_920015"
+	motto = dynn_ck_920015_motto
 	culture = "yazatan"
 }
 920016 = {
 	name = "dynn_ck_920016"
+	motto = dynn_ck_920016_motto
 	culture = "aesir"
 }
 920017 = {
 	name = "dynn_ck_920017"
+	motto = dynn_ck_920017_motto
 	culture = "aesir"
 }
 920018 = {
 	name = "dynn_ck_920018"
+	motto = dynn_ck_920018_motto
 	culture = "pravian"
 }
 920019 = {
 	name = "dynn_ck_920019"
+	motto = dynn_ck_920019_motto
 	culture = "dievian"
 }
 920020 = {
 	name = "dynn_ck_920020"
+	motto = dynn_ck_920020_motto
 	culture = "danann"
 }
 920021 = {
 	name = "dynn_ck_920021"
+	motto = dynn_ck_920021_motto
 	culture = "danann"
 }
 920022 = {
 	name = "dynn_ck_920022"
+	motto = dynn_ck_920022_motto
 	culture = "danann"
+}
+
+# 2026-11-13 23:00 colonies (gen_colonies.py)
+920100 = {
+	name = "dynn_ck_920100"
+	culture = "han"
+}
+920101 = {
+	name = "dynn_ck_920101"
+	culture = "han"
+}
+920102 = {
+	name = "dynn_ck_920102"
+	culture = "russian"
+}
+920103 = {
+	name = "dynn_ck_920103"
+	culture = "german"
+}
+920104 = {
+	name = "dynn_ck_920104"
+	culture = "liblander"
+}
+
+# 2026-11-13 23:40 gen_vishnu.py: the epic dynasties
+920200 = {
+	name = "dynn_ck_920200"
+	motto = dynn_ck_920200_motto
+	culture = "hindustani"
+}
+920201 = {
+	name = "dynn_ck_920201"
+	motto = dynn_ck_920201_motto
+	culture = "hindustani"
+}
+920202 = {
+	name = "dynn_ck_920202"
+	motto = dynn_ck_920202_motto
+	culture = "hindustani"
+}
+
+# 2026-11-14 00:50 gen_norse.py
+920210 = {
+	name = "dynn_ck_920210"
+	motto = dynn_ck_920210_motto
+	culture = "swedish"
+}
+920211 = {
+	name = "dynn_ck_920211"
+	motto = dynn_ck_920211_motto
+	culture = "danish"
+}
+920212 = {
+	name = "dynn_ck_920212"
+	motto = dynn_ck_920212_motto
+	culture = "norwegian"
+}
+920213 = {
+	name = "dynn_ck_920213"
+	motto = dynn_ck_920213_motto
+	culture = "anglo_saxon"
+}
+920214 = {
+	name = "dynn_ck_920214"
+	motto = dynn_ck_920214_motto
+	culture = "anglo_saxon"
+}
+
+# 2026-11-14 03:30 (modder 01:06: one connected Norse tree)
+920220 = {
+	name = "dynn_ck_920220"
+	motto = dynn_ck_920220_motto
+	culture = "aesir"
+}
+920221 = {
+	name = "dynn_ck_920221"
+	motto = dynn_ck_920221_motto
+	culture = "aesir"
 }

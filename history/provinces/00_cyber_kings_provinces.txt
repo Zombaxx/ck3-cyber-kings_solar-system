@@ -688,8 +688,8 @@
 }
 ### c_province0017
 17 = {
-	culture = ckw_selenite
-	rite = protestant_rite
+	culture = han
+	rite = dhyana	# 2026-11-13 23:00
 	holding = castle_holding
 }
 3922 = {
@@ -709,8 +709,8 @@
 }
 ### c_province0041
 41 = {
-	culture = ckw_selenite
-	rite = protestant_rite
+	culture = han
+	rite = dhyana	# 2026-11-13 23:00
 	holding = castle_holding
 }
 3946 = {
@@ -11670,9 +11670,9 @@
 ########## k_kingdom0928
 ### c_province0885
 885 = {
-	culture = ckw_lemurian
-	rite = shinto
-	holding = tribal_holding
+	culture = russian
+	rite = byzantine_rite	# 2026-11-13 23:00
+	holding = castle_holding	# 2026-11-13 23:00: Soviet-built colony town
 }
 4636 = {
 	holding = church_holding
@@ -11700,8 +11700,8 @@
 }
 ### c_province0889
 889 = {
-	culture = ckw_lemurian
-	rite = shinto
+	culture = dennitsan
+	rite = byzantine_rite	# 2026-11-13 23:00
 	holding = castle_holding
 }
 4643 = {

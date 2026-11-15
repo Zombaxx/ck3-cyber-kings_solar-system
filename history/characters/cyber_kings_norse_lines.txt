@@ -1,0 +1,2253 @@
+﻿# Cyber Kings 2026-11-14 00:50: the mortal lines of Odin and Tiwaz, the missing Norse gods (gen_norse.py; sources in _dev/PHAETER_HOUSE.md).
+
+9108000 = {	# Ullr: god of the bow and skis; Sif's son, Thor's stepson
+	name = "ckn_Ullr"
+	# 2026-11-14 03:30 (modder 01:06: one connected Norse tree): lowborn - Sif's son, father unknown
+	culture = aesir
+	rite = norse_pagan
+	trait = full_cybernetic_conversion
+	trait = brave
+	trait = patient
+	trait = education_martial_4
+	trait = lifestyle_hunter
+	mother = 9104195
+	5356.1.1 = { birth = yes }
+	6000.1.1 = { death = yes }
+}
+
+9108001 = {	# Nanna: Baldr's wife; dies of grief on his pyre in the myth
+	name = "ckn_Nanna"
+	female = yes
+	culture = aesir
+	rite = norse_pagan
+	trait = full_cybernetic_conversion
+	trait = compassionate
+	trait = chaste
+	trait = calm
+	5335.1.1 = { birth = yes }
+	5355.6.1 = { add_spouse = 9104198 }
+	6000.1.1 = { death = yes }
+}
+
+9108002 = {	# Forseti: god of justice, judge in Glitnir
+	name = "ckn_Forseti"
+	dynasty = 920016
+	culture = aesir
+	rite = norse_pagan
+	trait = full_cybernetic_conversion
+	trait = just
+	trait = calm
+	trait = honest
+	trait = education_diplomacy_4
+	father = 9104198
+	mother = 9108001
+	5360.1.1 = { birth = yes }
+	6000.1.1 = { death = yes }
+}
+
+9108003 = {	# Skadi: giantess of skiing and the hunt, Njordr's wife (they part)
+	name = "ckn_Skadi"
+	female = yes
+	culture = jotnar	# 2026-11-14 01:10 (modder 23:42): a jötunn - was aesir
+	rite = norse_pagan
+	trait = full_cybernetic_conversion
+	trait = vengeful
+	trait = brave
+	trait = education_martial_3
+	trait = lifestyle_hunter
+	5320.1.1 = { birth = yes }
+	5345.6.1 = { add_spouse = 9104205 }
+	6000.1.1 = { death = yes }
+	5373.1.3 = { effect = { set_relation_rival = { target = character:9104212 } } }	# 2026-11-15 12:30 (modder 11:35): Loki had her father Thjazi killed
+}
+
+9108004 = {	# Gefjon: ploughs Zealand out of Sweden; marries Skjoldr (Ynglinga saga 5)
+	name = "ckn_Gefjon"
+	female = yes
+	culture = aesir
+	rite = norse_pagan
+	trait = full_cybernetic_conversion
+	trait = diligent
+	trait = ambitious
+	trait = education_stewardship_4
+	5330.1.1 = { birth = yes }
+	6000.1.1 = { death = yes }
+}
+
+9108005 = {	# Hoenir: hostage to the Vanir after the Aesir-Vanir war
+	name = "ckn_Hoenir"
+	culture = aesir
+	rite = norse_pagan
+	trait = full_cybernetic_conversion
+	trait = shy
+	trait = calm
+	trait = education_learning_3
+	5060.1.1 = { birth = yes }
+	6000.1.1 = { death = yes }
+}
+
+9108006 = {	# Mimir: the wisest; beheaded by the Vanir, his head kept by Odin
+	name = "ckn_Mimir"
+	culture = jotnar	# 2026-11-14 01:10 (modder 23:42): a jötunn - was aesir
+	rite = norse_pagan
+	trait = full_cybernetic_conversion
+	trait = patient
+	trait = education_learning_5
+	trait = intellect_good_3
+	5040.1.1 = { birth = yes }
+	5300.1.1 = { death = yes }
+}
+
+9108007 = {	# Kvasir: made from the truce of the Aesir and Vanir; murdered by the dwarfs Fjalar and Galar (his blood becomes the mead of poetry)
+	name = "ckn_Kvasir"
+	culture = aesir
+	rite = norse_pagan
+	trait = full_cybernetic_conversion
+	trait = honest
+	trait = education_learning_4
+	5305.1.1 = { birth = yes }
+	5340.1.1 = { death = yes }
+}
+
+9108008 = {	# Aegir: sea giant, brewer of the gods
+	name = "ckn_Aegir"
+	culture = jotnar	# 2026-11-14 01:10 (modder 23:42): a jötunn - was aesir
+	rite = norse_pagan
+	trait = full_cybernetic_conversion
+	trait = gregarious
+	trait = generous
+	trait = education_stewardship_3
+	5050.1.1 = { birth = yes }
+	6000.1.1 = { death = yes }
+}
+
+9108009 = {	# Ran: sea goddess with the drowning net, Aegir's wife
+	name = "ckn_Ran"
+	female = yes
+	culture = jotnar	# 2026-11-14 01:10 (modder 23:42): a jötunn - was aesir
+	rite = norse_pagan
+	trait = full_cybernetic_conversion
+	trait = greedy
+	trait = deceitful
+	5055.1.1 = { birth = yes }
+	5075.6.1 = { add_spouse = 9108008 }
+	6000.1.1 = { death = yes }
+}
+
+9108010 = {	# Fenrir: Loki's wolf, bound with Gleipnir (bites off Tyr's hand)
+	name = "ckn_Fenrir"
+	dynasty = 920221	# 2026-11-14 03:30 (modder 01:06: one connected Norse tree): Laufeyjarson, Loki's line
+	culture = aesir
+	rite = norse_pagan
+	trait = full_cybernetic_conversion
+	trait = wrathful
+	trait = vengeful
+	trait = strong
+	trait = giant
+	father = 9104212
+	mother = 9104213
+	5380.1.1 = { birth = yes }
+	6000.1.1 = { death = yes }
+}
+
+9108011 = {	# Jormungandr: Loki's world serpent, Thor's foe
+	name = "ckn_Jormungandr"
+	dynasty = 920221	# 2026-11-14 03:30 (modder 01:06: one connected Norse tree): Laufeyjarson, Loki's line
+	culture = aesir
+	rite = norse_pagan
+	trait = full_cybernetic_conversion
+	trait = wrathful
+	trait = patient
+	trait = giant
+	father = 9104212
+	mother = 9104213
+	5381.1.1 = { birth = yes }
+	6000.1.1 = { death = yes }
+}
+
+9108012 = {	# Narfi: son of Loki and Sigyn; his entrails bind Loki (Gylfaginning 50)
+	name = "ckn_Narfi"
+	dynasty = 920221	# 2026-11-14 03:30 (modder 01:06: one connected Norse tree): Laufeyjarson, Loki's line
+	culture = aesir
+	rite = norse_pagan
+	trait = full_cybernetic_conversion
+	trait = shy
+	trait = patient
+	father = 9104212
+	mother = 9104215
+	5385.1.1 = { birth = yes }
+	6000.1.1 = { death = yes }
+}
+
+9108013 = {	# Thjalfi: Thor's servant (a mortal farm boy), the fastest runner
+	name = "ckn_Thjalfi"
+	culture = norwegian
+	rite = norse_pagan
+	trait = brave
+	trait = diligent
+	trait = honest
+	trait = education_martial_2
+	5365.1.1 = { birth = yes }
+	5440.1.1 = { death = yes }
+}
+
+9108014 = {	# Roskva: Thor's servant, Thjalfi's sister
+	name = "ckn_Roskva"
+	female = yes
+	culture = norwegian
+	rite = norse_pagan
+	trait = diligent
+	trait = humble
+	trait = patient
+	5367.1.1 = { birth = yes }
+	5445.1.1 = { death = yes }
+}
+
+9108015 = {	# Sveigdir: Yngling king 1 after Fjolnir: follows a dwarf into a stone
+	name = "ckn_Sveigdir"
+	dynasty = 920210
+	culture = swedish
+	rite = norse_pagan
+	trait = content
+	trait = temperate
+	trait = humble
+	trait = education_learning_2
+	father = 9104209
+	5375.1.1 = { birth = yes }
+	5425.1.1 = { death = yes }
+}
+
+9108016 = {	# Vanlandi: Yngling king 2 after Fjolnir: ridden to death by a mare (a curse)
+	name = "ckn_Vanlandi"
+	dynasty = 920210
+	culture = swedish
+	rite = norse_pagan
+	trait = stubborn
+	trait = vengeful
+	trait = brave
+	trait = education_martial_2
+	father = 9108015
+	5392.1.1 = { birth = yes }
+	5443.1.1 = { death = yes }
+}
+
+9108017 = {	# Visburr: Yngling king 3 after Fjolnir
+	name = "ckn_Visburr"
+	dynasty = 920210
+	culture = swedish
+	rite = norse_pagan
+	trait = lustful
+	trait = gluttonous
+	trait = gregarious
+	trait = education_intrigue_2
+	father = 9108016
+	5410.1.1 = { birth = yes }
+	5462.1.1 = { death = yes }
+}
+
+9108018 = {	# Domaldi: Yngling king 4 after Fjolnir: sacrificed by the Swedes for good harvests
+	name = "ckn_Domaldi"
+	dynasty = 920210
+	culture = swedish
+	rite = norse_pagan
+	trait = deceitful
+	trait = ambitious
+	trait = paranoid
+	trait = education_martial_3
+	father = 9108017
+	5427.1.1 = { birth = yes }
+	5480.1.1 = { death = yes }
+}
+
+9108019 = {	# Domarr: Yngling king 5 after Fjolnir
+	name = "ckn_Domarr"
+	dynasty = 920210
+	culture = swedish
+	rite = norse_pagan
+	trait = compassionate
+	trait = forgiving
+	trait = just
+	trait = education_stewardship_3
+	father = 9108018
+	5445.1.1 = { birth = yes }
+	5499.1.1 = { death = yes }
+}
+
+9108020 = {	# Dyggvi: Yngling king 6 after Fjolnir
+	name = "ckn_Dyggvi"
+	dynasty = 920210
+	culture = swedish
+	rite = norse_pagan
+	trait = just
+	trait = brave
+	trait = diligent
+	trait = education_diplomacy_3
+	father = 9108019
+	5463.1.1 = { birth = yes }
+	5518.1.1 = { death = yes }
+}
+
+9108021 = {	# Dagr: Yngling king 7 after Fjolnir
+	name = "ckn_Dagr"
+	dynasty = 920210
+	culture = swedish
+	rite = norse_pagan
+	trait = ambitious
+	trait = wrathful
+	trait = brave
+	trait = education_learning_2
+	father = 9108020
+	5480.1.1 = { birth = yes }
+	5536.1.1 = { death = yes }
+}
+
+9108022 = {	# Agni: Yngling king 8 after Fjolnir
+	name = "ckn_Agni"
+	dynasty = 920210
+	culture = swedish
+	rite = norse_pagan
+	trait = patient
+	trait = calm
+	trait = honest
+	trait = education_martial_2
+	father = 9108021
+	5498.1.1 = { birth = yes }
+	5555.1.1 = { death = yes }
+}
+
+9108023 = {	# Alrekr: Yngling king 9 after Fjolnir
+	name = "ckn_Alrekr"
+	dynasty = 920210
+	culture = swedish
+	rite = norse_pagan
+	trait = generous
+	trait = zealous
+	trait = just
+	trait = education_intrigue_2
+	father = 9108022
+	5515.1.1 = { birth = yes }
+	5573.1.1 = { death = yes }
+}
+
+9108024 = {	# Yngvi: Yngling king 10 after Fjolnir
+	name = "ckn_Yngvi"
+	dynasty = 920210
+	culture = swedish
+	rite = norse_pagan
+	trait = arrogant
+	trait = gregarious
+	trait = brave
+	trait = education_martial_3
+	father = 9108023
+	5533.1.1 = { birth = yes }
+	5583.1.1 = { death = yes }
+}
+
+9108025 = {	# Jorundr: Yngling king 11 after Fjolnir
+	name = "ckn_Jorundr"
+	dynasty = 920210
+	culture = swedish
+	rite = norse_pagan
+	trait = content
+	trait = temperate
+	trait = humble
+	trait = education_stewardship_3
+	father = 9108024
+	5551.1.1 = { birth = yes }
+	5602.1.1 = { death = yes }
+}
+
+9108026 = {	# Aun: Yngling king 12 after Fjolnir: Aun the Old: sacrifices nine sons to Odin to prolong his life
+	name = "ckn_Aun"
+	dynasty = 920210
+	culture = swedish
+	rite = norse_pagan
+	trait = stubborn
+	trait = vengeful
+	trait = brave
+	trait = education_diplomacy_3
+	father = 9108025
+	5568.1.1 = { birth = yes }
+	5678.1.1 = { death = yes }
+}
+
+9108027 = {	# Egill: Yngling king 13 after Fjolnir
+	name = "ckn_Egill"
+	dynasty = 920210
+	culture = swedish
+	rite = norse_pagan
+	trait = lustful
+	trait = gluttonous
+	trait = gregarious
+	trait = education_learning_2
+	father = 9108026
+	5586.1.1 = { birth = yes }
+	5639.1.1 = { death = yes }
+}
+
+9108028 = {	# Ottarr: Yngling king 14 after Fjolnir
+	name = "ckn_Ottarr"
+	dynasty = 920210
+	culture = swedish
+	rite = norse_pagan
+	trait = deceitful
+	trait = ambitious
+	trait = paranoid
+	trait = education_martial_2
+	father = 9108027
+	5603.1.1 = { birth = yes }
+	5657.1.1 = { death = yes }
+}
+
+9108029 = {	# Adils: Yngling king 15 after Fjolnir: Eadgils of Beowulf
+	name = "ckn_Adils"
+	dynasty = 920210
+	culture = swedish
+	rite = norse_pagan
+	trait = compassionate
+	trait = forgiving
+	trait = just
+	trait = education_intrigue_2
+	father = 9108028
+	5621.1.1 = { birth = yes }
+	5676.1.1 = { death = yes }
+}
+
+9108030 = {	# Eysteinn: Yngling king 16 after Fjolnir
+	name = "ckn_Eysteinn"
+	dynasty = 920210
+	culture = swedish
+	rite = norse_pagan
+	trait = just
+	trait = brave
+	trait = diligent
+	trait = education_martial_3
+	father = 9108029
+	5639.1.1 = { birth = yes }
+	5695.1.1 = { death = yes }
+}
+
+9108031 = {	# Yngvarr: Yngling king 17 after Fjolnir
+	name = "ckn_Yngvarr"
+	dynasty = 920210
+	culture = swedish
+	rite = norse_pagan
+	trait = ambitious
+	trait = wrathful
+	trait = brave
+	trait = education_stewardship_3
+	father = 9108030
+	5656.1.1 = { birth = yes }
+	5713.1.1 = { death = yes }
+}
+
+9108032 = {	# Onundr: Yngling king 18 after Fjolnir
+	name = "ckn_Onundr"
+	dynasty = 920210
+	culture = swedish
+	rite = norse_pagan
+	trait = patient
+	trait = calm
+	trait = honest
+	trait = education_diplomacy_3
+	father = 9108031
+	5674.1.1 = { birth = yes }
+	5732.1.1 = { death = yes }
+}
+
+9108033 = {	# Ingjaldr: Yngling king 19 after Fjolnir: the Ill-ruler, burns himself and his court
+	name = "ckn_Ingjaldr"
+	dynasty = 920210
+	culture = swedish
+	rite = norse_pagan
+	trait = generous
+	trait = zealous
+	trait = just
+	trait = education_learning_2
+	father = 9108032
+	5691.1.1 = { birth = yes }
+	5741.1.1 = { death = yes }
+}
+
+9108034 = {	# Olafr: Yngling king 20 after Fjolnir: Trételgja, the Tree-feller: clears Värmland
+	name = "ckn_Olafr"
+	dynasty = 920210
+	culture = swedish
+	rite = norse_pagan
+	trait = arrogant
+	trait = gregarious
+	trait = brave
+	trait = education_martial_2
+	father = 9108033
+	5709.1.1 = { birth = yes }
+	5760.1.1 = { death = yes }
+}
+
+9108035 = {	# Halfdan: Yngling king 21 after Fjolnir: Hvitbeinn, the first Yngling in Norway
+	name = "ckn_Halfdan"
+	dynasty = 920210
+	culture = norwegian
+	rite = norse_pagan
+	trait = content
+	trait = temperate
+	trait = humble
+	trait = education_intrigue_2
+	father = 9108034
+	5727.1.1 = { birth = yes }
+	5779.1.1 = { death = yes }
+}
+
+9108036 = {	# Eysteinn: Yngling king 22 after Fjolnir
+	name = "ckn_Eysteinn"
+	dynasty = 920210
+	culture = norwegian
+	rite = norse_pagan
+	trait = stubborn
+	trait = vengeful
+	trait = brave
+	trait = education_martial_3
+	father = 9108035
+	5744.1.1 = { birth = yes }
+	5797.1.1 = { death = yes }
+}
+
+9108037 = {	# Halfdan: Yngling king 23 after Fjolnir: the Mild
+	name = "ckn_Halfdan"
+	dynasty = 920210
+	culture = norwegian
+	rite = norse_pagan
+	trait = lustful
+	trait = gluttonous
+	trait = gregarious
+	trait = education_stewardship_3
+	father = 9108036
+	5762.1.1 = { birth = yes }
+	5816.1.1 = { death = yes }
+}
+
+9108038 = {	# Gudrodr: Yngling king 24 after Fjolnir: the Hunter
+	name = "ckn_Gudrodr"
+	dynasty = 920210
+	culture = norwegian
+	rite = norse_pagan
+	trait = deceitful
+	trait = ambitious
+	trait = paranoid
+	trait = education_diplomacy_3
+	father = 9108037
+	5780.1.1 = { birth = yes }
+	5835.1.1 = { death = yes }
+}
+
+9108039 = {	# Halfdan: Yngling king 25 after Fjolnir: the Black
+	name = "ckn_Halfdan"
+	dynasty = 920210
+	culture = norwegian
+	rite = norse_pagan
+	trait = compassionate
+	trait = forgiving
+	trait = just
+	trait = education_learning_2
+	father = 9108038
+	5810.1.1 = { birth = yes }
+	5860.1.1 = { death = yes }
+}
+
+9108040 = {	# Harald: Yngling king 26 after Fjolnir: Fairhair, first king of all Norway (born ~850, died ~932)
+	name = "ckn_Harald"
+	dynasty = 920210
+	culture = norwegian
+	rite = norse_pagan
+	trait = just
+	trait = brave
+	trait = diligent
+	trait = education_martial_2
+	father = 9108039
+	mother = 9108074
+	5850.1.1 = { birth = yes }
+	5933.1.1 = { death = yes }
+}
+
+9108041 = {	# Eirikr: Alrekr's co-king brother; they kill each other with bridles
+	name = "ckn_Eirikr"
+	dynasty = 920210
+	culture = swedish
+	rite = norse_pagan
+	trait = ambitious
+	trait = wrathful
+	trait = brave
+	trait = education_intrigue_2
+	father = 9108022
+	5516.1.1 = { birth = yes }
+	5573.1.1 = { death = yes }
+}
+
+9108042 = {	# Alfr: Yngvi's co-king brother; they kill each other
+	name = "ckn_Alfr"
+	dynasty = 920210
+	culture = swedish
+	rite = norse_pagan
+	trait = patient
+	trait = calm
+	trait = honest
+	trait = education_martial_3
+	father = 9108023
+	5534.1.1 = { birth = yes }
+	5583.1.1 = { death = yes }
+}
+
+9108043 = {	# Skjoldr: Scyld Scefing: Odin's son, first king of the Danes; marries Gefjon
+	name = "ckn_Skjoldr"
+	dynasty = 920016
+	culture = danish
+	rite = norse_pagan
+	trait = generous
+	trait = zealous
+	trait = just
+	trait = education_stewardship_3
+	father = 9104189
+	5380.1.1 = { birth = yes }
+	5400.6.1 = { add_spouse = 9108004 }
+	5450.1.1 = { death = yes }
+}
+
+9108044 = {	# Beow: Beowulf the Dane, son of Scyld (Beowulf 18-19)
+	name = "ckn_Beow"
+	dynasty = 920211
+	culture = danish
+	rite = norse_pagan
+	trait = arrogant
+	trait = gregarious
+	trait = brave
+	trait = education_diplomacy_3
+	father = 9108043
+	mother = 9108004
+	5405.1.1 = { birth = yes }
+	5470.1.1 = { death = yes }
+}
+
+9108045 = {	# Halfdan: Healfdene, father of Heorogar, Hrothgar and Halga
+	name = "ckn_Halfdan"
+	dynasty = 920211
+	culture = danish
+	rite = norse_pagan
+	trait = content
+	trait = temperate
+	trait = humble
+	trait = education_learning_2
+	father = 9108044
+	5430.1.1 = { birth = yes }
+	5495.1.1 = { death = yes }
+}
+
+9108046 = {	# Heorogar: eldest son of Healfdene
+	name = "ckn_Heorogar"
+	dynasty = 920211
+	culture = danish
+	rite = norse_pagan
+	trait = stubborn
+	trait = vengeful
+	trait = brave
+	trait = education_martial_2
+	father = 9108045
+	5455.1.1 = { birth = yes }
+	5500.1.1 = { death = yes }
+}
+
+9108047 = {	# Hroarr: Hrothgar, builder of the hall Heorot (Beowulf)
+	name = "ckn_Hroarr"
+	dynasty = 920211
+	culture = danish
+	rite = norse_pagan
+	trait = lustful
+	trait = gluttonous
+	trait = gregarious
+	trait = education_intrigue_2
+	father = 9108045
+	5458.1.1 = { birth = yes }
+	5525.1.1 = { death = yes }
+}
+
+9108048 = {	# Wealhtheow: Hrothgar's queen
+	name = "ckn_Wealhtheow"
+	female = yes
+	culture = danish
+	rite = norse_pagan
+	trait = deceitful
+	trait = ambitious
+	trait = paranoid
+	trait = education_martial_3
+	5465.1.1 = { birth = yes }
+	5485.6.1 = { add_spouse = 9108047 }
+	5530.1.1 = { death = yes }
+}
+
+9108049 = {	# Helgi: Halga / Helgi
+	name = "ckn_Helgi"
+	dynasty = 920211
+	culture = danish
+	rite = norse_pagan
+	trait = compassionate
+	trait = forgiving
+	trait = just
+	trait = education_stewardship_3
+	father = 9108045
+	5462.1.1 = { birth = yes }
+	5505.1.1 = { death = yes }
+}
+
+9108050 = {	# Hrolfr: Hrolf Kraki (Hrothulf in Beowulf), slain at Lejre
+	name = "ckn_Hrolfr"
+	dynasty = 920211
+	culture = danish
+	rite = norse_pagan
+	trait = brave
+	trait = generous
+	trait = just
+	trait = education_martial_4
+	father = 9108049
+	5485.1.1 = { birth = yes }
+	5535.1.1 = { death = yes }
+}
+
+9108051 = {	# Hrethric: Hrothgar's son
+	name = "ckn_Hrethric"
+	dynasty = 920211
+	culture = danish
+	rite = norse_pagan
+	trait = ambitious
+	trait = wrathful
+	trait = brave
+	trait = education_learning_2
+	father = 9108047
+	mother = 9108048
+	5490.1.1 = { birth = yes }
+	5530.1.1 = { death = yes }
+}
+
+9108052 = {	# Hrothmund: Hrothgar's son
+	name = "ckn_Hrothmund"
+	dynasty = 920211
+	culture = danish
+	rite = norse_pagan
+	trait = patient
+	trait = calm
+	trait = honest
+	trait = education_martial_2
+	father = 9108047
+	mother = 9108048
+	5493.1.1 = { birth = yes }
+	5530.1.1 = { death = yes }
+}
+
+9108053 = {	# Sigi: Odin's son, outlawed, king of Hunland (Volsunga saga 1)
+	name = "ckn_Sigi"
+	dynasty = 920016
+	culture = norwegian
+	rite = norse_pagan
+	trait = generous
+	trait = zealous
+	trait = just
+	trait = education_intrigue_2
+	father = 9104189
+	5150.1.1 = { birth = yes }
+	5400.1.1 = { death = yes }
+}
+
+9108054 = {	# Rerir: avenges Sigi; Odin sends his wife an apple of fertility
+	name = "ckn_Rerir"
+	dynasty = 920016
+	culture = norwegian
+	rite = norse_pagan
+	trait = arrogant
+	trait = gregarious
+	trait = brave
+	trait = education_martial_3
+	father = 9108053
+	5250.1.1 = { birth = yes }
+	5539.1.1 = { death = yes }
+}
+
+9108055 = {	# Volsungr: carried six years, cut from his dying mother; plants the Barnstokkr oak
+	name = "ckn_Volsungr"
+	dynasty = 920016
+	culture = norwegian
+	rite = norse_pagan
+	trait = content
+	trait = temperate
+	trait = humble
+	trait = education_stewardship_3
+	father = 9108054
+	5539.9.1 = { birth = yes }
+	5640.1.1 = { death = yes }
+}
+
+9108056 = {	# Sigmundr: draws Odin's sword from the Barnstokkr; falls when Odin breaks it
+	name = "ckn_Sigmundr"
+	dynasty = 920212
+	culture = norwegian
+	rite = norse_pagan
+	trait = brave
+	trait = vengeful
+	trait = stubborn
+	trait = education_martial_5
+	father = 9108055
+	5600.1.1 = { birth = yes }
+	5724.12.1 = { death = yes }
+	5641.1.3 = { effect = { set_relation_friend = { target = character:9108058 } } }	# 2026-11-15 12:30 (modder 11:35): Sigmundr and Sinfjotli
+}
+
+9108057 = {	# Signy: Sigmundr's twin; burns with her husband Siggeir
+	name = "ckn_Signy"
+	female = yes
+	dynasty = 920212
+	culture = norwegian
+	rite = norse_pagan
+	trait = vengeful
+	trait = brave
+	trait = deceitful
+	father = 9108055
+	5602.1.1 = { birth = yes }
+	5660.1.1 = { death = yes }
+}
+
+9108058 = {	# Sinfjotli: werewolf with his father; poisoned by Borghild
+	name = "ckn_Sinfjotli"
+	dynasty = 920212
+	culture = norwegian
+	rite = norse_pagan
+	trait = wrathful
+	trait = brave
+	trait = strong
+	father = 9108056
+	mother = 9108057
+	5625.1.1 = { birth = yes }
+	5660.1.1 = { death = yes }
+}
+
+9108059 = {	# Helgi: Helgi Hundingsbane
+	name = "ckn_Helgi"
+	dynasty = 920212
+	culture = norwegian
+	rite = norse_pagan
+	trait = brave
+	trait = ambitious
+	trait = education_martial_4
+	father = 9108056
+	5690.1.1 = { birth = yes }
+	5720.1.1 = { death = yes }
+}
+
+9108060 = {	# Hjordis: Sigmundr's last wife, Sigurdr's mother
+	name = "ckn_Hjordis"
+	female = yes
+	culture = norwegian
+	rite = norse_pagan
+	trait = just
+	trait = brave
+	trait = diligent
+	trait = education_martial_3
+	5705.1.1 = { birth = yes }
+	5723.6.1 = { add_spouse = 9108056 }
+	5770.1.1 = { death = yes }
+}
+
+9108061 = {	# Sigurdr: Fafnisbani: born after his father's death, kills the dragon Fafnir, murdered by the Gjukungs
+	name = "ckn_Sigurdr"
+	dynasty = 920212
+	culture = norwegian
+	rite = norse_pagan
+	trait = brave
+	trait = honest
+	trait = ambitious
+	trait = education_martial_5
+	trait = strong
+	trait = blademaster_3
+	father = 9108056
+	mother = 9108060
+	5725.4.1 = { birth = yes }
+	5750.1.1 = { death = yes }
+	5741.1.3 = { effect = { set_relation_lover = { target = character:9108062 } } }	# 2026-11-15 12:30 (modder 11:35): Sigurdr and Brynhildr
+}
+
+9108062 = {	# Brynhildr: the valkyrie; throws herself on Sigurdr's pyre
+	name = "ckn_Brynhildr"
+	female = yes
+	culture = norwegian
+	rite = norse_pagan
+	trait = brave
+	trait = vengeful
+	trait = arrogant
+	trait = education_martial_4
+	5722.1.1 = { birth = yes }
+	5750.1.1 = { death = yes }
+	5744.1.3 = { effect = { set_relation_rival = { target = character:9108063 } } }	# 2026-11-15 12:30 (modder 11:35): the quarrel of the queens
+}
+
+9108063 = {	# Gudrun: Gjuki's daughter, Sigurdr's wife
+	name = "ckn_Gudrun"
+	female = yes
+	culture = norwegian
+	rite = norse_pagan
+	trait = vengeful
+	trait = patient
+	trait = compassionate
+	5728.1.1 = { birth = yes }
+	5745.6.1 = { add_spouse = 9108061 }
+	5790.1.1 = { death = yes }
+}
+
+9108064 = {	# Aslaug: Kraka: raised as a peasant; Ragnar's queen
+	name = "ckn_Aslaug"
+	female = yes
+	dynasty = 920212
+	culture = norwegian
+	rite = norse_pagan
+	trait = patient
+	trait = calm
+	trait = education_learning_3
+	trait = beauty_good_2
+	father = 9108061
+	mother = 9108062
+	5748.1.1 = { birth = yes }
+	5810.1.1 = { death = yes }
+}
+
+9108065 = {	# Sigurdr: Sigurd Hring, king of Danes and Swedes, Ragnar's father (no attested link to the older Skjoldungs)
+	name = "ckn_Sigurdr"
+	dynasty = 920211
+	culture = danish
+	rite = norse_pagan
+	trait = content
+	trait = temperate
+	trait = humble
+	trait = education_intrigue_2
+	5715.1.1 = { birth = yes }
+	5780.1.1 = { death = yes }
+}
+
+9108066 = {	# Ragnarr: Lodbrok: dies in King Aella's snake pit (Ragnars saga). The sagas' chronology is impossible; dates follow Heimskringla's descent to Harald Fairhair
+	name = "ckn_Ragnarr"
+	dynasty = 920211
+	culture = danish
+	rite = norse_pagan
+	trait = brave
+	trait = ambitious
+	trait = lustful
+	trait = education_martial_4
+	father = 9108065
+	5740.1.1 = { birth = yes }
+	5765.6.1 = { add_spouse = 9108064 }
+	5825.1.1 = { death = yes }
+}
+
+9108067 = {	# Ivarr: son of Ragnar, the Boneless, leader of the Great Heathen Army
+	name = "ckn_Ivarr"
+	dynasty_house = house_lodbrok
+	culture = danish
+	rite = norse_pagan
+	trait = deceitful
+	trait = wrathful
+	trait = ambitious
+	trait = education_martial_5
+	father = 9108066
+	mother = 9108064
+	5766.1.1 = { birth = yes }
+	5845.1.1 = { death = yes }
+}
+
+9108068 = {	# Bjorn: son of Ragnar, Ironside, king in Sweden
+	name = "ckn_Bjorn"
+	dynasty_house = house_lodbrok
+	culture = danish
+	rite = norse_pagan
+	trait = brave
+	trait = ambitious
+	trait = education_martial_4
+	father = 9108066
+	mother = 9108064
+	5768.1.1 = { birth = yes }
+	5850.1.1 = { death = yes }
+}
+
+9108069 = {	# Hvitserkr: son of Ragnar, Hvitserk
+	name = "ckn_Hvitserkr"
+	dynasty_house = house_lodbrok
+	culture = danish
+	rite = norse_pagan
+	trait = brave
+	trait = stubborn
+	trait = education_martial_3
+	father = 9108066
+	mother = 9108064
+	5770.1.1 = { birth = yes }
+	5845.1.1 = { death = yes }
+}
+
+9108070 = {	# Sigurdr: son of Ragnar, Snake-in-the-Eye, king in Denmark
+	name = "ckn_Sigurdr"
+	dynasty_house = house_lodbrok
+	culture = danish
+	rite = norse_pagan
+	trait = ambitious
+	trait = just
+	trait = education_martial_4
+	father = 9108066
+	mother = 9108064
+	5768.1.1 = { birth = yes }
+	5830.1.1 = { death = yes }
+}
+
+9108071 = {	# Aslaug: Sigurd Snake-in-the-Eye's daughter, wife of Helgi the Sharp
+	name = "ckn_Aslaug"
+	female = yes
+	dynasty_house = house_lodbrok
+	culture = danish
+	rite = norse_pagan
+	trait = ambitious
+	trait = wrathful
+	trait = brave
+	trait = education_intrigue_2
+	father = 9108070
+	5788.1.1 = { birth = yes }
+	5850.1.1 = { death = yes }
+}
+
+9108072 = {	# Helgi: Helgi the Sharp
+	name = "ckn_Helgi"
+	culture = norwegian
+	rite = norse_pagan
+	trait = patient
+	trait = calm
+	trait = honest
+	trait = education_martial_3
+	5784.1.1 = { birth = yes }
+	5806.6.1 = { add_spouse = 9108071 }
+	5840.1.1 = { death = yes }
+}
+
+9108073 = {	# Sigurdr: Sigurd Hart, killed by the berserker Haki
+	name = "ckn_Sigurdr"
+	culture = norwegian
+	rite = norse_pagan
+	trait = brave
+	trait = strong
+	trait = education_martial_4
+	father = 9108072
+	mother = 9108071
+	5808.1.1 = { birth = yes }
+	5840.1.1 = { death = yes }
+}
+
+9108074 = {	# Ragnhild: Halfdan the Black's queen, mother of Harald Fairhair
+	name = "ckn_Ragnhild"
+	female = yes
+	culture = norwegian
+	rite = norse_pagan
+	trait = arrogant
+	trait = gregarious
+	trait = brave
+	trait = education_diplomacy_3
+	father = 9108073
+	5828.1.1 = { birth = yes }
+	5847.6.1 = { add_spouse = 9108039 }
+	5860.1.1 = { death = yes }
+}
+
+9108075 = {	# Wecta: son of Woden (Odin) in the Anglo-Saxon genealogies
+	name = "ckn_Wecta"
+	dynasty = 920213
+	culture = anglo_saxon
+	rite = norse_pagan
+	trait = content
+	trait = temperate
+	trait = humble
+	trait = education_learning_2
+	father = 9104189
+	5300.1.1 = { birth = yes }
+	5420.1.1 = { death = yes }
+}
+
+9108076 = {	# Waegdaeg: son of Woden (Odin) in the Anglo-Saxon genealogies
+	name = "ckn_Waegdaeg"
+	dynasty = 920213
+	culture = anglo_saxon
+	rite = norse_pagan
+	trait = stubborn
+	trait = vengeful
+	trait = brave
+	trait = education_martial_2
+	father = 9104189
+	5110.1.1 = { birth = yes }
+	5230.1.1 = { death = yes }
+}
+
+9108077 = {	# Baeldaeg: son of Woden (Odin) in the Anglo-Saxon genealogies
+	name = "ckn_Baeldaeg"
+	dynasty = 920213
+	culture = anglo_saxon
+	rite = norse_pagan
+	trait = lustful
+	trait = gluttonous
+	trait = gregarious
+	trait = education_intrigue_2
+	father = 9104189
+	5120.1.1 = { birth = yes }
+	5240.1.1 = { death = yes }
+}
+
+9108078 = {	# Wihtlaeg: son of Woden (Odin) in the Anglo-Saxon genealogies
+	name = "ckn_Wihtlaeg"
+	dynasty = 920213
+	culture = anglo_saxon
+	rite = norse_pagan
+	trait = deceitful
+	trait = ambitious
+	trait = paranoid
+	trait = education_martial_3
+	father = 9104189
+	5150.1.1 = { birth = yes }
+	5270.1.1 = { death = yes }
+}
+
+9108079 = {	# Caser: son of Woden (Odin) in the Anglo-Saxon genealogies
+	name = "ckn_Caser"
+	dynasty = 920213
+	culture = anglo_saxon
+	rite = norse_pagan
+	trait = compassionate
+	trait = forgiving
+	trait = just
+	trait = education_stewardship_3
+	father = 9104189
+	5180.1.1 = { birth = yes }
+	5300.1.1 = { death = yes }
+}
+
+9108080 = {	# Witta: 
+	name = "ckn_Witta"
+	dynasty = 920213
+	culture = anglo_saxon
+	rite = norse_pagan
+	trait = just
+	trait = brave
+	trait = diligent
+	trait = education_diplomacy_3
+	father = 9108075
+	5340.1.1 = { birth = yes }
+	5395.1.1 = { death = yes }
+}
+
+9108081 = {	# Wihtgils: 
+	name = "ckn_Wihtgils"
+	dynasty = 920213
+	culture = anglo_saxon
+	rite = norse_pagan
+	trait = ambitious
+	trait = wrathful
+	trait = brave
+	trait = education_learning_2
+	father = 9108080
+	5375.1.1 = { birth = yes }
+	5431.1.1 = { death = yes }
+}
+
+9108082 = {	# Hengest: leads the Jutes to Britain (449); first king of Kent
+	name = "ckn_Hengest"
+	dynasty = 920213
+	culture = anglo_saxon
+	rite = norse_pagan
+	trait = patient
+	trait = calm
+	trait = honest
+	trait = education_martial_2
+	father = 9108081
+	5420.1.1 = { birth = yes }
+	5488.1.1 = { death = yes }
+	5438.1.3 = { effect = { set_relation_friend = { target = character:9108087 } } }	# 2026-11-15 12:30 (modder 11:35): Hengest and Horsa
+}
+
+9108083 = {	# Oisc: the Oiscingas are named for him
+	name = "ckn_Oisc"
+	dynasty = 920213
+	culture = anglo_saxon
+	rite = norse_pagan
+	trait = generous
+	trait = zealous
+	trait = just
+	trait = education_intrigue_2
+	father = 9108082
+	5450.1.1 = { birth = yes }
+	5512.1.1 = { death = yes }
+}
+
+9108084 = {	# Octa: 
+	name = "ckn_Octa"
+	dynasty_house = house_oiscingas
+	culture = anglo_saxon
+	rite = norse_pagan
+	trait = arrogant
+	trait = gregarious
+	trait = brave
+	trait = education_martial_3
+	father = 9108083
+	5480.1.1 = { birth = yes }
+	5540.1.1 = { death = yes }
+}
+
+9108085 = {	# Eormenric: 
+	name = "ckn_Eormenric"
+	dynasty_house = house_oiscingas
+	culture = anglo_saxon
+	rite = norse_pagan
+	trait = content
+	trait = temperate
+	trait = humble
+	trait = education_stewardship_3
+	father = 9108084
+	5510.1.1 = { birth = yes }
+	5562.1.1 = { death = yes }
+}
+
+9108086 = {	# Aethelberht: first Christian English king (597); died 616
+	name = "ckn_Aethelberht"
+	dynasty_house = house_oiscingas
+	culture = anglo_saxon
+	rite = roman_rite
+	trait = stubborn
+	trait = vengeful
+	trait = brave
+	trait = education_diplomacy_3
+	father = 9108085
+	5555.1.1 = { birth = yes }
+	5616.1.1 = { death = yes }
+}
+
+9108087 = {	# Horsa: Hengest's brother, killed at Aylesford
+	name = "ckn_Horsa"
+	dynasty = 920213
+	culture = anglo_saxon
+	rite = norse_pagan
+	trait = lustful
+	trait = gluttonous
+	trait = gregarious
+	trait = education_learning_2
+	father = 9108081
+	5422.1.1 = { birth = yes }
+	5455.1.1 = { death = yes }
+}
+
+9108088 = {	# Ricula: Eormenric's daughter, Sledd of Essex's queen
+	name = "ckn_Ricula"
+	female = yes
+	dynasty_house = house_oiscingas
+	culture = anglo_saxon
+	rite = roman_rite
+	trait = deceitful
+	trait = ambitious
+	trait = paranoid
+	trait = education_martial_2
+	father = 9108085
+	5545.1.1 = { birth = yes }
+	5563.6.1 = { add_spouse = 9108158 }
+	5620.1.1 = { death = yes }
+}
+
+9108089 = {	# Sigegar: 
+	name = "ckn_Sigegar"
+	dynasty = 920213
+	culture = anglo_saxon
+	rite = norse_pagan
+	trait = compassionate
+	trait = forgiving
+	trait = just
+	trait = education_intrigue_2
+	father = 9108076
+	5150.1.1 = { birth = yes }
+	5205.1.1 = { death = yes }
+}
+
+9108090 = {	# Swebdaeg: 
+	name = "ckn_Swebdaeg"
+	dynasty = 920213
+	culture = anglo_saxon
+	rite = norse_pagan
+	trait = just
+	trait = brave
+	trait = diligent
+	trait = education_martial_3
+	father = 9108089
+	5182.1.1 = { birth = yes }
+	5238.1.1 = { death = yes }
+}
+
+9108091 = {	# Siggeat: 
+	name = "ckn_Siggeat"
+	dynasty = 920213
+	culture = anglo_saxon
+	rite = norse_pagan
+	trait = ambitious
+	trait = wrathful
+	trait = brave
+	trait = education_stewardship_3
+	father = 9108090
+	5214.1.1 = { birth = yes }
+	5271.1.1 = { death = yes }
+}
+
+9108092 = {	# Saebald: 
+	name = "ckn_Saebald"
+	dynasty = 920213
+	culture = anglo_saxon
+	rite = norse_pagan
+	trait = patient
+	trait = calm
+	trait = honest
+	trait = education_diplomacy_3
+	father = 9108091
+	5246.1.1 = { birth = yes }
+	5304.1.1 = { death = yes }
+}
+
+9108093 = {	# Saefugel: 
+	name = "ckn_Saefugel"
+	dynasty = 920213
+	culture = anglo_saxon
+	rite = norse_pagan
+	trait = generous
+	trait = zealous
+	trait = just
+	trait = education_learning_2
+	father = 9108092
+	5279.1.1 = { birth = yes }
+	5338.1.1 = { death = yes }
+}
+
+9108094 = {	# Soemel: separates Deira from Bernicia
+	name = "ckn_Soemel"
+	dynasty = 920213
+	culture = anglo_saxon
+	rite = norse_pagan
+	trait = arrogant
+	trait = gregarious
+	trait = brave
+	trait = education_martial_2
+	father = 9108093
+	5311.1.1 = { birth = yes }
+	5371.1.1 = { death = yes }
+}
+
+9108095 = {	# Westerfalca: 
+	name = "ckn_Westerfalca"
+	dynasty = 920213
+	culture = anglo_saxon
+	rite = norse_pagan
+	trait = content
+	trait = temperate
+	trait = humble
+	trait = education_intrigue_2
+	father = 9108094
+	5343.1.1 = { birth = yes }
+	5404.1.1 = { death = yes }
+}
+
+9108096 = {	# Wilgils: 
+	name = "ckn_Wilgils"
+	dynasty = 920213
+	culture = anglo_saxon
+	rite = norse_pagan
+	trait = stubborn
+	trait = vengeful
+	trait = brave
+	trait = education_martial_3
+	father = 9108095
+	5375.1.1 = { birth = yes }
+	5437.1.1 = { death = yes }
+}
+
+9108097 = {	# Uxfrea: 
+	name = "ckn_Uxfrea"
+	dynasty = 920213
+	culture = anglo_saxon
+	rite = norse_pagan
+	trait = lustful
+	trait = gluttonous
+	trait = gregarious
+	trait = education_stewardship_3
+	father = 9108096
+	5408.1.1 = { birth = yes }
+	5471.1.1 = { death = yes }
+}
+
+9108098 = {	# Yffe: 
+	name = "ckn_Yffe"
+	dynasty = 920213
+	culture = anglo_saxon
+	rite = norse_pagan
+	trait = deceitful
+	trait = ambitious
+	trait = paranoid
+	trait = education_diplomacy_3
+	father = 9108097
+	5440.1.1 = { birth = yes }
+	5520.1.1 = { death = yes }
+}
+
+9108099 = {	# Aelle: first historical king of Deira, died 588
+	name = "ckn_Aelle"
+	dynasty_house = house_yffings
+	culture = anglo_saxon
+	rite = norse_pagan
+	trait = compassionate
+	trait = forgiving
+	trait = just
+	trait = education_learning_2
+	father = 9108098
+	5505.1.1 = { birth = yes }
+	5588.1.1 = { death = yes }
+}
+
+9108100 = {	# Edwin: king of Northumbria, baptized 627, killed at Hatfield Chase 633
+	name = "ckn_Edwin"
+	dynasty_house = house_yffings
+	culture = anglo_saxon
+	rite = roman_rite
+	trait = just
+	trait = brave
+	trait = diligent
+	trait = education_martial_2
+	father = 9108099
+	5586.1.1 = { birth = yes }
+	5633.1.1 = { death = yes }
+}
+
+9108101 = {	# Brand: Brand / Brond
+	name = "ckn_Brand"
+	dynasty = 920213
+	culture = anglo_saxon
+	rite = norse_pagan
+	trait = ambitious
+	trait = wrathful
+	trait = brave
+	trait = education_intrigue_2
+	father = 9108077
+	5160.1.1 = { birth = yes }
+	5235.1.1 = { death = yes }
+}
+
+9108102 = {	# Benoc: 
+	name = "ckn_Benoc"
+	dynasty = 920213
+	culture = anglo_saxon
+	rite = norse_pagan
+	trait = patient
+	trait = calm
+	trait = honest
+	trait = education_martial_3
+	father = 9108101
+	5200.1.1 = { birth = yes }
+	5255.1.1 = { death = yes }
+}
+
+9108103 = {	# Aloc: 
+	name = "ckn_Aloc"
+	dynasty = 920213
+	culture = anglo_saxon
+	rite = norse_pagan
+	trait = generous
+	trait = zealous
+	trait = just
+	trait = education_stewardship_3
+	father = 9108102
+	5250.1.1 = { birth = yes }
+	5306.1.1 = { death = yes }
+}
+
+9108104 = {	# Angenwit: 
+	name = "ckn_Angenwit"
+	dynasty = 920213
+	culture = anglo_saxon
+	rite = norse_pagan
+	trait = arrogant
+	trait = gregarious
+	trait = brave
+	trait = education_diplomacy_3
+	father = 9108103
+	5300.1.1 = { birth = yes }
+	5357.1.1 = { death = yes }
+}
+
+9108105 = {	# Ingui: 
+	name = "ckn_Ingui"
+	dynasty = 920213
+	culture = anglo_saxon
+	rite = norse_pagan
+	trait = content
+	trait = temperate
+	trait = humble
+	trait = education_learning_2
+	father = 9108104
+	5350.1.1 = { birth = yes }
+	5408.1.1 = { death = yes }
+}
+
+9108106 = {	# Esa: 
+	name = "ckn_Esa"
+	dynasty = 920213
+	culture = anglo_saxon
+	rite = norse_pagan
+	trait = stubborn
+	trait = vengeful
+	trait = brave
+	trait = education_martial_2
+	father = 9108105
+	5400.1.1 = { birth = yes }
+	5459.1.1 = { death = yes }
+}
+
+9108107 = {	# Eoppa: 
+	name = "ckn_Eoppa"
+	dynasty = 920213
+	culture = anglo_saxon
+	rite = norse_pagan
+	trait = lustful
+	trait = gluttonous
+	trait = gregarious
+	trait = education_intrigue_2
+	father = 9108106
+	5450.1.1 = { birth = yes }
+	5510.1.1 = { death = yes }
+}
+
+9108108 = {	# Ida: founder of Bernicia (547), died 559
+	name = "ckn_Ida"
+	dynasty = 920213
+	culture = anglo_saxon
+	rite = norse_pagan
+	trait = deceitful
+	trait = ambitious
+	trait = paranoid
+	trait = education_martial_3
+	father = 9108107
+	5500.1.1 = { birth = yes }
+	5559.1.1 = { death = yes }
+}
+
+9108109 = {	# Fridgar: 
+	name = "ckn_Fridgar"
+	dynasty = 920213
+	culture = anglo_saxon
+	rite = norse_pagan
+	trait = compassionate
+	trait = forgiving
+	trait = just
+	trait = education_stewardship_3
+	father = 9108101
+	5200.1.1 = { birth = yes }
+	5255.1.1 = { death = yes }
+}
+
+9108110 = {	# Freawine: 
+	name = "ckn_Freawine"
+	dynasty = 920213
+	culture = anglo_saxon
+	rite = norse_pagan
+	trait = just
+	trait = brave
+	trait = diligent
+	trait = education_diplomacy_3
+	father = 9108109
+	5245.1.1 = { birth = yes }
+	5301.1.1 = { death = yes }
+}
+
+9108111 = {	# Wig: 
+	name = "ckn_Wig"
+	dynasty = 920213
+	culture = anglo_saxon
+	rite = norse_pagan
+	trait = ambitious
+	trait = wrathful
+	trait = brave
+	trait = education_learning_2
+	father = 9108110
+	5290.1.1 = { birth = yes }
+	5347.1.1 = { death = yes }
+}
+
+9108112 = {	# Giwis: the Gewisse are named for him
+	name = "ckn_Giwis"
+	dynasty = 920213
+	culture = anglo_saxon
+	rite = norse_pagan
+	trait = patient
+	trait = calm
+	trait = honest
+	trait = education_martial_2
+	father = 9108111
+	5335.1.1 = { birth = yes }
+	5393.1.1 = { death = yes }
+}
+
+9108113 = {	# Esla: 
+	name = "ckn_Esla"
+	dynasty = 920213
+	culture = anglo_saxon
+	rite = norse_pagan
+	trait = generous
+	trait = zealous
+	trait = just
+	trait = education_intrigue_2
+	father = 9108112
+	5380.1.1 = { birth = yes }
+	5439.1.1 = { death = yes }
+}
+
+9108114 = {	# Elesa: 
+	name = "ckn_Elesa"
+	dynasty = 920213
+	culture = anglo_saxon
+	rite = norse_pagan
+	trait = arrogant
+	trait = gregarious
+	trait = brave
+	trait = education_martial_3
+	father = 9108113
+	5420.1.1 = { birth = yes }
+	5480.1.1 = { death = yes }
+}
+
+9108115 = {	# Cerdic: lands in 495, founds Wessex, died 534
+	name = "ckn_Cerdic"
+	dynasty = 920213
+	culture = anglo_saxon
+	rite = norse_pagan
+	trait = content
+	trait = temperate
+	trait = humble
+	trait = education_stewardship_3
+	father = 9108114
+	5465.1.1 = { birth = yes }
+	5534.1.1 = { death = yes }
+}
+
+9108116 = {	# Creoda: 
+	name = "ckn_Creoda"
+	dynasty_house = house_cerdicingas
+	culture = anglo_saxon
+	rite = norse_pagan
+	trait = stubborn
+	trait = vengeful
+	trait = brave
+	trait = education_diplomacy_3
+	father = 9108115
+	5490.1.1 = { birth = yes }
+	5545.1.1 = { death = yes }
+}
+
+9108117 = {	# Cynric: died 560
+	name = "ckn_Cynric"
+	dynasty_house = house_cerdicingas
+	culture = anglo_saxon
+	rite = norse_pagan
+	trait = lustful
+	trait = gluttonous
+	trait = gregarious
+	trait = education_learning_2
+	father = 9108116
+	5510.1.1 = { birth = yes }
+	5560.1.1 = { death = yes }
+}
+
+9108118 = {	# Ceawlin: bretwalda, died 593
+	name = "ckn_Ceawlin"
+	dynasty_house = house_cerdicingas
+	culture = anglo_saxon
+	rite = norse_pagan
+	trait = deceitful
+	trait = ambitious
+	trait = paranoid
+	trait = education_martial_2
+	father = 9108117
+	5535.1.1 = { birth = yes }
+	5593.1.1 = { death = yes }
+}
+
+9108119 = {	# Cuthwine: 
+	name = "ckn_Cuthwine"
+	dynasty_house = house_cerdicingas
+	culture = anglo_saxon
+	rite = norse_pagan
+	trait = compassionate
+	trait = forgiving
+	trait = just
+	trait = education_intrigue_2
+	father = 9108118
+	5560.1.1 = { birth = yes }
+	5620.1.1 = { death = yes }
+}
+
+9108120 = {	# Cutha: 
+	name = "ckn_Cutha"
+	dynasty_house = house_cerdicingas
+	culture = anglo_saxon
+	rite = norse_pagan
+	trait = just
+	trait = brave
+	trait = diligent
+	trait = education_martial_3
+	father = 9108119
+	5585.1.1 = { birth = yes }
+	5645.1.1 = { death = yes }
+}
+
+9108121 = {	# Ceolwald: 
+	name = "ckn_Ceolwald"
+	dynasty_house = house_cerdicingas
+	culture = anglo_saxon
+	rite = roman_rite
+	trait = ambitious
+	trait = wrathful
+	trait = brave
+	trait = education_stewardship_3
+	father = 9108120
+	5610.1.1 = { birth = yes }
+	5670.1.1 = { death = yes }
+}
+
+9108122 = {	# Cenred: 
+	name = "ckn_Cenred"
+	dynasty_house = house_cerdicingas
+	culture = anglo_saxon
+	rite = roman_rite
+	trait = patient
+	trait = calm
+	trait = honest
+	trait = education_diplomacy_3
+	father = 9108121
+	5640.1.1 = { birth = yes }
+	5700.1.1 = { death = yes }
+}
+
+9108123 = {	# Ingild: Ine's brother, died 718
+	name = "ckn_Ingild"
+	dynasty_house = house_cerdicingas
+	culture = anglo_saxon
+	rite = roman_rite
+	trait = generous
+	trait = zealous
+	trait = just
+	trait = education_learning_2
+	father = 9108122
+	5665.1.1 = { birth = yes }
+	5718.1.1 = { death = yes }
+}
+
+9108124 = {	# Eoppa: 
+	name = "ckn_Eoppa"
+	dynasty_house = house_cerdicingas
+	culture = anglo_saxon
+	rite = roman_rite
+	trait = arrogant
+	trait = gregarious
+	trait = brave
+	trait = education_martial_2
+	father = 9108123
+	5690.1.1 = { birth = yes }
+	5750.1.1 = { death = yes }
+}
+
+9108125 = {	# Eafa: 
+	name = "ckn_Eafa"
+	dynasty_house = house_cerdicingas
+	culture = anglo_saxon
+	rite = roman_rite
+	trait = content
+	trait = temperate
+	trait = humble
+	trait = education_intrigue_2
+	father = 9108124
+	5715.1.1 = { birth = yes }
+	5775.1.1 = { death = yes }
+}
+
+9108126 = {	# Ealhmund: 
+	name = "ckn_Ealhmund"
+	dynasty_house = house_cerdicingas
+	culture = anglo_saxon
+	rite = roman_rite
+	trait = stubborn
+	trait = vengeful
+	trait = brave
+	trait = education_martial_3
+	father = 9108125
+	5745.1.1 = { birth = yes }
+	5786.1.1 = { death = yes }
+}
+
+9108127 = {	# Ecgberht: king of Wessex 802-839
+	name = "ckn_Ecgberht"
+	dynasty_house = house_cerdicingas
+	culture = anglo_saxon
+	rite = roman_rite
+	trait = lustful
+	trait = gluttonous
+	trait = gregarious
+	trait = education_stewardship_3
+	father = 9108126
+	5771.1.1 = { birth = yes }
+	5839.1.1 = { death = yes }
+}
+
+9108128 = {	# Aethelwulf: king of Wessex 839-858
+	name = "ckn_Aethelwulf"
+	dynasty_house = house_cerdicingas
+	culture = anglo_saxon
+	rite = roman_rite
+	trait = deceitful
+	trait = ambitious
+	trait = paranoid
+	trait = education_diplomacy_3
+	father = 9108127
+	5795.1.1 = { birth = yes }
+	5858.1.1 = { death = yes }
+}
+
+9108129 = {	# Alfred: the Great, king of the Anglo-Saxons 871-899
+	name = "ckn_Alfred"
+	dynasty_house = house_cerdicingas
+	culture = anglo_saxon
+	rite = roman_rite
+	trait = just
+	trait = diligent
+	trait = patient
+	trait = education_learning_4
+	trait = scholar
+	trait = august
+	father = 9108128
+	5849.1.1 = { birth = yes }
+	5899.10.26 = { death = yes }
+}
+
+9108130 = {	# Ine: king of Wessex 688-726, lawgiver; Ingild's brother
+	name = "ckn_Ine"
+	dynasty_house = house_cerdicingas
+	culture = anglo_saxon
+	rite = roman_rite
+	trait = just
+	trait = diligent
+	trait = zealous
+	trait = education_stewardship_4
+	father = 9108122
+	5668.1.1 = { birth = yes }
+	5728.1.1 = { death = yes }
+}
+
+9108131 = {	# Waermund: 
+	name = "ckn_Waermund"
+	dynasty = 920213
+	culture = anglo_saxon
+	rite = norse_pagan
+	trait = ambitious
+	trait = wrathful
+	trait = brave
+	trait = education_intrigue_2
+	father = 9108078
+	5250.1.1 = { birth = yes }
+	5340.1.1 = { death = yes }
+}
+
+9108132 = {	# Offa: Offa of Angel (Widsith, Beowulf)
+	name = "ckn_Offa"
+	dynasty = 920213
+	culture = anglo_saxon
+	rite = norse_pagan
+	trait = patient
+	trait = calm
+	trait = honest
+	trait = education_martial_3
+	father = 9108131
+	5330.1.1 = { birth = yes }
+	5386.1.1 = { death = yes }
+}
+
+9108133 = {	# Angeltheow: 
+	name = "ckn_Angeltheow"
+	dynasty = 920213
+	culture = anglo_saxon
+	rite = norse_pagan
+	trait = generous
+	trait = zealous
+	trait = just
+	trait = education_stewardship_3
+	father = 9108132
+	5360.1.1 = { birth = yes }
+	5417.1.1 = { death = yes }
+}
+
+9108134 = {	# Eomaer: 
+	name = "ckn_Eomaer"
+	dynasty = 920213
+	culture = anglo_saxon
+	rite = norse_pagan
+	trait = arrogant
+	trait = gregarious
+	trait = brave
+	trait = education_diplomacy_3
+	father = 9108133
+	5390.1.1 = { birth = yes }
+	5448.1.1 = { death = yes }
+}
+
+9108135 = {	# Icel: leads the Angles to Britain; the Iclingas are named for him
+	name = "ckn_Icel"
+	dynasty = 920213
+	culture = anglo_saxon
+	rite = norse_pagan
+	trait = content
+	trait = temperate
+	trait = humble
+	trait = education_learning_2
+	father = 9108134
+	5420.1.1 = { birth = yes }
+	5479.1.1 = { death = yes }
+}
+
+9108136 = {	# Cnebba: 
+	name = "ckn_Cnebba"
+	dynasty_house = house_iclingas
+	culture = anglo_saxon
+	rite = norse_pagan
+	trait = stubborn
+	trait = vengeful
+	trait = brave
+	trait = education_martial_2
+	father = 9108135
+	5450.1.1 = { birth = yes }
+	5510.1.1 = { death = yes }
+}
+
+9108137 = {	# Cynwald: 
+	name = "ckn_Cynwald"
+	dynasty_house = house_iclingas
+	culture = anglo_saxon
+	rite = norse_pagan
+	trait = lustful
+	trait = gluttonous
+	trait = gregarious
+	trait = education_intrigue_2
+	father = 9108136
+	5480.1.1 = { birth = yes }
+	5541.1.1 = { death = yes }
+}
+
+9108138 = {	# Creoda: 
+	name = "ckn_Creoda"
+	dynasty_house = house_iclingas
+	culture = anglo_saxon
+	rite = norse_pagan
+	trait = deceitful
+	trait = ambitious
+	trait = paranoid
+	trait = education_martial_3
+	father = 9108137
+	5510.1.1 = { birth = yes }
+	5572.1.1 = { death = yes }
+}
+
+9108139 = {	# Pybba: 
+	name = "ckn_Pybba"
+	dynasty_house = house_iclingas
+	culture = anglo_saxon
+	rite = norse_pagan
+	trait = compassionate
+	trait = forgiving
+	trait = just
+	trait = education_stewardship_3
+	father = 9108138
+	5560.1.1 = { birth = yes }
+	5623.1.1 = { death = yes }
+}
+
+9108140 = {	# Penda: the last great pagan English king, killed at the Winwaed 655
+	name = "ckn_Penda"
+	dynasty_house = house_iclingas
+	culture = anglo_saxon
+	rite = norse_pagan
+	trait = just
+	trait = brave
+	trait = diligent
+	trait = education_diplomacy_3
+	father = 9108139
+	5605.1.1 = { birth = yes }
+	5655.11.15 = { death = yes }
+	5621.1.3 = { effect = { set_relation_rival = { target = character:9108100 } } }	# 2026-11-15 12:30 (modder 11:35): Penda kills Edwin at Hatfield Chase
+}
+
+9108141 = {	# Tyttman: 
+	name = "ckn_Tyttman"
+	dynasty = 920213
+	culture = anglo_saxon
+	rite = norse_pagan
+	trait = ambitious
+	trait = wrathful
+	trait = brave
+	trait = education_learning_2
+	father = 9108079
+	5230.1.1 = { birth = yes }
+	5300.1.1 = { death = yes }
+}
+
+9108142 = {	# Trygil: 
+	name = "ckn_Trygil"
+	dynasty = 920213
+	culture = anglo_saxon
+	rite = norse_pagan
+	trait = patient
+	trait = calm
+	trait = honest
+	trait = education_martial_2
+	father = 9108141
+	5265.1.1 = { birth = yes }
+	5335.1.1 = { death = yes }
+}
+
+9108143 = {	# Hrothmund: 
+	name = "ckn_Hrothmund"
+	dynasty = 920213
+	culture = anglo_saxon
+	rite = norse_pagan
+	trait = generous
+	trait = zealous
+	trait = just
+	trait = education_intrigue_2
+	father = 9108142
+	5300.1.1 = { birth = yes }
+	5380.1.1 = { death = yes }
+}
+
+9108144 = {	# Hryth: 
+	name = "ckn_Hryth"
+	dynasty = 920213
+	culture = anglo_saxon
+	rite = norse_pagan
+	trait = arrogant
+	trait = gregarious
+	trait = brave
+	trait = education_martial_3
+	father = 9108143
+	5340.1.1 = { birth = yes }
+	5430.1.1 = { death = yes }
+}
+
+9108145 = {	# Wilhelm: 
+	name = "ckn_Wilhelm"
+	dynasty = 920213
+	culture = anglo_saxon
+	rite = norse_pagan
+	trait = content
+	trait = temperate
+	trait = humble
+	trait = education_stewardship_3
+	father = 9108144
+	5380.1.1 = { birth = yes }
+	5470.1.1 = { death = yes }
+}
+
+9108146 = {	# Wehha: 
+	name = "ckn_Wehha"
+	dynasty = 920213
+	culture = anglo_saxon
+	rite = norse_pagan
+	trait = stubborn
+	trait = vengeful
+	trait = brave
+	trait = education_diplomacy_3
+	father = 9108145
+	5440.1.1 = { birth = yes }
+	5510.1.1 = { death = yes }
+}
+
+9108147 = {	# Wuffa: the Wuffingas are named for him
+	name = "ckn_Wuffa"
+	dynasty = 920213
+	culture = anglo_saxon
+	rite = norse_pagan
+	trait = lustful
+	trait = gluttonous
+	trait = gregarious
+	trait = education_learning_2
+	father = 9108146
+	5500.1.1 = { birth = yes }
+	5578.1.1 = { death = yes }
+}
+
+9108148 = {	# Tytila: 
+	name = "ckn_Tytila"
+	dynasty_house = house_wuffingas
+	culture = anglo_saxon
+	rite = norse_pagan
+	trait = deceitful
+	trait = ambitious
+	trait = paranoid
+	trait = education_martial_2
+	father = 9108147
+	5530.1.1 = { birth = yes }
+	5599.1.1 = { death = yes }
+}
+
+9108149 = {	# Raedwald: bretwalda, kept pagan and Christian altars; Sutton Hoo, died ~624
+	name = "ckn_Raedwald"
+	dynasty_house = house_wuffingas
+	culture = anglo_saxon
+	rite = norse_pagan
+	trait = compassionate
+	trait = forgiving
+	trait = just
+	trait = education_intrigue_2
+	father = 9108148
+	5560.1.1 = { birth = yes }
+	5624.1.1 = { death = yes }
+}
+
+9108150 = {	# Seaxneat: Saxnot, the Saxons' god (Old Saxon baptismal vow), often identified with Tiw; ancestor of the kings of Essex. Dies with the Saxon conversion (785)
+	name = "ckn_Seaxneat"
+	dynasty_house = house_phaeter_tiwaz
+	culture = aesir
+	rite = norse_pagan
+	trait = full_cybernetic_conversion
+	trait = clone
+	trait = brave
+	trait = just
+	trait = education_martial_4
+	father = 9104018
+	5320.1.1 = { birth = yes }
+	5785.1.1 = { death = yes }
+}
+
+9108151 = {	# Gesecg: 
+	name = "ckn_Gesecg"
+	dynasty = 920214
+	culture = anglo_saxon
+	rite = norse_pagan
+	trait = ambitious
+	trait = wrathful
+	trait = brave
+	trait = education_stewardship_3
+	father = 9108150
+	5345.1.1 = { birth = yes }
+	5400.1.1 = { death = yes }
+}
+
+9108152 = {	# Antsecg: 
+	name = "ckn_Antsecg"
+	dynasty = 920214
+	culture = anglo_saxon
+	rite = norse_pagan
+	trait = patient
+	trait = calm
+	trait = honest
+	trait = education_diplomacy_3
+	father = 9108151
+	5370.1.1 = { birth = yes }
+	5426.1.1 = { death = yes }
+}
+
+9108153 = {	# Sweppa: 
+	name = "ckn_Sweppa"
+	dynasty = 920214
+	culture = anglo_saxon
+	rite = norse_pagan
+	trait = generous
+	trait = zealous
+	trait = just
+	trait = education_learning_2
+	father = 9108152
+	5395.1.1 = { birth = yes }
+	5452.1.1 = { death = yes }
+}
+
+9108154 = {	# Sigefugel: 
+	name = "ckn_Sigefugel"
+	dynasty = 920214
+	culture = anglo_saxon
+	rite = norse_pagan
+	trait = arrogant
+	trait = gregarious
+	trait = brave
+	trait = education_martial_2
+	father = 9108153
+	5420.1.1 = { birth = yes }
+	5478.1.1 = { death = yes }
+}
+
+9108155 = {	# Bedca: 
+	name = "ckn_Bedca"
+	dynasty = 920214
+	culture = anglo_saxon
+	rite = norse_pagan
+	trait = content
+	trait = temperate
+	trait = humble
+	trait = education_intrigue_2
+	father = 9108154
+	5445.1.1 = { birth = yes }
+	5504.1.1 = { death = yes }
+}
+
+9108156 = {	# Offa: 
+	name = "ckn_Offa"
+	dynasty = 920214
+	culture = anglo_saxon
+	rite = norse_pagan
+	trait = stubborn
+	trait = vengeful
+	trait = brave
+	trait = education_martial_3
+	father = 9108155
+	5470.1.1 = { birth = yes }
+	5530.1.1 = { death = yes }
+}
+
+9108157 = {	# Aescwine: Aescwine / Erkenwine, first king of Essex 527-587
+	name = "ckn_Aescwine"
+	dynasty = 920214
+	culture = anglo_saxon
+	rite = norse_pagan
+	trait = lustful
+	trait = gluttonous
+	trait = gregarious
+	trait = education_stewardship_3
+	father = 9108156
+	5495.1.1 = { birth = yes }
+	5587.1.1 = { death = yes }
+}
+
+9108158 = {	# Sledd: king of Essex 587-c.603, marries Ricula of Kent
+	name = "ckn_Sledd"
+	dynasty = 920214
+	culture = anglo_saxon
+	rite = norse_pagan
+	trait = deceitful
+	trait = ambitious
+	trait = paranoid
+	trait = education_diplomacy_3
+	father = 9108157
+	5530.1.1 = { birth = yes }
+	5603.1.1 = { death = yes }
+}
+
+9108159 = {	# Saeberht: first Christian king of Essex, died 616
+	name = "ckn_Saeberht"
+	dynasty = 920214
+	culture = anglo_saxon
+	rite = roman_rite
+	trait = compassionate
+	trait = forgiving
+	trait = just
+	trait = education_learning_2
+	father = 9108158
+	mother = 9108088
+	5565.1.1 = { birth = yes }
+	5616.1.1 = { death = yes }
+}

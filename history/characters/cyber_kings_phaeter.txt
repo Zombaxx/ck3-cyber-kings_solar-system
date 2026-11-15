@@ -5,7 +5,7 @@
 9104000 = {	# DYEUS: Dyēus (Phaetēr)
 	name = "ckn_Dyeus"
 	dynasty = 920001
-	culture = phaeteran	# 2026-11-13 21:45 pantheon culture
+	culture = sol_deiwic	# 2026-11-13 23:20 (modder 22:09): a Sol-Deiwic hybrid - born a Sol, adapting to his descendants' Deiwic ways after ages in captivity
 	rite = phaeter_rite
 	trait = full_cybernetic_conversion
 	trait = intellect_good_3
@@ -22,6 +22,9 @@
 	7049.4.1 = { effect = { add_character_flag = dyeus_escaped_on_aurorian_ship } }	# escapes; a passing Aurorian (Spacer) ship carries him to Triton
 	7050.9.15 = { effect = { set_immortal_age = 55 add_character_flag = do_not_generate_starting_family } }
 	7050.9.15 = { effect = { add_pressed_claim = title:h_ck_celestial } }	# 2026-11-13 21:00 Phaeter round: claims on titles held in ancient times
+	18.1.3 = { effect = { set_relation_rival = { target = character:9103002 } } }	# 2026-11-15 12:30 (modder 11:35): Dyeus has Aeon and his line murdered
+	280.1.3 = { effect = { set_relation_rival = { target = character:777777 } } }	# 2026-11-15 12:30 (modder 11:35): El defeats and imprisons Dyeus
+	7050.9.15 = { effect = { add_pressed_claim = title:e_empire2014 add_pressed_claim = title:h_outer_moons } }	# 2026-11-15 12:30: his old realm on Titan
 }
 
 9104001 = {	# DHGOM: Dʰéǵʰōm (Proto-Indo-European)
@@ -257,6 +260,25 @@
 	father = 9104000
 	3101.1.1 = { birth = yes }
 	5391.2.24 = { death = yes }	# Theodosian decree, 391 CE: the Greek pantheon dies with Cronus and Zeus
+	3514.1.2 = { add_spouse = 9104066 }	# 2026-11-14 03:10 (modder 01:01): married, so CK3 draws one family: Zeus and Hera
+	3117.1.3 = { effect = { set_relation_rival = { target = character:777773 } } }	# 2026-11-15 12:30 (modder 11:35): the Titanomachy
+	3117.1.3 = { effect = { set_relation_lover = { target = character:9104072 } } }	# 2026-11-15 12:30 (modder 11:35): Leto
+	3117.1.3 = { effect = { set_relation_lover = { target = character:9104073 } } }	# 2026-11-15 12:30 (modder 11:35): Maia
+	3316.1.3 = { effect = { set_relation_lover = { target = character:9104074 } } }	# 2026-11-15 12:30 (modder 11:35): Semele
+	3317.1.3 = { effect = { set_relation_lover = { target = character:9104075 } } }	# 2026-11-15 12:30 (modder 11:35): Alcmene
+	3540.1.3 = { effect = { set_relation_lover = { target = character:9104079 } } }	# 2026-11-15 12:30 (modder 11:35): Leda
+	3574.1.3 = { effect = { set_relation_lover = { target = character:9104080 } } }	# 2026-11-15 12:30 (modder 11:35): Danae
+	3564.1.3 = { effect = { set_relation_lover = { target = character:9104083 } } }	# 2026-11-15 12:30 (modder 11:35): Io
+	3536.1.3 = { effect = { set_relation_lover = { target = character:9104256 } } }	# 2026-11-15 12:30 (modder 11:35): Europa
+	3563.1.3 = { effect = { set_relation_lover = { target = character:9104067 } } }	# 2026-11-15 12:30 (modder 11:35): Demeter
+	3117.1.3 = { effect = { set_relation_lover = { target = character:9104071 } } }	# 2026-11-15 12:30 (modder 11:35): Metis
+	3117.1.3 = { effect = { set_relation_lover = { target = character:9104076 } } }	# 2026-11-15 12:30 (modder 11:35): Themis
+	3117.1.3 = { effect = { set_relation_lover = { target = character:9104077 } } }	# 2026-11-15 12:30 (modder 11:35): Mnemosyne
+	3117.1.3 = { effect = { set_relation_lover = { target = character:9104078 } } }	# 2026-11-15 12:30 (modder 11:35): Eurynome
+	3564.1.3 = { effect = { set_relation_lover = { target = character:9104081 } } }	# 2026-11-15 12:30 (modder 11:35): Electra
+	3540.1.3 = { effect = { set_relation_lover = { target = character:9104082 } } }	# 2026-11-15 12:30 (modder 11:35): Aegina
+	3571.1.3 = { effect = { set_relation_lover = { target = character:9104142 } } }	# 2026-11-15 12:30 (modder 11:35): Selene
+	3117.1.3 = { effect = { set_relation_rival = { target = character:777126 } } }	# 2026-11-15 12:30 (modder 11:35): Phosphorus fought for Cronus in the Titanomachy
 }
 
 9104014 = {	# R_JUP: Jupiter (Roman)
@@ -278,11 +300,12 @@
 	father = 9104000
 	3901.1.1 = { birth = yes }
 	5391.2.24 = { death = yes }	# Theodosian decree, 391 CE
+	4326.1.2 = { add_spouse = 9104146 }	# 2026-11-14 03:10 (modder 01:01): married, so CK3 draws one family: Jupiter and Juno
 }
 
 9104015 = {	# V_DYAUS: Dyaus Pita (Vedic)
 	name = "ckn_DyausPita"
-	dynasty_house = house_phaeter_dyaus
+	dynasty = 920001	# 2026-11-15 11:10 (modder 10:51): main Phaeter line - no house of his own name
 	culture = devan	# 2026-11-13 21:45 pantheon culture
 	rite = smartism
 	trait = full_cybernetic_conversion
@@ -297,13 +320,14 @@
 	stewardship = 12
 	learning = 12
 	father = 9104000
-	3151.1.1 = { birth = yes }
+	1800.1.1 = { birth = yes }	# 2026-11-14 02:45 (modder 00:38): was 3151 - the Hindu Dyeus is the head of the Vedic house and Vishnu's father, so he predates the avatars (Matsya 1930)
+	1840.1.1 = { add_spouse = 9104177 }	# 2026-11-14 02:45 (modder 00:38): Aditi, mother of the Adityas
 	5500.1.1 = { death = yes }	# faded from worship (Puranic era), ~500 CE
 }
 
 9104016 = {	# B_DIEVAS: Dievas (Baltic Lithuanian)
 	name = "ckn_Dievas"
-	dynasty_house = house_phaeter_dievaslithuanian
+	dynasty_house = house_phaeter_deivasprotobaltic	# 2026-11-15 11:10 (modder 10:51): his parent's house
 	culture = dievian	# 2026-11-13 21:45 pantheon culture
 	rite = baltic_pagan
 	trait = full_cybernetic_conversion
@@ -324,7 +348,7 @@
 
 9104017 = {	# L_DIEVS: Dievs (Baltic Latvian)
 	name = "ckn_Dievs"
-	dynasty_house = house_phaeter_dievslatvian
+	dynasty_house = house_phaeter_deivasprotobaltic	# 2026-11-15 11:10 (modder 10:51): his parent's house
 	culture = dievian	# 2026-11-13 21:45 pantheon culture
 	rite = baltic_pagan
 	trait = full_cybernetic_conversion
@@ -345,7 +369,7 @@
 
 9104018 = {	# GER_TIWAZ: Tīwaz (Germanic Heathen)
 	name = "ckn_Tiwaz"
-	dynasty_house = house_phaeter_tiwaz
+	dynasty = 920001	# 2026-11-15 11:10 (modder 10:51): main Phaeter line - no house of his own name
 	culture = aesir	# 2026-11-13 21:45 pantheon culture
 	rite = norse_pagan
 	trait = full_cybernetic_conversion
@@ -366,7 +390,7 @@
 
 9104019 = {	# N_TYR: Týr (Norse)
 	name = "ckn_Tyr"
-	dynasty_house = house_phaeter_tyr
+	dynasty_house = house_phaeter_tiwaz	# 2026-11-15 11:10 (modder 10:51): his parent's house
 	culture = aesir	# 2026-11-13 21:45 pantheon culture
 	rite = norse_pagan
 	trait = full_cybernetic_conversion
@@ -384,11 +408,13 @@
 	5301.1.1 = { birth = yes }
 	7050.9.15 = { effect = { set_immortal_age = 55 add_character_flag = do_not_generate_starting_family } }
 	7050.9.15 = { employer = 112215 }	# 2026-11-13 22:30 fled Ganymede when Elyon took back the Hegemony; lives with Reaverism (Norse-derived) duke on Mars; Tyr is the Mars of the north
+	7050.9.15 = { effect = { add_pressed_claim = title:k_kingdom2090 } }	# 2026-11-14 00:50/02:00: Tyr ruled Asgardr (Titan) before Odin
+	5396.1.3 = { effect = { set_relation_rival = { target = character:9108010 } } }	# 2026-11-15 12:30 (modder 11:35): Fenrir bites off Tyr's hand
 }
 
 9104020 = {	# LU_TIWAZ: Tiwaz (Anatolian Luwian)
 	name = "ckn_Tiwaz"
-	dynasty_house = house_phaeter_tiwazluwian
+	dynasty = 920001	# 2026-11-15 11:10 (modder 10:51): main Phaeter line - no house of his own name
 	culture = phaeteran	# 2026-11-13 21:45 pantheon culture
 	rite = archaic_pantheon_rite
 	trait = full_cybernetic_conversion
@@ -407,7 +433,7 @@
 
 9104021 = {	# PA_TIYAZ: Tiyaz (Anatolian Palaic)
 	name = "ckn_Tiyaz"
-	dynasty_house = house_phaeter_tiyaz
+	dynasty = 920001	# 2026-11-15 11:10 (modder 10:51): main Phaeter line - no house of his own name
 	culture = phaeteran	# 2026-11-13 21:45 pantheon culture
 	rite = archaic_pantheon_rite
 	trait = full_cybernetic_conversion
@@ -426,7 +452,7 @@
 
 9104022 = {	# HIT_SIUS: Šiuš (Anatolian Hittite)
 	name = "ckn_Sius"
-	dynasty_house = house_phaeter_sius
+	dynasty = 920001	# 2026-11-15 11:10 (modder 10:51): main Phaeter line - no house of his own name
 	culture = phaeteran	# 2026-11-13 21:45 pantheon culture
 	rite = archaic_pantheon_rite
 	trait = full_cybernetic_conversion
@@ -447,7 +473,7 @@
 
 9104023 = {	# AL_ZOJZ: Zojz (Albanian)
 	name = "ckn_Zojz"
-	dynasty_house = house_phaeter_zojz
+	dynasty = 920001	# 2026-11-15 11:10 (modder 10:51): main Phaeter line - no house of his own name
 	culture = phaeteran	# 2026-11-13 21:45 pantheon culture
 	rite = archaic_pantheon_rite
 	trait = full_cybernetic_conversion
@@ -467,7 +493,7 @@
 
 9104024 = {	# MES_ZIS: Zis (Messapic)
 	name = "ckn_Zis"
-	dynasty_house = house_phaeter_zis
+	dynasty = 920001	# 2026-11-15 11:10 (modder 10:51): main Phaeter line - no house of his own name
 	culture = capitoline	# 2026-11-13 21:45 pantheon culture
 	rite = archaic_pantheon_rite
 	trait = full_cybernetic_conversion
@@ -530,8 +556,8 @@
 9104027 = {	# N_JORD: Jörð (Norse)
 	name = "ckn_Jor"
 	female = yes
-	dynasty = 920016
-	culture = aesir	# 2026-11-13 21:45 pantheon culture
+	dynasty = 920010	# 2026-11-14 03:30 (modder 01:06: one connected Norse tree): clone of a Deywos (PIE) god, joins that dynasty
+	culture = jotnar	# 2026-11-14 01:10 (modder 23:42): a jötunn - was aesir
 	rite = norse_pagan
 	trait = full_cybernetic_conversion
 	trait = clone
@@ -570,7 +596,7 @@
 9104029 = {	# V_USHAS: Ushas (Vedic)
 	name = "ckn_Ushas"
 	female = yes
-	dynasty_house = house_phaeter_ushasvedicdawn
+	dynasty_house = house_phaeter_dyaus	# 2026-11-15 11:10 (modder 10:51): his parent's house
 	culture = devan	# 2026-11-13 21:45 pantheon culture
 	rite = smartism
 	trait = full_cybernetic_conversion
@@ -583,6 +609,7 @@
 	diplomacy = 16
 	learning = 10
 	mother = 9104002
+	father = 9104015	# 2026-11-14 02:45 (modder 00:38): Ushas is "divo duhita", the daughter of Dyaus (Rigveda)
 	3501.1.1 = { birth = yes }
 	5500.1.1 = { death = yes }	# faded from worship, ~500 CE
 }
@@ -590,7 +617,7 @@
 9104030 = {	# G_EOS: Eos (Greek Olympian)
 	name = "ckn_Eos"
 	female = yes
-	dynasty_house = house_phaeter_eosgreekdawn
+	dynasty = 920001	# 2026-11-15 11:10 (modder 10:51): main Phaeter line - no house of his own name
 	culture = olympian	# 2026-11-13 21:45 pantheon culture
 	rite = hellenic_pagan
 	trait = full_cybernetic_conversion
@@ -606,12 +633,13 @@
 	mother = 9104002
 	3451.1.1 = { birth = yes }
 	5391.2.24 = { death = yes }	# Theodosian decree, 391 CE: the Greek pantheon dies with Cronus and Zeus
+	3528.1.3 = { effect = { set_relation_lover = { target = character:9104092 } } }	# 2026-11-15 12:30 (modder 11:35): Eos and Tithonus
 }
 
 9104031 = {	# R_AUR: Aurora (Roman)
 	name = "ckn_Aurora"
 	female = yes
-	dynasty_house = house_phaeter_auroraitalicdawn
+	dynasty = 920001	# 2026-11-15 11:10 (modder 10:51): main Phaeter line - no house of his own name
 	culture = capitoline	# 2026-11-13 21:45 pantheon culture
 	rite = hellenic_pagan
 	trait = full_cybernetic_conversion
@@ -631,7 +659,7 @@
 9104032 = {	# L_AUSTRA: Austra (Baltic Latvian)
 	name = "ckn_Austra"
 	female = yes
-	dynasty_house = house_phaeter_austra
+	dynasty = 920001	# 2026-11-15 11:10 (modder 10:51): main Phaeter line - no house of his own name
 	culture = dievian	# 2026-11-13 21:45 pantheon culture
 	rite = baltic_pagan
 	trait = full_cybernetic_conversion
@@ -651,7 +679,7 @@
 9104033 = {	# B_AUSR: Aušrinė (Baltic Lithuanian)
 	name = "ckn_Ausrine"
 	female = yes
-	dynasty_house = house_phaeter_ausrine
+	dynasty = 920001	# 2026-11-15 11:10 (modder 10:51): main Phaeter line - no house of his own name
 	culture = dievian	# 2026-11-13 21:45 pantheon culture
 	rite = baltic_pagan
 	trait = full_cybernetic_conversion
@@ -708,6 +736,7 @@
 	mother = 9104005
 	3452.1.1 = { birth = yes }
 	5391.2.24 = { death = yes }	# Theodosian decree, 391 CE: the Greek pantheon dies with Cronus and Zeus
+	3545.1.2 = { add_spouse = 9104093 }	# 2026-11-14 03:10 (modder 01:01): married, so CK3 draws one family: Helios and his wife Perse
 }
 
 9104036 = {	# R_SOL: Sol (Roman)
@@ -732,7 +761,7 @@
 9104037 = {	# N_SOL: Sól (Norse)
 	name = "ckn_Sol"
 	female = yes
-	dynasty = 920016
+	dynasty = 920010	# 2026-11-14 03:30 (modder 01:06: one connected Norse tree): clone of a Deywos (PIE) god, joins that dynasty
 	culture = aesir	# 2026-11-13 21:45 pantheon culture
 	rite = norse_pagan
 	trait = full_cybernetic_conversion
@@ -851,7 +880,7 @@
 9104043 = {	# N_SOL_D: Daughter of Sól (Norse)
 	name = "ckn_Solsdottir"
 	female = yes
-	dynasty = 920016
+	dynasty = 920010	# 2026-11-14 03:30 (modder 01:06: one connected Norse tree): clone of a Deywos (PIE) god, joins that dynasty
 	culture = aesir	# 2026-11-13 21:45 pantheon culture
 	rite = norse_pagan
 	trait = full_cybernetic_conversion
@@ -870,7 +899,7 @@
 
 9104044 = {	# V_ASV1: Nāsatya (Vedic)
 	name = "ckn_Nasatya"
-	dynasty_house = house_phaeter_nasatyaashvin
+	dynasty = 920001	# 2026-11-15 11:10 (modder 10:51): main Phaeter line - no house of his own name
 	culture = devan	# 2026-11-13 21:45 pantheon culture
 	rite = smartism
 	trait = full_cybernetic_conversion
@@ -886,11 +915,12 @@
 	3501.1.1 = { birth = yes }
 	7050.9.15 = { effect = { set_immortal_age = 55 add_character_flag = do_not_generate_starting_family } }
 	7050.9.15 = { employer = 111855 }	# 2026-11-13 22:30 fled Ganymede when Elyon took back the Hegemony; lives with Vaishnava king on Venus
+	3518.1.3 = { effect = { set_relation_friend = { target = character:9104045 } } }	# 2026-11-15 12:30 (modder 11:35): the Ashvins
 }
 
 9104045 = {	# V_ASV2: Dasra (Vedic)
 	name = "ckn_Dasra"
-	dynasty_house = house_phaeter_dasraashvin
+	dynasty = 920001	# 2026-11-15 11:10 (modder 10:51): main Phaeter line - no house of his own name
 	culture = devan	# 2026-11-13 21:45 pantheon culture
 	rite = smartism
 	trait = full_cybernetic_conversion
@@ -910,7 +940,7 @@
 
 9104046 = {	# G_CASTOR: Castor (Greek Olympian)
 	name = "ckn_Castor"
-	dynasty_house = house_phaeter_castordioscuri
+	dynasty = 920001	# 2026-11-15 11:10 (modder 10:51): main Phaeter line - no house of his own name
 	culture = olympian	# 2026-11-13 21:45 pantheon culture
 	rite = hellenic_pagan
 	trait = full_cybernetic_conversion
@@ -925,11 +955,12 @@
 	father = 9104003
 	3651.1.1 = { birth = yes }
 	5391.2.24 = { death = yes }	# Theodosian decree, 391 CE: the Greek pantheon dies with Cronus and Zeus
+	3668.1.3 = { effect = { set_relation_friend = { target = character:9104047 } } }	# 2026-11-15 12:30 (modder 11:35): the Dioscuri
 }
 
 9104047 = {	# G_POLLUX: Polydeuces (Greek Olympian)
 	name = "ckn_Polydeuces"
-	dynasty_house = house_phaeter_polydeucesdioscuri
+	dynasty = 920001	# 2026-11-15 11:10 (modder 10:51): main Phaeter line - no house of his own name
 	culture = olympian	# 2026-11-13 21:45 pantheon culture
 	rite = hellenic_pagan
 	trait = full_cybernetic_conversion
@@ -948,7 +979,7 @@
 
 9104048 = {	# L_DELS1: Dieva dēls (Elder) (Baltic Latvian)
 	name = "ckn_Dievadels"
-	dynasty_house = house_phaeter_dievadelselder
+	dynasty = 920001	# 2026-11-15 11:10 (modder 10:51): main Phaeter line - no house of his own name
 	culture = dievian	# 2026-11-13 21:45 pantheon culture
 	rite = baltic_pagan
 	trait = full_cybernetic_conversion
@@ -967,7 +998,7 @@
 
 9104049 = {	# L_DELS2: Dieva dēls (Younger) (Baltic Latvian)
 	name = "ckn_Dievadels"
-	dynasty_house = house_phaeter_dievadelsyounger
+	dynasty = 920001	# 2026-11-15 11:10 (modder 10:51): main Phaeter line - no house of his own name
 	culture = dievian	# 2026-11-13 21:45 pantheon culture
 	rite = baltic_pagan
 	trait = full_cybernetic_conversion
@@ -1046,6 +1077,7 @@
 	5309.1.1 = { birth = yes }
 	7050.9.15 = { effect = { set_immortal_age = 55 add_character_flag = do_not_generate_starting_family } }
 	7050.9.15 = { employer = 100775 }	# 2026-11-13 22:30 fled Ganymede when Elyon took back the Hegemony; lives with Lunism (Slavic-derived) duke on the Moon
+	5325.1.3 = { effect = { set_relation_rival = { target = character:9104219 } } }	# 2026-11-15 12:30 (modder 11:35): Perun and Veles
 }
 
 9104053 = {	# V_PARJ: Parjanya (Vedic)
@@ -1070,7 +1102,7 @@
 
 9104054 = {	# N_FJORG: Fjörgynn (Norse)
 	name = "ckn_Fjorgynn"
-	dynasty = 920016
+	dynasty = 920010	# 2026-11-14 03:30 (modder 01:06: one connected Norse tree): clone of a Deywos (PIE) god, joins that dynasty
 	culture = aesir	# 2026-11-13 21:45 pantheon culture
 	rite = norse_pagan
 	trait = full_cybernetic_conversion
@@ -1289,8 +1321,8 @@
 
 9104065 = {	# N_YMIR: Ymir (Norse)
 	name = "ckn_Ymir"
-	dynasty = 920016
-	culture = aesir	# 2026-11-13 21:45 pantheon culture
+	dynasty = 920010	# 2026-11-14 03:30 (modder 01:06: one connected Norse tree): clone of a Deywos (PIE) god, joins that dynasty
+	culture = jotnar	# 2026-11-14 01:10 (modder 23:42): a jötunn - was aesir
 	rite = norse_pagan
 	trait = full_cybernetic_conversion
 	trait = clone
@@ -1323,6 +1355,11 @@
 	mother = 7777772
 	3001.1.1 = { birth = yes }
 	5391.2.24 = { death = yes }	# Theodosian decree, 391 CE: the Greek pantheon dies with Cronus and Zeus
+	3518.1.3 = { effect = { set_relation_rival = { target = character:9104099 } } }	# 2026-11-15 12:30 (modder 11:35): Hera persecutes Heracles
+	3069.1.3 = { effect = { set_relation_rival = { target = character:9104072 } } }	# 2026-11-15 12:30 (modder 11:35): Hera hounds Leto
+	3564.1.3 = { effect = { set_relation_rival = { target = character:9104083 } } }	# 2026-11-15 12:30 (modder 11:35): Hera torments Io
+	3316.1.3 = { effect = { set_relation_rival = { target = character:9104074 } } }	# 2026-11-15 12:30 (modder 11:35): Hera destroys Semele
+	3562.1.3 = { effect = { set_relation_rival = { target = character:7777798 } } }	# 2026-11-15 12:30 (modder 11:35): Hera drives Dionysus mad
 }
 
 9104067 = {	# G_DEM: Demeter (Greek Olympian)
@@ -1380,6 +1417,8 @@
 	mother = 7777772
 	3002.1.1 = { birth = yes }
 	5391.2.24 = { death = yes }	# Theodosian decree, 391 CE: the Greek pantheon dies with Cronus and Zeus
+	3550.1.2 = { add_spouse = 9104086 }	# 2026-11-14 03:10 (modder 01:01): married, so CK3 draws one family: Poseidon and Amphitrite
+	3531.1.3 = { effect = { set_relation_lover = { target = character:9104087 } } }	# 2026-11-15 12:30 (modder 11:35): Thoosa, mother of Polyphemus
 }
 
 9104070 = {	# G_HADES: Hades (Greek Olympian)
@@ -1398,6 +1437,7 @@
 	mother = 7777772
 	3003.1.1 = { birth = yes }
 	5391.2.24 = { death = yes }	# Theodosian decree, 391 CE: the Greek pantheon dies with Cronus and Zeus
+	3563.1.3 = { effect = { set_relation_rival = { target = character:9104067 } } }	# 2026-11-15 12:30 (modder 11:35): the abduction of Persephone
 }
 
 9104071 = {	# G_METIS: Metis (Greek Olympian)
@@ -1737,6 +1777,7 @@
 	diplomacy = 14
 	2800.1.1 = { birth = yes }
 	5391.2.24 = { death = yes }	# Theodosian decree, 391 CE: the Greek pantheon dies with Cronus and Zeus
+	3554.1.2 = { add_spouse = 9104089 }	# 2026-11-14 03:10 (modder 01:01): married, so CK3 draws one family: Hyperion and Theia
 }
 
 9104091 = {	# G_ASTRAE: Astraeus (Greek Olympian)
@@ -1754,6 +1795,7 @@
 	intrigue = 10
 	3546.1.1 = { birth = yes }
 	5391.2.24 = { death = yes }	# Theodosian decree, 391 CE: the Greek pantheon dies with Cronus and Zeus
+	3547.1.2 = { add_spouse = 9104030 }	# 2026-11-14 03:10 (modder 01:01): married, so CK3 draws one family: Astraeus and Eos
 }
 
 9104092 = {	# G_TITH: Tithonus (Greek Olympian)
@@ -1887,6 +1929,8 @@
 	mother = 9104075
 	3502.1.1 = { birth = yes }
 	5391.2.24 = { death = yes }	# Theodosian decree, 391 CE: the Greek pantheon dies with Cronus and Zeus
+	3546.1.2 = { add_spouse = 7777795 }	# 2026-11-14 03:10 (modder 01:01): married, so CK3 draws one family: Heracles and Hebe (married on Olympus)
+	3573.1.3 = { effect = { set_relation_friend = { target = character:7777791 } } }	# 2026-11-15 12:30 (modder 11:35): Athena, Heracles' patron
 }
 
 9104100 = {	# G_PERSEUS: Perseus (Greek Olympian)
@@ -1974,6 +2018,7 @@
 	mother = 9104066
 	3519.1.1 = { birth = yes }
 	5391.2.24 = { death = yes }	# Theodosian decree, 391 CE: the Greek pantheon dies with Cronus and Zeus
+	3571.1.3 = { effect = { set_relation_rival = { target = character:7777794 } } }	# 2026-11-15 12:30 (modder 11:35): Hephaestus nets Ares and Aphrodite
 }
 
 9104105 = {	# G_DIKE: Dike (Greek Olympian)
@@ -2811,6 +2856,7 @@
 	diplomacy = 12
 	3400.1.1 = { birth = yes }
 	5391.2.24 = { death = yes }	# Theodosian decree, 391 CE
+	4326.1.2 = { add_spouse = 9104147 }	# 2026-11-14 03:10 (modder 01:01): married, so CK3 draws one family: Saturn and Ops
 }
 
 9104149 = {	# R_CERES: Ceres (Roman)
@@ -2911,6 +2957,7 @@
 	mother = 9104146
 	4327.1.1 = { birth = yes }
 	5391.2.24 = { death = yes }	# Theodosian decree, 391 CE
+	4348.1.3 = { effect = { set_relation_lover = { target = character:9104154 } } }	# 2026-11-15 12:30 (modder 11:35): Mars and Venus
 }
 
 9104154 = {	# R_VENUS: Venus (Roman)
@@ -3093,6 +3140,7 @@
 	mother = 9104162
 	4357.1.1 = { birth = yes }
 	4417.6.1 = { death = yes }	# mortal; died of old age
+	4375.1.3 = { effect = { set_relation_rival = { target = character:9104164 } } }	# 2026-11-15 12:30 (modder 11:35): Romulus and Remus
 }
 
 9104164 = {	# R_REMUS: Remus (Roman)
@@ -3147,6 +3195,7 @@
 	father = 9104165
 	3479.1.1 = { birth = yes }
 	5500.1.1 = { death = yes }	# faded from worship, ~500 CE
+	3495.1.3 = { effect = { set_relation_friend = { target = character:9104172 } } }	# 2026-11-15 12:30 (modder 11:35): Mitra-Varuna
 }
 
 9104167 = {	# IR_MITHRA: Mithra (Iranian)
@@ -3300,6 +3349,7 @@
 	3460.1.1 = { birth = yes }
 	7050.9.15 = { effect = { set_immortal_age = 55 add_character_flag = do_not_generate_starting_family } }
 	7050.9.15 = { employer = 111855 }	# 2026-11-13 22:30 fled Ganymede when Elyon took back the Hegemony; lives with Vaishnava king on Venus
+	3518.1.3 = { effect = { set_relation_friend = { target = character:9104055 } } }	# 2026-11-15 12:30 (modder 11:35): Indra and Agni, invoked together
 }
 
 9104175 = {	# V_RUDRA: Rudra (Vedic)
@@ -3355,7 +3405,7 @@
 	trait = lifestyle_gardener
 	stewardship = 18
 	diplomacy = 12
-	3005.1.1 = { birth = yes }
+	1820.1.1 = { birth = yes }	# 2026-11-14 02:45 (modder 00:38): was 3005 - mother of Vishnu (1850), Dyaus Pita's wife
 	7050.9.15 = { effect = { set_immortal_age = 55 add_character_flag = do_not_generate_starting_family } }
 	7050.9.15 = { employer = 111855 }	# 2026-11-13 22:30 fled Ganymede when Elyon took back the Hegemony; lives with Vaishnava king on Venus
 }
@@ -3447,6 +3497,7 @@
 	3471.1.1 = { birth = yes }
 	7050.9.15 = { effect = { set_immortal_age = 55 add_character_flag = do_not_generate_starting_family } }
 	7050.9.15 = { employer = 111855 }	# 2026-11-13 22:30 fled Ganymede when Elyon took back the Hegemony; lives with Vaishnava king on Venus
+	3500.2.1 = { add_spouse = 9107001 }	# 2026-11-13 23:40: Brahma's consort
 }
 
 9104183 = {	# IR_VERE: Vərəθraγna (Iranian)
@@ -3540,13 +3591,14 @@
 	father = 9104186
 	4870.1.1 = { birth = yes }
 	6000.6.1 = { death = yes }	# Iceland adopts Christianity, 1000 CE
+	5050.1.2 = { add_spouse = 9104188 }	# 2026-11-14 03:10 (modder 01:01): married, so CK3 draws one family: Borr and Bestla
 }
 
 9104188 = {	# N_BESTLA: Bestla (Norse)
 	name = "ckn_Bestla"
 	female = yes
-	dynasty = 920016
-	culture = aesir	# 2026-11-13 21:45 pantheon culture
+	# 2026-11-14 03:30 (modder 01:06: one connected Norse tree): lowborn - married in, or no Æsir father
+	culture = jotnar	# 2026-11-14 01:10 (modder 23:42): a jötunn - was aesir
 	rite = norse_pagan
 	trait = full_cybernetic_conversion
 	trait = patient	# 2026-11-13 22:30 god traits
@@ -3581,6 +3633,12 @@
 	mother = 9104188
 	5051.1.1 = { birth = yes }
 	6000.6.1 = { death = yes }	# Iceland adopts Christianity, 1000 CE
+	5331.1.2 = { add_spouse = 9104192 }	# 2026-11-14 03:10 (modder 01:01): married, so CK3 draws one family: Odin and Frigg
+	5396.1.3 = { effect = { set_relation_rival = { target = character:9108010 } } }	# 2026-11-15 12:30 (modder 11:35): the wolf fated to kill Odin
+	5373.1.3 = { effect = { set_relation_friend = { target = character:9104212 } } }	# 2026-11-15 12:30 (modder 11:35): blood brothers (Lokasenna 9)
+	5067.1.3 = { effect = { set_relation_friend = { target = character:9108006 } } }	# 2026-11-15 12:30 (modder 11:35): Mimir, Odin's counsellor
+	5345.1.3 = { effect = { set_relation_lover = { target = character:9104027 } } }	# 2026-11-15 12:30 (modder 11:35): Jord, mother of Thor
+	5332.1.3 = { effect = { set_relation_rival = { target = character:9104065 } } }	# 2026-11-15 12:30 (modder 11:35): Odin and his brothers kill Ymir
 }
 
 9104190 = {	# N_VILI: Vili (Norse)
@@ -3624,7 +3682,7 @@
 9104192 = {	# N_FRIGG: Frigg (Norse)
 	name = "ckn_Frigg"
 	female = yes
-	dynasty = 920016
+	# 2026-11-14 03:30 (modder 01:06: one connected Norse tree): lowborn - married in, or no Æsir father
 	culture = aesir	# 2026-11-13 21:45 pantheon culture
 	rite = norse_pagan
 	trait = full_cybernetic_conversion
@@ -3642,7 +3700,7 @@
 9104193 = {	# N_RINDR: Rindr (Norse)
 	name = "ckn_Rindr"
 	female = yes
-	dynasty = 920016
+	# 2026-11-14 03:30 (modder 01:06: one connected Norse tree): lowborn - married in, or no Æsir father
 	culture = aesir	# 2026-11-13 21:45 pantheon culture
 	rite = norse_pagan
 	trait = full_cybernetic_conversion
@@ -3659,8 +3717,8 @@
 9104194 = {	# N_GRIDR: Gríðr (Norse)
 	name = "ckn_Grir"
 	female = yes
-	dynasty = 920016
-	culture = aesir	# 2026-11-13 21:45 pantheon culture
+	# 2026-11-14 03:30 (modder 01:06: one connected Norse tree): lowborn - married in, or no Æsir father
+	culture = jotnar	# 2026-11-14 01:10 (modder 23:42): a jötunn - was aesir
 	rite = norse_pagan
 	trait = full_cybernetic_conversion
 	trait = wrathful	# 2026-11-13 22:30 god traits
@@ -3677,7 +3735,7 @@
 9104195 = {	# N_SIF: Sif (Norse)
 	name = "ckn_Sif"
 	female = yes
-	dynasty = 920016
+	# 2026-11-14 03:30 (modder 01:06: one connected Norse tree): lowborn - married in, or no Æsir father
 	culture = aesir	# 2026-11-13 21:45 pantheon culture
 	rite = norse_pagan
 	trait = full_cybernetic_conversion
@@ -3694,8 +3752,8 @@
 9104196 = {	# N_JARNS: Járnsaxa (Norse)
 	name = "ckn_Jarnsaxa"
 	female = yes
-	dynasty = 920016
-	culture = aesir	# 2026-11-13 21:45 pantheon culture
+	# 2026-11-14 03:30 (modder 01:06: one connected Norse tree): lowborn - married in, or no Æsir father
+	culture = jotnar	# 2026-11-14 01:10 (modder 23:42): a jötunn - was aesir
 	rite = norse_pagan
 	trait = full_cybernetic_conversion
 	trait = wrathful	# 2026-11-13 22:30 god traits
@@ -3732,6 +3790,10 @@
 	5345.1.1 = { birth = yes }
 	7050.9.15 = { effect = { set_immortal_age = 55 add_character_flag = do_not_generate_starting_family } }
 	7050.9.15 = { employer = 8100513 }	# 2026-11-13 22:30 fled Ganymede when Elyon took back the Hegemony; lives with Markus of Svalbard, the one Norse-pagan ruler on Earth
+	5346.1.2 = { add_spouse = 9104195 }	# 2026-11-14 03:10 (modder 01:01): married, so CK3 draws one family: Thor and Sif
+	5381.1.3 = { effect = { set_relation_friend = { target = character:9108013 } } }	# 2026-11-15 12:30 (modder 11:35): Thjalfi, Thor's companion (Gylfaginning)
+	5397.1.3 = { effect = { set_relation_rival = { target = character:9108011 } } }	# 2026-11-15 12:30 (modder 11:35): the World Serpent, Thor's foe
+	5361.1.3 = { effect = { set_relation_lover = { target = character:9104196 } } }	# 2026-11-15 12:30 (modder 11:35): Jarnsaxa, mother of Magni
 }
 
 9104198 = {	# N_BALDR: Baldr (Norse)
@@ -3867,7 +3929,7 @@
 
 9104205 = {	# N_NJORD: Njörðr (Norse)
 	name = "ckn_Njorr"
-	dynasty = 920016
+	dynasty = 920220	# 2026-11-14 03:30 (modder 01:06: one connected Norse tree): the Vanir
 	culture = aesir	# 2026-11-13 21:45 pantheon culture
 	rite = norse_pagan
 	trait = full_cybernetic_conversion
@@ -3884,7 +3946,7 @@
 
 9104206 = {	# N_FREYR: Freyr (Norse)
 	name = "ckn_Freyr"
-	dynasty = 920016
+	dynasty = 920220	# 2026-11-14 03:30 (modder 01:06: one connected Norse tree): the Vanir
 	culture = aesir	# 2026-11-13 21:45 pantheon culture
 	rite = norse_pagan
 	trait = full_cybernetic_conversion
@@ -3898,12 +3960,13 @@
 	father = 9104205
 	5339.1.1 = { birth = yes }
 	6000.6.1 = { death = yes }	# Iceland adopts Christianity, 1000 CE
+	5341.1.2 = { add_spouse = 9104208 }	# 2026-11-14 03:10 (modder 01:01): married, so CK3 draws one family: Freyr and Gerðr (Skírnismál)
 }
 
 9104207 = {	# N_FREYJA: Freyja (Norse)
 	name = "ckn_Freyja"
 	female = yes
-	dynasty = 920016
+	dynasty = 920220	# 2026-11-14 03:30 (modder 01:06: one connected Norse tree): the Vanir
 	culture = aesir	# 2026-11-13 21:45 pantheon culture
 	rite = norse_pagan
 	trait = full_cybernetic_conversion
@@ -3922,8 +3985,8 @@
 9104208 = {	# N_GERDR: Gerðr (Norse)
 	name = "ckn_Gerr"
 	female = yes
-	dynasty = 920016
-	culture = aesir	# 2026-11-13 21:45 pantheon culture
+	# 2026-11-14 03:30 (modder 01:06: one connected Norse tree): lowborn - married in, or no Æsir father
+	culture = jotnar	# 2026-11-14 01:10 (modder 23:42): a jötunn - was aesir
 	rite = norse_pagan
 	trait = full_cybernetic_conversion
 	trait = gregarious	# 2026-11-13 22:30 god traits
@@ -3938,7 +4001,7 @@
 
 9104209 = {	# N_FJOLN: Fjölnir (Norse)
 	name = "ckn_Fjolnir"
-	dynasty = 920016
+	dynasty = 920220	# 2026-11-14 03:30 (modder 01:06: one connected Norse tree): the Vanir
 	culture = aesir	# 2026-11-13 21:45 pantheon culture
 	rite = norse_pagan
 	trait = full_cybernetic_conversion
@@ -3957,8 +4020,8 @@
 
 9104210 = {	# N_FARBA: Fárbauti (Norse)
 	name = "ckn_Farbauti"
-	dynasty = 920016
-	culture = aesir	# 2026-11-13 21:45 pantheon culture
+	# 2026-11-14 03:30 (modder 01:06: one connected Norse tree): lowborn - married in, or no Æsir father
+	culture = jotnar	# 2026-11-14 01:10 (modder 23:42): a jötunn - was aesir
 	rite = norse_pagan
 	trait = full_cybernetic_conversion
 	trait = wrathful	# 2026-11-13 22:30 god traits
@@ -3970,12 +4033,13 @@
 	prowess = 24
 	5341.1.1 = { birth = yes }
 	6000.6.1 = { death = yes }	# Iceland adopts Christianity, 1000 CE
+	5342.1.2 = { add_spouse = 9104211 }	# 2026-11-14 03:10 (modder 01:01): married, so CK3 draws one family: Fárbauti and Laufey
 }
 
 9104211 = {	# N_LAUFEY: Laufey (Norse)
 	name = "ckn_Laufey"
 	female = yes
-	dynasty = 920016
+	# 2026-11-14 03:30 (modder 01:06: one connected Norse tree): lowborn - married in, or no Æsir father
 	culture = aesir	# 2026-11-13 21:45 pantheon culture
 	rite = norse_pagan
 	trait = full_cybernetic_conversion
@@ -3991,7 +4055,7 @@
 
 9104212 = {	# N_LOKI: Loki (Norse)
 	name = "ckn_Loki"
-	dynasty = 920016
+	dynasty = 920221	# 2026-11-14 03:30 (modder 01:06: one connected Norse tree): Laufeyjarson, Loki's line
 	culture = aesir	# 2026-11-13 21:45 pantheon culture
 	rite = norse_pagan
 	trait = full_cybernetic_conversion
@@ -4006,13 +4070,17 @@
 	mother = 9104211
 	5357.1.1 = { birth = yes }
 	6000.6.1 = { death = yes }	# Iceland adopts Christianity, 1000 CE
+	5384.1.2 = { add_spouse = 9104215 }	# 2026-11-14 03:10 (modder 01:01): married, so CK3 draws one family: Loki and Sigyn
+	5373.1.3 = { effect = { set_relation_rival = { target = character:9104198 } } }	# 2026-11-15 12:30 (modder 11:35): Loki contrives Baldr's death
+	5373.1.3 = { effect = { set_relation_rival = { target = character:9104218 } } }	# 2026-11-15 12:30 (modder 11:35): Heimdallr, Loki's destined slayer
+	5373.1.3 = { effect = { set_relation_lover = { target = character:9104213 } } }	# 2026-11-15 12:30 (modder 11:35): Angrboda, mother of his monsters
 }
 
 9104213 = {	# N_ANGR: Angrboða (Norse)
 	name = "ckn_Angrboa"
 	female = yes
-	dynasty = 920016
-	culture = aesir	# 2026-11-13 21:45 pantheon culture
+	# 2026-11-14 03:30 (modder 01:06: one connected Norse tree): lowborn - married in, or no Æsir father
+	culture = jotnar	# 2026-11-14 01:10 (modder 23:42): a jötunn - was aesir
 	rite = norse_pagan
 	trait = full_cybernetic_conversion
 	trait = ambitious	# 2026-11-13 22:30 god traits
@@ -4029,7 +4097,7 @@
 9104214 = {	# N_HEL: Hel (Norse)
 	name = "ckn_Hel"
 	female = yes
-	dynasty = 920016
+	dynasty = 920221	# 2026-11-14 03:30 (modder 01:06: one connected Norse tree): Laufeyjarson, Loki's line
 	culture = aesir	# 2026-11-13 21:45 pantheon culture
 	rite = norse_pagan
 	trait = full_cybernetic_conversion
@@ -4049,7 +4117,7 @@
 9104215 = {	# N_SIGYN: Sigyn (Norse)
 	name = "ckn_Sigyn"
 	female = yes
-	dynasty = 920016
+	# 2026-11-14 03:30 (modder 01:06: one connected Norse tree): lowborn - married in, or no Æsir father
 	culture = aesir	# 2026-11-13 21:45 pantheon culture
 	rite = norse_pagan
 	trait = full_cybernetic_conversion
@@ -4076,14 +4144,16 @@
 	trait = lifestyle_poet
 	learning = 18
 	diplomacy = 14
+	father = 9104189	# 2026-11-14 03:30 (modder 01:06: one connected Norse tree): Bragi is Odin's son (Skáldskaparmál 10)
 	5358.1.1 = { birth = yes }
 	6000.6.1 = { death = yes }	# Iceland adopts Christianity, 1000 CE
+	5370.1.2 = { add_spouse = 9104217 }	# 2026-11-14 03:30 (modder 01:06: one connected Norse tree): Iðunn, Bragi's wife
 }
 
 9104217 = {	# N_IDUNN: Iðunn (Norse)
 	name = "ckn_Iunn"
 	female = yes
-	dynasty = 920016
+	# 2026-11-14 03:30 (modder 01:06: one connected Norse tree): lowborn - married in, or no Æsir father
 	culture = aesir	# 2026-11-13 21:45 pantheon culture
 	rite = norse_pagan
 	trait = full_cybernetic_conversion
@@ -4099,7 +4169,7 @@
 
 9104218 = {	# N_HEIM: Heimdallr (Norse)
 	name = "ckn_Heimdallr"
-	dynasty = 920016
+	# 2026-11-14 03:30 (modder 01:06: one connected Norse tree): lowborn - married in, or no Æsir father
 	culture = aesir	# 2026-11-13 21:45 pantheon culture
 	rite = norse_pagan
 	trait = full_cybernetic_conversion
@@ -4267,6 +4337,8 @@
 	diplomacy = 12
 	5201.1.1 = { birth = yes }
 	5432.1.1 = { death = yes }	# St Patrick's mission, ~432 CE
+	5217.1.3 = { effect = { set_relation_lover = { target = character:9104228 } } }	# 2026-11-15 12:30 (modder 11:35): the Dagda and Boann
+	5217.1.3 = { effect = { set_relation_lover = { target = character:9104238 } } }	# 2026-11-15 12:30 (modder 11:35): the Dagda and the Morrigan (Cath Maige Tuired)
 }
 
 9104228 = {	# C_BOANN: Boann (Celtic Irish)
@@ -4344,6 +4416,7 @@
 	prowess = 20
 	5153.1.1 = { birth = yes }
 	5432.1.1 = { death = yes }	# St Patrick's mission, ~432 CE
+	5176.1.2 = { add_spouse = 9104232 }	# 2026-11-14 03:10 (modder 01:01): married, so CK3 draws one family: Cian and Ethniu
 }
 
 9104232 = {	# C_ETHNIU: Ethniu (Celtic Irish)
@@ -4385,6 +4458,7 @@
 	5191.1.1 = { birth = yes }
 	7050.9.15 = { effect = { set_immortal_age = 55 add_character_flag = do_not_generate_starting_family } }
 	7050.9.15 = { employer = 110745 }	# 2026-11-13 22:30 fled Ganymede when Elyon took back the Hegemony; lives with Venusian Druidism king on Venus
+	5222.1.3 = { effect = { set_relation_friend = { target = character:9104234 } } }	# 2026-11-15 12:30 (modder 11:35): Nuada yields the kingship to Lugh
 }
 
 9104234 = {	# C_NUADA: Nuada (Celtic Irish)
@@ -4654,6 +4728,8 @@
 	mother = 9104245
 	5259.1.1 = { birth = yes }
 	5500.1.1 = { death = yes }	# Christianisation of Wales, ~500 CE
+	5275.1.3 = { effect = { set_relation_rival = { target = character:9104249 } } }	# 2026-11-15 12:30 (modder 11:35): Arianrhod's three curses
+	5275.1.3 = { effect = { set_relation_friend = { target = character:9104247 } } }	# 2026-11-15 12:30 (modder 11:35): Math, Gwydion's teacher
 }
 
 9104249 = {	# W_ARAN: Arianrhod (Celtic Welsh)
@@ -4778,6 +4854,8 @@
 	prowess = 18
 	5221.1.1 = { birth = yes }
 	5281.6.1 = { death = yes }	# mortal; died of old age
+	5259.1.2 = { add_spouse = 9104253 }	# 2026-11-14 03:10 (modder 01:01): married, so CK3 draws one family: Pwyll and Rhiannon
+	5265.1.3 = { effect = { set_relation_friend = { target = character:9104246 } } }	# 2026-11-15 12:30 (modder 11:35): Pwyll and Arawn
 }
 
 9104256 = {	# G_EUROPA: Europa (Greek Olympian)
@@ -4883,6 +4961,7 @@
 	prowess = 28
 	3515.1.1 = { birth = yes }
 	5391.2.24 = { death = yes }	# Theodosian decree, 391 CE: the Greek pantheon dies with Cronus and Zeus
+	3533.1.2 = { add_spouse = 9104262 }	# 2026-11-14 03:10 (modder 01:01): married, so CK3 draws one family: Perses and Asteria
 }
 
 9104262 = {	# G_ASTERIA: Asteria (Greek Olympian)
@@ -4925,7 +5004,7 @@
 
 9104264 = {	# PHY_TI: Ti- (Phrygian; *Tius reconstructed) (Phrygian)
 	name = "ckn_Tius"
-	dynasty_house = house_phaeter_tiphrygian
+	dynasty = 920001	# 2026-11-15 11:10 (modder 10:51): main Phaeter line - no house of his own name
 	culture = phaeteran	# 2026-11-13 21:45 pantheon culture
 	rite = archaic_pantheon_rite
 	trait = full_cybernetic_conversion
@@ -4946,7 +5025,7 @@
 
 9104265 = {	# B_PROTO_DEIVAS: *Deivas (Proto-Baltic) (Proto-Baltic)
 	name = "ckn_Deivas"
-	dynasty_house = house_phaeter_deivasprotobaltic
+	dynasty = 920001	# 2026-11-15 11:10 (modder 10:51): main Phaeter line - no house of his own name
 	culture = dievian	# 2026-11-13 21:45 pantheon culture
 	rite = baltic_pagan
 	trait = full_cybernetic_conversion
@@ -4967,7 +5046,7 @@
 
 9104266 = {	# PR_DEIVAS: Deivas (Old Prussian) (Old Prussian)
 	name = "ckn_Deivas"
-	dynasty_house = house_phaeter_deivasprussian
+	dynasty_house = house_phaeter_deivasprotobaltic	# 2026-11-15 11:10 (modder 10:51): his parent's house
 	culture = dievian	# 2026-11-13 21:45 pantheon culture
 	rite = baltic_pagan
 	trait = full_cybernetic_conversion
@@ -4988,7 +5067,7 @@
 
 9104267 = {	# IT_OSCAN_DIUVEI: Diúvei (Oscan Jove) (Oscan)
 	name = "ckn_Diuvei"
-	dynasty_house = house_phaeter_diuvei
+	dynasty_house = house_phaeter_iovian	# 2026-11-15 11:10 (modder 10:51): his parent's house
 	culture = capitoline	# 2026-11-13 21:45 pantheon culture
 	rite = hellenic_pagan
 	trait = full_cybernetic_conversion
@@ -5009,7 +5088,7 @@
 
 9104268 = {	# IT_UMBR_IUPATER: Iupater (Umbrian Jove) (Umbrian)
 	name = "ckn_Iupater"
-	dynasty_house = house_phaeter_iupater
+	dynasty_house = house_phaeter_iovian	# 2026-11-15 11:10 (modder 10:51): his parent's house
 	culture = capitoline	# 2026-11-13 21:45 pantheon culture
 	rite = hellenic_pagan
 	trait = full_cybernetic_conversion
@@ -5030,7 +5109,7 @@
 
 9104269 = {	# GER_TIW: Tīw (Old English) (Anglo-Saxon)
 	name = "ckn_Tiw"
-	dynasty_house = house_phaeter_tiw
+	dynasty_house = house_phaeter_tiwaz	# 2026-11-15 11:10 (modder 10:51): his parent's house
 	culture = aesir	# 2026-11-13 21:45 pantheon culture
 	rite = norse_pagan
 	trait = full_cybernetic_conversion
@@ -5049,7 +5128,7 @@
 
 9104270 = {	# GER_ZIU: Ziu (Old High German) (Continental Germanic)
 	name = "ckn_Ziu"
-	dynasty_house = house_phaeter_ziu
+	dynasty_house = house_phaeter_tiwaz	# 2026-11-15 11:10 (modder 10:51): his parent's house
 	culture = aesir	# 2026-11-13 21:45 pantheon culture
 	rite = norse_pagan
 	trait = full_cybernetic_conversion
@@ -5069,7 +5148,7 @@
 
 9104271 = {	# R_DIUS: Dius Fidius (Roman)
 	name = "ckn_DiusFidius"
-	dynasty_house = house_phaeter_fidius
+	dynasty_house = house_phaeter_iovian	# 2026-11-15 11:10 (modder 10:51): his parent's house
 	culture = capitoline	# 2026-11-13 21:45 pantheon culture
 	rite = hellenic_pagan
 	trait = full_cybernetic_conversion

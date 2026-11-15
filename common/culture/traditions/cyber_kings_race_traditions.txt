@@ -436,3 +436,46 @@ tradition_ck_tau_ceti = {
 		}
 	}
 }
+
+# 2026-11-13 23:00 (modder 21:59: "It should have an OP tradition"): the Sol culture's lineage - the proto-civilization that once held the
+# whole Solar System. Only Emperor Aeon has it at start; endgame Sol hegemons are meant to revive it.
+tradition_ck_sol = {
+	category = societal
+
+	layers = {
+		0 = learning
+		1 = mediterranean
+		4 = crown.dds
+	}
+
+	can_pick = { always = no }
+	can_pick_for_hybridization = { always = yes }
+
+	character_modifier = {
+		diplomacy = 3
+		martial = 3
+		stewardship = 3
+		intrigue = 3
+		learning = 3
+		prowess = 5
+		monthly_prestige_gain_mult = 0.25
+		monthly_piety_gain_mult = 0.25
+		vassal_opinion = 10
+		health = 1
+	}
+	county_modifier = {
+		development_growth_factor = 0.25
+		tax_mult = 0.15
+		levy_size = 0.15
+	}
+
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+			}
+		}
+	}
+}

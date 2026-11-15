@@ -1,0 +1,13 @@
+﻿# Cyber Kings 2026-11-13 23:50 (gen_eden.py): cadet houses of Adonai's dynasty 77781 (Shaddai)
+house_eden = {
+	name = "house_eden"
+	prefix = "dynnp_ck_of"
+	dynasty = 77781
+	motto = house_eden_motto
+}
+house_nod = {
+	name = "house_nod"
+	prefix = "dynnp_ck_of"
+	dynasty = 77781
+	motto = house_nod_motto
+}

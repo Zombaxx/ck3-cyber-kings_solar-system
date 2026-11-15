@@ -1,0 +1,31 @@
+﻿# Cyber Kings 2026-11-14 00:50: cadet houses of the Skjoldungs and of Woden's English descendants (gen_norse.py). Each starts with the namesake's children.
+house_lodbrok = {
+	name = "house_lodbrok"
+	dynasty = 920211
+	motto = house_lodbrok_motto
+}
+house_oiscingas = {
+	name = "house_oiscingas"
+	dynasty = 920213
+	motto = house_oiscingas_motto
+}
+house_yffings = {
+	name = "house_yffings"
+	dynasty = 920213
+	motto = house_yffings_motto
+}
+house_cerdicingas = {
+	name = "house_cerdicingas"
+	dynasty = 920213
+	motto = house_cerdicingas_motto
+}
+house_iclingas = {
+	name = "house_iclingas"
+	dynasty = 920213
+	motto = house_iclingas_motto
+}
+house_wuffingas = {
+	name = "house_wuffingas"
+	dynasty = 920213
+	motto = house_wuffingas_motto
+}

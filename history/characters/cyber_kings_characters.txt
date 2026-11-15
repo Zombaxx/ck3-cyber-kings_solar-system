@@ -2010,6 +2010,7 @@
 	rite = protestant_rite
 	7013.1.1 = { birth = yes }
 	7084.1.1 = { death = yes }
+	7050.9.15 = { employer = 9106000 }	# 2026-11-13 23:00: lost his county to the new colony rulers; stays at their court
 }
 100185 = {
 	name = "ckn_Klomsoork"
@@ -4031,6 +4032,7 @@
 	rite = protestant_rite
 	7031.1.1 = { birth = yes }
 	7103.1.1 = { death = yes }
+	7050.9.15 = { employer = 9106000 }	# 2026-11-13 23:00: lost his county to the new colony rulers; stays at their court
 }
 100420 = {
 	name = "ckn_Tlaloc"
@@ -81333,6 +81335,7 @@
 	mother = 108854
 	7018.1.1 = { birth = yes }
 	7076.1.1 = { death = yes }
+	7050.9.15 = { employer = 9106013 }	# 2026-11-13 23:00: lost his county to the new colony rulers; stays at their court
 }
 108856 = {
 	name = "ckn_Toospaug"
@@ -81739,6 +81742,7 @@
 	mother = 108894
 	7019.1.1 = { birth = yes }
 	7091.1.1 = { death = yes }
+	7050.9.15 = { employer = 9106012 }	# 2026-11-13 23:00: lost his county to the new colony rulers; stays at their court
 }
 108896 = {
 	name = "ckn_Otzairktein"
@@ -83665,6 +83669,7 @@
 	mother = 109124
 	7013.1.1 = { birth = yes }
 	7069.1.1 = { death = yes }
+	7050.9.15 = { employer = 9106015 }	# 2026-11-13 23:00: lost his county to the new colony rulers; stays at their court
 }
 109126 = {
 	name = "ckn_Rounkautznoug"
@@ -207150,7 +207155,7 @@
 777771 = {
 	name = "ckn_Rahab"
 	dynasty = 77777
-	culture = han
+	culture = aeon	# 2026-11-13 22:20 was han (error)
 	rite = eternal_mechanism_rite
 	diplomacy = 90
 	trait = education_diplomacy_3
@@ -207159,11 +207164,12 @@
 	father = 9103029
 	209.1.1 = { birth = yes }
 	2050.6.1 = { death = yes }
+	211.1.2 = { add_spouse = 777772 }	# 2026-11-14 03:10 (modder 01:01): married, so CK3 draws one family: Rahab and Tehom (mod lore couple)
 }
 777772 = {
 	name = "ckn_Tehom"
 	female = yes
-	culture = han
+	culture = aeon	# 2026-11-13 22:20 was han (error)
 	rite = eternal_mechanism_rite
 	martial = 90
 	trait = lifestyle_blademaster
@@ -207176,7 +207182,7 @@
 777773 = {
 	name = "ckn_Elyon"
 	dynasty = 77777
-	culture = han
+	culture = aeon	# 2026-11-13 22:20 was han (error)
 	rite = eternal_mechanism_rite
 	diplomacy = 9
 	trait = lifestyle_blademaster
@@ -207189,11 +207195,13 @@
 	226.1.5 = { birth = yes }
 	3250.1.1 = { effect = { add_character_flag = cronus_imprisoned_by_zeus } }
 	5391.2.24 = { death = yes }
+	244.1.2 = { add_spouse = 777774 }	# 2026-11-14 03:10 (modder 01:01): married, so CK3 draws one family: Elioun and Beruth (Philo of Byblos)
+	261.1.3 = { effect = { set_relation_rival = { target = character:777775 } } }	# 2026-11-15 12:30 (modder 11:35): Epigeius deposes elder Elyon
 }
 777775 = {
 	name = "ckn_Epigeius"
-	dynasty = 77777
-	culture = han
+	dynasty_house = house_elyon	# 2026-11-13 22:15 cadet house Elyon of the Aeon dynasty (from Elyon's children on)
+	culture = aeon	# 2026-11-13 22:20 was han (error)
 	rite = eternal_mechanism_rite
 	mother = 777774
 	martial = 9
@@ -207204,11 +207212,13 @@
 	father = 777773
 	245.1.7 = { birth = yes }
 	400.1.28 = { death = yes }
+	263.1.2 = { add_spouse = 777776 }	# 2026-11-14 03:10 (modder 01:01): married, so CK3 draws one family: Epigeius/Uranus and Ge/Gaia (Philo)
 }
 777776 = {
+	dynasty_house = house_elyon	# 2026-11-13 22:15 Elyon's daughter, El's mother (was lowborn)
 	name = "ckn_Gaia"
 	female = yes
-	culture = han
+	culture = aeon	# 2026-11-13 22:20 was han (error)
 	rite = eternal_mechanism_rite
 	diplomacy = 9
 	trait = full_cybernetic_conversion
@@ -207220,7 +207230,7 @@
 }
 777777 = {
 	name = "ckn_El"
-	dynasty = 77777
+	dynasty_house = house_elyon	# 2026-11-13 22:15 cadet house Elyon of the Aeon dynasty (from Elyon's children on)
 	culture = aeon
 	rite = eternal_mechanism_rite
 	diplomacy = 50
@@ -207239,11 +207249,14 @@
 	3420.6.1 = { effect = { add_character_flag = el_incapacitated_adonai_war } }
 	7050.9.15 = { effect = { add_pressed_claim = title:h_ck_celestial } }	# 2026-11-13 21:00 Phaeter round: claims on titles held in ancient times
 	7050.9.15 = { effect = { add_pressed_claim = title:e_empire1184 } }	# 2026-11-13 23:40 modder: Xiang line / Phobos / claims: ancestor's title (all ancestors dead)
+	299.1.2 = { add_spouse = 777778 }	# 2026-11-14 03:10 (modder 01:01): married, so CK3 draws one family: El and Asherah, his consort
+	280.1.3 = { effect = { set_relation_rival = { target = character:777775 } } }	# 2026-11-15 12:30 (modder 11:35): El overthrows his father (Philo of Byblos)
+	290.1.3 = { effect = { set_relation_rival = { target = character:7777775 } } }	# 2026-11-15 12:30 (modder 11:35): El buries his brother Atlas (Philo)
 }
 7777771 = {
 	name = "ckn_Dione"
 	female = yes
-	dynasty = 77777
+	dynasty_house = house_elyon	# 2026-11-13 22:15 cadet house Elyon of the Aeon dynasty (from Elyon's children on)
 	culture = aeon
 	rite = eternal_mechanism_rite
 	trait = full_cybernetic_conversion
@@ -207255,7 +207268,7 @@
 7777772 = {
 	name = "ckn_Rhea"
 	female = yes
-	dynasty = 77777
+	dynasty_house = house_elyon	# 2026-11-13 22:15 cadet house Elyon of the Aeon dynasty (from Elyon's children on)
 	culture = aeon
 	rite = eternal_mechanism_rite
 	trait = full_cybernetic_conversion
@@ -207266,7 +207279,7 @@
 }
 7777773 = {
 	name = "ckn_Baetyl"
-	dynasty = 77777
+	dynasty_house = house_elyon	# 2026-11-13 22:15 cadet house Elyon of the Aeon dynasty (from Elyon's children on)
 	culture = aeon
 	rite = eternal_mechanism_rite
 	trait = full_cybernetic_conversion
@@ -207278,7 +207291,7 @@
 }
 7777774 = {
 	name = "ckn_Dagon"
-	dynasty = 77777
+	dynasty_house = house_elyon	# 2026-11-13 22:15 cadet house Elyon of the Aeon dynasty (from Elyon's children on)
 	culture = aeon
 	rite = eternal_mechanism_rite
 	trait = full_cybernetic_conversion
@@ -207289,7 +207302,7 @@
 }
 7777775 = {
 	name = "ckn_Atlas"
-	dynasty = 77777
+	dynasty_house = house_elyon	# 2026-11-13 22:15 cadet house Elyon of the Aeon dynasty (from Elyon's children on)
 	culture = aeon
 	rite = eternal_mechanism_rite
 	trait = full_cybernetic_conversion
@@ -207310,7 +207323,7 @@
 }
 777779 = {
 	name = "ckn_Baal"
-	dynasty = 77777	# 2026-11-13 21:00 Phaeter round: Baal leaves house 77778 (the Olympians are now Zeus' house)
+	dynasty_house = house_elyon	# 2026-11-13 22:15 cadet house Elyon of the Aeon dynasty (from Elyon's children on)
 	culture = aeon
 	rite = olympic_rite
 	martial = 50
@@ -207324,6 +207337,8 @@
 	mother = 777778
 	480.5.1 = { birth = yes }
 	5391.2.24 = { death = yes }	# 2026-11-13 20:00 Baal: Theodosian decrees, 391 CE, with Cronus
+	496.1.3 = { effect = { set_relation_rival = { target = character:777783 } } }	# 2026-11-15 12:30 (modder 11:35): Baal and Mot (Baal Cycle)
+	496.1.3 = { effect = { set_relation_rival = { target = character:777782 } } }	# 2026-11-15 12:30 (modder 11:35): Baal and Yam (Baal Cycle)
 }
 7777791 = {
 	mother = 9104071	# 2026-11-13 21:00 Phaeter round
@@ -207347,6 +207362,8 @@
 	father = 9104013	# 2026-11-13 21:00 Phaeter round
 	3557.1.1 = { birth = yes }	# 2026-11-13 21:00 Phaeter round (proposal birth)
 	5391.2.24 = { death = yes }	# 2026-11-13 20:00 Greek pantheon dies with Cronus/Zeus, 391 CE
+	3573.1.3 = { effect = { set_relation_rival = { target = character:7777794 } } }	# 2026-11-15 12:30 (modder 11:35): Athena and Ares (Iliad 5, 21)
+	3573.1.3 = { effect = { set_relation_rival = { target = character:9104069 } } }	# 2026-11-15 12:30 (modder 11:35): the contest for Athens
 }
 7777792 = {
 	mother = 9104072	# 2026-11-13 21:00 Phaeter round
@@ -207387,6 +207404,9 @@
 	father = 9104013	# 2026-11-13 21:00 Phaeter round
 	3518.1.1 = { birth = yes }	# 2026-11-13 21:00 Phaeter round (proposal birth)
 	5391.2.24 = { death = yes }	# 2026-11-13 20:00 Greek pantheon dies with Cronus/Zeus, 391 CE
+	3556.1.3 = { effect = { set_relation_friend = { target = character:7777792 } } }	# 2026-11-15 12:30 (modder 11:35): the twins of Leto
+	3576.1.3 = { effect = { set_relation_friend = { target = character:7777797 } } }	# 2026-11-15 12:30 (modder 11:35): reconciled over the lyre (Homeric Hymn to Hermes)
+	3534.1.3 = { effect = { set_relation_lover = { target = character:9104094 } } }	# 2026-11-15 12:30 (modder 11:35): Coronis, mother of Asclepius
 }
 7777794 = {
 	mother = 9104066	# 2026-11-13 21:00 Phaeter round
@@ -207409,6 +207429,8 @@
 	3555.1.1 = { birth = yes }	# 2026-11-13 21:00 Phaeter round (proposal birth)
 	7050.9.15 = { effect = { set_immortal_age = 55 add_character_flag = do_not_generate_starting_family } }
 	7050.9.15 = { employer = 9104000 effect = { add_pressed_claim = title:k_kingdom1184 add_pressed_claim = title:e_empire1184 add_pressed_claim = title:h_mars } }	# 2026-11-13 23:40 modder: Xiang line / Phobos / claims: courtier of his grandfather Dyeus, claims on Olympus, Mars, Mars hegemony
+	3571.1.3 = { effect = { set_relation_lover = { target = character:9104088 } } }	# 2026-11-15 12:30 (modder 11:35): Ares and Aphrodite (Odyssey 8)
+	3571.1.3 = { effect = { set_relation_friend = { target = character:9104000 } } }	# 2026-11-15 12:30 (modder 11:35): Ares shelters with Dyeus on Triton
 }
 7777795 = {
 	mother = 9104066	# 2026-11-13 21:00 Phaeter round
@@ -207463,6 +207485,7 @@
 	father = 9104013	# 2026-11-13 21:00 Phaeter round
 	3560.1.1 = { birth = yes }	# 2026-11-13 21:00 Phaeter round (proposal birth)
 	5391.2.24 = { death = yes }	# 2026-11-13 20:00 Greek pantheon dies with Cronus/Zeus, 391 CE
+	3576.1.3 = { effect = { set_relation_lover = { target = character:9104088 } } }	# 2026-11-15 12:30 (modder 11:35): parents of Hermaphroditus
 }
 7777798 = {
 	mother = 9104074	# 2026-11-13 21:00 Phaeter round
@@ -207480,6 +207503,7 @@
 	father = 9104013	# 2026-11-13 21:00 Phaeter round
 	3546.1.1 = { birth = yes }	# 2026-11-13 21:00 Phaeter round (proposal birth)
 	5391.2.24 = { death = yes }	# 2026-11-13 20:00 Greek pantheon dies with Cronus/Zeus, 391 CE
+	3547.1.2 = { add_spouse = 9104096 }	# 2026-11-14 03:10 (modder 01:01): married, so CK3 draws one family: Dionysus and Ariadne
 }
 7777799 = {
 	mother = 9104076	# 2026-11-13 21:00 Phaeter round
@@ -207577,7 +207601,7 @@
 777780 = {
 	name = "ckn_Shahar"
 	female = yes
-	dynasty = 77777
+	dynasty_house = house_elyon	# 2026-11-13 22:15 cadet house Elyon of the Aeon dynasty (from Elyon's children on)
 	culture = aeon
 	rite = eternal_mechanism_rite
 	trait = full_cybernetic_conversion
@@ -207590,7 +207614,7 @@
 7777801 = {
 	name = "ckn_Shalim"
 	female = yes
-	dynasty = 77777
+	dynasty_house = house_elyon	# 2026-11-13 22:15 cadet house Elyon of the Aeon dynasty (from Elyon's children on)
 	culture = aeon
 	rite = eternal_mechanism_rite
 	trait = full_cybernetic_conversion
@@ -207603,7 +207627,7 @@
 777781 = {
 	name = "ckn_Anath"
 	female = yes
-	dynasty = 77777
+	dynasty_house = house_elyon	# 2026-11-13 22:15 cadet house Elyon of the Aeon dynasty (from Elyon's children on)
 	culture = aeon
 	rite = eternal_mechanism_rite
 	trait = full_cybernetic_conversion
@@ -207615,7 +207639,7 @@
 }
 777782 = {
 	name = "ckn_Yam"
-	dynasty = 77777
+	dynasty_house = house_elyon	# 2026-11-13 22:15 cadet house Elyon of the Aeon dynasty (from Elyon's children on)
 	culture = aeon
 	rite = eternal_mechanism_rite
 	trait = full_cybernetic_conversion
@@ -207627,7 +207651,7 @@
 }
 777783 = {
 	name = "ckn_Mot"
-	dynasty = 77777
+	dynasty_house = house_elyon	# 2026-11-13 22:15 cadet house Elyon of the Aeon dynasty (from Elyon's children on)
 	culture = aeon
 	rite = eternal_mechanism_rite
 	trait = full_cybernetic_conversion
@@ -207640,7 +207664,7 @@
 777784 = {
 	name = "ckn_Derketo"
 	female = yes
-	dynasty = 77777
+	dynasty_house = house_elyon	# 2026-11-13 22:15 cadet house Elyon of the Aeon dynasty (from Elyon's children on)
 	culture = aeon
 	rite = eternal_mechanism_rite
 	trait = full_cybernetic_conversion
@@ -207652,7 +207676,7 @@
 }
 777785 = {
 	name = "ckn_Shaddai"
-	dynasty = 77777
+	dynasty_house = house_elyon	# 2026-11-13 22:15 cadet house Elyon of the Aeon dynasty (from Elyon's children on)
 	culture = aeon
 	rite = eternal_mechanism_rite
 	trait = full_cybernetic_conversion
@@ -207664,7 +207688,7 @@
 }
 777786 = {
 	name = "ckn_Attar"
-	dynasty = 77777
+	dynasty_house = house_elyon	# 2026-11-13 22:15 cadet house Elyon of the Aeon dynasty (from Elyon's children on)
 	culture = aeon
 	rite = eternal_mechanism_rite
 	trait = full_cybernetic_conversion
@@ -207676,7 +207700,7 @@
 }
 777787 = {
 	name = "ckn_Moloch"
-	dynasty = 77777
+	dynasty_house = house_elyon	# 2026-11-13 22:15 cadet house Elyon of the Aeon dynasty (from Elyon's children on)
 	culture = aeon
 	rite = eternal_mechanism_rite
 	trait = full_cybernetic_conversion
@@ -207689,7 +207713,7 @@
 777788 = {
 	name = "ckn_Shapash"
 	female = yes
-	dynasty = 77777
+	dynasty_house = house_elyon	# 2026-11-13 22:15 cadet house Elyon of the Aeon dynasty (from Elyon's children on)
 	culture = aeon
 	rite = eternal_mechanism_rite
 	trait = full_cybernetic_conversion
@@ -207702,7 +207726,7 @@
 777789 = {
 	name = "ckn_Nikelah"
 	female = yes
-	dynasty = 77777
+	dynasty_house = house_elyon	# 2026-11-13 22:15 cadet house Elyon of the Aeon dynasty (from Elyon's children on)
 	culture = aeon
 	rite = eternal_mechanism_rite
 	trait = full_cybernetic_conversion
@@ -207733,7 +207757,7 @@
 }
 7777901 = {
 	name = "ckn_Pothos"
-	dynasty = 77777
+	dynasty_house = house_elyon	# 2026-11-13 22:15 cadet house Elyon of the Aeon dynasty (from Elyon's children on)
 	culture = aeon
 	rite = eternal_mechanism_rite
 	trait = full_cybernetic_conversion
@@ -207745,7 +207769,7 @@
 }
 7777902 = {
 	name = "ckn_Anobret"
-	dynasty = 77777
+	dynasty_house = house_elyon	# 2026-11-13 22:15 cadet house Elyon of the Aeon dynasty (from Elyon's children on)
 	culture = aeon
 	rite = eternal_mechanism_rite
 	trait = full_cybernetic_conversion
@@ -207757,7 +207781,7 @@
 }
 7777903 = {
 	name = "ckn_Ieoud"
-	dynasty = 77777
+	dynasty_house = house_elyon	# 2026-11-13 22:15 cadet house Elyon of the Aeon dynasty (from Elyon's children on)
 	culture = aeon
 	rite = eternal_mechanism_rite
 	trait = full_cybernetic_conversion
@@ -207770,7 +207794,7 @@
 }
 7777904 = {
 	name = "ckn_Artemides"
-	dynasty = 77777
+	dynasty_house = house_elyon	# 2026-11-13 22:15 cadet house Elyon of the Aeon dynasty (from Elyon's children on)
 	culture = aeon
 	rite = eternal_mechanism_rite
 	trait = full_cybernetic_conversion
@@ -207796,11 +207820,12 @@
 	father = 7777793	# 2026-11-13 21:00 Phaeter round
 	3551.1.1 = { birth = yes }	# 2026-11-13 21:00 Phaeter round (proposal birth)
 	5391.2.24 = { death = yes }	# 2026-11-13 20:00 Greek pantheon dies with Cronus/Zeus, 391 CE
+	3552.1.2 = { add_spouse = 9104095 }	# 2026-11-14 03:10 (modder 01:01): married, so CK3 draws one family: Asclepius and Epione
 }
 777792 = {
 	name = "ckn_Shaddai"
 	female = yes
-	dynasty = 77777
+	dynasty_house = house_elyon	# 2026-11-13 22:15 cadet house Elyon of the Aeon dynasty (from Elyon's children on)
 	culture = aeon
 	rite = eternal_mechanism_rite
 	trait = full_cybernetic_conversion
@@ -207831,7 +207856,7 @@
 }
 777794 = {
 	name = "ckn_Demarun"
-	dynasty = 77777
+	dynasty_house = house_elyon	# 2026-11-13 22:15 cadet house Elyon of the Aeon dynasty (from Elyon's children on)
 	culture = aeon
 	rite = eternal_mechanism_rite
 	trait = full_cybernetic_conversion
@@ -207842,7 +207867,7 @@
 }
 777795 = {
 	name = "ckn_Melqart"
-	dynasty = 77777
+	dynasty_house = house_elyon	# 2026-11-13 22:15 cadet house Elyon of the Aeon dynasty (from Elyon's children on)
 	culture = aeon
 	rite = eternal_mechanism_rite
 	trait = full_cybernetic_conversion
@@ -207862,7 +207887,7 @@
 }
 777798 = {
 	name = "ckn_Nous"
-	dynasty = 77777
+	dynasty_house = house_elyon	# 2026-11-13 22:15 cadet house Elyon of the Aeon dynasty (from Elyon's children on)
 	culture = aeon
 	rite = eternal_mechanism_rite
 	trait = full_cybernetic_conversion
@@ -207873,11 +207898,12 @@
 	7050.9.15 = { effect = { set_immortal_age = 55 add_character_flag = do_not_generate_starting_family } }
 	3420.6.1 = { effect = { add_trait = devoted } }	# 2026-11-13 21:00 takes vows when El is struck down, leaving the regency and El's line to their son Logos
 	7050.9.15 = { effect = { add_pressed_claim = title:h_ck_celestial } }	# 2026-11-13 23:40 modder: Xiang line / Phobos / claims: parent El held it
+	499.1.2 = { add_spouse = 777799 }	# 2026-11-14 03:10 (modder 01:01): married, so CK3 draws one family: Nous and Aletheia, a Valentinian syzygy
 }
 777799 = {
 	name = "ckn_Aletheia"
 	female = yes
-	dynasty = 77777
+	dynasty_house = house_elyon	# 2026-11-13 22:15 cadet house Elyon of the Aeon dynasty (from Elyon's children on)
 	culture = aeon
 	rite = eternal_mechanism_rite
 	trait = full_cybernetic_conversion
@@ -207905,7 +207931,7 @@
 777101 = {
 	name = "ckn_Zoe"
 	female = yes
-	dynasty = 77777
+	dynasty_house = house_elyon	# 2026-11-13 22:15 cadet house Elyon of the Aeon dynasty (from Elyon's children on)
 	culture = aeon
 	rite = eternal_mechanism_rite
 	trait = full_cybernetic_conversion
@@ -208233,6 +208259,7 @@
 	3400.1.1 = { effect = { add_character_flag = rebelled_against_el_elyon } }
 	4415.7.1 = { effect = { add_character_flag = trapped_in_antarctic_ice } }
 	7050.9.15 = { effect = { add_pressed_claim = title:d_duchy0183 add_pressed_claim = title:e_empire0305 add_pressed_claim = title:e_empire0604 } }	# 2026-11-13 21:00 Phaeter round: claims on titles held in ancient times
+	891.1.3 = { effect = { set_relation_rival = { target = character:777777 } } }	# 2026-11-15 12:30 (modder 11:35): Adonai's rebellion
 }
 777126 = {
 	name = "ckn_Eosphorus"
@@ -208254,10 +208281,12 @@
 	4300.1.1 = { effect = { add_character_flag = rebelled_against_adonai } }
 	7050.9.15 = { effect = { add_pressed_claim = title:d_duchy0183 add_pressed_claim = title:e_empire0953 add_pressed_claim = title:k_kingdom0132 } }	# 2026-11-13 21:00 Phaeter round: claims on titles held in ancient times
 	7050.9.15 = { effect = { add_pressed_claim = title:e_empire1184 add_pressed_claim = title:h_ck_celestial } }	# 2026-11-13 23:40 modder: Xiang line / Phobos / claims: ancestors' titles (all ancestors dead)
+	896.1.3 = { effect = { set_relation_friend = { target = character:777125 } } }	# 2026-11-15 12:30 (modder 11:35): Adonai's favourite general
+	896.1.3 = { effect = { set_relation_rival = { target = character:777100 } } }	# 2026-11-15 12:30 (modder 11:35): the War in Heaven
 }
 777127 = {
 	name = "ckn_Adam"
-	dynasty = 77781
+	dynasty_house = house_eden	# 2026-11-13 23:50 cadet house of Eden (dynasty 77781)
 	culture = bedouin
 	rite = triarchy_rite
 	trait = clone
@@ -208272,7 +208301,7 @@
 777128 = {
 	name = "ckn_Eve"
 	female = yes
-	dynasty = 77781
+	dynasty_house = house_eden	# 2026-11-13 23:50 cadet house of Eden (dynasty 77781)
 	culture = bedouin
 	rite = eternal_mechanism_rite
 	trait = clone
@@ -208286,17 +208315,152 @@
 }
 777129 = {
 	name = "ckn_Cain"
-	dynasty = 77781
+	dynasty_house = house_nod	# 2026-11-13 23:50 cadet house of Nod, Cain's line (dynasty 77781)
 	culture = bedouin
 	rite = hellenic_pagan
 	father = 777127
 	mother = 777128
 	1015.1.1 = { birth = yes }
-	1902.1.1 = { death = yes }
+	1145.1.1 = { add_spouse = 9105000 }	# 2026-11-13 22:00 Jubilees 4:9
+	1902.1.1 = { death = { death_reason = death_murder killer = 9105005 } }	# 2026-11-13 22:00 shot by blind Lamech, his great-great-great-grandson (Midrash Tanhuma, Bereshit 11; Gen 4:23)
+	1033.1.3 = { effect = { set_relation_rival = { target = character:777130 } } }	# 2026-11-15 12:30 (modder 11:35): Cain and Abel
+}
+
+# ---- 2026-11-13 22:00 Cain's line (Genesis 4:17-24): _dev/scripts/oneoff/gen_cain_line.py; all dead by the Flood (AP 2653.2.17)
+9105000 = {	# Cain's sister and wife (Jubilees 4:1, 4:9)
+	name = "ckn_Awan"
+	female = yes
+	dynasty_house = house_eden	# 2026-11-13 23:50 cadet house of Eden (dynasty 77781)
+	culture = bedouin
+	rite = hellenic_pagan
+	father = 777127
+	mother = 777128
+	1070.1.1 = { birth = yes }
+	1145.1.1 = { add_spouse = 777129 }	# Jubilees 4:9: Cain takes Awan (AM 148)
+	1950.1.1 = { death = yes }
+}
+9105001 = {	# Cain builds the first city and names it after him (Gen 4:17)
+	name = "ckn_Enoch"
+	dynasty_house = house_nod	# 2026-11-13 23:50 cadet house of Nod, Cain's line (dynasty 77781)
+	culture = bedouin
+	rite = hellenic_pagan
+	trait = education_stewardship_3
+	trait = diligent
+	father = 777129
+	mother = 9105000
+	1193.1.1 = { birth = yes }
+	2098.1.1 = { death = yes }
+}
+9105002 = {	# Gen 4:18
+	name = "ckn_Irad"
+	dynasty_house = house_nod	# 2026-11-13 23:50 cadet house of Nod, Cain's line (dynasty 77781)
+	culture = bedouin
+	rite = hellenic_pagan
+	father = 9105001
+	1327.1.1 = { birth = yes }
+	2227.1.1 = { death = yes }
+}
+9105003 = {	# Gen 4:18
+	name = "ckn_Mehujael"
+	dynasty_house = house_nod	# 2026-11-13 23:50 cadet house of Nod, Cain's line (dynasty 77781)
+	culture = bedouin
+	rite = hellenic_pagan
+	father = 9105002
+	1457.1.1 = { birth = yes }
+	2357.1.1 = { death = yes }
+}
+9105004 = {	# Gen 4:18
+	name = "ckn_Methushael"
+	dynasty_house = house_nod	# 2026-11-13 23:50 cadet house of Nod, Cain's line (dynasty 77781)
+	culture = bedouin
+	rite = hellenic_pagan
+	father = 9105003
+	1587.1.1 = { birth = yes }
+	2487.1.1 = { death = yes }
+}
+9105005 = {	# the first bigamist; "Lamech seventy-sevenfold" (Gen 4:19-24); dies in the Flood
+	name = "ckn_Lamech"
+	dynasty_house = house_nod	# 2026-11-13 23:50 cadet house of Nod, Cain's line (dynasty 77781)
+	culture = bedouin
+	rite = hellenic_pagan
+	trait = vengeful
+	trait = wrathful
+	trait = blind
+	trait = lifestyle_poet
+	father = 9105004
+	1717.1.1 = { birth = yes }
+	1840.1.1 = { add_spouse = 9105006 }
+	1845.1.1 = { add_spouse = 9105007 }
+	2653.2.17 = { death = yes }
+}
+9105006 = {	# Lamech's first wife (Gen 4:19); dies in the Flood	# 2026-11-13 23:50 lowborn (was wrongly in dynasty 77781)
+	name = "ckn_Adah"
+	female = yes
+	culture = bedouin
+	rite = hellenic_pagan
+	1725.1.1 = { birth = yes }
+	2653.2.17 = { death = yes }
+}
+9105007 = {	# Lamech's second wife (Gen 4:19); dies in the Flood	# 2026-11-13 23:50 lowborn (was wrongly in dynasty 77781)
+	name = "ckn_Zillah"
+	female = yes
+	culture = bedouin
+	rite = hellenic_pagan
+	1730.1.1 = { birth = yes }
+	2653.2.17 = { death = yes }
+}
+9105008 = {	# father of those who dwell in tents and keep livestock (Gen 4:20); dies in the Flood
+	name = "ckn_Jabal_c"
+	dynasty_house = house_nod	# 2026-11-13 23:50 cadet house of Nod, Cain's line (dynasty 77781)
+	culture = bedouin
+	rite = hellenic_pagan
+	trait = education_stewardship_3
+	trait = content
+	father = 9105005
+	mother = 9105006
+	1847.1.1 = { birth = yes }
+	2653.2.17 = { death = yes }
+}
+9105009 = {	# father of all who play the lyre and pipe (Gen 4:21); dies in the Flood
+	name = "ckn_Jubal"
+	dynasty_house = house_nod	# 2026-11-13 23:50 cadet house of Nod, Cain's line (dynasty 77781)
+	culture = bedouin
+	rite = hellenic_pagan
+	trait = lifestyle_poet
+	trait = gregarious
+	father = 9105005
+	mother = 9105006
+	1852.1.1 = { birth = yes }
+	2653.2.17 = { death = yes }
+}
+9105010 = {	# forger of bronze and iron tools (Gen 4:22); guided blind Lamech when he shot Cain (Tanhuma); dies in the Flood
+	name = "ckn_TubalCain"
+	dynasty_house = house_nod	# 2026-11-13 23:50 cadet house of Nod, Cain's line (dynasty 77781)
+	culture = bedouin
+	rite = hellenic_pagan
+	trait = education_stewardship_4
+	trait = strong
+	trait = diligent
+	father = 9105005
+	mother = 9105007
+	1862.1.1 = { birth = yes }
+	2653.2.17 = { death = yes }
+}
+9105011 = {	# sister of Tubal-cain (Gen 4:22); dies in the Flood
+	name = "ckn_Naamah"
+	female = yes
+	dynasty_house = house_nod	# 2026-11-13 23:50 cadet house of Nod, Cain's line (dynasty 77781)
+	culture = bedouin
+	rite = hellenic_pagan
+	trait = beauty_good_2
+	father = 9105005
+	mother = 9105007
+	1867.1.1 = { birth = yes }
+	2653.2.17 = { death = yes }
 }
 777130 = {
 	name = "ckn_Able"
-	dynasty = 77781
+	dynasty_house = house_eden	# 2026-11-13 23:50 cadet house of Eden (dynasty 77781)
 	culture = bedouin
 	rite = eternal_mechanism_rite
 	trait = empath
@@ -208308,7 +208472,7 @@
 }
 777131 = {
 	name = "ckn_Seth"
-	dynasty = 77781
+	dynasty_house = house_eden	# 2026-11-13 23:50 cadet house of Eden (dynasty 77781)
 	culture = bedouin
 	rite = eternal_mechanism_rite
 	trait = gmo
@@ -208849,7 +209013,11 @@
 	trait = compassionate
 	trait = generous
 	trait = brave
+	father = 9107150	# 2026-11-13 23:40: Shuddhodana of the Shakya (Ikshvaku) line
+	mother = 9107151
+	trait = clone	# 2026-11-13 23:40: avatar 9 of Vishnu (Vaishnava lists)
 	4438.4.8 = { birth = yes }
+	4438.4.8 = { effect = { add_character_flag = avatar_of_vishnu } }
 	4518.1.1 = { death = yes }
 }
 400157 = {
@@ -229420,7 +229588,7 @@
 777774 = {
 	name = "ckn_Beruth"
 	female = yes
-	culture = han
+	culture = aeon	# 2026-11-13 22:20 was han (error)
 	rite = eternal_mechanism_rite
 	diplomacy = 9
 	trait = full_cybernetic_conversion

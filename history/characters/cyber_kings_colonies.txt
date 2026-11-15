@@ -1,0 +1,120 @@
+﻿# Cyber Kings 2026-11-13 23:00: China's moon base and the former Soviet colony on Venus (_dev/scripts/oneoff/gen_colonies.py).
+
+9106000 = {	# Commander of China's moon base (built AP 7020 = 2020 CE)
+	name = "ckn_Mingyue"
+	female = yes
+	dynasty = 920100
+	culture = han
+	rite = dhyana
+	trait = diligent
+	trait = ambitious
+	trait = calm
+	trait = education_stewardship_4
+	stewardship = 16
+	learning = 12
+	6994.3.8 = { birth = yes }
+	7020.6.1 = { effect = { add_character_flag = founded_chinese_moon_base } }	# commander of the 2020 Chinese lunar colony
+}
+
+9106001 = {	# Chinese count at the moon base
+	name = "ckn_Haoran"
+	dynasty = 920101
+	culture = han
+	rite = dhyana
+	trait = brave
+	trait = patient
+	trait = honest
+	trait = education_martial_3
+	martial = 12
+	7012.9.1 = { birth = yes }
+}
+
+9106010 = {	# Soviet commandant of the Venus colony 1975-1991 (Venusnam War)
+	name = "ckn_Arkady"
+	dynasty = 920102
+	culture = russian
+	rite = byzantine_rite
+	trait = brave
+	trait = stubborn
+	trait = ambitious
+	trait = education_martial_4
+	martial = 16
+	6935.2.11 = { birth = yes }
+	6975.4.30 = { effect = { add_character_flag = soviet_commandant_of_venus } }	# the Soviets win the Venusnam War
+	6976.6.1 = { add_spouse = 9106011 }
+	6992.1.1 = { employer = 9106012 }	# the USSR gives up off-world rule; he retires at his son's court
+	7019.8.19 = { death = yes }
+}
+
+9106011 = {	# Lemurian noblewoman, wife of the Soviet commandant
+	name = "ckn_Hanae"
+	female = yes
+	dynasty = 108890
+	culture = ckw_lemurian
+	rite = shinto
+	trait = compassionate
+	trait = calm
+	trait = gregarious
+	trait = education_diplomacy_3
+	father = 108890
+	6950.1.1 = { birth = yes }
+	7031.1.1 = { death = yes }
+}
+
+9106012 = {	# half-Russian, half-Lemurian Duke of the former Soviet colony
+	name = "ckn_Nikolai"
+	dynasty = 920102
+	culture = dennitsan
+	rite = byzantine_rite
+	trait = diligent
+	trait = deceitful
+	trait = ambitious
+	trait = education_diplomacy_4
+	diplomacy = 16
+	intrigue = 12
+	father = 9106010
+	mother = 9106011
+	6977.5.9 = { birth = yes }
+}
+
+9106014 = {	# first EU custodian of the Russian settlers (1992)
+	name = "ckn_Jurgen"
+	dynasty = 920103
+	culture = german
+	rite = roman_rite
+	trait = just
+	trait = diligent
+	trait = patient
+	trait = education_stewardship_3
+	stewardship = 14
+	6958.10.3 = { birth = yes }
+	7029.6.1 = { death = yes }
+}
+
+9106013 = {	# EU-appointed count of the Russian settlers
+	name = "ckn_Lukas"
+	dynasty = 920103
+	culture = german
+	rite = roman_rite
+	trait = honest
+	trait = diligent
+	trait = calm
+	trait = education_stewardship_3
+	stewardship = 14
+	father = 9106014
+	7008.4.2 = { birth = yes }
+}
+
+9106015 = {	# American adventurer, count of the Lemurian natives since 2046
+	name = "ckn_Cody"
+	dynasty = 920104
+	culture = liblander
+	rite = roman_rite
+	trait = brave
+	trait = ambitious
+	trait = gregarious
+	trait = education_martial_3
+	martial = 12
+	prowess = 14
+	7011.7.4 = { birth = yes }
+}

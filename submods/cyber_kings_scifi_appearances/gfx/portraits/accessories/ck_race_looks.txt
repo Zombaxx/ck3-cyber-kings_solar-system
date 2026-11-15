@@ -1,0 +1,37 @@
+﻿# Cyber Kings Sci-Fi Culture Appearances: race eyes (gen_eyes.py)
+male_ck_eyes_cat_01 = {
+	entity = { entity = "male_ck_eyes_cat_entity"		shared_pose_entity = head }
+}
+male_ck_eyes_ember_01 = {
+	entity = { entity = "male_ck_eyes_ember_entity"		shared_pose_entity = head }
+}
+male_ck_eyes_aeon_gold_01 = {
+	entity = { entity = "male_ck_eyes_aeon_gold_entity"		shared_pose_entity = head }
+}
+male_ck_eyes_aeon_violet_01 = {
+	entity = { entity = "male_ck_eyes_aeon_violet_entity"		shared_pose_entity = head }
+}
+male_ck_eyes_spark_01 = {
+	entity = { entity = "male_ck_eyes_spark_entity"		shared_pose_entity = head }
+}
+male_ck_eyes_tauceti_gold_01 = {
+	entity = { entity = "male_ck_eyes_tauceti_gold_entity"		shared_pose_entity = head }
+}
+female_ck_eyes_cat_01 = {
+	entity = { entity = "female_ck_eyes_cat_entity"		shared_pose_entity = head }
+}
+female_ck_eyes_ember_01 = {
+	entity = { entity = "female_ck_eyes_ember_entity"		shared_pose_entity = head }
+}
+female_ck_eyes_aeon_gold_01 = {
+	entity = { entity = "female_ck_eyes_aeon_gold_entity"		shared_pose_entity = head }
+}
+female_ck_eyes_aeon_violet_01 = {
+	entity = { entity = "female_ck_eyes_aeon_violet_entity"		shared_pose_entity = head }
+}
+female_ck_eyes_spark_01 = {
+	entity = { entity = "female_ck_eyes_spark_entity"		shared_pose_entity = head }
+}
+female_ck_eyes_tauceti_gold_01 = {
+	entity = { entity = "female_ck_eyes_tauceti_gold_entity"		shared_pose_entity = head }
+}

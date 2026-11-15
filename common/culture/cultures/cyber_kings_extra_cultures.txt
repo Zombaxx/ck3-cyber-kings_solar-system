@@ -1,0 +1,103 @@
+﻿# Cyber Kings 2026-11-13 23:00 (gen_colonies.py)
+# sol: the proto-civilization of the whole Solar System. Before endgame only Emperor Aeon 9103002 has it (modder 21:57); it is meant
+#      to be founded again by the holder of the Sol hegemony (h_ck_sol) - that decision is not built yet.
+# dennitsan: Russian settlers mixed with the Lemurians of Venus in the former Soviet colony (Dennitsa = the morning star, Venus).
+sol = {
+	color = { 1.0 0.85 0.25 }
+	ethos = ethos_stoic
+	heritage = heritage_archaic
+	language = language_archaic
+	martial_custom = martial_custom_equal
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_ck_sol
+		tradition_ck_aeon
+		tradition_ck_phaeter
+		tradition_mystical_ancestors
+	}
+	name_list = name_list_ck_aeon
+	coa_gfx = { arabic_group_coa_gfx }
+	building_gfx = { mena_building_gfx }
+	clothing_gfx = { dde_abbasid_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+	house_coa_frame = house_frame_05
+	ethnicities = {
+		10 = mediterranean
+	}
+}
+
+dennitsan = {
+	color = { 0.55 0.40 0.55 }
+	ethos = ethos_communal
+	heritage = heritage_east_slavic
+	language = language_east_slavic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_xenophilic
+		tradition_hard_working
+		tradition_adaptive_skirmishing
+	}
+	name_list = name_list_russian
+	coa_gfx = { east_slavic_group_coa_gfx western_coa_gfx }
+	building_gfx = { east_slavic_building_gfx western_building_gfx }
+	clothing_gfx = { east_slavic_clothing_gfx northern_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+	house_coa_frame = house_frame_02
+	ethnicities = {
+		50 = slavic_northern_blond
+		50 = asian_japanese
+	}
+}
+
+# 2026-11-13 23:20 (modder 22:09): Dyeus Phaeter 9104000 only. He was born a Sol; after his long imprisonment on Ganymede he is
+# adapting to the Deiwic (phaeteran) culture of his own descendants. A hybrid of sol + phaeteran.
+sol_deiwic = {
+	color = { 0.75 0.75 0.45 }
+	ethos = ethos_stoic
+	heritage = heritage_archaic
+	language = language_archaic
+	martial_custom = martial_custom_equal
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_ck_sol
+		tradition_ck_phaeter
+		tradition_mystical_ancestors
+		tradition_hereditary_hierarchy
+	}
+	name_list = name_list_ck_aeon
+	coa_gfx = { arabic_group_coa_gfx }
+	building_gfx = { mena_building_gfx }
+	clothing_gfx = { dde_abbasid_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+	house_coa_frame = house_frame_05
+	ethnicities = {
+		10 = mediterranean
+	}
+}
+
+# 2026-11-13 23:40 (modder 22:20): Ganesha's own culture - the elephant-headed Gajanana ("elephant-faced"), grown by Parvati and given an
+# elephant head by Shiva. Only Ganesha has it.
+gajanan = {
+	color = { 0.85 0.35 0.45 }
+	ethos = ethos_learned
+	heritage = heritage_archaic
+	language = language_sauraseni
+	martial_custom = martial_custom_equal
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_ck_phaeter
+		tradition_philosopher_culture
+		tradition_storytellers
+		tradition_ruling_caste
+	}
+	name_list = name_list_hindustani
+	coa_gfx = { indo_aryan_group_coa_gfx }
+	building_gfx = { indian_building_gfx }
+	clothing_gfx = { indian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+	house_coa_frame = house_frame_17
+	ethnicities = {
+		100 = indian
+	}
+}
