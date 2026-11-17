@@ -1,4 +1,7 @@
-﻿# Cyber Kings: OVERRIDE of vanilla common/genes/02_genes_accessories_misc.txt - vanilla content unchanged except
+﻿# Cyber Kings Sci-Fi Culture Appearances: OVERRIDE of common/genes/02_genes_accessories_misc.txt = the MAIN MOD copy
+# (vanilla + cyber_eyes_*) with the ck_eyes_* race eye templates added. Re-derive whenever the main mod file changes
+# (gen_cyber_eyes.py) or after a CK3 patch: python3 gen_all.py <out> <main mod file>.
+# Cyber Kings: OVERRIDE of vanilla common/genes/02_genes_accessories_misc.txt - vanilla content unchanged except
 # the cyber_eyes_* templates added to eye_accessory (gen_cyber_eyes.py). Re-derive after every CK3 patch.
 
 
@@ -127,6 +130,48 @@ accessory_genes = {
 			index = 28
 			male = {	1 = "male_cyber_eyes_martial_5_01"	}
 			female = {	1 = "female_cyber_eyes_martial_5_01"	}
+			boy = male
+			girl = female
+		}
+		ck_eyes_cat = {	# Cyber Kings Sci-Fi Culture Appearances (gen_eyes.py)
+			index = 40
+			male = {	1 = "male_ck_eyes_cat_01"	}
+			female = {	1 = "female_ck_eyes_cat_01"	}
+			boy = male
+			girl = female
+		}
+		ck_eyes_ember = {	# Cyber Kings Sci-Fi Culture Appearances (gen_eyes.py)
+			index = 41
+			male = {	1 = "male_ck_eyes_ember_01"	}
+			female = {	1 = "female_ck_eyes_ember_01"	}
+			boy = male
+			girl = female
+		}
+		ck_eyes_aeon_gold = {	# Cyber Kings Sci-Fi Culture Appearances (gen_eyes.py)
+			index = 42
+			male = {	1 = "male_ck_eyes_aeon_gold_01"	}
+			female = {	1 = "female_ck_eyes_aeon_gold_01"	}
+			boy = male
+			girl = female
+		}
+		ck_eyes_aeon_violet = {	# Cyber Kings Sci-Fi Culture Appearances (gen_eyes.py)
+			index = 43
+			male = {	1 = "male_ck_eyes_aeon_violet_01"	}
+			female = {	1 = "female_ck_eyes_aeon_violet_01"	}
+			boy = male
+			girl = female
+		}
+		ck_eyes_spark = {	# Cyber Kings Sci-Fi Culture Appearances (gen_eyes.py)
+			index = 44
+			male = {	1 = "male_ck_eyes_spark_01"	}
+			female = {	1 = "female_ck_eyes_spark_01"	}
+			boy = male
+			girl = female
+		}
+		ck_eyes_tauceti_gold = {	# Cyber Kings Sci-Fi Culture Appearances (gen_eyes.py)
+			index = 45
+			male = {	1 = "male_ck_eyes_tauceti_gold_01"	}
+			female = {	1 = "female_ck_eyes_tauceti_gold_01"	}
 			boy = male
 			girl = female
 		}
