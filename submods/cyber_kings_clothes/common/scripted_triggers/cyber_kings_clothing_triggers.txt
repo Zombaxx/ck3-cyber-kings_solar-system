@@ -1,0 +1,64 @@
+﻿# Cyber Kings clothing triggers (gen_clothes_script.py). Used by portrait_modifiers/cyber_kings_clothes.txt.
+# Character scope, scope:culture = the portrait culture (as vanilla portrait_shared_clothing_contents_trigger).
+
+cyber_portrait_cywizard_clothing_trigger = {
+	OR = {
+		portrait_has_trait_trigger = { TRAIT = full_cybernetic_conversion }
+		scope:culture ?= {
+			OR = {
+				this = culture:archon
+				this = culture:aeon
+			}
+		}
+	}
+}
+
+cyber_portrait_spacer_clothing_trigger = {
+	scope:culture ?= { has_cultural_pillar = heritage_ck_spacer }
+}
+
+# Earth = the same rule as the Observation Wall map table: every heritage except the Spacer, otherworlden-people
+# and e46 world heritages, and except the pre-split world cultures (_dev/scripts/map_table/gen_styles.py).
+cyber_portrait_earth_clothing_trigger = {
+	scope:culture ?= {
+		NOR = {
+			has_cultural_pillar = heritage_ck_spacer
+			has_cultural_pillar = heritage_archaic
+			has_cultural_pillar = heritage_proto
+			has_cultural_pillar = heritage_cathrian
+			has_cultural_pillar = heritage_denisovan
+			has_cultural_pillar = heritage_ckw_selenic
+			has_cultural_pillar = heritage_ckw_hermean
+			has_cultural_pillar = heritage_ckw_utaridian
+			has_cultural_pillar = heritage_ckw_stilbonian
+			has_cultural_pillar = heritage_ckw_qairunan
+			has_cultural_pillar = heritage_ckw_aphroditian
+			has_cultural_pillar = heritage_ckw_hyndlan
+			has_cultural_pillar = heritage_ckw_phoebean
+			has_cultural_pillar = heritage_ckw_hestian
+			has_cultural_pillar = heritage_ckw_ganisic
+			has_cultural_pillar = heritage_ckw_venerian
+			has_cultural_pillar = heritage_ckw_hesperian
+			has_cultural_pillar = heritage_ckw_memnonian
+			has_cultural_pillar = heritage_ckw_thaumasian
+			has_cultural_pillar = heritage_ckw_alban
+			has_cultural_pillar = heritage_ckw_isidian
+			has_cultural_pillar = heritage_ckw_ahunan
+			has_cultural_pillar = heritage_ckw_artemian
+			has_cultural_pillar = heritage_ckw_asgardian
+			has_cultural_pillar = heritage_ckw_valhallan
+			has_cultural_pillar = heritage_ckw_tyrian
+			has_cultural_pillar = heritage_ckw_agenorian
+			has_cultural_pillar = heritage_ckw_galilean
+			has_cultural_pillar = heritage_ckw_nergalian
+			has_cultural_pillar = heritage_ckw_beletian
+			has_cultural_pillar = heritage_ckw_kronian
+			has_cultural_pillar = heritage_ckw_neptunian
+			this = culture:lunar
+			this = culture:mercurian
+			this = culture:venusian
+			this = culture:yonagunian
+			this = culture:martian
+		}
+	}
+}

@@ -1,0 +1,163 @@
+﻿# Cyber Kings court room: Spacer Guild hall aboard the Aurora (_dev/scripts/court/gen_court.py)
+
+pdxmesh = {
+	name = "ck_court_spacer_floor_mesh"
+	file = "ck_court_spacer_floor.mesh"
+	meshsettings = {
+		name = "ck_court_spacer_floorShape"
+		index = 0
+		texture_diffuse = "ck_court_spacer_floor_diffuse.dds"
+		texture_normal = "ck_court_spacer_floor_normal.dds"
+		texture_specular = "ck_court_spacer_floor_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+}
+entity = {
+	name = "ck_court_spacer_floor_entity"
+	pdxmesh = "ck_court_spacer_floor_mesh"
+}
+
+pdxmesh = {
+	name = "ck_court_spacer_runner_mesh"
+	file = "ck_court_spacer_runner.mesh"
+	meshsettings = {
+		name = "ck_court_spacer_runnerShape"
+		index = 0
+		texture_diffuse = "ck_court_spacer_runner_diffuse.dds"
+		texture_normal = "ck_court_spacer_runner_normal.dds"
+		texture_specular = "ck_court_spacer_runner_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+}
+entity = {
+	name = "ck_court_spacer_runner_entity"
+	pdxmesh = "ck_court_spacer_runner_mesh"
+}
+
+pdxmesh = {
+	name = "ck_court_spacer_ceiling_mesh"
+	file = "ck_court_spacer_ceiling.mesh"
+	meshsettings = {
+		name = "ck_court_spacer_ceilingShape"
+		index = 0
+		texture_diffuse = "ck_court_spacer_ceiling_diffuse.dds"
+		texture_normal = "ck_court_spacer_ceiling_normal.dds"
+		texture_specular = "ck_court_spacer_ceiling_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+}
+entity = {
+	name = "ck_court_spacer_ceiling_entity"
+	pdxmesh = "ck_court_spacer_ceiling_mesh"
+}
+
+pdxmesh = {
+	name = "ck_court_spacer_wall_mesh"
+	file = "ck_court_spacer_wall.mesh"
+	meshsettings = {
+		name = "ck_court_spacer_wallShape"
+		index = 0
+		texture_diffuse = "ck_court_spacer_wall_diffuse.dds"
+		texture_normal = "ck_court_spacer_wall_normal.dds"
+		texture_specular = "ck_court_spacer_wall_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+}
+entity = {
+	name = "ck_court_spacer_wall_entity"
+	pdxmesh = "ck_court_spacer_wall_mesh"
+}
+
+pdxmesh = {
+	name = "ck_court_spacer_window_mesh"
+	file = "ck_court_spacer_window.mesh"
+	meshsettings = {
+		name = "ck_court_spacer_windowShape"
+		index = 0
+		texture_diffuse = "ck_court_spacer_window_diffuse.dds"
+		texture_normal = "ck_court_spacer_window_normal.dds"
+		texture_specular = "ck_court_spacer_window_properties.dds"
+		shader = "court_alpha_to_coverage"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+}
+entity = {
+	name = "ck_court_spacer_window_entity"
+	pdxmesh = "ck_court_spacer_window_mesh"
+}
+
+pdxmesh = {
+	name = "ck_court_spacer_thronewall_mesh"
+	file = "ck_court_spacer_thronewall.mesh"
+	meshsettings = {
+		name = "ck_court_spacer_thronewallShape"
+		index = 0
+		texture_diffuse = "ck_court_spacer_throne_diffuse.dds"
+		texture_normal = "ck_court_spacer_throne_normal.dds"
+		texture_specular = "ck_court_spacer_throne_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+}
+entity = {
+	name = "ck_court_spacer_thronewall_entity"
+	pdxmesh = "ck_court_spacer_thronewall_mesh"
+}
+
+pdxmesh = {
+	name = "ck_court_spacer_backdrop_mesh"
+	file = "ck_court_spacer_backdrop.mesh"
+	meshsettings = {
+		name = "ck_court_spacer_backdropShape"
+		index = 0
+		texture_diffuse = "ck_court_spacer_backdrop_diffuse.dds"
+		texture_normal = "ck_court_spacer_backdrop_normal.dds"
+		texture_specular = "ck_court_spacer_backdrop_properties.dds"
+		shader = "court_no_shadow"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+}
+entity = {
+	name = "ck_court_spacer_backdrop_entity"
+	pdxmesh = "ck_court_spacer_backdrop_mesh"
+}
+
+pdxmesh = {
+	name = "ck_court_spacer_throne_mesh"
+	file = "ck_court_spacer_throne.mesh"
+	meshsettings = {
+		name = "ck_court_spacer_throneShape"
+		index = 0
+		texture_diffuse = "ck_court_spacer_throne_diffuse.dds"
+		texture_normal = "ck_court_spacer_throne_normal.dds"
+		texture_specular = "ck_court_spacer_throne_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+}
+entity = {
+	name = "ck_court_spacer_throne_entity"
+	pdxmesh = "ck_court_spacer_throne_mesh"
+}
+
+pdxmesh = {
+	name = "ck_court_spacer_throne_spouse_mesh"
+	file = "ck_court_spacer_throne_spouse.mesh"
+	meshsettings = {
+		name = "ck_court_spacer_throne_spouseShape"
+		index = 0
+		texture_diffuse = "ck_court_spacer_throne_diffuse.dds"
+		texture_normal = "ck_court_spacer_throne_normal.dds"
+		texture_specular = "ck_court_spacer_throne_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+}
+entity = {
+	name = "ck_court_spacer_throne_spouse_entity"
+	pdxmesh = "ck_court_spacer_throne_spouse_mesh"
+}

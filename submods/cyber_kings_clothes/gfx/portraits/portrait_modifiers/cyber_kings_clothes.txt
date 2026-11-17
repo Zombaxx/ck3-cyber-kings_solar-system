@@ -1,0 +1,99 @@
+﻿# Cyber Kings clothing (gen_clothes_script.py): replaces the culture/rank clothes of clothes_base (priority 1)
+# for Cywizards (trait full_cybernetic_conversion, cultures archon/aeon), the Spacer culture and Earth cultures.
+# Armour (priority 4) and special clothes (priority 6: clergy, nightwear, ...) still override it. Other worlds keep vanilla.
+cyber_kings_clothes = {
+	usage = game
+	selection_behavior = max
+	priority = 2
+	fallback = cyber_kings_vanilla_clothes
+
+	# no dna change = keep the clothes_base pick (other cultures, and events asking for a clothes_base outfit tag)
+	cyber_kings_vanilla_clothes = {
+		dna_modifiers = { }
+		weight = { base = 1 }
+	}
+
+	cyber_kings_vanilla_clothes_event = {
+		dna_modifiers = { }
+		outfit_tags = { no_clothes western_commoner_outfit mena_commoner_clothes sub_saharan_high_nobility_clothes }
+		require_outfit_tags = yes
+		weight = { base = 1000 }
+	}
+
+	cyber_kings_cywizard_robe = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = cyber_kings_cywizard_clothes
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				cyber_portrait_cywizard_clothing_trigger = yes
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					should_be_fully_naked_portrait_trigger = yes
+					should_be_topless_portrait_trigger = yes
+				}
+			}
+		}
+	}
+
+	cyber_kings_spacer_uniform = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = cyber_kings_spacer_clothes
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				cyber_portrait_spacer_clothing_trigger = yes
+				NOT = { cyber_portrait_cywizard_clothing_trigger = yes }
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					should_be_fully_naked_portrait_trigger = yes
+					should_be_topless_portrait_trigger = yes
+				}
+			}
+		}
+	}
+
+	cyber_kings_earth_suit = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = cyber_kings_suit_clothes
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				cyber_portrait_modern_dress_trigger = yes
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					should_be_fully_naked_portrait_trigger = yes
+					should_be_topless_portrait_trigger = yes
+				}
+			}
+		}
+	}
+
+}

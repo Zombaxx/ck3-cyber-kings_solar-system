@@ -1,0 +1,594 @@
+﻿# Cyber Kings modern dress (gen_military_script.py). Earth cultures with modern dress (cyber_portrait_modern_dress_trigger):
+# no hats or cloaks; in the field fatigues + combat helmet (below king) or a general uniform + peaked cap (king and up),
+# coloured by clothing style. Spacers and Cywizards keep their sci-fi outfit in the field and wear no medieval hats.
+# Traditional Earth cultures (cyber_portrait_traditional_dress_trigger) and other worlds keep everything vanilla.
+
+cyber_kings_military_clothes = {
+	usage = game
+	selection_behavior = max
+	priority = 5
+	fallback = keep_vanilla
+
+	keep_vanilla = { # no change: clothes chosen by lower groups
+		dna_modifiers = { }
+		weight = { base = 1 }
+	}
+
+	fatigues_woodland = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = cyber_kings_fatigues_woodland_clothes
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				cyber_portrait_modern_dress_trigger = yes
+				cyber_portrait_military_trigger = yes
+				cyber_portrait_high_command_trigger = no
+				cyber_portrait_camo_woodland_trigger = yes
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					should_be_fully_naked_portrait_trigger = yes
+					should_be_topless_portrait_trigger = yes
+				}
+			}
+		}
+	}
+
+	general_woodland = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = cyber_kings_general_woodland_clothes
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				cyber_portrait_modern_dress_trigger = yes
+				cyber_portrait_military_trigger = yes
+				cyber_portrait_high_command_trigger = yes
+				cyber_portrait_camo_woodland_trigger = yes
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					should_be_fully_naked_portrait_trigger = yes
+					should_be_topless_portrait_trigger = yes
+				}
+			}
+		}
+	}
+
+	fatigues_desert = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = cyber_kings_fatigues_desert_clothes
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				cyber_portrait_modern_dress_trigger = yes
+				cyber_portrait_military_trigger = yes
+				cyber_portrait_high_command_trigger = no
+				cyber_portrait_camo_desert_trigger = yes
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					should_be_fully_naked_portrait_trigger = yes
+					should_be_topless_portrait_trigger = yes
+				}
+			}
+		}
+	}
+
+	general_desert = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = cyber_kings_general_desert_clothes
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				cyber_portrait_modern_dress_trigger = yes
+				cyber_portrait_military_trigger = yes
+				cyber_portrait_high_command_trigger = yes
+				cyber_portrait_camo_desert_trigger = yes
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					should_be_fully_naked_portrait_trigger = yes
+					should_be_topless_portrait_trigger = yes
+				}
+			}
+		}
+	}
+
+	fatigues_tropical = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = cyber_kings_fatigues_tropical_clothes
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				cyber_portrait_modern_dress_trigger = yes
+				cyber_portrait_military_trigger = yes
+				cyber_portrait_high_command_trigger = no
+				cyber_portrait_camo_tropical_trigger = yes
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					should_be_fully_naked_portrait_trigger = yes
+					should_be_topless_portrait_trigger = yes
+				}
+			}
+		}
+	}
+
+	general_tropical = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = cyber_kings_general_tropical_clothes
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				cyber_portrait_modern_dress_trigger = yes
+				cyber_portrait_military_trigger = yes
+				cyber_portrait_high_command_trigger = yes
+				cyber_portrait_camo_tropical_trigger = yes
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					should_be_fully_naked_portrait_trigger = yes
+					should_be_topless_portrait_trigger = yes
+				}
+			}
+		}
+	}
+
+	fatigues_asian = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = cyber_kings_fatigues_asian_clothes
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				cyber_portrait_modern_dress_trigger = yes
+				cyber_portrait_military_trigger = yes
+				cyber_portrait_high_command_trigger = no
+				cyber_portrait_camo_asian_trigger = yes
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					should_be_fully_naked_portrait_trigger = yes
+					should_be_topless_portrait_trigger = yes
+				}
+			}
+		}
+	}
+
+	general_asian = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = cyber_kings_general_asian_clothes
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				cyber_portrait_modern_dress_trigger = yes
+				cyber_portrait_military_trigger = yes
+				cyber_portrait_high_command_trigger = yes
+				cyber_portrait_camo_asian_trigger = yes
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					should_be_fully_naked_portrait_trigger = yes
+					should_be_topless_portrait_trigger = yes
+				}
+			}
+		}
+	}
+
+	cywizard_in_the_field = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = cyber_kings_cywizard_clothes
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				cyber_portrait_cywizard_clothing_trigger = yes
+				cyber_portrait_military_trigger = yes
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					should_be_fully_naked_portrait_trigger = yes
+					should_be_topless_portrait_trigger = yes
+				}
+			}
+		}
+	}
+
+	spacer_in_the_field = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = cyber_kings_spacer_clothes
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				cyber_portrait_spacer_clothing_trigger = yes
+				NOT = { cyber_portrait_cywizard_clothing_trigger = yes }
+				cyber_portrait_military_trigger = yes
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					should_be_fully_naked_portrait_trigger = yes
+					should_be_topless_portrait_trigger = yes
+				}
+			}
+		}
+	}
+
+}
+
+cyber_kings_military_headgear = {
+	usage = game
+	selection_behavior = max
+	priority = 7
+	fallback = keep_vanilla
+
+	keep_vanilla = { # no change: headgear chosen by lower groups
+		dna_modifiers = { }
+		weight = { base = 1 }
+	}
+
+	helmet_woodland = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = cyber_kings_helmet_woodland
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 200
+				cyber_portrait_modern_dress_trigger = yes
+				cyber_portrait_military_trigger = yes
+				cyber_portrait_high_command_trigger = no
+				cyber_portrait_camo_woodland_trigger = yes
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					should_be_fully_naked_portrait_trigger = yes
+					should_be_topless_portrait_trigger = yes
+				}
+			}
+		}
+	}
+
+	cap_woodland = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = cyber_kings_cap_woodland
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 200
+				cyber_portrait_modern_dress_trigger = yes
+				cyber_portrait_military_trigger = yes
+				cyber_portrait_high_command_trigger = yes
+				cyber_portrait_camo_woodland_trigger = yes
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					should_be_fully_naked_portrait_trigger = yes
+					should_be_topless_portrait_trigger = yes
+				}
+			}
+		}
+	}
+
+	helmet_desert = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = cyber_kings_helmet_desert
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 200
+				cyber_portrait_modern_dress_trigger = yes
+				cyber_portrait_military_trigger = yes
+				cyber_portrait_high_command_trigger = no
+				cyber_portrait_camo_desert_trigger = yes
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					should_be_fully_naked_portrait_trigger = yes
+					should_be_topless_portrait_trigger = yes
+				}
+			}
+		}
+	}
+
+	cap_desert = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = cyber_kings_cap_desert
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 200
+				cyber_portrait_modern_dress_trigger = yes
+				cyber_portrait_military_trigger = yes
+				cyber_portrait_high_command_trigger = yes
+				cyber_portrait_camo_desert_trigger = yes
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					should_be_fully_naked_portrait_trigger = yes
+					should_be_topless_portrait_trigger = yes
+				}
+			}
+		}
+	}
+
+	helmet_tropical = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = cyber_kings_helmet_tropical
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 200
+				cyber_portrait_modern_dress_trigger = yes
+				cyber_portrait_military_trigger = yes
+				cyber_portrait_high_command_trigger = no
+				cyber_portrait_camo_tropical_trigger = yes
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					should_be_fully_naked_portrait_trigger = yes
+					should_be_topless_portrait_trigger = yes
+				}
+			}
+		}
+	}
+
+	cap_tropical = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = cyber_kings_cap_tropical
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 200
+				cyber_portrait_modern_dress_trigger = yes
+				cyber_portrait_military_trigger = yes
+				cyber_portrait_high_command_trigger = yes
+				cyber_portrait_camo_tropical_trigger = yes
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					should_be_fully_naked_portrait_trigger = yes
+					should_be_topless_portrait_trigger = yes
+				}
+			}
+		}
+	}
+
+	helmet_asian = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = cyber_kings_helmet_asian
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 200
+				cyber_portrait_modern_dress_trigger = yes
+				cyber_portrait_military_trigger = yes
+				cyber_portrait_high_command_trigger = no
+				cyber_portrait_camo_asian_trigger = yes
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					should_be_fully_naked_portrait_trigger = yes
+					should_be_topless_portrait_trigger = yes
+				}
+			}
+		}
+	}
+
+	cap_asian = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = cyber_kings_cap_asian
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 200
+				cyber_portrait_modern_dress_trigger = yes
+				cyber_portrait_military_trigger = yes
+				cyber_portrait_high_command_trigger = yes
+				cyber_portrait_camo_asian_trigger = yes
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					should_be_fully_naked_portrait_trigger = yes
+					should_be_topless_portrait_trigger = yes
+				}
+			}
+		}
+	}
+
+	no_hat_modern_dress = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = no_headgear
+				value = 0
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 150
+				OR = { cyber_portrait_modern_dress_trigger = yes cyber_portrait_scifi_dress_trigger = yes }
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					should_be_fully_naked_portrait_trigger = yes
+					should_be_topless_portrait_trigger = yes
+				}
+			}
+		}
+	}
+
+}
+
+cyber_kings_military_cloaks = {
+	usage = game
+	selection_behavior = max
+	priority = 7
+	fallback = keep_vanilla
+
+	keep_vanilla = { # no change: cloak chosen by lower groups
+		dna_modifiers = { }
+		weight = { base = 1 }
+	}
+
+	no_cloak_modern_dress = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = cloaks
+				template = no_cloak
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 150
+				OR = { cyber_portrait_modern_dress_trigger = yes cyber_portrait_scifi_dress_trigger = yes }
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					should_be_fully_naked_portrait_trigger = yes
+					should_be_topless_portrait_trigger = yes
+				}
+			}
+		}
+	}
+
+}

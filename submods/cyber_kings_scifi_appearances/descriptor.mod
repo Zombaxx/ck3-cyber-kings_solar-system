@@ -6,4 +6,4 @@ name="Cyber Kings: Solar System - Sci-Fi Culture Appearances"
 dependencies={
 	"Cyber Kings: Solar System"
 }
-supported_version="1.20.*"
+supported_version="1.21.*"

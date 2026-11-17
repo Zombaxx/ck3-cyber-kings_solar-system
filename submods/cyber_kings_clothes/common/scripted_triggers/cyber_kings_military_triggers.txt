@@ -1,0 +1,119 @@
+﻿# Cyber Kings modern dress + military (_dev/scripts/military/gen_military_script.py). Character scope; scope:culture as vanilla.
+
+# Earth cultures that still dress traditionally keep vanilla clothes, hats and armour
+cyber_portrait_traditional_dress_trigger = {
+	scope:culture ?= {
+		OR = {
+			# Arabian Peninsula / Gulf
+			this = culture:bedouin
+			this = culture:yemeni
+			# Sahara and Sahel
+			this = culture:hassaniya
+			this = culture:tuareg
+			this = culture:zaghawa
+			this = culture:beja
+			# Horn of Africa
+			this = culture:somali
+			this = culture:afar
+			# Afghanistan / Balochistan
+			this = culture:afghan
+			this = culture:baloch
+			# Himalaya (Bhutan)
+			this = culture:lhomon
+			# West Africa (agbada, boubou, kente at state level)
+			this = culture:yoruba
+			this = culture:igbo
+			this = culture:hausa
+			this = culture:kanuri
+			this = culture:nupe
+			this = culture:songhai
+			this = culture:pulaar
+			this = culture:wolof
+			this = culture:malinke
+			this = culture:akan
+			# Indigenous peoples
+			this = culture:amazonian
+			this = culture:first_nations
+			this = culture:first_peoples
+			this = culture:inuit
+			this = culture:nativican
+		}
+	}
+}
+
+# Suit wearers: Earth culture, not traditional, not a Cywizard
+cyber_portrait_modern_dress_trigger = {
+	cyber_portrait_earth_clothing_trigger = yes
+	NOT = { cyber_portrait_traditional_dress_trigger = yes }
+	NOT = { cyber_portrait_cywizard_clothing_trigger = yes }
+}
+
+# Sci-fi dress (Spacer uniform or Cywizard robe)
+cyber_portrait_scifi_dress_trigger = {
+	OR = {
+		cyber_portrait_cywizard_clothing_trigger = yes
+		cyber_portrait_spacer_clothing_trigger = yes
+	}
+}
+
+# In the field: same situations in which vanilla shows armour
+cyber_portrait_military_trigger = {
+	exists = this
+	OR = {
+		portrait_wear_armor_trigger = yes
+		portrait_wear_armor_currently_in_army_trigger = yes
+	}
+}
+
+# Kings, emperors and hegemons dress as generals
+cyber_portrait_high_command_trigger = {
+	exists = this
+	highest_held_title_tier >= tier_kingdom
+}
+
+cyber_portrait_camo_desert_trigger = {
+	scope:culture ?= {
+		OR = {
+			has_clothing_gfx = mena_clothing_gfx
+			has_clothing_gfx = dde_abbasid_clothing_gfx
+			has_clothing_gfx = afr_berber_clothing_gfx
+			has_clothing_gfx = iberian_muslim_clothing_gfx
+			has_clothing_gfx = iranian_clothing_gfx
+			has_clothing_gfx = turkic_clothing_gfx
+		}
+		NOT = { has_cultural_pillar = heritage_ck_afro_diaspora }
+	}
+}
+
+cyber_portrait_camo_tropical_trigger = {
+	scope:culture ?= {
+		OR = {
+			has_clothing_gfx = african_clothing_gfx
+			has_clothing_gfx = papuan_clothing_gfx
+			has_clothing_gfx = malay_clothing_gfx
+			has_clothing_gfx = southeast_asian_clothing_gfx
+			has_clothing_gfx = tai_clothing_gfx
+			has_clothing_gfx = indian_clothing_gfx
+		}
+	}
+}
+
+cyber_portrait_camo_asian_trigger = {
+	scope:culture ?= {
+		OR = {
+			has_clothing_gfx = chinese_clothing_gfx
+			has_clothing_gfx = japanese_clothing_gfx
+			has_clothing_gfx = korean_clothing_gfx
+			has_clothing_gfx = mongol_clothing_gfx
+			has_clothing_gfx = khitan_clothing_gfx
+		}
+	}
+}
+
+cyber_portrait_camo_woodland_trigger = {
+	NOR = {
+		cyber_portrait_camo_desert_trigger = yes
+		cyber_portrait_camo_tropical_trigger = yes
+		cyber_portrait_camo_asian_trigger = yes
+	}
+}

@@ -1,0 +1,177 @@
+﻿# Cyber Kings modern military accessories (gen_military_script.py)
+
+m_cyber_fatigues_woodland = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = m_cyber_fatigues_woodland_entity }
+}
+
+m_cyber_general_woodland = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = m_cyber_general_woodland_entity }
+}
+
+m_cyber_helmet_woodland = {
+	set_tags = "helmet,snug_headgear"
+	entity = { required_tags = "hood_on"	shared_pose_entity = head }
+	entity = { required_tags = ""		shared_pose_entity = head		entity = m_cyber_helmet_woodland_entity }
+}
+
+m_cyber_cap_woodland = {
+	set_tags = "cap,snug_headgear"
+	entity = { required_tags = "hood_on"	shared_pose_entity = head }
+	entity = { required_tags = ""		shared_pose_entity = head		entity = m_cyber_cap_woodland_entity }
+}
+
+m_cyber_fatigues_desert = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = m_cyber_fatigues_desert_entity }
+}
+
+m_cyber_general_desert = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = m_cyber_general_desert_entity }
+}
+
+m_cyber_helmet_desert = {
+	set_tags = "helmet,snug_headgear"
+	entity = { required_tags = "hood_on"	shared_pose_entity = head }
+	entity = { required_tags = ""		shared_pose_entity = head		entity = m_cyber_helmet_desert_entity }
+}
+
+m_cyber_cap_desert = {
+	set_tags = "cap,snug_headgear"
+	entity = { required_tags = "hood_on"	shared_pose_entity = head }
+	entity = { required_tags = ""		shared_pose_entity = head		entity = m_cyber_cap_desert_entity }
+}
+
+m_cyber_fatigues_tropical = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = m_cyber_fatigues_tropical_entity }
+}
+
+m_cyber_general_tropical = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = m_cyber_general_tropical_entity }
+}
+
+m_cyber_helmet_tropical = {
+	set_tags = "helmet,snug_headgear"
+	entity = { required_tags = "hood_on"	shared_pose_entity = head }
+	entity = { required_tags = ""		shared_pose_entity = head		entity = m_cyber_helmet_tropical_entity }
+}
+
+m_cyber_cap_tropical = {
+	set_tags = "cap,snug_headgear"
+	entity = { required_tags = "hood_on"	shared_pose_entity = head }
+	entity = { required_tags = ""		shared_pose_entity = head		entity = m_cyber_cap_tropical_entity }
+}
+
+m_cyber_fatigues_asian = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = m_cyber_fatigues_asian_entity }
+}
+
+m_cyber_general_asian = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = m_cyber_general_asian_entity }
+}
+
+m_cyber_helmet_asian = {
+	set_tags = "helmet,snug_headgear"
+	entity = { required_tags = "hood_on"	shared_pose_entity = head }
+	entity = { required_tags = ""		shared_pose_entity = head		entity = m_cyber_helmet_asian_entity }
+}
+
+m_cyber_cap_asian = {
+	set_tags = "cap,snug_headgear"
+	entity = { required_tags = "hood_on"	shared_pose_entity = head }
+	entity = { required_tags = ""		shared_pose_entity = head		entity = m_cyber_cap_asian_entity }
+}
+
+f_cyber_fatigues_woodland = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = f_cyber_fatigues_woodland_entity }
+}
+
+f_cyber_general_woodland = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = f_cyber_general_woodland_entity }
+}
+
+f_cyber_helmet_woodland = {
+	set_tags = "helmet,snug_headgear"
+	entity = { required_tags = "hood_on"	shared_pose_entity = head }
+	entity = { required_tags = ""		shared_pose_entity = head		entity = f_cyber_helmet_woodland_entity }
+}
+
+f_cyber_cap_woodland = {
+	set_tags = "cap,snug_headgear"
+	entity = { required_tags = "hood_on"	shared_pose_entity = head }
+	entity = { required_tags = ""		shared_pose_entity = head		entity = f_cyber_cap_woodland_entity }
+}
+
+f_cyber_fatigues_desert = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = f_cyber_fatigues_desert_entity }
+}
+
+f_cyber_general_desert = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = f_cyber_general_desert_entity }
+}
+
+f_cyber_helmet_desert = {
+	set_tags = "helmet,snug_headgear"
+	entity = { required_tags = "hood_on"	shared_pose_entity = head }
+	entity = { required_tags = ""		shared_pose_entity = head		entity = f_cyber_helmet_desert_entity }
+}
+
+f_cyber_cap_desert = {
+	set_tags = "cap,snug_headgear"
+	entity = { required_tags = "hood_on"	shared_pose_entity = head }
+	entity = { required_tags = ""		shared_pose_entity = head		entity = f_cyber_cap_desert_entity }
+}
+
+f_cyber_fatigues_tropical = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = f_cyber_fatigues_tropical_entity }
+}
+
+f_cyber_general_tropical = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = f_cyber_general_tropical_entity }
+}
+
+f_cyber_helmet_tropical = {
+	set_tags = "helmet,snug_headgear"
+	entity = { required_tags = "hood_on"	shared_pose_entity = head }
+	entity = { required_tags = ""		shared_pose_entity = head		entity = f_cyber_helmet_tropical_entity }
+}
+
+f_cyber_cap_tropical = {
+	set_tags = "cap,snug_headgear"
+	entity = { required_tags = "hood_on"	shared_pose_entity = head }
+	entity = { required_tags = ""		shared_pose_entity = head		entity = f_cyber_cap_tropical_entity }
+}
+
+f_cyber_fatigues_asian = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = f_cyber_fatigues_asian_entity }
+}
+
+f_cyber_general_asian = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = f_cyber_general_asian_entity }
+}
+
+f_cyber_helmet_asian = {
+	set_tags = "helmet,snug_headgear"
+	entity = { required_tags = "hood_on"	shared_pose_entity = head }
+	entity = { required_tags = ""		shared_pose_entity = head		entity = f_cyber_helmet_asian_entity }
+}
+
+f_cyber_cap_asian = {
+	set_tags = "cap,snug_headgear"
+	entity = { required_tags = "hood_on"	shared_pose_entity = head }
+	entity = { required_tags = ""		shared_pose_entity = head		entity = f_cyber_cap_asian_entity }
+}

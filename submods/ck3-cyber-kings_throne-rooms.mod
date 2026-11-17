@@ -6,5 +6,5 @@ name="Cyber Kings: Solar System - Throne Rooms"
 dependencies={
 	"Cyber Kings: Solar System"
 }
-supported_version="1.20.*"
+supported_version="1.21.*"
 path="mod/ck3-cyber-kings_solar-system/submods/cyber_kings_throne_rooms"

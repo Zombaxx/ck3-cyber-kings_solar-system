@@ -1,0 +1,36 @@
+﻿# Cyber Kings clothing accessories (gen_clothes_script.py); tags as the vanilla fp4_western era3_nob_01 originals.
+
+m_cyber_suit = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = m_cyber_suit_entity }
+}
+
+m_cyber_suit_open = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = m_cyber_suit_open_entity }
+}
+
+m_cyber_spacer = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = m_cyber_spacer_entity }
+}
+
+m_cyber_cywizard = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = m_cyber_cywizard_entity }
+}
+
+f_cyber_suit = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = f_cyber_suit_entity }
+}
+
+f_cyber_spacer = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = f_cyber_spacer_entity }
+}
+
+f_cyber_cywizard = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = f_cyber_cywizard_entity }
+}
