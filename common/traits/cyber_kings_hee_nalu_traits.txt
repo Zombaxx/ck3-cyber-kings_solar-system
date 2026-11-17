@@ -1,0 +1,98 @@
+﻿# He'e Nalu (2026-11-15): surf skill. Design: _dev/HEE_NALU.md §3b
+# hee_nalu_surfer is ONE levelled trait (vanilla 1.20 "track" shorthand, like lifestyle_hunter). XP 0-100:
+#   0 Grom -> 30 Surfer -> 65 Waterman / Waterwoman -> 100 Big Kahuna.   Level bonuses add up.
+# XP comes only from Surf Trips (hee_nalu_host_*_session_effect, hee_nalu_guest_progress_effect): about 3-12 a trip,
+# one trip every 2 years, so the top level is a life's work.
+# hee_nalu_kook is its opposite: you surf, badly. A kook can turn Grom on a good session.
+# Either trait lets a character of ANY faith host a Surf Trip (activity is_shown).
+hee_nalu_surfer = {
+	category = lifestyle
+	same_opinion = 5
+	opposite_opinion = -10
+	ruler_designer_cost = 20
+	stress_loss_mult = 0.05
+
+	opposites = {
+		hee_nalu_kook
+	}
+
+	name = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_hee_nalu_surfer
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = hee_nalu_surfer
+						track = hee_nalu_surfer
+						value >= 100
+					}
+				}
+				desc = trait_hee_nalu_surfer_kahuna
+			}
+			triggered_desc = {
+				trigger = {
+					is_female = yes
+					has_trait_xp = {
+						trait = hee_nalu_surfer
+						track = hee_nalu_surfer
+						value >= 65
+					}
+				}
+				desc = trait_hee_nalu_surfer_waterwoman
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = hee_nalu_surfer
+						track = hee_nalu_surfer
+						value >= 65
+					}
+				}
+				desc = trait_hee_nalu_surfer_waterman
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = hee_nalu_surfer
+						track = hee_nalu_surfer
+						value >= 30
+					}
+				}
+				desc = trait_hee_nalu_surfer_surfer
+			}
+			desc = trait_hee_nalu_surfer_grom
+		}
+	}
+
+	track = {
+		30 = {
+			prowess = 1
+		}
+		65 = {
+			prowess = 1
+			health = 0.05
+			attraction_opinion = 5
+		}
+		100 = {
+			prowess = 1
+			health = 0.1
+			stress_loss_mult = 0.1
+			monthly_prestige = 0.3
+		}
+	}
+}
+
+hee_nalu_kook = {
+	category = lifestyle
+	opposite_opinion = -10
+	ruler_designer_cost = -15
+	prowess = -1
+	diplomacy = -1
+
+	opposites = {
+		hee_nalu_surfer
+	}
+}

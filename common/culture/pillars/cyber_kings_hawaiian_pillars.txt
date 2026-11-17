@@ -1,0 +1,18 @@
+﻿# Polynesian language 2026-11-15 (for the Hawaiian culture; reusable for Maori, Samoan, Tongan later). Same shape as vanilla language_papuan.
+language_polynesian = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_polynesian
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_polynesian }
+			multiply = 10
+		}
+	}
+
+	color = papuan
+}

@@ -1,0 +1,16 @@
+﻿# Hawaiian name list 2026-11-15 (Hawaiian given names in modern use; Hawaiian family names). Keys cyh_* / dynn_cyh_* are unique to this list.
+name_list_cy_hawaiian = {
+	cadet_dynasty_names = {
+		dynn_cyh_Kahanamoku dynn_cyh_Kamehameha dynn_cyh_Kalakaua dynn_cyh_Kaleikini dynn_cyh_Kealoha dynn_cyh_Kahale dynn_cyh_Kanahele dynn_cyh_Kamaka dynn_cyh_Kauhane dynn_cyh_Akana dynn_cyh_Kekona dynn_cyh_Keawe dynn_cyh_Kaawa dynn_cyh_Kapule dynn_cyh_Kalua dynn_cyh_Makua dynn_cyh_Nahale dynn_cyh_Palakiko dynn_cyh_Kekauoha dynn_cyh_Kanoho dynn_cyh_Aiu dynn_cyh_Kalani dynn_cyh_Kauwila dynn_cyh_Kaai dynn_cyh_Mahoe dynn_cyh_Aikau dynn_cyh_Kalama dynn_cyh_Kapaona dynn_cyh_Kaneakua dynn_cyh_Kahananui dynn_cyh_Kamakana dynn_cyh_Keola dynn_cyh_Kekahuna dynn_cyh_Kanaele dynn_cyh_Kaleo dynn_cyh_Kekumu dynn_cyh_Nakoa dynn_cyh_Kaawaloa dynn_cyh_Kalauokalani dynn_cyh_Keliikoa dynn_cyh_Kauahi dynn_cyh_Mahi dynn_cyh_Naone dynn_cyh_Pahia dynn_cyh_Peleke dynn_cyh_Kupihea dynn_cyh_Waiwaiole dynn_cyh_Keomaka
+	}
+	dynasty_names = {
+		dynn_cyh_Kahanamoku dynn_cyh_Kamehameha dynn_cyh_Kalakaua dynn_cyh_Kaleikini dynn_cyh_Kealoha dynn_cyh_Kahale dynn_cyh_Kanahele dynn_cyh_Kamaka dynn_cyh_Kauhane dynn_cyh_Akana dynn_cyh_Kekona dynn_cyh_Keawe dynn_cyh_Kaawa dynn_cyh_Kapule dynn_cyh_Kalua dynn_cyh_Makua dynn_cyh_Nahale dynn_cyh_Palakiko dynn_cyh_Kekauoha dynn_cyh_Kanoho dynn_cyh_Aiu dynn_cyh_Kalani dynn_cyh_Kauwila dynn_cyh_Kaai dynn_cyh_Mahoe dynn_cyh_Aikau dynn_cyh_Kalama dynn_cyh_Kapaona dynn_cyh_Kaneakua dynn_cyh_Kahananui dynn_cyh_Kamakana dynn_cyh_Keola dynn_cyh_Kekahuna dynn_cyh_Kanaele dynn_cyh_Kaleo dynn_cyh_Kekumu dynn_cyh_Nakoa dynn_cyh_Kaawaloa dynn_cyh_Kalauokalani dynn_cyh_Keliikoa dynn_cyh_Kauahi dynn_cyh_Mahi dynn_cyh_Naone dynn_cyh_Pahia dynn_cyh_Peleke dynn_cyh_Kupihea dynn_cyh_Waiwaiole dynn_cyh_Keomaka
+	}
+	male_names = {
+		cyh_Kai cyh_Keanu cyh_Kimo cyh_Kekoa cyh_Kalani cyh_Makoa cyh_Nainoa cyh_Ikaika cyh_Kaleo cyh_Keoni cyh_Kawika cyh_Koa cyh_Mana cyh_Noa cyh_Kainoa cyh_Kalama cyh_Keahi cyh_Akoni cyh_Lopaka cyh_Maleko cyh_Pekelo cyh_Kamaka cyh_Kaimana cyh_Keola cyh_Kaipo cyh_Nakoa cyh_Palani cyh_Kanoa cyh_Kapono cyh_Makana cyh_Kahiau cyh_Kamalei cyh_Kaulana cyh_Keawe cyh_Kana cyh_Lono cyh_Maui cyh_Kanekoa cyh_Kaniela cyh_Iokepa cyh_Kale cyh_Mikala cyh_Paulo cyh_Ioane cyh_Kelii cyh_Kaholo
+	}
+	female_names = {
+		cyh_f_Leilani cyh_f_Kailani cyh_f_Malia cyh_f_Noelani cyh_f_Mahina cyh_f_Kalena cyh_f_Alana cyh_f_Iolana cyh_f_Kiana cyh_f_Lani cyh_f_Moana cyh_f_Nalani cyh_f_Pua cyh_f_Haunani cyh_f_Keala cyh_f_Kanoe cyh_f_Lokelani cyh_f_Luana cyh_f_Mele cyh_f_Nani cyh_f_Kaiulani cyh_f_Leimomi cyh_f_Maile cyh_f_Kehau cyh_f_Ululani cyh_f_Wailani cyh_f_Kalea cyh_f_Hiilani cyh_f_Pauahi cyh_f_Kapiolani cyh_f_Liliu cyh_f_Emalani cyh_f_Kaimana cyh_f_Mahealani cyh_f_Nohea cyh_f_Puanani cyh_f_Kamaile cyh_f_Keola cyh_f_Anela cyh_f_Aolani cyh_f_Kawena cyh_f_Lehua cyh_f_Melia cyh_f_Momi cyh_f_Kealani
+	}
+	dynasty_of_location_prefix = "dynnp_of"
+}

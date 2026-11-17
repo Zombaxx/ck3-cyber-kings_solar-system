@@ -1,0 +1,377 @@
+﻿# He'e Nalu (2026-11-15): the Surf Trip activity. Design: _dev/HEE_NALU.md §3
+# Replaces the old Go Surfing decision: pick any coastal barony in the activity planner (like picking where to hunt),
+# travel there, and the surf event chain (events/cyber_kings_hee_nalu_events.txt, hee_nalu.0001) runs on arrival.
+# Modelled on vanilla activity_roaming (hike.txt, 1.20): a solo trip with one optional travelling companion.
+# window_characters and most guest blocks are copied from it by _dev/scripts/oneoff/hee_nalu/build_activity.py; since the
+# surf-trait build (build_traits.py) the guest rule, guest count and join chance are our own: guests of any faith can come.
+#
+# Where you surf matters (same four tests in province_description, province_score and event hee_nalu.0001):
+#   sacred break = the barony's county holds a holy site of your faith
+#   home break   = the county is yours or a vassal's          foreign water = anyone else's
+#   new break    = you have never surfed this barony (variable list hee_nalu_breaks_surfed on the character)
+#   far break    = further than squared_distance_large from your capital
+activity_hee_nalu_surf = {
+	is_shown = {
+		hee_nalu_can_surf_trigger = yes	# the faithful, and anyone of any faith with the Grom/Surfer or Kook trait
+		highest_held_title_tier >= tier_county
+		is_adult = yes
+		ai_activity_war_check = yes
+		ai_activity_coronation_check = yes
+	}
+
+	sort_order = 60
+	can_always_plan = no
+
+	can_start_showing_failures_only = {
+		NOT = { is_activity_type_on_cooldown = activity_hee_nalu_surf }
+		is_available = yes
+	}
+
+	is_valid = {
+		scope:host = {
+			is_physically_able = yes
+			OR = {
+				is_ai = no
+				is_landed = yes
+			}
+		}
+	}
+
+	is_location_valid = {
+		custom_tooltip = {
+			text = hee_nalu_surf_province_requirement
+			is_coastal = yes
+			exists = county
+		}
+	}
+
+	on_invalidated = {
+		invalidation_imprisoned_effect = yes
+		invalidation_incapable_effect = yes
+		invalidation_host_isolated_effect = yes
+		invalidation_unlanded_effect = yes
+	}
+
+	on_complete = {
+		if = {
+			limit = { this = scope:host }
+			scope:activity = {
+				add_activity_log_entry = {
+					key = hee_nalu_surf_end_key
+					tags = { pulse_action }
+					character = root
+					show_in_conclusion = yes
+				}
+			}
+		}
+	}
+
+	on_host_death = {
+		invalidation_host_death_effect = yes
+	}
+
+	province_filter = all	# the player may surf anywhere in the system; vanilla hike uses the same filter
+	ai_province_filter = realm
+
+	max_province_icons = 8
+	allow_zero_guest_invites = yes
+	open_invite = no
+
+	province_description = {
+		desc = activity_hee_nalu_surf_province_desc
+
+		triggered_desc = {
+			trigger = { scope:host.faith = { any_holy_site_barony = { county = root.county } } }
+			desc = activity_hee_nalu_surf_sacred_break
+		}
+		triggered_desc = {
+			trigger = { scope:host = { NOT = { is_target_in_variable_list = { name = hee_nalu_breaks_surfed target = root } } } }
+			desc = activity_hee_nalu_surf_new_break
+		}
+		triggered_desc = {
+			trigger = { county_controller ?= { OR = { this = scope:host target_is_liege_or_above = scope:host } } }
+			desc = activity_hee_nalu_surf_home_break
+		}
+		triggered_desc = {
+			trigger = { NOT = { county_controller ?= { OR = { this = scope:host target_is_liege_or_above = scope:host } } } }
+			desc = activity_hee_nalu_surf_foreign_break
+		}
+		triggered_desc = {
+			trigger = { "scope:host.capital_province.squared_distance(root)" > squared_distance_large }
+			desc = activity_hee_nalu_surf_far_break
+		}
+	}
+
+	province_score = {
+		value = 10
+		if = {
+			limit = { scope:host.faith = { any_holy_site_barony = { county = root.county } } }
+			add = 100
+		}
+		if = {
+			limit = { scope:host = { NOT = { is_target_in_variable_list = { name = hee_nalu_breaks_surfed target = root } } } }
+			add = 25
+		}
+		if = {
+			limit = { county_controller ?= { OR = { this = scope:host target_is_liege_or_above = scope:host } } }
+			add = 10
+		}
+	}
+
+	cost = {
+		gold = {
+			add = {
+				value = 0
+				desc = hunt_base_cost
+			}
+		}
+	}
+
+	ui_predicted_cost = {
+		gold = {
+			value = 0
+		}
+	}
+
+	cooldown = { years = 2 }
+
+	phases = {
+		phase_hee_nalu_session = {
+			is_predefined = yes
+			location_source = pickable
+
+			on_phase_active = {
+				if = {
+					limit = { this = scope:host }
+					scope:activity = { progress_activity_phase_after = { days = 10 } }
+					trigger_event = { id = hee_nalu.0001 }
+				}
+				else = {	# every guest, player or AI, gets a short chain of their own
+					trigger_event = {
+						id = hee_nalu.0100
+						days = 2
+					}
+				}
+			}
+		}
+	}
+
+	max_guest_arrival_delay_time = { months = 1 }
+
+	pulse_actions = {
+		entries = {
+			apa_hee_nalu_sea_turtle
+			apa_hee_nalu_glassy_morning
+		}
+		chance_of_no_event = 40
+	}
+
+	ai_will_do = {
+		value = 30
+		if = {
+			limit = { has_trait = brave }
+			add = 15
+		}
+		if = {
+			limit = { has_trait = zealous }
+			add = 10
+		}
+		if = {
+			limit = { has_trait = lazy }
+			add = -10
+		}
+		if = {
+			limit = { has_trait = craven }
+			add = -15
+		}
+		add = activity_general_ai_will_do_value
+	}
+
+	ai_check_interval = 60
+
+	ai_will_select_province = {
+		value = 10
+		add = scope:score
+	}
+
+	host_intents = {
+		default = reduce_stress_intent
+		intents = { reduce_stress_intent }
+	}
+
+	guest_intents = {
+		intents = { reduce_stress_intent }
+		default = reduce_stress_intent
+	}
+
+	can_be_activity_guest = {
+		hee_nalu_surf_guest_trigger = yes
+	}
+
+	guest_invite_rules = {
+		defaults = {
+			2 = activity_invite_rule_lovers
+			1 = activity_invite_rule_friends
+			1 = activity_invite_rule_close_family
+			1 = activity_invite_spouses
+			1 = activity_invite_rule_knights
+		}
+	}
+
+	special_guests = {
+		honorary_guest_traveling_companion = {
+			is_required = no
+			
+			is_shown = { 
+				
+			}
+
+			can_pick = {
+				hee_nalu_surf_guest_trigger = yes
+			}
+			
+			ai_will_do = {
+				value = 10
+			}
+		}
+	}
+
+	travel_entourage_selection = {
+		weight = {
+			value = 10
+			if = {
+				limit = {
+					NOT = { is_in_list = special_guests }
+				}
+				multiply = 0
+			}
+		}
+
+		invite_rule_order = 1
+
+		# Up to how many characters to select for a player
+		max = 2
+		
+		# Up to how many characters to select for an AI
+		ai_max = 2
+	}
+
+	max_guests = 3	# the companion plus two more; everyone who comes can pick up the surf traits
+
+	guest_join_chance = {
+		base = 10
+
+		modifier = {
+			add = 40
+			is_in_list = special_guests
+		}
+		modifier = {
+			add = 25
+			OR = {
+				has_trait = hee_nalu_surfer
+				has_trait = hee_nalu_kook
+			}
+		}
+		modifier = {
+			add = 15
+			rite = { rite_has_parameter = hee_nalu_surfing_active }
+		}
+		modifier = {
+			add = 20
+			opinion = {
+				target = scope:host
+				value >= 40
+			}
+		}
+		modifier = {
+			add = 10
+			has_trait = brave
+		}
+		modifier = {
+			add = -20
+			has_trait = craven
+		}
+	}
+
+	header_background = "gfx/interface/illustrations/activity_header_backgrounds/activity_hee_nalu_surf.dds"
+
+	background = {
+		texture = "gfx/interface/illustrations/event_scenes/bp3_coast.dds"
+		environment = "environment_bp3_coast"
+		ambience = "event:/DLC/EP2/SFX/Events/Grand_Activities/Hunts/ep2_event_grand_hunt_waterbank"
+	}
+
+	window_characters = {
+		
+		host = {
+			camera = camera_body
+			
+			effect = {
+				if = {
+					limit = {
+						scope:host.location = scope:activity.activity_location
+					}
+					scope:host = {
+						add_to_list = characters
+					}
+				}
+			}
+
+			scripted_animation = {
+				animation = idle
+			}
+		}
+		
+		travel_host = {
+			camera = camera_event_horse_left
+			
+			effect = {
+				if = {
+					limit = {
+						scope:host.location != scope:activity.activity_location
+					}
+					scope:host = {
+						add_to_list = characters
+					}
+				}
+			}
+
+			scripted_animation = {
+				triggered_animation = {
+					trigger = {
+						scope:character.location = { is_sea_province = yes }
+					}
+					animation = { idle }
+				}
+				triggered_animation = {
+					trigger = { scope:character = { has_trait = impatient } }
+					animation = { jockey_gallop }
+				}
+				animation = jockey_walk
+			}
+		}
+
+		guest = {
+			camera = camera_body
+			
+			effect = {
+				if = {
+					limit = {
+						scope:host.location = scope:activity.activity_location
+					}
+					every_attending_character = {
+						limit = {
+							location = scope:activity.activity_location
+							this != scope:host
+						}
+						add_to_list = characters
+					}
+				}
+			}
+
+			scripted_animation = {
+				animation = idle
+			}
+		}
+	}
+}

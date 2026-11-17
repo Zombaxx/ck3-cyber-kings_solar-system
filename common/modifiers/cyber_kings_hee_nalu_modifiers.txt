@@ -1,0 +1,115 @@
+﻿# He'e Nalu (2026-11-15): character modifiers given by the Go Surfing event chain (events/cyber_kings_hee_nalu_events.txt).
+hee_nalu_stoked_modifier = {
+	icon = outdoors_positive
+	stress_loss_mult = 0.2
+	diplomacy = 1
+}
+
+hee_nalu_rode_the_giant_modifier = {
+	icon = prowess_positive
+	prowess = 3
+	monthly_prestige = 0.5
+}
+
+hee_nalu_one_with_the_ocean_modifier = {
+	icon = piety_positive
+	learning = 2
+	monthly_piety = 0.5
+	stress_gain_mult = -0.15
+}
+
+# 2026-11-15 (activity): surfed three different sacred breaks (hee_nalu_record_break_effect)
+hee_nalu_the_search_modifier = {
+	icon = prestige_positive
+	monthly_prestige = 0.3
+	monthly_piety = 0.3
+	character_travel_safety = 10
+}
+
+# 2026-11-16: faith decisions and yearly events
+hee_nalu_blessed_swell_modifier = {
+	icon = piety_positive
+	monthly_piety = 0.2
+	stress_loss_mult = 0.1
+}
+
+hee_nalu_blessed_swell_county_modifier = {
+	icon = piety_positive
+	county_opinion_add = 10
+}
+
+# house modifiers: the 'aumakua (every member of the house)
+hee_nalu_aumakua_mano_modifier = {
+	icon = prowess_positive
+	prowess = 2
+}
+
+hee_nalu_aumakua_honu_modifier = {
+	icon = outdoors_positive
+	health = 0.1
+	stress_loss_mult = 0.1
+}
+
+hee_nalu_aumakua_pueo_modifier = {
+	icon = social_positive
+	learning = 1
+	intrigue = 1
+}
+
+hee_nalu_aumakua_io_modifier = {
+	icon = prestige_positive
+	martial = 1
+	monthly_prestige = 0.2
+}
+
+hee_nalu_tide_of_war_modifier = {
+	icon = prowess_positive
+	martial = 2
+	prowess = 2
+}
+
+hee_nalu_localism_modifier = {
+	icon = prestige_positive
+	dread_baseline_add = 10
+	diplomacy = -1
+}
+
+hee_nalu_aloha_county_modifier = {
+	icon = social_positive
+	county_opinion_add = 10
+}
+
+# 2026-11-16: Makahiki
+hee_nalu_makahiki_modifier = {
+	icon = social_positive
+	monthly_piety = 1
+	stress_loss_mult = 0.25
+	vassal_opinion = 5
+	courtier_and_guest_opinion = 10
+}
+
+hee_nalu_lonos_peace_modifier = {
+	icon = piety_positive
+	monthly_prestige = 0.3
+	stress_loss_mult = 0.1
+	vassal_opinion = 5
+}
+
+# 2026-11-16: boards (artifact modifiers)
+hee_nalu_alaia_artifact_modifier = {
+	prowess = 1
+	stress_loss_mult = 0.05
+}
+
+hee_nalu_olo_artifact_modifier = {
+	prowess = 2
+	monthly_prestige = 0.3
+	stress_loss_mult = 0.05
+}
+
+hee_nalu_kai_olo_artifact_modifier = {
+	prowess = 2
+	monthly_prestige = 0.5
+	monthly_piety = 0.5
+	stress_loss_mult = 0.1
+}

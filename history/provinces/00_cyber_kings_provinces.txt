@@ -1824,7 +1824,7 @@
 ### c_province0111
 111 = {
 	culture = archon
-	rite = gnoslam_rite
+	rite = everlasting_covenant_rite
 	holding = tribal_holding
 }
 2678 = {
@@ -1839,7 +1839,7 @@
 ### c_province0169
 169 = {
 	culture = archon
-	rite = gnoslam_rite
+	rite = everlasting_covenant_rite
 	holding = tribal_holding
 }
 2778 = {
@@ -1857,7 +1857,7 @@
 ### c_province0139
 139 = {
 	culture = archon
-	rite = gnoslam_rite
+	rite = everlasting_covenant_rite
 	holding = tribal_holding
 }
 2727 = {
@@ -1907,7 +1907,7 @@
 }
 ### c_province0172
 172 = {
-	culture = liblander
+	culture = antarctican
 	rite = vaishnavism
 	holding = tribal_holding
 }
@@ -1924,7 +1924,7 @@
 }
 ### c_province0132
 132 = {
-	culture = liblander
+	culture = antarctican
 	rite = vaishnavism
 	holding = tribal_holding
 }
@@ -1939,8 +1939,8 @@
 }
 ### c_province0213
 213 = {
-	culture = liblander
-	rite = gnoslam_rite
+	culture = antarctican
+	rite = everlasting_covenant_rite
 	holding = tribal_holding
 }
 2839 = {
@@ -1954,7 +1954,7 @@
 }
 ### c_province0222
 222 = {
-	culture = liblander
+	culture = antarctican
 	rite = maliki
 	holding = tribal_holding
 }
@@ -2043,7 +2043,7 @@
 ########## k_kingdom0161
 ### c_province0170
 170 = {
-	culture = murican
+	culture = westerner
 	rite = latter_day_saints_rite	# e83 real 2026 majority (was roman_rite)
 	holding = castle_holding
 }
@@ -2078,7 +2078,7 @@
 }
 ### c_province0192
 192 = {
-	culture = moderate
+	culture = westerner
 	rite = protestant_rite
 	holding = tribal_holding
 }
@@ -2090,7 +2090,7 @@
 }
 ### c_province0197
 197 = {
-	culture = murican
+	culture = southerner
 	rite = protestant_rite
 	holding = tribal_holding
 }
@@ -2126,7 +2126,7 @@
 }
 ### c_province0246
 246 = {
-	culture = moderate
+	culture = midwestern
 	rite = protestant_rite
 	holding = castle_holding
 }
@@ -2167,7 +2167,7 @@
 }
 ### c_province0231
 231 = {
-	culture = murican
+	culture = cascadian
 	rite = protestant_rite	# e83 real 2026 majority (was roman_rite)
 	holding = tribal_holding
 }
@@ -2184,7 +2184,7 @@
 }
 ### c_province0233
 233 = {
-	culture = murican
+	culture = westerner
 	rite = protestant_rite	# e83 real 2026 majority (was latter_day_saints_rite)
 	holding = tribal_holding
 }
@@ -2283,7 +2283,7 @@
 }
 ### c_province0144
 144 = {
-	culture = moderate
+	culture = southwesterner
 	rite = roman_rite
 	holding = tribal_holding
 }
@@ -2357,7 +2357,7 @@
 }
 ### c_province0312
 312 = {
-	culture = murican
+	culture = cascadian
 	rite = protestant_rite
 	holding = tribal_holding
 	# Denali (wonder, e64)
@@ -2425,7 +2425,7 @@
 }
 ### c_san_francisco
 141 = {
-	culture = progressive
+	culture = bay_arean
 	rite = roman_rite
 	holding = castle_holding
 	# Golden Gate Bridge (wonder, e64)
@@ -2449,7 +2449,7 @@
 }
 ### c_sierras
 181 = {
-	culture = moderate
+	culture = westerner
 	rite = protestant_rite	# e83 real 2026 majority (was roman_rite)
 	holding = castle_holding
 }
@@ -2461,7 +2461,7 @@
 }
 ### c_north_bay
 163 = {
-	culture = murican
+	culture = jeffersonian
 	rite = protestant_rite	# e83 real 2026 majority (was roman_rite)
 	holding = castle_holding
 }
@@ -2470,7 +2470,7 @@
 }
 ### c_gold_country
 212 = {
-	culture = progressive
+	culture = cascadian
 	rite = protestant_rite
 	holding = castle_holding
 	# Mount St. Helens (real-world wonder at its real location)
@@ -2491,7 +2491,7 @@
 }
 ### c_norcal
 208 = {
-	culture = progressive
+	culture = cascadian
 	rite = protestant_rite
 	holding = castle_holding
 	# Mount Rainier (real-world wonder at its real location)
@@ -2506,9 +2506,11 @@
 }
 ### c_province0531
 531 = {
-	culture = papuan
-	rite = protestant_rite	# e83 real 2026 majority (was roman_rite)
+	culture = hawaiian	# Hawaiian culture 2026-11-15 (was papuan)
+	rite = hee_nalu_rite	# He'e Nalu 2026-11-15 (was protestant_rite, e83)
 	holding = castle_holding
+	special_building_slot = hee_nalu_surf_heiau_01	# He'e Nalu 2026-11-16: surf heiau (WONDERS merge rule applies)
+	special_building = hee_nalu_surf_heiau_01
 }
 8094 = {
 	holding = city_holding
@@ -2532,7 +2534,7 @@
 }
 ### c_province0198
 198 = {
-	culture = murican
+	culture = southerner
 	rite = protestant_rite	# e83 real 2026 majority (was roman_rite)
 	holding = castle_holding
 }
@@ -2541,7 +2543,7 @@
 }
 ### c_province0184
 184 = {
-	culture = murican
+	culture = southerner
 	rite = protestant_rite
 	holding = castle_holding
 }
@@ -2607,7 +2609,7 @@
 }
 ### c_province0126
 126 = {
-	culture = murican
+	culture = southerner
 	rite = protestant_rite	# e83 real 2026 majority (was roman_rite)
 	holding = tribal_holding
 }
@@ -2622,7 +2624,7 @@
 }
 ### c_austin
 150 = {
-	culture = murican
+	culture = southerner
 	rite = protestant_rite
 	holding = castle_holding
 }
@@ -2637,7 +2639,7 @@
 }
 ### c_province0161
 161 = {
-	culture = murican
+	culture = southerner
 	rite = protestant_rite
 	holding = tribal_holding
 }
@@ -2657,7 +2659,7 @@
 ########## k_kingdom0244
 ### c_province0204
 204 = {
-	culture = murican
+	culture = southerner
 	rite = protestant_rite
 	holding = castle_holding
 }
@@ -2669,7 +2671,7 @@
 }
 ### c_nashville
 228 = {
-	culture = murican
+	culture = southerner
 	rite = protestant_rite
 	holding = castle_holding
 }
@@ -2681,7 +2683,7 @@
 }
 ### c_atlanta
 220 = {
-	culture = moderate
+	culture = southerner
 	rite = protestant_rite
 	holding = castle_holding
 }
@@ -2696,7 +2698,7 @@
 }
 ### c_province0239
 239 = {
-	culture = murican
+	culture = southerner
 	rite = protestant_rite
 	holding = castle_holding
 }
@@ -2705,7 +2707,7 @@
 }
 ### c_province0274
 274 = {
-	culture = moderate
+	culture = midwestern
 	rite = protestant_rite	# e83 real 2026 majority (was roman_rite)
 	holding = castle_holding
 }
@@ -2735,7 +2737,7 @@
 }
 ### c_province0229
 229 = {
-	culture = liblander
+	culture = midwestern
 	rite = protestant_rite
 	holding = castle_holding
 }
@@ -2744,7 +2746,7 @@
 }
 ### c_province0258
 258 = {
-	culture = moderate
+	culture = midwestern
 	rite = protestant_rite
 	holding = castle_holding
 }
@@ -2780,7 +2782,7 @@
 ########## k_new_england
 ### c_province0250
 250 = {
-	culture = moderate
+	culture = southerner
 	rite = protestant_rite
 	holding = castle_holding
 }
@@ -2789,7 +2791,7 @@
 }
 ### c_province0271
 271 = {
-	culture = liblander
+	culture = mid_atlantic
 	rite = protestant_rite	# e83 real 2026 majority (was roman_rite)
 	holding = castle_holding
 }
@@ -2798,7 +2800,7 @@
 }
 ### c_district_of_columbia
 264 = {
-	culture = liblander
+	culture = mid_atlantic
 	rite = protestant_rite
 	holding = castle_holding
 	# United States Capitol (real-world wonder at its real location)
@@ -2813,7 +2815,7 @@
 }
 ### c_new_york
 329 = {
-	culture = liblander
+	culture = new_englander
 	rite = protestant_rite	# e83 real 2026 majority (was roman_rite)
 	holding = castle_holding
 }
@@ -2822,7 +2824,7 @@
 }
 ### c_province0288
 288 = {
-	culture = progressive
+	culture = mid_atlantic
 	rite = roman_rite
 	holding = castle_holding
 	# St. Patrick's Cathedral (real-world wonder at its real location)
@@ -4385,7 +4387,7 @@
 }
 ### c_province0241
 241 = {
-	culture = liblander_west
+	culture = cascadian
 	rite = roman_rite	# e83 real 2026 majority (was protestant_rite)
 	holding = castle_holding
 }
@@ -11804,7 +11806,7 @@
 }
 ### c_province0664
 664 = {
-	culture = liblander
+	culture = west_themisian
 	rite = roman_rite
 	holding = castle_holding
 }
@@ -11822,7 +11824,7 @@
 }
 ### c_province0720
 720 = {
-	culture = liblander
+	culture = west_themisian
 	rite = roman_rite
 	holding = tribal_holding
 }
@@ -11831,7 +11833,7 @@
 }
 ### c_province0787
 787 = {
-	culture = liblander
+	culture = west_themisian
 	rite = roman_rite
 	holding = tribal_holding
 }
@@ -11843,7 +11845,7 @@
 }
 ### c_province0751
 751 = {
-	culture = liblander
+	culture = west_themisian
 	rite = roman_rite
 	holding = tribal_holding
 }
@@ -11852,7 +11854,7 @@
 }
 ### c_province0765
 765 = {
-	culture = liblander
+	culture = west_themisian
 	rite = roman_rite
 	holding = tribal_holding
 }
@@ -11864,7 +11866,7 @@
 }
 ### c_province0783
 783 = {
-	culture = liblander
+	culture = west_themisian
 	rite = roman_rite
 	holding = castle_holding
 }
@@ -11876,7 +11878,7 @@
 }
 ### c_province0792
 792 = {
-	culture = liblander
+	culture = west_themisian
 	rite = roman_rite
 	holding = castle_holding
 }
@@ -11891,7 +11893,7 @@
 }
 ### c_province0718
 718 = {
-	culture = liblander
+	culture = west_themisian
 	rite = roman_rite
 	holding = castle_holding
 }
@@ -11906,7 +11908,7 @@
 }
 ### c_province0740
 740 = {
-	culture = liblander
+	culture = west_themisian
 	rite = roman_rite
 	holding = castle_holding
 }
@@ -11923,7 +11925,7 @@
 ########## k_kingdom0836
 ### c_province0808
 808 = {
-	culture = murican
+	culture = east_themisian
 	rite = roman_rite
 	holding = castle_holding
 }
@@ -11935,7 +11937,7 @@
 }
 ### c_province0845
 845 = {
-	culture = murican
+	culture = east_themisian
 	rite = roman_rite
 	holding = castle_holding
 }
@@ -11950,7 +11952,7 @@
 }
 ### c_province0827
 827 = {
-	culture = murican
+	culture = east_themisian
 	rite = roman_rite
 	holding = castle_holding
 }
@@ -11965,7 +11967,7 @@
 }
 ### c_province0817
 817 = {
-	culture = murican
+	culture = east_themisian
 	rite = roman_rite
 	holding = tribal_holding
 }
@@ -11977,7 +11979,7 @@
 }
 ### c_province0854
 854 = {
-	culture = murican
+	culture = east_themisian
 	rite = roman_rite
 	holding = tribal_holding
 }
@@ -11989,7 +11991,7 @@
 }
 ### c_province0873
 873 = {
-	culture = murican
+	culture = east_themisian
 	rite = roman_rite
 	holding = tribal_holding
 }
@@ -12004,7 +12006,7 @@
 }
 ### c_province0836
 836 = {
-	culture = murican
+	culture = east_themisian
 	rite = roman_rite
 	holding = tribal_holding
 }
@@ -31541,7 +31543,7 @@
 }
 ### c_arizona
 2684 = {
-	culture = moderate
+	culture = southwesterner
 	rite = protestant_rite	# e83 real 2026 majority (was roman_rite)
 	holding = tribal_holding
 }
@@ -31573,7 +31575,7 @@
 }
 ### c_los_angeles
 2686 = {
-	culture = progressive
+	culture = angeleno
 	rite = roman_rite
 	holding = castle_holding
 }
@@ -31585,6 +31587,7 @@
 	culture = liblander_west
 	rite = roman_rite
 	holding = castle_holding
+	special_building_slot = hee_nalu_surf_heiau_01	# He'e Nalu 2026-11-16: surf heiau (WONDERS merge rule applies)
 }
 8101 = {
 	holding = castle_holding
@@ -31600,7 +31603,7 @@
 }
 ### c_grand_junction
 2689 = {
-	culture = murican
+	culture = westerner
 	rite = protestant_rite	# e83 real 2026 majority (was roman_rite)
 	holding = castle_holding
 }
@@ -31612,7 +31615,7 @@
 }
 ### c_connecticut
 2699 = {
-	culture = liblander
+	culture = new_englander
 	rite = roman_rite
 	holding = castle_holding
 }
@@ -31621,7 +31624,7 @@
 }
 ### c_idaho
 2700 = {
-	culture = murican
+	culture = cascadian
 	rite = protestant_rite	# e83 real 2026 majority (was latter_day_saints_rite)
 	holding = tribal_holding
 }
@@ -31654,7 +31657,7 @@
 }
 ### c_massachusetts
 2703 = {
-	culture = progressive
+	culture = new_englander
 	rite = roman_rite
 	holding = castle_holding
 	# Harvard University (real-world wonder at its real location)
@@ -31666,7 +31669,7 @@
 }
 ### c_marquette
 2704 = {
-	culture = moderate
+	culture = midwestern
 	rite = protestant_rite	# e83 real 2026 majority (was roman_rite)
 	holding = castle_holding
 }
@@ -31675,7 +31678,7 @@
 }
 ### c_billings
 2709 = {
-	culture = murican
+	culture = westerner
 	rite = protestant_rite	# e83 real 2026 majority (was latter_day_saints_rite)
 	holding = tribal_holding
 }
@@ -31690,7 +31693,7 @@
 }
 ### c_new_hampshire
 2710 = {
-	culture = moderate
+	culture = new_englander
 	rite = protestant_rite	# e83 real 2026 majority (was roman_rite)
 	holding = castle_holding
 }
@@ -31699,7 +31702,7 @@
 }
 ### c_new_jersey
 2731 = {
-	culture = liblander
+	culture = mid_atlantic
 	rite = roman_rite
 	holding = castle_holding
 }
@@ -31710,7 +31713,7 @@
 }
 ### c_las_cruces
 2732 = {
-	culture = moderate
+	culture = southwesterner
 	rite = roman_rite
 	holding = tribal_holding
 }
@@ -31722,7 +31725,7 @@
 }
 ### c_las_vegas
 2733 = {
-	culture = moderate
+	culture = southwesterner
 	rite = protestant_rite	# e83 real 2026 majority (was roman_rite)
 	holding = castle_holding
 }
@@ -31731,7 +31734,7 @@
 }
 ### c_buffalo
 2734 = {
-	culture = liblander
+	culture = mid_atlantic
 	rite = roman_rite
 	holding = castle_holding
 	# Niagara Falls (real-world wonder at its real location)
@@ -31743,7 +31746,7 @@
 }
 ### c_rhode_island
 2735 = {
-	culture = liblander
+	culture = new_englander
 	rite = roman_rite
 	holding = castle_holding
 }
@@ -31761,7 +31764,7 @@
 }
 ### c_virginia
 2737 = {
-	culture = liblander
+	culture = mid_atlantic
 	rite = protestant_rite
 	holding = castle_holding
 }
@@ -31770,7 +31773,7 @@
 }
 ### c_vermont
 2738 = {
-	culture = progressive
+	culture = new_englander
 	rite = protestant_rite	# e83 real 2026 majority (was roman_rite)
 	holding = castle_holding
 }
@@ -31779,7 +31782,7 @@
 }
 ### c_west_virginia
 2739 = {
-	culture = murican
+	culture = southerner
 	rite = protestant_rite
 	holding = castle_holding
 }
@@ -32790,7 +32793,7 @@
 }
 ### c_nanaimo
 2610 = {
-	culture = liblander_west
+	culture = cascadian
 	rite = roman_rite	# e83 real 2026 majority (was protestant_rite)
 	holding = castle_holding
 }
@@ -35826,7 +35829,7 @@
 }
 ### c_campbell_river
 3077 = {
-	culture = liblander_west
+	culture = cascadian
 	rite = roman_rite	# e83 real 2026 majority (was protestant_rite)
 	holding = castle_holding
 }
@@ -36277,7 +36280,7 @@
 	holding = city_holding
 }
 9429 = {
-	culture = papuan
+	culture = hawaiian	# Hawaiian culture 2026-11-15 (was papuan)
 	rite = protestant_rite	# e83 real 2026 majority (was roman_rite)
 	holding = castle_holding
 	# Kīlauea (real-world wonder at its real location)

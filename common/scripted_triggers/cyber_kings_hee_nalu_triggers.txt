@@ -1,0 +1,31 @@
+﻿# He'e Nalu (2026-11-15): who may host a Surf Trip and who may be asked along.
+
+# root = character. The faithful (tenet parameter) and anyone of any faith who has picked up surfing.
+hee_nalu_can_surf_trigger = {
+	OR = {
+		rite = { rite_has_parameter = hee_nalu_surfing_active }
+		has_trait = hee_nalu_surfer
+		has_trait = hee_nalu_kook
+	}
+}
+
+# this = the possible guest, scope:host = the host. Wider than the vanilla hike's rule (own AI courtiers only):
+# vassals, the liege, family, friends, lovers, allies and knights too, of any faith, players included.
+hee_nalu_surf_guest_trigger = {
+	this != scope:host
+	is_healthy = yes
+	is_available = yes
+	age >= 12
+	OR = {
+		court_owner ?= scope:host
+		is_vassal_or_below_of = scope:host
+		target_is_liege_or_above = scope:host
+		is_close_or_extended_family_of = scope:host
+		is_spouse_of = scope:host
+		has_relation_friend = scope:host
+		has_relation_best_friend = scope:host
+		has_relation_lover = scope:host
+		is_allied_to = scope:host
+		is_knight_of = scope:host
+	}
+}

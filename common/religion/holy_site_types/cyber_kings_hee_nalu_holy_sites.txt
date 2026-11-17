@@ -1,0 +1,94 @@
+﻿# He'e Nalu holy sites, v2 (2026-11-15 evening). Design and the physics behind the off-world picks: _dev/HEE_NALU.md §2b
+# 9 sites = the engine maximum: the 4 best breaks on Earth, the 3 best worlds for waves (one point break each,
+# chosen on the map), and 2 heritage sites. 3 eminent (see cyber_kings_hee_nalu_faith.txt).
+# Removed in v2: hee_nalu_waikiki (now hee_nalu_pipeline, same county), hee_nalu_nazare, hee_nalu_huanchaco.
+
+hee_nalu_pipeline = {	# EARTH 1/4. O'ahu's North Shore (county Hawaii): the most famous wave on Earth. Was the Waikiki site until 2026-11-15.
+	county = c_province0531
+	county_holder_character_modifier = {
+		prowess = 2
+	}
+	faith_character_modifier = {
+		monthly_piety_gain_mult = 0.1
+	}
+}
+
+hee_nalu_jeffreys_bay = {	# EARTH 2/4. Gqeberha county: Supertubes, the best right-hand point break on Earth
+	county = c_province0807
+	county_holder_character_modifier = {
+		martial = 2
+	}
+	faith_character_modifier = {
+		monthly_piety_gain_mult = 0.05
+	}
+}
+
+hee_nalu_snapper_rocks = {	# EARTH 3/4. Brisbane county: the Gold Coast Superbank
+	county = c_province1049
+	county_holder_character_modifier = {
+		diplomacy = 2
+	}
+	faith_character_modifier = {
+		monthly_piety_gain_mult = 0.05
+	}
+}
+
+hee_nalu_cloudbreak = {	# EARTH 4/4. Fiji: the reef pass (the map has no Tahiti county for Teahupo'o)
+	county = c_fiji
+	county_holder_character_modifier = {
+		prowess = 2
+	}
+	faith_character_modifier = {
+		monthly_piety_gain_mult = 0.05
+	}
+}
+
+hee_nalu_schrodinger_point = {	# MOON. Best waves in the system by physics: 1/6 g with full sunlight, about 30 m faces that take 6 s to fall. A wedge cape with the swell running down its north flank.
+	county = c_province0146
+	county_holder_character_modifier = {
+		prowess = 2
+	}
+	faith_character_modifier = {
+		stress_loss_mult = 0.1
+	}
+}
+
+hee_nalu_eminescu_point = {	# MERCURY. 0.38 g and 6.7 times the sunlight: the hardest winds, about 28 m and fast. A peninsula reaching west into open sea.
+	county = c_province0439
+	county_holder_character_modifier = {
+		martial = 2
+	}
+	faith_character_modifier = {
+		monthly_piety_gain_mult = 0.05
+	}
+}
+
+hee_nalu_sepik_point = {	# MARS. 0.38 g and the biggest ocean off Earth: about 11 m, the most consistent swell. A sharp cape on the northern ocean.
+	county = c_province1321
+	county_holder_character_modifier = {
+		learning = 2
+	}
+	faith_character_modifier = {
+		monthly_piety_gain_mult = 0.05
+	}
+}
+
+hee_nalu_steamer_lane = {	# HERITAGE. Central Coast (Santa Cruz): three Hawaiian princes brought surfing to the mainland here in 1885
+	county = c_monterey
+	county_holder_character_modifier = {
+		diplomacy = 2
+	}
+	faith_character_modifier = {
+		monthly_prestige_gain_mult = 0.05
+	}
+}
+
+hee_nalu_kuemanu = {	# HERITAGE. Hawai'i island, Kahalu'u Bay: a real heiau dedicated to surfing
+	county = c_hilo
+	county_holder_character_modifier = {
+		learning = 2
+	}
+	faith_character_modifier = {
+		stress_loss_mult = 0.1
+	}
+}

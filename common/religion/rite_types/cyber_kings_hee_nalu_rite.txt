@@ -1,0 +1,16 @@
+﻿# He'e Nalu (2026-11-15): scripted main rite of hee_nalu_faith. It owns the three core tenets.
+hee_nalu_rite = {
+	faith = hee_nalu_faith
+
+	color = { 0.05 0.62 0.68 }
+
+	tenets = {
+		tenet_hee_nalu
+		tenet_sanctity_of_nature
+		tenet_ritual_celebrations
+	}
+
+	doctrines = {
+		unreformed_faith_doctrine
+	}
+}

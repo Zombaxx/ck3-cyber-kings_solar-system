@@ -1,0 +1,393 @@
+﻿# Cyber Kings 2026-11-16 07:30: American regional cultures and their family tree (modder 07:18, 07:23).
+# Tree, sources and tradition inheritance: _dev/AMERICAN_CULTURES.md. Generator: _dev/scripts/oneoff/gen_american_cultures.py
+
+# 2026-11-16 07:30 (modder 07:18/07:23) root: the English colonies (Jamestown 1607); no living members
+colonial_american = {
+	color = { 0.45 0.40 0.30 }
+	created = 6607.1.1
+	parents = { english }
+	
+	ethos = ethos_bureaucratic
+	heritage = heritage_ck_american
+	language = language_anglic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = { tradition_republican_legacy tradition_family_entrepreneurship tradition_hard_working }
+	
+	name_list = name_list_cy_american
+	coa_gfx = { frankish_group_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { french_clothing_gfx western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	house_coa_frame = house_frame_03
+	house_coa_mask_offset = { 0.0 0.055 }
+	house_coa_mask_scale = { 0.9 0.9 }
+	
+	ethnicities = {
+		10 = caucasian_blond
+		5 = caucasian_ginger
+		45 = caucasian_brown_hair
+		35 = caucasian_dark_hair
+	}
+}
+
+# 2026-11-16 07:30 (modder 07:18/07:23) Puritan New England (Plymouth 1620)
+new_englander = {
+	color = { 0.25 0.35 0.60 }
+	created = 6620.1.1
+	parents = { colonial_american }
+	
+	ethos = ethos_bureaucratic
+	heritage = heritage_ck_american
+	language = language_anglic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = { tradition_republican_legacy tradition_hard_working tradition_city_keepers tradition_maritime_mercantilism }
+	
+	name_list = name_list_cy_american
+	coa_gfx = { frankish_group_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { french_clothing_gfx western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	house_coa_frame = house_frame_03
+	house_coa_mask_offset = { 0.0 0.055 }
+	house_coa_mask_scale = { 0.9 0.9 }
+	
+	ethnicities = {
+		10 = caucasian_blond
+		5 = caucasian_ginger
+		45 = caucasian_brown_hair
+		35 = caucasian_dark_hair
+	}
+}
+
+# 2026-11-16 07:30 (modder 07:18/07:23) Quaker, Dutch and German Middle Colonies (Pennsylvania 1681)
+mid_atlantic = {
+	color = { 0.40 0.30 0.55 }
+	created = 6681.1.1
+	parents = { colonial_american german }
+	
+	ethos = ethos_bureaucratic
+	heritage = heritage_ck_american
+	language = language_anglic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = { tradition_republican_legacy tradition_family_entrepreneurship tradition_city_keepers tradition_xenophilic }
+	
+	name_list = name_list_cy_american
+	coa_gfx = { frankish_group_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { french_clothing_gfx western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	house_coa_frame = house_frame_03
+	house_coa_mask_offset = { 0.0 0.055 }
+	house_coa_mask_scale = { 0.9 0.9 }
+	
+	ethnicities = {
+		10 = caucasian_blond
+		5 = caucasian_ginger
+		45 = caucasian_brown_hair
+		35 = caucasian_dark_hair
+	}
+}
+
+# 2026-11-16 07:30 (modder 07:18/07:23) Cavalier tidewater and Scots-Irish backcountry (Carolina 1670)
+southerner = {
+	color = { 0.60 0.25 0.20 }
+	created = 6670.1.1
+	parents = { colonial_american scottish }
+	
+	ethos = ethos_bellicose
+	heritage = heritage_ck_american
+	language = language_anglic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = { tradition_family_entrepreneurship tradition_staunch_traditionalists tradition_reverence_for_veterans tradition_strong_kinship }
+	
+	name_list = name_list_cy_american
+	coa_gfx = { breton_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { breton_clothing_gfx western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	house_coa_frame = house_frame_24
+	house_coa_mask_offset = { 0.0 0.055 }
+	house_coa_mask_scale = { 0.9 0.9 }
+	
+	ethnicities = {
+		5 = caucasian_blond
+		30 = caucasian_ginger
+		35 = caucasian_brown_hair
+		30 = caucasian_dark_hair
+	}
+}
+
+# 2026-11-16 07:30 (modder 07:18/07:23) Mountain West frontier (Salt Lake 1847)
+westerner = {
+	color = { 0.65 0.45 0.25 }
+	created = 6847.1.1
+	parents = { midwestern southerner }
+	
+	ethos = ethos_stoic
+	heritage = heritage_ck_american
+	language = language_anglic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = { tradition_hard_working tradition_staunch_traditionalists tradition_horse_breeder }
+	
+	name_list = name_list_cy_american
+	coa_gfx = { breton_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { breton_clothing_gfx western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	house_coa_frame = house_frame_24
+	house_coa_mask_offset = { 0.0 0.055 }
+	house_coa_mask_scale = { 0.9 0.9 }
+	
+	ethnicities = {
+		5 = caucasian_blond
+		30 = caucasian_ginger
+		35 = caucasian_brown_hair
+		30 = caucasian_dark_hair
+	}
+}
+
+# 2026-11-16 07:30 (modder 07:18/07:23) Anglo and Hispano Southwest (Guadalupe Hidalgo 1848)
+southwesterner = {
+	color = { 0.80 0.55 0.30 }
+	created = 6848.1.1
+	parents = { westerner latino_american }
+	
+	ethos = ethos_bellicose
+	heritage = heritage_ck_american
+	language = language_anglic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = { tradition_horse_breeder tradition_martial_admiration tradition_culture_blending }
+	
+	name_list = name_list_cy_american
+	coa_gfx = { breton_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { breton_clothing_gfx western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	house_coa_frame = house_frame_24
+	house_coa_mask_offset = { 0.0 0.055 }
+	house_coa_mask_scale = { 0.9 0.9 }
+	
+	ethnicities = {
+		5 = caucasian_blond
+		30 = caucasian_ginger
+		35 = caucasian_brown_hair
+		30 = caucasian_dark_hair
+	}
+}
+
+# 2026-11-16 07:30 (modder 07:18/07:23) Pacific Northwest (Oregon Trail 1843; Portland is named for Portland, Maine)
+cascadian = {
+	color = { 0.20 0.50 0.35 }
+	created = 6843.1.1
+	parents = { new_englander midwestern }
+	
+	ethos = ethos_egalitarian
+	heritage = heritage_ck_american
+	language = language_anglic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = { tradition_hard_working tradition_equitable tradition_forest_folk tradition_maritime_mercantilism }
+	
+	name_list = name_list_cy_american
+	coa_gfx = { frankish_group_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { french_clothing_gfx western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	house_coa_frame = house_frame_03
+	house_coa_mask_offset = { 0.0 0.055 }
+	house_coa_mask_scale = { 0.9 0.9 }
+	
+	ethnicities = {
+		10 = caucasian_blond
+		5 = caucasian_ginger
+		45 = caucasian_brown_hair
+		35 = caucasian_dark_hair
+	}
+}
+
+# 2026-11-16 07:30 (modder 07:18/07:23) San Francisco Bay Area
+bay_arean = {
+	color = { 0.75 0.40 0.70 }
+	created = 6945.1.1
+	parents = { liblander_west }
+	
+	ethos = ethos_learned
+	heritage = heritage_ck_american
+	language = language_anglic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = { tradition_equitable tradition_philosopher_culture tradition_maritime_mercantilism }
+	
+	name_list = name_list_cy_american
+	coa_gfx = { frankish_group_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { french_clothing_gfx western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	house_coa_frame = house_frame_03
+	house_coa_mask_offset = { 0.0 0.055 }
+	house_coa_mask_scale = { 0.9 0.9 }
+	
+	ethnicities = {
+		10 = caucasian_blond
+		5 = caucasian_ginger
+		45 = caucasian_brown_hair
+		35 = caucasian_dark_hair
+	}
+}
+
+# 2026-11-16 07:30 (modder 07:18/07:23) Los Angeles (Hollywood 1910)
+angeleno = {
+	color = { 0.85 0.35 0.55 }
+	created = 6910.1.1
+	parents = { liblander_west latino_american }
+	
+	ethos = ethos_courtly
+	heritage = heritage_ck_american
+	language = language_anglic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = { tradition_city_keepers tradition_culture_blending tradition_music_theory }
+	
+	name_list = name_list_cy_american
+	coa_gfx = { frankish_group_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { french_clothing_gfx western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	house_coa_frame = house_frame_03
+	house_coa_mask_offset = { 0.0 0.055 }
+	house_coa_mask_scale = { 0.9 0.9 }
+	
+	ethnicities = {
+		10 = caucasian_blond
+		5 = caucasian_ginger
+		45 = caucasian_brown_hair
+		35 = caucasian_dark_hair
+	}
+}
+
+# 2026-11-16 07:30 (modder 07:18/07:23) State of Jefferson (1941), rural far-northern California
+jeffersonian = {
+	color = { 0.45 0.55 0.30 }
+	created = 6941.1.1
+	parents = { liblander_west cascadian }
+	
+	ethos = ethos_stoic
+	heritage = heritage_ck_american
+	language = language_anglic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = { tradition_forest_folk tradition_staunch_traditionalists tradition_isolationist }
+	
+	name_list = name_list_cy_american
+	coa_gfx = { breton_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { breton_clothing_gfx western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	house_coa_frame = house_frame_24
+	house_coa_mask_offset = { 0.0 0.055 }
+	house_coa_mask_scale = { 0.9 0.9 }
+	
+	ethnicities = {
+		5 = caucasian_blond
+		30 = caucasian_ginger
+		35 = caucasian_brown_hair
+		30 = caucasian_dark_hair
+	}
+}
+
+# 2026-11-16 07:30 (modder 07:18/07:23) American settlers of Antarctica (first holders 6921)
+antarctican = {
+	color = { 0.70 0.80 0.90 }
+	created = 6920.1.1
+	parents = { mid_atlantic }
+	
+	ethos = ethos_stoic
+	heritage = heritage_ck_american
+	language = language_anglic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = { tradition_republican_legacy tradition_hard_working tradition_winter_warriors }
+	
+	name_list = name_list_cy_american
+	coa_gfx = { frankish_group_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { french_clothing_gfx western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	house_coa_frame = house_frame_03
+	house_coa_mask_offset = { 0.0 0.055 }
+	house_coa_mask_scale = { 0.9 0.9 }
+	
+	ethnicities = {
+		10 = caucasian_blond
+		5 = caucasian_ginger
+		45 = caucasian_brown_hair
+		35 = caucasian_dark_hair
+	}
+}
+
+# 2026-11-16 07:30 (modder 07:18/07:23) American colony of West Themisia, Venus (first holders 6902)
+west_themisian = {
+	color = { 0.55 0.70 0.80 }
+	created = 6900.1.1
+	parents = { mid_atlantic new_englander }
+	
+	ethos = ethos_egalitarian
+	heritage = heritage_ck_american
+	language = language_anglic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = { tradition_equitable tradition_city_keepers tradition_xenophilic }
+	
+	name_list = name_list_cy_american
+	coa_gfx = { frankish_group_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { french_clothing_gfx western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	house_coa_frame = house_frame_03
+	house_coa_mask_offset = { 0.0 0.055 }
+	house_coa_mask_scale = { 0.9 0.9 }
+	
+	ethnicities = {
+		10 = caucasian_blond
+		5 = caucasian_ginger
+		45 = caucasian_brown_hair
+		35 = caucasian_dark_hair
+	}
+}
+
+# 2026-11-16 07:30 (modder 07:18/07:23) American colony of East Themisia, Venus (first holders 6905; veterans of the 1975 Venusnam war)
+east_themisian = {
+	color = { 0.70 0.45 0.45 }
+	created = 6904.1.1
+	parents = { southerner westerner }
+	
+	ethos = ethos_bellicose
+	heritage = heritage_ck_american
+	language = language_anglic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = { tradition_reverence_for_veterans tradition_staunch_traditionalists tradition_strong_kinship }
+	
+	name_list = name_list_cy_american
+	coa_gfx = { breton_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { breton_clothing_gfx western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	house_coa_frame = house_frame_24
+	house_coa_mask_offset = { 0.0 0.055 }
+	house_coa_mask_scale = { 0.9 0.9 }
+	
+	ethnicities = {
+		5 = caucasian_blond
+		30 = caucasian_ginger
+		35 = caucasian_brown_hair
+		30 = caucasian_dark_hair
+	}
+}
+

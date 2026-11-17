@@ -108,7 +108,7 @@
 9106015 = {	# American adventurer, count of the Lemurian natives since 2046
 	name = "ckn_Cody"
 	dynasty = 920104
-	culture = liblander
+	culture = east_themisian
 	rite = roman_rite
 	trait = brave
 	trait = ambitious

@@ -1,0 +1,238 @@
+﻿# He'e Nalu faith decisions (2026-11-16). Design: _dev/HEE_NALU.md §3c
+# (The old Go Surfing decision is gone since 2026-11-15: surfing is the Surf Trip activity.)
+
+# Name the house's ancestral guardian. Once per house, by its head. Every member gets the house modifier.
+hee_nalu_choose_aumakua_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_personal_religious.dds"
+	}
+	decision_group_type = religious
+	desc = hee_nalu_choose_aumakua_decision_desc
+	selection_tooltip = hee_nalu_choose_aumakua_decision_tooltip
+
+	is_shown = {
+		rite = { rite_has_parameter = hee_nalu_surfing_active }
+		exists = house
+		NOT = { house = { has_variable = hee_nalu_aumakua } }
+	}
+
+	is_valid = {
+		custom_description = {
+			text = hee_nalu_choose_aumakua_house_head_trigger
+			is_house_head = yes
+		}
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		piety = 150
+	}
+
+	effect = {
+		custom_tooltip = hee_nalu_choose_aumakua_decision_effect_tt
+		trigger_event = hee_nalu.0210
+	}
+
+	ai_check_interval_by_tier = {
+		barony = 0
+		county = 60
+		duchy = 60
+		kingdom = 60
+		empire = 60
+		hegemony = 60
+	}
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}
+
+# Offerings for waves: the wave sense comes easier on Surf Trips for 3 years, and the capital likes to see it done.
+hee_nalu_bless_the_swell_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_personal_religious.dds"
+	}
+	decision_group_type = religious
+	desc = hee_nalu_bless_the_swell_decision_desc
+	selection_tooltip = hee_nalu_bless_the_swell_decision_tooltip
+
+	cooldown = { years = 5 }
+
+	is_shown = {
+		rite = { rite_has_parameter = hee_nalu_surfing_active }
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		piety = 100
+	}
+
+	effect = {
+		custom_tooltip = hee_nalu_bless_the_swell_decision_effect_tt
+		add_character_modifier = {
+			modifier = hee_nalu_blessed_swell_modifier
+			years = 3
+		}
+		capital_county ?= {
+			add_county_modifier = {
+				modifier = hee_nalu_blessed_swell_county_modifier
+				years = 3
+			}
+		}
+	}
+
+	ai_check_interval_by_tier = {
+		barony = 0
+		county = 60
+		duchy = 60
+		kingdom = 60
+		empire = 60
+		hegemony = 60
+	}
+
+	ai_potential = {
+		piety >= 300
+	}
+
+	ai_will_do = {
+		base = 20
+		modifier = {
+			add = 30
+			has_trait = zealous
+		}
+	}
+}
+
+# Makahiki: the season of Lono. 120 days of peace and games; events hee_nalu.0400 (games) and hee_nalu.0403 (Lono departs).
+hee_nalu_proclaim_makahiki_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_personal_religious.dds"
+	}
+	decision_group_type = religious
+	desc = hee_nalu_proclaim_makahiki_decision_desc
+	selection_tooltip = hee_nalu_proclaim_makahiki_decision_tooltip
+
+	cooldown = { years = 4 }
+
+	is_shown = {
+		rite = { rite_has_parameter = hee_nalu_surfing_active }
+		highest_held_title_tier >= tier_county
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+		is_at_war = no
+	}
+
+	cost = {
+		gold = 100
+	}
+
+	effect = {
+		custom_tooltip = hee_nalu_proclaim_makahiki_decision_effect_tt
+		add_character_modifier = {
+			modifier = hee_nalu_makahiki_modifier
+			days = 120
+		}
+		trigger_event = {
+			id = hee_nalu.0400
+			days = 14
+		}
+		trigger_event = {
+			id = hee_nalu.0403
+			days = 120
+		}
+	}
+
+	ai_check_interval_by_tier = {
+		barony = 0
+		county = 60
+		duchy = 60
+		kingdom = 60
+		empire = 60
+		hegemony = 60
+	}
+
+	ai_potential = {
+		is_at_war = no
+		short_term_gold >= 200
+	}
+
+	ai_will_do = {
+		base = 15
+		modifier = {
+			add = 20
+			has_trait = gregarious
+		}
+		modifier = {
+			add = 20
+			has_trait = zealous
+		}
+	}
+}
+
+# A board from a master shaper, as an artifact. Surfers only. An olo for a Waterman/Waterwoman or better, else an alaia.
+hee_nalu_shape_board_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_personal_religious.dds"
+	}
+	decision_group_type = religious
+	desc = hee_nalu_shape_board_decision_desc
+	selection_tooltip = hee_nalu_shape_board_decision_tooltip
+
+	cooldown = { years = 10 }
+
+	is_shown = {
+		hee_nalu_can_surf_trigger = yes
+	}
+
+	is_valid = {
+		custom_description = {
+			text = hee_nalu_shape_board_surfer_trigger
+			OR = {
+				has_trait = hee_nalu_surfer
+				has_trait = hee_nalu_kook
+			}
+		}
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		gold = 150
+	}
+
+	effect = {
+		custom_tooltip = hee_nalu_shape_board_decision_effect_tt
+		hee_nalu_shape_board_effect = yes
+	}
+
+	ai_check_interval_by_tier = {
+		barony = 0
+		county = 120
+		duchy = 120
+		kingdom = 120
+		empire = 120
+		hegemony = 120
+	}
+
+	ai_potential = {
+		short_term_gold >= 400
+	}
+
+	ai_will_do = {
+		base = 10
+	}
+}

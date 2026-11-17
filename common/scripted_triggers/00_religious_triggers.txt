@@ -1148,6 +1148,7 @@ religion_has_angels_trigger = {
 		OR = { religion = religion:zoroastrianism_religion religion = religion:hermazta_religion religion = religion:divine_cycle_religion religion = religion:voyagism_religion }
 		OR = { religion = religion:dualism_religion religion = religion:holy_serpent_religion religion = religion:gnoslam_religion }
 		religion = religion:judaism_religion
+		faith = faith:everlasting_covenant_faith	# Cyber Kings 2026-11-16 19:40: the Covenant sends messengers too
 		religion = religion:yazidi_religion
 	}
 }

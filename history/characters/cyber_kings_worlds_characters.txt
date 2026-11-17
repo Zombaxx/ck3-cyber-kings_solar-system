@@ -42,6 +42,10 @@
 	learning = 14
 	diplomacy = 12
 	martial = 10
-	7050.9.15 = { give_nickname = nick_the_prophet }
+	7050.9.15 = {
+		give_nickname = nick_the_prophet
+		# 2026-11-15 18:40 (modder 18:34): speaks his father Dezvaus's Artemitian tongue as well as Ganisian (language_proto)
+		effect = { learn_language_of_culture = culture:ckw_artemitian }
+	}
 	7028.5.23 = { birth = yes }
 }

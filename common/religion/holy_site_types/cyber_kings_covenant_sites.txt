@@ -1,0 +1,21 @@
+﻿# Cyber Kings 2026-11-16 19:00: holy sites of the Everlasting Covenant (gen_covenant.py)
+
+ck_covenant_ice = {
+	county = c_province0711
+	county_holder_character_modifier = {
+		learning = 2
+	}
+	faith_character_modifier = {
+		monthly_piety_gain_mult = 0.1
+	}
+}
+
+ck_covenant_sinus_roris = {
+	county = c_province0183
+	county_holder_character_modifier = {
+		learning = 2
+	}
+	faith_character_modifier = {
+		monthly_prestige_gain_mult = 0.05
+	}
+}

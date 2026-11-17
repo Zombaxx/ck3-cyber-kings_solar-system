@@ -1,0 +1,21 @@
+﻿# Cyber Kings 2026-11-15 18:10 (modder 17:45): the Ganisians are a hybrid of the Artemitians and the Altans (see the culture definition), so they
+# start with high acceptance of both parent cultures, as a hybrid formed in play would. Appended to vanilla on_game_start.
+on_game_start = {
+	on_actions = { cyber_ganisian_parent_acceptance }
+}
+cyber_ganisian_parent_acceptance = {
+	effect = {
+		culture:ganisian = {
+			change_cultural_acceptance = {
+				target = culture:ckw_artemitian
+				value = 60
+				desc = cultural_acceptance_historical_relations
+			}
+			change_cultural_acceptance = {
+				target = culture:ckw_altan
+				value = 60
+				desc = cultural_acceptance_historical_relations
+			}
+		}
+	}
+}

@@ -4,15 +4,15 @@
 }
 7000103 = {
 	name = "dynn_ck_7000103"
-	culture = "liblander"
+	culture = "angeleno"
 }
 7000032 = {
 	name = "dynn_ck_7000032"
-	culture = "liblander"	# e79 (was navardanian, another world)
+	culture = "angeleno"	# e79 (was navardanian, another world)
 }
 7000033 = {
 	name = "dynn_ck_7000033"
-	culture = "murican"	# e79 (was gdonyos, another world)
+	culture = "southerner"	# e79 (was gdonyos, another world)
 }
 7000034 = {
 	name = "dynn_ck_7000034"
@@ -20,7 +20,7 @@
 }
 7000035 = {
 	name = "dynn_ck_7000035"
-	culture = "liblander"	# e79 (was gdonyos, another world)
+	culture = "angeleno"	# e79 (was gdonyos, another world)
 }
 7000036 = {
 	name = "dynn_ck_7000036"
@@ -48,7 +48,7 @@
 }
 7000131 = {
 	name = "dynn_ck_7000131"
-	culture = "murican"
+	culture = "southerner"
 }
 666666 = {
 	name = "dynn_ck_666666"
@@ -504,7 +504,7 @@
 }
 101260 = {
 	name = "dynn_cy_Williams"
-	culture = murican
+	culture = southerner
 }
 101270 = {
 	name = "dynn_ck_101270"
@@ -528,7 +528,7 @@
 }
 101320 = {
 	name = "dynn_cy_Brown"
-	culture = "liblander"
+	culture = "antarctican"
 }
 101330 = {
 	name = "dynn_ck_101330"
@@ -560,7 +560,7 @@
 }
 101440 = {
 	name = "dynn_cy_Miller"
-	culture = moderate
+	culture = southwesterner
 }
 101460 = {
 	name = "dynn_cy_Davis"
@@ -620,7 +620,7 @@
 }
 101610 = {
 	name = "dynn_cy_Anderson"
-	culture = murican
+	culture = southerner
 }
 101620 = {
 	name = "dynn_cy_Rodrigues"
@@ -644,7 +644,7 @@
 }
 101700 = {
 	name = "dynn_cy_Moore"
-	culture = murican
+	culture = westerner
 }
 101710 = {
 	name = "dynn_ck_101710"
@@ -652,7 +652,7 @@
 }
 101720 = {
 	name = "dynn_cy_Lee"
-	culture = "liblander"
+	culture = "antarctican"
 }
 101730 = {
 	name = "dynn_ck_101730"
@@ -724,7 +724,7 @@
 }
 101920 = {
 	name = "dynn_cy_Clark"
-	culture = moderate
+	culture = westerner
 }
 101930 = {
 	name = "dynn_cy_Cardenas"
@@ -744,11 +744,11 @@
 }
 101970 = {
 	name = "dynn_cy_Lewis"
-	culture = murican
+	culture = southerner
 }
 101980 = {
 	name = "dynn_cy_Robinson"
-	culture = "murican"
+	culture = "southerner"
 }
 101990 = {
 	name = "dynn_cy_Pereira"
@@ -772,7 +772,7 @@
 }
 102040 = {
 	name = "dynn_cy_Walker"
-	culture = murican
+	culture = southerner
 }
 102050 = {
 	name = "dynn_ck_102050"
@@ -788,7 +788,7 @@
 }
 102080 = {
 	name = "dynn_ck_102080"
-	culture = "progressive"
+	culture = "cascadian"
 }
 102100 = {
 	name = "dynn_ck_102100"
@@ -800,7 +800,7 @@
 }
 102130 = {
 	name = "dynn_ck_102130"
-	culture = "liblander"
+	culture = "archon"
 }
 102140 = {
 	name = "dynn_ck_102140"
@@ -836,7 +836,7 @@
 }
 102220 = {
 	name = "dynn_cy_Allen"
-	culture = "liblander"
+	culture = "antarctican"
 }
 102230 = {
 	name = "dynn_cy_Lima"
@@ -864,7 +864,7 @@
 }
 102290 = {
 	name = "dynn_cy_Nguyen"
-	culture = liblander
+	culture = midwestern
 }
 102300 = {
 	name = "dynn_ck_102300"
@@ -872,7 +872,7 @@
 }
 102310 = {
 	name = "dynn_cy_Hill"
-	culture = murican
+	culture = cascadian
 }
 102320 = {
 	name = "dynn_ck_102320"
@@ -880,7 +880,7 @@
 }
 102330 = {
 	name = "dynn_ck_102330"
-	culture = "murican"
+	culture = "westerner"
 }
 102340 = {
 	name = "dynn_cy_Conceicao"
@@ -904,7 +904,7 @@
 }
 102390 = {
 	name = "dynn_cy_Nelson"
-	culture = murican
+	culture = southerner
 }
 102400 = {
 	name = "dynn_cy_Gomes"
@@ -912,7 +912,7 @@
 }
 102410 = {
 	name = "dynn_cy_Baker"
-	culture = "liblander_west"
+	culture = "cascadian"
 }
 102420 = {
 	name = "dynn_ck_102420"
@@ -932,7 +932,7 @@
 }
 102460 = {
 	name = "dynn_cy_Mitchell"
-	culture = moderate
+	culture = midwestern
 }
 102470 = {
 	name = "dynn_cy_Ribeiro"
@@ -976,7 +976,7 @@
 }
 102580 = {
 	name = "dynn_cy_Evans"
-	culture = moderate
+	culture = midwestern
 }
 102590 = {
 	name = "dynn_cy_Turner"
@@ -1000,11 +1000,11 @@
 }
 102640 = {
 	name = "dynn_ck_102640"
-	culture = "liblander"
+	culture = "mid_atlantic"
 }
 102642 = {
 	name = "dynn_ck_102642"
-	culture = "liblander"
+	culture = "mid_atlantic"
 }
 102650 = {
 	name = "dynn_ck_102650"
@@ -1036,7 +1036,7 @@
 }
 102740 = {
 	name = "dynn_cy_Parker"
-	culture = moderate
+	culture = midwestern
 }
 102750 = {
 	name = "dynn_ck_102750"
@@ -1184,7 +1184,7 @@
 }
 103120 = {
 	name = "dynn_cy_Edwards"
-	culture = murican
+	culture = cascadian
 }
 103130 = {
 	name = "dynn_ck_103130"
@@ -1252,7 +1252,7 @@
 }
 103290 = {
 	name = "dynn_ck_103290"
-	culture = "liblander"
+	culture = "new_englander"
 }
 103300 = {
 	name = "dynn_ck_103300"
@@ -1300,7 +1300,7 @@
 }
 103410 = {
 	name = "dynn_cy_Collins"
-	culture = "liblander"
+	culture = "cascadian"
 }
 103420 = {
 	name = "dynn_ck_103420"
@@ -1332,7 +1332,7 @@
 }
 103490 = {
 	name = "dynn_cy_Morris"
-	culture = murican
+	culture = liblander_west
 }
 103500 = {
 	name = "dynn_cy_Cote"
@@ -1996,7 +1996,7 @@ pictish = {
 }
 105310 = {
 	name = "dynn_ck_105310"
-	culture = "papuan"
+	culture = "hawaiian"
 }
 105320 = {
 	name = "dynn_ck_105320"
@@ -2484,7 +2484,7 @@ pictish = {
 }
 106640 = {
 	name = "dynn_cy_Cook"
-	culture = liblander
+	culture = west_themisian
 }
 106650 = {
 	name = "dynn_cy_Novikov"
@@ -2672,7 +2672,7 @@ pictish = {
 }
 107200 = {
 	name = "dynn_cy_Rogers"
-	culture = liblander
+	culture = west_themisian
 }
 107210 = {
 	name = "dynn_cy_Zaitsev"
@@ -2744,7 +2744,7 @@ pictish = {
 }
 107400 = {
 	name = "dynn_cy_Peterson"
-	culture = liblander
+	culture = west_themisian
 }
 107410 = {
 	name = "dynn_ck_107410"
@@ -2784,7 +2784,7 @@ pictish = {
 }
 107510 = {
 	name = "dynn_cy_Bailey"
-	culture = liblander
+	culture = west_themisian
 }
 107520 = {
 	name = "dynn_cy_Bugti"
@@ -2836,7 +2836,7 @@ pictish = {
 }
 107650 = {
 	name = "dynn_cy_Reed"
-	culture = liblander
+	culture = west_themisian
 }
 107660 = {
 	name = "dynn_ck_107660"
@@ -2900,7 +2900,7 @@ pictish = {
 }
 107830 = {
 	name = "dynn_cy_Howard"
-	culture = liblander
+	culture = west_themisian
 }
 107840 = {
 	name = "dynn_ck_107840"
@@ -2916,7 +2916,7 @@ pictish = {
 }
 107870 = {
 	name = "dynn_cy_Cox"
-	culture = liblander
+	culture = west_themisian
 }
 107880 = {
 	name = "dynn_cy_Gill"
@@ -2936,7 +2936,7 @@ pictish = {
 }
 107920 = {
 	name = "dynn_cy_Richardson"
-	culture = liblander
+	culture = west_themisian
 }
 107930 = {
 	name = "dynn_cy_Khalkha"
@@ -3012,7 +3012,7 @@ pictish = {
 }
 108170 = {
 	name = "dynn_cy_Watson"
-	culture = murican
+	culture = east_themisian
 }
 108180 = {
 	name = "dynn_ck_108180"
@@ -3052,7 +3052,7 @@ pictish = {
 }
 108270 = {
 	name = "dynn_cy_Brooks"
-	culture = murican
+	culture = east_themisian
 }
 108280 = {
 	name = "dynn_cy_Wangchuk"
@@ -3084,7 +3084,7 @@ pictish = {
 }
 108360 = {
 	name = "dynn_cy_James"
-	culture = murican
+	culture = east_themisian
 }
 108370 = {
 	name = "dynn_ck_108370"
@@ -3116,7 +3116,7 @@ pictish = {
 }
 108450 = {
 	name = "dynn_cy_Bennett"
-	culture = murican
+	culture = east_themisian
 }
 108460 = {
 	name = "dynn_cy_Gupta"
@@ -3148,7 +3148,7 @@ pictish = {
 }
 108540 = {
 	name = "dynn_cy_Gray"
-	culture = murican
+	culture = east_themisian
 }
 108550 = {
 	name = "dynn_ck_108550"
@@ -3220,7 +3220,7 @@ pictish = {
 }
 108730 = {
 	name = "dynn_cy_Price"
-	culture = murican
+	culture = east_themisian
 }
 108740 = {
 	name = "dynn_cy_Patnaik"
@@ -8749,179 +8749,179 @@ pictish = {
 }
 400000 = {
 	name = "dynn_ck_400000"
-	culture = "murican"
+	culture = "mid_atlantic"
 }
 400001 = {
 	name = "dynn_ck_400001"
-	culture = "murican"
+	culture = "new_englander"
 }
 400002 = {
 	name = "dynn_ck_400002"
-	culture = "murican"
+	culture = "mid_atlantic"
 }
 400003 = {
 	name = "dynn_ck_400003"
-	culture = "murican"
+	culture = "mid_atlantic"
 }
 400004 = {
 	name = "dynn_ck_400004"
-	culture = "murican"
+	culture = "mid_atlantic"
 }
 400005 = {
 	name = "dynn_ck_400005"
-	culture = "murican"
+	culture = "new_englander"
 }
 400006 = {
 	name = "dynn_ck_400006"
-	culture = "liblander"
+	culture = "southerner"
 }
 400007 = {
 	name = "dynn_ck_400007"
-	culture = "liblander"
+	culture = "mid_atlantic"
 }
 400008 = {
 	name = "dynn_ck_400008"
-	culture = "murican"
+	culture = "midwestern"
 }
 400009 = {
 	name = "dynn_ck_400009"
-	culture = "murican"
+	culture = "mid_atlantic"
 }
 400010 = {
 	name = "dynn_ck_400010"
-	culture = "liblander"
+	culture = "southerner"
 }
 400011 = {
 	name = "dynn_ck_400011"
-	culture = "murican"
+	culture = "southerner"
 }
 400012 = {
 	name = "dynn_ck_400012"
-	culture = "murican"
+	culture = "mid_atlantic"
 }
 400013 = {
 	name = "dynn_ck_400013"
-	culture = "liblander"
+	culture = "new_englander"
 }
 400014 = {
 	name = "dynn_ck_400014"
-	culture = "liblander"
+	culture = "mid_atlantic"
 }
 400015 = {
 	name = "dynn_ck_400015"
-	culture = "murican"
+	culture = "midwestern"
 }
 400016 = {
 	name = "dynn_ck_400016"
-	culture = "liblander"
+	culture = "southerner"
 }
 400017 = {
 	name = "dynn_ck_400017"
-	culture = "murican"
+	culture = "midwestern"
 }
 400018 = {
 	name = "dynn_ck_400018"
-	culture = "murican"
+	culture = "midwestern"
 }
 400019 = {
 	name = "dynn_ck_400019"
-	culture = "murican"
+	culture = "midwestern"
 }
 400020 = {
 	name = "dynn_ck_400020"
-	culture = "murican"
+	culture = "mid_atlantic"
 }
 400021 = {
 	name = "dynn_ck_400021"
-	culture = "liblander"
+	culture = "mid_atlantic"
 }
 400022 = {
 	name = "dynn_ck_400022"
-	culture = "murican"
+	culture = "midwestern"
 }
 400023 = {
 	name = "dynn_ck_400023"
-	culture = "liblander"
+	culture = "mid_atlantic"
 }
 400024 = {
 	name = "dynn_ck_400024"
-	culture = "murican"
+	culture = "midwestern"
 }
 400025 = {
 	name = "dynn_ck_400025"
-	culture = "murican"
+	culture = "mid_atlantic"
 }
 400026 = {
 	name = "dynn_ck_400026"
-	culture = "murican"
+	culture = "midwestern"
 }
 400027 = {
 	name = "dynn_ck_400027"
-	culture = "liblander"
+	culture = "mid_atlantic"
 }
 400028 = {
 	name = "dynn_ck_400028"
-	culture = "murican"
+	culture = "midwestern"
 }
 400029 = {
 	name = "dynn_ck_400029"
-	culture = "murican"
+	culture = "new_englander"
 }
 400030 = {
 	name = "dynn_ck_400030"
-	culture = "murican"
+	culture = "liblander_west"
 }
 400031 = {
 	name = "dynn_ck_400031"
-	culture = "liblander"
+	culture = "mid_atlantic"
 }
 400032 = {
 	name = "dynn_ck_400032"
-	culture = "liblander"
+	culture = "midwestern"
 }
 400033 = {
 	name = "dynn_ck_400033"
-	culture = "murican"
+	culture = "midwestern"
 }
 400035 = {
 	name = "dynn_ck_400035"
-	culture = "liblander"
+	culture = "southerner"
 }
 400036 = {
 	name = "dynn_ck_400036"
-	culture = "murican"
+	culture = "liblander_west"
 }
 400037 = {
 	name = "dynn_ck_400037"
-	culture = "murican"
+	culture = "midwestern"
 }
 400038 = {
 	name = "dynn_ck_400038"
-	culture = "liblander"
+	culture = "southerner"
 }
 400039 = {
 	name = "dynn_ck_400039"
-	culture = "murican"
+	culture = "liblander_west"
 }
 400040 = {
 	name = "dynn_ck_400040"
-	culture = "murican"
+	culture = "southerner"
 }
 400041 = {
 	name = "dynn_ck_400041"
-	culture = "liblander"
+	culture = "southerner"
 }
 400042 = {
 	name = "dynn_ck_400042"
-	culture = "murican"
+	culture = "southerner"
 }
 400043 = {
 	name = "dynn_ck_400043"
-	culture = "liblander"
+	culture = "midwestern"
 }
 400045 = {
 	name = "dynn_ck_400045"
-	culture = "liblander"
+	culture = "mid_atlantic"
 }
 400046 = {
 	name = "dynn_ck_400046"
@@ -8993,15 +8993,15 @@ pictish = {
 }
 77800 = {
 	name = "dynn_ck_77800"
-	culture = "liblander"
+	culture = "southerner"
 }
 77801 = {
 	name = "dynn_ck_77801"
-	culture = "progressive"
+	culture = "cascadian"
 }
 77799 = {
 	name = "dynn_ck_77799"
-	culture = "liblander"
+	culture = "mid_atlantic"
 }
 77810 = {
 	name = "dynn_ck_77810"
@@ -9069,7 +9069,7 @@ pictish = {
 }
 7000010 = {
 	name = "dynn_ck_7000010"
-	culture = "liblander"	# e78 (CK2 Japanese leftover)
+	culture = "mid_atlantic"	# e78 (CK2 Japanese leftover)
 }
 7000014 = {
 	name = "dynn_ck_7000014"
@@ -9279,7 +9279,7 @@ pictish = {
 }
 920104 = {
 	name = "dynn_ck_920104"
-	culture = "liblander"
+	culture = "east_themisian"
 }
 
 # 2026-11-13 23:40 gen_vishnu.py: the epic dynasties
@@ -9336,4 +9336,16 @@ pictish = {
 	name = "dynn_ck_920221"
 	motto = dynn_ck_920221_motto
 	culture = "aesir"
+}
+
+# 2026-11-15 19:00 gen_map_legends.py
+920300 = {
+	name = "dynn_ck_920300"
+	motto = dynn_ck_920300_motto
+	culture = "assyrian"
+}
+920301 = {
+	name = "dynn_ck_920301"
+	motto = dynn_ck_920301_motto
+	culture = "mongol"
 }

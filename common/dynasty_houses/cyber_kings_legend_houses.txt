@@ -1,0 +1,6 @@
+﻿# Cyber Kings 2026-11-15 19:00: the kings of Atlantis, sons of Poseidon (dynasty 920011 Titan) (gen_map_legends.py)
+house_atlantid = {
+	name = "house_atlantid"
+	dynasty = 920011
+	motto = house_atlantid_motto
+}

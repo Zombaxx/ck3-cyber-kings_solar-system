@@ -1,4 +1,5 @@
 ﻿# year-shift 7050: calendar literals moved +5984 (gen_year_shift.py)
+# 2026-11-16 09:15: `created` dates are real AD + 5000 (not +5984), so a culture is not shown as founded after the 7050 start. gen_year_shift.py rule R6.
 turkish = {		# Oghuz
 	color = turkish
 
@@ -472,7 +473,7 @@ uyghur = {
 
 yughur = {
 	color = { 0.65 0.95 0.55 }
-	created = 6834.1.1
+	created = 5850.1.1
     parents = { uyghur }
 
 	name_order_convention = dynasty_always_first
@@ -548,7 +549,7 @@ uriankhai = {	#these are western "Uriankhai", in this case specifically the Khak
 
 chuvash = {		# Burtas
 	color = { 0.7 0.5 0.6 }
-	created = 6784.1.1 # Date set to allow them in 867 - Exact date/period is probably slightly later
+	created = 5800.1.1 # Date set to allow them in 867 - Exact date/period is probably slightly later
 	parents = { bolghar } # Likely a divergent from Bolghar, but exact origin seem uncertain
 
 	ethos = ethos_communal
@@ -617,7 +618,7 @@ shatuo = { #Sinicized turks of northern China
 
 ongud = { #Mongolicized turks of the Ordos region
 	color = { 0.65 0.4 0.15 }
-	created = 6814.1.1
+	created = 5830.1.1
 	parents = { shatuo }
 
 	ethos = ethos_bellicose
@@ -648,7 +649,7 @@ ongud = { #Mongolicized turks of the Ordos region
 
 turkmen = {
 	color = { 0.8 0.4 0.1 }
-	created = 7061.1.1
+	created = 6077.1.1
 	parents = { turkish }
 
 	ethos = ethos_bellicose
@@ -688,7 +689,7 @@ turkmen = {
 
 kazak = {
 	color = { 0.8 0.4 0.2 }
-	created = 6784.1.2
+	created = 5800.1.2
 	parents = { turkish }
 
 	ethos = ethos_bellicose

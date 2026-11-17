@@ -342,15 +342,18 @@ gdonyos = {
 }
 
 # Murican: CK2 breton, template breton
+# 2026-11-16 07:30 (modder 07:18/07:23) Marineran: American colonists of Valles Marineris, Mars (first holders 6934)
 murican = {
 	color = { 0.30 0.50 0.40 }
+	created = 6933.1.1
+	parents = { east_themisian }
 	
 	ethos = ethos_bellicose
 	heritage = heritage_ck_american
 	language = language_anglic
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
-	traditions = { tradition_family_entrepreneurship tradition_staunch_traditionalists tradition_reverence_for_veterans tradition_swords_for_hire }
+	traditions = { tradition_staunch_traditionalists tradition_reverence_for_veterans tradition_swords_for_hire }
 	
 	name_list = name_list_cy_american
 	coa_gfx = { breton_coa_gfx western_coa_gfx }
@@ -404,15 +407,18 @@ fenisaidd = {
 }
 
 # Liblander: CK2 old_frankish, template frankish
+# 2026-11-16 07:30 (modder 07:18/07:23) Moonlander: American colonists of the lunar south (first holders 6913)
 liblander = {
 	color = { 0.30 0.30 0.50 }
+	created = 6912.1.1
+	parents = { mid_atlantic new_englander }
 	
 	ethos = ethos_bureaucratic
-	heritage = heritage_ck_progressive
+	heritage = heritage_ck_american
 	language = language_anglic
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
-	traditions = { tradition_equitable tradition_republican_legacy tradition_city_keepers }
+	traditions = { tradition_republican_legacy tradition_city_keepers tradition_hard_working }
 	
 	name_list = name_list_cy_american
 	coa_gfx = { frankish_group_coa_gfx western_coa_gfx }

@@ -1,0 +1,45 @@
+﻿# He'e Nalu (2026-11-15): the custom tenet of the surfers' religion. Design: _dev/HEE_NALU.md
+# One with the ocean: the faithful sense what the sea will do before it does it.
+# - parameter hee_nalu_surfing_active unlocks the Surf Trip activity (common/activities/activity_types/cyber_kings_hee_nalu_surf.txt)
+# - the events (events/cyber_kings_hee_nalu_events.txt) are where the wave sense plays out
+# Icon: vanilla tenet_sanctity_of_nature as a stand-in (a custom wave icon is on the HEE_NALU.md backlog).
+tenet_hee_nalu = {
+	icon = tenet_sanctity_of_nature
+
+	is_shown = {
+		religion = religion:hee_nalu_religion
+	}
+
+	# Not offered as a personal tenet for now (would let any ruler of any faith surf). Backlog idea in HEE_NALU.md.
+	can_pick_as_personal_tenet = {
+		always = no
+	}
+
+	piety_cost = {
+		value = faith_tenet_cost_low
+		if = {
+			limit = { rite_has_tenet = tenet_hee_nalu }
+			multiply = faith_unchanged_doctrine_cost_mult
+		}
+	}
+
+	parameters = {
+		hee_nalu_surfing_active
+	}
+
+	character_modifier = {
+		naval_movement_speed_mult = 0.25
+		embarkation_cost_mult = -0.25
+		stress_loss_mult = 0.1
+	}
+
+	traits = {
+		virtues = {
+			calm = { weight = 15 scale = 1 }
+			patient = { weight = 10 scale = 1 }
+		}
+		sins = {
+			impatient = { weight = 15 scale = 1 }
+		}
+	}
+}

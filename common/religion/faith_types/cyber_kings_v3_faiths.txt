@@ -319,7 +319,7 @@ ancestor_worship_faith = { # copy of bon_faith
 gnoslam_faith = { # copy of druze
 	main_rite = gnoslam_rite
 	faith_details = {
-		religious_head = e_empire0711
+		# 2026-11-16 19:00: religious_head e_empire0711 moved to everlasting_covenant_faith; Gnoslam has no members any more
 		religion = gnoslam_religion
 		color = { 0.3 0.7 0.1 }
 		icon = islam_druze
@@ -842,5 +842,175 @@ era_zaharra_faith = { # Cyber Kings (e45): Era Zaharra, Venusian druidism (was v
 
 	doctrines = {
 		unreformed_faith_doctrine
+	}
+}
+
+# 2026-11-16 19:00 (modder 18:43): Adonai's own faith, a sibling ("heresy") of the Eternal Mechanism; replaces Gnoslam.
+# Head of faith = holder of e_empire0711 (Adonai). The god is "the Lord" and the head's title is "Lord". _dev/ANCIENT_HISTORY_AND_LINEAGES.md 7k
+everlasting_covenant_faith = {
+	main_rite = everlasting_covenant_rite
+	faith_details = {
+		religion = otherworlden_religion
+		color = { 0.85 0.80 0.55 }
+		icon = custom_faith_eye_of_providence
+		religious_head = e_empire0711
+	}
+	eminent_holy_sites = {
+		ck_covenant_ice
+		jerusalem
+	}
+	holy_sites = {
+		ck_covenant_sinus_roris
+		mecca
+		medina
+	}
+	tenets = {
+		tenet_preservation
+		tenet_legalism
+		tenet_communal_identity
+	}
+	doctrines = {
+		doctrine_monotheist
+		doctrine_temporal_head
+		doctrine_theocracy_lay_clergy
+		doctrine_clerical_succession_temporal_appointment
+		doctrine_monogamy
+		doctrine_divorce_allowed
+		doctrine_adultery_women_crime
+		doctrine_adultery_men_crime
+		doctrine_witchcraft_shunned
+		doctrine_clerical_gender_either
+		doctrine_pilgrimage_encouraged
+	}
+	localization = {
+		HighGodName = everlasting_covenant_HighGodName
+		HighGodName2 = everlasting_covenant_HighGodName
+		HighGodNamePossessive = everlasting_covenant_HighGodNamePossessive
+		HighGodNameSheHe = CHARACTER_SHEHE_HE
+		HighGodHerselfHimself = CHARACTER_HIMSELF
+		HighGodHerHis = CHARACTER_HERHIS_HIS
+		HighGodNameAlternate = everlasting_covenant_HighGodNameAlternate
+		HighGodNameAlternatePossessive = everlasting_covenant_HighGodNameAlternatePossessive
+		CreatorName = everlasting_covenant_CreatorName
+		CreatorNamePossessive = everlasting_covenant_CreatorNamePossessive
+		CreatorSheHe = CHARACTER_SHEHE_HE
+		CreatorHerHis = CHARACTER_HERHIS_HIS
+		CreatorHerHim = CHARACTER_HERHIM_HIM
+		HealthGodName = everlasting_covenant_HealthGodName
+		HealthGodNamePossessive = everlasting_covenant_HealthGodNamePossessive
+		HealthGodSheHe = CHARACTER_SHEHE_IT
+		HealthGodHerHis = CHARACTER_HERHIS_ITS
+		HealthGodHerHim = CHARACTER_HERHIM_IT
+		FertilityGodName = everlasting_covenant_FertilityGodName
+		FertilityGodNamePossessive = everlasting_covenant_FertilityGodNamePossessive
+		FertilityGodSheHe = CHARACTER_SHEHE_IT
+		FertilityGodHerHis = CHARACTER_HERHIS_ITS
+		FertilityGodHerHim = CHARACTER_HERHIM_IT
+		WealthGodName = everlasting_covenant_WealthGodName
+		WealthGodNamePossessive = everlasting_covenant_WealthGodNamePossessive
+		WealthGodSheHe = CHARACTER_SHEHE_IT
+		WealthGodHerHis = CHARACTER_HERHIS_ITS
+		WealthGodHerHim = CHARACTER_HERHIM_IT
+		HouseholdGodName = everlasting_covenant_HouseholdGodName
+		HouseholdGodNamePossessive = everlasting_covenant_HouseholdGodNamePossessive
+		HouseholdGodSheHe = CHARACTER_SHEHE_IT
+		HouseholdGodHerHis = CHARACTER_HERHIS_ITS
+		HouseholdGodHerHim = CHARACTER_HERHIM_IT
+		FateGodName = everlasting_covenant_FateGodName
+		FateGodNamePossessive = everlasting_covenant_FateGodNamePossessive
+		FateGodSheHe = CHARACTER_SHEHE_IT
+		FateGodHerHis = CHARACTER_HERHIS_ITS
+		FateGodHerHim = CHARACTER_HERHIM_IT
+		KnowledgeGodName = everlasting_covenant_KnowledgeGodName
+		KnowledgeGodNamePossessive = everlasting_covenant_KnowledgeGodNamePossessive
+		KnowledgeGodSheHe = CHARACTER_SHEHE_IT
+		KnowledgeGodHerHis = CHARACTER_HERHIS_ITS
+		KnowledgeGodHerHim = CHARACTER_HERHIM_IT
+		WarGodName = everlasting_covenant_WarGodName
+		WarGodNamePossessive = everlasting_covenant_WarGodNamePossessive
+		WarGodSheHe = CHARACTER_SHEHE_HE
+		WarGodHerHis = CHARACTER_HERHIS_HIS
+		WarGodHerHim = CHARACTER_HERHIM_HIM
+		TricksterGodName = everlasting_covenant_TricksterGodName
+		TricksterGodNamePossessive = everlasting_covenant_TricksterGodNamePossessive
+		TricksterGodSheHe = CHARACTER_SHEHE_IT
+		TricksterGodHerHis = CHARACTER_HERHIS_ITS
+		TricksterGodHerHim = CHARACTER_HERHIM_IT
+		NightGodName = everlasting_covenant_NightGodName
+		NightGodNamePossessive = everlasting_covenant_NightGodNamePossessive
+		NightGodSheHe = CHARACTER_SHEHE_IT
+		NightGodHerHis = CHARACTER_HERHIS_ITS
+		NightGodHerHim = CHARACTER_HERHIM_IT
+		WaterGodName = everlasting_covenant_WaterGodName
+		WaterGodNamePossessive = everlasting_covenant_WaterGodNamePossessive
+		WaterGodSheHe = CHARACTER_SHEHE_IT
+		WaterGodHerHis = CHARACTER_HERHIS_ITS
+		WaterGodHerHim = CHARACTER_HERHIM_IT
+		PantheonTerm = everlasting_covenant_PantheonTerm
+		PantheonTerm2 = everlasting_covenant_PantheonTerm
+		PantheonTerm3 = everlasting_covenant_PantheonTerm
+		PantheonTermHasHave = pantheon_term_have
+		GoodGodNames = { everlasting_covenant_GoodGod0 everlasting_covenant_GoodGod1 everlasting_covenant_GoodGod2 everlasting_covenant_GoodGod3 }
+		DevilName = everlasting_covenant_DevilName
+		DevilNamePossessive = everlasting_covenant_DevilNamePossessive
+		DevilSheHe = CHARACTER_SHEHE_HE
+		DevilHerHis = CHARACTER_HERHIS_HIS
+		DevilHerselfHimself = CHARACTER_HIMSELF
+		EvilGodNames = { everlasting_covenant_EvilGod0 everlasting_covenant_EvilGod1 }
+		HouseOfWorship = everlasting_covenant_HouseOfWorship
+		HouseOfWorship2 = everlasting_covenant_HouseOfWorship
+		HouseOfWorship3 = everlasting_covenant_HouseOfWorship
+		ReligiousSymbol = everlasting_covenant_ReligiousSymbol
+		ReligiousSymbol2 = everlasting_covenant_ReligiousSymbol
+		ReligiousSymbol3 = everlasting_covenant_ReligiousSymbol
+		ReligiousText = everlasting_covenant_ReligiousText
+		ReligiousText2 = everlasting_covenant_ReligiousText
+		ReligiousText3 = everlasting_covenant_ReligiousText
+		DivineRealm = everlasting_covenant_DivineRealm
+		DivineRealm2 = everlasting_covenant_DivineRealm
+		DivineRealm3 = everlasting_covenant_DivineRealm
+		PositiveAfterLife = everlasting_covenant_PositiveAfterLife
+		PositiveAfterLife2 = everlasting_covenant_PositiveAfterLife
+		PositiveAfterLife3 = everlasting_covenant_PositiveAfterLife
+		NegativeAfterLife = everlasting_covenant_NegativeAfterLife
+		NegativeAfterLife2 = everlasting_covenant_NegativeAfterLife
+		NegativeAfterLife3 = everlasting_covenant_NegativeAfterLife
+		HouseOfWorshipPlural = everlasting_covenant_HouseOfWorshipPlural
+		ReligiousHeadName = everlasting_covenant_ReligiousHeadName
+		ReligiousHeadNameFemale = everlasting_covenant_ReligiousHeadNameFemale
+		ReligiousHeadTitleName = everlasting_covenant_ReligiousHeadTitleName
+		DevoteeMale = everlasting_covenant_DevoteeMale
+		DevoteeMalePlural = everlasting_covenant_DevoteeMalePlural
+		DevoteeFemale = everlasting_covenant_DevoteeFemale
+		DevoteeFemalePlural = everlasting_covenant_DevoteeFemalePlural
+		DevoteeNeuter = everlasting_covenant_DevoteeNeuter
+		DevoteeNeuterPlural = everlasting_covenant_DevoteeNeuterPlural
+		PriestMale = everlasting_covenant_PriestMale
+		PriestMalePlural = everlasting_covenant_PriestMalePlural
+		PriestFemale = everlasting_covenant_PriestFemale
+		PriestFemalePlural = everlasting_covenant_PriestFemalePlural
+		PriestNeuter = everlasting_covenant_PriestNeuter
+		PriestNeuterPlural = everlasting_covenant_PriestNeuterPlural
+		BishopMale = everlasting_covenant_BishopMale
+		BishopMalePlural = everlasting_covenant_BishopMalePlural
+		BishopFemale = everlasting_covenant_BishopFemale
+		BishopFemalePlural = everlasting_covenant_BishopFemalePlural
+		BishopNeuter = everlasting_covenant_BishopNeuter
+		BishopNeuterPlural = everlasting_covenant_BishopNeuterPlural
+		AltPriestTermPlural = everlasting_covenant_PriestNeuterPlural
+		DeathDeityName = everlasting_covenant_DeathDeityName
+		DeathDeityNamePossessive = everlasting_covenant_DeathDeityNamePossessive
+		DeathDeitySheHe = CHARACTER_SHEHE_IT
+		DeathDeityHerHis = CHARACTER_HERHIS_ITS
+		DeathDeityHerHim = CHARACTER_HERHIM_IT
+		WitchGodName = everlasting_covenant_WitchGodName
+		WitchGodNamePossessive = everlasting_covenant_WitchGodNamePossessive
+		WitchGodHerHis = CHARACTER_HERHIS_HIS
+		WitchGodSheHe = CHARACTER_SHEHE_HE
+		WitchGodHerHim = CHARACTER_HERHIM_HIM
+		WitchGodMistressMaster = master
+		WitchGodMotherFather = father
+		GHWName = everlasting_covenant_GHWName
+		GHWNamePlural = everlasting_covenant_GHWNamePlural
 	}
 }

@@ -1,14 +1,6 @@
 ﻿# Cyber Kings: heritages and languages for the Earth cultures v3 (e12_cultures.py)
 
-heritage_ck_progressive = {
-	type = heritage
-	is_shown = {
-		heritage_is_shown_trigger = {
-			HERITAGE = heritage_ck_progressive
-		}
-	}
-	audio_parameter = european
-}
+# 2026-11-16 09:15: heritage_ck_progressive ("Progressive") deleted; Torontonian and Montrealer now use heritage_ck_northern like Canadian
 
 heritage_ck_american = {
 	type = heritage

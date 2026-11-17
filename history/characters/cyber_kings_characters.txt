@@ -11,7 +11,7 @@
 	name = "ckn_Kris"
 	female = yes
 	dynasty = 7000103
-	culture = liblander
+	culture = angeleno
 	rite = roman_rite
 	6955.1.1 = { birth = yes }
 	6978.1.1 = { add_spouse = 7000102 }
@@ -20,7 +20,7 @@
 7000102 = {
 	name = "ckn_Robert"
 	dynasty = 7000032
-	culture = liblander	# e79 Robert Kardashian Sr.: Mars culture was a CK2 error; family default (was ckw_sirenian)
+	culture = angeleno	# e79 Robert Kardashian Sr.: Mars culture was a CK2 error; family default (was ckw_sirenian)
 	rite = byzantine_rite
 	6944.1.1 = { birth = yes }
 	6978.1.1 = { add_spouse = 7000101 }
@@ -30,7 +30,7 @@
 	name = "ckn_Caitlyn"
 	female = yes
 	dynasty = 7000033
-	culture = murican
+	culture = southerner
 	rite = non_denominational_rite
 	6949.1.1 = { birth = yes }
 }
@@ -38,7 +38,7 @@
 	name = "ckn_Kim"
 	female = yes
 	dynasty = 7000032
-	culture = liblander
+	culture = angeleno
 	rite = byzantine_rite
 	father = 7000102
 	mother = 7000101
@@ -51,7 +51,7 @@
 	name = "ckn_Khloe"
 	female = yes
 	dynasty = 7000032
-	culture = liblander
+	culture = angeleno
 	rite = protestant_rite
 	father = 7000102
 	mother = 7000101
@@ -62,7 +62,7 @@
 	name = "ckn_Kourtney"
 	female = yes
 	dynasty = 7000032
-	culture = liblander
+	culture = angeleno
 	rite = byzantine_rite
 	father = 7000102
 	mother = 7000101
@@ -72,7 +72,7 @@
 7000107 = {
 	name = "ckn_Robert"
 	dynasty = 7000032
-	culture = liblander
+	culture = angeleno
 	rite = byzantine_rite
 	father = 7000102
 	mother = 7000101
@@ -83,7 +83,7 @@
 	name = "ckn_Kylie"
 	female = yes
 	dynasty = 7000032
-	culture = liblander
+	culture = angeleno
 	rite = protestant_rite
 	mother = 7000101
 	6997.1.1 = { birth = yes }
@@ -92,7 +92,7 @@
 	name = "ckn_Kendall"
 	female = yes
 	dynasty = 7000032
-	culture = liblander
+	culture = angeleno
 	rite = protestant_rite
 	mother = 7000101
 	6995.1.1 = { birth = yes }
@@ -100,7 +100,7 @@
 7000110 = {
 	name = "ckn_Kanye"
 	dynasty = 7000034
-	culture = murican	# e79 Kanye West: public Trump support 2016-2020 (was nubian)
+	culture = angeleno	# e79 Kanye West: public Trump support 2016-2020 (was nubian)
 	rite = non_denominational_rite
 	mother = 7000133	# e80
 	father = 7000132	# e80
@@ -110,7 +110,7 @@
 7000111 = {
 	name = "ckn_Travis"
 	dynasty = 7000035
-	culture = liblander
+	culture = angeleno
 	rite = roman_rite
 	6975.1.1 = { birth = yes }
 	7022.1.1 = { add_spouse = 7000105 }
@@ -229,7 +229,7 @@
 7000124 = {
 	name = "ckn_Mason"
 	dynasty = 7000032
-	culture = liblander
+	culture = angeleno
 	rite = byzantine_rite
 	father = 7000112
 	mother = 7000106
@@ -239,7 +239,7 @@
 	name = "ckn_Penelope"
 	female = yes
 	dynasty = 7000032
-	culture = liblander
+	culture = angeleno
 	rite = byzantine_rite
 	father = 7000112
 	mother = 7000106
@@ -248,7 +248,7 @@
 7000126 = {
 	name = "ckn_Reign"
 	dynasty = 7000032
-	culture = liblander
+	culture = angeleno
 	rite = byzantine_rite
 	father = 7000112
 	mother = 7000106
@@ -257,7 +257,7 @@
 7000127 = {
 	name = "ckn_Travis"
 	dynasty = 7000032
-	culture = liblander
+	culture = angeleno
 	rite = roman_rite
 	father = 7000111
 	mother = 7000106
@@ -293,7 +293,7 @@
 7000131 = {
 	name = "ckn_Cooper"
 	dynasty = 7000131
-	culture = murican
+	culture = southerner
 	rite = non_denominational_rite
 	7024.1.1 = { birth = yes }
 }
@@ -301,7 +301,7 @@
 	dna = ck_dna_666666
 	name = "ckn_Leon"
 	dynasty = 666666
-	culture = murican
+	culture = southerner
 	rite = dark_lord_cult_rite
 	martial = 10
 	trait = education_martial_4
@@ -335,7 +335,7 @@
 6666667 = {
 	name = "ckn_Kai"
 	dynasty = 666666
-	culture = murican
+	culture = southerner
 	rite = protestant_rite
 	father = 666666
 	7006.1.1 = { birth = yes }
@@ -343,7 +343,7 @@
 6666668 = {
 	name = "ckn_Saxon"
 	dynasty = 666666
-	culture = murican
+	culture = southerner
 	rite = protestant_rite
 	father = 666666
 	7006.1.1 = { birth = yes }
@@ -351,7 +351,7 @@
 6666669 = {
 	name = "ckn_Damian"
 	dynasty = 666666
-	culture = murican
+	culture = southerner
 	rite = protestant_rite
 	father = 666666
 	7006.1.1 = { birth = yes }
@@ -370,7 +370,7 @@
 	name = "ckn_Exa_Dark_Siderael"
 	female = yes
 	dynasty = 666666
-	culture = murican
+	culture = southerner
 	rite = dark_lord_cult_rite
 	trait = vat_born
 	trait = intellect_good_3
@@ -10330,7 +10330,7 @@
 	name = "ckn_Atl"
 	dynasty = 101110
 	culture = archon
-	rite = gnoslam_rite
+	rite = everlasting_covenant_rite
 	martial = 10
 	trait = education_martial_4
 	trait = lifestyle_blademaster
@@ -10345,7 +10345,7 @@
 	name = "ckn_Cuetlachtli"
 	dynasty = 101110
 	culture = archon
-	rite = gnoslam_rite
+	rite = everlasting_covenant_rite
 	father = 101110
 	6959.1.1 = { birth = yes }
 	7024.1.1 = { death = yes }
@@ -10354,7 +10354,7 @@
 	name = "ckn_Yayauhqui"
 	dynasty = 101110
 	culture = archon
-	rite = gnoslam_rite
+	rite = everlasting_covenant_rite
 	father = 101111
 	6995.1.1 = { birth = yes }
 	7016.1.1 = { add_spouse = 101114 }
@@ -10364,7 +10364,7 @@
 	name = "ckn_Chimalpilli"
 	dynasty = 101110
 	culture = archon
-	rite = gnoslam_rite
+	rite = everlasting_covenant_rite
 	father = 101111
 	7000.1.1 = { birth = yes }
 	7036.1.1 = { death = yes }
@@ -10382,7 +10382,7 @@
 	name = "ckn_Tlacaeleltzin"
 	dynasty = 101110
 	culture = archon
-	rite = gnoslam_rite
+	rite = everlasting_covenant_rite
 	father = 101112
 	mother = 101114
 	7019.1.1 = { birth = yes }
@@ -10393,7 +10393,7 @@
 	female = yes
 	dynasty = 101110
 	culture = archon
-	rite = gnoslam_rite
+	rite = everlasting_covenant_rite
 	father = 101112
 	mother = 101114
 	7022.1.1 = { birth = yes }
@@ -10403,7 +10403,7 @@
 	name = "ckn_Xochipilli"
 	dynasty = 101110
 	culture = archon
-	rite = gnoslam_rite
+	rite = everlasting_covenant_rite
 	father = 101112
 	mother = 101114
 	7024.1.1 = { birth = yes }
@@ -10413,7 +10413,7 @@
 	name = "ckn_Tizocic"
 	dynasty = 101110
 	culture = archon
-	rite = gnoslam_rite
+	rite = everlasting_covenant_rite
 	father = 101113
 	7029.1.1 = { birth = yes }
 	7084.1.1 = { death = yes }
@@ -10422,7 +10422,7 @@
 	name = "ckn_Ueman"
 	dynasty = 101110
 	culture = archon
-	rite = gnoslam_rite
+	rite = everlasting_covenant_rite
 	father = 101113
 	7034.1.1 = { birth = yes }
 	7087.1.1 = { death = yes }
@@ -11580,7 +11580,7 @@
 101244 = {
 	name = "ckn_Elizabeth"
 	female = yes
-	culture = liblander
+	culture = liblander_west
 	rite = rabbinism
 	7005.1.1 = { birth = yes }
 	7021.1.1 = { add_spouse = 101242 }
@@ -11611,7 +11611,7 @@
 	name = "ckn_Sarah"
 	female = yes
 	dynasty = 101240
-	culture = murican
+	culture = liblander_west
 	rite = rabbinism
 	father = 101242
 	mother = 101244
@@ -11622,7 +11622,7 @@
 	name = "ckn_Rebecca"
 	female = yes
 	dynasty = 101240
-	culture = murican
+	culture = liblander_west
 	rite = rabbinism
 	father = 101243
 	7022.1.1 = { birth = yes }
@@ -11631,7 +11631,7 @@
 101249 = {
 	name = "ckn_Thomas"
 	dynasty = 101240
-	culture = murican
+	culture = liblander_west
 	rite = rabbinism
 	father = 101243
 	7027.1.1 = { birth = yes }
@@ -11739,7 +11739,7 @@
 101260 = {
 	name = "ckn_David"
 	dynasty = 101260
-	culture = murican
+	culture = southerner
 	rite = roman_rite
 	martial = 10
 	trait = education_martial_4
@@ -11753,7 +11753,7 @@
 101261 = {
 	name = "ckn_Joseph"
 	dynasty = 101260
-	culture = murican
+	culture = southerner
 	rite = roman_rite
 	father = 101260
 	6968.1.1 = { birth = yes }
@@ -11762,7 +11762,7 @@
 101262 = {
 	name = "ckn_Daniel"
 	dynasty = 101260
-	culture = murican
+	culture = southerner
 	rite = roman_rite
 	father = 101261
 	6990.1.1 = { birth = yes }
@@ -11772,7 +11772,7 @@
 101263 = {
 	name = "ckn_Matthew"
 	dynasty = 101260
-	culture = murican
+	culture = southerner
 	rite = roman_rite
 	father = 101261
 	6992.1.1 = { birth = yes }
@@ -11781,7 +11781,7 @@
 101264 = {
 	name = "ckn_Emily"
 	female = yes
-	culture = murican
+	culture = southerner
 	rite = roman_rite
 	6988.1.1 = { birth = yes }
 	7006.1.1 = { add_spouse = 101262 }
@@ -11790,7 +11790,7 @@
 101265 = {
 	name = "ckn_Andrew"
 	dynasty = 101260
-	culture = murican
+	culture = southerner
 	rite = protestant_rite	# e83 follows his counties (was roman_rite)
 	father = 101262
 	mother = 101264
@@ -11801,7 +11801,7 @@
 	name = "ckn_Abigail"
 	female = yes
 	dynasty = 101260
-	culture = murican
+	culture = southerner
 	rite = roman_rite
 	father = 101262
 	mother = 101264
@@ -11812,7 +11812,7 @@
 	name = "ckn_Hannah"
 	female = yes
 	dynasty = 101260
-	culture = murican
+	culture = southerner
 	rite = roman_rite
 	father = 101262
 	mother = 101264
@@ -11822,7 +11822,7 @@
 101268 = {
 	name = "ckn_Benjamin"
 	dynasty = 101260
-	culture = murican
+	culture = southerner
 	rite = roman_rite
 	father = 101263
 	7012.1.1 = { birth = yes }
@@ -11831,7 +11831,7 @@
 101269 = {
 	name = "ckn_Samuel"
 	dynasty = 101260
-	culture = murican
+	culture = southerner
 	rite = roman_rite
 	father = 101263
 	7016.1.1 = { birth = yes }
@@ -12345,7 +12345,7 @@
 101320 = {
 	name = "cyn_Brian"
 	dynasty = 101320
-	culture = liblander
+	culture = antarctican
 	rite = vaishnavism
 	intrigue = 10
 	trait = education_intrigue_4
@@ -12359,7 +12359,7 @@
 101321 = {
 	name = "ckn_Leo"
 	dynasty = 101320
-	culture = liblander
+	culture = antarctican
 	rite = vaishnavism
 	father = 101320
 	6971.1.1 = { birth = yes }
@@ -12368,7 +12368,7 @@
 101322 = {
 	name = "cyn_John"
 	dynasty = 101320
-	culture = liblander
+	culture = antarctican
 	rite = vaishnavism
 	father = 101321
 	6995.1.1 = { birth = yes }
@@ -12378,7 +12378,7 @@
 101323 = {
 	name = "ckn_Ezra"
 	dynasty = 101320
-	culture = liblander
+	culture = antarctican
 	rite = vaishnavism
 	father = 101321
 	6999.1.1 = { birth = yes }
@@ -12387,7 +12387,7 @@
 101324 = {
 	name = "ckn_Ava"
 	female = yes
-	culture = liblander
+	culture = antarctican
 	rite = vaishnavism
 	7004.1.1 = { birth = yes }
 	7020.1.1 = { add_spouse = 101322 }
@@ -12396,7 +12396,7 @@
 101325 = {
 	name = "ckn_Asher"
 	dynasty = 101320
-	culture = liblander
+	culture = antarctican
 	rite = vaishnavism
 	father = 101322
 	mother = 101324
@@ -12407,7 +12407,7 @@
 	name = "ckn_Maya"
 	female = yes
 	dynasty = 101320
-	culture = liblander
+	culture = antarctican
 	rite = vaishnavism
 	father = 101322
 	mother = 101324
@@ -12417,7 +12417,7 @@
 101327 = {
 	name = "cyn_Liam"
 	dynasty = 101320
-	culture = liblander
+	culture = antarctican
 	rite = vaishnavism
 	father = 101322
 	mother = 101324
@@ -12427,7 +12427,7 @@
 101328 = {
 	name = "cyn_Paul"
 	dynasty = 101320
-	culture = liblander
+	culture = antarctican
 	rite = vaishnavism
 	father = 101323
 	7028.1.1 = { birth = yes }
@@ -12436,7 +12436,7 @@
 101329 = {
 	name = "cyn_Chad"
 	dynasty = 101320
-	culture = liblander
+	culture = antarctican
 	rite = vaishnavism
 	father = 101323
 	7031.1.1 = { birth = yes }
@@ -13060,7 +13060,7 @@
 101410 = {
 	name = "ckn_Micah"
 	dynasty = 101410
-	culture = progressive
+	culture = bay_arean
 	rite = roman_rite
 	intrigue = 10
 	trait = education_intrigue_4
@@ -13074,7 +13074,7 @@
 101411 = {
 	name = "ckn_Arlo"
 	dynasty = 101410
-	culture = progressive
+	culture = bay_arean
 	rite = roman_rite
 	father = 101410
 	6959.1.1 = { birth = yes }
@@ -13083,7 +13083,7 @@
 101412 = {
 	name = "ckn_Silas"
 	dynasty = 101410
-	culture = progressive
+	culture = bay_arean
 	rite = roman_rite
 	father = 101411
 	6993.1.1 = { birth = yes }
@@ -13093,7 +13093,7 @@
 101413 = {
 	name = "ckn_Theo"
 	dynasty = 101410
-	culture = progressive
+	culture = bay_arean
 	rite = roman_rite
 	father = 101411
 	6995.1.1 = { birth = yes }
@@ -13102,7 +13102,7 @@
 101414 = {
 	name = "ckn_Emily"
 	female = yes
-	culture = murican
+	culture = bay_arean
 	rite = roman_rite
 	7005.1.1 = { birth = yes }
 	7021.1.1 = { add_spouse = 101412 }
@@ -13112,7 +13112,7 @@
 	dna = ck_dna_101415
 	name = "ckn_Yancy"
 	dynasty = 101410
-	culture = progressive
+	culture = bay_arean
 	rite = roman_rite
 	father = 101412
 	mother = 101414
@@ -13122,7 +13122,7 @@
 101416 = {
 	name = "ckn_Noah"
 	dynasty = 101410
-	culture = progressive
+	culture = bay_arean
 	rite = roman_rite
 	father = 101412
 	mother = 101414
@@ -13132,7 +13132,7 @@
 101417 = {
 	name = "ckn_Ellis"
 	dynasty = 101410
-	culture = progressive
+	culture = bay_arean
 	rite = roman_rite
 	father = 101412
 	mother = 101414
@@ -13142,7 +13142,7 @@
 101418 = {
 	name = "ckn_Adrian"
 	dynasty = 101410
-	culture = progressive
+	culture = bay_arean
 	rite = roman_rite
 	father = 101413
 	7019.1.1 = { birth = yes }
@@ -13151,7 +13151,7 @@
 101419 = {
 	name = "ckn_Jude"
 	dynasty = 101410
-	culture = progressive
+	culture = bay_arean
 	rite = protestant_rite
 	father = 101413
 	7024.1.1 = { birth = yes }
@@ -13160,7 +13160,7 @@
 101440 = {
 	name = "ckn_James"
 	dynasty = 101440
-	culture = moderate
+	culture = southwesterner
 	rite = roman_rite
 	diplomacy = 10
 	trait = education_diplomacy_4
@@ -13172,7 +13172,7 @@
 101441 = {
 	name = "ckn_William"
 	dynasty = 101440
-	culture = moderate
+	culture = southwesterner
 	rite = roman_rite
 	father = 101440
 	6960.1.1 = { birth = yes }
@@ -13181,7 +13181,7 @@
 101442 = {
 	name = "ckn_John"
 	dynasty = 101440
-	culture = moderate
+	culture = southwesterner
 	rite = roman_rite
 	father = 101441
 	6989.1.1 = { birth = yes }
@@ -13191,7 +13191,7 @@
 101443 = {
 	name = "ckn_Charles"
 	dynasty = 101440
-	culture = moderate
+	culture = southwesterner
 	rite = roman_rite
 	father = 101441
 	6994.1.1 = { birth = yes }
@@ -13200,7 +13200,7 @@
 101444 = {
 	name = "ckn_Claire"
 	female = yes
-	culture = murican
+	culture = southwesterner
 	rite = roman_rite
 	6995.1.1 = { birth = yes }
 	7011.1.1 = { add_spouse = 101442 }
@@ -13209,7 +13209,7 @@
 101445 = {
 	name = "ckn_Robert"
 	dynasty = 101440
-	culture = moderate
+	culture = southwesterner
 	rite = roman_rite
 	father = 101442
 	mother = 101444
@@ -13220,7 +13220,7 @@
 	name = "cyn_Amelia"
 	female = yes
 	dynasty = 101440
-	culture = moderate
+	culture = southwesterner
 	rite = roman_rite
 	father = 101442
 	mother = 101444
@@ -13230,7 +13230,7 @@
 101447 = {
 	name = "ckn_Thomas"
 	dynasty = 101440
-	culture = moderate
+	culture = southwesterner
 	rite = roman_rite
 	father = 101442
 	mother = 101444
@@ -13241,7 +13241,7 @@
 	name = "ckn_Lauren"
 	female = yes
 	dynasty = 101440
-	culture = moderate
+	culture = southwesterner
 	rite = roman_rite
 	father = 101443
 	7020.1.1 = { birth = yes }
@@ -13250,7 +13250,7 @@
 101449 = {
 	name = "ckn_David"
 	dynasty = 101440
-	culture = moderate
+	culture = southwesterner
 	rite = roman_rite
 	father = 101443
 	7024.1.1 = { birth = yes }
@@ -14680,7 +14680,7 @@
 101610 = {
 	name = "ckn_John"
 	dynasty = 101610
-	culture = murican
+	culture = southerner
 	rite = protestant_rite
 	intrigue = 10
 	trait = education_intrigue_4
@@ -14693,7 +14693,7 @@
 101611 = {
 	name = "ckn_Joseph"
 	dynasty = 101610
-	culture = murican
+	culture = southerner
 	rite = protestant_rite
 	father = 101610
 	6978.1.1 = { birth = yes }
@@ -14702,7 +14702,7 @@
 101612 = {
 	name = "ckn_Daniel"
 	dynasty = 101610
-	culture = murican
+	culture = southerner
 	rite = protestant_rite
 	father = 101611
 	7007.1.1 = { birth = yes }
@@ -14712,7 +14712,7 @@
 101613 = {
 	name = "ckn_Matthew"
 	dynasty = 101610
-	culture = murican
+	culture = southerner
 	rite = protestant_rite
 	father = 101611
 	7009.1.1 = { birth = yes }
@@ -14721,7 +14721,7 @@
 101614 = {
 	name = "cyn_Courtney"
 	female = yes
-	culture = murican
+	culture = southerner
 	rite = protestant_rite
 	7006.1.1 = { birth = yes }
 	7023.1.1 = { add_spouse = 101612 }
@@ -14730,7 +14730,7 @@
 101615 = {
 	name = "ckn_Thomas"
 	dynasty = 101610
-	culture = murican
+	culture = southerner
 	rite = protestant_rite
 	father = 101612
 	mother = 101614
@@ -14741,7 +14741,7 @@
 	name = "ckn_Katherine"
 	female = yes
 	dynasty = 101610
-	culture = murican
+	culture = southerner
 	rite = protestant_rite
 	father = 101612
 	mother = 101614
@@ -14752,7 +14752,7 @@
 	name = "ckn_Grace"
 	female = yes
 	dynasty = 101610
-	culture = murican
+	culture = southerner
 	rite = protestant_rite
 	father = 101612
 	mother = 101614
@@ -14762,7 +14762,7 @@
 101618 = {
 	name = "ckn_Andrew"
 	dynasty = 101610
-	culture = murican
+	culture = southerner
 	rite = protestant_rite
 	father = 101613
 	7030.1.1 = { birth = yes }
@@ -14771,7 +14771,7 @@
 101619 = {
 	name = "ckn_Benjamin"
 	dynasty = 101610
-	culture = murican
+	culture = southerner
 	rite = protestant_rite
 	father = 101613
 	7031.1.1 = { birth = yes }
@@ -14882,14 +14882,14 @@
 }
 101635 = {
 	name = "ckn_Miles"
-	culture = murican
+	culture = jeffersonian
 	rite = protestant_rite	# e83 follows his counties (was roman_rite)
 	7020.1.1 = { birth = yes }
 	7080.1.1 = { death = yes }
 }
 101645 = {
 	name = "ckn_Samuel"
-	culture = moderate
+	culture = southwesterner
 	rite = protestant_rite	# e83 follows his counties (was roman_rite)
 	7014.1.1 = { birth = yes }
 	7066.1.1 = { death = yes }
@@ -15207,7 +15207,7 @@
 	name = "ckn_Necuametl"
 	dynasty = 101690
 	culture = archon
-	rite = gnoslam_rite
+	rite = everlasting_covenant_rite
 	martial = 10
 	trait = education_martial_4
 	trait = lifestyle_blademaster
@@ -15222,7 +15222,7 @@
 	name = "ckn_Itzcoatl"
 	dynasty = 101690
 	culture = archon
-	rite = gnoslam_rite
+	rite = everlasting_covenant_rite
 	father = 101690
 	6971.1.1 = { birth = yes }
 	7037.1.1 = { death = yes }
@@ -15231,7 +15231,7 @@
 	name = "ckn_Xicohtencatl"
 	dynasty = 101690
 	culture = archon
-	rite = gnoslam_rite
+	rite = everlasting_covenant_rite
 	father = 101691
 	6992.1.1 = { birth = yes }
 	7014.1.1 = { add_spouse = 101694 }
@@ -15241,7 +15241,7 @@
 	name = "ckn_Xipil"
 	dynasty = 101690
 	culture = archon
-	rite = gnoslam_rite
+	rite = everlasting_covenant_rite
 	father = 101691
 	6994.1.1 = { birth = yes }
 	7025.1.1 = { death = yes }
@@ -15259,7 +15259,7 @@
 	name = "ckn_Tlalli"
 	dynasty = 101690
 	culture = archon
-	rite = gnoslam_rite
+	rite = everlasting_covenant_rite
 	father = 101692
 	mother = 101694
 	7027.1.1 = { birth = yes }
@@ -15270,7 +15270,7 @@
 	female = yes
 	dynasty = 101690
 	culture = archon
-	rite = gnoslam_rite
+	rite = everlasting_covenant_rite
 	father = 101692
 	mother = 101694
 	7032.1.1 = { birth = yes }
@@ -15281,7 +15281,7 @@
 	female = yes
 	dynasty = 101690
 	culture = archon
-	rite = gnoslam_rite
+	rite = everlasting_covenant_rite
 	father = 101692
 	mother = 101694
 	7035.1.1 = { birth = yes }
@@ -15291,7 +15291,7 @@
 	name = "ckn_Itzli"
 	dynasty = 101690
 	culture = archon
-	rite = gnoslam_rite
+	rite = everlasting_covenant_rite
 	father = 101693
 	7016.1.1 = { birth = yes }
 	7079.1.1 = { death = yes }
@@ -15300,7 +15300,7 @@
 	name = "ckn_Aculnahuacatl"
 	dynasty = 101690
 	culture = archon
-	rite = gnoslam_rite
+	rite = everlasting_covenant_rite
 	father = 101693
 	7021.1.1 = { birth = yes }
 	7087.1.1 = { death = yes }
@@ -15308,7 +15308,7 @@
 101700 = {
 	name = "ckn_Christopher"
 	dynasty = 101700
-	culture = murican
+	culture = westerner
 	rite = roman_rite
 	intrigue = 10
 	trait = education_intrigue_4
@@ -15321,7 +15321,7 @@
 101701 = {
 	name = "cyn_Nathan"
 	dynasty = 101700
-	culture = murican
+	culture = westerner
 	rite = roman_rite
 	father = 101700
 	6953.1.1 = { birth = yes }
@@ -15330,7 +15330,7 @@
 101702 = {
 	name = "cyn_Tyler"
 	dynasty = 101700
-	culture = murican
+	culture = westerner
 	rite = roman_rite
 	father = 101701
 	6992.1.1 = { birth = yes }
@@ -15340,7 +15340,7 @@
 101703 = {
 	name = "cyn_Nathan"
 	dynasty = 101700
-	culture = murican
+	culture = westerner
 	rite = roman_rite
 	father = 101701
 	6996.1.1 = { birth = yes }
@@ -15349,7 +15349,7 @@
 101704 = {
 	name = "cyn_Melissa"
 	female = yes
-	culture = murican
+	culture = westerner
 	rite = roman_rite
 	7003.1.1 = { birth = yes }
 	7019.1.1 = { add_spouse = 101702 }
@@ -15358,7 +15358,7 @@
 101705 = {
 	name = "ckn_Joshua"
 	dynasty = 101700
-	culture = murican
+	culture = westerner
 	rite = latter_day_saints_rite	# e83 follows his counties (was roman_rite)
 	father = 101702
 	mother = 101704
@@ -15368,7 +15368,7 @@
 101706 = {
 	name = "ckn_George"
 	dynasty = 101700
-	culture = murican
+	culture = westerner
 	rite = roman_rite
 	father = 101702
 	mother = 101704
@@ -15379,7 +15379,7 @@
 	name = "ckn_Charlotte"
 	female = yes
 	dynasty = 101700
-	culture = murican
+	culture = westerner
 	rite = roman_rite
 	father = 101702
 	mother = 101704
@@ -15389,7 +15389,7 @@
 101708 = {
 	name = "ckn_Paul"
 	dynasty = 101700
-	culture = murican
+	culture = westerner
 	rite = fundamentalist_rite	# e86 Utah courtier -> FLDS (was roman_rite)
 	father = 101703
 	7019.1.1 = { birth = yes }
@@ -15398,7 +15398,7 @@
 101709 = {
 	name = "cyn_Maverick"
 	dynasty = 101700
-	culture = murican
+	culture = westerner
 	rite = fundamentalist_rite	# e86 Utah courtier -> FLDS (was roman_rite)
 	father = 101703
 	7023.1.1 = { birth = yes }
@@ -15505,7 +15505,7 @@
 101720 = {
 	name = "ckn_Aiden"
 	dynasty = 101720
-	culture = liblander
+	culture = antarctican
 	rite = vaishnavism
 	stewardship = 10
 	trait = education_stewardship_4
@@ -15518,7 +15518,7 @@
 101721 = {
 	name = "cyn_Chase"
 	dynasty = 101720
-	culture = liblander
+	culture = antarctican
 	rite = vaishnavism
 	father = 101720
 	6968.1.1 = { birth = yes }
@@ -15527,7 +15527,7 @@
 101722 = {
 	name = "ckn_Leo"
 	dynasty = 101720
-	culture = liblander
+	culture = antarctican
 	rite = vaishnavism
 	father = 101721
 	7002.1.1 = { birth = yes }
@@ -15537,7 +15537,7 @@
 101723 = {
 	name = "cyn_James"
 	dynasty = 101720
-	culture = liblander
+	culture = antarctican
 	rite = vaishnavism
 	father = 101721
 	7003.1.1 = { birth = yes }
@@ -15546,7 +15546,7 @@
 101724 = {
 	name = "ckn_Willow"
 	female = yes
-	culture = liblander
+	culture = antarctican
 	rite = vaishnavism
 	6996.1.1 = { birth = yes }
 	7018.1.1 = { add_spouse = 101722 }
@@ -15555,7 +15555,7 @@
 101725 = {
 	name = "ckn_Ezra"
 	dynasty = 101720
-	culture = liblander
+	culture = antarctican
 	rite = vaishnavism
 	father = 101722
 	mother = 101724
@@ -15566,7 +15566,7 @@
 	name = "ckn_Hazel"
 	female = yes
 	dynasty = 101720
-	culture = liblander
+	culture = antarctican
 	rite = vaishnavism
 	father = 101722
 	mother = 101724
@@ -15576,7 +15576,7 @@
 101727 = {
 	name = "ckn_Asher"
 	dynasty = 101720
-	culture = liblander
+	culture = antarctican
 	rite = vaishnavism
 	father = 101722
 	mother = 101724
@@ -15587,7 +15587,7 @@
 	name = "cyn_Penelope"
 	female = yes
 	dynasty = 101720
-	culture = liblander
+	culture = antarctican
 	rite = vaishnavism
 	father = 101723
 	7028.1.1 = { birth = yes }
@@ -15597,7 +15597,7 @@
 	name = "ckn_Ivy"
 	female = yes
 	dynasty = 101720
-	culture = liblander
+	culture = antarctican
 	rite = vaishnavism
 	father = 101723
 	7031.1.1 = { birth = yes }
@@ -16218,7 +16218,7 @@
 101810 = {
 	name = "ckn_Micah"
 	dynasty = 101810
-	culture = liblander
+	culture = westerner
 	rite = roman_rite
 	intrigue = 10
 	trait = education_intrigue_4
@@ -16232,7 +16232,7 @@
 101811 = {
 	name = "ckn_Arlo"
 	dynasty = 101810
-	culture = liblander
+	culture = westerner
 	rite = roman_rite
 	father = 101810
 	6966.1.1 = { birth = yes }
@@ -16241,7 +16241,7 @@
 101812 = {
 	name = "ckn_Silas"
 	dynasty = 101810
-	culture = liblander
+	culture = westerner
 	rite = roman_rite
 	father = 101811
 	6991.1.1 = { birth = yes }
@@ -16251,7 +16251,7 @@
 101813 = {
 	name = "ckn_Theo"
 	dynasty = 101810
-	culture = liblander
+	culture = westerner
 	rite = roman_rite
 	father = 101811
 	6994.1.1 = { birth = yes }
@@ -16260,7 +16260,7 @@
 101814 = {
 	name = "ckn_Megan"
 	female = yes
-	culture = murican
+	culture = westerner
 	rite = roman_rite
 	6987.1.1 = { birth = yes }
 	7007.1.1 = { add_spouse = 101812 }
@@ -16269,7 +16269,7 @@
 101815 = {
 	name = "ckn_Gavin"
 	dynasty = 101810
-	culture = liblander
+	culture = liblander_west
 	rite = roman_rite
 	father = 101812
 	mother = 101814
@@ -16280,7 +16280,7 @@
 101816 = {
 	name = "ckn_Noah"
 	dynasty = 101810
-	culture = liblander
+	culture = westerner
 	rite = roman_rite
 	father = 101812
 	mother = 101814
@@ -16290,7 +16290,7 @@
 101817 = {
 	name = "ckn_Ellis"
 	dynasty = 101810
-	culture = liblander
+	culture = westerner
 	rite = roman_rite
 	father = 101812
 	mother = 101814
@@ -16300,7 +16300,7 @@
 101818 = {
 	name = "ckn_Adrian"
 	dynasty = 101810
-	culture = liblander
+	culture = westerner
 	rite = roman_rite
 	father = 101813
 	7015.1.1 = { birth = yes }
@@ -16309,7 +16309,7 @@
 101819 = {
 	name = "ckn_Jude"
 	dynasty = 101810
-	culture = liblander
+	culture = westerner
 	rite = roman_rite
 	father = 101813
 	7020.1.1 = { birth = yes }
@@ -17173,7 +17173,7 @@
 101904 = {
 	name = "ckn_Natalie"
 	female = yes
-	culture = murican
+	culture = southerner
 	rite = protestant_rite
 	7002.1.1 = { birth = yes }
 	7018.1.1 = { add_spouse = 101902 }
@@ -17337,7 +17337,7 @@
 101920 = {
 	name = "ckn_Christopher"
 	dynasty = 101920
-	culture = moderate
+	culture = westerner
 	rite = protestant_rite
 	diplomacy = 10
 	trait = education_diplomacy_4
@@ -17350,7 +17350,7 @@
 101921 = {
 	name = "ckn_Daniel"
 	dynasty = 101920
-	culture = moderate
+	culture = westerner
 	rite = protestant_rite
 	father = 101920
 	6948.1.1 = { birth = yes }
@@ -17359,7 +17359,7 @@
 101922 = {
 	name = "cyn_Kevin"
 	dynasty = 101920
-	culture = moderate
+	culture = westerner
 	rite = protestant_rite
 	father = 101921
 	6986.1.1 = { birth = yes }
@@ -17369,7 +17369,7 @@
 101923 = {
 	name = "cyn_Sebastian"
 	dynasty = 101920
-	culture = moderate
+	culture = westerner
 	rite = protestant_rite
 	father = 101921
 	6988.1.1 = { birth = yes }
@@ -17378,7 +17378,7 @@
 101924 = {
 	name = "ckn_Brooke"
 	female = yes
-	culture = murican
+	culture = westerner
 	rite = protestant_rite
 	6989.1.1 = { birth = yes }
 	7005.1.1 = { add_spouse = 101922 }
@@ -17387,7 +17387,7 @@
 101925 = {
 	name = "ckn_Joshua"
 	dynasty = 101920
-	culture = moderate
+	culture = westerner
 	rite = protestant_rite
 	father = 101922
 	mother = 101924
@@ -17397,7 +17397,7 @@
 101926 = {
 	name = "ckn_George"
 	dynasty = 101920
-	culture = moderate
+	culture = westerner
 	rite = protestant_rite
 	father = 101922
 	mother = 101924
@@ -17407,7 +17407,7 @@
 101927 = {
 	name = "ckn_Paul"
 	dynasty = 101920
-	culture = moderate
+	culture = westerner
 	rite = protestant_rite
 	father = 101922
 	mother = 101924
@@ -17417,7 +17417,7 @@
 101928 = {
 	name = "ckn_Timothy"
 	dynasty = 101920
-	culture = moderate
+	culture = westerner
 	rite = protestant_rite
 	father = 101923
 	7011.1.1 = { birth = yes }
@@ -17426,7 +17426,7 @@
 101929 = {
 	name = "ckn_Aaron"
 	dynasty = 101920
-	culture = moderate
+	culture = westerner
 	rite = protestant_rite
 	father = 101923
 	7014.1.1 = { birth = yes }
@@ -17839,7 +17839,7 @@
 101970 = {
 	name = "ckn_Nathan"
 	dynasty = 101970
-	culture = murican
+	culture = southerner
 	rite = protestant_rite
 	learning = 10
 	trait = education_learning_4
@@ -17852,7 +17852,7 @@
 101971 = {
 	name = "ckn_Robert"
 	dynasty = 101970
-	culture = murican
+	culture = southerner
 	rite = protestant_rite
 	father = 101970
 	6978.1.1 = { birth = yes }
@@ -17861,7 +17861,7 @@
 101972 = {
 	name = "ckn_Adam"
 	dynasty = 101970
-	culture = murican
+	culture = southerner
 	rite = protestant_rite
 	father = 101971
 	7000.1.1 = { birth = yes }
@@ -17871,7 +17871,7 @@
 101973 = {
 	name = "ckn_Zachary"
 	dynasty = 101970
-	culture = murican
+	culture = southerner
 	rite = protestant_rite
 	father = 101971
 	7001.1.1 = { birth = yes }
@@ -17880,7 +17880,7 @@
 101974 = {
 	name = "ckn_Katherine"
 	female = yes
-	culture = murican
+	culture = southerner
 	rite = protestant_rite
 	6995.1.1 = { birth = yes }
 	7016.1.1 = { add_spouse = 101972 }
@@ -17889,7 +17889,7 @@
 101975 = {
 	name = "ckn_Stephen"
 	dynasty = 101970
-	culture = murican
+	culture = southerner
 	rite = protestant_rite
 	father = 101972
 	mother = 101974
@@ -17900,7 +17900,7 @@
 	name = "ckn_Elizabeth"
 	female = yes
 	dynasty = 101970
-	culture = murican
+	culture = southerner
 	rite = protestant_rite
 	father = 101972
 	mother = 101974
@@ -17910,7 +17910,7 @@
 101977 = {
 	name = "ckn_James"
 	dynasty = 101970
-	culture = murican
+	culture = southerner
 	rite = protestant_rite
 	father = 101972
 	mother = 101974
@@ -17920,7 +17920,7 @@
 101978 = {
 	name = "ckn_William"
 	dynasty = 101970
-	culture = murican
+	culture = southerner
 	rite = protestant_rite
 	father = 101973
 	7029.1.1 = { birth = yes }
@@ -17929,7 +17929,7 @@
 101979 = {
 	name = "ckn_John"
 	dynasty = 101970
-	culture = murican
+	culture = southerner
 	rite = protestant_rite
 	father = 101973
 	7033.1.1 = { birth = yes }
@@ -17938,7 +17938,7 @@
 101980 = {
 	name = "cyn_Chad"
 	dynasty = 101980
-	culture = murican
+	culture = southerner
 	rite = roman_rite
 	martial = 10
 	trait = education_martial_4
@@ -17952,7 +17952,7 @@
 101981 = {
 	name = "ckn_Max"
 	dynasty = 101980
-	culture = murican
+	culture = southerner
 	rite = roman_rite
 	father = 101980
 	6978.1.1 = { birth = yes }
@@ -17961,7 +17961,7 @@
 101982 = {
 	name = "cyn_Luke"
 	dynasty = 101980
-	culture = murican
+	culture = southerner
 	rite = roman_rite
 	father = 101981
 	6999.1.1 = { birth = yes }
@@ -17971,7 +17971,7 @@
 101983 = {
 	name = "ckn_Caleb"
 	dynasty = 101980
-	culture = murican
+	culture = southerner
 	rite = roman_rite
 	father = 101981
 	7002.1.1 = { birth = yes }
@@ -17980,7 +17980,7 @@
 101984 = {
 	name = "ckn_Isla"
 	female = yes
-	culture = liblander
+	culture = southerner
 	rite = roman_rite
 	7008.1.1 = { birth = yes }
 	7024.1.1 = { add_spouse = 101982 }
@@ -17989,7 +17989,7 @@
 101985 = {
 	name = "cyn_Theodore"
 	dynasty = 101980
-	culture = murican
+	culture = southerner
 	rite = protestant_rite	# e83 follows his counties (was roman_rite)
 	father = 101982
 	mother = 101984
@@ -17999,7 +17999,7 @@
 101986 = {
 	name = "cyn_Jerry"
 	dynasty = 101980
-	culture = murican
+	culture = southerner
 	rite = roman_rite
 	father = 101982
 	mother = 101984
@@ -18009,7 +18009,7 @@
 101987 = {
 	name = "ckn_Ethan"
 	dynasty = 101980
-	culture = murican
+	culture = southerner
 	rite = roman_rite
 	father = 101982
 	mother = 101984
@@ -18020,7 +18020,7 @@
 	name = "cyn_Madison"
 	female = yes
 	dynasty = 101980
-	culture = murican
+	culture = southerner
 	rite = roman_rite
 	father = 101983
 	7022.1.1 = { birth = yes }
@@ -18030,7 +18030,7 @@
 	name = "cyn_Ella"
 	female = yes
 	dynasty = 101980
-	culture = murican
+	culture = southerner
 	rite = roman_rite
 	father = 101983
 	7024.1.1 = { birth = yes }
@@ -18544,7 +18544,7 @@
 102040 = {
 	name = "ckn_Charles"
 	dynasty = 102040
-	culture = murican
+	culture = southerner
 	rite = protestant_rite
 	stewardship = 10
 	trait = education_stewardship_4
@@ -18557,7 +18557,7 @@
 102041 = {
 	name = "ckn_Robert"
 	dynasty = 102040
-	culture = murican
+	culture = southerner
 	rite = protestant_rite
 	father = 102040
 	6954.1.1 = { birth = yes }
@@ -18566,7 +18566,7 @@
 102042 = {
 	name = "ckn_Thomas"
 	dynasty = 102040
-	culture = murican
+	culture = southerner
 	rite = protestant_rite
 	father = 102041
 	6982.1.1 = { birth = yes }
@@ -18576,7 +18576,7 @@
 102043 = {
 	name = "ckn_David"
 	dynasty = 102040
-	culture = murican
+	culture = southerner
 	rite = protestant_rite
 	father = 102041
 	6985.1.1 = { birth = yes }
@@ -18585,7 +18585,7 @@
 102044 = {
 	name = "ckn_Elizabeth"
 	female = yes
-	culture = murican
+	culture = southerner
 	rite = protestant_rite
 	6987.1.1 = { birth = yes }
 	7003.1.1 = { add_spouse = 102042 }
@@ -18594,7 +18594,7 @@
 102045 = {
 	name = "ckn_Joseph"
 	dynasty = 102040
-	culture = murican
+	culture = southerner
 	rite = protestant_rite
 	father = 102042
 	mother = 102044
@@ -18604,7 +18604,7 @@
 102046 = {
 	name = "ckn_Daniel"
 	dynasty = 102040
-	culture = murican
+	culture = southerner
 	rite = protestant_rite
 	father = 102042
 	mother = 102044
@@ -18615,7 +18615,7 @@
 	name = "ckn_Mary"
 	female = yes
 	dynasty = 102040
-	culture = murican
+	culture = southerner
 	rite = protestant_rite
 	father = 102042
 	mother = 102044
@@ -18625,7 +18625,7 @@
 102048 = {
 	name = "ckn_Matthew"
 	dynasty = 102040
-	culture = murican
+	culture = southerner
 	rite = protestant_rite
 	father = 102043
 	7011.1.1 = { birth = yes }
@@ -18635,7 +18635,7 @@
 	name = "ckn_Sarah"
 	female = yes
 	dynasty = 102040
-	culture = murican
+	culture = southerner
 	rite = protestant_rite
 	father = 102043
 	7016.1.1 = { birth = yes }
@@ -18943,7 +18943,7 @@
 102080 = {
 	name = "ckn_Aiden"
 	dynasty = 102080
-	culture = progressive
+	culture = cascadian
 	rite = protestant_rite
 	martial = 10
 	trait = education_martial_4
@@ -18958,7 +18958,7 @@
 102081 = {
 	name = "cyn_Mateo"
 	dynasty = 102080
-	culture = progressive
+	culture = cascadian
 	rite = protestant_rite
 	father = 102080
 	6975.1.1 = { birth = yes }
@@ -18967,7 +18967,7 @@
 102082 = {
 	name = "ckn_Leo"
 	dynasty = 102080
-	culture = progressive
+	culture = cascadian
 	rite = protestant_rite
 	father = 102081
 	6996.1.1 = { birth = yes }
@@ -18977,7 +18977,7 @@
 102083 = {
 	name = "cyn_Steven"
 	dynasty = 102080
-	culture = progressive
+	culture = cascadian
 	rite = protestant_rite
 	father = 102081
 	6999.1.1 = { birth = yes }
@@ -18986,7 +18986,7 @@
 102084 = {
 	name = "ckn_Phoebe"
 	female = yes
-	culture = liblander
+	culture = cascadian
 	rite = protestant_rite
 	6994.1.1 = { birth = yes }
 	7012.1.1 = { add_spouse = 102082 }
@@ -18995,7 +18995,7 @@
 102085 = {
 	name = "ckn_Ezra"
 	dynasty = 102080
-	culture = progressive
+	culture = cascadian
 	rite = protestant_rite
 	father = 102082
 	mother = 102084
@@ -19006,7 +19006,7 @@
 	name = "cyn_Harper"
 	female = yes
 	dynasty = 102080
-	culture = progressive
+	culture = cascadian
 	rite = protestant_rite
 	father = 102082
 	mother = 102084
@@ -19016,7 +19016,7 @@
 102087 = {
 	name = "ckn_Asher"
 	dynasty = 102080
-	culture = progressive
+	culture = cascadian
 	rite = protestant_rite
 	father = 102082
 	mother = 102084
@@ -19026,7 +19026,7 @@
 102088 = {
 	name = "cyn_Paul"
 	dynasty = 102080
-	culture = progressive
+	culture = cascadian
 	rite = protestant_rite
 	father = 102083
 	7027.1.1 = { birth = yes }
@@ -19036,7 +19036,7 @@
 	name = "cyn_Brenda"
 	female = yes
 	dynasty = 102080
-	culture = progressive
+	culture = cascadian
 	rite = protestant_rite
 	father = 102082
 	mother = 102084
@@ -19239,7 +19239,7 @@
 	name = "ckn_Bertrand"
 	dynasty = 102130
 	culture = archon
-	rite = gnoslam_rite
+	rite = everlasting_covenant_rite
 	stewardship = 10
 	trait = education_stewardship_4
 	trait = architect
@@ -19252,7 +19252,7 @@
 	name = "ckn_Chramnesind"
 	dynasty = 102130
 	culture = archon
-	rite = gnoslam_rite
+	rite = everlasting_covenant_rite
 	father = 102130
 	6960.1.1 = { birth = yes }
 	7037.1.1 = { death = yes }
@@ -19261,7 +19261,7 @@
 	name = "ckn_Theoric"
 	dynasty = 102130
 	culture = archon
-	rite = gnoslam_rite
+	rite = everlasting_covenant_rite
 	father = 102131
 	6996.1.1 = { birth = yes }
 	7022.1.1 = { add_spouse = 102134 }
@@ -19271,7 +19271,7 @@
 	name = "ckn_Deiglum"
 	dynasty = 102130
 	culture = archon
-	rite = gnoslam_rite
+	rite = everlasting_covenant_rite
 	father = 102131
 	7001.1.1 = { birth = yes }
 	7038.1.1 = { death = yes }
@@ -19279,7 +19279,7 @@
 102134 = {
 	name = "ckn_Nora"
 	female = yes
-	culture = liblander
+	culture = mid_atlantic
 	rite = maliki
 	7006.1.1 = { birth = yes }
 	7022.1.1 = { add_spouse = 102132 }
@@ -19289,7 +19289,7 @@
 	name = "ckn_Theudemeres"
 	dynasty = 102130
 	culture = archon
-	rite = gnoslam_rite
+	rite = everlasting_covenant_rite
 	father = 102132
 	mother = 102134
 	7029.1.1 = { birth = yes }
@@ -19299,7 +19299,7 @@
 	name = "ckn_Gerbert"
 	dynasty = 102130
 	culture = archon
-	rite = gnoslam_rite
+	rite = everlasting_covenant_rite
 	father = 102132
 	mother = 102134
 	7034.1.1 = { birth = yes }
@@ -19309,7 +19309,7 @@
 	name = "ckn_Burchard"
 	dynasty = 102130
 	culture = archon
-	rite = gnoslam_rite
+	rite = everlasting_covenant_rite
 	father = 102132
 	mother = 102134
 	7038.1.1 = { birth = yes }
@@ -19320,7 +19320,7 @@
 	female = yes
 	dynasty = 102130
 	culture = archon
-	rite = gnoslam_rite
+	rite = everlasting_covenant_rite
 	father = 102133
 	7023.1.1 = { birth = yes }
 	7092.1.1 = { death = yes }
@@ -19330,7 +19330,7 @@
 	female = yes
 	dynasty = 102130
 	culture = archon
-	rite = gnoslam_rite
+	rite = everlasting_covenant_rite
 	father = 102133
 	7028.1.1 = { birth = yes }
 	7093.1.1 = { death = yes }
@@ -19892,7 +19892,7 @@
 102194 = {
 	name = "ckn_Emily"
 	female = yes
-	culture = murican
+	culture = southerner
 	rite = roman_rite
 	6984.1.1 = { birth = yes }
 	7000.1.1 = { add_spouse = 102192 }
@@ -19951,7 +19951,7 @@
 102200 = {
 	name = "ckn_Joshua"
 	dynasty = 102200
-	culture = moderate
+	culture = southerner
 	rite = protestant_rite
 	martial = 10
 	trait = education_martial_4
@@ -19966,7 +19966,7 @@
 102201 = {
 	name = "ckn_George"
 	dynasty = 102200
-	culture = moderate
+	culture = southerner
 	rite = protestant_rite
 	father = 102200
 	6961.1.1 = { birth = yes }
@@ -19975,7 +19975,7 @@
 102202 = {
 	name = "ckn_Timothy"
 	dynasty = 102200
-	culture = moderate
+	culture = southerner
 	rite = protestant_rite
 	father = 102201
 	7000.1.1 = { birth = yes }
@@ -19985,7 +19985,7 @@
 102203 = {
 	name = "ckn_Stephen"
 	dynasty = 102200
-	culture = moderate
+	culture = southerner
 	rite = protestant_rite
 	father = 102201
 	7002.1.1 = { birth = yes }
@@ -19994,7 +19994,7 @@
 102204 = {
 	name = "ckn_Katherine"
 	female = yes
-	culture = murican
+	culture = southerner
 	rite = protestant_rite
 	7007.1.1 = { birth = yes }
 	7023.1.1 = { add_spouse = 102202 }
@@ -20003,7 +20003,7 @@
 102205 = {
 	name = "ckn_Paul"
 	dynasty = 102200
-	culture = moderate
+	culture = southerner
 	rite = protestant_rite
 	father = 102202
 	mother = 102204
@@ -20014,7 +20014,7 @@
 	name = "ckn_Abigail"
 	female = yes
 	dynasty = 102200
-	culture = moderate
+	culture = southerner
 	rite = protestant_rite
 	father = 102202
 	mother = 102204
@@ -20025,7 +20025,7 @@
 	name = "ckn_Hannah"
 	female = yes
 	dynasty = 102200
-	culture = moderate
+	culture = southerner
 	rite = protestant_rite
 	father = 102202
 	mother = 102204
@@ -20036,7 +20036,7 @@
 	name = "ckn_Grace"
 	female = yes
 	dynasty = 102200
-	culture = moderate
+	culture = southerner
 	rite = protestant_rite
 	father = 102203
 	7024.1.1 = { birth = yes }
@@ -20045,7 +20045,7 @@
 102209 = {
 	name = "ckn_Timothy"
 	dynasty = 102200
-	culture = moderate
+	culture = southerner
 	rite = protestant_rite
 	father = 102203
 	7026.1.1 = { birth = yes }
@@ -20156,7 +20156,7 @@
 102220 = {
 	name = "cyn_Nathan"
 	dynasty = 102220
-	culture = liblander
+	culture = antarctican
 	rite = maliki
 	stewardship = 10
 	trait = education_stewardship_4
@@ -20169,7 +20169,7 @@
 102221 = {
 	name = "cyn_Scott"
 	dynasty = 102220
-	culture = liblander
+	culture = antarctican
 	rite = maliki
 	father = 102220
 	6968.1.1 = { birth = yes }
@@ -20178,7 +20178,7 @@
 102222 = {
 	name = "ckn_Max"
 	dynasty = 102220
-	culture = liblander
+	culture = antarctican
 	rite = maliki
 	father = 102221
 	6994.1.1 = { birth = yes }
@@ -20188,7 +20188,7 @@
 102223 = {
 	name = "cyn_Ezra"
 	dynasty = 102220
-	culture = liblander
+	culture = antarctican
 	rite = maliki
 	father = 102221
 	6998.1.1 = { birth = yes }
@@ -20197,7 +20197,7 @@
 102224 = {
 	name = "ckn_Ivy"
 	female = yes
-	culture = liblander
+	culture = antarctican
 	rite = maliki
 	6997.1.1 = { birth = yes }
 	7013.1.1 = { add_spouse = 102222 }
@@ -20206,7 +20206,7 @@
 102225 = {
 	name = "ckn_Caleb"
 	dynasty = 102220
-	culture = liblander
+	culture = antarctican
 	rite = maliki
 	father = 102222
 	mother = 102224
@@ -20218,7 +20218,7 @@
 	name = "cyn_Susan"
 	female = yes
 	dynasty = 102220
-	culture = liblander
+	culture = antarctican
 	rite = maliki
 	father = 102222
 	mother = 102224
@@ -20228,7 +20228,7 @@
 102227 = {
 	name = "cyn_William"
 	dynasty = 102220
-	culture = liblander
+	culture = antarctican
 	rite = maliki
 	father = 102222
 	mother = 102224
@@ -20238,7 +20238,7 @@
 102228 = {
 	name = "cyn_Mark"
 	dynasty = 102220
-	culture = liblander
+	culture = antarctican
 	rite = maliki
 	father = 102223
 	7019.1.1 = { birth = yes }
@@ -20247,7 +20247,7 @@
 102229 = {
 	name = "cyn_Aiden"
 	dynasty = 102220
-	culture = liblander
+	culture = antarctican
 	rite = maliki
 	father = 102223
 	7020.1.1 = { birth = yes }
@@ -20400,7 +20400,7 @@
 102244 = {
 	name = "ckn_Sarah"
 	female = yes
-	culture = murican
+	culture = southerner
 	rite = roman_rite
 	6997.1.1 = { birth = yes }
 	7013.1.1 = { add_spouse = 102242 }
@@ -20602,7 +20602,7 @@
 102264 = {
 	name = "ckn_Claire"
 	female = yes
-	culture = murican
+	culture = southerner
 	rite = protestant_rite
 	7008.1.1 = { birth = yes }
 	7024.1.1 = { add_spouse = 102262 }
@@ -20761,7 +20761,7 @@
 102280 = {
 	name = "ckn_Daniel"
 	dynasty = 102280
-	culture = murican
+	culture = southerner
 	rite = protestant_rite
 	diplomacy = 10
 	trait = education_diplomacy_4
@@ -20775,7 +20775,7 @@
 102281 = {
 	name = "ckn_Matthew"
 	dynasty = 102280
-	culture = murican
+	culture = southerner
 	rite = protestant_rite
 	father = 102280
 	6971.1.1 = { birth = yes }
@@ -20784,7 +20784,7 @@
 102282 = {
 	name = "ckn_Andrew"
 	dynasty = 102280
-	culture = murican
+	culture = southerner
 	rite = protestant_rite
 	father = 102281
 	7004.1.1 = { birth = yes }
@@ -20794,7 +20794,7 @@
 102283 = {
 	name = "ckn_Benjamin"
 	dynasty = 102280
-	culture = murican
+	culture = southerner
 	rite = protestant_rite
 	father = 102281
 	7009.1.1 = { birth = yes }
@@ -20803,7 +20803,7 @@
 102284 = {
 	name = "ckn_Brooke"
 	female = yes
-	culture = murican
+	culture = southerner
 	rite = protestant_rite
 	7001.1.1 = { birth = yes }
 	7020.1.1 = { add_spouse = 102282 }
@@ -20813,7 +20813,7 @@
 	name = "ckn_Elizabeth"
 	female = yes
 	dynasty = 102280
-	culture = murican
+	culture = southerner
 	rite = protestant_rite
 	father = 102282
 	mother = 102284
@@ -20824,7 +20824,7 @@
 	name = "ckn_Rebecca"
 	female = yes
 	dynasty = 102280
-	culture = murican
+	culture = southerner
 	rite = protestant_rite
 	father = 102282
 	mother = 102284
@@ -20835,7 +20835,7 @@
 	name = "cyn_Addison"
 	female = yes
 	dynasty = 102280
-	culture = murican
+	culture = southerner
 	rite = protestant_rite
 	father = 102282
 	mother = 102284
@@ -20845,7 +20845,7 @@
 102288 = {
 	name = "ckn_Joshua"
 	dynasty = 102280
-	culture = murican
+	culture = southerner
 	rite = protestant_rite
 	father = 102283
 	7036.1.1 = { birth = yes }
@@ -20854,7 +20854,7 @@
 102289 = {
 	name = "ckn_Thomas"
 	dynasty = 102280
-	culture = murican
+	culture = southerner
 	rite = protestant_rite
 	father = 102283
 	7037.1.1 = { birth = yes }
@@ -20863,7 +20863,7 @@
 102290 = {
 	name = "ckn_Samuel"
 	dynasty = 102290
-	culture = liblander
+	culture = midwestern
 	rite = protestant_rite
 	martial = 10
 	trait = education_martial_4
@@ -20878,7 +20878,7 @@
 102291 = {
 	name = "ckn_Christopher"
 	dynasty = 102290
-	culture = liblander
+	culture = midwestern
 	rite = protestant_rite
 	father = 102290
 	6963.1.1 = { birth = yes }
@@ -20887,7 +20887,7 @@
 102292 = {
 	name = "cyn_Bobby"
 	dynasty = 102290
-	culture = liblander
+	culture = midwestern
 	rite = protestant_rite
 	father = 102291
 	6987.1.1 = { birth = yes }
@@ -20897,7 +20897,7 @@
 102293 = {
 	name = "cyn_Ezra"
 	dynasty = 102290
-	culture = liblander
+	culture = midwestern
 	rite = protestant_rite
 	father = 102291
 	6990.1.1 = { birth = yes }
@@ -20906,7 +20906,7 @@
 102294 = {
 	name = "ckn_Katherine"
 	female = yes
-	culture = murican
+	culture = midwestern
 	rite = protestant_rite
 	6990.1.1 = { birth = yes }
 	7006.1.1 = { add_spouse = 102292 }
@@ -20915,7 +20915,7 @@
 102295 = {
 	name = "ckn_Joshua"
 	dynasty = 102290
-	culture = liblander
+	culture = midwestern
 	rite = protestant_rite
 	father = 102292
 	mother = 102294
@@ -20926,7 +20926,7 @@
 	name = "cyn_Michelle"
 	female = yes
 	dynasty = 102290
-	culture = liblander
+	culture = midwestern
 	rite = protestant_rite
 	father = 102292
 	mother = 102294
@@ -20937,7 +20937,7 @@
 	name = "ckn_Charlotte"
 	female = yes
 	dynasty = 102290
-	culture = liblander
+	culture = midwestern
 	rite = protestant_rite
 	father = 102292
 	mother = 102294
@@ -20947,7 +20947,7 @@
 102298 = {
 	name = "ckn_Joshua"
 	dynasty = 102290
-	culture = liblander
+	culture = midwestern
 	rite = protestant_rite
 	father = 102293
 	7018.1.1 = { birth = yes }
@@ -20957,7 +20957,7 @@
 	name = "ckn_Megan"
 	female = yes
 	dynasty = 102290
-	culture = liblander
+	culture = midwestern
 	rite = protestant_rite
 	father = 102293
 	7020.1.1 = { birth = yes }
@@ -21067,7 +21067,7 @@
 102310 = {
 	name = "ckn_George"
 	dynasty = 102310
-	culture = murican
+	culture = cascadian
 	rite = roman_rite
 	intrigue = 10
 	trait = education_intrigue_4
@@ -21080,7 +21080,7 @@
 102311 = {
 	name = "ckn_Paul"
 	dynasty = 102310
-	culture = murican
+	culture = cascadian
 	rite = roman_rite
 	father = 102310
 	6961.1.1 = { birth = yes }
@@ -21089,7 +21089,7 @@
 102312 = {
 	name = "ckn_John"
 	dynasty = 102310
-	culture = murican
+	culture = cascadian
 	rite = roman_rite
 	father = 102311
 	6992.1.1 = { birth = yes }
@@ -21099,7 +21099,7 @@
 102313 = {
 	name = "ckn_Charles"
 	dynasty = 102310
-	culture = murican
+	culture = cascadian
 	rite = roman_rite
 	father = 102311
 	6996.1.1 = { birth = yes }
@@ -21108,7 +21108,7 @@
 102314 = {
 	name = "ckn_Sarah"
 	female = yes
-	culture = murican
+	culture = cascadian
 	rite = roman_rite
 	7005.1.1 = { birth = yes }
 	7021.1.1 = { add_spouse = 102312 }
@@ -21117,7 +21117,7 @@
 102315 = {
 	name = "ckn_Timothy"
 	dynasty = 102310
-	culture = murican
+	culture = westerner
 	rite = protestant_rite	# e83 follows his counties (was latter_day_saints_rite)
 	father = 102312
 	mother = 102314
@@ -21128,7 +21128,7 @@
 	name = "cyn_Jessica"
 	female = yes
 	dynasty = 102310
-	culture = murican
+	culture = cascadian
 	rite = roman_rite
 	father = 102312
 	mother = 102314
@@ -21138,7 +21138,7 @@
 102317 = {
 	name = "ckn_Aaron"
 	dynasty = 102310
-	culture = murican
+	culture = cascadian
 	rite = roman_rite
 	father = 102312
 	mother = 102314
@@ -21149,7 +21149,7 @@
 	name = "ckn_Victoria"
 	female = yes
 	dynasty = 102310
-	culture = murican
+	culture = cascadian
 	rite = roman_rite
 	father = 102313
 	7016.1.1 = { birth = yes }
@@ -21159,7 +21159,7 @@
 	name = "ckn_Brooke"
 	female = yes
 	dynasty = 102310
-	culture = murican
+	culture = cascadian
 	rite = roman_rite
 	father = 102313
 	7021.1.1 = { birth = yes }
@@ -21270,7 +21270,7 @@
 102330 = {
 	name = "ckn_Joseph"
 	dynasty = 102330
-	culture = murican
+	culture = westerner
 	rite = fundamentalist_rite
 	diplomacy = 10
 	trait = education_diplomacy_4
@@ -21284,7 +21284,7 @@
 102331 = {
 	name = "ckn_Joseph"
 	dynasty = 102330
-	culture = murican
+	culture = westerner
 	rite = latter_day_saints_rite
 	father = 102330
 	6976.1.1 = { birth = yes }
@@ -21293,7 +21293,7 @@
 102332 = {
 	name = "ckn_Joseph"
 	dynasty = 102330
-	culture = murican
+	culture = westerner
 	rite = latter_day_saints_rite
 	father = 102331
 	7006.1.1 = { birth = yes }
@@ -21303,7 +21303,7 @@
 102333 = {
 	name = "ckn_Adam"
 	dynasty = 102330
-	culture = murican
+	culture = westerner
 	rite = latter_day_saints_rite
 	father = 102331
 	7007.1.1 = { birth = yes }
@@ -21312,7 +21312,7 @@
 102334 = {
 	name = "ckn_Mary"
 	female = yes
-	culture = murican
+	culture = westerner
 	rite = latter_day_saints_rite
 	7003.1.1 = { birth = yes }
 	7022.1.1 = { add_spouse = 102332 }
@@ -21321,7 +21321,7 @@
 102335 = {
 	name = "ckn_Joseph"
 	dynasty = 102330
-	culture = murican
+	culture = westerner
 	rite = protestant_rite	# e83 follows his counties (was latter_day_saints_rite)
 	father = 102332
 	mother = 102334
@@ -21331,7 +21331,7 @@
 102336 = {
 	name = "ckn_Adam"
 	dynasty = 102330
-	culture = murican
+	culture = westerner
 	rite = fundamentalist_rite	# e86 FLDS prophet, holds b_saint_george (Short Creek/St. George)
 	father = 102332
 	mother = 102334
@@ -21342,7 +21342,7 @@
 	name = "ckn_Natalie"
 	female = yes
 	dynasty = 102330
-	culture = murican
+	culture = westerner
 	rite = fundamentalist_rite	# e86 Smith family -> FLDS (was latter_day_saints_rite)
 	father = 102332
 	mother = 102334
@@ -21353,7 +21353,7 @@
 	name = "cyn_Margaret"
 	female = yes
 	dynasty = 102330
-	culture = murican
+	culture = westerner
 	rite = fundamentalist_rite	# e86 Smith family -> FLDS (was latter_day_saints_rite)
 	father = 102333
 	7031.1.1 = { birth = yes }
@@ -21362,7 +21362,7 @@
 102339 = {
 	name = "ckn_Adam"
 	dynasty = 102330
-	culture = murican
+	culture = westerner
 	rite = fundamentalist_rite	# e86 Smith family -> FLDS (was latter_day_saints_rite)
 	father = 102333
 	7033.1.1 = { birth = yes }
@@ -21874,7 +21874,7 @@
 102390 = {
 	name = "ckn_Zachary"
 	dynasty = 102390
-	culture = murican
+	culture = southerner
 	rite = protestant_rite
 	stewardship = 10
 	trait = education_stewardship_4
@@ -21887,7 +21887,7 @@
 102391 = {
 	name = "ckn_Stephen"
 	dynasty = 102390
-	culture = murican
+	culture = southerner
 	rite = protestant_rite
 	father = 102390
 	6961.1.1 = { birth = yes }
@@ -21896,7 +21896,7 @@
 102392 = {
 	name = "ckn_James"
 	dynasty = 102390
-	culture = murican
+	culture = southerner
 	rite = protestant_rite
 	father = 102391
 	7000.1.1 = { birth = yes }
@@ -21906,7 +21906,7 @@
 102393 = {
 	name = "ckn_Zachary"
 	dynasty = 102390
-	culture = murican
+	culture = southerner
 	rite = protestant_rite
 	father = 102391
 	7004.1.1 = { birth = yes }
@@ -21915,7 +21915,7 @@
 102394 = {
 	name = "cyn_Natalie"
 	female = yes
-	culture = murican
+	culture = southerner
 	rite = protestant_rite
 	7003.1.1 = { birth = yes }
 	7019.1.1 = { add_spouse = 102392 }
@@ -21924,7 +21924,7 @@
 102395 = {
 	name = "ckn_William"
 	dynasty = 102390
-	culture = murican
+	culture = southerner
 	rite = protestant_rite
 	father = 102392
 	mother = 102394
@@ -21934,7 +21934,7 @@
 102396 = {
 	name = "ckn_John"
 	dynasty = 102390
-	culture = murican
+	culture = southerner
 	rite = protestant_rite
 	father = 102392
 	mother = 102394
@@ -21945,7 +21945,7 @@
 	name = "ckn_Brooke"
 	female = yes
 	dynasty = 102390
-	culture = murican
+	culture = southerner
 	rite = protestant_rite
 	father = 102392
 	mother = 102394
@@ -21955,7 +21955,7 @@
 102398 = {
 	name = "ckn_Daniel"
 	dynasty = 102390
-	culture = murican
+	culture = southerner
 	rite = protestant_rite
 	father = 102393
 	7030.1.1 = { birth = yes }
@@ -21964,7 +21964,7 @@
 102399 = {
 	name = "ckn_Charles"
 	dynasty = 102390
-	culture = murican
+	culture = southerner
 	rite = protestant_rite
 	father = 102393
 	7032.1.1 = { birth = yes }
@@ -22072,7 +22072,7 @@
 102410 = {
 	name = "ckn_Miles"
 	dynasty = 102410
-	culture = liblander_west
+	culture = cascadian
 	rite = protestant_rite
 	stewardship = 10
 	trait = education_stewardship_4
@@ -22085,7 +22085,7 @@
 102411 = {
 	name = "ckn_Aiden"
 	dynasty = 102410
-	culture = liblander_west
+	culture = cascadian
 	rite = protestant_rite
 	father = 102410
 	6964.1.1 = { birth = yes }
@@ -22094,7 +22094,7 @@
 102412 = {
 	name = "cyn_Ethan"
 	dynasty = 102410
-	culture = liblander_west
+	culture = cascadian
 	rite = protestant_rite
 	father = 102411
 	7001.1.1 = { birth = yes }
@@ -22104,7 +22104,7 @@
 102413 = {
 	name = "ckn_Leo"
 	dynasty = 102410
-	culture = liblander_west
+	culture = cascadian
 	rite = protestant_rite
 	father = 102411
 	7006.1.1 = { birth = yes }
@@ -22113,7 +22113,7 @@
 102414 = {
 	name = "cyn_Olivia"
 	female = yes
-	culture = liblander
+	culture = cascadian
 	rite = protestant_rite
 	7014.1.1 = { birth = yes }
 	7030.1.1 = { add_spouse = 102412 }
@@ -22122,7 +22122,7 @@
 102415 = {
 	name = "cyn_Theodore"
 	dynasty = 102410
-	culture = liblander_west
+	culture = cascadian
 	rite = roman_rite	# e83 follows his counties (was protestant_rite)
 	father = 102412
 	mother = 102414
@@ -22133,7 +22133,7 @@
 	name = "cyn_Mila"
 	female = yes
 	dynasty = 102410
-	culture = liblander_west
+	culture = cascadian
 	rite = protestant_rite
 	father = 102412
 	mother = 102414
@@ -22144,7 +22144,7 @@
 	name = "ckn_Ivy"
 	female = yes
 	dynasty = 102410
-	culture = liblander_west
+	culture = cascadian
 	rite = protestant_rite
 	father = 102412
 	mother = 102414
@@ -22155,7 +22155,7 @@
 	name = "ckn_Harper"
 	female = yes
 	dynasty = 102410
-	culture = liblander_west
+	culture = cascadian
 	rite = protestant_rite
 	father = 102413
 	7035.1.1 = { birth = yes }
@@ -22165,7 +22165,7 @@
 	name = "ckn_Isla"
 	female = yes
 	dynasty = 102410
-	culture = liblander_west
+	culture = cascadian
 	rite = protestant_rite
 	father = 102413
 	7040.1.1 = { birth = yes }
@@ -22417,7 +22417,7 @@
 102444 = {
 	name = "ckn_Elizabeth"
 	female = yes
-	culture = murican
+	culture = southerner
 	rite = protestant_rite
 	7002.1.1 = { birth = yes }
 	7018.1.1 = { add_spouse = 102442 }
@@ -22518,7 +22518,7 @@
 102454 = {
 	name = "ckn_Ava"
 	female = yes
-	culture = liblander
+	culture = mid_atlantic
 	rite = protestant_rite
 	7006.1.1 = { birth = yes }
 	7022.1.1 = { add_spouse = 102452 }
@@ -22577,7 +22577,7 @@
 102460 = {
 	name = "ckn_Aaron"
 	dynasty = 102460
-	culture = moderate
+	culture = midwestern
 	rite = protestant_rite
 	stewardship = 10
 	trait = education_stewardship_4
@@ -22590,7 +22590,7 @@
 102461 = {
 	name = "ckn_Matthew"
 	dynasty = 102460
-	culture = moderate
+	culture = midwestern
 	rite = protestant_rite
 	father = 102460
 	6950.1.1 = { birth = yes }
@@ -22599,7 +22599,7 @@
 102462 = {
 	name = "ckn_Andrew"
 	dynasty = 102460
-	culture = moderate
+	culture = midwestern
 	rite = protestant_rite
 	father = 102461
 	6978.1.1 = { birth = yes }
@@ -22609,7 +22609,7 @@
 102463 = {
 	name = "ckn_Benjamin"
 	dynasty = 102460
-	culture = moderate
+	culture = midwestern
 	rite = protestant_rite
 	father = 102461
 	6983.1.1 = { birth = yes }
@@ -22618,7 +22618,7 @@
 102464 = {
 	name = "ckn_Rebecca"
 	female = yes
-	culture = murican
+	culture = midwestern
 	rite = protestant_rite
 	6995.1.1 = { birth = yes }
 	7011.1.1 = { add_spouse = 102462 }
@@ -22627,7 +22627,7 @@
 102465 = {
 	name = "ckn_Aaron"
 	dynasty = 102460
-	culture = moderate
+	culture = midwestern
 	rite = protestant_rite
 	father = 102462
 	mother = 102464
@@ -22638,7 +22638,7 @@
 	name = "ckn_Charlotte"
 	female = yes
 	dynasty = 102460
-	culture = moderate
+	culture = midwestern
 	rite = protestant_rite
 	father = 102462
 	mother = 102464
@@ -22649,7 +22649,7 @@
 	name = "ckn_Rachel"
 	female = yes
 	dynasty = 102460
-	culture = moderate
+	culture = midwestern
 	rite = protestant_rite
 	father = 102462
 	mother = 102464
@@ -22659,7 +22659,7 @@
 102468 = {
 	name = "ckn_Samuel"
 	dynasty = 102460
-	culture = moderate
+	culture = midwestern
 	rite = protestant_rite
 	father = 102463
 	7008.1.1 = { birth = yes }
@@ -22669,7 +22669,7 @@
 	name = "ckn_Elizabeth"
 	female = yes
 	dynasty = 102460
-	culture = moderate
+	culture = midwestern
 	rite = protestant_rite
 	father = 102463
 	7009.1.1 = { birth = yes }
@@ -22971,7 +22971,7 @@
 }
 2102505 = {
 	name = "ckn_Ezra"
-	culture = liblander
+	culture = southerner
 	rite = protestant_rite
 	7014.1.1 = { birth = yes }
 	7080.1.1 = { death = yes }
@@ -23327,7 +23327,7 @@
 102544 = {
 	name = "ckn_Emily"
 	female = yes
-	culture = murican
+	culture = southerner
 	rite = protestant_rite
 	6993.1.1 = { birth = yes }
 	7009.1.1 = { add_spouse = 102542 }
@@ -23627,7 +23627,7 @@
 102574 = {
 	name = "ckn_Rachel"
 	female = yes
-	culture = murican
+	culture = southerner
 	rite = protestant_rite
 	6989.1.1 = { birth = yes }
 	7005.1.1 = { add_spouse = 102572 }
@@ -23687,7 +23687,7 @@
 102580 = {
 	name = "ckn_Stephen"
 	dynasty = 102580
-	culture = moderate
+	culture = midwestern
 	rite = protestant_rite
 	stewardship = 10
 	trait = education_stewardship_4
@@ -23700,7 +23700,7 @@
 102581 = {
 	name = "ckn_James"
 	dynasty = 102580
-	culture = moderate
+	culture = midwestern
 	rite = protestant_rite
 	father = 102580
 	6963.1.1 = { birth = yes }
@@ -23709,7 +23709,7 @@
 102582 = {
 	name = "ckn_William"
 	dynasty = 102580
-	culture = moderate
+	culture = midwestern
 	rite = protestant_rite
 	father = 102581
 	6989.1.1 = { birth = yes }
@@ -23719,7 +23719,7 @@
 102583 = {
 	name = "ckn_John"
 	dynasty = 102580
-	culture = moderate
+	culture = midwestern
 	rite = protestant_rite
 	father = 102581
 	6990.1.1 = { birth = yes }
@@ -23728,7 +23728,7 @@
 102584 = {
 	name = "cyn_Stella"
 	female = yes
-	culture = murican
+	culture = midwestern
 	rite = protestant_rite
 	6986.1.1 = { birth = yes }
 	7005.1.1 = { add_spouse = 102582 }
@@ -23737,7 +23737,7 @@
 102585 = {
 	name = "ckn_Charles"
 	dynasty = 102580
-	culture = moderate
+	culture = midwestern
 	rite = protestant_rite
 	father = 102582
 	mother = 102584
@@ -23748,7 +23748,7 @@
 	name = "cyn_Madison"
 	female = yes
 	dynasty = 102580
-	culture = moderate
+	culture = midwestern
 	rite = protestant_rite
 	father = 102582
 	mother = 102584
@@ -23759,7 +23759,7 @@
 	name = "cyn_Linda"
 	female = yes
 	dynasty = 102580
-	culture = moderate
+	culture = midwestern
 	rite = protestant_rite
 	father = 102582
 	mother = 102584
@@ -23770,7 +23770,7 @@
 	name = "ckn_Anna"
 	female = yes
 	dynasty = 102580
-	culture = moderate
+	culture = midwestern
 	rite = protestant_rite
 	father = 102583
 	7012.1.1 = { birth = yes }
@@ -23779,7 +23779,7 @@
 102589 = {
 	name = "ckn_Robert"
 	dynasty = 102580
-	culture = moderate
+	culture = midwestern
 	rite = protestant_rite
 	father = 102583
 	7015.1.1 = { birth = yes }
@@ -23830,7 +23830,7 @@
 102594 = {
 	name = "cyn_Sandra"
 	female = yes
-	culture = murican
+	culture = southerner
 	rite = protestant_rite
 	7003.1.1 = { birth = yes }
 	7019.1.1 = { add_spouse = 102592 }
@@ -24287,7 +24287,7 @@
 102640 = {
 	name = "ckn_Asher"
 	dynasty = 102640
-	culture = liblander
+	culture = mid_atlantic
 	rite = protestant_rite
 	martial = 10
 	trait = education_martial_4
@@ -24301,7 +24301,7 @@
 102641 = {
 	name = "ckn_Arlo"
 	dynasty = 102640
-	culture = liblander
+	culture = mid_atlantic
 	rite = protestant_rite
 	father = 102640
 	6953.1.1 = { birth = yes }
@@ -24310,7 +24310,7 @@
 102642 = {
 	name = "ckn_Silas"
 	dynasty = 102640
-	culture = liblander
+	culture = mid_atlantic
 	rite = protestant_rite
 	father = 102641
 	6984.1.1 = { birth = yes }
@@ -24320,7 +24320,7 @@
 102643 = {
 	name = "ckn_Matthew"
 	dynasty = 102640
-	culture = murican
+	culture = mid_atlantic
 	rite = protestant_rite
 	father = 102641
 	6987.1.1 = { birth = yes }
@@ -24329,7 +24329,7 @@
 102644 = {
 	name = "ckn_Lauren"
 	female = yes
-	culture = murican
+	culture = mid_atlantic
 	rite = protestant_rite
 	6984.1.1 = { birth = yes }
 	7000.1.1 = { add_spouse = 102642 }
@@ -24338,7 +24338,7 @@
 102645 = {
 	name = "ckn_Andrew"
 	dynasty = 102640
-	culture = murican
+	culture = southerner
 	rite = protestant_rite
 	father = 102642
 	mother = 102644
@@ -24349,7 +24349,7 @@
 	name = "ckn_Julia"
 	female = yes
 	dynasty = 102640
-	culture = murican
+	culture = mid_atlantic
 	rite = protestant_rite
 	father = 102642
 	mother = 102644
@@ -24359,7 +24359,7 @@
 102647 = {
 	name = "ckn_Benjamin"
 	dynasty = 102640
-	culture = murican
+	culture = mid_atlantic
 	rite = protestant_rite
 	father = 102642
 	mother = 102644
@@ -24369,7 +24369,7 @@
 102648 = {
 	name = "ckn_Samuel"
 	dynasty = 102640
-	culture = murican
+	culture = mid_atlantic
 	rite = protestant_rite
 	father = 102643
 	7013.1.1 = { birth = yes }
@@ -24378,7 +24378,7 @@
 102649 = {
 	name = "ckn_Theo"
 	dynasty = 102640
-	culture = liblander
+	culture = mid_atlantic
 	rite = protestant_rite
 	father = 102643
 	7017.1.1 = { birth = yes }
@@ -24387,7 +24387,7 @@
 205285 = {
 	name = "ckn_Ronald"
 	dynasty = 102642
-	culture = murican
+	culture = mid_atlantic
 	rite = non_denominational_rite
 	health = 10
 	father = 102725
@@ -24404,7 +24404,7 @@
 205287 = {
 	name = "ckn_Eric"
 	dynasty = 102642
-	culture = murican
+	culture = mid_atlantic
 	rite = non_denominational_rite
 	health = 10
 	father = 102725
@@ -24413,7 +24413,7 @@
 205288 = {
 	name = "ckn_Baron"
 	dynasty = 102642
-	culture = murican
+	culture = mid_atlantic
 	rite = non_denominational_rite
 	health = 10
 	trait = giant
@@ -24664,7 +24664,7 @@
 102674 = {
 	name = "ckn_Luna"
 	female = yes
-	culture = liblander
+	culture = mid_atlantic
 	rite = protestant_rite
 	7000.1.1 = { birth = yes }
 	7016.1.1 = { add_spouse = 102672 }
@@ -24965,7 +24965,7 @@
 102704 = {
 	name = "ckn_Aria"
 	female = yes
-	culture = liblander
+	culture = mid_atlantic
 	rite = roman_rite
 	7001.1.1 = { birth = yes }
 	7017.1.1 = { add_spouse = 102702 }
@@ -25022,7 +25022,7 @@
 }
 102715 = {
 	name = "ckn_Miles"
-	culture = liblander
+	culture = mid_atlantic
 	rite = protestant_rite	# e83 follows his counties (was roman_rite)
 	7027.1.1 = { birth = yes }
 	7078.1.1 = { death = yes }
@@ -25030,7 +25030,7 @@
 102725 = {
 	name = "ckn_Ronald"
 	dynasty = 102642
-	culture = murican
+	culture = mid_atlantic
 	rite = non_denominational_rite
 	health = 16
 	trait = ambitious
@@ -25152,7 +25152,7 @@
 102740 = {
 	name = "ckn_Aaron"
 	dynasty = 102740
-	culture = moderate
+	culture = midwestern
 	rite = roman_rite
 	learning = 10
 	trait = education_learning_4
@@ -25166,7 +25166,7 @@
 102741 = {
 	name = "ckn_Nathan"
 	dynasty = 102740
-	culture = moderate
+	culture = midwestern
 	rite = roman_rite
 	father = 102740
 	6955.1.1 = { birth = yes }
@@ -25175,7 +25175,7 @@
 102742 = {
 	name = "ckn_Adam"
 	dynasty = 102740
-	culture = moderate
+	culture = midwestern
 	rite = roman_rite
 	father = 102741
 	6995.1.1 = { birth = yes }
@@ -25185,7 +25185,7 @@
 102743 = {
 	name = "ckn_Zachary"
 	dynasty = 102740
-	culture = moderate
+	culture = midwestern
 	rite = roman_rite
 	father = 102741
 	6999.1.1 = { birth = yes }
@@ -25194,7 +25194,7 @@
 102744 = {
 	name = "ckn_Rebecca"
 	female = yes
-	culture = murican
+	culture = midwestern
 	rite = roman_rite
 	7002.1.1 = { birth = yes }
 	7018.1.1 = { add_spouse = 102742 }
@@ -25203,7 +25203,7 @@
 102745 = {
 	name = "ckn_Stephen"
 	dynasty = 102740
-	culture = moderate
+	culture = midwestern
 	rite = protestant_rite	# e83 follows his counties (was roman_rite)
 	father = 102742
 	mother = 102744
@@ -25213,7 +25213,7 @@
 102746 = {
 	name = "ckn_Charles"
 	dynasty = 102740
-	culture = moderate
+	culture = midwestern
 	rite = roman_rite
 	father = 102742
 	mother = 102744
@@ -25223,7 +25223,7 @@
 102747 = {
 	name = "ckn_James"
 	dynasty = 102740
-	culture = moderate
+	culture = midwestern
 	rite = roman_rite
 	father = 102742
 	mother = 102744
@@ -25233,7 +25233,7 @@
 102748 = {
 	name = "ckn_William"
 	dynasty = 102740
-	culture = moderate
+	culture = midwestern
 	rite = roman_rite
 	father = 102743
 	7024.1.1 = { birth = yes }
@@ -25242,7 +25242,7 @@
 102749 = {
 	name = "ckn_John"
 	dynasty = 102740
-	culture = moderate
+	culture = midwestern
 	rite = roman_rite
 	father = 102743
 	7029.1.1 = { birth = yes }
@@ -25493,7 +25493,7 @@
 102774 = {
 	name = "cyn_Paige"
 	female = yes
-	culture = murican
+	culture = southerner
 	rite = protestant_rite
 	6996.1.1 = { birth = yes }
 	7012.1.1 = { add_spouse = 102772 }
@@ -25990,7 +25990,7 @@
 102824 = {
 	name = "ckn_Megan"
 	female = yes
-	culture = murican
+	culture = southerner
 	rite = roman_rite
 	7003.1.1 = { birth = yes }
 	7019.1.1 = { add_spouse = 102822 }
@@ -26093,7 +26093,7 @@
 102834 = {
 	name = "cyn_Avery"
 	female = yes
-	culture = murican
+	culture = southerner
 	rite = roman_rite
 	7005.1.1 = { birth = yes }
 	7021.1.1 = { add_spouse = 102832 }
@@ -26559,7 +26559,7 @@
 }
 102885 = {
 	name = "ckn_Asher"
-	culture = progressive
+	culture = mid_atlantic
 	rite = roman_rite
 	7016.1.1 = { birth = yes }
 	7089.1.1 = { death = yes }
@@ -26608,7 +26608,7 @@
 102894 = {
 	name = "ckn_Hazel"
 	female = yes
-	culture = liblander
+	culture = mid_atlantic
 	rite = protestant_rite
 	6987.1.1 = { birth = yes }
 	7003.1.1 = { add_spouse = 102892 }
@@ -26810,7 +26810,7 @@
 102914 = {
 	name = "ckn_Natalie"
 	female = yes
-	culture = murican
+	culture = southerner
 	rite = protestant_rite
 	7005.1.1 = { birth = yes }
 	7021.1.1 = { add_spouse = 102912 }
@@ -27114,7 +27114,7 @@
 102944 = {
 	name = "cyn_Avery"
 	female = yes
-	culture = liblander
+	culture = mid_atlantic
 	rite = roman_rite
 	6998.1.1 = { birth = yes }
 	7014.1.1 = { add_spouse = 102942 }
@@ -27622,7 +27622,7 @@
 102994 = {
 	name = "cyn_Ellie"
 	female = yes
-	culture = liblander
+	culture = mid_atlantic
 	rite = roman_rite
 	6986.1.1 = { birth = yes }
 	7003.1.1 = { add_spouse = 102992 }
@@ -28328,7 +28328,7 @@
 103064 = {
 	name = "cyn_Kimberly"
 	female = yes
-	culture = murican
+	culture = southerner
 	rite = roman_rite
 	7001.1.1 = { birth = yes }
 	7023.1.1 = { add_spouse = 103062 }
@@ -28890,7 +28890,7 @@
 103120 = {
 	name = "ckn_Charles"
 	dynasty = 103120
-	culture = murican
+	culture = cascadian
 	rite = protestant_rite
 	martial = 10
 	trait = education_martial_4
@@ -28905,7 +28905,7 @@
 103121 = {
 	name = "ckn_Robert"
 	dynasty = 103120
-	culture = murican
+	culture = cascadian
 	rite = protestant_rite
 	father = 103120
 	6972.1.1 = { birth = yes }
@@ -28914,7 +28914,7 @@
 103122 = {
 	name = "ckn_Thomas"
 	dynasty = 103120
-	culture = murican
+	culture = cascadian
 	rite = protestant_rite
 	father = 103121
 	6995.1.1 = { birth = yes }
@@ -28924,7 +28924,7 @@
 103123 = {
 	name = "ckn_David"
 	dynasty = 103120
-	culture = murican
+	culture = cascadian
 	rite = protestant_rite
 	father = 103121
 	6997.1.1 = { birth = yes }
@@ -28933,7 +28933,7 @@
 103124 = {
 	name = "ckn_Megan"
 	female = yes
-	culture = murican
+	culture = cascadian
 	rite = protestant_rite
 	6999.1.1 = { birth = yes }
 	7015.1.1 = { add_spouse = 103122 }
@@ -28942,7 +28942,7 @@
 103125 = {
 	name = "ckn_Joseph"
 	dynasty = 103120
-	culture = murican
+	culture = cascadian
 	rite = protestant_rite
 	father = 103122
 	mother = 103124
@@ -28952,7 +28952,7 @@
 103126 = {
 	name = "ckn_Daniel"
 	dynasty = 103120
-	culture = murican
+	culture = cascadian
 	rite = protestant_rite
 	father = 103122
 	mother = 103124
@@ -28963,7 +28963,7 @@
 	name = "ckn_Anna"
 	female = yes
 	dynasty = 103120
-	culture = murican
+	culture = cascadian
 	rite = protestant_rite
 	father = 103122
 	mother = 103124
@@ -28973,7 +28973,7 @@
 103128 = {
 	name = "ckn_Matthew"
 	dynasty = 103120
-	culture = murican
+	culture = cascadian
 	rite = protestant_rite
 	father = 103123
 	7019.1.1 = { birth = yes }
@@ -28983,7 +28983,7 @@
 	name = "ckn_Mary"
 	female = yes
 	dynasty = 103120
-	culture = murican
+	culture = cascadian
 	rite = protestant_rite
 	father = 103123
 	7023.1.1 = { birth = yes }
@@ -30233,7 +30233,7 @@
 103254 = {
 	name = "ckn_Freya"
 	female = yes
-	culture = liblander
+	culture = mid_atlantic
 	rite = roman_rite
 	6991.1.1 = { birth = yes }
 	7007.1.1 = { add_spouse = 103252 }
@@ -30596,7 +30596,7 @@
 103290 = {
 	name = "ckn_Max"
 	dynasty = 103290
-	culture = liblander
+	culture = new_englander
 	rite = roman_rite
 	stewardship = 10
 	trait = education_stewardship_4
@@ -30609,7 +30609,7 @@
 103291 = {
 	name = "cyn_Ronald"
 	dynasty = 103290
-	culture = liblander
+	culture = new_englander
 	rite = roman_rite
 	father = 103290
 	6963.1.1 = { birth = yes }
@@ -30618,7 +30618,7 @@
 103292 = {
 	name = "cyn_Anthony"
 	dynasty = 103290
-	culture = liblander
+	culture = new_englander
 	rite = roman_rite
 	father = 103291
 	7002.1.1 = { birth = yes }
@@ -30628,7 +30628,7 @@
 103293 = {
 	name = "cyn_Joshua"
 	dynasty = 103290
-	culture = liblander
+	culture = new_englander
 	rite = roman_rite
 	father = 103291
 	7007.1.1 = { birth = yes }
@@ -30637,7 +30637,7 @@
 103294 = {
 	name = "ckn_Isla"
 	female = yes
-	culture = liblander
+	culture = new_englander
 	rite = roman_rite
 	6999.1.1 = { birth = yes }
 	7018.1.1 = { add_spouse = 103292 }
@@ -30646,7 +30646,7 @@
 103295 = {
 	name = "ckn_Micah"
 	dynasty = 103290
-	culture = liblander
+	culture = new_englander
 	rite = protestant_rite	# e83 follows his counties (was roman_rite)
 	father = 103292
 	mother = 103294
@@ -30657,7 +30657,7 @@
 	name = "cyn_Kimberly"
 	female = yes
 	dynasty = 103290
-	culture = liblander
+	culture = new_englander
 	rite = roman_rite
 	father = 103292
 	mother = 103294
@@ -30667,7 +30667,7 @@
 103297 = {
 	name = "ckn_Arlo"
 	dynasty = 103290
-	culture = liblander
+	culture = new_englander
 	rite = roman_rite
 	father = 103292
 	mother = 103294
@@ -30678,7 +30678,7 @@
 	name = "cyn_Cynthia"
 	female = yes
 	dynasty = 103290
-	culture = liblander
+	culture = new_englander
 	rite = roman_rite
 	father = 103293
 	7035.1.1 = { birth = yes }
@@ -30688,7 +30688,7 @@
 	name = "ckn_Naomi"
 	female = yes
 	dynasty = 103290
-	culture = liblander
+	culture = new_englander
 	rite = roman_rite
 	father = 103293
 	7038.1.1 = { birth = yes }
@@ -31349,7 +31349,7 @@
 103364 = {
 	name = "ckn_Claire"
 	female = yes
-	culture = murican
+	culture = southerner
 	rite = protestant_rite
 	6998.1.1 = { birth = yes }
 	7017.1.1 = { add_spouse = 103362 }
@@ -31815,7 +31815,7 @@
 103410 = {
 	name = "cyn_Elijah"
 	dynasty = 103410
-	culture = liblander
+	culture = cascadian
 	rite = protestant_rite
 	martial = 10
 	trait = education_martial_4
@@ -31830,7 +31830,7 @@
 103411 = {
 	name = "ckn_Liam"
 	dynasty = 103410
-	culture = liblander
+	culture = cascadian
 	rite = protestant_rite
 	father = 103410
 	6951.1.1 = { birth = yes }
@@ -31839,7 +31839,7 @@
 103412 = {
 	name = "ckn_Micah"
 	dynasty = 103410
-	culture = liblander
+	culture = cascadian
 	rite = protestant_rite
 	father = 103411
 	6989.1.1 = { birth = yes }
@@ -31849,7 +31849,7 @@
 103413 = {
 	name = "cyn_Maverick"
 	dynasty = 103410
-	culture = liblander
+	culture = cascadian
 	rite = protestant_rite
 	father = 103411
 	6991.1.1 = { birth = yes }
@@ -31858,7 +31858,7 @@
 103414 = {
 	name = "cyn_Megan"
 	female = yes
-	culture = liblander
+	culture = cascadian
 	rite = protestant_rite
 	7003.1.1 = { birth = yes }
 	7019.1.1 = { add_spouse = 103412 }
@@ -31867,7 +31867,7 @@
 103415 = {
 	name = "ckn_Leo"
 	dynasty = 103410
-	culture = liblander
+	culture = cascadian
 	rite = anglican_rite
 	father = 103412
 	mother = 103414
@@ -31877,7 +31877,7 @@
 103416 = {
 	name = "cyn_Ezra"
 	dynasty = 103410
-	culture = liblander
+	culture = cascadian
 	rite = protestant_rite
 	father = 103412
 	mother = 103414
@@ -31888,7 +31888,7 @@
 	name = "ckn_Phoebe"
 	female = yes
 	dynasty = 103410
-	culture = liblander
+	culture = cascadian
 	rite = protestant_rite
 	father = 103412
 	mother = 103414
@@ -31898,7 +31898,7 @@
 103418 = {
 	name = "cyn_Maverick"
 	dynasty = 103410
-	culture = liblander
+	culture = cascadian
 	rite = protestant_rite
 	father = 103413
 	7013.1.1 = { birth = yes }
@@ -31907,7 +31907,7 @@
 103419 = {
 	name = "cyn_Hudson"
 	dynasty = 103410
-	culture = liblander
+	culture = cascadian
 	rite = protestant_rite
 	father = 103413
 	7017.1.1 = { birth = yes }
@@ -32265,7 +32265,7 @@
 103454 = {
 	name = "cyn_Savannah"
 	female = yes
-	culture = liblander
+	culture = mid_atlantic
 	rite = protestant_rite
 	6991.1.1 = { birth = yes }
 	7007.1.1 = { add_spouse = 103452 }
@@ -32623,7 +32623,7 @@
 103490 = {
 	name = "ckn_Benjamin"
 	dynasty = 103490
-	culture = murican
+	culture = liblander_west
 	rite = protestant_rite
 	stewardship = 10
 	trait = education_stewardship_4
@@ -32636,7 +32636,7 @@
 103491 = {
 	name = "ckn_Benjamin"
 	dynasty = 103490
-	culture = murican
+	culture = liblander_west
 	rite = protestant_rite
 	father = 103490
 	6944.1.1 = { birth = yes }
@@ -32645,7 +32645,7 @@
 103492 = {
 	name = "ckn_Andrew"
 	dynasty = 103490
-	culture = murican
+	culture = liblander_west
 	rite = protestant_rite
 	father = 103491
 	6983.1.1 = { birth = yes }
@@ -32655,7 +32655,7 @@
 103493 = {
 	name = "ckn_Benjamin"
 	dynasty = 103490
-	culture = murican
+	culture = liblander_west
 	rite = protestant_rite
 	father = 103491
 	6985.1.1 = { birth = yes }
@@ -32664,7 +32664,7 @@
 103494 = {
 	name = "ckn_Anna"
 	female = yes
-	culture = murican
+	culture = liblander_west
 	rite = protestant_rite
 	6987.1.1 = { birth = yes }
 	7003.1.1 = { add_spouse = 103492 }
@@ -32673,7 +32673,7 @@
 103495 = {
 	name = "ckn_Adam"
 	dynasty = 103490
-	culture = murican
+	culture = liblander_west
 	rite = protestant_rite
 	father = 103492
 	mother = 103494
@@ -32684,7 +32684,7 @@
 	name = "ckn_Sarah"
 	female = yes
 	dynasty = 103490
-	culture = murican
+	culture = liblander_west
 	rite = protestant_rite
 	father = 103492
 	mother = 103494
@@ -32694,7 +32694,7 @@
 103497 = {
 	name = "ckn_Samuel"
 	dynasty = 103490
-	culture = murican
+	culture = liblander_west
 	rite = protestant_rite
 	father = 103492
 	mother = 103494
@@ -32705,7 +32705,7 @@
 	name = "ckn_Mary"
 	female = yes
 	dynasty = 103490
-	culture = murican
+	culture = liblander_west
 	rite = protestant_rite
 	father = 103493
 	7014.1.1 = { birth = yes }
@@ -32714,7 +32714,7 @@
 103499 = {
 	name = "ckn_Daniel"
 	dynasty = 103490
-	culture = murican
+	culture = liblander_west
 	rite = protestant_rite
 	father = 103493
 	7019.1.1 = { birth = yes }
@@ -32764,7 +32764,7 @@
 103504 = {
 	name = "cyn_Amanda"
 	female = yes
-	culture = liblander
+	culture = mid_atlantic
 	rite = roman_rite
 	6993.1.1 = { birth = yes }
 	7012.1.1 = { add_spouse = 103502 }
@@ -32966,7 +32966,7 @@
 103524 = {
 	name = "cyn_Brittany"
 	female = yes
-	culture = liblander
+	culture = mid_atlantic
 	rite = protestant_rite
 	7002.1.1 = { birth = yes }
 	7019.1.1 = { add_spouse = 103522 }
@@ -33464,7 +33464,7 @@
 103574 = {
 	name = "ckn_Sarah"
 	female = yes
-	culture = murican
+	culture = southerner
 	rite = protestant_rite
 	7005.1.1 = { birth = yes }
 	7021.1.1 = { add_spouse = 103572 }
@@ -34160,7 +34160,7 @@
 103644 = {
 	name = "ckn_Natalie"
 	female = yes
-	culture = murican
+	culture = southerner
 	rite = protestant_rite
 	7002.1.1 = { birth = yes }
 	7019.1.1 = { add_spouse = 103642 }
@@ -34465,7 +34465,7 @@
 103674 = {
 	name = "ckn_Nora"
 	female = yes
-	culture = liblander
+	culture = mid_atlantic
 	rite = protestant_rite
 	7006.1.1 = { birth = yes }
 	7022.1.1 = { add_spouse = 103672 }
@@ -34977,7 +34977,7 @@
 103734 = {
 	name = "ckn_Lauren"
 	female = yes
-	culture = murican
+	culture = southerner
 	rite = protestant_rite
 	6993.1.1 = { birth = yes }
 	7009.1.1 = { add_spouse = 103732 }
@@ -35887,7 +35887,7 @@
 103824 = {
 	name = "ckn_Rachel"
 	female = yes
-	culture = murican
+	culture = southerner
 	rite = protestant_rite
 	7002.1.1 = { birth = yes }
 	7018.1.1 = { add_spouse = 103822 }
@@ -36606,7 +36606,7 @@
 103894 = {
 	name = "ckn_Rebecca"
 	female = yes
-	culture = murican
+	culture = southerner
 	rite = protestant_rite
 	7008.1.1 = { birth = yes }
 	7024.1.1 = { add_spouse = 103892 }
@@ -38008,7 +38008,7 @@
 104034 = {
 	name = "ckn_Emily"
 	female = yes
-	culture = murican
+	culture = southerner
 	rite = protestant_rite
 	6999.1.1 = { birth = yes }
 	7015.1.1 = { add_spouse = 104032 }
@@ -38922,7 +38922,7 @@
 104134 = {
 	name = "cyn_Rebecca"
 	female = yes
-	culture = murican
+	culture = southerner
 	rite = protestant_rite
 	6994.1.1 = { birth = yes }
 	7010.1.1 = { add_spouse = 104132 }
@@ -39126,7 +39126,7 @@
 104154 = {
 	name = "ckn_Abigail"
 	female = yes
-	culture = murican
+	culture = southerner
 	rite = protestant_rite
 	6984.1.1 = { birth = yes }
 	7000.1.1 = { add_spouse = 104152 }
@@ -49430,7 +49430,7 @@
 105310 = {
 	name = "ckn_Kai"
 	dynasty = 105310
-	culture = papuan
+	culture = hawaiian
 	rite = shamanism
 	stewardship = 10
 	trait = education_stewardship_4
@@ -49443,7 +49443,7 @@
 105311 = {
 	name = "ckn_Kai"
 	dynasty = 105310
-	culture = papuan
+	culture = hawaiian
 	rite = roman_rite
 	father = 105310
 	6971.1.1 = { birth = yes }
@@ -49452,7 +49452,7 @@
 105312 = {
 	name = "ckn_Kai"
 	dynasty = 105310
-	culture = papuan
+	culture = hawaiian
 	rite = shamanism
 	father = 105311
 	6996.1.1 = { birth = yes }
@@ -49463,7 +49463,7 @@
 105313 = {
 	name = "ckn_Keanu"
 	dynasty = 105310
-	culture = papuan
+	culture = hawaiian
 	rite = roman_rite
 	father = 105311
 	7001.1.1 = { birth = yes }
@@ -49483,19 +49483,21 @@
 105315 = {
 	name = "ckn_Kai"
 	dynasty = 105310
-	culture = papuan
-	rite = protestant_rite	# e83 follows his counties (was roman_rite)
+	culture = hawaiian
+	rite = hee_nalu_rite	# He'e Nalu 2026-11-15 (was protestant_rite, e83)
+	trait = hee_nalu_surfer	# He'e Nalu 2026-11-15: Waterman (70 XP below)
 	father = 105312
 	mother = 105314
 	7026.1.1 = { birth = yes }
 	7050.1.1 = { culture = liblander }
+	7050.9.15 = { effect = { add_trait_xp = { trait = hee_nalu_surfer track = hee_nalu_surfer value = 70 } } }
 	7081.1.1 = { death = yes }
 }
 105316 = {
 	name = "ckn_Malia"
 	female = yes
 	dynasty = 105310
-	culture = papuan
+	culture = hawaiian
 	rite = roman_rite
 	father = 105312
 	mother = 105314
@@ -49506,7 +49508,7 @@
 105317 = {
 	name = "ckn_Keanu"
 	dynasty = 105310
-	culture = papuan
+	culture = hawaiian
 	rite = roman_rite
 	father = 105312
 	mother = 105314
@@ -49517,7 +49519,7 @@
 105318 = {
 	name = "ckn_Anakoni"
 	dynasty = 105310
-	culture = papuan
+	culture = hawaiian
 	rite = roman_rite
 	father = 105313
 	7027.1.1 = { birth = yes }
@@ -49528,7 +49530,7 @@
 	name = "ckn_Leilani"
 	female = yes
 	dynasty = 105310
-	culture = papuan
+	culture = hawaiian
 	rite = roman_rite
 	father = 105313
 	7029.1.1 = { birth = yes }
@@ -61726,7 +61728,7 @@
 106640 = {
 	name = "cyn_Ronald"
 	dynasty = 106640
-	culture = liblander
+	culture = west_themisian
 	rite = roman_rite
 	stewardship = 10
 	trait = education_stewardship_4
@@ -61739,7 +61741,7 @@
 106641 = {
 	name = "cyn_Maverick"
 	dynasty = 106640
-	culture = liblander
+	culture = west_themisian
 	rite = roman_rite
 	father = 106640
 	6953.1.1 = { birth = yes }
@@ -61748,7 +61750,7 @@
 106642 = {
 	name = "ckn_Max"
 	dynasty = 106640
-	culture = liblander
+	culture = west_themisian
 	rite = roman_rite
 	father = 106641
 	6977.1.1 = { birth = yes }
@@ -61758,7 +61760,7 @@
 106643 = {
 	name = "cyn_Gabriel"
 	dynasty = 106640
-	culture = liblander
+	culture = west_themisian
 	rite = roman_rite
 	father = 106641
 	6978.1.1 = { birth = yes }
@@ -61767,7 +61769,7 @@
 106644 = {
 	name = "cyn_Evelyn"
 	female = yes
-	culture = liblander
+	culture = west_themisian
 	rite = roman_rite
 	6991.1.1 = { birth = yes }
 	7007.1.1 = { add_spouse = 106642 }
@@ -61776,7 +61778,7 @@
 106645 = {
 	name = "ckn_Caleb"
 	dynasty = 106640
-	culture = liblander
+	culture = west_themisian
 	rite = roman_rite
 	father = 106642
 	mother = 106644
@@ -61786,7 +61788,7 @@
 106646 = {
 	name = "cyn_Aiden"
 	dynasty = 106640
-	culture = liblander
+	culture = west_themisian
 	rite = roman_rite
 	father = 106642
 	mother = 106644
@@ -61797,7 +61799,7 @@
 	name = "cyn_Amanda"
 	female = yes
 	dynasty = 106640
-	culture = liblander
+	culture = west_themisian
 	rite = roman_rite
 	father = 106642
 	mother = 106644
@@ -61807,7 +61809,7 @@
 106648 = {
 	name = "cyn_Daniel"
 	dynasty = 106640
-	culture = liblander
+	culture = west_themisian
 	rite = roman_rite
 	father = 106643
 	7005.1.1 = { birth = yes }
@@ -61816,7 +61818,7 @@
 106649 = {
 	name = "cyn_Thomas"
 	dynasty = 106640
-	culture = liblander
+	culture = west_themisian
 	rite = roman_rite
 	father = 106643
 	7009.1.1 = { birth = yes }
@@ -66350,7 +66352,7 @@
 107200 = {
 	name = "ckn_Julian"
 	dynasty = 107200
-	culture = liblander
+	culture = west_themisian
 	rite = roman_rite
 	martial = 10
 	trait = education_martial_4
@@ -66365,7 +66367,7 @@
 107201 = {
 	name = "ckn_Miles"
 	dynasty = 107200
-	culture = liblander
+	culture = west_themisian
 	rite = roman_rite
 	father = 107200
 	6977.1.1 = { birth = yes }
@@ -66374,7 +66376,7 @@
 107202 = {
 	name = "ckn_Aiden"
 	dynasty = 107200
-	culture = liblander
+	culture = west_themisian
 	rite = roman_rite
 	father = 107201
 	7006.1.1 = { birth = yes }
@@ -66384,7 +66386,7 @@
 107203 = {
 	name = "cyn_Michael"
 	dynasty = 107200
-	culture = liblander
+	culture = west_themisian
 	rite = roman_rite
 	father = 107201
 	7007.1.1 = { birth = yes }
@@ -66393,7 +66395,7 @@
 107204 = {
 	name = "ckn_Ava"
 	female = yes
-	culture = liblander
+	culture = west_themisian
 	rite = roman_rite
 	7013.1.1 = { birth = yes }
 	7029.1.1 = { add_spouse = 107202 }
@@ -66402,7 +66404,7 @@
 107205 = {
 	name = "ckn_Leo"
 	dynasty = 107200
-	culture = liblander
+	culture = west_themisian
 	rite = roman_rite
 	father = 107202
 	mother = 107204
@@ -66413,7 +66415,7 @@
 	name = "ckn_Maya"
 	female = yes
 	dynasty = 107200
-	culture = liblander
+	culture = west_themisian
 	rite = roman_rite
 	father = 107202
 	mother = 107204
@@ -66423,7 +66425,7 @@
 107207 = {
 	name = "cyn_Miles"
 	dynasty = 107200
-	culture = liblander
+	culture = west_themisian
 	rite = roman_rite
 	father = 107202
 	mother = 107204
@@ -66433,7 +66435,7 @@
 107208 = {
 	name = "ckn_Ezra"
 	dynasty = 107200
-	culture = liblander
+	culture = west_themisian
 	rite = roman_rite
 	father = 107203
 	7029.1.1 = { birth = yes }
@@ -66443,7 +66445,7 @@
 	name = "ckn_Zoe"
 	female = yes
 	dynasty = 107200
-	culture = liblander
+	culture = west_themisian
 	rite = roman_rite
 	father = 107203
 	7031.1.1 = { birth = yes }
@@ -68165,7 +68167,7 @@
 107400 = {
 	name = "ckn_Asher"
 	dynasty = 107400
-	culture = liblander
+	culture = west_themisian
 	rite = roman_rite
 	intrigue = 10
 	trait = education_intrigue_4
@@ -68179,7 +68181,7 @@
 107401 = {
 	name = "cyn_John"
 	dynasty = 107400
-	culture = liblander
+	culture = west_themisian
 	rite = roman_rite
 	father = 107400
 	6970.1.1 = { birth = yes }
@@ -68188,7 +68190,7 @@
 107402 = {
 	name = "cyn_Aiden"
 	dynasty = 107400
-	culture = liblander
+	culture = west_themisian
 	rite = roman_rite
 	father = 107401
 	6994.1.1 = { birth = yes }
@@ -68198,7 +68200,7 @@
 107403 = {
 	name = "cyn_Ezra"
 	dynasty = 107400
-	culture = liblander
+	culture = west_themisian
 	rite = roman_rite
 	father = 107401
 	6999.1.1 = { birth = yes }
@@ -68207,7 +68209,7 @@
 107404 = {
 	name = "ckn_Luna"
 	female = yes
-	culture = liblander
+	culture = west_themisian
 	rite = roman_rite
 	6990.1.1 = { birth = yes }
 	7010.1.1 = { add_spouse = 107402 }
@@ -68216,7 +68218,7 @@
 107405 = {
 	name = "cyn_Luke"
 	dynasty = 107400
-	culture = liblander
+	culture = west_themisian
 	rite = roman_rite
 	father = 107402
 	mother = 107404
@@ -68227,7 +68229,7 @@
 	name = "ckn_Sophie"
 	female = yes
 	dynasty = 107400
-	culture = liblander
+	culture = west_themisian
 	rite = roman_rite
 	father = 107402
 	mother = 107404
@@ -68238,7 +68240,7 @@
 	name = "ckn_Aria"
 	female = yes
 	dynasty = 107400
-	culture = liblander
+	culture = west_themisian
 	rite = roman_rite
 	father = 107402
 	mother = 107404
@@ -68248,7 +68250,7 @@
 107408 = {
 	name = "cyn_Gary"
 	dynasty = 107400
-	culture = liblander
+	culture = west_themisian
 	rite = roman_rite
 	father = 107403
 	7022.1.1 = { birth = yes }
@@ -68257,7 +68259,7 @@
 107409 = {
 	name = "ckn_Micah"
 	dynasty = 107400
-	culture = liblander
+	culture = west_themisian
 	rite = roman_rite
 	father = 107403
 	7025.1.1 = { birth = yes }
@@ -69167,7 +69169,7 @@
 107510 = {
 	name = "ckn_Arlo"
 	dynasty = 107510
-	culture = liblander
+	culture = west_themisian
 	rite = roman_rite
 	stewardship = 10
 	trait = education_stewardship_4
@@ -69180,7 +69182,7 @@
 2107511 = {
 	name = "cyn_Wayne"
 	dynasty = 107510
-	culture = liblander
+	culture = west_themisian
 	rite = roman_rite
 	father = 107510
 	6945.1.1 = { birth = yes }
@@ -69189,7 +69191,7 @@
 107512 = {
 	name = "ckn_Theo"
 	dynasty = 107510
-	culture = liblander
+	culture = west_themisian
 	rite = roman_rite
 	father = 2107511
 	6984.1.1 = { birth = yes }
@@ -69199,7 +69201,7 @@
 107513 = {
 	name = "ckn_Levi"
 	dynasty = 107510
-	culture = liblander
+	culture = west_themisian
 	rite = roman_rite
 	father = 2107511
 	6989.1.1 = { birth = yes }
@@ -69208,7 +69210,7 @@
 107514 = {
 	name = "ckn_Willow"
 	female = yes
-	culture = liblander
+	culture = west_themisian
 	rite = roman_rite
 	6989.1.1 = { birth = yes }
 	7005.1.1 = { add_spouse = 107512 }
@@ -69217,7 +69219,7 @@
 107515 = {
 	name = "ckn_Theo"
 	dynasty = 107510
-	culture = liblander
+	culture = west_themisian
 	rite = roman_rite
 	father = 107512
 	mother = 107514
@@ -69228,7 +69230,7 @@
 	name = "ckn_Hazel"
 	female = yes
 	dynasty = 107510
-	culture = liblander
+	culture = west_themisian
 	rite = roman_rite
 	father = 107512
 	mother = 107514
@@ -69239,7 +69241,7 @@
 	name = "ckn_Willow"
 	female = yes
 	dynasty = 107510
-	culture = liblander
+	culture = west_themisian
 	rite = roman_rite
 	father = 107512
 	mother = 107514
@@ -69250,7 +69252,7 @@
 	name = "cyn_Brenda"
 	female = yes
 	dynasty = 107510
-	culture = liblander
+	culture = west_themisian
 	rite = roman_rite
 	father = 107513
 	7011.1.1 = { birth = yes }
@@ -69260,7 +69262,7 @@
 	name = "ckn_Ivy"
 	female = yes
 	dynasty = 107510
-	culture = liblander
+	culture = west_themisian
 	rite = roman_rite
 	father = 107513
 	7015.1.1 = { birth = yes }
@@ -70470,7 +70472,7 @@
 107650 = {
 	name = "ckn_Miles"
 	dynasty = 107650
-	culture = liblander
+	culture = west_themisian
 	rite = roman_rite
 	diplomacy = 10
 	trait = education_diplomacy_4
@@ -70483,7 +70485,7 @@
 107651 = {
 	name = "ckn_Noah"
 	dynasty = 107650
-	culture = liblander
+	culture = west_themisian
 	rite = roman_rite
 	father = 107650
 	6955.1.1 = { birth = yes }
@@ -70492,7 +70494,7 @@
 107652 = {
 	name = "cyn_Wayne"
 	dynasty = 107650
-	culture = liblander
+	culture = west_themisian
 	rite = roman_rite
 	father = 107651
 	6982.1.1 = { birth = yes }
@@ -70502,7 +70504,7 @@
 107653 = {
 	name = "cyn_Garrett"
 	dynasty = 107650
-	culture = liblander
+	culture = west_themisian
 	rite = roman_rite
 	father = 107651
 	6984.1.1 = { birth = yes }
@@ -70511,7 +70513,7 @@
 107654 = {
 	name = "ckn_Sienna"
 	female = yes
-	culture = liblander
+	culture = west_themisian
 	rite = roman_rite
 	6989.1.1 = { birth = yes }
 	7005.1.1 = { add_spouse = 107652 }
@@ -70520,7 +70522,7 @@
 107655 = {
 	name = "cyn_Ronald"
 	dynasty = 107650
-	culture = liblander
+	culture = west_themisian
 	rite = roman_rite
 	father = 107652
 	mother = 107654
@@ -70531,7 +70533,7 @@
 	name = "cyn_Hannah"
 	female = yes
 	dynasty = 107650
-	culture = liblander
+	culture = west_themisian
 	rite = roman_rite
 	father = 107652
 	mother = 107654
@@ -70542,7 +70544,7 @@
 	name = "cyn_Mila"
 	female = yes
 	dynasty = 107650
-	culture = liblander
+	culture = west_themisian
 	rite = roman_rite
 	father = 107652
 	mother = 107654
@@ -70552,7 +70554,7 @@
 107658 = {
 	name = "cyn_Richard"
 	dynasty = 107650
-	culture = liblander
+	culture = west_themisian
 	rite = roman_rite
 	father = 107653
 	7010.1.1 = { birth = yes }
@@ -70562,7 +70564,7 @@
 	name = "ckn_Freya"
 	female = yes
 	dynasty = 107650
-	culture = liblander
+	culture = west_themisian
 	rite = roman_rite
 	father = 107652
 	mother = 107654
@@ -72093,7 +72095,7 @@
 107830 = {
 	name = "ckn_Arlo"
 	dynasty = 107830
-	culture = liblander
+	culture = west_themisian
 	rite = roman_rite
 	martial = 10
 	trait = education_martial_4
@@ -72107,7 +72109,7 @@
 107831 = {
 	name = "ckn_Max"
 	dynasty = 107830
-	culture = liblander
+	culture = west_themisian
 	rite = roman_rite
 	father = 107830
 	6963.1.1 = { birth = yes }
@@ -72116,7 +72118,7 @@
 107832 = {
 	name = "cyn_Gary"
 	dynasty = 107830
-	culture = liblander
+	culture = west_themisian
 	rite = roman_rite
 	father = 107831
 	6986.1.1 = { birth = yes }
@@ -72126,7 +72128,7 @@
 107833 = {
 	name = "ckn_Caleb"
 	dynasty = 107830
-	culture = liblander
+	culture = west_themisian
 	rite = roman_rite
 	father = 107831
 	6988.1.1 = { birth = yes }
@@ -72135,7 +72137,7 @@
 107834 = {
 	name = "ckn_Isla"
 	female = yes
-	culture = liblander
+	culture = west_themisian
 	rite = roman_rite
 	6984.1.1 = { birth = yes }
 	7002.1.1 = { add_spouse = 107832 }
@@ -72144,7 +72146,7 @@
 107835 = {
 	name = "ckn_Ezra"
 	dynasty = 107830
-	culture = liblander
+	culture = west_themisian
 	rite = roman_rite
 	father = 107832
 	mother = 107834
@@ -72155,7 +72157,7 @@
 	name = "ckn_Aria"
 	female = yes
 	dynasty = 107830
-	culture = liblander
+	culture = west_themisian
 	rite = roman_rite
 	father = 107832
 	mother = 107834
@@ -72166,7 +72168,7 @@
 	name = "cyn_Ashley"
 	female = yes
 	dynasty = 107830
-	culture = liblander
+	culture = west_themisian
 	rite = roman_rite
 	father = 107832
 	mother = 107834
@@ -72177,7 +72179,7 @@
 	name = "cyn_Taylor"
 	female = yes
 	dynasty = 107830
-	culture = liblander
+	culture = west_themisian
 	rite = roman_rite
 	father = 107833
 	7014.1.1 = { birth = yes }
@@ -72186,7 +72188,7 @@
 107839 = {
 	name = "cyn_Hudson"
 	dynasty = 107830
-	culture = liblander
+	culture = west_themisian
 	rite = roman_rite
 	father = 107833
 	7019.1.1 = { birth = yes }
@@ -72498,7 +72500,7 @@
 107870 = {
 	name = "cyn_Tyler"
 	dynasty = 107870
-	culture = liblander
+	culture = west_themisian
 	rite = roman_rite
 	learning = 10
 	trait = education_learning_4
@@ -72513,7 +72515,7 @@
 107871 = {
 	name = "ckn_Max"
 	dynasty = 107870
-	culture = liblander
+	culture = west_themisian
 	rite = roman_rite
 	father = 107870
 	6957.1.1 = { birth = yes }
@@ -72522,7 +72524,7 @@
 107872 = {
 	name = "ckn_Ethan"
 	dynasty = 107870
-	culture = liblander
+	culture = west_themisian
 	rite = roman_rite
 	father = 107871
 	6995.1.1 = { birth = yes }
@@ -72532,7 +72534,7 @@
 107873 = {
 	name = "ckn_Liam"
 	dynasty = 107870
-	culture = liblander
+	culture = west_themisian
 	rite = roman_rite
 	father = 107871
 	6999.1.1 = { birth = yes }
@@ -72541,7 +72543,7 @@
 107874 = {
 	name = "ckn_Naomi"
 	female = yes
-	culture = liblander
+	culture = west_themisian
 	rite = roman_rite
 	7002.1.1 = { birth = yes }
 	7018.1.1 = { add_spouse = 107872 }
@@ -72550,7 +72552,7 @@
 107875 = {
 	name = "ckn_Owen"
 	dynasty = 107870
-	culture = liblander
+	culture = west_themisian
 	rite = roman_rite
 	father = 107872
 	mother = 107874
@@ -72560,7 +72562,7 @@
 107876 = {
 	name = "cyn_Charles"
 	dynasty = 107870
-	culture = liblander
+	culture = west_themisian
 	rite = roman_rite
 	father = 107872
 	mother = 107874
@@ -72570,7 +72572,7 @@
 107877 = {
 	name = "ckn_Julian"
 	dynasty = 107870
-	culture = liblander
+	culture = west_themisian
 	rite = roman_rite
 	father = 107872
 	mother = 107874
@@ -72580,7 +72582,7 @@
 107878 = {
 	name = "ckn_Miles"
 	dynasty = 107870
-	culture = liblander
+	culture = west_themisian
 	rite = roman_rite
 	father = 107873
 	7026.1.1 = { birth = yes }
@@ -72590,7 +72592,7 @@
 	name = "ckn_Phoebe"
 	female = yes
 	dynasty = 107870
-	culture = liblander
+	culture = west_themisian
 	rite = roman_rite
 	father = 107872
 	mother = 107874
@@ -73003,7 +73005,7 @@
 107920 = {
 	name = "ckn_Aiden"
 	dynasty = 107920
-	culture = liblander
+	culture = west_themisian
 	rite = roman_rite
 	martial = 10
 	trait = education_martial_4
@@ -73018,7 +73020,7 @@
 107921 = {
 	name = "cyn_Travis"
 	dynasty = 107920
-	culture = liblander
+	culture = west_themisian
 	rite = roman_rite
 	father = 107920
 	6949.1.1 = { birth = yes }
@@ -73027,7 +73029,7 @@
 107922 = {
 	name = "ckn_Aiden"
 	dynasty = 107920
-	culture = liblander
+	culture = west_themisian
 	rite = roman_rite
 	father = 107921
 	6987.1.1 = { birth = yes }
@@ -73037,7 +73039,7 @@
 107923 = {
 	name = "ckn_Leo"
 	dynasty = 107920
-	culture = liblander
+	culture = west_themisian
 	rite = roman_rite
 	father = 107921
 	6991.1.1 = { birth = yes }
@@ -73046,7 +73048,7 @@
 107924 = {
 	name = "cyn_Grace"
 	female = yes
-	culture = liblander
+	culture = west_themisian
 	rite = roman_rite
 	6985.1.1 = { birth = yes }
 	7003.1.1 = { add_spouse = 107922 }
@@ -73055,7 +73057,7 @@
 107925 = {
 	name = "cyn_Travis"
 	dynasty = 107920
-	culture = liblander
+	culture = west_themisian
 	rite = roman_rite
 	father = 107922
 	mother = 107924
@@ -73066,7 +73068,7 @@
 	name = "ckn_Skylar"
 	female = yes
 	dynasty = 107920
-	culture = liblander
+	culture = west_themisian
 	rite = roman_rite
 	father = 107922
 	mother = 107924
@@ -73077,7 +73079,7 @@
 	name = "cyn_Aubrey"
 	female = yes
 	dynasty = 107920
-	culture = liblander
+	culture = west_themisian
 	rite = roman_rite
 	father = 107922
 	mother = 107924
@@ -73088,7 +73090,7 @@
 	name = "cyn_Lauren"
 	female = yes
 	dynasty = 107920
-	culture = liblander
+	culture = west_themisian
 	rite = roman_rite
 	father = 107923
 	7014.1.1 = { birth = yes }
@@ -73097,7 +73099,7 @@
 107929 = {
 	name = "ckn_Ezra"
 	dynasty = 107920
-	culture = liblander
+	culture = west_themisian
 	rite = roman_rite
 	father = 107923
 	7017.1.1 = { birth = yes }
@@ -74931,7 +74933,7 @@
 108170 = {
 	name = "ckn_Timothy"
 	dynasty = 108170
-	culture = murican
+	culture = east_themisian
 	rite = roman_rite
 	martial = 10
 	trait = education_martial_4
@@ -74945,7 +74947,7 @@
 108171 = {
 	name = "ckn_Aaron"
 	dynasty = 108170
-	culture = murican
+	culture = east_themisian
 	rite = roman_rite
 	father = 108170
 	6974.1.1 = { birth = yes }
@@ -74954,7 +74956,7 @@
 108172 = {
 	name = "ckn_Nathan"
 	dynasty = 108170
-	culture = murican
+	culture = east_themisian
 	rite = roman_rite
 	father = 108171
 	6999.1.1 = { birth = yes }
@@ -74964,7 +74966,7 @@
 108173 = {
 	name = "ckn_Adam"
 	dynasty = 108170
-	culture = murican
+	culture = east_themisian
 	rite = roman_rite
 	father = 108171
 	7004.1.1 = { birth = yes }
@@ -74973,7 +74975,7 @@
 108174 = {
 	name = "ckn_Rachel"
 	female = yes
-	culture = murican
+	culture = east_themisian
 	rite = roman_rite
 	6991.1.1 = { birth = yes }
 	7015.1.1 = { add_spouse = 108172 }
@@ -74982,7 +74984,7 @@
 108175 = {
 	name = "ckn_Zachary"
 	dynasty = 108170
-	culture = murican
+	culture = east_themisian
 	rite = roman_rite
 	father = 108172
 	mother = 108174
@@ -74993,7 +74995,7 @@
 	name = "ckn_Claire"
 	female = yes
 	dynasty = 108170
-	culture = murican
+	culture = east_themisian
 	rite = roman_rite
 	father = 108172
 	mother = 108174
@@ -75004,7 +75006,7 @@
 	name = "cyn_Luna"
 	female = yes
 	dynasty = 108170
-	culture = murican
+	culture = east_themisian
 	rite = roman_rite
 	father = 108172
 	mother = 108174
@@ -75015,7 +75017,7 @@
 	name = "ckn_Lauren"
 	female = yes
 	dynasty = 108170
-	culture = murican
+	culture = east_themisian
 	rite = roman_rite
 	father = 108173
 	7025.1.1 = { birth = yes }
@@ -75024,7 +75026,7 @@
 108179 = {
 	name = "ckn_Stephen"
 	dynasty = 108170
-	culture = murican
+	culture = east_themisian
 	rite = roman_rite
 	father = 108173
 	7030.1.1 = { birth = yes }
@@ -75942,7 +75944,7 @@
 108270 = {
 	name = "ckn_James"
 	dynasty = 108270
-	culture = murican
+	culture = east_themisian
 	rite = roman_rite
 	martial = 10
 	trait = education_martial_4
@@ -75956,7 +75958,7 @@
 108271 = {
 	name = "ckn_William"
 	dynasty = 108270
-	culture = murican
+	culture = east_themisian
 	rite = roman_rite
 	father = 108270
 	6968.1.1 = { birth = yes }
@@ -75965,7 +75967,7 @@
 108272 = {
 	name = "ckn_John"
 	dynasty = 108270
-	culture = murican
+	culture = east_themisian
 	rite = roman_rite
 	father = 108271
 	7001.1.1 = { birth = yes }
@@ -75975,7 +75977,7 @@
 108273 = {
 	name = "ckn_Charles"
 	dynasty = 108270
-	culture = murican
+	culture = east_themisian
 	rite = roman_rite
 	father = 108271
 	7006.1.1 = { birth = yes }
@@ -75984,7 +75986,7 @@
 108274 = {
 	name = "cyn_Abigail"
 	female = yes
-	culture = murican
+	culture = east_themisian
 	rite = roman_rite
 	7006.1.1 = { birth = yes }
 	7022.1.1 = { add_spouse = 108272 }
@@ -75994,7 +75996,7 @@
 	dna = ck_dna_108275
 	name = "ckn_Robert"
 	dynasty = 108270
-	culture = murican
+	culture = east_themisian
 	rite = roman_rite
 	father = 108272
 	mother = 108274
@@ -76005,7 +76007,7 @@
 	name = "ckn_Katherine"
 	female = yes
 	dynasty = 108270
-	culture = murican
+	culture = east_themisian
 	rite = roman_rite
 	father = 108272
 	mother = 108274
@@ -76016,7 +76018,7 @@
 	name = "cyn_Amelia"
 	female = yes
 	dynasty = 108270
-	culture = murican
+	culture = east_themisian
 	rite = roman_rite
 	father = 108272
 	mother = 108274
@@ -76026,7 +76028,7 @@
 108278 = {
 	name = "ckn_Thomas"
 	dynasty = 108270
-	culture = murican
+	culture = east_themisian
 	rite = roman_rite
 	father = 108273
 	7035.1.1 = { birth = yes }
@@ -76036,7 +76038,7 @@
 	name = "ckn_Charlotte"
 	female = yes
 	dynasty = 108270
-	culture = murican
+	culture = east_themisian
 	rite = roman_rite
 	father = 108273
 	7036.1.1 = { birth = yes }
@@ -76756,7 +76758,7 @@
 108360 = {
 	name = "ckn_Stephen"
 	dynasty = 108360
-	culture = murican
+	culture = east_themisian
 	rite = roman_rite
 	martial = 10
 	trait = education_martial_4
@@ -76770,7 +76772,7 @@
 108361 = {
 	name = "ckn_David"
 	dynasty = 108360
-	culture = murican
+	culture = east_themisian
 	rite = roman_rite
 	father = 108360
 	6971.1.1 = { birth = yes }
@@ -76779,7 +76781,7 @@
 108362 = {
 	name = "ckn_John"
 	dynasty = 108360
-	culture = murican
+	culture = east_themisian
 	rite = roman_rite
 	father = 108361
 	7003.1.1 = { birth = yes }
@@ -76789,7 +76791,7 @@
 108363 = {
 	name = "ckn_Joseph"
 	dynasty = 108360
-	culture = murican
+	culture = east_themisian
 	rite = roman_rite
 	father = 108361
 	7005.1.1 = { birth = yes }
@@ -76798,7 +76800,7 @@
 108364 = {
 	name = "ckn_Megan"
 	female = yes
-	culture = murican
+	culture = east_themisian
 	rite = roman_rite
 	7005.1.1 = { birth = yes }
 	7021.1.1 = { add_spouse = 108362 }
@@ -76807,7 +76809,7 @@
 108365 = {
 	name = "ckn_Aaron"
 	dynasty = 108360
-	culture = murican
+	culture = east_themisian
 	rite = roman_rite
 	father = 108362
 	mother = 108364
@@ -76817,7 +76819,7 @@
 108366 = {
 	name = "ckn_Daniel"
 	dynasty = 108360
-	culture = murican
+	culture = east_themisian
 	rite = roman_rite
 	father = 108362
 	mother = 108364
@@ -76828,7 +76830,7 @@
 	name = "cyn_Ava"
 	female = yes
 	dynasty = 108360
-	culture = murican
+	culture = east_themisian
 	rite = roman_rite
 	father = 108362
 	mother = 108364
@@ -76839,7 +76841,7 @@
 	name = "ckn_Victoria"
 	female = yes
 	dynasty = 108360
-	culture = murican
+	culture = east_themisian
 	rite = roman_rite
 	father = 108363
 	7028.1.1 = { birth = yes }
@@ -76848,7 +76850,7 @@
 108369 = {
 	name = "ckn_Matthew"
 	dynasty = 108360
-	culture = murican
+	culture = east_themisian
 	rite = roman_rite
 	father = 108363
 	7031.1.1 = { birth = yes }
@@ -77548,7 +77550,7 @@
 108450 = {
 	name = "ckn_Andrew"
 	dynasty = 108450
-	culture = murican
+	culture = east_themisian
 	rite = roman_rite
 	martial = 10
 	trait = education_martial_4
@@ -77562,7 +77564,7 @@
 108451 = {
 	name = "ckn_Benjamin"
 	dynasty = 108450
-	culture = murican
+	culture = east_themisian
 	rite = roman_rite
 	father = 108450
 	6963.1.1 = { birth = yes }
@@ -77571,7 +77573,7 @@
 108452 = {
 	name = "ckn_Samuel"
 	dynasty = 108450
-	culture = murican
+	culture = east_themisian
 	rite = roman_rite
 	father = 108451
 	6996.1.1 = { birth = yes }
@@ -77581,7 +77583,7 @@
 108453 = {
 	name = "ckn_Christopher"
 	dynasty = 108450
-	culture = murican
+	culture = east_themisian
 	rite = roman_rite
 	father = 108451
 	6997.1.1 = { birth = yes }
@@ -77590,7 +77592,7 @@
 108454 = {
 	name = "cyn_Ava"
 	female = yes
-	culture = murican
+	culture = east_themisian
 	rite = roman_rite
 	6999.1.1 = { birth = yes }
 	7015.1.1 = { add_spouse = 108452 }
@@ -77599,7 +77601,7 @@
 108455 = {
 	name = "cyn_Owen"
 	dynasty = 108450
-	culture = murican
+	culture = east_themisian
 	rite = roman_rite
 	father = 108452
 	mother = 108454
@@ -77610,7 +77612,7 @@
 	name = "ckn_Natalie"
 	female = yes
 	dynasty = 108450
-	culture = murican
+	culture = east_themisian
 	rite = roman_rite
 	father = 108452
 	mother = 108454
@@ -77621,7 +77623,7 @@
 	name = "cyn_Victoria"
 	female = yes
 	dynasty = 108450
-	culture = murican
+	culture = east_themisian
 	rite = roman_rite
 	father = 108452
 	mother = 108454
@@ -77631,7 +77633,7 @@
 108458 = {
 	name = "cyn_Paul"
 	dynasty = 108450
-	culture = murican
+	culture = east_themisian
 	rite = roman_rite
 	father = 108453
 	7020.1.1 = { birth = yes }
@@ -77640,7 +77642,7 @@
 108459 = {
 	name = "ckn_Joshua"
 	dynasty = 108450
-	culture = murican
+	culture = east_themisian
 	rite = roman_rite
 	father = 108453
 	7022.1.1 = { birth = yes }
@@ -78360,7 +78362,7 @@
 108540 = {
 	name = "ckn_Zachary"
 	dynasty = 108540
-	culture = murican
+	culture = east_themisian
 	rite = roman_rite
 	martial = 10
 	trait = education_martial_4
@@ -78374,7 +78376,7 @@
 108541 = {
 	name = "ckn_George"
 	dynasty = 108540
-	culture = murican
+	culture = east_themisian
 	rite = roman_rite
 	father = 108540
 	6964.1.1 = { birth = yes }
@@ -78383,7 +78385,7 @@
 108542 = {
 	name = "ckn_Paul"
 	dynasty = 108540
-	culture = murican
+	culture = east_themisian
 	rite = roman_rite
 	father = 108541
 	7002.1.1 = { birth = yes }
@@ -78393,7 +78395,7 @@
 108543 = {
 	name = "ckn_Timothy"
 	dynasty = 108540
-	culture = murican
+	culture = east_themisian
 	rite = roman_rite
 	father = 108541
 	7006.1.1 = { birth = yes }
@@ -78402,7 +78404,7 @@
 108544 = {
 	name = "cyn_Lauren"
 	female = yes
-	culture = murican
+	culture = east_themisian
 	rite = roman_rite
 	7001.1.1 = { birth = yes }
 	7018.1.1 = { add_spouse = 108542 }
@@ -78411,7 +78413,7 @@
 108545 = {
 	name = "ckn_Aaron"
 	dynasty = 108540
-	culture = murican
+	culture = east_themisian
 	rite = roman_rite
 	father = 108542
 	mother = 108544
@@ -78421,7 +78423,7 @@
 108546 = {
 	name = "ckn_Nathan"
 	dynasty = 108540
-	culture = murican
+	culture = east_themisian
 	rite = roman_rite
 	father = 108542
 	mother = 108544
@@ -78432,7 +78434,7 @@
 	name = "ckn_Brooke"
 	female = yes
 	dynasty = 108540
-	culture = murican
+	culture = east_themisian
 	rite = roman_rite
 	father = 108542
 	mother = 108544
@@ -78443,7 +78445,7 @@
 	name = "ckn_Victoria"
 	female = yes
 	dynasty = 108540
-	culture = murican
+	culture = east_themisian
 	rite = roman_rite
 	father = 108543
 	7026.1.1 = { birth = yes }
@@ -78453,7 +78455,7 @@
 	name = "ckn_Elizabeth"
 	female = yes
 	dynasty = 108540
-	culture = murican
+	culture = east_themisian
 	rite = roman_rite
 	father = 108543
 	7028.1.1 = { birth = yes }
@@ -80167,7 +80169,7 @@
 108730 = {
 	name = "ckn_Adam"
 	dynasty = 108730
-	culture = murican
+	culture = east_themisian
 	rite = roman_rite
 	martial = 10
 	trait = education_martial_4
@@ -80182,7 +80184,7 @@
 108731 = {
 	name = "ckn_Zachary"
 	dynasty = 108730
-	culture = murican
+	culture = east_themisian
 	rite = roman_rite
 	father = 108730
 	6951.1.1 = { birth = yes }
@@ -80191,7 +80193,7 @@
 108732 = {
 	name = "ckn_Stephen"
 	dynasty = 108730
-	culture = murican
+	culture = east_themisian
 	rite = roman_rite
 	father = 108731
 	6978.1.1 = { birth = yes }
@@ -80201,7 +80203,7 @@
 108733 = {
 	name = "ckn_James"
 	dynasty = 108730
-	culture = murican
+	culture = east_themisian
 	rite = roman_rite
 	father = 108731
 	6979.1.1 = { birth = yes }
@@ -80210,7 +80212,7 @@
 108734 = {
 	name = "ckn_Mary"
 	female = yes
-	culture = murican
+	culture = east_themisian
 	rite = roman_rite
 	6982.1.1 = { birth = yes }
 	6998.1.1 = { add_spouse = 108732 }
@@ -80219,7 +80221,7 @@
 108735 = {
 	name = "ckn_William"
 	dynasty = 108730
-	culture = murican
+	culture = east_themisian
 	rite = roman_rite
 	father = 108732
 	mother = 108734
@@ -80230,7 +80232,7 @@
 	name = "ckn_Sarah"
 	female = yes
 	dynasty = 108730
-	culture = murican
+	culture = east_themisian
 	rite = roman_rite
 	father = 108732
 	mother = 108734
@@ -80241,7 +80243,7 @@
 	name = "ckn_Rebecca"
 	female = yes
 	dynasty = 108730
-	culture = murican
+	culture = east_themisian
 	rite = roman_rite
 	father = 108732
 	mother = 108734
@@ -80252,7 +80254,7 @@
 	name = "ckn_Emily"
 	female = yes
 	dynasty = 108730
-	culture = murican
+	culture = east_themisian
 	rite = roman_rite
 	father = 108733
 	6999.1.1 = { birth = yes }
@@ -80261,7 +80263,7 @@
 108739 = {
 	name = "ckn_John"
 	dynasty = 108730
-	culture = murican
+	culture = east_themisian
 	rite = roman_rite
 	father = 108733
 	7000.1.1 = { birth = yes }
@@ -207252,6 +207254,7 @@
 	299.1.2 = { add_spouse = 777778 }	# 2026-11-14 03:10 (modder 01:01): married, so CK3 draws one family: El and Asherah, his consort
 	280.1.3 = { effect = { set_relation_rival = { target = character:777775 } } }	# 2026-11-15 12:30 (modder 11:35): El overthrows his father (Philo of Byblos)
 	290.1.3 = { effect = { set_relation_rival = { target = character:7777775 } } }	# 2026-11-15 12:30 (modder 11:35): El buries his brother Atlas (Philo)
+	7050.9.15 = { effect = { add_pressed_claim = title:d_duchy1522 add_pressed_claim = title:c_province1522 } }	# 2026-11-15 17:40 (modder 17:04) El: the old seat of the Celestial Hegemony
 }
 7777771 = {
 	name = "ckn_Dione"
@@ -208241,25 +208244,30 @@
 	mother = 777103
 	750.6.12 = { birth = yes }
 	7050.9.15 = { effect = { set_immortal_age = 55 add_character_flag = do_not_generate_starting_family } }
+	7050.9.15 = { employer = 777777 }	# 2026-11-16 19:40 (modder 19:12): at El Elyon's court on Ganymede, so her secret can be found there
 }
 777125 = {
 	name = "ckn_Adonai"
 	dynasty = 77781
 	culture = archon
-	rite = gnoslam_rite
+	rite = everlasting_covenant_rite
 	martial = 50
 	trait = full_cybernetic_conversion
 	trait = giant
 	trait = wrathful
 	trait = lifestyle_mystic
-	mother = 777124
 	875.11.11 = { birth = yes }
 	7050.9.15 = { effect = { set_immortal_age = 55 add_character_flag = do_not_generate_starting_family add_pressed_claim = title:e_empire1522 } }
 	7050.9.15 = { effect = { set_real_father = character:777777 } }
+	# 2026-11-16 19:00 (modder 18:43): secret child of Sophia (777124) and El Elyon (777777). CK3 has a hidden father (real_father) but no hidden mother,
+	# so no mother is set at all and the truth is kept in a variable for later events. He shows no parents.
+	7050.9.15 = { effect = { set_variable = { name = ck_secret_mother value = character:777124 } add_character_flag = ck_secret_child_of_sophia_and_el } }
 	3400.1.1 = { effect = { add_character_flag = rebelled_against_el_elyon } }
 	4415.7.1 = { effect = { add_character_flag = trapped_in_antarctic_ice } }
 	7050.9.15 = { effect = { add_pressed_claim = title:d_duchy0183 add_pressed_claim = title:e_empire0305 add_pressed_claim = title:e_empire0604 } }	# 2026-11-13 21:00 Phaeter round: claims on titles held in ancient times
 	891.1.3 = { effect = { set_relation_rival = { target = character:777777 } } }	# 2026-11-15 12:30 (modder 11:35): Adonai's rebellion
+	7050.9.15 = { effect = { add_pressed_claim = title:d_duchy0305 add_pressed_claim = title:c_province0305 add_pressed_claim = title:c_province0183 } }	# 2026-11-15 17:40 (modder 17:04) Adonai: his seats on the Moon
+	7050.9.15 = { effect = { add_pressed_claim = title:h_ck_celestial } }	# 2026-11-15 18:10 (modder 17:45): Adonai claims the Celestial Hegemony (he already claims Ganymede)
 }
 777126 = {
 	name = "ckn_Eosphorus"
@@ -208283,6 +208291,7 @@
 	7050.9.15 = { effect = { add_pressed_claim = title:e_empire1184 add_pressed_claim = title:h_ck_celestial } }	# 2026-11-13 23:40 modder: Xiang line / Phobos / claims: ancestors' titles (all ancestors dead)
 	896.1.3 = { effect = { set_relation_friend = { target = character:777125 } } }	# 2026-11-15 12:30 (modder 11:35): Adonai's favourite general
 	896.1.3 = { effect = { set_relation_rival = { target = character:777100 } } }	# 2026-11-15 12:30 (modder 11:35): the War in Heaven
+	7050.9.15 = { effect = { add_pressed_claim = title:d_duchy0953 add_pressed_claim = title:c_province0953 add_pressed_claim = title:d_duchy0139 add_pressed_claim = title:c_province0169 add_pressed_claim = title:c_province0183 } }	# 2026-11-15 17:40 (modder 17:04) Phosphorus: his seats on Venus, in Antarctica and at Sinus Roris
 }
 777127 = {
 	name = "ckn_Adam"
@@ -226935,7 +226944,7 @@
 400000 = {
 	name = "ckn_George"
 	dynasty = 400000
-	culture = murican
+	culture = mid_atlantic
 	rite = protestant_rite
 	trait = intellect_good_3
 	trait = physique_good_1
@@ -226945,7 +226954,7 @@
 400001 = {
 	name = "ckn_John"
 	dynasty = 400001
-	culture = murican
+	culture = new_englander
 	rite = protestant_rite
 	6735.1.1 = { birth = yes }
 	6826.1.1 = { death = yes }
@@ -226953,7 +226962,7 @@
 400002 = {
 	name = "ckn_Thomas"
 	dynasty = 400002
-	culture = murican
+	culture = mid_atlantic
 	rite = protestant_rite
 	6743.1.1 = { birth = yes }
 	6826.1.1 = { death = yes }
@@ -226961,7 +226970,7 @@
 400003 = {
 	name = "ckn_James"
 	dynasty = 400003
-	culture = murican
+	culture = mid_atlantic
 	rite = protestant_rite
 	6751.1.1 = { birth = yes }
 	6836.1.1 = { death = yes }
@@ -226969,7 +226978,7 @@
 400004 = {
 	name = "ckn_James"
 	dynasty = 400004
-	culture = murican
+	culture = mid_atlantic
 	rite = protestant_rite
 	6758.1.1 = { birth = yes }
 	6831.1.1 = { death = yes }
@@ -226977,7 +226986,7 @@
 400005 = {
 	name = "ckn_John_Quincy"
 	dynasty = 400005
-	culture = murican
+	culture = new_englander
 	rite = protestant_rite
 	6767.1.1 = { birth = yes }
 	6848.1.1 = { death = yes }
@@ -226985,7 +226994,7 @@
 400006 = {
 	name = "ckn_Andrew"
 	dynasty = 400006
-	culture = liblander
+	culture = southerner
 	rite = protestant_rite
 	6767.1.1 = { birth = yes }
 	6845.1.1 = { death = yes }
@@ -226993,7 +227002,7 @@
 400007 = {
 	name = "ckn_Martin"
 	dynasty = 400007
-	culture = liblander
+	culture = mid_atlantic
 	rite = protestant_rite
 	6782.1.1 = { birth = yes }
 	6862.1.1 = { death = yes }
@@ -227001,7 +227010,7 @@
 400008 = {
 	name = "ckn_William"
 	dynasty = 400008
-	culture = murican
+	culture = midwestern
 	rite = protestant_rite
 	6773.1.1 = { birth = yes }
 	6841.4.4 = { death = yes }
@@ -227009,7 +227018,7 @@
 400009 = {
 	name = "ckn_John"
 	dynasty = 400009
-	culture = murican
+	culture = mid_atlantic
 	rite = protestant_rite
 	6790.1.1 = { birth = yes }
 	6862.1.1 = { death = yes }
@@ -227017,7 +227026,7 @@
 400010 = {
 	name = "ckn_James"
 	dynasty = 400010
-	culture = liblander
+	culture = southerner
 	rite = protestant_rite
 	6795.1.1 = { birth = yes }
 	6849.1.1 = { death = yes }
@@ -227025,7 +227034,7 @@
 400011 = {
 	name = "ckn_Zachary"
 	dynasty = 400011
-	culture = murican
+	culture = southerner
 	rite = protestant_rite
 	6784.1.1 = { birth = yes }
 	6850.1.1 = { death = yes }
@@ -227033,7 +227042,7 @@
 400012 = {
 	name = "ckn_Millard"
 	dynasty = 400012
-	culture = murican
+	culture = mid_atlantic
 	rite = protestant_rite
 	6800.1.1 = { birth = yes }
 	6874.1.1 = { death = yes }
@@ -227041,7 +227050,7 @@
 400013 = {
 	name = "ckn_Franklin"
 	dynasty = 400013
-	culture = liblander
+	culture = new_englander
 	rite = protestant_rite
 	6804.1.1 = { birth = yes }
 	6869.1.1 = { death = yes }
@@ -227049,7 +227058,7 @@
 400014 = {
 	name = "ckn_James"
 	dynasty = 400014
-	culture = liblander
+	culture = mid_atlantic
 	rite = protestant_rite
 	6791.1.1 = { birth = yes }
 	6868.1.1 = { death = yes }
@@ -227057,7 +227066,7 @@
 400015 = {
 	name = "ckn_Abraham"
 	dynasty = 400015
-	culture = murican
+	culture = midwestern
 	rite = protestant_rite
 	trait = physique_good_1
 	trait = intellect_good_2
@@ -227067,7 +227076,7 @@
 400016 = {
 	name = "ckn_Andrew"
 	dynasty = 400016
-	culture = liblander
+	culture = southerner
 	rite = protestant_rite
 	6808.1.1 = { birth = yes }
 	6875.1.1 = { death = yes }
@@ -227075,7 +227084,7 @@
 400017 = {
 	name = "ckn_Ulysses"
 	dynasty = 400017
-	culture = murican
+	culture = midwestern
 	rite = protestant_rite
 	6822.1.1 = { birth = yes }
 	6885.1.1 = { death = yes }
@@ -227083,7 +227092,7 @@
 400018 = {
 	name = "ckn_Rutherford"
 	dynasty = 400018
-	culture = murican
+	culture = midwestern
 	rite = protestant_rite
 	6822.1.1 = { birth = yes }
 	6893.1.1 = { death = yes }
@@ -227091,7 +227100,7 @@
 400019 = {
 	name = "ckn_James"
 	dynasty = 400019
-	culture = murican
+	culture = midwestern
 	rite = protestant_rite
 	6831.1.1 = { birth = yes }
 	6881.9.19 = { death = yes }
@@ -227099,7 +227108,7 @@
 400020 = {
 	name = "ckn_Chester"
 	dynasty = 400020
-	culture = murican
+	culture = mid_atlantic
 	rite = protestant_rite
 	6829.1.1 = { birth = yes }
 	6886.1.1 = { death = yes }
@@ -227107,7 +227116,7 @@
 400021 = {
 	name = "ckn_Grover"
 	dynasty = 400021
-	culture = liblander
+	culture = mid_atlantic
 	rite = protestant_rite
 	6837.1.1 = { birth = yes }
 	6908.1.1 = { death = yes }
@@ -227115,7 +227124,7 @@
 400022 = {
 	name = "ckn_Benjamin"
 	dynasty = 400022
-	culture = murican
+	culture = midwestern
 	rite = protestant_rite
 	6833.1.1 = { birth = yes }
 	6901.1.1 = { death = yes }
@@ -227123,7 +227132,7 @@
 400023 = {
 	name = "ckn_Grover"
 	dynasty = 400023
-	culture = liblander
+	culture = mid_atlantic
 	rite = protestant_rite
 	6837.1.1 = { birth = yes }
 	6908.1.1 = { death = yes }
@@ -227131,7 +227140,7 @@
 400024 = {
 	name = "ckn_William"
 	dynasty = 400024
-	culture = murican
+	culture = midwestern
 	rite = protestant_rite
 	6843.1.1 = { birth = yes }
 	6901.1.1 = { death = yes }
@@ -227139,7 +227148,7 @@
 400025 = {
 	name = "ckn_Theodore"
 	dynasty = 400025
-	culture = murican
+	culture = mid_atlantic
 	rite = protestant_rite
 	6858.1.1 = { birth = yes }
 	6919.1.1 = { death = yes }
@@ -227147,7 +227156,7 @@
 400026 = {
 	name = "ckn_William"
 	dynasty = 400026
-	culture = murican
+	culture = midwestern
 	rite = protestant_rite
 	6857.1.1 = { birth = yes }
 	6930.1.1 = { death = yes }
@@ -227155,7 +227164,7 @@
 400027 = {
 	name = "ckn_Woodrow"
 	dynasty = 400027
-	culture = liblander
+	culture = mid_atlantic
 	rite = protestant_rite
 	6856.1.1 = { birth = yes }
 	6924.1.1 = { death = yes }
@@ -227163,7 +227172,7 @@
 400028 = {
 	name = "ckn_Warren"
 	dynasty = 400028
-	culture = murican
+	culture = midwestern
 	rite = protestant_rite
 	6865.1.1 = { birth = yes }
 	6923.1.1 = { death = yes }
@@ -227171,7 +227180,7 @@
 400029 = {
 	name = "ckn_Calvin"
 	dynasty = 400029
-	culture = murican
+	culture = new_englander
 	rite = protestant_rite
 	6872.1.1 = { birth = yes }
 	6933.1.1 = { death = yes }
@@ -227179,7 +227188,7 @@
 400030 = {
 	name = "ckn_Herbert"
 	dynasty = 400030
-	culture = murican
+	culture = liblander_west
 	rite = protestant_rite
 	6874.1.1 = { birth = yes }
 	6964.1.1 = { death = yes }
@@ -227187,7 +227196,7 @@
 400031 = {
 	name = "ckn_Franklin"
 	dynasty = 400031
-	culture = liblander
+	culture = mid_atlantic
 	rite = protestant_rite
 	6882.1.1 = { birth = yes }
 	6945.1.1 = { death = yes }
@@ -227195,7 +227204,7 @@
 400032 = {
 	name = "ckn_Harry"
 	dynasty = 400032
-	culture = liblander
+	culture = midwestern
 	rite = protestant_rite
 	6884.1.1 = { birth = yes }
 	6972.1.1 = { death = yes }
@@ -227203,7 +227212,7 @@
 400033 = {
 	name = "ckn_Dwight"
 	dynasty = 400033
-	culture = murican
+	culture = midwestern
 	rite = protestant_rite
 	6890.1.1 = { birth = yes }
 	6969.1.1 = { death = yes }
@@ -227211,7 +227220,7 @@
 400035 = {
 	name = "ckn_Lyndon"
 	dynasty = 400035
-	culture = liblander
+	culture = southerner
 	rite = protestant_rite
 	6908.1.1 = { birth = yes }
 	6973.1.1 = { death = yes }
@@ -227219,7 +227228,7 @@
 400036 = {
 	name = "ckn_Richard"
 	dynasty = 400036
-	culture = murican
+	culture = liblander_west
 	rite = protestant_rite
 	6913.1.1 = { birth = yes }
 	6994.1.1 = { death = yes }
@@ -227227,7 +227236,7 @@
 400037 = {
 	name = "ckn_Gerald"
 	dynasty = 400037
-	culture = murican
+	culture = midwestern
 	rite = protestant_rite
 	6913.1.1 = { birth = yes }
 	7006.1.1 = { death = yes }
@@ -227235,7 +227244,7 @@
 400038 = {
 	name = "ckn_Jimmy"
 	dynasty = 400038
-	culture = liblander
+	culture = southerner
 	rite = protestant_rite
 	6924.1.1 = { birth = yes }
 	7023.1.1 = { death = yes }
@@ -227243,7 +227252,7 @@
 400039 = {
 	name = "ckn_Ronald"
 	dynasty = 400039
-	culture = murican
+	culture = liblander_west
 	rite = protestant_rite
 	6911.1.1 = { birth = yes }
 	7004.1.1 = { death = yes }
@@ -227251,7 +227260,7 @@
 400040 = {
 	name = "ckn_George"
 	dynasty = 400040
-	culture = murican
+	culture = southerner
 	rite = protestant_rite
 	6924.1.1 = { birth = yes }
 	7018.1.1 = { death = yes }
@@ -227259,7 +227268,7 @@
 400041 = {
 	name = "ckn_Bill"
 	dynasty = 400041
-	culture = liblander
+	culture = southerner
 	rite = protestant_rite
 	6946.1.1 = { birth = yes }
 	7050.9.15 = { effect = { add_pressed_claim = title:e_united_states } }
@@ -227267,7 +227276,7 @@
 400042 = {
 	name = "ckn_George"
 	dynasty = 400042
-	culture = murican
+	culture = southerner
 	rite = protestant_rite
 	6946.1.1 = { birth = yes }
 	7050.9.15 = { effect = { add_pressed_claim = title:e_united_states } }
@@ -227275,7 +227284,7 @@
 400043 = {
 	name = "ckn_Barack"
 	dynasty = 400043
-	culture = liblander
+	culture = midwestern
 	rite = protestant_rite
 	mother = 7000135	# e80
 	father = 7000134	# e80
@@ -227285,7 +227294,7 @@
 400045 = {
 	name = "ckn_Joe"
 	dynasty = 400045
-	culture = liblander
+	culture = mid_atlantic
 	rite = roman_rite
 	6942.1.1 = { birth = yes }
 	7050.9.15 = { effect = { add_pressed_claim = title:e_united_states } }
@@ -228226,7 +228235,7 @@
 778000 = {
 	name = "ckn_Rick"
 	dynasty = 77800
-	culture = murican
+	culture = southerner
 	rite = voyagism_rite
 	diplomacy = 8
 	intrigue = 20
@@ -228253,7 +228262,7 @@
 778001 = {
 	name = "ckn_Diane"
 	female = yes
-	culture = liblander
+	culture = mid_atlantic
 	rite = protestant_rite
 	martial = 90
 	trait = education_diplomacy_3
@@ -228266,7 +228275,7 @@
 	name = "ckn_Beth"
 	female = yes
 	dynasty = 77800
-	culture = liblander
+	culture = mid_atlantic
 	rite = protestant_rite
 	diplomacy = 6
 	learning = 12
@@ -228283,7 +228292,7 @@
 778004 = {
 	name = "ckn_Jerry"
 	dynasty = 77801
-	culture = progressive
+	culture = cascadian
 	rite = protestant_rite
 	health = 10
 	trait = dull
@@ -228299,7 +228308,7 @@
 	name = "ckn_Summer"
 	female = yes
 	dynasty = 77801
-	culture = progressive
+	culture = cascadian
 	rite = protestant_rite
 	diplomacy = 9
 	health = 10
@@ -228311,7 +228320,7 @@
 778006 = {
 	name = "ckn_Morty"
 	dynasty = 77801
-	culture = progressive
+	culture = cascadian
 	rite = protestant_rite
 	diplomacy = 50
 	health = 10
@@ -228335,7 +228344,7 @@
 778008 = {
 	name = "ckn_Naruto"
 	dynasty = 77801
-	culture = murican
+	culture = cascadian
 	rite = shinto
 	diplomacy = 50
 	health = 20
@@ -228356,7 +228365,7 @@
 778009 = {
 	name = "ckn_Jessica"
 	female = yes
-	culture = liblander
+	culture = mid_atlantic
 	rite = protestant_rite
 	trait = beauty_good_1
 	trait = education_martial_3
@@ -228365,7 +228374,7 @@
 778010 = {
 	name = "ckn_Rick"
 	dynasty = 77799
-	culture = liblander
+	culture = mid_atlantic
 	rite = voyagism_rite
 	learning = 90
 	health = 10
@@ -228380,7 +228389,7 @@
 778011 = {
 	name = "ckn_Diane"
 	female = yes
-	culture = liblander
+	culture = mid_atlantic
 	rite = protestant_rite
 	martial = 90
 	trait = education_diplomacy_3
@@ -228393,7 +228402,7 @@
 	name = "ckn_Beth"
 	female = yes
 	dynasty = 77799
-	culture = liblander
+	culture = mid_atlantic
 	rite = protestant_rite
 	diplomacy = 9
 	health = 10
@@ -228408,7 +228417,7 @@
 }
 778013 = {
 	name = "ckn_Jerry"
-	culture = liblander
+	culture = mid_atlantic
 	rite = protestant_rite
 	trait = dull
 	trait = compassionate
@@ -228420,7 +228429,7 @@
 778015 = {
 	name = "ckn_Morty"
 	dynasty = 77799
-	culture = liblander
+	culture = mid_atlantic
 	rite = protestant_rite
 	health = 10
 	trait = adventurer
@@ -228572,7 +228581,7 @@
 778109 = {
 	name = "ckn_Mr"
 	dynasty = 77811
-	culture = murican
+	culture = east_themisian
 	rite = roman_rite
 	health = 10
 	trait = beauty_good_1
@@ -229341,7 +229350,7 @@
 	name = "ckn_Meghan"
 	female = yes
 	dynasty = 7000010
-	culture = liblander
+	culture = mid_atlantic
 	rite = anglican_rite
 	mother = 7000137	# e80
 	father = 7000136	# e80
@@ -229351,7 +229360,7 @@
 7000011 = {
 	name = "ckn_Archie"
 	dynasty = 7000041
-	culture = liblander
+	culture = mid_atlantic
 	rite = anglican_rite
 	father = 7000009
 	mother = 7000010
@@ -229361,7 +229370,7 @@
 	name = "ckn_Lilibet"
 	female = yes
 	dynasty = 7000041
-	culture = liblander
+	culture = mid_atlantic
 	rite = anglican_rite
 	father = 7000009
 	mother = 7000010
@@ -229614,7 +229623,7 @@
 778003 = {
 	name = "cyn_Olivia"
 	female = yes
-	culture = liblander
+	culture = mid_atlantic
 	rite = protestant_rite
 	martial = 10
 	diplomacy = 6
@@ -229657,7 +229666,7 @@
 7000135 = {	# e80 parent of 400043 (portrait genes)
 	name = "ckn_Ann"
 	female = yes
-	culture = liblander
+	culture = mid_atlantic
 	rite = protestant_rite
 	6942.11.29 = { birth = yes }
 	6995.11.7 = { death = yes }
@@ -229665,7 +229674,7 @@
 7000136 = {	# e80 parent of 7000010 (portrait genes)
 	name = "ckn_Thomas"
 	dynasty = 7000010
-	culture = liblander
+	culture = mid_atlantic
 	rite = protestant_rite
 	6944.7.18 = { birth = yes }
 }
@@ -229693,7 +229702,7 @@
 
 7000140 = {	# e86 Latter-day Saint mayor of Idaho Falls (b_idaho_falls)
 	name = "cyn_Tanner"
-	culture = murican
+	culture = cascadian
 	rite = latter_day_saints_rite
 	stewardship = 8
 	trait = education_stewardship_2
@@ -229703,7 +229712,7 @@
 }
 7000141 = {	# e86 Jehovah's Witness elder of Pittsburgh (b_pittsburgh), nod to Charles Taze Russell
 	name = "cyn_Charles"
-	culture = murican
+	culture = new_englander
 	rite = jehovahs_witnesses_rite
 	learning = 9
 	trait = education_learning_2

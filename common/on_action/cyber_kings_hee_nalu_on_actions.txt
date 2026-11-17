@@ -1,0 +1,60 @@
+﻿# He'e Nalu (2026-11-16): hooks. These ADD to the vanilla on_actions of the same name (on_actions = { } lists are merged).
+on_game_start = {
+	on_actions = { hee_nalu_game_start }
+}
+on_death = {
+	on_actions = { hee_nalu_on_death }
+}
+yearly_playable_pulse = {
+	on_actions = { hee_nalu_yearly_pulse }
+}
+
+# The paddle-out: a dead wave rider's heir scatters the ashes beyond the break. root = the character who died.
+hee_nalu_on_death = {
+	trigger = {
+		OR = {
+			rite = { rite_has_parameter = hee_nalu_surfing_active }
+			has_trait = hee_nalu_surfer
+		}
+		exists = primary_heir
+		highest_held_title_tier >= tier_county
+	}
+	effect = {
+		save_scope_as = deceased
+		primary_heir = {
+			trigger_event = {
+				id = hee_nalu.0200
+				days = 20
+			}
+		}
+	}
+}
+
+# Yearly flavour for the faithful and for anyone who surfs: about one event every six or seven years.
+hee_nalu_yearly_pulse = {
+	trigger = {
+		hee_nalu_can_surf_trigger = yes
+		is_available_adult = yes
+	}
+	random_events = {
+		850 = 0
+		25 = hee_nalu.0301
+		25 = hee_nalu.0302
+		25 = hee_nalu.0303
+		25 = hee_nalu.0304
+		25 = hee_nalu.0305
+		25 = hee_nalu.0306
+	}
+}
+
+# Game start: Kai (105315) holds the Olo of the Ali'i, the board of the old chiefs of O'ahu.
+hee_nalu_game_start = {
+	effect = {
+		character:105315 ?= {
+			if = {
+				limit = { is_alive = yes }
+				hee_nalu_kai_olo_effect = yes
+			}
+		}
+	}
+}

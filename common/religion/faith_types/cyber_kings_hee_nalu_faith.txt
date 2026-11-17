@@ -1,0 +1,32 @@
+﻿# He'e Nalu (2026-11-15): the surfers' faith of Hawaii and the California coast. Design: _dev/HEE_NALU.md
+# Core tenets live on the scripted main rite (common/religion/rite_types/cyber_kings_hee_nalu_rite.txt),
+# as vanilla 1.20 asks (_rite_types.info: "do not duplicate them in the faith type").
+hee_nalu_faith = {
+	main_rite = hee_nalu_rite
+
+	faith_details = {
+		religion = hee_nalu_religion
+		color = { 0.05 0.62 0.68 }
+		icon = hee_nalu
+		reformed_icon = hee_nalu
+	}
+
+	eminent_holy_sites = {	# max 3 eminent (engine define): home, heritage, and the best wave in the system
+		hee_nalu_pipeline
+		hee_nalu_schrodinger_point
+		hee_nalu_steamer_lane
+	}
+
+	holy_sites = {	# 9 in all, the engine maximum
+		hee_nalu_jeffreys_bay
+		hee_nalu_snapper_rocks
+		hee_nalu_cloudbreak
+		hee_nalu_eminescu_point
+		hee_nalu_sepik_point
+		hee_nalu_kuemanu
+	}
+
+	doctrines = {
+		unreformed_faith_doctrine
+	}
+}

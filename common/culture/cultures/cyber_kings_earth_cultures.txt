@@ -275,7 +275,7 @@ bemba = { # from east_bantu
 
 brazilian = { # from portuguese
 	color = { 0.71 0.57 0.63 }
-	created = 7084.1.1
+	created = 6500.1.1
 	parents = { galician }
 
 	name_list = name_list_cy_brazilian
@@ -783,16 +783,19 @@ latino_american = { # from castilian
 	}
 }
 
+# 2026-11-16 07:30 (modder 07:18/07:23) Californian (key kept as liblander_west): Californios and the Gold Rush (statehood 1850)
 liblander_west = { # from liblander
 	color = { 0.77 0.25 0.73 }
+	created = 6850.1.1
+	parents = { westerner latino_american }
 	
 	name_list = name_list_cy_american
 	ethos = ethos_egalitarian
-	heritage = heritage_ck_progressive
+	heritage = heritage_ck_american
 	language = language_anglic
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
-	traditions = { tradition_equitable tradition_city_keepers tradition_maritime_mercantilism }
+	traditions = { tradition_equitable tradition_city_keepers tradition_maritime_mercantilism tradition_culture_blending }
 	
 	coa_gfx = { frankish_group_coa_gfx western_coa_gfx }
 	building_gfx = { western_building_gfx }
@@ -976,18 +979,21 @@ mexican = { # from castilian
 	}
 }
 
+# 2026-11-16 07:30 (modder 07:18/07:23) Midwesterner: Yankee and Middle-Colony settlers of the Northwest Territory (1787)
 midwestern = { # from canadian
 	color = { 0.72 0.77 0.67 }
+	created = 6787.1.1
+	parents = { new_englander mid_atlantic }
 
 
 	
 	name_list = name_list_cy_american
 	ethos = ethos_communal
-	heritage = heritage_ck_northern
+	heritage = heritage_ck_american
 	language = language_anglic
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
-	traditions = { tradition_agrarian tradition_hard_working tradition_hereditary_hierarchy }
+	traditions = { tradition_hard_working tradition_agrarian tradition_republican_legacy }
 	
 	coa_gfx = { english_coa_gfx western_coa_gfx }
 	building_gfx = { western_building_gfx }
@@ -1061,32 +1067,7 @@ min = { # from han
 	}
 }
 
-moderate = { # from murican
-	color = { 0.52 0.21 0.26 }
-	
-	name_list = name_list_cy_american
-	ethos = ethos_communal
-	heritage = heritage_ck_american
-	language = language_anglic
-	martial_custom = martial_custom_male_only
-	head_determination = head_determination_domain
-	traditions = { tradition_city_keepers tradition_family_entrepreneurship tradition_hard_working }
-	
-	coa_gfx = { breton_coa_gfx western_coa_gfx }
-	building_gfx = { western_building_gfx }
-	clothing_gfx = { breton_clothing_gfx western_clothing_gfx }
-	unit_gfx = { western_unit_gfx }
-	house_coa_frame = house_frame_24
-	house_coa_mask_offset = { 0.0 0.055 }
-	house_coa_mask_scale = { 0.9 0.9 }
-	
-	ethnicities = {
-		5 = caucasian_blond
-		30 = caucasian_ginger
-		35 = caucasian_brown_hair
-		30 = caucasian_dark_hair
-	}
-}
+# 2026-11-16 09:15: culture `moderate` deleted (political culture, replaced by the regional American cultures; _dev/AMERICAN_CULTURES.md)
 
 mongo = { # from east_bantu
 	color = { 0.28 0.74 0.43 }
@@ -1125,7 +1106,7 @@ montrealer = { # from french
 	
 	name_list = name_list_cy_quebecois
 	ethos = ethos_egalitarian
-	heritage = heritage_ck_progressive
+	heritage = heritage_ck_northern
 	language = language_french
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
@@ -1382,32 +1363,7 @@ prairie = { # from canadian
 	}
 }
 
-progressive = { # from liblander
-	color = { 0.55 0.75 0.41 }
-	
-	name_list = name_list_cy_american
-	ethos = ethos_egalitarian
-	heritage = heritage_ck_progressive
-	language = language_anglic
-	martial_custom = martial_custom_male_only
-	head_determination = head_determination_domain
-	traditions = { tradition_equitable tradition_republican_legacy tradition_philosopher_culture }
-	
-	coa_gfx = { frankish_group_coa_gfx western_coa_gfx }
-	building_gfx = { western_building_gfx }
-	clothing_gfx = { french_clothing_gfx western_clothing_gfx }
-	unit_gfx = { western_unit_gfx }
-	house_coa_frame = house_frame_03
-	house_coa_mask_offset = { 0.0 0.055 }
-	house_coa_mask_scale = { 0.9 0.9 }
-	
-	ethnicities = {
-		10 = caucasian_blond
-		5 = caucasian_ginger
-		45 = caucasian_brown_hair
-		35 = caucasian_dark_hair
-	}
-}
+# 2026-11-16 09:15: culture `progressive` deleted (political culture, replaced by the regional American cultures; _dev/AMERICAN_CULTURES.md)
 
 quebecois = { # from french
 	color = { 0.54 0.35 0.61 }
@@ -1665,7 +1621,7 @@ torontonian = { # from canadian
 	
 	name_list = name_list_cy_canadian
 	ethos = ethos_bureaucratic
-	heritage = heritage_ck_progressive
+	heritage = heritage_ck_northern
 	language = language_anglic
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
@@ -2071,7 +2027,7 @@ kiwi = { # from aussie
 gaucho = { # from brazilian
  # from portuguese
 	color = { 0.69 0.48 0.69 }
-	created = 7084.1.1
+	created = 6500.1.1
 	parents = { galician }
 
 	name_list = name_list_cy_gaucho
@@ -2095,7 +2051,7 @@ gaucho = { # from brazilian
 nordestino = { # from brazilian
  # from portuguese
 	color = { 0.75 0.26 0.71 }
-	created = 7084.1.1
+	created = 6500.1.1
 	parents = { galician }
 
 	name_list = name_list_cy_nordestino

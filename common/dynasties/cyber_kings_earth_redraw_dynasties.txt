@@ -259,7 +259,7 @@
 }
 8100064 = {
 	name = "dynn_cy_Romano"	# e77 (was dynn_ckr_freeholt)
-	culture = "liblander_west"
+	culture = "cascadian"
 }
 8100065 = {
 	name = "dynn_cy_Tzoc"	# e77 (was dynn_ckr_acamapichtli)
@@ -1000,7 +1000,7 @@
 }
 8100249 = {
 	name = "dynn_cy_Nichols"	# e77 (was dynn_ckr_cascadine)
-	culture = "liblander_west"
+	culture = "cascadian"
 }
 8100250 = {
 	name = "dynn_Luo_7F57"
@@ -1726,7 +1726,7 @@
 }
 8100522 = {
 	name = "dynn_cy_Manele"	# e77 (was dynn_Ishana)
-	culture = "papuan"
+	culture = "hawaiian"
 }
 8100600 = {
 	name = "dynn_ckr_van_oranje"
@@ -1850,47 +1850,47 @@
 }
 8100800 = {
 	name = "dynn_ck_400017"
-	culture = "murican"
+	culture = "cascadian"
 }
 8100801 = {
 	name = "dynn_ck3_fletcher"
-	culture = "moderate"
+	culture = "southwesterner"
 }
 8100802 = {
 	name = "dynn_ck_102450"
-	culture = "liblander"
+	culture = "new_englander"
 }
 8100803 = {
 	name = "dynn_ck_101320"
-	culture = "progressive"
+	culture = "new_englander"
 }
 8100804 = {
 	name = "dynn_ck_400043"
-	culture = "liblander"
+	culture = "mid_atlantic"
 }
 8100805 = {
 	name = "dynn_ck_102640"
-	culture = "liblander"
+	culture = "new_englander"
 }
 8100806 = {
 	name = "dynn_ck3_wright"
-	culture = "moderate"
+	culture = "new_englander"
 }
 8100807 = {
 	name = "dynn_ck_400035"
-	culture = "progressive"
+	culture = "new_englander"
 }
 8100808 = {
 	name = "dynn_ck_400009"
-	culture = "murican"
+	culture = "southerner"
 }
 8100900 = {
 	name = "dynn_ckr_caldwell"
-	culture = "murican"
+	culture = "mid_atlantic"
 }
 8100901 = {
 	name = "dynn_ckr_harlan"
-	culture = "murican"
+	culture = "mid_atlantic"
 }
 8100729 = {
 	name = "dynn_ck_Gonzalez_Colon"
@@ -1935,4 +1935,8 @@
 8100739 = {
 	name = "dynn_ck_Tursun"
 	culture = "uyghur"
+}
+8100904 = {	# He'e Nalu 2026-11-15: Alex of the Central Coast
+	name = "dynn_cy_Torres"
+	culture = "liblander_west"
 }

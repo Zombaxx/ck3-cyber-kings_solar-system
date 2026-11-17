@@ -1,0 +1,56 @@
+﻿# He'e Nalu (2026-11-15): small things that happen during a Surf Trip (activity_hee_nalu_surf). Format after vanilla roaming_actions.txt.
+apa_hee_nalu_sea_turtle = {
+	icon = stress_loss
+
+	is_valid = {
+		is_current_phase_active = yes
+		NOT = { has_variable = apa_hee_nalu_sea_turtle }
+	}
+
+	weight = {
+		value = 10
+	}
+
+	effect = {
+		random_attending_character = {
+			save_scope_as = first
+		}
+		set_variable = apa_hee_nalu_sea_turtle
+		add_activity_log_entry = {
+			key = apa_hee_nalu_sea_turtle_key
+			tags = { pulse_action }
+			character = scope:first
+			scope:first = {
+				add_stress = minor_stress_loss
+			}
+		}
+	}
+}
+
+apa_hee_nalu_glassy_morning = {
+	icon = prestige
+
+	is_valid = {
+		is_current_phase_active = yes
+		NOT = { has_variable = apa_hee_nalu_glassy_morning }
+	}
+
+	weight = {
+		value = 10
+	}
+
+	effect = {
+		random_attending_character = {
+			save_scope_as = first
+		}
+		set_variable = apa_hee_nalu_glassy_morning
+		add_activity_log_entry = {
+			key = apa_hee_nalu_glassy_morning_key
+			tags = { pulse_action }
+			character = scope:first
+			scope:first = {
+				add_piety = minor_piety_gain
+			}
+		}
+	}
+}

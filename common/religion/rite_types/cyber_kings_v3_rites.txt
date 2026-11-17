@@ -424,3 +424,27 @@ era_zaharra_rite = { # Cyber Kings (e45): copy of basque_pagan with druidic tene
 		unreformed_faith_doctrine
 	}
 }
+
+# 2026-11-16 19:00 (modder 18:43): rite of the Everlasting Covenant
+everlasting_covenant_rite = {
+	faith = everlasting_covenant_faith
+	color = { 0.85 0.80 0.55 }
+	tenets = {
+		tenet_preservation
+		tenet_legalism
+		tenet_communal_identity
+	}
+	doctrines = {
+		doctrine_monotheist
+		doctrine_temporal_head
+		doctrine_theocracy_lay_clergy
+		doctrine_clerical_succession_temporal_appointment
+		doctrine_monogamy
+		doctrine_divorce_allowed
+		doctrine_adultery_women_crime
+		doctrine_adultery_men_crime
+		doctrine_witchcraft_shunned
+		doctrine_clerical_gender_either
+		doctrine_pilgrimage_encouraged
+	}
+}

@@ -469,7 +469,7 @@
 8100064 = {
 	name = "cyn_Benjamin"	# e77 (was Malcolm: did not fit liblander_west)
 	dynasty = 8100064
-	culture = liblander_west
+	culture = cascadian
 	rite = roman_rite	# e83 follows his counties (was protestant_rite)
 	7021.7.28 = { birth = yes }
 }
@@ -1796,7 +1796,7 @@
 8100249 = {
 	name = "Hunter"
 	dynasty = 8100249
-	culture = liblander_west
+	culture = cascadian
 	rite = roman_rite	# e83 follows his counties (was protestant_rite)
 	7012.5.23 = { birth = yes }
 }
@@ -3085,7 +3085,7 @@
 8100522 = {
 	name = "cyn_David"	# e77 (was Putra: did not fit papuan)
 	dynasty = 8100522
-	culture = papuan
+	culture = hawaiian
 	rite = protestant_rite	# e83 follows his counties (was roman_rite)
 	7016.1.13 = { birth = yes }
 }
@@ -3302,70 +3302,70 @@
 8100800 = {
 	name = "Richwin"
 	dynasty = 8100800
-	culture = murican
+	culture = cascadian
 	rite = protestant_rite	# e83 follows his counties (was latter_day_saints_rite)
 	7000.11.23 = { birth = yes }
 }
 8100801 = {
 	name = "Hunter"
 	dynasty = 8100801
-	culture = moderate
+	culture = southwesterner
 	rite = protestant_rite	# e83 follows his counties (was roman_rite)
 	6999.6.26 = { birth = yes }
 }
 8100802 = {
 	name = "Dwayne"
 	dynasty = 8100802
-	culture = liblander
+	culture = new_englander
 	rite = roman_rite
 	7001.11.10 = { birth = yes }
 }
 8100803 = {
 	name = "Grover"
 	dynasty = 8100803
-	culture = progressive
+	culture = new_englander
 	rite = roman_rite
 	6992.6.7 = { birth = yes }
 }
 8100804 = {
 	name = "Grover"
 	dynasty = 8100804
-	culture = liblander
+	culture = mid_atlantic
 	rite = roman_rite
 	6993.2.22 = { birth = yes }
 }
 8100805 = {
 	name = "Tyler"
 	dynasty = 8100805
-	culture = liblander
+	culture = new_englander
 	rite = roman_rite
 	6996.2.6 = { birth = yes }
 }
 8100806 = {
 	name = "Noah"
 	dynasty = 8100806
-	culture = moderate
+	culture = new_englander
 	rite = protestant_rite	# e83 follows his counties (was roman_rite)
 	7011.7.24 = { birth = yes }
 }
 8100807 = {
 	name = "Sawyer"
 	dynasty = 8100807
-	culture = progressive
+	culture = new_englander
 	rite = protestant_rite	# e83 follows his counties (was roman_rite)
 	7006.7.19 = { birth = yes }
 }
 8100808 = {
 	name = "Deniel"
 	dynasty = 8100808
-	culture = murican
+	culture = southerner
 	rite = protestant_rite
 	7009.3.25 = { birth = yes }
 }
 8100900 = {
 	name = "Robert"
 	dynasty = 8100900
-	culture = murican
+	culture = mid_atlantic
 	rite = non_denominational_rite
 	trait = education_diplomacy_3
 	trait = diligent
@@ -3376,7 +3376,7 @@
 8100901 = {
 	name = "Daniel"
 	dynasty = 8100901
-	culture = murican
+	culture = mid_atlantic
 	rite = non_denominational_rite
 	6998.9.3 = { birth = yes }
 }
@@ -3476,4 +3476,95 @@
 	culture = uyghur
 	rite = dhyana	# e83 follows his counties (was hanafi)
 	6986.5.28 = { birth = yes }
+}
+# He'e Nalu 2026-11-15: Alex, Count of the Central Coast (c_monterey). Local culture (liblander_west), He'e Nalu faith.
+8100904 = {
+	name = "Alex"
+	dynasty = 8100904
+	culture = liblander_west
+	rite = hee_nalu_rite
+	trait = education_martial_2
+	trait = calm
+	trait = brave
+	trait = gregarious
+	trait = hee_nalu_surfer	# Surfer (35 XP below)
+	7022.6.21 = { birth = yes }
+	7050.9.15 = { effect = { add_trait_xp = { trait = hee_nalu_surfer track = hee_nalu_surfer value = 35 } } }
+}
+# He'e Nalu 2026-11-16: surfing courtiers. Kai's court (105315, Hawaii) and Alex's court (8100904, Central Coast). Lowborn.
+8100905 = {	# Kai's kahuna: a Big Kahuna in both senses. High learning so the realm picks him as priest
+	name = "Keola"
+	culture = hawaiian
+	rite = hee_nalu_rite
+	trait = education_learning_3
+	trait = calm
+	trait = patient
+	trait = zealous
+	trait = hee_nalu_surfer
+	6995.3.2 = { birth = yes }
+	7050.9.15 = {
+		employer = 105315
+		effect = { add_trait_xp = { trait = hee_nalu_surfer track = hee_nalu_surfer value = 100 } }
+	}
+}
+8100906 = {	# Waterwoman, a knight for Kai
+	name = "Leilani"
+	female = yes
+	culture = hawaiian
+	rite = hee_nalu_rite
+	trait = education_martial_3
+	trait = brave
+	trait = gregarious
+	trait = honest
+	trait = hee_nalu_surfer
+	7024.8.14 = { birth = yes }
+	7050.9.15 = {
+		employer = 105315
+		effect = { add_trait_xp = { trait = hee_nalu_surfer track = hee_nalu_surfer value = 68 } }
+	}
+}
+8100907 = {	# Grom, sixteen
+	name = "Makoa"
+	culture = hawaiian
+	rite = hee_nalu_rite
+	trait = education_martial_1
+	trait = brave
+	trait = impatient
+	trait = trusting
+	trait = hee_nalu_surfer
+	7034.5.30 = { birth = yes }
+	7050.9.15 = {
+		employer = 105315
+		effect = { add_trait_xp = { trait = hee_nalu_surfer track = hee_nalu_surfer value = 5 } }
+	}
+}
+8100908 = {	# Surfer at Alex's court
+	name = "Jordan"
+	female = yes
+	culture = liblander_west
+	rite = hee_nalu_rite
+	trait = education_diplomacy_2
+	trait = gregarious
+	trait = calm
+	trait = content
+	trait = hee_nalu_surfer
+	7020.11.9 = { birth = yes }
+	7050.9.15 = {
+		employer = 8100904
+		effect = { add_trait_xp = { trait = hee_nalu_surfer track = hee_nalu_surfer value = 40 } }
+	}
+}
+8100909 = {	# the Kook
+	name = "Cody"
+	culture = liblander_west
+	rite = hee_nalu_rite
+	trait = education_martial_1
+	trait = arrogant
+	trait = lazy
+	trait = gregarious
+	trait = hee_nalu_kook
+	7028.2.17 = { birth = yes }
+	7050.9.15 = {
+		employer = 8100904
+	}
 }

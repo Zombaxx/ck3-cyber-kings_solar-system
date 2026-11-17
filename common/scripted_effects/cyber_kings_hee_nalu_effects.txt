@@ -1,0 +1,243 @@
+﻿# He'e Nalu (2026-11-15): where you surf matters. Called from the ending options of events/cyber_kings_hee_nalu_events.txt.
+# The scopes are set in hee_nalu.0001 immediate: surf_break (the province), hee_nalu_sacred, hee_nalu_home / hee_nalu_foreign,
+# hee_nalu_far, hee_nalu_new, hee_nalu_new_sacred.
+
+# Rewards for a session that went well, by the kind of break.
+hee_nalu_break_rewards_effect = {
+	if = {
+		limit = { exists = scope:hee_nalu_sacred }
+		custom_tooltip = hee_nalu.reward.sacred.tt
+		add_piety = medium_piety_gain
+	}
+	if = {
+		limit = { exists = scope:hee_nalu_home }
+		custom_tooltip = hee_nalu.reward.home.tt
+		add_stress = minor_stress_loss
+	}
+	if = {
+		limit = { exists = scope:hee_nalu_foreign }
+		custom_tooltip = hee_nalu.reward.foreign.tt
+		add_prestige = minor_prestige_gain
+	}
+	if = {
+		limit = { exists = scope:hee_nalu_far }
+		custom_tooltip = hee_nalu.reward.far.tt
+		add_prestige = minor_prestige_gain
+	}
+}
+
+# Remember the break. The first session at a new break pays once; new sacred breaks count toward the Search.
+hee_nalu_record_break_effect = {
+	if = {
+		limit = {
+			exists = scope:hee_nalu_new
+			exists = scope:surf_break
+		}
+		custom_tooltip = hee_nalu.reward.new.tt
+		add_piety = minor_piety_gain
+		add_to_variable_list = {
+			name = hee_nalu_breaks_surfed
+			target = scope:surf_break
+		}
+		if = {
+			limit = { exists = scope:hee_nalu_new_sacred }
+			if = {
+				limit = { has_variable = hee_nalu_sacred_breaks }
+				change_variable = {
+					name = hee_nalu_sacred_breaks
+					add = 1
+				}
+			}
+			else = {
+				set_variable = {
+					name = hee_nalu_sacred_breaks
+					value = 1
+				}
+			}
+			if = {
+				limit = { var:hee_nalu_sacred_breaks = 3 }
+				send_interface_toast = {
+					type = event_toast_effect_good
+					title = hee_nalu.search.three.toast
+					left_icon = root
+					add_prestige = medium_prestige_gain
+					add_character_modifier = {
+						modifier = hee_nalu_the_search_modifier
+						years = 20
+					}
+				}
+			}
+			if = {
+				limit = { var:hee_nalu_sacred_breaks = 9 }	# all nine holy sites, on four worlds
+				send_interface_toast = {
+					type = event_toast_effect_good
+					title = hee_nalu.search.all.toast
+					left_icon = root
+					add_prestige = major_prestige_gain
+					add_piety = major_piety_gain
+					if = {
+						limit = { has_any_nickname = no }
+						give_nickname = nick_ck_the_wave_rider
+					}
+				}
+			}
+		}
+	}
+}
+
+##### Surf skill (2026-11-15 night): traits hee_nalu_surfer / hee_nalu_kook, common/traits/cyber_kings_hee_nalu_traits.txt
+
+hee_nalu_become_grom_effect = {
+	if = {
+		limit = { has_trait = hee_nalu_kook }
+		remove_trait = hee_nalu_kook
+	}
+	add_trait = hee_nalu_surfer
+}
+
+hee_nalu_become_kook_effect = {
+	if = {
+		limit = { has_trait = hee_nalu_surfer }
+		remove_trait = hee_nalu_surfer
+	}
+	add_trait = hee_nalu_kook
+}
+
+# Host, after a session that went well. XP = surf skill gained if already a surfer.
+hee_nalu_host_good_session_effect = {
+	if = {
+		limit = { has_trait = hee_nalu_surfer }
+		add_trait_xp = {
+			trait = hee_nalu_surfer
+			track = hee_nalu_surfer
+			value = $XP$
+		}
+	}
+	else_if = {
+		limit = { has_trait = hee_nalu_kook }
+		random = {
+			chance = 35
+			send_interface_toast = {
+				type = event_toast_effect_good
+				title = hee_nalu.trait.kook_to_grom.toast
+				hee_nalu_become_grom_effect = yes
+			}
+		}
+	}
+	else = {
+		hee_nalu_become_grom_effect = yes
+	}
+}
+
+# Host, after a wipeout or a scare. You still paddled out.
+hee_nalu_host_rough_session_effect = {
+	if = {
+		limit = { has_trait = hee_nalu_surfer }
+		add_trait_xp = {
+			trait = hee_nalu_surfer
+			track = hee_nalu_surfer
+			value = 3
+		}
+	}
+	else_if = {
+		limit = { NOT = { has_trait = hee_nalu_kook } }
+		hee_nalu_become_grom_effect = yes
+	}
+}
+
+# this = a guest, called from the guest's own events (hee_nalu.0100-0111) with the odds of that outcome.
+# Surfers gain XP; a kook may improve (GROM % chance); the faithful become groms;
+# an outsider comes home a Grom (GROM), a Kook (KOOK) or unchanged (NONE) - weights, they should add up to 100.
+# With either trait the guest can host Surf Trips of their own, whatever their faith.
+hee_nalu_guest_progress_effect = {
+	if = {
+		limit = { has_trait = hee_nalu_surfer }
+		add_trait_xp = {
+			trait = hee_nalu_surfer
+			track = hee_nalu_surfer
+			value = $XP$
+		}
+	}
+	else_if = {
+		limit = { has_trait = hee_nalu_kook }
+		random = {
+			chance = $GROM$
+			hee_nalu_become_grom_effect = yes
+		}
+	}
+	else_if = {
+		limit = {
+			rite = { rite_has_parameter = hee_nalu_surfing_active }
+		}
+		hee_nalu_become_grom_effect = yes
+	}
+	else = {
+		random_list = {
+			$GROM$ = {
+				hee_nalu_become_grom_effect = yes
+			}
+			$KOOK$ = {
+				hee_nalu_become_kook_effect = yes
+			}
+			$NONE$ = {
+				custom_tooltip = hee_nalu.trait.guest_nothing.tt
+			}
+		}
+	}
+}
+
+##### Boards as artifacts (2026-11-16). Creation format after vanilla 02_starting_holy_site_relics_effects.txt.
+
+# root = the surfer who commissioned it
+hee_nalu_shape_board_effect = {
+	save_scope_as = board_owner
+	if = {
+		limit = {
+			has_trait_xp = {
+				trait = hee_nalu_surfer
+				track = hee_nalu_surfer
+				value >= 65
+			}
+		}
+		hidden_effect = { set_artifact_rarity_illustrious = yes }
+		create_artifact = {
+			name = artifact_hee_nalu_olo_name
+			description = artifact_hee_nalu_olo_desc
+			type = miscellaneous
+			visuals = pocket_figurine
+			wealth = scope:wealth
+			quality = scope:quality
+			modifier = hee_nalu_olo_artifact_modifier
+			save_scope_as = newly_created_artifact
+		}
+	}
+	else = {
+		hidden_effect = { set_artifact_rarity_masterwork = yes }
+		create_artifact = {
+			name = artifact_hee_nalu_alaia_name
+			description = artifact_hee_nalu_alaia_desc
+			type = miscellaneous
+			visuals = pocket_figurine
+			wealth = scope:wealth
+			quality = scope:quality
+			modifier = hee_nalu_alaia_artifact_modifier
+			save_scope_as = newly_created_artifact
+		}
+	}
+}
+
+# Kai's heirloom, given at game start (cyber_kings_hee_nalu_on_actions.txt). this = Kai.
+hee_nalu_kai_olo_effect = {
+	set_artifact_rarity_illustrious = yes
+	create_artifact = {
+		name = artifact_hee_nalu_kai_olo_name
+		description = artifact_hee_nalu_kai_olo_desc
+		type = miscellaneous
+		visuals = pocket_figurine
+		wealth = scope:wealth
+		quality = scope:quality
+		history = { type = created_before_history }
+		modifier = hee_nalu_kai_olo_artifact_modifier
+		save_scope_as = newly_created_artifact
+	}
+}

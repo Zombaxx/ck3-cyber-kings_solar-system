@@ -1,0 +1,13 @@
+﻿# California counts 2026-11-15 (see history/characters/cyber_kings_california.txt)
+8100950 = {
+	name = "dynn_ckc_Snapdragon"
+	culture = "liblander_west"
+}
+8100960 = {
+	name = "dynn_ckc_Schwarzenator"
+	culture = "moderate"
+}
+8100970 = {
+	name = "dynn_ckc_Boswell"
+	culture = "liblander_west"
+}

@@ -1,0 +1,2 @@
+﻿# He'e Nalu (2026-11-15): nickname from riding a giant at the outer reef (hee_nalu.0021).
+nick_ck_the_wave_rider = {}

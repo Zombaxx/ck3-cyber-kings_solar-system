@@ -1,0 +1,1796 @@
+﻿# He'e Nalu (2026-11-15): the "Go Surfing" event chain. Design and branch map: _dev/HEE_NALU.md
+# Started by the Surf Trip activity when its phase goes active at the chosen break
+# (common/activities/activity_types/cyber_kings_hee_nalu_surf.txt, on_phase_active). Every event shows the beach scene.
+#
+# 0001 Dawn Patrol ─┬─ listen ──► 0002 The Ocean Speaks ─┬─ felt it ──► 0010 or 0020, attuned
+#                   │                                     └─ nothing ──► 0010 or go home
+#                   ├─ paddle out ──► 0010 The Lineup ──► 0030 / 0011 / 0023
+#                   ├─ outer reef ──► 0020 The Outer Reef ──► 0021 The Drop / 0022 Held Down / 0011
+#                   └─ watch from the sand (ends)
+# 0023 A Shadow Beneath ──► 0030 or ends     0021 The Drop ──► ends or 0030
+# 0030 The Perfect Wave, 0011 A Good Session, 0022 Held Down: endings
+#
+# GUESTS (player or AI): 0100 Paddling Out -> 0110 A Wave of My Own / 0111 The Washing Machine, or stay in the whitewater, or watch.
+#                         Their options call hee_nalu_guest_progress_effect (trait chances and XP by outcome).
+# FAITH LIFE (2026-11-16): 0200 The Paddle-Out (heir, from on_death), 0210 the house 'aumakua (decision),
+#                         0301-0306 yearly flavour (common/on_action/cyber_kings_hee_nalu_on_actions.txt)
+# MAKAHIKI (2026-11-16): 0400 The Games of Lono, 0403 Lono Departs (hee_nalu_proclaim_makahiki_decision)
+# Surf skill: hee_nalu_surf_skill_value (trait level, or -15 for a kook) is added to every roll for the better outcome;
+#                         endings call hee_nalu_host_good_session_effect / hee_nalu_host_rough_session_effect (XP, traits, guests)
+# scope:surf_companion  = the travelling companion you invited to the trip, if any (the activity's special guest)
+# scope:surf_break      = the province you surf at; hee_nalu_sacred / _home / _foreign / _far / _new / _new_sacred describe it
+#                         and feed hee_nalu_break_rewards_effect and hee_nalu_record_break_effect (common/scripted_effects)
+# scope:hee_nalu_attuned = set when you sensed the ocean in 0002; raises the odds everywhere after
+
+namespace = hee_nalu
+
+# Dawn Patrol
+hee_nalu.0001 = {
+	type = character_event
+	title = hee_nalu.0001.t
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { exists = scope:hee_nalu_sacred }
+				desc = hee_nalu.0001.desc.sacred
+			}
+			triggered_desc = {
+				trigger = { exists = scope:hee_nalu_home }
+				desc = hee_nalu.0001.desc.home
+			}
+			desc = hee_nalu.0001.desc.foreign
+		}
+		desc = hee_nalu.0001.desc
+	}
+	theme = faith
+	override_background = { reference = bp3_coast }
+	left_portrait = {
+		character = root
+		animation = personality_content
+	}
+	right_portrait = {
+		character = scope:surf_companion
+		trigger = { exists = scope:surf_companion }
+		animation = happiness
+	}
+
+	immediate = {
+		location = { save_scope_as = surf_break }
+		if = {
+			limit = { exists = scope:activity }
+			scope:activity.special_guest:honorary_guest_traveling_companion ?= {
+				if = {
+					limit = {
+						is_alive = yes
+						location = root.location
+					}
+					save_scope_as = surf_companion
+				}
+			}
+		}
+		# what kind of break is this? (same tests as the activity's province_description)
+		if = {
+			limit = {
+				faith = { any_holy_site_barony = { county = scope:surf_break.county } }
+			}
+			save_scope_value_as = { name = hee_nalu_sacred value = yes }
+		}
+		if = {
+			limit = {
+				scope:surf_break = {
+					county_controller ?= {
+						OR = {
+							this = root
+							target_is_liege_or_above = root
+						}
+					}
+				}
+			}
+			save_scope_value_as = { name = hee_nalu_home value = yes }
+		}
+		else = {
+			save_scope_value_as = { name = hee_nalu_foreign value = yes }
+		}
+		if = {
+			limit = {
+				exists = capital_province
+				"capital_province.squared_distance(scope:surf_break)" > squared_distance_large
+			}
+			save_scope_value_as = { name = hee_nalu_far value = yes }
+		}
+		if = {
+			limit = {
+				NOT = {
+					is_target_in_variable_list = {
+						name = hee_nalu_breaks_surfed
+						target = scope:surf_break
+					}
+				}
+			}
+			save_scope_value_as = { name = hee_nalu_new value = yes }
+			if = {
+				limit = {
+					exists = scope:hee_nalu_sacred
+					NOT = {
+						any_in_list = {
+							variable = hee_nalu_breaks_surfed
+							county = scope:surf_break.county
+						}
+					}
+				}
+				save_scope_value_as = { name = hee_nalu_new_sacred value = yes }
+			}
+		}
+	}
+
+	option = { # Sit and listen to the ocean
+		name = hee_nalu.0001.a
+		custom_tooltip = hee_nalu.0001.a.tt
+		stress_impact = {
+			patient = minor_stress_impact_loss
+			calm = minor_stress_impact_loss
+			impatient = minor_stress_impact_gain
+		}
+		trigger_event = hee_nalu.0002
+		ai_chance = {
+			base = 35
+			modifier = { add = 25 has_trait = patient }
+			modifier = { add = 25 has_trait = calm }
+			modifier = { add = -25 has_trait = impatient }
+		}
+	}
+
+	option = { # Paddle straight out
+		name = hee_nalu.0001.b
+		custom_tooltip = hee_nalu.0001.b.tt
+		trigger_event = hee_nalu.0010
+		ai_chance = {
+			base = 35
+			modifier = { add = 25 has_trait = impatient }
+		}
+	}
+
+	option = { # Charge the outer reef
+		name = hee_nalu.0001.c
+		custom_tooltip = hee_nalu.0001.c.tt
+		stress_impact = {
+			brave = minor_stress_impact_loss
+			craven = medium_stress_impact_gain
+		}
+		trigger_event = hee_nalu.0020
+		ai_chance = {
+			base = 15
+			modifier = { add = 35 has_trait = brave }
+			modifier = { add = 15 has_trait = arrogant }
+			modifier = { factor = 0 has_trait = craven }
+		}
+	}
+
+	option = { # Watch from the sand
+		name = hee_nalu.0001.d
+		add_stress = minor_stress_loss
+		stress_impact = {
+			brave = minor_stress_impact_gain
+			lazy = minor_stress_impact_loss
+			craven = minor_stress_impact_loss
+		}
+		ai_chance = {
+			base = 5
+			modifier = { add = 40 has_trait = craven }
+			modifier = { add = 20 has_trait = lazy }
+		}
+	}
+}
+
+# The Ocean Speaks: the wave sense
+hee_nalu.0002 = {
+	type = character_event
+	title = hee_nalu.0002.t
+	desc = {
+		desc = hee_nalu.0002.desc.intro
+		first_valid = {
+			triggered_desc = {
+				trigger = { scope:hee_nalu_sense = flag:felt }
+				desc = hee_nalu.0002.desc.felt
+			}
+			desc = hee_nalu.0002.desc.nothing
+		}
+	}
+	theme = faith
+	override_background = { reference = bp3_coast }
+	left_portrait = {
+		character = root
+		triggered_animation = {
+			trigger = { scope:hee_nalu_sense = flag:felt }
+			animation = admiration
+		}
+		animation = worry
+	}
+
+	immediate = {
+		random_list = {
+			40 = {
+				modifier = { add = 15 learning >= 12 }
+				modifier = { add = 15 has_trait = calm }
+				modifier = { add = 15 has_trait = patient }
+				modifier = { add = 10 has_trait = zealous }
+				modifier = { add = 10 piety_level >= 3 }
+				modifier = { add = 15 has_character_modifier = hee_nalu_one_with_the_ocean_modifier }
+				modifier = { add = 20 exists = scope:hee_nalu_sacred }
+				modifier = { add = 20 has_character_modifier = hee_nalu_blessed_swell_modifier }
+				modifier = {	# a surf heiau stands at this break
+					add = 15
+					scope:surf_break ?= { has_building_or_higher = hee_nalu_surf_heiau_01 }
+				}
+				save_scope_value_as = {
+					name = hee_nalu_sense
+					value = flag:felt
+				}
+			}
+			40 = {
+				modifier = { add = 15 has_trait = impatient }
+				modifier = { add = 15 has_trait = wrathful }
+				modifier = { add = 10 has_trait = cynical }
+				save_scope_value_as = {
+					name = hee_nalu_sense
+					value = flag:nothing
+				}
+			}
+		}
+	}
+
+	option = { # I know where it will break
+		name = hee_nalu.0002.a
+		trigger = { scope:hee_nalu_sense = flag:felt }
+		add_piety = minor_piety_gain
+		custom_tooltip = hee_nalu.attuned.tt
+		save_scope_value_as = {
+			name = hee_nalu_attuned
+			value = yes
+		}
+		trigger_event = hee_nalu.0010
+		ai_chance = {
+			base = 60
+		}
+	}
+
+	option = { # It is calling me to the outer reef
+		name = hee_nalu.0002.b
+		trigger = { scope:hee_nalu_sense = flag:felt }
+		add_piety = minor_piety_gain
+		custom_tooltip = hee_nalu.attuned.tt
+		save_scope_value_as = {
+			name = hee_nalu_attuned
+			value = yes
+		}
+		stress_impact = {
+			craven = medium_stress_impact_gain
+		}
+		trigger_event = hee_nalu.0020
+		ai_chance = {
+			base = 25
+			modifier = { add = 30 has_trait = brave }
+			modifier = { factor = 0 has_trait = craven }
+		}
+	}
+
+	option = { # Paddle out anyway
+		name = hee_nalu.0002.c
+		trigger = { scope:hee_nalu_sense = flag:nothing }
+		trigger_event = hee_nalu.0010
+		ai_chance = {
+			base = 70
+		}
+	}
+
+	option = { # Not today
+		name = hee_nalu.0002.d
+		trigger = { scope:hee_nalu_sense = flag:nothing }
+		stress_impact = {
+			patient = minor_stress_impact_loss
+			humble = minor_stress_impact_loss
+			impatient = minor_stress_impact_gain
+			arrogant = minor_stress_impact_gain
+		}
+		ai_chance = {
+			base = 15
+			modifier = { add = 20 has_trait = patient }
+		}
+	}
+}
+
+# The Lineup: whose wave is it
+hee_nalu.0010 = {
+	type = character_event
+	title = hee_nalu.0010.t
+	desc = {
+		desc = hee_nalu.0010.desc.intro
+		first_valid = {
+			triggered_desc = {
+				trigger = { exists = scope:surf_companion }
+				desc = hee_nalu.0010.desc.companion
+			}
+			desc = hee_nalu.0010.desc.local
+		}
+	}
+	theme = faith
+	override_background = { reference = bp3_coast }
+	left_portrait = {
+		character = root
+		animation = personality_bold
+	}
+	right_portrait = {
+		character = scope:surf_companion
+		trigger = { exists = scope:surf_companion }
+		animation = personality_bold
+	}
+
+	option = { # Mine
+		name = hee_nalu.0010.a
+		if = {
+			limit = {
+				has_trait = hee_nalu_surfer
+				NOT = {
+					has_trait_xp = {
+						trait = hee_nalu_surfer
+						track = hee_nalu_surfer
+						value >= 30
+					}
+				}
+			}
+			random = {
+				chance = 20
+				custom_tooltip = hee_nalu.trait.dropin_kook.tt
+				hee_nalu_become_kook_effect = yes
+			}
+		}
+		if = {
+			limit = { exists = scope:surf_companion }
+			scope:surf_companion = {
+				add_opinion = {
+					target = root
+					modifier = annoyed_opinion
+					opinion = -15
+				}
+			}
+		}
+		stress_impact = {
+			greedy = minor_stress_impact_loss
+			arrogant = minor_stress_impact_loss
+			compassionate = minor_stress_impact_gain
+			generous = minor_stress_impact_gain
+			just = minor_stress_impact_gain
+		}
+		random_list = {
+			45 = {
+				modifier = { add = 25 exists = scope:hee_nalu_attuned }
+				modifier = { add = 10 prowess >= 12 }
+				modifier = { add = hee_nalu_surf_skill_value }
+				custom_tooltip = hee_nalu.outcome.perfect.tt
+				trigger_event = hee_nalu.0030
+			}
+			55 = {
+				custom_tooltip = hee_nalu.outcome.good.tt
+				trigger_event = hee_nalu.0011
+			}
+		}
+		ai_chance = {
+			base = 25
+			modifier = { add = 30 has_trait = greedy }
+			modifier = { add = 20 has_trait = arrogant }
+			modifier = { add = -20 has_trait = compassionate }
+			modifier = { add = -20 has_trait = generous }
+		}
+	}
+
+	option = { # Give the wave away
+		name = hee_nalu.0010.b
+		add_piety = minor_piety_gain
+		if = {
+			limit = { exists = scope:surf_companion }
+			scope:surf_companion = {
+				add_opinion = {
+					target = root
+					modifier = grateful_opinion
+					opinion = 20
+				}
+			}
+		}
+		stress_impact = {
+			generous = minor_stress_impact_loss
+			compassionate = minor_stress_impact_loss
+			greedy = minor_stress_impact_gain
+		}
+		random_list = {
+			35 = {
+				modifier = { add = 20 exists = scope:hee_nalu_attuned }
+				modifier = { add = hee_nalu_surf_skill_value }
+				custom_tooltip = hee_nalu.outcome.perfect.tt
+				trigger_event = hee_nalu.0030
+			}
+			45 = {
+				custom_tooltip = hee_nalu.outcome.good.tt
+				trigger_event = hee_nalu.0011
+			}
+			20 = {
+				custom_tooltip = hee_nalu.outcome.shadow.tt
+				trigger_event = hee_nalu.0023
+			}
+		}
+		ai_chance = {
+			base = 35
+			modifier = { add = 30 has_trait = generous }
+			modifier = { add = 20 has_trait = compassionate }
+			modifier = { add = -25 has_trait = greedy }
+		}
+	}
+
+	option = { # Wait for the one I can feel
+		name = hee_nalu.0010.c
+		stress_impact = {
+			patient = minor_stress_impact_loss
+			impatient = minor_stress_impact_gain
+		}
+		random_list = {
+			30 = {
+				modifier = { add = 40 exists = scope:hee_nalu_attuned }
+				modifier = { add = 15 has_trait = patient }
+				modifier = { add = 10 has_trait = calm }
+				modifier = { add = hee_nalu_surf_skill_value }
+				custom_tooltip = hee_nalu.outcome.perfect.tt
+				trigger_event = hee_nalu.0030
+			}
+			50 = {
+				custom_tooltip = hee_nalu.outcome.good.tt
+				trigger_event = hee_nalu.0011
+			}
+			20 = {
+				custom_tooltip = hee_nalu.outcome.shadow.tt
+				trigger_event = hee_nalu.0023
+			}
+		}
+		ai_chance = {
+			base = 40
+			modifier = { add = 30 exists = scope:hee_nalu_attuned }
+			modifier = { add = 20 has_trait = patient }
+			modifier = { add = -25 has_trait = impatient }
+		}
+	}
+}
+
+# A Good Session (ending)
+hee_nalu.0011 = {
+	type = character_event
+	title = hee_nalu.0011.t
+	desc = hee_nalu.0011.desc
+	theme = faith
+	override_background = { reference = bp3_coast }
+	left_portrait = {
+		character = root
+		animation = happiness
+	}
+	right_portrait = {
+		character = scope:surf_companion
+		trigger = { exists = scope:surf_companion }
+		animation = happiness
+	}
+
+	option = { # Stoked
+		name = hee_nalu.0011.a
+		hee_nalu_break_rewards_effect = yes
+		hee_nalu_record_break_effect = yes
+		hee_nalu_host_good_session_effect = { XP = 6 }
+		add_stress = minor_stress_loss
+		add_piety = minor_piety_gain
+		add_character_modifier = {
+			modifier = hee_nalu_stoked_modifier
+			years = 2
+		}
+		ai_chance = {
+			base = 50
+		}
+	}
+
+	option = { # Talk story by the fire
+		name = hee_nalu.0011.b
+		hee_nalu_break_rewards_effect = yes
+		hee_nalu_record_break_effect = yes
+		hee_nalu_host_good_session_effect = { XP = 6 }
+		trigger = { exists = scope:surf_companion }
+		add_stress = minor_stress_loss
+		add_character_modifier = {
+			modifier = hee_nalu_stoked_modifier
+			years = 2
+		}
+		scope:surf_companion = {
+			add_opinion = {
+				target = root
+				modifier = pleased_opinion
+				opinion = 20
+			}
+		}
+		stress_impact = {
+			gregarious = minor_stress_impact_loss
+			shy = minor_stress_impact_gain
+		}
+		ai_chance = {
+			base = 50
+			modifier = { add = 25 has_trait = gregarious }
+			modifier = { add = -30 has_trait = shy }
+		}
+	}
+}
+
+# The Outer Reef: the big wave
+hee_nalu.0020 = {
+	type = character_event
+	title = hee_nalu.0020.t
+	desc = {
+		desc = hee_nalu.0020.desc.intro
+		first_valid = {
+			triggered_desc = {
+				trigger = { exists = scope:hee_nalu_attuned }
+				desc = hee_nalu.0020.desc.attuned
+			}
+			desc = hee_nalu.0020.desc.blind
+		}
+	}
+	theme = faith
+	override_background = { reference = bp3_coast }
+	left_portrait = {
+		character = root
+		animation = worry
+	}
+
+	option = { # Turn and paddle
+		name = hee_nalu.0020.a
+		random_list = {
+			30 = {
+				modifier = {
+					add = {
+						value = prowess
+						multiply = 2
+					}
+				}
+				modifier = { add = 20 has_trait = brave }
+				modifier = { add = 25 exists = scope:hee_nalu_attuned }
+				modifier = { add = hee_nalu_surf_skill_value }
+				custom_tooltip = hee_nalu.outcome.drop.tt
+				trigger_event = hee_nalu.0021
+			}
+			50 = {
+				modifier = { add = 20 has_trait = craven }
+				modifier = { add = 10 has_trait = arrogant }
+				custom_tooltip = hee_nalu.outcome.wipeout.tt
+				trigger_event = hee_nalu.0022
+			}
+		}
+		ai_chance = {
+			base = 40
+			modifier = { add = 30 has_trait = brave }
+			modifier = { add = 20 has_trait = impatient }
+		}
+	}
+
+	option = { # Wait for the wave I can feel
+		name = hee_nalu.0020.b
+		trigger = { exists = scope:hee_nalu_attuned }
+		random_list = {
+			75 = {
+				modifier = { add = 10 has_trait = patient }
+				modifier = { add = 10 has_trait = calm }
+				modifier = { add = hee_nalu_surf_skill_value }
+				custom_tooltip = hee_nalu.outcome.drop.tt
+				trigger_event = hee_nalu.0021
+			}
+			25 = {
+				custom_tooltip = hee_nalu.outcome.wipeout.tt
+				trigger_event = hee_nalu.0022
+			}
+		}
+		ai_chance = {
+			base = 80
+		}
+	}
+
+	option = { # This is beyond me
+		name = hee_nalu.0020.c
+		add_prestige = minor_prestige_loss
+		stress_impact = {
+			craven = minor_stress_impact_loss
+			humble = minor_stress_impact_loss
+			brave = medium_stress_impact_gain
+			arrogant = medium_stress_impact_gain
+		}
+		trigger_event = hee_nalu.0011
+		ai_chance = {
+			base = 10
+			modifier = { add = 50 has_trait = craven }
+			modifier = { factor = 0 has_trait = brave }
+		}
+	}
+}
+
+# The Drop: you made it
+hee_nalu.0021 = {
+	type = character_event
+	title = hee_nalu.0021.t
+	desc = hee_nalu.0021.desc
+	theme = faith
+	override_background = { reference = bp3_coast }
+	left_portrait = {
+		character = root
+		animation = ecstasy
+	}
+
+	option = { # Ride it out
+		name = hee_nalu.0021.a
+		hee_nalu_break_rewards_effect = yes
+		hee_nalu_record_break_effect = yes
+		hee_nalu_host_good_session_effect = { XP = 12 }
+		add_prestige = medium_prestige_gain
+		add_piety = medium_piety_gain
+		add_character_modifier = {
+			modifier = hee_nalu_rode_the_giant_modifier
+			years = 10
+		}
+		if = {
+			limit = { has_any_nickname = no }
+			random = {
+				chance = 25
+				give_nickname = nick_ck_the_wave_rider
+			}
+		}
+		ai_chance = {
+			base = 60
+		}
+	}
+
+	option = { # Pull into the barrel
+		name = hee_nalu.0021.b
+		add_prestige = minor_prestige_gain
+		add_character_modifier = {
+			modifier = hee_nalu_rode_the_giant_modifier
+			years = 10
+		}
+		custom_tooltip = hee_nalu.outcome.perfect.tt
+		trigger_event = hee_nalu.0030
+		ai_chance = {
+			base = 40
+			modifier = { add = 20 has_trait = ambitious }
+			modifier = { add = 20 has_trait = zealous }
+		}
+	}
+}
+
+# Held Down: the wipeout (ending)
+hee_nalu.0022 = {
+	type = character_event
+	title = hee_nalu.0022.t
+	desc = hee_nalu.0022.desc
+	theme = faith
+	override_background = { reference = bp3_coast }
+	left_portrait = {
+		character = root
+		animation = fear
+	}
+
+	option = { # Fight for the surface
+		name = hee_nalu.0022.a
+		hee_nalu_record_break_effect = yes
+		hee_nalu_host_rough_session_effect = yes
+		add_stress = minor_stress_gain
+		random_list = {
+			50 = {
+				modifier = { add = 15 prowess >= 12 }
+				modifier = { add = hee_nalu_surf_skill_value }
+				custom_tooltip = hee_nalu.outcome.surface.tt
+			}
+			50 = {
+				custom_tooltip = hee_nalu.outcome.reef.tt
+				increase_wounds_no_death_effect = { REASON = duel }
+			}
+		}
+		ai_chance = {
+			base = 50
+			modifier = { add = 20 has_trait = wrathful }
+			modifier = { add = 20 has_trait = impatient }
+		}
+	}
+
+	option = { # Go limp, let the ocean release you
+		name = hee_nalu.0022.b
+		hee_nalu_record_break_effect = yes
+		hee_nalu_host_rough_session_effect = yes
+		random_list = {
+			70 = {
+				modifier = { add = 20 exists = scope:hee_nalu_attuned }
+				modifier = { add = 10 has_trait = calm }
+				modifier = { add = 10 has_trait = patient }
+				custom_tooltip = hee_nalu.outcome.released.tt
+				add_piety = medium_piety_gain
+				add_stress = minor_stress_loss
+			}
+			30 = {
+				modifier = { add = 15 has_trait = craven }
+				custom_tooltip = hee_nalu.outcome.reef.tt
+				increase_wounds_no_death_effect = { REASON = duel }
+			}
+		}
+		stress_impact = {
+			calm = minor_stress_impact_loss
+			wrathful = minor_stress_impact_gain
+		}
+		ai_chance = {
+			base = 50
+			modifier = { add = 25 has_trait = calm }
+			modifier = { add = 20 exists = scope:hee_nalu_attuned }
+		}
+	}
+}
+
+# A Shadow Beneath: the shark
+hee_nalu.0023 = {
+	type = character_event
+	title = hee_nalu.0023.t
+	desc = hee_nalu.0023.desc
+	theme = faith
+	override_background = { reference = bp3_coast }
+	left_portrait = {
+		character = root
+		animation = shock
+	}
+
+	option = { # Paddle in, slowly
+		name = hee_nalu.0023.a
+		hee_nalu_record_break_effect = yes
+		hee_nalu_host_rough_session_effect = yes
+		add_stress = minor_stress_gain
+		stress_impact = {
+			craven = minor_stress_impact_loss
+			brave = minor_stress_impact_gain
+		}
+		ai_chance = {
+			base = 40
+			modifier = { add = 40 has_trait = craven }
+			modifier = { add = 20 has_trait = cynical }
+		}
+	}
+
+	option = { # It is an 'aumakua. Greet it.
+		name = hee_nalu.0023.b
+		add_piety = medium_piety_gain
+		random_list = {
+			70 = {
+				modifier = { add = 20 exists = scope:hee_nalu_attuned }
+				modifier = { add = 10 has_trait = calm }
+				modifier = {	# the shark is this house's 'aumakua
+					add = 100
+					house ?= {
+						has_variable = hee_nalu_aumakua
+						var:hee_nalu_aumakua = flag:mano
+					}
+				}
+				custom_tooltip = hee_nalu.outcome.guided.tt
+				trigger_event = hee_nalu.0030
+			}
+			30 = {
+				custom_tooltip = hee_nalu.outcome.bumped.tt
+				add_stress = medium_stress_gain
+				hee_nalu_record_break_effect = yes
+				hee_nalu_host_rough_session_effect = yes
+				random = {
+					chance = 30
+					increase_wounds_no_death_effect = { REASON = duel }
+				}
+			}
+		}
+		stress_impact = {
+			zealous = minor_stress_impact_loss
+			brave = minor_stress_impact_loss
+			craven = medium_stress_impact_gain
+			cynical = minor_stress_impact_gain
+		}
+		ai_chance = {
+			base = 40
+			modifier = { add = 30 has_trait = zealous }
+			modifier = { add = 20 has_trait = brave }
+			modifier = { factor = 0 has_trait = craven }
+		}
+	}
+}
+
+# The Perfect Wave (ending)
+hee_nalu.0030 = {
+	type = character_event
+	title = hee_nalu.0030.t
+	desc = hee_nalu.0030.desc
+	theme = faith
+	override_background = { reference = bp3_coast }
+	left_portrait = {
+		character = root
+		animation = ecstasy
+	}
+
+	option = { # Ride it to the sand
+		name = hee_nalu.0030.a
+		hee_nalu_break_rewards_effect = yes
+		hee_nalu_record_break_effect = yes
+		hee_nalu_host_good_session_effect = { XP = 10 }
+		add_prestige = minor_prestige_gain
+		add_piety = medium_piety_gain
+		add_stress = medium_stress_loss
+		add_character_modifier = {
+			modifier = hee_nalu_stoked_modifier
+			years = 5
+		}
+		ai_chance = {
+			base = 40
+		}
+	}
+
+	option = { # Stall and stay in the barrel
+		name = hee_nalu.0030.b
+		hee_nalu_break_rewards_effect = yes
+		hee_nalu_record_break_effect = yes
+		hee_nalu_host_good_session_effect = { XP = 10 }
+		random_list = {
+			55 = {
+				modifier = { add = 20 exists = scope:hee_nalu_attuned }
+				modifier = { add = 10 prowess >= 12 }
+				modifier = { add = hee_nalu_surf_skill_value }
+				custom_tooltip = hee_nalu.outcome.barrel.tt
+				add_prestige = medium_prestige_gain
+				add_piety = major_piety_gain
+				add_stress = medium_stress_loss
+				add_character_modifier = {
+					modifier = hee_nalu_stoked_modifier
+					years = 5
+				}
+			}
+			45 = {
+				custom_tooltip = hee_nalu.outcome.clipped.tt
+				add_piety = minor_piety_gain
+				add_stress = minor_stress_gain
+				add_character_modifier = {
+					modifier = hee_nalu_stoked_modifier
+					years = 2
+				}
+			}
+		}
+		ai_chance = {
+			base = 30
+			modifier = { add = 20 has_trait = ambitious }
+			modifier = { add = 20 has_trait = brave }
+		}
+	}
+
+	option = { # Only the wave
+		name = hee_nalu.0030.c
+		hee_nalu_break_rewards_effect = yes
+		hee_nalu_record_break_effect = yes
+		hee_nalu_host_good_session_effect = { XP = 10 }
+		trigger = { exists = scope:hee_nalu_attuned }
+		add_piety = major_piety_gain
+		add_stress = medium_stress_loss
+		add_character_modifier = {
+			modifier = hee_nalu_one_with_the_ocean_modifier
+			years = 10
+		}
+		ai_chance = {
+			base = 60
+			modifier = { add = 30 has_trait = zealous }
+		}
+	}
+}
+
+##### Guests on someone else's Surf Trip (2026-11-15). root = the guest, scope:host = the host. #####
+
+# Paddling Out
+hee_nalu.0100 = {
+	type = character_event
+	title = hee_nalu.0100.t
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { has_trait = hee_nalu_surfer }
+				desc = hee_nalu.0100.desc.surfer
+			}
+			triggered_desc = {
+				trigger = { has_trait = hee_nalu_kook }
+				desc = hee_nalu.0100.desc.kook
+			}
+			desc = hee_nalu.0100.desc.newcomer
+		}
+	}
+	theme = faith
+	override_background = { reference = bp3_coast }
+	left_portrait = {
+		character = root
+		triggered_animation = {
+			trigger = { has_trait = hee_nalu_surfer }
+			animation = personality_bold
+		}
+		animation = worry
+	}
+	right_portrait = {
+		character = scope:host
+		animation = happiness
+	}
+
+	trigger = {
+		exists = scope:host
+		is_alive = yes
+		scope:host = { is_alive = yes }
+	}
+
+	option = { # Follow the host out to the lineup
+		name = hee_nalu.0100.a
+		stress_impact = {
+			brave = minor_stress_impact_loss
+			craven = medium_stress_impact_gain
+		}
+		random_list = {
+			40 = {
+				modifier = { add = hee_nalu_surf_skill_value }
+				modifier = { add = 10 prowess >= 12 }
+				modifier = { add = 10 has_trait = brave }
+				modifier = { add = 10 has_trait = patient }
+				custom_tooltip = hee_nalu.outcome.guest_wave.tt
+				trigger_event = hee_nalu.0110
+			}
+			60 = {
+				modifier = { add = 10 has_trait = arrogant }
+				modifier = { add = 10 has_trait = impatient }
+				custom_tooltip = hee_nalu.outcome.guest_tumble.tt
+				trigger_event = hee_nalu.0111
+			}
+		}
+		ai_chance = {
+			base = 45
+			modifier = { add = 30 has_trait = hee_nalu_surfer }
+			modifier = { add = 25 has_trait = brave }
+			modifier = { factor = 0 has_trait = craven }
+		}
+	}
+
+	option = { # Stay in the whitewater and learn to stand up
+		name = hee_nalu.0100.b
+		add_stress = minor_stress_loss
+		hee_nalu_guest_progress_effect = { GROM = 15 KOOK = 8 NONE = 77 XP = 2 }
+		stress_impact = {
+			humble = minor_stress_impact_loss
+			patient = minor_stress_impact_loss
+			arrogant = minor_stress_impact_gain
+		}
+		ai_chance = {
+			base = 40
+			modifier = { add = 20 has_trait = patient }
+			modifier = { add = 20 has_trait = humble }
+			modifier = { add = -30 has_trait = hee_nalu_surfer }
+		}
+	}
+
+	option = { # Watch from the sand
+		name = hee_nalu.0100.c
+		stress_impact = {
+			lazy = minor_stress_impact_loss
+			craven = minor_stress_impact_loss
+			brave = minor_stress_impact_gain
+		}
+		ai_chance = {
+			base = 15
+			modifier = { add = 40 has_trait = craven }
+			modifier = { add = 20 has_trait = lazy }
+			modifier = { factor = 0 has_trait = hee_nalu_surfer }
+		}
+	}
+}
+
+# A Wave of My Own (guest, ending)
+hee_nalu.0110 = {
+	type = character_event
+	title = hee_nalu.0110.t
+	desc = hee_nalu.0110.desc
+	theme = faith
+	override_background = { reference = bp3_coast }
+	left_portrait = {
+		character = root
+		animation = ecstasy
+	}
+	right_portrait = {
+		character = scope:host
+		animation = admiration
+	}
+
+	option = { # Again!
+		name = hee_nalu.0110.a
+		add_stress = medium_stress_loss
+		hee_nalu_guest_progress_effect = { GROM = 35 KOOK = 5 NONE = 60 XP = 5 }
+		add_character_modifier = {
+			modifier = hee_nalu_stoked_modifier
+			years = 2
+		}
+		ai_chance = {
+			base = 50
+		}
+	}
+
+	option = { # Thank the host
+		name = hee_nalu.0110.b
+		add_stress = minor_stress_loss
+		hee_nalu_guest_progress_effect = { GROM = 35 KOOK = 5 NONE = 60 XP = 5 }
+		add_opinion = {
+			target = scope:host
+			modifier = grateful_opinion
+			opinion = 20
+		}
+		scope:host = {
+			add_opinion = {
+				target = root
+				modifier = pleased_opinion
+				opinion = 15
+			}
+		}
+		ai_chance = {
+			base = 50
+			modifier = { add = 20 has_trait = gregarious }
+			modifier = { add = 20 has_trait = humble }
+		}
+	}
+}
+
+# The Washing Machine (guest, ending)
+hee_nalu.0111 = {
+	type = character_event
+	title = hee_nalu.0111.t
+	desc = hee_nalu.0111.desc
+	theme = faith
+	override_background = { reference = bp3_coast }
+	left_portrait = {
+		character = root
+		animation = shock
+	}
+	right_portrait = {
+		character = scope:host
+		animation = happiness
+	}
+
+	option = { # Laugh it off and paddle back out
+		name = hee_nalu.0111.a
+		add_stress = minor_stress_loss
+		hee_nalu_guest_progress_effect = { GROM = 12 KOOK = 22 NONE = 66 XP = 3 }
+		stress_impact = {
+			humble = minor_stress_impact_loss
+			arrogant = medium_stress_impact_gain
+		}
+		ai_chance = {
+			base = 60
+			modifier = { add = -30 has_trait = arrogant }
+		}
+	}
+
+	option = { # Never again
+		name = hee_nalu.0111.b
+		add_stress = minor_stress_gain
+		stress_impact = {
+			craven = minor_stress_impact_loss
+			brave = minor_stress_impact_gain
+		}
+		ai_chance = {
+			base = 25
+			modifier = { add = 30 has_trait = arrogant }
+			modifier = { add = 30 has_trait = craven }
+			modifier = { factor = 0 has_trait = hee_nalu_surfer }
+		}
+	}
+}
+
+##### Faith life (2026-11-16): the paddle-out funeral, the house 'aumakua, yearly flavour. #####
+
+# The Paddle-Out. root = the heir, scope:deceased = the one who died (on_death, cyber_kings_hee_nalu_on_actions.txt)
+hee_nalu.0200 = {
+	type = character_event
+	title = hee_nalu.0200.t
+	desc = hee_nalu.0200.desc
+	theme = faith
+	override_background = { reference = bp3_coast }
+	left_portrait = {
+		character = root
+		animation = worry
+	}
+
+	trigger = {
+		is_alive = yes
+		exists = scope:deceased
+	}
+
+	option = { # Lead the circle
+		name = hee_nalu.0200.a
+		add_piety = medium_piety_gain
+		add_stress = medium_stress_loss
+		ai_chance = {
+			base = 50
+			modifier = { add = 25 has_trait = zealous }
+		}
+	}
+
+	option = { # Catch one wave in for them
+		name = hee_nalu.0200.b
+		trigger = {
+			OR = {
+				has_trait = hee_nalu_surfer
+				has_trait = hee_nalu_kook
+			}
+		}
+		add_prestige = medium_prestige_gain
+		add_stress = minor_stress_loss
+		add_character_modifier = {
+			modifier = hee_nalu_stoked_modifier
+			years = 2
+		}
+		ai_chance = {
+			base = 40
+			modifier = { add = 20 has_trait = brave }
+		}
+	}
+
+	option = { # Let the kahuna see to it
+		name = hee_nalu.0200.c
+		add_piety = minor_piety_loss
+		stress_impact = {
+			cynical = minor_stress_impact_loss
+			callous = minor_stress_impact_loss
+			compassionate = medium_stress_impact_gain
+			zealous = medium_stress_impact_gain
+		}
+		ai_chance = {
+			base = 10
+			modifier = { add = 30 has_trait = cynical }
+			modifier = { add = 20 has_trait = callous }
+		}
+	}
+}
+
+# Choosing the house 'aumakua (hee_nalu_choose_aumakua_decision)
+hee_nalu.0210 = {
+	type = character_event
+	title = hee_nalu.0210.t
+	desc = hee_nalu.0210.desc
+	theme = faith
+	override_background = { reference = bp3_coast }
+	left_portrait = {
+		character = root
+		animation = admiration
+	}
+
+	option = { # Mano, the shark
+		name = hee_nalu.0210.a
+		house = {
+			set_variable = { name = hee_nalu_aumakua value = flag:mano }
+			add_house_modifier = { modifier = hee_nalu_aumakua_mano_modifier }
+		}
+		custom_tooltip = hee_nalu.0210.a.tt
+		ai_chance = {
+			base = 25
+			modifier = { add = 25 has_trait = brave }
+			modifier = { add = 25 has_trait = wrathful }
+		}
+	}
+
+	option = { # Honu, the turtle
+		name = hee_nalu.0210.b
+		house = {
+			set_variable = { name = hee_nalu_aumakua value = flag:honu }
+			add_house_modifier = { modifier = hee_nalu_aumakua_honu_modifier }
+		}
+		ai_chance = {
+			base = 25
+			modifier = { add = 25 has_trait = patient }
+			modifier = { add = 25 has_trait = calm }
+		}
+	}
+
+	option = { # Pueo, the owl
+		name = hee_nalu.0210.c
+		house = {
+			set_variable = { name = hee_nalu_aumakua value = flag:pueo }
+			add_house_modifier = { modifier = hee_nalu_aumakua_pueo_modifier }
+		}
+		ai_chance = {
+			base = 25
+			modifier = { add = 25 learning >= 12 }
+			modifier = { add = 25 has_trait = deceitful }
+		}
+	}
+
+	option = { # 'Io, the hawk
+		name = hee_nalu.0210.d
+		house = {
+			set_variable = { name = hee_nalu_aumakua value = flag:io }
+			add_house_modifier = { modifier = hee_nalu_aumakua_io_modifier }
+		}
+		ai_chance = {
+			base = 25
+			modifier = { add = 25 has_trait = ambitious }
+			modifier = { add = 25 martial >= 12 }
+		}
+	}
+}
+
+# Yearly: the kahuna reads the swell before battle
+hee_nalu.0301 = {
+	type = character_event
+	title = hee_nalu.0301.t
+	desc = hee_nalu.0301.desc
+	theme = faith
+	override_background = { reference = bp3_coast }
+	left_portrait = {
+		character = root
+		animation = worry
+	}
+
+	trigger = {
+		is_at_war = yes
+		rite = { rite_has_parameter = hee_nalu_surfing_active }
+	}
+
+	option = { # Strike with the tide
+		name = hee_nalu.0301.a
+		add_character_modifier = {
+			modifier = hee_nalu_tide_of_war_modifier
+			years = 2
+		}
+		stress_impact = {
+			zealous = minor_stress_impact_loss
+			cynical = minor_stress_impact_gain
+		}
+		ai_chance = {
+			base = 60
+		}
+	}
+
+	option = { # Wait for a better sea
+		name = hee_nalu.0301.b
+		add_piety = medium_piety_gain
+		stress_impact = {
+			patient = minor_stress_impact_loss
+			impatient = medium_stress_impact_gain
+		}
+		ai_chance = {
+			base = 25
+			modifier = { add = 25 has_trait = patient }
+		}
+	}
+
+	option = { # Wars are not won by seaweed
+		name = hee_nalu.0301.c
+		add_piety = minor_piety_loss
+		add_prestige = minor_prestige_gain
+		stress_impact = {
+			cynical = minor_stress_impact_loss
+			zealous = medium_stress_impact_gain
+		}
+		ai_chance = {
+			base = 5
+			modifier = { add = 40 has_trait = cynical }
+		}
+	}
+}
+
+# Yearly: a child's first wave
+hee_nalu.0302 = {
+	type = character_event
+	title = hee_nalu.0302.t
+	desc = hee_nalu.0302.desc
+	theme = faith
+	override_background = { reference = bp3_coast }
+	left_portrait = {
+		character = root
+		animation = happiness
+	}
+	right_portrait = {
+		character = scope:surf_child
+		animation = happiness
+	}
+
+	trigger = {
+		any_child = {
+			is_alive = yes
+			age >= 6
+			age < 16
+			NOR = {
+				has_trait = hee_nalu_surfer
+				has_trait = hee_nalu_kook
+			}
+		}
+	}
+
+	immediate = {
+		random_child = {
+			limit = {
+				is_alive = yes
+				age >= 6
+				age < 16
+				NOR = {
+					has_trait = hee_nalu_surfer
+					has_trait = hee_nalu_kook
+				}
+			}
+			save_scope_as = surf_child
+		}
+	}
+
+	option = { # Push them into their first wave yourself
+		name = hee_nalu.0302.a
+		add_stress = minor_stress_loss
+		scope:surf_child = {
+			hee_nalu_become_grom_effect = yes
+			add_opinion = {
+				target = root
+				modifier = grateful_opinion
+				opinion = 25
+			}
+		}
+		ai_chance = {
+			base = 60
+		}
+	}
+
+	option = { # Let the kahuna teach them properly
+		name = hee_nalu.0302.b
+		add_piety = minor_piety_gain
+		scope:surf_child = {
+			hee_nalu_become_grom_effect = yes
+		}
+		ai_chance = {
+			base = 30
+		}
+	}
+
+	option = { # Not yet. The sea will still be there.
+		name = hee_nalu.0302.c
+		scope:surf_child = {
+			add_opinion = {
+				target = root
+				modifier = disappointed_opinion
+				opinion = -15
+			}
+		}
+		stress_impact = {
+			craven = minor_stress_impact_loss
+			brave = minor_stress_impact_gain
+		}
+		ai_chance = {
+			base = 10
+			modifier = { add = 30 has_trait = craven }
+		}
+	}
+}
+
+# Yearly: the broken board
+hee_nalu.0303 = {
+	type = character_event
+	title = hee_nalu.0303.t
+	desc = hee_nalu.0303.desc
+	theme = faith
+	override_background = { reference = bp3_coast }
+	left_portrait = {
+		character = root
+		animation = shock
+	}
+
+	trigger = {
+		has_trait = hee_nalu_surfer
+	}
+
+	option = { # Have a new one shaped
+		name = hee_nalu.0303.a
+		remove_short_term_gold = minor_gold_value
+		add_character_modifier = {
+			modifier = hee_nalu_stoked_modifier
+			years = 2
+		}
+		ai_chance = {
+			base = 40
+			modifier = { factor = 0 short_term_gold < minor_gold_value }
+		}
+	}
+
+	option = { # Mend it yourself
+		name = hee_nalu.0303.b
+		add_trait_xp = {
+			trait = hee_nalu_surfer
+			track = hee_nalu_surfer
+			value = 2
+		}
+		stress_impact = {
+			patient = minor_stress_impact_loss
+			diligent = minor_stress_impact_loss
+			impatient = minor_stress_impact_gain
+			lazy = minor_stress_impact_gain
+		}
+		ai_chance = {
+			base = 40
+			modifier = { add = 20 has_trait = patient }
+		}
+	}
+
+	option = { # It is an omen
+		name = hee_nalu.0303.c
+		add_piety = medium_piety_gain
+		add_stress = minor_stress_gain
+		ai_chance = {
+			base = 20
+			modifier = { add = 30 has_trait = zealous }
+			modifier = { add = 20 has_trait = paranoid }
+		}
+	}
+}
+
+# Yearly: strangers at the home break
+hee_nalu.0304 = {
+	type = character_event
+	title = hee_nalu.0304.t
+	desc = hee_nalu.0304.desc
+	theme = faith
+	override_background = { reference = bp3_coast }
+	left_portrait = {
+		character = root
+		animation = personality_bold
+	}
+
+	trigger = {
+		capital_county ?= { is_coastal_county = yes }
+	}
+
+	option = { # Aloha: there are waves enough
+		name = hee_nalu.0304.a
+		add_piety = minor_piety_gain
+		capital_county = {
+			add_county_modifier = {
+				modifier = hee_nalu_aloha_county_modifier
+				years = 5
+			}
+		}
+		stress_impact = {
+			generous = minor_stress_impact_loss
+			gregarious = minor_stress_impact_loss
+			greedy = minor_stress_impact_gain
+		}
+		ai_chance = {
+			base = 50
+			modifier = { add = 25 has_trait = generous }
+		}
+	}
+
+	option = { # Locals only
+		name = hee_nalu.0304.b
+		add_prestige = minor_prestige_gain
+		add_character_modifier = {
+			modifier = hee_nalu_localism_modifier
+			years = 5
+		}
+		stress_impact = {
+			wrathful = minor_stress_impact_loss
+			arrogant = minor_stress_impact_loss
+			compassionate = minor_stress_impact_gain
+		}
+		ai_chance = {
+			base = 30
+			modifier = { add = 30 has_trait = wrathful }
+			modifier = { add = 20 has_trait = arrogant }
+		}
+	}
+}
+
+# Yearly: the flat spell
+hee_nalu.0305 = {
+	type = character_event
+	title = hee_nalu.0305.t
+	desc = hee_nalu.0305.desc
+	theme = faith
+	override_background = { reference = bp3_coast }
+	left_portrait = {
+		character = root
+		animation = worry
+	}
+
+	option = { # Offerings at the heiau
+		name = hee_nalu.0305.a
+		remove_short_term_gold = minor_gold_value
+		add_piety = medium_piety_gain
+		add_stress = minor_stress_loss
+		ai_chance = {
+			base = 40
+			modifier = { add = 25 has_trait = zealous }
+			modifier = { factor = 0 short_term_gold < minor_gold_value }
+		}
+	}
+
+	option = { # Paddle anyway, for the arms
+		name = hee_nalu.0305.b
+		trigger = { has_trait = hee_nalu_surfer }
+		add_trait_xp = {
+			trait = hee_nalu_surfer
+			track = hee_nalu_surfer
+			value = 2
+		}
+		stress_impact = {
+			diligent = minor_stress_impact_loss
+			lazy = minor_stress_impact_gain
+		}
+		ai_chance = {
+			base = 40
+			modifier = { add = 20 has_trait = diligent }
+		}
+	}
+
+	option = { # Brood
+		name = hee_nalu.0305.c
+		add_stress = minor_stress_gain
+		stress_impact = {
+			patient = minor_stress_impact_loss
+			impatient = minor_stress_impact_gain
+		}
+		ai_chance = {
+			base = 20
+		}
+	}
+}
+
+# Yearly: a wandering waterman
+hee_nalu.0306 = {
+	type = character_event
+	title = hee_nalu.0306.t
+	desc = hee_nalu.0306.desc
+	theme = faith
+	override_background = { reference = bp3_coast }
+	left_portrait = {
+		character = root
+		animation = personality_content
+	}
+	right_portrait = {
+		character = scope:wanderer
+		animation = personality_bold
+	}
+
+	trigger = {
+		exists = capital_province
+	}
+
+	immediate = {
+		hidden_effect = {
+			create_character = {
+				location = root.capital_province
+				culture = root.culture
+				faith = root.faith
+				gender_female_chance = 50
+				age = { 22 38 }
+				trait = brave
+				trait = calm
+				trait = hee_nalu_surfer
+				save_scope_as = wanderer
+			}
+			scope:wanderer = {
+				add_trait_xp = {
+					trait = hee_nalu_surfer
+					track = hee_nalu_surfer
+					value = 70
+				}
+			}
+		}
+	}
+
+	option = { # Stay. My court could use someone who reads the water.
+		name = hee_nalu.0306.a
+		add_courtier = scope:wanderer
+		scope:wanderer = {
+			add_opinion = {
+				target = root
+				modifier = grateful_opinion
+				opinion = 20
+			}
+		}
+		ai_chance = {
+			base = 60
+		}
+	}
+
+	option = { # Share a session, then send them on
+		name = hee_nalu.0306.b
+		add_stress = minor_stress_loss
+		if = {
+			limit = { has_trait = hee_nalu_surfer }
+			add_trait_xp = {
+				trait = hee_nalu_surfer
+				track = hee_nalu_surfer
+				value = 3
+			}
+		}
+		ai_chance = {
+			base = 40
+		}
+	}
+}
+
+##### Makahiki, the season of Lono (2026-11-16). Started by hee_nalu_proclaim_makahiki_decision. #####
+
+# The Games of Lono
+hee_nalu.0400 = {
+	type = character_event
+	title = hee_nalu.0400.t
+	desc = hee_nalu.0400.desc
+	theme = faith
+	override_background = { reference = bp3_coast }
+	left_portrait = {
+		character = root
+		animation = happiness
+	}
+
+	trigger = {
+		is_alive = yes
+		has_character_modifier = hee_nalu_makahiki_modifier
+	}
+
+	option = { # Enter the surf contest
+		name = hee_nalu.0400.a
+		random_list = {
+			40 = {
+				modifier = { add = hee_nalu_surf_skill_value }
+				modifier = { add = 10 has_trait = brave }
+				custom_tooltip = hee_nalu.0400.win.tt
+				add_prestige = medium_prestige_gain
+				add_piety = minor_piety_gain
+				if = {
+					limit = { has_trait = hee_nalu_surfer }
+					add_trait_xp = {
+						trait = hee_nalu_surfer
+						track = hee_nalu_surfer
+						value = 5
+					}
+				}
+			}
+			60 = {
+				custom_tooltip = hee_nalu.0400.lose.tt
+				add_stress = minor_stress_loss
+			}
+		}
+		ai_chance = {
+			base = 30
+			modifier = { add = 40 has_trait = hee_nalu_surfer }
+		}
+	}
+
+	option = { # Mokomoko, the boxing ring
+		name = hee_nalu.0400.b
+		random_list = {
+			30 = {
+				modifier = {
+					add = {
+						value = prowess
+						multiply = 2
+					}
+				}
+				custom_tooltip = hee_nalu.0400.win.tt
+				add_prestige = medium_prestige_gain
+				add_piety = minor_piety_gain
+			}
+			60 = {
+				custom_tooltip = hee_nalu.0400.lose.tt
+				add_stress = minor_stress_loss
+				random = {
+					chance = 20
+					increase_wounds_no_death_effect = { REASON = duel }
+				}
+			}
+		}
+		ai_chance = {
+			base = 20
+			modifier = { add = 30 prowess >= 12 }
+			modifier = { factor = 0 has_trait = craven }
+		}
+	}
+
+	option = { # Konane, the stone game
+		name = hee_nalu.0400.c
+		random_list = {
+			30 = {
+				modifier = {
+					add = {
+						value = learning
+						multiply = 2
+					}
+				}
+				custom_tooltip = hee_nalu.0400.win.tt
+				add_prestige = minor_prestige_gain
+				add_piety = medium_piety_gain
+			}
+			60 = {
+				custom_tooltip = hee_nalu.0400.lose.tt
+				add_stress = minor_stress_loss
+			}
+		}
+		ai_chance = {
+			base = 20
+			modifier = { add = 30 learning >= 12 }
+		}
+	}
+
+	option = { # Preside, and hand out the prizes
+		name = hee_nalu.0400.d
+		remove_short_term_gold = minor_gold_value
+		capital_county ?= {
+			add_county_modifier = {
+				modifier = hee_nalu_aloha_county_modifier
+				years = 5
+			}
+		}
+		stress_impact = {
+			generous = minor_stress_impact_loss
+			gregarious = minor_stress_impact_loss
+			greedy = minor_stress_impact_gain
+			shy = minor_stress_impact_gain
+		}
+		ai_chance = {
+			base = 20
+			modifier = { add = 25 has_trait = generous }
+			modifier = { factor = 0 short_term_gold < minor_gold_value }
+		}
+	}
+}
+
+# Lono Departs: was the peace kept?
+hee_nalu.0403 = {
+	type = character_event
+	title = hee_nalu.0403.t
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { is_at_war = yes }
+				desc = hee_nalu.0403.desc.broken
+			}
+			desc = hee_nalu.0403.desc.kept
+		}
+	}
+	theme = faith
+	override_background = { reference = bp3_coast }
+	left_portrait = {
+		character = root
+		triggered_animation = {
+			trigger = { is_at_war = yes }
+			animation = worry
+		}
+		animation = personality_content
+	}
+
+	trigger = {
+		is_alive = yes
+	}
+
+	option = { # The peace was kept
+		name = hee_nalu.0403.a
+		trigger = { is_at_war = no }
+		add_piety = medium_piety_gain
+		add_character_modifier = {
+			modifier = hee_nalu_lonos_peace_modifier
+			years = 3
+		}
+		ai_chance = {
+			base = 100
+		}
+	}
+
+	option = { # War found us before Lono left
+		name = hee_nalu.0403.b
+		trigger = { is_at_war = yes }
+		add_piety = medium_piety_loss
+		stress_impact = {
+			zealous = medium_stress_impact_gain
+			cynical = minor_stress_impact_loss
+		}
+		ai_chance = {
+			base = 100
+		}
+	}
+}

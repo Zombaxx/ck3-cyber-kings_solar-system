@@ -194,28 +194,37 @@ lunar = {
 	}
 }
 
-# Ganisian (e44, 2026-11-11): Venusian-Neanderthal hybrid of the Ganis Chasma, the Prophet's people
+# Ganisian (e44, 2026-11-11; reworked 2026-11-15 18:10 (modder 17:45)): the Prophet's people - a HYBRID of his father's Artemitians
+# (ckw_artemitian: heritage, ethnicity, names, heraldry, clothing) and the Altan Neanderthals who surround the Ganis Chasma
+# (ckw_altan: language, Neanderthal Blood, buildings, soldiers). `parents` makes the culture window show both parent cultures.
 ganisian = {
 	color = { 0.62 0.55 0.30 }
+	created = 7046.1.1
+	parents = { ckw_artemitian ckw_altan }
 	ethos = ethos_spiritual
-	heritage = heritage_ckw_ganisic
-	language = language_brythonic
+	heritage = heritage_ckw_venerian
+	language = language_proto
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
 	traditions = {
 		tradition_ck_neanderthal
 		tradition_mountain_homes
-		tradition_storytellers
 		tradition_hereditary_hierarchy
+		tradition_storytellers
+		tradition_fishermen
 	}
 	name_list = name_list_ck_venusian
 	coa_gfx = { breton_coa_gfx western_coa_gfx }
-	building_gfx = { norse_building_gfx }
-	clothing_gfx = { fp1_norse_clothing_gfx northern_clothing_gfx }
+	building_gfx = { norse_building_gfx western_building_gfx }
+	clothing_gfx = { breton_clothing_gfx fp1_norse_clothing_gfx western_clothing_gfx }
 	unit_gfx = { norse_unit_gfx }
-	house_coa_frame = house_frame_12
+	house_coa_frame = house_frame_24
+	house_coa_mask_offset = { 0.0 0.055 }
+	house_coa_mask_scale = { 0.9 0.9 }
 	ethnicities = {
-		10 = caucasian_northern_dark_hair
-		10 = caucasian_brown_hair
+		5 = caucasian_blond
+		30 = caucasian_ginger
+		35 = caucasian_brown_hair
+		30 = caucasian_dark_hair
 	}
 }

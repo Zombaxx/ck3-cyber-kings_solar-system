@@ -1,0 +1,524 @@
+﻿# Cyber Kings 2026-11-15 19:00: legends tied to the map (gen_map_legends.py; 2026-11-15 19:30 fix_map_legends.py: Earth's mortals rule on Earth, non-rulers removed).
+
+9109000 = {	# Cleito: daughter of Evenor and Leucippe; Poseidon rings her hill with sea and land (Critias 113d)
+	name = "ckn_Cleito"
+	female = yes
+	culture = greek
+	rite = hellenic_pagan
+	trait = chaste
+	trait = calm
+	trait = beauty_good_2
+	3040.1.1 = { birth = yes }
+	3110.1.1 = { death = yes }
+}
+
+9109001 = {	# Atlas: first king of Atlantis, eldest of the ten; the island and the ocean are named for him; dies when Zeus sinks Atlantis in his conquest of Mars
+	name = "ckn_Atlas"
+	dynasty_house = house_atlantid
+	culture = greek
+	rite = hellenic_pagan
+	trait = just
+	trait = ambitious
+	trait = diligent
+	trait = twin
+	trait = education_stewardship_3
+	father = 9104069
+	mother = 9109000
+	3060.1.1 = { birth = yes }
+	3250.1.1 = { death = { death_reason = death_murder killer = 9104013 } }
+}
+
+9109002 = {	# Eumelus: Eumelus, in the tongue of Atlantis Gadeirus; one of the ten kings of Atlantis (Critias 114a-c); dies when Zeus sinks Atlantis in his conquest of Mars
+	name = "ckn_Eumelus"
+	dynasty_house = house_atlantid
+	culture = greek
+	rite = hellenic_pagan
+	trait = just
+	trait = ambitious
+	trait = diligent
+	trait = twin
+	trait = education_martial_3
+	father = 9104069
+	mother = 9109000
+	3060.2.1 = { birth = yes }
+	3250.1.1 = { death = { death_reason = death_murder killer = 9104013 } }
+}
+
+9109003 = {	# Ampheres: one of the ten kings of Atlantis (Critias 114a-c); dies when Zeus sinks Atlantis in his conquest of Mars
+	name = "ckn_Ampheres"
+	dynasty_house = house_atlantid
+	culture = greek
+	rite = hellenic_pagan
+	trait = brave
+	trait = gregarious
+	trait = generous
+	trait = twin
+	trait = education_stewardship_3
+	father = 9104069
+	mother = 9109000
+	3063.1.1 = { birth = yes }
+	3250.1.1 = { death = { death_reason = death_murder killer = 9104013 } }
+}
+
+9109004 = {	# Evaemon: one of the ten kings of Atlantis (Critias 114a-c); dies when Zeus sinks Atlantis in his conquest of Mars
+	name = "ckn_Evaemon"
+	dynasty_house = house_atlantid
+	culture = greek
+	rite = hellenic_pagan
+	trait = brave
+	trait = gregarious
+	trait = generous
+	trait = twin
+	trait = education_martial_3
+	father = 9104069
+	mother = 9109000
+	3063.2.1 = { birth = yes }
+	3250.1.1 = { death = { death_reason = death_murder killer = 9104013 } }
+}
+
+9109005 = {	# Mneseus: one of the ten kings of Atlantis (Critias 114a-c); dies when Zeus sinks Atlantis in his conquest of Mars
+	name = "ckn_Mneseus"
+	dynasty_house = house_atlantid
+	culture = greek
+	rite = hellenic_pagan
+	trait = patient
+	trait = stubborn
+	trait = honest
+	trait = twin
+	trait = education_stewardship_3
+	father = 9104069
+	mother = 9109000
+	3066.1.1 = { birth = yes }
+	3250.1.1 = { death = { death_reason = death_murder killer = 9104013 } }
+}
+
+9109006 = {	# Autochthon: one of the ten kings of Atlantis (Critias 114a-c); dies when Zeus sinks Atlantis in his conquest of Mars
+	name = "ckn_Autochthon"
+	dynasty_house = house_atlantid
+	culture = greek
+	rite = hellenic_pagan
+	trait = patient
+	trait = stubborn
+	trait = honest
+	trait = twin
+	trait = education_martial_3
+	father = 9104069
+	mother = 9109000
+	3066.2.1 = { birth = yes }
+	3250.1.1 = { death = { death_reason = death_murder killer = 9104013 } }
+}
+
+9109007 = {	# Elasippus: one of the ten kings of Atlantis (Critias 114a-c); dies when Zeus sinks Atlantis in his conquest of Mars
+	name = "ckn_Elasippus"
+	dynasty_house = house_atlantid
+	culture = greek
+	rite = hellenic_pagan
+	trait = arrogant
+	trait = ambitious
+	trait = brave
+	trait = twin
+	trait = education_stewardship_3
+	father = 9104069
+	mother = 9109000
+	3069.1.1 = { birth = yes }
+	3250.1.1 = { death = { death_reason = death_murder killer = 9104013 } }
+}
+
+9109008 = {	# Mestor: one of the ten kings of Atlantis (Critias 114a-c); dies when Zeus sinks Atlantis in his conquest of Mars
+	name = "ckn_Mestor"
+	dynasty_house = house_atlantid
+	culture = greek
+	rite = hellenic_pagan
+	trait = arrogant
+	trait = ambitious
+	trait = brave
+	trait = twin
+	trait = education_martial_3
+	father = 9104069
+	mother = 9109000
+	3069.2.1 = { birth = yes }
+	3250.1.1 = { death = { death_reason = death_murder killer = 9104013 } }
+}
+
+9109009 = {	# Azaes: one of the ten kings of Atlantis (Critias 114a-c); dies when Zeus sinks Atlantis in his conquest of Mars
+	name = "ckn_Azaes"
+	dynasty_house = house_atlantid
+	culture = greek
+	rite = hellenic_pagan
+	trait = greedy
+	trait = arrogant
+	trait = deceitful
+	trait = twin
+	trait = education_stewardship_3
+	father = 9104069
+	mother = 9109000
+	3072.1.1 = { birth = yes }
+	3250.1.1 = { death = { death_reason = death_murder killer = 9104013 } }
+}
+
+9109010 = {	# Diaprepes: one of the ten kings of Atlantis (Critias 114a-c); dies when Zeus sinks Atlantis in his conquest of Mars
+	name = "ckn_Diaprepes"
+	dynasty_house = house_atlantid
+	culture = greek
+	rite = hellenic_pagan
+	trait = greedy
+	trait = arrogant
+	trait = deceitful
+	trait = twin
+	trait = education_martial_3
+	father = 9104069
+	mother = 9109000
+	3072.2.1 = { birth = yes }
+	3250.1.1 = { death = { death_reason = death_murder killer = 9104013 } }
+}
+
+9109011 = {	# Prometheus: the Titan who gave mortals fire; father of Deucalion
+	name = "ckn_Prometheus"
+	dynasty = 920011
+	culture = olympian
+	rite = hellenic_pagan
+	trait = full_cybernetic_conversion
+	trait = deceitful
+	trait = compassionate
+	trait = stubborn
+	trait = education_learning_5
+	trait = intellect_good_3
+	2806.1.1 = { birth = yes }
+	5391.2.24 = { death = yes }
+}
+
+9109012 = {	# Pyrrha: daughter of Epimetheus and Pandora; with Deucalion she survives the flood in a chest
+	name = "ckn_Pyrrha"
+	female = yes
+	culture = greek
+	rite = hellenic_pagan
+	trait = chaste
+	trait = patient
+	trait = zealous
+	3405.1.1 = { birth = yes }
+	3492.1.1 = { death = yes }
+}
+
+9109013 = {	# Deucalion: the Greek flood survivor; his chest comes to rest on Parnassus
+	name = "ckn_Deucalion"
+	dynasty = 920011
+	culture = greek
+	rite = hellenic_pagan
+	trait = just
+	trait = zealous
+	trait = patient
+	trait = education_stewardship_3
+	father = 9109011
+	3400.1.1 = { birth = yes }
+	3425.1.2 = { add_spouse = 9109012 }
+	3490.1.1 = { death = yes }
+}
+
+9109014 = {	# Hellen: son of Deucalion; the Hellenes and Hellas are named for him
+	name = "ckn_Hellen"
+	dynasty = 920011
+	culture = greek
+	rite = hellenic_pagan
+	trait = brave
+	trait = just
+	trait = gregarious
+	trait = education_martial_3
+	father = 9109013
+	mother = 9109012
+	3440.1.1 = { birth = yes }
+	3520.1.1 = { death = yes }
+}
+
+9109015 = {	# Phaethon: son of Helios; loses control of the sun-craft and is shot down by Zeus
+	name = "ckn_Phaethon"
+	dynasty = 920011
+	culture = olympian
+	rite = hellenic_pagan
+	trait = arrogant
+	trait = impatient
+	trait = brave
+	trait = education_martial_2
+	father = 9104035
+	3470.1.1 = { birth = yes }
+	3490.6.1 = { death = { death_reason = death_murder killer = 9104013 } }
+}
+
+9109016 = {	# Daedalus: the master builder; builds the Labyrinth for Minos and wings to escape him
+	name = "ckn_Daedalus"
+	culture = greek
+	rite = hellenic_pagan
+	trait = diligent
+	trait = deceitful
+	trait = ambitious
+	trait = education_learning_5
+	trait = architect
+	trait = intellect_good_3
+	3520.1.1 = { birth = yes }
+	3555.1.3 = { effect = { set_relation_rival = { target = character:9104258 } } }	# Minos imprisons Daedalus
+	3600.1.1 = { death = yes }
+}
+
+9109017 = {	# Icarus: flies too near the Sun
+	name = "ckn_Icarus"
+	culture = greek
+	rite = hellenic_pagan
+	trait = impatient
+	trait = arrogant
+	trait = brave
+	father = 9109016
+	3545.1.1 = { birth = yes }
+	3565.7.1 = { death = yes }
+}
+
+9109018 = {	# Hippolyte: queen of the Amazons, daughter of Ares; killed by Heracles for her war-belt
+	name = "ckn_Hippolyte"
+	female = yes
+	dynasty_house = house_phaeter_olympian
+	culture = greek
+	rite = hellenic_pagan
+	trait = brave
+	trait = just
+	trait = education_martial_4
+	trait = strong
+	father = 7777794
+	3575.1.1 = { birth = yes }
+	3600.5.1 = { death = { death_reason = death_murder killer = 9104099 } }
+}
+
+9109019 = {	# Penthesilea: queen of the Amazons after her sister; falls at Troy
+	name = "ckn_Penthesilea"
+	female = yes
+	dynasty_house = house_phaeter_olympian
+	culture = greek
+	rite = hellenic_pagan
+	trait = brave
+	trait = wrathful
+	trait = zealous
+	trait = education_martial_4
+	father = 7777794
+	3577.1.1 = { birth = yes }
+	3610.1.1 = { death = yes }
+}
+
+9109020 = {	# Etana: king of Kish, "the shepherd who ascended to heaven" on an eagle (Sumerian King List)
+	name = "ckn_Etana"
+	culture = assyrian
+	rite = eternal_mechanism_rite
+	trait = ambitious
+	trait = brave
+	trait = zealous
+	trait = education_stewardship_3
+	2080.1.1 = { birth = yes }
+	2160.1.1 = { death = yes }
+	2130.1.1 = { effect = { add_character_flag = ascended_to_heaven_alive } }	# 2026-11-15 19:30: carried up to Ganymede by the eagle
+}
+
+9109021 = {	# Lugalbanda: king of Uruk, father of Gilgamesh
+	name = "ckn_Lugalbanda"
+	dynasty = 920300
+	culture = assyrian
+	rite = eternal_mechanism_rite
+	trait = brave
+	trait = patient
+	trait = zealous
+	trait = education_martial_4
+	2240.1.1 = { birth = yes }
+	2315.1.1 = { death = yes }
+}
+
+9109022 = {	# Gilgamesh: king of Uruk, two-thirds god; builds its walls and seeks the plant of life
+	name = "ckn_Gilgamesh"
+	dynasty = 920300
+	culture = assyrian
+	rite = eternal_mechanism_rite
+	trait = arrogant
+	trait = brave
+	trait = lustful
+	trait = education_martial_5
+	trait = strong
+	trait = giant
+	father = 9109021
+	2290.1.1 = { birth = yes }
+	2310.1.3 = { effect = { set_relation_friend = { target = character:9109023 } } }	# Gilgamesh and Enkidu
+	2380.1.1 = { death = yes }
+}
+
+9109023 = {	# Enkidu: the wild man, Gilgamesh's friend; his death sends Gilgamesh in search of immortality
+	name = "ckn_Enkidu"
+	culture = assyrian
+	rite = eternal_mechanism_rite
+	trait = brave
+	trait = honest
+	trait = wrathful
+	trait = strong
+	trait = education_martial_3
+	2292.1.1 = { birth = yes }
+	2330.1.1 = { death = yes }
+}
+
+9109024 = {	# Ur-Nungal: son of Gilgamesh, king of Uruk (Sumerian King List)
+	name = "ckn_UrNungal"
+	dynasty = 920300
+	culture = assyrian
+	rite = eternal_mechanism_rite
+	trait = just
+	trait = calm
+	trait = diligent
+	trait = education_stewardship_3
+	father = 9109022
+	2320.1.1 = { birth = yes }
+	2400.1.1 = { death = yes }
+}
+
+9109025 = {	# Ur-Nammu: king of Ur c. 2112-2095 BCE; builder of the great ziggurat, author of the oldest law code
+	name = "ckn_UrNammu"
+	culture = assyrian
+	rite = eternal_mechanism_rite
+	trait = just
+	trait = diligent
+	trait = zealous
+	trait = education_stewardship_5
+	2860.1.1 = { birth = yes }
+	2905.1.1 = { death = yes }
+}
+
+9109026 = {	# Hammurabi: king of Babylon c. 1792-1750 BCE; the lawgiver
+	name = "ckn_Hammurabi"
+	culture = assyrian
+	rite = eternal_mechanism_rite
+	trait = just
+	trait = ambitious
+	trait = diligent
+	trait = education_stewardship_5
+	3190.1.1 = { birth = yes }
+	3250.1.1 = { death = yes }
+}
+
+9109027 = {	# Nebuchadnezzar: Nebuchadnezzar II, king of Babylon 605-562 BCE
+	name = "ckn_Nebuchadnezzar"
+	culture = assyrian
+	rite = eternal_mechanism_rite
+	trait = ambitious
+	trait = arrogant
+	trait = brave
+	trait = education_martial_5
+	4366.1.1 = { birth = yes }
+	4438.1.1 = { death = yes }
+}
+
+9109034 = {	# Kublai: Kublai Khan, 1215-1294, who "in Xanadu did a stately pleasure-dome decree"
+	name = "ckn_Kublai"
+	dynasty = 920301
+	culture = mongol
+	rite = lamaism
+	trait = ambitious
+	trait = gregarious
+	trait = just
+	trait = education_stewardship_5
+	6215.1.1 = { birth = yes }
+	6294.2.18 = { death = yes }
+}
+
+# 2026-11-16 07:10 (modder 07:05): restored as untitled historical figures - they never ruled, so they hold no titles
+
+9109028 = {	# Anaximander: of Miletus, c. 610-546 BCE: the first to draw a map of the world
+	name = "ckn_Anaximander"
+	culture = greek
+	rite = hellenic_pagan
+	trait = diligent
+	trait = patient
+	trait = honest
+	trait = education_learning_5
+	trait = scholar
+	4390.1.1 = { birth = yes }
+	4454.1.1 = { death = yes }
+}
+
+9109029 = {	# Homer: the poet of the Iliad and Odyssey (8th century BCE)
+	name = "ckn_Homer"
+	culture = greek
+	rite = hellenic_pagan
+	trait = patient
+	trait = gregarious
+	trait = education_diplomacy_4
+	trait = poet
+	trait = blind
+	4200.1.1 = { birth = yes }
+	4270.1.1 = { death = yes }
+}
+
+9109030 = {	# Dante: Dante Alighieri, 1265-1321
+	name = "ckn_Dante"
+	culture = italian
+	rite = roman_rite
+	trait = zealous
+	trait = vengeful
+	trait = diligent
+	trait = education_learning_4
+	trait = poet
+	6265.1.1 = { birth = yes }
+	6321.9.14 = { death = yes }
+}
+
+9109031 = {	# William: William Shakespeare, 1564-1616
+	name = "ckn_William"
+	culture = english
+	rite = anglican_rite
+	trait = gregarious
+	trait = ambitious
+	trait = diligent
+	trait = education_diplomacy_5
+	trait = poet
+	6564.1.1 = { birth = yes }
+	6616.4.23 = { death = yes }
+}
+
+9109032 = {	# Rembrandt: Rembrandt van Rijn, 1606-1669
+	name = "ckn_Rembrandt"
+	culture = dutch
+	rite = protestant_rite
+	trait = diligent
+	trait = profligate
+	trait = stubborn
+	trait = education_learning_3
+	6606.1.1 = { birth = yes }
+	6669.10.4 = { death = yes }
+}
+
+9109033 = {	# Johann: Johann Wolfgang von Goethe, 1749-1832
+	name = "ckn_Johann"
+	culture = german
+	rite = protestant_rite
+	trait = diligent
+	trait = lustful
+	trait = gregarious
+	trait = education_learning_5
+	trait = poet
+	6749.1.1 = { birth = yes }
+	6832.3.22 = { death = yes }
+}
+
+9109035 = {	# Giovanni: Giovanni Schiaparelli, 1835-1910: he mapped the canali of Mars in 1877 because they were there
+	name = "ckn_Giovanni"
+	culture = italian
+	rite = roman_rite
+	trait = diligent
+	trait = patient
+	trait = honest
+	trait = education_learning_4
+	trait = scholar
+	6835.1.1 = { birth = yes }
+	6910.7.4 = { death = yes }
+}
+
+9109036 = {	# Percival: Percival Lowell, 1855-1916: he drew the Martian canals from Flagstaff from 1894
+	name = "ckn_Percival"
+	culture = new_englander
+	rite = protestant_rite
+	trait = stubborn
+	trait = ambitious
+	trait = diligent
+	trait = education_learning_4
+	6855.1.1 = { birth = yes }
+	6916.11.12 = { death = yes }
+}
