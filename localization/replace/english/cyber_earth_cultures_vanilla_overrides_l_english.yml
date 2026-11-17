@@ -21,3 +21,5 @@
  thai: "Thai"
  thai_collective_noun: "Thai"
  thai_prefix: "Thai"
+# Cyber Kings (CK3 1.21, 2026-11-17): vanilla 1.21 also defines these; moved from cyber_earth_cultures_l_english.yml.
+ icelandic: "Icelandic"

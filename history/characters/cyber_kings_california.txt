@@ -60,12 +60,12 @@
 	7030.2.1 = { birth = yes }
 }
 
-# --- San Bernardino (c_santa_barbara): Republican parody, "the Governator". Moderate culture in a
-# West Liblander county on purpose (standing exception to "start ruler has the county's culture", like North Carolina).
+# --- San Bernardino (c_santa_barbara): Republican parody, "the Governator". Midwestern culture (formerly Moderate) in a
+# Californian county on purpose (standing exception to "start ruler has the county's culture", like North Carolina).
 8100960 = {
 	name = "Arnold"
 	dynasty = 8100960
-	culture = moderate
+	culture = midwestern	# was moderate (retired 2026-11-16; AMERICAN_CULTURES.md default Moderate -> Midwestern)
 	rite = roman_rite
 	trait = education_martial_3
 	trait = physique_good_3

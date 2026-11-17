@@ -507,3 +507,6 @@
  b_svendborg: "Svendborg"
  b_nykobing: "Nykøbing Falster"
  b_sonderborg: "Sønderborg"
+# Cyber Kings (CK3 1.21, 2026-11-17): vanilla 1.21 also defines these; moved from cyber_titles_l_english.yml.
+ c_joinville: "Joinville"
+ b_bage: "Bagé"

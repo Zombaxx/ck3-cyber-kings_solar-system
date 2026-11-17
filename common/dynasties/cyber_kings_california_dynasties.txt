@@ -5,7 +5,7 @@
 }
 8100960 = {
 	name = "dynn_ckc_Schwarzenator"
-	culture = "moderate"
+	culture = "midwestern"	# was "moderate" (retired 2026-11-16; default Moderate -> Midwestern)
 }
 8100970 = {
 	name = "dynn_ckc_Boswell"
