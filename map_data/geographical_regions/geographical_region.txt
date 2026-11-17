@@ -749,7 +749,7 @@ custom_arakan_mountains = {
 }
 world_steppe = {
 	empires = { e_empire1460 }
-	generate_modifiers = yes
+	generate_prosperity_modifiers = yes
 }
 world_europe = {
 	empires = { e_empire1522 }
@@ -871,7 +871,7 @@ material_hsb_seashell = {
 world_persian_empire = {
 	duchies = { d_duchy0447 d_duchy0413 }
 	duchies = { d_duchy0389 }
-	generate_modifiers = yes
+	generate_prosperity_modifiers = yes
 }
 custom_eastern_baltic = {
 	empires = { e_empire0604 }
@@ -953,9 +953,11 @@ custom_roman_empire = {
 }
 custom_roman_syria_palestina = {
 	empires = { e_empire1522 }
+	generate_prosperity_modifiers = yes
 }
 custom_roman_aegyptus = {
 	empires = { e_empire1522 }
+	generate_prosperity_modifiers = yes
 }
 custom_roman_cyrenaica = {
 	empires = { e_empire1719 }
@@ -968,6 +970,7 @@ custom_roman_illyricum = {
 }
 custom_roman_hispania = {
 	empires = { e_empire1719 }
+	generate_prosperity_modifiers = yes
 }
 custom_roman_mauretania = {
 	empires = { e_empire1702 }
@@ -1052,7 +1055,7 @@ custom_normandy_and_adjacent = {
 }
 custom_ireland = {
 	empires = { e_empire0350 }
-	generate_modifiers = yes
+	generate_prosperity_modifiers = yes
 }
 custom_k_epirus = {
 	empires = { e_empire0372 }
@@ -1108,7 +1111,7 @@ custom_beth_nahrain = {
 }
 custom_carthaginian_empire = {
 	empires = { e_empire1097 }
-	generate_modifiers = yes
+	generate_prosperity_modifiers = yes
 }
 custom_carthage = {
 	empires = { e_empire1102 }
@@ -1124,15 +1127,15 @@ custom_carthago_nova = {
 }
 custom_cumbria = {
 	empires = { e_empire1175 }
-	generate_modifiers = yes
+	generate_prosperity_modifiers = yes
 }
 world_innovation_elephants = {
 	empires = { e_empire1322 }
-	generate_modifiers = yes
+	generate_prosperity_modifiers = yes
 }
 world_innovation_camels = {
 	empires = { e_empire1378 }
-	generate_modifiers = yes
+	generate_prosperity_modifiers = yes
 }
 world_horse_buildings_in_hills_and_mountains = {
 	empires = { e_empire1401 }
@@ -1911,7 +1914,7 @@ custom_ep3_restore_rome_eastern_empire = {
 }
 black_sea_coast_region = {
 	empires = { e_empire1405 }
-	generate_modifiers = yes
+	generate_prosperity_modifiers = yes
 }
 seasonal_region_deccan = {
 	empires = { e_empire1460 }

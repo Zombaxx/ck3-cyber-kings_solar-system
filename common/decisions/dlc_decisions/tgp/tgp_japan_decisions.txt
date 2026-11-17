@@ -3,6 +3,7 @@
 ### Establish Sōryō Fief ###
 tgp_japan_establish_house_fief_decision = {
 	decision_group_type = major
+	sort_order = 100
 	title = tgp_japan_establish_house_fief_decision
 	desc = tgp_japan_establish_house_fief_decision_desc
 	selection_tooltip = tgp_japan_establish_house_fief_decision_tooltip
@@ -413,6 +414,7 @@ tgp_japan_establish_house_fief_decision = {
 ### Abandon the Bureaucracy ###
 tgp_japan_establish_soryo_manor_decision = {
 	decision_group_type = major
+	sort_order = 100
 	title = tgp_japan_establish_soryo_manor_decision
 	desc = tgp_japan_establish_soryo_manor_decision_desc
 	selection_tooltip = tgp_japan_establish_house_fief_decision_tooltip
@@ -557,6 +559,7 @@ tgp_japan_establish_soryo_manor_decision = {
 ### Establish Sōryō Administration ###
 tgp_japan_establish_soryo_administration_decision = {
 	decision_group_type = major
+	sort_order = 100
 	title = tgp_japan_establish_soryo_administration_decision
 	desc = tgp_japan_establish_soryo_administration_decision_desc
 	selection_tooltip = tgp_japan_establish_soryo_administration_decision_tooltip
@@ -641,6 +644,7 @@ tgp_japan_establish_soryo_administration_decision = {
 ### Formalize [ROOT.Char.GetHouse.GetNameNoTooltip] Shōgunate ###
 tgp_japan_become_shogun_decision = {
 	decision_group_type = major
+	sort_order = 100
 	title = tgp_japan_become_shogun_decision
 	desc = tgp_japan_become_shogun_decision_desc
 	selection_tooltip = tgp_japan_become_shogun_decision_tooltip
@@ -722,6 +726,7 @@ tgp_japan_become_shogun_decision = {
 ### Restore Direct Imperial Rule ###
 tgp_japan_emperor_restoration_decision = {
 	decision_group_type = major
+	sort_order = 100
 	title = tgp_japan_emperor_restoration_decision
 	desc = tgp_japan_emperor_restoration_decision_desc
 	selection_tooltip = tgp_japan_emperor_restoration_decision_tooltip
@@ -836,7 +841,7 @@ tgp_japan_imperial_branch_decision = {
 		# Descended from an Emperor
 		custom_tooltip = {
 			text = tgp_japan_imperial_branch_decision_emperor_ancestor_trigger
-			top_liege.primary_title.var:administrative_ui_special_title ?= {
+			ceremonial_liege_title ?= {
 				any_past_holder = {
 					OR = {
 						is_parent_of = root
@@ -849,7 +854,7 @@ tgp_japan_imperial_branch_decision = {
 		# Emperor and heirs cannot take this
 		custom_tooltip = {
 			text = tgp_japan_imperial_branch_decision_imperial_heir_trigger
-			top_liege.primary_title.var:administrative_ui_special_title ?= {
+			ceremonial_liege_title ?= {
 				NOR = {
 					holder ?= root
 					any_title_heir = { this = root }
@@ -860,7 +865,7 @@ tgp_japan_imperial_branch_decision = {
 
 	is_valid_showing_failures_only = {
 		is_available_adult = yes
-		top_liege.primary_title.var:administrative_ui_special_title.holder ?= { is_available = yes }
+		ceremonial_liege ?= { is_available = yes }
 		# No direct descendant is currently Governor
 		custom_tooltip = {
 			text = tgp_japan_establish_house_fief_direct_descendent_position_trigger
@@ -877,7 +882,7 @@ tgp_japan_imperial_branch_decision = {
 
 	effect = {
 		# Find nearest Emperor
-		top_liege.primary_title.var:administrative_ui_special_title ?= {
+		ceremonial_liege_title ?= {
 			random_past_holder = {
 				limit = { is_parent_of = root }
 				alternative_limit = { is_grandparent_of = root }
@@ -898,7 +903,7 @@ tgp_japan_imperial_branch_decision = {
 						# Filter out dynasties of Emperors further away from you
 						target_shares_nearest_related_title_holder_trigger = {
 							COMPARE = scope:nearest_emperor
-							TITLE = root.top_liege.primary_title.var:administrative_ui_special_title
+							TITLE = root.ceremonial_liege_title
 						}
 						house.house_head.top_liege ?= root.top_liege
 					}
@@ -922,7 +927,7 @@ tgp_japan_imperial_branch_decision = {
 						# Filter out dynasties of Emperors further away from you
 						target_shares_nearest_related_title_holder_trigger = {
 							COMPARE = scope:nearest_emperor
-							TITLE = root.top_liege.primary_title.var:administrative_ui_special_title
+							TITLE = root.ceremonial_liege_title
 						}
 						house.house_head.top_liege ?= root.top_liege
 					}
@@ -1010,13 +1015,17 @@ tgp_japan_imperial_branch_decision = {
 			add = 25
 		}
 		modifier = {
-			top_liege.primary_title.var:administrative_ui_special_title = {
+			has_trait = adopted_no_inheritance
+			add = 25
+		}
+		modifier = {
+			ceremonial_liege_title = {
 				any_past_holder = { is_parent_of = root }
 			}
 			add = -50
 		}
 		modifier = {
-			top_liege.primary_title.var:administrative_ui_special_title = {
+			ceremonial_liege_title = {
 				any_past_holder = { is_grandparent_of = root }
 			}
 			add = -25
@@ -1312,8 +1321,11 @@ tgp_japan_become_a_monk_decision = {
 	}
 
 	ai_potential = {
+		religion ?= religion:buddhism_religion
+		NOT = { government_has_flag = government_is_mandala }
 		is_adult = yes
 		is_at_war = no
+		tgp_is_above_retirement_age_trigger = { REALM_OWNER = root }
 		# Don't step down freely if you don't have any other house members holding a noble_family_title or inherit any held noble_family_title
 		OR = {
 			house ?= {
@@ -1328,7 +1340,6 @@ tgp_japan_become_a_monk_decision = {
 				current_heir.house = root.house
 			}
 		}
-		tgp_is_above_retirement_age_trigger = { REALM_OWNER = root }
 	}
 
 	ai_will_do = {
@@ -1368,6 +1379,7 @@ tgp_japan_become_a_monk_decision = {
 ### Restore a Yamato Ten'nō ###
 tgp_japan_restore_japanese_monarchy_decision = {
 	decision_group_type = major
+	sort_order = 100
 	title = tgp_japan_restore_japanese_monarchy_decision
 	desc = tgp_japan_restore_japanese_monarchy_decision_desc
 	selection_tooltip = tgp_japan_restore_japanese_monarchy_decision_tooltip
@@ -1417,6 +1429,7 @@ tgp_japan_restore_japanese_monarchy_decision = {
 ### Restore Ritsuryō Bureaucracy ###
 tgp_japan_restore_japanese_government_decision = {
 	decision_group_type = major
+	sort_order = 100
 	title = tgp_japan_restore_japanese_government_decision
 	desc = tgp_japan_restore_japanese_government_decision_desc
 	selection_tooltip = tgp_japan_restore_japanese_government_decision_tooltip
@@ -1472,6 +1485,7 @@ tgp_japan_restore_japanese_government_decision = {
 #Laurence Kennedy
 tgp_japan_assert_regional_dominion_government_decision = {
 	decision_group_type = major
+	sort_order = 100
 	title = tgp_japan_assert_regional_dominion_government_decision
 
 	desc = {
@@ -1661,7 +1675,7 @@ move_shogunate_court_decision = {
 		set_realm_capital = scope:barony.county
 		title:e_japan = { set_capital_county = scope:barony.county }
 		scope:barony.county = {
-			change_development_level = medium_development_level_gain
+			change_prosperity_level = medium_prosperity_level_gain
 			add_county_modifier = {
 				modifier = tgp_moved_shogun_court_modifier
 				years = 25

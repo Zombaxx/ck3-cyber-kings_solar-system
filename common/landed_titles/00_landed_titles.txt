@@ -13530,7 +13530,7 @@ h_gondwana = {
 			capital = c_province0908
 			d_binh_thuan = {
 				color = { 147 186 94 }
-				capital = c_ho_chi_minh_city
+				capital = c_hochiminh_city
 				can_be_named_after_dynasty = no
 				c_province0936 = {
 					can_be_named_after_dynasty = no
@@ -13550,10 +13550,10 @@ h_gondwana = {
 					b_barony0941 = { province = 941 }
 					b_vung_tau = { province = 8818 }
 				}
-				c_ho_chi_minh_city = {
+				c_hochiminh_city = {
 					can_be_named_after_dynasty = no
 					color = { 64 99 172 }
-					b_ho_chi_minh_city = { province = 2717 }
+					b_hochiminh_city = { province = 2717 }
 					b_can_tho = { province = 9113 }
 				}
 			}

@@ -18,7 +18,7 @@
 	discover_innovation = innovation_mustering_grounds
 	discover_innovation = innovation_quilted_armor
 	#
-	discover_innovation = innovation_development_01
+	discover_innovation = innovation_prosperity_01
 	discover_innovation = innovation_city_planning
 	discover_innovation = innovation_plenary_assemblies
 	discover_innovation = innovation_casus_belli
@@ -31,7 +31,7 @@
 	discover_innovation = innovation_mangonel
 	discover_innovation = innovation_house_soldiers
 	#
-	discover_innovation = innovation_development_02		
+	discover_innovation = innovation_prosperity_02		
 	discover_innovation = innovation_manorialism
 	discover_innovation = innovation_currency_02
 	discover_innovation = innovation_chronicle_writing

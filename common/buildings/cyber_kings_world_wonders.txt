@@ -6,7 +6,7 @@ us_capitol_01 = { # copy of doges_palace_01
 	construction_time = very_slow_construction_time
 	effect_desc = feast_cost_discount_max_desc
 
-	type_icon = "icon_structure_doges_palace.dds"
+	type_icon = "special_buildings/doges_palace.dds"
 	
 	can_construct_potential = {
 		building_requirement_tribal = no
@@ -20,8 +20,8 @@ us_capitol_01 = { # copy of doges_palace_01
 	cost_gold = 1000
 	
 	county_modifier = {
-		development_growth_factor = 0.3
-		development_growth = 0.5
+		prosperity_growth_factor = 0.3
+		prosperity_growth = 0.5
 		hostile_raid_time = 0.5
 	}
 	
@@ -29,7 +29,7 @@ us_capitol_01 = { # copy of doges_palace_01
 		garrison_size = 1
 		fort_level = 3
 		levy_size = 1
-		monthly_income = 5
+		monthly_civic_tax = 5
 		defender_holding_advantage = 10
 		travel_danger = -20
 	}
@@ -42,7 +42,6 @@ us_capitol_01 = { # copy of doges_palace_01
 		}
 	}
 	
-	type = special
 
 	flag = travel_point_of_interest_economic
 }
@@ -51,7 +50,7 @@ palacio_nacional_01 = { # copy of forbidden_city_01
 	construction_time = very_slow_construction_time
 	
 	
-	type_icon = "icon_structure_forbidden_city.dds"
+	type_icon = "special_buildings/forbidden_city.dds"
 	
 	can_construct_potential = {
 		building_requirement_tribal = no
@@ -71,8 +70,8 @@ palacio_nacional_01 = { # copy of forbidden_city_01
 		monthly_influence_mult = 0.1
 	}
 	county_modifier = {
-		tax_mult = 0.3
-		development_growth_factor = 0.2
+		all_tax_mult = 0.3
+		prosperity_growth_factor = 0.2
 	}
 	
 	ai_value = {
@@ -83,7 +82,6 @@ palacio_nacional_01 = { # copy of forbidden_city_01
 		}
 	}
 	
-	type = special
 
 	flag = travel_point_of_interest_diplomatic
 }
@@ -92,7 +90,7 @@ christ_the_redeemer_01 = { # copy of leshan_giant_buddha_01
 	construction_time = very_slow_construction_time
 
 	
-	type_icon = "icon_structure_leshan_giant_buddha.dds"
+	type_icon = "special_buildings/leshan_giant_buddha.dds"
 	
 	can_construct_potential = {
 		building_requirement_tribal = no
@@ -110,8 +108,8 @@ christ_the_redeemer_01 = { # copy of leshan_giant_buddha_01
 		stress_loss_per_piety_level = 0.05
 	}
 	county_modifier = {
-		tax_mult = 0.1
-		county_opinion_add = 5
+		all_tax_mult = 0.1
+		popular_opinion_add = 5
 		travel_danger = -10
 	}
 
@@ -129,7 +127,6 @@ christ_the_redeemer_01 = { # copy of leshan_giant_buddha_01
 		}
 	}
 	
-	type = special
 
 	flag = travel_point_of_interest_religious
 	flag = holy_building
@@ -140,7 +137,7 @@ machu_picchu_01 = { # copy of alamut_castle_01
 
 	construction_time = slow_construction_time
 	
-	type_icon = "icon_structure_alamut_castle.dds"
+	type_icon = "special_buildings/alamut_castle.dds"
 	
 	can_construct_potential = {
 	}
@@ -156,11 +153,11 @@ machu_picchu_01 = { # copy of alamut_castle_01
 
 	county_modifier = {
 		defender_holding_advantage = 2
-		monthly_county_control_growth_add = 0.5
+		monthly_control_change = 0.5
 	}
 	
 	character_modifier = {
-		monthly_county_control_growth_factor = 0.2
+		monthly_control_change_mult = 0.2
 		monthly_piety = 0.2
 	}
 
@@ -178,7 +175,6 @@ machu_picchu_01 = { # copy of alamut_castle_01
 			free_building_slots > 0
 		}
 	}
-	type = special
 
 	flag = travel_point_of_interest_martial # fortress
 }
@@ -193,7 +189,7 @@ mexico_city_cathedral_01 = { # copy of notre_dame_01
 
 	construction_time = very_slow_construction_time
 
-	type_icon = "icon_structure_notre_dame.dds"
+	type_icon = "special_buildings/notre_dame.dds"
 	
 	can_construct_potential = {
 		building_requirement_tribal = no
@@ -222,14 +218,14 @@ mexico_city_cathedral_01 = { # copy of notre_dame_01
 		monthly_dynasty_prestige_mult = 0.05
 	}
 	county_modifier = {
-		county_opinion_add = 5
-		tax_mult = 0.2
-		development_growth_factor = 0.3
-		development_growth = 0.3
+		popular_opinion_add = 5
+		all_tax_mult = 0.2
+		prosperity_growth_factor = 0.3
+		prosperity_growth = 0.3
 	}
 	
 	province_modifier = {
-		monthly_income = 2
+		monthly_civic_tax = 2
 	}
 
 	on_complete = {
@@ -246,7 +242,6 @@ mexico_city_cathedral_01 = { # copy of notre_dame_01
 		}
 	}
 	
-	type = special
 
 	flag = travel_point_of_interest_religious
 	flag = holy_building
@@ -263,7 +258,7 @@ basilica_of_guadalupe_01 = { # copy of notre_dame_01
 
 	construction_time = very_slow_construction_time
 
-	type_icon = "icon_structure_notre_dame.dds"
+	type_icon = "special_buildings/notre_dame.dds"
 	
 	can_construct_potential = {
 		building_requirement_tribal = no
@@ -292,14 +287,14 @@ basilica_of_guadalupe_01 = { # copy of notre_dame_01
 		monthly_dynasty_prestige_mult = 0.05
 	}
 	county_modifier = {
-		county_opinion_add = 5
-		tax_mult = 0.2
-		development_growth_factor = 0.3
-		development_growth = 0.3
+		popular_opinion_add = 5
+		all_tax_mult = 0.2
+		prosperity_growth_factor = 0.3
+		prosperity_growth = 0.3
 	}
 	
 	province_modifier = {
-		monthly_income = 2
+		monthly_civic_tax = 2
 	}
 
 	on_complete = {
@@ -316,7 +311,6 @@ basilica_of_guadalupe_01 = { # copy of notre_dame_01
 		}
 	}
 	
-	type = special
 
 	flag = travel_point_of_interest_religious
 	flag = holy_building
@@ -326,7 +320,7 @@ basilica_of_guadalupe_01 = { # copy of notre_dame_01
 fortifications_of_quebec_01 = { # copy of walls_of_genoa_01
 	construction_time = very_slow_construction_time
 
-	type_icon = "icon_structure_walls_of_genoa.dds"
+	type_icon = "special_buildings/walls_of_genoa.dds"
 	
 	can_construct_potential = {
 		building_requirement_tribal = no
@@ -336,15 +330,15 @@ fortifications_of_quebec_01 = { # copy of walls_of_genoa_01
 	
 	county_modifier = {
 		defender_holding_advantage = 5
-		development_growth_factor = 0.1
-		development_growth = 0.3
+		prosperity_growth_factor = 0.1
+		prosperity_growth = 0.3
 		hostile_raid_time = 0.5
 	}
 	
 	province_modifier = {
 		garrison_size = 0.25
 		fort_level = 2
-		monthly_income = 3
+		monthly_civic_tax = 3
 		travel_danger = -20
 	}
 	
@@ -357,7 +351,6 @@ fortifications_of_quebec_01 = { # copy of walls_of_genoa_01
 		}
 	}
 	
-	type = special
 
 	flag = travel_point_of_interest_martial
 }
@@ -367,7 +360,7 @@ teotihuacan_01 = { # copy of the_pyramids_01
 
 	construction_time = very_slow_construction_time
 
-	type_icon = "icon_structure_the_pyramids.dds"
+	type_icon = "special_buildings/the_pyramids.dds"
 	
 	can_construct_potential = {
 		building_requirement_tribal = no
@@ -380,7 +373,7 @@ teotihuacan_01 = { # copy of the_pyramids_01
 		short_reign_duration_mult = -0.2
 	}
 	county_modifier = {
-		development_growth = 0.2
+		prosperity_growth = 0.2
 	}
 	
 	ai_value = {
@@ -391,7 +384,6 @@ teotihuacan_01 = { # copy of the_pyramids_01
 		}
 	}
 	
-	type = special
 
 	flag = travel_point_of_interest_wonder
 }
@@ -401,7 +393,7 @@ chichen_itza_01 = { # copy of the_pyramids_01
 
 	construction_time = very_slow_construction_time
 
-	type_icon = "icon_structure_the_pyramids.dds"
+	type_icon = "special_buildings/the_pyramids.dds"
 	
 	can_construct_potential = {
 		building_requirement_tribal = no
@@ -414,7 +406,7 @@ chichen_itza_01 = { # copy of the_pyramids_01
 		short_reign_duration_mult = -0.2
 	}
 	county_modifier = {
-		development_growth = 0.2
+		prosperity_growth = 0.2
 	}
 	
 	ai_value = {
@@ -425,7 +417,6 @@ chichen_itza_01 = { # copy of the_pyramids_01
 		}
 	}
 	
-	type = special
 
 	flag = travel_point_of_interest_wonder
 }
@@ -435,7 +426,7 @@ tikal_01 = { # copy of the_pyramids_01
 
 	construction_time = very_slow_construction_time
 
-	type_icon = "icon_structure_the_pyramids.dds"
+	type_icon = "special_buildings/the_pyramids.dds"
 	
 	can_construct_potential = {
 		building_requirement_tribal = no
@@ -448,7 +439,7 @@ tikal_01 = { # copy of the_pyramids_01
 		short_reign_duration_mult = -0.2
 	}
 	county_modifier = {
-		development_growth = 0.2
+		prosperity_growth = 0.2
 	}
 	
 	ai_value = {
@@ -459,7 +450,6 @@ tikal_01 = { # copy of the_pyramids_01
 		}
 	}
 	
-	type = special
 
 	flag = travel_point_of_interest_wonder
 }
@@ -469,7 +459,7 @@ cholula_01 = { # copy of the_pyramids_01
 
 	construction_time = very_slow_construction_time
 
-	type_icon = "icon_structure_the_pyramids.dds"
+	type_icon = "special_buildings/the_pyramids.dds"
 	
 	can_construct_potential = {
 		building_requirement_tribal = no
@@ -482,7 +472,7 @@ cholula_01 = { # copy of the_pyramids_01
 		short_reign_duration_mult = -0.2
 	}
 	county_modifier = {
-		development_growth = 0.2
+		prosperity_growth = 0.2
 	}
 	
 	ai_value = {
@@ -493,7 +483,6 @@ cholula_01 = { # copy of the_pyramids_01
 		}
 	}
 	
-	type = special
 
 	flag = travel_point_of_interest_wonder
 }
@@ -508,7 +497,7 @@ vinicunca_01 = { # copy of rainbow_mountains_01
 
 	construction_time = very_slow_construction_time
 	
-	type_icon = "icon_structure_ala_daghlar_mountains.dds" 
+	type_icon = "special_buildings/ala_daghlar_mountains.dds" 
 	
 	can_construct = {
 		scope:holder.culture = {
@@ -523,8 +512,8 @@ vinicunca_01 = { # copy of rainbow_mountains_01
 	}
 	
 	county_modifier = {
-		development_growth_factor = 0.2
-		tax_mult = 0.1
+		prosperity_growth_factor = 0.2
+		all_tax_mult = 0.1
 	}
 	
 	ai_value = {
@@ -536,7 +525,6 @@ vinicunca_01 = { # copy of rainbow_mountains_01
 		}
 	}
 	
-	type = special
 
 	flag = travel_point_of_interest_natural_feature # mountain
 	flag = is_mountain
@@ -551,7 +539,7 @@ pink_lakes_01 = { # copy of maharloo_lake_01
 
 	construction_time = very_slow_construction_time
 	
-	type_icon = "icon_structure_maharloo_lake.dds" 
+	type_icon = "special_buildings/maharloo_lake.dds" 
 	
 	can_construct_potential = {
 	}
@@ -564,9 +552,9 @@ pink_lakes_01 = { # copy of maharloo_lake_01
 	}
 
 	county_modifier = {
-		county_opinion_add = 5
-		development_growth = 0.1
-		development_growth_factor = 0.6
+		popular_opinion_add = 5
+		prosperity_growth = 0.1
+		prosperity_growth_factor = 0.6
 	}
 	
 	ai_value = {
@@ -577,7 +565,6 @@ pink_lakes_01 = { # copy of maharloo_lake_01
 		}
 	}
 	
-	type = special
 
 	flag = travel_point_of_interest_natural_feature # lake
 }
@@ -591,7 +578,7 @@ popocatepetl_01 = { # copy of mount_damavand_01
 
 	construction_time = very_slow_construction_time
 	
-	type_icon = "icon_structure_mount_damavand.dds" 
+	type_icon = "special_buildings/mount_damavand.dds" 
 	
 	can_construct = {
 		scope:holder.culture = {
@@ -612,7 +599,7 @@ popocatepetl_01 = { # copy of mount_damavand_01
 	county_modifier = {
 		mountains_levy_size = 0.5
 		travel_danger = -30
-		development_growth_factor = 0.3
+		prosperity_growth_factor = 0.3
 	}
 	
 	province_modifier = {
@@ -628,7 +615,6 @@ popocatepetl_01 = { # copy of mount_damavand_01
 		}
 	}
 	
-	type = special
 
 	flag = travel_point_of_interest_natural_feature # mountain
 	flag = is_mountain
@@ -643,7 +629,7 @@ mount_rainier_01 = { # copy of mount_damavand_01
 
 	construction_time = very_slow_construction_time
 	
-	type_icon = "icon_structure_mount_damavand.dds" 
+	type_icon = "special_buildings/mount_damavand.dds" 
 	
 	can_construct = {
 		scope:holder.culture = {
@@ -664,7 +650,7 @@ mount_rainier_01 = { # copy of mount_damavand_01
 	county_modifier = {
 		mountains_levy_size = 0.5
 		travel_danger = -30
-		development_growth_factor = 0.3
+		prosperity_growth_factor = 0.3
 	}
 	
 	province_modifier = {
@@ -680,7 +666,6 @@ mount_rainier_01 = { # copy of mount_damavand_01
 		}
 	}
 	
-	type = special
 
 	flag = travel_point_of_interest_natural_feature # mountain
 	flag = is_mountain
@@ -695,7 +680,7 @@ mount_taranaki_01 = { # copy of mount_damavand_01
 
 	construction_time = very_slow_construction_time
 	
-	type_icon = "icon_structure_mount_damavand.dds" 
+	type_icon = "special_buildings/mount_damavand.dds" 
 	
 	can_construct = {
 		scope:holder.culture = {
@@ -716,7 +701,7 @@ mount_taranaki_01 = { # copy of mount_damavand_01
 	county_modifier = {
 		mountains_levy_size = 0.5
 		travel_danger = -30
-		development_growth_factor = 0.3
+		prosperity_growth_factor = 0.3
 	}
 	
 	province_modifier = {
@@ -732,7 +717,6 @@ mount_taranaki_01 = { # copy of mount_damavand_01
 		}
 	}
 	
-	type = special
 
 	flag = travel_point_of_interest_natural_feature # mountain
 	flag = is_mountain
@@ -747,7 +731,7 @@ cotopaxi_01 = { # copy of mount_damavand_01
 
 	construction_time = very_slow_construction_time
 	
-	type_icon = "icon_structure_mount_damavand.dds" 
+	type_icon = "special_buildings/mount_damavand.dds" 
 	
 	can_construct = {
 		scope:holder.culture = {
@@ -768,7 +752,7 @@ cotopaxi_01 = { # copy of mount_damavand_01
 	county_modifier = {
 		mountains_levy_size = 0.5
 		travel_danger = -30
-		development_growth_factor = 0.3
+		prosperity_growth_factor = 0.3
 	}
 	
 	province_modifier = {
@@ -784,7 +768,6 @@ cotopaxi_01 = { # copy of mount_damavand_01
 		}
 	}
 	
-	type = special
 
 	flag = travel_point_of_interest_natural_feature # mountain
 	flag = is_mountain
@@ -793,7 +776,7 @@ cotopaxi_01 = { # copy of mount_damavand_01
 kilauea_01 = { # copy of krakatoa_01
 	construction_time = very_slow_construction_time
 	
-	type_icon = "icon_structure_krakatoa.dds"
+	type_icon = "special_buildings/krakatoa.dds"
 	
 	can_construct_potential = {
 		building_requirement_tribal = no
@@ -810,7 +793,7 @@ kilauea_01 = { # copy of krakatoa_01
 		monthly_dynasty_prestige_mult = 0.05
 	}
 	county_modifier = {
-		development_growth = 0.1
+		prosperity_growth = 0.1
 	}
 	province_modifier = {
 		travel_danger = 5
@@ -824,7 +807,6 @@ kilauea_01 = { # copy of krakatoa_01
 		}
 	}
 	
-	type = special
 
 	flag = travel_point_of_interest_natural_feature
 }
@@ -832,7 +814,7 @@ kilauea_01 = { # copy of krakatoa_01
 mount_st_helens_01 = { # copy of krakatoa_01
 	construction_time = very_slow_construction_time
 	
-	type_icon = "icon_structure_krakatoa.dds"
+	type_icon = "special_buildings/krakatoa.dds"
 	
 	can_construct_potential = {
 		building_requirement_tribal = no
@@ -849,7 +831,7 @@ mount_st_helens_01 = { # copy of krakatoa_01
 		monthly_dynasty_prestige_mult = 0.05
 	}
 	county_modifier = {
-		development_growth = 0.1
+		prosperity_growth = 0.1
 	}
 	province_modifier = {
 		travel_danger = 5
@@ -863,7 +845,6 @@ mount_st_helens_01 = { # copy of krakatoa_01
 		}
 	}
 	
-	type = special
 
 	flag = travel_point_of_interest_natural_feature
 }
@@ -871,7 +852,7 @@ mount_st_helens_01 = { # copy of krakatoa_01
 paricutin_01 = { # copy of krakatoa_01
 	construction_time = very_slow_construction_time
 	
-	type_icon = "icon_structure_krakatoa.dds"
+	type_icon = "special_buildings/krakatoa.dds"
 	
 	can_construct_potential = {
 		building_requirement_tribal = no
@@ -888,7 +869,7 @@ paricutin_01 = { # copy of krakatoa_01
 		monthly_dynasty_prestige_mult = 0.05
 	}
 	county_modifier = {
-		development_growth = 0.1
+		prosperity_growth = 0.1
 	}
 	province_modifier = {
 		travel_danger = 5
@@ -902,7 +883,6 @@ paricutin_01 = { # copy of krakatoa_01
 		}
 	}
 	
-	type = special
 
 	flag = travel_point_of_interest_natural_feature
 }
@@ -913,7 +893,7 @@ milford_sound_01 = { # copy of ha_long_bay_01
 		name = "building_special_ha_long_bay_01_mesh"
 	}
 	construction_time = very_slow_construction_time
-	type_icon = "icon_structure_ha_long_bay.dds"
+	type_icon = "special_buildings/ha_long_bay.dds"
 	can_construct_potential = { building_requirement_tribal = no }
 	can_construct = { building_requirement_tribal = no }
 	cost_gold = 1000
@@ -930,7 +910,7 @@ milford_sound_01 = { # copy of ha_long_bay_01
 
 	county_modifier = {
 		hostile_raid_time = 0.5
-		development_growth_factor = 0.1
+		prosperity_growth_factor = 0.1
 	}
 	ai_value = {
 		base = 100
@@ -939,7 +919,6 @@ milford_sound_01 = { # copy of ha_long_bay_01
 			free_building_slots > 0
 		}
 	}
-	type = special
 	flag = travel_point_of_interest_natural_feature
 }
 
@@ -949,7 +928,7 @@ bay_of_islands_01 = { # copy of ha_long_bay_01
 		name = "building_special_ha_long_bay_01_mesh"
 	}
 	construction_time = very_slow_construction_time
-	type_icon = "icon_structure_ha_long_bay.dds"
+	type_icon = "special_buildings/ha_long_bay.dds"
 	can_construct_potential = { building_requirement_tribal = no }
 	can_construct = { building_requirement_tribal = no }
 	cost_gold = 1000
@@ -966,7 +945,7 @@ bay_of_islands_01 = { # copy of ha_long_bay_01
 
 	county_modifier = {
 		hostile_raid_time = 0.5
-		development_growth_factor = 0.1
+		prosperity_growth_factor = 0.1
 	}
 	ai_value = {
 		base = 100
@@ -975,14 +954,13 @@ bay_of_islands_01 = { # copy of ha_long_bay_01
 			free_building_slots > 0
 		}
 	}
-	type = special
 	flag = travel_point_of_interest_natural_feature
 }
 
 walls_of_cartagena_01 = { # copy of visby_ringmur_01
 	construction_time = very_slow_construction_time
 
-	type_icon = "icon_structure_visby_ringmur.dds"
+	type_icon = "special_buildings/visby_ringmur.dds"
 	
 	can_construct_potential = {
 		building_requirement_tribal = no
@@ -998,10 +976,10 @@ walls_of_cartagena_01 = { # copy of visby_ringmur_01
 	
 	county_modifier = {
 		defender_holding_advantage = 5
-		development_growth_factor = 0.15
-		development_growth = 0.3
-		tax_mult = 0.15
-		county_opinion_add = 5
+		prosperity_growth_factor = 0.15
+		prosperity_growth = 0.3
+		all_tax_mult = 0.15
+		popular_opinion_add = 5
 		hostile_raid_time = 0.5
 		travel_danger = -20
 	}
@@ -1020,7 +998,6 @@ walls_of_cartagena_01 = { # copy of visby_ringmur_01
 		}
 	}
 	
-	type = special
 
 	flag = travel_point_of_interest_martial
 }
@@ -1030,7 +1007,7 @@ walls_of_campeche_01 = { # copy of city_wall_of_toledo_01
 
 	construction_time = very_slow_construction_time
 	
-	type_icon = "toledo.dds" 
+	type_icon = "special_buildings/toledo.dds" 
 	
 	can_construct_potential = {
 	}
@@ -1039,9 +1016,9 @@ walls_of_campeche_01 = { # copy of city_wall_of_toledo_01
 
 	county_modifier = {
 		defender_holding_advantage = 5
-		development_growth_factor = 0.1
-		development_growth = 0.3
-		tax_mult = 0.1
+		prosperity_growth_factor = 0.1
+		prosperity_growth = 0.3
+		all_tax_mult = 0.1
 		hostile_raid_time = 0.5
 	}
 	
@@ -1060,7 +1037,6 @@ walls_of_campeche_01 = { # copy of city_wall_of_toledo_01
 		}
 	}
 	
-	type = special
 
 	flag = travel_point_of_interest_martial
 }
@@ -1077,7 +1053,7 @@ el_morro_01 = { # copy of the_tower_of_london_01
 
 	construction_time = very_slow_construction_time
 
-	type_icon = "icon_structure_tower_of_london.dds"
+	type_icon = "special_buildings/tower_of_london.dds"
 	
 	can_construct_potential = {
 		building_requirement_tribal = no
@@ -1104,9 +1080,9 @@ el_morro_01 = { # copy of the_tower_of_london_01
 		travel_danger = -20
 	}
 	county_modifier = {
-		development_growth = 0.2
-		development_growth_factor = 0.1
-		tax_mult = 0.05
+		prosperity_growth = 0.2
+		prosperity_growth_factor = 0.1
+		all_tax_mult = 0.05
 	}
 	
 	ai_value = {
@@ -1126,7 +1102,6 @@ el_morro_01 = { # copy of the_tower_of_london_01
 		}
 	}
 	
-	type = special
 
 	flag = travel_point_of_interest_martial
 }
@@ -1136,7 +1111,7 @@ citadelle_laferriere_01 = { # copy of alcazar_of_segovia_01
 
 	construction_time = very_slow_construction_time
 	
-	type_icon = "alcazar_segovia.dds" 
+	type_icon = "special_buildings/alcazar_segovia.dds" 
 	
 	can_construct = {
 		scope:holder.culture = {
@@ -1160,8 +1135,8 @@ citadelle_laferriere_01 = { # copy of alcazar_of_segovia_01
 		travel_danger = -20
 	}
 	county_modifier = {
-		tax_mult = 0.05
-		monthly_county_control_growth_add = 0.5
+		all_tax_mult = 0.05
+		monthly_control_change = 0.5
 	}
 	
 	ai_value = {
@@ -1173,7 +1148,6 @@ citadelle_laferriere_01 = { # copy of alcazar_of_segovia_01
 		}
 	}
 	
-	type = special
 
 	flag = travel_point_of_interest_martial
 }
@@ -1190,7 +1164,7 @@ castillo_de_san_marcos_01 = { # copy of the_tower_of_london_01
 
 	construction_time = very_slow_construction_time
 
-	type_icon = "icon_structure_tower_of_london.dds"
+	type_icon = "special_buildings/tower_of_london.dds"
 	
 	can_construct_potential = {
 		building_requirement_tribal = no
@@ -1217,9 +1191,9 @@ castillo_de_san_marcos_01 = { # copy of the_tower_of_london_01
 		travel_danger = -20
 	}
 	county_modifier = {
-		development_growth = 0.2
-		development_growth_factor = 0.1
-		tax_mult = 0.05
+		prosperity_growth = 0.2
+		prosperity_growth_factor = 0.1
+		all_tax_mult = 0.05
 	}
 	
 	ai_value = {
@@ -1239,7 +1213,6 @@ castillo_de_san_marcos_01 = { # copy of the_tower_of_london_01
 		}
 	}
 	
-	type = special
 
 	flag = travel_point_of_interest_martial
 }
@@ -1249,7 +1222,7 @@ chapultepec_castle_01 = { # copy of alcazar_of_segovia_01
 
 	construction_time = very_slow_construction_time
 	
-	type_icon = "alcazar_segovia.dds" 
+	type_icon = "special_buildings/alcazar_segovia.dds" 
 	
 	can_construct = {
 		scope:holder.culture = {
@@ -1273,8 +1246,8 @@ chapultepec_castle_01 = { # copy of alcazar_of_segovia_01
 		travel_danger = -20
 	}
 	county_modifier = {
-		tax_mult = 0.05
-		monthly_county_control_growth_add = 0.5
+		all_tax_mult = 0.05
+		monthly_control_change = 0.5
 	}
 	
 	ai_value = {
@@ -1286,7 +1259,6 @@ chapultepec_castle_01 = { # copy of alcazar_of_segovia_01
 		}
 	}
 	
-	type = special
 
 	flag = travel_point_of_interest_martial
 }
@@ -1301,7 +1273,7 @@ washington_national_cathedral_01 = { # copy of notre_dame_01
 
 	construction_time = very_slow_construction_time
 
-	type_icon = "icon_structure_notre_dame.dds"
+	type_icon = "special_buildings/notre_dame.dds"
 	
 	can_construct_potential = {
 		building_requirement_tribal = no
@@ -1330,14 +1302,14 @@ washington_national_cathedral_01 = { # copy of notre_dame_01
 		monthly_dynasty_prestige_mult = 0.05
 	}
 	county_modifier = {
-		county_opinion_add = 5
-		tax_mult = 0.2
-		development_growth_factor = 0.3
-		development_growth = 0.3
+		popular_opinion_add = 5
+		all_tax_mult = 0.2
+		prosperity_growth_factor = 0.3
+		prosperity_growth = 0.3
 	}
 	
 	province_modifier = {
-		monthly_income = 2
+		monthly_civic_tax = 2
 	}
 
 	on_complete = {
@@ -1354,7 +1326,6 @@ washington_national_cathedral_01 = { # copy of notre_dame_01
 		}
 	}
 	
-	type = special
 
 	flag = travel_point_of_interest_religious
 	flag = holy_building
@@ -1371,7 +1342,7 @@ st_patricks_cathedral_01 = { # copy of notre_dame_01
 
 	construction_time = very_slow_construction_time
 
-	type_icon = "icon_structure_notre_dame.dds"
+	type_icon = "special_buildings/notre_dame.dds"
 	
 	can_construct_potential = {
 		building_requirement_tribal = no
@@ -1400,14 +1371,14 @@ st_patricks_cathedral_01 = { # copy of notre_dame_01
 		monthly_dynasty_prestige_mult = 0.05
 	}
 	county_modifier = {
-		county_opinion_add = 5
-		tax_mult = 0.2
-		development_growth_factor = 0.3
-		development_growth = 0.3
+		popular_opinion_add = 5
+		all_tax_mult = 0.2
+		prosperity_growth_factor = 0.3
+		prosperity_growth = 0.3
 	}
 	
 	province_modifier = {
-		monthly_income = 2
+		monthly_civic_tax = 2
 	}
 
 	on_complete = {
@@ -1424,7 +1395,6 @@ st_patricks_cathedral_01 = { # copy of notre_dame_01
 		}
 	}
 	
-	type = special
 
 	flag = travel_point_of_interest_religious
 	flag = holy_building
@@ -1446,7 +1416,7 @@ university_of_san_marcos_01 = { # copy of siena_university
 		desc = university_effect_desc
 	}
 
-	type_icon = "icon_structure_university_of_siena.dds"
+	type_icon = "special_buildings/university_of_siena.dds"
 	
 	can_construct_potential = {
 		building_requirement_tribal = no
@@ -1469,8 +1439,8 @@ university_of_san_marcos_01 = { # copy of siena_university
 	}
 	
 	county_modifier = {
-		development_growth_factor = 0.2
-		development_growth = 0.3
+		prosperity_growth_factor = 0.2
+		prosperity_growth = 0.3
 	}
 	
 	ai_value = {
@@ -1481,7 +1451,6 @@ university_of_san_marcos_01 = { # copy of siena_university
 		}
 	}
 	
-	type = special
 
 	flag = travel_point_of_interest_learning
 	flag = special_university
@@ -1502,7 +1471,7 @@ unam_01 = { # copy of siena_university
 		desc = university_effect_desc
 	}
 
-	type_icon = "icon_structure_university_of_siena.dds"
+	type_icon = "special_buildings/university_of_siena.dds"
 	
 	can_construct_potential = {
 		building_requirement_tribal = no
@@ -1525,8 +1494,8 @@ unam_01 = { # copy of siena_university
 	}
 	
 	county_modifier = {
-		development_growth_factor = 0.2
-		development_growth = 0.3
+		prosperity_growth_factor = 0.2
+		prosperity_growth = 0.3
 	}
 	
 	ai_value = {
@@ -1537,7 +1506,6 @@ unam_01 = { # copy of siena_university
 		}
 	}
 	
-	type = special
 
 	flag = travel_point_of_interest_learning
 	flag = special_university
@@ -1558,7 +1526,7 @@ harvard_university_01 = { # copy of siena_university
 		desc = university_effect_desc
 	}
 
-	type_icon = "icon_structure_university_of_siena.dds"
+	type_icon = "special_buildings/university_of_siena.dds"
 	
 	can_construct_potential = {
 		building_requirement_tribal = no
@@ -1581,8 +1549,8 @@ harvard_university_01 = { # copy of siena_university
 	}
 	
 	county_modifier = {
-		development_growth_factor = 0.2
-		development_growth = 0.3
+		prosperity_growth_factor = 0.2
+		prosperity_growth = 0.3
 	}
 	
 	ai_value = {
@@ -1593,7 +1561,6 @@ harvard_university_01 = { # copy of siena_university
 		}
 	}
 	
-	type = special
 
 	flag = travel_point_of_interest_learning
 	flag = special_university
@@ -1614,7 +1581,7 @@ universite_laval_01 = { # copy of siena_university
 		desc = university_effect_desc
 	}
 
-	type_icon = "icon_structure_university_of_siena.dds"
+	type_icon = "special_buildings/university_of_siena.dds"
 	
 	can_construct_potential = {
 		building_requirement_tribal = no
@@ -1637,8 +1604,8 @@ universite_laval_01 = { # copy of siena_university
 	}
 	
 	county_modifier = {
-		development_growth_factor = 0.2
-		development_growth = 0.3
+		prosperity_growth_factor = 0.2
+		prosperity_growth = 0.3
 	}
 	
 	ai_value = {
@@ -1649,7 +1616,6 @@ universite_laval_01 = { # copy of siena_university
 		}
 	}
 	
-	type = special
 
 	flag = travel_point_of_interest_learning
 	flag = special_university
@@ -1660,7 +1626,7 @@ moai_of_rapa_nui_01 = { # copy of stonehenge_01
 
 	construction_time = very_slow_construction_time
 
-	type_icon = "icon_structure_stonehenge.dds"
+	type_icon = "special_buildings/stonehenge.dds"
 	
 	can_construct_potential = {
 		building_requirement_tribal = no
@@ -1688,7 +1654,6 @@ moai_of_rapa_nui_01 = { # copy of stonehenge_01
 		}
 	}
 	
-	type = special
 
 	flag = travel_point_of_interest_religious
 }
@@ -1696,7 +1661,7 @@ moai_of_rapa_nui_01 = { # copy of stonehenge_01
 nan_madol_01 = { # copy of plain_of_jars_01
 	construction_time = very_slow_construction_time
 
-	type_icon = "icon_structure_plain_of_jars.dds"
+	type_icon = "special_buildings/plain_of_jars.dds"
 	
 	can_construct_potential = {
 		building_requirement_tribal = no
@@ -1716,7 +1681,7 @@ nan_madol_01 = { # copy of plain_of_jars_01
 	}
 
 	province_modifier = {
-		monthly_income = 1
+		monthly_civic_tax = 1
 	}
 
 	county_modifier = {
@@ -1731,7 +1696,6 @@ nan_madol_01 = { # copy of plain_of_jars_01
 		}
 	}
 	
-	type = special
 
 	flag = travel_point_of_interest_religious
 	flag = holy_building
@@ -1742,14 +1706,14 @@ cahokia_mounds_01 = { # copy of mozu_tombs
 
 	construction_time = very_slow_construction_time
 
-	type_icon = "icon_structure_kofun.dds"
+	type_icon = "special_buildings/kofun.dds"
 	
 	can_construct_potential = {
 		building_requirement_tribal = no
 	}
 
 	county_modifier = {
-		county_opinion_add = 5
+		popular_opinion_add = 5
 		defender_holding_advantage = normal_building_advantage_tier_1
 	}
 	
@@ -1769,7 +1733,6 @@ cahokia_mounds_01 = { # copy of mozu_tombs
 		}
 	}
 	
-	type = special
 
 	flag = travel_point_of_interest_wonder
 }
@@ -1779,14 +1742,14 @@ serpent_mound_01 = { # copy of mozu_tombs
 
 	construction_time = very_slow_construction_time
 
-	type_icon = "icon_structure_kofun.dds"
+	type_icon = "special_buildings/kofun.dds"
 	
 	can_construct_potential = {
 		building_requirement_tribal = no
 	}
 
 	county_modifier = {
-		county_opinion_add = 5
+		popular_opinion_add = 5
 		defender_holding_advantage = normal_building_advantage_tier_1
 	}
 	
@@ -1806,7 +1769,6 @@ serpent_mound_01 = { # copy of mozu_tombs
 		}
 	}
 	
-	type = special
 
 	flag = travel_point_of_interest_wonder
 }
@@ -1815,7 +1777,7 @@ mesa_verde_01 = { # copy of petra_01
 
 	construction_time = very_slow_construction_time
 
-	type_icon = "icon_structure_petra.dds"
+	type_icon = "special_buildings/petra.dds"
 	
 	can_construct_potential = {
 		building_requirement_tribal = no
@@ -1824,14 +1786,14 @@ mesa_verde_01 = { # copy of petra_01
 	cost_gold = 3000
 
 	county_modifier = {
-		tax_mult = 0.1
+		all_tax_mult = 0.1
 		supply_limit_mult = 0.25
-		development_growth = 0.2
-		development_growth_factor = 0.15
+		prosperity_growth = 0.2
+		prosperity_growth_factor = 0.15
 	}
 	
 	province_modifier = {
-		monthly_income = good_building_tax_tier_2
+		monthly_civic_tax = good_building_tax_tier_2
 	}
 	
 	ai_value = {
@@ -1842,7 +1804,6 @@ mesa_verde_01 = { # copy of petra_01
 		}
 	}
 	
-	type = special
 
 	flag = travel_point_of_interest_economic
 }
@@ -1854,7 +1815,7 @@ kuelap_01 = { # copy of fairy_chimneys
 	}
 	construction_time = very_slow_construction_time
 
-	type_icon = "icon_structure_fairy_chimneys.dds"
+	type_icon = "special_buildings/fairy_chimneys.dds"
 	
 	can_construct_potential = {
 		
@@ -1867,8 +1828,8 @@ kuelap_01 = { # copy of fairy_chimneys
 	cost_gold = 250
 	
 	county_modifier = {
-		development_growth_factor = 0.1
-		development_growth = 0.2
+		prosperity_growth_factor = 0.1
+		prosperity_growth = 0.2
 		hostile_raid_time = 0.5
 		defender_holding_advantage = 5
 	}
@@ -1887,7 +1848,6 @@ kuelap_01 = { # copy of fairy_chimneys
 		}
 	}
 	
-	type = special
 
 	flag = travel_point_of_interest_economic
 }
@@ -1907,7 +1867,7 @@ chankillo_01 = { # copy of dengfeng_observatory_01
 	}
 
 	construction_time = very_slow_construction_time
-	type_icon = "icon_structure_dengfeng_observatory.dds"
+	type_icon = "special_buildings/dengfeng_observatory.dds"
 	can_construct_potential = { building_requirement_tribal = no }
 	can_construct = { building_requirement_tribal = no }
 	cost_gold = 1000
@@ -1917,8 +1877,8 @@ chankillo_01 = { # copy of dengfeng_observatory_01
 		monthly_learning_lifestyle_xp_gain_mult = 0.05
 	}
 	county_modifier = {
-		development_growth_factor = 0.2
-		development_growth = 0.2
+		prosperity_growth_factor = 0.2
+		prosperity_growth = 0.2
 	}
 	ai_value = {
 		base = 100
@@ -1927,14 +1887,13 @@ chankillo_01 = { # copy of dengfeng_observatory_01
 			free_building_slots > 0
 		}
 	}
-	type = special
 	flag = travel_point_of_interest_learning
 	flag = special_university
 }
 
 great_zimbabwe_01 = { # copy of kano_walls_01
 	construction_time = very_slow_construction_time
-	type_icon = "icon_structure_kano_walls.dds"
+	type_icon = "special_buildings/kano_walls.dds"
 	cost_gold = 1000
 	can_construct = { scope:holder.culture = { has_innovation = innovation_motte } } 
 	character_modifier = {
@@ -1942,9 +1901,9 @@ great_zimbabwe_01 = { # copy of kano_walls_01
 	}
 	county_modifier = {
 		hostile_raid_time = 1
-		development_growth_factor = 0.2
-		development_growth = 0.2
-		tax_mult = 0.2
+		prosperity_growth_factor = 0.2
+		prosperity_growth = 0.2
+		all_tax_mult = 0.2
 	}
 	province_modifier = {
 		defender_holding_advantage = normal_building_advantage_tier_2
@@ -1958,14 +1917,13 @@ great_zimbabwe_01 = { # copy of kano_walls_01
 			free_building_slots > 0
 		}
 	}
-	type = special
 	flag = travel_point_of_interest_martial
 }
 
 swahili_port_sofala = { # copy of swahili_port_zanzibar
 	construction_time = very_slow_construction_time
 
-	type_icon = "icon_structure_swahili_port.dds"
+	type_icon = "special_buildings/swahili_port.dds"
 	
 	can_construct_potential = {
 		building_requirement_tribal = no
@@ -1979,13 +1937,13 @@ swahili_port_sofala = { # copy of swahili_port_zanzibar
 	}
 	
 	county_modifier = {
-		development_growth_factor = 0.3
-		development_growth = 0.5
+		prosperity_growth_factor = 0.3
+		prosperity_growth = 0.5
 	}
 	
 	province_modifier = {
 		levy_size = 1
-		monthly_income = 4
+		monthly_civic_tax = 4
 	}
 	
 	ai_value = {
@@ -1996,7 +1954,6 @@ swahili_port_sofala = { # copy of swahili_port_zanzibar
 		}
 	}
 	
-	type = special
 
 	flag = travel_point_of_interest_economic
 }
@@ -2004,7 +1961,7 @@ swahili_port_sofala = { # copy of swahili_port_zanzibar
 island_of_mozambique_01 = { # copy of swahili_port_zanzibar
 	construction_time = very_slow_construction_time
 
-	type_icon = "icon_structure_swahili_port.dds"
+	type_icon = "special_buildings/swahili_port.dds"
 	
 	can_construct_potential = {
 		building_requirement_tribal = no
@@ -2018,13 +1975,13 @@ island_of_mozambique_01 = { # copy of swahili_port_zanzibar
 	}
 	
 	county_modifier = {
-		development_growth_factor = 0.3
-		development_growth = 0.5
+		prosperity_growth_factor = 0.3
+		prosperity_growth = 0.5
 	}
 	
 	province_modifier = {
 		levy_size = 1
-		monthly_income = 4
+		monthly_civic_tax = 4
 	}
 	
 	ai_value = {
@@ -2035,7 +1992,6 @@ island_of_mozambique_01 = { # copy of swahili_port_zanzibar
 		}
 	}
 	
-	type = special
 
 	flag = travel_point_of_interest_economic
 }
@@ -2043,7 +1999,7 @@ island_of_mozambique_01 = { # copy of swahili_port_zanzibar
 grand_canyon_01 = { # copy of wulingyuan_01
 	construction_time = very_slow_construction_time
 	
-	type_icon = "icon_structure_wulingyuan.dds"
+	type_icon = "special_buildings/wulingyuan.dds"
 	
 	can_construct_potential = {
 	}
@@ -2066,7 +2022,6 @@ grand_canyon_01 = { # copy of wulingyuan_01
 		}
 	}
 	
-	type = special
 
 	flag = travel_point_of_interest_natural_feature # mountains
 }
@@ -2076,7 +2031,7 @@ uluru_01 = { # copy of mount_damavand_01
 
 	construction_time = very_slow_construction_time
 	
-	type_icon = "icon_structure_mount_damavand.dds" 
+	type_icon = "special_buildings/mount_damavand.dds" 
 	
 	can_construct = {
 		scope:holder.culture = {
@@ -2097,7 +2052,7 @@ uluru_01 = { # copy of mount_damavand_01
 	county_modifier = {
 		mountains_levy_size = 0.5
 		travel_danger = -30
-		development_growth_factor = 0.3
+		prosperity_growth_factor = 0.3
 	}
 	
 	province_modifier = {
@@ -2113,7 +2068,6 @@ uluru_01 = { # copy of mount_damavand_01
 		}
 	}
 	
-	type = special
 
 	flag = travel_point_of_interest_natural_feature # mountain
 	flag = is_mountain
@@ -2122,7 +2076,7 @@ uluru_01 = { # copy of mount_damavand_01
 iguazu_falls_01 = { # copy of wulingyuan_01
 	construction_time = very_slow_construction_time
 	
-	type_icon = "icon_structure_wulingyuan.dds"
+	type_icon = "special_buildings/wulingyuan.dds"
 	
 	can_construct_potential = {
 	}
@@ -2145,7 +2099,6 @@ iguazu_falls_01 = { # copy of wulingyuan_01
 		}
 	}
 	
-	type = special
 
 	flag = travel_point_of_interest_natural_feature # mountains
 }
@@ -2153,7 +2106,7 @@ iguazu_falls_01 = { # copy of wulingyuan_01
 niagara_falls_01 = { # copy of wulingyuan_01
 	construction_time = very_slow_construction_time
 	
-	type_icon = "icon_structure_wulingyuan.dds"
+	type_icon = "special_buildings/wulingyuan.dds"
 	
 	can_construct_potential = {
 	}
@@ -2176,7 +2129,6 @@ niagara_falls_01 = { # copy of wulingyuan_01
 		}
 	}
 	
-	type = special
 
 	flag = travel_point_of_interest_natural_feature # mountains
 }
@@ -2190,7 +2142,7 @@ torres_del_paine_01 = { # copy of mount_damavand_01
 
 	construction_time = very_slow_construction_time
 	
-	type_icon = "icon_structure_mount_damavand.dds" 
+	type_icon = "special_buildings/mount_damavand.dds" 
 	
 	can_construct = {
 		scope:holder.culture = {
@@ -2211,7 +2163,7 @@ torres_del_paine_01 = { # copy of mount_damavand_01
 	county_modifier = {
 		mountains_levy_size = 0.5
 		travel_danger = -30
-		development_growth_factor = 0.3
+		prosperity_growth_factor = 0.3
 	}
 	
 	province_modifier = {
@@ -2227,7 +2179,6 @@ torres_del_paine_01 = { # copy of mount_damavand_01
 		}
 	}
 	
-	type = special
 
 	flag = travel_point_of_interest_natural_feature # mountain
 	flag = is_mountain
@@ -2238,7 +2189,7 @@ table_mountain_01 = { # copy of mount_damavand_01
 
 	construction_time = very_slow_construction_time
 	
-	type_icon = "icon_structure_mount_damavand.dds" 
+	type_icon = "special_buildings/mount_damavand.dds" 
 	
 	can_construct = {
 		scope:holder.culture = {
@@ -2259,7 +2210,7 @@ table_mountain_01 = { # copy of mount_damavand_01
 	county_modifier = {
 		mountains_levy_size = 0.5
 		travel_danger = -30
-		development_growth_factor = 0.3
+		prosperity_growth_factor = 0.3
 	}
 	
 	province_modifier = {
@@ -2275,7 +2226,6 @@ table_mountain_01 = { # copy of mount_damavand_01
 		}
 	}
 	
-	type = special
 
 	flag = travel_point_of_interest_natural_feature # mountain
 	flag = is_mountain
@@ -2290,7 +2240,7 @@ olympus_mons_01 = { # copy of mount_damavand_01
 
 	construction_time = very_slow_construction_time
 	
-	type_icon = "icon_structure_mount_damavand.dds" 
+	type_icon = "special_buildings/mount_damavand.dds" 
 	
 	can_construct = {
 		scope:holder.culture = {
@@ -2311,7 +2261,7 @@ olympus_mons_01 = { # copy of mount_damavand_01
 	county_modifier = {
 		mountains_levy_size = 0.5
 		travel_danger = -30
-		development_growth_factor = 0.3
+		prosperity_growth_factor = 0.3
 	}
 	
 	province_modifier = {
@@ -2327,7 +2277,6 @@ olympus_mons_01 = { # copy of mount_damavand_01
 		}
 	}
 	
-	type = special
 
 	flag = travel_point_of_interest_natural_feature # mountain
 	flag = is_mountain
@@ -2336,7 +2285,7 @@ olympus_mons_01 = { # copy of mount_damavand_01
 valles_marineris_01 = { # copy of wulingyuan_01
 	construction_time = very_slow_construction_time
 	
-	type_icon = "icon_structure_wulingyuan.dds"
+	type_icon = "special_buildings/wulingyuan.dds"
 	
 	can_construct_potential = {
 	}
@@ -2359,7 +2308,6 @@ valles_marineris_01 = { # copy of wulingyuan_01
 		}
 	}
 	
-	type = special
 
 	flag = travel_point_of_interest_natural_feature # mountains
 }
@@ -2373,7 +2321,7 @@ maxwell_montes_01 = { # copy of mount_damavand_01
 
 	construction_time = very_slow_construction_time
 	
-	type_icon = "icon_structure_mount_damavand.dds" 
+	type_icon = "special_buildings/mount_damavand.dds" 
 	
 	can_construct = {
 		scope:holder.culture = {
@@ -2394,7 +2342,7 @@ maxwell_montes_01 = { # copy of mount_damavand_01
 	county_modifier = {
 		mountains_levy_size = 0.5
 		travel_danger = -30
-		development_growth_factor = 0.3
+		prosperity_growth_factor = 0.3
 	}
 	
 	province_modifier = {
@@ -2410,7 +2358,6 @@ maxwell_montes_01 = { # copy of mount_damavand_01
 		}
 	}
 	
-	type = special
 
 	flag = travel_point_of_interest_natural_feature # mountain
 	flag = is_mountain

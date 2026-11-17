@@ -464,8 +464,8 @@ tradition_ck_sol = {
 		health = 1
 	}
 	county_modifier = {
-		development_growth_factor = 0.25
-		tax_mult = 0.15
+		prosperity_growth_factor = 0.25
+		all_tax_mult = 0.15
 		levy_size = 0.15
 	}
 

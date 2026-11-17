@@ -7,7 +7,7 @@
 	discover_innovation = innovation_gavelkind
 	discover_innovation = innovation_mustering_grounds
 	discover_innovation = innovation_crop_rotation
-	discover_innovation = innovation_development_01
+	discover_innovation = innovation_prosperity_01
 }
 
 6934.1.1 = {
@@ -49,10 +49,10 @@
 	discover_innovation = innovation_castle_baileys
 	discover_innovation = innovation_men_at_arms
 	discover_innovation = innovation_windmills
-	discover_innovation = innovation_development_03
+	discover_innovation = innovation_prosperity_03
 	discover_innovation = innovation_divine_right
 	discover_innovation = innovation_guilds
-	discover_innovation = innovation_development_02
+	discover_innovation = innovation_prosperity_02
 	discover_innovation = innovation_currency_02
 	discover_innovation = innovation_baliffs
 	discover_innovation = innovation_mangonel

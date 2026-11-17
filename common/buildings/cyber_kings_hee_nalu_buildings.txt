@@ -5,7 +5,7 @@
 hee_nalu_surf_heiau_01 = {
 	construction_time = slow_construction_time
 
-	type_icon = "icon_structure_stonehenge.dds"
+	type_icon = "special_buildings/stonehenge.dds"
 
 	can_construct_potential = {
 		building_requirement_tribal = no
@@ -28,12 +28,12 @@ hee_nalu_surf_heiau_01 = {
 	}
 
 	province_modifier = {
-		monthly_income = 1
+		monthly_civic_tax = 1
 	}
 
 	county_modifier = {
-		county_opinion_add = 5
-		development_growth_factor = 0.1
+		popular_opinion_add = 5
+		prosperity_growth_factor = 0.1
 	}
 
 	ai_value = {
@@ -44,6 +44,5 @@ hee_nalu_surf_heiau_01 = {
 		}
 	}
 
-	type = special
 	flag = travel_point_of_interest_religious
 }

@@ -17,6 +17,7 @@ become_chakravarti_decision = {
 		reference = "gfx/interface/illustrations/decisions/hindu_ruler.dds"
 	}
 	decision_group_type = major
+	sort_order = 130
 	desc = become_chakravarti_decision_desc
 
 	ai_check_interval_by_tier = {
@@ -139,6 +140,7 @@ take_stewardship_of_the_sacred_river_decision = {
 		reference = "gfx/interface/illustrations/decisions/hindu_religious.dds"
 	}
 	decision_group_type = major
+	sort_order = 100
 	ai_check_interval_by_tier = {
 		barony = 0
 		county = 0
@@ -279,6 +281,7 @@ form_bene_israel_decision = {
 		reference = "gfx/interface/illustrations/decisions/decision_found_kingdom.dds"
 	}
 	decision_group_type = major
+	sort_order = 110
 
 	desc = form_bene_israel_decision_desc
 	selection_tooltip = form_bene_israel_decision_tooltip
@@ -386,6 +389,7 @@ spread_theravada_faith_decision = {
 		reference = "gfx/interface/illustrations/decisions/hindu_religious.dds"
 	}
 	decision_group_type = major
+	sort_order = 100
 	title = spread_theravada_faith_decision
 	desc = spread_theravada_faith_decision_desc
 	confirm_text = spread_theravada_faith_decision_confirm # had to use an override for some reason
@@ -493,6 +497,7 @@ found_the_empire_of_hindustan_decision = {
 		reference = "gfx/interface/illustrations/decisions/fp3/fp3_decision_sunder.dds"
 	}
 	decision_group_type = major
+	sort_order = 120
 
 	ai_check_interval_by_tier = {
 		barony = 0

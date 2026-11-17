@@ -2,6 +2,7 @@
 #RegionalDrink
 #RegionalAlcoholicDrink
 #get_region_root_vegetable & get_region_root_vegetable_plural
+#RegionalSpice & RegionalSpicePlural
 #RegionalEdibleAnimal
 #RegionalEdibleMeat
 #FavoriteTreat
@@ -962,6 +963,225 @@ RegionalRootVegetablePlural = {
 	}
 }
 
+#NOTE! These nouns should work with "a" (not "an"), or as a mass noun ("a sack of pepper").
+RegionalSpice = {
+	type = character
+	random_valid = yes
+
+	text = {
+		trigger = {
+			location = {
+				OR = {
+					geographical_region = world_asia_sulawesi_maluku
+					geographical_region = world_asia_indonesia
+					geographical_region = world_africa_east
+				}
+			}
+		}
+		localization_key = regional_spice_clove
+	}
+	text = {
+		trigger = {
+			location = {
+				OR = {
+					geographical_region = world_asia_sulawesi_maluku
+					geographical_region = world_asia_indonesia
+				}
+			}
+		}
+		localization_key = regional_spice_nutmeg
+	}
+	text = {
+		trigger = {
+			location = { geographical_region = world_asia_sulawesi_maluku }
+		}
+		localization_key = regional_spice_mace
+	}
+	text = {
+		trigger = {
+			location = {
+				OR = {
+					geographical_region = world_india
+					geographical_region = world_asia_southeast
+					geographical_region = world_asia_indonesia
+					geographical_region = world_asia_borneo
+				}
+			}
+		}
+		localization_key = regional_spice_pepper
+	}
+	text = {
+		trigger = {
+			location = { geographical_region = world_india }
+		}
+		localization_key = regional_spice_long_pepper
+	}
+	text = {
+		trigger = {
+			location = {
+				OR = {
+					geographical_region = world_india
+					geographical_region = world_asia_southeast
+					geographical_region = world_africa_east
+				}
+			}
+		}
+		localization_key = regional_spice_cinnamon
+	}
+	text = {
+		trigger = {
+			location = { geographical_region = world_india }
+		}
+		localization_key = regional_spice_cardamom
+	}
+	text = {
+		trigger = {
+			location = { geographical_region = world_india }
+		}
+		localization_key = regional_spice_turmeric
+	}
+	text = {
+		trigger = {
+			location = {
+				OR = {
+					geographical_region = world_india
+					geographical_region = world_asia_china
+					geographical_region = world_asia_southeast
+					geographical_region = world_asia_japan
+					geographical_region = world_tibet
+				}
+			}
+		}
+		localization_key = root_vegetable_ginger
+	}
+	text = {
+		trigger = {
+			location = { geographical_region = world_asia_southeast }
+		}
+		localization_key = regional_spice_galangal
+	}
+	text = {
+		trigger = {
+			location = { geographical_region = world_asia_china }
+		}
+		localization_key = regional_spice_cassia
+	}
+	text = {
+		trigger = {
+			location = { geographical_region = world_asia_china }
+		}
+		localization_key = regional_spice_star_anise
+	}
+	text = {
+		trigger = {
+			location = {
+				OR = {
+					geographical_region = world_asia_china
+					geographical_region = world_tibet
+				}
+			}
+		}
+		localization_key = regional_spice_sichuan_pepper
+	}
+	text = {
+		trigger = {
+			location = { geographical_region = world_asia_japan }
+		}
+		localization_key = regional_spice_japanese_pepper
+	}
+	text = {
+		trigger = {
+			location = {
+				OR = {
+					geographical_region = world_middle_east
+					geographical_region = world_middle_east_persia
+					geographical_region = world_europe_south
+					geographical_region = world_asia_minor
+				}
+			}
+		}
+		localization_key = regional_spice_saffron
+	}
+	text = {
+		trigger = {
+			location = {
+				OR = {
+					geographical_region = world_middle_east
+					geographical_region = world_middle_east_persia
+					geographical_region = world_asia_minor
+					geographical_region = world_africa_north
+					geographical_region = world_steppe
+				}
+			}
+		}
+		localization_key = regional_spice_cumin
+	}
+	text = {
+		trigger = {
+			location = {
+				OR = {
+					geographical_region = world_middle_east
+					geographical_region = world_asia_minor
+					geographical_region = world_africa_north
+				}
+			}
+		}
+		localization_key = regional_spice_coriander
+	}
+	text = {
+		trigger = {
+			location = { geographical_region = world_africa_west }
+		}
+		localization_key = regional_spice_melegueta_pepper
+	}
+	text = {
+		trigger = {
+			location = {
+				OR = {
+					geographical_region = world_europe
+					geographical_region = world_asia_minor
+				}
+			}
+		}
+		localization_key = regional_spice_mustard
+	}
+	text = {
+		trigger = {
+			location = {
+				OR = {
+					geographical_region = world_europe_south
+					geographical_region = world_europe_west
+					geographical_region = world_asia_minor
+				}
+			}
+		}
+		localization_key = regional_spice_fennel
+	}
+	text = {
+		trigger = {
+			location = {
+				OR = {
+					geographical_region = world_europe_north
+					geographical_region = world_europe_east
+					geographical_region = world_steppe
+				}
+			}
+		}
+		localization_key = regional_spice_caraway
+	}
+	# Fallback so the pool is never empty.
+	text = {
+		localization_key = regional_spice_pepper
+	}
+}
+
+RegionalSpicePlural = {
+	type = character
+	random_valid = yes
+	parent = RegionalSpice
+	suffix = _plural
+}
+
 RegionalEdibleAnimal = {
 	type = character
 	random_valid = yes
@@ -1888,15 +2108,30 @@ FavoriteTreatUppercase = {
 	}
 }
 
+# Keep in sync with GetTgfLocalDish in gdp_custom_loc.txt
 GetLocalStreetFood = {
 	type = character
 
 	text = {
 		trigger = {
-			OR = {
-				root.location.culture = { has_cultural_pillar = heritage_arabic }
-				root.location.culture = { has_cultural_pillar = heritage_iranian }
-				root.location.culture = { has_cultural_pillar = heritage_syriac }
+			root.location.culture = {
+				OR = {
+					has_cultural_pillar = heritage_egyptian
+					this = culture:egyptian
+				}
+			}
+		}
+		localization_key = ful
+	}
+
+	text = {
+		trigger = {
+			root.location.culture = {
+				OR = {
+					has_cultural_pillar = heritage_arabic
+					has_cultural_pillar = heritage_iranian
+					has_cultural_pillar = heritage_syriac
+				}
 			}
 		}
 		localization_key = sambusa
@@ -1907,6 +2142,22 @@ GetLocalStreetFood = {
 			root.location.culture = { has_cultural_pillar = heritage_austronesian }
 		}
 		localization_key = inihaw
+	}
+
+	text = {
+		trigger = {
+			root.location.culture = { has_cultural_pillar = heritage_byzantine }
+			static_group_filter = { group = street_food_sphoungata match = 0.333 }
+		}
+		localization_key = sphoungata
+	}
+
+	text = {
+		trigger = {
+			root.location.culture = { has_cultural_pillar = heritage_byzantine }
+			static_group_filter = { group = street_food_tarichos match = 0.5 }
+		}
+		localization_key = tarichos
 	}
 
 	text = {
@@ -1937,6 +2188,13 @@ GetLocalStreetFood = {
 
 	text = {
 		trigger = {
+			root.location.culture = { has_cultural_pillar = heritage_dravidian }
+		}
+		localization_key = idli
+	}
+
+	text = {
+		trigger = {
 			root.location.culture = { has_cultural_pillar = heritage_turkic }
 		}
 		localization_key = pilau
@@ -1959,6 +2217,7 @@ GetLocalStreetFood = {
 	text = {
 		trigger = {
 			root.location.culture = { has_cultural_pillar = heritage_chinese }
+			static_group_filter = { group = street_food_botuo match = 0.25 }
 		}
 		localization_key = botuo
 	}
@@ -1966,6 +2225,7 @@ GetLocalStreetFood = {
 	text = {
 		trigger = {
 			root.location.culture = { has_cultural_pillar = heritage_chinese }
+			static_group_filter = { group = street_food_bing match = 0.333 }
 		}
 		localization_key = bing
 	}
@@ -1973,6 +2233,7 @@ GetLocalStreetFood = {
 	text = {
 		trigger = {
 			root.location.culture = { has_cultural_pillar = heritage_chinese }
+			static_group_filter = { group = street_food_mantou match = 0.5 }
 		}
 		localization_key = mantou
 	}
@@ -1980,6 +2241,7 @@ GetLocalStreetFood = {
 	text = {
 		trigger = {
 			root.location.culture = { has_cultural_pillar = heritage_japonic }
+			static_group_filter = { group = street_food_zosui match = 0.333 }
 		}
 		localization_key = zosui
 	}
@@ -1987,6 +2249,7 @@ GetLocalStreetFood = {
 	text = {
 		trigger = {
 			root.location.culture = { has_cultural_pillar = heritage_japonic }
+			static_group_filter = { group = street_food_sushi match = 0.5 }
 		}
 		localization_key = sushi
 	}
@@ -1999,6 +2262,7 @@ GetLocalStreetFood = {
 					has_cultural_pillar = heritage_buyeo
 				}
 			}
+			static_group_filter = { group = street_food_kimchi match = 0.5 }
 		}
 		localization_key = kimchi
 	}
@@ -2011,7 +2275,7 @@ GetLocalStreetFood = {
 					has_cultural_pillar = heritage_buyeo
 					has_cultural_pillar = heritage_japonic
 					has_cultural_pillar = heritage_chinese
-				} 
+				}
 			}
 		}
 		localization_key = rice_cake
@@ -2026,16 +2290,171 @@ GetLocalStreetFood = {
 
 	text = {
 		trigger = {
-			root.location.culture = { has_cultural_pillar = heritage_byzantine }
+			root.location.culture = { has_cultural_pillar = heritage_north_germanic }
 		}
-		localization_key = sphoungata
+		localization_key = salt_herring
 	}
 
 	text = {
 		trigger = {
-			root.location.culture = { has_cultural_pillar = heritage_byzantine }
+			root.location.culture = { has_cultural_pillar = heritage_west_germanic }
 		}
-		localization_key = tarichos
+		localization_key = meat_pie
+	}
+
+	text = {
+		trigger = {
+			root.location.culture = {
+				OR = {
+					has_cultural_pillar = heritage_goidelic
+					has_cultural_pillar = heritage_brythonic
+				}
+			}
+		}
+		localization_key = oatcake
+	}
+
+	text = {
+		trigger = {
+			root.location.culture = {
+				OR = {
+					has_cultural_pillar = heritage_balto_finnic
+					has_cultural_pillar = heritage_baltic
+					has_cultural_pillar = heritage_volga_finnic
+					has_cultural_pillar = heritage_ugro_permian
+				}
+			}
+		}
+		localization_key = smoked_fish
+	}
+
+	text = {
+		trigger = {
+			root.location.culture = { has_cultural_pillar = heritage_frankish }
+		}
+		localization_key = oublie
+	}
+
+	text = {
+		trigger = {
+			root.location.culture = { has_cultural_pillar = heritage_central_germanic }
+			static_group_filter = { group = street_food_grilled_sausage match = 0.5 }
+		}
+		localization_key = grilled_sausage
+	}
+
+	text = {
+		trigger = {
+			root.location.culture = { has_cultural_pillar = heritage_central_germanic }
+		}
+		localization_key = pretzel
+	}
+
+	text = {
+		trigger = {
+			root.location.culture = { has_cultural_pillar = heritage_east_slavic }
+		}
+		localization_key = blin
+	}
+
+	text = {
+		trigger = {
+			root.location.culture = { has_cultural_pillar = heritage_west_slavic }
+		}
+		localization_key = obwarzanek
+	}
+
+	text = {
+		trigger = {
+			root.location.culture = {
+				OR = {
+					has_cultural_pillar = heritage_south_slavic
+					has_cultural_pillar = heritage_vlach
+					has_cultural_pillar = heritage_magyar
+					has_cultural_pillar = heritage_albanian
+				}
+			}
+		}
+		localization_key = pogaca
+	}
+
+	text = {
+		trigger = {
+			root.location.culture = {
+				OR = {
+					this = culture:ethiopian
+					this = culture:welayta
+				}
+			}
+		}
+		localization_key = injera
+	}
+
+	text = {
+		trigger = {
+			root.location.culture = {
+				OR = {
+					has_cultural_pillar = heritage_yoruba
+					has_cultural_pillar = heritage_west_african
+				}
+			}
+		}
+		localization_key = akara
+	}
+
+	text = {
+		trigger = {
+			root.location.culture = {
+				OR = {
+					has_cultural_pillar = heritage_sahelian
+					has_cultural_pillar = heritage_senegambian
+				}
+			}
+		}
+		localization_key = fura
+	}
+
+	text = {
+		trigger = {
+			root.location.culture = { has_cultural_pillar = heritage_tibetan }
+		}
+		localization_key = tsampa
+	}
+
+	text = {
+		trigger = {
+			root.location.culture = {
+				OR = {
+					has_cultural_pillar = heritage_mongolic
+					has_cultural_pillar = heritage_tungusic
+				}
+			}
+		}
+		localization_key = aaruul
+	}
+
+	text = {
+		trigger = {
+			root.location.culture = {
+				OR = {
+					has_cultural_pillar = heritage_ainuic
+					has_cultural_pillar = heritage_nivkh
+				}
+			}
+		}
+		localization_key = dried_salmon
+	}
+
+	text = {
+		trigger = {
+			root.location.culture = {
+				OR = {
+					has_cultural_pillar = heritage_bantu
+					has_cultural_pillar = heritage_central_african
+				}
+			}
+		}
+		localization_key = roasted_plantain
 	}
 
 	text = {
@@ -2043,15 +2462,30 @@ GetLocalStreetFood = {
 	}
 }
 
+# Keep in sync with GetTgfLocalDish in gdp_custom_loc.txt
 GetLocalStreetFoodPlural = {
 	type = character
 
 	text = {
 		trigger = {
-			OR = {
-				root.location.culture = { has_cultural_pillar = heritage_arabic }
-				root.location.culture = { has_cultural_pillar = heritage_iranian }
-				root.location.culture = { has_cultural_pillar = heritage_syriac }
+			root.location.culture = {
+				OR = {
+					has_cultural_pillar = heritage_egyptian
+					this = culture:egyptian
+				}
+			}
+		}
+		localization_key = ful_plural
+	}
+
+	text = {
+		trigger = {
+			root.location.culture = {
+				OR = {
+					has_cultural_pillar = heritage_arabic
+					has_cultural_pillar = heritage_iranian
+					has_cultural_pillar = heritage_syriac
+				}
 			}
 		}
 		localization_key = sambusa_plural
@@ -2066,6 +2500,22 @@ GetLocalStreetFoodPlural = {
 
 	text = {
 		trigger = {
+			root.location.culture = { has_cultural_pillar = heritage_byzantine }
+			static_group_filter = { group = street_food_sphoungata match = 0.333 }
+		}
+		localization_key = sphoungata_plural
+	}
+
+	text = {
+		trigger = {
+			root.location.culture = { has_cultural_pillar = heritage_byzantine }
+			static_group_filter = { group = street_food_tarichos match = 0.5 }
+		}
+		localization_key = tarichos
+	}
+
+	text = {
+		trigger = {
 			root.location.culture = {
 				OR = {
 					has_cultural_pillar = heritage_byzantine
@@ -2074,18 +2524,6 @@ GetLocalStreetFoodPlural = {
 			}
 		}
 		localization_key = honey_fritter_plural
-	}
-	text = {
-		trigger = {
-			root.location.culture = { has_cultural_pillar = heritage_byzantine }
-		}
-		localization_key = sphoungata_plural
-	}
-	text = {
-		trigger = {
-			root.location.culture = { has_cultural_pillar = heritage_byzantine }
-		}
-		localization_key = tarichos
 	}
 
 	text = {
@@ -2100,6 +2538,13 @@ GetLocalStreetFoodPlural = {
 			root.location.culture = { has_cultural_pillar = heritage_indo_aryan }
 		}
 		localization_key = pakhala_plural
+	}
+
+	text = {
+		trigger = {
+			root.location.culture = { has_cultural_pillar = heritage_dravidian }
+		}
+		localization_key = idli_plural
 	}
 
 	text = {
@@ -2126,6 +2571,7 @@ GetLocalStreetFoodPlural = {
 	text = {
 		trigger = {
 			root.location.culture = { has_cultural_pillar = heritage_chinese }
+			static_group_filter = { group = street_food_botuo match = 0.25 }
 		}
 		localization_key = botuo_plural
 	}
@@ -2133,6 +2579,7 @@ GetLocalStreetFoodPlural = {
 	text = {
 		trigger = {
 			root.location.culture = { has_cultural_pillar = heritage_chinese }
+			static_group_filter = { group = street_food_bing match = 0.333 }
 		}
 		localization_key = bing_plural
 	}
@@ -2140,6 +2587,7 @@ GetLocalStreetFoodPlural = {
 	text = {
 		trigger = {
 			root.location.culture = { has_cultural_pillar = heritage_chinese }
+			static_group_filter = { group = street_food_mantou match = 0.5 }
 		}
 		localization_key = mantou_plural
 	}
@@ -2147,6 +2595,7 @@ GetLocalStreetFoodPlural = {
 	text = {
 		trigger = {
 			root.location.culture = { has_cultural_pillar = heritage_japonic }
+			static_group_filter = { group = street_food_zosui match = 0.333 }
 		}
 		localization_key = zosui_plural
 	}
@@ -2154,6 +2603,7 @@ GetLocalStreetFoodPlural = {
 	text = {
 		trigger = {
 			root.location.culture = { has_cultural_pillar = heritage_japonic }
+			static_group_filter = { group = street_food_sushi match = 0.5 }
 		}
 		localization_key = sushi_plural
 	}
@@ -2166,6 +2616,7 @@ GetLocalStreetFoodPlural = {
 					has_cultural_pillar = heritage_buyeo
 				}
 			}
+			static_group_filter = { group = street_food_kimchi match = 0.5 }
 		}
 		localization_key = kimchi_plural
 	}
@@ -2178,7 +2629,7 @@ GetLocalStreetFoodPlural = {
 					has_cultural_pillar = heritage_buyeo
 					has_cultural_pillar = heritage_japonic
 					has_cultural_pillar = heritage_chinese
-				} 
+				}
 			}
 		}
 		localization_key = rice_cake_plural
@@ -2189,6 +2640,175 @@ GetLocalStreetFoodPlural = {
 			root.location = { geographical_region = world_asia_southeast }
 		}
 		localization_key = bubur_plural
+	}
+
+	text = {
+		trigger = {
+			root.location.culture = { has_cultural_pillar = heritage_north_germanic }
+		}
+		localization_key = salt_herring_plural
+	}
+
+	text = {
+		trigger = {
+			root.location.culture = { has_cultural_pillar = heritage_west_germanic }
+		}
+		localization_key = meat_pie_plural
+	}
+
+	text = {
+		trigger = {
+			root.location.culture = {
+				OR = {
+					has_cultural_pillar = heritage_goidelic
+					has_cultural_pillar = heritage_brythonic
+				}
+			}
+		}
+		localization_key = oatcake_plural
+	}
+
+	text = {
+		trigger = {
+			root.location.culture = {
+				OR = {
+					has_cultural_pillar = heritage_balto_finnic
+					has_cultural_pillar = heritage_baltic
+					has_cultural_pillar = heritage_volga_finnic
+					has_cultural_pillar = heritage_ugro_permian
+				}
+			}
+		}
+		localization_key = smoked_fish_plural
+	}
+
+	text = {
+		trigger = {
+			root.location.culture = { has_cultural_pillar = heritage_frankish }
+		}
+		localization_key = oublie_plural
+	}
+
+	text = {
+		trigger = {
+			root.location.culture = { has_cultural_pillar = heritage_central_germanic }
+			static_group_filter = { group = street_food_grilled_sausage match = 0.5 }
+		}
+		localization_key = grilled_sausage_plural
+	}
+
+	text = {
+		trigger = {
+			root.location.culture = { has_cultural_pillar = heritage_central_germanic }
+		}
+		localization_key = pretzel_plural
+	}
+
+	text = {
+		trigger = {
+			root.location.culture = { has_cultural_pillar = heritage_east_slavic }
+		}
+		localization_key = blin_plural
+	}
+
+	text = {
+		trigger = {
+			root.location.culture = { has_cultural_pillar = heritage_west_slavic }
+		}
+		localization_key = obwarzanek_plural
+	}
+
+	text = {
+		trigger = {
+			root.location.culture = {
+				OR = {
+					has_cultural_pillar = heritage_south_slavic
+					has_cultural_pillar = heritage_vlach
+					has_cultural_pillar = heritage_magyar
+					has_cultural_pillar = heritage_albanian
+				}
+			}
+		}
+		localization_key = pogaca_plural
+	}
+
+	text = {
+		trigger = {
+			root.location.culture = {
+				OR = {
+					this = culture:ethiopian
+					this = culture:welayta
+				}
+			}
+		}
+		localization_key = injera_plural
+	}
+
+	text = {
+		trigger = {
+			root.location.culture = {
+				OR = {
+					has_cultural_pillar = heritage_yoruba
+					has_cultural_pillar = heritage_west_african
+				}
+			}
+		}
+		localization_key = akara_plural
+	}
+
+	text = {
+		trigger = {
+			root.location.culture = {
+				OR = {
+					has_cultural_pillar = heritage_sahelian
+					has_cultural_pillar = heritage_senegambian
+				}
+			}
+		}
+		localization_key = fura_plural
+	}
+
+	text = {
+		trigger = {
+			root.location.culture = { has_cultural_pillar = heritage_tibetan }
+		}
+		localization_key = tsampa_plural
+	}
+
+	text = {
+		trigger = {
+			root.location.culture = {
+				OR = {
+					has_cultural_pillar = heritage_mongolic
+					has_cultural_pillar = heritage_tungusic
+				}
+			}
+		}
+		localization_key = aaruul_plural
+	}
+
+	text = {
+		trigger = {
+			root.location.culture = {
+				OR = {
+					has_cultural_pillar = heritage_ainuic
+					has_cultural_pillar = heritage_nivkh
+				}
+			}
+		}
+		localization_key = dried_salmon_plural
+	}
+
+	text = {
+		trigger = {
+			root.location.culture = {
+				OR = {
+					has_cultural_pillar = heritage_bantu
+					has_cultural_pillar = heritage_central_african
+				}
+			}
+		}
+		localization_key = roasted_plantain_plural
 	}
 
 	text = {

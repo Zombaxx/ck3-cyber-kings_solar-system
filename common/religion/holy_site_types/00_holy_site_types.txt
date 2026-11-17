@@ -7,11 +7,17 @@
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
+		prosperity_growth_factor = 0.01
 		travel_danger = -1
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_jerusalem_effect_name
 		character_travel_safety_mult = 0.1
+		stewardship = 1
 	}
 	faith_character_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
@@ -26,16 +32,22 @@ rome = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
-		county_opinion_add = 1
+		prosperity_growth_factor = 0.01
+		popular_opinion_add = 1
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_rome_effect_name
 		stewardship = 1
 		church_holding_build_gold_cost = -0.1
+		monthly_piety_gain_mult = 0.2
 	}
 	faith_character_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
+		prosperity_growth_factor = 0.01
 		character_travel_speed_mult = 0.01
 	}
 }
@@ -44,20 +56,26 @@ cologne = {
 	county = c_koln	# e87 real place (was c_rome)
 	county_holder_character_modifier = {
 		learning = 1
-		monthly_county_control_growth_factor = 0.05
+		monthly_control_change_when_below_baseline_mult = 0.05
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		tax_mult = 0.01
-		county_opinion_add = 1
+		all_tax_mult = 0.01
+		popular_opinion_add = 1
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_cologne_effect_name
 		cultural_head_fascination_mult = 0.05
+		monthly_control_change_when_below_baseline_mult = 0.05
 	}
 	faith_character_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
 		cultural_head_fascination_mult = 0.01
-		monthly_county_control_growth_factor = 0.01
+		monthly_control_change_when_below_baseline_mult = 0.01
 	}
 }
 
@@ -69,10 +87,15 @@ santiago = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
+		prosperity_growth_factor = 0.01
 		travel_danger = -1
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_santiago_effect_name
 		holy_order_hire_cost_mult = -0.1
 		supply_duration = 0.1
 	}
@@ -90,10 +113,15 @@ kent = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		tax_mult = 0.01
-		monthly_county_control_growth_factor = 0.01
+		all_tax_mult = 0.01
+		monthly_control_change_when_below_baseline_mult = 0.01
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_kent_effect_name
 		religious_vassal_opinion = 5
 		sway_scheme_phase_duration_add = minor_scheme_phase_duration_bonus_value
 	}
@@ -111,10 +139,15 @@ constantinople = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		tax_mult = 0.01
-		county_opinion_add = 1
+		all_tax_mult = 0.01
+		popular_opinion_add = 1
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_constantinople_effect_name
 		cultural_head_fascination_mult = 0.05
 		learning = 1
 	}
@@ -132,10 +165,15 @@ alexandria = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
+		prosperity_growth_factor = 0.01
 		epidemic_resistance = 1
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_alexandria_effect_name
 		learning_per_piety_level = 1
 	}
 	faith_character_modifier_scaled = {
@@ -153,15 +191,22 @@ antioch = {
 		scale = holy_site_total_artifact_rarity
 		build_speed = -0.01
 		levy_size = 0.02
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_antioch_effect_name
 		martial_per_piety_level = 1
+		knight_effectiveness_mult = 0.1
 	}
 	faith_character_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
 		knight_effectiveness_mult = 0.01
 	}
 }
+
 
 aksum = {
 	county = c_tigray	# e87 real place (was c_province0468)
@@ -170,10 +215,15 @@ aksum = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
-		monthly_county_control_growth_factor = 0.01
+		prosperity_growth_factor = 0.01
+		monthly_control_change_when_below_baseline_mult = 0.01
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_aksum_effect_name
 		diplomacy_per_piety_level = 1
 	}
 	faith_character_modifier_scaled = {
@@ -189,10 +239,15 @@ suenik = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
+		prosperity_growth_factor = 0.01
 		travel_danger = -1
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_dwin_effect_name
 		learning = 1
 		monthly_piety_gain_mult = 0.05
 	}
@@ -209,10 +264,15 @@ dvin = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
+		prosperity_growth_factor = 0.01
 		travel_danger = -1
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_dwin_effect_name
 		learning = 1
 		monthly_piety_gain_mult = 0.05
 	}
@@ -229,10 +289,15 @@ beirut = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
+		prosperity_growth_factor = 0.01
 		epidemic_resistance = 1
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_beirut_effect_name
 		councillor_opinion = 5
 	}
 	faith_character_modifier_scaled = {
@@ -245,24 +310,28 @@ baghdad = {
 	county = c_baghdad	# e87 real place (was c_jerusalem)
 	county_holder_character_modifier = {
 		learning = 1
-		development_growth_factor = 0.05
+		prosperity_growth_factor = 0.05
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
 		build_gold_cost = -0.01
 		hostile_raid_time = 0.02
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_baghdad_effect_name
 		church_holding_build_gold_cost = -0.1
 		learning = 1
 	}
 	faith_character_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
+		prosperity_growth_factor = 0.01
 		monthly_income_mult = 0.005
 	}
 }
-
 farz = {
 	county = c_province1044
 	county_holder_character_modifier = {
@@ -270,10 +339,15 @@ farz = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
-		county_opinion_add = 1
+		prosperity_growth_factor = 0.01
+		popular_opinion_add = 1
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_farz_effect_name
 		diplomacy_per_piety_level = 1
 	}
 	faith_character_modifier_scaled = {
@@ -281,7 +355,6 @@ farz = {
 		same_faith_opinion = 0.5
 	}
 }
-
 kerala = {
 	county = c_kanayannur	# e87c real place (was c_province0951)
 	parameters = { kerala_conversion_bonus }
@@ -290,8 +363,12 @@ kerala = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		tax_mult = 0.01
+		all_tax_mult = 0.01
 		travel_danger = -1
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
 		clergy_opinion = 5
@@ -311,8 +388,12 @@ iona = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
+		prosperity_growth_factor = 0.01
 		travel_danger = -1
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
 		clergy_opinion = 5
@@ -329,12 +410,16 @@ visoki = {
 	county = c_province0429
 	parameters = { visoki_conversion_resistance_bonus }
 	county_holder_character_modifier = {
-		county_opinion_add = 5
+		popular_opinion_add = 5
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
-		monthly_county_control_growth_factor = 0.01
+		prosperity_growth_factor = 0.01
+		monthly_control_change_when_below_baseline_mult = 0.01
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
 		same_faith_opinion = 5
@@ -353,10 +438,15 @@ ragusa = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
-		county_opinion_add = 1
+		prosperity_growth_factor = 0.01
+		popular_opinion_add = 1
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_ragusa_effect_name
 		diplomacy = 1
 		different_faith_opinion = 5
 	}
@@ -369,19 +459,24 @@ ragusa = {
 esztergom = {
 	county = c_province1797
 	county_holder_character_modifier = {
-		county_opinion_add = 5
+		popular_opinion_add = 5
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		tax_mult = 0.01
-		county_opinion_add = 1
+		all_tax_mult = 0.01
+		popular_opinion_add = 1
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
-		county_opinion_add = 10
+		name = holy_site_esztergom_effect_name
+		popular_opinion_add = 10
 	}
 	faith_character_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		monthly_county_control_growth_factor = 0.01
+		monthly_control_change_when_below_baseline_mult = 0.01
 		monthly_prestige_gain_mult = 0.01
 	}
 }
@@ -393,10 +488,15 @@ albi = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
+		prosperity_growth_factor = 0.01
 		epidemic_resistance = 1
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_albi_effect_name
 		learning_per_piety_level = 1
 		monthly_piety_gain_mult = 0.05
 	}
@@ -416,9 +516,15 @@ toledo_mozarabic = {
 		scale = holy_site_total_artifact_rarity
 		build_speed = -0.01
 		defender_holding_advantage = 0.5
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_toledo_mozarabic_effect_name
 		prowess_per_piety_level = 1
+		knight_effectiveness_mult = 0.1
 	}
 	faith_character_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
@@ -433,10 +539,15 @@ carthage_adoptionist = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
-		county_opinion_add = 1
+		prosperity_growth_factor = 0.01
+		popular_opinion_add = 1
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_carthage_effect_name
 		same_faith_opinion = 10
 	}
 	faith_character_modifier_scaled = {
@@ -445,7 +556,6 @@ carthage_adoptionist = {
 		monthly_piety_gain_mult = 0.01
 	}
 }
-
 lyon = {
 	county = c_olympus_mons
 	county_holder_character_modifier = {
@@ -453,10 +563,15 @@ lyon = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
+		prosperity_growth_factor = 0.01
 		epidemic_resistance = 1
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_lyon_effect_name
 		learning_per_piety_level = 1
 	}
 	faith_character_modifier_scaled = {
@@ -464,7 +579,6 @@ lyon = {
 		monthly_lifestyle_xp_gain_mult = 0.01
 	}
 }
-
 mecca = {
 	county = c_mecca	# e87 real place (was c_rome)
 	county_holder_character_modifier = {
@@ -473,11 +587,17 @@ mecca = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
+		prosperity_growth_factor = 0.01
 		travel_danger = -1
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_mecca_effect_name
 		monthly_piety_gain_per_knight_mult = 0.02
+		knight_effectiveness_mult = 0.1
 	}
 	faith_character_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
@@ -494,10 +614,15 @@ medina = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
+		prosperity_growth_factor = 0.01
 		travel_danger = -1
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_medina_effect_name
 		diplomacy_per_piety_level = 1
 	}
 	faith_character_modifier_scaled = {
@@ -514,16 +639,20 @@ cordoba = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
-		county_opinion_add = 1
+		prosperity_growth_factor = 0.01
+		popular_opinion_add = 1
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
 		cultural_head_fascination_mult = 0.05
 	}
 	faith_character_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
-		monthly_county_control_growth_factor = 0.01
+		prosperity_growth_factor = 0.01
+		monthly_control_change_when_below_baseline_mult = 0.01
 	}
 }
 
@@ -534,10 +663,15 @@ sinai = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		desert_development_growth_factor = 0.01
+		desert_prosperity_growth_factor = 0.01
 		travel_danger = -1
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_sinai_effect_name
 		desert_mountains_advantage = 5
 		learning = 1
 	}
@@ -556,8 +690,13 @@ tinmallal = {
 		scale = holy_site_total_artifact_rarity
 		build_speed = -0.01
 		levy_size = 0.02
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_tinmallal_effect_name
 		prowess_per_piety_level = 1
 		max_combat_roll = 2
 	}
@@ -574,10 +713,15 @@ fes = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
+		prosperity_growth_factor = 0.01
 		epidemic_resistance = 1
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_fes_effect_name
 		cultural_head_fascination_mult = 0.1
 	}
 	faith_character_modifier_scaled = {
@@ -593,10 +737,15 @@ nadjaf = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
-		county_opinion_add = 1
+		prosperity_growth_factor = 0.01
+		popular_opinion_add = 1
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_nadjaf_effect_name
 		diplomacy_per_piety_level = 1
 		clergy_opinion = 5
 	}
@@ -609,23 +758,29 @@ nadjaf = {
 damascus = {
 	county = c_al_alrd
 	county_holder_character_modifier = {
-		monthly_county_control_growth_factor = 0.05
+		monthly_control_change_when_below_baseline_mult = 0.05
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
 		build_speed = -0.01
 		supply_limit_mult = 0.02
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_damascus_effect_name
 		levy_size = 0.05
-		monthly_county_control_growth_factor = 0.1
+		monthly_control_change_when_below_baseline_mult = 0.1
 	}
 	faith_character_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		monthly_county_control_growth_factor = 0.01
+		monthly_control_change_when_below_baseline_mult = 0.01
 		levy_size = 0.005
 	}
 }
+
 
 kufa = {
 	county = c_baghdad	# e87b real place (was c_jerusalem)
@@ -634,10 +789,15 @@ kufa = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		tax_mult = 0.01
-		county_opinion_add = 1
+		all_tax_mult = 0.01
+		popular_opinion_add = 1
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_kufa_effect_name
 		intrigue_per_piety_level = 1
 	}
 	faith_character_modifier_scaled = {
@@ -653,10 +813,15 @@ basra = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
-		county_opinion_add = 1
+		prosperity_growth_factor = 0.01
+		popular_opinion_add = 1
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_basra_effect_name
 		learning = 2
 	}
 	faith_character_modifier_scaled = {
@@ -672,10 +837,15 @@ nizwa = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		tax_mult = 0.01
+		all_tax_mult = 0.01
 		supply_limit_mult = 0.02
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_nizwa_effect_name
 		stewardship_per_piety_level = 1
 	}
 	faith_character_modifier_scaled = {
@@ -691,10 +861,15 @@ sijilmasa = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		tax_mult = 0.01
+		all_tax_mult = 0.01
 		hostile_raid_time = 0.02
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_sijilmasa_effect_name
 		diplomacy = 1
 		stewardship = 1
 	}
@@ -711,10 +886,15 @@ bahrein = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		tax_mult = 0.01
+		all_tax_mult = 0.01
 		hostile_raid_time = 0.02
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_bahrein_effect_name
 		stewardship = 1
 		monthly_income_mult = 0.05
 	}
@@ -731,10 +911,15 @@ sinjar = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
+		prosperity_growth_factor = 0.01
 		hostile_raid_time = 0.02
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_sinjar_effect_name
 		diplomacy_per_piety_level = 1
 	}
 	faith_character_modifier_scaled = {
@@ -750,11 +935,17 @@ baalbek = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
-		county_opinion_add = 1
+		prosperity_growth_factor = 0.01
+		popular_opinion_add = 1
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_sinjar_effect_name
 		clergy_opinion = 10
+		monthly_prestige_gain_mult = 0.2
 	}
 	faith_character_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
@@ -770,10 +961,15 @@ lalish = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
+		prosperity_growth_factor = 0.01
 		travel_danger = -1
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_lalish_effect_name
 		learning_per_piety_level = 1
 		monthly_piety_gain_mult = 0.1
 	}
@@ -791,15 +987,21 @@ nishapur = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		tax_mult = 0.01
+		all_tax_mult = 0.01
 		supply_limit_mult = 0.02
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_nishapur_effect_name
 		stewardship_per_piety_level = 1
 	}
 	faith_character_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
+		stewardship_mult = 0.01
+		prosperity_growth_factor = 0.01
 	}
 }
 
@@ -810,10 +1012,15 @@ dashtestan = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
-		county_opinion_add = 1
+		prosperity_growth_factor = 0.01
+		popular_opinion_add = 1
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_dashtestan_effect_name
 		same_faith_opinion = 5
 	}
 	faith_character_modifier_scaled = {
@@ -830,10 +1037,15 @@ zozan = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
-		monthly_county_control_growth_factor = 0.01
+		prosperity_growth_factor = 0.01
+		monthly_control_change_when_below_baseline_mult = 0.01
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_zozan_effect_name
 		same_faith_opinion = 5
 		domain_tax_same_faith_mult = 0.1
 	}
@@ -851,10 +1063,15 @@ semien = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		mountains_development_growth_factor = 0.01
+		mountains_prosperity_growth_factor = 0.01
 		garrison_size = 0.02
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_semien_effect_name
 		defender_advantage = 5
 		diplomacy = 1
 	}
@@ -872,10 +1089,15 @@ sufed = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
-		monthly_county_control_growth_factor = 0.01
+		prosperity_growth_factor = 0.01
+		monthly_control_change_when_below_baseline_mult = 0.01
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_sufed_effect_name
 		same_faith_opinion = 10
 	}
 	faith_character_modifier_scaled = {
@@ -892,11 +1114,17 @@ gerizim = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
+		prosperity_growth_factor = 0.01
 		epidemic_resistance = 1
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_gerizim_effect_name
 		learning_per_piety_level = 1
+		monthly_prestige_gain_mult = 0.2
 	}
 	faith_character_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
@@ -911,16 +1139,22 @@ panticapaeum = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		tax_mult = 0.01
+		all_tax_mult = 0.01
 		defender_holding_advantage = 0.5
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
-		world_steppe_development_growth_factor = 0.25
-		steppe_development_growth_factor = 0.15
+		name = holy_site_panticapaeum_effect_name
+		world_steppe_prosperity_growth_factor = 0.25 #Make the steppe suck less
+		steppe_prosperity_growth_factor = 0.15 #Make steppe terrain suck even more lesserer
+		diplomacy = 1
 	}
 	faith_character_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
+		prosperity_growth_factor = 0.01
 		monthly_income_mult = 0.005
 	}
 }
@@ -932,11 +1166,17 @@ itil = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
+		prosperity_growth_factor = 0.01
 		epidemic_travel_danger = -1
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_itil_effect_name
 		different_culture_opinion = 10
+		cultural_head_acceptance_gain_mult = 0.15
 	}
 	faith_character_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
@@ -952,10 +1192,15 @@ kochi = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
-		county_opinion_add = 1
+		prosperity_growth_factor = 0.01
+		popular_opinion_add = 1
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_kochi_effect_name
 		diplomacy_per_piety_level = 1
 		cultural_head_acceptance_gain_mult = 0.15
 	}
@@ -972,12 +1217,17 @@ manipur = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		mountains_development_growth_factor = 0.01
+		mountains_prosperity_growth_factor = 0.01
 		hostile_raid_time = 0.02
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_manipur_effect_name
 		mountains_advantage = 5
-		mountains_development_growth_factor = 0.2
+		mountains_prosperity_growth_factor = 0.2
 	}
 	faith_character_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
@@ -993,11 +1243,17 @@ hamadan = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
+		prosperity_growth_factor = 0.01
 		travel_danger = -1
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_hamadan_effect_name
 		different_faith_opinion = 10
+		monthly_lifestyle_xp_gain_mult = 0.15
 	}
 	faith_character_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
@@ -1010,19 +1266,25 @@ babylon = {
 	county = c_sun_s_oasis
 	county_holder_character_modifier = {
 		learning = 1
-		development_growth_factor = 0.05
+		prosperity_growth_factor = 0.05
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
-		county_opinion_add = 1
+		prosperity_growth_factor = 0.01
+		popular_opinion_add = 1
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_babylon_effect_name
 		cultural_head_fascination_mult = 0.1
 	}
 	faith_character_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
+		prosperity_growth_factor = 0.01
+		learning_mult = 0.01
 	}
 }
 
@@ -1033,10 +1295,15 @@ ahvaz = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		tax_mult = 0.01
-		monthly_county_control_growth_factor = 0.01
+		all_tax_mult = 0.01
+		monthly_control_change_when_below_baseline_mult = 0.01
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_ahvaz_effect_name
 		clergy_opinion = 5
 		personal_scheme_phase_duration_add = minor_scheme_phase_duration_bonus_value
 	}
@@ -1053,16 +1320,21 @@ samarkand = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		tax_mult = 0.01
+		all_tax_mult = 0.01
 		supply_limit_mult = 0.02
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_samarkand_effect_name
 		stewardship_per_piety_level = 1
 	}
 	faith_character_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
 		monthly_income_mult = 0.005
-		development_growth_factor = 0.01
+		prosperity_growth_factor = 0.01
 	}
 }
 
@@ -1073,10 +1345,15 @@ udabhanda = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
-		county_opinion_add = 1
+		prosperity_growth_factor = 0.01
+		popular_opinion_add = 1
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_udabhanda_effect_name
 		learning_per_piety_level = 1
 	}
 	faith_character_modifier_scaled = {
@@ -1092,10 +1369,15 @@ toledo = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
-		county_opinion_add = 1
+		prosperity_growth_factor = 0.01
+		popular_opinion_add = 1
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_toledo_effect_name
 		learning = 1
 		monthly_piety_gain_mult = 0.05
 	}
@@ -1112,10 +1394,15 @@ memphis = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		tax_mult = 0.01
-		county_opinion_add = 1
+		all_tax_mult = 0.01
+		popular_opinion_add = 1
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_memphis_effect_name
 		stewardship_per_piety_level = 1
 	}
 	faith_character_modifier_scaled = {
@@ -1124,6 +1411,7 @@ memphis = {
 	}
 }
 
+
 bodh_gaya = {
 	county = c_patna	# e87 real place (was c_tokyo)
 	county_holder_character_modifier = {
@@ -1131,10 +1419,15 @@ bodh_gaya = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
+		prosperity_growth_factor = 0.01
 		epidemic_resistance = 1
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_bodh_gaya_effect_name
 		stress_loss_mult = 0.1
 	}
 	faith_character_modifier_scaled = {
@@ -1151,10 +1444,15 @@ sarnath = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
+		prosperity_growth_factor = 0.01
 		epidemic_resistance = 1
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_sarnath_effect_name
 		learning = 2
 	}
 	faith_character_modifier_scaled = {
@@ -1170,10 +1468,15 @@ sanchi = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
-		county_opinion_add = 1
+		prosperity_growth_factor = 0.01
+		popular_opinion_add = 1
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_sanchi_effect_name
 		diplomacy_per_piety_level = 1
 	}
 	faith_character_modifier_scaled = {
@@ -1189,10 +1492,15 @@ ajanta = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
-		county_opinion_add = 1
+		prosperity_growth_factor = 0.01
+		popular_opinion_add = 1
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_ajanta_effect_name
 		negate_learning_penalty_add = 2
 		learning_per_piety_level = 1
 	}
@@ -1211,8 +1519,13 @@ dagon = {
 		scale = holy_site_total_artifact_rarity
 		build_speed = -0.01
 		defender_holding_advantage = 0.5
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_dagon_effect_name
 		martial_per_piety_level = 1
 	}
 	faith_character_modifier_scaled = {
@@ -1229,17 +1542,22 @@ pagan = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		tax_mult = 0.01
+		all_tax_mult = 0.01
 		hostile_raid_time = 0.02
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_pagan_effect_name
 		stewardship = 1
 		monthly_prestige_gain_mult = 0.05
 	}
 	faith_character_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
 		monthly_prestige_gain_mult = 0.01
-		development_growth_factor = 0.01
+		prosperity_growth_factor = 0.01
 	}
 }
 
@@ -1250,35 +1568,45 @@ atamasthana = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		tax_mult = 0.01
+		all_tax_mult = 0.01
 		hostile_raid_time = 0.02
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_atamasthana_effect_name
 		domain_tax_mult = 0.05
 	}
 	faith_character_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
 		monthly_income_mult = 0.005
-		development_growth_factor = 0.01
+		prosperity_growth_factor = 0.01
 	}
 }
 
 amaravati = {
 	county = c_province1621
 	county_holder_character_modifier = {
-		monthly_county_control_growth_factor = 0.05
+		monthly_control_change_when_below_baseline_mult = 0.05
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		tax_mult = 0.01
-		county_opinion_add = 1
+		all_tax_mult = 0.01
+		popular_opinion_add = 1
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
-		monthly_county_control_growth_factor = 0.1
+		name = holy_site_amaravati_effect_name
+		monthly_control_change_when_below_baseline_mult = 0.1
 	}
 	faith_character_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		monthly_county_control_growth_factor = 0.01
+		monthly_control_change_when_below_baseline_mult = 0.01
 		monthly_piety_gain_mult = 0.01
 	}
 }
@@ -1291,10 +1619,15 @@ varanasi = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
+		prosperity_growth_factor = 0.01
 		epidemic_resistance = 1
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_varanasi_effect_name
 		learning = 2
 		clergy_opinion = 5
 	}
@@ -1313,9 +1646,15 @@ ayodhya = {
 		scale = holy_site_total_artifact_rarity
 		build_speed = -0.01
 		levy_size = 0.02
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_ayodhya_effect_name
 		monthly_piety_gain_per_knight_mult = 0.01
+		knight_effectiveness_mult = 0.1
 	}
 	faith_character_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
@@ -1331,10 +1670,15 @@ mathura = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
-		county_opinion_add = 1
+		prosperity_growth_factor = 0.01
+		popular_opinion_add = 1
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_mathura_effect_name
 		diplomacy = 1
 		powerful_vassal_opinion = 5
 	}
@@ -1351,10 +1695,15 @@ haridwar = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
+		prosperity_growth_factor = 0.01
 		epidemic_resistance = 1
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_haridwar_effect_name
 		health = 0.1
 	}
 	faith_character_modifier_scaled = {
@@ -1371,10 +1720,15 @@ kanchipuram = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
+		prosperity_growth_factor = 0.01
 		epidemic_travel_danger = -1
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_kanchipuram_effect_name
 		fertility = 0.15
 	}
 	faith_character_modifier_scaled = {
@@ -1391,10 +1745,15 @@ ujjayini = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		tax_mult = 0.01
+		all_tax_mult = 0.01
 		hostile_raid_time = 0.02
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_ujjayini_effect_name
 		stewardship = 1
 		courtier_and_guest_opinion = 5
 	}
@@ -1413,8 +1772,13 @@ dwarka = {
 		scale = holy_site_total_artifact_rarity
 		build_speed = -0.01
 		levy_size = 0.02
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_dwarka_effect_name
 		martial = 1
 		hard_casualty_modifier = -0.1
 	}
@@ -1427,19 +1791,24 @@ dwarka = {
 konarak = {
 	county = c_province1128
 	county_holder_character_modifier = {
-		development_growth_factor = 0.05
+		prosperity_growth_factor = 0.05
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
 		build_gold_cost = -0.01
-		county_opinion_add = 1
+		popular_opinion_add = 1
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_konarak_effect_name
 		church_holding_build_gold_cost = -0.1
 	}
 	faith_character_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
+		prosperity_growth_factor = 0.01
 		build_gold_cost = -0.005
 	}
 }
@@ -1453,36 +1822,46 @@ angkor = {
 		scale = holy_site_total_artifact_rarity
 		build_gold_cost = -0.01
 		defender_holding_advantage = 0.5
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_angkor_effect_name
 		tributary_opinion = 5
 		jungle_construction_gold_cost = -0.1
 	}
 	faith_character_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
 		monthly_income_mult = 0.005
-		development_growth_factor = 0.01
+		prosperity_growth_factor = 0.01
 	}
 }
 
 bantey_srei = {
 	county = c_province1283
 	county_holder_character_modifier = {
-		county_opinion_add = 3
+		popular_opinion_add = 3
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
 		build_speed = -0.01
-		monthly_county_control_growth_factor = 0.01
+		monthly_control_change_when_below_baseline_mult = 0.01
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
-		county_opinion_add = 5
+		name = holy_site_bantey_srei_effect_name
+		popular_opinion_add = 5
 		great_project_build_speed = -0.05
 	}
 	faith_character_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
 		monthly_prestige_gain_mult = 0.01
-		development_growth_factor = 0.01
+		prosperity_growth_factor = 0.01
 	}
 }
 
@@ -1495,9 +1874,15 @@ borobudur = {
 		scale = holy_site_total_artifact_rarity
 		build_speed = -0.01
 		defender_holding_advantage = 0.5
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_borobudur_effect_name
 		monthly_piety_gain_per_knight_mult = 0.01
+		knight_effectiveness_mult = 0.1
 	}
 	faith_character_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
@@ -1514,9 +1899,14 @@ muara_takus = {
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
 		build_gold_cost = -0.01
-		county_opinion_add = 1
+		popular_opinion_add = 1
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_muara_takus_effect_name
 		tributary_opinion = 5
 		temple_citadel_holding_build_gold_cost = -0.1
 	}
@@ -1534,10 +1924,15 @@ kalasan = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
+		prosperity_growth_factor = 0.01
 		epidemic_resistance = 1
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_kalasan_effect_name
 		diplomacy = 1
 		powerful_vassal_opinion = 5
 	}
@@ -1554,10 +1949,15 @@ my_son = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		tax_mult = 0.01
+		all_tax_mult = 0.01
 		supply_limit_mult = 0.02
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_my_son_effect_name
 		monthly_prestige_gain_per_knight_mult = 0.01
 		build_prestige_cost = -0.15
 	}
@@ -1571,20 +1971,25 @@ my_son = {
 bayon = {
 	county = c_province1253
 	county_holder_character_modifier = {
-		county_opinion_add = 3
+		popular_opinion_add = 3
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		farmlands_development_growth_factor = 0.01
+		farmlands_prosperity_growth_factor = 0.01
 		defender_holding_advantage = 0.5
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
-		county_opinion_add = 5
-		wetlands_development_growth_factor = 0.2
+		name = holy_site_bayon_effect_name
+		popular_opinion_add = 5
+		wetlands_prosperity_growth_factor = 0.2
 	}
 	faith_character_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		monthly_county_control_growth_factor = 0.01
+		monthly_control_change_when_below_baseline_mult = 0.01
 		monthly_piety_gain_mult = 0.01
 	}
 }
@@ -1597,16 +2002,21 @@ khao_khlang_nai = {
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
 		build_gold_cost = -0.01
-		county_opinion_add = 1
+		popular_opinion_add = 1
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_khao_khlang_nai_effect_name
 		tributary_opinion = 5
 		temple_citadel_holding_build_gold_cost = -0.1
 	}
 	faith_character_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
 		monthly_income_mult = 0.005
-		development_growth_factor = 0.01
+		prosperity_growth_factor = 0.01
 	}
 }
 
@@ -1617,10 +2027,15 @@ bupaya = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
-		county_opinion_add = 1
+		prosperity_growth_factor = 0.01
+		popular_opinion_add = 1
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_bupaya_effect_name
 		monthly_piety_gain_mult = 0.1
 	}
 	faith_character_modifier_scaled = {
@@ -1637,10 +2052,15 @@ palitana = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
-		county_opinion_add = 1
+		prosperity_growth_factor = 0.01
+		popular_opinion_add = 1
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_palitana_effect_name
 		monthly_piety_gain_mult = 0.1
 	}
 	faith_character_modifier_scaled = {
@@ -1657,10 +2077,15 @@ shikharj = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
+		prosperity_growth_factor = 0.01
 		epidemic_resistance = 1
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_shikharj_effect_name
 		stress_loss_mult = 0.1
 		life_expectancy = 1
 	}
@@ -1678,10 +2103,15 @@ ranakpur = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		tax_mult = 0.01
-		monthly_county_control_growth_factor = 0.01
+		all_tax_mult = 0.01
+		monthly_control_change_when_below_baseline_mult = 0.01
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_ranakpur_effect_name
 		stewardship = 1
 		sway_scheme_phase_duration_add = medium_scheme_phase_duration_bonus_value
 	}
@@ -1699,11 +2129,16 @@ ellora = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
+		prosperity_growth_factor = 0.01
 		travel_danger = -1
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
-		county_opinion_add = 5
+		name = holy_site_ellora_effect_name
+		popular_opinion_add = 5
 		different_culture_opinion = 5
 	}
 	faith_character_modifier_scaled = {
@@ -1720,10 +2155,15 @@ sittannavasal = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
-		monthly_county_control_growth_factor = 0.01
+		prosperity_growth_factor = 0.01
+		monthly_control_change_when_below_baseline_mult = 0.01
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_sittannavasal_effect_name
 		direct_vassal_opinion = 5
 	}
 	faith_character_modifier_scaled = {
@@ -1739,10 +2179,15 @@ itanagar = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
-		monthly_county_control_growth_factor = 0.01
+		prosperity_growth_factor = 0.01
+		monthly_control_change_when_below_baseline_mult = 0.01
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_itanagar_effect_name
 		monthly_prestige_gain_mult = 0.1
 	}
 	faith_character_modifier_scaled = {
@@ -1759,10 +2204,15 @@ pemako = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
+		prosperity_growth_factor = 0.01
 		epidemic_travel_danger = -1
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_pemako_effect_name
 		learning = 1
 		tyranny_gain_mult = -0.2
 	}
@@ -1779,10 +2229,15 @@ rima = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
-		monthly_county_control_growth_factor = 0.01
+		prosperity_growth_factor = 0.01
+		monthly_control_change_when_below_baseline_mult = 0.01
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_rima_effect_name
 		diplomacy_per_prestige_level = 1
 	}
 	faith_character_modifier_scaled = {
@@ -1798,10 +2253,15 @@ tezu = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		hills_development_growth_factor = 0.01
+		hills_prosperity_growth_factor = 0.01
 		supply_limit_mult = 0.02
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_tezu_effect_name
 		hills_advantage = 5
 	}
 	faith_character_modifier_scaled = {
@@ -1814,15 +2274,20 @@ tezu = {
 kathmandu = {
 	county = c_province1238
 	county_holder_character_modifier = {
-		county_opinion_add = 3
+		popular_opinion_add = 3
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
+		prosperity_growth_factor = 0.01
 		travel_danger = -1
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
-		county_opinion_add = 5
+		name = holy_site_kathmandu_effect_name
+		popular_opinion_add = 5
 		different_faith_opinion = 5
 	}
 	faith_character_modifier_scaled = {
@@ -1839,10 +2304,15 @@ ilam = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		mountains_development_growth_factor = 0.01
+		mountains_prosperity_growth_factor = 0.01
 		hostile_raid_time = 0.02
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_ilam_effect_name
 		mountains_advantage = 5
 	}
 	faith_character_modifier_scaled = {
@@ -1859,10 +2329,15 @@ garwhal = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
+		prosperity_growth_factor = 0.01
 		travel_danger = -1
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_garwhal_effect_name
 		diplomacy_per_piety_level = 1
 	}
 	faith_character_modifier_scaled = {
@@ -1874,20 +2349,25 @@ garwhal = {
 jumla = {
 	county = c_gorakhpur	# e87c real place (was c_province0423)
 	county_holder_character_modifier = {
-		dynasty_house_opinion = 3
+		monthly_dynasty_prestige_mult = 0.05
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		tax_mult = 0.01
-		monthly_county_control_growth_factor = 0.01
+		all_tax_mult = 0.01
+		monthly_control_change_when_below_baseline_mult = 0.01
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
-		dynasty_house_opinion = 5
+		name = holy_site_jumla_effect_name
+		monthly_dynasty_prestige = 0.02
 	}
 	faith_character_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
 		house_relation_change_mult = 0.01
-		monthly_dynasty_prestige_mult = 0.01
+		dynasty_house_opinion = 1
 	}
 }
 
@@ -1900,8 +2380,13 @@ maowun = {
 		scale = holy_site_total_artifact_rarity
 		build_speed = -0.01
 		garrison_size = 0.02
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_maowun_effect_name
 		monthly_piety_gain_per_knight_mult = 0.01
 	}
 	faith_character_modifier_scaled = {
@@ -1918,10 +2403,15 @@ ngawa = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
+		prosperity_growth_factor = 0.01
 		travel_danger = -1
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_ngawa_effect_name
 		learning_per_piety_level = 1
 	}
 	faith_character_modifier_scaled = {
@@ -1939,14 +2429,19 @@ chakla = {
 		scale = holy_site_total_artifact_rarity
 		build_speed = -0.01
 		hostile_raid_time = 0.02
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_chakla_effect_name
 		build_speed = -0.15
 	}
 	faith_character_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
 		build_gold_cost = -0.005
-		development_growth_factor = 0.01
+		prosperity_growth_factor = 0.01
 	}
 }
 
@@ -1957,10 +2452,15 @@ gyaitang = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
+		prosperity_growth_factor = 0.01
 		travel_danger = -1
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_gyaitang_effect_name
 		same_culture_opinion = 5
 	}
 	faith_character_modifier_scaled = {
@@ -1977,10 +2477,15 @@ rebgong = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
+		prosperity_growth_factor = 0.01
 		epidemic_resistance = 1
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_rebgong_effect_name
 		monthly_piety_gain_per_happy_powerful_vassal_mult = 0.02
 	}
 	faith_character_modifier_scaled = {
@@ -1997,10 +2502,15 @@ xingqing = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
+		prosperity_growth_factor = 0.01
 		hostile_raid_time = 0.02
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_xingqing_effect_name
 		same_faith_opinion = 5
 	}
 	faith_character_modifier_scaled = {
@@ -2018,9 +2528,14 @@ yijinai = {
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
 		build_gold_cost = -0.01
-		county_opinion_add = 1
+		popular_opinion_add = 1
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_yijinai_effect_name
 		build_gold_cost = -0.05
 	}
 	faith_character_modifier_scaled = {
@@ -2039,8 +2554,13 @@ alxa = {
 		scale = holy_site_total_artifact_rarity
 		build_speed = -0.01
 		hostile_raid_time = 0.02
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_alxa_effect_name
 		stewardship = 1
 		supply_duration = 0.1
 	}
@@ -2057,10 +2577,15 @@ yazd = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
+		prosperity_growth_factor = 0.01
 		hostile_raid_time = 0.02
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_yazd_effect_name
 		same_faith_opinion = 5
 		monthly_piety_gain_mult = 0.05
 	}
@@ -2071,6 +2596,7 @@ yazd = {
 	}
 }
 
+
 nok_kundi = {
 	county = c_province1063
 	county_holder_character_modifier = {
@@ -2079,9 +2605,14 @@ nok_kundi = {
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
 		build_gold_cost = -0.01
-		county_opinion_add = 1
+		popular_opinion_add = 1
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_nok_kundi_effect_name
 		build_gold_cost = -0.1
 		stewardship = 1
 	}
@@ -2098,10 +2629,15 @@ adur_farnbag = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
-		county_opinion_add = 1
+		prosperity_growth_factor = 0.01
+		popular_opinion_add = 1
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_adur_farnbag_effect_name
 		learning = 1
 		clergy_opinion = 5
 	}
@@ -2114,20 +2650,25 @@ adur_farnbag = {
 adur_burzen_mihr = {
 	county = c_province1433
 	county_holder_character_modifier = {
-		county_opinion_add = 3
+		popular_opinion_add = 3
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		drylands_development_growth_factor = 0.01
+		drylands_prosperity_growth_factor = 0.01
 		garrison_size = 0.02
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
-		county_opinion_add = 5
-		drylands_development_growth_factor = 0.2
+		name = holy_site_adur_burzen_mihr_effect_name
+		popular_opinion_add = 5
+		drylands_prosperity_growth_factor = 0.2
 	}
 	faith_character_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
+		prosperity_growth_factor = 0.01
 		monthly_income_mult = 0.005
 	}
 }
@@ -2139,10 +2680,15 @@ takht-i-sangin = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
+		prosperity_growth_factor = 0.01
 		travel_danger = -1
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_takht-i-sangin_effect_name
 		diplomacy = 1
 		clergy_opinion = 5
 	}
@@ -2161,9 +2707,15 @@ takht-e_soleyman = {
 		scale = holy_site_total_artifact_rarity
 		build_speed = -0.01
 		garrison_size = 0.02
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_takht-e_soleyman_effect_name
 		monthly_piety_gain_per_knight_mult = 0.01
+		knight_effectiveness_mult = 0.2
 	}
 	faith_character_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
@@ -2178,10 +2730,15 @@ ushi-darena = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
+		prosperity_growth_factor = 0.01
 		travel_danger = -1
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_ushi-darena_effect_name
 		monthly_piety_gain_mult = 0.1
 	}
 	faith_character_modifier_scaled = {
@@ -2198,10 +2755,15 @@ mount_damavand = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
+		prosperity_growth_factor = 0.01
 		epidemic_travel_danger = -1
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_damavand_effect_name
 		prowess_per_stress_level = 2
 	}
 	faith_character_modifier_scaled = {
@@ -2217,10 +2779,15 @@ badd = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		mountains_development_growth_factor = 0.01
+		mountains_prosperity_growth_factor = 0.01
 		defender_holding_advantage = 0.5
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_badd_effect_name
 		advantage_against_coreligionists = 5
 		supply_duration = 0.2
 	}
@@ -2238,10 +2805,15 @@ ctesiphon = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
+		prosperity_growth_factor = 0.01
 		travel_danger = -1
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_ctesiphon_effect_name
 		monthly_prestige_gain_mult = 0.05
 		learning = 1
 	}
@@ -2258,10 +2830,15 @@ ani = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
-		county_opinion_add = 1
+		prosperity_growth_factor = 0.01
+		popular_opinion_add = 1
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_ani_effect_name
 		direct_vassal_opinion = 5
 	}
 	faith_character_modifier_scaled = {
@@ -2277,10 +2854,15 @@ mizdahqan = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
+		prosperity_growth_factor = 0.01
 		epidemic_resistance = 1
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_mizdahqan_effect_name
 		learning_per_stress_level = 1
 	}
 	faith_character_modifier_scaled = {
@@ -2296,12 +2878,17 @@ dunhuang = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		drylands_development_growth_factor = 0.01
+		drylands_prosperity_growth_factor = 0.01
 		defender_holding_advantage = 0.5
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
-		desert_development_growth_factor = 0.1
-		drylands_development_growth_factor = 0.1
+		name = holy_site_dunhuang_effect_name
+		desert_prosperity_growth_factor = 0.1
+		drylands_prosperity_growth_factor = 0.1
 		learn_language_scheme_phase_duration_add = medium_scheme_phase_duration_bonus_value
 	}
 	faith_character_modifier_scaled = {
@@ -2320,8 +2907,13 @@ uppsala = {
 		scale = holy_site_total_artifact_rarity
 		build_speed = -0.01
 		defender_holding_advantage = 0.5
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_uppsala_effect_name
 		monthly_piety_gain_per_knight_mult = 0.01
 		heavy_infantry_damage_mult = 0.05
 	}
@@ -2339,17 +2931,22 @@ paderborn = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
+		prosperity_growth_factor = 0.01
 		epidemic_resistance = 1
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_paderborn_effect_name
 		stewardship_per_piety_level = 1
 		fertility = 0.1
 	}
 	faith_character_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
 		fertility = 0.01
-		development_growth_factor = 0.01
+		prosperity_growth_factor = 0.01
 	}
 }
 
@@ -2362,8 +2959,13 @@ ranaheim = {
 		scale = holy_site_total_artifact_rarity
 		build_speed = -0.01
 		garrison_size = 0.02
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_ranaheim_effect_name
 		men_at_arms_maintenance = -0.05
 	}
 	faith_character_modifier_scaled = {
@@ -2382,9 +2984,15 @@ jorvik = {
 		scale = holy_site_total_artifact_rarity
 		build_speed = -0.01
 		levy_size = 0.02
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_jorvik_effect_name
 		prowess_per_piety_level = 1
+		knight_effectiveness_mult = 0.2
 	}
 	faith_character_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
@@ -2402,8 +3010,13 @@ konugardr = {
 		scale = holy_site_total_artifact_rarity
 		build_speed = -0.01
 		levy_size = 0.02
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_konugardr_effect_name
 		prowess_per_piety_level = 1
 		supply_duration = 0.2
 	}
@@ -2421,10 +3034,15 @@ raivola = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
-		county_opinion_add = 1
+		prosperity_growth_factor = 0.01
+		popular_opinion_add = 1
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_raivola_effect_name
 		monthly_piety_gain_per_happy_powerful_vassal_mult = 0.02
 	}
 	faith_character_modifier_scaled = {
@@ -2441,10 +3059,15 @@ hiiumaa = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		tax_mult = 0.01
-		county_opinion_add = 1
+		all_tax_mult = 0.01
+		popular_opinion_add = 1
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_hiiumaa_effect_name
 		stewardship = 1
 		close_relative_opinion = 5
 	}
@@ -2461,10 +3084,15 @@ akkel = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		taiga_development_growth_factor = 0.01
+		taiga_prosperity_growth_factor = 0.01
 		levy_size = 0.02
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_akkel_effect_name
 		taiga_max_combat_roll = 5
 		archers_toughness_mult = 0.1
 	}
@@ -2484,8 +3112,13 @@ perm = {
 		scale = holy_site_total_artifact_rarity
 		build_speed = -0.01
 		levy_size = 0.02
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_perm_effect_name
 		supply_duration = 0.25
 		prowess = 1
 	}
@@ -2504,9 +3137,15 @@ kiev = {
 		scale = holy_site_total_artifact_rarity
 		build_speed = -0.01
 		defender_holding_advantage = 0.5
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_kiev_effect_name
 		monthly_piety_gain_mult = 0.1
+		knight_effectiveness_mult = 0.2
 	}
 	faith_character_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
@@ -2522,16 +3161,21 @@ novgorod = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		tax_mult = 0.01
-		county_opinion_add = 1
+		all_tax_mult = 0.01
+		popular_opinion_add = 1
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_novgorod_effect_name
 		stewardship_per_piety_level = 1
 	}
 	faith_character_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
 		monthly_income_mult = 0.005
-		development_growth_factor = 0.01
+		prosperity_growth_factor = 0.01
 	}
 }
 
@@ -2544,8 +3188,13 @@ barlad = {
 		scale = holy_site_total_artifact_rarity
 		build_speed = -0.01
 		defender_holding_advantage = 0.5
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_barlad_effect_name
 		prowess = 1
 		heavy_infantry_toughness_mult = 0.1
 	}
@@ -2562,10 +3211,15 @@ plock = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
-		county_opinion_add = 1
+		prosperity_growth_factor = 0.01
+		popular_opinion_add = 1
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_plock_effect_name
 		same_faith_opinion = 5
 	}
 	faith_character_modifier_scaled = {
@@ -2582,10 +3236,15 @@ pokaini = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		forest_development_growth_factor = 0.01
+		forest_prosperity_growth_factor = 0.01
 		epidemic_resistance = 1
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_pokaini_effect_name
 		controlled_province_advantage = 5
 		stress_loss_mult = 0.1
 	}
@@ -2605,9 +3264,15 @@ torun = {
 		scale = holy_site_total_artifact_rarity
 		build_speed = -0.01
 		levy_size = 0.02
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_torun_effect_name
 		martial_per_piety_level = 1
+		knight_effectiveness_mult = 0.2
 	}
 	faith_character_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
@@ -2624,8 +3289,13 @@ braslau = {
 		scale = holy_site_total_artifact_rarity
 		build_speed = -0.01
 		defender_holding_advantage = 0.5
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_braslau_effect_name
 		monthly_piety_gain_per_knight_add = 0.1
 		skirmishers_toughness_mult = 0.1
 	}
@@ -2645,8 +3315,13 @@ rugen = {
 		scale = holy_site_total_artifact_rarity
 		build_speed = -0.01
 		hostile_raid_time = 0.02
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_rugen_effect_name
 		embarkation_cost_mult = -0.25
 		retreat_losses = -0.1
 	}
@@ -2666,8 +3341,13 @@ pest = {
 		scale = holy_site_total_artifact_rarity
 		build_speed = -0.01
 		garrison_size = 0.02
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_pest_effect_name
 		martial = 1
 		prowess_per_prestige_level = 1
 	}
@@ -2684,10 +3364,15 @@ kerch = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		tax_mult = 0.01
+		all_tax_mult = 0.01
 		build_herd_cost = -0.01
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_kerch_effect_name
 		army_maintenance_mult = -0.05
 		martial_per_prestige_level = 1
 	}
@@ -2705,10 +3390,15 @@ olvia = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
+		prosperity_growth_factor = 0.01
 		epidemic_resistance = 1
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_olvia_effect_name
 		monthly_piety_gain_mult = 0.1
 	}
 	faith_character_modifier_scaled = {
@@ -2727,8 +3417,13 @@ poszony = {
 		scale = holy_site_total_artifact_rarity
 		build_speed = -0.01
 		levy_reinforcement_rate = 0.02
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_poszony_effect_name
 		levy_reinforcement_rate_same_faith = 0.2
 	}
 	faith_character_modifier_scaled = {
@@ -2747,8 +3442,13 @@ sarysyn = {
 		scale = holy_site_total_artifact_rarity
 		build_speed = -0.01
 		levy_size = 0.02
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_sarysyn_effect_name
 		men_at_arms_maintenance = -0.1
 	}
 	faith_character_modifier_scaled = {
@@ -2766,9 +3466,15 @@ kara_khorum = {
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
 		county_fertility_growth_mult = 0.01
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_kara_khorum_effect_name
 		prowess_per_prestige_level = 1
+		knight_effectiveness_mult = 0.2
 	}
 	faith_character_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
@@ -2785,8 +3491,13 @@ qayaliq = {
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
 		county_fertility_growth_mult = 0.01
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_qayaliq_effect_name
 		skirmishers_damage_mult = 0.1
 		light_cavalry_damage_mult = 0.1
 		archer_cavalry_damage_mult = 0.1
@@ -2806,8 +3517,13 @@ tavan_bogd = {
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
 		county_fertility_growth_add = 0.01
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_tavan_bogd_effect_name
 		prowess_per_piety_level = 1
 		clergy_opinion = 5
 	}
@@ -2824,10 +3540,15 @@ preslav = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		tax_mult = 0.01
+		all_tax_mult = 0.01
 		county_fertility_growth_mult = 0.01
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_preslav_effect_name
 		levy_size = 0.1
 	}
 	faith_character_modifier_scaled = {
@@ -2844,10 +3565,15 @@ athens = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		tax_mult = 0.01
+		all_tax_mult = 0.01
 		supply_limit_mult = 0.02
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_athens_effect_name
 		diplomacy = 1
 		stewardship = 1
 	}
@@ -2864,10 +3590,15 @@ carthage = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		tax_mult = 0.01
-		monthly_county_control_growth_factor = 0.01
+		all_tax_mult = 0.01
+		monthly_control_change_when_below_baseline_mult = 0.01
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_carthage_effect_name
 		dread_baseline_add = 5
 	}
 	faith_character_modifier_scaled = {
@@ -2884,10 +3615,15 @@ olympus = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
+		prosperity_growth_factor = 0.01
 		travel_danger = -1
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_olympus_effect_name
 		learning = 2
 	}
 	faith_character_modifier_scaled = {
@@ -2903,10 +3639,15 @@ kabul = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		tax_mult = 0.01
-		county_opinion_add = 1
+		all_tax_mult = 0.01
+		popular_opinion_add = 1
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_kabul_effect_name
 		stewardship = 1
 		monthly_piety_gain_mult = 0.05
 	}
@@ -2925,8 +3666,13 @@ multan = {
 		scale = holy_site_total_artifact_rarity
 		build_speed = -0.01
 		garrison_size = 0.02
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_multan_effect_name
 		martial = 1
 		monthly_piety_gain_mult = 0.05
 	}
@@ -2943,10 +3689,15 @@ bost = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
+		prosperity_growth_factor = 0.01
 		hostile_raid_time = 0.02
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_bost_effect_name
 		same_faith_opinion = 5
 	}
 	faith_character_modifier_scaled = {
@@ -2963,10 +3714,15 @@ khotan = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
+		prosperity_growth_factor = 0.01
 		travel_danger = -1
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_khotan_effect_name
 		different_culture_opinion = 10
 	}
 	faith_character_modifier_scaled = {
@@ -2983,10 +3739,15 @@ balkh = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
-		county_opinion_add = 1
+		prosperity_growth_factor = 0.01
+		popular_opinion_add = 1
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_balkh_effect_name
 		different_faith_opinion = 10
 	}
 	faith_character_modifier_scaled = {
@@ -3003,10 +3764,15 @@ lhasa = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		drylands_development_growth_factor = 0.01
+		drylands_prosperity_growth_factor = 0.01
 		travel_danger = -1
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_lhasa_effect_name
 		monthly_piety_gain_mult = 0.1
 	}
 	faith_character_modifier_scaled = {
@@ -3023,10 +3789,15 @@ purang = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		tax_mult = 0.01
-		county_opinion_add = 1
+		all_tax_mult = 0.01
+		popular_opinion_add = 1
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_purang_effect_name
 		stewardship_per_piety_level = 1
 	}
 	faith_character_modifier_scaled = {
@@ -3044,8 +3815,13 @@ tyumen = {
 		scale = holy_site_total_artifact_rarity
 		build_speed = -0.01
 		defender_holding_advantage = 0.5
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_tyumen_effect_name
 		martial_per_piety_level = 1
 		raid_speed = 0.1
 	}
@@ -3062,10 +3838,15 @@ surgut = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
+		prosperity_growth_factor = 0.01
 		epidemic_travel_danger = -1
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_surgut_effect_name
 		health = 0.1
 	}
 	faith_character_modifier_scaled = {
@@ -3082,10 +3863,15 @@ ob = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
-		county_opinion_add = 1
+		prosperity_growth_factor = 0.01
+		popular_opinion_add = 1
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_ob_effect_name
 		learning = 1
 		fertility = 0.1
 	}
@@ -3102,10 +3888,15 @@ olkhon = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
+		prosperity_growth_factor = 0.01
 		epidemic_resistance = 1
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_olkhon_effect_name
 		monthly_piety_gain_mult = 0.1
 	}
 	faith_character_modifier_scaled = {
@@ -3122,10 +3913,15 @@ viscaya = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		hills_development_growth_factor = 0.01
+		hills_prosperity_growth_factor = 0.01
 		hostile_raid_time = 0.02
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_viscaya_effect_name
 		coastal_advantage = 8
 	}
 	faith_character_modifier_scaled = {
@@ -3142,10 +3938,15 @@ aneto = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		mountains_development_growth_factor = 0.01
+		mountains_prosperity_growth_factor = 0.01
 		supply_limit_mult = 0.02
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_aneto_effect_name
 		monthly_prestige_gain_per_knight_add = 0.03
 	}
 	faith_character_modifier_scaled = {
@@ -3158,19 +3959,24 @@ aneto = {
 bordeaux = {
 	county = c_province1150
 	county_holder_character_modifier = {
-		monthly_county_control_growth_factor = 0.1
+		monthly_control_change_when_below_baseline_mult = 0.1
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		tax_mult = 0.01
-		monthly_county_control_growth_factor = 0.01
+		all_tax_mult = 0.01
+		monthly_control_change_when_below_baseline_mult = 0.01
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
-		monthly_county_control_growth_factor = 0.5
+		name = holy_site_bordeaux_effect_name
+		monthly_control_change_when_below_baseline_mult = 0.5
 	}
 	faith_character_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		monthly_county_control_growth_factor = 0.02
+		monthly_control_change_when_below_baseline_mult = 0.02
 		monthly_income_mult = 0.005
 	}
 }
@@ -3184,8 +3990,13 @@ awkar = {
 		scale = holy_site_total_artifact_rarity
 		build_speed = -0.01
 		garrison_size = 0.02
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_awkar_effect_name
 		knight_limit = 1
 		light_cavalry_toughness_mult = 0.1
 	}
@@ -3203,10 +4014,15 @@ jenne = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		tax_mult = 0.01
+		all_tax_mult = 0.01
 		hostile_raid_time = 0.02
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_jenne_effect_name
 		diplomacy = 1
 		councillor_opinion = 5
 	}
@@ -3223,10 +4039,15 @@ niani = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		tax_mult = 0.01
-		county_opinion_add = 1
+		all_tax_mult = 0.01
+		popular_opinion_add = 1
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_niani_effect_name
 		monthly_tyranny = -0.1
 		tyranny_gain_mult = -0.2
 	}
@@ -3244,10 +4065,15 @@ kukiya = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
-		county_opinion_add = 1
+		prosperity_growth_factor = 0.01
+		popular_opinion_add = 1
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_kukiya_effect_name
 		monthly_piety_gain_per_knight_mult = 0.01
 		monthly_prestige_gain_per_knight_mult = 0.01
 	}
@@ -3267,8 +4093,13 @@ wadan = {
 		scale = holy_site_total_artifact_rarity
 		build_speed = -0.01
 		levy_size = 0.02
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_wadan_effect_name
 		martial = 1
 		supply_duration = 0.25
 	}
@@ -3287,9 +4118,15 @@ daura = {
 		scale = holy_site_total_artifact_rarity
 		build_speed = -0.01
 		garrison_size = 0.02
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_daura_effect_name
 		monthly_prestige_gain_per_knight_mult = 0.02
+		knight_effectiveness_mult = 0.1
 	}
 	faith_character_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
@@ -3301,19 +4138,24 @@ daura = {
 garumele = {
 	county = c_province1139
 	county_holder_character_modifier = {
-		county_opinion_add = 3
+		popular_opinion_add = 3
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		tax_mult = 0.01
+		all_tax_mult = 0.01
 		garrison_size = 0.02
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
-		county_opinion_add = 5
+		name = holy_site_garumele_effect_name
+		popular_opinion_add = 5
 	}
 	faith_character_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		monthly_county_control_growth_factor = 0.01
+		monthly_control_change_when_below_baseline_mult = 0.01
 		monthly_income_mult = 0.005
 	}
 }
@@ -3325,10 +4167,15 @@ igbo = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
+		prosperity_growth_factor = 0.01
 		epidemic_resistance = 1
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_igbo_effect_name
 		learning_per_piety_level = 1
 	}
 	faith_character_modifier_scaled = {
@@ -3344,10 +4191,15 @@ el_fasher = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		tax_mult = 0.01
+		all_tax_mult = 0.01
 		supply_limit_mult = 0.02
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_el_fasher_effect_name
 		stewardship_per_piety_level = 1
 	}
 	faith_character_modifier_scaled = {
@@ -3363,10 +4215,15 @@ wandala = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		drylands_development_growth_factor = 0.01
+		drylands_prosperity_growth_factor = 0.01
 		hostile_raid_time = 0.02
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_wandala_effect_name
 		drylands_advantage = 5
 	}
 	faith_character_modifier_scaled = {
@@ -3383,10 +4240,15 @@ kisi = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		tax_mult = 0.01
+		all_tax_mult = 0.01
 		hostile_raid_time = 0.02
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_kisi_effect_name
 		monthly_prestige_gain_per_knight_mult = 0.02
 		build_prestige_cost = -0.2
 	}
@@ -3404,10 +4266,15 @@ sherbro = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
-		monthly_county_control_growth_factor = 0.01
+		prosperity_growth_factor = 0.01
+		monthly_control_change_when_below_baseline_mult = 0.01
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_sherbro_effect_name
 		same_faith_opinion = 10
 	}
 	faith_character_modifier_scaled = {
@@ -3424,10 +4291,15 @@ kayor = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		tax_mult = 0.01
-		monthly_county_control_growth_factor = 0.01
+		all_tax_mult = 0.01
+		monthly_control_change_when_below_baseline_mult = 0.01
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_kayor_effect_name
 		owned_personal_scheme_success_chance_add = 5
 		diplomacy = 1
 	}
@@ -3444,10 +4316,15 @@ kasa = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
+		prosperity_growth_factor = 0.01
 		epidemic_resistance = 1
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_kasa_effect_name
 		diplomacy_per_piety_level = 1
 	}
 	faith_character_modifier_scaled = {
@@ -3465,8 +4342,13 @@ bono = {
 		scale = holy_site_total_artifact_rarity
 		build_speed = -0.01
 		levy_size = 0.02
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_bono_effect_name
 		men_at_arms_maintenance = -0.05
 		personal_scheme_phase_duration_add = miniscule_scheme_phase_duration_bonus_value
 	}
@@ -3484,10 +4366,15 @@ kumasi = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		tax_mult = 0.01
-		county_opinion_add = 1
+		all_tax_mult = 0.01
+		popular_opinion_add = 1
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_kumasi_effect_name
 		learning = 1
 		short_reign_duration_mult = -0.25
 	}
@@ -3504,10 +4391,15 @@ ife = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
+		prosperity_growth_factor = 0.01
 		epidemic_resistance = 1
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_ife_effect_name
 		monthly_piety_gain_mult = 0.1
 	}
 	faith_character_modifier_scaled = {
@@ -3524,10 +4416,15 @@ nikki = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
+		prosperity_growth_factor = 0.01
 		epidemic_resistance = 1
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_nikki_effect_name
 		learning_per_piety_level = 1
 	}
 	faith_character_modifier_scaled = {
@@ -3543,10 +4440,15 @@ aswan = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		tax_mult = 0.01
+		all_tax_mult = 0.01
 		supply_limit_mult = 0.02
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_aswan_effect_name
 		stewardship_per_piety_level = 1
 	}
 	faith_character_modifier_scaled = {
@@ -3559,12 +4461,16 @@ wadi_el_milk = {
 	county = c_northern_oasis
 	parameters = { wadi_el_milk_conversion_resistance_bonus }
 	county_holder_character_modifier = {
-		county_opinion_add = 5
+		popular_opinion_add = 5
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		desert_development_growth_factor = 0.01
-		monthly_county_control_growth_factor = 0.01
+		desert_prosperity_growth_factor = 0.01
+		monthly_control_change_when_below_baseline_mult = 0.01
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
 		same_faith_opinion = 5
@@ -3586,8 +4492,13 @@ naqis = {
 		scale = holy_site_total_artifact_rarity
 		build_speed = -0.01
 		garrison_size = 0.02
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_naqis_effect_name
 		martial = 2
 	}
 	faith_character_modifier_scaled = {
@@ -3603,10 +4514,15 @@ sennar = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
-		monthly_county_control_growth_factor = 0.01
+		prosperity_growth_factor = 0.01
+		monthly_control_change_when_below_baseline_mult = 0.01
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_sennar_effect_name
 		diplomacy = 2
 	}
 	faith_character_modifier_scaled = {
@@ -3618,20 +4534,25 @@ sennar = {
 tenerife = {
 	county = c_province1190
 	county_holder_character_modifier = {
-		hills_development_growth_factor = 0.1
+		hills_prosperity_growth_factor = 0.1
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		hills_development_growth_factor = 0.01
+		hills_prosperity_growth_factor = 0.01
 		supply_limit_mult = 0.02
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
-		hills_development_growth_factor = 0.25
+		name = holy_site_tenerife_effect_name
+		hills_prosperity_growth_factor = 0.25
 		monthly_piety_gain_per_dread_add = 0.03
 	}
 	faith_character_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		hills_development_growth_factor = 0.015
+		hills_prosperity_growth_factor = 0.015
 		dread_gain_mult = 0.01
 	}
 }
@@ -3645,8 +4566,13 @@ cartagena = {
 		scale = holy_site_total_artifact_rarity
 		build_speed = -0.01
 		levy_size = 0.02
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_cartagena_effect_name
 		title_creation_cost_mult = -0.15
 		men_at_arms_maintenance_per_dread_mult = -0.002
 	}
@@ -3664,10 +4590,15 @@ madiera = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		hills_development_growth_factor = 0.01
+		hills_prosperity_growth_factor = 0.01
 		supply_limit_mult = 0.02
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_madeira_effect_name
 		naval_movement_speed_mult = 0.2
 		coastal_advantage = 5
 	}
@@ -3685,10 +4616,15 @@ danakil = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		tax_mult = 0.01
-		monthly_county_control_growth_factor = 0.01
+		all_tax_mult = 0.01
+		monthly_control_change_when_below_baseline_mult = 0.01
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_danakil_effect_name
 		learning = 1
 		personal_scheme_phase_duration_add = miniscule_scheme_phase_duration_bonus_value
 	}
@@ -3708,8 +4644,13 @@ kaffa = {
 		scale = holy_site_total_artifact_rarity
 		build_speed = -0.01
 		levy_size = 0.02
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_kaffa_effect_name
 		martial_per_piety_level = 1
 		raid_speed = 0.1
 	}
@@ -3726,10 +4667,15 @@ harar = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
+		prosperity_growth_factor = 0.01
 		travel_danger = -1
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_harar_effect_name
 		monthly_piety_gain_mult = 0.1
 	}
 	faith_character_modifier_scaled = {
@@ -3746,10 +4692,15 @@ makhir = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
-		county_opinion_add = 1
+		prosperity_growth_factor = 0.01
+		popular_opinion_add = 1
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_makhir_effect_name
 		diplomacy = 2
 	}
 	faith_character_modifier_scaled = {
@@ -3765,10 +4716,15 @@ mogadishu = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		tax_mult = 0.01
+		all_tax_mult = 0.01
 		supply_limit_mult = 0.02
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_mogadishu_effect_name
 		clergy_opinion = 5
 	}
 	faith_character_modifier_scaled = {
@@ -3785,10 +4741,15 @@ kirinyaga = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
-		county_opinion_add = 1
+		prosperity_growth_factor = 0.01
+		popular_opinion_add = 1
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_kirinyaga_effect_name
 		health = 0.1
 		monthly_piety_gain_mult = 0.05
 	}
@@ -3806,10 +4767,15 @@ mangea = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
-		monthly_county_control_growth_factor = 0.01
+		prosperity_growth_factor = 0.01
+		monthly_control_change_when_below_baseline_mult = 0.01
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_mangea_effect_name
 		direct_vassal_opinion = 5
 	}
 	faith_character_modifier_scaled = {
@@ -3825,10 +4791,15 @@ kilimanjaro = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		desert_mountains_development_growth_factor = 0.01
+		desert_mountains_prosperity_growth_factor = 0.01
 		defender_holding_advantage = 0.5
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_kilimanjaro_effect_name
 		controlled_province_advantage = 5
 		prowess_per_piety_level = 1
 	}
@@ -3837,6 +4808,10 @@ kilimanjaro = {
 		controlled_province_advantage = 0.5
 	}
 }
+	
+#############
+# Other
+#############
 
 gilgit = {
 	county = c_province1696
@@ -3847,8 +4822,13 @@ gilgit = {
 		scale = holy_site_total_artifact_rarity
 		build_speed = -0.01
 		levy_size = 0.02
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_gilgit_effect_name
 		martial = 1
 		stewardship = 1
 	}
@@ -3868,8 +4848,13 @@ nakkavaram = {
 		scale = holy_site_total_artifact_rarity
 		build_gold_cost = -0.01
 		hostile_raid_time = 0.02
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_nakkavaram_effect_name
 		build_gold_cost = -0.1
 		stewardship = 1
 	}
@@ -3882,15 +4867,20 @@ nakkavaram = {
 ar_kol = {
 	county = c_yangon	# e87c real place (was c_province0671)
 	county_holder_character_modifier = {
-		jungle_tax_mult = 0.05
+		woodland_tax_mult = 0.05
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		jungle_development_growth_factor = 0.01
+		jungle_prosperity_growth_factor = 0.01
 		garrison_size = 0.02
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
-		jungle_tax_mult = 0.15
+		name = holy_site_ar_kol_effect_name
+		woodland_tax_mult = 0.15
 		monthly_piety_gain_mult = 0.05
 	}
 	faith_character_modifier_scaled = {
@@ -3907,10 +4897,15 @@ mount_heng = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
+		prosperity_growth_factor = 0.01
 		epidemic_resistance = 1
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_mount_heng_effect_name
 		direct_vassal_opinion = 5
 	}
 	faith_character_modifier_scaled = {
@@ -3926,10 +4921,15 @@ mount_longhu = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		tax_mult = 0.01
-		county_opinion_add = 1
+		all_tax_mult = 0.01
+		popular_opinion_add = 1
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_mount_longhu_effect_name
 		clergy_opinion = 5
 		personal_scheme_phase_duration_add = minor_scheme_phase_duration_bonus_value
 	}
@@ -3946,10 +4946,15 @@ mount_qingcheng = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
+		prosperity_growth_factor = 0.01
 		epidemic_travel_danger = -1
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_mount_qingcheng_effect_name
 		life_expectancy = 1
 		monthly_diplomacy_lifestyle_xp_gain_mult = 0.15
 	}
@@ -3967,10 +4972,15 @@ mount_tai = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
+		prosperity_growth_factor = 0.01
 		travel_danger = -1
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_mount_tai_effect_name
 		learning = 1
 		monthly_piety_gain_mult = 0.05
 	}
@@ -3989,9 +4999,15 @@ mount_mian = {
 		scale = holy_site_total_artifact_rarity
 		build_speed = -0.01
 		defender_holding_advantage = 0.5
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_mount_mian_effect_name
 		martial_per_piety_level = 1
+		knight_effectiveness_mult = 0.1
 	}
 	faith_character_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
@@ -4008,8 +5024,13 @@ mount_wudang = {
 		scale = holy_site_total_artifact_rarity
 		build_speed = -0.01
 		defender_holding_advantage = 0.5
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_mount_wudang_effect_name
 		martial = 1
 		prowess_per_prestige_level = 1
 	}
@@ -4026,10 +5047,15 @@ mount_qiyung = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
+		prosperity_growth_factor = 0.01
 		travel_danger = -1
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_mount_wudang_effect_name
 		learning = 2
 	}
 	faith_character_modifier_scaled = {
@@ -4045,10 +5071,15 @@ luyi = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
+		prosperity_growth_factor = 0.01
 		travel_danger = -1
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_luyi_effect_name
 		learning = 1
 		monthly_piety = 1
 	}
@@ -4065,10 +5096,15 @@ fuji = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
-		county_opinion_add = 1
+		prosperity_growth_factor = 0.01
+		popular_opinion_add = 1
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_fuji_effect_name
 		councillor_opinion = 5
 	}
 	faith_character_modifier_scaled = {
@@ -4084,10 +5120,15 @@ ise_jingu = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
+		prosperity_growth_factor = 0.01
 		epidemic_resistance = 1
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_ise_jingu_effect_name
 		learning_per_piety_level = 1
 	}
 	faith_character_modifier_scaled = {
@@ -4103,10 +5144,15 @@ itsukushima = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		plains_development_growth_factor = 0.01
+		plains_prosperity_growth_factor = 0.01
 		levy_size = 0.02
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_itsukushima_effect_name
 		knight_effectiveness_mult = 0.1
 	}
 	faith_character_modifier_scaled = {
@@ -4125,8 +5171,13 @@ hachimangu = {
 		scale = holy_site_total_artifact_rarity
 		build_speed = -0.01
 		levy_size = 0.02
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_hachimangu_effect_name
 		men_at_arms_maintenance = -0.05
 	}
 	faith_character_modifier_scaled = {
@@ -4143,10 +5194,15 @@ wutai = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
-		county_opinion_add = 1
+		prosperity_growth_factor = 0.01
+		popular_opinion_add = 1
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_wutai_effect_name
 		learning = 2
 	}
 	faith_character_modifier_scaled = {
@@ -4162,10 +5218,15 @@ wenang = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		tax_mult = 0.01
+		all_tax_mult = 0.01
 		supply_limit_mult = 0.02
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_wenang_effect_name
 		stewardship_per_piety_level = 1
 	}
 	faith_character_modifier_scaled = {
@@ -4183,8 +5244,13 @@ siang = {
 		scale = holy_site_total_artifact_rarity
 		build_speed = -0.01
 		defender_holding_advantage = 0.5
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_siang_effect_name
 		martial = 1
 		clergy_opinion = 5
 	}
@@ -4201,10 +5267,15 @@ tengchong = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		tax_mult = 0.01
-		county_opinion_add = 1
+		all_tax_mult = 0.01
+		popular_opinion_add = 1
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_tengchong_effect_name
 		clergy_opinion = 5
 		personal_scheme_phase_duration_add = minor_scheme_phase_duration_bonus_value
 	}
@@ -4223,9 +5294,15 @@ dali = {
 		scale = holy_site_total_artifact_rarity
 		build_speed = -0.01
 		defender_holding_advantage = 0.5
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_dali_effect_name
 		prowess_per_prestige_level = 1
+		knight_effectiveness_mult = 0.2
 	}
 	faith_character_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
@@ -4241,10 +5318,15 @@ jinglong = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		hills_development_growth_factor = 0.01
+		hills_prosperity_growth_factor = 0.01
 		levy_reinforcement_rate = 0.02
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_jinglong_effect_name
 		jungle_advantage = 3
 		supply_duration = 0.1
 	}
@@ -4264,8 +5346,13 @@ zhaotong = {
 		scale = holy_site_total_artifact_rarity
 		build_speed = -0.01
 		levy_size = 0.02
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_zhaotong_effect_name
 		knight_limit = 1
 		light_cavalry_toughness_mult = 0.1
 	}
@@ -4283,10 +5370,15 @@ xuhen = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		tax_mult = 0.01
+		all_tax_mult = 0.01
 		hostile_raid_time = 0.02
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_xuhen_effect_name
 		tributary_opinion = 5
 	}
 	faith_character_modifier_scaled = {
@@ -4302,10 +5394,15 @@ chang_an = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
-		county_opinion_add = 1
+		prosperity_growth_factor = 0.01
+		popular_opinion_add = 1
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_xi_an_effect_name
 		monthly_piety_gain_mult = 0.1
 	}
 	faith_character_modifier_scaled = {
@@ -4322,10 +5419,15 @@ cotabato = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		tax_mult = 0.01
-		county_opinion_add = 1
+		all_tax_mult = 0.01
+		popular_opinion_add = 1
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_cotabato_effect_name
 		learning = 1
 		tributary_opinion = 5
 	}
@@ -4342,10 +5444,15 @@ biri_larosa = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
+		prosperity_growth_factor = 0.01
 		travel_danger = -1
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_biri_larosa_effect_name
 		monthly_piety_gain_mult = 0.1
 	}
 	faith_character_modifier_scaled = {
@@ -4358,15 +5465,20 @@ biri_larosa = {
 pinatubo = {
 	county = c_province1950
 	county_holder_character_modifier = {
-		jungle_tax_mult = 0.05
+		woodland_tax_mult = 0.05
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		plains_development_growth_factor = 0.01
+		plains_prosperity_growth_factor = 0.01
 		garrison_size = 0.02
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
-		jungle_tax_mult = 0.15
+		name = holy_site_pinatubo_effect_name
+		woodland_tax_mult = 0.15
 	}
 	faith_character_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
@@ -4384,8 +5496,13 @@ ivatan = {
 		scale = holy_site_total_artifact_rarity
 		build_speed = -0.01
 		levy_reinforcement_rate = 0.02
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_pulag_effect_name
 		same_faith_opinion = 10
 	}
 	faith_character_modifier_scaled = {
@@ -4402,10 +5519,15 @@ mantalingajan = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		tax_mult = 0.01
+		all_tax_mult = 0.01
 		hostile_raid_time = 0.02
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_mantalingajan_effect_name
 		monthly_prestige_gain_per_knight_mult = 0.01
 		build_prestige_cost = -0.15
 	}
@@ -4423,10 +5545,15 @@ vien_chan = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		tax_mult = 0.01
-		county_opinion_add = 1
+		all_tax_mult = 0.01
+		popular_opinion_add = 1
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_vien_chan_effect_name
 		sway_scheme_phase_duration_add = minor_scheme_phase_duration_bonus_value
 	}
 	faith_character_modifier_scaled = {
@@ -4442,10 +5569,15 @@ hsenwi = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		tax_mult = 0.01
-		monthly_county_control_growth_factor = 0.01
+		all_tax_mult = 0.01
+		monthly_control_change_when_below_baseline_mult = 0.01
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_hsenwi_effect_name
 		personal_scheme_phase_duration_add = minor_scheme_phase_duration_bonus_value
 	}
 	faith_character_modifier_scaled = {
@@ -4461,10 +5593,15 @@ sukhothai = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		tax_mult = 0.01
-		monthly_county_control_growth_factor = 0.01
+		all_tax_mult = 0.01
+		monthly_control_change_when_below_baseline_mult = 0.01
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_sukhothai_effect_name
 		owned_personal_scheme_success_chance_add = 5
 	}
 	faith_character_modifier_scaled = {
@@ -4480,10 +5617,15 @@ cao_bang = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		tax_mult = 0.01
-		monthly_county_control_growth_factor = 0.01
+		all_tax_mult = 0.01
+		monthly_control_change_when_below_baseline_mult = 0.01
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_cao_bang_effect_name
 		intrigue = 1
 		scheme_discovery_chance_mult = 0.1
 	}
@@ -4502,8 +5644,13 @@ molihewen = {
 		scale = holy_site_total_artifact_rarity
 		build_speed = -0.01
 		defender_holding_advantage = 0.5
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_molihewen_effect_name
 		prowess_per_piety_level = 1
 	}
 	faith_character_modifier_scaled = {
@@ -4521,8 +5668,13 @@ yam_alin = {
 		scale = holy_site_total_artifact_rarity
 		build_speed = -0.01
 		defender_holding_advantage = 0.5
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_yam_alin_effect_name
 		martial = 1
 		supply_duration = 0.1
 	}
@@ -4539,10 +5691,15 @@ chupka = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		mountains_development_growth_factor = 0.01
+		mountains_prosperity_growth_factor = 0.01
 		defender_holding_advantage = 0.5
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_kunasir_effect_name
 		controlled_province_advantage = 5
 	}
 	faith_character_modifier_scaled = {
@@ -4561,8 +5718,13 @@ yizhou = {
 		scale = holy_site_total_artifact_rarity
 		build_speed = -0.01
 		hostile_raid_time = 0.02
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_yizhou_effect_name
 		levy_size = 0.1
 	}
 	faith_character_modifier_scaled = {
@@ -4575,19 +5737,25 @@ yizhou = {
 amandee = {
 	county = c_province1594
 	county_holder_character_modifier = {
-		mountains_development_growth_factor = 0.1
+		mountains_prosperity_growth_factor = 0.1
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		hills_development_growth_factor = 0.01
+		hills_prosperity_growth_factor = 0.01
 		supply_limit_mult = 0.02
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
-		mountains_development_growth_factor = 0.2
+		name = holy_site_amandee_effect_name
+		mountains_prosperity_growth_factor = 0.2
+		monthly_prestige_gain_mult = 0.1
 	}
 	faith_character_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
+		prosperity_growth_factor = 0.01
 		monthly_income_mult = 0.005
 	}
 }
@@ -4599,10 +5767,15 @@ sefa_utaki = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		hills_development_growth_factor = 0.01
+		hills_prosperity_growth_factor = 0.01
 		hostile_raid_time = 0.02
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_sefa_utaki_effect_name
 		mountains_advantage = 5
 	}
 	faith_character_modifier_scaled = {
@@ -4621,8 +5794,13 @@ iban = {
 		scale = holy_site_total_artifact_rarity
 		build_speed = -0.01
 		defender_holding_advantage = 0.5
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_iban_effect_name
 		martial = 1
 		supply_duration = 0.25
 	}
@@ -4639,10 +5817,15 @@ kudat = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		plains_development_growth_factor = 0.01
+		plains_prosperity_growth_factor = 0.01
 		supply_limit_mult = 0.02
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_kudat_effect_name
 		jungle_advantage = 5
 	}
 	faith_character_modifier_scaled = {
@@ -4659,10 +5842,15 @@ taiao = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		plains_development_growth_factor = 0.01
+		plains_prosperity_growth_factor = 0.01
 		levy_size = 0.02
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_taiao_effect_name
 		advantage_against_coreligionists = 2
 	}
 	faith_character_modifier_scaled = {
@@ -4678,10 +5866,15 @@ sukadana = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		tax_mult = 0.01
+		all_tax_mult = 0.01
 		hostile_raid_time = 0.02
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_sukadana_effect_name
 		courtier_and_guest_opinion = 5
 		councillor_opinion = 5
 	}
@@ -4700,8 +5893,13 @@ kutai = {
 		scale = holy_site_total_artifact_rarity
 		build_speed = -0.01
 		defender_holding_advantage = 0.5
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_kutai_effect_name
 		prowess_per_piety_level = 1
 	}
 	faith_character_modifier_scaled = {
@@ -4717,10 +5915,15 @@ qufu = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		tax_mult = 0.01
-		county_opinion_add = 1
+		all_tax_mult = 0.01
+		popular_opinion_add = 1
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_qufu_effect_name
 		legitimacy_gain_mult = 0.1
 		monthly_merit_mult = 0.05
 	}
@@ -4739,10 +5942,15 @@ bianliang = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		tax_mult = 0.01
+		all_tax_mult = 0.01
 		hostile_raid_time = 0.02
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_bianliang_effect_name
 		courtier_and_guest_opinion = 5
 		councillor_opinion = 5
 	}
@@ -4755,40 +5963,50 @@ bianliang = {
 qiongzhou = {
 	county = c_province1087
 	county_holder_character_modifier = {
-		monthly_county_control_growth_factor = 0.05
+		monthly_control_change_when_below_baseline_mult = 0.05
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		mountains_development_growth_factor = 0.01
+		mountains_prosperity_growth_factor = 0.01
 		defender_holding_advantage = 0.5
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_qiongzhou_effect_name
 		controlled_province_advantage = 5
 	}
 	faith_character_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
 		controlled_province_advantage = 0.5
-		monthly_county_control_growth_factor = 0.01
+		monthly_control_change_when_below_baseline_mult = 0.01
 	}
 }
 
 amparita = {
 	county = c_province1051
 	county_holder_character_modifier = {
-		jungle_tax_mult = 0.05
+		woodland_tax_mult = 0.05
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		wetlands_development_growth_factor = 0.01
+		wetlands_prosperity_growth_factor = 0.01
 		supply_limit_mult = 0.02
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
-		jungle_tax_mult = 0.1
+		name = holy_site_amparita_effect_name
+		woodland_tax_mult = 0.1
 	}
 	faith_character_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
 		monthly_income_mult = 0.005
-		development_growth_factor = 0.01
+		prosperity_growth_factor = 0.01
 	}
 }
 
@@ -4799,10 +6017,15 @@ buru-sula = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		tax_mult = 0.01
+		all_tax_mult = 0.01
 		supply_limit_mult = 0.02
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_buru_sula_effect_name
 		stewardship = 1
 		monthly_income_mult = 0.05
 	}
@@ -4819,10 +6042,15 @@ papua_selatan = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		tax_mult = 0.01
-		monthly_county_control_growth_factor = 0.01
+		all_tax_mult = 0.01
+		monthly_control_change_when_below_baseline_mult = 0.01
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_papua_selatan_effect_name
 		dread_gain_mult = 0.1
 	}
 	faith_character_modifier_scaled = {
@@ -4839,10 +6067,15 @@ kepala_burung = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		tax_mult = 0.01
-		county_opinion_add = 1
+		all_tax_mult = 0.01
+		popular_opinion_add = 1
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_kepala_burung_effect_name
 		monthly_tyranny = -0.1
 		tyranny_gain_mult = -0.2
 	}
@@ -4856,19 +6089,25 @@ kepala_burung = {
 hoanya = {
 	county = c_province1833
 	county_holder_character_modifier = {
-		development_growth_factor = 0.05
+		prosperity_growth_factor = 0.05
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		tax_mult = 0.01
+		all_tax_mult = 0.01
 		supply_limit_mult = 0.02
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
-		development_growth_factor = 0.1
+		name = holy_site_hoanya_effect_name
+		prosperity_growth_factor = 0.1
+		popular_opinion_add = 5
 	}
 	faith_character_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
+		prosperity_growth_factor = 0.01
 		monthly_income_mult = 0.005
 	}
 }
@@ -4880,10 +6119,15 @@ sonba_i = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
-		county_opinion_add = 1
+		prosperity_growth_factor = 0.01
+		popular_opinion_add = 1
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_sonba_i_effect_name
 		learning = 2
 	}
 	faith_character_modifier_scaled = {
@@ -4899,10 +6143,15 @@ riak_nan_berbedur = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
-		monthly_county_control_growth_factor = 0.01
+		prosperity_growth_factor = 0.01
+		monthly_control_change_when_below_baseline_mult = 0.01
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_riak_nan_berbedur_effect_name
 		monthly_prestige_gain_mult = 0.1
 	}
 	faith_character_modifier_scaled = {
@@ -4919,17 +6168,22 @@ gangganegara = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		tax_mult = 0.01
-		county_opinion_add = 1
+		all_tax_mult = 0.01
+		popular_opinion_add = 1
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
-		county_opinion_add = 10
+		name = holy_site_gangganegara_effect_name
+		popular_opinion_add = 10
 		same_faith_opinion = 10
 	}
 	faith_character_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
 		same_faith_opinion = 0.5
-		monthly_county_control_growth_factor = 0.01
+		monthly_control_change_when_below_baseline_mult = 0.01
 	}
 }
 
@@ -4942,8 +6196,13 @@ nutapkauspe = {
 		scale = holy_site_total_artifact_rarity
 		build_speed = -0.01
 		levy_size = 0.02
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_nutapkauspe_effect_name
 		supply_duration = 0.2
 		men_at_arms_maintenance = -0.05
 	}
@@ -4961,10 +6220,15 @@ makkarinupuri = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		hills_development_growth_factor = 0.01
+		hills_prosperity_growth_factor = 0.01
 		supply_limit_mult = 0.02
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_simenas_effect_name
 		controlled_province_advantage = 5
 	}
 	faith_character_modifier_scaled = {
@@ -4981,10 +6245,15 @@ tarayka = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
+		prosperity_growth_factor = 0.01
 		hostile_raid_time = 0.02
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_tarayka_effect_name
 		same_faith_opinion = 5
 	}
 	faith_character_modifier_scaled = {
@@ -4997,19 +6266,25 @@ tarayka = {
 kamuykotan = {
 	county = c_province0898
 	county_holder_character_modifier = {
-		development_growth_factor = 0.05
+		prosperity_growth_factor = 0.05
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		tax_mult = 0.01
+		all_tax_mult = 0.01
 		hostile_raid_time = 0.02
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
-		development_growth_factor = 0.1
+		name = holy_site_kamuykotan_effect_name
+		prosperity_growth_factor = 0.1
+		levy_size = 0.05
 	}
 	faith_character_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
+		prosperity_growth_factor = 0.01
 		monthly_income_mult = 0.005
 	}
 }
@@ -5021,10 +6296,15 @@ hitakami = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
+		prosperity_growth_factor = 0.01
 		epidemic_resistance = 1
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_uskes_effect_name
 		cultural_head_fascination_mult = 0.15
 	}
 	faith_character_modifier_scaled = {
@@ -5040,10 +6320,15 @@ nanning = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		tax_mult = 0.01
+		all_tax_mult = 0.01
 		garrison_size = 0.02
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_nanning_effect_name
 		title_creation_cost_mult = -0.15
 	}
 	faith_character_modifier_scaled = {
@@ -5060,10 +6345,15 @@ muze = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
-		county_opinion_add = 1
+		prosperity_growth_factor = 0.01
+		popular_opinion_add = 1
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_muze_effect_name
 		learning = 1
 		negate_learning_penalty_add = 2
 	}
@@ -5080,10 +6370,15 @@ sizhou = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
-		county_opinion_add = 1
+		prosperity_growth_factor = 0.01
+		popular_opinion_add = 1
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_sizhou_effect_name
 		monthly_prestige_gain_mult = 0.1
 	}
 	faith_character_modifier_scaled = {
@@ -5096,19 +6391,25 @@ sizhou = {
 daozhou = {
 	county = c_province1274
 	county_holder_character_modifier = {
-		development_growth_factor = 0.05
+		prosperity_growth_factor = 0.05
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		tax_mult = 0.01
+		all_tax_mult = 0.01
 		hostile_raid_time = 0.02
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
-		development_growth_factor = 0.1
+		name = holy_site_daozhou_effect_name
+		prosperity_growth_factor = 0.1
+		monthly_piety_gain_mult = 0.05
 	}
 	faith_character_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
+		prosperity_growth_factor = 0.01
 		monthly_income_mult = 0.005
 	}
 }
@@ -5122,8 +6423,13 @@ anlong = {
 		scale = holy_site_total_artifact_rarity
 		build_speed = -0.01
 		garrison_size = 0.02
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_anlong_effect_name
 		knight_effectiveness_mult = 0.1
 	}
 	faith_character_modifier_scaled = {
@@ -5139,10 +6445,15 @@ haripunjaya = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
+		prosperity_growth_factor = 0.01
 		travel_danger = -1
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_haripunjaya_effect_name
 		cultural_head_fascination_mult = 0.15
 	}
 	faith_character_modifier_scaled = {
@@ -5158,10 +6469,15 @@ nguu_hong = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
+		prosperity_growth_factor = 0.01
 		travel_danger = -1
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_nguu_hong_effect_name
 		monthly_piety_gain_mult = 0.1
 	}
 	faith_character_modifier_scaled = {
@@ -5178,10 +6494,15 @@ yangtze = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
+		prosperity_growth_factor = 0.01
 		hostile_raid_time = 0.02
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_yangtze_effect_name
 		same_faith_opinion = 10
 		dynasty_house_opinion = 5
 	}
@@ -5201,8 +6522,13 @@ zunyi = {
 		scale = holy_site_total_artifact_rarity
 		build_speed = -0.01
 		hostile_raid_time = 0.02
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_zunyi_effect_name
 		levy_reinforcement_rate_same_faith = 0.2
 	}
 	faith_character_modifier_scaled = {
@@ -5215,15 +6541,20 @@ zunyi = {
 baekdu = {
 	county = c_province0843	# e87 real place (was c_province2010)
 	county_holder_character_modifier = {
-		mountains_tax_mult = 0.05
+		mining_tax_mult = 0.05
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		mountains_development_growth_factor = 0.01
-		county_opinion_add = 1
+		mountains_prosperity_growth_factor = 0.01
+		popular_opinion_add = 1
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
-		mountains_tax_mult = 0.15
+		name = holy_site_baekdu_effect_name
+		mining_tax_mult = 0.15
 		stress_loss_mult = 0.1
 	}
 	faith_character_modifier_scaled = {
@@ -5240,10 +6571,15 @@ taebaek = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
-		county_opinion_add = 1
+		prosperity_growth_factor = 0.01
+		popular_opinion_add = 1
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_taebaek_effect_name
 		monthly_prestige_gain_mult = 0.1
 		same_faith_opinion = 5
 	}
@@ -5261,11 +6597,17 @@ halla = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
+		prosperity_growth_factor = 0.01
 		epidemic_travel_danger = -1
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_halla_effect_name
 		fertility = 0.1
+		monthly_lifestyle_xp_gain_mult = 0.15
 	}
 	faith_character_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
@@ -5281,12 +6623,17 @@ mani = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		tax_mult = 0.01
+		all_tax_mult = 0.01
 		garrison_size = 0.02
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_mani_effect_name
 		legitimacy_gain_mult = 0.1
-		county_opinion_add = 5
+		popular_opinion_add = 5
 	}
 	faith_character_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
@@ -5302,10 +6649,15 @@ seorak = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
+		prosperity_growth_factor = 0.01
 		travel_danger = -1
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_seorak_effect_name
 		different_faith_opinion = 10
 	}
 	faith_character_modifier_scaled = {
@@ -5318,19 +6670,24 @@ seorak = {
 sikong = {
 	county = c_province1457
 	county_holder_character_modifier = {
-		monthly_county_control_growth_factor = 0.05
+		monthly_control_change_when_below_baseline_mult = 0.05
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		tax_mult = 0.01
-		monthly_county_control_growth_factor = 0.01
+		all_tax_mult = 0.01
+		monthly_control_change_when_below_baseline_mult = 0.01
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
-		monthly_county_control_growth_factor = 0.1
+		name = holy_site_mount_sikong_effect_name
+		monthly_control_change_when_below_baseline_mult = 0.1
 	}
 	faith_character_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		monthly_county_control_growth_factor = 0.01
+		monthly_control_change_when_below_baseline_mult = 0.01
 		monthly_piety_gain_mult = 0.01
 	}
 }
@@ -5342,10 +6699,15 @@ mount_lu = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		floodplains_development_growth_factor = 0.01
+		floodplains_prosperity_growth_factor = 0.01
 		levy_size = 0.02
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_mount_lu_effect_name
 		same_heritage_county_advantage_add = 2
 	}
 	faith_character_modifier_scaled = {
@@ -5361,10 +6723,15 @@ nara = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
-		monthly_county_control_growth_factor = 0.01
+		prosperity_growth_factor = 0.01
+		monthly_control_change_when_below_baseline_mult = 0.01
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_nara_effect_name
 		same_faith_opinion = 5
 		clergy_opinion = 5
 	}
@@ -5382,10 +6749,15 @@ vaishali = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
+		prosperity_growth_factor = 0.01
 		epidemic_resistance = 1
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_vaishali_effect_name
 		monthly_piety = 1
 	}
 	faith_character_modifier_scaled = {
@@ -5397,20 +6769,26 @@ vaishali = {
 luoyang = {
 	county = c_zhengzhou	# e87 real place (was c_province2123)
 	county_holder_character_modifier = {
-		county_opinion_add = 5
+		popular_opinion_add = 5
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		tax_mult = 0.01
-		monthly_county_control_growth_factor = 0.01
+		all_tax_mult = 0.01
+		monthly_control_change_when_below_baseline_mult = 0.01
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
-		county_opinion_add = 10
+		name = holy_site_luoyang_effect_name
+		popular_opinion_add = 10
 		diplomacy = 1
 	}
 	faith_character_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
+		diplomacy_mult = 0.01
+		prosperity_growth_factor = 0.01
 	}
 }
 
@@ -5421,10 +6799,15 @@ tiantai = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
-		county_opinion_add = 1
+		prosperity_growth_factor = 0.01
+		popular_opinion_add = 1
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_tiantai_effect_name
 		learning = 2
 	}
 	faith_character_modifier_scaled = {
@@ -5440,10 +6823,15 @@ kizuki = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
+		prosperity_growth_factor = 0.01
 		epidemic_resistance = 1
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
+		name = holy_site_kizuki_effect_name
 		clergy_opinion = 5
 	}
 	faith_character_modifier_scaled = {
@@ -5455,16 +6843,22 @@ kizuki = {
 kashima = {
 	county = c_province0928
 	county_holder_character_modifier = {
-		tax_mult = 0.025
+		all_tax_mult = 0.025
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
 		build_speed = -0.01
 		defender_holding_advantage = 0.5
+		religious_tax_mult = holy_site_relic_tax_bonus
+		trade_good_incense_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_copper_sell_price_mult = holy_site_relic_sell_price_bonus
+		trade_good_books_paper_sell_price_mult = holy_site_relic_sell_price_bonus
 	}
 	faith_character_modifier = {
-		tax_mult = 0.05
+		name = holy_site_kashima_effect_name
+		all_tax_mult = 0.05
 		martial = 1
+		religious_tax_mult = 0.05
 	}
 	faith_character_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
@@ -5481,7 +6875,7 @@ mecca_ck_shia = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
+		prosperity_growth_factor = 0.01
 		travel_danger = -1
 	}
 	faith_character_modifier = {
@@ -5502,7 +6896,7 @@ medina_ck_shia = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
+		prosperity_growth_factor = 0.01
 		travel_danger = -1
 	}
 	faith_character_modifier = {
@@ -5522,7 +6916,7 @@ jerusalem_ck_shia = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
+		prosperity_growth_factor = 0.01
 		travel_danger = -1
 	}
 	faith_character_modifier = {
@@ -5542,7 +6936,7 @@ jerusalem_ck_gnostic_faith = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
+		prosperity_growth_factor = 0.01
 		travel_danger = -1
 	}
 	faith_character_modifier = {
@@ -5562,7 +6956,7 @@ alexandria_ck_gnostic_faith = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
+		prosperity_growth_factor = 0.01
 		epidemic_resistance = 1
 	}
 	faith_character_modifier = {
@@ -5581,8 +6975,8 @@ rome_ck_gnostic_faith = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
-		county_opinion_add = 1
+		prosperity_growth_factor = 0.01
+		popular_opinion_add = 1
 	}
 	faith_character_modifier = {
 		stewardship = 1
@@ -5590,7 +6984,7 @@ rome_ck_gnostic_faith = {
 	}
 	faith_character_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
+		prosperity_growth_factor = 0.01
 		character_travel_speed_mult = 0.01
 	}
 }
@@ -5602,8 +6996,8 @@ rome_ck_hellenic_pagan = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
-		county_opinion_add = 1
+		prosperity_growth_factor = 0.01
+		popular_opinion_add = 1
 	}
 	faith_character_modifier = {
 		stewardship = 1
@@ -5611,7 +7005,7 @@ rome_ck_hellenic_pagan = {
 	}
 	faith_character_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
+		prosperity_growth_factor = 0.01
 		character_travel_speed_mult = 0.01
 	}
 }
@@ -5624,7 +7018,7 @@ alexandria_ck_hellenic_pagan = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
+		prosperity_growth_factor = 0.01
 		epidemic_resistance = 1
 	}
 	faith_character_modifier = {
@@ -5644,7 +7038,7 @@ jerusalem_ck_rabbinic_faith = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
+		prosperity_growth_factor = 0.01
 		travel_danger = -1
 	}
 	faith_character_modifier = {
@@ -5664,7 +7058,7 @@ alexandria_ck_rabbinic_faith = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
+		prosperity_growth_factor = 0.01
 		epidemic_resistance = 1
 	}
 	faith_character_modifier = {
@@ -5684,7 +7078,7 @@ alexandria_ck_sethianism = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
+		prosperity_growth_factor = 0.01
 		epidemic_resistance = 1
 	}
 	faith_character_modifier = {
@@ -5704,7 +7098,7 @@ jerusalem_ck_sethianism = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
+		prosperity_growth_factor = 0.01
 		travel_danger = -1
 	}
 	faith_character_modifier = {
@@ -5723,8 +7117,8 @@ rome_ck_sethianism = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
-		county_opinion_add = 1
+		prosperity_growth_factor = 0.01
+		popular_opinion_add = 1
 	}
 	faith_character_modifier = {
 		stewardship = 1
@@ -5732,7 +7126,7 @@ rome_ck_sethianism = {
 	}
 	faith_character_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
+		prosperity_growth_factor = 0.01
 		character_travel_speed_mult = 0.01
 	}
 }

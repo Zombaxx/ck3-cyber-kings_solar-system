@@ -1,0 +1,181 @@
+﻿# Cyber Kings 1.21 "Florin": region keys vanilla 1.21 added. Vanilla scripts and generated modifiers (<key>_prosperity_growth) need the keys to exist.
+# GENERATED 2026-11-17 (_dev/scripts/patch_1_21/apply_121.py). Each key is mapped onto regions this mod already defines:
+# the vanilla sub-regions where the mod has them, else the nearest parent region (PARENT table in the script). Coarse on purpose - refine by hand.
+
+world_africa_sahara_west = {
+	regions = { world_africa_sahara }
+}
+world_africa_sahara_central = {
+	regions = { world_africa_sahara }
+}
+custom_damascus_steel_region = {
+	regions = { world_middle_east_persia }
+}
+custom_nile_empire = {
+	regions = { world_europe }
+	generate_prosperity_modifiers = yes
+}
+custom_roman_illyricum_core = {
+	regions = { custom_roman_empire }
+	generate_prosperity_modifiers = yes
+}
+custom_great_moravia = {
+	regions = { world_europe }
+}
+custom_sea_of_marmara = {
+	regions = { world_europe }
+}
+custom_aquitaine_core = {
+	regions = { world_europe }
+}
+custom_france_core = {
+	regions = { world_europe }
+}
+custom_kurdistan_core = {
+	regions = { world_europe }
+}
+custom_occitania_core = {
+	regions = { world_europe }
+}
+custom_catalonia_core = {
+	regions = { world_europe }
+}
+custom_aksum_empire = {
+	regions = { world_europe }
+	generate_prosperity_modifiers = yes
+}
+custom_lothair_realm = {
+	regions = { world_europe }
+	generate_prosperity_modifiers = yes
+}
+custom_roman_macedonia = {
+	regions = { custom_roman_empire }
+	generate_prosperity_modifiers = yes
+}
+custom_roman_anatolia = {
+	regions = { custom_roman_empire }
+	generate_prosperity_modifiers = yes
+}
+custom_roman_pontica = {
+	regions = { custom_roman_empire }
+	generate_prosperity_modifiers = yes
+}
+custom_roman_thracia = {
+	regions = { custom_roman_empire }
+	generate_prosperity_modifiers = yes
+}
+custom_roman_dacia = {
+	regions = { custom_roman_empire }
+	generate_prosperity_modifiers = yes
+}
+custom_roman_galliae = {
+	regions = { custom_roman_empire }
+	generate_prosperity_modifiers = yes
+}
+custom_roman_britanniae = {
+	regions = { custom_roman_empire }
+	generate_prosperity_modifiers = yes
+}
+custom_roman_septem_provinciae = {
+	regions = { custom_roman_empire }
+	generate_prosperity_modifiers = yes
+}
+custom_indo_greek_core = {
+	regions = { world_europe }
+}
+custom_serbia_core = {
+	regions = { world_europe_south_east }
+}
+custom_serbian_empire_macedonia = {
+	regions = { world_europe_south_east }
+}
+custom_serbian_empire_albania = {
+	regions = { world_europe_south_east }
+}
+custom_jurchen_heartland = {
+	regions = { world_asia_china }
+}
+custom_jurchen_outer_manchuria = {
+	regions = { world_asia_china }
+}
+custom_wallachia_empire = {
+	regions = { world_europe }
+}
+custom_the_isles_and_adjacent = {
+	regions = { world_europe_west_britannia }
+}
+custom_novgorod_and_adjacent = {
+	regions = { world_europe_east }
+}
+custom_gotaland_core = {
+	regions = { world_europe }
+}
+custom_svealand_core = {
+	regions = { world_europe }
+}
+custom_sorbia_core = {
+	regions = { world_europe }
+}
+custom_stem_duchy_saxony = {
+	regions = { world_europe_west_germania }
+}
+custom_stem_duchy_swabia = {
+	regions = { world_europe_west_germania }
+}
+custom_stem_duchy_franconia = {
+	regions = { world_europe_west_germania }
+}
+custom_stem_duchy_bavaria = {
+	regions = { world_europe_west_germania }
+}
+custom_stem_duchy_lotharingia = {
+	regions = { world_europe_west_germania }
+}
+custom_vandal_africa = {
+	regions = { world_europe }
+	generate_prosperity_modifiers = yes
+}
+world_innovation_carpets = {
+	regions = { world_middle_east world_asia_minor world_india_rajastan world_africa_north world_tibet }
+}
+world_innovation_mead = {
+	regions = { world_europe_north world_europe_east }
+}
+hanseatic_trade_region = {
+	regions = { world_europe_north }
+}
+gdp_guelph_ghibelline_region = {
+	regions = { world_europe_south_italy }
+}
+monkey_region = {
+	regions = { world_asia_borneo world_asia_southeast_mainland ghw_region_north_eastern_india }
+}
+gdp_guelph_ghibelline_northern_italy_region = {
+	regions = { world_europe_south_italy }
+}
+gdp_guelph_ghibelline_lombard_league_region = {
+	regions = { world_europe_south_italy }
+}
+gdp_saharan_traders_region = {
+	regions = { world_africa_sahara }
+}
+gdp_monsoon_traders_region = {
+	regions = { world_africa_east world_india world_burma world_asia_southeast_islands world_asia_malaysia }
+}
+ruin_region_roman = {
+	regions = { world_europe_south_italy }
+}
+ruin_region_egyptian = {
+	regions = { world_africa_north }
+}
+ruin_region_greek = {
+	regions = { world_europe_south }
+}
+entrepot_counties_region = {
+	# no entrepot hubs chosen for the solar system yet (vanilla lists its 42 trade hubs here)
+	counties = { }
+}
+entrepot_provinces_region = {
+	# no entrepot hubs chosen for the solar system yet (vanilla lists its 42 trade hubs here)
+	provinces = { }
+}

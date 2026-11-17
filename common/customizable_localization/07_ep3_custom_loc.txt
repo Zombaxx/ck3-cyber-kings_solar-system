@@ -3,6 +3,11 @@ GetCourtType = {
 	type = character
 
 	text = {
+		trigger = { has_government = merchant_government }
+		localization_key = game_concept_company
+	}
+
+	text = {
 		trigger = { has_government = landless_adventurer_government }
 		localization_key = game_concept_camp
 	}
@@ -15,6 +20,11 @@ GetCourtType = {
 
 GetCourtTypePlural = {
 	type = character
+
+	text = {
+		trigger = { has_government = merchant_government }
+		localization_key = game_concept_companies
+	}
 
 	text = {
 		trigger = { has_government = landless_adventurer_government }
@@ -31,6 +41,11 @@ GetCourtTypeConcept = {
 	type = character
 
 	text = {
+		trigger = { has_government = merchant_government }
+		localization_key = COMPANY
+	}
+
+	text = {
 		trigger = { has_government = landless_adventurer_government }
 		localization_key = CAMP
 	}
@@ -45,6 +60,11 @@ GetCourtierType = {
 	type = character
 
 	text = {
+		trigger = { has_government = merchant_government }
+		localization_key = game_concept_associate
+	}
+
+	text = {
 		trigger = { has_government = landless_adventurer_government }
 		localization_key = game_concept_follower
 	}
@@ -57,6 +77,11 @@ GetCourtierType = {
 
 GetCourtierTypePlural = {
 	type = character
+
+	text = {
+		trigger = { has_government = merchant_government }
+		localization_key = game_concept_associates
+	}
 
 	text = {
 		trigger = { has_government = landless_adventurer_government }
@@ -78,6 +103,11 @@ GetCourtierTypeConcept = {
 	}
 
 	text = {
+		trigger = { has_government = merchant_government }
+		localization_key = ASSOCIATE
+	}
+
+	text = {
 		trigger = { is_landless_adventurer = no }
 		localization_key = COURTIER
 	}
@@ -89,6 +119,11 @@ GetCourtiersTypeConcept = {
 	text = {
 		trigger = { is_landless_adventurer = yes }
 		localization_key = FOLLOWER_PLURAL
+	}
+
+	text = {
+		trigger = { is_landless_merchant = yes }
+		localization_key = ASSOCIATE_PLURAL
 	}
 
 	text = {
@@ -129,7 +164,7 @@ TriumphReligiousLocation = {
 			# Muslim
 			faith.religion = religion:islam_religion
 		}
-		localization_key = building_hagia_sophia_02
+		localization_key = hagia_sophia_02
 	}
 
 
@@ -176,7 +211,7 @@ TriumphReligiousLocationCapitalized = {
 			# Muslim
 			faith.religion = religion:islam_religion
 		}
-		localization_key = building_hagia_sophia_02
+		localization_key = hagia_sophia_02
 	}
 
 	text = {
@@ -1433,14 +1468,20 @@ GetProvincialArmyConcept = {
 	type = character
 
 	text = {
+		trigger = { government_has_flag = government_is_republic }
+		localization_key = REPUBLICAN_ARMY_CONCEPT
+	}
+
+	text = {
 		trigger = {
+			government_has_flag = government_is_administrative
 			top_liege.culture ?= { has_cultural_pillar = heritage_byzantine }
 		}
 		localization_key = THEMATIC_ARMY_CONCEPT
 	}
 
 	text = {
-		trigger = { always = no }
+		trigger = { government_has_flag = government_is_administrative }
 		fallback = yes
 		localization_key = PROVINCIAL_ARMY_CONCEPT
 	}
@@ -1455,14 +1496,20 @@ GetProvincialArmiesConcept = {
 	type = character
 
 	text = {
+		trigger = { government_has_flag = government_is_republic }
+		localization_key = REPUBLICAN_ARMIES_CONCEPT
+	}
+
+	text = {
 		trigger = {
+			government_has_flag = government_is_administrative
 			top_liege.culture ?= { has_cultural_pillar = heritage_byzantine }
 		}
 		localization_key = THEMATIC_ARMIES_CONCEPT
 	}
 
 	text = {
-		trigger = { always = no }
+		trigger = { government_has_flag = government_is_administrative }
 		fallback = yes
 		localization_key = PROVINCIAL_ARMIES_CONCEPT
 	}
@@ -1471,6 +1518,55 @@ GetProvincialArmiesConcept = {
 GetProvincialArmiesConceptNoTooltip = {
 	parent = GetProvincialArmiesConcept
 	suffix = "_NO_TOOLTIP"
+}
+
+GetNobleFamilySuffix = {
+	type = character
+	text = {
+		trigger = { culture = { has_cultural_pillar = language_korean } }
+		localization_key = c_nf_korea_suffix
+	}
+	text = {
+		trigger = { culture = { has_cultural_pillar = language_japonic } }
+		localization_key = c_nf_japan_suffix
+	}
+	text = {
+		trigger = { culture = { has_cultural_pillar = heritage_viet } }
+		localization_key = c_nf_viet_suffix
+	}
+	text = {
+		# they don't have their script represented in game so we have to use the name list instead
+		trigger = { culture = { has_name_list = name_list_tangut } }
+		localization_key = c_nf_xia_suffix
+	}
+	text = {
+		trigger = { culture = { has_cultural_pillar = language_khitan } }
+		localization_key = c_nf_liao_suffix
+	}
+	text = {
+		trigger = { culture = { has_cultural_pillar = heritage_tungusic } }
+		localization_key = c_nf_jin_suffix
+	}
+	# secondary fallback for anything somehow related to china
+	text = {
+		trigger = {
+			OR = {
+				culture = { culture_use_chinese_character_trigger = yes }
+				AND = {
+					culture_has_east_asian_heritage_pillar_trigger = yes
+					government_has_flag = government_is_celestial
+				}
+			}
+		}
+		localization_key = c_nf_china_suffix
+	}
+	text = {
+		trigger = { government_has_flag = government_is_republic }
+		localization_key = c_republic_suffix
+	}
+	text = {
+		localization_key = c_nf_default_suffix
+	}
 }
 
 GetByzantineCoinWithGloss = {
@@ -1555,6 +1651,11 @@ GetGuestsOrNot = {
 	text = {
 		trigger = { has_government = landless_adventurer_government }
 		localization_key = COURT_WINDOW_HAS_FOLLOWERS
+	}
+
+	text = {
+		trigger = { has_government = merchant_government }
+		localization_key = COURT_WINDOW_HAS_ASSOCIATES
 	}
 
 	text = {
@@ -1998,6 +2099,13 @@ GetContractOrIssue = {
 
 	text = {
 		trigger = {
+			government_has_flag = government_is_merchant
+		}
+		localization_key = TRADE_CONTRACT_NO_CONCEPT
+	}
+
+	text = {
+		trigger = {
 			government_has_mechanic = administrative
 		}
 		localization_key = TASK_CONTRACT_ISSUE
@@ -2044,6 +2152,13 @@ GetContractOrIssueGameConcept = {
 
 	text = {
 		trigger = {
+			government_has_flag = government_is_merchant
+		}
+		localization_key = TRADE_CONTRACT
+	}
+
+	text = {
+		trigger = {
 			government_has_mechanic = administrative
 		}
 		localization_key = GOVERNANCE_ISSUE
@@ -2068,4 +2183,9 @@ GetContractOrIssueGameConcept = {
 		fallback = yes
 		localization_key = TASK_CONTRACT
 	}	
+}
+
+GetContractOrIssueGameConceptPlural = {
+	parent = GetContractOrIssueGameConcept
+	suffix = "_PLURAL"
 }

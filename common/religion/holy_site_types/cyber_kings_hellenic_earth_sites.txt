@@ -8,7 +8,7 @@ hellenic_athens = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		tax_mult = 0.01
+		all_tax_mult = 0.01
 		supply_limit_mult = 0.02
 	}
 	faith_character_modifier = {
@@ -28,7 +28,7 @@ hellenic_olympus = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
+		prosperity_growth_factor = 0.01
 		travel_danger = -1
 	}
 	faith_character_modifier = {
@@ -47,8 +47,8 @@ hellenic_delphi = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		tax_mult = 0.01
-		monthly_county_control_growth_factor = 0.01
+		all_tax_mult = 0.01
+		monthly_control_change_mult = 0.01
 	}
 	faith_character_modifier = {
 		dread_baseline_add = 5
@@ -67,8 +67,8 @@ hellenic_rome = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
-		county_opinion_add = 1
+		prosperity_growth_factor = 0.01
+		popular_opinion_add = 1
 	}
 	faith_character_modifier = {
 		stewardship = 1
@@ -76,7 +76,7 @@ hellenic_rome = {
 	}
 	faith_character_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
+		prosperity_growth_factor = 0.01
 		character_travel_speed_mult = 0.01
 	}
 }
@@ -89,7 +89,7 @@ hellenic_knossos = {
 	}
 	county_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
+		prosperity_growth_factor = 0.01
 		epidemic_resistance = 1
 	}
 	faith_character_modifier = {

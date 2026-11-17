@@ -710,7 +710,7 @@ baron_republic_male_chinese = {
 	special = holder
 	tier = barony
 	priority = 8
-	flavourization_rules = { 
+	flavourization_rules = {
 		top_liege = no
 	}
 	governments = { republic_government }
@@ -724,7 +724,7 @@ barony_theocracy_china_buddhism_religion = {
 	holding = church_holding
 	religions = { buddhism_religion }
 	heritages = { heritage_chinese heritage_tungusic }
-	flavourization_rules = { 
+	flavourization_rules = {
 		top_liege = no
 	}
 }

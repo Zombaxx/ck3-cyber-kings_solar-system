@@ -35,7 +35,7 @@ hee_nalu_blessed_swell_modifier = {
 
 hee_nalu_blessed_swell_county_modifier = {
 	icon = piety_positive
-	county_opinion_add = 10
+	popular_opinion_add = 10
 }
 
 # house modifiers: the 'aumakua (every member of the house)
@@ -76,7 +76,7 @@ hee_nalu_localism_modifier = {
 
 hee_nalu_aloha_county_modifier = {
 	icon = social_positive
-	county_opinion_add = 10
+	popular_opinion_add = 10
 }
 
 # 2026-11-16: Makahiki

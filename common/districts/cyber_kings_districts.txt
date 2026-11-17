@@ -1,0 +1,636 @@
+﻿# Cyber Kings: special districts for the mod's own wonders (1.21 "Florin": every special building lives in a special district).
+# GENERATED 2026-11-17 by the 1.21 update (_dev/scripts/patch_1_21/apply_121.py) from common/buildings/cyber_kings_*.txt.
+# One district per wonder: <building key>_district, type = special, primary_building = the wonder. Background = the vanilla
+# district of the building the wonder was copied from, else a neutral fallback.
+
+hee_nalu_surf_heiau_01_district = {
+	primary_building = hee_nalu_surf_heiau_01
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/fp1_runestone_circle.dds"
+	}
+	type = special
+}
+
+us_capitol_01_district = {
+	primary_building = us_capitol_01
+	background = {
+		reference = "gfx/interface/illustrations/holding_types/gdp_venice_holding.dds"
+	}
+	type = special
+}
+
+palacio_nacional_01_district = {
+	primary_building = palacio_nacional_01
+	background = {
+		reference = "gfx/interface/illustrations/decisions/tgp_great_project.dds"
+	}
+	type = special
+}
+
+christ_the_redeemer_01_district = {
+	primary_building = christ_the_redeemer_01
+	background = {
+		reference = "gfx/interface/illustrations/holding_types/tgp_chinese_pagoda.dds"
+	}
+	type = special
+}
+
+machu_picchu_01_district = {
+	primary_building = machu_picchu_01
+	background = {
+		reference = "gfx/interface/illustrations/holding_types/fp3_castle_iranian.dds"
+	}
+	type = special
+}
+
+mexico_city_cathedral_01_district = {
+	primary_building = mexico_city_cathedral_01
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/pam_romanesque_church_exterior.dds"
+	}
+	type = special
+}
+
+basilica_of_guadalupe_01_district = {
+	primary_building = basilica_of_guadalupe_01
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/pam_romanesque_church_exterior.dds"
+	}
+	type = special
+}
+
+fortifications_of_quebec_01_district = {
+	primary_building = fortifications_of_quebec_01
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/ep3_city_gate.dds"
+	}
+	type = special
+}
+
+teotihuacan_01_district = {
+	primary_building = teotihuacan_01
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/desert.dds"
+	}
+	type = special
+}
+
+chichen_itza_01_district = {
+	primary_building = chichen_itza_01
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/desert.dds"
+	}
+	type = special
+}
+
+tikal_01_district = {
+	primary_building = tikal_01
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/desert.dds"
+	}
+	type = special
+}
+
+cholula_01_district = {
+	primary_building = cholula_01
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/desert.dds"
+	}
+	type = special
+}
+
+vinicunca_01_district = {
+	primary_building = vinicunca_01
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/mountains.dds"
+	}
+	type = special
+}
+
+pink_lakes_01_district = {
+	primary_building = pink_lakes_01
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/bp3_coast.dds"
+	}
+	type = special
+}
+
+popocatepetl_01_district = {
+	primary_building = popocatepetl_01
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/mountains.dds"
+	}
+	type = special
+}
+
+mount_rainier_01_district = {
+	primary_building = mount_rainier_01
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/mountains.dds"
+	}
+	type = special
+}
+
+mount_taranaki_01_district = {
+	primary_building = mount_taranaki_01
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/mountains.dds"
+	}
+	type = special
+}
+
+cotopaxi_01_district = {
+	primary_building = cotopaxi_01
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/mountains.dds"
+	}
+	type = special
+}
+
+kilauea_01_district = {
+	primary_building = kilauea_01
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/mountains.dds"
+	}
+	type = special
+}
+
+mount_st_helens_01_district = {
+	primary_building = mount_st_helens_01
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/mountains.dds"
+	}
+	type = special
+}
+
+paricutin_01_district = {
+	primary_building = paricutin_01
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/mountains.dds"
+	}
+	type = special
+}
+
+milford_sound_01_district = {
+	primary_building = milford_sound_01
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/bp3_coast.dds"
+	}
+	type = special
+}
+
+bay_of_islands_01_district = {
+	primary_building = bay_of_islands_01
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/bp3_coast.dds"
+	}
+	type = special
+}
+
+walls_of_cartagena_01_district = {
+	primary_building = walls_of_cartagena_01
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/ep3_city_gate.dds"
+	}
+	type = special
+}
+
+walls_of_campeche_01_district = {
+	primary_building = walls_of_campeche_01
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/ep3_city_gate.dds"
+	}
+	type = special
+}
+
+el_morro_01_district = {
+	primary_building = el_morro_01
+	background = {
+		reference = "gfx/interface/illustrations/holding_types/castle_western.dds"
+	}
+	type = special
+}
+
+citadelle_laferriere_01_district = {
+	primary_building = citadelle_laferriere_01
+	background = {
+		reference = "gfx/interface/illustrations/holding_types/fp2_castle_iberian.dds"
+	}
+	type = special
+}
+
+castillo_de_san_marcos_01_district = {
+	primary_building = castillo_de_san_marcos_01
+	background = {
+		reference = "gfx/interface/illustrations/holding_types/castle_western.dds"
+	}
+	type = special
+}
+
+chapultepec_castle_01_district = {
+	primary_building = chapultepec_castle_01
+	background = {
+		reference = "gfx/interface/illustrations/holding_types/fp2_castle_iberian.dds"
+	}
+	type = special
+}
+
+washington_national_cathedral_01_district = {
+	primary_building = washington_national_cathedral_01
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/pam_romanesque_church_exterior.dds"
+	}
+	type = special
+}
+
+st_patricks_cathedral_01_district = {
+	primary_building = st_patricks_cathedral_01
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/pam_romanesque_church_exterior.dds"
+	}
+	type = special
+}
+
+university_of_san_marcos_01_district = {
+	primary_building = university_of_san_marcos_01
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/bp2_university_mena.dds"
+	}
+	type = special
+}
+
+unam_01_district = {
+	primary_building = unam_01
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/bp2_university_mena.dds"
+	}
+	type = special
+}
+
+harvard_university_01_district = {
+	primary_building = harvard_university_01
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/bp2_university_mena.dds"
+	}
+	type = special
+}
+
+universite_laval_01_district = {
+	primary_building = universite_laval_01
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/bp2_university_mena.dds"
+	}
+	type = special
+}
+
+moai_of_rapa_nui_01_district = {
+	primary_building = moai_of_rapa_nui_01
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/fp1_runestone_circle.dds"
+	}
+	type = special
+}
+
+nan_madol_01_district = {
+	primary_building = nan_madol_01
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/fp1_runestone_circle.dds"
+	}
+	type = special
+}
+
+cahokia_mounds_01_district = {
+	primary_building = cahokia_mounds_01
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/fp4_catacombs.dds"
+	}
+	type = special
+}
+
+serpent_mound_01_district = {
+	primary_building = serpent_mound_01
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/fp4_catacombs.dds"
+	}
+	type = special
+}
+
+mesa_verde_01_district = {
+	primary_building = mesa_verde_01
+	background = {
+		reference = "gfx/interface/illustrations/holding_types/temple_generic_arid.dds"
+	}
+	type = special
+}
+
+kuelap_01_district = {
+	primary_building = kuelap_01
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/fp3_cave.dds"
+	}
+	type = special
+}
+
+chankillo_01_district = {
+	primary_building = chankillo_01
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/tgp_study_asia.dds"
+	}
+	type = special
+}
+
+great_zimbabwe_01_district = {
+	primary_building = great_zimbabwe_01
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/ep3_city_gate.dds"
+	}
+	type = special
+}
+
+swahili_port_sofala_district = {
+	primary_building = swahili_port_sofala
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/fp3_docks.dds"
+	}
+	type = special
+}
+
+island_of_mozambique_01_district = {
+	primary_building = island_of_mozambique_01
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/fp3_docks.dds"
+	}
+	type = special
+}
+
+grand_canyon_01_district = {
+	primary_building = grand_canyon_01
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/mountains.dds"
+	}
+	type = special
+}
+
+uluru_01_district = {
+	primary_building = uluru_01
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/mountains.dds"
+	}
+	type = special
+}
+
+iguazu_falls_01_district = {
+	primary_building = iguazu_falls_01
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/mountains.dds"
+	}
+	type = special
+}
+
+niagara_falls_01_district = {
+	primary_building = niagara_falls_01
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/mountains.dds"
+	}
+	type = special
+}
+
+torres_del_paine_01_district = {
+	primary_building = torres_del_paine_01
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/mountains.dds"
+	}
+	type = special
+}
+
+table_mountain_01_district = {
+	primary_building = table_mountain_01
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/mountains.dds"
+	}
+	type = special
+}
+
+olympus_mons_01_district = {
+	primary_building = olympus_mons_01
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/mountains.dds"
+	}
+	type = special
+}
+
+valles_marineris_01_district = {
+	primary_building = valles_marineris_01
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/mountains.dds"
+	}
+	type = special
+}
+
+maxwell_montes_01_district = {
+	primary_building = maxwell_montes_01
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/mountains.dds"
+	}
+	type = special
+}
+
+cyber_bastion_walls_01_district = {
+	primary_building = cyber_bastion_walls_01
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/fp1_runestone_circle.dds"
+	}
+	type = special
+}
+
+maat_mons_01_district = {
+	primary_building = maat_mons_01
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/mountains.dds"
+	}
+	type = special
+}
+
+occator_01_district = {
+	primary_building = occator_01
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/bp3_coast.dds"
+	}
+	type = special
+}
+
+conamara_chaos_01_district = {
+	primary_building = conamara_chaos_01
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/fp3_cave.dds"
+	}
+	type = special
+}
+
+valhalla_basin_01_district = {
+	primary_building = valhalla_basin_01
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/mountains.dds"
+	}
+	type = special
+}
+
+hili_geyser_01_district = {
+	primary_building = hili_geyser_01
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/mountains.dds"
+	}
+	type = special
+}
+
+lake_baikal_01_district = {
+	primary_building = lake_baikal_01
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/bp3_coast.dds"
+	}
+	type = special
+}
+
+klyuchevskaya_sopka_01_district = {
+	primary_building = klyuchevskaya_sopka_01
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/mountains.dds"
+	}
+	type = special
+}
+
+victoria_falls_01_district = {
+	primary_building = victoria_falls_01
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/mountains.dds"
+	}
+	type = special
+}
+
+okavango_delta_01_district = {
+	primary_building = okavango_delta_01
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/bp3_coast.dds"
+	}
+	type = special
+}
+
+tsingy_01_district = {
+	primary_building = tsingy_01
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/fp3_cave.dds"
+	}
+	type = special
+}
+
+great_barrier_reef_01_district = {
+	primary_building = great_barrier_reef_01
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/bp3_coast.dds"
+	}
+	type = special
+}
+
+sydney_opera_house_01_district = {
+	primary_building = sydney_opera_house_01
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/ep3_hippodrome_chariot_race.dds"
+	}
+	type = special
+}
+
+golden_gate_bridge_01_district = {
+	primary_building = golden_gate_bridge_01
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/ep2_travel_bridge.dds"
+	}
+	type = special
+}
+
+statue_of_liberty_01_district = {
+	primary_building = statue_of_liberty_01
+	background = {
+		reference = "gfx/interface/illustrations/holding_types/tgp_chinese_pagoda.dds"
+	}
+	type = special
+}
+
+yellowstone_01_district = {
+	primary_building = yellowstone_01
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/mountains.dds"
+	}
+	type = special
+}
+
+mount_rushmore_01_district = {
+	primary_building = mount_rushmore_01
+	background = {
+		reference = "gfx/interface/illustrations/holding_types/tgp_chinese_pagoda.dds"
+	}
+	type = special
+}
+
+angel_falls_01_district = {
+	primary_building = angel_falls_01
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/mountains.dds"
+	}
+	type = special
+}
+
+salar_de_uyuni_01_district = {
+	primary_building = salar_de_uyuni_01
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/bp3_coast.dds"
+	}
+	type = special
+}
+
+perito_moreno_01_district = {
+	primary_building = perito_moreno_01
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/mountains.dds"
+	}
+	type = special
+}
+
+denali_01_district = {
+	primary_building = denali_01
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/mountains.dds"
+	}
+	type = special
+}
+
+panama_canal_01_district = {
+	primary_building = panama_canal_01
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/tgp_docks_asia.dds"
+	}
+	type = special
+}
+
+morro_castle_havana_01_district = {
+	primary_building = morro_castle_havana_01
+	background = {
+		reference = "gfx/interface/illustrations/holding_types/castle_western.dds"
+	}
+	type = special
+}
+
+mount_erebus_01_district = {
+	primary_building = mount_erebus_01
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/mountains.dds"
+	}
+	type = special
+}
+
+kilimanjaro_01_district = {
+	primary_building = kilimanjaro_01
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/mountains.dds"
+	}
+	type = special
+}

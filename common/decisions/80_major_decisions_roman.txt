@@ -91,6 +91,7 @@ restore_roman_empire_holy_decision = {
 	selection_tooltip = restore_roman_empire_decision_tooltip
 	# Deliberately left in the major group rather than the Roman one.
 	decision_group_type = major
+	sort_order = 130
 
 	ai_check_interval_by_tier = {
 		barony = 0
@@ -169,6 +170,7 @@ restore_roman_empire_italian_decision = {
 	selection_tooltip = restore_roman_empire_decision_tooltip
 	# Deliberately left in the major group rather than the Roman one.
 	decision_group_type = major
+	sort_order = 130
 
 	ai_check_interval_by_tier = {
 		barony = 0
@@ -247,6 +249,7 @@ form_rum_sultanate_decision = {
 	selection_tooltip = form_rum_sultanate_decision_tooltip
 	# Deliberately left in the major group rather than the Roman one.
 	decision_group_type = major
+	sort_order = 100
 
 	ai_check_interval_by_tier = {
 		barony = 0
@@ -316,7 +319,7 @@ mend_the_great_schism_decision = {
 	desc = mend_the_great_schism_decision_desc
 	selection_tooltip = mend_the_great_schism_decision_tooltip
 	decision_group_type = religious
-	sort_order = 1
+	sort_order = 100
 
 	ai_check_interval_by_tier = {
 		barony = 0
@@ -411,6 +414,7 @@ set_capital_constantinople_decision = {
 	desc = set_capital_constantinople_decision_desc
 	selection_tooltip = set_capital_constantinople_decision_tooltip
 	decision_group_type = major
+	sort_order = 100
 
 	ai_check_interval_by_tier = {
 		barony = 0
@@ -489,6 +493,7 @@ set_capital_rome_decision = {
 	desc = set_capital_rome_decision_desc
 	selection_tooltip = set_capital_rome_decision_tooltip
 	decision_group_type = major
+	sort_order = 100
 
 	ai_check_interval_by_tier = {
 		barony = 0
@@ -512,14 +517,14 @@ set_capital_rome_decision = {
 	effect = {
 		if = { #Usurp if not held personally.
 			limit = {
-				NOT = { title:c_roma.holder = { this = root } }
+				NOT = { title:c_roma_urbs.holder = { this = root } }
 			}
 			create_title_and_vassal_change = {
 				type = returned
 				save_scope_as = change
 				add_claim_on_loss = no
 			}
-			title:c_roma = {
+			title:c_roma_urbs = {
 				change_title_holder = {
 					holder = root
 					change = scope:change
@@ -528,7 +533,7 @@ set_capital_rome_decision = {
 			resolve_title_and_vassal_change = scope:change
 
 		}
-		set_realm_capital = title:c_roma
+		set_realm_capital = title:c_roma_urbs
 	}
 
 	ai_potential = { always = no # Cyber Kings: Earth-specific
@@ -547,6 +552,7 @@ establish_iconoclast_patriarchate_decision = {
 	desc = establish_iconoclast_patriarchate_decision_desc
 	selection_tooltip = establish_iconoclast_patriarchate_decision_tooltip
 	decision_group_type = major
+	sort_order = 100
 
 	ai_check_interval_by_tier = {
 		barony = 0
@@ -602,6 +608,7 @@ restore_ecumenical_patriarchate_decision = {
 	desc = restore_ecumenical_patriarchate_decision_desc
 	selection_tooltip = restore_ecumenical_patriarchate_decision_tooltip
 	decision_group_type = major
+	sort_order = 100
 
 	ai_check_interval_by_tier = {
 		barony = 0
@@ -657,6 +664,7 @@ restore_papacy_decision = {
 	desc = restore_papacy_decision_desc
 	selection_tooltip = restore_papacy_decision_tooltip
 	decision_group_type = major
+	sort_order = 110
 
 	ai_check_interval_by_tier = {
 		barony = 0
@@ -719,6 +727,7 @@ restore_pope_in_rome_decision = {
 	desc = restore_pope_in_rome_decision_desc
 	selection_tooltip = restore_pope_in_rome_decision_tooltip
 	decision_group_type = major
+	sort_order = 100
 
 	ai_check_interval_by_tier = {
 		barony = 0
@@ -811,6 +820,7 @@ dismantle_papacy_decision = { #For Muslims and Pagans.
 	desc = dismantle_papacy_decision_desc
 	selection_tooltip = dismantle_papacy_decision_tooltip
 	decision_group_type = major
+	sort_order = 100
 
 	ai_check_interval_by_tier = {
 		barony = 0
@@ -834,6 +844,16 @@ dismantle_papacy_decision = { #For Muslims and Pagans.
 			faith_hostility_level = {
 				target = root.faith
 				value >= faith_hostile_level
+			}
+		}
+		trigger_if = {
+			limit = {
+				is_ai = no
+			}
+			any_sub_realm_county = {
+				title_province = {
+					geographical_region = world_europe_south_italy
+				}
 			}
 		}
 		is_playable_character = yes
@@ -897,6 +917,7 @@ unify_italian_empire_decision = {
 	desc = unify_italian_empire_decision_desc
 	selection_tooltip = unify_italian_empire_decision_tooltip
 	decision_group_type = major
+	sort_order = 100
 
 	ai_check_interval_by_tier = {
 		barony = 0
@@ -981,6 +1002,7 @@ dismantle_holy_pretender_decision = {
 		completely_controls_region = world_europe_south_italy
 		#And Lotharingia (the Rhine).
 		completely_controls = title:d_luxembourg
+		completely_controls = title:d_liege
 		completely_controls = title:d_brabant
 		completely_controls = title:d_julich
 		completely_controls = title:d_upper_lorraine
@@ -1022,6 +1044,7 @@ dismantle_byz_pretender_decision = {
 	desc = dismantle_byz_pretender_decision_desc
 	selection_tooltip = dismantle_byz_pretender_decision_tooltip
 	decision_group_type = major
+	sort_order = 100
 
 	ai_check_interval_by_tier = {
 		barony = 0
@@ -1033,6 +1056,13 @@ dismantle_byz_pretender_decision = {
 	}
 
 	is_shown = { always = no # Cyber Kings: Earth-specific
+		OR = {
+			completely_controls = title:d_dyrrachion
+			completely_controls = title:d_cephalonia
+			completely_controls = title:d_epirus
+			completely_controls = title:d_athens
+			completely_controls = title:d_achaia
+		}
 	}
 
 	is_valid = {
@@ -1084,6 +1114,7 @@ rebuke_roman_revanchism_sicily = {
 		reference = "gfx/interface/illustrations/decisions/decision_legitimacy.dds"
 	}
 	decision_group_type = major
+	sort_order = 100
 
 	ai_check_interval_by_tier = {
 		barony = 0

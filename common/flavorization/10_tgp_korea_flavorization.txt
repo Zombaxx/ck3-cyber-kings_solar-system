@@ -63,7 +63,7 @@ emperor_male_korean = {
 	tier = empire
 	priority = 199
 	heritages = { heritage_korean }
-	flavourization_rules = { 
+	flavourization_rules = {
 		only_independent = yes
 		spouse_takes_title = no
 	}
@@ -75,7 +75,7 @@ emperor_female_korean = {
 	tier = empire
 	priority = 199
 	heritages = { heritage_korean }
-	flavourization_rules = { 
+	flavourization_rules = {
 		only_independent = yes
 		spouse_takes_title = no
 	}
@@ -87,7 +87,7 @@ spouse_emperor_male_korean = {
 	tier = empire
 	priority = 198
 	heritages = { heritage_korean }
-	flavourization_rules = { 
+	flavourization_rules = {
 		only_independent = yes
 	}
 }
@@ -98,7 +98,7 @@ spouse_emperor_female_korean = {
 	tier = empire
 	priority = 198
 	heritages = { heritage_korean }
-	flavourization_rules = { 
+	flavourization_rules = {
 		only_independent = yes
 	}
 }
@@ -400,7 +400,8 @@ barony_theocracy_korean_buddhism_religion = {
 	priority = 61
 	holding = church_holding
 	faiths = { mahayana_faith }
-	flavourization_rules = { 
+	name_lists = { name_list_korean }
+	flavourization_rules = {
 		top_liege = no
 	}
 }

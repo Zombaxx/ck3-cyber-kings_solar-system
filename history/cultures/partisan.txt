@@ -8,7 +8,7 @@
 	discover_innovation = innovation_mustering_grounds
 	discover_innovation = innovation_war_camels
 	discover_innovation = innovation_crop_rotation
-	discover_innovation = innovation_development_01
+	discover_innovation = innovation_prosperity_01
 	discover_innovation = innovation_plenary_assemblies
 }
 
@@ -26,7 +26,7 @@
 
 7050.1.2 = {
 	# Early Medieval Innovations
-	discover_innovation = innovation_development_02
+	discover_innovation = innovation_prosperity_02
 	discover_innovation = innovation_battlements
 	discover_innovation = innovation_horseshoes
 	discover_innovation = innovation_armilary_sphere

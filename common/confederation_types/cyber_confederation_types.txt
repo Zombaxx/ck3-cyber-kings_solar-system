@@ -2,13 +2,16 @@
 # Commonwealth of Nations: led by the UK royal house; member rulers join through their houses (e49: house-based,
 # because a character-based confederation created by script gets no members).
 commonwealth_of_nations = {
-	house_based_confederation = yes
+	diplomatic_icon_frame_index = 5
+	confederation_base = house
 }
 # Pax Americana (e63, 2026-11-12): US-led alliance, house-based like the Commonwealth.
 pax_americana = {
-	house_based_confederation = yes
+	diplomatic_icon_frame_index = 5
+	confederation_base = house
 }
 # Arab League (e68, 2026-11-12): was a titular empire held by Egypt; now an alliance led by Egypt's house.
 arab_league = {
-	house_based_confederation = yes
+	diplomatic_icon_frame_index = 5
+	confederation_base = house
 }

@@ -2,15 +2,15 @@
 ##################################################
 # Accolade Effects
 
-accolades_development_growth_for_least_developed_county_effect = {
+accolades_prosperity_growth_for_least_developed_county_effect = {
 	# First, should this apply at all?
 	if = {
 		limit = {
 			# Do you have a knight with this accolade at all?
 			any_active_accolade = {
 				OR = {
-					has_accolade_parameter = accolade_development_growth_on_tournament_completion_low
-					has_accolade_parameter = accolade_development_growth_on_tournament_completion_high
+					has_accolade_parameter = accolade_prosperity_growth_on_tournament_completion_low
+					has_accolade_parameter = accolade_prosperity_growth_on_tournament_completion_high
 				}
 			}
 			# Plus, pre-filter out landless rulers.
@@ -20,7 +20,7 @@ accolades_development_growth_for_least_developed_county_effect = {
 		ordered_held_title = {
 			title_tier = county
 			order_by = {
-				value = development_level
+				value = prosperity_level
 				multiply = -1
 			}
 			save_scope_as = least_developed_county
@@ -30,19 +30,19 @@ accolades_development_growth_for_least_developed_county_effect = {
 		if = {
 			limit = {
 				any_active_accolade = {
-					accolade_parameter = accolade_development_growth_on_tournament_completion_low
+					accolade_parameter = accolade_prosperity_growth_on_tournament_completion_low
 				}
 			}
-			scope:least_developed_county = { change_development_progress_with_overflow = accolade_development_growth_on_tournament_completion_value }
+			scope:least_developed_county = { change_prosperity_progress_with_overflow = accolade_prosperity_growth_on_tournament_completion_value }
 		}
 		## High boost.
 		if = {
 			limit = {
 				any_active_accolade = {
-					accolade_parameter = accolade_development_growth_on_tournament_completion_high
+					accolade_parameter = accolade_prosperity_growth_on_tournament_completion_high
 				}
 			}
-			scope:least_developed_county = { change_development_level = accolade_development_level_on_tournament_completion_value }
+			scope:least_developed_county = { change_prosperity_level = accolade_prosperity_level_on_tournament_completion_value }
 		}
 	}
 }
@@ -2119,6 +2119,7 @@ save_type_specific_successor_culture_effect = {
 					NOR = {
 						has_cultural_tradition = tradition_stand_and_fight
 						has_cultural_parameter = honest_trait_more_common
+						has_cultural_parameter = good_faith_traits_more_common
 					}
 				}
 				# Mentor
@@ -10180,6 +10181,7 @@ accolade_create_squire_effect = {
 					ordered_courtier_or_guest = {
 						order_by = prowess
 						limit = {
+							new_acclaimed_knight_search_trigger = yes
 							OR = {
 								any_memory = {
 									has_memory_type = childhood_education_guardian
@@ -10191,7 +10193,6 @@ accolade_create_squire_effect = {
 
 							#Just to be sure this char was the ward in the memory, not the guardian
 							age < scope:knight_in_need.age
-							new_acclaimed_knight_search_trigger = yes
 
 							save_temporary_scope_as = candidate_temp
 							scope:accolade_in_need = {
@@ -10203,6 +10204,7 @@ accolade_create_squire_effect = {
 							}
 						}
 						alternative_limit = {
+							new_acclaimed_knight_search_trigger = yes
 							OR = {
 								any_memory = {
 									has_memory_type = childhood_education_guardian
@@ -10214,7 +10216,6 @@ accolade_create_squire_effect = {
 
 							#Just to be sure this char was the ward in the memory, not the guardian
 							age < scope:knight_in_need.age
-							new_acclaimed_knight_search_trigger = yes
 						}
 						save_scope_as = chosen_knight
 					}
@@ -10227,6 +10228,7 @@ accolade_create_squire_effect = {
 					ordered_knight = {
 						order_by = prowess
 						limit = {
+							new_acclaimed_knight_search_trigger = yes
 							culture_matches_accolade_specialization_trigger = { ACCOLADE = scope:accolade_in_need }
 							OR = {
 								has_any_moderate_good_relationship_with_character_trigger = { CHARACTER = scope:knight_in_need }
@@ -10238,7 +10240,6 @@ accolade_create_squire_effect = {
 									this = scope:knight_in_need
 								}
 							}
-							new_acclaimed_knight_search_trigger = yes
 
 							save_temporary_scope_as = candidate_temp
 							scope:accolade_in_need = {
@@ -10250,6 +10251,7 @@ accolade_create_squire_effect = {
 							}
 						}
 						alternative_limit = {
+							new_acclaimed_knight_search_trigger = yes
 							culture_matches_accolade_specialization_trigger = { ACCOLADE = scope:accolade_in_need }
 							OR = {
 								has_any_moderate_good_relationship_with_character_trigger = { CHARACTER = scope:knight_in_need }
@@ -10261,9 +10263,9 @@ accolade_create_squire_effect = {
 									this = scope:knight_in_need
 								}
 							}
-							new_acclaimed_knight_search_trigger = yes
 						}
 						alternative_limit = {
+							new_acclaimed_knight_search_trigger = yes
 							OR = {
 								has_any_moderate_good_relationship_with_character_trigger = { CHARACTER = scope:knight_in_need }
 								AND = {
@@ -10274,7 +10276,6 @@ accolade_create_squire_effect = {
 									this = scope:knight_in_need
 								}
 							}
-							new_acclaimed_knight_search_trigger = yes
 
 							save_temporary_scope_as = candidate_temp
 							scope:accolade_in_need = {
@@ -10286,6 +10287,7 @@ accolade_create_squire_effect = {
 							}
 						}
 						alternative_limit = {
+							new_acclaimed_knight_search_trigger = yes
 							OR = {
 								has_any_moderate_good_relationship_with_character_trigger = { CHARACTER = scope:knight_in_need }
 								AND = {
@@ -10296,7 +10298,6 @@ accolade_create_squire_effect = {
 									this = scope:knight_in_need
 								}
 							}
-							new_acclaimed_knight_search_trigger = yes
 						}
 						save_scope_as = chosen_knight
 					}
@@ -10334,8 +10335,8 @@ accolade_create_squire_effect = {
 						}
 					}
 					limit = {
-						culture_matches_accolade_specialization_trigger = { ACCOLADE = scope:accolade_in_need }
 						new_acclaimed_knight_search_trigger = yes
+						culture_matches_accolade_specialization_trigger = { ACCOLADE = scope:accolade_in_need }
 					}
 					alternative_limit = {
 						new_acclaimed_knight_search_trigger = yes
@@ -10369,6 +10370,7 @@ accolade_create_squire_effect = {
 						}
 					}
 					limit = {
+						new_acclaimed_knight_search_trigger = yes
 						culture_matches_accolade_specialization_trigger = { ACCOLADE = scope:accolade_in_need }
 						OR = {
 							has_any_moderate_good_relationship_with_character_trigger = { CHARACTER = scope:knight_in_need }
@@ -10380,9 +10382,9 @@ accolade_create_squire_effect = {
 								this = scope:knight_in_need
 							}
 						}
-						new_acclaimed_knight_search_trigger = yes
 					}
 					alternative_limit = {
+						new_acclaimed_knight_search_trigger = yes
 						OR = {
 							has_any_moderate_good_relationship_with_character_trigger = { CHARACTER = scope:knight_in_need }
 							AND = {
@@ -10393,7 +10395,6 @@ accolade_create_squire_effect = {
 								this = scope:knight_in_need
 							}
 						}
-						new_acclaimed_knight_search_trigger = yes
 					}
 					save_scope_as = chosen_knight
 				}
@@ -10423,8 +10424,8 @@ accolade_create_squire_effect = {
 						}
 					}
 					limit = {
-						culture_matches_accolade_specialization_trigger = { ACCOLADE = scope:accolade_in_need }
 						new_acclaimed_knight_search_trigger = yes
+						culture_matches_accolade_specialization_trigger = { ACCOLADE = scope:accolade_in_need }
 					}
 					alternative_limit = {
 						new_acclaimed_knight_search_trigger = yes
@@ -10457,8 +10458,8 @@ accolade_create_squire_effect = {
 						}
 					}
 					limit = {
-						culture_matches_accolade_specialization_trigger = { ACCOLADE = scope:accolade_in_need }
 						new_acclaimed_knight_search_trigger = yes
+						culture_matches_accolade_specialization_trigger = { ACCOLADE = scope:accolade_in_need }
 					}
 					alternative_limit = {
 						new_acclaimed_knight_search_trigger = yes
@@ -10492,8 +10493,8 @@ accolade_create_squire_effect = {
 					}
 					province = capital_province
 					limit = {
-						culture_matches_accolade_specialization_trigger = { ACCOLADE = scope:accolade_in_need }
 						new_acclaimed_knight_search_trigger = yes
+						culture_matches_accolade_specialization_trigger = { ACCOLADE = scope:accolade_in_need }
 					}
 					alternative_limit = {
 						new_acclaimed_knight_search_trigger = yes
@@ -10528,13 +10529,48 @@ accolade_create_squire_effect = {
 					}
 				}
 				limit = {
-					culture_matches_accolade_specialization_trigger = { ACCOLADE = scope:accolade_in_need }
 					new_acclaimed_knight_search_trigger = yes
+					culture_matches_accolade_specialization_trigger = { ACCOLADE = scope:accolade_in_need }
 				}
 				alternative_limit = {
 					new_acclaimed_knight_search_trigger = yes
 				}
 				save_scope_as = chosen_knight
+			}
+			if = {
+				limit = {
+					NOT = {
+						exists = scope:chosen_knight
+					}
+				}
+				# try to find a pool character
+				ordered_pool_character = {
+					order_by = {
+						value = prowess
+						if = {
+							limit = {
+								save_temporary_scope_as = candidate_temp
+								scope:accolade_in_need = {
+									has_variable_list = accolade_squire_chars
+									any_in_list = {
+										variable = accolade_squire_chars
+										this = scope:candidate_temp
+									}
+								}
+							}
+							add = 1000
+						}
+					}
+					province = capital_province
+					limit = {
+						new_acclaimed_knight_search_trigger = yes
+						culture_matches_accolade_specialization_trigger = { ACCOLADE = scope:accolade_in_need }
+					}
+					alternative_limit = {
+						new_acclaimed_knight_search_trigger = yes
+					}
+					save_scope_as = chosen_knight
+				}
 			}
 			#Create character if we failed to find one
 			if = {

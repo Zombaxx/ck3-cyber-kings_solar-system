@@ -53,10 +53,7 @@ activity_feast = {
 				}
 			}
 			scope:host.location = {
-				OR = {
-					terrain = terraced_hills
-					has_building_or_higher = paddy_fields_01
-				}
+				terrain = terraced_hills
 			}
 		}
 		reference = "gfx/interface/illustrations/event_scenes/tgp_rice_fields.dds"
@@ -713,10 +710,7 @@ activity_gruesome_festival = {
 		trigger = {
 			scope:host.location != scope:activity.activity_location
 			scope:host.location = {
-				OR = {
-					terrain = terraced_hills
-					has_building_or_higher = paddy_fields_01
-				}
+				terrain = terraced_hills
 			}
 		}
 		reference = "gfx/interface/illustrations/event_scenes/tgp_rice_fields.dds"
@@ -1007,10 +1001,7 @@ activity_playdate = {
 		trigger = {
 			scope:host.location != scope:activity.activity_location
 			scope:host.location = {
-				OR = {
-					terrain = terraced_hills
-					has_building_or_higher = paddy_fields_01
-				}
+				terrain = terraced_hills
 			}
 		}
 		reference = "gfx/interface/illustrations/event_scenes/tgp_rice_fields.dds"
@@ -1370,10 +1361,7 @@ activity_witch_ritual = {
 		trigger = {
 			scope:host.location != scope:activity.activity_location
 			scope:host.location = {
-				OR = {
-					terrain = terraced_hills
-					has_building_or_higher = paddy_fields_01
-				}
+				terrain = terraced_hills
 			}
 		}
 		reference = "gfx/interface/illustrations/event_scenes/tgp_rice_fields.dds"
@@ -1663,10 +1651,7 @@ activity_pilgrimage = {
 		trigger = {
 			scope:host.location != scope:activity.activity_location
 			scope:host.location = {
-				OR = {
-					terrain = terraced_hills
-					has_building_or_higher = paddy_fields_01
-				}
+				terrain = terraced_hills
 			}
 		}
 		reference = "gfx/interface/illustrations/event_scenes/tgp_rice_fields.dds"
@@ -2152,10 +2137,7 @@ activity_hunt = {
 		trigger = {
 			scope:host.location != scope:activity.activity_location
 			scope:host.location = {
-				OR = {
-					terrain = terraced_hills
-					has_building_or_higher = paddy_fields_01
-				}
+				terrain = terraced_hills
 			}
 		}
 		reference = "gfx/interface/illustrations/event_scenes/tgp_rice_fields.dds"
@@ -2435,10 +2417,7 @@ activity_hunt = {
 		trigger = {
 			activity_location ?= {
 				#hunt_forest_camp_trigger = yes
-				OR = {
-					has_building_or_higher = royal_forest_01
-					has_building_or_higher = hunting_grounds_01
-				}
+				has_hunting_district_or_building = yes
 			}
 		}
 		reference = "gfx/interface/illustrations/event_scenes/ep2_hunt_forest_managed.dds"
@@ -2517,10 +2496,7 @@ activity_tour = {
 		trigger = {
 			scope:host.location != scope:activity.activity_location
 			scope:host.location = {
-				OR = {
-					terrain = terraced_hills
-					has_building_or_higher = paddy_fields_01
-				}
+				terrain = terraced_hills
 			}
 		}
 		reference = "gfx/interface/illustrations/event_scenes/tgp_rice_fields.dds"
@@ -2958,7 +2934,7 @@ activity_tour = {
 				}
 			}
 		}
-		reference = "gfx/interface/illustrations/event_scenes/market_east.dds"
+		reference = "gfx/interface/illustrations/event_scenes/market_east_crowd.dds"
 		environment = "environment_event_market_east"
 		ambience = "event:/SFX/Events/Backgrounds/town_market_middleeastern_day"
 	}
@@ -2967,7 +2943,7 @@ activity_tour = {
 			has_current_phase = tour_phase_cultural_festival
 			activity_location.culture = {has_graphical_east_asia_culture_group_trigger = yes }
 		}
-		reference = "gfx/interface/illustrations/event_scenes/tgp_market_asia.dds"
+		reference = "gfx/interface/illustrations/event_scenes/tgp_market_asia_crowd.dds"
 		environment = "environment_tgp_market_asia"
 		ambience = "event:/DLC/EP4/SFX/Events/Event_Backgrounds/tgp_market_asia"
 	}
@@ -3174,10 +3150,7 @@ activity_wedding = {
 				}
 			}
 			scope:host.location = {
-				OR = {
-					terrain = terraced_hills
-					has_building_or_higher = paddy_fields_01
-				}
+				terrain = terraced_hills
 			}
 		}
 		reference = "gfx/interface/illustrations/event_scenes/tgp_rice_fields.dds"

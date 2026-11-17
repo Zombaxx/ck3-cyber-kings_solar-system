@@ -273,6 +273,11 @@ bugis = {
 		fallback = tradition_seafaring
 	}
 
+	dlc_tradition = {
+		trait = tradition_fortune_seekers
+		requires_dlc_flag = silk_and_silver
+	}
+
 	name_list = name_list_cy_bugis
 	coa_gfx = { burman_group_coa_gfx }
 	building_gfx = { southeast_asian_building_gfx }

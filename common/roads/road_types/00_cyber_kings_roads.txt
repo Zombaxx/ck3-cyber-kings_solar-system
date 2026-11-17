@@ -1,0 +1,3 @@
+﻿# Cyber Kings 1.21: the vanilla road network (00_base_roads.txt, 02_sea_roads.txt) is keyed to vanilla province IDs,
+# so the whole folder is replaced (descriptor.mod replace_path="common/roads/road_types").
+# No solar-system roads are defined yet. Format: see the game's common/roads/road_types/_road_types.info.

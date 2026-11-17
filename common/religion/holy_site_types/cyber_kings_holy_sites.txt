@@ -112,7 +112,7 @@ ck_province1584 = {
 		stewardship = 2
 	}
 	faith_character_modifier = {
-		development_growth_factor = 0.05
+		prosperity_growth_factor = 0.05
 	}
 }
 
@@ -122,7 +122,7 @@ ck_province1624 = {
 		stewardship = 2
 	}
 	faith_character_modifier = {
-		development_growth_factor = 0.05
+		prosperity_growth_factor = 0.05
 	}
 }
 
@@ -132,7 +132,7 @@ ck_province1479 = {
 		stewardship = 2
 	}
 	faith_character_modifier = {
-		development_growth_factor = 0.05
+		prosperity_growth_factor = 0.05
 	}
 }
 
@@ -142,7 +142,7 @@ ck_province1532 = {
 		stewardship = 2
 	}
 	faith_character_modifier = {
-		development_growth_factor = 0.05
+		prosperity_growth_factor = 0.05
 	}
 }
 
@@ -152,7 +152,7 @@ ck_province1696 = {
 		stewardship = 2
 	}
 	faith_character_modifier = {
-		development_growth_factor = 0.05
+		prosperity_growth_factor = 0.05
 	}
 }
 

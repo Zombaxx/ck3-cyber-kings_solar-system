@@ -21,7 +21,7 @@
 3111 = {
 	holding = none
 	# Torres del Paine (real-world wonder at its real location)
-	special_building_slot = torres_del_paine_01
+	special_district_slot = torres_del_paine_01_district
 }
 3112 = {
 	holding = none
@@ -107,7 +107,7 @@
 3141 = {
 	holding = none
 	# Perito Moreno Glacier (wonder, e64)
-	special_building_slot = perito_moreno_01
+	special_district_slot = perito_moreno_01_district
 }
 ### c_province0022
 22 = {
@@ -255,8 +255,8 @@
 	rite = roman_rite
 	holding = castle_holding
 	# National University of San Marcos (real-world wonder at its real location)
-	special_building_slot = university_of_san_marcos_01
-	special_building = university_of_san_marcos_01
+	special_district_slot = university_of_san_marcos_01_district
+	districts = { district = { type = university_of_san_marcos_01_district level = 1 } }
 }
 3157 = {
 	holding = none
@@ -279,7 +279,7 @@
 3205 = {
 	holding = none
 	# Salar de Uyuni (wonder, e64)
-	special_building_slot = salar_de_uyuni_01
+	special_district_slot = salar_de_uyuni_01_district
 }
 3211 = {
 	holding = none
@@ -349,8 +349,8 @@
 3124 = {
 	holding = church_holding
 	# Chankillo (real-world wonder at its real location)
-	special_building_slot = chankillo_01
-	special_building = chankillo_01
+	special_district_slot = chankillo_01_district
+	districts = { district = { type = chankillo_01_district level = 1 } }
 }
 3125 = {
 	holding = city_holding
@@ -370,8 +370,8 @@
 	rite = roman_rite	# e83 real 2026 majority (was protestant_rite)
 	holding = tribal_holding
 	# Machu Picchu (real-world wonder at its real location)
-	special_building_slot = machu_picchu_01
-	special_building = machu_picchu_01
+	special_district_slot = machu_picchu_01_district
+	districts = { district = { type = machu_picchu_01_district level = 1 } }
 }
 3259 = {
 	holding = none
@@ -382,7 +382,7 @@
 3267 = {
 	holding = none
 	# Vinicunca (real-world wonder at its real location)
-	special_building_slot = vinicunca_01
+	special_district_slot = vinicunca_01_district
 }
 3268 = {
 	holding = none
@@ -483,8 +483,8 @@
 	rite = roman_rite
 	holding = castle_holding
 	# Cotopaxi (real-world wonder at its real location)
-	special_building_slot = cotopaxi_01
-	special_building = cotopaxi_01
+	special_district_slot = cotopaxi_01_district
+	districts = { district = { type = cotopaxi_01_district level = 1 } }
 }
 3185 = {
 	holding = church_holding
@@ -835,7 +835,7 @@
 3258 = {
 	holding = none
 	# Tikal (real-world wonder at its real location)
-	special_building_slot = tikal_01
+	special_district_slot = tikal_01_district
 }
 ### c_province0089
 89 = {
@@ -843,8 +843,8 @@
 	rite = roman_rite
 	holding = castle_holding
 	# Chichén Itzá (real-world wonder at its real location)
-	special_building_slot = chichen_itza_01
-	special_building = chichen_itza_01
+	special_district_slot = chichen_itza_01_district
+	districts = { district = { type = chichen_itza_01_district level = 1 } }
 }
 3402 = {
 	holding = church_holding
@@ -870,8 +870,8 @@
 3274 = {
 	holding = church_holding
 	# Parícutin (real-world wonder at its real location)
-	special_building_slot = paricutin_01
-	special_building = paricutin_01
+	special_district_slot = paricutin_01_district
+	districts = { district = { type = paricutin_01_district level = 1 } }
 }
 ### c_province0042
 42 = {
@@ -911,8 +911,8 @@
 	rite = roman_rite
 	holding = castle_holding
 	# Morro Castle (wonder, e64)
-	special_building_slot = morro_castle_havana_01
-	special_building = morro_castle_havana_01
+	special_district_slot = morro_castle_havana_01_district
+	districts = { district = { type = morro_castle_havana_01_district level = 1 } }
 }
 3574 = {
 	holding = church_holding
@@ -1657,8 +1657,8 @@
 	rite = rabbinism
 	holding = tribal_holding
 	# University - Mercury (wonder, e64)
-	special_building_slot = generic_university
-	special_building = generic_university
+	special_district_slot = generic_university_district
+	districts = { district = { type = generic_university_district level = 1 } }
 }
 4045 = {
 	holding = none
@@ -1917,7 +1917,7 @@
 2786 = {
 	holding = none
 	# Mount Erebus (wonder, e64)
-	special_building_slot = mount_erebus_01
+	special_district_slot = mount_erebus_01_district
 }
 2787 = {
 	holding = none
@@ -2065,7 +2065,7 @@
 2886 = {
 	holding = none
 	# Mount Rushmore (wonder, e64)
-	special_building_slot = mount_rushmore_01
+	special_district_slot = mount_rushmore_01_district
 }
 2891 = {
 	holding = none
@@ -2154,7 +2154,7 @@
 2894 = {
 	holding = none
 	# Cahokia Mounds (real-world wonder at its real location)
-	special_building_slot = cahokia_mounds_01
+	special_district_slot = cahokia_mounds_01_district
 }
 2895 = {
 	holding = none
@@ -2177,7 +2177,7 @@
 2902 = {
 	holding = none
 	# Yellowstone (wonder, e64)
-	special_building_slot = yellowstone_01
+	special_district_slot = yellowstone_01_district
 }
 2903 = {
 	holding = none
@@ -2361,8 +2361,8 @@
 	rite = protestant_rite
 	holding = tribal_holding
 	# Denali (wonder, e64)
-	special_building_slot = denali_01
-	special_building = denali_01
+	special_district_slot = denali_01_district
+	districts = { district = { type = denali_01_district level = 1 } }
 }
 8081 = {
 	holding = none
@@ -2429,8 +2429,8 @@
 	rite = roman_rite
 	holding = castle_holding
 	# Golden Gate Bridge (wonder, e64)
-	special_building_slot = golden_gate_bridge_01
-	special_building = golden_gate_bridge_01
+	special_district_slot = golden_gate_bridge_01_district
+	districts = { district = { type = golden_gate_bridge_01_district level = 1 } }
 }
 2759 = {
 	holding = church_holding
@@ -2474,8 +2474,8 @@
 	rite = protestant_rite
 	holding = castle_holding
 	# Mount St. Helens (real-world wonder at its real location)
-	special_building_slot = mount_st_helens_01
-	special_building = mount_st_helens_01
+	special_district_slot = mount_st_helens_01_district
+	districts = { district = { type = mount_st_helens_01_district level = 1 } }
 }
 2837 = {
 	holding = church_holding
@@ -2495,8 +2495,8 @@
 	rite = protestant_rite
 	holding = castle_holding
 	# Mount Rainier (real-world wonder at its real location)
-	special_building_slot = mount_rainier_01
-	special_building = mount_rainier_01
+	special_district_slot = mount_rainier_01_district
+	districts = { district = { type = mount_rainier_01_district level = 1 } }
 }
 2835 = {
 	holding = none
@@ -2509,8 +2509,8 @@
 	culture = hawaiian	# Hawaiian culture 2026-11-15 (was papuan)
 	rite = hee_nalu_rite	# He'e Nalu 2026-11-15 (was protestant_rite, e83)
 	holding = castle_holding
-	special_building_slot = hee_nalu_surf_heiau_01	# He'e Nalu 2026-11-16: surf heiau (WONDERS merge rule applies)
-	special_building = hee_nalu_surf_heiau_01
+	special_district_slot = hee_nalu_surf_heiau_01_district # He'e Nalu 2026-11-16: surf heiau (WONDERS merge rule applies)
+	districts = { district = { type = hee_nalu_surf_heiau_01_district level = 1 } }
 }
 8094 = {
 	holding = city_holding
@@ -2529,8 +2529,8 @@
 2820 = {
 	holding = church_holding
 	# Castillo de San Marcos (real-world wonder at its real location)
-	special_building_slot = castillo_de_san_marcos_01
-	special_building = castillo_de_san_marcos_01
+	special_district_slot = castillo_de_san_marcos_01_district
+	districts = { district = { type = castillo_de_san_marcos_01_district level = 1 } }
 }
 ### c_province0198
 198 = {
@@ -2804,14 +2804,14 @@
 	rite = protestant_rite
 	holding = castle_holding
 	# United States Capitol (real-world wonder at its real location)
-	special_building_slot = us_capitol_01
-	special_building = us_capitol_01
+	special_district_slot = us_capitol_01_district
+	districts = { district = { type = us_capitol_01_district level = 1 } }
 }
 2914 = {
 	holding = city_holding
 	# Washington National Cathedral (real-world wonder at its real location)
-	special_building_slot = washington_national_cathedral_01
-	special_building = washington_national_cathedral_01
+	special_district_slot = washington_national_cathedral_01_district
+	districts = { district = { type = washington_national_cathedral_01_district level = 1 } }
 }
 ### c_new_york
 329 = {
@@ -2828,8 +2828,8 @@
 	rite = roman_rite
 	holding = castle_holding
 	# St. Patrick's Cathedral (real-world wonder at its real location)
-	special_building_slot = st_patricks_cathedral_01
-	special_building = st_patricks_cathedral_01
+	special_district_slot = st_patricks_cathedral_01_district
+	districts = { district = { type = st_patricks_cathedral_01_district level = 1 } }
 }
 2978 = {
 	holding = church_holding
@@ -2855,7 +2855,7 @@
 2930 = {
 	holding = none
 	# Serpent Mound (real-world wonder at its real location)
-	special_building_slot = serpent_mound_01
+	special_district_slot = serpent_mound_01_district
 }
 2960 = {
 	holding = church_holding
@@ -2952,8 +2952,8 @@
 	rite = roman_rite
 	holding = castle_holding
 	# Christ the Redeemer (real-world wonder at its real location)
-	special_building_slot = christ_the_redeemer_01
-	special_building = christ_the_redeemer_01
+	special_district_slot = christ_the_redeemer_01_district
+	districts = { district = { type = christ_the_redeemer_01_district level = 1 } }
 }
 3572 = {
 	holding = church_holding
@@ -3681,8 +3681,8 @@
 	rite = roman_rite
 	holding = tribal_holding
 	# University - Luna (wonder, e64)
-	special_building_slot = generic_university
-	special_building = generic_university
+	special_district_slot = generic_university_district
+	districts = { district = { type = generic_university_district level = 1 } }
 }
 4053 = {
 	holding = none
@@ -3981,14 +3981,14 @@
 	rite = roman_rite
 	holding = castle_holding
 	# Fortifications of Québec (real-world wonder at its real location)
-	special_building_slot = fortifications_of_quebec_01
-	special_building = fortifications_of_quebec_01
+	special_district_slot = fortifications_of_quebec_01_district
+	districts = { district = { type = fortifications_of_quebec_01_district level = 1 } }
 }
 3733 = {
 	holding = church_holding
 	# Université Laval (real-world wonder at its real location)
-	special_building_slot = universite_laval_01
-	special_building = universite_laval_01
+	special_district_slot = universite_laval_01_district
+	districts = { district = { type = universite_laval_01_district level = 1 } }
 }
 ### c_toronto
 317 = {
@@ -6909,14 +6909,14 @@
 	rite = roman_rite
 	holding = church_holding
 	# Vatican City (real-world wonder at its real location)
-	special_building_slot = holy_site_st_peters_basilica_01
-	special_building = holy_site_st_peters_basilica_01
+	special_district_slot = holy_site_st_peters_basilica_01_district
+	districts = { district = { type = holy_site_st_peters_basilica_01_district level = 1 } }
 }
 8278 = {
 	holding = city_holding
 	# Rome Lateran (real-world wonder at its real location)
-	special_building_slot = pam_lateran_basilica_01
-	special_building = pam_lateran_basilica_01
+	special_district_slot = pam_lateran_basilica_01_district
+	districts = { district = { type = pam_lateran_basilica_01_district level = 1 } }
 }
 ### c_province0548
 548 = {
@@ -6933,26 +6933,26 @@
 	rite = roman_rite
 	holding = castle_holding
 	# Rome (real-world wonder at its real location)
-	special_building_slot = the_colosseum_01
-	special_building = the_colosseum_01
+	special_district_slot = the_colosseum_01_district
+	districts = { district = { type = the_colosseum_01_district level = 1 } }
 }
 3152 = {
 	holding = city_holding
 	# Florence (real-world wonder at its real location)
-	special_building_slot = duomo_florence_01
-	special_building = duomo_florence_04
+	special_district_slot = duomo_florence_01_district
+	districts = { district = { type = duomo_florence_01_district level = 4 } }
 }
 3155 = {
 	holding = church_holding
 	# Ravenna (real-world wonder at its real location)
-	special_building_slot = apollinare_nuovo
-	special_building = apollinare_nuovo
+	special_district_slot = apollinare_nuovo_district
+	districts = { district = { type = apollinare_nuovo_district level = 1 } }
 }
 8284 = {
 	holding = castle_holding
 	# Siena (real-world wonder at its real location)
-	special_building_slot = siena_university
-	special_building = siena_university
+	special_district_slot = siena_university_district
+	districts = { district = { type = siena_university_district level = 1 } }
 }
 ### c_province0584
 584 = {
@@ -6963,8 +6963,8 @@
 8320 = {
 	holding = church_holding
 	# Ohrid (real-world wonder at its real location)
-	special_building_slot = sofia_ohrid
-	special_building = sofia_ohrid
+	special_district_slot = sofia_ohrid_district
+	districts = { district = { type = sofia_ohrid_district level = 1 } }
 }
 ### c_province0577
 577 = {
@@ -6981,8 +6981,8 @@
 	rite = byzantine_rite
 	holding = castle_holding
 	# Meteora (real-world wonder at its real location)
-	special_building_slot = meteora_01
-	special_building = meteora_02
+	special_district_slot = meteora_01_district
+	districts = { district = { type = meteora_01_district level = 2 } }
 }
 3219 = {
 	holding = church_holding
@@ -6993,19 +6993,19 @@
 	rite = byzantine_rite
 	holding = castle_holding
 	# Hosios Loukas (real-world wonder at its real location)
-	special_building_slot = hosios_loukas
-	special_building = hosios_loukas
+	special_district_slot = hosios_loukas_district
+	districts = { district = { type = hosios_loukas_district level = 1 } }
 }
 8352 = {
 	holding = church_holding
 	# Patras (real-world wonder at its real location)
-	special_building_slot = patras_castle
-	special_building = patras_castle
+	special_district_slot = patras_castle_district
+	districts = { district = { type = patras_castle_district level = 1 } }
 }
 8353 = {
 	holding = none
 	# Mystras (real-world wonder at its real location)
-	special_building_slot = despot_palace
+	special_district_slot = despot_palace_district
 }
 ### c_province0594
 594 = {
@@ -7013,14 +7013,14 @@
 	rite = byzantine_rite
 	holding = castle_holding
 	# Thessaloniki (real-world wonder at its real location)
-	special_building_slot = hagios_demetrios
-	special_building = hagios_demetrios
+	special_district_slot = hagios_demetrios_district
+	districts = { district = { type = hagios_demetrios_district level = 1 } }
 }
 3223 = {
 	holding = church_holding
 	# Mount Athos (real-world wonder at its real location)
-	special_building_slot = mount_athos_01
-	special_building = mount_athos_03
+	special_district_slot = mount_athos_01_district
+	districts = { district = { type = mount_athos_01_district level = 3 } }
 }
 ### c_province0593
 593 = {
@@ -7073,8 +7073,8 @@
 3190 = {
 	holding = city_holding
 	# Stilo (real-world wonder at its real location)
-	special_building_slot = cattolica_stilo
-	special_building = cattolica_stilo
+	special_district_slot = cattolica_stilo_district
+	districts = { district = { type = cattolica_stilo_district level = 1 } }
 }
 3191 = {
 	holding = castle_holding
@@ -7090,8 +7090,8 @@
 3118 = {
 	holding = church_holding
 	# Reims (real-world wonder at its real location)
-	special_building_slot = pam_reims_cathedral_01
-	special_building = pam_reims_cathedral_01
+	special_district_slot = pam_reims_cathedral_01_district
+	districts = { district = { type = pam_reims_cathedral_01_district level = 1 } }
 }
 ### c_province0460
 460 = {	# Derry
@@ -7128,8 +7128,8 @@
 8212 = {
 	holding = church_holding
 	# Stonehenge (real-world wonder at its real location)
-	special_building_slot = stonehenge_01
-	special_building = stonehenge_01
+	special_district_slot = stonehenge_01_district
+	districts = { district = { type = stonehenge_01_district level = 1 } }
 }
 8213 = {
 	holding = city_holding
@@ -7146,14 +7146,14 @@
 	rite = anglican_rite
 	holding = castle_holding
 	# London (real-world wonder at its real location)
-	special_building_slot = the_tower_of_london_01
-	special_building = the_tower_of_london_01
+	special_district_slot = the_tower_of_london_01_district
+	districts = { district = { type = the_tower_of_london_01_district level = 1 } }
 }
 8243 = {
 	holding = church_holding
 	# Canterbury (real-world wonder at its real location)
-	special_building_slot = holy_site_canterbury_cathedral_01
-	special_building = holy_site_canterbury_cathedral_03
+	special_district_slot = holy_site_canterbury_cathedral_01_district
+	districts = { district = { type = holy_site_canterbury_cathedral_01_district level = 3 } }
 }
 ### c_province0479
 479 = {
@@ -7167,8 +7167,8 @@
 8222 = {
 	holding = castle_holding
 	# Offa's Dyke (real-world wonder at its real location)
-	special_building_slot = offas_dyke_01
-	special_building = offas_dyke_01
+	special_district_slot = offas_dyke_01_district
+	districts = { district = { type = offas_dyke_01_district level = 1 } }
 }
 ### c_province0474
 474 = {
@@ -7212,8 +7212,8 @@
 8223 = {
 	holding = church_holding
 	# York (real-world wonder at its real location)
-	special_building_slot = york_walls_01
-	special_building = york_walls_01
+	special_district_slot = york_walls_01_district
+	districts = { district = { type = york_walls_01_district level = 1 } }
 }
 8224 = {
 	holding = church_holding
@@ -7221,8 +7221,8 @@
 8225 = {
 	holding = city_holding
 	# Hadrian's Wall (real-world wonder at its real location)
-	special_building_slot = hadrians_wall_01
-	special_building = hadrians_wall_01
+	special_district_slot = hadrians_wall_01_district
+	districts = { district = { type = hadrians_wall_01_district level = 1 } }
 }
 8226 = {
 	holding = none
@@ -7247,8 +7247,8 @@
 	rite = roman_rite
 	holding = castle_holding
 	# Santiago de Compostela (real-world wonder at its real location)
-	special_building_slot = holy_site_basilica_santiago_01
-	special_building = holy_site_basilica_santiago_01
+	special_district_slot = holy_site_basilica_santiago_01_district
+	districts = { district = { type = holy_site_basilica_santiago_01_district level = 1 } }
 }
 8203 = {
 	holding = church_holding
@@ -7259,14 +7259,14 @@
 	rite = roman_rite
 	holding = castle_holding
 	# Cordoba (real-world wonder at its real location)
-	special_building_slot = holy_site_great_mosque_of_cordoba_01
-	special_building = holy_site_great_mosque_of_cordoba_01
+	special_district_slot = holy_site_great_mosque_of_cordoba_01_district
+	districts = { district = { type = holy_site_great_mosque_of_cordoba_01_district level = 1 } }
 }
 8229 = {
 	holding = church_holding
 	# Granada (real-world wonder at its real location)
-	special_building_slot = alhambra_01
-	special_building = alhambra_02
+	special_district_slot = alhambra_01_district
+	districts = { district = { type = alhambra_01_district level = 2 } }
 }
 ### c_province0464
 464 = {
@@ -7277,7 +7277,7 @@
 8204 = {
 	holding = none
 	# Toledo (real-world wonder at its real location)
-	special_building_slot = city_wall_of_toledo_01
+	special_district_slot = city_wall_of_toledo_01_district
 }
 ### c_barcelona
 490 = {
@@ -7309,8 +7309,8 @@
 	rite = roman_rite
 	holding = castle_holding
 	# Avignon (real-world wonder at its real location)
-	special_building_slot = pam_palais_de_papes_01
-	special_building = pam_palais_de_papes_01
+	special_district_slot = pam_palais_de_papes_01_district
+	districts = { district = { type = pam_palais_de_papes_01_district level = 1 } }
 }
 8259 = {
 	holding = church_holding
@@ -7321,8 +7321,8 @@
 	rite = roman_rite
 	holding = castle_holding
 	# Barcelona (real-world wonder at its real location)
-	special_building_slot = drassanes_01
-	special_building = drassanes_01
+	special_district_slot = drassanes_01_district
+	districts = { district = { type = drassanes_01_district level = 1 } }
 }
 3107 = {
 	holding = city_holding
@@ -7427,8 +7427,8 @@
 	rite = roman_rite
 	holding = castle_holding
 	# Paris (real-world wonder at its real location)
-	special_building_slot = notre_dame_01
-	special_building = notre_dame_01
+	special_district_slot = notre_dame_01_district
+	districts = { district = { type = notre_dame_01_district level = 1 } }
 }
 8254 = {
 	holding = none
@@ -7439,8 +7439,8 @@
 	rite = roman_rite
 	holding = castle_holding
 	# Mont-Saint-Michel (real-world wonder at its real location)
-	special_building_slot = mont_st_michel_01
-	special_building = mont_st_michel_04
+	special_district_slot = mont_st_michel_01_district
+	districts = { district = { type = mont_st_michel_01_district level = 4 } }
 }
 8238 = {
 	holding = church_holding
@@ -7466,7 +7466,7 @@
 3180 = {
 	holding = none
 	# Trosky (real-world wonder at its real location)
-	special_building_slot = trosky_castle_01
+	# 1.21: special_building_slot = trosky_castle_01 dropped - the building no longer exists in vanilla 1.21
 }
 ### c_province0581
 581 = {
@@ -7474,8 +7474,8 @@
 	rite = roman_rite
 	holding = castle_holding
 	# Krakow (real-world wonder at its real location)
-	special_building_slot = wawel_cathedral_01
-	special_building = wawel_cathedral_03
+	special_district_slot = wawel_cathedral_01_district
+	districts = { district = { type = wawel_cathedral_01_district level = 3 } }
 }
 8318 = {
 	holding = church_holding
@@ -7566,13 +7566,13 @@
 	rite = maliki
 	holding = tribal_holding
 	# Djenne (real-world wonder at its real location)
-	special_building_slot = holy_site_great_mosque_of_djenne_01
-	special_building = holy_site_great_mosque_of_djenne_01
+	special_district_slot = holy_site_great_mosque_of_djenne_01_district
+	districts = { district = { type = holy_site_great_mosque_of_djenne_01_district level = 1 } }
 }
 8194 = {
 	holding = none
 	# Timbuktu (real-world wonder at its real location)
-	special_building_slot = sankore_university
+	special_district_slot = sankore_university_district
 }
 8195 = {
 	holding = none
@@ -7937,8 +7937,8 @@
 	rite = maliki
 	holding = tribal_holding
 	# Kano (real-world wonder at its real location)
-	special_building_slot = kano_walls_01
-	special_building = kano_walls_01
+	special_district_slot = kano_walls_01_district
+	districts = { district = { type = kano_walls_01_district level = 1 } }
 }
 8315 = {
 	holding = none
@@ -8116,8 +8116,8 @@
 	rite = maliki
 	holding = castle_holding
 	# Aleppo (real-world wonder at its real location)
-	special_building_slot = citadel_of_aleppo_01
-	special_building = citadel_of_aleppo_02
+	special_district_slot = citadel_of_aleppo_01_district
+	districts = { district = { type = citadel_of_aleppo_01_district level = 2 } }
 }
 3309 = {
 	holding = church_holding
@@ -8131,8 +8131,8 @@
 	rite = rabbinism
 	holding = castle_holding
 	# Jerusalem (real-world wonder at its real location)
-	special_building_slot = dome_of_the_rock_01
-	special_building = dome_of_the_rock_01
+	special_district_slot = dome_of_the_rock_01_district
+	districts = { district = { type = dome_of_the_rock_01_district level = 1 } }
 }
 8436 = {
 	holding = church_holding
@@ -8178,8 +8178,8 @@
 	rite = maliki
 	holding = castle_holding
 	# Giza (real-world wonder at its real location)
-	special_building_slot = the_pyramids_01
-	special_building = the_pyramids_01
+	special_district_slot = the_pyramids_01_district
+	districts = { district = { type = the_pyramids_01_district level = 1 } }
 }
 8448 = {
 	holding = church_holding
@@ -8389,13 +8389,13 @@
 	rite = protestant_rite	# e83 real 2026 majority (was shafii)
 	holding = tribal_holding
 	# Mombasa (real-world wonder at its real location)
-	special_building_slot = swahili_port_mombasa
-	special_building = swahili_port_mombasa
+	special_district_slot = swahili_port_mombasa_district
+	districts = { district = { type = swahili_port_mombasa_district level = 1 } }
 }
 3523 = {
 	holding = none
 	# Lamu (real-world wonder at its real location)
-	special_building_slot = swahili_port_lamu
+	special_district_slot = swahili_port_lamu_district
 }
 8658 = {
 	holding = none
@@ -8540,8 +8540,8 @@
 	rite = maliki
 	holding = castle_holding
 	# Medina (real-world wonder at its real location)
-	special_building_slot = holy_site_prophetic_mosque_01
-	special_building = holy_site_prophetic_mosque_01
+	special_district_slot = holy_site_prophetic_mosque_01_district
+	districts = { district = { type = holy_site_prophetic_mosque_01_district level = 1 } }
 }
 3374 = {
 	holding = church_holding
@@ -8567,8 +8567,8 @@
 	rite = maliki
 	holding = castle_holding
 	# Mecca (real-world wonder at its real location)
-	special_building_slot = holy_site_great_mosque_of_mecca_01
-	special_building = holy_site_great_mosque_of_mecca_01
+	special_district_slot = holy_site_great_mosque_of_mecca_01_district
+	districts = { district = { type = holy_site_great_mosque_of_mecca_01_district level = 1 } }
 }
 3403 = {
 	holding = church_holding
@@ -8698,14 +8698,14 @@
 	rite = imami
 	holding = castle_holding
 	# Damavand (real-world wonder at its real location)
-	special_building_slot = mount_damavand_01
-	special_building = mount_damavand_01
+	special_district_slot = mount_damavand_01_district
+	districts = { district = { type = mount_damavand_01_district level = 1 } }
 }
 3378 = {
 	holding = church_holding
 	# Alamut (real-world wonder at its real location)
-	special_building_slot = alamut_castle_01
-	special_building = alamut_castle_01
+	special_district_slot = alamut_castle_01_district
+	districts = { district = { type = alamut_castle_01_district level = 1 } }
 }
 ### c_province0676
 676 = {
@@ -8722,14 +8722,14 @@
 	rite = imami
 	holding = castle_holding
 	# Pasargadae (real-world wonder at its real location)
-	special_building_slot = tomb_of_cyrus_01
-	special_building = tomb_of_cyrus_01
+	special_district_slot = tomb_of_cyrus_01_district
+	districts = { district = { type = tomb_of_cyrus_01_district level = 1 } }
 }
 8533 = {
 	holding = church_holding
 	# Maharloo Lake (real-world wonder at its real location)
-	special_building_slot = maharloo_lake_01
-	special_building = maharloo_lake_01
+	special_district_slot = maharloo_lake_01_district
+	districts = { district = { type = maharloo_lake_01_district level = 1 } }
 }
 ### c_province0675
 675 = {
@@ -8740,7 +8740,7 @@
 3379 = {
 	holding = none
 	# Hamadan (real-world wonder at its real location)
-	special_building_slot = hamadan_bazaar_01
+	special_district_slot = hamadan_bazaar_01_district
 }
 ### c_province0728
 728 = {
@@ -8751,7 +8751,7 @@
 8606 = {
 	holding = none
 	# Merv (real-world wonder at its real location)
-	special_building_slot = kyz_kala_01
+	special_district_slot = kyz_kala_01_district
 }
 8607 = {
 	holding = none
@@ -8789,7 +8789,7 @@
 8670 = {
 	holding = none
 	# Herat (real-world wonder at its real location)
-	special_building_slot = herat_bazaar_01
+	special_district_slot = herat_bazaar_01_district
 }
 8671 = {
 	holding = none
@@ -8833,8 +8833,8 @@
 	rite = imami
 	holding = castle_holding
 	# Mashhad (real-world wonder at its real location)
-	special_building_slot = imam_reza_shrine_01
-	special_building = imam_reza_shrine_01
+	special_district_slot = imam_reza_shrine_01_district
+	districts = { district = { type = imam_reza_shrine_01_district level = 1 } }
 }
 8567 = {
 	holding = none
@@ -8845,8 +8845,8 @@
 	rite = imami
 	holding = castle_holding
 	# Baku (real-world wonder at its real location)
-	special_building_slot = maiden_tower
-	special_building = maiden_tower
+	special_district_slot = maiden_tower_district
+	districts = { district = { type = maiden_tower_district level = 1 } }
 }
 3344 = {
 	holding = none
@@ -8877,8 +8877,8 @@
 	rite = maliki
 	holding = castle_holding
 	# Istanbul (real-world wonder at its real location)
-	special_building_slot = hagia_sophia_01
-	special_building = hagia_sophia_02
+	special_district_slot = hagia_sophia_01_district
+	districts = { district = { type = hagia_sophia_01_district level = 2 } }
 }
 3248 = {
 	holding = church_holding
@@ -8886,8 +8886,8 @@
 8369 = {
 	holding = city_holding
 	# Istanbul Chora (real-world wonder at its real location)
-	special_building_slot = church_of_the_theotokos
-	special_building = church_of_the_theotokos
+	special_district_slot = church_of_the_theotokos_district
+	districts = { district = { type = church_of_the_theotokos_district level = 1 } }
 }
 ### c_province0610
 610 = {
@@ -8937,7 +8937,7 @@
 8421 = {
 	holding = none
 	# Cilician Gates (real-world wonder at its real location)
-	special_building_slot = cilician_gates
+	special_district_slot = cilician_gates_district
 }
 ### c_province0614
 614 = {
@@ -8957,8 +8957,8 @@
 	rite = maliki
 	holding = castle_holding
 	# Cappadocia (real-world wonder at its real location)
-	special_building_slot = fairy_chimneys
-	special_building = fairy_chimneys
+	special_district_slot = fairy_chimneys_district
+	districts = { district = { type = fairy_chimneys_district level = 1 } }
 }
 3276 = {
 	holding = none
@@ -8995,14 +8995,14 @@
 	rite = protestant_rite
 	holding = castle_holding
 	# Lund (real-world wonder at its real location)
-	special_building_slot = lund_cathedral_01
-	special_building = lund_cathedral_01
+	special_district_slot = lund_cathedral_01_district
+	districts = { district = { type = lund_cathedral_01_district level = 1 } }
 }
 8283 = {
 	holding = church_holding
 	# Visby (real-world wonder at its real location)
-	special_building_slot = visby_ringmur_01
-	special_building = visby_ringmur_01
+	special_district_slot = visby_ringmur_01_district
+	districts = { district = { type = visby_ringmur_01_district level = 1 } }
 }
 ### c_province0564
 564 = {
@@ -9022,8 +9022,8 @@
 3139 = {
 	holding = church_holding
 	# Heddal (real-world wonder at its real location)
-	special_building_slot = heddal_stave_church_01
-	special_building = heddal_stave_church_01
+	special_district_slot = heddal_stave_church_01_district
+	districts = { district = { type = heddal_stave_church_01_district level = 1 } }
 }
 ### c_province0520
 520 = {
@@ -9448,7 +9448,7 @@
 8501 = {
 	holding = none
 	# Khiva (real-world wonder at its real location)
-	special_building_slot = khiva_bazaar_01
+	# 1.21: special_building_slot = khiva_bazaar_01 dropped - the building no longer exists in vanilla 1.21
 }
 8502 = {
 	holding = none
@@ -9456,7 +9456,7 @@
 8503 = {
 	holding = none
 	# Bukhara (real-world wonder at its real location)
-	special_building_slot = ark_of_bukhara_01
+	special_district_slot = ark_of_bukhara_01_district
 }
 ### c_province0696
 696 = {
@@ -9703,8 +9703,8 @@
 	rite = byzantine_rite
 	holding = tribal_holding
 	# Klyuchevskaya Sopka (wonder, e64)
-	special_building_slot = klyuchevskaya_sopka_01
-	special_building = klyuchevskaya_sopka_01
+	special_district_slot = klyuchevskaya_sopka_01_district
+	districts = { district = { type = klyuchevskaya_sopka_01_district level = 1 } }
 }
 3315 = {
 	holding = none
@@ -9864,8 +9864,8 @@
 8676 = {
 	holding = church_holding
 	# Ji'an (real-world wonder at its real location)
-	special_building_slot = goguryeo_tomb_01
-	special_building = goguryeo_tomb_01
+	special_district_slot = goguryeo_tomb_01_district
+	districts = { district = { type = goguryeo_tomb_01_district level = 1 } }
 }
 ### c_province0745
 745 = {
@@ -9915,8 +9915,8 @@
 	rite = byzantine_rite
 	holding = tribal_holding
 	# Lake Baikal (wonder, e64)
-	special_building_slot = lake_baikal_01
-	special_building = lake_baikal_01
+	special_district_slot = lake_baikal_01_district
+	districts = { district = { type = lake_baikal_01_district level = 1 } }
 }
 3457 = {
 	holding = none
@@ -10017,8 +10017,8 @@
 	rite = lamaism
 	holding = tribal_holding
 	# Burkhan Khaldun (real-world wonder at its real location)
-	special_building_slot = burkhan_khaldun_01
-	special_building = burkhan_khaldun_01
+	special_district_slot = burkhan_khaldun_01_district
+	districts = { district = { type = burkhan_khaldun_01_district level = 1 } }
 }
 3587 = {
 	holding = none
@@ -10120,8 +10120,8 @@
 	rite = dhyana
 	holding = castle_holding
 	# Tianshui (real-world wonder at its real location)
-	special_building_slot = maijishan_grottoes_01
-	special_building = maijishan_grottoes_01
+	special_district_slot = maijishan_grottoes_01_district
+	districts = { district = { type = maijishan_grottoes_01_district level = 1 } }
 }
 3691 = {
 	holding = church_holding
@@ -10132,14 +10132,14 @@
 	rite = dhyana
 	holding = castle_holding
 	# Datong (real-world wonder at its real location)
-	special_building_slot = yungang_grottoes_01
-	special_building = yungang_grottoes_01
+	special_district_slot = yungang_grottoes_01_district
+	districts = { district = { type = yungang_grottoes_01_district level = 1 } }
 }
 8766 = {
 	holding = church_holding
 	# Hunyuan (real-world wonder at its real location)
-	special_building_slot = hanging_temple_01
-	special_building = hanging_temple_01
+	special_district_slot = hanging_temple_01_district
+	districts = { district = { type = hanging_temple_01_district level = 1 } }
 }
 ### c_province0844
 844 = {
@@ -10147,8 +10147,8 @@
 	rite = dhyana
 	holding = castle_holding
 	# Beijing (real-world wonder at its real location)
-	special_building_slot = forbidden_city_01
-	special_building = forbidden_city_01
+	special_district_slot = forbidden_city_01_district
+	districts = { district = { type = forbidden_city_01_district level = 1 } }
 }
 3674 = {
 	holding = church_holding
@@ -10212,8 +10212,8 @@
 	rite = shinto
 	holding = castle_holding
 	# Kamakura (real-world wonder at its real location)
-	special_building_slot = buddha_kamakura_01
-	special_building = buddha_kamakura_01
+	special_district_slot = buddha_kamakura_01_district
+	districts = { district = { type = buddha_kamakura_01_district level = 1 } }
 }
 3710 = {
 	holding = church_holding
@@ -10489,8 +10489,8 @@
 	rite = maliki
 	holding = tribal_holding
 	# Samarkand (real-world wonder at its real location)
-	special_building_slot = shah_i_zinda_01
-	special_building = shah_i_zinda_02
+	special_district_slot = shah_i_zinda_01_district
+	districts = { district = { type = shah_i_zinda_01_district level = 2 } }
 }
 8570 = {
 	holding = none
@@ -10848,7 +10848,7 @@
 8722 = {
 	holding = none
 	# Island of Mozambique (real-world wonder at its real location)
-	special_building_slot = island_of_mozambique_01
+	special_district_slot = island_of_mozambique_01_district
 }
 8723 = {
 	holding = none
@@ -10874,8 +10874,8 @@
 	rite = roman_rite
 	holding = castle_holding
 	# Sofala (real-world wonder at its real location)
-	special_building_slot = swahili_port_sofala
-	special_building = swahili_port_sofala
+	special_district_slot = swahili_port_sofala_district
+	districts = { district = { type = swahili_port_sofala_district level = 1 } }
 }
 3606 = {
 	holding = church_holding
@@ -10898,7 +10898,7 @@
 8764 = {
 	holding = none
 	# Tsingy de Bemaraha (wonder, e64)
-	special_building_slot = tsingy_01
+	special_district_slot = tsingy_01_district
 }
 ### c_province0850
 850 = {
@@ -11079,8 +11079,8 @@
 	rite = protestant_rite
 	holding = castle_holding
 	# Victoria Falls (wonder, e64)
-	special_building_slot = victoria_falls_01
-	special_building = victoria_falls_01
+	special_district_slot = victoria_falls_01_district
+	districts = { district = { type = victoria_falls_01_district level = 1 } }
 }
 3536 = {
 	holding = none
@@ -11088,8 +11088,8 @@
 3603 = {
 	holding = church_holding
 	# Great Zimbabwe (real-world wonder at its real location)
-	special_building_slot = great_zimbabwe_01
-	special_building = great_zimbabwe_01
+	special_district_slot = great_zimbabwe_01_district
+	districts = { district = { type = great_zimbabwe_01_district level = 1 } }
 }
 3604 = {
 	holding = none
@@ -11157,8 +11157,8 @@
 8685 = {
 	holding = castle_holding
 	# Okavango Delta (wonder, e64)
-	special_building_slot = okavango_delta_01
-	special_building = okavango_delta_01
+	special_district_slot = okavango_delta_01_district
+	districts = { district = { type = okavango_delta_01_district level = 1 } }
 }
 8686 = {
 	holding = none
@@ -11190,8 +11190,8 @@
 	rite = anglican_rite	# e85 Commonwealth Anglican tilt: Cape Town: seat of the Anglican Archbishop of Southern Africa (was protestant_rite)
 	holding = castle_holding
 	# Table Mountain (real-world wonder at its real location)
-	special_building_slot = table_mountain_01
-	special_building = table_mountain_01
+	special_district_slot = table_mountain_01_district
+	districts = { district = { type = table_mountain_01_district level = 1 } }
 }
 8704 = {
 	holding = church_holding
@@ -12107,7 +12107,7 @@
 8736 = {
 	holding = none
 	# Lahore (real-world wonder at its real location)
-	special_building_slot = lahur_bazaar_01
+	special_district_slot = lahur_bazaar_01_district
 }
 ### c_province0800
 800 = {
@@ -12133,8 +12133,8 @@
 	rite = vaishnavism
 	holding = castle_holding
 	# Sanchi (real-world wonder at its real location)
-	special_building_slot = sanchi_stupa_01
-	special_building = sanchi_stupa_01
+	special_district_slot = sanchi_stupa_01_district
+	districts = { district = { type = sanchi_stupa_01_district level = 1 } }
 }
 8765 = {
 	holding = church_holding
@@ -12184,7 +12184,7 @@
 3727 = {
 	holding = none
 	# Konark (real-world wonder at its real location)
-	special_building_slot = konark_temple_01
+	special_district_slot = konark_temple_01_district
 }
 8774 = {
 	holding = church_holding
@@ -12255,8 +12255,8 @@
 	rite = vaishnavism
 	holding = castle_holding
 	# Kathmandu (real-world wonder at its real location)
-	special_building_slot = boudhanath_01
-	special_building = boudhanath_01
+	special_district_slot = boudhanath_01_district
+	districts = { district = { type = boudhanath_01_district level = 1 } }
 }
 8757 = {
 	holding = none
@@ -12270,8 +12270,8 @@
 	rite = vaishnavism
 	holding = castle_holding
 	# Khajuraho (real-world wonder at its real location)
-	special_building_slot = khajuraho_01
-	special_building = khajuraho_01
+	special_district_slot = khajuraho_01_district
+	districts = { district = { type = khajuraho_01_district level = 1 } }
 }
 8768 = {
 	holding = church_holding
@@ -12282,8 +12282,8 @@
 	rite = vaishnavism
 	holding = castle_holding
 	# Delhi Qutb (real-world wonder at its real location)
-	special_building_slot = qutb_minar_01
-	special_building = qutb_minar_04
+	special_district_slot = qutb_minar_01_district
+	districts = { district = { type = qutb_minar_01_district level = 4 } }
 }
 8754 = {
 	holding = none
@@ -12358,8 +12358,8 @@
 	rite = dhyana
 	holding = castle_holding
 	# Phan Rang (real-world wonder at its real location)
-	special_building_slot = po_klong_garai_01
-	special_building = po_klong_garai_01
+	special_district_slot = po_klong_garai_01_district
+	districts = { district = { type = po_klong_garai_01_district level = 1 } }
 }
 8819 = {
 	holding = church_holding
@@ -12370,8 +12370,8 @@
 	rite = dhyana	# e83 real 2026 majority (was roman_rite)
 	holding = castle_holding
 	# My Son (real-world wonder at its real location)
-	special_building_slot = my_son_sanctuary_01
-	special_building = my_son_sanctuary_01
+	special_district_slot = my_son_sanctuary_01_district
+	districts = { district = { type = my_son_sanctuary_01_district level = 1 } }
 }
 3777 = {
 	holding = none
@@ -12391,8 +12391,8 @@
 	rite = dhyana
 	holding = castle_holding
 	# Hanoi (real-world wonder at its real location)
-	special_building_slot = citadel_thang_long_01
-	special_building = citadel_thang_long_02
+	special_district_slot = citadel_thang_long_01_district
+	districts = { district = { type = citadel_thang_long_01_district level = 2 } }
 }
 8803 = {
 	holding = church_holding
@@ -12427,14 +12427,14 @@
 	rite = theravada
 	holding = castle_holding
 	# Angkor Wat (real-world wonder at its real location)
-	special_building_slot = angkor_wat_01
-	special_building = angkor_wat_01
+	special_district_slot = angkor_wat_01_district
+	districts = { district = { type = angkor_wat_01_district level = 1 } }
 }
 3781 = {
 	holding = church_holding
 	# Koh Ker (real-world wonder at its real location)
-	special_building_slot = pyramid_lingapura_01
-	special_building = pyramid_lingapura_01
+	special_district_slot = pyramid_lingapura_01_district
+	districts = { district = { type = pyramid_lingapura_01_district level = 1 } }
 }
 8814 = {
 	holding = none
@@ -12535,8 +12535,8 @@
 	rite = theravada
 	holding = castle_holding
 	# Phonsavan (real-world wonder at its real location)
-	special_building_slot = plain_of_jars_01
-	special_building = plain_of_jars_01
+	special_district_slot = plain_of_jars_01_district
+	districts = { district = { type = plain_of_jars_01_district level = 1 } }
 }
 3747 = {
 	holding = none
@@ -12585,8 +12585,8 @@
 3724 = {
 	holding = church_holding
 	# Hangzhou (real-world wonder at its real location)
-	special_building_slot = lingyin_temple_01
-	special_building = lingyin_temple_01
+	special_district_slot = lingyin_temple_01_district
+	districts = { district = { type = lingyin_temple_01_district level = 1 } }
 }
 ### c_province0892
 892 = {
@@ -12612,8 +12612,8 @@
 	rite = dhyana
 	holding = castle_holding
 	# Quanzhou (real-world wonder at its real location)
-	special_building_slot = quanzhou_seaport_01
-	special_building = quanzhou_seaport_01
+	special_district_slot = quanzhou_seaport_01_district
+	districts = { district = { type = quanzhou_seaport_01_district level = 1 } }
 }
 8793 = {
 	holding = church_holding
@@ -13696,8 +13696,8 @@
 	rite = solarian_rite
 	holding = castle_holding
 	# Bastion Walls - Artemitia, Venus (wonder, e64)
-	special_building_slot = cyber_bastion_walls_01
-	special_building = cyber_bastion_walls_01
+	special_district_slot = cyber_bastion_walls_01_district
+	districts = { district = { type = cyber_bastion_walls_01_district level = 1 } }
 }
 5084 = {
 	holding = church_holding
@@ -13872,8 +13872,8 @@
 	rite = maliki
 	holding = castle_holding
 	# Muaro Jambi (real-world wonder at its real location)
-	special_building_slot = muaro_jambi_01
-	special_building = muaro_jambi_01
+	special_district_slot = muaro_jambi_01_district
+	districts = { district = { type = muaro_jambi_01_district level = 1 } }
 }
 3821 = {
 	holding = church_holding
@@ -13899,8 +13899,8 @@
 	rite = shafii
 	holding = castle_holding
 	# Muara Takus (real-world wonder at its real location)
-	special_building_slot = muara_takus_01
-	special_building = muara_takus_01
+	special_district_slot = muara_takus_01_district
+	districts = { district = { type = muara_takus_01_district level = 1 } }
 }
 3807 = {
 	holding = church_holding
@@ -13955,8 +13955,8 @@
 8834 = {
 	holding = church_holding
 	# Krakatoa (real-world wonder at its real location)
-	special_building_slot = krakatoa_01
-	special_building = krakatoa_01
+	special_district_slot = krakatoa_01_district
+	districts = { district = { type = krakatoa_01_district level = 1 } }
 }
 ### c_bali
 1007 = {
@@ -13967,8 +13967,8 @@
 3852 = {
 	holding = church_holding
 	# Besakih (real-world wonder at its real location)
-	special_building_slot = besakih_temple_01
-	special_building = besakih_temple_01
+	special_district_slot = besakih_temple_01_district
+	districts = { district = { type = besakih_temple_01_district level = 1 } }
 }
 8841 = {
 	holding = city_holding
@@ -14018,8 +14018,8 @@
 8832 = {
 	holding = castle_holding
 	# Lore Lindu (real-world wonder at its real location)
-	special_building_slot = suwalesi_megaliths_01
-	special_building = suwalesi_megaliths_01
+	special_district_slot = suwalesi_megaliths_01_district
+	districts = { district = { type = suwalesi_megaliths_01_district level = 1 } }
 }
 ### c_province0982
 982 = {
@@ -14511,8 +14511,8 @@
 	rite = vaishnavism
 	holding = tribal_holding
 	# Maat Mons (wonder, e64)
-	special_building_slot = maat_mons_01
-	special_building = maat_mons_01
+	special_district_slot = maat_mons_01_district
+	districts = { district = { type = maat_mons_01_district level = 1 } }
 }
 4648 = {
 	holding = none
@@ -14756,8 +14756,8 @@
 	rite = anglican_rite	# e85 Commonwealth Anglican tilt: Sydney: diocese of Sydney, largest Anglican diocese in Australia (was roman_rite)
 	holding = castle_holding
 	# Sydney Opera House (wonder, e64)
-	special_building_slot = sydney_opera_house_01
-	special_building = sydney_opera_house_01
+	special_district_slot = sydney_opera_house_01_district
+	districts = { district = { type = sydney_opera_house_01_district level = 1 } }
 }
 3900 = {
 	holding = church_holding
@@ -14792,8 +14792,8 @@
 	rite = roman_rite	# e83 real 2026 majority (was anglican_rite)
 	holding = tribal_holding
 	# Great Barrier Reef (wonder, e64)
-	special_building_slot = great_barrier_reef_01
-	special_building = great_barrier_reef_01
+	special_district_slot = great_barrier_reef_01_district
+	districts = { district = { type = great_barrier_reef_01_district level = 1 } }
 }
 3862 = {
 	holding = none
@@ -14864,7 +14864,7 @@
 8843 = {
 	holding = none
 	# Uluru (real-world wonder at its real location)
-	special_building_slot = uluru_01
+	special_district_slot = uluru_01_district
 }
 8844 = {
 	holding = none
@@ -14935,14 +14935,14 @@
 	rite = maliki
 	holding = tribal_holding
 	# Borobudur (real-world wonder at its real location)
-	special_building_slot = borobudur_01
-	special_building = borobudur_01
+	special_district_slot = borobudur_01_district
+	districts = { district = { type = borobudur_01_district level = 1 } }
 }
 8859 = {
 	holding = church_holding
 	# Dieng (real-world wonder at its real location)
-	special_building_slot = dieng_plateau_01
-	special_building = dieng_plateau_01
+	special_district_slot = dieng_plateau_01_district
+	districts = { district = { type = dieng_plateau_01_district level = 1 } }
 }
 ### c_province1057
 1057 = {
@@ -14973,8 +14973,8 @@
 	rite = anglican_rite	# e85 Commonwealth Anglican tilt: Geraldton: diocese of North West Australia (was roman_rite)
 	holding = tribal_holding
 	# Pink Lakes of Western Australia (real-world wonder at its real location)
-	special_building_slot = pink_lakes_01
-	special_building = pink_lakes_01
+	special_district_slot = pink_lakes_01_district
+	districts = { district = { type = pink_lakes_01_district level = 1 } }
 }
 3884 = {
 	holding = none
@@ -15110,7 +15110,7 @@
 8869 = {
 	holding = none
 	# Milford Sound (real-world wonder at its real location)
-	special_building_slot = milford_sound_01
+	special_district_slot = milford_sound_01_district
 }
 ### c_province1050
 1050 = {
@@ -15124,14 +15124,14 @@
 	rite = roman_rite
 	holding = castle_holding
 	# Mount Taranaki (real-world wonder at its real location)
-	special_building_slot = mount_taranaki_01
-	special_building = mount_taranaki_01
+	special_district_slot = mount_taranaki_01_district
+	districts = { district = { type = mount_taranaki_01_district level = 1 } }
 }
 3882 = {
 	holding = city_holding
 	# Bay of Islands (real-world wonder at its real location)
-	special_building_slot = bay_of_islands_01
-	special_building = bay_of_islands_01
+	special_district_slot = bay_of_islands_01_district
+	districts = { district = { type = bay_of_islands_01_district level = 1 } }
 }
 
 ########## k_kingdom1004
@@ -15242,8 +15242,8 @@
 	rite = roman_rite
 	holding = castle_holding
 	# Mount Apo (real-world wonder at its real location)
-	special_building_slot = mount_apo_01
-	special_building = mount_apo_01
+	special_district_slot = mount_apo_01_district
+	districts = { district = { type = mount_apo_01_district level = 1 } }
 }
 3788 = {
 	holding = city_holding
@@ -16570,8 +16570,8 @@
 	rite = solarian_rite
 	holding = tribal_holding
 	# Bastion Walls - Cytherea, Venus (wonder, e64)
-	special_building_slot = cyber_bastion_walls_01
-	special_building = cyber_bastion_walls_01
+	special_district_slot = cyber_bastion_walls_01_district
+	districts = { district = { type = cyber_bastion_walls_01_district level = 1 } }
 }
 5196 = {
 	holding = church_holding
@@ -17454,8 +17454,8 @@
 5372 = {
 	holding = city_holding
 	# Valles Marineris (real-world wonder at its real location)
-	special_building_slot = valles_marineris_01
-	special_building = valles_marineris_01
+	special_district_slot = valles_marineris_01_district
+	districts = { district = { type = valles_marineris_01_district level = 1 } }
 }
 5373 = {
 	holding = none
@@ -17466,8 +17466,8 @@
 	rite = olympic_rite
 	holding = castle_holding
 	# Olympus Mons (real-world wonder at its real location)
-	special_building_slot = olympus_mons_01
-	special_building = olympus_mons_01
+	special_district_slot = olympus_mons_01_district
+	districts = { district = { type = olympus_mons_01_district level = 1 } }
 }
 5378 = {
 	holding = church_holding
@@ -17616,8 +17616,8 @@
 	rite = roman_rite
 	holding = castle_holding
 	# Bastion Walls - X, Mars (wonder, e64)
-	special_building_slot = cyber_bastion_walls_01
-	special_building = cyber_bastion_walls_01
+	special_district_slot = cyber_bastion_walls_01_district
+	districts = { district = { type = cyber_bastion_walls_01_district level = 1 } }
 }
 5222 = {
 	holding = church_holding
@@ -19957,8 +19957,8 @@
 	rite = divine_cycle_rite
 	holding = tribal_holding
 	# Bastion Walls - Noachis Terra, Mars (wonder, e64)
-	special_building_slot = cyber_bastion_walls_01
-	special_building = cyber_bastion_walls_01
+	special_district_slot = cyber_bastion_walls_01_district
+	districts = { district = { type = cyber_bastion_walls_01_district level = 1 } }
 }
 5951 = {
 	holding = church_holding
@@ -20337,8 +20337,8 @@
 	rite = dark_lord_cult_rite
 	holding = tribal_holding
 	# Cerealia Facula (wonder, e64)
-	special_building_slot = occator_01
-	special_building = occator_01
+	special_district_slot = occator_01_district
+	districts = { district = { type = occator_01_district level = 1 } }
 }
 5812 = {
 	holding = none
@@ -21305,8 +21305,8 @@
 	rite = eternal_mechanism_rite
 	holding = castle_holding	# 2026-11-13 21:00 advanced Ganymede (was tribal_holding)
 	# Bastion Walls - Laomedon, Ganymede (El Elyon) (wonder, e64)
-	special_building_slot = cyber_bastion_walls_01
-	special_building = cyber_bastion_walls_01
+	special_district_slot = cyber_bastion_walls_01_district
+	districts = { district = { type = cyber_bastion_walls_01_district level = 1 } }
 }
 6442 = {
 	holding = church_holding
@@ -25635,8 +25635,8 @@
 	rite = zensunni_rite
 	holding = tribal_holding
 	# Valhalla Basin (wonder, e64)
-	special_building_slot = valhalla_basin_01
-	special_building = valhalla_basin_01
+	special_district_slot = valhalla_basin_01_district
+	districts = { district = { type = valhalla_basin_01_district level = 1 } }
 }
 7088 = {
 	holding = none
@@ -27786,8 +27786,8 @@
 	rite = rabbinism
 	holding = tribal_holding
 	# University - Titan (wonder, e64)
-	special_building_slot = generic_university
-	special_building = generic_university
+	special_district_slot = generic_university_district
+	districts = { district = { type = generic_university_district level = 1 } }
 }
 7781 = {
 	holding = none
@@ -28425,8 +28425,8 @@
 	rite = retrogradism_rite
 	holding = tribal_holding
 	# Hili Geyser (wonder, e64)
-	special_building_slot = hili_geyser_01
-	special_building = hili_geyser_01
+	special_district_slot = hili_geyser_01_district
+	districts = { district = { type = hili_geyser_01_district level = 1 } }
 }
 7156 = {
 	holding = church_holding
@@ -31147,8 +31147,8 @@
 	rite = valentinianism
 	holding = castle_holding
 	# Bastion Walls - Doggerland, Europa (wonder, e64)
-	special_building_slot = cyber_bastion_walls_01
-	special_building = cyber_bastion_walls_01
+	special_district_slot = cyber_bastion_walls_01_district
+	districts = { district = { type = cyber_bastion_walls_01_district level = 1 } }
 }
 7945 = {
 	holding = church_holding
@@ -31489,8 +31489,8 @@
 	rite = zensunni_rite
 	holding = castle_holding
 	# Conamara Chaos (wonder, e64)
-	special_building_slot = conamara_chaos_01
-	special_building = conamara_chaos_01
+	special_district_slot = conamara_chaos_01_district
+	districts = { district = { type = conamara_chaos_01_district level = 1 } }
 }
 8054 = {
 	holding = church_holding
@@ -31556,7 +31556,7 @@
 8097 = {
 	holding = none
 	# Grand Canyon (real-world wonder at its real location)
-	special_building_slot = grand_canyon_01
+	special_district_slot = grand_canyon_01_district
 }
 8098 = {
 	holding = none
@@ -31587,7 +31587,7 @@
 	culture = liblander_west
 	rite = roman_rite
 	holding = castle_holding
-	special_building_slot = hee_nalu_surf_heiau_01	# He'e Nalu 2026-11-16: surf heiau (WONDERS merge rule applies)
+	special_district_slot = hee_nalu_surf_heiau_01_district # He'e Nalu 2026-11-16: surf heiau (WONDERS merge rule applies)
 }
 8101 = {
 	holding = castle_holding
@@ -31610,8 +31610,8 @@
 8103 = {
 	holding = church_holding
 	# Mesa Verde (real-world wonder at its real location)
-	special_building_slot = mesa_verde_01
-	special_building = mesa_verde_01
+	special_district_slot = mesa_verde_01_district
+	districts = { district = { type = mesa_verde_01_district level = 1 } }
 }
 ### c_connecticut
 2699 = {
@@ -31661,8 +31661,8 @@
 	rite = roman_rite
 	holding = castle_holding
 	# Harvard University (real-world wonder at its real location)
-	special_building_slot = harvard_university_01
-	special_building = harvard_university_01
+	special_district_slot = harvard_university_01_district
+	districts = { district = { type = harvard_university_01_district level = 1 } }
 }
 9107 = {
 	holding = none
@@ -31709,7 +31709,7 @@
 9119 = {
 	holding = none
 	# Statue of Liberty (wonder, e64)
-	special_building_slot = statue_of_liberty_01
+	special_district_slot = statue_of_liberty_01_district
 }
 ### c_las_cruces
 2732 = {
@@ -31738,8 +31738,8 @@
 	rite = roman_rite
 	holding = castle_holding
 	# Niagara Falls (real-world wonder at its real location)
-	special_building_slot = niagara_falls_01
-	special_building = niagara_falls_01
+	special_district_slot = niagara_falls_01_district
+	districts = { district = { type = niagara_falls_01_district level = 1 } }
 }
 8116 = {
 	holding = church_holding
@@ -31859,8 +31859,8 @@
 	rite = byzantine_rite
 	holding = castle_holding
 	# Kyiv Saint Sophia (real-world wonder at its real location)
-	special_building_slot = holy_wisdom_01
-	special_building = holy_wisdom_01
+	special_district_slot = holy_wisdom_01_district
+	districts = { district = { type = holy_wisdom_01_district level = 1 } }
 }
 8922 = {
 	holding = church_holding
@@ -31880,8 +31880,8 @@
 	rite = maliki
 	holding = castle_holding
 	# Damascus (real-world wonder at its real location)
-	special_building_slot = damascus_mosque_01
-	special_building = damascus_mosque_01
+	special_district_slot = damascus_mosque_01_district
+	districts = { district = { type = damascus_mosque_01_district level = 1 } }
 }
 8924 = {
 	holding = church_holding
@@ -31937,8 +31937,8 @@
 8932 = {
 	holding = church_holding
 	# Aachen (real-world wonder at its real location)
-	special_building_slot = palace_of_aachen_01
-	special_building = palace_of_aachen_01
+	special_district_slot = palace_of_aachen_01_district
+	districts = { district = { type = palace_of_aachen_01_district level = 1 } }
 }
 ### c_luxembourg
 2527 = {
@@ -32006,8 +32006,8 @@
 	rite = byzantine_rite
 	holding = castle_holding
 	# Mtskheta (real-world wonder at its real location)
-	special_building_slot = jvari_monastery
-	special_building = jvari_monastery
+	special_district_slot = jvari_monastery_district
+	districts = { district = { type = jvari_monastery_district level = 1 } }
 }
 8940 = {
 	holding = church_holding
@@ -32096,8 +32096,8 @@
 	rite = roman_rite	# e83 real 2026 majority (was protestant_rite)
 	holding = castle_holding
 	# Cologne (real-world wonder at its real location)
-	special_building_slot = holy_site_cologne_cathedral_01
-	special_building = holy_site_cologne_cathedral_01
+	special_district_slot = holy_site_cologne_cathedral_01_district
+	districts = { district = { type = holy_site_cologne_cathedral_01_district level = 1 } }
 }
 3133 = {
 	culture = dutch
@@ -32113,8 +32113,8 @@
 8953 = {
 	holding = church_holding
 	# St. Gallen (real-world wonder at its real location)
-	special_building_slot = pam_abbey_of_st_gall_01
-	special_building = pam_abbey_of_st_gall_01
+	special_district_slot = pam_abbey_of_st_gall_01_district
+	districts = { district = { type = pam_abbey_of_st_gall_01_district level = 1 } }
 }
 ### c_nzerekore
 2543 = {
@@ -32149,8 +32149,8 @@
 	rite = roman_rite	# e83 real 2026 majority (was byzantine_rite)
 	holding = castle_holding
 	# Visegrad (real-world wonder at its real location)
-	special_building_slot = visegrad_castle_01
-	special_building = visegrad_castle_01
+	special_district_slot = visegrad_castle_01_district
+	districts = { district = { type = visegrad_castle_01_district level = 1 } }
 }
 3203 = {
 	holding = church_holding
@@ -32245,8 +32245,8 @@
 8969 = {
 	holding = church_holding
 	# Citadelle Laferrière (real-world wonder at its real location)
-	special_building_slot = citadelle_laferriere_01
-	special_building = citadelle_laferriere_01
+	special_district_slot = citadelle_laferriere_01_district
+	districts = { district = { type = citadelle_laferriere_01_district level = 1 } }
 }
 ### c_maiduguri
 2555 = {
@@ -32404,8 +32404,8 @@
 8984 = {
 	holding = church_holding
 	# Gibraltar (real-world wonder at its real location)
-	special_building_slot = rock_of_gibraltar_01
-	special_building = rock_of_gibraltar_01
+	special_district_slot = rock_of_gibraltar_01_district
+	districts = { district = { type = rock_of_gibraltar_01_district level = 1 } }
 }
 ### c_montenegro
 2572 = {
@@ -32431,8 +32431,8 @@
 	rite = protestant_rite	# e83 real 2026 majority (was roman_rite)
 	holding = castle_holding
 	# Danevirke (real-world wonder at its real location)
-	special_building_slot = danevirke_01
-	special_building = danevirke_01
+	special_district_slot = danevirke_01_district
+	districts = { district = { type = danevirke_01_district level = 1 } }
 }
 3167 = {
 	holding = church_holding
@@ -32506,8 +32506,8 @@
 	rite = imami
 	holding = castle_holding
 	# Soltaniyeh (real-world wonder at its real location)
-	special_building_slot = soltaniyeh_01
-	special_building = soltaniyeh_01
+	special_district_slot = soltaniyeh_01_district
+	districts = { district = { type = soltaniyeh_01_district level = 1 } }
 }
 8993 = {
 	holding = none
@@ -32539,7 +32539,7 @@
 8995 = {
 	holding = none
 	# Jam (real-world wonder at its real location)
-	special_building_slot = minarets_and_remains_of_jam_01
+	special_district_slot = minarets_and_remains_of_jam_01_district
 }
 ### c_ahvaz
 2586 = {
@@ -32550,7 +32550,7 @@
 8996 = {
 	holding = none
 	# Khorramabad (real-world wonder at its real location)
-	special_building_slot = falak_ol_aflak_citadel_01
+	special_district_slot = falak_ol_aflak_citadel_01_district
 }
 ### c_imphal
 2587 = {
@@ -32660,7 +32660,7 @@
 9004 = {
 	holding = none
 	# Lalibela (real-world wonder at its real location)
-	special_building_slot = beta_giyorgis_01
+	special_district_slot = beta_giyorgis_01_district
 }
 ### c_tigray
 2598 = {
@@ -32770,14 +32770,14 @@
 	rite = dhyana
 	holding = castle_holding
 	# Bac Ninh Dau (real-world wonder at its real location)
-	special_building_slot = dau_temple_01
-	special_building = dau_temple_01
+	special_district_slot = dau_temple_01_district
+	districts = { district = { type = dau_temple_01_district level = 1 } }
 }
 3749 = {
 	holding = church_holding
 	# Ha Long (real-world wonder at its real location)
-	special_building_slot = ha_long_bay_01
-	special_building = ha_long_bay_01
+	special_district_slot = ha_long_bay_01_district
+	districts = { district = { type = ha_long_bay_01_district level = 1 } }
 }
 ### c_rajshahi
 2609 = {
@@ -32788,8 +32788,8 @@
 9015 = {
 	holding = church_holding
 	# Paharpur (real-world wonder at its real location)
-	special_building_slot = somapura_university_01
-	special_building = somapura_university_01
+	special_district_slot = somapura_university_01_district
+	districts = { district = { type = somapura_university_01_district level = 1 } }
 }
 ### c_nanaimo
 2610 = {
@@ -32833,8 +32833,8 @@
 	rite = roman_rite
 	holding = castle_holding
 	# Walls of Campeche (real-world wonder at its real location)
-	special_building_slot = walls_of_campeche_01
-	special_building = walls_of_campeche_01
+	special_district_slot = walls_of_campeche_01_district
+	districts = { district = { type = walls_of_campeche_01_district level = 1 } }
 }
 9020 = {
 	holding = church_holding
@@ -32857,8 +32857,8 @@
 9022 = {
 	holding = church_holding
 	# Angel Falls (wonder, e64)
-	special_building_slot = angel_falls_01
-	special_building = angel_falls_01
+	special_district_slot = angel_falls_01_district
+	districts = { district = { type = angel_falls_01_district level = 1 } }
 }
 9023 = {
 	holding = none
@@ -32878,8 +32878,8 @@
 9026 = {
 	holding = church_holding
 	# Kuélap (real-world wonder at its real location)
-	special_building_slot = kuelap_01
-	special_building = kuelap_01
+	special_district_slot = kuelap_01_district
+	districts = { district = { type = kuelap_01_district level = 1 } }
 }
 9027 = {
 	holding = none
@@ -32986,8 +32986,8 @@
 9040 = {
 	holding = church_holding
 	# Petra (real-world wonder at its real location)
-	special_building_slot = petra_01
-	special_building = petra_01
+	special_district_slot = petra_01_district
+	districts = { district = { type = petra_01_district level = 1 } }
 }
 ### c_najran
 2628 = {
@@ -33277,13 +33277,13 @@
 	rite = imami
 	holding = castle_holding
 	# Ctesiphon (real-world wonder at its real location)
-	special_building_slot = palace_of_ctesiphon_01
-	special_building = palace_of_ctesiphon_01
+	special_district_slot = palace_of_ctesiphon_01_district
+	districts = { district = { type = palace_of_ctesiphon_01_district level = 1 } }
 }
 9072 = {
 	holding = none
 	# Samarra (real-world wonder at its real location)
-	special_building_slot = holy_site_great_mosque_of_samarra_01
+	special_district_slot = holy_site_great_mosque_of_samarra_01_district
 }
 ### c_teresina
 2655 = {
@@ -33429,8 +33429,8 @@
 	rite = roman_rite
 	holding = castle_holding
 	# Panama Canal (wonder, e64)
-	special_building_slot = panama_canal_01
-	special_building = panama_canal_01
+	special_district_slot = panama_canal_01_district
+	districts = { district = { type = panama_canal_01_district level = 1 } }
 }
 9088 = {
 	holding = church_holding
@@ -33489,8 +33489,8 @@
 	rite = roman_rite
 	holding = castle_holding
 	# Walls of Cartagena de Indias (real-world wonder at its real location)
-	special_building_slot = walls_of_cartagena_01
-	special_building = walls_of_cartagena_01
+	special_district_slot = walls_of_cartagena_01_district
+	districts = { district = { type = walls_of_cartagena_01_district level = 1 } }
 }
 9093 = {
 	holding = church_holding
@@ -33561,8 +33561,8 @@
 3330 = {
 	holding = church_holding
 	# Saint Catherine Sinai (real-world wonder at its real location)
-	special_building_slot = saint_catherine
-	special_building = saint_catherine
+	special_district_slot = saint_catherine_district
+	districts = { district = { type = saint_catherine_district level = 1 } }
 }
 ### c_tabuk
 2697 = {
@@ -33612,8 +33612,8 @@
 	rite = shinto
 	holding = castle_holding
 	# Dazaifu (real-world wonder at its real location)
-	special_building_slot = dazaifu_01
-	special_building = dazaifu_01
+	special_district_slot = dazaifu_01_district
+	districts = { district = { type = dazaifu_01_district level = 1 } }
 }
 9110 = {
 	holding = church_holding
@@ -33624,20 +33624,20 @@
 	rite = shinto
 	holding = castle_holding
 	# Nara (real-world wonder at its real location)
-	special_building_slot = kofuku_ji_01
-	special_building = kofuku_ji_01
+	special_district_slot = kofuku_ji_01_district
+	districts = { district = { type = kofuku_ji_01_district level = 1 } }
 }
 3711 = {
 	holding = church_holding
 	# Mount Hiei (real-world wonder at its real location)
-	special_building_slot = enryaku_ji_01
-	special_building = enryaku_ji_01
+	special_district_slot = enryaku_ji_01_district
+	districts = { district = { type = enryaku_ji_01_district level = 1 } }
 }
 3715 = {
 	holding = city_holding
 	# Mount Fuji (real-world wonder at its real location)
-	special_building_slot = mount_fuji_01
-	special_building = mount_fuji_01
+	special_district_slot = mount_fuji_01_district
+	districts = { district = { type = mount_fuji_01_district level = 1 } }
 }
 ### c_yangon
 2715 = {
@@ -33645,8 +33645,8 @@
 	rite = theravada
 	holding = castle_holding
 	# Yangon (real-world wonder at its real location)
-	special_building_slot = shwedagon_pagoda_01
-	special_building = shwedagon_pagoda_01
+	special_district_slot = shwedagon_pagoda_01_district
+	districts = { district = { type = shwedagon_pagoda_01_district level = 1 } }
 }
 9111 = {
 	holding = church_holding
@@ -33660,7 +33660,7 @@
 9112 = {
 	holding = church_holding
 }
-### c_ho_chi_minh_city
+### c_hochiminh_city
 2717 = {
 	culture = viet
 	rite = dhyana
@@ -33696,8 +33696,8 @@
 3670 = {
 	holding = church_holding
 	# Paektu (real-world wonder at its real location)
-	special_building_slot = mount_baekdu_01
-	special_building = mount_baekdu_01
+	special_district_slot = mount_baekdu_01_district
+	districts = { district = { type = mount_baekdu_01_district level = 1 } }
 }
 ### c_nagpur
 2724 = {
@@ -33762,8 +33762,8 @@
 3776 = {
 	holding = church_holding
 	# Bohol (real-world wonder at its real location)
-	special_building_slot = chocolate_hills_01
-	special_building = chocolate_hills_01
+	special_district_slot = chocolate_hills_01_district
+	districts = { district = { type = chocolate_hills_01_district level = 1 } }
 }
 ### c_sanaa
 2755 = {
@@ -33792,8 +33792,8 @@
 9125 = {
 	holding = church_holding
 	# Khotyn (real-world wonder at its real location)
-	special_building_slot = hotin_fort_01
-	special_building = hotin_fort_02
+	special_district_slot = hotin_fort_01_district
+	districts = { district = { type = hotin_fort_01_district level = 2 } }
 }
 ### c_dnipro
 2758 = {
@@ -33822,8 +33822,8 @@
 9128 = {
 	holding = church_holding
 	# Kairouan (real-world wonder at its real location)
-	special_building_slot = kairouan_basins_01
-	special_building = kairouan_basins_01
+	special_district_slot = kairouan_basins_01_district
+	districts = { district = { type = kairouan_basins_01_district level = 1 } }
 }
 ### c_dhanbad
 2772 = {
@@ -33864,8 +33864,8 @@
 	rite = shafii
 	holding = castle_holding
 	# Zanzibar (real-world wonder at its real location)
-	special_building_slot = swahili_port_zanzibar
-	special_building = swahili_port_zanzibar
+	special_district_slot = swahili_port_zanzibar_district
+	districts = { district = { type = swahili_port_zanzibar_district level = 1 } }
 }
 3534 = {
 	holding = none
@@ -33876,8 +33876,8 @@
 	rite = protestant_rite
 	holding = tribal_holding
 	# Mount Kilimanjaro (wonder, e64)
-	special_building_slot = kilimanjaro_01
-	special_building = kilimanjaro_01
+	special_district_slot = kilimanjaro_01_district
+	districts = { district = { type = kilimanjaro_01_district level = 1 } }
 }
 9132 = {
 	holding = none
@@ -33891,8 +33891,8 @@
 	rite = imami
 	holding = castle_holding
 	# Gorgan Wall (real-world wonder at its real location)
-	special_building_slot = great_wall_of_gorgan_01
-	special_building = great_wall_of_gorgan_01
+	special_district_slot = great_wall_of_gorgan_01_district
+	districts = { district = { type = great_wall_of_gorgan_01_district level = 1 } }
 }
 9134 = {
 	holding = church_holding
@@ -33903,13 +33903,13 @@
 	rite = roman_rite
 	holding = castle_holding
 	# Zaragoza (real-world wonder at its real location)
-	special_building_slot = aljaferia_palace_01
-	special_building = aljaferia_palace_01
+	special_district_slot = aljaferia_palace_01_district
+	districts = { district = { type = aljaferia_palace_01_district level = 1 } }
 }
 9135 = {
 	holding = none
 	# Segovia (real-world wonder at its real location)
-	special_building_slot = alcazar_of_segovia_01
+	special_district_slot = alcazar_of_segovia_01_district
 }
 9136 = {
 	holding = none
@@ -33952,8 +33952,8 @@
 	rite = roman_rite
 	holding = castle_holding   # e63: county capital of Puerto Rico
 	# Castillo San Felipe del Morro (real-world wonder at its real location)
-	special_building_slot = el_morro_01
-	special_building = el_morro_01
+	special_district_slot = el_morro_01_district
+	districts = { district = { type = el_morro_01_district level = 1 } }
 }
 ### c_ucayali
 2810 = {
@@ -33976,8 +33976,8 @@
 	rite = maliki
 	holding = castle_holding
 	# Fes (real-world wonder at its real location)
-	special_building_slot = al_qarawiyyin_university_01
-	special_building = al_qarawiyyin_university_01
+	special_district_slot = al_qarawiyyin_university_01_district
+	districts = { district = { type = al_qarawiyyin_university_01_district level = 1 } }
 }
 9144 = {
 	holding = church_holding
@@ -34039,8 +34039,8 @@
 3164 = {
 	holding = church_holding
 	# Eisenach (real-world wonder at its real location)
-	special_building_slot = wartburg_01
-	special_building = wartburg_01
+	special_district_slot = wartburg_01_district
+	districts = { district = { type = wartburg_01_district level = 1 } }
 }
 ### c_el_salvador
 2824 = {
@@ -34144,8 +34144,8 @@
 	rite = dhyana
 	holding = castle_holding
 	# Changsha (real-world wonder at its real location)
-	special_building_slot = yuelu_academy_01
-	special_building = yuelu_academy_01
+	special_district_slot = yuelu_academy_01_district
+	districts = { district = { type = yuelu_academy_01_district level = 1 } }
 }
 9167 = {
 	holding = church_holding
@@ -34257,8 +34257,8 @@
 	rite = armenian_rite	# e83 real 2026 majority (was imami)
 	holding = castle_holding
 	# Vagharshapat (real-world wonder at its real location)
-	special_building_slot = etchmiadzin_cathedral
-	special_building = etchmiadzin_cathedral
+	special_district_slot = etchmiadzin_cathedral_district
+	districts = { district = { type = etchmiadzin_cathedral_district level = 1 } }
 }
 9180 = {
 	holding = none
@@ -34323,8 +34323,8 @@
 9189 = {
 	holding = church_holding
 	# Kassiopi Corfu (real-world wonder at its real location)
-	special_building_slot = kassiopi_castle
-	special_building = kassiopi_castle
+	special_district_slot = kassiopi_castle_district
+	districts = { district = { type = kassiopi_castle_district level = 1 } }
 }
 ### c_izmir
 2887 = {
@@ -34344,7 +34344,7 @@
 9190 = {
 	holding = none
 	# Sumela (real-world wonder at its real location)
-	special_building_slot = sumela_monastery_01
+	special_district_slot = sumela_monastery_01_district
 }
 ### c_jos
 2889 = {
@@ -34502,8 +34502,8 @@
 	rite = roman_rite
 	holding = castle_holding
 	# Palacio Nacional (real-world wonder at its real location)
-	special_building_slot = palacio_nacional_01
-	special_building = palacio_nacional_01
+	special_district_slot = palacio_nacional_01_district
+	districts = { district = { type = palacio_nacional_01_district level = 1 } }
 }
 9205 = {
 	holding = church_holding
@@ -34514,14 +34514,14 @@
 	rite = roman_rite
 	holding = castle_holding
 	# Great Pyramid of Cholula (real-world wonder at its real location)
-	special_building_slot = cholula_01
-	special_building = cholula_01
+	special_district_slot = cholula_01_district
+	districts = { district = { type = cholula_01_district level = 1 } }
 }
 9206 = {
 	holding = church_holding
 	# Popocatépetl (real-world wonder at its real location)
-	special_building_slot = popocatepetl_01
-	special_building = popocatepetl_01
+	special_district_slot = popocatepetl_01_district
+	districts = { district = { type = popocatepetl_01_district level = 1 } }
 }
 ### c_tampico
 2938 = {
@@ -34532,8 +34532,8 @@
 9207 = {
 	holding = church_holding
 	# Teotihuacan (real-world wonder at its real location)
-	special_building_slot = teotihuacan_01
-	special_building = teotihuacan_01
+	special_district_slot = teotihuacan_01_district
+	districts = { district = { type = teotihuacan_01_district level = 1 } }
 }
 ### c_santiago_de_queretaro
 2939 = {
@@ -34592,8 +34592,8 @@
 	rite = imami
 	holding = castle_holding
 	# Isfahan (real-world wonder at its real location)
-	special_building_slot = the_friday_mosque_01
-	special_building = the_friday_mosque_01
+	special_district_slot = the_friday_mosque_01_district
+	districts = { district = { type = the_friday_mosque_01_district level = 1 } }
 }
 9214 = {
 	holding = church_holding
@@ -34613,8 +34613,8 @@
 	rite = imami
 	holding = castle_holding
 	# Yazd (real-world wonder at its real location)
-	special_building_slot = yazd_mosque_01
-	special_building = yazd_mosque_01
+	special_district_slot = yazd_mosque_01_district
+	districts = { district = { type = yazd_mosque_01_district level = 1 } }
 }
 9216 = {
 	holding = church_holding
@@ -34685,8 +34685,8 @@
 9226 = {
 	holding = church_holding
 	# Bagan (real-world wonder at its real location)
-	special_building_slot = ananda_temple_01
-	special_building = ananda_temple_01
+	special_district_slot = ananda_temple_01_district
+	districts = { district = { type = ananda_temple_01_district level = 1 } }
 }
 ### c_milan
 2956 = {
@@ -34697,8 +34697,8 @@
 3151 = {
 	holding = church_holding
 	# Genoa (real-world wonder at its real location)
-	special_building_slot = walls_of_genoa_01
-	special_building = walls_of_genoa_01
+	special_district_slot = walls_of_genoa_01_district
+	districts = { district = { type = walls_of_genoa_01_district level = 1 } }
 }
 ### c_montpellier
 2957 = {
@@ -34817,8 +34817,8 @@
 	rite = dhyana
 	holding = castle_holding
 	# Zhangye Danxia (real-world wonder at its real location)
-	special_building_slot = rainbow_mountains_01
-	special_building = rainbow_mountains_01
+	special_district_slot = rainbow_mountains_01_district
+	districts = { district = { type = rainbow_mountains_01_district level = 1 } }
 }
 9240 = {
 	holding = church_holding
@@ -34838,13 +34838,13 @@
 	rite = dhyana
 	holding = castle_holding
 	# Dali (real-world wonder at its real location)
-	special_building_slot = three_pagodas_dali_01
-	special_building = three_pagodas_dali_01
+	special_district_slot = three_pagodas_dali_01_district
+	districts = { district = { type = three_pagodas_dali_01_district level = 1 } }
 }
 9242 = {
 	holding = none
 	# Jizu Shan (real-world wonder at its real location)
-	special_building_slot = jizu_shan_temples_01
+	special_district_slot = jizu_shan_temples_01_district
 }
 ### c_kunming
 2979 = {
@@ -34948,7 +34948,7 @@
 9257 = {
 	holding = none
 	# Iguazú Falls (real-world wonder at its real location)
-	special_building_slot = iguazu_falls_01
+	special_district_slot = iguazu_falls_01_district
 }
 ### c_dalian
 2989 = {
@@ -35079,8 +35079,8 @@
 9275 = {
 	holding = church_holding
 	# Jaisalmer (real-world wonder at its real location)
-	special_building_slot = jaisalmer_fort_01
-	special_building = jaisalmer_fort_01
+	special_district_slot = jaisalmer_fort_01_district
+	districts = { district = { type = jaisalmer_fort_01_district level = 1 } }
 }
 ### c_karachi
 3001 = {
@@ -35133,8 +35133,8 @@
 	rite = dhyana
 	holding = castle_holding
 	# Shaoguan Nanhua (real-world wonder at its real location)
-	special_building_slot = nanhua_temple_01
-	special_building = nanhua_temple_01
+	special_district_slot = nanhua_temple_01_district
+	districts = { district = { type = nanhua_temple_01_district level = 1 } }
 }
 3744 = {
 	holding = city_holding
@@ -35163,8 +35163,8 @@
 	rite = vaishnavism
 	holding = castle_holding
 	# Bodh Gaya (real-world wonder at its real location)
-	special_building_slot = holy_site_mahabodhi_temple_01
-	special_building = holy_site_mahabodhi_temple_01
+	special_district_slot = holy_site_mahabodhi_temple_01_district
+	districts = { district = { type = holy_site_mahabodhi_temple_01_district level = 1 } }
 }
 9280 = {
 	holding = church_holding
@@ -35359,8 +35359,8 @@
 9302 = {
 	holding = church_holding
 	# Tiantai (real-world wonder at its real location)
-	special_building_slot = tiantai_monasteries_01
-	special_building = tiantai_monasteries_01
+	special_district_slot = tiantai_monasteries_01_district
+	districts = { district = { type = tiantai_monasteries_01_district level = 1 } }
 }
 ### c_puyang
 3030 = {
@@ -35398,8 +35398,8 @@
 9306 = {
 	holding = church_holding
 	# Qufu (real-world wonder at its real location)
-	special_building_slot = confucius_temple_01
-	special_building = confucius_temple_01
+	special_district_slot = confucius_temple_01_district
+	districts = { district = { type = confucius_temple_01_district level = 1 } }
 }
 ### c_chengde
 3034 = {
@@ -35419,8 +35419,8 @@
 9308 = {
 	holding = church_holding
 	# Cangzhou (real-world wonder at its real location)
-	special_building_slot = iron_lion_cangzhou_01
-	special_building = iron_lion_cangzhou_01
+	special_district_slot = iron_lion_cangzhou_01_district
+	districts = { district = { type = iron_lion_cangzhou_01_district level = 1 } }
 }
 ### c_shijiazhuang
 3036 = {
@@ -35473,8 +35473,8 @@
 	rite = vaishnavism
 	holding = castle_holding
 	# Badami (real-world wonder at its real location)
-	special_building_slot = vatapi_caves_01
-	special_building = vatapi_caves_01
+	special_district_slot = vatapi_caves_01_district
+	districts = { district = { type = vatapi_caves_01_district level = 1 } }
 }
 9313 = {
 	holding = church_holding
@@ -35503,8 +35503,8 @@
 	rite = vaishnavism
 	holding = castle_holding
 	# Thanjavur (real-world wonder at its real location)
-	special_building_slot = brihadeeswarar_temple_01
-	special_building = brihadeeswarar_temple_01
+	special_district_slot = brihadeeswarar_temple_01_district
+	districts = { district = { type = brihadeeswarar_temple_01_district level = 1 } }
 }
 9316 = {
 	holding = church_holding
@@ -35536,8 +35536,8 @@
 9319 = {
 	holding = church_holding
 	# Dhar (real-world wonder at its real location)
-	special_building_slot = iron_pillar_of_dhar_01
-	special_building = iron_pillar_of_dhar_01
+	special_district_slot = iron_pillar_of_dhar_01_district
+	districts = { district = { type = iron_pillar_of_dhar_01_district level = 1 } }
 }
 ### c_barkam
 3048 = {
@@ -35566,7 +35566,7 @@
 9322 = {
 	holding = none
 	# Leshan (real-world wonder at its real location)
-	special_building_slot = leshan_giant_buddha_01
+	special_district_slot = leshan_giant_buddha_01_district
 }
 ### c_zigong
 3051 = {
@@ -35613,8 +35613,8 @@
 9327 = {
 	holding = church_holding
 	# Zhangjiajie (real-world wonder at its real location)
-	special_building_slot = wulingyuan_01
-	special_building = wulingyuan_01
+	special_district_slot = wulingyuan_01_district
+	districts = { district = { type = wulingyuan_01_district level = 1 } }
 }
 ### c_hengyang
 3056 = {
@@ -35622,8 +35622,8 @@
 	rite = dhyana
 	holding = castle_holding
 	# Hengyang (real-world wonder at its real location)
-	special_building_slot = shigu_academy_01
-	special_building = shigu_academy_01
+	special_district_slot = shigu_academy_01_district
+	districts = { district = { type = shigu_academy_01_district level = 1 } }
 }
 9328 = {
 	holding = church_holding
@@ -35643,14 +35643,14 @@
 	rite = dhyana
 	holding = castle_holding
 	# Xi'an (real-world wonder at its real location)
-	special_building_slot = giant_wild_goose_pagoda_01
-	special_building = giant_wild_goose_pagoda_01
+	special_district_slot = giant_wild_goose_pagoda_01_district
+	districts = { district = { type = giant_wild_goose_pagoda_01_district level = 1 } }
 }
 9330 = {
 	holding = church_holding
 	# Qianling (real-world wonder at its real location)
-	special_building_slot = qianling_mausoleum_01
-	special_building = qianling_mausoleum_01
+	special_district_slot = qianling_mausoleum_01_district
+	districts = { district = { type = qianling_mausoleum_01_district level = 1 } }
 }
 ### c_yan_an
 3059 = {
@@ -35685,8 +35685,8 @@
 	rite = dhyana
 	holding = castle_holding
 	# Lushan (real-world wonder at its real location)
-	special_building_slot = white_deer_grotto_academy_01
-	special_building = white_deer_grotto_academy_01
+	special_district_slot = white_deer_grotto_academy_01_district
+	districts = { district = { type = white_deer_grotto_academy_01_district level = 1 } }
 }
 9334 = {
 	holding = church_holding
@@ -35706,14 +35706,14 @@
 	rite = dhyana
 	holding = castle_holding
 	# Dengfeng Shaolin (real-world wonder at its real location)
-	special_building_slot = shaolin_monastery_01
-	special_building = shaolin_monastery_01
+	special_district_slot = shaolin_monastery_01_district
+	districts = { district = { type = shaolin_monastery_01_district level = 1 } }
 }
 9336 = {
 	holding = church_holding
 	# Gaocheng (real-world wonder at its real location)
-	special_building_slot = dengfeng_observatory_01
-	special_building = dengfeng_observatory_01
+	special_district_slot = dengfeng_observatory_01_district
+	districts = { district = { type = dengfeng_observatory_01_district level = 1 } }
 }
 ### c_nanyang
 3065 = {
@@ -35731,8 +35731,8 @@
 	rite = zhengyi
 	holding = castle_holding
 	# Wudang (real-world wonder at its real location)
-	special_building_slot = wudang_mountain_temples_01
-	special_building = wudang_mountain_temples_01
+	special_district_slot = wudang_mountain_temples_01_district
+	districts = { district = { type = wudang_mountain_temples_01_district level = 1 } }
 }
 9338 = {
 	holding = church_holding
@@ -35863,8 +35863,8 @@
 3154 = {
 	holding = church_holding
 	# Venice (real-world wonder at its real location)
-	special_building_slot = doges_palace_01
-	special_building = doges_palace_01
+	special_district_slot = doges_palace_01_district
+	districts = { district = { type = doges_palace_01_district level = 1 } }
 }
 ### c_huai_an
 3081 = {
@@ -36284,8 +36284,8 @@
 	rite = protestant_rite	# e83 real 2026 majority (was roman_rite)
 	holding = castle_holding
 	# Kīlauea (real-world wonder at its real location)
-	special_building_slot = kilauea_01
-	special_building = kilauea_01
+	special_district_slot = kilauea_01_district
+	districts = { district = { type = kilauea_01_district level = 1 } }
 }
 ### c_bahrain (e31 microstate island)
 9430 = {
@@ -36323,8 +36323,8 @@
 9437 = {
 	holding = city_holding
 	# Larnaca (real-world wonder at its real location)
-	special_building_slot = saint_lazarus
-	special_building = saint_lazarus
+	special_district_slot = saint_lazarus_district
+	districts = { district = { type = saint_lazarus_district level = 1 } }
 }
 ### c_sao_tome_and_principe (e31 microstate island)
 9438 = {
@@ -36494,8 +36494,8 @@
 	rite = roman_rite
 	holding = castle_holding
 	# Nan Madol (real-world wonder at its real location)
-	special_building_slot = nan_madol_01
-	special_building = nan_madol_01
+	special_district_slot = nan_madol_01_district
+	districts = { district = { type = nan_madol_01_district level = 1 } }
 }
 9475 = {
 	holding = city_holding
@@ -36577,8 +36577,8 @@
 9494 = {
 	holding = city_holding
 	# Hangzhou Liuhe (real-world wonder at its real location)
-	special_building_slot = liuhe_pagoda_01
-	special_building = liuhe_pagoda_01
+	special_district_slot = liuhe_pagoda_01_district
+	districts = { district = { type = liuhe_pagoda_01_district level = 1 } }
 }
 9495 = {
 	holding = city_holding
@@ -36586,8 +36586,8 @@
 9496 = {
 	holding = city_holding
 	# Maoshan (real-world wonder at its real location)
-	special_building_slot = maoshan_academy_01
-	special_building = maoshan_academy_01
+	special_district_slot = maoshan_academy_01_district
+	districts = { district = { type = maoshan_academy_01_district level = 1 } }
 }
 9497 = {
 	# e55 China religion pass (Pew 2023 / CGSS)
@@ -36619,8 +36619,8 @@
 9503 = {
 	holding = city_holding
 	# Ise (real-world wonder at its real location)
-	special_building_slot = ise_jingu_01
-	special_building = ise_jingu_01
+	special_district_slot = ise_jingu_01_district
+	districts = { district = { type = ise_jingu_01_district level = 1 } }
 }
 9504 = {
 	holding = city_holding
@@ -36651,8 +36651,8 @@
 9512 = {
 	holding = city_holding
 	# Gongju (real-world wonder at its real location)
-	special_building_slot = gongsanseong_fortress_01
-	special_building = gongsanseong_fortress_01
+	special_district_slot = gongsanseong_fortress_01_district
+	districts = { district = { type = gongsanseong_fortress_01_district level = 1 } }
 }
 9513 = {
 	holding = city_holding
@@ -36666,14 +36666,14 @@
 9516 = {
 	holding = city_holding
 	# Najaf (real-world wonder at its real location)
-	special_building_slot = holy_site_imam_ali_mosque_01
-	special_building = holy_site_imam_ali_mosque_01
+	special_district_slot = holy_site_imam_ali_mosque_01_district
+	districts = { district = { type = holy_site_imam_ali_mosque_01_district level = 1 } }
 }
 9517 = {
 	holding = city_holding
 	# Miyajima (real-world wonder at its real location)
-	special_building_slot = itsukushima_jinja_01
-	special_building = itsukushima_jinja_02
+	special_district_slot = itsukushima_jinja_01_district
+	districts = { district = { type = itsukushima_jinja_01_district level = 2 } }
 }
 9518 = {
 	holding = city_holding
@@ -36684,8 +36684,8 @@
 9520 = {
 	holding = city_holding
 	# Gyeongju (real-world wonder at its real location)
-	special_building_slot = stone_pagoda_01
-	special_building = stone_pagoda_01
+	special_district_slot = stone_pagoda_01_district
+	districts = { district = { type = stone_pagoda_01_district level = 1 } }
 }
 9521 = {
 	holding = city_holding

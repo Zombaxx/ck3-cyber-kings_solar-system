@@ -299,7 +299,7 @@ global_religion.0001 = {
 	}
 }
 
-# Events for expelled faith development to relocate
+# Events for expelled faith prosperity to relocate
 global_religion.1000 = {
 	type = character_event
 	title = global_religion.1000.t
@@ -369,13 +369,13 @@ global_religion.1000 = {
 				}
 			}
 			save_scope_value_as = {
-				name = initial_available_development
-				value = scope:target_rite.var:converted_development
+				name = initial_available_prosperity
+				value = scope:target_rite.var:converted_prosperity
 			}
 			# Defaulted so the loops below still evaluate when no starting County is found.
 			save_scope_value_as = {
-				name = remaining_converted_development
-				value = 0
+				name = remaining_converted_prosperity
+				value = scope:initial_available_prosperity
 			}
 			
 			# Save same-rite Counties if that's what we're looking for, they can be all over the place
@@ -390,21 +390,21 @@ global_religion.1000 = {
 					save_scope_as = initial_county_target
 					add_to_list = counties_to_move_in_to
 					set_variable = {
-						name = county_development_to_get
+						name = county_prosperity_to_get
 						value = {
-							value = development_level
+							value = prosperity_level
 							divide = 10
 							floor = yes
 							add = 1
-							max = scope:initial_available_development
+							max = scope:initial_available_prosperity
 							min = 1
 						}
 					}
 					save_scope_value_as = {
-						name = remaining_converted_development
+						name = remaining_converted_prosperity
 						value = {
-							value = scope:initial_available_development
-							subtract = var:county_development_to_get
+							value = scope:initial_available_prosperity
+							subtract = var:county_prosperity_to_get
 						}
 					}
 				}
@@ -420,7 +420,7 @@ global_religion.1000 = {
 						}
 					}
 					limit = {
-						scope:remaining_converted_development > 0
+						scope:remaining_converted_prosperity > 0
 					}
 					random_sub_realm_county = {
 						limit = {
@@ -431,21 +431,21 @@ global_religion.1000 = {
 						}
 						add_to_list = counties_to_move_in_to
 						set_variable = {
-							name = county_development_to_get
+							name = county_prosperity_to_get
 							value = {
-								value = development_level
+								value = prosperity_level
 								divide = 10
 								floor = yes
 								add = 1
-								max = scope:remaining_converted_development
+								max = scope:remaining_converted_prosperity
 								min = 1
 							}
 						}
 						save_scope_value_as = {
-							name = remaining_converted_development
+							name = remaining_converted_prosperity
 							value = {
-								value = scope:remaining_converted_development
-								subtract = var:county_development_to_get
+								value = scope:remaining_converted_prosperity
+								subtract = var:county_prosperity_to_get
 							}
 						}
 					}
@@ -462,21 +462,21 @@ global_religion.1000 = {
 					save_scope_as = initial_county_target
 					add_to_list = counties_to_move_in_to
 					set_variable = {
-						name = county_development_to_get
+						name = county_prosperity_to_get
 						value = {
-							value = development_level
+							value = prosperity_level
 							divide = 10
 							floor = yes
 							add = 1
-							max = scope:initial_available_development
+							max = scope:initial_available_prosperity
 							min = 1
 						}
 					}
 					save_scope_value_as = {
-						name = remaining_converted_development
+						name = remaining_converted_prosperity
 						value = {
-							value = scope:initial_available_development
-							subtract = var:county_development_to_get
+							value = scope:initial_available_prosperity
+							subtract = var:county_prosperity_to_get
 						}
 					}
 				}
@@ -492,7 +492,7 @@ global_religion.1000 = {
 						}
 					}
 					limit = {
-						scope:remaining_converted_development > 0
+						scope:remaining_converted_prosperity > 0
 					}
 					random_sub_realm_county = {
 						limit = {
@@ -503,21 +503,21 @@ global_religion.1000 = {
 						}
 						add_to_list = counties_to_move_in_to
 						set_variable = {
-							name = county_development_to_get
+							name = county_prosperity_to_get
 							value = {
-								value = development_level
+								value = prosperity_level
 								divide = 10
 								floor = yes
 								add = 1
-								max = scope:remaining_converted_development
+								max = scope:remaining_converted_prosperity
 								min = 1
 							}
 						}
 						save_scope_value_as = {
-							name = remaining_converted_development
+							name = remaining_converted_prosperity
 							value = {
-								value = scope:remaining_converted_development
-								subtract = var:county_development_to_get
+								value = scope:remaining_converted_prosperity
+								subtract = var:county_prosperity_to_get
 							}
 						}
 					}
@@ -565,28 +565,28 @@ global_religion.1000 = {
 					save_scope_as = initial_county_target
 					add_to_list = counties_to_move_in_to
 					set_variable = {
-						name = county_development_to_get
+						name = county_prosperity_to_get
 						value = {
-							value = development_level
+							value = prosperity_level
 							divide = 10
 							floor = yes
 							add = 1
-							max = scope:initial_available_development
+							max = scope:initial_available_prosperity
 							min = 1
 						}
 					}
 					save_scope_value_as = {
-						name = remaining_converted_development
+						name = remaining_converted_prosperity
 						value = {
-							value = scope:initial_available_development
-							subtract = var:county_development_to_get
+							value = scope:initial_available_prosperity
+							subtract = var:county_prosperity_to_get
 						}
 					}
 				}
 				while = {
 					count = root.primary_title.tier
 					limit = {
-						scope:remaining_converted_development > 0
+						scope:remaining_converted_prosperity > 0
 					}
 					random_sub_realm_county = {
 						limit = {
@@ -643,21 +643,21 @@ global_religion.1000 = {
 						}
 						add_to_list = counties_to_move_in_to
 						set_variable = {
-							name = county_development_to_get
+							name = county_prosperity_to_get
 							value = {
-								value = development_level
+								value = prosperity_level
 								divide = 10
 								floor = yes
 								add = 1
-								max = scope:remaining_converted_development
+								max = scope:remaining_converted_prosperity
 								min = 1
 							}
 						}
 						save_scope_value_as = {
-							name = remaining_converted_development
+							name = remaining_converted_prosperity
 							value = {
-								value = scope:remaining_converted_development
-								subtract = var:county_development_to_get
+								value = scope:remaining_converted_prosperity
+								subtract = var:county_prosperity_to_get
 							}
 						}
 					}
@@ -693,7 +693,7 @@ global_religion.1000 = {
 						add = {
 							every_in_list = {
 								list = counties_to_move_in_to
-								add = var:county_development_to_get
+								add = var:county_prosperity_to_get
 							}
 						}
 						multiply = 1000
@@ -730,8 +730,8 @@ global_religion.1000 = {
 							OR = {
 								NOT = { has_variable = associated_county }
 								AND = {
-									has_variable = converted_development
-									var:converted_development <= 0
+									has_variable = converted_prosperity
+									var:converted_prosperity <= 0
 								}
 							}
 						}
@@ -745,8 +745,8 @@ global_religion.1000 = {
 							OR = {
 								NOT = { has_variable = associated_culture }
 								AND = {
-									has_variable = converted_development
-									var:converted_development <= 0
+									has_variable = converted_prosperity
+									var:converted_prosperity <= 0
 								}
 							}
 						}
@@ -757,15 +757,15 @@ global_religion.1000 = {
 					}
 					if = {
 						limit = {
-							NOT = { has_variable = converted_development }
+							NOT = { has_variable = converted_prosperity }
 						}
 						set_variable = {
-							name = converted_development
+							name = converted_prosperity
 							value = {
 								every_in_list = {
 									list = counties_to_move_in_to
 									add = {
-										add = var:county_development_to_get
+										add = var:county_prosperity_to_get
 										divide = 2
 										min = 1
 									}
@@ -775,12 +775,12 @@ global_religion.1000 = {
 					}
 					else = {
 						change_variable = {
-							name = converted_development
+							name = converted_prosperity
 							add = {
 								every_in_list = {
 									list = counties_to_move_in_to
 									add = {
-										add = var:county_development_to_get
+										add = var:county_prosperity_to_get
 										divide = 2
 										min = 1
 									}
@@ -800,12 +800,12 @@ global_religion.1000 = {
 				set_county_faith = scope:target_rite.faith
 				set_county_rite = scope:target_rite
 			}
-			change_development_level = {
+			change_prosperity_level = {
 				value = {
 					every_in_list = {
 						list = counties_to_move_in_to
 						add = {
-							add = var:county_development_to_get
+							add = var:county_prosperity_to_get
 							divide = 2
 							min = 1
 						}
@@ -817,7 +817,7 @@ global_religion.1000 = {
 					every_in_list = {
 						list = counties_to_move_in_to
 						add = {
-							add = var:county_development_to_get
+							add = var:county_prosperity_to_get
 							divide = 2
 							min = 1
 						}
@@ -835,8 +835,8 @@ global_religion.1000 = {
 				change_cultural_acceptance = {
 					target = scope:target_rite_associated_culture
 					value = {
-						value = scope:initial_available_development
-						subtract = scope:remaining_converted_development
+						value = scope:initial_available_prosperity
+						subtract = scope:remaining_converted_prosperity
 					}
 					desc = cultural_acceptance_gain_event
 				}
@@ -845,11 +845,11 @@ global_religion.1000 = {
 		
 		scope:target_rite = {
 			change_variable = {
-				name = converted_development
+				name = converted_prosperity
 				subtract = {
 					every_in_list = {
 						list = counties_to_move_in_to
-						add = var:county_development_to_get
+						add = var:county_prosperity_to_get
 						divide = 3
 						min = 1
 					}
@@ -892,8 +892,10 @@ global_religion.1000 = {
 		
 		add_gold = {
 			value = {
-				value = scope:initial_available_development
+				value = scope:initial_available_prosperity
 				multiply = 15
+				min = minor_gold_value
+				max = medium_gold_value
 			}
 		}
 		
@@ -905,9 +907,12 @@ global_religion.1000 = {
 				change_cultural_acceptance = {
 					target = scope:target_rite_associated_culture
 					value = {
-						value = scope:initial_available_development
-						subtract = scope:remaining_converted_development
-						multiply = -0.5
+						value = scope:initial_available_prosperity
+						subtract = scope:remaining_converted_prosperity
+						multiply = 0.3
+						add = 3
+						ceiling = yes
+						multiply = -1
 					}
 					desc = cultural_acceptance_gain_event
 				}
@@ -916,7 +921,7 @@ global_religion.1000 = {
 		
 		scope:target_rite = {
 			change_variable = {
-				name = converted_development
+				name = converted_prosperity
 				subtract = 1
 			}
 		}
@@ -960,7 +965,7 @@ global_religion.1000 = {
 			set_character_rite_with_conversion = scope:target_rite
 			if = {
 				limit = { 
-					scope:target_rite = { has_doctrine = doctrine_monotheist }
+					scope:target_rite = { rite_has_doctrine = doctrine_monotheist }
 				}
 				custom_description_no_bullet = { text = mandala_monotheist_warning_tt }
 			}
@@ -997,7 +1002,7 @@ global_religion.1000 = {
 					value = 0
 					every_in_list = {
 						list = counties_to_move_in_to
-						add = var:county_development_to_get
+						add = var:county_prosperity_to_get
 					}
 					multiply = 250
 				}
@@ -1020,11 +1025,11 @@ global_religion.1000 = {
 		else = {
 			every_in_list = {
 				list = counties_to_move_in_to
-				change_development_level = var:county_development_to_get
+				change_prosperity_level = var:county_prosperity_to_get
 				set_county_faith = scope:target_rite.faith
 				set_county_rite = scope:target_rite
 				change_county_control = {
-					value = var:county_development_to_get
+					value = var:county_prosperity_to_get
 					multiply = -5
 				}
 			}
@@ -1038,8 +1043,8 @@ global_religion.1000 = {
 				change_cultural_acceptance = {
 					target = scope:target_rite_associated_culture
 					value = {
-						value = scope:initial_available_development
-						subtract = scope:remaining_converted_development
+						value = scope:initial_available_prosperity
+						subtract = scope:remaining_converted_prosperity
 					}
 					desc = cultural_acceptance_gain_event
 				}
@@ -1048,11 +1053,11 @@ global_religion.1000 = {
 		
 		scope:target_rite = {
 			change_variable = {
-				name = converted_development
+				name = converted_prosperity
 				subtract = {
 					every_in_list = {
 						list = counties_to_move_in_to
-						add = var:county_development_to_get
+						add = var:county_prosperity_to_get
 					}
 				}
 			}
@@ -1172,7 +1177,7 @@ global_religion.1000 = {
 						value = 0
 						every_in_list = {
 							list = counties_to_move_in_to
-							add = var:county_development_to_get
+							add = var:county_prosperity_to_get
 						}
 						multiply = 250
 					}
@@ -1181,9 +1186,9 @@ global_religion.1000 = {
 			else = {
 				every_in_list = {
 					list = counties_to_move_in_to
-					change_development_level = var:county_development_to_get
+					change_prosperity_level = var:county_prosperity_to_get
 					change_county_control = {
-						value = var:county_development_to_get
+						value = var:county_prosperity_to_get
 						multiply = -5
 					}
 				}
@@ -1199,7 +1204,7 @@ global_religion.1000 = {
 						value = 0
 						every_in_list = {
 							list = counties_to_move_in_to
-							add = var:county_development_to_get
+							add = var:county_prosperity_to_get
 						}
 						multiply = 250
 					}
@@ -1222,12 +1227,12 @@ global_religion.1000 = {
 			else = {
 				every_in_list = {
 					list = counties_to_move_in_to
-					change_development_level = {
-						value = var:county_development_to_get
+					change_prosperity_level = {
+						value = var:county_prosperity_to_get
 						if = {
 							limit = {
 								culture = {
-									has_cultural_parameter = development_gain_from_religious_exiles_is_doubled
+									has_cultural_parameter = prosperity_gain_from_religious_exiles_is_doubled
 								}
 							}
 							multiply = 2
@@ -1236,7 +1241,7 @@ global_religion.1000 = {
 					set_county_faith = scope:target_rite.faith
 					set_county_rite = scope:target_rite
 					change_county_control = {
-						value = var:county_development_to_get
+						value = var:county_prosperity_to_get
 						multiply = -5
 					}
 				}
@@ -1251,8 +1256,8 @@ global_religion.1000 = {
 				change_cultural_acceptance = {
 					target = scope:target_rite_associated_culture
 					value = {
-						value = scope:initial_available_development
-						subtract = scope:remaining_converted_development
+						value = scope:initial_available_prosperity
+						subtract = scope:remaining_converted_prosperity
 					}
 					desc = cultural_acceptance_gain_event
 				}
@@ -1261,11 +1266,11 @@ global_religion.1000 = {
 		
 		scope:target_rite = {
 			change_variable = {
-				name = converted_development
+				name = converted_prosperity
 				subtract = {
 					every_in_list = {
 						list = counties_to_move_in_to
-						add = var:county_development_to_get
+						add = var:county_prosperity_to_get
 					}
 				}
 			}
@@ -1403,30 +1408,26 @@ global_religion.1000 = {
 		name = global_religion.1000.b
 		if = {
 			limit = {
-				exists = scope:from_decision
+				NOT = { exists = scope:from_decision }
 			}
-		}
-		else = {
 			if = {
 				limit = {
 					faith != scope:target_rite.faith
 				}
-				add_piety = {
-					value = {
-						value = scope:initial_available_development
-						subtract = scope:remaining_converted_development
-						multiply = 100
-						divide = 2
-					}
-				}
+				add_piety = minor_piety_gain
 			}
 			else = {
-				add_prestige = {
-					value = {
-						value = scope:initial_available_development
-						subtract = scope:remaining_converted_development
-						multiply = 100
-						divide = 2
+				add_prestige = minor_prestige_gain
+			}
+		}
+		
+		scope:target_rite = {
+			change_variable = {
+				name = converted_prosperity
+				subtract = {
+					every_in_list = {
+						list = counties_to_move_in_to
+						add = var:county_prosperity_to_get
 					}
 				}
 			}
@@ -1444,7 +1445,7 @@ global_religion.1000 = {
 	after = {
 		every_in_list = {
 			list = counties_to_move_in_to
-			remove_variable = county_development_to_get
+			remove_variable = county_prosperity_to_get
 		}
 		scope:local_character = {
 			silent_disappearance_ai_effect = yes
