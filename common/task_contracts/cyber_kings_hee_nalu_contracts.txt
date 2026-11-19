@@ -1,0 +1,228 @@
+﻿# He'e Nalu (2026-11-18): surf contracts for landless adventurers (Roads to Power). Design: _dev/HEE_NALU.md §3e
+# Format after vanilla laamp_base_contracts.txt (1.21): same standard triggers and reward effect. No contract scheme:
+# on accepting, the taker gets one event (hee_nalu.0600 / 0610) that completes the contract.
+
+hee_nalu_contract_teach_child = {
+	group = laamp_contracts_learning_group
+	icon = "gfx/interface/icons/scheme_types/learning.dds"
+
+	travel = yes
+	is_criminal = no
+	use_diplomatic_range = no
+
+	weight = {
+		value = task_contract_weight_default_value
+		add = laamp_contracts_weight_up_learning_value
+	}
+
+	valid_to_create = {
+		valid_laamp_basic_trigger = {
+			EMPLOYER = scope:employer
+			LAAMP = root
+		}
+		valid_laamp_sensible_start_trigger = yes
+		rule_out_dramatic_laamp_employers_trigger = yes
+		employer_has_treasury_to_offer_job_trigger = yes
+		# the taker surfs well enough to teach
+		has_trait_xp = {
+			trait = hee_nalu_surfer
+			track = hee_nalu_surfer
+			value >= 30
+		}
+		# a coastal court with a child who does not surf yet (any faith: this is how surfing spreads)
+		scope:employer = {
+			is_landed = yes
+			capital_county ?= { is_coastal_county = yes }
+			any_child = {
+				is_alive = yes
+				age >= 6
+				age < 16
+				NOR = {
+					has_trait = hee_nalu_surfer
+					has_trait = hee_nalu_kook
+				}
+			}
+		}
+	}
+	valid_to_accept = {
+		valid_laamp_basic_accept_only_trigger = yes
+		valid_laamp_basic_trigger = {
+			EMPLOYER = scope:employer
+			LAAMP = root
+		}
+	}
+	valid_to_continue = {
+		valid_laamp_basic_trigger = {
+			EMPLOYER = root.task_contract_employer
+			LAAMP = root.task_contract_taker
+		}
+		task_contract_employer = { is_landed = yes }
+	}
+	valid_to_keep = {
+		valid_laamp_basic_trigger = {
+			EMPLOYER = root.task_contract_employer
+			LAAMP = root.task_contract_taker
+		}
+		task_contract_employer = { is_landed = yes }
+	}
+
+	on_accepted = {
+		task_contract_taker = { play_sound_effect = "event:/DLC/EP3/SFX/UI/Contracts/ep3_ui_contracts_accept_contract" }
+		save_scope_as = task_contract
+		task_contract_taker ?= {
+			trigger_event = {
+				id = hee_nalu.0600
+				days = 3
+			}
+		}
+	}
+
+	task_contract_reward = {
+		success_standard = {
+			should_print_on_complete = yes
+			effect = {
+				task_contract_taker = { play_sound_effect = "event:/DLC/EP3/SFX/UI/Contracts/ep3_ui_contracts_success_on_contract" }
+				save_scope_as = task_contract
+				save_scope_value_as = { name = extra_reward value = flag:no }
+				laamp_rewards_disburse_ordinary_currency_effect = {
+					GOLD = task_contract_success_gold_gain_full_value
+					PRESTIGE = task_contract_success_prestige_gain_half_value
+					PIETY = 0
+					PROVISIONS = task_contract_success_provisions_gain_minor_value
+					OPINION = task_contract_opinion_standard_reward_value
+					OPINION_TYPE = succeeded_task_contract_opinion
+					CONTACT = yes
+					CONTACT_HOOK = no
+					EXTRA_REWARD = scope:extra_reward
+				}
+				task_contract_taker = { task_successful_noncrim_contract_count_effect = yes }
+			}
+		}
+		failure_standard = {
+			positive = no
+			should_print_on_complete = yes
+			effect = {
+				task_contract_taker = { play_sound_effect = "event:/DLC/EP3/SFX/UI/Contracts/ep3_ui_contracts_failure_on_contract" }
+				save_scope_value_as = { name = extra_reward value = flag:no }
+				laamp_rewards_disburse_ordinary_currency_effect = {
+					GOLD = 0
+					PRESTIGE = task_contract_failure_prestige_loss_full_value
+					PIETY = 0
+					PROVISIONS = task_contract_failure_provisions_gain_minor_value
+					OPINION = task_contract_opinion_standard_failure_value
+					OPINION_TYPE = failed_task_contract_opinion
+					CONTACT = no
+					CONTACT_HOOK = no
+					EXTRA_REWARD = scope:extra_reward
+				}
+			}
+		}
+	}
+}
+
+hee_nalu_contract_shape_board = {
+	group = laamp_contracts_stewardship_group
+	icon = "gfx/interface/icons/scheme_types/stewardship.dds"
+
+	travel = yes
+	is_criminal = no
+	use_diplomatic_range = no
+
+	weight = {
+		value = task_contract_weight_default_value
+		add = laamp_contracts_weight_up_stewardship_value
+	}
+
+	valid_to_create = {
+		valid_laamp_basic_trigger = {
+			EMPLOYER = scope:employer
+			LAAMP = root
+		}
+		valid_laamp_sensible_start_trigger = yes
+		rule_out_dramatic_laamp_employers_trigger = yes
+		employer_has_treasury_to_offer_job_trigger = yes
+		OR = {
+			has_trait = hee_nalu_surfer
+			has_trait = hee_nalu_kook
+		}
+		# an employer who surfs, or follows the faith
+		scope:employer = {
+			is_landed = yes
+			hee_nalu_can_surf_trigger = yes
+		}
+	}
+	valid_to_accept = {
+		valid_laamp_basic_accept_only_trigger = yes
+		valid_laamp_basic_trigger = {
+			EMPLOYER = scope:employer
+			LAAMP = root
+		}
+	}
+	valid_to_continue = {
+		valid_laamp_basic_trigger = {
+			EMPLOYER = root.task_contract_employer
+			LAAMP = root.task_contract_taker
+		}
+		task_contract_employer = { is_landed = yes }
+	}
+	valid_to_keep = {
+		valid_laamp_basic_trigger = {
+			EMPLOYER = root.task_contract_employer
+			LAAMP = root.task_contract_taker
+		}
+		task_contract_employer = { is_landed = yes }
+	}
+
+	on_accepted = {
+		task_contract_taker = { play_sound_effect = "event:/DLC/EP3/SFX/UI/Contracts/ep3_ui_contracts_accept_contract" }
+		save_scope_as = task_contract
+		task_contract_taker ?= {
+			trigger_event = {
+				id = hee_nalu.0610
+				days = 3
+			}
+		}
+	}
+
+	task_contract_reward = {
+		success_standard = {
+			should_print_on_complete = yes
+			effect = {
+				task_contract_taker = { play_sound_effect = "event:/DLC/EP3/SFX/UI/Contracts/ep3_ui_contracts_success_on_contract" }
+				save_scope_as = task_contract
+				save_scope_value_as = { name = extra_reward value = flag:no }
+				laamp_rewards_disburse_ordinary_currency_effect = {
+					GOLD = task_contract_success_gold_gain_full_value
+					PRESTIGE = 0
+					PIETY = 0
+					PROVISIONS = task_contract_success_provisions_gain_minor_value
+					OPINION = task_contract_opinion_standard_reward_value
+					OPINION_TYPE = succeeded_task_contract_opinion
+					CONTACT = yes
+					CONTACT_HOOK = no
+					EXTRA_REWARD = scope:extra_reward
+				}
+				task_contract_taker = { task_successful_noncrim_contract_count_effect = yes }
+			}
+		}
+		failure_standard = {
+			positive = no
+			should_print_on_complete = yes
+			effect = {
+				task_contract_taker = { play_sound_effect = "event:/DLC/EP3/SFX/UI/Contracts/ep3_ui_contracts_failure_on_contract" }
+				save_scope_value_as = { name = extra_reward value = flag:no }
+				laamp_rewards_disburse_ordinary_currency_effect = {
+					GOLD = 0
+					PRESTIGE = task_contract_failure_prestige_loss_full_value
+					PIETY = 0
+					PROVISIONS = task_contract_failure_provisions_gain_minor_value
+					OPINION = task_contract_opinion_standard_failure_value
+					OPINION_TYPE = failed_task_contract_opinion
+					CONTACT = no
+					CONTACT_HOOK = no
+					EXTRA_REWARD = scope:extra_reward
+				}
+			}
+		}
+	}
+}

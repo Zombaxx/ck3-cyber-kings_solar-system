@@ -1,0 +1,7 @@
+# Cyber Kings (2026-11-18): catalysts for the Solar Trade Route (ck_solar_trade). _dev/DLC_ADAPTATION.md section 22.
+ck_catalyst_st_passing_years = {}        # yearly
+ck_catalyst_st_peace_year = {}           # yearly: no two hub holders are at war with each other
+ck_catalyst_st_hub_war = {}              # a war started between two rulers who hold trade hubs
+ck_catalyst_st_great_power_war = {}      # a war started between two independent emperors (or higher)
+ck_catalyst_st_corporate_ascendancy = {} # yearly while Charter and Crown is in Corporate Ascendancy
+ck_catalyst_st_sovereign_ascendancy = {} # yearly while Charter and Crown is in Sovereign Ascendancy

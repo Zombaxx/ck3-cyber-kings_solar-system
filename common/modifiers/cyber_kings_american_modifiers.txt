@@ -1,0 +1,11 @@
+﻿# Cyber Kings (2026-11-17): The American Question modifiers.
+ck_us_divided_government_modifier = {	# a polarizing election (4 years)
+	icon = social_negative
+	vassal_opinion = -10
+	monthly_legitimacy_add = -0.2
+}
+ck_us_national_mandate_modifier = {	# a consensus election (4 years)
+	icon = social_positive
+	vassal_opinion = 10
+	monthly_legitimacy_add = 0.2
+}

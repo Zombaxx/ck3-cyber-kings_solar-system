@@ -15,6 +15,8 @@
 # FAITH LIFE (2026-11-16): 0200 The Paddle-Out (heir, from on_death), 0210 the house 'aumakua (decision),
 #                         0301-0306 yearly flavour (common/on_action/cyber_kings_hee_nalu_on_actions.txt)
 # MAKAHIKI (2026-11-16): 0400 The Games of Lono, 0403 Lono Departs (hee_nalu_proclaim_makahiki_decision)
+# PILGRIMAGE & ADVENTURERS (2026-11-18): 0500 The Sacred Break (pilgrimage arrival), 0307 A Lord on the Beach (yearly,
+#                         adventurers), 0600 / 0610 contract events (common/task_contracts/cyber_kings_hee_nalu_contracts.txt)
 # Surf skill: hee_nalu_surf_skill_value (trait level, or -15 for a kook) is added to every roll for the better outcome;
 #                         endings call hee_nalu_host_good_session_effect / hee_nalu_host_rough_session_effect (XP, traits, guests)
 # scope:surf_companion  = the travelling companion you invited to the trip, if any (the activity's special guest)
@@ -1788,6 +1790,351 @@ hee_nalu.0403 = {
 		stress_impact = {
 			zealous = medium_stress_impact_gain
 			cynical = minor_stress_impact_loss
+		}
+		ai_chance = {
+			base = 100
+		}
+	}
+}
+
+##### Pilgrimage, adventurers (2026-11-18). Design: _dev/HEE_NALU.md §3e #####
+
+# The Sacred Break: a He'e Nalu pilgrim arrives at a holy site (hee_nalu_arrival_events, pilgrimage arrival on_action).
+# root = the pilgrim. Paddling out here counts for The Search.
+hee_nalu.0500 = {
+	type = character_event
+	title = hee_nalu.0500.t
+	desc = hee_nalu.0500.desc
+	theme = faith
+	override_background = { reference = bp3_coast }
+	left_portrait = {
+		character = root
+		animation = admiration
+	}
+
+	immediate = {
+		involved_activity ?= {
+			activity_location = { save_scope_as = surf_break }
+		}
+		save_scope_value_as = { name = hee_nalu_sacred value = yes }
+		if = {
+			limit = {
+				exists = scope:surf_break
+				NOT = {
+					is_target_in_variable_list = {
+						name = hee_nalu_breaks_surfed
+						target = scope:surf_break
+					}
+				}
+			}
+			save_scope_value_as = { name = hee_nalu_new value = yes }
+			if = {
+				limit = {
+					NOT = {
+						any_in_list = {
+							variable = hee_nalu_breaks_surfed
+							county = scope:surf_break.county
+						}
+					}
+				}
+				save_scope_value_as = { name = hee_nalu_new_sacred value = yes }
+			}
+		}
+	}
+
+	option = { # Paddle out at the sacred break
+		name = hee_nalu.0500.a
+		hee_nalu_record_break_effect = yes
+		random_list = {
+			60 = {
+				modifier = { add = hee_nalu_surf_skill_value }
+				modifier = { add = 10 has_trait = calm }
+				custom_tooltip = hee_nalu.0500.good.tt
+				add_piety = medium_piety_gain
+				add_stress = medium_stress_loss
+				hee_nalu_host_good_session_effect = { XP = 8 }
+			}
+			40 = {
+				custom_tooltip = hee_nalu.0500.humbled.tt
+				add_piety = minor_piety_gain
+				add_stress = minor_stress_gain
+				hee_nalu_host_rough_session_effect = yes
+			}
+		}
+		ai_chance = {
+			base = 70
+			modifier = { factor = 0 has_trait = craven }
+		}
+	}
+
+	option = { # Pray on the shore with the kahuna of this place
+		name = hee_nalu.0500.b
+		add_piety = medium_piety_gain
+		add_stress = minor_stress_loss
+		ai_chance = {
+			base = 30
+			modifier = { add = 30 has_trait = craven }
+		}
+	}
+}
+
+# A Lord on the Beach (yearly, adventurers who surf). root = the adventurer.
+hee_nalu.0307 = {
+	type = character_event
+	title = hee_nalu.0307.t
+	desc = hee_nalu.0307.desc
+	theme = faith
+	override_background = { reference = bp3_coast }
+	left_portrait = {
+		character = root
+		animation = personality_bold
+	}
+	right_portrait = {
+		character = scope:local_lord
+		animation = admiration
+	}
+
+	trigger = {
+		has_government = landless_adventurer_government
+		has_trait = hee_nalu_surfer
+		location ?= { is_coastal = yes }
+		location.county.holder ?= {
+			this != root
+			is_ai = yes
+			is_adult = yes
+		}
+	}
+
+	immediate = {
+		location.county.holder = { save_scope_as = local_lord }
+	}
+
+	option = { # Lessons, for a price
+		name = hee_nalu.0307.a
+		add_gold = minor_gold_value
+		scope:local_lord = {
+			add_opinion = {
+				target = root
+				modifier = pleased_opinion
+				opinion = 15
+			}
+		}
+		stress_impact = {
+			greedy = minor_stress_impact_loss
+			generous = minor_stress_impact_gain
+		}
+		ai_chance = {
+			base = 50
+			modifier = { add = 25 has_trait = greedy }
+		}
+	}
+
+	option = { # Surf with them, as equals
+		name = hee_nalu.0307.b
+		add_prestige = minor_prestige_gain
+		add_stress = minor_stress_loss
+		scope:local_lord = {
+			add_opinion = {
+				target = root
+				modifier = pleased_opinion
+				opinion = 30
+			}
+			random = {
+				chance = 30
+				hee_nalu_become_grom_effect = yes
+			}
+		}
+		ai_chance = {
+			base = 40
+			modifier = { add = 25 has_trait = gregarious }
+		}
+	}
+
+	option = { # Pretend not to see them
+		name = hee_nalu.0307.c
+		stress_impact = {
+			shy = minor_stress_impact_loss
+			gregarious = minor_stress_impact_gain
+		}
+		ai_chance = {
+			base = 10
+			modifier = { add = 30 has_trait = shy }
+		}
+	}
+}
+
+# Contract: Teach the Heir to Surf. root = the adventurer (contract taker), scope:task_contract.
+hee_nalu.0600 = {
+	type = character_event
+	title = hee_nalu.0600.t
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { exists = scope:surf_pupil }
+				desc = hee_nalu.0600.desc
+			}
+			desc = hee_nalu.0600.desc.gone
+		}
+	}
+	theme = faith
+	override_background = { reference = bp3_coast }
+	left_portrait = {
+		character = root
+		animation = personality_content
+	}
+	right_portrait = {
+		character = scope:surf_pupil
+		animation = worry
+	}
+
+	trigger = { exists = scope:task_contract }
+
+	immediate = {
+		scope:task_contract.task_contract_employer = {
+			save_scope_as = employer
+			random_child = {
+				limit = {
+					is_alive = yes
+					age >= 6
+					age < 16
+					NOR = {
+						has_trait = hee_nalu_surfer
+						has_trait = hee_nalu_kook
+					}
+				}
+				save_scope_as = surf_pupil
+			}
+		}
+	}
+
+	option = { # Patient lessons in the whitewater
+		name = hee_nalu.0600.a
+		trigger = { exists = scope:surf_pupil }
+		random_list = {
+			60 = {
+				modifier = { add = hee_nalu_surf_skill_value }
+				modifier = {
+					add = {
+						value = learning
+						multiply = 2
+					}
+				}
+				modifier = { add = 10 has_trait = patient }
+				custom_tooltip = hee_nalu.0600.success.tt
+				scope:surf_pupil = { hee_nalu_become_grom_effect = yes }
+				scope:task_contract = { complete_task_contract = success_standard }
+			}
+			40 = {
+				modifier = { add = 10 has_trait = impatient }
+				custom_tooltip = hee_nalu.0600.kook.tt
+				scope:surf_pupil = { hee_nalu_become_kook_effect = yes }
+				scope:task_contract = { complete_task_contract = failure_standard }
+			}
+		}
+		ai_chance = {
+			base = 70
+		}
+	}
+
+	option = { # Straight out to the big waves. That is how I learned.
+		name = hee_nalu.0600.b
+		trigger = { exists = scope:surf_pupil }
+		random_list = {
+			40 = {
+				modifier = { add = hee_nalu_surf_skill_value }
+				modifier = {
+					add = {
+						value = prowess
+						multiply = 2
+					}
+				}
+				custom_tooltip = hee_nalu.0600.success.tt
+				scope:surf_pupil = {
+					hee_nalu_become_grom_effect = yes
+					add_trait_xp = {
+						trait = hee_nalu_surfer
+						track = hee_nalu_surfer
+						value = 15
+					}
+				}
+				scope:task_contract = { complete_task_contract = success_standard }
+				add_prestige = minor_prestige_gain
+			}
+			60 = {
+				custom_tooltip = hee_nalu.0600.terrified.tt
+				scope:surf_pupil = {
+					add_opinion = {
+						target = root
+						modifier = annoyed_opinion
+						opinion = -20
+					}
+				}
+				scope:task_contract = { complete_task_contract = failure_standard }
+			}
+		}
+		ai_chance = {
+			base = 30
+			modifier = { add = 20 has_trait = brave }
+		}
+	}
+
+	option = { # The child is no longer here
+		name = hee_nalu.0600.c
+		trigger = { NOT = { exists = scope:surf_pupil } }
+		scope:task_contract = { complete_task_contract = failure_standard }
+		ai_chance = {
+			base = 100
+		}
+	}
+}
+
+# Contract: Shape a Board for a Lord. root = the adventurer, scope:task_contract.
+hee_nalu.0610 = {
+	type = character_event
+	title = hee_nalu.0610.t
+	desc = hee_nalu.0610.desc
+	theme = faith
+	override_background = { reference = bp3_coast }
+	left_portrait = {
+		character = root
+		animation = personality_content
+	}
+	right_portrait = {
+		character = scope:employer
+		animation = personality_content
+	}
+
+	trigger = { exists = scope:task_contract }
+
+	immediate = {
+		scope:task_contract.task_contract_employer = { save_scope_as = employer }
+	}
+
+	option = { # Take the time to do it right
+		name = hee_nalu.0610.a
+		random_list = {
+			55 = {
+				modifier = { add = hee_nalu_surf_skill_value }
+				modifier = {
+					add = {
+						value = stewardship
+						multiply = 2
+					}
+				}
+				modifier = { add = 10 has_trait = diligent }
+				modifier = {	# a shaper's shed in the camp
+					add = 20
+					domicile ?= { has_domicile_parameter = hee_nalu_camp_shaper_shed }
+				}
+				custom_tooltip = hee_nalu.0610.success.tt
+				scope:employer = { hee_nalu_shape_board_effect = yes }
+				scope:task_contract = { complete_task_contract = success_standard }
+			}
+			45 = {
+				modifier = { add = 10 has_trait = lazy }
+				custom_tooltip = hee_nalu.0610.crack.tt
+				scope:task_contract = { complete_task_contract = failure_standard }
+			}
 		}
 		ai_chance = {
 			base = 100

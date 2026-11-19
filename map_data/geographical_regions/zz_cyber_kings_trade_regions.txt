@@ -1,0 +1,7 @@
+# Cyber Kings (2026-11-18): regions of the Solar Trade Route situation (_dev/DLC_ADAPTATION.md section 22).
+ck_trade_inner_worlds = {
+	regions = { ckworld_mercury ckworld_venus ckworld_earth ckworld_moon ckworld_mars ckworld_phobos }
+}
+ck_trade_outer_worlds = {
+	regions = { ckworld_ceres ckworld_ganymede ckworld_callisto ckworld_europa ckworld_titan ckworld_triton }
+}

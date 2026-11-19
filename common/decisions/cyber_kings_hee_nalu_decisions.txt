@@ -127,6 +127,7 @@ hee_nalu_proclaim_makahiki_decision = {
 	is_shown = {
 		rite = { rite_has_parameter = hee_nalu_surfing_active }
 		highest_held_title_tier >= tier_county
+		NOT = { has_government = landless_adventurer_government }	# 2026-11-18: no lands to keep Lono's peace in
 	}
 
 	is_valid_showing_failures_only = {
@@ -211,7 +212,7 @@ hee_nalu_shape_board_decision = {
 	}
 
 	cost = {
-		gold = 150
+		gold = hee_nalu_board_cost_value	# 150, or 75 with a Shaper's Shed in the camp
 	}
 
 	effect = {

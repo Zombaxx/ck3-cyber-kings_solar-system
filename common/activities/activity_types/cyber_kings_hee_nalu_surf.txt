@@ -33,6 +33,7 @@ activity_hee_nalu_surf = {
 			OR = {
 				is_ai = no
 				is_landed = yes
+				has_government = landless_adventurer_government	# 2026-11-18: AI adventurers surf too
 			}
 		}
 	}
@@ -97,7 +98,10 @@ activity_hee_nalu_surf = {
 			desc = activity_hee_nalu_surf_foreign_break
 		}
 		triggered_desc = {
-			trigger = { "scope:host.capital_province.squared_distance(root)" > squared_distance_large }
+			trigger = {
+				exists = scope:host.capital_province	# adventurers have no capital
+				"scope:host.capital_province.squared_distance(root)" > squared_distance_large
+			}
 			desc = activity_hee_nalu_surf_far_break
 		}
 	}
@@ -336,19 +340,7 @@ activity_hee_nalu_surf = {
 				}
 			}
 
-			scripted_animation = {
-				triggered_animation = {
-					trigger = {
-						scope:character.location = { is_sea_province = yes }
-					}
-					animation = { idle }
-				}
-				triggered_animation = {
-					trigger = { scope:character = { has_trait = impatient } }
-					animation = { jockey_gallop }
-				}
-				animation = jockey_walk
-			}
+			scripted_animation = horse_camel_activity_travel_animation
 		}
 
 		guest = {

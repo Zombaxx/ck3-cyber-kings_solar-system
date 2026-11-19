@@ -1,0 +1,8 @@
+# Cyber Kings (2026-11-17): catalysts for Charter and Crown (ck_corporate_wars). _dev/DLC_ADAPTATION.md section 21.
+ck_catalyst_cc_passing_years = {}       # yearly
+ck_catalyst_cc_corporate_victory = {}   # a corporate-side ruler won a war against a sovereign-side ruler
+ck_catalyst_cc_sovereign_victory = {}   # a sovereign-side ruler won a war against a corporate-side ruler
+ck_catalyst_cc_incorporation = {}       # a city incorporated (Incorporate the City)
+ck_catalyst_cc_charters_revoked = {}    # a sovereign revoked its corporations' charters
+ck_catalyst_cc_corporate_hubs = {}      # yearly: corporate-side realms hold more trade hubs than sovereign-side ones
+ck_catalyst_cc_sovereign_hubs = {}      # yearly: sovereign-side realms hold more trade hubs than corporate-side ones

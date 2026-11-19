@@ -1,0 +1,357 @@
+﻿# Cyber Kings (2026-11-17): effects for The American Question (ck_american_question). _dev/DLC_ADAPTATION.md section 18.
+# Situation variables: ck_us_polarization (0-100, starts 40), ck_us_term_years (years since the last election),
+# ck_us_dominion_years (years of Foreign Dominion), ck_catalyst_lock (set while a hegemon holds the Union).
+# Catalysts are fired through ck_fire_situation_catalyst_effect (cyber_kings_situation_effects.txt).
+
+# root = situation, on_start of the Status Quo (also the 7050 start)
+ck_us_status_quo_start_effect = {
+	if = {
+		limit = { NOT = { has_variable = ck_us_polarization } }
+		set_variable = { name = ck_us_polarization value = ck_us_polarization_start }
+		set_variable = { name = ck_us_term_years value = 0 }
+	}
+}
+
+# root = situation, yearly
+ck_american_question_yearly_effect = {
+	if = {	# safety for saves where the start effect did not run
+		limit = { NOT = { has_variable = ck_us_polarization } }
+		set_variable = { name = ck_us_polarization value = ck_us_polarization_start }
+		set_variable = { name = ck_us_term_years value = 0 }
+	}
+	# --- hegemons and outside rule (as the European Question) ---
+	if = {	# the Union's ruler is (or answers to) the Hegemon of the Americas or of Terra: Manifest Destiny, locked
+		limit = { ck_us_hegemon_lock_trigger = yes }
+		set_variable = ck_catalyst_lock
+		if = {
+			limit = { NOT = { situation_current_phase = ck_us_manifest_destiny } }
+			situation_top_sub_region = { change_phase = ck_us_manifest_destiny }
+		}
+	}
+	else = {
+		if = {
+			limit = { has_variable = ck_catalyst_lock }
+			remove_variable = ck_catalyst_lock
+		}
+		if = {	# ruled from outside
+			limit = {
+				ck_us_foreign_dominion_trigger = yes
+				NOR = {
+					situation_current_phase = ck_us_foreign_dominion
+					situation_current_phase = ck_us_civil_war
+					situation_current_phase = ck_us_imperial_presidency
+				}
+			}
+			situation_top_sub_region = { change_phase = ck_us_foreign_dominion }
+		}
+		else_if = {
+			limit = { situation_current_phase = ck_us_foreign_dominion }
+			if = {
+				limit = { ck_us_foreign_dominion_trigger = no }
+				situation_top_sub_region = { change_phase = ck_us_status_quo }
+			}
+			else = {
+				change_variable = { name = ck_us_dominion_years add = 1 }
+				if = {
+					limit = { var:ck_us_dominion_years >= 50 }
+					situation_top_sub_region = { change_phase = ck_us_imperial_presidency }
+				}
+			}
+		}
+	}
+	# --- the Union broken or lost ---
+	if = {
+		limit = {
+			NOT = { exists = title:e_united_states.holder }
+			NOT = { situation_current_phase = ck_us_balkanization }
+		}
+		situation_top_sub_region = { change_phase = ck_us_balkanization }
+	}
+	else_if = {	# during a breakup the president keeps less than half of the Union: Balkanization
+		limit = {
+			OR = {
+				situation_current_phase = ck_us_secession_crisis
+				situation_current_phase = ck_us_civil_war
+				situation_current_phase = ck_us_corporate_secession
+				situation_current_phase = ck_us_great_depression
+			}
+			title:e_united_states.holder ?= { ck_realm_counties_us < ck_us_hold_counties }
+		}
+		situation_top_sub_region = { change_phase = ck_us_balkanization }
+	}
+	else_if = {	# Balkanization ends when a president again holds half of the Union
+		limit = {
+			situation_current_phase = ck_us_balkanization
+			title:e_united_states.holder ?= { ck_realm_counties_us >= ck_us_hold_counties }
+		}
+		situation_top_sub_region = { change_phase = ck_us_status_quo }
+	}
+	# --- time ---
+	if = {
+		limit = { situation_top_has_catalyst = ck_catalyst_us_passing_years }
+		trigger_situation_catalyst = ck_catalyst_us_passing_years
+	}
+	# --- elections every 4 years ---
+	change_variable = { name = ck_us_term_years add = 1 }
+	if = {
+		limit = {
+			var:ck_us_term_years >= ck_us_election_years
+			exists = title:e_united_states.holder
+		}
+		set_variable = { name = ck_us_term_years value = 0 }
+		ck_us_election_effect = yes
+	}
+	# --- separatist movements ---
+	title:e_united_states.holder ?= {
+		if = {
+			limit = {
+				any_targeting_faction = { faction_is_type = independence_faction }
+			}
+			ck_fire_situation_catalyst_effect = { SITUATION = ck_american_question CATALYST = ck_catalyst_us_separatist_movement CHARACTER = this }
+		}
+	}
+	# --- phase-specific pressure ---
+	if = {	# rich blue cities are offered corporate charters
+		limit = {
+			OR = {
+				situation_current_phase = ck_us_gilded_age
+				situation_current_phase = ck_us_polarization
+				situation_current_phase = ck_us_corporate_secession
+				situation_current_phase = ck_us_status_quo
+			}
+		}
+		ck_us_charter_offers_effect = yes
+	}
+	if = {	# Secession Crisis: opposed-bloc leaders may call secession conventions (likely, never forced)
+		limit = { situation_current_phase = ck_us_secession_crisis }
+		title:e_united_states.holder ?= {
+			save_scope_as = ck_us_president
+			every_vassal = {
+				limit = { ck_us_opposing_bloc_vassal_trigger = yes }
+				random = {
+					chance = 25
+					trigger_event = ck_american.0020
+				}
+			}
+		}
+	}
+}
+
+# root = situation: a presidential election
+ck_us_election_effect = {
+	# Two evenly matched blocs polarize; a dominant bloc or a common foe calms things down
+	change_variable = { name = ck_us_polarization add = 5 }
+	if = {
+		limit = {
+			ck_us_blue_counties >= ck_us_quarter_counties
+			ck_us_red_counties >= ck_us_quarter_counties
+		}
+		change_variable = { name = ck_us_polarization add = 10 }
+	}
+	if = {
+		limit = {
+			OR = {
+				ck_us_blue_counties >= ck_us_supermajority_counties
+				ck_us_red_counties >= ck_us_supermajority_counties
+			}
+		}
+		change_variable = { name = ck_us_polarization add = -15 }
+	}
+	title:e_united_states.holder ?= {
+		if = {
+			limit = {
+				any_character_war = {
+					any_war_participant = { ck_us_member_trigger = no }
+				}
+			}
+			root = { change_variable = { name = ck_us_polarization add = -10 } }
+		}
+		if = {	# a swing-state president calms, a partisan one inflames
+			limit = {
+				ck_us_red_trigger = no
+				ck_us_blue_trigger = no
+			}
+			root = { change_variable = { name = ck_us_polarization add = -5 } }
+		}
+	}
+	random = {
+		chance = 50
+		change_variable = { name = ck_us_polarization add = 5 }
+	}
+	random = {
+		chance = 50
+		change_variable = { name = ck_us_polarization add = -5 }
+	}
+	if = {
+		limit = { var:ck_us_polarization > 100 }
+		set_variable = { name = ck_us_polarization value = 100 }
+	}
+	else_if = {
+		limit = { var:ck_us_polarization < 0 }
+		set_variable = { name = ck_us_polarization value = 0 }
+	}
+	title:e_united_states.holder ?= {
+		save_scope_as = ck_us_president
+		if = {
+			limit = { root.var:ck_us_polarization >= ck_us_polarization_high }
+			ck_fire_situation_catalyst_effect = { SITUATION = ck_american_question CATALYST = ck_catalyst_us_polarizing_election CHARACTER = this }
+			add_character_modifier = { modifier = ck_us_divided_government_modifier years = 4 }
+		}
+		else_if = {
+			limit = { root.var:ck_us_polarization <= ck_us_polarization_low }
+			ck_fire_situation_catalyst_effect = { SITUATION = ck_american_question CATALYST = ck_catalyst_us_consensus_election CHARACTER = this }
+			add_character_modifier = { modifier = ck_us_national_mandate_modifier years = 4 }
+		}
+		trigger_event = ck_american.0001
+	}
+}
+
+# root = situation: up to two rich blue city lords per year are offered a corporate charter
+ck_us_charter_offers_effect = {
+	title:e_united_states.holder ?= {
+		save_scope_as = ck_us_president
+		random_vassal = {
+			limit = { ck_us_charter_candidate_trigger = yes }
+			weight = { base = 1 modifier = { add = 5 has_trait = greedy } }
+			random = {	# 30%; 45% while the corporations are ascendant in Charter and Crown, 10% while the crowns are
+				chance = 30
+				modifier = {
+					add = 15
+					situation:ck_corporate_wars ?= { situation_current_phase = ck_cc_corporate_ascendancy }
+				}
+				modifier = {
+					add = -20
+					situation:ck_corporate_wars ?= { situation_current_phase = ck_cc_sovereign_ascendancy }
+				}
+				add_character_flag = ck_us_charter_offered
+				trigger_event = ck_american.0010
+			}
+		}
+	}
+}
+
+# root = city lord: becomes an independent corporate free city (a republic)
+ck_us_become_free_city_effect = {
+	create_title_and_vassal_change = {
+		type = independency
+		save_scope_as = change
+		add_claim_on_loss = no
+	}
+	becomes_independent = { change = scope:change }
+	resolve_title_and_vassal_change = scope:change
+	change_government = republic_government
+	# one corporation modifier for both situations (2026-11-18): the Megacorporation modifier of Charter and Crown
+	add_character_modifier = { modifier = ck_cc_megacorp_modifier years = 50 }
+	remove_variable = ck_cc_side_sovereign
+	remove_variable = ck_cc_side_undecided
+	set_variable = ck_cc_side_corporate
+	ck_fire_situation_catalyst_effect = { SITUATION = ck_american_question CATALYST = ck_catalyst_us_corporate_charter CHARACTER = root }
+	ck_fire_situation_catalyst_effect = { SITUATION = ck_corporate_wars CATALYST = ck_catalyst_cc_incorporation CHARACTER = root }
+}
+
+# root = situation, on_start of Balkanization: free the corporate cities and the kingdoms, then let each bloc gather
+ck_us_balkanization_start_effect = {
+	title:e_united_states.holder ?= {
+		every_vassal = {
+			limit = {
+				OR = {
+					has_government = republic_government
+					highest_held_title_tier >= tier_kingdom
+				}
+			}
+			ck_eu_leave_union_effect = yes
+		}
+	}
+	# the strongest independent ruler of each bloc invites the rest of the bloc to join it
+	random_independent_ruler = {
+		limit = {
+			ck_us_capital_in_america_trigger = yes
+			ck_us_red_trigger = yes
+			NOT = { has_title = title:e_united_states }
+		}
+		weight = { base = 1 modifier = { add = ck_realm_counties_us } }
+		save_scope_as = ck_us_bloc_leader
+		set_variable = { name = ck_us_bloc_size value = ck_realm_counties_us years = 1 }
+		ck_us_bloc_invitations_effect = { BLOC = red }
+	}
+	random_independent_ruler = {
+		limit = {
+			ck_us_capital_in_america_trigger = yes
+			ck_us_blue_trigger = yes
+			NOT = { has_title = title:e_united_states }
+			NOT = { has_government = republic_government }
+		}
+		weight = { base = 1 modifier = { add = ck_realm_counties_us } }
+		save_scope_as = ck_us_bloc_leader
+		set_variable = { name = ck_us_bloc_size value = ck_realm_counties_us years = 1 }
+		ck_us_bloc_invitations_effect = { BLOC = blue }
+	}
+	every_player = {
+		limit = { ck_us_capital_in_america_trigger = yes }
+		trigger_event = ck_american.0050
+	}
+}
+
+# root = bloc leader (scope:ck_us_bloc_leader): smaller independent rulers of the same bloc are invited (ck_american.0040)
+ck_us_bloc_invitations_effect = {
+	every_independent_ruler = {
+		limit = {
+			this != scope:ck_us_bloc_leader
+			ck_us_capital_in_america_trigger = yes
+			ck_us_$BLOC$_trigger = yes
+			NOT = { has_title = title:e_united_states }
+			NOT = { has_government = republic_government }
+			highest_held_title_tier < tier_empire
+			ck_realm_counties_us < scope:ck_us_bloc_leader.var:ck_us_bloc_size
+		}
+		trigger_event = { id = ck_american.0040 days = { 1 30 } }
+	}
+}
+
+# root = character: becomes holder of e_united_states (re-founding)
+ck_us_create_union_effect = {
+	create_title_and_vassal_change = {
+		type = created
+		save_scope_as = change
+		add_claim_on_loss = no
+	}
+	title:e_united_states = {
+		change_title_holder = {
+			holder = root
+			change = scope:change
+		}
+	}
+	resolve_title_and_vassal_change = scope:change
+}
+
+# root = president: suspend Congress (no council rights for feudal vassals)
+ck_us_suspend_congress_effect = {
+	every_vassal = {
+		limit = { government_has_flag = government_is_feudal }
+		vassal_contract_set_obligation_level = { type = council_rights level = 0 }
+	}
+}
+
+# A war has ended: $WINNER$ beat $LOSER$. The independence-war cases are handled in the on_actions.
+ck_us_war_result_effect = {
+	if = {
+		limit = {
+			$WINNER$ = { has_title = title:e_united_states }
+			$LOSER$ = { ck_us_member_trigger = no }
+		}
+		ck_fire_situation_catalyst_effect = { SITUATION = ck_american_question CATALYST = ck_catalyst_us_external_victory CHARACTER = $WINNER$ }
+		if = {
+			limit = {
+				$LOSER$ = { capital_county ?= { any_this_title_or_de_jure_above = { this = title:h_americas } } }
+			}
+			ck_fire_situation_catalyst_effect = { SITUATION = ck_american_question CATALYST = ck_catalyst_us_continental_conquest CHARACTER = $WINNER$ }
+		}
+	}
+	else_if = {
+		limit = {
+			$LOSER$ = { has_title = title:e_united_states }
+			$WINNER$ = { ck_us_member_trigger = no }
+		}
+		ck_fire_situation_catalyst_effect = { SITUATION = ck_american_question CATALYST = ck_catalyst_us_external_defeat CHARACTER = $LOSER$ }
+	}
+}

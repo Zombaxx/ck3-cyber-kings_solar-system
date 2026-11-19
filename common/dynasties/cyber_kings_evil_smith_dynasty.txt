@@ -1,0 +1,11 @@
+﻿# Cyber Kings 2026-11-18 (modder 17:56): a Smith dynasty of the Evil branch, separate from the main Smiths (77801).
+# Evil Jerry (778013) founds it; Evil Morty (778015) belongs to it.
+# 18:01: likewise a Sanchez dynasty of the Evil branch (77797) for Evil Rick (778010) and Evil Beth (778012), mirroring the main Sanchezes (77800). Name: localization/english/cyber_evil_smith_l_english.yml
+77798 = {
+	name = "dynn_ck_77798"
+	culture = "mid_atlantic"
+}
+77797 = {
+	name = "dynn_ck_77797"
+	culture = "mid_atlantic"
+}

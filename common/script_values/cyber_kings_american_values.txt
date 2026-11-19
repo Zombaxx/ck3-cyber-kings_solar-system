@@ -1,0 +1,30 @@
+# Cyber Kings (2026-11-17): values for The American Question. _dev/DLC_ADAPTATION.md section 18.
+ck_us_share_hold = 0.5          # Secession Crisis / Civil War / Corporate Secession: below this share of the Union the president's realm balkanizes
+ck_us_share_refound = 0.35      # Re-found the Union: share a ruler must hold
+ck_us_share_imperial = 0.5      # Imperial Presidency: share the president's realm must hold
+ck_us_share_bloc_majority = 0.5 # Progressive Commonwealth: blue counties' share of the Union
+ck_americas_share_required = 0.5 # Proclaim the Hegemony of the Americas
+ck_us_polarization_start = 40
+ck_us_polarization_high = 60    # an election at or above this pushes toward division
+ck_us_polarization_low = 30     # an election at or below this pushes back toward the status quo
+ck_us_election_years = 4
+
+ck_us_total_counties = { value = 0 title:e_united_states = { every_de_jure_county = { add = 1 } } }
+ck_realm_counties_us = { value = 0 every_realm_county = { limit = { empire ?= title:e_united_states } add = 1 } }
+ck_us_hold_counties = { value = ck_us_total_counties multiply = ck_us_share_hold ceiling = yes }
+ck_us_refound_counties = { value = ck_us_total_counties multiply = ck_us_share_refound ceiling = yes }
+ck_us_imperial_counties = { value = ck_us_total_counties multiply = ck_us_share_imperial ceiling = yes }
+ck_us_refound_progress = { value = ck_realm_counties_us multiply = 100 divide = ck_us_refound_counties max = 100 }
+
+# bloc counties of the de jure Union (county culture)
+ck_us_blue_counties = { value = 0 title:e_united_states = { every_de_jure_county = { limit = { culture ?= { ck_us_blue_culture_trigger = yes } } add = 1 } } }
+ck_us_red_counties = { value = 0 title:e_united_states = { every_de_jure_county = { limit = { culture ?= { ck_us_red_culture_trigger = yes } } add = 1 } } }
+ck_us_quarter_counties = { value = ck_us_total_counties multiply = 0.25 ceiling = yes }
+ck_us_majority_counties = { value = ck_us_total_counties multiply = ck_us_share_bloc_majority ceiling = yes }
+ck_us_supermajority_counties = { value = ck_us_total_counties multiply = 0.6 ceiling = yes }
+
+# the Hegemony of the Americas
+ck_americas_total_counties = { value = 0 title:h_americas = { every_de_jure_county = { add = 1 } } }
+ck_realm_counties_americas = { value = 0 every_realm_county = { limit = { any_this_title_or_de_jure_above = { this = title:h_americas } } add = 1 } }
+ck_americas_required_counties = { value = ck_americas_total_counties multiply = ck_americas_share_required ceiling = yes }
+ck_americas_progress = { value = ck_realm_counties_americas multiply = 100 divide = ck_americas_required_counties max = 100 }

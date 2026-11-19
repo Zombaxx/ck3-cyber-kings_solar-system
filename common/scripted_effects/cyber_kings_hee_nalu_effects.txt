@@ -4,6 +4,14 @@
 
 # Rewards for a session that went well, by the kind of break.
 hee_nalu_break_rewards_effect = {
+	if = {	# 2026-11-18: adventurers fish between the sets
+		limit = {
+			has_government = landless_adventurer_government
+			exists = domicile
+		}
+		custom_tooltip = hee_nalu.reward.fishing.tt
+		domicile = { change_provisions = minor_provisions_gain }
+	}
 	if = {
 		limit = { exists = scope:hee_nalu_sacred }
 		custom_tooltip = hee_nalu.reward.sacred.tt
@@ -69,6 +77,15 @@ hee_nalu_record_break_effect = {
 			}
 			if = {
 				limit = { var:hee_nalu_sacred_breaks = 9 }	# all nine holy sites, on four worlds
+				if = {	# 2026-11-18: an adventurer's Search refills the camp
+					limit = {
+						has_government = landless_adventurer_government
+						exists = domicile
+					}
+					custom_tooltip = hee_nalu.search.wanderer.tt
+					domicile = { change_provisions = max_provisions }
+					add_prestige = medium_prestige_gain
+				}
 				send_interface_toast = {
 					type = event_toast_effect_good
 					title = hee_nalu.search.all.toast

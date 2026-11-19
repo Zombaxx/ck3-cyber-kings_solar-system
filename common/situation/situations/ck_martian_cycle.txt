@@ -1,0 +1,191 @@
+﻿# Cyber Kings (2026-11-17): The Martian Cycle - Mars falls apart and is reunited again and again.
+# Design: _dev/DLC_ADAPTATION.md section 7a. Structure follows vanilla tgp_dynastic_cycle.txt, but with the generic
+# situation window (the vanilla dynastic-cycle window and map mode are hard-wired to China).
+# Phases: anarchy -> unification -> stability (set by ck_restore_martian_hegemony_decision) -> decline -> stability or anarchy.
+# Catalysts are fired from common/on_action/cyber_situations_on_actions.txt and from this file's on_yearly.
+
+ck_martian_cycle = {
+	window = situation
+	situation_group_type = major
+	is_unique = yes
+	map_mode = participant_groups
+	gui_tooltip_group_focused = yes
+	illustration = "gfx/interface/illustrations/decisions/ep3_decision_roman_restoration.dds"
+	icon = { reference = "gfx/interface/icons/situation_types/dynastic_cycle.dds" }
+	start_phase = ck_mars_anarchy
+
+	sub_regions = {
+		ck_mars = {
+			icon = "gfx/interface/icons/situation_types/dynastic_cycle.dds"
+			map_color = { 0.8 0.35 0.2 }
+			geographical_regions = { ckworld_mars }
+		}
+	}
+
+	participant_groups = {
+		ck_mars_hegemon = {
+			icon = "gfx/interface/icons/situations/situation_modifier_character.dds"
+			map_color = { 1.0 0.85 0.25 }
+			is_character_valid = { has_title = title:h_mars }
+		}
+		ck_mars_olympians = {
+			icon = "gfx/interface/icons/situations/situation_modifier_faith.dds"
+			map_color = { 0.35 0.55 1.0 }
+			require_capital_in_sub_region = yes
+			is_character_valid = {
+				faith.religion = religion:olympic_religion
+				highest_held_title_tier >= tier_duchy
+			}
+		}
+		ck_mars_great_houses = {
+			icon = "gfx/interface/icons/situations/situation_modifier_military.dds"
+			map_color = { 0.75 0.2 0.2 }
+			require_capital_in_sub_region = yes
+			is_character_valid = { highest_held_title_tier >= tier_kingdom }
+		}
+		ck_mars_lords = {
+			icon = "gfx/interface/icons/situations/situation_modifier_subject.dds"
+			map_color = { 0.55 0.5 0.45 }
+		}
+	}
+
+	on_yearly = {
+		ck_martian_cycle_yearly_effect = yes
+	}
+
+	phases = {
+		ck_mars_anarchy = {
+			illustration = "gfx/interface/illustrations/decisions/fractious.dds"
+			icon = "gfx/interface/icons/situations/situation_modifier_military.dds"
+			future_phases = {
+				ck_mars_unification = {
+					takeover_type = points
+					takeover_points = 100
+					catalysts = {
+						ck_catalyst_mars_conquest = 10
+						ck_catalyst_mars_crown_formed = 30
+						ck_catalyst_mars_great_realm = 20
+					}
+				}
+				ck_mars_stability = { }
+			}
+			modifier_sets = {
+				ck_mars_anarchy_effects = {
+					icon = "gfx/interface/icons/situations/situation_modifier_military.dds"
+					ck_mars_olympians = {
+						character_modifier = { attacker_advantage = 2 monthly_prestige = 0.5 ai_war_chance = 0.25 }
+					}
+					ck_mars_great_houses = {
+						character_modifier = { attacker_advantage = 2 monthly_prestige = 0.5 ai_war_chance = 0.25 }
+					}
+					ck_mars_lords = {
+						character_modifier = { defender_advantage = 2 ai_war_chance = 0.1 }
+						county_modifier = { monthly_control_change = -0.1 }
+					}
+				}
+			}
+		}
+
+		ck_mars_unification = {
+			illustration = "gfx/interface/illustrations/decisions/decision_found_kingdom.dds"
+			icon = "gfx/interface/icons/situations/situation_modifier_character.dds"
+			future_phases = {
+				ck_mars_stability = { }
+				ck_mars_anarchy = {
+					takeover_type = points
+					takeover_points = 100
+					catalysts = {
+						ck_catalyst_mars_unifier_fell = 40
+						ck_catalyst_mars_crown_lost = 20
+						ck_catalyst_mars_stalled = 10
+					}
+				}
+			}
+			modifier_sets = {
+				ck_mars_unification_effects = {
+					icon = "gfx/interface/icons/situations/situation_modifier_character.dds"
+					ck_mars_olympians = {
+						character_modifier = { monthly_prestige_gain_mult = 0.15 legitimacy_gain_mult = 0.15 title_creation_cost_mult = -0.25 }
+					}
+					ck_mars_great_houses = {
+						character_modifier = { monthly_prestige_gain_mult = 0.15 legitimacy_gain_mult = 0.15 title_creation_cost_mult = -0.25 }
+					}
+					ck_mars_lords = {
+						character_modifier = { vassal_opinion = -5 levy_size = -0.1 }
+					}
+				}
+			}
+		}
+
+		ck_mars_stability = {
+			illustration = "gfx/interface/illustrations/decisions/decision_golden_age.dds"
+			icon = "gfx/interface/icons/situations/situation_modifier_subject.dds"
+			future_phases = {
+				ck_mars_decline = {
+					takeover_type = points
+					takeover_points = 100
+					catalysts = {
+						ck_catalyst_mars_hegemon_succession = 35
+						ck_catalyst_mars_hegemon_defeat = 40
+						ck_catalyst_mars_civil_war = 25
+						ck_catalyst_mars_passing_years = 2
+					}
+				}
+				ck_mars_anarchy = { }
+			}
+			modifier_sets = {
+				ck_mars_stability_effects = {
+					icon = "gfx/interface/icons/situations/situation_modifier_subject.dds"
+					ck_mars_hegemon = {
+						character_modifier = { vassal_opinion = 10 monthly_legitimacy_add = 0.5 levy_size = 0.15 domain_tax_mult = 0.1 }
+						county_modifier = { monthly_control_change = 0.1 prosperity_growth_factor = 0.1 }
+					}
+					all = {
+						county_modifier = { popular_opinion_add = 5 }
+					}
+				}
+			}
+		}
+
+		ck_mars_decline = {
+			illustration = "gfx/interface/illustrations/decisions/decision_legitimacy.dds"
+			icon = "gfx/interface/icons/situations/situation_modifier_diplomacy.dds"
+			max_duration = { years = 30 }
+			max_duration_next_phase = highest_points
+			future_phases = {
+				ck_mars_stability = {
+					takeover_type = points
+					takeover_points = 100
+					catalysts = {
+						ck_catalyst_mars_hegemon_victory = 30
+						ck_catalyst_mars_reform = 15
+					}
+				}
+				ck_mars_anarchy = {
+					takeover_type = points
+					takeover_points = 100
+					catalysts = {
+						ck_catalyst_mars_hegemon_defeat = 35
+						ck_catalyst_mars_civil_war = 25
+						ck_catalyst_mars_hegemon_succession = 20
+					}
+				}
+			}
+			modifier_sets = {
+				ck_mars_decline_effects = {
+					icon = "gfx/interface/icons/situations/situation_modifier_diplomacy.dds"
+					ck_mars_hegemon = {
+						character_modifier = { vassal_opinion = -15 monthly_legitimacy_add = -0.5 levy_size = -0.1 }
+						county_modifier = { monthly_control_change = -0.1 }
+					}
+					ck_mars_great_houses = {
+						character_modifier = { opinion_of_liege = -10 ai_war_chance = 0.25 }
+					}
+					ck_mars_olympians = {
+						character_modifier = { opinion_of_liege = -10 ai_war_chance = 0.25 }
+					}
+				}
+			}
+		}
+	}
+}

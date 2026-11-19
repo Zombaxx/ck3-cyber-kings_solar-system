@@ -66244,11 +66244,15 @@
 	rite = divine_cycle_rite
 	martial = 20
 	trait = clone
+	father = 9110950	# 2026-11-17 21:15: clone of the Tau Ceti Voyage Admiral (cyber_kings_tau_ceti.txt)
 	trait = intellect_good_3
-	5986.1.1 = { birth = yes }
-	6014.1.1 = { trait = full_cybernetic_conversion }
+	40.1.1 = { birth = yes }	# 2026-11-17 21:15 (modder 21:03): cloned from the Admiral long before the voyage (ruling 11-13: ~AP 1-50); was 5986
+	70.1.1 = { trait = full_cybernetic_conversion }	# 2026-11-17 21:15: converted as an adult, long before the voyage (was 6014)
 	7437.1.1 = { death = yes }
 	7050.9.15 = { effect = { add_character_flag = do_not_generate_starting_family } }
+	6947.7.2 = { effect = { add_character_flag = ck_roswell_crash } }	# 2026-11-17 20:45: crash-lands at Roswell, captured incapacitated
+	6955.1.1 = { effect = { add_character_flag = ck_held_at_area_51 } }	# moved to Area 51; Earth labs reverse-engineer him into the AI-cywizard houses (cyber_kings_ai_cywizards.txt)
+	7026.1.1 = { effect = { add_character_flag = ck_escaped_area_51 } }	# escapes in the 2026 disaster
 }
 107190 = {
 	name = "cyn_Emmanuel"
@@ -75092,6 +75096,7 @@
 	mother = 108184
 	7031.1.1 = { birth = yes }
 	7099.1.1 = { death = yes }
+	7050.9.15 = { employer = 8101004 }	# 2026-11-18 county taken into the ruler's personal demesne (gen_demesnes.py)
 }
 108186 = {
 	name = "ckn_Dilzhoovklaulroork"
@@ -77209,6 +77214,7 @@
 	mother = 108414
 	7018.1.1 = { birth = yes }
 	7088.1.1 = { death = yes }
+	7050.9.15 = { employer = 107175 }	# 2026-11-17 20:20: county taken into Illuminous's domain; serves at his court
 }
 108416 = {
 	name = "cyn_Bin"
@@ -77307,6 +77313,7 @@
 	mother = 108424
 	7029.1.1 = { birth = yes }
 	7079.1.1 = { death = yes }
+	7050.9.15 = { employer = 8101004 }	# 2026-11-18 county taken into the ruler's personal demesne (gen_demesnes.py)
 }
 108426 = {
 	name = "ckn_Trumrimgurkraus"
@@ -78723,6 +78730,7 @@
 	mother = 108574
 	7025.1.1 = { birth = yes }
 	7091.1.1 = { death = yes }
+	7050.9.15 = { employer = 8101004 }	# 2026-11-18 county taken into the ruler's personal demesne (gen_demesnes.py)
 }
 108576 = {
 	name = "ckn_Ruvgailaeg"
@@ -79715,6 +79723,7 @@
 	mother = 108674
 	7017.1.1 = { birth = yes }
 	7081.1.1 = { death = yes }
+	7050.9.15 = { employer = 8101004 }	# 2026-11-18 county taken into the ruler's personal demesne (gen_demesnes.py)
 }
 108676 = {
 	name = "ckn_Riarkaegbeir"
@@ -97940,6 +97949,7 @@
 	mother = 110594
 	7027.1.1 = { birth = yes }
 	7096.1.1 = { death = yes }
+	7050.9.15 = { employer = 110745 }	# 2026-11-18 county taken into the ruler's personal demesne (gen_demesnes.py)
 }
 110596 = {
 	name = "ckn_Gagguiz"
@@ -100252,6 +100262,7 @@
 	mother = 110824
 	7015.1.1 = { birth = yes }
 	7068.1.1 = { death = yes }
+	7050.9.15 = { employer = 110745 }	# 2026-11-18 county taken into the ruler's personal demesne (gen_demesnes.py)
 }
 110826 = {
 	name = "ckn_Suxzhaurk"
@@ -104427,6 +104438,7 @@
 	mother = 111234
 	7025.1.1 = { birth = yes }
 	7097.1.1 = { death = yes }
+	7050.9.15 = { employer = 110745 }	# 2026-11-18 county taken into the ruler's personal demesne (gen_demesnes.py)
 }
 111236 = {
 	name = "ckn_Glebam"
@@ -108974,6 +108986,7 @@
 	mother = 111714
 	7020.1.1 = { birth = yes }
 	7072.1.1 = { death = yes }
+	7050.9.15 = { employer = 666666 }	# 2026-11-18 county taken into the ruler's personal demesne (gen_demesnes.py)
 }
 111716 = {
 	name = "ckn_Gliszhoz"
@@ -109683,6 +109696,7 @@
 	mother = 111784
 	7032.1.1 = { birth = yes }
 	7084.1.1 = { death = yes }
+	7050.9.15 = { employer = 666666 }	# 2026-11-18 county taken into the ruler's personal demesne (gen_demesnes.py)
 }
 111786 = {
 	name = "ckn_Boolzeindsoo"
@@ -109985,6 +109999,7 @@
 	mother = 111814
 	7030.1.1 = { birth = yes }
 	7085.1.1 = { death = yes }
+	7050.9.15 = { employer = 666666 }	# 2026-11-18 county taken into the ruler's personal demesne (gen_demesnes.py)
 }
 111816 = {
 	name = "ckn_Rilsuxtrog"
@@ -110797,6 +110812,7 @@
 	mother = 111904
 	7026.1.1 = { birth = yes }
 	7081.1.1 = { death = yes }
+	7050.9.15 = { employer = 666666 }	# 2026-11-18 county taken into the ruler's personal demesne (gen_demesnes.py)
 }
 111906 = {
 	name = "ckn_Kozglegshin"
@@ -129722,6 +129738,7 @@
 	mother = 113784
 	7012.1.1 = { birth = yes }
 	7064.1.1 = { death = yes }
+	7050.9.15 = { employer = 114125 }	# 2026-11-18 county taken into the ruler's personal demesne (gen_demesnes.py)
 }
 113786 = {
 	name = "ckn_Maarten"
@@ -130710,6 +130727,7 @@
 	mother = 113884
 	7011.1.1 = { birth = yes }
 	7066.1.1 = { death = yes }
+	7050.9.15 = { employer = 114605 }	# 2026-11-18 county taken into the ruler's personal demesne (gen_demesnes.py)
 }
 113886 = {
 	name = "ckn_Boolzeindsoo"
@@ -131920,6 +131938,7 @@
 	mother = 114004
 	7028.1.1 = { birth = yes }
 	7097.1.1 = { death = yes }
+	7050.9.15 = { employer = 114125 }	# 2026-11-18 county taken into the ruler's personal demesne (gen_demesnes.py)
 }
 114006 = {
 	name = "ckn_Ruizourguv"
@@ -136073,6 +136092,7 @@
 	mother = 114414
 	7018.1.1 = { birth = yes }
 	7078.1.1 = { death = yes }
+	7050.9.15 = { employer = 114605 }	# 2026-11-18 county taken into the ruler's personal demesne (gen_demesnes.py)
 }
 114416 = {
 	name = "ckn_Baethraum"
@@ -137530,6 +137550,7 @@
 	rite = divine_cycle_rite
 	7016.1.1 = { birth = yes }
 	7081.1.1 = { death = yes }
+	7050.9.15 = { employer = 114595 }	# 2026-11-18 county taken into the ruler's personal demesne (gen_demesnes.py)
 }
 114570 = {
 	name = "ckn_Dressoogmaug"
@@ -138087,6 +138108,7 @@
 	mother = 114624
 	7010.1.1 = { birth = yes }
 	7073.1.1 = { death = yes }
+	7050.9.15 = { employer = 114595 }	# 2026-11-18 county taken into the ruler's personal demesne (gen_demesnes.py)
 }
 114626 = {
 	name = "ckn_Pauntreis"
@@ -139396,6 +139418,7 @@
 	mother = 114754
 	7022.1.1 = { birth = yes }
 	7096.1.1 = { death = yes }
+	7050.9.15 = { employer = 114595 }	# 2026-11-18 county taken into the ruler's personal demesne (gen_demesnes.py)
 }
 114756 = {
 	name = "ckn_Eithtoxdrurk"
@@ -142939,6 +142962,7 @@
 	mother = 115134
 	7028.1.1 = { birth = yes }
 	7097.1.1 = { death = yes }
+	7050.9.15 = { employer = 114605 }	# 2026-11-18 county taken into the ruler's personal demesne (gen_demesnes.py)
 }
 115136 = {
 	name = "ckn_Tathnixthaug"
@@ -145778,6 +145802,7 @@
 	mother = 115444
 	7031.1.1 = { birth = yes }
 	7093.1.1 = { death = yes }
+	7050.9.15 = { employer = 114605 }	# 2026-11-18 county taken into the ruler's personal demesne (gen_demesnes.py)
 }
 115446 = {
 	name = "ckn_Guivklath"
@@ -151246,7 +151271,7 @@
 116160 = {
 	name = "ckn_Thurkdeth"
 	dynasty = 116160
-	culture = ckw_tritonian
+	culture = ckw_tuonelan
 	rite = valentinianism
 	stewardship = 10
 	trait = education_stewardship_4
@@ -151259,7 +151284,7 @@
 116161 = {
 	name = "ckn_Vaivkluis"
 	dynasty = 116160
-	culture = ckw_tritonian
+	culture = ckw_tuonelan
 	rite = valentinianism
 	father = 116160
 	6961.1.1 = { birth = yes }
@@ -151268,7 +151293,7 @@
 116162 = {
 	name = "ckn_Sigorzhoov"
 	dynasty = 116160
-	culture = ckw_tritonian
+	culture = ckw_tuonelan
 	rite = valentinianism
 	father = 116161
 	6986.1.1 = { birth = yes }
@@ -151278,7 +151303,7 @@
 116163 = {
 	name = "ckn_Thosnuirklain"
 	dynasty = 116160
-	culture = ckw_tritonian
+	culture = ckw_tuonelan
 	rite = valentinianism
 	father = 116161
 	6989.1.1 = { birth = yes }
@@ -151287,7 +151312,7 @@
 116164 = {
 	name = "ckn_Kobaeth"
 	female = yes
-	culture = ckw_tritonian
+	culture = ckw_tuonelan
 	rite = valentinianism
 	6995.1.1 = { birth = yes }
 	7011.1.1 = { add_spouse = 116162 }
@@ -151296,7 +151321,7 @@
 116165 = {
 	name = "ckn_Zhuishmairuis"
 	dynasty = 116160
-	culture = ckw_tritonian
+	culture = ckw_tuonelan
 	rite = valentinianism
 	father = 116162
 	mother = 116164
@@ -151306,7 +151331,7 @@
 116166 = {
 	name = "ckn_Beindvorgleim"
 	dynasty = 116160
-	culture = ckw_tritonian
+	culture = ckw_tuonelan
 	rite = valentinianism
 	father = 116162
 	mother = 116164
@@ -151317,7 +151342,7 @@
 	name = "ckn_Nuimrae"
 	female = yes
 	dynasty = 116160
-	culture = ckw_tritonian
+	culture = ckw_tuonelan
 	rite = valentinianism
 	father = 116162
 	mother = 116164
@@ -151327,7 +151352,7 @@
 116168 = {
 	name = "ckn_Saul"
 	dynasty = 116160
-	culture = ckw_tritonian
+	culture = ckw_tuonelan
 	rite = valentinianism
 	father = 116163
 	7017.1.1 = { birth = yes }
@@ -151336,7 +151361,7 @@
 116169 = {
 	name = "ckn_Taivtan"
 	dynasty = 116160
-	culture = ckw_tritonian
+	culture = ckw_tuonelan
 	rite = valentinianism
 	father = 116163
 	7019.1.1 = { birth = yes }
@@ -151345,7 +151370,7 @@
 116170 = {
 	name = "ckn_Sunoolrein"
 	dynasty = 116170
-	culture = ckw_tritonian
+	culture = ckw_tuonelan
 	rite = valentinianism
 	diplomacy = 10
 	trait = education_diplomacy_4
@@ -151359,7 +151384,7 @@
 116171 = {
 	name = "ckn_Thaenzhiaxkluir"
 	dynasty = 116170
-	culture = ckw_tritonian
+	culture = ckw_tuonelan
 	rite = valentinianism
 	father = 116170
 	6960.1.1 = { birth = yes }
@@ -151368,7 +151393,7 @@
 116172 = {
 	name = "ckn_Thaenzhiaxkluir"
 	dynasty = 116170
-	culture = ckw_tritonian
+	culture = ckw_tuonelan
 	rite = valentinianism
 	father = 116171
 	6990.1.1 = { birth = yes }
@@ -151378,7 +151403,7 @@
 116173 = {
 	name = "ckn_Ruimkluig"
 	dynasty = 116170
-	culture = ckw_tritonian
+	culture = ckw_tuonelan
 	rite = valentinianism
 	father = 116171
 	6994.1.1 = { birth = yes }
@@ -151387,7 +151412,7 @@
 116174 = {
 	name = "ckn_Kobaeth"
 	female = yes
-	culture = ckw_tritonian
+	culture = ckw_tuonelan
 	rite = valentinianism
 	7003.1.1 = { birth = yes }
 	7019.1.1 = { add_spouse = 116172 }
@@ -151396,7 +151421,7 @@
 116175 = {
 	name = "ckn_August"
 	dynasty = 116170
-	culture = ckw_tritonian
+	culture = ckw_tuonelan
 	rite = valentinianism
 	father = 116172
 	mother = 116174
@@ -151406,7 +151431,7 @@
 116176 = {
 	name = "ckn_Zivpezdraetzvom"
 	dynasty = 116170
-	culture = ckw_tritonian
+	culture = ckw_tuonelan
 	rite = valentinianism
 	father = 116172
 	mother = 116174
@@ -151416,7 +151441,7 @@
 116177 = {
 	name = "ckn_Vaivkluis"
 	dynasty = 116170
-	culture = ckw_tritonian
+	culture = ckw_tuonelan
 	rite = valentinianism
 	father = 116172
 	mother = 116174
@@ -151426,7 +151451,7 @@
 116178 = {
 	name = "ckn_Puxnis"
 	dynasty = 116170
-	culture = ckw_tritonian
+	culture = ckw_tuonelan
 	rite = valentinianism
 	father = 116173
 	7014.1.1 = { birth = yes }
@@ -151435,7 +151460,7 @@
 116179 = {
 	name = "ckn_Glagthirk"
 	dynasty = 116170
-	culture = ckw_tritonian
+	culture = ckw_tuonelan
 	rite = valentinianism
 	father = 116173
 	7018.1.1 = { birth = yes }
@@ -168963,7 +168988,7 @@
 117950 = {
 	name = "ckn_Mondkluvbaethzhuir"
 	dynasty = 117950
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = theravada
 	martial = 10
 	trait = education_martial_4
@@ -168977,7 +169002,7 @@
 117951 = {
 	name = "ckn_Glogtuithbuin"
 	dynasty = 117950
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = theravada
 	father = 117950
 	6974.1.1 = { birth = yes }
@@ -168986,7 +169011,7 @@
 117952 = {
 	name = "ckn_Daemvian"
 	dynasty = 117950
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = theravada
 	father = 117951
 	6998.1.1 = { birth = yes }
@@ -168996,7 +169021,7 @@
 117953 = {
 	name = "ckn_Daemvian"
 	dynasty = 117950
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = theravada
 	father = 117951
 	7003.1.1 = { birth = yes }
@@ -169005,7 +169030,7 @@
 117954 = {
 	name = "ckn_Gandbooz"
 	female = yes
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = theravada
 	6989.1.1 = { birth = yes }
 	7014.1.1 = { add_spouse = 117952 }
@@ -169014,7 +169039,7 @@
 117955 = {
 	name = "ckn_Piaxthuiv"
 	dynasty = 117950
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = theravada
 	father = 117952
 	mother = 117954
@@ -169025,7 +169050,7 @@
 	name = "ckn_Rutaeshkush"
 	female = yes
 	dynasty = 117950
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = theravada
 	father = 117952
 	mother = 117954
@@ -169036,7 +169061,7 @@
 	name = "ckn_Glaumglaig"
 	female = yes
 	dynasty = 117950
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = theravada
 	father = 117952
 	mother = 117954
@@ -169046,7 +169071,7 @@
 117958 = {
 	name = "ckn_Seeixkaezkloon"
 	dynasty = 117950
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = theravada
 	father = 117953
 	7025.1.1 = { birth = yes }
@@ -169055,7 +169080,7 @@
 117959 = {
 	name = "ckn_Mishthutz"
 	dynasty = 117950
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = theravada
 	father = 117953
 	7030.1.1 = { birth = yes }
@@ -169164,7 +169189,7 @@
 117970 = {
 	name = "ckn_Louie"
 	dynasty = 117970
-	culture = ckw_tuonelan
+	culture = antecessor
 	rite = theravada
 	stewardship = 10
 	trait = education_stewardship_4
@@ -169177,7 +169202,7 @@
 117971 = {
 	name = "ckn_Piaxthuiv"
 	dynasty = 117970
-	culture = ckw_tuonelan
+	culture = antecessor
 	rite = theravada
 	father = 117970
 	6952.1.1 = { birth = yes }
@@ -169186,7 +169211,7 @@
 117972 = {
 	name = "ckn_Glaish"
 	dynasty = 117970
-	culture = ckw_tuonelan
+	culture = antecessor
 	rite = theravada
 	father = 117971
 	6985.1.1 = { birth = yes }
@@ -169196,7 +169221,7 @@
 117973 = {
 	name = "ckn_Piaxthuiv"
 	dynasty = 117970
-	culture = ckw_tuonelan
+	culture = antecessor
 	rite = theravada
 	father = 117971
 	6988.1.1 = { birth = yes }
@@ -169205,7 +169230,7 @@
 117974 = {
 	name = "ckn_Koshdiathsomnuiv"
 	female = yes
-	culture = ckw_tuonelan
+	culture = antecessor
 	rite = theravada
 	6997.1.1 = { birth = yes }
 	7013.1.1 = { add_spouse = 117972 }
@@ -169214,7 +169239,7 @@
 117975 = {
 	name = "ckn_Gurkverkluitz"
 	dynasty = 117970
-	culture = ckw_tuonelan
+	culture = antecessor
 	rite = theravada
 	father = 117972
 	mother = 117974
@@ -169224,7 +169249,7 @@
 117976 = {
 	name = "ckn_Simmuitz"
 	dynasty = 117970
-	culture = ckw_tuonelan
+	culture = antecessor
 	rite = theravada
 	father = 117972
 	mother = 117974
@@ -169235,7 +169260,7 @@
 	name = "ckn_Simmuitz"
 	female = yes
 	dynasty = 117970
-	culture = ckw_tuonelan
+	culture = antecessor
 	rite = theravada
 	father = 117972
 	mother = 117974
@@ -169246,7 +169271,7 @@
 	name = "ckn_Poovzhoushdraum"
 	female = yes
 	dynasty = 117970
-	culture = ckw_tuonelan
+	culture = antecessor
 	rite = theravada
 	father = 117973
 	7014.1.1 = { birth = yes }
@@ -169255,7 +169280,7 @@
 117979 = {
 	name = "ckn_Glaish"
 	dynasty = 117970
-	culture = ckw_tuonelan
+	culture = antecessor
 	rite = theravada
 	father = 117973
 	7018.1.1 = { birth = yes }
@@ -169264,7 +169289,7 @@
 117980 = {
 	name = "ckn_Giandmurk"
 	dynasty = 117980
-	culture = ckw_tuonelan
+	culture = antecessor
 	rite = theravada
 	stewardship = 10
 	trait = education_stewardship_4
@@ -169277,7 +169302,7 @@
 117981 = {
 	name = "ckn_Greg"
 	dynasty = 117980
-	culture = ckw_tuonelan
+	culture = antecessor
 	rite = theravada
 	father = 117980
 	6963.1.1 = { birth = yes }
@@ -169286,7 +169311,7 @@
 117982 = {
 	name = "ckn_Mathklaurkkaev"
 	dynasty = 117980
-	culture = ckw_tuonelan
+	culture = antecessor
 	rite = theravada
 	father = 117981
 	7001.1.1 = { birth = yes }
@@ -169296,7 +169321,7 @@
 117983 = {
 	name = "ckn_Paul"
 	dynasty = 117980
-	culture = ckw_tuonelan
+	culture = antecessor
 	rite = theravada
 	father = 117981
 	7005.1.1 = { birth = yes }
@@ -169305,7 +169330,7 @@
 117984 = {
 	name = "ckn_Daulshuv"
 	female = yes
-	culture = ckw_tuonelan
+	culture = antecessor
 	rite = theravada
 	7008.1.1 = { birth = yes }
 	7024.1.1 = { add_spouse = 117982 }
@@ -169315,7 +169340,7 @@
 	name = "ckn_Paendroth"
 	female = yes
 	dynasty = 117980
-	culture = ckw_tuonelan
+	culture = antecessor
 	rite = theravada
 	father = 117982
 	mother = 117984
@@ -169326,7 +169351,7 @@
 	name = "ckn_Goulkooth"
 	female = yes
 	dynasty = 117980
-	culture = ckw_tuonelan
+	culture = antecessor
 	rite = theravada
 	father = 117982
 	mother = 117984
@@ -169337,7 +169362,7 @@
 	name = "ckn_Draethdrairk"
 	female = yes
 	dynasty = 117980
-	culture = ckw_tuonelan
+	culture = antecessor
 	rite = theravada
 	father = 117982
 	mother = 117984
@@ -169347,7 +169372,7 @@
 117988 = {
 	name = "ckn_Mishthutz"
 	dynasty = 117980
-	culture = ckw_tuonelan
+	culture = antecessor
 	rite = theravada
 	father = 117983
 	7025.1.1 = { birth = yes }
@@ -169356,7 +169381,7 @@
 117989 = {
 	name = "ckn_Kalle"
 	dynasty = 117980
-	culture = ckw_tuonelan
+	culture = antecessor
 	rite = theravada
 	father = 117983
 	7026.1.1 = { birth = yes }
@@ -169872,7 +169897,7 @@
 118040 = {
 	name = "ckn_M_rten"
 	dynasty = 118040
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = theravada
 	stewardship = 10
 	trait = education_stewardship_4
@@ -169885,7 +169910,7 @@
 118041 = {
 	name = "ckn_Arne"
 	dynasty = 118040
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = theravada
 	father = 118040
 	6971.1.1 = { birth = yes }
@@ -169894,7 +169919,7 @@
 118042 = {
 	name = "ckn_Maarten"
 	dynasty = 118040
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = theravada
 	father = 118041
 	6997.1.1 = { birth = yes }
@@ -169904,7 +169929,7 @@
 118043 = {
 	name = "ckn_Glaish"
 	dynasty = 118040
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = theravada
 	father = 118041
 	6999.1.1 = { birth = yes }
@@ -169913,7 +169938,7 @@
 118044 = {
 	name = "ckn_Paendroth"
 	female = yes
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = theravada
 	7006.1.1 = { birth = yes }
 	7022.1.1 = { add_spouse = 118042 }
@@ -169922,7 +169947,7 @@
 118045 = {
 	name = "ckn_Taevriark"
 	dynasty = 118040
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = theravada
 	father = 118042
 	mother = 118044
@@ -169932,7 +169957,7 @@
 118046 = {
 	name = "ckn_Tosou"
 	dynasty = 118040
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = theravada
 	father = 118042
 	mother = 118044
@@ -169943,7 +169968,7 @@
 	name = "ckn_Kogshouth"
 	female = yes
 	dynasty = 118040
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = theravada
 	father = 118042
 	mother = 118044
@@ -169954,7 +169979,7 @@
 	name = "ckn_Goulkooth"
 	female = yes
 	dynasty = 118040
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = theravada
 	father = 118043
 	7026.1.1 = { birth = yes }
@@ -169963,7 +169988,7 @@
 118049 = {
 	name = "ckn_Taesthooshputznind"
 	dynasty = 118040
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = theravada
 	father = 118043
 	7031.1.1 = { birth = yes }
@@ -169972,7 +169997,7 @@
 118050 = {
 	name = "ckn_Beindvorgleim"
 	dynasty = 118050
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = theravada
 	martial = 10
 	trait = education_martial_4
@@ -169986,7 +170011,7 @@
 118051 = {
 	name = "ckn_Uixgougzootz"
 	dynasty = 118050
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = theravada
 	father = 118050
 	6966.1.1 = { birth = yes }
@@ -169995,7 +170020,7 @@
 118052 = {
 	name = "ckn_Glagthirk"
 	dynasty = 118050
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = theravada
 	father = 118051
 	6999.1.1 = { birth = yes }
@@ -170005,7 +170030,7 @@
 118053 = {
 	name = "ckn_Vaivkluis"
 	dynasty = 118050
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = theravada
 	father = 118051
 	7001.1.1 = { birth = yes }
@@ -170014,7 +170039,7 @@
 118054 = {
 	name = "ckn_Zhuishmairuis"
 	female = yes
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = theravada
 	6996.1.1 = { birth = yes }
 	7015.1.1 = { add_spouse = 118052 }
@@ -170023,7 +170048,7 @@
 118055 = {
 	name = "ckn_Saul"
 	dynasty = 118050
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = theravada
 	father = 118052
 	mother = 118054
@@ -170034,7 +170059,7 @@
 	name = "ckn_Shungoor"
 	female = yes
 	dynasty = 118050
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = theravada
 	father = 118052
 	mother = 118054
@@ -170044,7 +170069,7 @@
 118057 = {
 	name = "ckn_Tendnoos"
 	dynasty = 118050
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = theravada
 	father = 118052
 	mother = 118054
@@ -170054,7 +170079,7 @@
 118058 = {
 	name = "ckn_Ninddeilzoosh"
 	dynasty = 118050
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = theravada
 	father = 118053
 	7021.1.1 = { birth = yes }
@@ -170064,7 +170089,7 @@
 	name = "ckn_Nuimrae"
 	female = yes
 	dynasty = 118050
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = theravada
 	father = 118053
 	7026.1.1 = { birth = yes }
@@ -170678,7 +170703,7 @@
 118120 = {
 	name = "ckn_Simmuitz"
 	dynasty = 118120
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = theravada
 	diplomacy = 10
 	trait = education_diplomacy_4
@@ -170690,7 +170715,7 @@
 118121 = {
 	name = "ckn_Taevriark"
 	dynasty = 118120
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = theravada
 	father = 118120
 	6966.1.1 = { birth = yes }
@@ -170699,7 +170724,7 @@
 118122 = {
 	name = "ckn_Simmuitz"
 	dynasty = 118120
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = theravada
 	father = 118121
 	7000.1.1 = { birth = yes }
@@ -170709,7 +170734,7 @@
 118123 = {
 	name = "ckn_Taesthooshputznind"
 	dynasty = 118120
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = theravada
 	father = 118121
 	7005.1.1 = { birth = yes }
@@ -170718,7 +170743,7 @@
 118124 = {
 	name = "ckn_Zhoothniaz"
 	female = yes
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = theravada
 	7007.1.1 = { birth = yes }
 	7023.1.1 = { add_spouse = 118122 }
@@ -170727,7 +170752,7 @@
 118125 = {
 	name = "ckn_Guivklath"
 	dynasty = 118120
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = theravada
 	father = 118122
 	mother = 118124
@@ -170738,7 +170763,7 @@
 	name = "ckn_Gandbooz"
 	female = yes
 	dynasty = 118120
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = theravada
 	father = 118122
 	mother = 118124
@@ -170749,7 +170774,7 @@
 	name = "ckn_Beshthauz"
 	female = yes
 	dynasty = 118120
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = theravada
 	father = 118122
 	mother = 118124
@@ -170759,7 +170784,7 @@
 118128 = {
 	name = "ckn_Havbard"
 	dynasty = 118120
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = theravada
 	father = 118123
 	7033.1.1 = { birth = yes }
@@ -170769,7 +170794,7 @@
 	name = "ckn_Keitzkliark"
 	female = yes
 	dynasty = 118120
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = theravada
 	father = 118123
 	7037.1.1 = { birth = yes }
@@ -170778,7 +170803,7 @@
 118130 = {
 	name = "ckn_Tailklaimmox"
 	dynasty = 118130
-	culture = ckw_tuonelan
+	culture = antecessor
 	rite = theravada
 	intrigue = 10
 	trait = education_intrigue_4
@@ -170791,7 +170816,7 @@
 118131 = {
 	name = "ckn_Greg"
 	dynasty = 118130
-	culture = ckw_tuonelan
+	culture = antecessor
 	rite = theravada
 	father = 118130
 	6952.1.1 = { birth = yes }
@@ -170800,7 +170825,7 @@
 118132 = {
 	name = "ckn_Monkaeg"
 	dynasty = 118130
-	culture = ckw_tuonelan
+	culture = antecessor
 	rite = theravada
 	father = 118131
 	6988.1.1 = { birth = yes }
@@ -170810,7 +170835,7 @@
 118133 = {
 	name = "ckn_Paiznomdig"
 	dynasty = 118130
-	culture = ckw_tuonelan
+	culture = antecessor
 	rite = theravada
 	father = 118131
 	6989.1.1 = { birth = yes }
@@ -170819,7 +170844,7 @@
 118134 = {
 	name = "ckn_Guvauglaeduim"
 	female = yes
-	culture = ckw_tuonelan
+	culture = antecessor
 	rite = theravada
 	6998.1.1 = { birth = yes }
 	7014.1.1 = { add_spouse = 118132 }
@@ -170828,7 +170853,7 @@
 118135 = {
 	name = "ckn_Simmuitz"
 	dynasty = 118130
-	culture = ckw_tuonelan
+	culture = antecessor
 	rite = theravada
 	father = 118132
 	mother = 118134
@@ -170839,7 +170864,7 @@
 	name = "ckn_Paitz"
 	female = yes
 	dynasty = 118130
-	culture = ckw_tuonelan
+	culture = antecessor
 	rite = theravada
 	father = 118132
 	mother = 118134
@@ -170850,7 +170875,7 @@
 	name = "ckn_Muthbaul"
 	female = yes
 	dynasty = 118130
-	culture = ckw_tuonelan
+	culture = antecessor
 	rite = theravada
 	father = 118132
 	mother = 118134
@@ -170860,7 +170885,7 @@
 118138 = {
 	name = "ckn_Knase"
 	dynasty = 118130
-	culture = ckw_tuonelan
+	culture = antecessor
 	rite = theravada
 	father = 118133
 	7012.1.1 = { birth = yes }
@@ -170869,7 +170894,7 @@
 118139 = {
 	name = "ckn_Glogtuithbuin"
 	dynasty = 118130
-	culture = ckw_tuonelan
+	culture = antecessor
 	rite = theravada
 	father = 118133
 	7013.1.1 = { birth = yes }
@@ -170878,7 +170903,7 @@
 118140 = {
 	name = "ckn_Saul"
 	dynasty = 118140
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	stewardship = 10
 	trait = education_stewardship_4
@@ -170891,7 +170916,7 @@
 118141 = {
 	name = "ckn_Puxnis"
 	dynasty = 118140
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 118140
 	6964.1.1 = { birth = yes }
@@ -170900,7 +170925,7 @@
 118142 = {
 	name = "ckn_Beindvorgleim"
 	dynasty = 118140
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 118141
 	6992.1.1 = { birth = yes }
@@ -170910,7 +170935,7 @@
 118143 = {
 	name = "ckn_Kunvaszhooth"
 	dynasty = 118140
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 118141
 	6994.1.1 = { birth = yes }
@@ -170919,7 +170944,7 @@
 118144 = {
 	name = "ckn_Viagkiathsheind"
 	female = yes
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	7001.1.1 = { birth = yes }
 	7017.1.1 = { add_spouse = 118142 }
@@ -170928,7 +170953,7 @@
 118145 = {
 	name = "ckn_Taivtan"
 	dynasty = 118140
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 118142
 	mother = 118144
@@ -170939,7 +170964,7 @@
 	name = "ckn_Puirris"
 	female = yes
 	dynasty = 118140
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 118142
 	mother = 118144
@@ -170950,7 +170975,7 @@
 	name = "ckn_Glindkligdui"
 	female = yes
 	dynasty = 118140
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 118142
 	mother = 118144
@@ -170961,7 +170986,7 @@
 	name = "ckn_Puirris"
 	female = yes
 	dynasty = 118140
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 118143
 	7023.1.1 = { birth = yes }
@@ -170971,7 +170996,7 @@
 	name = "ckn_Traus"
 	female = yes
 	dynasty = 118140
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 118143
 	7026.1.1 = { birth = yes }
@@ -171183,7 +171208,7 @@
 118170 = {
 	name = "ckn_Kalle"
 	dynasty = 118170
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = theravada
 	stewardship = 10
 	trait = education_stewardship_4
@@ -171196,7 +171221,7 @@
 118171 = {
 	name = "ckn_Seeixkaezkloon"
 	dynasty = 118170
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = theravada
 	father = 118170
 	6946.1.1 = { birth = yes }
@@ -171205,7 +171230,7 @@
 118172 = {
 	name = "ckn_Goorkseigthuthgim"
 	dynasty = 118170
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = theravada
 	father = 118171
 	6983.1.1 = { birth = yes }
@@ -171215,7 +171240,7 @@
 118173 = {
 	name = "ckn_Knase"
 	dynasty = 118170
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = theravada
 	father = 118171
 	6984.1.1 = { birth = yes }
@@ -171224,7 +171249,7 @@
 118174 = {
 	name = "ckn_Taexmithsex"
 	female = yes
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = theravada
 	6983.1.1 = { birth = yes }
 	6999.1.1 = { add_spouse = 118172 }
@@ -171233,7 +171258,7 @@
 118175 = {
 	name = "ckn_Kogtroogvoork"
 	dynasty = 118170
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = theravada
 	father = 118172
 	mother = 118174
@@ -171243,7 +171268,7 @@
 118176 = {
 	name = "ckn_Paul"
 	dynasty = 118170
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = theravada
 	father = 118172
 	mother = 118174
@@ -171254,7 +171279,7 @@
 	name = "ckn_Kitztraiz"
 	female = yes
 	dynasty = 118170
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = theravada
 	father = 118172
 	mother = 118174
@@ -171265,7 +171290,7 @@
 	name = "ckn_Niashdresh"
 	female = yes
 	dynasty = 118170
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = theravada
 	father = 118173
 	7006.1.1 = { birth = yes }
@@ -171275,7 +171300,7 @@
 	name = "ckn_Gootzshonpeilnai"
 	female = yes
 	dynasty = 118170
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = theravada
 	father = 118173
 	7009.1.1 = { birth = yes }
@@ -171586,7 +171611,7 @@
 118210 = {
 	name = "ckn_Piaxthuiv"
 	dynasty = 118210
-	culture = ckw_tuonelan
+	culture = antecessor
 	rite = theravada
 	intrigue = 10
 	trait = education_intrigue_4
@@ -171600,7 +171625,7 @@
 118211 = {
 	name = "ckn_Glogtuithbuin"
 	dynasty = 118210
-	culture = ckw_tuonelan
+	culture = antecessor
 	rite = theravada
 	father = 118210
 	6975.1.1 = { birth = yes }
@@ -171609,7 +171634,7 @@
 118212 = {
 	name = "ckn_Havbard"
 	dynasty = 118210
-	culture = ckw_tuonelan
+	culture = antecessor
 	rite = theravada
 	father = 118211
 	6999.1.1 = { birth = yes }
@@ -171619,7 +171644,7 @@
 118213 = {
 	name = "ckn_Daemvian"
 	dynasty = 118210
-	culture = ckw_tuonelan
+	culture = antecessor
 	rite = theravada
 	father = 118211
 	7000.1.1 = { birth = yes }
@@ -171628,7 +171653,7 @@
 118214 = {
 	name = "ckn_Gosrigthalglim"
 	female = yes
-	culture = ckw_tuonelan
+	culture = antecessor
 	rite = theravada
 	7005.1.1 = { birth = yes }
 	7021.1.1 = { add_spouse = 118212 }
@@ -171637,7 +171662,7 @@
 118215 = {
 	name = "ckn_Tosou"
 	dynasty = 118210
-	culture = ckw_tuonelan
+	culture = antecessor
 	rite = theravada
 	father = 118212
 	mother = 118214
@@ -171648,7 +171673,7 @@
 	name = "ckn_Shamvan"
 	female = yes
 	dynasty = 118210
-	culture = ckw_tuonelan
+	culture = antecessor
 	rite = theravada
 	father = 118212
 	mother = 118214
@@ -171659,7 +171684,7 @@
 	name = "ckn_Daulshuv"
 	female = yes
 	dynasty = 118210
-	culture = ckw_tuonelan
+	culture = antecessor
 	rite = theravada
 	father = 118212
 	mother = 118214
@@ -171669,7 +171694,7 @@
 118218 = {
 	name = "ckn_Keitzkliark"
 	dynasty = 118210
-	culture = ckw_tuonelan
+	culture = antecessor
 	rite = theravada
 	father = 118213
 	7025.1.1 = { birth = yes }
@@ -171679,7 +171704,7 @@
 	name = "ckn_Zerkshein"
 	female = yes
 	dynasty = 118210
-	culture = ckw_tuonelan
+	culture = antecessor
 	rite = theravada
 	father = 118213
 	7027.1.1 = { birth = yes }
@@ -172297,7 +172322,7 @@
 118280 = {
 	name = "ckn_Mishthutz"
 	dynasty = 118280
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = vaishnavism
 	intrigue = 10
 	trait = education_intrigue_4
@@ -172311,7 +172336,7 @@
 118281 = {
 	name = "ckn_Kalle"
 	dynasty = 118280
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = vaishnavism
 	father = 118280
 	6970.1.1 = { birth = yes }
@@ -172320,7 +172345,7 @@
 118282 = {
 	name = "ckn_Maarten"
 	dynasty = 118280
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = vaishnavism
 	father = 118281
 	6994.1.1 = { birth = yes }
@@ -172330,7 +172355,7 @@
 118283 = {
 	name = "ckn_Tailklaimmox"
 	dynasty = 118280
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = vaishnavism
 	father = 118281
 	6996.1.1 = { birth = yes }
@@ -172339,7 +172364,7 @@
 118284 = {
 	name = "ckn_Riandzidraem"
 	female = yes
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = vaishnavism
 	6989.1.1 = { birth = yes }
 	7010.1.1 = { add_spouse = 118282 }
@@ -172348,7 +172373,7 @@
 118285 = {
 	name = "ckn_Emelio"
 	dynasty = 118280
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = vaishnavism
 	father = 118282
 	mother = 118284
@@ -172359,7 +172384,7 @@
 	name = "ckn_Kingindgleth"
 	female = yes
 	dynasty = 118280
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = vaishnavism
 	father = 118282
 	mother = 118284
@@ -172370,7 +172395,7 @@
 	name = "ckn_Shuxboov"
 	female = yes
 	dynasty = 118280
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = vaishnavism
 	father = 118282
 	mother = 118284
@@ -172380,7 +172405,7 @@
 118288 = {
 	name = "ckn_Monkaeg"
 	dynasty = 118280
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = vaishnavism
 	father = 118283
 	7025.1.1 = { birth = yes }
@@ -172389,7 +172414,7 @@
 118289 = {
 	name = "ckn_Glogtuithbuin"
 	dynasty = 118280
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = vaishnavism
 	father = 118283
 	7027.1.1 = { birth = yes }
@@ -172797,7 +172822,7 @@
 118330 = {
 	name = "ckn_Glogtuithbuin"
 	dynasty = 118330
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = theravada
 	martial = 10
 	trait = education_martial_4
@@ -172811,7 +172836,7 @@
 118331 = {
 	name = "ckn_Draethdrairk"
 	dynasty = 118330
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = theravada
 	father = 118330
 	6963.1.1 = { birth = yes }
@@ -172820,7 +172845,7 @@
 118332 = {
 	name = "ckn_Emelio"
 	dynasty = 118330
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = theravada
 	father = 118331
 	6992.1.1 = { birth = yes }
@@ -172830,7 +172855,7 @@
 118333 = {
 	name = "ckn_Taevriark"
 	dynasty = 118330
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = theravada
 	father = 118331
 	6996.1.1 = { birth = yes }
@@ -172839,7 +172864,7 @@
 118334 = {
 	name = "ckn_Mindthous"
 	female = yes
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = theravada
 	6986.1.1 = { birth = yes }
 	7008.1.1 = { add_spouse = 118332 }
@@ -172848,7 +172873,7 @@
 118335 = {
 	name = "ckn_Emelio"
 	dynasty = 118330
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = theravada
 	father = 118332
 	mother = 118334
@@ -172859,7 +172884,7 @@
 	name = "ckn_Zhoothniaz"
 	female = yes
 	dynasty = 118330
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = theravada
 	father = 118332
 	mother = 118334
@@ -172869,7 +172894,7 @@
 118337 = {
 	name = "ckn_Simmuitz"
 	dynasty = 118330
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = theravada
 	father = 118332
 	mother = 118334
@@ -172880,7 +172905,7 @@
 	name = "ckn_Navpeigov"
 	female = yes
 	dynasty = 118330
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = theravada
 	father = 118333
 	7017.1.1 = { birth = yes }
@@ -172889,7 +172914,7 @@
 118339 = {
 	name = "ckn_Dusiansaind"
 	dynasty = 118330
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = theravada
 	father = 118333
 	7021.1.1 = { birth = yes }
@@ -172898,7 +172923,7 @@
 118340 = {
 	name = "ckn_Moshtaex"
 	dynasty = 118340
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	martial = 10
 	trait = education_martial_4
@@ -172913,7 +172938,7 @@
 118341 = {
 	name = "ckn_Vaivkluis"
 	dynasty = 118340
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 118340
 	6965.1.1 = { birth = yes }
@@ -172922,7 +172947,7 @@
 118342 = {
 	name = "ckn_Triamseireth"
 	dynasty = 118340
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 118341
 	6992.1.1 = { birth = yes }
@@ -172932,7 +172957,7 @@
 118343 = {
 	name = "ckn_Beindvorgleim"
 	dynasty = 118340
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 118341
 	6995.1.1 = { birth = yes }
@@ -172941,7 +172966,7 @@
 118344 = {
 	name = "ckn_Shurroulgeis"
 	female = yes
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	6989.1.1 = { birth = yes }
 	7008.1.1 = { add_spouse = 118342 }
@@ -172950,7 +172975,7 @@
 118345 = {
 	name = "ckn_Kaundrar"
 	dynasty = 118340
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 118342
 	mother = 118344
@@ -172961,7 +172986,7 @@
 	name = "ckn_Uixgougzootz"
 	female = yes
 	dynasty = 118340
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 118342
 	mother = 118344
@@ -172972,7 +172997,7 @@
 	name = "ckn_Sugzialshaeldruig"
 	female = yes
 	dynasty = 118340
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 118342
 	mother = 118344
@@ -172983,7 +173008,7 @@
 	name = "ckn_Puirris"
 	female = yes
 	dynasty = 118340
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 118343
 	7018.1.1 = { birth = yes }
@@ -172993,7 +173018,7 @@
 	name = "ckn_Kobaeth"
 	female = yes
 	dynasty = 118340
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 118343
 	7023.1.1 = { birth = yes }
@@ -173002,7 +173027,7 @@
 118350 = {
 	name = "ckn_Tosou"
 	dynasty = 118350
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = retrogradism_rite
 	stewardship = 10
 	trait = education_stewardship_4
@@ -173015,7 +173040,7 @@
 118351 = {
 	name = "ckn_Gurkverkluitz"
 	dynasty = 118350
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = retrogradism_rite
 	father = 118350
 	6965.1.1 = { birth = yes }
@@ -173024,7 +173049,7 @@
 118352 = {
 	name = "ckn_Taexmithsex"
 	dynasty = 118350
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = retrogradism_rite
 	father = 118351
 	6993.1.1 = { birth = yes }
@@ -173034,7 +173059,7 @@
 118353 = {
 	name = "ckn_Arne"
 	dynasty = 118350
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = retrogradism_rite
 	father = 118351
 	6994.1.1 = { birth = yes }
@@ -173043,7 +173068,7 @@
 118354 = {
 	name = "ckn_Rutaeshkush"
 	female = yes
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = retrogradism_rite
 	7007.1.1 = { birth = yes }
 	7023.1.1 = { add_spouse = 118352 }
@@ -173052,7 +173077,7 @@
 118355 = {
 	name = "ckn_Mathklaurkkaev"
 	dynasty = 118350
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = retrogradism_rite
 	father = 118352
 	mother = 118354
@@ -173062,7 +173087,7 @@
 118356 = {
 	name = "ckn_Gurkverkluitz"
 	dynasty = 118350
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = retrogradism_rite
 	father = 118352
 	mother = 118354
@@ -173073,7 +173098,7 @@
 	name = "ckn_Buzneivtromklim"
 	female = yes
 	dynasty = 118350
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = retrogradism_rite
 	father = 118352
 	mother = 118354
@@ -173083,7 +173108,7 @@
 118358 = {
 	name = "ckn_Draethdrairk"
 	dynasty = 118350
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = retrogradism_rite
 	father = 118353
 	7023.1.1 = { birth = yes }
@@ -173092,7 +173117,7 @@
 118359 = {
 	name = "ckn_Paiznomdig"
 	dynasty = 118350
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = retrogradism_rite
 	father = 118353
 	7025.1.1 = { birth = yes }
@@ -173202,7 +173227,7 @@
 118370 = {
 	name = "ckn_Gimbaumseirk"
 	dynasty = 118370
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	martial = 10
 	trait = education_martial_4
@@ -173216,7 +173241,7 @@
 118371 = {
 	name = "ckn_Kaundrar"
 	dynasty = 118370
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 118370
 	6968.1.1 = { birth = yes }
@@ -173225,7 +173250,7 @@
 118372 = {
 	name = "ckn_Menpurk"
 	dynasty = 118370
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 118371
 	6994.1.1 = { birth = yes }
@@ -173235,7 +173260,7 @@
 118373 = {
 	name = "ckn_Thaenzhiaxkluir"
 	dynasty = 118370
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 118371
 	6998.1.1 = { birth = yes }
@@ -173244,7 +173269,7 @@
 118374 = {
 	name = "ckn_Sigorzhoov"
 	female = yes
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	6999.1.1 = { birth = yes }
 	7015.1.1 = { add_spouse = 118372 }
@@ -173254,7 +173279,7 @@
 	name = "ckn_Glindkligdui"
 	female = yes
 	dynasty = 118370
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 118372
 	mother = 118374
@@ -173265,7 +173290,7 @@
 	name = "ckn_Puitzpaethkork"
 	female = yes
 	dynasty = 118370
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 118372
 	mother = 118374
@@ -173276,7 +173301,7 @@
 	name = "ckn_Gemdeibil"
 	female = yes
 	dynasty = 118370
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 118372
 	mother = 118374
@@ -173286,7 +173311,7 @@
 118378 = {
 	name = "ckn_Zivpezdraetzvom"
 	dynasty = 118370
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 118373
 	7021.1.1 = { birth = yes }
@@ -173295,7 +173320,7 @@
 118379 = {
 	name = "ckn_Zivpezdraetzvom"
 	dynasty = 118370
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 118373
 	7023.1.1 = { birth = yes }
@@ -173404,7 +173429,7 @@
 118390 = {
 	name = "ckn_Piaxthuiv"
 	dynasty = 118390
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = theravada
 	intrigue = 10
 	trait = education_intrigue_4
@@ -173418,7 +173443,7 @@
 118391 = {
 	name = "ckn_Tosou"
 	dynasty = 118390
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = theravada
 	father = 118390
 	6968.1.1 = { birth = yes }
@@ -173427,7 +173452,7 @@
 118392 = {
 	name = "ckn_Baenuthgool"
 	dynasty = 118390
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = theravada
 	father = 118391
 	7003.1.1 = { birth = yes }
@@ -173437,7 +173462,7 @@
 118393 = {
 	name = "ckn_Guthklour"
 	dynasty = 118390
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = theravada
 	father = 118391
 	7006.1.1 = { birth = yes }
@@ -173446,7 +173471,7 @@
 118394 = {
 	name = "ckn_Shuxboov"
 	female = yes
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = theravada
 	6998.1.1 = { birth = yes }
 	7019.1.1 = { add_spouse = 118392 }
@@ -173455,7 +173480,7 @@
 118395 = {
 	name = "ckn_Dusiansaind"
 	dynasty = 118390
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = theravada
 	father = 118392
 	mother = 118394
@@ -173466,7 +173491,7 @@
 	name = "ckn_Shuxboov"
 	female = yes
 	dynasty = 118390
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = theravada
 	father = 118392
 	mother = 118394
@@ -173477,7 +173502,7 @@
 	name = "ckn_Beshthauz"
 	female = yes
 	dynasty = 118390
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = theravada
 	father = 118392
 	mother = 118394
@@ -173487,7 +173512,7 @@
 118398 = {
 	name = "ckn_Ildez"
 	dynasty = 118390
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = theravada
 	father = 118393
 	7031.1.1 = { birth = yes }
@@ -173496,7 +173521,7 @@
 118399 = {
 	name = "ckn_Draethdrairk"
 	dynasty = 118390
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = theravada
 	father = 118393
 	7034.1.1 = { birth = yes }
@@ -173605,7 +173630,7 @@
 118410 = {
 	name = "ckn_Zhoxbon"
 	dynasty = 118410
-	culture = ckw_tuonelan
+	culture = antecessor
 	rite = retrogradism_rite
 	stewardship = 10
 	trait = education_stewardship_4
@@ -173618,7 +173643,7 @@
 118411 = {
 	name = "ckn_Piaxthuiv"
 	dynasty = 118410
-	culture = ckw_tuonelan
+	culture = antecessor
 	rite = retrogradism_rite
 	father = 118410
 	6972.1.1 = { birth = yes }
@@ -173627,7 +173652,7 @@
 118412 = {
 	name = "ckn_Dylan"
 	dynasty = 118410
-	culture = ckw_tuonelan
+	culture = antecessor
 	rite = retrogradism_rite
 	father = 118411
 	7001.1.1 = { birth = yes }
@@ -173637,7 +173662,7 @@
 118413 = {
 	name = "ckn_Kalle"
 	dynasty = 118410
-	culture = ckw_tuonelan
+	culture = antecessor
 	rite = retrogradism_rite
 	father = 118411
 	7003.1.1 = { birth = yes }
@@ -173646,7 +173671,7 @@
 118414 = {
 	name = "ckn_Vuzmia"
 	female = yes
-	culture = ckw_tuonelan
+	culture = antecessor
 	rite = retrogradism_rite
 	7013.1.1 = { birth = yes }
 	7029.1.1 = { add_spouse = 118412 }
@@ -173656,7 +173681,7 @@
 	name = "ckn_Poovzhoushdraum"
 	female = yes
 	dynasty = 118410
-	culture = ckw_tuonelan
+	culture = antecessor
 	rite = retrogradism_rite
 	father = 118412
 	mother = 118414
@@ -173667,7 +173692,7 @@
 	name = "ckn_Riandzidraem"
 	female = yes
 	dynasty = 118410
-	culture = ckw_tuonelan
+	culture = antecessor
 	rite = retrogradism_rite
 	father = 118412
 	mother = 118414
@@ -173678,7 +173703,7 @@
 	name = "ckn_Kitztraiz"
 	female = yes
 	dynasty = 118410
-	culture = ckw_tuonelan
+	culture = antecessor
 	rite = retrogradism_rite
 	father = 118412
 	mother = 118414
@@ -173688,7 +173713,7 @@
 118418 = {
 	name = "ckn_Gluvthoutzverk"
 	dynasty = 118410
-	culture = ckw_tuonelan
+	culture = antecessor
 	rite = retrogradism_rite
 	father = 118413
 	7026.1.1 = { birth = yes }
@@ -173697,7 +173722,7 @@
 118419 = {
 	name = "ckn_Paiznomdig"
 	dynasty = 118410
-	culture = ckw_tuonelan
+	culture = antecessor
 	rite = retrogradism_rite
 	father = 118413
 	7028.1.1 = { birth = yes }
@@ -174009,7 +174034,7 @@
 118450 = {
 	name = "ckn_Ninddeilzoosh"
 	dynasty = 118450
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	martial = 10
 	trait = education_martial_4
@@ -174023,7 +174048,7 @@
 118451 = {
 	name = "ckn_Beindvorgleim"
 	dynasty = 118450
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 118450
 	6964.1.1 = { birth = yes }
@@ -174032,7 +174057,7 @@
 118452 = {
 	name = "ckn_Soonduig"
 	dynasty = 118450
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 118451
 	6992.1.1 = { birth = yes }
@@ -174042,7 +174067,7 @@
 118453 = {
 	name = "ckn_Tendnoos"
 	dynasty = 118450
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 118451
 	6997.1.1 = { birth = yes }
@@ -174051,7 +174076,7 @@
 118454 = {
 	name = "ckn_Sugzialshaeldruig"
 	female = yes
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	6994.1.1 = { birth = yes }
 	7010.1.1 = { add_spouse = 118452 }
@@ -174060,7 +174085,7 @@
 118455 = {
 	name = "ckn_Beindvorgleim"
 	dynasty = 118450
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 118452
 	mother = 118454
@@ -174070,7 +174095,7 @@
 118456 = {
 	name = "ckn_Siarktheitzklun"
 	dynasty = 118450
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 118452
 	mother = 118454
@@ -174081,7 +174106,7 @@
 	name = "ckn_Vustish"
 	female = yes
 	dynasty = 118450
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 118452
 	mother = 118454
@@ -174092,7 +174117,7 @@
 	name = "ckn_Vustish"
 	female = yes
 	dynasty = 118450
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 118453
 	7019.1.1 = { birth = yes }
@@ -174101,7 +174126,7 @@
 118459 = {
 	name = "ckn_Sigorzhoov"
 	dynasty = 118450
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 118453
 	7020.1.1 = { birth = yes }
@@ -174413,7 +174438,7 @@
 118490 = {
 	name = "ckn_Knase"
 	dynasty = 118490
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = vaishnavism
 	martial = 10
 	trait = education_martial_4
@@ -174428,7 +174453,7 @@
 118491 = {
 	name = "ckn_Tosou"
 	dynasty = 118490
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = vaishnavism
 	father = 118490
 	6965.1.1 = { birth = yes }
@@ -174437,7 +174462,7 @@
 118492 = {
 	name = "ckn_Zhisaithnosh"
 	dynasty = 118490
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = vaishnavism
 	father = 118491
 	6997.1.1 = { birth = yes }
@@ -174447,7 +174472,7 @@
 118493 = {
 	name = "ckn_Gurkverkluitz"
 	dynasty = 118490
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = vaishnavism
 	father = 118491
 	7000.1.1 = { birth = yes }
@@ -174456,7 +174481,7 @@
 118494 = {
 	name = "ckn_Baenuthgool"
 	female = yes
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = vaishnavism
 	7004.1.1 = { birth = yes }
 	7020.1.1 = { add_spouse = 118492 }
@@ -174465,7 +174490,7 @@
 118495 = {
 	name = "ckn_Seeixkaezkloon"
 	dynasty = 118490
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = vaishnavism
 	father = 118492
 	mother = 118494
@@ -174475,7 +174500,7 @@
 118496 = {
 	name = "ckn_M_rten"
 	dynasty = 118490
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = vaishnavism
 	father = 118492
 	mother = 118494
@@ -174486,7 +174511,7 @@
 	name = "ckn_Paitz"
 	female = yes
 	dynasty = 118490
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = vaishnavism
 	father = 118492
 	mother = 118494
@@ -174496,7 +174521,7 @@
 118498 = {
 	name = "ckn_Paul"
 	dynasty = 118490
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = vaishnavism
 	father = 118493
 	7022.1.1 = { birth = yes }
@@ -174506,7 +174531,7 @@
 	name = "ckn_Gosrigthalglim"
 	female = yes
 	dynasty = 118490
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = vaishnavism
 	father = 118493
 	7026.1.1 = { birth = yes }
@@ -174515,7 +174540,7 @@
 118500 = {
 	name = "ckn_Piaxthuiv"
 	dynasty = 118500
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = retrogradism_rite
 	martial = 10
 	trait = education_martial_4
@@ -174530,7 +174555,7 @@
 118501 = {
 	name = "ckn_Dusiansaind"
 	dynasty = 118500
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = retrogradism_rite
 	father = 118500
 	6965.1.1 = { birth = yes }
@@ -174539,7 +174564,7 @@
 118502 = {
 	name = "ckn_Zhuvvas"
 	dynasty = 118500
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = retrogradism_rite
 	father = 118501
 	7001.1.1 = { birth = yes }
@@ -174549,7 +174574,7 @@
 118503 = {
 	name = "ckn_Knase"
 	dynasty = 118500
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = retrogradism_rite
 	father = 118501
 	7004.1.1 = { birth = yes }
@@ -174558,7 +174583,7 @@
 118504 = {
 	name = "ckn_Zhoothniaz"
 	female = yes
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = retrogradism_rite
 	6999.1.1 = { birth = yes }
 	7017.1.1 = { add_spouse = 118502 }
@@ -174567,7 +174592,7 @@
 118505 = {
 	name = "ckn_Dusiansaind"
 	dynasty = 118500
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = retrogradism_rite
 	father = 118502
 	mother = 118504
@@ -174578,7 +174603,7 @@
 	name = "ckn_Paitz"
 	female = yes
 	dynasty = 118500
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = retrogradism_rite
 	father = 118502
 	mother = 118504
@@ -174588,7 +174613,7 @@
 118507 = {
 	name = "ckn_Ildez"
 	dynasty = 118500
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = retrogradism_rite
 	father = 118502
 	mother = 118504
@@ -174598,7 +174623,7 @@
 118508 = {
 	name = "ckn_Maarten"
 	dynasty = 118500
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = retrogradism_rite
 	father = 118503
 	7032.1.1 = { birth = yes }
@@ -174608,7 +174633,7 @@
 	name = "ckn_Mindthous"
 	female = yes
 	dynasty = 118500
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = retrogradism_rite
 	father = 118502
 	mother = 118504
@@ -174720,7 +174745,7 @@
 118520 = {
 	name = "ckn_Tosou"
 	dynasty = 118520
-	culture = ckw_tuonelan
+	culture = antecessor
 	rite = retrogradism_rite
 	martial = 10
 	trait = education_martial_4
@@ -174735,7 +174760,7 @@
 118521 = {
 	name = "ckn_Tosou"
 	dynasty = 118520
-	culture = ckw_tuonelan
+	culture = antecessor
 	rite = retrogradism_rite
 	father = 118520
 	6964.1.1 = { birth = yes }
@@ -174744,7 +174769,7 @@
 118522 = {
 	name = "ckn_Glaish"
 	dynasty = 118520
-	culture = ckw_tuonelan
+	culture = antecessor
 	rite = retrogradism_rite
 	father = 118521
 	6995.1.1 = { birth = yes }
@@ -174754,7 +174779,7 @@
 118523 = {
 	name = "ckn_Mathklaurkkaev"
 	dynasty = 118520
-	culture = ckw_tuonelan
+	culture = antecessor
 	rite = retrogradism_rite
 	father = 118521
 	6997.1.1 = { birth = yes }
@@ -174763,7 +174788,7 @@
 118524 = {
 	name = "ckn_Zeivkuivdoug"
 	female = yes
-	culture = ckw_tuonelan
+	culture = antecessor
 	rite = retrogradism_rite
 	7000.1.1 = { birth = yes }
 	7016.1.1 = { add_spouse = 118522 }
@@ -174772,7 +174797,7 @@
 118525 = {
 	name = "ckn_Emelio"
 	dynasty = 118520
-	culture = ckw_tuonelan
+	culture = antecessor
 	rite = retrogradism_rite
 	father = 118522
 	mother = 118524
@@ -174783,7 +174808,7 @@
 	name = "ckn_Navpeigov"
 	female = yes
 	dynasty = 118520
-	culture = ckw_tuonelan
+	culture = antecessor
 	rite = retrogradism_rite
 	father = 118522
 	mother = 118524
@@ -174793,7 +174818,7 @@
 118527 = {
 	name = "ckn_Glaish"
 	dynasty = 118520
-	culture = ckw_tuonelan
+	culture = antecessor
 	rite = retrogradism_rite
 	father = 118522
 	mother = 118524
@@ -174804,7 +174829,7 @@
 	name = "ckn_Rutaeshkush"
 	female = yes
 	dynasty = 118520
-	culture = ckw_tuonelan
+	culture = antecessor
 	rite = retrogradism_rite
 	father = 118523
 	7020.1.1 = { birth = yes }
@@ -174813,7 +174838,7 @@
 118529 = {
 	name = "ckn_Emelio"
 	dynasty = 118520
-	culture = ckw_tuonelan
+	culture = antecessor
 	rite = retrogradism_rite
 	father = 118523
 	7022.1.1 = { birth = yes }
@@ -174922,7 +174947,7 @@
 118540 = {
 	name = "ckn_Goorkseigthuthgim"
 	dynasty = 118540
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = retrogradism_rite
 	intrigue = 10
 	trait = education_intrigue_4
@@ -174936,7 +174961,7 @@
 118541 = {
 	name = "ckn_Zhuvvas"
 	dynasty = 118540
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = retrogradism_rite
 	father = 118540
 	6956.1.1 = { birth = yes }
@@ -174945,7 +174970,7 @@
 118542 = {
 	name = "ckn_Greg"
 	dynasty = 118540
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = retrogradism_rite
 	father = 118541
 	6985.1.1 = { birth = yes }
@@ -174955,7 +174980,7 @@
 118543 = {
 	name = "ckn_Draethdrairk"
 	dynasty = 118540
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = retrogradism_rite
 	father = 118541
 	6986.1.1 = { birth = yes }
@@ -174964,7 +174989,7 @@
 118544 = {
 	name = "ckn_Zoxkaush"
 	female = yes
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = retrogradism_rite
 	6985.1.1 = { birth = yes }
 	7001.1.1 = { add_spouse = 118542 }
@@ -174973,7 +174998,7 @@
 118545 = {
 	name = "ckn_Zerkshein"
 	dynasty = 118540
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = retrogradism_rite
 	father = 118542
 	mother = 118544
@@ -174983,7 +175008,7 @@
 118546 = {
 	name = "ckn_Glaish"
 	dynasty = 118540
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = retrogradism_rite
 	father = 118542
 	mother = 118544
@@ -174994,7 +175019,7 @@
 	name = "ckn_Simmuitz"
 	female = yes
 	dynasty = 118540
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = retrogradism_rite
 	father = 118542
 	mother = 118544
@@ -175004,7 +175029,7 @@
 118548 = {
 	name = "ckn_Tosou"
 	dynasty = 118540
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = retrogradism_rite
 	father = 118543
 	7011.1.1 = { birth = yes }
@@ -175013,7 +175038,7 @@
 118549 = {
 	name = "ckn_Glendgleitz"
 	dynasty = 118540
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = retrogradism_rite
 	father = 118543
 	7015.1.1 = { birth = yes }
@@ -175022,7 +175047,7 @@
 118550 = {
 	name = "ckn_Sunoolrein"
 	dynasty = 118550
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	learning = 10
 	trait = education_learning_4
@@ -175037,7 +175062,7 @@
 118551 = {
 	name = "ckn_Ruimkluig"
 	dynasty = 118550
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 118550
 	6950.1.1 = { birth = yes }
@@ -175046,7 +175071,7 @@
 118552 = {
 	name = "ckn_Mesvotz"
 	dynasty = 118550
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 118551
 	6990.1.1 = { birth = yes }
@@ -175056,7 +175081,7 @@
 118553 = {
 	name = "ckn_Zhuishmairuis"
 	dynasty = 118550
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 118551
 	6992.1.1 = { birth = yes }
@@ -175065,7 +175090,7 @@
 118554 = {
 	name = "ckn_Thosnuirklain"
 	female = yes
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	6989.1.1 = { birth = yes }
 	7006.1.1 = { add_spouse = 118552 }
@@ -175074,7 +175099,7 @@
 118555 = {
 	name = "ckn_Sunoolrein"
 	dynasty = 118550
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 118552
 	mother = 118554
@@ -175085,7 +175110,7 @@
 	name = "ckn_Zhuishmairuis"
 	female = yes
 	dynasty = 118550
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 118552
 	mother = 118554
@@ -175095,7 +175120,7 @@
 118557 = {
 	name = "ckn_Gimbaumseirk"
 	dynasty = 118550
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 118552
 	mother = 118554
@@ -175105,7 +175130,7 @@
 118558 = {
 	name = "ckn_August"
 	dynasty = 118550
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 118553
 	7021.1.1 = { birth = yes }
@@ -175115,7 +175140,7 @@
 	name = "ckn_Gimbaumseirk"
 	female = yes
 	dynasty = 118550
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 118553
 	7023.1.1 = { birth = yes }
@@ -175426,7 +175451,7 @@
 118590 = {
 	name = "ckn_Thurkdeth"
 	dynasty = 118590
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	martial = 10
 	trait = education_martial_4
@@ -175440,7 +175465,7 @@
 118591 = {
 	name = "ckn_Beindvorgleim"
 	dynasty = 118590
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 118590
 	6970.1.1 = { birth = yes }
@@ -175449,7 +175474,7 @@
 118592 = {
 	name = "ckn_Niathdros"
 	dynasty = 118590
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 118591
 	7005.1.1 = { birth = yes }
@@ -175459,7 +175484,7 @@
 118593 = {
 	name = "ckn_Vaivkluis"
 	dynasty = 118590
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 118591
 	7007.1.1 = { birth = yes }
@@ -175468,7 +175493,7 @@
 118594 = {
 	name = "ckn_Puitzpaethkork"
 	female = yes
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	6999.1.1 = { birth = yes }
 	7021.1.1 = { add_spouse = 118592 }
@@ -175477,7 +175502,7 @@
 118595 = {
 	name = "ckn_Kaundrar"
 	dynasty = 118590
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 118592
 	mother = 118594
@@ -175488,7 +175513,7 @@
 	name = "ckn_Sugzialshaeldruig"
 	female = yes
 	dynasty = 118590
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 118592
 	mother = 118594
@@ -175499,7 +175524,7 @@
 	name = "ckn_Viagkiathsheind"
 	female = yes
 	dynasty = 118590
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 118592
 	mother = 118594
@@ -175510,7 +175535,7 @@
 	name = "ckn_Miavvurknav"
 	female = yes
 	dynasty = 118590
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 118593
 	7031.1.1 = { birth = yes }
@@ -175519,7 +175544,7 @@
 118599 = {
 	name = "ckn_Sigorzhoov"
 	dynasty = 118590
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 118593
 	7035.1.1 = { birth = yes }
@@ -175827,7 +175852,7 @@
 118630 = {
 	name = "ckn_Guthklour"
 	dynasty = 118630
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = retrogradism_rite
 	martial = 10
 	trait = education_martial_4
@@ -175841,7 +175866,7 @@
 118631 = {
 	name = "ckn_Draethdrairk"
 	dynasty = 118630
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = retrogradism_rite
 	father = 118630
 	6966.1.1 = { birth = yes }
@@ -175850,7 +175875,7 @@
 118632 = {
 	name = "ckn_Greg"
 	dynasty = 118630
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = retrogradism_rite
 	father = 118631
 	6994.1.1 = { birth = yes }
@@ -175860,7 +175885,7 @@
 118633 = {
 	name = "ckn_Tosou"
 	dynasty = 118630
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = retrogradism_rite
 	father = 118631
 	6996.1.1 = { birth = yes }
@@ -175869,7 +175894,7 @@
 118634 = {
 	name = "ckn_Gandbooz"
 	female = yes
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = retrogradism_rite
 	6999.1.1 = { birth = yes }
 	7015.1.1 = { add_spouse = 118632 }
@@ -175878,7 +175903,7 @@
 118635 = {
 	name = "ckn_Giandmurk"
 	dynasty = 118630
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = retrogradism_rite
 	father = 118632
 	mother = 118634
@@ -175888,7 +175913,7 @@
 118636 = {
 	name = "ckn_Tosou"
 	dynasty = 118630
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = retrogradism_rite
 	father = 118632
 	mother = 118634
@@ -175899,7 +175924,7 @@
 	name = "ckn_Zhoothniaz"
 	female = yes
 	dynasty = 118630
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = retrogradism_rite
 	father = 118632
 	mother = 118634
@@ -175909,7 +175934,7 @@
 118638 = {
 	name = "ckn_Goorkseigthuthgim"
 	dynasty = 118630
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = retrogradism_rite
 	father = 118633
 	7020.1.1 = { birth = yes }
@@ -175919,7 +175944,7 @@
 	name = "ckn_Goulkooth"
 	female = yes
 	dynasty = 118630
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = retrogradism_rite
 	father = 118633
 	7025.1.1 = { birth = yes }
@@ -175928,7 +175953,7 @@
 118640 = {
 	name = "ckn_Simmuitz"
 	dynasty = 118640
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = vaishnavism
 	diplomacy = 10
 	trait = education_diplomacy_4
@@ -175941,7 +175966,7 @@
 118641 = {
 	name = "ckn_Gurkverkluitz"
 	dynasty = 118640
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = vaishnavism
 	father = 118640
 	6983.1.1 = { birth = yes }
@@ -175950,7 +175975,7 @@
 118642 = {
 	name = "ckn_Seeixkaezkloon"
 	dynasty = 118640
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = vaishnavism
 	father = 118641
 	7012.1.1 = { birth = yes }
@@ -175960,7 +175985,7 @@
 118643 = {
 	name = "ckn_Greg"
 	dynasty = 118640
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = vaishnavism
 	father = 118641
 	7017.1.1 = { birth = yes }
@@ -175969,7 +175994,7 @@
 118644 = {
 	name = "ckn_Zhuzdrend"
 	female = yes
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = vaishnavism
 	7012.1.1 = { birth = yes }
 	7028.1.1 = { add_spouse = 118642 }
@@ -175978,7 +176003,7 @@
 118645 = {
 	name = "ckn_Maarten"
 	dynasty = 118640
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = vaishnavism
 	father = 118642
 	mother = 118644
@@ -175988,7 +176013,7 @@
 118646 = {
 	name = "ckn_Paiznomdig"
 	dynasty = 118640
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = vaishnavism
 	father = 118642
 	mother = 118644
@@ -175999,7 +176024,7 @@
 	name = "ckn_Keitzkliark"
 	female = yes
 	dynasty = 118640
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = vaishnavism
 	father = 118642
 	mother = 118644
@@ -176010,7 +176035,7 @@
 	name = "ckn_Muthbaul"
 	female = yes
 	dynasty = 118640
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = vaishnavism
 	father = 118643
 	7040.1.1 = { birth = yes }
@@ -176020,7 +176045,7 @@
 	name = "ckn_Kitztraiz"
 	female = yes
 	dynasty = 118640
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = vaishnavism
 	father = 118642
 	mother = 118644
@@ -176121,7 +176146,7 @@
 118660 = {
 	name = "ckn_Beindvorgleim"
 	dynasty = 118660
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	martial = 10
 	trait = education_martial_4
@@ -176135,7 +176160,7 @@
 118661 = {
 	name = "ckn_Ninddeilzoosh"
 	dynasty = 118660
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 118660
 	6962.1.1 = { birth = yes }
@@ -176144,7 +176169,7 @@
 118662 = {
 	name = "ckn_Klork"
 	dynasty = 118660
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 118661
 	6996.1.1 = { birth = yes }
@@ -176154,7 +176179,7 @@
 118663 = {
 	name = "ckn_Menpurk"
 	dynasty = 118660
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 118661
 	7001.1.1 = { birth = yes }
@@ -176163,7 +176188,7 @@
 118664 = {
 	name = "ckn_Puirris"
 	female = yes
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	7004.1.1 = { birth = yes }
 	7020.1.1 = { add_spouse = 118662 }
@@ -176172,7 +176197,7 @@
 118665 = {
 	name = "ckn_Zhuishmairuis"
 	dynasty = 118660
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 118662
 	mother = 118664
@@ -176182,7 +176207,7 @@
 118666 = {
 	name = "ckn_Tendnoos"
 	dynasty = 118660
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 118662
 	mother = 118664
@@ -176192,7 +176217,7 @@
 118667 = {
 	name = "ckn_Mesvotz"
 	dynasty = 118660
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 118662
 	mother = 118664
@@ -176202,7 +176227,7 @@
 118668 = {
 	name = "ckn_Kaundrar"
 	dynasty = 118660
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 118663
 	7029.1.1 = { birth = yes }
@@ -176211,7 +176236,7 @@
 118669 = {
 	name = "ckn_Ruimkluig"
 	dynasty = 118660
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 118663
 	7032.1.1 = { birth = yes }
@@ -176220,7 +176245,7 @@
 118670 = {
 	name = "ckn_Raempaix"
 	dynasty = 118670
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	intrigue = 10
 	trait = education_intrigue_4
@@ -176233,7 +176258,7 @@
 118671 = {
 	name = "ckn_Noothmug"
 	dynasty = 118670
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 118670
 	6963.1.1 = { birth = yes }
@@ -176242,7 +176267,7 @@
 118672 = {
 	name = "ckn_Uixgougzootz"
 	dynasty = 118670
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 118671
 	6999.1.1 = { birth = yes }
@@ -176252,7 +176277,7 @@
 118673 = {
 	name = "ckn_Taizruiglae"
 	dynasty = 118670
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 118671
 	7002.1.1 = { birth = yes }
@@ -176261,7 +176286,7 @@
 118674 = {
 	name = "ckn_Glindkligdui"
 	female = yes
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	6990.1.1 = { birth = yes }
 	7015.1.1 = { add_spouse = 118672 }
@@ -176270,7 +176295,7 @@
 118675 = {
 	name = "ckn_Thosnuirklain"
 	dynasty = 118670
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 118672
 	mother = 118674
@@ -176281,7 +176306,7 @@
 	name = "ckn_Miavvurknav"
 	female = yes
 	dynasty = 118670
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 118672
 	mother = 118674
@@ -176292,7 +176317,7 @@
 	name = "ckn_Drogpoum"
 	female = yes
 	dynasty = 118670
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 118672
 	mother = 118674
@@ -176303,7 +176328,7 @@
 	name = "ckn_Zeshiax"
 	female = yes
 	dynasty = 118670
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 118673
 	7029.1.1 = { birth = yes }
@@ -176312,7 +176337,7 @@
 118679 = {
 	name = "ckn_Noothmug"
 	dynasty = 118670
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 118673
 	7030.1.1 = { birth = yes }
@@ -176623,7 +176648,7 @@
 118710 = {
 	name = "ckn_Louie"
 	dynasty = 118710
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = vaishnavism
 	stewardship = 10
 	trait = education_stewardship_4
@@ -176636,7 +176661,7 @@
 118711 = {
 	name = "ckn_Monkaeg"
 	dynasty = 118710
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = vaishnavism
 	father = 118710
 	6963.1.1 = { birth = yes }
@@ -176645,7 +176670,7 @@
 118712 = {
 	name = "ckn_Paul"
 	dynasty = 118710
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = vaishnavism
 	father = 118711
 	7001.1.1 = { birth = yes }
@@ -176655,7 +176680,7 @@
 118713 = {
 	name = "ckn_Glendgleitz"
 	dynasty = 118710
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = vaishnavism
 	father = 118711
 	7004.1.1 = { birth = yes }
@@ -176664,7 +176689,7 @@
 118714 = {
 	name = "ckn_Mindthous"
 	female = yes
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = vaishnavism
 	7001.1.1 = { birth = yes }
 	7017.1.1 = { add_spouse = 118712 }
@@ -176673,7 +176698,7 @@
 118715 = {
 	name = "ckn_Baenuthgool"
 	dynasty = 118710
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = vaishnavism
 	father = 118712
 	mother = 118714
@@ -176683,7 +176708,7 @@
 118716 = {
 	name = "ckn_Mondkluvbaethzhuir"
 	dynasty = 118710
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = vaishnavism
 	father = 118712
 	mother = 118714
@@ -176694,7 +176719,7 @@
 	name = "ckn_Shuxboov"
 	female = yes
 	dynasty = 118710
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = vaishnavism
 	father = 118712
 	mother = 118714
@@ -176705,7 +176730,7 @@
 	name = "ckn_Kingindgleth"
 	female = yes
 	dynasty = 118710
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = vaishnavism
 	father = 118713
 	7032.1.1 = { birth = yes }
@@ -176714,7 +176739,7 @@
 118719 = {
 	name = "ckn_Glaish"
 	dynasty = 118710
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = vaishnavism
 	father = 118713
 	7033.1.1 = { birth = yes }
@@ -177027,7 +177052,7 @@
 118750 = {
 	name = "ckn_Daemvian"
 	dynasty = 118750
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = retrogradism_rite
 	martial = 10
 	trait = education_martial_4
@@ -177041,7 +177066,7 @@
 118751 = {
 	name = "ckn_Taevriark"
 	dynasty = 118750
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = retrogradism_rite
 	father = 118750
 	6946.1.1 = { birth = yes }
@@ -177050,7 +177075,7 @@
 118752 = {
 	name = "ckn_Mishthutz"
 	dynasty = 118750
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = retrogradism_rite
 	father = 118751
 	6982.1.1 = { birth = yes }
@@ -177060,7 +177085,7 @@
 118753 = {
 	name = "ckn_Mondkluvbaethzhuir"
 	dynasty = 118750
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = retrogradism_rite
 	father = 118751
 	6987.1.1 = { birth = yes }
@@ -177069,7 +177094,7 @@
 118754 = {
 	name = "ckn_Gosrigthalglim"
 	female = yes
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = retrogradism_rite
 	6993.1.1 = { birth = yes }
 	7009.1.1 = { add_spouse = 118752 }
@@ -177078,7 +177103,7 @@
 118755 = {
 	name = "ckn_Keitzkliark"
 	dynasty = 118750
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = retrogradism_rite
 	father = 118752
 	mother = 118754
@@ -177088,7 +177113,7 @@
 118756 = {
 	name = "ckn_Knase"
 	dynasty = 118750
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = retrogradism_rite
 	father = 118752
 	mother = 118754
@@ -177099,7 +177124,7 @@
 	name = "ckn_Guvauglaeduim"
 	female = yes
 	dynasty = 118750
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = retrogradism_rite
 	father = 118752
 	mother = 118754
@@ -177109,7 +177134,7 @@
 118758 = {
 	name = "ckn_Arne"
 	dynasty = 118750
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = retrogradism_rite
 	father = 118753
 	7011.1.1 = { birth = yes }
@@ -177118,7 +177143,7 @@
 118759 = {
 	name = "ckn_Keitzkliark"
 	dynasty = 118750
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = retrogradism_rite
 	father = 118753
 	7015.1.1 = { birth = yes }
@@ -177226,7 +177251,7 @@
 118770 = {
 	name = "ckn_Bolivar"
 	dynasty = 118770
-	culture = ckw_tuonelan
+	culture = antecessor
 	rite = retrogradism_rite
 	martial = 10
 	trait = education_martial_4
@@ -177240,7 +177265,7 @@
 118771 = {
 	name = "ckn_Dusiansaind"
 	dynasty = 118770
-	culture = ckw_tuonelan
+	culture = antecessor
 	rite = retrogradism_rite
 	father = 118770
 	6958.1.1 = { birth = yes }
@@ -177249,7 +177274,7 @@
 118772 = {
 	name = "ckn_Tailklaimmox"
 	dynasty = 118770
-	culture = ckw_tuonelan
+	culture = antecessor
 	rite = retrogradism_rite
 	father = 118771
 	6981.1.1 = { birth = yes }
@@ -177259,7 +177284,7 @@
 118773 = {
 	name = "ckn_Dylan"
 	dynasty = 118770
-	culture = ckw_tuonelan
+	culture = antecessor
 	rite = retrogradism_rite
 	father = 118771
 	6983.1.1 = { birth = yes }
@@ -177268,7 +177293,7 @@
 118774 = {
 	name = "ckn_Kingindgleth"
 	female = yes
-	culture = ckw_tuonelan
+	culture = antecessor
 	rite = retrogradism_rite
 	6989.1.1 = { birth = yes }
 	7005.1.1 = { add_spouse = 118772 }
@@ -177277,7 +177302,7 @@
 118775 = {
 	name = "ckn_Gurkverkluitz"
 	dynasty = 118770
-	culture = ckw_tuonelan
+	culture = antecessor
 	rite = retrogradism_rite
 	father = 118772
 	mother = 118774
@@ -177289,7 +177314,7 @@
 	name = "ckn_Zhuzdrend"
 	female = yes
 	dynasty = 118770
-	culture = ckw_tuonelan
+	culture = antecessor
 	rite = retrogradism_rite
 	father = 118772
 	mother = 118774
@@ -177299,7 +177324,7 @@
 118777 = {
 	name = "ckn_Tailklaimmox"
 	dynasty = 118770
-	culture = ckw_tuonelan
+	culture = antecessor
 	rite = retrogradism_rite
 	father = 118772
 	mother = 118774
@@ -177310,7 +177335,7 @@
 	name = "ckn_Gosrigthalglim"
 	female = yes
 	dynasty = 118770
-	culture = ckw_tuonelan
+	culture = antecessor
 	rite = retrogradism_rite
 	father = 118773
 	7003.1.1 = { birth = yes }
@@ -177320,7 +177345,7 @@
 	name = "ckn_Koshdiathsomnuiv"
 	female = yes
 	dynasty = 118770
-	culture = ckw_tuonelan
+	culture = antecessor
 	rite = retrogradism_rite
 	father = 118773
 	7004.1.1 = { birth = yes }
@@ -177429,7 +177454,7 @@
 118790 = {
 	name = "ckn_Glaish"
 	dynasty = 118790
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = retrogradism_rite
 	learning = 10
 	trait = education_learning_4
@@ -177444,7 +177469,7 @@
 118791 = {
 	name = "ckn_Arne"
 	dynasty = 118790
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = retrogradism_rite
 	father = 118790
 	6977.1.1 = { birth = yes }
@@ -177453,7 +177478,7 @@
 118792 = {
 	name = "ckn_Monkaeg"
 	dynasty = 118790
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = retrogradism_rite
 	father = 118791
 	6999.1.1 = { birth = yes }
@@ -177463,7 +177488,7 @@
 118793 = {
 	name = "ckn_Havbard"
 	dynasty = 118790
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = retrogradism_rite
 	father = 118791
 	7003.1.1 = { birth = yes }
@@ -177472,7 +177497,7 @@
 118794 = {
 	name = "ckn_Gosrigthalglim"
 	female = yes
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = retrogradism_rite
 	7001.1.1 = { birth = yes }
 	7017.1.1 = { add_spouse = 118792 }
@@ -177481,7 +177506,7 @@
 118795 = {
 	name = "ckn_Glendgleitz"
 	dynasty = 118790
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = retrogradism_rite
 	father = 118792
 	mother = 118794
@@ -177491,7 +177516,7 @@
 118796 = {
 	name = "ckn_Baenuthgool"
 	dynasty = 118790
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = retrogradism_rite
 	father = 118792
 	mother = 118794
@@ -177502,7 +177527,7 @@
 	name = "ckn_Touthbeiz"
 	female = yes
 	dynasty = 118790
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = retrogradism_rite
 	father = 118792
 	mother = 118794
@@ -177512,7 +177537,7 @@
 118798 = {
 	name = "ckn_Gurkverkluitz"
 	dynasty = 118790
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = retrogradism_rite
 	father = 118793
 	7026.1.1 = { birth = yes }
@@ -177521,7 +177546,7 @@
 118799 = {
 	name = "ckn_Paiznomdig"
 	dynasty = 118790
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = retrogradism_rite
 	father = 118793
 	7027.1.1 = { birth = yes }
@@ -177530,7 +177555,7 @@
 118800 = {
 	name = "ckn_Rizbom"
 	dynasty = 118800
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	martial = 10
 	trait = education_martial_4
@@ -177544,7 +177569,7 @@
 118801 = {
 	name = "ckn_Zhuishmairuis"
 	dynasty = 118800
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 118800
 	6958.1.1 = { birth = yes }
@@ -177553,7 +177578,7 @@
 118802 = {
 	name = "ckn_Moshtaex"
 	dynasty = 118800
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 118801
 	6991.1.1 = { birth = yes }
@@ -177563,7 +177588,7 @@
 118803 = {
 	name = "ckn_Niathdros"
 	dynasty = 118800
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 118801
 	6995.1.1 = { birth = yes }
@@ -177572,7 +177597,7 @@
 118804 = {
 	name = "ckn_Zeshiax"
 	female = yes
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	6991.1.1 = { birth = yes }
 	7007.1.1 = { add_spouse = 118802 }
@@ -177581,7 +177606,7 @@
 118805 = {
 	name = "ckn_Voththel"
 	dynasty = 118800
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 118802
 	mother = 118804
@@ -177591,7 +177616,7 @@
 118806 = {
 	name = "ckn_Thaenzhiaxkluir"
 	dynasty = 118800
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 118802
 	mother = 118804
@@ -177601,7 +177626,7 @@
 118807 = {
 	name = "ckn_Voththel"
 	dynasty = 118800
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 118802
 	mother = 118804
@@ -177611,7 +177636,7 @@
 118808 = {
 	name = "ckn_Siarktheitzklun"
 	dynasty = 118800
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 118803
 	7023.1.1 = { birth = yes }
@@ -177621,7 +177646,7 @@
 	name = "ckn_Shungoor"
 	female = yes
 	dynasty = 118800
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 118802
 	mother = 118804
@@ -177731,7 +177756,7 @@
 118820 = {
 	name = "ckn_Taevriark"
 	dynasty = 118820
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = vaishnavism
 	diplomacy = 10
 	trait = education_diplomacy_4
@@ -177743,7 +177768,7 @@
 118821 = {
 	name = "ckn_Paul"
 	dynasty = 118820
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = vaishnavism
 	father = 118820
 	6965.1.1 = { birth = yes }
@@ -177752,7 +177777,7 @@
 118822 = {
 	name = "ckn_Baenuthgool"
 	dynasty = 118820
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = vaishnavism
 	father = 118821
 	6998.1.1 = { birth = yes }
@@ -177762,7 +177787,7 @@
 118823 = {
 	name = "ckn_Taevriark"
 	dynasty = 118820
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = vaishnavism
 	father = 118821
 	7000.1.1 = { birth = yes }
@@ -177771,7 +177796,7 @@
 118824 = {
 	name = "ckn_Paitz"
 	female = yes
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = vaishnavism
 	6991.1.1 = { birth = yes }
 	7014.1.1 = { add_spouse = 118822 }
@@ -177780,7 +177805,7 @@
 118825 = {
 	name = "ckn_M_rten"
 	dynasty = 118820
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = vaishnavism
 	father = 118822
 	mother = 118824
@@ -177791,7 +177816,7 @@
 	name = "ckn_Zhuzdrend"
 	female = yes
 	dynasty = 118820
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = vaishnavism
 	father = 118822
 	mother = 118824
@@ -177802,7 +177827,7 @@
 	name = "ckn_Maivsheig"
 	female = yes
 	dynasty = 118820
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = vaishnavism
 	father = 118822
 	mother = 118824
@@ -177812,7 +177837,7 @@
 118828 = {
 	name = "ckn_Paul"
 	dynasty = 118820
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = vaishnavism
 	father = 118823
 	7029.1.1 = { birth = yes }
@@ -177822,7 +177847,7 @@
 	name = "ckn_Muilreirk"
 	female = yes
 	dynasty = 118820
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = vaishnavism
 	father = 118822
 	mother = 118824
@@ -178032,7 +178057,7 @@
 118850 = {
 	name = "ckn_Ruimkluig"
 	dynasty = 118850
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	martial = 10
 	trait = education_martial_4
@@ -178046,7 +178071,7 @@
 118851 = {
 	name = "ckn_Taivtan"
 	dynasty = 118850
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 118850
 	6978.1.1 = { birth = yes }
@@ -178055,7 +178080,7 @@
 118852 = {
 	name = "ckn_Voththel"
 	dynasty = 118850
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 118851
 	7009.1.1 = { birth = yes }
@@ -178065,7 +178090,7 @@
 118853 = {
 	name = "ckn_Raempaix"
 	dynasty = 118850
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 118851
 	7013.1.1 = { birth = yes }
@@ -178074,7 +178099,7 @@
 118854 = {
 	name = "ckn_Zeshiax"
 	female = yes
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	7014.1.1 = { birth = yes }
 	7030.1.1 = { add_spouse = 118852 }
@@ -178084,7 +178109,7 @@
 	name = "ckn_Thauvmurk"
 	female = yes
 	dynasty = 118850
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 118852
 	mother = 118854
@@ -178095,7 +178120,7 @@
 	name = "ckn_Sugzialshaeldruig"
 	female = yes
 	dynasty = 118850
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 118852
 	mother = 118854
@@ -178106,7 +178131,7 @@
 	name = "ckn_Glindkligdui"
 	female = yes
 	dynasty = 118850
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 118852
 	mother = 118854
@@ -178116,7 +178141,7 @@
 118858 = {
 	name = "ckn_Thurkdeth"
 	dynasty = 118850
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 118853
 	7035.1.1 = { birth = yes }
@@ -178125,7 +178150,7 @@
 118859 = {
 	name = "ckn_Soonduig"
 	dynasty = 118850
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 118853
 	7037.1.1 = { birth = yes }
@@ -178539,7 +178564,7 @@
 118900 = {
 	name = "ckn_Gimbaumseirk"
 	dynasty = 118900
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	martial = 10
 	trait = education_martial_4
@@ -178554,7 +178579,7 @@
 118901 = {
 	name = "ckn_Taixsepaithmith"
 	dynasty = 118900
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 118900
 	6970.1.1 = { birth = yes }
@@ -178563,7 +178588,7 @@
 118902 = {
 	name = "ckn_Togis"
 	dynasty = 118900
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 118901
 	6992.1.1 = { birth = yes }
@@ -178573,7 +178598,7 @@
 118903 = {
 	name = "ckn_Ninddeilzoosh"
 	dynasty = 118900
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 118901
 	6995.1.1 = { birth = yes }
@@ -178582,7 +178607,7 @@
 118904 = {
 	name = "ckn_Sarvenmeitz"
 	female = yes
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	7001.1.1 = { birth = yes }
 	7017.1.1 = { add_spouse = 118902 }
@@ -178591,7 +178616,7 @@
 118905 = {
 	name = "ckn_Raempaix"
 	dynasty = 118900
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 118902
 	mother = 118904
@@ -178601,7 +178626,7 @@
 118906 = {
 	name = "ckn_Noothmug"
 	dynasty = 118900
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 118902
 	mother = 118904
@@ -178611,7 +178636,7 @@
 118907 = {
 	name = "ckn_Saul"
 	dynasty = 118900
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 118902
 	mother = 118904
@@ -178622,7 +178647,7 @@
 	name = "ckn_Menpurk"
 	female = yes
 	dynasty = 118900
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 118903
 	7020.1.1 = { birth = yes }
@@ -178631,7 +178656,7 @@
 118909 = {
 	name = "ckn_Puxnis"
 	dynasty = 118900
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 118903
 	7024.1.1 = { birth = yes }
@@ -178855,7 +178880,7 @@
 118950 = {
 	name = "ckn_Guivklath"
 	dynasty = 118950
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = retrogradism_rite
 	stewardship = 10
 	trait = education_stewardship_4
@@ -178868,7 +178893,7 @@
 118951 = {
 	name = "ckn_M_rten"
 	dynasty = 118950
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = retrogradism_rite
 	father = 118950
 	6975.1.1 = { birth = yes }
@@ -178877,7 +178902,7 @@
 118952 = {
 	name = "ckn_Paiznomdig"
 	dynasty = 118950
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = retrogradism_rite
 	father = 118951
 	6998.1.1 = { birth = yes }
@@ -178887,7 +178912,7 @@
 118953 = {
 	name = "ckn_Daemvian"
 	dynasty = 118950
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = retrogradism_rite
 	father = 118951
 	6999.1.1 = { birth = yes }
@@ -178896,7 +178921,7 @@
 118954 = {
 	name = "ckn_Koshdiathsomnuiv"
 	female = yes
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = retrogradism_rite
 	7004.1.1 = { birth = yes }
 	7020.1.1 = { add_spouse = 118952 }
@@ -178905,7 +178930,7 @@
 118955 = {
 	name = "ckn_Ildez"
 	dynasty = 118950
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = retrogradism_rite
 	father = 118952
 	mother = 118954
@@ -178915,7 +178940,7 @@
 118956 = {
 	name = "ckn_Kogtroogvoork"
 	dynasty = 118950
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = retrogradism_rite
 	father = 118952
 	mother = 118954
@@ -178926,7 +178951,7 @@
 	name = "ckn_Dusiansaind"
 	female = yes
 	dynasty = 118950
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = retrogradism_rite
 	father = 118952
 	mother = 118954
@@ -178936,7 +178961,7 @@
 118958 = {
 	name = "ckn_Giandmurk"
 	dynasty = 118950
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = retrogradism_rite
 	father = 118953
 	7022.1.1 = { birth = yes }
@@ -178945,7 +178970,7 @@
 118959 = {
 	name = "ckn_Gurkverkluitz"
 	dynasty = 118950
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = retrogradism_rite
 	father = 118953
 	7025.1.1 = { birth = yes }
@@ -178954,7 +178979,7 @@
 118960 = {
 	name = "ckn_Goorkseigthuthgim"
 	dynasty = 118960
-	culture = ckw_tuonelan
+	culture = antecessor
 	rite = retrogradism_rite
 	martial = 10
 	trait = education_martial_4
@@ -178969,7 +178994,7 @@
 118961 = {
 	name = "ckn_Louie"
 	dynasty = 118960
-	culture = ckw_tuonelan
+	culture = antecessor
 	rite = retrogradism_rite
 	father = 118960
 	6957.1.1 = { birth = yes }
@@ -178978,7 +179003,7 @@
 118962 = {
 	name = "ckn_Mondkluvbaethzhuir"
 	dynasty = 118960
-	culture = ckw_tuonelan
+	culture = antecessor
 	rite = retrogradism_rite
 	father = 118961
 	6980.1.1 = { birth = yes }
@@ -178988,7 +179013,7 @@
 118963 = {
 	name = "ckn_Greg"
 	dynasty = 118960
-	culture = ckw_tuonelan
+	culture = antecessor
 	rite = retrogradism_rite
 	father = 118961
 	6982.1.1 = { birth = yes }
@@ -178997,7 +179022,7 @@
 118964 = {
 	name = "ckn_Kouztheiz"
 	female = yes
-	culture = ckw_tuonelan
+	culture = antecessor
 	rite = retrogradism_rite
 	6988.1.1 = { birth = yes }
 	7004.1.1 = { add_spouse = 118962 }
@@ -179006,7 +179031,7 @@
 118965 = {
 	name = "ckn_Dusiansaind"
 	dynasty = 118960
-	culture = ckw_tuonelan
+	culture = antecessor
 	rite = retrogradism_rite
 	father = 118962
 	mother = 118964
@@ -179017,7 +179042,7 @@
 	name = "ckn_Buzneivtromklim"
 	female = yes
 	dynasty = 118960
-	culture = ckw_tuonelan
+	culture = antecessor
 	rite = retrogradism_rite
 	father = 118962
 	mother = 118964
@@ -179028,7 +179053,7 @@
 	name = "ckn_Beshthauz"
 	female = yes
 	dynasty = 118960
-	culture = ckw_tuonelan
+	culture = antecessor
 	rite = retrogradism_rite
 	father = 118962
 	mother = 118964
@@ -179039,7 +179064,7 @@
 	name = "ckn_Buzneivtromklim"
 	female = yes
 	dynasty = 118960
-	culture = ckw_tuonelan
+	culture = antecessor
 	rite = retrogradism_rite
 	father = 118963
 	7010.1.1 = { birth = yes }
@@ -179048,7 +179073,7 @@
 118969 = {
 	name = "ckn_Taevriark"
 	dynasty = 118960
-	culture = ckw_tuonelan
+	culture = antecessor
 	rite = retrogradism_rite
 	father = 118963
 	7013.1.1 = { birth = yes }
@@ -179158,7 +179183,7 @@
 118980 = {
 	name = "ckn_Glendgleitz"
 	dynasty = 118980
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = vaishnavism
 	learning = 10
 	trait = education_learning_4
@@ -179172,7 +179197,7 @@
 118981 = {
 	name = "ckn_Mishthutz"
 	dynasty = 118980
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = vaishnavism
 	father = 118980
 	6949.1.1 = { birth = yes }
@@ -179181,7 +179206,7 @@
 118982 = {
 	name = "ckn_Goorkseigthuthgim"
 	dynasty = 118980
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = vaishnavism
 	father = 118981
 	6981.1.1 = { birth = yes }
@@ -179191,7 +179216,7 @@
 118983 = {
 	name = "ckn_Goorkseigthuthgim"
 	dynasty = 118980
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = vaishnavism
 	father = 118981
 	6986.1.1 = { birth = yes }
@@ -179200,7 +179225,7 @@
 118984 = {
 	name = "ckn_Dusiansaind"
 	female = yes
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = vaishnavism
 	6993.1.1 = { birth = yes }
 	7009.1.1 = { add_spouse = 118982 }
@@ -179209,7 +179234,7 @@
 118985 = {
 	name = "ckn_Glaish"
 	dynasty = 118980
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = vaishnavism
 	father = 118982
 	mother = 118984
@@ -179220,7 +179245,7 @@
 	name = "ckn_Baenuthgool"
 	female = yes
 	dynasty = 118980
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = vaishnavism
 	father = 118982
 	mother = 118984
@@ -179230,7 +179255,7 @@
 118987 = {
 	name = "ckn_Louie"
 	dynasty = 118980
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = vaishnavism
 	father = 118982
 	mother = 118984
@@ -179240,7 +179265,7 @@
 118988 = {
 	name = "ckn_Kalle"
 	dynasty = 118980
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = vaishnavism
 	father = 118983
 	7009.1.1 = { birth = yes }
@@ -179249,7 +179274,7 @@
 118989 = {
 	name = "ckn_Kalle"
 	dynasty = 118980
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = vaishnavism
 	father = 118983
 	7014.1.1 = { birth = yes }
@@ -179763,7 +179788,7 @@
 119040 = {
 	name = "ckn_Raempaix"
 	dynasty = 119040
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	diplomacy = 10
 	trait = education_diplomacy_4
@@ -179775,7 +179800,7 @@
 119041 = {
 	name = "ckn_Gimbaumseirk"
 	dynasty = 119040
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 119040
 	6970.1.1 = { birth = yes }
@@ -179784,7 +179809,7 @@
 119042 = {
 	name = "ckn_Tendnoos"
 	dynasty = 119040
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 119041
 	6993.1.1 = { birth = yes }
@@ -179794,7 +179819,7 @@
 119043 = {
 	name = "ckn_Zhuishmairuis"
 	dynasty = 119040
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 119041
 	6994.1.1 = { birth = yes }
@@ -179803,7 +179828,7 @@
 119044 = {
 	name = "ckn_Thosnuirklain"
 	female = yes
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	6994.1.1 = { birth = yes }
 	7010.1.1 = { add_spouse = 119042 }
@@ -179812,7 +179837,7 @@
 119045 = {
 	name = "ckn_Ninddeilzoosh"
 	dynasty = 119040
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 119042
 	mother = 119044
@@ -179822,7 +179847,7 @@
 119046 = {
 	name = "ckn_Zivpezdraetzvom"
 	dynasty = 119040
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 119042
 	mother = 119044
@@ -179833,7 +179858,7 @@
 	name = "ckn_Siarktheitzklun"
 	female = yes
 	dynasty = 119040
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 119042
 	mother = 119044
@@ -179844,7 +179869,7 @@
 	name = "ckn_Uixgougzootz"
 	female = yes
 	dynasty = 119040
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 119043
 	7021.1.1 = { birth = yes }
@@ -179854,7 +179879,7 @@
 	name = "ckn_Drogpoum"
 	female = yes
 	dynasty = 119040
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 119042
 	mother = 119044
@@ -180267,7 +180292,7 @@
 119090 = {
 	name = "ckn_Dylan"
 	dynasty = 119090
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = vaishnavism
 	diplomacy = 10
 	trait = education_diplomacy_4
@@ -180280,7 +180305,7 @@
 119091 = {
 	name = "ckn_Zhuvvas"
 	dynasty = 119090
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = vaishnavism
 	father = 119090
 	6956.1.1 = { birth = yes }
@@ -180289,7 +180314,7 @@
 119092 = {
 	name = "ckn_Havbard"
 	dynasty = 119090
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = vaishnavism
 	father = 119091
 	6995.1.1 = { birth = yes }
@@ -180299,7 +180324,7 @@
 119093 = {
 	name = "ckn_Taexmithsex"
 	dynasty = 119090
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = vaishnavism
 	father = 119091
 	7000.1.1 = { birth = yes }
@@ -180308,7 +180333,7 @@
 119094 = {
 	name = "ckn_Kingindgleth"
 	female = yes
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = vaishnavism
 	7010.1.1 = { birth = yes }
 	7026.1.1 = { add_spouse = 119092 }
@@ -180317,7 +180342,7 @@
 119095 = {
 	name = "ckn_Greg"
 	dynasty = 119090
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = vaishnavism
 	father = 119092
 	mother = 119094
@@ -180328,7 +180353,7 @@
 	name = "ckn_Kingindgleth"
 	female = yes
 	dynasty = 119090
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = vaishnavism
 	father = 119092
 	mother = 119094
@@ -180338,7 +180363,7 @@
 119097 = {
 	name = "ckn_Kalle"
 	dynasty = 119090
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = vaishnavism
 	father = 119092
 	mother = 119094
@@ -180348,7 +180373,7 @@
 119098 = {
 	name = "ckn_Taevriark"
 	dynasty = 119090
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = vaishnavism
 	father = 119093
 	7023.1.1 = { birth = yes }
@@ -180358,7 +180383,7 @@
 	name = "ckn_Zerkshein"
 	female = yes
 	dynasty = 119090
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = vaishnavism
 	father = 119093
 	7026.1.1 = { birth = yes }
@@ -180973,7 +180998,7 @@
 119160 = {
 	name = "ckn_Ianiand"
 	dynasty = 119160
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	stewardship = 10
 	trait = education_stewardship_4
@@ -180986,7 +181011,7 @@
 119161 = {
 	name = "ckn_Niathdros"
 	dynasty = 119160
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 119160
 	6956.1.1 = { birth = yes }
@@ -180995,7 +181020,7 @@
 119162 = {
 	name = "ckn_Vaivkluis"
 	dynasty = 119160
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 119161
 	6995.1.1 = { birth = yes }
@@ -181005,7 +181030,7 @@
 119163 = {
 	name = "ckn_Kaundrar"
 	dynasty = 119160
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 119161
 	6998.1.1 = { birth = yes }
@@ -181014,7 +181039,7 @@
 119164 = {
 	name = "ckn_Maethklauthraiv"
 	female = yes
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	6999.1.1 = { birth = yes }
 	7015.1.1 = { add_spouse = 119162 }
@@ -181023,7 +181048,7 @@
 119165 = {
 	name = "ckn_Togis"
 	dynasty = 119160
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 119162
 	mother = 119164
@@ -181033,7 +181058,7 @@
 119166 = {
 	name = "ckn_Taixsepaithmith"
 	dynasty = 119160
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 119162
 	mother = 119164
@@ -181044,7 +181069,7 @@
 	name = "ckn_Viagkiathsheind"
 	female = yes
 	dynasty = 119160
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 119162
 	mother = 119164
@@ -181055,7 +181080,7 @@
 	name = "ckn_Aiztal"
 	female = yes
 	dynasty = 119160
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 119163
 	7023.1.1 = { birth = yes }
@@ -181064,7 +181089,7 @@
 119169 = {
 	name = "ckn_Taixsepaithmith"
 	dynasty = 119160
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 119163
 	7026.1.1 = { birth = yes }
@@ -181172,7 +181197,7 @@
 119180 = {
 	name = "ckn_Thaenzhiaxkluir"
 	dynasty = 119180
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	stewardship = 10
 	trait = education_stewardship_4
@@ -181185,7 +181210,7 @@
 119181 = {
 	name = "ckn_Ninddeilzoosh"
 	dynasty = 119180
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 119180
 	6957.1.1 = { birth = yes }
@@ -181194,7 +181219,7 @@
 119182 = {
 	name = "ckn_Vaivkluis"
 	dynasty = 119180
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 119181
 	6978.1.1 = { birth = yes }
@@ -181204,7 +181229,7 @@
 119183 = {
 	name = "ckn_Taixsepaithmith"
 	dynasty = 119180
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 119181
 	6980.1.1 = { birth = yes }
@@ -181213,7 +181238,7 @@
 119184 = {
 	name = "ckn_Zhavgau"
 	female = yes
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	6982.1.1 = { birth = yes }
 	6998.1.1 = { add_spouse = 119182 }
@@ -181222,7 +181247,7 @@
 119185 = {
 	name = "ckn_Thaenzhiaxkluir"
 	dynasty = 119180
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 119182
 	mother = 119184
@@ -181233,7 +181258,7 @@
 	name = "ckn_Puirris"
 	female = yes
 	dynasty = 119180
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 119182
 	mother = 119184
@@ -181243,7 +181268,7 @@
 119187 = {
 	name = "ckn_Taizruiglae"
 	dynasty = 119180
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 119182
 	mother = 119184
@@ -181253,7 +181278,7 @@
 119188 = {
 	name = "ckn_Puxnis"
 	dynasty = 119180
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 119183
 	7009.1.1 = { birth = yes }
@@ -181262,7 +181287,7 @@
 119189 = {
 	name = "ckn_Thosnuirklain"
 	dynasty = 119180
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 119183
 	7013.1.1 = { birth = yes }
@@ -181372,7 +181397,7 @@
 119200 = {
 	name = "ckn_Paiznomdig"
 	dynasty = 119200
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = vaishnavism
 	martial = 10
 	trait = education_martial_4
@@ -181386,7 +181411,7 @@
 119201 = {
 	name = "ckn_Glaish"
 	dynasty = 119200
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = vaishnavism
 	father = 119200
 	6967.1.1 = { birth = yes }
@@ -181395,7 +181420,7 @@
 119202 = {
 	name = "ckn_Zhoxbon"
 	dynasty = 119200
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = vaishnavism
 	father = 119201
 	6995.1.1 = { birth = yes }
@@ -181405,7 +181430,7 @@
 119203 = {
 	name = "ckn_Tosou"
 	dynasty = 119200
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = vaishnavism
 	father = 119201
 	6998.1.1 = { birth = yes }
@@ -181414,7 +181439,7 @@
 119204 = {
 	name = "ckn_Navpeigov"
 	female = yes
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = vaishnavism
 	6993.1.1 = { birth = yes }
 	7011.1.1 = { add_spouse = 119202 }
@@ -181423,7 +181448,7 @@
 119205 = {
 	name = "ckn_Emelio"
 	dynasty = 119200
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = vaishnavism
 	father = 119202
 	mother = 119204
@@ -181433,7 +181458,7 @@
 119206 = {
 	name = "ckn_Glendgleitz"
 	dynasty = 119200
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = vaishnavism
 	father = 119202
 	mother = 119204
@@ -181444,7 +181469,7 @@
 	name = "ckn_Riandzidraem"
 	female = yes
 	dynasty = 119200
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = vaishnavism
 	father = 119202
 	mother = 119204
@@ -181454,7 +181479,7 @@
 119208 = {
 	name = "ckn_Piaxthuiv"
 	dynasty = 119200
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = vaishnavism
 	father = 119203
 	7020.1.1 = { birth = yes }
@@ -181463,7 +181488,7 @@
 119209 = {
 	name = "ckn_Kovvoz"
 	dynasty = 119200
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = vaishnavism
 	father = 119203
 	7023.1.1 = { birth = yes }
@@ -181675,7 +181700,7 @@
 119230 = {
 	name = "ckn_Guivklath"
 	dynasty = 119230
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = vaishnavism
 	diplomacy = 10
 	trait = education_diplomacy_4
@@ -181689,7 +181714,7 @@
 119231 = {
 	name = "ckn_Giandmurk"
 	dynasty = 119230
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = vaishnavism
 	father = 119230
 	6978.1.1 = { birth = yes }
@@ -181698,7 +181723,7 @@
 119232 = {
 	name = "ckn_Daemvian"
 	dynasty = 119230
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = vaishnavism
 	father = 119231
 	7010.1.1 = { birth = yes }
@@ -181708,7 +181733,7 @@
 119233 = {
 	name = "ckn_Louie"
 	dynasty = 119230
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = vaishnavism
 	father = 119231
 	7012.1.1 = { birth = yes }
@@ -181717,7 +181742,7 @@
 119234 = {
 	name = "ckn_Beshthauz"
 	female = yes
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = vaishnavism
 	7004.1.1 = { birth = yes }
 	7026.1.1 = { add_spouse = 119232 }
@@ -181726,7 +181751,7 @@
 119235 = {
 	name = "ckn_Tailklaimmox"
 	dynasty = 119230
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = vaishnavism
 	father = 119232
 	mother = 119234
@@ -181737,7 +181762,7 @@
 	name = "ckn_Guvauglaeduim"
 	female = yes
 	dynasty = 119230
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = vaishnavism
 	father = 119232
 	mother = 119234
@@ -181748,7 +181773,7 @@
 	name = "ckn_Dusiansaind"
 	female = yes
 	dynasty = 119230
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = vaishnavism
 	father = 119232
 	mother = 119234
@@ -181758,7 +181783,7 @@
 119238 = {
 	name = "ckn_Paul"
 	dynasty = 119230
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = vaishnavism
 	father = 119233
 	7035.1.1 = { birth = yes }
@@ -181767,7 +181792,7 @@
 119239 = {
 	name = "ckn_Arne"
 	dynasty = 119230
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = vaishnavism
 	father = 119233
 	7036.1.1 = { birth = yes }
@@ -181978,7 +182003,7 @@
 119260 = {
 	name = "ckn_Thosnuirklain"
 	dynasty = 119260
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	diplomacy = 10
 	trait = education_diplomacy_4
@@ -181992,7 +182017,7 @@
 119261 = {
 	name = "ckn_Voththel"
 	dynasty = 119260
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 119260
 	6958.1.1 = { birth = yes }
@@ -182001,7 +182026,7 @@
 119262 = {
 	name = "ckn_Ianiand"
 	dynasty = 119260
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 119261
 	6984.1.1 = { birth = yes }
@@ -182011,7 +182036,7 @@
 119263 = {
 	name = "ckn_Taixsepaithmith"
 	dynasty = 119260
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 119261
 	6988.1.1 = { birth = yes }
@@ -182020,7 +182045,7 @@
 119264 = {
 	name = "ckn_Puirris"
 	female = yes
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	6990.1.1 = { birth = yes }
 	7006.1.1 = { add_spouse = 119262 }
@@ -182029,7 +182054,7 @@
 119265 = {
 	name = "ckn_Noothmug"
 	dynasty = 119260
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 119262
 	mother = 119264
@@ -182040,7 +182065,7 @@
 	name = "ckn_Vustish"
 	female = yes
 	dynasty = 119260
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 119262
 	mother = 119264
@@ -182051,7 +182076,7 @@
 	name = "ckn_Soonduig"
 	female = yes
 	dynasty = 119260
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 119262
 	mother = 119264
@@ -182062,7 +182087,7 @@
 	name = "ckn_Voordroul"
 	female = yes
 	dynasty = 119260
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 119263
 	7015.1.1 = { birth = yes }
@@ -182072,7 +182097,7 @@
 	name = "ckn_Karonboul"
 	female = yes
 	dynasty = 119260
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 119263
 	7017.1.1 = { birth = yes }
@@ -182081,7 +182106,7 @@
 119270 = {
 	name = "ckn_Menpurk"
 	dynasty = 119270
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	intrigue = 10
 	trait = education_intrigue_4
@@ -182095,7 +182120,7 @@
 119271 = {
 	name = "ckn_Taivtan"
 	dynasty = 119270
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 119270
 	6975.1.1 = { birth = yes }
@@ -182104,7 +182129,7 @@
 119272 = {
 	name = "ckn_Klork"
 	dynasty = 119270
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 119271
 	6997.1.1 = { birth = yes }
@@ -182114,7 +182139,7 @@
 119273 = {
 	name = "ckn_Ruimkluig"
 	dynasty = 119270
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 119271
 	6999.1.1 = { birth = yes }
@@ -182123,7 +182148,7 @@
 119274 = {
 	name = "ckn_Saushzharsais"
 	female = yes
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	7002.1.1 = { birth = yes }
 	7018.1.1 = { add_spouse = 119272 }
@@ -182132,7 +182157,7 @@
 119275 = {
 	name = "ckn_Taixsepaithmith"
 	dynasty = 119270
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 119272
 	mother = 119274
@@ -182143,7 +182168,7 @@
 	name = "ckn_Sigorzhoov"
 	female = yes
 	dynasty = 119270
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 119272
 	mother = 119274
@@ -182153,7 +182178,7 @@
 119277 = {
 	name = "ckn_Soonduig"
 	dynasty = 119270
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 119272
 	mother = 119274
@@ -182163,7 +182188,7 @@
 119278 = {
 	name = "ckn_Taizruiglae"
 	dynasty = 119270
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 119273
 	7021.1.1 = { birth = yes }
@@ -182173,7 +182198,7 @@
 	name = "ckn_Zeshiax"
 	female = yes
 	dynasty = 119270
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 119273
 	7023.1.1 = { birth = yes }
@@ -182182,7 +182207,7 @@
 119280 = {
 	name = "ckn_Baenuthgool"
 	dynasty = 119280
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = vaishnavism
 	martial = 10
 	trait = education_martial_4
@@ -182196,7 +182221,7 @@
 119281 = {
 	name = "ckn_Louie"
 	dynasty = 119280
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = vaishnavism
 	father = 119280
 	6974.1.1 = { birth = yes }
@@ -182205,7 +182230,7 @@
 119282 = {
 	name = "ckn_Emelio"
 	dynasty = 119280
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = vaishnavism
 	father = 119281
 	6995.1.1 = { birth = yes }
@@ -182215,7 +182240,7 @@
 119283 = {
 	name = "ckn_Emelio"
 	dynasty = 119280
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = vaishnavism
 	father = 119281
 	6999.1.1 = { birth = yes }
@@ -182224,7 +182249,7 @@
 119284 = {
 	name = "ckn_Baenuthgool"
 	female = yes
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = vaishnavism
 	6995.1.1 = { birth = yes }
 	7011.1.1 = { add_spouse = 119282 }
@@ -182233,7 +182258,7 @@
 119285 = {
 	name = "ckn_Dylan"
 	dynasty = 119280
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = vaishnavism
 	father = 119282
 	mother = 119284
@@ -182243,7 +182268,7 @@
 119286 = {
 	name = "ckn_Tailklaimmox"
 	dynasty = 119280
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = vaishnavism
 	father = 119282
 	mother = 119284
@@ -182253,7 +182278,7 @@
 119287 = {
 	name = "ckn_Guthklour"
 	dynasty = 119280
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = vaishnavism
 	father = 119282
 	mother = 119284
@@ -182264,7 +182289,7 @@
 	name = "ckn_Shuxboov"
 	female = yes
 	dynasty = 119280
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = vaishnavism
 	father = 119283
 	7026.1.1 = { birth = yes }
@@ -182273,7 +182298,7 @@
 119289 = {
 	name = "ckn_Louie"
 	dynasty = 119280
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = vaishnavism
 	father = 119283
 	7031.1.1 = { birth = yes }
@@ -182282,7 +182307,7 @@
 119290 = {
 	name = "ckn_Vaivkluis"
 	dynasty = 119290
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	martial = 10
 	trait = education_martial_4
@@ -182297,7 +182322,7 @@
 119291 = {
 	name = "ckn_Sigorzhoov"
 	dynasty = 119290
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 119290
 	6958.1.1 = { birth = yes }
@@ -182306,7 +182331,7 @@
 119292 = {
 	name = "ckn_Thaenzhiaxkluir"
 	dynasty = 119290
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 119291
 	6995.1.1 = { birth = yes }
@@ -182316,7 +182341,7 @@
 119293 = {
 	name = "ckn_Taixsepaithmith"
 	dynasty = 119290
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 119291
 	6999.1.1 = { birth = yes }
@@ -182325,7 +182350,7 @@
 119294 = {
 	name = "ckn_Gimbaumseirk"
 	female = yes
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	7003.1.1 = { birth = yes }
 	7019.1.1 = { add_spouse = 119292 }
@@ -182334,7 +182359,7 @@
 119295 = {
 	name = "ckn_Taixsepaithmith"
 	dynasty = 119290
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 119292
 	mother = 119294
@@ -182344,7 +182369,7 @@
 119296 = {
 	name = "ckn_Saul"
 	dynasty = 119290
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 119292
 	mother = 119294
@@ -182355,7 +182380,7 @@
 	name = "ckn_Maethklauthraiv"
 	female = yes
 	dynasty = 119290
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 119292
 	mother = 119294
@@ -182365,7 +182390,7 @@
 119298 = {
 	name = "ckn_Saul"
 	dynasty = 119290
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 119293
 	7024.1.1 = { birth = yes }
@@ -182374,7 +182399,7 @@
 119299 = {
 	name = "ckn_Triamseireth"
 	dynasty = 119290
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 119293
 	7026.1.1 = { birth = yes }
@@ -182889,7 +182914,7 @@
 119350 = {
 	name = "ckn_Mishthutz"
 	dynasty = 119350
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = retrogradism_rite
 	intrigue = 10
 	trait = education_intrigue_4
@@ -182904,7 +182929,7 @@
 119351 = {
 	name = "ckn_Arne"
 	dynasty = 119350
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = retrogradism_rite
 	father = 119350
 	6959.1.1 = { birth = yes }
@@ -182913,7 +182938,7 @@
 119352 = {
 	name = "ckn_Kogtroogvoork"
 	dynasty = 119350
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = retrogradism_rite
 	father = 119351
 	6996.1.1 = { birth = yes }
@@ -182923,7 +182948,7 @@
 119353 = {
 	name = "ckn_Zhisaithnosh"
 	dynasty = 119350
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = retrogradism_rite
 	father = 119351
 	6997.1.1 = { birth = yes }
@@ -182932,7 +182957,7 @@
 119354 = {
 	name = "ckn_Gurkverkluitz"
 	female = yes
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = retrogradism_rite
 	6991.1.1 = { birth = yes }
 	7012.1.1 = { add_spouse = 119352 }
@@ -182941,7 +182966,7 @@
 119355 = {
 	name = "ckn_Dylan"
 	dynasty = 119350
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = retrogradism_rite
 	father = 119352
 	mother = 119354
@@ -182952,7 +182977,7 @@
 	name = "ckn_Riandzidraem"
 	female = yes
 	dynasty = 119350
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = retrogradism_rite
 	father = 119352
 	mother = 119354
@@ -182962,7 +182987,7 @@
 119357 = {
 	name = "ckn_Gluvthoutzverk"
 	dynasty = 119350
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = retrogradism_rite
 	father = 119352
 	mother = 119354
@@ -182972,7 +182997,7 @@
 119358 = {
 	name = "ckn_Louie"
 	dynasty = 119350
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = retrogradism_rite
 	father = 119353
 	7023.1.1 = { birth = yes }
@@ -182981,7 +183006,7 @@
 119359 = {
 	name = "ckn_Zhuvvas"
 	dynasty = 119350
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = retrogradism_rite
 	father = 119353
 	7027.1.1 = { birth = yes }
@@ -183492,7 +183517,7 @@
 119410 = {
 	name = "ckn_Kovvoz"
 	dynasty = 119410
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = vaishnavism
 	martial = 10
 	trait = education_martial_4
@@ -183506,7 +183531,7 @@
 119411 = {
 	name = "ckn_Dusiansaind"
 	dynasty = 119410
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = vaishnavism
 	father = 119410
 	6970.1.1 = { birth = yes }
@@ -183515,7 +183540,7 @@
 119412 = {
 	name = "ckn_Taesthooshputznind"
 	dynasty = 119410
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = vaishnavism
 	father = 119411
 	6996.1.1 = { birth = yes }
@@ -183525,7 +183550,7 @@
 119413 = {
 	name = "ckn_Dylan"
 	dynasty = 119410
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = vaishnavism
 	father = 119411
 	7000.1.1 = { birth = yes }
@@ -183534,7 +183559,7 @@
 119414 = {
 	name = "ckn_Zoxkaush"
 	female = yes
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = vaishnavism
 	7000.1.1 = { birth = yes }
 	7016.1.1 = { add_spouse = 119412 }
@@ -183543,7 +183568,7 @@
 119415 = {
 	name = "ckn_Keitzkliark"
 	dynasty = 119410
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = vaishnavism
 	father = 119412
 	mother = 119414
@@ -183554,7 +183579,7 @@
 	name = "ckn_Mindthous"
 	female = yes
 	dynasty = 119410
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = vaishnavism
 	father = 119412
 	mother = 119414
@@ -183565,7 +183590,7 @@
 	name = "ckn_Guvauglaeduim"
 	female = yes
 	dynasty = 119410
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = vaishnavism
 	father = 119412
 	mother = 119414
@@ -183576,7 +183601,7 @@
 	name = "ckn_Navpeigov"
 	female = yes
 	dynasty = 119410
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = vaishnavism
 	father = 119413
 	7025.1.1 = { birth = yes }
@@ -183585,7 +183610,7 @@
 119419 = {
 	name = "ckn_Ildez"
 	dynasty = 119410
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = vaishnavism
 	father = 119413
 	7026.1.1 = { birth = yes }
@@ -183594,7 +183619,7 @@
 119420 = {
 	name = "ckn_Triamseireth"
 	dynasty = 119420
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	stewardship = 10
 	trait = education_stewardship_4
@@ -183607,7 +183632,7 @@
 119421 = {
 	name = "ckn_Ruimkluig"
 	dynasty = 119420
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 119420
 	6967.1.1 = { birth = yes }
@@ -183616,7 +183641,7 @@
 119422 = {
 	name = "ckn_Ianiand"
 	dynasty = 119420
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 119421
 	7000.1.1 = { birth = yes }
@@ -183626,7 +183651,7 @@
 119423 = {
 	name = "ckn_Sigorzhoov"
 	dynasty = 119420
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 119421
 	7003.1.1 = { birth = yes }
@@ -183635,7 +183660,7 @@
 119424 = {
 	name = "ckn_Thosnuirklain"
 	female = yes
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	7002.1.1 = { birth = yes }
 	7018.1.1 = { add_spouse = 119422 }
@@ -183644,7 +183669,7 @@
 119425 = {
 	name = "ckn_Togis"
 	dynasty = 119420
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 119422
 	mother = 119424
@@ -183655,7 +183680,7 @@
 	name = "ckn_Uizpoos"
 	female = yes
 	dynasty = 119420
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 119422
 	mother = 119424
@@ -183666,7 +183691,7 @@
 	name = "ckn_Shamvan"
 	female = yes
 	dynasty = 119420
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 119422
 	mother = 119424
@@ -183676,7 +183701,7 @@
 119428 = {
 	name = "ckn_Triamseireth"
 	dynasty = 119420
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 119423
 	7029.1.1 = { birth = yes }
@@ -183685,7 +183710,7 @@
 119429 = {
 	name = "ckn_Thurkdeth"
 	dynasty = 119420
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = retrogradism_rite
 	father = 119423
 	7030.1.1 = { birth = yes }
@@ -184102,7 +184127,7 @@
 119470 = {
 	name = "ckn_Paiznomdig"
 	dynasty = 119470
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = retrogradism_rite
 	intrigue = 10
 	trait = education_intrigue_4
@@ -184115,7 +184140,7 @@
 119471 = {
 	name = "ckn_Tailklaimmox"
 	dynasty = 119470
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = retrogradism_rite
 	father = 119470
 	6971.1.1 = { birth = yes }
@@ -184124,7 +184149,7 @@
 119472 = {
 	name = "ckn_Gurkverkluitz"
 	dynasty = 119470
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = retrogradism_rite
 	father = 119471
 	7004.1.1 = { birth = yes }
@@ -184134,7 +184159,7 @@
 119473 = {
 	name = "ckn_Glogtuithbuin"
 	dynasty = 119470
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = retrogradism_rite
 	father = 119471
 	7005.1.1 = { birth = yes }
@@ -184143,7 +184168,7 @@
 119474 = {
 	name = "ckn_Maivsheig"
 	female = yes
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = retrogradism_rite
 	7007.1.1 = { birth = yes }
 	7023.1.1 = { add_spouse = 119472 }
@@ -184152,7 +184177,7 @@
 119475 = {
 	name = "ckn_Gluvthoutzverk"
 	dynasty = 119470
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = retrogradism_rite
 	father = 119472
 	mother = 119474
@@ -184162,7 +184187,7 @@
 119476 = {
 	name = "ckn_Ildez"
 	dynasty = 119470
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = retrogradism_rite
 	father = 119472
 	mother = 119474
@@ -184173,7 +184198,7 @@
 	name = "ckn_Keitzkliark"
 	female = yes
 	dynasty = 119470
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = retrogradism_rite
 	father = 119472
 	mother = 119474
@@ -184184,7 +184209,7 @@
 	name = "ckn_Kovvoz"
 	female = yes
 	dynasty = 119470
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = retrogradism_rite
 	father = 119473
 	7031.1.1 = { birth = yes }
@@ -184194,7 +184219,7 @@
 	name = "ckn_Mailklirk"
 	female = yes
 	dynasty = 119470
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = retrogradism_rite
 	father = 119473
 	7033.1.1 = { birth = yes }
@@ -184804,7 +184829,7 @@
 119540 = {
 	name = "ckn_Taixsepaithmith"
 	dynasty = 119540
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	martial = 10
 	trait = education_martial_4
@@ -184818,7 +184843,7 @@
 119541 = {
 	name = "ckn_Klork"
 	dynasty = 119540
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 119540
 	6965.1.1 = { birth = yes }
@@ -184827,7 +184852,7 @@
 119542 = {
 	name = "ckn_Zivpezdraetzvom"
 	dynasty = 119540
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 119541
 	6991.1.1 = { birth = yes }
@@ -184837,7 +184862,7 @@
 119543 = {
 	name = "ckn_Zhuishmairuis"
 	dynasty = 119540
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 119541
 	6994.1.1 = { birth = yes }
@@ -184846,7 +184871,7 @@
 119544 = {
 	name = "ckn_Nuimrae"
 	female = yes
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	6995.1.1 = { birth = yes }
 	7011.1.1 = { add_spouse = 119542 }
@@ -184855,7 +184880,7 @@
 119545 = {
 	name = "ckn_Niathdros"
 	dynasty = 119540
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 119542
 	mother = 119544
@@ -184866,7 +184891,7 @@
 	name = "ckn_Menpurk"
 	female = yes
 	dynasty = 119540
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 119542
 	mother = 119544
@@ -184877,7 +184902,7 @@
 	name = "ckn_Miavvurknav"
 	female = yes
 	dynasty = 119540
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 119542
 	mother = 119544
@@ -184888,7 +184913,7 @@
 	name = "ckn_Siarktheitzklun"
 	female = yes
 	dynasty = 119540
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 119543
 	7019.1.1 = { birth = yes }
@@ -184898,7 +184923,7 @@
 	name = "ckn_Traus"
 	female = yes
 	dynasty = 119540
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 119543
 	7022.1.1 = { birth = yes }
@@ -185009,7 +185034,7 @@
 119560 = {
 	name = "ckn_Tailklaimmox"
 	dynasty = 119560
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = vaishnavism
 	stewardship = 10
 	trait = education_stewardship_4
@@ -185022,7 +185047,7 @@
 119561 = {
 	name = "ckn_Glaish"
 	dynasty = 119560
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = vaishnavism
 	father = 119560
 	6950.1.1 = { birth = yes }
@@ -185031,7 +185056,7 @@
 119562 = {
 	name = "ckn_Taevriark"
 	dynasty = 119560
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = vaishnavism
 	father = 119561
 	6988.1.1 = { birth = yes }
@@ -185041,7 +185066,7 @@
 119563 = {
 	name = "ckn_Tosou"
 	dynasty = 119560
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = vaishnavism
 	father = 119561
 	6990.1.1 = { birth = yes }
@@ -185050,7 +185075,7 @@
 119564 = {
 	name = "ckn_Daulshuv"
 	female = yes
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = vaishnavism
 	6999.1.1 = { birth = yes }
 	7015.1.1 = { add_spouse = 119562 }
@@ -185059,7 +185084,7 @@
 119565 = {
 	name = "ckn_Emelio"
 	dynasty = 119560
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = vaishnavism
 	father = 119562
 	mother = 119564
@@ -185069,7 +185094,7 @@
 119566 = {
 	name = "ckn_Glendgleitz"
 	dynasty = 119560
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = vaishnavism
 	father = 119562
 	mother = 119564
@@ -185080,7 +185105,7 @@
 	name = "ckn_Paitz"
 	female = yes
 	dynasty = 119560
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = vaishnavism
 	father = 119562
 	mother = 119564
@@ -185090,7 +185115,7 @@
 119568 = {
 	name = "ckn_Ildez"
 	dynasty = 119560
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = vaishnavism
 	father = 119563
 	7013.1.1 = { birth = yes }
@@ -185099,7 +185124,7 @@
 119569 = {
 	name = "ckn_Tosou"
 	dynasty = 119560
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = vaishnavism
 	father = 119563
 	7015.1.1 = { birth = yes }
@@ -185209,7 +185234,7 @@
 119580 = {
 	name = "ckn_Moshtaex"
 	dynasty = 119580
-	culture = ckw_tritonian
+	culture = torquas
 	rite = vaishnavism
 	martial = 10
 	trait = education_martial_4
@@ -185223,7 +185248,7 @@
 119581 = {
 	name = "ckn_Kunvaszhooth"
 	dynasty = 119580
-	culture = ckw_tritonian
+	culture = torquas
 	rite = vaishnavism
 	father = 119580
 	6974.1.1 = { birth = yes }
@@ -185232,7 +185257,7 @@
 119582 = {
 	name = "ckn_Uixgougzootz"
 	dynasty = 119580
-	culture = ckw_tritonian
+	culture = torquas
 	rite = vaishnavism
 	father = 119581
 	7003.1.1 = { birth = yes }
@@ -185242,7 +185267,7 @@
 119583 = {
 	name = "ckn_Sunoolrein"
 	dynasty = 119580
-	culture = ckw_tritonian
+	culture = torquas
 	rite = vaishnavism
 	father = 119581
 	7007.1.1 = { birth = yes }
@@ -185251,7 +185276,7 @@
 119584 = {
 	name = "ckn_Uixgougzootz"
 	female = yes
-	culture = ckw_tritonian
+	culture = torquas
 	rite = vaishnavism
 	7004.1.1 = { birth = yes }
 	7020.1.1 = { add_spouse = 119582 }
@@ -185260,7 +185285,7 @@
 119585 = {
 	name = "ckn_Sunoolrein"
 	dynasty = 119580
-	culture = ckw_tritonian
+	culture = torquas
 	rite = vaishnavism
 	father = 119582
 	mother = 119584
@@ -185271,7 +185296,7 @@
 	name = "ckn_Puirris"
 	female = yes
 	dynasty = 119580
-	culture = ckw_tritonian
+	culture = torquas
 	rite = vaishnavism
 	father = 119582
 	mother = 119584
@@ -185282,7 +185307,7 @@
 	name = "ckn_Tivthaug"
 	female = yes
 	dynasty = 119580
-	culture = ckw_tritonian
+	culture = torquas
 	rite = vaishnavism
 	father = 119582
 	mother = 119584
@@ -185293,7 +185318,7 @@
 	name = "ckn_Sarvenmeitz"
 	female = yes
 	dynasty = 119580
-	culture = ckw_tritonian
+	culture = torquas
 	rite = vaishnavism
 	father = 119583
 	7031.1.1 = { birth = yes }
@@ -185302,7 +185327,7 @@
 119589 = {
 	name = "ckn_Taixsepaithmith"
 	dynasty = 119580
-	culture = ckw_tritonian
+	culture = torquas
 	rite = vaishnavism
 	father = 119583
 	7036.1.1 = { birth = yes }
@@ -185311,7 +185336,7 @@
 119590 = {
 	name = "ckn_Thosnuirklain"
 	dynasty = 119590
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	learning = 10
 	trait = education_learning_4
@@ -185325,7 +185350,7 @@
 119591 = {
 	name = "ckn_Voththel"
 	dynasty = 119590
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 119590
 	6962.1.1 = { birth = yes }
@@ -185334,7 +185359,7 @@
 119592 = {
 	name = "ckn_Moshtaex"
 	dynasty = 119590
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 119591
 	6991.1.1 = { birth = yes }
@@ -185344,7 +185369,7 @@
 119593 = {
 	name = "ckn_Zivpezdraetzvom"
 	dynasty = 119590
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 119591
 	6996.1.1 = { birth = yes }
@@ -185353,7 +185378,7 @@
 119594 = {
 	name = "ckn_Nuimrae"
 	female = yes
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	6995.1.1 = { birth = yes }
 	7011.1.1 = { add_spouse = 119592 }
@@ -185362,7 +185387,7 @@
 119595 = {
 	name = "ckn_Maethklauthraiv"
 	dynasty = 119590
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 119592
 	mother = 119594
@@ -185373,7 +185398,7 @@
 	name = "ckn_Shamvan"
 	female = yes
 	dynasty = 119590
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 119592
 	mother = 119594
@@ -185383,7 +185408,7 @@
 119597 = {
 	name = "ckn_Soonduig"
 	dynasty = 119590
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 119592
 	mother = 119594
@@ -185393,7 +185418,7 @@
 119598 = {
 	name = "ckn_Kaundrar"
 	dynasty = 119590
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 119593
 	7020.1.1 = { birth = yes }
@@ -185402,7 +185427,7 @@
 119599 = {
 	name = "ckn_Uixgougzootz"
 	dynasty = 119590
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 119593
 	7021.1.1 = { birth = yes }
@@ -185611,7 +185636,7 @@
 119620 = {
 	name = "ckn_Tendnoos"
 	dynasty = 119620
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	martial = 10
 	trait = education_martial_4
@@ -185625,7 +185650,7 @@
 119621 = {
 	name = "ckn_Menpurk"
 	dynasty = 119620
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 119620
 	6952.1.1 = { birth = yes }
@@ -185634,7 +185659,7 @@
 119622 = {
 	name = "ckn_Voththel"
 	dynasty = 119620
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 119621
 	6983.1.1 = { birth = yes }
@@ -185644,7 +185669,7 @@
 119623 = {
 	name = "ckn_Thosnuirklain"
 	dynasty = 119620
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 119621
 	6984.1.1 = { birth = yes }
@@ -185653,7 +185678,7 @@
 119624 = {
 	name = "ckn_Vustish"
 	female = yes
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	6981.1.1 = { birth = yes }
 	6999.1.1 = { add_spouse = 119622 }
@@ -185662,7 +185687,7 @@
 119625 = {
 	name = "ckn_Niathdros"
 	dynasty = 119620
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 119622
 	mother = 119624
@@ -185672,7 +185697,7 @@
 119626 = {
 	name = "ckn_Mesvotz"
 	dynasty = 119620
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 119622
 	mother = 119624
@@ -185682,7 +185707,7 @@
 119628 = {
 	name = "ckn_Ruimkluig"
 	dynasty = 119620
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 119623
 	7008.1.1 = { birth = yes }
@@ -185691,7 +185716,7 @@
 119629 = {
 	name = "ckn_Puxnis"
 	dynasty = 119620
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 119623
 	7009.1.1 = { birth = yes }
@@ -186007,7 +186032,7 @@
 119660 = {
 	name = "ckn_Ianiand"
 	dynasty = 119660
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	diplomacy = 10
 	trait = education_diplomacy_4
@@ -186020,7 +186045,7 @@
 119661 = {
 	name = "ckn_Ninddeilzoosh"
 	dynasty = 119660
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 119660
 	6978.1.1 = { birth = yes }
@@ -186029,7 +186054,7 @@
 119662 = {
 	name = "ckn_August"
 	dynasty = 119660
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 119661
 	7003.1.1 = { birth = yes }
@@ -186039,7 +186064,7 @@
 119663 = {
 	name = "ckn_Ninddeilzoosh"
 	dynasty = 119660
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 119661
 	7006.1.1 = { birth = yes }
@@ -186048,7 +186073,7 @@
 119664 = {
 	name = "ckn_Puitzpaethkork"
 	female = yes
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	6999.1.1 = { birth = yes }
 	7019.1.1 = { add_spouse = 119662 }
@@ -186057,7 +186082,7 @@
 119665 = {
 	name = "ckn_Menpurk"
 	dynasty = 119660
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 119662
 	mother = 119664
@@ -186068,7 +186093,7 @@
 	name = "ckn_Thauvmurk"
 	female = yes
 	dynasty = 119660
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 119662
 	mother = 119664
@@ -186079,7 +186104,7 @@
 	name = "ckn_Sigorzhoov"
 	female = yes
 	dynasty = 119660
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 119662
 	mother = 119664
@@ -186089,7 +186114,7 @@
 119668 = {
 	name = "ckn_Noothmug"
 	dynasty = 119660
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 119663
 	7031.1.1 = { birth = yes }
@@ -186098,7 +186123,7 @@
 119669 = {
 	name = "ckn_Klork"
 	dynasty = 119660
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 119663
 	7033.1.1 = { birth = yes }
@@ -186207,7 +186232,7 @@
 119680 = {
 	name = "ckn_Voththel"
 	dynasty = 119680
-	culture = ckw_tritonian
+	culture = torquas
 	rite = vaishnavism
 	stewardship = 10
 	trait = education_stewardship_4
@@ -186220,7 +186245,7 @@
 119681 = {
 	name = "ckn_Klork"
 	dynasty = 119680
-	culture = ckw_tritonian
+	culture = torquas
 	rite = vaishnavism
 	father = 119680
 	6967.1.1 = { birth = yes }
@@ -186229,7 +186254,7 @@
 119682 = {
 	name = "ckn_Uixgougzootz"
 	dynasty = 119680
-	culture = ckw_tritonian
+	culture = torquas
 	rite = vaishnavism
 	father = 119681
 	6990.1.1 = { birth = yes }
@@ -186239,7 +186264,7 @@
 119683 = {
 	name = "ckn_Sigorzhoov"
 	dynasty = 119680
-	culture = ckw_tritonian
+	culture = torquas
 	rite = vaishnavism
 	father = 119681
 	6991.1.1 = { birth = yes }
@@ -186248,7 +186273,7 @@
 119684 = {
 	name = "ckn_Sigorzhoov"
 	female = yes
-	culture = ckw_tritonian
+	culture = torquas
 	rite = vaishnavism
 	7007.1.1 = { birth = yes }
 	7023.1.1 = { add_spouse = 119682 }
@@ -186257,7 +186282,7 @@
 119685 = {
 	name = "ckn_Niathdros"
 	dynasty = 119680
-	culture = ckw_tritonian
+	culture = torquas
 	rite = vaishnavism
 	father = 119682
 	mother = 119684
@@ -186267,7 +186292,7 @@
 119686 = {
 	name = "ckn_Ruimkluig"
 	dynasty = 119680
-	culture = ckw_tritonian
+	culture = torquas
 	rite = vaishnavism
 	father = 119682
 	mother = 119684
@@ -186278,7 +186303,7 @@
 	name = "ckn_Menpurk"
 	female = yes
 	dynasty = 119680
-	culture = ckw_tritonian
+	culture = torquas
 	rite = vaishnavism
 	father = 119682
 	mother = 119684
@@ -186288,7 +186313,7 @@
 119688 = {
 	name = "ckn_Maethklauthraiv"
 	dynasty = 119680
-	culture = ckw_tritonian
+	culture = torquas
 	rite = vaishnavism
 	father = 119683
 	7013.1.1 = { birth = yes }
@@ -186297,7 +186322,7 @@
 119689 = {
 	name = "ckn_Noothmug"
 	dynasty = 119680
-	culture = ckw_tritonian
+	culture = torquas
 	rite = vaishnavism
 	father = 119683
 	7018.1.1 = { birth = yes }
@@ -187397,7 +187422,7 @@
 119800 = {
 	name = "ckn_August"
 	dynasty = 119800
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	stewardship = 10
 	trait = education_stewardship_4
@@ -187410,7 +187435,7 @@
 119801 = {
 	name = "ckn_Siarktheitzklun"
 	dynasty = 119800
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 119800
 	6951.1.1 = { birth = yes }
@@ -187419,7 +187444,7 @@
 119802 = {
 	name = "ckn_Puxnis"
 	dynasty = 119800
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 119801
 	6988.1.1 = { birth = yes }
@@ -187429,7 +187454,7 @@
 119803 = {
 	name = "ckn_Uixgougzootz"
 	dynasty = 119800
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 119801
 	6993.1.1 = { birth = yes }
@@ -187438,7 +187463,7 @@
 119804 = {
 	name = "ckn_Zeshiax"
 	female = yes
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	6991.1.1 = { birth = yes }
 	7007.1.1 = { add_spouse = 119802 }
@@ -187447,7 +187472,7 @@
 119805 = {
 	name = "ckn_Raempaix"
 	dynasty = 119800
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 119802
 	mother = 119804
@@ -187457,7 +187482,7 @@
 119806 = {
 	name = "ckn_Kunvaszhooth"
 	dynasty = 119800
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 119802
 	mother = 119804
@@ -187468,7 +187493,7 @@
 	name = "ckn_Drogpoum"
 	female = yes
 	dynasty = 119800
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 119802
 	mother = 119804
@@ -187479,7 +187504,7 @@
 	name = "ckn_Baemkuin"
 	female = yes
 	dynasty = 119800
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 119803
 	7015.1.1 = { birth = yes }
@@ -187489,7 +187514,7 @@
 	name = "ckn_Drogpoum"
 	female = yes
 	dynasty = 119800
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 119803
 	7019.1.1 = { birth = yes }
@@ -187498,7 +187523,7 @@
 119810 = {
 	name = "ckn_Puxnis"
 	dynasty = 119810
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	stewardship = 10
 	trait = education_stewardship_4
@@ -187511,7 +187536,7 @@
 119811 = {
 	name = "ckn_Sunoolrein"
 	dynasty = 119810
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 119810
 	6961.1.1 = { birth = yes }
@@ -187520,7 +187545,7 @@
 119812 = {
 	name = "ckn_Thurkdeth"
 	dynasty = 119810
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 119811
 	6983.1.1 = { birth = yes }
@@ -187530,7 +187555,7 @@
 119813 = {
 	name = "ckn_Blaine"
 	dynasty = 119810
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 119811
 	6988.1.1 = { birth = yes }
@@ -187539,7 +187564,7 @@
 119814 = {
 	name = "ckn_Sigorzhoov"
 	female = yes
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	6987.1.1 = { birth = yes }
 	7003.1.1 = { add_spouse = 119812 }
@@ -187548,7 +187573,7 @@
 119815 = {
 	name = "ckn_Ianiand"
 	dynasty = 119810
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 119812
 	mother = 119814
@@ -187558,7 +187583,7 @@
 119816 = {
 	name = "ckn_Taizruiglae"
 	dynasty = 119810
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 119812
 	mother = 119814
@@ -187569,7 +187594,7 @@
 	name = "ckn_Zhuishmairuis"
 	female = yes
 	dynasty = 119810
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 119812
 	mother = 119814
@@ -187579,7 +187604,7 @@
 119818 = {
 	name = "ckn_Gimbaumseirk"
 	dynasty = 119810
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 119813
 	7017.1.1 = { birth = yes }
@@ -187589,7 +187614,7 @@
 	name = "ckn_Kobaeth"
 	female = yes
 	dynasty = 119810
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 119813
 	7019.1.1 = { birth = yes }
@@ -187598,7 +187623,7 @@
 119820 = {
 	name = "ckn_Moshtaex"
 	dynasty = 119820
-	culture = ckw_tritonian
+	culture = torquas
 	rite = vaishnavism
 	stewardship = 10
 	trait = education_stewardship_4
@@ -187611,7 +187636,7 @@
 119821 = {
 	name = "ckn_Zhuishmairuis"
 	dynasty = 119820
-	culture = ckw_tritonian
+	culture = torquas
 	rite = vaishnavism
 	father = 119820
 	6962.1.1 = { birth = yes }
@@ -187620,7 +187645,7 @@
 119822 = {
 	name = "ckn_Saul"
 	dynasty = 119820
-	culture = ckw_tritonian
+	culture = torquas
 	rite = vaishnavism
 	father = 119821
 	6992.1.1 = { birth = yes }
@@ -187630,7 +187655,7 @@
 119823 = {
 	name = "ckn_Moshtaex"
 	dynasty = 119820
-	culture = ckw_tritonian
+	culture = torquas
 	rite = vaishnavism
 	father = 119821
 	6997.1.1 = { birth = yes }
@@ -187639,7 +187664,7 @@
 119824 = {
 	name = "ckn_Saushzharsais"
 	female = yes
-	culture = ckw_tritonian
+	culture = torquas
 	rite = vaishnavism
 	6991.1.1 = { birth = yes }
 	7008.1.1 = { add_spouse = 119822 }
@@ -187648,7 +187673,7 @@
 119825 = {
 	name = "ckn_Taivtan"
 	dynasty = 119820
-	culture = ckw_tritonian
+	culture = torquas
 	rite = vaishnavism
 	father = 119822
 	mother = 119824
@@ -187658,7 +187683,7 @@
 119826 = {
 	name = "ckn_Gimbaumseirk"
 	dynasty = 119820
-	culture = ckw_tritonian
+	culture = torquas
 	rite = vaishnavism
 	father = 119822
 	mother = 119824
@@ -187669,7 +187694,7 @@
 	name = "ckn_Sigorzhoov"
 	female = yes
 	dynasty = 119820
-	culture = ckw_tritonian
+	culture = torquas
 	rite = vaishnavism
 	father = 119822
 	mother = 119824
@@ -187679,7 +187704,7 @@
 119828 = {
 	name = "ckn_Menpurk"
 	dynasty = 119820
-	culture = ckw_tritonian
+	culture = torquas
 	rite = vaishnavism
 	father = 119823
 	7017.1.1 = { birth = yes }
@@ -187689,7 +187714,7 @@
 	name = "ckn_Drogpoum"
 	female = yes
 	dynasty = 119820
-	culture = ckw_tritonian
+	culture = torquas
 	rite = vaishnavism
 	father = 119823
 	7020.1.1 = { birth = yes }
@@ -187698,7 +187723,7 @@
 119830 = {
 	name = "ckn_Zhuishmairuis"
 	dynasty = 119830
-	culture = ckw_tritonian
+	culture = torquas
 	rite = retrogradism_rite
 	learning = 10
 	trait = education_learning_4
@@ -187712,7 +187737,7 @@
 119831 = {
 	name = "ckn_Klork"
 	dynasty = 119830
-	culture = ckw_tritonian
+	culture = torquas
 	rite = retrogradism_rite
 	father = 119830
 	6953.1.1 = { birth = yes }
@@ -187721,7 +187746,7 @@
 119832 = {
 	name = "ckn_Uixgougzootz"
 	dynasty = 119830
-	culture = ckw_tritonian
+	culture = torquas
 	rite = retrogradism_rite
 	father = 119831
 	6989.1.1 = { birth = yes }
@@ -187731,7 +187756,7 @@
 119833 = {
 	name = "ckn_Zivpezdraetzvom"
 	dynasty = 119830
-	culture = ckw_tritonian
+	culture = torquas
 	rite = retrogradism_rite
 	father = 119831
 	6991.1.1 = { birth = yes }
@@ -187740,7 +187765,7 @@
 119834 = {
 	name = "ckn_Thauvmurk"
 	female = yes
-	culture = ckw_tritonian
+	culture = torquas
 	rite = retrogradism_rite
 	6980.1.1 = { birth = yes }
 	7005.1.1 = { add_spouse = 119832 }
@@ -187749,7 +187774,7 @@
 119835 = {
 	name = "ckn_Blaine"
 	dynasty = 119830
-	culture = ckw_tritonian
+	culture = torquas
 	rite = retrogradism_rite
 	father = 119832
 	mother = 119834
@@ -187760,7 +187785,7 @@
 	name = "ckn_Maethklauthraiv"
 	female = yes
 	dynasty = 119830
-	culture = ckw_tritonian
+	culture = torquas
 	rite = retrogradism_rite
 	father = 119832
 	mother = 119834
@@ -187771,7 +187796,7 @@
 	name = "ckn_Menpurk"
 	female = yes
 	dynasty = 119830
-	culture = ckw_tritonian
+	culture = torquas
 	rite = retrogradism_rite
 	father = 119832
 	mother = 119834
@@ -187782,7 +187807,7 @@
 	name = "ckn_Tivthaug"
 	female = yes
 	dynasty = 119830
-	culture = ckw_tritonian
+	culture = torquas
 	rite = retrogradism_rite
 	father = 119833
 	7019.1.1 = { birth = yes }
@@ -187792,7 +187817,7 @@
 	name = "ckn_Siarktheitzklun"
 	female = yes
 	dynasty = 119830
-	culture = ckw_tritonian
+	culture = torquas
 	rite = retrogradism_rite
 	father = 119832
 	mother = 119834
@@ -187902,7 +187927,7 @@
 119850 = {
 	name = "ckn_Zhuvvas"
 	dynasty = 119850
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = retrogradism_rite
 	diplomacy = 10
 	trait = education_diplomacy_4
@@ -187916,7 +187941,7 @@
 119851 = {
 	name = "ckn_Daemvian"
 	dynasty = 119850
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = retrogradism_rite
 	father = 119850
 	6970.1.1 = { birth = yes }
@@ -187925,7 +187950,7 @@
 119852 = {
 	name = "ckn_Seeixkaezkloon"
 	dynasty = 119850
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = retrogradism_rite
 	father = 119851
 	7005.1.1 = { birth = yes }
@@ -187935,7 +187960,7 @@
 119853 = {
 	name = "ckn_Havbard"
 	dynasty = 119850
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = retrogradism_rite
 	father = 119851
 	7006.1.1 = { birth = yes }
@@ -187944,7 +187969,7 @@
 119854 = {
 	name = "ckn_Maivsheig"
 	female = yes
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = retrogradism_rite
 	7004.1.1 = { birth = yes }
 	7021.1.1 = { add_spouse = 119852 }
@@ -187953,7 +187978,7 @@
 119855 = {
 	name = "ckn_Vuzmia"
 	dynasty = 119850
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = retrogradism_rite
 	father = 119852
 	mother = 119854
@@ -187963,7 +187988,7 @@
 119856 = {
 	name = "ckn_Gluvthoutzverk"
 	dynasty = 119850
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = retrogradism_rite
 	father = 119852
 	mother = 119854
@@ -187973,7 +187998,7 @@
 119857 = {
 	name = "ckn_Seeixkaezkloon"
 	dynasty = 119850
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = retrogradism_rite
 	father = 119852
 	mother = 119854
@@ -187984,7 +188009,7 @@
 	name = "ckn_Vuzmia"
 	female = yes
 	dynasty = 119850
-	culture = ckw_tuonelan
+	culture = ergaster
 	rite = retrogradism_rite
 	father = 119853
 	7035.1.1 = { birth = yes }
@@ -187993,7 +188018,7 @@
 119860 = {
 	name = "ckn_August"
 	dynasty = 119860
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	martial = 10
 	trait = education_martial_4
@@ -188007,7 +188032,7 @@
 119861 = {
 	name = "ckn_Taizruiglae"
 	dynasty = 119860
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 119860
 	6953.1.1 = { birth = yes }
@@ -188016,7 +188041,7 @@
 119862 = {
 	name = "ckn_Kaundrar"
 	dynasty = 119860
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 119861
 	6987.1.1 = { birth = yes }
@@ -188026,7 +188051,7 @@
 119863 = {
 	name = "ckn_Moshtaex"
 	dynasty = 119860
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 119861
 	6989.1.1 = { birth = yes }
@@ -188035,7 +188060,7 @@
 119864 = {
 	name = "ckn_Viagkiathsheind"
 	female = yes
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	6989.1.1 = { birth = yes }
 	7005.1.1 = { add_spouse = 119862 }
@@ -188044,7 +188069,7 @@
 119865 = {
 	name = "ckn_Zivpezdraetzvom"
 	dynasty = 119860
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 119862
 	mother = 119864
@@ -188054,7 +188079,7 @@
 119866 = {
 	name = "ckn_Raempaix"
 	dynasty = 119860
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 119862
 	mother = 119864
@@ -188065,7 +188090,7 @@
 	name = "ckn_Puitzpaethkork"
 	female = yes
 	dynasty = 119860
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 119862
 	mother = 119864
@@ -188075,7 +188100,7 @@
 119868 = {
 	name = "ckn_Tendnoos"
 	dynasty = 119860
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 119863
 	7009.1.1 = { birth = yes }
@@ -188085,7 +188110,7 @@
 	name = "ckn_Traus"
 	female = yes
 	dynasty = 119860
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 119863
 	7014.1.1 = { birth = yes }
@@ -188914,7 +188939,7 @@
 119960 = {
 	name = "ckn_Beindvorgleim"
 	dynasty = 119960
-	culture = ckw_tritonian
+	culture = torquas
 	rite = retrogradism_rite
 	martial = 10
 	trait = education_martial_4
@@ -188928,7 +188953,7 @@
 119961 = {
 	name = "ckn_Rizbom"
 	dynasty = 119960
-	culture = ckw_tritonian
+	culture = torquas
 	rite = retrogradism_rite
 	father = 119960
 	6966.1.1 = { birth = yes }
@@ -188937,7 +188962,7 @@
 119962 = {
 	name = "ckn_Siarktheitzklun"
 	dynasty = 119960
-	culture = ckw_tritonian
+	culture = torquas
 	rite = retrogradism_rite
 	father = 119961
 	6995.1.1 = { birth = yes }
@@ -188947,7 +188972,7 @@
 119963 = {
 	name = "ckn_Thurkdeth"
 	dynasty = 119960
-	culture = ckw_tritonian
+	culture = torquas
 	rite = retrogradism_rite
 	father = 119961
 	6999.1.1 = { birth = yes }
@@ -188956,7 +188981,7 @@
 119964 = {
 	name = "ckn_Miavvurknav"
 	female = yes
-	culture = ckw_tritonian
+	culture = torquas
 	rite = retrogradism_rite
 	6998.1.1 = { birth = yes }
 	7014.1.1 = { add_spouse = 119962 }
@@ -188965,7 +188990,7 @@
 119965 = {
 	name = "ckn_Taizruiglae"
 	dynasty = 119960
-	culture = ckw_tritonian
+	culture = torquas
 	rite = retrogradism_rite
 	father = 119962
 	mother = 119964
@@ -188976,7 +189001,7 @@
 	name = "ckn_Sugzialshaeldruig"
 	female = yes
 	dynasty = 119960
-	culture = ckw_tritonian
+	culture = torquas
 	rite = retrogradism_rite
 	father = 119962
 	mother = 119964
@@ -188986,7 +189011,7 @@
 119967 = {
 	name = "ckn_Mesvotz"
 	dynasty = 119960
-	culture = ckw_tritonian
+	culture = torquas
 	rite = retrogradism_rite
 	father = 119962
 	mother = 119964
@@ -188996,7 +189021,7 @@
 119968 = {
 	name = "ckn_Niathdros"
 	dynasty = 119960
-	culture = ckw_tritonian
+	culture = torquas
 	rite = retrogradism_rite
 	father = 119963
 	7022.1.1 = { birth = yes }
@@ -189005,7 +189030,7 @@
 119969 = {
 	name = "ckn_Taizruiglae"
 	dynasty = 119960
-	culture = ckw_tritonian
+	culture = torquas
 	rite = retrogradism_rite
 	father = 119963
 	7027.1.1 = { birth = yes }
@@ -189218,7 +189243,7 @@
 119990 = {
 	name = "ckn_Rizbom"
 	dynasty = 119990
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	stewardship = 10
 	trait = education_stewardship_4
@@ -189231,7 +189256,7 @@
 119991 = {
 	name = "ckn_Noothmug"
 	dynasty = 119990
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 119990
 	6959.1.1 = { birth = yes }
@@ -189240,7 +189265,7 @@
 119992 = {
 	name = "ckn_Siarktheitzklun"
 	dynasty = 119990
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 119991
 	6990.1.1 = { birth = yes }
@@ -189250,7 +189275,7 @@
 119993 = {
 	name = "ckn_Maethklauthraiv"
 	dynasty = 119990
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 119991
 	6993.1.1 = { birth = yes }
@@ -189259,7 +189284,7 @@
 119994 = {
 	name = "ckn_Puitzpaethkork"
 	female = yes
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	7005.1.1 = { birth = yes }
 	7021.1.1 = { add_spouse = 119992 }
@@ -189268,7 +189293,7 @@
 119995 = {
 	name = "ckn_Kaundrar"
 	dynasty = 119990
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 119992
 	mother = 119994
@@ -189278,7 +189303,7 @@
 119996 = {
 	name = "ckn_Triamseireth"
 	dynasty = 119990
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 119992
 	mother = 119994
@@ -189289,7 +189314,7 @@
 	name = "ckn_Gemdeibil"
 	female = yes
 	dynasty = 119990
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 119992
 	mother = 119994
@@ -189299,7 +189324,7 @@
 119998 = {
 	name = "ckn_Sunoolrein"
 	dynasty = 119990
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 119993
 	7017.1.1 = { birth = yes }
@@ -189309,7 +189334,7 @@
 	name = "ckn_Uizpoos"
 	female = yes
 	dynasty = 119990
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 119993
 	7020.1.1 = { birth = yes }
@@ -189519,7 +189544,7 @@
 120020 = {
 	name = "ckn_Moshtaex"
 	dynasty = 120020
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	martial = 10
 	trait = education_martial_4
@@ -189533,7 +189558,7 @@
 120021 = {
 	name = "ckn_Kunvaszhooth"
 	dynasty = 120020
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 120020
 	6970.1.1 = { birth = yes }
@@ -189542,7 +189567,7 @@
 120022 = {
 	name = "ckn_Vaivkluis"
 	dynasty = 120020
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 120021
 	6992.1.1 = { birth = yes }
@@ -189552,7 +189577,7 @@
 120023 = {
 	name = "ckn_Sunoolrein"
 	dynasty = 120020
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 120021
 	6993.1.1 = { birth = yes }
@@ -189561,7 +189586,7 @@
 120024 = {
 	name = "ckn_Gemdeibil"
 	female = yes
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	6990.1.1 = { birth = yes }
 	7008.1.1 = { add_spouse = 120022 }
@@ -189570,7 +189595,7 @@
 120025 = {
 	name = "ckn_Mesvotz"
 	dynasty = 120020
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 120022
 	mother = 120024
@@ -189581,7 +189606,7 @@
 	name = "ckn_Klendglen"
 	female = yes
 	dynasty = 120020
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 120022
 	mother = 120024
@@ -189591,7 +189616,7 @@
 120027 = {
 	name = "ckn_Tendnoos"
 	dynasty = 120020
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 120022
 	mother = 120024
@@ -189601,7 +189626,7 @@
 120028 = {
 	name = "ckn_Sunoolrein"
 	dynasty = 120020
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 120023
 	7018.1.1 = { birth = yes }
@@ -189610,7 +189635,7 @@
 120029 = {
 	name = "ckn_Soonduig"
 	dynasty = 120020
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 120023
 	7023.1.1 = { birth = yes }
@@ -189619,7 +189644,7 @@
 120030 = {
 	name = "ckn_Voththel"
 	dynasty = 120030
-	culture = ckw_tritonian
+	culture = torquas
 	rite = retrogradism_rite
 	diplomacy = 10
 	trait = education_diplomacy_4
@@ -189632,7 +189657,7 @@
 120031 = {
 	name = "ckn_August"
 	dynasty = 120030
-	culture = ckw_tritonian
+	culture = torquas
 	rite = retrogradism_rite
 	father = 120030
 	6976.1.1 = { birth = yes }
@@ -189641,7 +189666,7 @@
 120032 = {
 	name = "ckn_Soonduig"
 	dynasty = 120030
-	culture = ckw_tritonian
+	culture = torquas
 	rite = retrogradism_rite
 	father = 120031
 	7000.1.1 = { birth = yes }
@@ -189651,7 +189676,7 @@
 120033 = {
 	name = "ckn_Taivtan"
 	dynasty = 120030
-	culture = ckw_tritonian
+	culture = torquas
 	rite = retrogradism_rite
 	father = 120031
 	7005.1.1 = { birth = yes }
@@ -189660,7 +189685,7 @@
 120034 = {
 	name = "ckn_Thauvmurk"
 	female = yes
-	culture = ckw_tritonian
+	culture = torquas
 	rite = retrogradism_rite
 	6999.1.1 = { birth = yes }
 	7016.1.1 = { add_spouse = 120032 }
@@ -189669,7 +189694,7 @@
 120035 = {
 	name = "ckn_Zhuishmairuis"
 	dynasty = 120030
-	culture = ckw_tritonian
+	culture = torquas
 	rite = retrogradism_rite
 	father = 120032
 	mother = 120034
@@ -189679,7 +189704,7 @@
 120036 = {
 	name = "ckn_Kunvaszhooth"
 	dynasty = 120030
-	culture = ckw_tritonian
+	culture = torquas
 	rite = retrogradism_rite
 	father = 120032
 	mother = 120034
@@ -189690,7 +189715,7 @@
 	name = "ckn_Zhuishmairuis"
 	female = yes
 	dynasty = 120030
-	culture = ckw_tritonian
+	culture = torquas
 	rite = retrogradism_rite
 	father = 120032
 	mother = 120034
@@ -189700,7 +189725,7 @@
 120038 = {
 	name = "ckn_Taixsepaithmith"
 	dynasty = 120030
-	culture = ckw_tritonian
+	culture = torquas
 	rite = retrogradism_rite
 	father = 120033
 	7033.1.1 = { birth = yes }
@@ -189709,7 +189734,7 @@
 120039 = {
 	name = "ckn_Kunvaszhooth"
 	dynasty = 120030
-	culture = ckw_tritonian
+	culture = torquas
 	rite = retrogradism_rite
 	father = 120033
 	7034.1.1 = { birth = yes }
@@ -189818,7 +189843,7 @@
 120050 = {
 	name = "ckn_Uixgougzootz"
 	dynasty = 120050
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	stewardship = 10
 	trait = education_stewardship_4
@@ -189831,7 +189856,7 @@
 120051 = {
 	name = "ckn_Puxnis"
 	dynasty = 120050
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 120050
 	6971.1.1 = { birth = yes }
@@ -189840,7 +189865,7 @@
 120052 = {
 	name = "ckn_Blaine"
 	dynasty = 120050
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 120051
 	6993.1.1 = { birth = yes }
@@ -189850,7 +189875,7 @@
 120053 = {
 	name = "ckn_Ninddeilzoosh"
 	dynasty = 120050
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 120051
 	6994.1.1 = { birth = yes }
@@ -189859,7 +189884,7 @@
 120054 = {
 	name = "ckn_Miadaitz"
 	female = yes
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	6995.1.1 = { birth = yes }
 	7011.1.1 = { add_spouse = 120052 }
@@ -189868,7 +189893,7 @@
 120055 = {
 	name = "ckn_Blaine"
 	dynasty = 120050
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 120052
 	mother = 120054
@@ -189879,7 +189904,7 @@
 	name = "ckn_Kobaeth"
 	female = yes
 	dynasty = 120050
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 120052
 	mother = 120054
@@ -189890,7 +189915,7 @@
 	name = "ckn_Zhaundroog"
 	female = yes
 	dynasty = 120050
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 120052
 	mother = 120054
@@ -189901,7 +189926,7 @@
 	name = "ckn_Zeshiax"
 	female = yes
 	dynasty = 120050
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 120053
 	7019.1.1 = { birth = yes }
@@ -189911,7 +189936,7 @@
 	name = "ckn_Sugzialshaeldruig"
 	female = yes
 	dynasty = 120050
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 120053
 	7024.1.1 = { birth = yes }
@@ -190327,7 +190352,7 @@
 120100 = {
 	name = "ckn_Tendnoos"
 	dynasty = 120100
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	stewardship = 10
 	trait = education_stewardship_4
@@ -190340,7 +190365,7 @@
 120101 = {
 	name = "ckn_Blaine"
 	dynasty = 120100
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 120100
 	6968.1.1 = { birth = yes }
@@ -190349,7 +190374,7 @@
 120102 = {
 	name = "ckn_Zhuishmairuis"
 	dynasty = 120100
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 120101
 	6991.1.1 = { birth = yes }
@@ -190359,7 +190384,7 @@
 120103 = {
 	name = "ckn_Taizruiglae"
 	dynasty = 120100
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 120101
 	6992.1.1 = { birth = yes }
@@ -190368,7 +190393,7 @@
 120104 = {
 	name = "ckn_Drogpoum"
 	female = yes
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	6992.1.1 = { birth = yes }
 	7008.1.1 = { add_spouse = 120102 }
@@ -190377,7 +190402,7 @@
 120105 = {
 	name = "ckn_Thurkdeth"
 	dynasty = 120100
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 120102
 	mother = 120104
@@ -190388,7 +190413,7 @@
 	name = "ckn_Soonduig"
 	female = yes
 	dynasty = 120100
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 120102
 	mother = 120104
@@ -190398,7 +190423,7 @@
 120107 = {
 	name = "ckn_Puxnis"
 	dynasty = 120100
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 120102
 	mother = 120104
@@ -190408,7 +190433,7 @@
 120108 = {
 	name = "ckn_Thurkdeth"
 	dynasty = 120100
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 120103
 	7014.1.1 = { birth = yes }
@@ -190417,7 +190442,7 @@
 120109 = {
 	name = "ckn_Voththel"
 	dynasty = 120100
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 120103
 	7017.1.1 = { birth = yes }
@@ -191141,7 +191166,7 @@
 120180 = {
 	name = "ckn_Tendnoos"
 	dynasty = 120180
-	culture = ckw_tritonian
+	culture = torquas
 	rite = retrogradism_rite
 	stewardship = 10
 	trait = education_stewardship_4
@@ -191154,7 +191179,7 @@
 120181 = {
 	name = "ckn_Noothmug"
 	dynasty = 120180
-	culture = ckw_tritonian
+	culture = torquas
 	rite = retrogradism_rite
 	father = 120180
 	6972.1.1 = { birth = yes }
@@ -191163,7 +191188,7 @@
 120182 = {
 	name = "ckn_August"
 	dynasty = 120180
-	culture = ckw_tritonian
+	culture = torquas
 	rite = retrogradism_rite
 	father = 120181
 	6999.1.1 = { birth = yes }
@@ -191173,7 +191198,7 @@
 120183 = {
 	name = "ckn_Moshtaex"
 	dynasty = 120180
-	culture = ckw_tritonian
+	culture = torquas
 	rite = retrogradism_rite
 	father = 120181
 	7000.1.1 = { birth = yes }
@@ -191182,7 +191207,7 @@
 120184 = {
 	name = "ckn_Thosnuirklain"
 	female = yes
-	culture = ckw_tritonian
+	culture = torquas
 	rite = retrogradism_rite
 	7003.1.1 = { birth = yes }
 	7019.1.1 = { add_spouse = 120182 }
@@ -191191,7 +191216,7 @@
 120185 = {
 	name = "ckn_Zhuishmairuis"
 	dynasty = 120180
-	culture = ckw_tritonian
+	culture = torquas
 	rite = retrogradism_rite
 	father = 120182
 	mother = 120184
@@ -191202,7 +191227,7 @@
 	name = "ckn_Aiztal"
 	female = yes
 	dynasty = 120180
-	culture = ckw_tritonian
+	culture = torquas
 	rite = retrogradism_rite
 	father = 120182
 	mother = 120184
@@ -191212,7 +191237,7 @@
 120187 = {
 	name = "ckn_Kaundrar"
 	dynasty = 120180
-	culture = ckw_tritonian
+	culture = torquas
 	rite = retrogradism_rite
 	father = 120182
 	mother = 120184
@@ -191223,7 +191248,7 @@
 	name = "ckn_Shamvan"
 	female = yes
 	dynasty = 120180
-	culture = ckw_tritonian
+	culture = torquas
 	rite = retrogradism_rite
 	father = 120183
 	7029.1.1 = { birth = yes }
@@ -191233,7 +191258,7 @@
 	name = "ckn_Shurroulgeis"
 	female = yes
 	dynasty = 120180
-	culture = ckw_tritonian
+	culture = torquas
 	rite = retrogradism_rite
 	father = 120183
 	7031.1.1 = { birth = yes }
@@ -191443,7 +191468,7 @@
 120210 = {
 	name = "ckn_Sunoolrein"
 	dynasty = 120210
-	culture = ckw_tritonian
+	culture = torquas
 	rite = retrogradism_rite
 	martial = 10
 	trait = education_martial_4
@@ -191457,7 +191482,7 @@
 120211 = {
 	name = "ckn_Maethklauthraiv"
 	dynasty = 120210
-	culture = ckw_tritonian
+	culture = torquas
 	rite = retrogradism_rite
 	father = 120210
 	6955.1.1 = { birth = yes }
@@ -191466,7 +191491,7 @@
 120212 = {
 	name = "ckn_Noothmug"
 	dynasty = 120210
-	culture = ckw_tritonian
+	culture = torquas
 	rite = retrogradism_rite
 	father = 120211
 	6977.1.1 = { birth = yes }
@@ -191476,7 +191501,7 @@
 120213 = {
 	name = "ckn_Ianiand"
 	dynasty = 120210
-	culture = ckw_tritonian
+	culture = torquas
 	rite = retrogradism_rite
 	father = 120211
 	6982.1.1 = { birth = yes }
@@ -191485,7 +191510,7 @@
 120214 = {
 	name = "ckn_Thauvmurk"
 	female = yes
-	culture = ckw_tritonian
+	culture = torquas
 	rite = retrogradism_rite
 	6993.1.1 = { birth = yes }
 	7009.1.1 = { add_spouse = 120212 }
@@ -191494,7 +191519,7 @@
 120215 = {
 	name = "ckn_Soonduig"
 	dynasty = 120210
-	culture = ckw_tritonian
+	culture = torquas
 	rite = retrogradism_rite
 	father = 120212
 	mother = 120214
@@ -191505,7 +191530,7 @@
 	name = "ckn_Soonduig"
 	female = yes
 	dynasty = 120210
-	culture = ckw_tritonian
+	culture = torquas
 	rite = retrogradism_rite
 	father = 120212
 	mother = 120214
@@ -191516,7 +191541,7 @@
 	name = "ckn_Shurroulgeis"
 	female = yes
 	dynasty = 120210
-	culture = ckw_tritonian
+	culture = torquas
 	rite = retrogradism_rite
 	father = 120212
 	mother = 120214
@@ -191527,7 +191552,7 @@
 	name = "ckn_Thauvmurk"
 	female = yes
 	dynasty = 120210
-	culture = ckw_tritonian
+	culture = torquas
 	rite = retrogradism_rite
 	father = 120213
 	7005.1.1 = { birth = yes }
@@ -191536,7 +191561,7 @@
 120219 = {
 	name = "ckn_Triamseireth"
 	dynasty = 120210
-	culture = ckw_tritonian
+	culture = torquas
 	rite = retrogradism_rite
 	father = 120213
 	7009.1.1 = { birth = yes }
@@ -191545,7 +191570,7 @@
 120220 = {
 	name = "ckn_Sigorzhoov"
 	dynasty = 120220
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	martial = 10
 	trait = education_martial_4
@@ -191559,7 +191584,7 @@
 120221 = {
 	name = "ckn_Zivpezdraetzvom"
 	dynasty = 120220
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 120220
 	6958.1.1 = { birth = yes }
@@ -191568,7 +191593,7 @@
 120222 = {
 	name = "ckn_Taivtan"
 	dynasty = 120220
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 120221
 	6995.1.1 = { birth = yes }
@@ -191578,7 +191603,7 @@
 120223 = {
 	name = "ckn_Siarktheitzklun"
 	dynasty = 120220
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 120221
 	6997.1.1 = { birth = yes }
@@ -191587,7 +191612,7 @@
 120224 = {
 	name = "ckn_Traus"
 	female = yes
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	7003.1.1 = { birth = yes }
 	7019.1.1 = { add_spouse = 120222 }
@@ -191596,7 +191621,7 @@
 120225 = {
 	name = "ckn_Taizruiglae"
 	dynasty = 120220
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 120222
 	mother = 120224
@@ -191606,7 +191631,7 @@
 120226 = {
 	name = "ckn_Kunvaszhooth"
 	dynasty = 120220
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 120222
 	mother = 120224
@@ -191616,7 +191641,7 @@
 120227 = {
 	name = "ckn_Kunvaszhooth"
 	dynasty = 120220
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 120222
 	mother = 120224
@@ -191626,7 +191651,7 @@
 120228 = {
 	name = "ckn_Taizruiglae"
 	dynasty = 120220
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 120223
 	7022.1.1 = { birth = yes }
@@ -191635,7 +191660,7 @@
 120229 = {
 	name = "ckn_Moshtaex"
 	dynasty = 120220
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 120223
 	7026.1.1 = { birth = yes }
@@ -192049,7 +192074,7 @@
 120270 = {
 	name = "ckn_Togis"
 	dynasty = 120270
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	stewardship = 10
 	trait = education_stewardship_4
@@ -192062,7 +192087,7 @@
 120271 = {
 	name = "ckn_Gimbaumseirk"
 	dynasty = 120270
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 120270
 	6971.1.1 = { birth = yes }
@@ -192071,7 +192096,7 @@
 120272 = {
 	name = "ckn_Blaine"
 	dynasty = 120270
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 120271
 	7006.1.1 = { birth = yes }
@@ -192081,7 +192106,7 @@
 120273 = {
 	name = "ckn_Vaivkluis"
 	dynasty = 120270
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 120271
 	7007.1.1 = { birth = yes }
@@ -192090,7 +192115,7 @@
 120274 = {
 	name = "ckn_Miadaitz"
 	female = yes
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	7004.1.1 = { birth = yes }
 	7022.1.1 = { add_spouse = 120272 }
@@ -192099,7 +192124,7 @@
 120275 = {
 	name = "ckn_Noothmug"
 	dynasty = 120270
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 120272
 	mother = 120274
@@ -192110,7 +192135,7 @@
 	name = "ckn_Baemkuin"
 	female = yes
 	dynasty = 120270
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 120272
 	mother = 120274
@@ -192121,7 +192146,7 @@
 	name = "ckn_Puitzpaethkork"
 	female = yes
 	dynasty = 120270
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 120272
 	mother = 120274
@@ -192131,7 +192156,7 @@
 120278 = {
 	name = "ckn_Maethklauthraiv"
 	dynasty = 120270
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 120273
 	7033.1.1 = { birth = yes }
@@ -192140,7 +192165,7 @@
 120279 = {
 	name = "ckn_Thosnuirklain"
 	dynasty = 120270
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 120273
 	7036.1.1 = { birth = yes }
@@ -192648,7 +192673,7 @@
 120330 = {
 	name = "ckn_Blaine"
 	dynasty = 120330
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	martial = 10
 	trait = education_martial_4
@@ -192662,7 +192687,7 @@
 120331 = {
 	name = "ckn_Beindvorgleim"
 	dynasty = 120330
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 120330
 	6970.1.1 = { birth = yes }
@@ -192671,7 +192696,7 @@
 120332 = {
 	name = "ckn_Thosnuirklain"
 	dynasty = 120330
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 120331
 	6997.1.1 = { birth = yes }
@@ -192681,7 +192706,7 @@
 120333 = {
 	name = "ckn_Voththel"
 	dynasty = 120330
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 120331
 	7000.1.1 = { birth = yes }
@@ -192690,7 +192715,7 @@
 120334 = {
 	name = "ckn_Soonduig"
 	female = yes
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	7001.1.1 = { birth = yes }
 	7017.1.1 = { add_spouse = 120332 }
@@ -192700,7 +192725,7 @@
 	name = "ckn_Thauvmurk"
 	female = yes
 	dynasty = 120330
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 120332
 	mother = 120334
@@ -192711,7 +192736,7 @@
 	name = "ckn_Aiztal"
 	female = yes
 	dynasty = 120330
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 120332
 	mother = 120334
@@ -192722,7 +192747,7 @@
 	name = "ckn_Soonduig"
 	female = yes
 	dynasty = 120330
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 120332
 	mother = 120334
@@ -192732,7 +192757,7 @@
 120338 = {
 	name = "ckn_Thurkdeth"
 	dynasty = 120330
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 120333
 	7026.1.1 = { birth = yes }
@@ -192741,7 +192766,7 @@
 120339 = {
 	name = "ckn_Togis"
 	dynasty = 120330
-	culture = ckw_tritonian
+	culture = neanderthal
 	rite = reaverism_rite
 	father = 120333
 	7030.1.1 = { birth = yes }
@@ -200153,6 +200178,7 @@
 	mother = 121084
 	7028.1.1 = { birth = yes }
 	7100.1.1 = { death = yes }
+	7050.9.15 = { employer = 121175 }	# 2026-11-18 county taken into the ruler's personal demesne (gen_demesnes.py)
 }
 121086 = {
 	name = "ckn_Rerkglaitz"
@@ -202065,6 +202091,7 @@
 	mother = 121274
 	7024.1.1 = { birth = yes }
 	7097.1.1 = { death = yes }
+	7050.9.15 = { employer = 121175 }	# 2026-11-18 county taken into the ruler's personal demesne (gen_demesnes.py)
 }
 121276 = {
 	name = "ckn_Sairpainklou"
@@ -204286,6 +204313,7 @@
 	mother = 121494
 	7011.1.1 = { birth = yes }
 	7075.1.1 = { death = yes }
+	7050.9.15 = { employer = 121585 }	# 2026-11-18 county taken into the ruler's personal demesne (gen_demesnes.py)
 }
 121496 = {
 	name = "ckn_Koomzisklon"
@@ -205709,6 +205737,7 @@
 	mother = 121634
 	7026.1.1 = { birth = yes }
 	7083.1.1 = { death = yes }
+	7050.9.15 = { employer = 121585 }	# 2026-11-18 county taken into the ruler's personal demesne (gen_demesnes.py)
 }
 121636 = {
 	name = "ckn_Klivgloond"
@@ -228286,6 +228315,8 @@
 	trait = intellect_good_2
 	trait = lifestyle_physician
 	father = 778000
+	# 2026-11-18: family links fixed (modder 17:53: Smith family disconnected)
+	mother = 778001
 	6982.11.19 = { birth = yes }
 	6996.1.1 = { add_spouse = 778004 }
 }
@@ -228315,6 +228346,9 @@
 	trait = gregarious
 	trait = brave
 	trait = education_diplomacy_3
+	# 2026-11-18: family links fixed (modder 17:53: Smith family disconnected)
+	father = 778004
+	mother = 778002
 	6997.12.2 = { birth = yes }
 }
 778006 = {
@@ -228329,6 +228363,9 @@
 	trait = education_martial_3
 	trait = intellect_good_2
 	trait = berserker
+	# 2026-11-18: family links fixed (modder 17:53: Smith family disconnected)
+	father = 778004
+	mother = 778002
 	7002.2.6 = { birth = yes }
 }
 778007 = {
@@ -228373,7 +228410,7 @@
 }
 778010 = {
 	name = "ckn_Rick"
-	dynasty = 77799
+	dynasty = 77797	# 2026-11-18: the Evil branch's own Sanchez dynasty (was 77799, "Evil")
 	culture = mid_atlantic
 	rite = voyagism_rite
 	learning = 90
@@ -228383,7 +228420,7 @@
 	trait = education_martial_4
 	trait = full_cybernetic_conversion
 	6943.1.26 = { birth = yes }
-	6981.1.1 = { add_spouse = 778001 }
+	6981.1.1 = { add_spouse = 778011 }
 	7023.1.25 = { death = yes }
 }
 778011 = {
@@ -228395,13 +228432,13 @@
 	trait = education_diplomacy_3
 	trait = full_cybernetic_conversion
 	6944.1.7 = { birth = yes }
-	6981.1.1 = { add_spouse = 778000 }
+	6981.1.1 = { add_spouse = 778010 }
 	6989.10.30 = { death = yes }
 }
 778012 = {
 	name = "ckn_Beth"
 	female = yes
-	dynasty = 77799
+	dynasty = 77797	# 2026-11-18: the Evil branch's own Sanchez dynasty (was 77799, "Evil")
 	culture = mid_atlantic
 	rite = protestant_rite
 	diplomacy = 9
@@ -228411,24 +228448,27 @@
 	trait = intellect_good_2
 	trait = lifestyle_physician
 	father = 778010
+	# 2026-11-18: family links fixed (modder 17:53: Smith family disconnected)
+	mother = 778011
 	6982.11.19 = { birth = yes }
-	6996.1.1 = { add_spouse = 778004 }
+	6996.1.1 = { add_spouse = 778013 }
 	7022.1.1 = { death = yes }
 }
 778013 = {
 	name = "ckn_Jerry"
+	dynasty = 77798	# 2026-11-18: founds the Evil branch's own Smith dynasty
 	culture = mid_atlantic
 	rite = protestant_rite
 	trait = dull
 	trait = compassionate
 	trait = education_diplomacy_1
 	6982.4.20 = { birth = yes }
-	6996.1.1 = { add_spouse = 778002 }
+	6996.1.1 = { add_spouse = 778012 }
 	7022.1.1 = { death = yes }
 }
 778015 = {
 	name = "ckn_Morty"
-	dynasty = 77799
+	dynasty = 77798	# 2026-11-18: his father's Smith dynasty (was 77799, "Evil"); "Evil" is now his nickname
 	culture = mid_atlantic
 	rite = protestant_rite
 	health = 10
@@ -228443,7 +228483,7 @@
 	father = 778013
 	mother = 778012
 	7002.2.6 = { birth = yes }
-	7050.9.15 = { effect = { add_pressed_claim = title:e_united_states } }
+	7050.9.15 = { give_nickname = nick_ck_evil effect = { add_pressed_claim = title:e_united_states } }
 }
 778100 = {
 	name = "ckn_Bardock"

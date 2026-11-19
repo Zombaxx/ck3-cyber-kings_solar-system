@@ -1849,7 +1849,7 @@
 	culture = "papuan"
 }
 8100800 = {
-	name = "dynn_ck_400017"
+	name = "dynn_ck_8100800"	# 2026-11-18: own name (was dynn_ck_400017, another dynasty's surname)
 	culture = "cascadian"
 }
 8100801 = {
@@ -1857,19 +1857,19 @@
 	culture = "southwesterner"
 }
 8100802 = {
-	name = "dynn_ck_102450"
+	name = "dynn_ck_8100802"	# 2026-11-18: own name (was dynn_ck_102450, another dynasty's surname)
 	culture = "new_englander"
 }
 8100803 = {
-	name = "dynn_ck_101320"
+	name = "dynn_ck_8100803"	# 2026-11-18: own name (was dynn_ck_101320, another dynasty's surname)
 	culture = "new_englander"
 }
 8100804 = {
-	name = "dynn_ck_400043"
+	name = "dynn_ck_8100804"	# 2026-11-18: own name (was dynn_ck_400043, another dynasty's surname)
 	culture = "mid_atlantic"
 }
 8100805 = {
-	name = "dynn_ck_102640"
+	name = "dynn_ck_8100805"	# 2026-11-18: own name (was dynn_ck_102640, another dynasty's surname)
 	culture = "new_englander"
 }
 8100806 = {
@@ -1877,11 +1877,11 @@
 	culture = "new_englander"
 }
 8100807 = {
-	name = "dynn_ck_400035"
+	name = "dynn_ck_8100807"	# 2026-11-18: own name (was dynn_ck_400035, another dynasty's surname)
 	culture = "new_englander"
 }
 8100808 = {
-	name = "dynn_ck_400009"
+	name = "dynn_ck_8100808"	# 2026-11-18: own name (was dynn_ck_400009, another dynasty's surname)
 	culture = "southerner"
 }
 8100900 = {

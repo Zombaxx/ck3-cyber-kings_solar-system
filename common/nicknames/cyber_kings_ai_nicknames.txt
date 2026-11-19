@@ -1,0 +1,9 @@
+﻿# Cyber Kings 2026-11-17 20:45: AI-cywizard nicknames from the modder's CSV
+nick_ckai_the_adapted = {}
+nick_ckai_the_enhanced = {}
+nick_ckai_the_interim = {}
+nick_ckai_the_omnimodal = {}
+nick_ckai_the_reasoner = {}
+nick_ckai_the_refined = {}
+nick_ckai_the_thinker = {}
+nick_ckai_the_transitional = {}

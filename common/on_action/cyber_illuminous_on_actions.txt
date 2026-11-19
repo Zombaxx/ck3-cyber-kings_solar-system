@@ -1,0 +1,31 @@
+﻿# Cyber Kings 2026-11-17 20:20 (modder 20:10): Illuminous gets the Hard Rule perk and a standing army of event troops.
+# Appended to vanilla on_game_start. Generator: _dev/scripts/oneoff/fix_illuminous.py
+on_game_start = {
+	on_actions = { cyber_illuminous_setup }
+}
+cyber_illuminous_setup = {
+	effect = {
+		character:107175 ?= {
+			if = {
+				limit = {
+					is_alive = yes
+					is_landed = yes
+				}
+				if = {
+					limit = { NOT = { has_perk = hard_rule_perk } }
+					add_perk = hard_rule_perk
+				}
+				spawn_army = {
+					name = ck_illuminous_legion
+					location = capital_province
+					inheritable = yes
+					levies = 4000
+					men_at_arms = { type = armored_footmen stacks = 12 }
+					men_at_arms = { type = pikemen_unit stacks = 8 }
+					men_at_arms = { type = crossbowmen stacks = 8 }
+					men_at_arms = { type = armored_horsemen stacks = 6 }
+				}
+			}
+		}
+	}
+}

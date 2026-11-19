@@ -1,0 +1,826 @@
+﻿# Cyber Kings (2026-11-17): The American Question - the United States as one federal people divided into culture blocs.
+# Contrast with the European Question (a union of sovereign states that leave by agreement): here there is no peaceful exit -
+# secession means civil war; crises centralise power in the president; expansion is continental (Manifest Destiny toward the
+# Hegemony of the Americas, to rival Eurasia); elections every 4 years move a polarization score; breakaways are corporate
+# free cities and culture-bloc successor states. Blocs (red / blue / swing) come from culture traditions.
+# Phases follow the American cycles (crisis -> high -> awakening -> unraveling): Status Quo (start), Era of Good Feelings,
+#   Great Awakening, Gilded Age, Great Depression, Reform Era, American Century, Polarization, Secession Crisis, Civil War,
+#   Reconstruction, Imperial Presidency, Manifest Destiny; speculative: Balkanization, Corporate Secession, Progressive
+#   Commonwealth; Foreign Dominion when ruled from outside.
+# Design: _dev/DLC_ADAPTATION.md section 18. Catalysts: common/on_action/cyber_american_on_actions.txt and on_yearly.
+
+ck_american_question = {
+	window = situation
+	situation_group_type = major
+	is_unique = yes
+	map_mode = participant_groups
+	gui_tooltip_group_focused = yes
+	illustration = "gfx/interface/illustrations/decisions/decision_realm.dds"
+	icon = { reference = "gfx/interface/icons/situation_types/guelph_ghibelline.dds" }
+	start_phase = ck_us_status_quo
+
+	sub_regions = {
+		ck_america = {
+			icon = "gfx/interface/icons/situation_types/guelph_ghibelline.dds"
+			map_color = { 0.75 0.2 0.25 }
+			# 2026-11-18: was landed_titles = e_united_states (no participants), then a region built from empires (still none);
+			# now the region lists the empire's de jure duchies (map_data/geographical_regions/zz_cyber_kings_situation_regions.txt).
+			geographical_regions = { ck_situation_region_united_states }
+		}
+	}
+
+	participant_groups = {
+		ck_us_president = {
+			icon = "gfx/interface/icons/situations/situation_modifier_character.dds"
+			map_color = { 1.0 0.85 0.2 }
+			is_character_valid = { has_title = title:e_united_states }
+		}
+		ck_us_corporate = {
+			icon = "gfx/interface/icons/situations/guelph_ghibelline/situation_modifier_agitation.dds"
+			map_color = { 0.2 0.9 0.8 }
+			is_character_valid = { ck_us_corporate_trigger = yes }
+		}
+		ck_us_blue = {
+			icon = "gfx/interface/icons/situations/situation_modifier_diplomacy.dds"
+			map_color = { 0.2 0.35 0.95 }
+			is_character_valid = { ck_us_blue_trigger = yes }
+		}
+		ck_us_red = {
+			icon = "gfx/interface/icons/situations/situation_modifier_military.dds"
+			map_color = { 0.9 0.15 0.15 }
+			is_character_valid = { ck_us_red_trigger = yes }
+		}
+		ck_us_swing = {
+			icon = "gfx/interface/icons/situations/situation_modifier_fertility.dds"
+			map_color = { 0.6 0.4 0.75 }
+		}
+	}
+
+	on_yearly = {
+		ck_american_question_yearly_effect = yes
+	}
+
+	phases = {
+		# Dubious Status Quo (start, 2050): gridlock between the blocs; elections decide which way it tips
+		ck_us_status_quo = {
+			illustration = "gfx/interface/illustrations/decisions/decision_realm.dds"
+			icon = "gfx/interface/icons/situations/situation_modifier_diplomacy.dds"
+			on_start = { ck_us_status_quo_start_effect = yes }
+			future_phases = {
+				ck_us_polarization = {
+					takeover_type = points
+					takeover_points = 100
+					catalysts = {
+						ck_catalyst_us_passing_years = 1
+						ck_catalyst_us_polarizing_election = 25
+						ck_catalyst_us_internal_war = 15
+						ck_catalyst_us_separatist_movement = 15
+						ck_catalyst_us_president_succession = 5
+					}
+				}
+				ck_us_good_feelings = {
+					takeover_type = points
+					takeover_points = 100
+					catalysts = {
+						ck_catalyst_us_consensus_election = 30
+						ck_catalyst_us_external_victory = 10
+					}
+				}
+				ck_us_gilded_age = {
+					takeover_type = points
+					takeover_points = 100
+					catalysts = {
+						ck_catalyst_us_passing_years = 1
+						ck_catalyst_us_corporate_charter = 20
+					}
+				}
+				ck_us_imperial_presidency = { }	# ck_us_imperial_presidency_decision
+				ck_us_progressive_commonwealth = { }	# ck_us_progressive_commonwealth_decision (rare)
+				ck_us_foreign_dominion = { }	# yearly check
+				ck_us_manifest_destiny = { }	# yearly hegemon lock
+			}
+			modifier_sets = {
+				ck_us_status_quo_effects = {
+					icon = "gfx/interface/icons/situations/situation_modifier_diplomacy.dds"
+					ck_us_president = {
+						character_modifier = { vassal_tax_mult = -0.05 monthly_prestige = 0.5 }
+					}
+					all = {
+						county_modifier = { popular_opinion_add = 5 prosperity_growth_factor = 0.05 }
+					}
+				}
+			}
+		}
+		# Era of Good Feelings (1815-25, 1945-63): a High after a crisis; consensus and institution-building
+		ck_us_good_feelings = {
+			illustration = "gfx/interface/illustrations/decisions/cooperative.dds"
+			icon = "gfx/interface/icons/situations/situation_modifier_diplomacy.dds"
+			future_phases = {
+				ck_us_great_awakening = {
+					takeover_type = points
+					takeover_points = 100
+					catalysts = {
+						ck_catalyst_us_passing_years = 2
+						ck_catalyst_us_president_succession = 10
+					}
+				}
+				ck_us_american_century = {
+					takeover_type = points
+					takeover_points = 100
+					catalysts = {
+						ck_catalyst_us_external_victory = 20
+						ck_catalyst_us_continental_conquest = 10
+					}
+				}
+				ck_us_polarization = {
+					takeover_type = points
+					takeover_points = 100
+					catalysts = {
+						ck_catalyst_us_polarizing_election = 20
+						ck_catalyst_us_internal_war = 20
+					}
+				}
+				ck_us_imperial_presidency = { }	# ck_us_imperial_presidency_decision
+				ck_us_foreign_dominion = { }	# yearly check
+				ck_us_manifest_destiny = { }	# yearly hegemon lock
+			}
+			modifier_sets = {
+				ck_us_good_feelings_effects = {
+					icon = "gfx/interface/icons/situations/situation_modifier_diplomacy.dds"
+					ck_us_president = {
+						character_modifier = { vassal_opinion = 10 monthly_legitimacy_add = 0.2 }
+					}
+					all = {
+						character_modifier = { opinion_of_liege = 5 }
+						county_modifier = { popular_opinion_add = 10 prosperity_growth_factor = 0.1 }
+					}
+				}
+			}
+		}
+		# Great Awakening (1730s, 1830s, 1960s): religious revival and reform movements; the culture questions itself
+		ck_us_great_awakening = {
+			illustration = "gfx/interface/illustrations/decisions/decision_personal_religious.dds"
+			icon = "gfx/interface/icons/situations/situation_modifier_faith.dds"
+			future_phases = {
+				ck_us_reform_era = {
+					takeover_type = points
+					takeover_points = 100
+					catalysts = {
+						ck_catalyst_us_consensus_election = 20
+						ck_catalyst_us_passing_years = 2
+					}
+				}
+				ck_us_polarization = {
+					takeover_type = points
+					takeover_points = 100
+					catalysts = {
+						ck_catalyst_us_polarizing_election = 20
+						ck_catalyst_us_internal_war = 15
+						ck_catalyst_us_separatist_movement = 15
+					}
+				}
+				ck_us_gilded_age = {
+					takeover_type = points
+					takeover_points = 100
+					catalysts = {
+						ck_catalyst_us_passing_years = 1
+						ck_catalyst_us_corporate_charter = 15
+					}
+				}
+				ck_us_progressive_commonwealth = { }	# ck_us_progressive_commonwealth_decision (rare)
+				ck_us_imperial_presidency = { }	# ck_us_imperial_presidency_decision
+				ck_us_foreign_dominion = { }	# yearly check
+				ck_us_manifest_destiny = { }	# yearly hegemon lock
+			}
+			modifier_sets = {
+				ck_us_great_awakening_effects = {
+					icon = "gfx/interface/icons/situations/situation_modifier_faith.dds"
+					all = {
+						character_modifier = { monthly_piety_gain_mult = 0.1 different_faith_opinion = -5 }
+					}
+				}
+			}
+		}
+		# Gilded Age (1870-1900, 1920s, 1990s-): boom, robber barons and inequality; corporations outgrow the state
+		ck_us_gilded_age = {
+			illustration = "gfx/interface/illustrations/decisions/decision_spend_money.dds"
+			icon = "gfx/interface/icons/situations/guelph_ghibelline/situation_modifier_agitation.dds"
+			future_phases = {
+				ck_us_reform_era = {
+					takeover_type = points
+					takeover_points = 100
+					catalysts = {
+						ck_catalyst_us_trust_busting = 25
+						ck_catalyst_us_consensus_election = 25
+					}
+				}
+				ck_us_great_depression = {
+					takeover_type = points
+					takeover_points = 100
+					catalysts = {
+						ck_catalyst_us_passing_years = 3
+						ck_catalyst_us_external_defeat = 15
+					}
+				}
+				ck_us_corporate_secession = {
+					takeover_type = points
+					takeover_points = 100
+					catalysts = {
+						ck_catalyst_us_corporate_charter = 50
+					}
+				}
+				ck_us_polarization = {
+					takeover_type = points
+					takeover_points = 100
+					catalysts = {
+						ck_catalyst_us_polarizing_election = 20
+					}
+				}
+				ck_us_imperial_presidency = { }	# ck_us_imperial_presidency_decision
+				ck_us_foreign_dominion = { }	# yearly check
+				ck_us_manifest_destiny = { }	# yearly hegemon lock
+			}
+			modifier_sets = {
+				ck_us_gilded_age_effects = {
+					icon = "gfx/interface/icons/situations/guelph_ghibelline/situation_modifier_agitation.dds"
+					ck_us_president = {
+						character_modifier = { domain_tax_mult = 0.1 vassal_tax_mult = 0.1 }
+					}
+					ck_us_corporate = {
+						character_modifier = { monthly_income_mult = 0.1 }
+					}
+					all = {
+						character_modifier = { monthly_income_mult = 0.1 }
+						county_modifier = { popular_opinion_add = -5 prosperity_growth_factor = 0.15 }
+					}
+				}
+			}
+		}
+		# Great Depression (the Panics, 1929-39): the boom collapses; radicals and strongmen gain a hearing
+		ck_us_great_depression = {
+			illustration = "gfx/interface/illustrations/decisions/disaster.dds"
+			icon = "gfx/interface/icons/situations/guelph_ghibelline/situation_modifier_agitation.dds"
+			max_duration = { years = 15 }
+			max_duration_next_phase = highest_points
+			future_phases = {
+				ck_us_reform_era = {
+					takeover_type = points
+					takeover_points = 100
+					catalysts = {
+						ck_catalyst_us_consensus_election = 30
+						ck_catalyst_us_passing_years = 2
+					}
+				}
+				ck_us_polarization = {
+					takeover_type = points
+					takeover_points = 100
+					catalysts = {
+						ck_catalyst_us_polarizing_election = 20
+						ck_catalyst_us_internal_war = 15
+					}
+				}
+				ck_us_american_century = {
+					takeover_type = points
+					takeover_points = 100
+					catalysts = {
+						ck_catalyst_us_external_victory = 25
+					}
+				}
+				ck_us_imperial_presidency = { }	# ck_us_imperial_presidency_decision
+				ck_us_balkanization = { }	# secession won / Union lost (yearly check, war on_action)
+				ck_us_foreign_dominion = { }	# yearly check
+				ck_us_manifest_destiny = { }	# yearly hegemon lock
+			}
+			modifier_sets = {
+				ck_us_great_depression_effects = {
+					icon = "gfx/interface/icons/situations/guelph_ghibelline/situation_modifier_agitation.dds"
+					ck_us_president = {
+						character_modifier = { domain_tax_mult = -0.15 vassal_opinion = -5 }
+					}
+					all = {
+						character_modifier = { monthly_income_mult = -0.15 }
+						county_modifier = { popular_opinion_add = -10 prosperity_growth_factor = -0.2 }
+					}
+				}
+			}
+		}
+		# Reform Era (the Progressive Era, the New Deal): the federal government tames the trusts and builds the welfare state
+		ck_us_reform_era = {
+			illustration = "gfx/interface/illustrations/decisions/gdp_republic_assembly.dds"
+			icon = "gfx/interface/icons/situations/guelph_ghibelline/situation_modifier_repose.dds"
+			future_phases = {
+				ck_us_good_feelings = {
+					takeover_type = points
+					takeover_points = 100
+					catalysts = {
+						ck_catalyst_us_passing_years = 3
+						ck_catalyst_us_consensus_election = 20
+					}
+				}
+				ck_us_polarization = {
+					takeover_type = points
+					takeover_points = 100
+					catalysts = {
+						ck_catalyst_us_polarizing_election = 25
+					}
+				}
+				ck_us_american_century = {
+					takeover_type = points
+					takeover_points = 100
+					catalysts = {
+						ck_catalyst_us_external_victory = 20
+					}
+				}
+				ck_us_progressive_commonwealth = { }	# ck_us_progressive_commonwealth_decision (rare)
+				ck_us_imperial_presidency = { }	# ck_us_imperial_presidency_decision
+				ck_us_foreign_dominion = { }	# yearly check
+				ck_us_manifest_destiny = { }	# yearly hegemon lock
+			}
+			modifier_sets = {
+				ck_us_reform_era_effects = {
+					icon = "gfx/interface/icons/situations/guelph_ghibelline/situation_modifier_repose.dds"
+					ck_us_president = {
+						character_modifier = { vassal_opinion = 5 monthly_legitimacy_add = 0.2 }
+					}
+					ck_us_corporate = {
+						character_modifier = { monthly_income_mult = -0.15 }
+					}
+					all = {
+						county_modifier = { popular_opinion_add = 10 prosperity_growth_factor = 0.1 }
+					}
+				}
+			}
+		}
+		# American Century (1945-91, Pax Americana): a superpower that projects force across the worlds
+		ck_us_american_century = {
+			illustration = "gfx/interface/illustrations/decisions/tgp_dominance.dds"
+			icon = "gfx/interface/icons/situations/situation_modifier_military.dds"
+			future_phases = {
+				ck_us_polarization = {
+					takeover_type = points
+					takeover_points = 100
+					catalysts = {
+						ck_catalyst_us_passing_years = 2
+						ck_catalyst_us_external_defeat = 20
+						ck_catalyst_us_polarizing_election = 15
+					}
+				}
+				ck_us_manifest_destiny = {
+					takeover_type = points
+					takeover_points = 100
+					catalysts = {
+						ck_catalyst_us_continental_conquest = 30
+					}
+				}
+				ck_us_status_quo = {
+					takeover_type = points
+					takeover_points = 100
+					catalysts = {
+						ck_catalyst_us_passing_years = 1
+					}
+				}
+				ck_us_imperial_presidency = { }	# ck_us_imperial_presidency_decision
+				ck_us_foreign_dominion = { }	# yearly check
+				ck_us_manifest_destiny = { }	# yearly hegemon lock
+			}
+			modifier_sets = {
+				ck_us_american_century_effects = {
+					icon = "gfx/interface/icons/situations/situation_modifier_military.dds"
+					ck_us_president = {
+						character_modifier = { levy_size = 0.15 monthly_prestige = 1.5 knight_effectiveness_mult = 0.1 }
+					}
+					all = {
+						character_modifier = { opinion_of_liege = 5 }
+					}
+				}
+			}
+		}
+		# Polarization (the 1850s, the 2010s-): the red and blue blocs harden; every election is a crisis
+		ck_us_polarization = {
+			illustration = "gfx/interface/illustrations/decisions/divided.dds"
+			icon = "gfx/interface/icons/situations/situation_modifier_subject.dds"
+			future_phases = {
+				ck_us_status_quo = {
+					takeover_type = points
+					takeover_points = 100
+					catalysts = {
+						ck_catalyst_us_consensus_election = 30
+						ck_catalyst_us_external_victory = 10
+					}
+				}
+				ck_us_secession_crisis = {
+					takeover_type = points
+					takeover_points = 100
+					catalysts = {
+						ck_catalyst_us_polarizing_election = 25
+						ck_catalyst_us_internal_war = 20
+						ck_catalyst_us_separatist_movement = 25
+					}
+				}
+				ck_us_corporate_secession = {
+					takeover_type = points
+					takeover_points = 100
+					catalysts = {
+						ck_catalyst_us_corporate_charter = 50
+						ck_catalyst_us_passing_years = 1
+					}
+				}
+				ck_us_imperial_presidency = { }	# ck_us_imperial_presidency_decision
+				ck_us_progressive_commonwealth = { }	# ck_us_progressive_commonwealth_decision (rare)
+				ck_us_foreign_dominion = { }	# yearly check
+				ck_us_manifest_destiny = { }	# yearly hegemon lock
+				ck_us_balkanization = { }	# secession won / Union lost (yearly check, war on_action)
+			}
+			modifier_sets = {
+				ck_us_polarization_effects = {
+					icon = "gfx/interface/icons/situations/situation_modifier_subject.dds"
+					ck_us_president = {
+						character_modifier = { vassal_opinion = -5 }
+					}
+					ck_us_blue = {
+						character_modifier = { opinion_of_liege = -5 monthly_prestige = 0.5 }
+					}
+					ck_us_red = {
+						character_modifier = { opinion_of_liege = -5 monthly_prestige = 0.5 }
+					}
+					all = {
+						county_modifier = { popular_opinion_add = -5 }
+					}
+				}
+			}
+		}
+		# Secession Crisis (1860-61): a bloc talks openly of leaving; it can still be talked down
+		ck_us_secession_crisis = {
+			illustration = "gfx/interface/illustrations/decisions/fractious.dds"
+			icon = "gfx/interface/icons/situations/situation_modifier_military.dds"
+			future_phases = {
+				ck_us_civil_war = {
+					takeover_type = points
+					takeover_points = 100
+					catalysts = {
+						ck_catalyst_us_civil_war = 100
+					}
+				}
+				ck_us_polarization = {
+					takeover_type = points
+					takeover_points = 100
+					catalysts = {
+						ck_catalyst_us_consensus_election = 30
+						ck_catalyst_us_external_victory = 15
+						ck_catalyst_us_passing_years = 2
+					}
+				}
+				ck_us_corporate_secession = {
+					takeover_type = points
+					takeover_points = 100
+					catalysts = {
+						ck_catalyst_us_corporate_charter = 40
+					}
+				}
+				ck_us_imperial_presidency = { }	# ck_us_imperial_presidency_decision
+				ck_us_foreign_dominion = { }	# yearly check
+				ck_us_manifest_destiny = { }	# yearly hegemon lock
+				ck_us_balkanization = { }	# secession won / Union lost (yearly check, war on_action)
+			}
+			modifier_sets = {
+				ck_us_secession_crisis_effects = {
+					icon = "gfx/interface/icons/situations/situation_modifier_military.dds"
+					ck_us_president = {
+						character_modifier = { vassal_opinion = -10 levy_size = 0.1 }
+					}
+					ck_us_blue = {
+						character_modifier = { opinion_of_liege = -15 levy_size = 0.1 }
+					}
+					ck_us_red = {
+						character_modifier = { opinion_of_liege = -15 levy_size = 0.1 }
+					}
+					all = {
+						county_modifier = { popular_opinion_add = -10 }
+					}
+				}
+			}
+		}
+		# (Second) Civil War: an independence war against the president. Winning it brings Reconstruction; losing it, Balkanization
+		ck_us_civil_war = {
+			illustration = "gfx/interface/illustrations/decisions/decision_siege_warfare.dds"
+			icon = "gfx/interface/icons/situations/situation_modifier_military.dds"
+			max_duration = { years = 20 }
+			max_duration_next_phase = highest_points
+			future_phases = {
+				ck_us_reconstruction = {
+					takeover_type = points
+					takeover_points = 100
+					catalysts = {
+						ck_catalyst_us_union_preserved = 100
+					}
+				}
+				ck_us_polarization = {
+					takeover_type = points
+					takeover_points = 100
+					catalysts = {
+						ck_catalyst_us_passing_years = 5
+					}
+				}
+				ck_us_balkanization = { }	# secession won / Union lost (yearly check, war on_action)
+				ck_us_foreign_dominion = { }	# yearly check
+				ck_us_manifest_destiny = { }	# yearly hegemon lock
+			}
+			modifier_sets = {
+				ck_us_civil_war_effects = {
+					icon = "gfx/interface/icons/situations/situation_modifier_military.dds"
+					ck_us_president = {
+						character_modifier = { levy_size = 0.2 men_at_arms_maintenance = -0.15 }
+					}
+					ck_us_blue = {
+						character_modifier = { levy_size = 0.15 }
+					}
+					ck_us_red = {
+						character_modifier = { levy_size = 0.15 }
+					}
+					all = {
+						county_modifier = { prosperity_growth_factor = -0.3 supply_limit_mult = -0.2 }
+					}
+				}
+			}
+		}
+		# Reconstruction (1865-77): the victors remake the defeated regions; a strong president can turn it into an Imperial Presidency
+		ck_us_reconstruction = {
+			illustration = "gfx/interface/illustrations/decisions/decision_legitimacy.dds"
+			icon = "gfx/interface/icons/situations/situation_modifier_character.dds"
+			future_phases = {
+				ck_us_gilded_age = {
+					takeover_type = points
+					takeover_points = 100
+					catalysts = {
+						ck_catalyst_us_passing_years = 3
+					}
+				}
+				ck_us_good_feelings = {
+					takeover_type = points
+					takeover_points = 100
+					catalysts = {
+						ck_catalyst_us_consensus_election = 25
+					}
+				}
+				ck_us_polarization = {
+					takeover_type = points
+					takeover_points = 100
+					catalysts = {
+						ck_catalyst_us_polarizing_election = 25
+						ck_catalyst_us_internal_war = 20
+					}
+				}
+				ck_us_imperial_presidency = { }	# ck_us_imperial_presidency_decision
+				ck_us_foreign_dominion = { }	# yearly check
+				ck_us_manifest_destiny = { }	# yearly hegemon lock
+				ck_us_balkanization = { }	# secession won / Union lost (yearly check, war on_action)
+			}
+			modifier_sets = {
+				ck_us_reconstruction_effects = {
+					icon = "gfx/interface/icons/situations/situation_modifier_character.dds"
+					ck_us_president = {
+						character_modifier = { vassal_limit = 10 monthly_legitimacy_add = 0.3 vassal_tax_mult = 0.1 }
+					}
+					ck_us_blue = {
+						character_modifier = { opinion_of_liege = -5 }
+					}
+					ck_us_red = {
+						character_modifier = { opinion_of_liege = -5 }
+					}
+					all = {
+						county_modifier = { prosperity_growth_factor = 0.1 }
+					}
+				}
+			}
+		}
+		# Balkanization (speculative): the Union has broken into bloc states, corporate cities and free kingdoms
+		ck_us_balkanization = {
+			illustration = "gfx/interface/illustrations/decisions/independent.dds"
+			icon = "gfx/interface/icons/situations/situation_modifier_subject.dds"
+			on_start = { ck_us_balkanization_start_effect = yes }
+			future_phases = {
+				ck_us_status_quo = { }	# re-founded (decision) or the president holds half of the Union again (yearly)
+				ck_us_foreign_dominion = { }	# yearly check
+				ck_us_manifest_destiny = { }	# yearly hegemon lock
+			}
+			modifier_sets = {
+				ck_us_balkanization_effects = {
+					icon = "gfx/interface/icons/situations/situation_modifier_subject.dds"
+					ck_us_president = {
+						character_modifier = { monthly_prestige = 1 vassal_opinion = 5 }
+					}
+					ck_us_corporate = {
+						character_modifier = { monthly_income_mult = 0.1 }
+					}
+					all = {
+						character_modifier = { ai_war_chance = 0.25 }
+						county_modifier = { prosperity_growth_factor = -0.1 }
+					}
+				}
+			}
+		}
+		# Corporate Secession (speculative cyberpunk): the richest cities buy their way out and become corporate free cities
+		ck_us_corporate_secession = {
+			illustration = "gfx/interface/illustrations/decisions/gdp_republic_trade_ships.dds"
+			icon = "gfx/interface/icons/situations/guelph_ghibelline/situation_modifier_agitation.dds"
+			future_phases = {
+				ck_us_polarization = {
+					takeover_type = points
+					takeover_points = 100
+					catalysts = {
+						ck_catalyst_us_passing_years = 3
+						ck_catalyst_us_consensus_election = 20
+					}
+				}
+				ck_us_secession_crisis = {
+					takeover_type = points
+					takeover_points = 100
+					catalysts = {
+						ck_catalyst_us_polarizing_election = 20
+						ck_catalyst_us_separatist_movement = 25
+						ck_catalyst_us_corporate_charter = 10
+					}
+				}
+				ck_us_reform_era = {
+					takeover_type = points
+					takeover_points = 100
+					catalysts = {
+						ck_catalyst_us_trust_busting = 25
+						ck_catalyst_us_consensus_election = 15
+					}
+				}
+				ck_us_balkanization = { }	# secession won / Union lost (yearly check, war on_action)
+				ck_us_imperial_presidency = { }	# ck_us_imperial_presidency_decision
+				ck_us_foreign_dominion = { }	# yearly check
+				ck_us_manifest_destiny = { }	# yearly hegemon lock
+			}
+			modifier_sets = {
+				ck_us_corporate_secession_effects = {
+					icon = "gfx/interface/icons/situations/guelph_ghibelline/situation_modifier_agitation.dds"
+					ck_us_president = {
+						character_modifier = { vassal_tax_mult = -0.1 }
+					}
+					ck_us_corporate = {
+						character_modifier = { monthly_income_mult = 0.1 opinion_of_liege = -10 }
+					}
+					all = {
+						county_modifier = { prosperity_growth_factor = 0.1 }
+					}
+				}
+			}
+		}
+		# Imperial Presidency (speculative): Congress suspended, the president rules by decree; no state may leave
+		ck_us_imperial_presidency = {
+			illustration = "gfx/interface/illustrations/decisions/decision_byz_throne.dds"
+			icon = "gfx/interface/icons/situations/situation_modifier_character.dds"
+			future_phases = {
+				ck_us_manifest_destiny = {
+					takeover_type = points
+					takeover_points = 100
+					catalysts = {
+						ck_catalyst_us_passing_years = 3
+						ck_catalyst_us_external_victory = 15
+						ck_catalyst_us_continental_conquest = 20
+					}
+				}
+				ck_us_secession_crisis = {
+					takeover_type = points
+					takeover_points = 100
+					catalysts = {
+						ck_catalyst_us_president_succession = 15
+						ck_catalyst_us_external_defeat = 20
+						ck_catalyst_us_internal_war = 15
+					}
+				}
+				ck_us_foreign_dominion = { }	# yearly check
+				ck_us_manifest_destiny = { }	# yearly hegemon lock
+				ck_us_balkanization = { }	# secession won / Union lost (yearly check, war on_action)
+			}
+			modifier_sets = {
+				ck_us_imperial_presidency_effects = {
+					icon = "gfx/interface/icons/situations/situation_modifier_character.dds"
+					ck_us_president = {
+						character_modifier = { vassal_tax_mult = 0.15 vassal_limit = 15 monthly_legitimacy_add = 0.3 }
+					}
+					ck_us_blue = {
+						character_modifier = { opinion_of_liege = 5 }
+					}
+					ck_us_red = {
+						character_modifier = { opinion_of_liege = 5 }
+					}
+					all = {
+						county_modifier = { popular_opinion_add = 5 }
+					}
+				}
+			}
+		}
+		# Manifest Destiny (1840s-90s, and speculative): continental conquest toward the Hegemony of the Americas, to rival Eurasia
+		ck_us_manifest_destiny = {
+			illustration = "gfx/interface/illustrations/decisions/decision_found_kingdom.dds"
+			icon = "gfx/interface/icons/situations/situation_modifier_military.dds"
+			future_phases = {
+				ck_us_imperial_presidency = {
+					takeover_type = points
+					takeover_points = 100
+					catalysts = {
+						ck_catalyst_us_external_defeat = 25
+						ck_catalyst_us_president_succession = 10
+						ck_catalyst_us_passing_years = 1
+					}
+				}
+				ck_us_secession_crisis = {
+					takeover_type = points
+					takeover_points = 100
+					catalysts = {
+						ck_catalyst_us_internal_war = 25
+						ck_catalyst_us_external_defeat = 15
+					}
+				}
+				ck_us_american_century = {
+					takeover_type = points
+					takeover_points = 100
+					catalysts = {
+						ck_catalyst_us_passing_years = 1
+						ck_catalyst_us_external_victory = 10
+					}
+				}
+				ck_us_foreign_dominion = { }	# yearly check
+				ck_us_balkanization = { }	# secession won / Union lost (yearly check, war on_action)
+			}
+			modifier_sets = {
+				ck_us_manifest_destiny_effects = {
+					icon = "gfx/interface/icons/situations/situation_modifier_military.dds"
+					ck_us_president = {
+						character_modifier = { ai_war_chance = 0.5 levy_size = 0.15 monthly_prestige = 1.5 title_creation_cost_mult = -0.25 }
+					}
+					all = {
+						character_modifier = { opinion_of_liege = 5 }
+						county_modifier = { prosperity_growth_factor = 0.05 }
+					}
+				}
+			}
+		}
+		# Progressive Commonwealth (speculative, rare): a peaceful, egalitarian federation; no conquest
+		ck_us_progressive_commonwealth = {
+			illustration = "gfx/interface/illustrations/decisions/decision_golden_age.dds"
+			icon = "gfx/interface/icons/situations/situation_modifier_fertility.dds"
+			future_phases = {
+				ck_us_status_quo = {
+					takeover_type = points
+					takeover_points = 100
+					catalysts = {
+						ck_catalyst_us_passing_years = 2
+						ck_catalyst_us_president_succession = 10
+					}
+				}
+				ck_us_polarization = {
+					takeover_type = points
+					takeover_points = 100
+					catalysts = {
+						ck_catalyst_us_internal_war = 20
+						ck_catalyst_us_polarizing_election = 20
+					}
+				}
+				ck_us_foreign_dominion = { }	# yearly check
+				ck_us_manifest_destiny = { }	# yearly hegemon lock
+			}
+			modifier_sets = {
+				ck_us_progressive_commonwealth_effects = {
+					icon = "gfx/interface/icons/situations/situation_modifier_fertility.dds"
+					ck_us_president = {
+						character_modifier = { ai_war_chance = -0.5 learning = 2 vassal_opinion = 10 }
+					}
+					all = {
+						county_modifier = { popular_opinion_add = 15 prosperity_growth_factor = 0.15 }
+					}
+				}
+			}
+		}
+		# Foreign Dominion: the Union is ruled from outside America
+		ck_us_foreign_dominion = {
+			illustration = "gfx/interface/illustrations/decisions/decision_misc.dds"
+			icon = "gfx/interface/icons/situations/situation_modifier_military.dds"
+			on_start = { set_variable = { name = ck_us_dominion_years value = 0 } }
+			future_phases = {
+				ck_us_status_quo = { }	# the outsider is gone (yearly)
+				ck_us_imperial_presidency = { }	# absorbed after 50 years (yearly)
+				ck_us_balkanization = { }	# secession won / Union lost (yearly check, war on_action)
+				ck_us_manifest_destiny = { }	# yearly hegemon lock
+			}
+			modifier_sets = {
+				ck_us_foreign_dominion_effects = {
+					icon = "gfx/interface/icons/situations/situation_modifier_military.dds"
+					ck_us_blue = {
+						character_modifier = { opinion_of_liege = -15 }
+					}
+					ck_us_red = {
+						character_modifier = { opinion_of_liege = -20 }
+					}
+					all = {
+						county_modifier = { popular_opinion_add = -15 }
+					}
+				}
+			}
+		}
+	}
+}

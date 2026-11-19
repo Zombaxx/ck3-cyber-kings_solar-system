@@ -1,0 +1,7 @@
+# Cyber Kings (2026-11-17): Charter and Crown modifiers.
+ck_cc_megacorp_modifier = {	# an incorporated city (50 years)
+	icon = stewardship_positive
+	monthly_income_mult = 0.2
+	stewardship = 2
+	opinion_of_liege = -10
+}

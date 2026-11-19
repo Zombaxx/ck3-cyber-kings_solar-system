@@ -1,0 +1,33 @@
+﻿# Cyber Kings (2026-11-17): catalysts for ck_martian_cycle and ck_european_question (_dev/DLC_ADAPTATION.md section 7).
+# Fired from common/on_action/cyber_situations_on_actions.txt and the situations' on_yearly effects
+# (common/scripted_effects/cyber_kings_situation_effects.txt).
+
+# --- The Martian Cycle ---
+ck_catalyst_mars_conquest = {}            # a Martian ruler wins a war against another Martian ruler
+ck_catalyst_mars_crown_formed = {}        # a kingdom or empire on Mars is created
+ck_catalyst_mars_great_realm = {}         # yearly: some ruler holds at least 30% of Mars
+ck_catalyst_mars_unifier_fell = {}        # the leading unifier dies or loses a war
+ck_catalyst_mars_crown_lost = {}          # a Martian kingdom or empire is destroyed
+ck_catalyst_mars_stalled = {}             # yearly during Unification: nobody holds 20% of Mars
+ck_catalyst_mars_hegemon_succession = {}  # the holder of the Martian hegemony dies
+ck_catalyst_mars_hegemon_defeat = {}      # the Martian hegemon loses a war
+ck_catalyst_mars_hegemon_victory = {}     # the Martian hegemon wins a war
+ck_catalyst_mars_civil_war = {}           # a faction or civil war against the Martian hegemon starts
+ck_catalyst_mars_passing_years = {}       # yearly drift during Stability
+ck_catalyst_mars_reform = {}              # yearly during Decline: the hegemon is at peace and his vassals are content
+
+# --- The European Question ---
+ck_catalyst_eu_passing_years = {}         # yearly drift
+ck_catalyst_eu_external_victory = {}      # a European ruler wins a war against a ruler outside Europe
+ck_catalyst_eu_external_defeat = {}       # a European ruler loses a war against a ruler outside Europe
+ck_catalyst_eu_colonial_conquest = {}     # a European ruler conquers a county on another world
+ck_catalyst_eu_internal_war = {}          # a war between two European rulers starts
+ck_catalyst_eu_independence_won = {}      # an independence or liberty war in Europe is won by the rebels
+ck_catalyst_eu_independence_crushed = {}  # an independence or liberty war in Europe is won by the liege
+ck_catalyst_eu_eurasian_pressure = {}     # the Hegemon of Eurasia attacks a European ruler
+ck_catalyst_eu_succession = {}            # the holder of the European Union dies
+
+# --- The European Question: breakup and confederation (2026-11-17 19:30) ---
+ck_catalyst_eu_member_left = {}            # a member leaves the Union peacefully (Dissolution event) or a European confederate leaves its confederation
+ck_catalyst_eu_confederation_joined = {}   # a European ruler joins the European Confederation
+ck_catalyst_eu_confederation_defended = {} # a member of the European Confederation beats off an attacker from outside Europe

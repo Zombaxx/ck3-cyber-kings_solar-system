@@ -58,7 +58,7 @@ ck_race_shape = {
 			morph = { mode = replace gene = gene_bs_forehead_brow_outer_height template = forehead_brow_outer_height_pos range = { 0.200 0.450 } }
 			morph = { mode = replace gene = gene_bs_cheek_forward template = cheek_forward_pos range = { 0.200 0.400 } }
 			morph = { mode = replace gene = gene_jaw_width template = jaw_width_neg range = { 0.380 0.460 } }
-			morph = { mode = replace gene = gene_height template = normal_height range = { 0.600 0.750 } }
+			morph = { mode = replace gene = gene_height template = normal_height range = { 0.590 0.740 } }
 			morph = { mode = add gene = gene_ck_ears template = ck_ear_swept range = { 0.850 1.000 } }
 		}
 		weight = {
@@ -80,7 +80,7 @@ ck_race_shape = {
 			morph = { mode = replace gene = gene_bs_forehead_brow_outer_height template = forehead_brow_outer_height_pos range = { 0.100 0.225 } }
 			morph = { mode = replace gene = gene_bs_cheek_forward template = cheek_forward_pos range = { 0.100 0.200 } }
 			morph = { mode = replace gene = gene_jaw_width template = jaw_width_neg range = { 0.440 0.480 } }
-			morph = { mode = replace gene = gene_height template = normal_height range = { 0.550 0.625 } }
+			morph = { mode = replace gene = gene_height template = normal_height range = { 0.545 0.620 } }
 			morph = { mode = add gene = gene_ck_ears template = ck_ear_swept range = { 0.425 0.500 } }
 		}
 		weight = {
@@ -102,7 +102,7 @@ ck_race_shape = {
 			morph = { mode = replace gene = gene_bs_forehead_brow_outer_height template = forehead_brow_outer_height_pos range = { 0.400 0.700 } }
 			morph = { mode = replace gene = gene_bs_jaw_def template = jaw_def_pos range = { 0.300 0.600 } }
 			morph = { mode = replace gene = gene_jaw_width template = jaw_width_neg range = { 0.360 0.440 } }
-			morph = { mode = replace gene = gene_height template = normal_height range = { 0.600 0.750 } }
+			morph = { mode = replace gene = gene_height template = normal_height range = { 0.590 0.740 } }
 		}
 		weight = {
 			base = 0
@@ -123,7 +123,7 @@ ck_race_shape = {
 			morph = { mode = replace gene = gene_bs_forehead_brow_outer_height template = forehead_brow_outer_height_pos range = { 0.200 0.350 } }
 			morph = { mode = replace gene = gene_bs_jaw_def template = jaw_def_pos range = { 0.150 0.300 } }
 			morph = { mode = replace gene = gene_jaw_width template = jaw_width_neg range = { 0.430 0.470 } }
-			morph = { mode = replace gene = gene_height template = normal_height range = { 0.550 0.625 } }
+			morph = { mode = replace gene = gene_height template = normal_height range = { 0.545 0.620 } }
 		}
 		weight = {
 			base = 0
@@ -143,7 +143,7 @@ ck_race_shape = {
 			morph = { mode = replace gene = gene_eye_angle template = eye_angle_pos range = { 0.580 0.660 } }
 			morph = { mode = replace gene = gene_head_height template = head_height_pos range = { 0.560 0.640 } }
 			morph = { mode = replace gene = gene_bs_eye_size template = eye_size_pos range = { 0.250 0.450 } }
-			morph = { mode = replace gene = gene_height template = normal_height range = { 0.650 0.800 } }
+			morph = { mode = replace gene = gene_height template = normal_height range = { 0.590 0.740 } }
 		}
 		weight = {
 			base = 0
@@ -163,7 +163,7 @@ ck_race_shape = {
 			morph = { mode = replace gene = gene_eye_angle template = eye_angle_pos range = { 0.540 0.580 } }
 			morph = { mode = replace gene = gene_head_height template = head_height_pos range = { 0.530 0.570 } }
 			morph = { mode = replace gene = gene_bs_eye_size template = eye_size_pos range = { 0.125 0.225 } }
-			morph = { mode = replace gene = gene_height template = normal_height range = { 0.575 0.650 } }
+			morph = { mode = replace gene = gene_height template = normal_height range = { 0.545 0.620 } }
 		}
 		weight = {
 			base = 0
@@ -188,7 +188,7 @@ ck_race_shape = {
 			morph = { mode = replace gene = gene_chin_forward template = chin_forward_neg range = { 0.320 0.420 } }
 			morph = { mode = replace gene = gene_bs_cheek_width template = cheek_width_pos range = { 0.300 0.500 } }
 			morph = { mode = replace gene = gene_neck_width template = neck_width_pos range = { 0.620 0.720 } }
-			morph = { mode = replace gene = gene_height template = normal_height range = { 0.220 0.360 } }
+			morph = { mode = replace gene = gene_height template = normal_height range = { 0.460 0.490 } }
 			morph = { mode = replace gene = gene_body_hair template = body_hair_dense value = 0.900 }
 			morph = { mode = replace gene = gene_eyebrows_fullness template = layer_2_high_thickness range = { 0.750 1.000 } }
 		}
@@ -215,7 +215,7 @@ ck_race_shape = {
 			morph = { mode = replace gene = gene_chin_forward template = chin_forward_neg range = { 0.410 0.460 } }
 			morph = { mode = replace gene = gene_bs_cheek_width template = cheek_width_pos range = { 0.150 0.250 } }
 			morph = { mode = replace gene = gene_neck_width template = neck_width_pos range = { 0.560 0.610 } }
-			morph = { mode = replace gene = gene_height template = normal_height range = { 0.360 0.430 } }
+			morph = { mode = replace gene = gene_height template = normal_height range = { 0.480 0.495 } }
 			morph = { mode = replace gene = gene_body_hair template = body_hair_dense value = 0.700 }
 		}
 		weight = {
@@ -245,7 +245,7 @@ ck_race_shape = {
 			morph = { mode = replace gene = gene_mouth_width template = mouth_width_pos range = { 0.560 0.640 } }
 			morph = { mode = replace gene = gene_neck_width template = neck_width_pos range = { 0.750 0.850 } }
 			morph = { mode = replace gene = gene_bs_eye_size template = eye_size_neg range = { 0.150 0.300 } }
-			morph = { mode = replace gene = gene_height template = normal_height range = { 0.850 0.970 } }
+			morph = { mode = replace gene = gene_height template = normal_height range = { 0.700 0.780 } }
 			morph = { mode = replace gene = gene_body_hair template = body_hair_dense value = 0.900 }
 			morph = { mode = replace gene = gene_eyebrows_fullness template = layer_2_high_thickness range = { 0.750 1.000 } }
 		}
@@ -276,7 +276,7 @@ ck_race_shape = {
 			morph = { mode = replace gene = gene_mouth_width template = mouth_width_pos range = { 0.530 0.570 } }
 			morph = { mode = replace gene = gene_neck_width template = neck_width_pos range = { 0.625 0.675 } }
 			morph = { mode = replace gene = gene_bs_eye_size template = eye_size_neg range = { 0.075 0.150 } }
-			morph = { mode = replace gene = gene_height template = normal_height range = { 0.675 0.735 } }
+			morph = { mode = replace gene = gene_height template = normal_height range = { 0.600 0.640 } }
 			morph = { mode = replace gene = gene_body_hair template = body_hair_dense value = 0.700 }
 		}
 		weight = {
@@ -299,7 +299,7 @@ ck_race_shape = {
 			morph = { mode = replace gene = gene_bs_cheek_width template = cheek_width_pos range = { 0.300 0.500 } }
 			morph = { mode = replace gene = gene_chin_width template = chin_width_neg range = { 0.360 0.440 } }
 			morph = { mode = replace gene = gene_mouth_width template = mouth_width_neg range = { 0.400 0.460 } }
-			morph = { mode = replace gene = gene_height template = normal_height range = { 0.420 0.550 } }
+			morph = { mode = replace gene = gene_height template = normal_height range = { 0.470 0.550 } }
 			morph = { mode = replace gene = gene_eyebrows_fullness template = no_eyebrows value = 0.500 }
 			morph = { mode = replace gene = gene_eyebrows_shape template = no_eyebrows value = 0.500 }
 			morph = { mode = add gene = gene_ck_ears template = ck_ear_cat range = { 0.850 1.000 } }
@@ -324,7 +324,7 @@ ck_race_shape = {
 			morph = { mode = replace gene = gene_bs_cheek_width template = cheek_width_pos range = { 0.150 0.250 } }
 			morph = { mode = replace gene = gene_chin_width template = chin_width_neg range = { 0.430 0.470 } }
 			morph = { mode = replace gene = gene_mouth_width template = mouth_width_neg range = { 0.450 0.480 } }
-			morph = { mode = replace gene = gene_height template = normal_height range = { 0.460 0.525 } }
+			morph = { mode = replace gene = gene_height template = normal_height range = { 0.485 0.525 } }
 			morph = { mode = add gene = gene_ck_ears template = ck_ear_cat range = { 0.850 1.000 } }
 		}
 		weight = {
@@ -347,7 +347,7 @@ ck_race_shape = {
 			morph = { mode = replace gene = gene_bs_cheek_width template = cheek_width_pos range = { 0.300 0.500 } }
 			morph = { mode = replace gene = gene_chin_width template = chin_width_neg range = { 0.360 0.440 } }
 			morph = { mode = replace gene = gene_mouth_width template = mouth_width_neg range = { 0.400 0.460 } }
-			morph = { mode = replace gene = gene_height template = normal_height range = { 0.420 0.550 } }
+			morph = { mode = replace gene = gene_height template = normal_height range = { 0.470 0.550 } }
 			morph = { mode = replace gene = gene_eyebrows_fullness template = no_eyebrows value = 0.500 }
 			morph = { mode = replace gene = gene_eyebrows_shape template = no_eyebrows value = 0.500 }
 			morph = { mode = add gene = gene_ck_ears template = ck_ear_mau range = { 0.850 1.000 } }
@@ -372,7 +372,7 @@ ck_race_shape = {
 			morph = { mode = replace gene = gene_bs_cheek_width template = cheek_width_pos range = { 0.150 0.250 } }
 			morph = { mode = replace gene = gene_chin_width template = chin_width_neg range = { 0.430 0.470 } }
 			morph = { mode = replace gene = gene_mouth_width template = mouth_width_neg range = { 0.450 0.480 } }
-			morph = { mode = replace gene = gene_height template = normal_height range = { 0.460 0.525 } }
+			morph = { mode = replace gene = gene_height template = normal_height range = { 0.485 0.525 } }
 			morph = { mode = add gene = gene_ck_ears template = ck_ear_mau range = { 0.850 1.000 } }
 		}
 		weight = {
@@ -398,7 +398,7 @@ ck_race_shape = {
 			morph = { mode = replace gene = gene_bs_eye_size template = eye_size_neg range = { 0.200 0.400 } }
 			morph = { mode = replace gene = gene_mouth_width template = mouth_width_pos range = { 0.550 0.620 } }
 			morph = { mode = replace gene = gene_neck_width template = neck_width_pos range = { 0.650 0.750 } }
-			morph = { mode = replace gene = gene_height template = normal_height range = { 0.700 0.850 } }
+			morph = { mode = replace gene = gene_height template = normal_height range = { 0.590 0.740 } }
 		}
 		weight = {
 			base = 0
@@ -423,7 +423,7 @@ ck_race_shape = {
 			morph = { mode = replace gene = gene_bs_eye_size template = eye_size_neg range = { 0.100 0.200 } }
 			morph = { mode = replace gene = gene_mouth_width template = mouth_width_pos range = { 0.525 0.560 } }
 			morph = { mode = replace gene = gene_neck_width template = neck_width_pos range = { 0.575 0.625 } }
-			morph = { mode = replace gene = gene_height template = normal_height range = { 0.600 0.675 } }
+			morph = { mode = replace gene = gene_height template = normal_height range = { 0.545 0.620 } }
 		}
 		weight = {
 			base = 0
@@ -495,7 +495,7 @@ ck_race_shape = {
 			morph = { mode = replace gene = gene_chin_width template = chin_width_pos range = { 0.560 0.620 } }
 			morph = { mode = replace gene = gene_bs_forehead_brow_forward template = forehead_brow_forward_pos range = { 0.200 0.400 } }
 			morph = { mode = replace gene = gene_neck_width template = neck_width_pos range = { 0.580 0.640 } }
-			morph = { mode = replace gene = gene_height template = normal_height range = { 0.700 0.850 } }
+			morph = { mode = replace gene = gene_height template = normal_height range = { 0.590 0.740 } }
 		}
 		weight = {
 			base = 0
@@ -517,7 +517,7 @@ ck_race_shape = {
 			morph = { mode = replace gene = gene_chin_width template = chin_width_pos range = { 0.530 0.560 } }
 			morph = { mode = replace gene = gene_bs_forehead_brow_forward template = forehead_brow_forward_pos range = { 0.100 0.200 } }
 			morph = { mode = replace gene = gene_neck_width template = neck_width_pos range = { 0.540 0.570 } }
-			morph = { mode = replace gene = gene_height template = normal_height range = { 0.600 0.675 } }
+			morph = { mode = replace gene = gene_height template = normal_height range = { 0.545 0.620 } }
 		}
 		weight = {
 			base = 0
@@ -529,10 +529,34 @@ ck_race_shape = {
 			}
 		}
 	}
+	auroran_full_female = {
+		ignore_outfit_tags = yes
+		dna_modifiers = {
+			morph = { mode = replace gene = gene_height template = normal_height range = { 0.640 0.720 } }
+			morph = { mode = replace gene = gene_neck_width template = neck_width_neg range = { 0.180 0.308 } }
+			morph = { mode = replace gene = gene_neck_length template = neck_length_pos range = { 0.628 0.756 } }
+			morph = { mode = replace gene = gene_head_height template = head_height_pos range = { 0.660 0.788 } }
+			morph = { mode = replace gene = gene_head_top_height template = head_top_height_pos range = { 0.628 0.756 } }
+			morph = { mode = replace gene = gene_bs_cheek_forward template = cheek_forward_pos range = { 0.320 0.640 } }
+			morph = { mode = replace gene = gene_bs_cheek_width template = cheek_width_pos range = { 0.240 0.480 } }
+			morph = { mode = replace gene = gene_bs_eye_size template = eye_size_pos range = { 0.720 1.000 } }
+			morph = { mode = replace gene = gene_jaw_width template = jaw_width_neg range = { 0.340 0.420 } }
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 110
+				exists = this
+				ck_portrait_race_auroran_trigger = yes
+				NOT = { has_character_flag = ck_race_half }
+				is_female = yes
+			}
+		}
+	}
 	auroran_full = {
 		ignore_outfit_tags = yes
 		dna_modifiers = {
-			morph = { mode = replace gene = gene_height template = normal_height range = { 0.820 0.950 } }
+			morph = { mode = replace gene = gene_height template = normal_height range = { 0.640 0.720 } }
 			morph = { mode = replace gene = gene_neck_width template = neck_width_neg range = { 0.300 0.380 } }
 			morph = { mode = replace gene = gene_neck_length template = neck_length_pos range = { 0.580 0.660 } }
 			morph = { mode = replace gene = gene_head_height template = head_height_pos range = { 0.600 0.680 } }
@@ -552,10 +576,34 @@ ck_race_shape = {
 			}
 		}
 	}
+	auroran_half_female = {
+		ignore_outfit_tags = yes
+		dna_modifiers = {
+			morph = { mode = replace gene = gene_height template = normal_height range = { 0.570 0.610 } }
+			morph = { mode = replace gene = gene_neck_width template = neck_width_neg range = { 0.340 0.404 } }
+			morph = { mode = replace gene = gene_neck_length template = neck_length_pos range = { 0.564 0.628 } }
+			morph = { mode = replace gene = gene_head_height template = head_height_pos range = { 0.580 0.644 } }
+			morph = { mode = replace gene = gene_head_top_height template = head_top_height_pos range = { 0.564 0.628 } }
+			morph = { mode = replace gene = gene_bs_cheek_forward template = cheek_forward_pos range = { 0.160 0.320 } }
+			morph = { mode = replace gene = gene_bs_cheek_width template = cheek_width_pos range = { 0.120 0.240 } }
+			morph = { mode = replace gene = gene_bs_eye_size template = eye_size_pos range = { 0.360 0.500 } }
+			morph = { mode = replace gene = gene_jaw_width template = jaw_width_neg range = { 0.420 0.460 } }
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 110
+				exists = this
+				ck_portrait_race_auroran_trigger = yes
+				has_character_flag = ck_race_half
+				is_female = yes
+			}
+		}
+	}
 	auroran_half = {
 		ignore_outfit_tags = yes
 		dna_modifiers = {
-			morph = { mode = replace gene = gene_height template = normal_height range = { 0.660 0.725 } }
+			morph = { mode = replace gene = gene_height template = normal_height range = { 0.570 0.610 } }
 			morph = { mode = replace gene = gene_neck_width template = neck_width_neg range = { 0.400 0.440 } }
 			morph = { mode = replace gene = gene_neck_length template = neck_length_pos range = { 0.540 0.580 } }
 			morph = { mode = replace gene = gene_head_height template = head_height_pos range = { 0.550 0.590 } }
@@ -585,7 +633,7 @@ ck_race_shape = {
 			morph = { mode = replace gene = gene_bs_eye_fold_shape template = eye_fold_shape_02_pos range = { 0.200 0.400 } }
 			morph = { mode = replace gene = gene_jaw_width template = jaw_width_neg range = { 0.400 0.450 } }
 			morph = { mode = replace gene = gene_neck_length template = neck_length_pos range = { 0.600 0.680 } }
-			morph = { mode = replace gene = gene_height template = normal_height range = { 0.700 0.850 } }
+			morph = { mode = replace gene = gene_height template = normal_height range = { 0.590 0.740 } }
 		}
 		weight = {
 			base = 0
@@ -607,7 +655,7 @@ ck_race_shape = {
 			morph = { mode = replace gene = gene_bs_eye_fold_shape template = eye_fold_shape_02_pos range = { 0.100 0.200 } }
 			morph = { mode = replace gene = gene_jaw_width template = jaw_width_neg range = { 0.450 0.475 } }
 			morph = { mode = replace gene = gene_neck_length template = neck_length_pos range = { 0.550 0.590 } }
-			morph = { mode = replace gene = gene_height template = normal_height range = { 0.600 0.675 } }
+			morph = { mode = replace gene = gene_height template = normal_height range = { 0.545 0.620 } }
 		}
 		weight = {
 			base = 0

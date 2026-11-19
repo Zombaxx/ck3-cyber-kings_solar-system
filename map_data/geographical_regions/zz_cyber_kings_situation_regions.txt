@@ -1,0 +1,15 @@
+﻿# Cyber Kings (2026-11-18): regions for situations built on a de jure empire (_dev/DLC_ADAPTATION.md sections 24-25).
+# Situation sub-regions given as landed_titles = { e_... } got no participants, and the first version of these regions
+# (empires = { e_... }) did not reach the situations either: the 2026-11-18 save shows both sub-regions with no region at all.
+# Listed as de jure duchies instead, the form every working region in the mod uses (ckworld_*). Generated from
+# common/landed_titles/00_landed_titles.txt; regenerate if the de jure duchies of e_european_union or e_united_states change.
+ck_situation_region_european_union = {	# e_european_union: 41 duchies
+	duchies = {
+		d_sjaelland d_jylland d_duchy0413 d_cuneo d_duchy0548 d_duchy0577 d_rome d_duchy0456 d_duchy0479 d_northern_ireland d_duchy0480 d_albacete d_badajoz d_duchy0464 d_duchy0506 d_chernihiv d_dnipropetrovsk d_duchy0596 d_duchy0599 d_lviv d_odessa d_ck_belarus d_ck_occitania d_france d_marne d_saone_et_loire d_duchy0534 d_duchy0563 d_duchy0570 d_duchy0447 d_bavaria d_duchy0530 d_duchy0558 d_hesse d_lower_austria d_lower_saxony d_duchy0594 d_duchy0600 d_korce d_cyprus d_masovian_voivodeship
+	}
+}
+ck_situation_region_united_states = {	# e_united_states: 24 duchies
+	duchies = {
+		d_sierras d_norcal d_duchy0531 d_duchy0312 d_duchy0233 d_duchy0192 d_colorado d_duchy0161 d_northern_plains d_duchy0226 d_central_plains d_duchy0244 d_ohio d_michigan d_austin d_nashville d_duchy0126 d_florida d_duchy0350 d_northern_new_england d_southern_new_england d_duchy0198 d_duchy0272 d_chesapeake_bay
+	}
+}

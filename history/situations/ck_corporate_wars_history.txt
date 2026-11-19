@@ -1,0 +1,9 @@
+# Cyber Kings (2026-11-17): Charter and Crown runs from the 7050 start (_dev/DLC_ADAPTATION.md section 21).
+7050.1.1 = {
+	effect = {
+		start_situation = {
+			type = ck_corporate_wars
+			start_phase = ck_cc_agitation
+		}
+	}
+}

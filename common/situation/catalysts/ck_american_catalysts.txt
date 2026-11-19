@@ -1,0 +1,15 @@
+﻿# Cyber Kings (2026-11-17): catalysts for The American Question (ck_american_question). _dev/DLC_ADAPTATION.md section 18.
+# Fired from common/on_action/cyber_american_on_actions.txt and ck_american_question_yearly_effect.
+ck_catalyst_us_passing_years = {}        # yearly
+ck_catalyst_us_polarizing_election = {}  # an election with polarization at or above 60
+ck_catalyst_us_consensus_election = {}   # an election with polarization at or below 30
+ck_catalyst_us_internal_war = {}         # a war between two rulers inside the Union
+ck_catalyst_us_separatist_movement = {}  # yearly: an independence faction targets the president
+ck_catalyst_us_president_succession = {} # the president died
+ck_catalyst_us_external_victory = {}     # the president won a war against an outsider
+ck_catalyst_us_external_defeat = {}      # the president lost a war against an outsider
+ck_catalyst_us_continental_conquest = {} # the president won a war against a ruler of the Americas outside the Union
+ck_catalyst_us_corporate_charter = {}    # a city broke away as a corporate free city
+ck_catalyst_us_civil_war = {}            # an independence war was declared on the president
+ck_catalyst_us_union_preserved = {}
+ck_catalyst_us_trust_busting = {}       # the president revoked the corporations' charters (Charter and Crown, 2026-11-18)      # the president won an independence war

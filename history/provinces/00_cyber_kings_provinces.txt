@@ -28199,8 +28199,8 @@
 
 ########## k_kingdom1804
 ### c_province1797
-1797 = {
-	culture = ckw_tuonelan
+1797 = {	# 2026-11-17 21:45 Triton tribes
+	culture = antecessor
 	rite = theravada
 	holding = tribal_holding
 }
@@ -28217,8 +28217,8 @@
 	holding = none
 }
 ### c_province1813
-1813 = {
-	culture = ckw_tuonelan
+1813 = {	# 2026-11-17 21:45 Triton tribes
+	culture = antecessor
 	rite = theravada
 	holding = tribal_holding
 }
@@ -28235,8 +28235,8 @@
 	holding = none
 }
 ### c_province1821
-1821 = {
-	culture = ckw_tuonelan
+1821 = {	# 2026-11-17 21:45 Triton tribes
+	culture = antecessor
 	rite = theravada
 	holding = tribal_holding
 }
@@ -28253,8 +28253,8 @@
 	holding = none
 }
 ### c_province1798
-1798 = {
-	culture = ckw_tuonelan
+1798 = {	# 2026-11-17 21:45 Triton tribes
+	culture = antecessor
 	rite = theravada
 	holding = tribal_holding
 }
@@ -28271,13 +28271,13 @@
 	holding = none
 }
 ### c_province1817
-1817 = {
-	culture = ckw_tuonelan
+1817 = {	# 2026-11-17 21:45 Triton nomads
+	culture = ergaster
 	rite = theravada
-	holding = tribal_holding
+	holding = nomad_holding
 }
 7051 = {
-	holding = church_holding
+	holding = none
 }
 7052 = {
 	holding = none
@@ -28289,10 +28289,10 @@
 	holding = none
 }
 ### c_province1828
-1828 = {
-	culture = ckw_tuonelan
+1828 = {	# 2026-11-17 21:45 Triton nomads
+	culture = ergaster
 	rite = vaishnavism
-	holding = tribal_holding
+	holding = nomad_holding
 }
 7085 = {
 	holding = none
@@ -28304,10 +28304,10 @@
 	holding = none
 }
 ### c_province1833
-1833 = {
-	culture = ckw_tuonelan
+1833 = {	# 2026-11-17 21:45 Triton nomads
+	culture = ergaster
 	rite = theravada
-	holding = tribal_holding
+	holding = nomad_holding
 }
 7098 = {
 	holding = none
@@ -28319,13 +28319,13 @@
 	holding = none
 }
 ### c_province1849
-1849 = {
-	culture = ckw_tuonelan
+1849 = {	# 2026-11-17 21:45 Triton nomads
+	culture = ergaster
 	rite = vaishnavism
-	holding = tribal_holding
+	holding = nomad_holding
 }
 7146 = {
-	holding = church_holding
+	holding = none
 }
 7147 = {
 	holding = none
@@ -28337,10 +28337,10 @@
 	holding = none
 }
 ### c_province1839
-1839 = {
-	culture = ckw_tuonelan
+1839 = {	# 2026-11-17 21:45 Triton nomads
+	culture = ergaster
 	rite = theravada
-	holding = tribal_holding
+	holding = nomad_holding
 }
 7117 = {
 	holding = none
@@ -28352,10 +28352,10 @@
 	holding = none
 }
 ### c_province1795
-1795 = {
-	culture = ckw_tuonelan
+1795 = {	# 2026-11-17 21:45 Triton nomads
+	culture = ergaster
 	rite = theravada
-	holding = tribal_holding
+	holding = nomad_holding
 }
 6979 = {
 	holding = none
@@ -28367,13 +28367,13 @@
 	holding = none
 }
 ### c_upper_triton_shores
-1812 = {
-	culture = ckw_tuonelan
+1812 = {	# 2026-11-17 21:45 Triton nomads
+	culture = ergaster
 	rite = theravada
-	holding = tribal_holding
+	holding = nomad_holding
 }
 7034 = {
-	holding = church_holding
+	holding = none
 }
 7035 = {
 	holding = none
@@ -28382,13 +28382,13 @@
 	holding = none
 }
 ### c_province1804
-1804 = {
-	culture = ckw_tuonelan
+1804 = {	# 2026-11-17 21:45 Triton nomads
+	culture = ergaster
 	rite = theravada
-	holding = tribal_holding
+	holding = nomad_holding
 }
 7009 = {
-	holding = church_holding
+	holding = none
 }
 7010 = {
 	holding = none
@@ -28405,8 +28405,8 @@
 
 ########## k_naiad
 ### c_province1841
-1841 = {
-	culture = ckw_tuonelan
+1841 = {	# 2026-11-17 21:45 Triton tribes
+	culture = antecessor
 	rite = retrogradism_rite
 	holding = tribal_holding
 }
@@ -28420,8 +28420,8 @@
 	holding = none
 }
 ### c_naiad
-1852 = {
-	culture = ckw_tuonelan
+1852 = {	# 2026-11-17 21:45 Triton tribes
+	culture = antecessor
 	rite = retrogradism_rite
 	holding = tribal_holding
 	# Hili Geyser (wonder, e64)
@@ -28443,8 +28443,8 @@
 
 ########## k_kingdom1866
 ### c_province1805
-1805 = {
-	culture = ckw_tritonian
+1805 = {	# 2026-11-17 21:45 Triton tribes
+	culture = neanderthal
 	rite = theravada
 	holding = tribal_holding
 }
@@ -28461,8 +28461,8 @@
 	holding = none
 }
 ### c_province1814
-1814 = {
-	culture = ckw_tritonian
+1814 = {	# 2026-11-17 21:45 Triton tribes
+	culture = neanderthal
 	rite = retrogradism_rite
 	holding = tribal_holding
 }
@@ -28479,8 +28479,8 @@
 	holding = none
 }
 ### c_province1855
-1855 = {
-	culture = ckw_tritonian
+1855 = {	# 2026-11-17 21:45 Triton tribes
+	culture = neanderthal
 	rite = retrogradism_rite
 	holding = tribal_holding
 }
@@ -28491,8 +28491,8 @@
 	holding = none
 }
 ### c_province1834
-1834 = {
-	culture = ckw_tritonian
+1834 = {	# 2026-11-17 21:45 Triton tribes
+	culture = neanderthal
 	rite = retrogradism_rite
 	holding = tribal_holding
 }
@@ -28509,8 +28509,8 @@
 	holding = none
 }
 ### c_province1845
-1845 = {
-	culture = ckw_tritonian
+1845 = {	# 2026-11-17 21:45 Triton tribes
+	culture = neanderthal
 	rite = retrogradism_rite
 	holding = tribal_holding
 }
@@ -28527,8 +28527,8 @@
 	holding = none
 }
 ### c_province1867
-1867 = {
-	culture = ckw_tritonian
+1867 = {	# 2026-11-17 21:45 Triton tribes
+	culture = neanderthal
 	rite = retrogradism_rite
 	holding = tribal_holding
 }
@@ -28539,8 +28539,8 @@
 	holding = none
 }
 ### c_province1885
-1885 = {
-	culture = ckw_tritonian
+1885 = {	# 2026-11-17 21:45 Triton tribes
+	culture = neanderthal
 	rite = retrogradism_rite
 	holding = tribal_holding
 }
@@ -28548,8 +28548,8 @@
 	holding = none
 }
 ### c_province1866
-1866 = {
-	culture = ckw_tritonian
+1866 = {	# 2026-11-17 21:45 Triton tribes
+	culture = neanderthal
 	rite = retrogradism_rite
 	holding = tribal_holding
 }
@@ -28565,10 +28565,10 @@
 
 ########## k_kingdom1875
 ### c_province1835
-1835 = {
-	culture = ckw_tuonelan
+1835 = {	# 2026-11-17 21:45 Triton nomads
+	culture = ergaster
 	rite = retrogradism_rite
-	holding = tribal_holding
+	holding = nomad_holding
 }
 7105 = {
 	holding = none
@@ -28580,19 +28580,19 @@
 	holding = none
 }
 ### c_province1863
-1863 = {
-	culture = ckw_tuonelan
+1863 = {	# 2026-11-17 21:45 Triton nomads
+	culture = ergaster
 	rite = retrogradism_rite
-	holding = tribal_holding
+	holding = nomad_holding
 }
 7189 = {
 	holding = none
 }
 ### c_province1850
-1850 = {
-	culture = ckw_tuonelan
+1850 = {	# 2026-11-17 21:45 Triton nomads
+	culture = ergaster
 	rite = retrogradism_rite
-	holding = tribal_holding
+	holding = nomad_holding
 }
 7150 = {
 	holding = none
@@ -28604,10 +28604,10 @@
 	holding = none
 }
 ### c_province1864
-1864 = {
-	culture = ckw_tuonelan
+1864 = {	# 2026-11-17 21:45 Triton nomads
+	culture = ergaster
 	rite = vaishnavism
-	holding = tribal_holding
+	holding = nomad_holding
 }
 7190 = {
 	holding = none
@@ -28619,10 +28619,10 @@
 	holding = none
 }
 ### c_province1871
-1871 = {
-	culture = ckw_tuonelan
+1871 = {	# 2026-11-17 21:45 Triton nomads
+	culture = ergaster
 	rite = vaishnavism
-	holding = tribal_holding
+	holding = nomad_holding
 }
 7211 = {
 	holding = none
@@ -28631,13 +28631,13 @@
 	holding = none
 }
 ### c_province1898
-1898 = {
-	culture = ckw_tuonelan
+1898 = {	# 2026-11-17 21:45 Triton nomads
+	culture = ergaster
 	rite = vaishnavism
-	holding = tribal_holding
+	holding = nomad_holding
 }
 7283 = {
-	holding = church_holding
+	holding = none
 }
 7284 = {
 	holding = none
@@ -28649,10 +28649,10 @@
 	holding = none
 }
 ### c_province1920
-1920 = {
-	culture = ckw_tuonelan
+1920 = {	# 2026-11-17 21:45 Triton nomads
+	culture = ergaster
 	rite = vaishnavism
-	holding = tribal_holding
+	holding = nomad_holding
 }
 7338 = {
 	holding = none
@@ -28664,13 +28664,13 @@
 	holding = none
 }
 ### c_cronus_peninsula
-1882 = {
-	culture = ckw_tuonelan
+1882 = {	# 2026-11-17 21:45 Triton nomads
+	culture = ergaster
 	rite = vaishnavism
-	holding = tribal_holding
+	holding = nomad_holding
 }
 7241 = {
-	holding = church_holding
+	holding = none
 }
 7242 = {
 	holding = none
@@ -28682,8 +28682,8 @@
 	holding = none
 }
 ### c_province1877
-1877 = {
-	culture = ckw_tuonelan
+1877 = {	# 2026-11-17 21:45 Triton tribes
+	culture = antecessor
 	rite = retrogradism_rite
 	holding = tribal_holding
 }
@@ -28694,8 +28694,8 @@
 	holding = none
 }
 ### c_province1896
-1896 = {
-	culture = ckw_tuonelan
+1896 = {	# 2026-11-17 21:45 Triton tribes
+	culture = antecessor
 	rite = retrogradism_rite
 	holding = tribal_holding
 }
@@ -28712,31 +28712,31 @@
 	holding = none
 }
 ### c_province1909
-1909 = {
-	culture = ckw_tuonelan
+1909 = {	# 2026-11-17 21:45 Triton nomads
+	culture = ergaster
 	rite = vaishnavism
-	holding = tribal_holding
+	holding = nomad_holding
 }
 8903 = {
 	holding = none
 }
 ### c_province1923
-1923 = {
-	culture = ckw_tuonelan
+1923 = {	# 2026-11-17 21:45 Triton nomads
+	culture = ergaster
 	rite = vaishnavism
-	holding = tribal_holding
+	holding = nomad_holding
 }
 8905 = {
 	holding = none
 }
 ### c_province1928
-1928 = {
-	culture = ckw_tuonelan
+1928 = {	# 2026-11-17 21:45 Triton nomads
+	culture = ergaster
 	rite = vaishnavism
-	holding = tribal_holding
+	holding = nomad_holding
 }
 7360 = {
-	holding = church_holding
+	holding = none
 }
 7361 = {
 	holding = none
@@ -28748,10 +28748,10 @@
 	holding = none
 }
 ### c_eastern_callisto
-1956 = {
-	culture = ckw_tuonelan
+1956 = {	# 2026-11-17 21:45 Triton nomads
+	culture = ergaster
 	rite = vaishnavism
-	holding = tribal_holding
+	holding = nomad_holding
 }
 7444 = {
 	holding = none
@@ -28760,10 +28760,10 @@
 	holding = none
 }
 ### c_province1941
-1941 = {
-	culture = ckw_tuonelan
+1941 = {	# 2026-11-17 21:45 Triton nomads
+	culture = ergaster
 	rite = vaishnavism
-	holding = tribal_holding
+	holding = nomad_holding
 }
 7397 = {
 	holding = none
@@ -28775,10 +28775,10 @@
 	holding = none
 }
 ### c_province1854
-1854 = {
-	culture = ckw_tuonelan
+1854 = {	# 2026-11-17 21:45 Triton nomads
+	culture = ergaster
 	rite = retrogradism_rite
-	holding = tribal_holding
+	holding = nomad_holding
 }
 7163 = {
 	holding = none
@@ -28790,19 +28790,19 @@
 	holding = none
 }
 ### c_province1879
-1879 = {
-	culture = ckw_tuonelan
+1879 = {	# 2026-11-17 21:45 Triton nomads
+	culture = ergaster
 	rite = retrogradism_rite
-	holding = tribal_holding
+	holding = nomad_holding
 }
 7233 = {
 	holding = none
 }
 ### c_province1895
-1895 = {
-	culture = ckw_tuonelan
+1895 = {	# 2026-11-17 21:45 Triton nomads
+	culture = ergaster
 	rite = retrogradism_rite
-	holding = tribal_holding
+	holding = nomad_holding
 }
 7273 = {
 	holding = none
@@ -28814,13 +28814,13 @@
 	holding = none
 }
 ### c_province1875
-1875 = {
-	culture = ckw_tuonelan
+1875 = {	# 2026-11-17 21:45 Triton nomads
+	culture = ergaster
 	rite = retrogradism_rite
-	holding = tribal_holding
+	holding = nomad_holding
 }
 7221 = {
-	holding = church_holding
+	holding = none
 }
 7222 = {
 	holding = none
@@ -28834,8 +28834,8 @@
 
 ########## k_kingdom1927
 ### c_province1837
-1837 = {
-	culture = ckw_tritonian
+1837 = {	# 2026-11-17 21:45 Triton tribes
+	culture = neanderthal
 	rite = retrogradism_rite
 	holding = tribal_holding
 }
@@ -28852,8 +28852,8 @@
 	holding = none
 }
 ### c_province1880
-1880 = {
-	culture = ckw_tritonian
+1880 = {	# 2026-11-17 21:45 Triton tribes
+	culture = neanderthal
 	rite = retrogradism_rite
 	holding = tribal_holding
 }
@@ -28870,8 +28870,8 @@
 	holding = none
 }
 ### c_province1890
-1890 = {
-	culture = ckw_tritonian
+1890 = {	# 2026-11-17 21:45 Triton tribes
+	culture = neanderthal
 	rite = retrogradism_rite
 	holding = tribal_holding
 }
@@ -28879,8 +28879,8 @@
 	holding = none
 }
 ### c_province1859
-1859 = {
-	culture = ckw_tritonian
+1859 = {	# 2026-11-17 21:45 Triton tribes
+	culture = neanderthal
 	rite = retrogradism_rite
 	holding = tribal_holding
 }
@@ -28897,8 +28897,8 @@
 	holding = none
 }
 ### c_province1916
-1916 = {
-	culture = ckw_tritonian
+1916 = {	# 2026-11-17 21:45 Triton tribes
+	culture = neanderthal
 	rite = reaverism_rite
 	holding = tribal_holding
 }
@@ -28912,8 +28912,8 @@
 	holding = none
 }
 ### c_province1927
-1927 = {
-	culture = ckw_tritonian
+1927 = {	# 2026-11-17 21:45 Triton tribes
+	culture = neanderthal
 	rite = reaverism_rite
 	holding = tribal_holding
 }
@@ -28926,13 +28926,13 @@
 
 ########## k_kingdom1947
 ### c_proteus
-1935 = {
-	culture = ckw_tuonelan
+1935 = {	# 2026-11-17 21:45 Triton nomads
+	culture = ergaster
 	rite = retrogradism_rite
-	holding = tribal_holding
+	holding = nomad_holding
 }
 7381 = {
-	holding = church_holding
+	holding = none
 }
 7382 = {
 	holding = none
@@ -28944,13 +28944,13 @@
 	holding = none
 }
 ### c_province1985
-1985 = {
-	culture = ckw_tuonelan
+1985 = {	# 2026-11-17 21:45 Triton nomads
+	culture = ergaster
 	rite = retrogradism_rite
-	holding = tribal_holding
+	holding = nomad_holding
 }
 7535 = {
-	holding = church_holding
+	holding = none
 }
 7536 = {
 	holding = none
@@ -28962,13 +28962,13 @@
 	holding = none
 }
 ### c_province1947
-1947 = {
-	culture = ckw_tuonelan
+1947 = {	# 2026-11-17 21:45 Triton nomads
+	culture = ergaster
 	rite = retrogradism_rite
-	holding = tribal_holding
+	holding = nomad_holding
 }
 7416 = {
-	holding = church_holding
+	holding = none
 }
 7417 = {
 	holding = none
@@ -28985,8 +28985,8 @@
 
 ########## k_kingdom1986
 ### c_province1904
-1904 = {
-	culture = ckw_tritonian
+1904 = {	# 2026-11-17 21:45 Triton tribes
+	culture = neanderthal
 	rite = retrogradism_rite
 	holding = tribal_holding
 }
@@ -28997,8 +28997,8 @@
 	holding = none
 }
 ### c_province1918
-1918 = {
-	culture = ckw_tritonian
+1918 = {	# 2026-11-17 21:45 Triton tribes
+	culture = neanderthal
 	rite = retrogradism_rite
 	holding = tribal_holding
 }
@@ -29006,8 +29006,8 @@
 	holding = none
 }
 ### c_province1926
-1926 = {
-	culture = ckw_tritonian
+1926 = {	# 2026-11-17 21:45 Triton tribes
+	culture = neanderthal
 	rite = retrogradism_rite
 	holding = tribal_holding
 }
@@ -29021,8 +29021,8 @@
 	holding = none
 }
 ### c_province1942
-1942 = {
-	culture = ckw_tritonian
+1942 = {	# 2026-11-17 21:45 Triton tribes
+	culture = neanderthal
 	rite = retrogradism_rite
 	holding = tribal_holding
 }
@@ -29033,8 +29033,8 @@
 	holding = none
 }
 ### c_province1929
-1929 = {
-	culture = ckw_tritonian
+1929 = {	# 2026-11-17 21:45 Triton tribes
+	culture = neanderthal
 	rite = retrogradism_rite
 	holding = tribal_holding
 }
@@ -29048,8 +29048,8 @@
 	holding = none
 }
 ### c_province1962
-1962 = {
-	culture = ckw_tritonian
+1962 = {	# 2026-11-17 21:45 Triton tribes
+	culture = neanderthal
 	rite = reaverism_rite
 	holding = tribal_holding
 }
@@ -29063,8 +29063,8 @@
 	holding = none
 }
 ### c_province1999
-1999 = {
-	culture = ckw_tritonian
+1999 = {	# 2026-11-17 21:45 Triton tribes
+	culture = neanderthal
 	rite = reaverism_rite
 	holding = tribal_holding
 }
@@ -29081,8 +29081,8 @@
 	holding = none
 }
 ### c_province1980
-1980 = {
-	culture = ckw_tritonian
+1980 = {	# 2026-11-17 21:45 Triton tribes
+	culture = neanderthal
 	rite = reaverism_rite
 	holding = tribal_holding
 }
@@ -29096,8 +29096,8 @@
 	holding = none
 }
 ### c_province1954
-1954 = {
-	culture = ckw_tritonian
+1954 = {	# 2026-11-17 21:45 Triton tribes
+	culture = neanderthal
 	rite = reaverism_rite
 	holding = tribal_holding
 }
@@ -29111,8 +29111,8 @@
 	holding = none
 }
 ### c_province2005
-2005 = {
-	culture = ckw_tritonian
+2005 = {	# 2026-11-17 21:45 Triton tribes
+	culture = neanderthal
 	rite = reaverism_rite
 	holding = tribal_holding
 }
@@ -29123,8 +29123,8 @@
 	holding = none
 }
 ### c_province1981
-1981 = {
-	culture = ckw_tritonian
+1981 = {	# 2026-11-17 21:45 Triton tribes
+	culture = neanderthal
 	rite = reaverism_rite
 	holding = tribal_holding
 }
@@ -29141,8 +29141,8 @@
 	holding = none
 }
 ### c_province2002
-2002 = {
-	culture = ckw_tritonian
+2002 = {	# 2026-11-17 21:45 Triton tribes
+	culture = neanderthal
 	rite = reaverism_rite
 	holding = tribal_holding
 }
@@ -29153,8 +29153,8 @@
 	holding = none
 }
 ### c_province2027
-2027 = {
-	culture = ckw_tritonian
+2027 = {	# 2026-11-17 21:45 Triton tribes
+	culture = neanderthal
 	rite = reaverism_rite
 	holding = tribal_holding
 }
@@ -29171,8 +29171,8 @@
 	holding = none
 }
 ### c_province2033
-2033 = {
-	culture = ckw_tritonian
+2033 = {	# 2026-11-17 21:45 Triton tribes
+	culture = neanderthal
 	rite = reaverism_rite
 	holding = tribal_holding
 }
@@ -29186,8 +29186,8 @@
 	holding = none
 }
 ### c_province2022
-2022 = {
-	culture = ckw_tritonian
+2022 = {	# 2026-11-17 21:45 Triton tribes
+	culture = neanderthal
 	rite = reaverism_rite
 	holding = tribal_holding
 }
@@ -29207,8 +29207,8 @@
 	holding = none
 }
 ### c_province1959
-1959 = {
-	culture = ckw_tritonian
+1959 = {	# 2026-11-17 21:45 Triton tribes
+	culture = neanderthal
 	rite = reaverism_rite
 	holding = tribal_holding
 }
@@ -29222,8 +29222,8 @@
 	holding = none
 }
 ### c_province1966
-1966 = {
-	culture = ckw_tritonian
+1966 = {	# 2026-11-17 21:45 Triton tribes
+	culture = neanderthal
 	rite = reaverism_rite
 	holding = tribal_holding
 }
@@ -29237,8 +29237,8 @@
 	holding = none
 }
 ### c_province2010
-2010 = {
-	culture = ckw_tritonian
+2010 = {	# 2026-11-17 21:45 Triton tribes
+	culture = neanderthal
 	rite = reaverism_rite
 	holding = tribal_holding
 }
@@ -29252,8 +29252,8 @@
 	holding = none
 }
 ### c_province1986
-1986 = {
-	culture = ckw_tritonian
+1986 = {	# 2026-11-17 21:45 Triton tribes
+	culture = neanderthal
 	rite = reaverism_rite
 	holding = tribal_holding
 }
@@ -29272,10 +29272,10 @@
 
 ########## k_kingdom2021
 ### c_province1968
-1968 = {
-	culture = ckw_tritonian
+1968 = {	# 2026-11-17 21:45 Triton nomads
+	culture = torquas
 	rite = vaishnavism
-	holding = tribal_holding
+	holding = nomad_holding
 }
 7478 = {
 	holding = none
@@ -29287,10 +29287,10 @@
 	holding = none
 }
 ### c_province1996
-1996 = {
-	culture = ckw_tritonian
+1996 = {	# 2026-11-17 21:45 Triton nomads
+	culture = torquas
 	rite = retrogradism_rite
-	holding = tribal_holding
+	holding = nomad_holding
 }
 7571 = {
 	holding = none
@@ -29302,10 +29302,10 @@
 	holding = none
 }
 ### c_province2003
-2003 = {
-	culture = ckw_tritonian
+2003 = {	# 2026-11-17 21:45 Triton nomads
+	culture = torquas
 	rite = retrogradism_rite
-	holding = tribal_holding
+	holding = nomad_holding
 }
 7590 = {
 	holding = none
@@ -29317,10 +29317,10 @@
 	holding = none
 }
 ### c_province1982
-1982 = {
-	culture = ckw_tritonian
+1982 = {	# 2026-11-17 21:45 Triton nomads
+	culture = torquas
 	rite = vaishnavism
-	holding = tribal_holding
+	holding = nomad_holding
 }
 7524 = {
 	holding = none
@@ -29332,10 +29332,10 @@
 	holding = none
 }
 ### c_province1958
-1958 = {
-	culture = ckw_tritonian
+1958 = {	# 2026-11-17 21:45 Triton nomads
+	culture = torquas
 	rite = vaishnavism
-	holding = tribal_holding
+	holding = nomad_holding
 }
 7450 = {
 	holding = none
@@ -29347,13 +29347,13 @@
 	holding = none
 }
 ### c_galatea
-1983 = {
-	culture = ckw_tritonian
+1983 = {	# 2026-11-17 21:45 Triton nomads
+	culture = torquas
 	rite = retrogradism_rite
-	holding = tribal_holding
+	holding = nomad_holding
 }
 7527 = {
-	holding = church_holding
+	holding = none
 }
 7528 = {
 	holding = none
@@ -29365,10 +29365,10 @@
 	holding = none
 }
 ### c_province2018
-2018 = {
-	culture = ckw_tritonian
+2018 = {	# 2026-11-17 21:45 Triton nomads
+	culture = torquas
 	rite = retrogradism_rite
-	holding = tribal_holding
+	holding = nomad_holding
 }
 7635 = {
 	holding = none
@@ -29380,13 +29380,13 @@
 	holding = none
 }
 ### c_province2021
-2021 = {
-	culture = ckw_tritonian
+2021 = {	# 2026-11-17 21:45 Triton nomads
+	culture = torquas
 	rite = retrogradism_rite
-	holding = tribal_holding
+	holding = nomad_holding
 }
 7646 = {
-	holding = church_holding
+	holding = none
 }
 7647 = {
 	holding = none

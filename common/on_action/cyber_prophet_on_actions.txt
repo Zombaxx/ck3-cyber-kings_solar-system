@@ -1,0 +1,22 @@
+﻿# Cyber Kings 2026-11-18 (modder 15:49): the Prophet (Zahar, 8101004, king of Ganisia on Venus) kept losing his crown
+# right after the start. He starts with prestige, piety, legitimacy and a modifier his vassals respect; his domain is
+# also larger (history/titles: four counties of his capital duchy, gen_demesnes.py). Appended to on_game_start.
+on_game_start = {
+	on_actions = { cyber_prophet_setup }
+}
+cyber_prophet_setup = {
+	effect = {
+		character:8101004 ?= {
+			if = {
+				limit = {
+					is_alive = yes
+					is_landed = yes
+				}
+				add_prestige = 1500
+				add_piety = 750
+				add_legitimacy = major_legitimacy_gain
+				add_character_modifier = { modifier = ck_prophet_of_ganis_modifier }
+			}
+		}
+	}
+}

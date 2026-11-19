@@ -1,0 +1,141 @@
+﻿# Cyber Kings (2026-11-17): catalyst hooks for ck_martian_cycle and ck_european_question (_dev/DLC_ADAPTATION.md section 7).
+# Appended to vanilla on_actions (on_actions lists from several files are merged).
+on_war_won_attacker = { on_actions = { ck_sit_war_won_attacker } }
+on_war_won_defender = { on_actions = { ck_sit_war_won_defender } }
+on_war_started = { on_actions = { ck_sit_war_started } }
+on_title_gain = { on_actions = { ck_sit_title_gain } }
+on_title_destroyed = { on_actions = { ck_sit_title_destroyed } }
+on_death = { on_actions = { ck_sit_death } }
+
+# scope:attacker won against scope:defender
+ck_sit_war_won_attacker = {
+	effect = {
+		ck_sit_war_result_effect = { WINNER = scope:attacker LOSER = scope:defender }
+		if = {	# rebels won in Europe
+			limit = {
+				scope:war = { OR = { using_cb = independence_faction_war using_cb = liberty_faction_war } }
+				scope:defender = { ck_capital_in_europe_trigger = yes }
+			}
+			ck_fire_situation_catalyst_effect = { SITUATION = ck_european_question CATALYST = ck_catalyst_eu_independence_won CHARACTER = scope:attacker }
+		}
+	}
+}
+
+# scope:defender won against scope:attacker
+ck_sit_war_won_defender = {
+	effect = {
+		ck_sit_war_result_effect = { WINNER = scope:defender LOSER = scope:attacker }
+		if = {	# rebels crushed in Europe
+			limit = {
+				scope:war = { OR = { using_cb = independence_faction_war using_cb = liberty_faction_war } }
+				scope:defender = { ck_capital_in_europe_trigger = yes }
+			}
+			ck_fire_situation_catalyst_effect = { SITUATION = ck_european_question CATALYST = ck_catalyst_eu_independence_crushed CHARACTER = scope:defender }
+		}
+		if = {	# the European Confederation beat off an outside attacker
+			limit = {
+				scope:defender = { ck_in_european_confederation_trigger = yes }
+				scope:attacker = { ck_capital_in_europe_trigger = no }
+			}
+			ck_fire_situation_catalyst_effect = { SITUATION = ck_european_question CATALYST = ck_catalyst_eu_confederation_defended CHARACTER = scope:defender }
+		}
+	}
+}
+
+ck_sit_war_started = {
+	effect = {
+		# Mars: a faction or civil war against the Martian hegemon
+		if = {
+			limit = {
+				scope:defender = { has_title = title:h_mars }
+				scope:war = { using_civil_war_cb_trigger = yes }
+			}
+			ck_fire_situation_catalyst_effect = { SITUATION = ck_martian_cycle CATALYST = ck_catalyst_mars_civil_war CHARACTER = scope:attacker }
+		}
+		# Europe: Eurasian pressure, or Europeans fighting each other
+		if = {
+			limit = {
+				scope:attacker = { has_title = title:h_eurasia }
+				scope:defender = { ck_capital_in_europe_trigger = yes }
+			}
+			ck_fire_situation_catalyst_effect = { SITUATION = ck_european_question CATALYST = ck_catalyst_eu_eurasian_pressure CHARACTER = scope:attacker }
+		}
+		else_if = {
+			limit = {
+				scope:attacker = { ck_capital_in_europe_trigger = yes }
+				scope:defender = { ck_capital_in_europe_trigger = yes }
+				scope:war = { using_civil_war_cb_trigger = no }
+			}
+			ck_fire_situation_catalyst_effect = { SITUATION = ck_european_question CATALYST = ck_catalyst_eu_internal_war CHARACTER = scope:attacker }
+		}
+	}
+}
+
+# root = new holder, scope:title, scope:transfer_type
+ck_sit_title_gain = {
+	effect = {
+		if = {	# a Martian kingdom or empire is created
+			limit = {
+				scope:transfer_type = flag:created
+				scope:title = {
+					tier >= tier_kingdom
+					tier <= tier_empire
+					title_capital_county ?= { title_province = { geographical_region = ckworld_mars } }
+				}
+			}
+			ck_fire_situation_catalyst_effect = { SITUATION = ck_martian_cycle CATALYST = ck_catalyst_mars_crown_formed CHARACTER = root }
+		}
+		else_if = {	# a European ruler conquers a county on another world
+			limit = {
+				OR = {
+					scope:transfer_type = flag:conquest
+					scope:transfer_type = flag:conquest_holy_war
+					scope:transfer_type = flag:conquest_claim
+				}
+				scope:title = {
+					tier = tier_county
+					title_province = { NOT = { geographical_region = ckworld_earth } }
+				}
+				top_liege = { ck_capital_in_europe_trigger = yes }
+			}
+			ck_fire_situation_catalyst_effect = { SITUATION = ck_european_question CATALYST = ck_catalyst_eu_colonial_conquest CHARACTER = root }
+		}
+	}
+}
+
+# root = holder before destruction, scope:landed_title
+ck_sit_title_destroyed = {
+	effect = {
+		if = {
+			limit = {
+				scope:landed_title = {
+					tier >= tier_kingdom
+					tier <= tier_empire
+					title_capital_county ?= { title_province = { geographical_region = ckworld_mars } }
+				}
+			}
+			ck_fire_situation_catalyst_effect = { SITUATION = ck_martian_cycle CATALYST = ck_catalyst_mars_crown_lost CHARACTER = root }
+		}
+	}
+}
+
+# root = the dying character
+ck_sit_death = {
+	effect = {
+		if = {
+			limit = { has_title = title:h_mars }
+			ck_fire_situation_catalyst_effect = { SITUATION = ck_martian_cycle CATALYST = ck_catalyst_mars_hegemon_succession CHARACTER = root }
+		}
+		else_if = {
+			limit = {
+				is_independent_ruler = yes
+				ck_realm_counties_mars >= ck_mars_great_realm_counties
+			}
+			ck_fire_situation_catalyst_effect = { SITUATION = ck_martian_cycle CATALYST = ck_catalyst_mars_unifier_fell CHARACTER = root }
+		}
+		if = {
+			limit = { has_title = title:e_european_union }
+			ck_fire_situation_catalyst_effect = { SITUATION = ck_european_question CATALYST = ck_catalyst_eu_succession CHARACTER = root }
+		}
+	}
+}

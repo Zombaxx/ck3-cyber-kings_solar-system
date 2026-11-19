@@ -1,0 +1,219 @@
+﻿# Cyber Kings (2026-11-17): Charter and Crown decisions (ck_corporate_wars). _dev/DLC_ADAPTATION.md section 21.
+# Megacorporations are base-game city republics (republic_government): the play PCs do not own Silk & Silver, whose
+# landless merchant companies are DLC content.
+
+# A rich city lord turns the city into a corporation
+ck_cc_incorporate_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_spend_money.dds"
+	}
+	desc = ck_cc_incorporate_decision_desc
+	selection_tooltip = ck_cc_incorporate_decision_tooltip
+	decision_group_type = realm
+	sort_order = 60
+
+	ai_check_interval = 60
+
+	is_shown = {
+		exists = situation:ck_corporate_wars
+		ck_cc_can_incorporate_trigger = yes
+	}
+
+	is_valid = {
+		gold >= ck_cc_incorporate_gold
+		stewardship >= 10
+	}
+
+	is_valid_showing_failures_only = {
+		is_capable_adult = yes
+		is_imprisoned = no
+		is_at_war = no
+	}
+
+	cost = {
+		gold = ck_cc_incorporate_gold
+	}
+
+	effect = {
+		custom_tooltip = ck_cc_incorporate_decision_effect_tt
+		ck_cc_incorporate_effect = yes
+	}
+
+	ai_potential = { always = yes }
+	ai_will_do = {
+		base = 5
+		modifier = { add = 20 has_trait = greedy }
+		modifier = { add = 10 has_trait = ambitious }
+		modifier = {	# corporations are winning
+			add = 15
+			situation:ck_corporate_wars ?= { situation_current_phase = ck_cc_corporate_ascendancy }
+		}
+		modifier = {
+			factor = 0
+			situation:ck_corporate_wars ?= { situation_current_phase = ck_cc_sovereign_ascendancy }
+		}
+	}
+}
+
+# A crowned ruler revokes the charters of the corporations among its vassals
+ck_cc_revoke_charters_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_legitimacy.dds"
+	}
+	desc = ck_cc_revoke_charters_decision_desc
+	selection_tooltip = ck_cc_revoke_charters_decision_tooltip
+	decision_group_type = realm
+	sort_order = 59
+	cooldown = { years = 10 }
+
+	ai_check_interval = 60
+
+	is_shown = {
+		exists = situation:ck_corporate_wars
+		is_independent_ruler = yes
+		highest_held_title_tier >= tier_kingdom
+		ck_cc_corporate_side_trigger = no
+		any_vassal = { government_has_flag = government_is_republic }
+	}
+
+	is_valid = {
+		prestige_level >= 2
+	}
+
+	is_valid_showing_failures_only = {
+		is_capable_adult = yes
+		is_imprisoned = no
+	}
+
+	cost = {
+		prestige = 300
+	}
+
+	effect = {
+		custom_tooltip = ck_cc_revoke_charters_decision_effect_tt
+		every_vassal = {
+			limit = { government_has_flag = government_is_republic }
+			change_government = feudal_government
+			remove_character_modifier = ck_cc_megacorp_modifier
+			remove_variable = ck_cc_side_corporate
+			add_opinion = { target = root modifier = ck_cc_charter_revoked_opinion }
+		}
+		add_gold = 150
+		ck_fire_situation_catalyst_effect = { SITUATION = ck_corporate_wars CATALYST = ck_catalyst_cc_charters_revoked CHARACTER = root }
+		if = {	# the President of the United States busting the trusts (American Question, 2026-11-18)
+			limit = { has_title = title:e_united_states }
+			ck_fire_situation_catalyst_effect = { SITUATION = ck_american_question CATALYST = ck_catalyst_us_trust_busting CHARACTER = root }
+		}
+	}
+
+	ai_potential = { always = yes }
+	ai_will_do = {
+		base = 0
+		modifier = {
+			add = 30
+			situation:ck_corporate_wars ?= { situation_current_phase = ck_cc_sovereign_ascendancy }
+		}
+		modifier = { add = 10 has_trait = arrogant }
+		modifier = { add = 10 has_trait = greedy }
+	}
+}
+
+# Choosing a side
+ck_cc_declare_corporate_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/gdp_republic_trade_ships.dds"
+	}
+	desc = ck_cc_declare_corporate_decision_desc
+	selection_tooltip = ck_cc_declare_corporate_decision_tooltip
+	decision_group_type = realm
+	sort_order = 58
+	cooldown = { years = 5 }
+	ai_check_interval = 120
+
+	is_shown = {
+		exists = situation:ck_corporate_wars
+		is_landed = yes
+		NOT = { has_variable = ck_cc_side_corporate }
+		NOT = { government_has_flag = government_is_republic }
+	}
+	is_valid_showing_failures_only = { is_capable_adult = yes }
+	cost = { prestige = 100 }
+	effect = {
+		custom_tooltip = ck_cc_declare_corporate_decision_effect_tt
+		remove_variable = ck_cc_side_sovereign
+		remove_variable = ck_cc_side_undecided
+		set_variable = ck_cc_side_corporate
+	}
+	ai_potential = { always = yes }
+	ai_will_do = {
+		base = 0
+		modifier = { add = 15 has_trait = greedy }
+		modifier = { add = 10 any_ally = { government_has_flag = government_is_republic } }
+	}
+}
+
+ck_cc_declare_sovereign_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_legitimacy.dds"
+	}
+	desc = ck_cc_declare_sovereign_decision_desc
+	selection_tooltip = ck_cc_declare_sovereign_decision_tooltip
+	decision_group_type = realm
+	sort_order = 57
+	cooldown = { years = 5 }
+	ai_check_interval = 120
+
+	is_shown = {
+		exists = situation:ck_corporate_wars
+		is_landed = yes
+		NOT = { has_variable = ck_cc_side_sovereign }
+		NOT = { government_has_flag = government_is_republic }
+	}
+	is_valid_showing_failures_only = { is_capable_adult = yes }
+	cost = { prestige = 100 }
+	effect = {
+		custom_tooltip = ck_cc_declare_sovereign_decision_effect_tt
+		remove_variable = ck_cc_side_corporate
+		remove_variable = ck_cc_side_undecided
+		set_variable = ck_cc_side_sovereign
+	}
+	ai_potential = { always = yes }
+	ai_will_do = {
+		base = 0
+		modifier = { add = 15 has_trait = arrogant }
+		modifier = { add = 10 has_trait = zealous }
+	}
+}
+
+ck_cc_declare_undecided_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/cooperative.dds"
+	}
+	desc = ck_cc_declare_undecided_decision_desc
+	selection_tooltip = ck_cc_declare_undecided_decision_tooltip
+	decision_group_type = realm
+	sort_order = 56
+	cooldown = { years = 5 }
+	ai_check_interval = 0
+
+	is_shown = {
+		exists = situation:ck_corporate_wars
+		is_landed = yes
+		NOT = { government_has_flag = government_is_republic }
+		OR = {
+			has_variable = ck_cc_side_corporate
+			has_variable = ck_cc_side_sovereign
+			highest_held_title_tier >= tier_kingdom
+		}
+		NOT = { has_variable = ck_cc_side_undecided }
+	}
+	is_valid_showing_failures_only = { is_capable_adult = yes }
+	effect = {
+		custom_tooltip = ck_cc_declare_undecided_decision_effect_tt
+		remove_variable = ck_cc_side_corporate
+		remove_variable = ck_cc_side_sovereign
+		set_variable = ck_cc_side_undecided
+	}
+	ai_potential = { always = no }
+	ai_will_do = { base = 0 }
+}

@@ -1,0 +1,118 @@
+﻿# Cyber Kings (2026-11-17): triggers for ck_martian_cycle and ck_european_question (_dev/DLC_ADAPTATION.md section 7).
+
+# root = character: has land on Mars
+ck_has_land_on_mars_trigger = {
+	any_realm_county = { title_province = { geographical_region = ckworld_mars } }
+}
+
+# root = character: capital in the European Question region (the de jure European Union)
+ck_capital_in_europe_trigger = {
+	capital_county ?= { empire ?= title:e_european_union }
+}
+
+# root = character: aligned with the Hegemon of Eurasia (Illuminious at start)
+ck_eu_eurasian_aligned_trigger = {
+	exists = title:h_eurasia.holder
+	OR = {
+		has_title = title:h_eurasia
+		AND = {
+			ck_capital_in_europe_trigger = yes
+			OR = {
+				is_tributary_of_suzerain_or_above = title:h_eurasia.holder
+				is_allied_to = title:h_eurasia.holder
+				any_liege_or_above = { this = title:h_eurasia.holder }
+			}
+		}
+	}
+}
+
+# root = character: wants national sovereignty (independent of the EU, or in an independence/liberty faction)
+ck_eu_sovereigntist_trigger = {
+	NOT = { has_title = title:e_european_union }
+	OR = {
+		AND = {
+			is_independent_ruler = yes
+			highest_held_title_tier >= tier_duchy
+		}
+		joined_faction ?= {
+			OR = {
+				faction_is_type = independence_faction
+				faction_is_type = liberty_faction
+			}
+		}
+	}
+}
+
+# --- European Question: breakup and confederation (2026-11-17 19:30) ---
+# root = character: member (through its house) of the European Confederation
+ck_in_european_confederation_trigger = {
+	house.house_confederation ?= { confederation_type = confederation_type:ck_european_confederation }
+}
+
+# any scope: a European Confederation exists
+ck_eu_confederation_exists_trigger = {
+	any_confederation = { confederation_type = confederation_type:ck_european_confederation }
+}
+
+# root = character: a direct vassal of the Union who wants out (asked yearly during Dissolution)
+ck_eu_restless_member_trigger = {
+	highest_held_title_tier >= tier_duchy
+	OR = {
+		joined_faction ?= {
+			OR = {
+				faction_is_type = independence_faction
+				faction_is_type = liberty_faction
+			}
+		}
+		opinion = { target = liege value < 0 }
+	}
+}
+
+# root = character: may be invited into the European Confederation
+ck_eu_confederation_candidate_trigger = {
+	is_independent_ruler = yes
+	highest_held_title_tier >= tier_duchy
+	ck_capital_in_europe_trigger = yes
+	exists = house
+	NOT = { exists = house.house_confederation }
+	ck_eu_eurasian_aligned_trigger = no
+}
+
+# --- European Question: outside rule (2026-11-17 20:10) ---
+# any scope: the Hegemon of Terra holds the Union, or holds its ruler as a vassal -> Imperium, locked
+ck_eu_terra_lock_trigger = {
+	exists = title:h_ck_terra.holder
+	exists = title:e_european_union.holder
+	OR = {
+		title:e_european_union.holder = title:h_ck_terra.holder
+		title:e_european_union.holder.top_liege = title:h_ck_terra.holder
+	}
+}
+
+# any scope: a ruler based in Europe holds both the Union and a hegemony -> Imperium (Europe as the core of a world empire)
+ck_eu_european_world_empire_trigger = {
+	title:e_european_union.holder ?= {
+		ck_capital_in_europe_trigger = yes
+		highest_held_title_tier >= tier_hegemony
+	}
+}
+
+# root = situation (ck_european_question): Europe is ruled from outside
+ck_eu_foreign_dominion_trigger = {
+	OR = {
+		title:e_european_union.holder ?= { ck_capital_in_europe_trigger = no }
+		title:e_european_union.holder ?= {
+			is_independent_ruler = no
+			top_liege = { ck_capital_in_europe_trigger = no }
+		}
+		title:e_european_union.holder ?= {
+			is_tributary = yes
+			suzerain ?= { ck_capital_in_europe_trigger = no }
+		}
+		any_situation_participant = {
+			is_independent_ruler = yes
+			ck_capital_in_europe_trigger = no
+			ck_realm_counties_europe >= ck_europe_imperium_counties
+		}
+	}
+}

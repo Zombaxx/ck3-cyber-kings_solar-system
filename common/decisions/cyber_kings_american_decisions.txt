@@ -1,0 +1,285 @@
+# Cyber Kings (2026-11-17): The American Question decisions. _dev/DLC_ADAPTATION.md section 18.
+
+# Imperial Presidency: suspend Congress and rule by decree. Era route: a crisis (Secession Crisis, Civil War, Reconstruction,
+# Great Depression, Polarization). Forced route: any other time with the highest prestige level.
+ck_us_imperial_presidency_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_byz_throne.dds"
+	}
+	desc = ck_us_imperial_presidency_decision_desc
+	selection_tooltip = ck_us_imperial_presidency_decision_tooltip
+	decision_group_type = major
+	sort_order = 87
+
+	ai_check_interval_by_tier = {
+		barony = 0
+		county = 0
+		duchy = 0
+		kingdom = 0
+		empire = 36
+		hegemony = 36
+	}
+
+	is_shown = {
+		has_title = title:e_united_states
+		situation:ck_american_question ?= {
+			NOR = {
+				situation_current_phase = ck_us_imperial_presidency
+				situation_current_phase = ck_us_manifest_destiny
+				situation_current_phase = ck_us_balkanization
+				situation_current_phase = ck_us_foreign_dominion
+				situation_current_phase = ck_us_progressive_commonwealth
+			}
+		}
+	}
+
+	is_valid = {
+		has_realm_law = crown_authority_3
+		custom_description = {
+			text = ck_us_imperial_presidency_req
+			value = ck_us_imperial_counties
+			ck_realm_counties_us >= ck_us_imperial_counties
+		}
+		custom_description = {
+			text = ck_us_imperial_presidency_era
+			OR = {
+				situation:ck_american_question ?= {
+					OR = {
+						situation_current_phase = ck_us_secession_crisis
+						situation_current_phase = ck_us_civil_war
+						situation_current_phase = ck_us_reconstruction
+						situation_current_phase = ck_us_great_depression
+						situation_current_phase = ck_us_polarization
+					}
+				}
+				prestige_level >= 5
+			}
+		}
+		prestige_level >= 3
+	}
+
+	is_valid_showing_failures_only = {
+		is_capable_adult = yes
+		is_imprisoned = no
+	}
+
+	cost = {
+		prestige = 1500
+	}
+
+	effect = {
+		custom_tooltip = ck_us_imperial_presidency_decision_effect_tt
+		ck_us_suspend_congress_effect = yes
+		add_legitimacy = major_legitimacy_gain
+		save_scope_as = ck_us_president
+		hidden_effect = {
+			situation:ck_american_question ?= {
+				situation_top_sub_region = { change_phase = ck_us_imperial_presidency }
+			}
+			every_player = {
+				limit = {
+					this != root
+					ck_us_capital_in_america_trigger = yes
+				}
+				trigger_event = ck_american.0030
+			}
+		}
+	}
+
+	ai_potential = { always = yes }
+	ai_will_do = { base = 50 }
+}
+
+# Progressive Commonwealth (rare): a blue, egalitarian or learned president with a weak crown and a calm country
+ck_us_progressive_commonwealth_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_golden_age.dds"
+	}
+	desc = ck_us_progressive_commonwealth_decision_desc
+	selection_tooltip = ck_us_progressive_commonwealth_decision_tooltip
+	decision_group_type = major
+	sort_order = 86
+
+	ai_check_interval_by_tier = {
+		barony = 0
+		county = 0
+		duchy = 0
+		kingdom = 0
+		empire = 60
+		hegemony = 60
+	}
+
+	is_shown = {
+		has_title = title:e_united_states
+		ck_us_blue_trigger = yes
+		situation:ck_american_question ?= {
+			OR = {
+				situation_current_phase = ck_us_status_quo
+				situation_current_phase = ck_us_polarization
+				situation_current_phase = ck_us_great_awakening
+				situation_current_phase = ck_us_reform_era
+			}
+		}
+	}
+
+	is_valid = {
+		culture = {
+			OR = {
+				has_cultural_pillar = ethos_egalitarian
+				has_cultural_pillar = ethos_learned
+			}
+		}
+		custom_description = {
+			text = ck_us_progressive_commonwealth_blue_req
+			value = ck_us_majority_counties
+			ck_us_blue_counties >= ck_us_majority_counties
+		}
+		custom_tooltip = {
+			text = ck_us_progressive_commonwealth_calm_req
+			situation:ck_american_question ?= { var:ck_us_polarization <= 40 }
+		}
+		NOR = {
+			has_realm_law = crown_authority_2
+			has_realm_law = crown_authority_3
+		}
+		learning >= 15
+		is_at_war = no
+	}
+
+	is_valid_showing_failures_only = {
+		is_capable_adult = yes
+		is_imprisoned = no
+	}
+
+	cost = {
+		prestige = 500
+	}
+
+	effect = {
+		custom_tooltip = ck_us_progressive_commonwealth_decision_effect_tt
+		hidden_effect = {
+			situation:ck_american_question ?= {
+				situation_top_sub_region = { change_phase = ck_us_progressive_commonwealth }
+			}
+		}
+	}
+
+	ai_potential = { always = yes }
+	ai_will_do = { base = 25 }
+}
+
+# Re-found the Union after Balkanization
+ck_us_refound_union_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_realm.dds"
+	}
+	desc = ck_us_refound_union_decision_desc
+	selection_tooltip = ck_us_refound_union_decision_tooltip
+	decision_group_type = major
+	sort_order = 88
+	progress = ck_us_refound_progress
+
+	ai_check_interval_by_tier = {
+		barony = 0
+		county = 0
+		duchy = 0
+		kingdom = 60
+		empire = 24
+		hegemony = 24
+	}
+
+	is_shown = {
+		is_ruler = yes
+		is_landed = yes
+		is_independent_ruler = yes
+		highest_held_title_tier >= tier_kingdom
+		ck_us_capital_in_america_trigger = yes
+		NOT = { exists = title:e_united_states.holder }
+	}
+
+	is_valid = {
+		custom_description = {
+			text = ck_us_refound_union_req
+			value = ck_us_refound_counties
+			ck_realm_counties_us >= ck_us_refound_counties
+		}
+	}
+
+	is_valid_showing_failures_only = {
+		is_capable_adult = yes
+		is_imprisoned = no
+		is_at_war = no
+	}
+
+	effect = {
+		custom_tooltip = ck_us_refound_union_decision_effect_tt
+		ck_us_create_union_effect = yes
+		add_prestige = 1000
+		hidden_effect = {
+			situation:ck_american_question ?= {
+				situation_top_sub_region = { change_phase = ck_us_reconstruction }
+			}
+		}
+	}
+
+	ai_potential = { always = yes }
+	ai_will_do = { base = 100 }
+}
+
+# The Hegemony of the Americas (h_americas, de jure: the USA, Latin America and three more empires): the American rival to Eurasia
+ck_found_americas_hegemony_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_found_kingdom.dds"
+	}
+	desc = ck_found_americas_hegemony_decision_desc
+	selection_tooltip = ck_found_americas_hegemony_decision_tooltip
+	decision_group_type = major
+	sort_order = 89
+	progress = ck_americas_progress
+
+	ai_check_interval_by_tier = {
+		barony = 0
+		county = 0
+		duchy = 0
+		kingdom = 0
+		empire = 24
+		hegemony = 24
+	}
+
+	is_shown = {
+		is_ruler = yes
+		is_landed = yes
+		is_independent_ruler = yes
+		highest_held_title_tier >= tier_empire
+		capital_county ?= { any_this_title_or_de_jure_above = { this = title:h_americas } }
+		NOT = { exists = title:h_americas.holder }
+	}
+
+	is_valid = {
+		custom_description = {
+			text = ck_found_americas_hegemony_req
+			value = ck_americas_required_counties
+			ck_realm_counties_americas >= ck_americas_required_counties
+		}
+	}
+
+	is_valid_showing_failures_only = {
+		is_capable_adult = yes
+		is_imprisoned = no
+	}
+
+	effect = {
+		custom_tooltip = ck_found_americas_hegemony_decision_effect_tt
+		ck_struggle_take_hegemony_effect = { HEG = h_americas }
+		save_scope_as = ck_americas_hegemon
+		hidden_effect = {
+			every_player = {
+				limit = { this != root }
+				trigger_event = ck_american.0060
+			}
+		}
+	}
+
+	ai_potential = { always = yes }
+	ai_will_do = { base = 100 }
+}

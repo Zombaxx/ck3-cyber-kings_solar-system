@@ -1,0 +1,296 @@
+﻿# Cyber Kings (2026-11-17): effects for ck_martian_cycle and ck_european_question (_dev/DLC_ADAPTATION.md section 7).
+
+# Fires a catalyst only if the situation exists and its current phase listens to it (avoids error-log spam).
+# $SITUATION$ = situation type, $CATALYST$ = catalyst key, $CHARACTER$ = character the catalyst is credited to.
+ck_fire_situation_catalyst_effect = {
+	situation:$SITUATION$ ?= {
+		if = {
+			limit = {
+				situation_top_has_catalyst = $CATALYST$
+				NOT = { has_variable = ck_catalyst_lock }	# e.g. the European Question while the Hegemon of Terra holds the Union
+			}
+			trigger_situation_catalyst = {
+				catalyst = $CATALYST$
+				character = $CHARACTER$
+			}
+		}
+	}
+}
+
+# root = situation (ck_martian_cycle), yearly
+ck_martian_cycle_yearly_effect = {
+	if = {	# the hegemony exists: Stability or Decline
+		limit = {
+			exists = title:h_mars.holder
+			OR = {
+				situation_current_phase = ck_mars_anarchy
+				situation_current_phase = ck_mars_unification
+			}
+		}
+		situation_top_sub_region = { change_phase = ck_mars_stability }
+	}
+	else_if = {	# the hegemony is gone: back to Anarchy
+		limit = {
+			NOT = { exists = title:h_mars.holder }
+			OR = {
+				situation_current_phase = ck_mars_stability
+				situation_current_phase = ck_mars_decline
+			}
+		}
+		situation_top_sub_region = { change_phase = ck_mars_anarchy }
+	}
+	else_if = {
+		limit = { situation_current_phase = ck_mars_anarchy }
+		random_situation_participant = {
+			limit = {
+				is_independent_ruler = yes
+				highest_held_title_tier >= tier_kingdom
+				ck_realm_counties_mars >= ck_mars_great_realm_counties
+			}
+			save_scope_as = ck_mars_great_realm_holder
+		}
+		if = {
+			limit = {
+				exists = scope:ck_mars_great_realm_holder
+				situation_top_has_catalyst = ck_catalyst_mars_great_realm
+			}
+			trigger_situation_catalyst = { catalyst = ck_catalyst_mars_great_realm character = scope:ck_mars_great_realm_holder }
+		}
+	}
+	else_if = {
+		limit = {
+			situation_current_phase = ck_mars_unification
+			NOT = {
+				any_situation_participant = {
+					is_independent_ruler = yes
+					ck_realm_counties_mars >= ck_mars_stalled_counties
+				}
+			}
+			situation_top_has_catalyst = ck_catalyst_mars_stalled
+		}
+		trigger_situation_catalyst = ck_catalyst_mars_stalled
+	}
+	else_if = {
+		limit = {
+			situation_current_phase = ck_mars_stability
+			situation_top_has_catalyst = ck_catalyst_mars_passing_years
+		}
+		trigger_situation_catalyst = ck_catalyst_mars_passing_years
+	}
+	else_if = {
+		limit = {
+			situation_current_phase = ck_mars_decline
+			situation_top_has_catalyst = ck_catalyst_mars_reform
+			title:h_mars.holder ?= { is_at_war = no }
+		}
+		trigger_situation_catalyst = { catalyst = ck_catalyst_mars_reform character = title:h_mars.holder }
+	}
+}
+
+# root = situation (ck_european_question), yearly
+ck_european_question_yearly_effect = {
+	# --- outside rule and world empires (2026-11-17 20:10) ---
+	if = {	# the Hegemon of Terra holds the Union: Imperium, locked (catalysts are ignored while the lock holds)
+		limit = { ck_eu_terra_lock_trigger = yes }
+		set_variable = ck_catalyst_lock
+		if = {
+			limit = { NOT = { situation_current_phase = ck_eu_imperium } }
+			situation_top_sub_region = { change_phase = ck_eu_imperium }
+		}
+	}
+	else = {
+		if = {
+			limit = { has_variable = ck_catalyst_lock }
+			remove_variable = ck_catalyst_lock
+		}
+		if = {	# a European hegemon: Europe as the core of a world empire
+			limit = {
+				ck_eu_european_world_empire_trigger = yes
+				NOR = {
+					situation_current_phase = ck_eu_imperium
+					situation_current_phase = ck_eu_great_war
+				}
+			}
+			situation_top_sub_region = { change_phase = ck_eu_imperium }
+		}
+		else_if = {	# ruled from outside
+			limit = {
+				ck_eu_foreign_dominion_trigger = yes
+				NOR = {
+					situation_current_phase = ck_eu_foreign_dominion
+					situation_current_phase = ck_eu_great_war
+					situation_current_phase = ck_eu_imperium	# an empire that changes hands stays an empire
+				}
+			}
+			situation_top_sub_region = { change_phase = ck_eu_foreign_dominion }
+		}
+		else_if = {
+			limit = { situation_current_phase = ck_eu_foreign_dominion }
+			if = {	# the outsider's hold is gone: a concert of free states
+				limit = { ck_eu_foreign_dominion_trigger = no }
+				situation_top_sub_region = { change_phase = ck_eu_concert }
+			}
+			else = {	# absorbed after 50 years
+				change_variable = { name = ck_eu_dominion_years add = 1 }
+				if = {
+					limit = { var:ck_eu_dominion_years >= 50 }
+					situation_top_sub_region = { change_phase = ck_eu_imperium }
+				}
+			}
+		}
+	}
+	if = {
+		limit = { situation_top_has_catalyst = ck_catalyst_eu_passing_years }
+		trigger_situation_catalyst = ck_catalyst_eu_passing_years
+	}
+	if = {	# the Union is gone (war, destruction, re-founding failed): separate states, confederated or not
+		limit = {
+			NOT = { exists = title:e_european_union.holder }
+			OR = {
+				situation_current_phase = ck_eu_integration
+				situation_current_phase = ck_eu_expansion
+				situation_current_phase = ck_eu_rivalry
+				situation_current_phase = ck_eu_dissolution
+				situation_current_phase = ck_eu_imperium
+			}
+		}
+		if = {
+			limit = { ck_eu_confederation_exists_trigger = yes }
+			situation_top_sub_region = { change_phase = ck_eu_confederacy }
+		}
+		else = {
+			situation_top_sub_region = { change_phase = ck_eu_concert }
+		}
+	}
+	else_if = {	# the confederation broke up
+		limit = {
+			situation_current_phase = ck_eu_confederacy
+			ck_eu_confederation_exists_trigger = no
+		}
+		situation_top_sub_region = { change_phase = ck_eu_concert }
+	}
+	else_if = {
+		limit = { situation_current_phase = ck_eu_dissolution }
+		ck_eu_dissolution_yearly_effect = yes
+	}
+}
+
+# root = situation, yearly during Dissolution: restless members are asked whether they leave; the Union may collapse.
+ck_eu_dissolution_yearly_effect = {
+	title:e_european_union.holder ?= {
+		save_scope_as = ck_eu_president
+		every_vassal = {
+			limit = { ck_eu_restless_member_trigger = yes }
+			random = {
+				chance = 35
+				trigger_event = ck_situations.0110
+			}
+		}
+		if = {	# too little of Europe is left inside the Union's realm
+			limit = { ck_realm_counties_europe < ck_europe_collapse_counties }
+			every_player = {
+				limit = { ck_capital_in_europe_trigger = yes }
+				trigger_event = ck_situations.0120
+			}
+			destroy_title = title:e_european_union
+		}
+	}
+}
+
+# root = situation, on_start of Integration: with no Union but a European Confederation, its leader is offered the Union
+ck_eu_integration_start_effect = {
+	if = {
+		limit = { NOT = { exists = title:e_european_union.holder } }
+		random_confederation = {
+			limit = { confederation_type = confederation_type:ck_european_confederation }
+			leading_house.house_head ?= {
+				if = {
+					limit = {
+						is_ruler = yes
+						is_independent_ruler = yes
+					}
+					trigger_event = ck_situations.0103
+				}
+			}
+		}
+	}
+}
+
+# root = character: becomes holder of e_european_union (decision or confederation event)
+ck_eu_create_union_effect = {
+	create_title_and_vassal_change = {
+		type = created
+		save_scope_as = change
+		add_claim_on_loss = no
+	}
+	title:e_european_union = {
+		change_title_holder = {
+			holder = root
+			change = scope:change
+		}
+	}
+	resolve_title_and_vassal_change = scope:change
+}
+
+# root = character: leaves its liege (peaceful exit from the Union)
+ck_eu_leave_union_effect = {
+	create_title_and_vassal_change = {
+		type = independency
+		save_scope_as = change
+		add_claim_on_loss = no
+	}
+	becomes_independent = { change = scope:change }
+	resolve_title_and_vassal_change = scope:change
+}
+
+# A war has ended: $WINNER$ beat $LOSER$ (called from ck_sit_war_won_attacker / _defender)
+ck_sit_war_result_effect = {
+	# --- Mars ---
+	if = {
+		limit = { $WINNER$ = { has_title = title:h_mars } }
+		ck_fire_situation_catalyst_effect = { SITUATION = ck_martian_cycle CATALYST = ck_catalyst_mars_hegemon_victory CHARACTER = $WINNER$ }
+	}
+	else_if = {
+		limit = { $LOSER$ = { has_title = title:h_mars } }
+		ck_fire_situation_catalyst_effect = { SITUATION = ck_martian_cycle CATALYST = ck_catalyst_mars_hegemon_defeat CHARACTER = $WINNER$ }
+	}
+	else_if = {
+		limit = {
+			$WINNER$ = { ck_has_land_on_mars_trigger = yes }
+			$LOSER$ = { ck_has_land_on_mars_trigger = yes }
+		}
+		ck_fire_situation_catalyst_effect = { SITUATION = ck_martian_cycle CATALYST = ck_catalyst_mars_conquest CHARACTER = $WINNER$ }
+		if = {	# the leading unifier was beaten
+			limit = {
+				$LOSER$ = {
+					is_independent_ruler = yes
+					ck_realm_counties_mars >= ck_mars_great_realm_counties
+				}
+			}
+			ck_fire_situation_catalyst_effect = { SITUATION = ck_martian_cycle CATALYST = ck_catalyst_mars_unifier_fell CHARACTER = $WINNER$ }
+		}
+	}
+	# --- Europe against the outside ---
+	if = {
+		limit = {
+			$WINNER$ = { ck_capital_in_europe_trigger = yes }
+			$LOSER$ = { ck_capital_in_europe_trigger = no }
+		}
+		ck_fire_situation_catalyst_effect = { SITUATION = ck_european_question CATALYST = ck_catalyst_eu_external_victory CHARACTER = $WINNER$ }
+	}
+	else_if = {
+		limit = {
+			$LOSER$ = { ck_capital_in_europe_trigger = yes }
+			$WINNER$ = { ck_capital_in_europe_trigger = no }
+		}
+		ck_fire_situation_catalyst_effect = { SITUATION = ck_european_question CATALYST = ck_catalyst_eu_external_defeat CHARACTER = $LOSER$ }
+	}
+}
+
+# root = Union ruler: dissolve the European Parliament (ck_proclaim_european_imperium_decision)
+ck_eu_dissolve_parliament_effect = {
+	every_vassal = {
+		limit = { government_has_flag = government_is_feudal }
+		vassal_contract_set_obligation_level = { type = council_rights level = 0 }
+	}
+}

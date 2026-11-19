@@ -1,0 +1,2 @@
+﻿# Cyber Kings 2026-11-17 21:15: Tau Ceti Voyage nicknames (gen_tau_ceti_admiral.py)
+nick_ck_the_admiral = {}

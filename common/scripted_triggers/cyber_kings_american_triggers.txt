@@ -1,0 +1,103 @@
+# Cyber Kings (2026-11-17): triggers for The American Question (ck_american_question). _dev/DLC_ADAPTATION.md section 18.
+# Blocs are read from culture traditions (see _dev/AMERICAN_CULTURES.md), so a culture that changes traditions changes bloc.
+#   Red  = American heritage with Staunch Traditionalists, Reverence for Veterans or Strong Kinship
+#   Blue = American heritage, not red, with Equitable, Xenophilic, City Keepers or Philosopher Culture
+#   Swing = everyone else (Midwestern, Southwesterner, Colonial American, Antarctican, non-American cultures)
+
+# root/this = culture
+ck_us_red_culture_trigger = {
+	has_cultural_pillar = heritage_ck_american
+	OR = {
+		has_cultural_tradition = tradition_staunch_traditionalists
+		has_cultural_tradition = tradition_reverence_for_veterans
+		has_cultural_tradition = tradition_strong_kinship
+	}
+}
+ck_us_blue_culture_trigger = {
+	has_cultural_pillar = heritage_ck_american
+	NOT = { ck_us_red_culture_trigger = yes }
+	OR = {
+		has_cultural_tradition = tradition_equitable
+		has_cultural_tradition = tradition_xenophilic
+		has_cultural_tradition = tradition_city_keepers
+		has_cultural_tradition = tradition_philosopher_culture
+	}
+}
+
+# character: bloc of the character's culture
+ck_us_red_trigger = { culture ?= { ck_us_red_culture_trigger = yes } }
+ck_us_blue_trigger = { culture ?= { ck_us_blue_culture_trigger = yes } }
+
+# character: capital in the de jure United States
+ck_us_capital_in_america_trigger = {
+	capital_county ?= { empire ?= title:e_united_states }
+}
+
+# character: inside the Union's realm (the president or anyone under the president)
+ck_us_member_trigger = {
+	exists = title:e_united_states.holder
+	OR = {
+		has_title = title:e_united_states
+		any_liege_or_above = { has_title = title:e_united_states }
+	}
+}
+
+# character: a corporate free city (a republic) with its capital in the de jure United States
+ck_us_corporate_trigger = {
+	has_government = republic_government
+	ck_us_capital_in_america_trigger = yes
+}
+
+# character: a vassal of the president who could take a corporate charter (rich city lord of a blue culture)
+ck_us_charter_candidate_trigger = {
+	is_ruler = yes
+	liege ?= { has_title = title:e_united_states }
+	NOT = { has_government = republic_government }
+	highest_held_title_tier <= tier_duchy
+	ck_us_blue_trigger = yes
+	capital_province ?= { has_holding_type = city_holding }
+	NOT = { has_character_flag = ck_us_charter_offered }
+}
+
+# character: a strong vassal of the president from the bloc opposed to the president (secession leaders)
+ck_us_opposing_bloc_vassal_trigger = {
+	is_ruler = yes
+	liege ?= { has_title = title:e_united_states }
+	highest_held_title_tier >= tier_duchy
+	OR = {
+		AND = {
+			ck_us_red_trigger = yes
+			liege = { ck_us_red_trigger = no }
+		}
+		AND = {
+			ck_us_blue_trigger = yes
+			liege = { ck_us_blue_trigger = no }
+		}
+	}
+}
+
+# The Union's ruler is (or answers to) a continental or world hegemon: Manifest Destiny, locked
+ck_us_hegemon_lock_trigger = {
+	exists = title:e_united_states.holder
+	title:e_united_states.holder.top_liege = {
+		OR = {
+			has_title = title:h_americas
+			has_title = title:h_ck_terra
+		}
+	}
+}
+
+# The Union is ruled from outside America (its holder's capital is elsewhere, or its holder answers to an outsider)
+ck_us_foreign_dominion_trigger = {
+	exists = title:e_united_states.holder
+	ck_us_hegemon_lock_trigger = no
+	title:e_united_states.holder = {
+		OR = {
+			ck_us_capital_in_america_trigger = no
+			AND = {
+				is_independent_ruler = no
+				top_liege = { ck_us_capital_in_america_trigger = no }
+			}
+		}
+	}
+}

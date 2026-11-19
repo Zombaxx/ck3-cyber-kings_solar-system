@@ -63,12 +63,17 @@
 "FlowNormalTexturePath"= "gfx/map/water/flow_normal.dds"
 "WaterFlowSpeed" = 0.0
 "WaterZoomedOutFlowSpeedOffset" = 0.0
-"WaterFlowNormalScale" = 0.07
+"WaterFlowNormalScale" = 0.0   # 2026-11-18 18:30 test (heightmap session): was 0.07; white streaks parallel to the coast at middle zoom
 "WaterFlowNormalFlatten" = 60
 
-"WaterFadeShoreMaskDepth" = 0.5
+"WaterFadeShoreMaskDepth" = 0.05
 "WaterFadeShoreMaskSharpness" = 5
 "WaterSeeThroughDensity" = 60
 "WaterSeeThroughDensityAngleOffset" = 0.5
-"WaterSeeThroughShoreMaskDepth" = 1.0
+"WaterSeeThroughShoreMaskDepth" = 0.05
 "WaterSeeThroughShoreMaskSharpness" = 5
+
+# 2026-11-18 (modder 17:02): shore fade and see-through depth 0.5 / 1.0 -> 0.05. Earth's shelves and ridges lie
+# only 400-800 heightmap units under the water level (4096), so the water turned see-through
+# over them and the sea bed showed as pale, blocky patches (the blocks are the packed heightmap's 64 px tiles,
+# which change with every repack). The sea colour comes from watercolor_rgb_waterspec_a.dds, which already paints the shelves.

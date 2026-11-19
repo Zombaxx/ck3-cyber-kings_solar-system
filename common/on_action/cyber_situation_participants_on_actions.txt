@@ -1,0 +1,37 @@
+﻿# Cyber Kings (2026-11-18 15:15, calendar session): fill the mod's situations with their participants.
+# The mod's situations are started from history/situations at 7050.1.1. In a 15:02 test game the Martian Cycle had no
+# participants and the European Question had only the Union's ruler: a situation's participant list is only refreshed when
+# a character changes (title gain/loss etc.), so rulers whose state did not change after the situation started were never
+# added (most likely cause; not confirmed in game yet). Vanilla's recalculate_participant_group (logs/effects.log; used in gdp_guelph_ghibelline_situation.txt) forces it.
+# Run for every ruler after the lobby, and once a year as a safety net. on_action lists from several files are merged.
+on_game_start_after_lobby = { on_actions = { ck_refresh_situation_participants } }
+yearly_global_pulse = { on_actions = { ck_refresh_situation_participants } }
+
+ck_refresh_situation_participants = {
+	effect = {
+		if = {
+			limit = { exists = situation:ck_martian_cycle }
+			every_ruler = { recalculate_participant_group = situation:ck_martian_cycle }
+		}
+		if = {
+			limit = { exists = situation:ck_european_question }
+			every_ruler = { recalculate_participant_group = situation:ck_european_question }
+		}
+		if = {
+			limit = { exists = situation:ck_american_question }
+			every_ruler = { recalculate_participant_group = situation:ck_american_question }
+		}
+		if = {
+			limit = { exists = situation:ck_triton_steppe }
+			every_ruler = { recalculate_participant_group = situation:ck_triton_steppe }
+		}
+		if = {
+			limit = { exists = situation:ck_corporate_wars }
+			every_ruler = { recalculate_participant_group = situation:ck_corporate_wars }
+		}
+		if = {
+			limit = { exists = situation:ck_solar_trade }
+			every_ruler = { recalculate_participant_group = situation:ck_solar_trade }
+		}
+	}
+}

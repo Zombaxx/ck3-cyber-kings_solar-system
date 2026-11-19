@@ -1,0 +1,23 @@
+﻿# Cyber Kings: coats of arms for bookmark-character titles that have no CoA elsewhere.
+# Without one, the title shows an empty black banner on the bookmark screen (random CoAs only exist after game start).
+# Hand-made 2026-11-18; keep keys out of the generated zz_cyber_kings_title_coas.txt / zz_cyber_kings_earth_flags.txt.
+
+c_province0209 = { # Planck J - Dark Side of the Moon (Kennedy clone, bookmark 1020130): white crescent and American star over night and Earth-blue
+	pattern = "pattern_horizontal_split_01.dds"
+	color1 = "black"
+	color2 = "blue"
+	colored_emblem = {
+		texture = "ce_crescent.dds"
+		color1 = "white"
+		color2 = "white"
+		color3 = "white"
+		instance = { position = { 0.42 0.42 } scale = { 0.62 0.62 } }
+	}
+	colored_emblem = {
+		texture = "ce_star_05.dds"
+		color1 = "white"
+		color2 = "white"
+		color3 = "white"
+		instance = { position = { 0.7 0.3 } scale = { 0.22 0.22 } }
+	}
+}

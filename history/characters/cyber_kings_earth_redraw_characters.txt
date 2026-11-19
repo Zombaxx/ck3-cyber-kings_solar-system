@@ -200,6 +200,7 @@
 	culture = han
 	rite = dhyana
 	7003.10.23 = { birth = yes }
+	7050.9.15 = { employer = 107175 }	# 2026-11-17 20:20: county taken into Illuminous's domain; serves at his court
 }
 8100028 = {
 	name = "cyn_Tianyu"	# e77 (was Xizhe_5E0C_54F2: did not fit han)
@@ -568,6 +569,7 @@
 	culture = han
 	rite = dhyana
 	7008.8.13 = { birth = yes }
+	7050.9.15 = { employer = 107175 }	# 2026-11-17 20:20: county taken into Illuminous's domain; serves at his court
 }
 8100078 = {
 	name = "Fu_7B26"
@@ -1107,6 +1109,7 @@
 	culture = han
 	rite = dhyana
 	7020.11.11 = { birth = yes }
+	7050.9.15 = { employer = 107175 }	# 2026-11-17 20:20: county taken into Illuminous's domain; serves at his court
 }
 8100153 = {
 	name = "Tong_5F64"
@@ -2364,6 +2367,7 @@
 	culture = han
 	rite = dhyana
 	7025.8.1 = { birth = yes }
+	7050.9.15 = { employer = 107175 }	# 2026-11-17 20:20: county taken into Illuminous's domain; serves at his court
 }
 8100329 = {
 	name = "cyn_Wenjie"	# e77 (was Tianting_5929_633A: did not fit han)

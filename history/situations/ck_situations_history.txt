@@ -1,0 +1,14 @@
+﻿# Cyber Kings (2026-11-17): situations running at the 7050 start (_dev/DLC_ADAPTATION.md section 7).
+# The mod replaces history/situations, so vanilla's start files (Great Steppe, Christian Church, Guelphs & Ghibellines) never load.
+7050.1.1 = {
+	effect = {
+		start_situation = {
+			type = ck_martian_cycle
+			start_phase = ck_mars_anarchy
+		}
+		start_situation = {
+			type = ck_european_question
+			start_phase = ck_eu_concert
+		}
+	}
+}

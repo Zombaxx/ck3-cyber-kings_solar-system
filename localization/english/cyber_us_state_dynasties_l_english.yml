@@ -1,0 +1,10 @@
+﻿l_english:
+ # 2026-11-18 (calendar session): own surnames for 7 US-state count families that had borrowed other dynasties' name keys
+ # (e.g. New Jersey's Grover showed as "Obama"). Dynasties in common/dynasties/cyber_kings_earth_redraw_dynasties.txt.
+ dynn_ck_8100800: "Brannock" # Idaho
+ dynn_ck_8100802: "Whitcomb" # Connecticut
+ dynn_ck_8100803: "Thayer" # Massachusetts
+ dynn_ck_8100804: "Van Riper" # New Jersey
+ dynn_ck_8100805: "Brayton" # Rhode Island
+ dynn_ck_8100807: "Kittredge" # Vermont
+ dynn_ck_8100808: "Pruett" # West Virginia

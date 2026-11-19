@@ -1,0 +1,57 @@
+﻿# He'e Nalu (2026-11-18): the Shaper's Shed, a camp building for adventurers who surf (Roads to Power).
+# Internal slot of the Supply Tent, like vanilla's Roaming Smithy, whose cost value and art it borrows.
+# Parameter hee_nalu_camp_shaper_shed: Commission a Board at half price (hee_nalu_board_cost_value), better odds in the
+# Shape a Board contract (hee_nalu.0610).
+hee_nalu_shaper_shed = {
+	slot_type = internal
+	construction_time = 240
+	allowed_domicile_types = { camp }
+	previous_building = supply_tent_01
+
+	cost = { gold = supply_tent_smithy_domicile_building_gold_cost_value }
+	refund = {
+		gold = {
+			value = supply_tent_smithy_domicile_building_gold_cost_value
+			multiply = camp_refund_mult_value
+			floor = yes
+		}
+	}
+
+	can_construct_potential = {
+		hee_nalu_can_surf_trigger = yes
+	}
+
+	character_modifier = {
+		stress_loss_mult = 0.05
+		prowess = 1
+	}
+
+	parameters = {
+		hee_nalu_camp_shaper_shed = yes
+	}
+
+	ai_value = {
+		value = camp_building_ai_base_t3
+	}
+
+	asset = {
+		trigger = {
+			owner.culture = {
+				OR = {
+					has_graphical_chinese_culture_group_trigger = yes
+					has_graphical_japanese_culture_group_trigger = yes
+				}
+			}
+		}
+		icon = "gfx/interface/icons/domicile_building/domicile_building_smithy.dds"
+		texture = "gfx/interface/window_domiciles/laamp_building_supply_tent_asian.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/laamp_building_supply_tent_asian_mask.png"
+		soundeffect = "event:/DLC/EP3/SFX/UI/camp_buildings/ep3_ui_domicile_buildings_supply_tent"
+	}
+	asset = {
+		icon = "gfx/interface/icons/domicile_building/domicile_building_smithy.dds"
+		texture = "gfx/interface/window_domiciles/laamp_building_supply_tent.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/laamp_building_supply_tent_mask.png"
+		soundeffect = "event:/DLC/EP3/SFX/UI/camp_buildings/ep3_ui_domicile_buildings_supply_tent"
+	}
+}

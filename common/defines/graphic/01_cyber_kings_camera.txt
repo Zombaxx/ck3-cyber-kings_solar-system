@@ -1,4 +1,7 @@
 ﻿NCamera = {
-	PANNING_WIDTH = 6900
+	# 2026-11-18: was PANNING_WIDTH = 6900 (left over from an older, narrower map). The camera centre cannot pan past it, so
+	# zoomed in nothing right of x = 6900 (most of Europa) could be reached. Now vanilla 1.21's values
+	# (common/defines/graphic/00_graphics.txt: 9090 x 4696), which fit the 9216 x 4608 map the mod shares with vanilla.
+	PANNING_WIDTH = 9090
 	PANNING_HEIGHT = 4696
 }

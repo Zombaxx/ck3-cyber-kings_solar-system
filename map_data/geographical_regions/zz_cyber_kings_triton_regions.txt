@@ -1,0 +1,13 @@
+# Cyber Kings (2026-11-17): Triton's two continents, for the Tritonian Steppe situation (_dev/DLC_ADAPTATION.md section 20).
+# Split by land mass from provinces.png: north = the nomadic continent (ergaster, torquas), south = the tribal continent
+# (neanderthal, antecessor). d_duchy1804 includes the small island next to the northern continent.
+cktriton_north = {
+	duchies = {
+		d_cronus_peninsula d_duchy1804 d_duchy1839 d_duchy1850 d_duchy1875 d_duchy1941 d_duchy1947 d_duchy1982 d_duchy2021 d_galatea
+	}
+}
+cktriton_south = {
+	duchies = {
+		d_duchy1798 d_duchy1834 d_duchy1859 d_duchy1866 d_duchy1896 d_duchy1927 d_duchy1929 d_duchy1980 d_duchy1981 d_duchy1986 d_duchy2022 d_naiad
+	}
+}

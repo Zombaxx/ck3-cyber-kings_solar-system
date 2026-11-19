@@ -31,11 +31,12 @@ ergaster = {
 	heritage = heritage_archaic
 	language = language_archaic
 	martial_custom = martial_custom_equal
-	head_determination = head_determination_domain
+	head_determination = head_determination_herd	# 2026-11-17 22:00: Triton nomads
 	traditions = {
 		tradition_ck_ergaster
 		tradition_ck_archaic
-		tradition_seafaring
+		tradition_pastoralists	# 2026-11-17 22:00: Triton nomads (was tradition_seafaring)
+		tradition_mpo_wolves_of_the_deep_steppe	# 2026-11-17 22:00: Triton nomads
 		tradition_battlefield_looters
 		tradition_ruling_caste
 	}
@@ -226,12 +227,13 @@ torquas = {
 	heritage = heritage_denisovan
 	language = language_denisovan
 	martial_custom = martial_custom_equal
-	head_determination = head_determination_domain
+	head_determination = head_determination_herd	# 2026-11-17 22:00: Triton nomads
 	traditions = {
 		tradition_ck_torquas
 		tradition_warrior_culture
 		tradition_only_the_strong
 		tradition_horse_lords
+		tradition_pastoralists	# 2026-11-17 22:00: Triton nomads
 	}
 	name_list = name_list_ck_torquas
 	coa_gfx = { mongol_coa_gfx steppe_coa_gfx }

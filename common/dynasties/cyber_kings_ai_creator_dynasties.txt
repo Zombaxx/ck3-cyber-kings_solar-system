@@ -1,0 +1,57 @@
+﻿# Cyber Kings 2026-11-17 20:45: dynasties of the AI-cywizard creators (parody names). gen_ai_cywizards.py
+9110900 = {
+	name = "dynn_ckai_9110900"
+	culture = "bay_arean"
+}
+9110901 = {
+	name = "dynn_ckai_9110901"
+	culture = "bay_arean"
+}
+9110902 = {
+	name = "dynn_ckai_9110902"
+	culture = "english"
+}
+9110903 = {
+	name = "dynn_ckai_9110903"
+	culture = "bay_arean"
+}
+9110904 = {
+	name = "dynn_ckai_9110904"
+	culture = "french"
+}
+9110905 = {
+	name = "dynn_ckai_9110905"
+	culture = "wu"
+}
+9110906 = {
+	name = "dynn_ckai_9110906"
+	culture = "wu"
+}
+9110907 = {
+	name = "dynn_ckai_9110907"
+	culture = "cascadian"
+}
+9110908 = {
+	name = "dynn_ckai_9110908"
+	culture = "bay_arean"
+}
+9110909 = {
+	name = "dynn_ckai_9110909"
+	culture = "torontonian"
+}
+9110910 = {
+	name = "dynn_ckai_9110910"
+	culture = "han"
+}
+9110911 = {
+	name = "dynn_ckai_9110911"
+	culture = "han"
+}
+9110912 = {
+	name = "dynn_ckai_9110912"
+	culture = "angeleno"
+}
+9110913 = {
+	name = "dynn_ckai_9110913"
+	culture = "bay_arean"
+}

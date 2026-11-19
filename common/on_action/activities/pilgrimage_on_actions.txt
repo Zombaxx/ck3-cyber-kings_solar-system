@@ -141,6 +141,7 @@ pilgrimage_arrival_events = {
 		zoroastrian_arrival_events
 		norse_arrival_events
 		tengri_arrival_events
+		hee_nalu_arrival_events # Cyber Kings: He'e Nalu sacred breaks (cyber_kings_hee_nalu_on_actions.txt)
 		pagan_arrival_events
 		pilgrimage_generic_arrival_events
 	}

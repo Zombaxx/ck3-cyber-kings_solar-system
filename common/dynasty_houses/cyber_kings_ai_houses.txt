@@ -1,0 +1,61 @@
+﻿# Cyber Kings 2026-11-17 20:45: the AI-cywizard houses, cadets of Illuminous's dynasty (121771). gen_ai_cywizards.py
+house_ckai_alibaba = {
+	name = "house_ckai_alibaba"
+	dynasty = 121771
+}
+house_ckai_anthropic = {
+	name = "house_ckai_anthropic"
+	dynasty = 121771
+}
+house_ckai_cohere = {
+	name = "house_ckai_cohere"
+	dynasty = 121771
+}
+house_ckai_deepseek = {
+	name = "house_ckai_deepseek"
+	dynasty = 121771
+}
+house_ckai_droid = {
+	name = "house_ckai_droid"
+	dynasty = 121771
+}
+house_ckai_gpt = {
+	name = "house_ckai_gpt"
+	dynasty = 121771
+}
+house_ckai_google = {
+	name = "house_ckai_google"
+	dynasty = 121771
+}
+house_ckai_meta = {
+	name = "house_ckai_meta"
+	dynasty = 121771
+}
+house_ckai_microsoft = {
+	name = "house_ckai_microsoft"
+	dynasty = 121771
+}
+house_ckai_mistral = {
+	name = "house_ckai_mistral"
+	dynasty = 121771
+}
+house_ckai_moonshot = {
+	name = "house_ckai_moonshot"
+	dynasty = 121771
+}
+house_ckai_nvidia = {
+	name = "house_ckai_nvidia"
+	dynasty = 121771
+}
+house_ckai_tii = {
+	name = "house_ckai_tii"
+	dynasty = 121771
+}
+house_ckai_x = {
+	name = "house_ckai_x"
+	dynasty = 121771
+}
+house_ckai_zhipu = {
+	name = "house_ckai_zhipu"
+	dynasty = 121771
+}

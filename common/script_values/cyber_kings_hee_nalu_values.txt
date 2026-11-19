@@ -22,3 +22,14 @@ hee_nalu_surf_skill_value = {
 		add = 5
 	}
 }
+
+# 2026-11-18: Commission a Board costs half with a Shaper's Shed (camp building hee_nalu_shaper_shed)
+hee_nalu_board_cost_value = {
+	value = 150
+	if = {
+		limit = {
+			domicile ?= { has_domicile_parameter = hee_nalu_camp_shaper_shed }
+		}
+		multiply = 0.5
+	}
+}

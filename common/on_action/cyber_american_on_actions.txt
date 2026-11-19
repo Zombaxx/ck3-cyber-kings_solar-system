@@ -1,0 +1,87 @@
+# Cyber Kings (2026-11-17): catalyst hooks for The American Question (_dev/DLC_ADAPTATION.md section 18).
+# Appended to vanilla on_actions (on_action lists from several files are merged).
+on_war_started = { on_actions = { ck_us_war_started } }
+on_war_won_attacker = { on_actions = { ck_us_war_won_attacker } }
+on_war_won_defender = { on_actions = { ck_us_war_won_defender } }
+on_war_white_peace = { on_actions = { ck_us_war_white_peace } }
+on_death = { on_actions = { ck_us_death } }
+
+ck_us_war_started = {
+	effect = {
+		if = {	# an independence war against the president: the Civil War
+			limit = {
+				scope:war = { OR = { using_cb = independence_faction_war using_cb = liberty_faction_war } }
+				scope:defender = { has_title = title:e_united_states }
+			}
+			ck_fire_situation_catalyst_effect = { SITUATION = ck_american_question CATALYST = ck_catalyst_us_civil_war CHARACTER = scope:attacker }
+		}
+		else_if = {	# two rulers of the Union at war
+			limit = {
+				scope:attacker = { ck_us_member_trigger = yes }
+				scope:defender = { ck_us_member_trigger = yes }
+			}
+			ck_fire_situation_catalyst_effect = { SITUATION = ck_american_question CATALYST = ck_catalyst_us_internal_war CHARACTER = scope:attacker }
+		}
+	}
+}
+
+# the secessionists won: Balkanization
+ck_us_war_won_attacker = {
+	effect = {
+		if = {
+			limit = {
+				scope:war = { OR = { using_cb = independence_faction_war using_cb = liberty_faction_war } }
+				scope:defender = { has_title = title:e_united_states }
+			}
+			situation:ck_american_question ?= {
+				situation_top_sub_region = { change_phase = ck_us_balkanization }
+			}
+		}
+		else = {
+			ck_us_war_result_effect = { WINNER = scope:attacker LOSER = scope:defender }
+		}
+	}
+}
+
+# the Union was preserved: Reconstruction
+ck_us_war_won_defender = {
+	effect = {
+		if = {
+			limit = {
+				scope:war = { OR = { using_cb = independence_faction_war using_cb = liberty_faction_war } }
+				scope:defender = { has_title = title:e_united_states }
+			}
+			ck_fire_situation_catalyst_effect = { SITUATION = ck_american_question CATALYST = ck_catalyst_us_union_preserved CHARACTER = scope:defender }
+		}
+		else = {
+			ck_us_war_result_effect = { WINNER = scope:defender LOSER = scope:attacker }
+		}
+	}
+}
+
+# a negotiated end to a civil war: back to Polarization
+ck_us_war_white_peace = {
+	effect = {
+		if = {
+			limit = {
+				scope:war = { OR = { using_cb = independence_faction_war using_cb = liberty_faction_war } }
+				scope:defender = { has_title = title:e_united_states }
+			}
+			situation:ck_american_question ?= {
+				if = {
+					limit = { situation_current_phase = ck_us_civil_war }
+					situation_top_sub_region = { change_phase = ck_us_polarization }
+				}
+			}
+		}
+	}
+}
+
+ck_us_death = {
+	effect = {
+		if = {
+			limit = { has_title = title:e_united_states }
+			ck_fire_situation_catalyst_effect = { SITUATION = ck_american_question CATALYST = ck_catalyst_us_president_succession CHARACTER = root }
+		}
+	}
+}

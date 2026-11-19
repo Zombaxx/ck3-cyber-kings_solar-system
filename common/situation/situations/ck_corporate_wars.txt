@@ -1,0 +1,216 @@
+﻿# Cyber Kings (2026-11-17): CHARTER AND CROWN - megacorporations against sovereigns, fought through the solar system's
+# trade hubs (Silk & Silver phase, _dev/DLC_ADAPTATION.md section 21). The setting's counterpart of vanilla's Guelphs and
+# Ghibellines, rebuilt on base-game situation machinery so it needs no DLC.
+# Sides: Corporate = republics (city republics / corporate free cities) and rulers who declared for the corporations;
+#        Sovereign = crowned rulers (kingdom tier and up) and rulers who declared for the crowns; the rest are Undecided.
+# Each side has a leader (the richest corporation, the greatest crowned ruler), re-chosen yearly.
+# Phases cycle like the vanilla situation: Agitation -> Corporate or Sovereign Ascendancy -> Agitation -> Repose -> ...
+
+ck_corporate_wars = {
+	window = situation
+	situation_group_type = major
+	is_unique = yes
+	map_mode = participant_groups
+	gui_tooltip_group_focused = yes
+	illustration = "gfx/interface/illustrations/decisions/gdp_republic_trade_ships.dds"
+	icon = { reference = "gfx/interface/icons/situation_types/guelph_ghibelline.dds" }
+	start_phase = ck_cc_agitation
+
+	sub_regions = {
+		ck_trade_hubs = {	# the entrepot hubs (map_data/geographical_regions/zz_cyber_kings_1_21_regions.txt)
+			icon = "gfx/interface/icons/situation_types/guelph_ghibelline.dds"
+			map_color = { 0.2 0.8 0.7 }
+			geographical_regions = { entrepot_counties_region }
+		}
+	}
+
+	participant_groups = {
+		ck_cc_corporate_leader = {
+			icon = "gfx/interface/icons/situations/guelph_ghibelline/situation_modifier_agitation.dds"
+			map_color = { 0.1 0.95 0.85 }
+			require_realm_in_sub_region = no
+			opposite_participant_group = { ck_cc_sovereign ck_cc_sovereign_leader }
+			opposite_participant_group_opinion = -20
+			is_character_valid = { has_variable = ck_cc_corporate_leader }
+		}
+		ck_cc_sovereign_leader = {
+			icon = "gfx/interface/icons/situations/situation_modifier_character.dds"
+			map_color = { 0.95 0.75 0.1 }
+			require_realm_in_sub_region = no
+			opposite_participant_group = { ck_cc_corporate ck_cc_corporate_leader }
+			opposite_participant_group_opinion = -20
+			is_character_valid = { has_variable = ck_cc_sovereign_leader }
+		}
+		ck_cc_corporate = {
+			icon = "gfx/interface/icons/situations/guelph_ghibelline/situation_modifier_agitation.dds"
+			map_color = { 0.2 0.7 0.65 }
+			require_realm_in_sub_region = yes
+			opposite_participant_group = { ck_cc_sovereign ck_cc_sovereign_leader }
+			opposite_participant_group_opinion = -20
+			is_character_valid = { ck_cc_corporate_side_trigger = yes }
+		}
+		ck_cc_sovereign = {
+			icon = "gfx/interface/icons/situations/situation_modifier_character.dds"
+			map_color = { 0.75 0.55 0.15 }
+			require_realm_in_sub_region = yes
+			opposite_participant_group = { ck_cc_corporate ck_cc_corporate_leader }
+			opposite_participant_group_opinion = -20
+			is_character_valid = { ck_cc_sovereign_side_trigger = yes }
+		}
+		ck_cc_undecided = {
+			icon = "gfx/interface/icons/situations/situation_modifier_fertility.dds"
+			map_color = { 0.55 0.55 0.55 }
+			require_realm_in_sub_region = yes
+		}
+	}
+
+	on_yearly = {
+		ck_corporate_wars_yearly_effect = yes
+	}
+
+	phases = {
+		# Agitation (start): boards and crowns jostle for the trade hubs
+		ck_cc_agitation = {
+			illustration = "gfx/interface/illustrations/decisions/divided.dds"
+			icon = "gfx/interface/icons/situations/guelph_ghibelline/situation_modifier_agitation.dds"
+			future_phases = {
+				ck_cc_corporate_ascendancy = {
+					takeover_type = points
+					takeover_points = 100
+					catalysts = {
+						ck_catalyst_cc_corporate_victory = 20
+						ck_catalyst_cc_incorporation = 15
+						ck_catalyst_cc_corporate_hubs = 10
+					}
+				}
+				ck_cc_sovereign_ascendancy = {
+					takeover_type = points
+					takeover_points = 100
+					catalysts = {
+						ck_catalyst_cc_sovereign_victory = 20
+						ck_catalyst_cc_charters_revoked = 20
+						ck_catalyst_cc_sovereign_hubs = 10
+					}
+				}
+				ck_cc_repose = {
+					takeover_type = points
+					takeover_points = 100
+					catalysts = {
+						ck_catalyst_cc_passing_years = 2
+					}
+				}
+			}
+			modifier_sets = {
+				ck_cc_agitation_effects = {
+					icon = "gfx/interface/icons/situations/guelph_ghibelline/situation_modifier_agitation.dds"
+					ck_cc_corporate_leader = {
+						character_modifier = { monthly_prestige = 0.5 }
+					}
+					ck_cc_sovereign_leader = {
+						character_modifier = { monthly_prestige = 0.5 }
+					}
+					all = {
+						county_modifier = { popular_opinion_add = -5 }
+					}
+				}
+			}
+		}
+		# Corporate Ascendancy: the megacorporations set the terms of trade
+		ck_cc_corporate_ascendancy = {
+			illustration = "gfx/interface/illustrations/decisions/gdp_republic_trade_ships.dds"
+			icon = "gfx/interface/icons/situations/guelph_ghibelline/situation_modifier_agitation.dds"
+			max_duration = { years = 30 }
+			max_duration_next_phase = highest_points
+			future_phases = {
+				ck_cc_agitation = {
+					takeover_type = points
+					takeover_points = 100
+					catalysts = {
+						ck_catalyst_cc_sovereign_victory = 25
+						ck_catalyst_cc_charters_revoked = 25
+						ck_catalyst_cc_passing_years = 2
+					}
+				}
+			}
+			modifier_sets = {
+				ck_cc_corporate_ascendancy_effects = {
+					icon = "gfx/interface/icons/situations/guelph_ghibelline/situation_modifier_agitation.dds"
+					ck_cc_corporate_leader = {
+						character_modifier = { monthly_income_mult = 0.25 diplomacy = 2 }
+					}
+					ck_cc_corporate = {
+						character_modifier = { monthly_income_mult = 0.2 }
+					}
+					ck_cc_sovereign = {
+						character_modifier = { domain_tax_mult = -0.1 }
+					}
+					ck_cc_sovereign_leader = {
+						character_modifier = { vassal_tax_mult = -0.1 }
+					}
+				}
+			}
+		}
+		# Sovereign Ascendancy: crowned rulers tax, regulate and seize the corporations
+		ck_cc_sovereign_ascendancy = {
+			illustration = "gfx/interface/illustrations/decisions/decision_legitimacy.dds"
+			icon = "gfx/interface/icons/situations/situation_modifier_character.dds"
+			max_duration = { years = 30 }
+			max_duration_next_phase = highest_points
+			future_phases = {
+				ck_cc_agitation = {
+					takeover_type = points
+					takeover_points = 100
+					catalysts = {
+						ck_catalyst_cc_corporate_victory = 25
+						ck_catalyst_cc_incorporation = 20
+						ck_catalyst_cc_passing_years = 2
+					}
+				}
+			}
+			modifier_sets = {
+				ck_cc_sovereign_ascendancy_effects = {
+					icon = "gfx/interface/icons/situations/situation_modifier_character.dds"
+					ck_cc_sovereign_leader = {
+						character_modifier = { vassal_tax_mult = 0.15 monthly_legitimacy_add = 0.2 }
+					}
+					ck_cc_sovereign = {
+						character_modifier = { domain_tax_mult = 0.1 }
+					}
+					ck_cc_corporate = {
+						character_modifier = { monthly_income_mult = -0.15 opinion_of_liege = -10 }
+					}
+					ck_cc_corporate_leader = {
+						character_modifier = { monthly_income_mult = -0.1 }
+					}
+				}
+			}
+		}
+		# Repose: a truce of convenience; trade flows and profits are shared
+		ck_cc_repose = {
+			illustration = "gfx/interface/illustrations/decisions/cooperative.dds"
+			icon = "gfx/interface/icons/situations/guelph_ghibelline/situation_modifier_repose.dds"
+			future_phases = {
+				ck_cc_agitation = {
+					takeover_type = points
+					takeover_points = 100
+					catalysts = {
+						ck_catalyst_cc_passing_years = 3
+						ck_catalyst_cc_corporate_victory = 15
+						ck_catalyst_cc_sovereign_victory = 15
+						ck_catalyst_cc_incorporation = 10
+						ck_catalyst_cc_charters_revoked = 15
+					}
+				}
+			}
+			modifier_sets = {
+				ck_cc_repose_effects = {
+					icon = "gfx/interface/icons/situations/guelph_ghibelline/situation_modifier_repose.dds"
+					all = {
+						character_modifier = { monthly_income_mult = 0.05 }
+						county_modifier = { prosperity_growth_factor = 0.1 }
+					}
+				}
+			}
+		}
+	}
+}

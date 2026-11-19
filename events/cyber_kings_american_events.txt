@@ -1,0 +1,186 @@
+﻿# Cyber Kings (2026-11-17): The American Question events. _dev/DLC_ADAPTATION.md section 18.
+namespace = ck_american
+
+# Election (every 4 years). root = president
+ck_american.0001 = {
+	type = character_event
+	title = ck_american.0001.t
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { situation:ck_american_question ?= { var:ck_us_polarization >= ck_us_polarization_high } }
+				desc = ck_american.0001.desc_divided
+			}
+			triggered_desc = {
+				trigger = { situation:ck_american_question ?= { var:ck_us_polarization <= ck_us_polarization_low } }
+				desc = ck_american.0001.desc_mandate
+			}
+			desc = ck_american.0001.desc_close
+		}
+	}
+	theme = realm
+	option = {
+		name = ck_american.0001.a
+	}
+}
+
+# Corporate charter offered. root = rich city lord, scope:ck_us_president
+ck_american.0010 = {
+	type = character_event
+	title = ck_american.0010.t
+	desc = ck_american.0010.desc
+	theme = stewardship
+	left_portrait = root
+	right_portrait = scope:ck_us_president
+	trigger = { liege ?= scope:ck_us_president }
+	option = {	# incorporate and break away
+		name = ck_american.0010.a
+		ck_us_become_free_city_effect = yes
+		hidden_effect = {
+			save_scope_as = ck_us_free_city
+			scope:ck_us_president = { trigger_event = ck_american.0011 }
+		}
+		ai_chance = {
+			base = 30
+			modifier = { add = 30 has_trait = greedy }
+			modifier = { add = 20 has_trait = ambitious }
+			modifier = { add = -30 has_trait = content }
+			opinion_modifier = { opinion_target = scope:ck_us_president multiplier = -0.5 }
+		}
+	}
+	option = {	# stay in the Union
+		name = ck_american.0010.b
+		ai_chance = {
+			base = 50
+			opinion_modifier = { opinion_target = scope:ck_us_president multiplier = 0.5 }
+		}
+	}
+}
+
+# The president hears that a city has broken away. root = president, scope:ck_us_free_city = the new free city
+ck_american.0011 = {
+	type = character_event
+	title = ck_american.0011.t
+	desc = ck_american.0011.desc
+	theme = stewardship
+	left_portrait = scope:ck_us_free_city
+	option = {	# take the charter fees
+		name = ck_american.0011.a
+		add_gold = 150
+		add_prestige = -100
+	}
+	option = {	# treason: claim it back
+		name = ck_american.0011.b
+		add_prestige = 50
+		scope:ck_us_free_city.capital_county ?= {
+			save_scope_as = ck_us_free_city_county
+		}
+		if = {
+			limit = { exists = scope:ck_us_free_city_county }
+			add_pressed_claim = scope:ck_us_free_city_county
+		}
+	}
+}
+
+# Secession Crisis: a leader of the opposed bloc may call a secession convention. root = vassal, scope:ck_us_president
+ck_american.0020 = {
+	type = character_event
+	title = ck_american.0020.t
+	desc = ck_american.0020.desc
+	theme = intrigue
+	left_portrait = root
+	right_portrait = scope:ck_us_president
+	trigger = {
+		liege ?= scope:ck_us_president
+		can_create_faction = { type = independence_faction target = scope:ck_us_president }
+	}
+	option = {	# call the convention
+		name = ck_american.0020.a
+		create_faction = {
+			type = independence_faction
+			target = scope:ck_us_president
+		}
+		ai_chance = {
+			base = 40
+			modifier = { add = 20 has_trait = ambitious }
+			modifier = { add = 15 has_trait = stubborn }
+			opinion_modifier = { opinion_target = scope:ck_us_president multiplier = -1 }
+		}
+	}
+	option = {	# not yet
+		name = ck_american.0020.b
+		ai_chance = {
+			base = 40
+			opinion_modifier = { opinion_target = scope:ck_us_president }
+		}
+	}
+}
+
+# The Imperial Presidency proclaimed (players in America). scope:ck_us_president
+ck_american.0030 = {
+	type = character_event
+	title = ck_american.0030.t
+	desc = ck_american.0030.desc
+	theme = realm
+	left_portrait = scope:ck_us_president
+	option = { name = ck_american.0030.a }
+}
+
+# Balkanization: the strongest ruler of the bloc invites a smaller one to join. root = invited, scope:ck_us_bloc_leader
+ck_american.0040 = {
+	type = character_event
+	title = ck_american.0040.t
+	desc = ck_american.0040.desc
+	theme = diplomacy
+	left_portrait = scope:ck_us_bloc_leader
+	trigger = {
+		is_independent_ruler = yes
+		scope:ck_us_bloc_leader = {
+			is_alive = yes
+			is_independent_ruler = yes
+		}
+	}
+	option = {	# join
+		name = ck_american.0040.a
+		create_title_and_vassal_change = {
+			type = swear_fealty
+			save_scope_as = change
+			add_claim_on_loss = no
+		}
+		change_liege = {
+			liege = scope:ck_us_bloc_leader
+			change = scope:change
+		}
+		resolve_title_and_vassal_change = scope:change
+		ai_chance = {
+			base = 40
+			opinion_modifier = { opinion_target = scope:ck_us_bloc_leader }
+		}
+	}
+	option = {	# stay free
+		name = ck_american.0040.b
+		ai_chance = {
+			base = 40
+			modifier = { add = 30 has_trait = ambitious }
+		}
+	}
+}
+
+# Balkanization (players in America)
+ck_american.0050 = {
+	type = character_event
+	title = ck_american.0050.t
+	desc = ck_american.0050.desc
+	theme = realm
+	option = { name = ck_american.0050.a }
+}
+
+# The Hegemony of the Americas proclaimed (every player). scope:ck_americas_hegemon
+ck_american.0060 = {
+	type = character_event
+	title = ck_american.0060.t
+	desc = ck_american.0060.desc
+	theme = realm
+	left_portrait = scope:ck_americas_hegemon
+	option = { name = ck_american.0060.a }
+}

@@ -1,0 +1,9 @@
+﻿# Cyber Kings (2026-11-17): the Olympic restorer of the Martian hegemony (ck_restore_martian_hegemony_decision).
+ck_throne_of_zeus_modifier = {
+	icon = prestige_positive
+	monthly_piety_gain_mult = 0.25
+	monthly_prestige_gain_mult = 0.15
+	same_faith_opinion = 10
+	vassal_opinion = 10
+	legitimacy_gain_mult = 0.25
+}

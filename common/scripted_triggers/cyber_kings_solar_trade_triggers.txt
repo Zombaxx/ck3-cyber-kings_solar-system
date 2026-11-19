@@ -1,0 +1,9 @@
+# Cyber Kings (2026-11-18): triggers for the Solar Trade Route (ck_solar_trade). _dev/DLC_ADAPTATION.md section 22.
+# county: one of the 47 trade hubs (entrepot_counties_region)
+ck_st_hub_county_trigger = {
+	title_province = { geographical_region = entrepot_counties_region }
+}
+# character: holds a trade hub somewhere in the realm
+ck_st_hub_holder_trigger = {
+	any_realm_county = { ck_st_hub_county_trigger = yes }
+}

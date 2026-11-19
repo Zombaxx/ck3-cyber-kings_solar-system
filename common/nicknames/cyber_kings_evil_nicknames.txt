@@ -1,0 +1,2 @@
+﻿# Cyber Kings 2026-11-18 (modder 17:56): Evil Morty (778015).
+nick_ck_evil = { is_bad = yes }

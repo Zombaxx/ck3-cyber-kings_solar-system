@@ -1,0 +1,436 @@
+﻿# Cyber Kings (2026-11-17): The European Question - the European Union goes through the cycles of European history:
+# concert -> integration -> expansion (colonies and conquests) -> rivalry -> great war -> concert ...
+# Breakup and confederal paths (2026-11-17 19:30): rivalry or great war -> dissolution (members leave, the Union can be
+# destroyed) -> concert of separate states; a European Confederation can end the concert of separate states, and a
+# confederation that grows or defends Europe against outside foes moves on to integration (a new Union, without war).
+# Imperium (2026-11-17 19:40): a Union ruler with full crown authority can dissolve the European Parliament and make the
+# Union a true empire (ck_proclaim_european_imperium_decision): no member can walk out while it lasts, only war breaks it.
+# Outside rule (2026-11-17 20:10): an outsider holding the Union (or its ruler as vassal/tributary, or half of Europe) puts
+# Europe under Foreign Dominion; a Hegemon of Terra holding the Union locks it in Imperium; a European hegemon makes it an
+# Imperium. These are set by ck_european_question_yearly_effect, not by catalysts.
+# (Concert of Europe / Westphalia / the EU's founding; Carolingian and EU integration; the ages of empire and colonies;
+#  the great-power rivalries before 1618, 1792 and 1914; the general wars that end them.) No final winner.
+# Design: _dev/DLC_ADAPTATION.md section 7b. Catalysts: common/on_action/cyber_situations_on_actions.txt and on_yearly.
+
+ck_european_question = {
+	window = situation
+	situation_group_type = major
+	is_unique = yes
+	map_mode = participant_groups
+	gui_tooltip_group_focused = yes
+	illustration = "gfx/interface/illustrations/decisions/concerted.dds"
+	icon = { reference = "gfx/interface/icons/situation_types/guelph_ghibelline.dds" }
+	start_phase = ck_eu_concert
+
+	sub_regions = {
+		ck_europe = {
+			icon = "gfx/interface/icons/situation_types/guelph_ghibelline.dds"
+			map_color = { 0.2 0.35 0.85 }
+			# 2026-11-18: was landed_titles = e_european_union (no participants), then a region built from empires (still none);
+			# now the region lists the empire's de jure duchies (map_data/geographical_regions/zz_cyber_kings_situation_regions.txt).
+			geographical_regions = { ck_situation_region_european_union }
+		}
+	}
+
+	participant_groups = {
+		ck_eu_president = {
+			icon = "gfx/interface/icons/situations/situation_modifier_character.dds"
+			map_color = { 1.0 0.85 0.2 }
+			is_character_valid = { has_title = title:e_european_union }
+		}
+		ck_eu_eurasian = {
+			icon = "gfx/interface/icons/situations/situation_modifier_military.dds"
+			map_color = { 0.75 0.15 0.15 }
+			require_realm_in_sub_region = no
+			is_character_valid = { ck_eu_eurasian_aligned_trigger = yes }
+		}
+		ck_eu_sovereigntists = {
+			icon = "gfx/interface/icons/situations/situation_modifier_subject.dds"
+			map_color = { 0.95 0.55 0.15 }
+			is_character_valid = { ck_eu_sovereigntist_trigger = yes }
+		}
+		ck_eu_integrationists = {
+			icon = "gfx/interface/icons/situations/situation_modifier_diplomacy.dds"
+			map_color = { 0.3 0.55 1.0 }
+			is_character_valid = {
+				exists = title:e_european_union.holder
+				top_liege = title:e_european_union.holder
+			}
+		}
+		ck_eu_unaffiliated = {
+			icon = "gfx/interface/icons/situations/situation_modifier_fertility.dds"
+			map_color = { 0.55 0.55 0.55 }
+		}
+	}
+
+	on_yearly = {
+		ck_european_question_yearly_effect = yes
+	}
+
+	phases = {
+		ck_eu_concert = {
+			illustration = "gfx/interface/illustrations/decisions/cooperative.dds"
+			icon = "gfx/interface/icons/situations/situation_modifier_diplomacy.dds"
+			future_phases = {
+				ck_eu_foreign_dominion = { }	# set by the yearly check
+				ck_eu_imperium = { }	# ck_proclaim_european_imperium_decision
+				ck_eu_integration = {
+					takeover_type = points
+					takeover_points = 100
+					catalysts = {
+						ck_catalyst_eu_passing_years = 3
+						ck_catalyst_eu_independence_crushed = 20
+						ck_catalyst_eu_external_victory = 10
+					}
+				}
+				ck_eu_rivalry = {
+					takeover_type = points
+					takeover_points = 100
+					catalysts = {
+						ck_catalyst_eu_internal_war = 15
+						ck_catalyst_eu_eurasian_pressure = 15
+						ck_catalyst_eu_succession = 10
+					}
+				}
+				ck_eu_great_war = { }
+				ck_eu_confederacy = { }	# reached through ck_found_european_confederation_decision
+			}
+			modifier_sets = {
+				ck_eu_concert_effects = {
+					icon = "gfx/interface/icons/situations/situation_modifier_diplomacy.dds"
+					all = {
+						character_modifier = { ai_war_chance = -0.25 general_opinion = 5 }
+						county_modifier = { popular_opinion_add = 5 prosperity_growth_factor = 0.1 }
+					}
+				}
+			}
+		}
+
+		ck_eu_integration = {
+			illustration = "gfx/interface/illustrations/decisions/concerted.dds"
+			icon = "gfx/interface/icons/situations/situation_modifier_character.dds"
+			on_start = { ck_eu_integration_start_effect = yes }	# a confederation without a Union proposes one
+			future_phases = {
+				ck_eu_foreign_dominion = { }	# set by the yearly check
+				ck_eu_imperium = { }	# ck_proclaim_european_imperium_decision
+				ck_eu_expansion = {
+					takeover_type = points
+					takeover_points = 100
+					catalysts = {
+						ck_catalyst_eu_passing_years = 3
+						ck_catalyst_eu_external_victory = 15
+						ck_catalyst_eu_colonial_conquest = 25
+					}
+				}
+				ck_eu_rivalry = {
+					takeover_type = points
+					takeover_points = 100
+					catalysts = {
+						ck_catalyst_eu_internal_war = 20
+						ck_catalyst_eu_eurasian_pressure = 15
+						ck_catalyst_eu_independence_won = 30
+					}
+				}
+				ck_eu_great_war = { }
+				ck_eu_dissolution = { }
+			}
+			modifier_sets = {
+				ck_eu_integration_effects = {
+					icon = "gfx/interface/icons/situations/situation_modifier_character.dds"
+					ck_eu_president = {
+						character_modifier = { vassal_tax_mult = 0.1 levy_size = 0.1 vassal_limit = 10 monthly_legitimacy_add = 0.3 }
+					}
+					ck_eu_integrationists = {
+						character_modifier = { opinion_of_liege = 10 }
+					}
+					ck_eu_sovereigntists = {
+						character_modifier = { opinion_of_liege = -15 }
+					}
+				}
+			}
+		}
+
+		ck_eu_expansion = {
+			illustration = "gfx/interface/illustrations/decisions/gdp_republic_trade_ships.dds"
+			icon = "gfx/interface/icons/situations/situation_modifier_military.dds"
+			max_duration = { years = 60 }
+			max_duration_next_phase = highest_points
+			future_phases = {
+				ck_eu_foreign_dominion = { }	# set by the yearly check
+				ck_eu_imperium = { }	# ck_proclaim_european_imperium_decision
+				ck_eu_rivalry = {
+					takeover_type = points
+					takeover_points = 100
+					catalysts = {
+						ck_catalyst_eu_passing_years = 3
+						ck_catalyst_eu_external_defeat = 20
+						ck_catalyst_eu_internal_war = 20
+						ck_catalyst_eu_eurasian_pressure = 10
+					}
+				}
+				ck_eu_great_war = { }
+			}
+			modifier_sets = {
+				ck_eu_expansion_effects = {
+					icon = "gfx/interface/icons/situations/situation_modifier_military.dds"
+					all = {
+						character_modifier = { embarkation_cost_mult = -0.5 supply_duration = 0.25 monthly_prestige_gain_mult = 0.2 monthly_war_income_mult = 0.25 ai_war_chance = 0.25 }
+					}
+					ck_eu_president = {
+						character_modifier = { levy_size = 0.15 }
+					}
+				}
+			}
+		}
+
+		ck_eu_rivalry = {
+			illustration = "gfx/interface/illustrations/decisions/fractious.dds"
+			icon = "gfx/interface/icons/situations/situation_modifier_subject.dds"
+			future_phases = {
+				ck_eu_foreign_dominion = { }	# set by the yearly check
+				ck_eu_imperium = { }	# ck_proclaim_european_imperium_decision
+				ck_eu_great_war = {
+					takeover_type = points
+					takeover_points = 100
+					catalysts = {
+						ck_catalyst_eu_internal_war = 25
+						ck_catalyst_eu_independence_won = 30
+						ck_catalyst_eu_eurasian_pressure = 15
+						ck_catalyst_eu_succession = 10
+					}
+				}
+				ck_eu_concert = {
+					takeover_type = points
+					takeover_points = 100
+					catalysts = {
+						ck_catalyst_eu_passing_years = 2
+						ck_catalyst_eu_independence_crushed = 10
+					}
+				}
+				ck_eu_dissolution = {
+					takeover_type = points
+					takeover_points = 100
+					catalysts = {
+						ck_catalyst_eu_member_left = 25
+						ck_catalyst_eu_independence_won = 20
+					}
+				}
+			}
+			modifier_sets = {
+				ck_eu_rivalry_effects = {
+					icon = "gfx/interface/icons/situations/situation_modifier_subject.dds"
+					all = {
+						character_modifier = { ai_war_chance = 0.25 men_at_arms_maintenance = -0.1 knight_effectiveness_mult = 0.1 }
+					}
+					ck_eu_president = {
+						character_modifier = { vassal_opinion = -5 }
+					}
+					ck_eu_eurasian = {
+						character_modifier = { monthly_prestige = 0.5 }
+					}
+				}
+			}
+		}
+
+		ck_eu_great_war = {
+			illustration = "gfx/interface/illustrations/decisions/divided.dds"
+			icon = "gfx/interface/icons/situations/situation_modifier_military.dds"
+			max_duration = { years = 15 }
+			max_duration_next_phase = highest_points
+			future_phases = {
+				ck_eu_foreign_dominion = { }	# set by the yearly check
+				ck_eu_imperium = { }	# ck_proclaim_european_imperium_decision
+				ck_eu_concert = {
+					takeover_type = points
+					takeover_points = 100
+					catalysts = {
+						ck_catalyst_eu_passing_years = 5
+					}
+				}
+				ck_eu_integration = {
+					takeover_type = points
+					takeover_points = 100
+					catalysts = {
+						ck_catalyst_eu_independence_crushed = 30
+						ck_catalyst_eu_external_victory = 10
+					}
+				}
+				ck_eu_dissolution = {
+					takeover_type = points
+					takeover_points = 100
+					catalysts = {
+						ck_catalyst_eu_independence_won = 30
+						ck_catalyst_eu_member_left = 20
+						ck_catalyst_eu_external_defeat = 15
+					}
+				}
+			}
+			modifier_sets = {
+				ck_eu_great_war_effects = {
+					icon = "gfx/interface/icons/situations/situation_modifier_military.dds"
+					all = {
+						character_modifier = { levy_size = 0.25 domain_tax_mult = -0.15 }
+						county_modifier = { prosperity_growth_factor = -0.25 monthly_control_change = -0.1 }
+					}
+					ck_eu_president = {
+						character_modifier = { vassal_opinion = -20 }
+					}
+					ck_eu_sovereigntists = {
+						character_modifier = { attacker_advantage = 4 }
+					}
+				}
+			}
+		}
+		ck_eu_dissolution = {
+			illustration = "gfx/interface/illustrations/decisions/independent.dds"
+			icon = "gfx/interface/icons/situations/situation_modifier_subject.dds"
+			max_duration = { years = 25 }
+			max_duration_next_phase = highest_points
+			future_phases = {
+				ck_eu_imperium = { }	# set by the yearly check (Terra lock, European hegemon)
+				ck_eu_foreign_dominion = { }	# set by the yearly check
+				ck_eu_concert = {	# exhaustion: Europe settles down as it is
+					takeover_type = points
+					takeover_points = 100
+					catalysts = {
+						ck_catalyst_eu_passing_years = 4
+					}
+				}
+				ck_eu_integration = {	# the Union holds and draws the waverers back in
+					takeover_type = points
+					takeover_points = 100
+					catalysts = {
+						ck_catalyst_eu_independence_crushed = 30
+						ck_catalyst_eu_external_victory = 10
+					}
+				}
+				ck_eu_confederacy = { }	# the Union is destroyed and a European Confederation exists
+			}
+			modifier_sets = {
+				ck_eu_dissolution_effects = {
+					icon = "gfx/interface/icons/situations/situation_modifier_subject.dds"
+					ck_eu_president = {
+						character_modifier = { vassal_opinion = -15 vassal_limit = -10 monthly_legitimacy_add = -0.5 }
+					}
+					ck_eu_sovereigntists = {
+						character_modifier = { opinion_of_liege = -20 monthly_prestige = 0.5 }
+					}
+					ck_eu_integrationists = {
+						character_modifier = { opinion_of_liege = -5 }
+					}
+				}
+			}
+		}
+
+		ck_eu_confederacy = {
+			illustration = "gfx/interface/illustrations/decisions/gdp_decision_concerted.dds"
+			icon = "gfx/interface/icons/situations/situation_modifier_diplomacy.dds"
+			future_phases = {
+				ck_eu_imperium = { }	# set by the yearly check (Terra lock, European hegemon)
+				ck_eu_foreign_dominion = { }	# set by the yearly check
+				ck_eu_integration = {	# from confederation to union, without war
+					takeover_type = points
+					takeover_points = 100
+					catalysts = {
+						ck_catalyst_eu_confederation_defended = 25
+						ck_catalyst_eu_confederation_joined = 5
+						ck_catalyst_eu_passing_years = 1
+					}
+				}
+				ck_eu_rivalry = {
+					takeover_type = points
+					takeover_points = 100
+					catalysts = {
+						ck_catalyst_eu_internal_war = 20
+						ck_catalyst_eu_member_left = 15
+						ck_catalyst_eu_eurasian_pressure = 10
+					}
+				}
+				ck_eu_concert = { }	# the confederation breaks up
+			}
+			modifier_sets = {
+				ck_eu_confederacy_effects = {
+					icon = "gfx/interface/icons/situations/situation_modifier_diplomacy.dds"
+					all = {
+						character_modifier = { defender_advantage = 3 general_opinion = 5 }
+						county_modifier = { prosperity_growth_factor = 0.1 }
+					}
+				}
+			}
+		}
+		ck_eu_imperium = {
+			illustration = "gfx/interface/illustrations/decisions/decision_byz_throne.dds"
+			icon = "gfx/interface/icons/situations/situation_modifier_character.dds"
+			future_phases = {
+				ck_eu_foreign_dominion = { }	# set by the yearly check
+				ck_eu_great_war = {	# the empire is shaken by rebellion or war between its great vassals
+					takeover_type = points
+					takeover_points = 100
+					catalysts = {
+						ck_catalyst_eu_independence_won = 30
+						ck_catalyst_eu_internal_war = 20
+						ck_catalyst_eu_external_defeat = 20
+					}
+				}
+				ck_eu_rivalry = {	# a weak heir or a lost war: the empire loosens into rival powers
+					takeover_type = points
+					takeover_points = 100
+					catalysts = {
+						ck_catalyst_eu_succession = 15
+						ck_catalyst_eu_external_defeat = 15
+						ck_catalyst_eu_eurasian_pressure = 10
+					}
+				}
+			}
+			modifier_sets = {
+				ck_eu_imperium_effects = {
+					icon = "gfx/interface/icons/situations/situation_modifier_character.dds"
+					ck_eu_president = {
+						character_modifier = { vassal_limit = 20 levy_size = 0.2 domain_tax_mult = 0.15 vassal_tax_mult = 0.15 monthly_prestige = 1 dread_gain_mult = 0.25 }
+					}
+					ck_eu_integrationists = {
+						character_modifier = { opinion_of_liege = -5 }
+					}
+					ck_eu_sovereigntists = {
+						character_modifier = { opinion_of_liege = -20 }
+					}
+				}
+			}
+		}
+		ck_eu_foreign_dominion = {
+			illustration = "gfx/interface/illustrations/decisions/decision_prison.dds"
+			icon = "gfx/interface/icons/situations/situation_modifier_military.dds"
+			on_start = { set_variable = { name = ck_eu_dominion_years value = 0 } }
+			future_phases = {
+				ck_eu_great_war = {	# a war of liberation
+					takeover_type = points
+					takeover_points = 100
+					catalysts = {
+						ck_catalyst_eu_independence_won = 30
+						ck_catalyst_eu_external_victory = 20
+						ck_catalyst_eu_internal_war = 10
+					}
+				}
+				ck_eu_concert = { }	# set by the yearly check: the outsider's hold is gone
+				ck_eu_imperium = { }	# set by the yearly check: absorbed after 50 years, or the Hegemon of Terra holds the Union
+			}
+			modifier_sets = {
+				ck_eu_foreign_dominion_effects = {
+					icon = "gfx/interface/icons/situations/situation_modifier_military.dds"
+					all = {
+						county_modifier = { popular_opinion_add = -10 monthly_control_change = -0.05 }
+					}
+					ck_eu_eurasian = {
+						character_modifier = { monthly_prestige = 0.5 vassal_opinion = 5 }
+					}
+					ck_eu_sovereigntists = {
+						character_modifier = { attacker_advantage = 4 monthly_prestige = 0.5 }
+					}
+					ck_eu_integrationists = {
+						character_modifier = { opinion_of_liege = -10 }
+					}
+				}
+			}
+		}
+	}
+}

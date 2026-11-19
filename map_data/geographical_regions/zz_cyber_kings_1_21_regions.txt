@@ -172,10 +172,23 @@ ruin_region_greek = {
 	regions = { world_europe_south }
 }
 entrepot_counties_region = {
-	# no entrepot hubs chosen for the solar system yet (vanilla lists its 42 trade hubs here)
-	counties = { }
+	# Cyber Kings (2026-11-17, Silk & Silver phase, DLC_ADAPTATION section 21): trade hubs of the solar system -
+	# 30 great ports and cities of Earth, and the main capitals of the other worlds (largest empires; Olympus on Mars).
+	counties = {
+		c_new_york c_los_angeles c_san_francisco c_houston c_miami c_toronto c_mexico_city c_rio_de_janeiro
+		c_london c_hamburg c_holland c_rome c_istanbul c_cairo c_port_said c_karachi
+		c_mumbai c_kolkata c_singapore c_bangkok c_guangzhou c_tokyo c_dalian c_lagos
+		c_durban c_casablanca c_moscow c_melbourne c_tehran c_dar_es_salaam c_province0513 c_province0372
+		c_province1175 c_province0953 c_province0786 c_province1596 c_province1322 c_olympus_mons c_province0305 c_moonlanding
+		c_province1405 c_province1719 c_province1522 c_province1780 c_province1702 c_province2158 c_province2014
+	}
 }
 entrepot_provinces_region = {
-	# no entrepot hubs chosen for the solar system yet (vanilla lists its 42 trade hubs here)
-	provinces = { }
+	# the capital provinces of the counties above, in the same order
+	provinces = {
+		329 2686 141 117 177 317 2928 137 496 2540 3133 579
+		604 647 2696 3001 834 3100 2743 939 3008 872 2989 2907
+		3085 2693 589 1086 674 2668 513 372 1175 953 786 1596
+		1322 1237 305 61 1405 1719 1522 1780 1702 2158 2014
+	}
 }

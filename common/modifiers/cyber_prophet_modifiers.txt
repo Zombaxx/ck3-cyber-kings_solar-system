@@ -1,0 +1,8 @@
+﻿# Cyber Kings 2026-11-18: the Prophet of Ganis (Zahar, 8101004). Given by common/on_action/cyber_prophet_on_actions.txt.
+ck_prophet_of_ganis_modifier = {
+	icon = prestige_positive
+	vassal_opinion = 20
+	general_opinion = 5
+	monthly_prestige = 1
+	monthly_piety = 0.5
+}

@@ -1,0 +1,77 @@
+﻿# Cyber Kings (2026-11-17): effects for Charter and Crown (ck_corporate_wars). _dev/DLC_ADAPTATION.md section 21.
+
+# root = situation, yearly: choose the two leaders, compare hub counts, time
+ck_corporate_wars_yearly_effect = {
+	every_situation_participant = {
+		limit = {
+			OR = {
+				has_variable = ck_cc_corporate_leader
+				has_variable = ck_cc_sovereign_leader
+			}
+		}
+		remove_variable = ck_cc_corporate_leader
+		remove_variable = ck_cc_sovereign_leader
+	}
+	random_situation_participant = {	# the richest corporation leads
+		limit = { ck_cc_corporate_side_trigger = yes }
+		weight = { base = 1 modifier = { add = gold } }
+		set_variable = ck_cc_corporate_leader
+	}
+	random_situation_participant = {	# the greatest crown leads
+		limit = { ck_cc_sovereign_side_trigger = yes is_independent_ruler = yes }
+		weight = { base = 1 modifier = { add = realm_size } }
+		set_variable = ck_cc_sovereign_leader
+	}
+	if = {
+		limit = { situation_top_has_catalyst = ck_catalyst_cc_passing_years }
+		trigger_situation_catalyst = ck_catalyst_cc_passing_years
+	}
+	# who holds more of the hubs
+	if = {
+		limit = { ck_cc_corporate_hubs > ck_cc_sovereign_hubs }
+		if = {
+			limit = { situation_top_has_catalyst = ck_catalyst_cc_corporate_hubs }
+			trigger_situation_catalyst = ck_catalyst_cc_corporate_hubs
+		}
+	}
+	else_if = {
+		limit = { ck_cc_sovereign_hubs > ck_cc_corporate_hubs }
+		if = {
+			limit = { situation_top_has_catalyst = ck_catalyst_cc_sovereign_hubs }
+			trigger_situation_catalyst = ck_catalyst_cc_sovereign_hubs
+		}
+	}
+}
+
+# A war has ended: $WINNER$ beat $LOSER$ (from cyber_corporate_on_actions.txt)
+ck_cc_war_result_effect = {
+	if = {
+		limit = {
+			$WINNER$ = { ck_cc_corporate_side_trigger = yes }
+			$LOSER$ = { ck_cc_sovereign_side_trigger = yes }
+		}
+		ck_fire_situation_catalyst_effect = { SITUATION = ck_corporate_wars CATALYST = ck_catalyst_cc_corporate_victory CHARACTER = $WINNER$ }
+	}
+	else_if = {
+		limit = {
+			$WINNER$ = { ck_cc_sovereign_side_trigger = yes }
+			$LOSER$ = { ck_cc_corporate_side_trigger = yes }
+		}
+		ck_fire_situation_catalyst_effect = { SITUATION = ck_corporate_wars CATALYST = ck_catalyst_cc_sovereign_victory CHARACTER = $WINNER$ }
+	}
+}
+
+# root = city lord: becomes a corporation (a city republic)
+ck_cc_incorporate_effect = {
+	change_government = republic_government
+	add_character_modifier = { modifier = ck_cc_megacorp_modifier years = 50 }
+	remove_variable = ck_cc_side_sovereign
+	remove_variable = ck_cc_side_undecided
+	set_variable = ck_cc_side_corporate
+	liege ?= { add_opinion = { target = root modifier = ck_cc_incorporated_opinion } }
+	ck_fire_situation_catalyst_effect = { SITUATION = ck_corporate_wars CATALYST = ck_catalyst_cc_incorporation CHARACTER = root }
+	if = {	# inside the United States it is also a corporate charter for the American Question (2026-11-18)
+		limit = { ck_us_member_trigger = yes }
+		ck_fire_situation_catalyst_effect = { SITUATION = ck_american_question CATALYST = ck_catalyst_us_corporate_charter CHARACTER = root }
+	}
+}

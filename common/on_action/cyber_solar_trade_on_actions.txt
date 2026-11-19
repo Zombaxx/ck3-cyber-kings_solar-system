@@ -1,0 +1,21 @@
+# Cyber Kings (2026-11-18): catalyst hooks for the Solar Trade Route (_dev/DLC_ADAPTATION.md section 22).
+on_war_started = { on_actions = { ck_st_war_started } }
+
+ck_st_war_started = {
+	effect = {
+		if = {
+			limit = {
+				scope:attacker = { ck_st_hub_holder_trigger = yes }
+				scope:defender = { ck_st_hub_holder_trigger = yes }
+			}
+			ck_fire_situation_catalyst_effect = { SITUATION = ck_solar_trade CATALYST = ck_catalyst_st_hub_war CHARACTER = scope:attacker }
+		}
+		if = {
+			limit = {
+				scope:attacker = { is_independent_ruler = yes highest_held_title_tier >= tier_empire }
+				scope:defender = { is_independent_ruler = yes highest_held_title_tier >= tier_empire }
+			}
+			ck_fire_situation_catalyst_effect = { SITUATION = ck_solar_trade CATALYST = ck_catalyst_st_great_power_war CHARACTER = scope:attacker }
+		}
+	}
+}

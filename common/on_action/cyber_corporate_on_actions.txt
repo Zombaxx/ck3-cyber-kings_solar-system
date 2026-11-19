@@ -1,0 +1,10 @@
+# Cyber Kings (2026-11-17): catalyst hooks for Charter and Crown (_dev/DLC_ADAPTATION.md section 21).
+on_war_won_attacker = { on_actions = { ck_cc_war_won_attacker } }
+on_war_won_defender = { on_actions = { ck_cc_war_won_defender } }
+
+ck_cc_war_won_attacker = {
+	effect = { ck_cc_war_result_effect = { WINNER = scope:attacker LOSER = scope:defender } }
+}
+ck_cc_war_won_defender = {
+	effect = { ck_cc_war_result_effect = { WINNER = scope:defender LOSER = scope:attacker } }
+}

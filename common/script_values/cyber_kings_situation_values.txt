@@ -1,0 +1,24 @@
+﻿# Cyber Kings (2026-11-17): values for ck_martian_cycle and the Restore the Martian Hegemony decision.
+ck_mars_share_required = 0.5   # share of Mars a ruler must hold to restore the Martian hegemony (same rule as the formable hegemonies)
+ck_mars_share_great_realm = 0.3   # Anarchy -> Unification pressure when a ruler holds this share
+ck_mars_share_stalled = 0.2       # Unification falls back toward Anarchy when nobody holds this share
+
+ck_mars_total_counties = { value = 0 every_county_in_region = { region = ckworld_mars add = 1 } }
+ck_realm_counties_mars = { value = 0 every_realm_county = { limit = { title_province = { geographical_region = ckworld_mars } } add = 1 } }
+ck_mars_required_counties = { value = ck_mars_total_counties multiply = ck_mars_share_required ceiling = yes }
+ck_mars_great_realm_counties = { value = ck_mars_total_counties multiply = ck_mars_share_great_realm ceiling = yes }
+ck_mars_stalled_counties = { value = ck_mars_total_counties multiply = ck_mars_share_stalled ceiling = yes }
+ck_mars_restore_progress = { value = ck_realm_counties_mars multiply = 100 divide = ck_mars_required_counties max = 100 }
+
+# --- European Question: breakup and re-founding (2026-11-17 19:30) ---
+ck_europe_share_collapse = 0.25   # during Dissolution the Union is destroyed when its holder's realm keeps less than this share of Europe
+ck_europe_share_refound = 0.35    # Re-found the European Union: share of Europe a ruler must hold
+ck_europe_total_counties = { value = 0 title:e_european_union = { every_de_jure_county = { add = 1 } } }
+ck_realm_counties_europe = { value = 0 every_realm_county = { limit = { empire ?= title:e_european_union } add = 1 } }
+ck_europe_collapse_counties = { value = ck_europe_total_counties multiply = ck_europe_share_collapse ceiling = yes }
+ck_europe_refound_counties = { value = ck_europe_total_counties multiply = ck_europe_share_refound ceiling = yes }
+ck_europe_refound_progress = { value = ck_realm_counties_europe multiply = 100 divide = ck_europe_refound_counties max = 100 }
+
+# --- European Question: Imperium (2026-11-17 19:40) ---
+ck_europe_share_imperium = 0.5    # Proclaim the European Imperium: share of the Union's lands the ruler's realm must hold
+ck_europe_imperium_counties = { value = ck_europe_total_counties multiply = ck_europe_share_imperium ceiling = yes }

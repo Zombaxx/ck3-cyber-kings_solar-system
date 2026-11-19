@@ -1,0 +1,5 @@
+# Cyber Kings (2026-11-17): values for Charter and Crown (ck_corporate_wars). _dev/DLC_ADAPTATION.md section 21.
+# trade hubs (entrepot counties) whose holder's top liege is on each side
+ck_cc_corporate_hubs = { value = 0 every_county_in_region = { region = entrepot_counties_region limit = { holder.top_liege ?= { ck_cc_corporate_side_trigger = yes } } add = 1 } }
+ck_cc_sovereign_hubs = { value = 0 every_county_in_region = { region = entrepot_counties_region limit = { holder.top_liege ?= { ck_cc_sovereign_side_trigger = yes } } add = 1 } }
+ck_cc_incorporate_gold = 300

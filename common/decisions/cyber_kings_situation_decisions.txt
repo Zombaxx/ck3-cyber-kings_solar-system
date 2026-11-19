@@ -1,0 +1,294 @@
+﻿# Cyber Kings (2026-11-17): Restore the Martian Hegemony (ck_martian_cycle, _dev/DLC_ADAPTATION.md section 7a).
+# Same founding effect as the formable hegemonies (cyber_kings_hegemony_effects.txt). An Olympic-faith founder
+# restores the Throne of Zeus instead and gets extra rewards.
+ck_restore_martian_hegemony_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/ep3_decision_roman_restoration.dds"
+	}
+	title = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { faith.religion = religion:olympic_religion }
+				desc = ck_restore_martian_hegemony_decision_zeus
+			}
+			desc = ck_restore_martian_hegemony_decision
+		}
+	}
+	desc = ck_restore_martian_hegemony_decision_desc
+	selection_tooltip = ck_restore_martian_hegemony_decision_tooltip
+	decision_group_type = major
+	sort_order = 90
+	progress = ck_mars_restore_progress
+
+	ai_check_interval_by_tier = {
+		barony = 0
+		county = 0
+		duchy = 0
+		kingdom = 60
+		empire = 24
+		hegemony = 12
+	}
+
+	is_shown = {
+		is_ruler = yes
+		is_landed = yes
+		is_independent_ruler = yes
+		highest_held_title_tier >= tier_kingdom
+		capital_county ?= { title_province = { geographical_region = ckworld_mars } }
+		NOT = { exists = title:h_mars.holder }
+	}
+
+	is_valid = {
+		custom_description = {
+			text = ck_restore_martian_hegemony_req
+			value = ck_mars_required_counties
+			any_realm_county = {
+				count >= ck_mars_required_counties
+				title_province = { geographical_region = ckworld_mars }
+			}
+		}
+	}
+
+	is_valid_showing_failures_only = {
+		is_capable_adult = yes
+		is_imprisoned = no
+		is_at_war = no
+	}
+
+	effect = {
+		custom_tooltip = ck_restore_martian_hegemony_decision_effect_tt
+		ck_hegemony_found_effect = { HEG = h_mars BLOC = ckworld_mars FOUNDER_EVENT = ck_situations.0001 WORLD_EVENT = ck_situations.0002 }
+		if = {
+			limit = { faith.religion = religion:olympic_religion }
+			add_character_modifier = { modifier = ck_throne_of_zeus_modifier }
+			add_piety = 1000
+			add_legitimacy = major_legitimacy_gain
+		}
+		else = {
+			add_legitimacy = medium_legitimacy_gain
+		}
+		hidden_effect = {
+			situation:ck_martian_cycle ?= {
+				situation_top_sub_region = { change_phase = ck_mars_stability }
+			}
+		}
+	}
+
+	ai_potential = { always = yes }
+	ai_will_do = { base = 100 }
+}
+
+# --- The European Question: confederation and re-founding (2026-11-17 19:30, _dev/DLC_ADAPTATION.md section 7b) ---
+
+# Europe has no Union: bind the separate states together in a confederation of equals.
+ck_found_european_confederation_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/gdp_decision_concerted.dds"
+	}
+	desc = ck_found_european_confederation_decision_desc
+	selection_tooltip = ck_found_european_confederation_decision_tooltip
+	decision_group_type = major
+	sort_order = 89
+
+	ai_check_interval_by_tier = {
+		barony = 0
+		county = 0
+		duchy = 0
+		kingdom = 60
+		empire = 36
+		hegemony = 36
+	}
+
+	is_shown = {
+		is_ruler = yes
+		is_landed = yes
+		is_independent_ruler = yes
+		highest_held_title_tier >= tier_kingdom
+		ck_capital_in_europe_trigger = yes
+		exists = house
+		NOT = { exists = title:e_european_union.holder }
+		ck_eu_confederation_exists_trigger = no
+	}
+
+	is_valid = {
+		NOT = { exists = house.house_confederation }
+		ck_eu_eurasian_aligned_trigger = no
+	}
+
+	is_valid_showing_failures_only = {
+		is_capable_adult = yes
+		is_imprisoned = no
+		is_at_war = no
+	}
+
+	effect = {
+		custom_tooltip = ck_found_european_confederation_decision_effect_tt
+		save_scope_as = ck_eu_confed_founder
+		create_confederation = {
+			name = ck_european_confederation_name
+			type = confederation_type:ck_european_confederation
+			leader = house
+		}
+		hidden_effect = {
+			every_independent_ruler = {
+				limit = {
+					this != root
+					ck_eu_confederation_candidate_trigger = yes
+				}
+				trigger_event = ck_situations.0102
+			}
+			situation:ck_european_question ?= {
+				situation_top_sub_region = { change_phase = ck_eu_confederacy }
+			}
+		}
+	}
+
+	ai_potential = { always = yes }
+	ai_will_do = { base = 25 }
+}
+
+# Europe has no Union: a power strong enough recreates it.
+ck_refound_european_union_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/concerted.dds"
+	}
+	desc = ck_refound_european_union_decision_desc
+	selection_tooltip = ck_refound_european_union_decision_tooltip
+	decision_group_type = major
+	sort_order = 88
+	progress = ck_europe_refound_progress
+
+	ai_check_interval_by_tier = {
+		barony = 0
+		county = 0
+		duchy = 0
+		kingdom = 60
+		empire = 24
+		hegemony = 24
+	}
+
+	is_shown = {
+		is_ruler = yes
+		is_landed = yes
+		is_independent_ruler = yes
+		highest_held_title_tier >= tier_kingdom
+		ck_capital_in_europe_trigger = yes
+		NOT = { exists = title:e_european_union.holder }
+	}
+
+	is_valid = {
+		custom_description = {
+			text = ck_refound_european_union_req
+			value = ck_europe_refound_counties
+			ck_realm_counties_europe >= ck_europe_refound_counties
+		}
+	}
+
+	is_valid_showing_failures_only = {
+		is_capable_adult = yes
+		is_imprisoned = no
+		is_at_war = no
+	}
+
+	effect = {
+		custom_tooltip = ck_refound_european_union_decision_effect_tt
+		ck_eu_create_union_effect = yes
+		add_prestige = 1000
+		hidden_effect = {
+			situation:ck_european_question ?= {
+				situation_top_sub_region = { change_phase = ck_eu_integration }
+			}
+		}
+	}
+
+	ai_potential = { always = yes }
+	ai_will_do = { base = 100 }
+}
+
+# --- The European Question: Imperium (2026-11-17 19:40, _dev/DLC_ADAPTATION.md section 10) ---
+# Napoleon it: with full crown authority, dissolve the European Parliament and turn the Union into a true empire.
+# Era route: during Integration, the Age of Empire or a Great War. Forced route: any other time (not during Dissolution
+# or Confederation) with the highest prestige level.
+ck_proclaim_european_imperium_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_byz_throne.dds"
+	}
+	desc = ck_proclaim_european_imperium_decision_desc
+	selection_tooltip = ck_proclaim_european_imperium_decision_tooltip
+	decision_group_type = major
+	sort_order = 87
+
+	ai_check_interval_by_tier = {
+		barony = 0
+		county = 0
+		duchy = 0
+		kingdom = 0
+		empire = 36
+		hegemony = 36
+	}
+
+	is_shown = {
+		has_title = title:e_european_union
+		situation:ck_european_question ?= {
+			NOR = {
+				situation_current_phase = ck_eu_imperium
+				situation_current_phase = ck_eu_dissolution
+				situation_current_phase = ck_eu_confederacy
+			}
+		}
+	}
+
+	is_valid = {
+		has_realm_law = crown_authority_3
+		custom_description = {
+			text = ck_proclaim_european_imperium_req
+			value = ck_europe_imperium_counties
+			ck_realm_counties_europe >= ck_europe_imperium_counties
+		}
+		custom_description = {
+			text = ck_proclaim_european_imperium_era
+			OR = {
+				situation:ck_european_question ?= {
+					OR = {
+						situation_current_phase = ck_eu_integration
+						situation_current_phase = ck_eu_expansion
+						situation_current_phase = ck_eu_great_war
+					}
+				}
+				prestige_level >= 5
+			}
+		}
+		prestige_level >= 3
+	}
+
+	is_valid_showing_failures_only = {
+		is_capable_adult = yes
+		is_imprisoned = no
+	}
+
+	cost = {
+		prestige = 1500
+	}
+
+	effect = {
+		custom_tooltip = ck_proclaim_european_imperium_decision_effect_tt
+		ck_eu_dissolve_parliament_effect = yes
+		add_legitimacy = major_legitimacy_gain
+		save_scope_as = ck_eu_president
+		hidden_effect = {
+			situation:ck_european_question ?= {
+				situation_top_sub_region = { change_phase = ck_eu_imperium }
+			}
+			every_player = {
+				limit = {
+					this != root
+					ck_capital_in_europe_trigger = yes
+				}
+				trigger_event = ck_situations.0130
+			}
+		}
+	}
+
+	ai_potential = { always = yes }
+	ai_will_do = { base = 50 }
+}

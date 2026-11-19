@@ -1,0 +1,11 @@
+# Cyber Kings (2026-11-17): Charter and Crown opinions.
+ck_cc_incorporated_opinion = {	# the liege of a city that incorporated
+	opinion = -20
+	years = 20
+	decaying = yes
+}
+ck_cc_charter_revoked_opinion = {	# a corporation whose charter was revoked
+	opinion = -40
+	years = 30
+	decaying = yes
+}

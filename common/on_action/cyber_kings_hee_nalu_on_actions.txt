@@ -37,13 +37,14 @@ hee_nalu_yearly_pulse = {
 		is_available_adult = yes
 	}
 	random_events = {
-		850 = 0
+		825 = 0
 		25 = hee_nalu.0301
 		25 = hee_nalu.0302
 		25 = hee_nalu.0303
 		25 = hee_nalu.0304
 		25 = hee_nalu.0305
 		25 = hee_nalu.0306
+		25 = hee_nalu.0307	# adventurers only (event trigger)
 	}
 }
 
@@ -56,5 +57,21 @@ hee_nalu_game_start = {
 				hee_nalu_kai_olo_effect = yes
 			}
 		}
+	}
+}
+
+# 2026-11-18: a He'e Nalu pilgrim arriving at a coastal holy site paddles out (hee_nalu.0500).
+# Listed in the pilgrimage arrival list in common/on_action/activities/pilgrimage_on_actions.txt (mod override), before
+# pagan_arrival_events, which would otherwise give surfers the "Sacred Grove" event (the faith has Sanctity of Nature).
+hee_nalu_arrival_events = {
+	trigger = {
+		religion = religion:hee_nalu_religion
+		involved_activity ?= {
+			activity_location = { is_coastal = yes }
+		}
+	}
+
+	random_events = {
+		100 = hee_nalu.0500
 	}
 }

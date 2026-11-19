@@ -1,0 +1,187 @@
+﻿# Cyber Kings (2026-11-18): THE SOLAR TRADE ROUTE - booms and busts of trade along the space lanes and highways between
+# the 47 trade hubs (Silk & Silver phase, _dev/DLC_ADAPTATION.md section 22). A base-game situation: vanilla's Silk Road
+# (All Under Heaven) uses its own code window and map mode, which may need that DLC.
+# Groups: Hub Holders (realm holds a trade hub) and Traders (everyone else in the inner or outer worlds).
+# Phases: Open Lanes (start) -> Trade Boom / Lane Piracy / Embargo -> Open Lanes. Wars between hub holders breed piracy,
+# wars between great powers and Sovereign Ascendancy (Charter and Crown) breed embargoes, peace and Corporate Ascendancy
+# breed booms.
+
+ck_solar_trade = {
+	window = situation
+	situation_group_type = major
+	is_unique = yes
+	map_mode = participant_groups
+	gui_tooltip_group_focused = yes
+	illustration = "gfx/interface/illustrations/decisions/gdp_republic_trade_ships.dds"
+	icon = { reference = "gfx/interface/icons/situation_types/guelph_ghibelline.dds" }
+	start_phase = ck_st_open_lanes
+
+	sub_regions = {
+		ck_trade_inner = {
+			icon = "gfx/interface/icons/situation_types/guelph_ghibelline.dds"
+			map_color = { 0.9 0.7 0.2 }
+			geographical_regions = { ck_trade_inner_worlds }
+		}
+		ck_trade_outer = {
+			icon = "gfx/interface/icons/situation_types/guelph_ghibelline.dds"
+			map_color = { 0.3 0.6 0.9 }
+			geographical_regions = { ck_trade_outer_worlds }
+		}
+	}
+
+	participant_groups = {
+		ck_st_hub_holders = {
+			icon = "gfx/interface/icons/situations/guelph_ghibelline/situation_modifier_repose.dds"
+			map_color = { 0.95 0.8 0.2 }
+			require_capital_in_sub_region = yes
+			is_character_valid = {
+				is_independent_ruler = yes
+				any_realm_county = { ck_st_hub_county_trigger = yes }
+			}
+		}
+		ck_st_traders = {
+			icon = "gfx/interface/icons/situations/situation_modifier_fertility.dds"
+			map_color = { 0.45 0.55 0.65 }
+			require_capital_in_sub_region = yes
+			is_character_valid = { is_independent_ruler = yes }
+		}
+	}
+
+	on_yearly = {
+		ck_solar_trade_yearly_effect = yes
+	}
+
+	phases = {
+		# Open Lanes (start): ordinary trade along the lanes
+		ck_st_open_lanes = {
+			illustration = "gfx/interface/illustrations/decisions/gdp_republic_trade_ships.dds"
+			icon = "gfx/interface/icons/situations/guelph_ghibelline/situation_modifier_repose.dds"
+			future_phases = {
+				ck_st_trade_boom = {
+					takeover_type = points
+					takeover_points = 100
+					catalysts = {
+						ck_catalyst_st_peace_year = 10
+						ck_catalyst_st_corporate_ascendancy = 10
+					}
+				}
+				ck_st_lane_piracy = {
+					takeover_type = points
+					takeover_points = 100
+					catalysts = {
+						ck_catalyst_st_hub_war = 20
+						ck_catalyst_st_great_power_war = 10
+					}
+				}
+				ck_st_embargo = {
+					takeover_type = points
+					takeover_points = 100
+					catalysts = {
+						ck_catalyst_st_great_power_war = 25
+						ck_catalyst_st_sovereign_ascendancy = 10
+					}
+				}
+			}
+			modifier_sets = {
+				ck_st_open_lanes_effects = {
+					icon = "gfx/interface/icons/situations/guelph_ghibelline/situation_modifier_repose.dds"
+					ck_st_hub_holders = {
+						character_modifier = { trade_capacity_mult = 0.05 }
+					}
+				}
+			}
+		}
+		# Trade Boom: long peace between the hubs; ships run full
+		ck_st_trade_boom = {
+			illustration = "gfx/interface/illustrations/decisions/decision_golden_age.dds"
+			icon = "gfx/interface/icons/situations/situation_modifier_fertility.dds"
+			max_duration = { years = 20 }
+			max_duration_next_phase = highest_points
+			future_phases = {
+				ck_st_open_lanes = {
+					takeover_type = points
+					takeover_points = 100
+					catalysts = {
+						ck_catalyst_st_passing_years = 3
+						ck_catalyst_st_hub_war = 20
+						ck_catalyst_st_great_power_war = 20
+					}
+				}
+			}
+			modifier_sets = {
+				ck_st_trade_boom_effects = {
+					icon = "gfx/interface/icons/situations/situation_modifier_fertility.dds"
+					ck_st_hub_holders = {
+						character_modifier = { trade_capacity_mult = 0.2 trade_competitiveness_mult = 0.1 monthly_income_mult = 0.05 }
+					}
+					ck_st_traders = {
+						character_modifier = { trade_capacity_mult = 0.1 }
+					}
+					all = {
+						county_modifier = { prosperity_growth_factor = 0.1 }
+					}
+				}
+			}
+		}
+		# Lane Piracy: wars between the hubs let raiders and privateers loose on the lanes
+		ck_st_lane_piracy = {
+			illustration = "gfx/interface/illustrations/decisions/decision_war.dds"
+			icon = "gfx/interface/icons/situations/situation_modifier_military.dds"
+			max_duration = { years = 20 }
+			max_duration_next_phase = highest_points
+			future_phases = {
+				ck_st_open_lanes = {
+					takeover_type = points
+					takeover_points = 100
+					catalysts = {
+						ck_catalyst_st_peace_year = 15
+						ck_catalyst_st_passing_years = 2
+					}
+				}
+			}
+			modifier_sets = {
+				ck_st_lane_piracy_effects = {
+					icon = "gfx/interface/icons/situations/situation_modifier_military.dds"
+					ck_st_hub_holders = {
+						character_modifier = { trade_capacity_mult = -0.15 }
+					}
+					ck_st_traders = {
+						character_modifier = { trade_capacity_mult = -0.1 }
+					}
+					all = {
+						county_modifier = { travel_danger = 5 prosperity_growth_factor = -0.05 }
+					}
+				}
+			}
+		}
+		# Embargo: the great powers close their ports to each other
+		ck_st_embargo = {
+			illustration = "gfx/interface/illustrations/decisions/decision_legitimacy.dds"
+			icon = "gfx/interface/icons/situations/situation_modifier_character.dds"
+			max_duration = { years = 20 }
+			max_duration_next_phase = highest_points
+			future_phases = {
+				ck_st_open_lanes = {
+					takeover_type = points
+					takeover_points = 100
+					catalysts = {
+						ck_catalyst_st_peace_year = 10
+						ck_catalyst_st_corporate_ascendancy = 15
+						ck_catalyst_st_passing_years = 2
+					}
+				}
+			}
+			modifier_sets = {
+				ck_st_embargo_effects = {
+					icon = "gfx/interface/icons/situations/situation_modifier_character.dds"
+					ck_st_hub_holders = {
+						character_modifier = { trade_capacity_mult = -0.25 trade_route_length_mult = -0.1 }
+					}
+					ck_st_traders = {
+						character_modifier = { trade_capacity_mult = -0.1 }
+					}
+				}
+			}
+		}
+	}
+}

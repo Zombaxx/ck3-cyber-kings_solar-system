@@ -21,7 +21,7 @@ name_list_ck_venusian = {
 
 name_list_ck_yonagunian = {
 	dynasty_names = { # Cyber Kings: from the dynasties of this culture's characters (2026-11-11)
-		dynn_ck_77802 dynn_ck_77804 dynn_ck_77805 dynn_ck_77806 dynn_ck_77807 dynn_ck_77808 dynn_ck_77810 dynn_ck_77811 dynn_ck_106300 dynn_ck_106370 dynn_ck_106400 dynn_ck_106570 dynn_ck_106630 dynn_ck_106730 dynn_ck_106850 dynn_ck_106870 dynn_ck_106970 dynn_ck_107050 dynn_ck_107140 dynn_ck_107220 dynn_ck_107240 dynn_ck_107320 dynn_ck_107410 dynn_ck_107490 dynn_ck_107600 dynn_ck_107660 dynn_ck_107670 dynn_ck_107690 dynn_ck_107840 dynn_ck_107860 dynn_ck_107900 dynn_ck_108050 dynn_ck_108120 dynn_ck_108350 dynn_ck_108590 dynn_ck_108850 dynn_ck_108890 dynn_ck_109120 dynn_ck_109220 dynn_ck_109280 dynn_ck_109281 dynn_ck_109282 dynn_ck_109283 dynn_ck_109284
+		dynn_ck_106300 dynn_ck_106370 dynn_ck_106400 dynn_ck_106570 dynn_ck_106630 dynn_ck_106730 dynn_ck_106850 dynn_ck_106870 dynn_ck_106970 dynn_ck_107050 dynn_ck_107140 dynn_ck_107220 dynn_ck_107240 dynn_ck_107320 dynn_ck_107410 dynn_ck_107490 dynn_ck_107600 dynn_ck_107660 dynn_ck_107670 dynn_ck_107690 dynn_ck_107840 dynn_ck_107860 dynn_ck_107900 dynn_ck_108050 dynn_ck_108120 dynn_ck_108350 dynn_ck_108590 dynn_ck_108850 dynn_ck_108890 dynn_ck_109120 dynn_ck_109220 dynn_ck_109280 dynn_ck_109281 dynn_ck_109282 dynn_ck_109283 dynn_ck_109284
 	}
 	dynasty_of_location_prefix = "dynnp_of"
 	male_names = {

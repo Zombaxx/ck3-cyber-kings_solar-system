@@ -15,3 +15,19 @@ arab_league = {
 	diplomatic_icon_frame_index = 5
 	confederation_base = house
 }
+# European Confederation (2026-11-17, ck_european_question): founded by decision when Europe is a concert of separate
+# states (_dev/DLC_ADAPTATION.md section 7b). House-based like the others. Members join each other's defensive wars against
+# rulers from outside Europe; a confederation that grows or beats off outside foes moves the situation toward a new Union.
+ck_european_confederation = {
+	diplomatic_icon_frame_index = 5
+	confederation_base = house
+	member_would_join_war = {
+		scope:enemy = { ck_capital_in_europe_trigger = no }
+	}
+	on_member_house_left = {
+		scope:house.house_head ?= {
+			save_scope_as = ck_eu_leaver
+			ck_fire_situation_catalyst_effect = { SITUATION = ck_european_question CATALYST = ck_catalyst_eu_member_left CHARACTER = scope:ck_eu_leaver }
+		}
+	}
+}

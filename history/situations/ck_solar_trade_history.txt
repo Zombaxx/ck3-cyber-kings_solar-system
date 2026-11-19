@@ -1,0 +1,9 @@
+# Cyber Kings (2026-11-18): the Solar Trade Route runs from the 7050 start (_dev/DLC_ADAPTATION.md section 22).
+7050.1.1 = {
+	effect = {
+		start_situation = {
+			type = ck_solar_trade
+			start_phase = ck_st_open_lanes
+		}
+	}
+}

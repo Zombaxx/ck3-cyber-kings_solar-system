@@ -1,0 +1,29 @@
+# Cyber Kings (2026-11-17): triggers for Charter and Crown (ck_corporate_wars). _dev/DLC_ADAPTATION.md section 21.
+ck_cc_corporate_side_trigger = {
+	is_landed = yes
+	OR = {
+		government_has_flag = government_is_republic
+		has_variable = ck_cc_side_corporate
+	}
+	NOT = { has_variable = ck_cc_side_sovereign }
+}
+ck_cc_sovereign_side_trigger = {
+	is_landed = yes
+	ck_cc_corporate_side_trigger = no
+	OR = {
+		has_variable = ck_cc_side_sovereign
+		AND = {
+			highest_held_title_tier >= tier_kingdom
+			NOT = { has_variable = ck_cc_side_undecided }
+		}
+	}
+}
+# a rich city lord who may incorporate
+ck_cc_can_incorporate_trigger = {
+	is_landed = yes
+	highest_held_title_tier <= tier_duchy
+	NOT = { government_has_flag = government_is_republic }
+	NOT = { government_has_flag = government_is_nomadic }
+	NOT = { government_has_flag = government_is_tribal }
+	capital_province ?= { has_holding_type = city_holding }
+}
